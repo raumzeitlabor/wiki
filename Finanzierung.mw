@@ -1,3 +1,4 @@
+= Kosten =
 == Fix-Kosten ==
 
 {| border="1" cellspacing="0" cellpadding="10"
@@ -25,7 +26,10 @@
 |-----
 |}
 
-== Einnahmen ==
+
+= Einnahmen =
+
+== Einnahmen Monatlich==
 
 {| border="1" cellspacing="0" cellpadding="10"
 |-----
@@ -50,4 +54,15 @@
 | ||  ||
 |-----
 | ||  ||
+|}
+
+== Einnahmen Variabel==
+
+{| border="1" cellspacing="0" cellpadding="10"
+|-----
+! Bezeichung || Höhe / Monat || Bemerkung
+|-----
+| Computer Flohmark||  || Vorzugsweise was angeschleppt wurde und wir nicht brauchen
+|-----
+| "Ebay Agentur"||  || Sollte man mal drüber nachdenken
 |}
