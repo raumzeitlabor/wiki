@@ -1,0 +1,43 @@
+Hier wird/ist die Netzwerkstruktur im Raum dokumentiert.
+
+== Uplink ==
+Wir nutzen die Internetverbindung eines unserer Nachbarn mit.
+Die Leitung kommt an der Ecke bei der Eingangstür aus der Decke, man bekommt dort auch von irgendnem Consumer-Router per DHCP eine geNATete IP.
+AFAIK ist es ein 2000er Arcor-DSL-Anschluss.
+
+== Raum-LAN ==
+Der Uplink endet im unteren WRT54GL, der mit Linksys-Firmware läuft und [[Benutzer:Scytale|Scytale]] gehört.
+Dieser verteilt das LAN 10.68.23.0/24 und ist selbst unter der .254 erreichbar.
+Er dient als Default-Gateway, DNS- und DHCP-Server.
+
+DHCP-Adressen werden im Bereich von 100—199 vergeben, Adressen ab 200 sind reserviert für Rechner mit besonderen Aufgaben, alles unterhalb 100 ist reserviert „für Stammgäste“.
+''(Die Stammgäste-IPs können momentan noch nicht beantragt werden, das wird sich mit dem [[#Neuer Router|neuen Router]] ändern.)''
+
+== dn42-LAN ==
+Wir haben dank [[Benutzer:SEC|SEC]] Verbindung zum [http://dn42.net/ dn42].
+Es steht über den oberen WRT, der mit OpenWRT läuft, zur Verfügung.
+Dieser verteilt unser dn42-Subnetz 172.22.36.0/24 und ist selbst unter der .1 erreichbar.
+Er dient als Default-Gateway, DNS- und DHCP-Server.
+
+DHCP-Adressen werden im Bereich von 100—199 vergeben, Adressen ab 200 sind reserviert für Rechner mit besonderen Aufgaben, alles unterhalb 100 ist reserviert „für Stammgäste“.
+''(Die Stammgäste-IPs können momentan noch nicht beantragt werden, das wird sich mit dem [[#Neuer Router|neuen Router]] ändern.)''
+
+Außerdem ist das dn42-LAN an IPv6 angebunden, jeder teilnehmende Rechner ist also potenziell automatisch mit einer weltweit eindeutigen v6-IP erreichbar.
+Unser Subnetz ist 2a01:198:4b5::/64, Tunnelendpunkt (SixXS) und Router ist ebenfalls der WRT.
+
+Uplink des dn42-LANs ist das Raum-LAN, die beiden LANs sind mit ihren (v4-)IPs auch untereinander geroutet, d.h. Rechner mit 10.68.23.0/24 können Rechner mit 172.22.36.0/24 erreichen und umgekehrt.
+Wichtig: Der Rest der dn42-IPs (172.22.0.0/15) wird ''nicht'' zwischen den LANs geroutet.
+Das hat den (kleinen) Nachteil, dass Raum-LAN-Teilnehmer keine fremden dn42-Dienste nutzen können, aber den (großen) Vorteil, dass fremde dn42-User Leute im Raum-LAN nicht 0wnen können.
+
+== WLAN ==
+Beide LANs sind auch in Wellenform erreichbar, das eine mit der SSID „4null4“, das andere mit „dn42“.
+Beide sind WEP-verschlüsselt, der Key steht auf nem Zettel, der in der Nähe der Router (im Eingangsbereich) hängt.
+
+== Welches LAN nutzen? ==
+Du willst IPv6 oder das dn42 verwenden und bist davon überzeugt, dass dein Rechner von den im dn42 durchaus vorhandenen „bösen Jungs“ nicht angegriffen werden kann?
+Dann nimm das dn42-LAN.
+Andernfalls das Raum-LAN.
+
+== Neuer Router ==
+Da insbesondere der dn42-WRT mit drei offenen OpenVPN-Verbindungen und viel zu viel nötiger Software ganz schön am Limit fährt, soll aus einem „richtigen“ Rechner ein Router gebaut werden.
+Es wird daran gearbeitet.
