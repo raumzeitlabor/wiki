@@ -41,3 +41,27 @@ Andernfalls das Raum-LAN.
 == Neuer Router ==
 Da insbesondere der dn42-WRT mit drei offenen OpenVPN-Verbindungen und viel zu viel nötiger Software ganz schön am Limit fährt, soll aus einem „richtigen“ Rechner ein Router gebaut werden.
 Es wird daran gearbeitet.
+
+== Hosts ==
+
+=== Samsung Laserdrucker ===
+ IP: 10.68.23.42
+ 
+ ipp://10.68.23.42:681
+
+=== kartoffelsalat ===
+ IP: 10.68.23.106
+ System: Archlinux
+ Sonstiges: Temperatursensor
+ 
+ User: Zettel an der Seite
+ 
+ Desktoprechner mit xfce4, Netzwerkdrucker ist installiert
+
+=== nudelsalat ===
+ IP: 10.68.23.114
+ System: Debian
+ 
+ User: siehe kartoffelsalat
+ 
+ 19" Pizzaschachtel von DaFo, zukuenftiger Router
