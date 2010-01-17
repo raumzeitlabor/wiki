@@ -1,48 +1,42 @@
 Hier wird/ist die Netzwerkstruktur im Raum dokumentiert.
 
+[[Image:Rzl-netz.png]]
+
+== Ansprechpartner ==
+
+Bei jeglichen Fragen zum Netz bitte [[Benutzer:Scytale|Scytale]] oder [[Benutzer:SEC|sECuRE]] ansprechen, auf keinen Fall selbst Änderungen an Router, Verkabelung oder IP-Adresszuteilung vornehmen!
+
 == Uplink ==
 Wir nutzen die Internetverbindung eines unserer Nachbarn mit.
 Die Leitung kommt an der Ecke bei der Eingangstür aus der Decke, man bekommt dort auch von irgendnem Consumer-Router per DHCP eine geNATete IP.
 AFAIK ist es ein 2000er Arcor-DSL-Anschluss.
 
-== Raum-LAN ==
-Der Uplink endet im unteren WRT54GL, der mit Linksys-Firmware läuft und [[Benutzer:Scytale|Scytale]] gehört.
-Dieser verteilt das LAN 10.68.23.0/24 und ist selbst unter der .254 erreichbar.
-Er dient als Default-Gateway, DNS- und DHCP-Server.
+== Unterschied zwischen den WLANs ==
+Es gibt zwei WRT54Gs, einer mit der ESSID „4null4-softcore” und einer mit der ESSID „4null4-hardcore”. Der Schlüssel (WEP) findet sich auf dem Zettel in Augenhöhe im Eingangsbereich.
 
-DHCP-Adressen werden im Bereich von 100—199 vergeben, Adressen ab 200 sind reserviert für Rechner mit besonderen Aufgaben, alles unterhalb 100 ist reserviert „für Stammgäste“.
-''(Die Stammgäste-IPs können momentan noch nicht beantragt werden, das wird sich mit dem [[#Neuer Router|neuen Router]] ändern.)''
+In das Netz „4null4-softcore” sind keine eingehenden Verbindungen möglich (aus dem IPv6-Internet und dem dn42.net).
 
-== dn42-LAN ==
-Wir haben dank [[Benutzer:SEC|sECuRE]] Verbindung zum [http://dn42.net/ dn42].
-Es steht über den oberen WRT, der mit OpenWRT läuft, zur Verfügung.
-Dieser verteilt unser dn42-Subnetz 172.22.36.0/24 und ist selbst unter der .1 erreichbar.
-Er dient als Default-Gateway, DNS- und DHCP-Server.
+Im Netz „4null4-hardcore” wird nicht gefiltert (dein Computer ist im dn42.net und via IPv6 öffentlich (!) erreichbar).
 
-DHCP-Adressen werden im Bereich von 100—199 vergeben, Adressen ab 200 sind reserviert für Rechner mit besonderen Aufgaben, alles unterhalb 100 ist reserviert „für Stammgäste“.
-''(Die Stammgäste-IPs können momentan noch nicht beantragt werden, das wird sich mit dem [[#Neuer Router|neuen Router]] ändern.)''
+== dn42 ==
 
-Außerdem ist das dn42-LAN an IPv6 angebunden, jeder teilnehmende Rechner ist also potenziell automatisch mit einer weltweit eindeutigen v6-IP erreichbar.
-Unser Subnetz ist 2a01:198:4b5::/64, Tunnelendpunkt (SixXS) und Router ist ebenfalls der WRT.
+Das dn42 ist ein VPN, welches Chaostreffs, Hackerspaces und sonstige Chaoten vernetzt. Siehe [http://dn42.net dn42.net]
 
-Uplink des dn42-LANs ist das Raum-LAN, die beiden LANs sind mit ihren (v4-)IPs auch untereinander geroutet, d.h. Rechner mit 10.68.23.0/24 können Rechner mit 172.22.36.0/24 erreichen und umgekehrt.
-Wichtig: Der Rest der dn42-IPs (172.22.0.0/15) wird ''nicht'' zwischen den LANs geroutet.
-Das hat den (kleinen) Nachteil, dass Raum-LAN-Teilnehmer keine fremden dn42-Dienste nutzen können, aber den (großen) Vorteil, dass fremde dn42-User Leute im Raum-LAN nicht 0wnen können.
-
-== WLAN ==
-Beide LANs sind auch in Wellenform erreichbar, das eine mit der SSID „4null4“, das andere mit „dn42“.
-Beide sind WEP-verschlüsselt, der Key steht auf nem Zettel, der in der Nähe der Router (im Eingangsbereich) hängt.
-
-== Welches LAN nutzen? ==
-Du willst IPv6 oder das dn42 verwenden und bist davon überzeugt, dass dein Rechner von den im dn42 durchaus vorhandenen „bösen Jungs“ nicht angegriffen werden kann?
-Dann nimm das dn42-LAN.
-Andernfalls das Raum-LAN.
+Wir nehmen als AS64636 teil mit 5 verschiedenen Peerings (zu jchome, ichdasich, welterde, mittagessen, nobody).
 
 == Hosts ==
 
+=== Netzwerkinfrastruktur ===
+* IP-Adresse bitte via DHCP beziehen, feste IP-Adressen bitte bei Scytale oder sECuRE anfragen.
+* Subnetzmaske: 255.255.255.128 (!)
+* Gateway: 172.22.36.1
+* DNS-Server: 172.22.36.1
+* NTP-Server: 172.22.36.1
+* DHCP-Server: 172.22.36.1
+
 === 172.22.36.0/25 ===
 
-{| border="1" cellspacing="0" cellpadding="0"
+{| border="1" cellspacing="0" cellpadding="0" width="100%"
 |-----
 ! IP-Adresse || Hostname || Beschreibung
 |-----
@@ -103,7 +97,7 @@ Andernfalls das Raum-LAN.
 
 === 172.22.36.128/25 ===
 
-{| border="1" cellspacing="0" cellpadding="0"
+{| border="1" cellspacing="0" cellpadding="0" width="100%"
 |-----
 ! IP-Adresse || Hostname || Beschreibung
 |-----
