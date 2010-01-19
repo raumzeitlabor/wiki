@@ -1,12 +1,15 @@
 Eine erste grobe Skizze der geplanten Küche:
 
-             <---- 300cm Arbeitsplatte ---->
-       <------------------ 420cm ---------------->
- ^     +-----x-----------------------------------+ ^
- |     |     x     |     |   Spül-   |     |     | |
- |     |     x     |  S  |   becken  |  W  |  H  | 60cm
- |     |-----x-----------------------------------+ v
+       <---- 300cm Arbeitsplatte ---->
+       <--------------- 360cm ------------->
+       +-----------------------------------+ ^
+       |     |     |   Spül-   |     |     | |
+       |     |  S  |   becken  |  W  |  H  | 60cm
+ ^     |xxxxxx-----------------------------+ v
  |     |     | ^
+ |     |     | |
+ |     |-----| |
+ |     |     | |
  |     |     | |
  |     |-----| |
  300cm | B B | |
@@ -14,7 +17,7 @@ Eine erste grobe Skizze der geplanten Küche:
  |     |-----| |
  |     |     | |
  |     |     | |
- |     |-----| 300cm
+ |     |-----| 420cm
  |     |     | |
  |     |  K  | |
  v     |-----| |
@@ -22,6 +25,7 @@ Eine erste grobe Skizze der geplanten Küche:
        |  G  | |
        +-----+ v
        <-60cm>
+
 
 ===Legende===
 #'''B'''ackofen mit Kochfeld
@@ -36,4 +40,4 @@ Eine erste grobe Skizze der geplanten Küche:
 *Breite der Küchenmodule: 60cm
 *Abschluss jeweils mit Hochschrank/Gefrierkombi
 
-Eine Front ist 4.20m lang und die Andere 3.60cm. Je nachdem wie die Arbeitsplatten zueinander positioniert werden ggf. umgekehrt.
+Eine Front mit der noch aufzubauenden Stellwand ist 4.20m und die Andere 3.60cm lang.
