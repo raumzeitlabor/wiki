@@ -162,7 +162,7 @@ Wir nehmen als AS64636 teil mit 5 verschiedenen Peerings (zu jchome, ichdasich, 
  ipp://10.68.23.42:681
 
 === kartoffelsalat ===
- IP: 10.68.23.106 ('''die IP-Adresse muss noch auf 172.22.36.112 geändert werden''')
+ IP: 172.22.36.112
  System: Archlinux
  Sonstiges: Temperatursensor
  
