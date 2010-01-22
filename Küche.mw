@@ -1,33 +1,67 @@
 Eine erste grobe Skizze der geplanten Küche:
+== Variante A ==
+Mit 40cm-Unterschrank und voller Ausnutzung der Wandfläche.
 
-       <---- 300cm Arbeitsplatte ---->
-       <--------------- 360cm ------------->
-       +-----------------------------x-----+ ^
-       |     |     |   Spül-   |     x     | |
-       |     |  S  |   becken  |  W  x  H  | 60cm
- ^     xxxxxxx-----------------------x-----+ v
- |     |     | ^
- |     |     | |
- |     |-----| |
- |     | B B | |
- 240cm | B B | |
- Platte|-----| |
- |     |     | |
- |     |     | |
- |     |-----| |
- |     |     | |
- |     |  K  | |
- v     xxxxxxx 420cm
-       |     | |
-       |  G  | |
-       |-----| |
-       |     | |
-       |  H  | |
-       +-----+ v
-       <-60cm>
+               <------298cm Arbeitsplatte----->
+         <------------------418cm------------------->
+ ^ ^     +-----x------------------------------x-----+ ^
+ | |     |     x18|     |   Spül-   |     |40 x     | |
+ | |     |     xcm|  S  |   becken  |  W  |cm x  H  | 60cm
+ | |     |-----x------------------------------x-----+ v
+ | |     |     | ^
+ | |     |     | |
+ | |     |-----| |
+ | |     | B B | |
+ | 300cm | B B | |
+ | Platte|-----| |
+ | |     |     | |
+ | |     |     | |
+ 420cm   |-----| |
+ | |     |     | |
+ | |     |  K  | |
+ | v     xxxxxxx 420cm
+ |       |     | |
+ |       |  G  | |
+ |       |-----| |
+ |       |     | |
+ |       |  H  | |
+ v       +-----+ v
+         <-60cm>
 
+== Variante B ==
+Ohne 40cm-Unterschrank und Platz bei '''$2''' für Lichtschalter, Schlüsselkasten, etc.
 
-===Legende===
+               <-----?cm Arbeitsplatte---->
+         <-------------------418cm-------------------->
+ ^ ^     +-----x$1------------------------x-----+$2$2$2^
+ | |     |     x$1|     |   Spül-   |     x     |      |
+ | |     |     x$1|  S  |   becken  |  W  x  H  |      60cm
+ | |     |-----x$1------------------------x-----+      v
+ | |     |     | ^
+ | |     |     | |
+ | |     |-----| |
+ | |     | B B | |
+ | 300cm | B B | |
+ | Platte|-----| |
+ | |     |     | |
+ | |     |     | |
+ 420cm   |-----| |
+ | |     |     | |
+ | |     |  K  | |
+ | v     xxxxxxx 420cm
+ |       |     | |
+ |       |  G  | |
+ |       |-----| |
+ |       |     | |
+ |       |  H  | |
+ v       +-----+ v
+         <-60cm>
+
+*15cm < '''$1''' < 58cm
+*0cm < '''$2'''< 43cm
+*255cm < '''?''' < 298cm
+
+==Legende==
 #'''B'''ackofen mit Kochfeld
 #'''G'''efrierkombi (hoch)
 #'''H'''ochschrank
@@ -35,12 +69,12 @@ Eine erste grobe Skizze der geplanten Küche:
 #'''S'''pülmaschine
 #'''W'''aschmaschine
  
-===Details===
+==Details==
 *Tiefe der Arbeitsplatten: 60cm
 *Breite der Küchenmodule: 60cm
 *Abschluss jeweils mit Hochschrank/Gefrierkombi
 
-Eine Front mit der noch aufzubauenden Stellwand ist 4.20m und die Andere 3.60cm lang.
+Eine Front mit der noch aufzubauenden Stellwand ist 4.20m und die Andere max. 4.18cm lang.
 
 == Siehe auch ==
 *[[Einrichtung]]
