@@ -107,7 +107,7 @@ Wir nehmen als AS64636 teil mit 5 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.130 || wrtf || Linksys WRT54G (filtered, „4null4-softcore”)
 |-----
-| 172.22.36.131 || ''reserved'' || Reserviert für Infrastruktur
+| 172.22.36.131 || sprech || Gigaset C475IP VoIP-Telefon
 |-----
 | 172.22.36.132 || ''reserved'' || Reserviert für Infrastruktur
 |-----
