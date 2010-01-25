@@ -1,13 +1,12 @@
-Eine erste grobe Skizze der geplanten Küche:
-== Variante A ==
-Mit 40cm-Unterschrank und voller Ausnutzung der Wandfläche.
+Eine Skizze der geplanten Küche mit 40cm Platz bei '''L''' für Lichtschalter, Schlüsselkasten, etc.
 
-               <------298cm Arbeitsplatte----->
+
+               <----258cm Arbeitsplatte--->
          <------------------418cm------------------->
- ^ ^     +-----x------------------------------x-----+ ^
- | |     |     x18|     |   Spül-   |     |40 x     | |
- | |     |     xcm|  S  |   becken  |  W  |cm x  H  | 60cm
- | |     |-----x------------------------------x-----+ v
+ ^ ^     +-----x--------------------------x-----+LLLL ^
+ | |     |     x18|     |   Spül-   |     x     |     |
+ | |     |     xcm|  S  |   becken  |  W  x  H  |     60cm
+ | |     |-----x--------------------------x-----+     v
  | |     |     | ^
  | |     |     | |
  | |     |-----| |
@@ -27,39 +26,6 @@ Mit 40cm-Unterschrank und voller Ausnutzung der Wandfläche.
  |       |  H  | |
  v       +-----+ v
          <-60cm>
-
-== Variante B ==
-Ohne 40cm-Unterschrank und Platz bei '''$2''' für Lichtschalter, Schlüsselkasten, etc.
-
-               <-----?cm Arbeitsplatte---->
-         <-------------------418cm-------------------->
- ^ ^     +-----x$1------------------------x-----+$2$2$2^
- | |     |     x$1|     |   Spül-   |     x     |      |
- | |     |     x$1|  S  |   becken  |  W  x  H  |      60cm
- | |     |-----x$1------------------------x-----+      v
- | |     |     | ^
- | |     |     | |
- | |     |-----| |
- | |     | B B | |
- | 300cm | B B | |
- | Platte|-----| |
- | |     |     | |
- | |     |     | |
- 420cm   |-----| |
- | |     |     | |
- | |     |  K  | |
- | v     xxxxxxx 420cm
- |       |     | |
- |       |  G  | |
- |       |-----| |
- |       |     | |
- |       |  H  | |
- v       +-----+ v
-         <-60cm>
-
-*15cm < '''$1''' < 58cm
-*0cm < '''$2'''< 43cm
-*255cm < '''?''' < 298cm
 
 ==Legende==
 #'''B'''ackofen mit Kochfeld
