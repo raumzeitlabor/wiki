@@ -1,0 +1,1314 @@
+[[Media:e-plan.pdf]]
+
+[[Media:elektro.pdf]]
+
+
+
+<H1><EM>Materialliste</EM></H1>
+<TABLE FRAME=VOID CELLSPACING=0 COLS=7 RULES=NONE BORDER=0>
+		<TR>
+			<TD COLSPAN=3 WIDTH=168 HEIGHT=17 ALIGN=LEFT><B>Materialliste</B></TD>
+			<TD WIDTH=268 ALIGN=LEFT><B><BR></B></TD>
+			<TD WIDTH=170 ALIGN=LEFT><B><BR></B></TD>
+			<TD WIDTH=96 ALIGN=LEFT><B><BR></B></TD>
+			<TD WIDTH=325 ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT><B><BR></B></TD>
+			<TD ALIGN=RIGHT><B><BR></B></TD>
+			<TD ALIGN=LEFT><B><BR></B></TD>
+			<TD ALIGN=LEFT><B><BR></B></TD>
+			<TD ALIGN=LEFT><B><BR></B></TD>
+			<TD ALIGN=LEFT><B><BR></B></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT><B>Nr.</B></TD>
+			<TD ALIGN=RIGHT><B>St&uuml;ck</B></TD>
+			<TD ALIGN=LEFT><B>Hersteller</B></TD>
+			<TD ALIGN=LEFT><B>Bezeichnung</B></TD>
+			<TD ALIGN=LEFT><B>Bezeichnung2</B></TD>
+			<TD ALIGN=LEFT><B>Nummer</B></TD>
+			<TD ALIGN=LEFT><B>Bemerkung</B></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="1" SDNUM="1031;">1</TD>
+			<TD ALIGN=RIGHT SDVAL="1" SDNUM="1031;">1</TD>
+			<TD ALIGN=LEFT>M&ouml;ller</TD>
+			<TD ALIGN=LEFT>PXL-C32/3</TD>
+			<TD ALIGN=LEFT>Sicherungsautomat 3*32A</TD>
+			<TD ALIGN=LEFT SDVAL="236429" SDNUM="1031;">236429</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="2" SDNUM="1031;">2</TD>
+			<TD ALIGN=RIGHT SDVAL="1" SDNUM="1031;">1</TD>
+			<TD ALIGN=LEFT>M&ouml;ller</TD>
+			<TD ALIGN=LEFT>PXL-B16/3</TD>
+			<TD ALIGN=LEFT>Sicherungsautomat 3*16A</TD>
+			<TD ALIGN=LEFT SDVAL="236388" SDNUM="1031;">236388</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="3" SDNUM="1031;">3</TD>
+			<TD ALIGN=RIGHT SDVAL="6" SDNUM="1031;">6</TD>
+			<TD ALIGN=LEFT>M&ouml;ller</TD>
+			<TD ALIGN=LEFT>PXL-B16/1</TD>
+			<TD ALIGN=LEFT>Sicherungsautomat 1*16A</TD>
+			<TD ALIGN=LEFT SDVAL="236033" SDNUM="1031;">236033</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="4" SDNUM="1031;">4</TD>
+			<TD ALIGN=RIGHT SDVAL="1" SDNUM="1031;">1</TD>
+			<TD ALIGN=LEFT>M&ouml;ller</TD>
+			<TD ALIGN=LEFT>EVG-3PHAS/12MODUL</TD>
+			<TD ALIGN=LEFT>12 fach 3 Phasen-Schiene</TD>
+			<TD ALIGN=LEFT SDVAL="215639" SDNUM="1031;">215639</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=RIGHT SDVAL="5" SDNUM="1031;">5</TD>
+			<TD ALIGN=RIGHT SDVAL="1" SDNUM="1031;">1</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>40A 30 mA 3-Phasen FI</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="6" SDNUM="1031;">6</TD>
+			<TD ALIGN=RIGHT SDVAL="1" SDNUM="1031;">1</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>40A 30 mA 1-Phasen FI</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>eff. 16A</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="7" SDNUM="1031;">7</TD>
+			<TD ALIGN=RIGHT SDVAL="1" SDNUM="1031;">1</TD>
+			<TD ALIGN=LEFT>Hager</TD>
+			<TD ALIGN=LEFT>AP Kleinverteiler Volta 2 Reihig</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>VA24CN</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="8" SDNUM="1031;">8</TD>
+			<TD ALIGN=RIGHT SDVAL="1" SDNUM="1031;">1</TD>
+			<TD ALIGN=LEFT>Hager</TD>
+			<TD ALIGN=LEFT>T&uuml;r f&uuml;r APV 2 Reihig</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>VA24T</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=RIGHT SDVAL="9" SDNUM="1031;">9</TD>
+			<TD ALIGN=RIGHT SDVAL="6" SDNUM="1031;">6</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>10qm Br&uuml;cken schwarz</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>f&uuml;r Verteiler</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=RIGHT SDVAL="10" SDNUM="1031;">10</TD>
+			<TD ALIGN=RIGHT SDVAL="2" SDNUM="1031;">2</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>10qm Br&uuml;cken blau</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>f&uuml;r Verteiler</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=RIGHT SDVAL="11" SDNUM="1031;">11</TD>
+			<TD ALIGN=RIGHT SDVAL="1" SDNUM="1031;">1</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>10qm Br&uuml;cken gr&uuml;n-gelb</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>f&uuml;r Verteiler</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="12" SDNUM="1031;">12</TD>
+			<TD ALIGN=RIGHT SDVAL="1" SDNUM="1031;">1</TD>
+			<TD ALIGN=LEFT>M&ouml;ller</TD>
+			<TD ALIGN=LEFT>IS-16/1</TD>
+			<TD ALIGN=LEFT>Hauptschalter</TD>
+			<TD ALIGN=LEFT SDVAL="276254" SDNUM="1031;">276254</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="13" SDNUM="1031;">13</TD>
+			<TD ALIGN=RIGHT>6m</TD>
+			<TD ALIGN=LEFT>Tehalit</TD>
+			<TD ALIGN=LEFT>Kanal LF 90 110</TD>
+			<TD ALIGN=LEFT>RAL 9010</TD>
+			<TD ALIGN=LEFT>LF601109010</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=RIGHT SDVAL="14" SDNUM="1031;">14</TD>
+			<TD ALIGN=RIGHT>100m</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>H05 / H07 V-U 1*1,5 schwarz </TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="15" SDNUM="1031;">15</TD>
+			<TD ALIGN=RIGHT SDVAL="26" SDNUM="1031;">26</TD>
+			<TD ALIGN=LEFT>Tehalit</TD>
+			<TD ALIGN=LEFT>Ger&auml;teeinbaudose H55,BR/BRN,schwarz</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>L5419SCHW</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=RIGHT SDVAL="16" SDNUM="1031;">16</TD>
+			<TD ALIGN=RIGHT SDVAL="38" SDNUM="1031;">38</TD>
+			<TD ALIGN=LEFT>Siemens</TD>
+			<TD ALIGN=LEFT>Steckdose i-System</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>5UB1 511</TD>
+			<TD ALIGN=LEFT>64-26=38 (bereits bekommen)</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=RIGHT SDVAL="17" SDNUM="1031;">17</TD>
+			<TD ALIGN=RIGHT SDVAL="3" SDNUM="1031;">3</TD>
+			<TD ALIGN=LEFT>Siemens</TD>
+			<TD ALIGN=LEFT>Wechselschalter i-System</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=RIGHT SDVAL="18" SDNUM="1031;">18</TD>
+			<TD ALIGN=RIGHT SDVAL="2" SDNUM="1031;">2</TD>
+			<TD ALIGN=LEFT>Siemens</TD>
+			<TD ALIGN=LEFT>Doppel-Wechselschalter i-System</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="19" SDNUM="1031;">19</TD>
+			<TD ALIGN=RIGHT SDVAL="12" SDNUM="1031;">12</TD>
+			<TD ALIGN=LEFT>Siemens</TD>
+			<TD ALIGN=LEFT>1 fach Rahmen DELTA line</TD>
+			<TD ALIGN=LEFT>titanwei&szlig;</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="20" SDNUM="1031;">20</TD>
+			<TD ALIGN=RIGHT SDVAL="12" SDNUM="1031;">12</TD>
+			<TD ALIGN=LEFT>Siemens</TD>
+			<TD ALIGN=LEFT>2 fach Rahmen DELTA line</TD>
+			<TD ALIGN=LEFT>titanwei&szlig;</TD>
+			<TD ALIGN=LEFT>5TG2 522-0</TD>
+			<TD ALIGN=LEFT>22-10=12 (bereits bekommen)</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="21" SDNUM="1031;">21</TD>
+			<TD ALIGN=RIGHT SDVAL="5" SDNUM="1031;">5</TD>
+			<TD ALIGN=LEFT>Siemens</TD>
+			<TD ALIGN=LEFT>3 fach Rahmen DELTA line</TD>
+			<TD ALIGN=LEFT>titanwei&szlig;</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="22" SDNUM="1031;">22</TD>
+			<TD ALIGN=RIGHT SDVAL="3" SDNUM="1031;">3</TD>
+			<TD ALIGN=LEFT>Siemens</TD>
+			<TD ALIGN=LEFT>Wippe DELTA line</TD>
+			<TD ALIGN=LEFT>titanwei&szlig;</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="23" SDNUM="1031;">23</TD>
+			<TD ALIGN=RIGHT SDVAL="2" SDNUM="1031;">2</TD>
+			<TD ALIGN=LEFT>Siemens</TD>
+			<TD ALIGN=LEFT>Doppel-Wippe DELTA line</TD>
+			<TD ALIGN=LEFT>titanwei&szlig;</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=33 ALIGN=RIGHT VALIGN=TOP SDVAL="24" SDNUM="1031;">24</TD>
+			<TD ALIGN=RIGHT VALIGN=TOP SDVAL="2" SDNUM="1031;">2</TD>
+			<TD ALIGN=LEFT VALIGN=TOP>Siemens</TD>
+			<TD ALIGN=LEFT>UAE/Doppel RJ45 Deckel f&uuml;r Rutenbeck BTR Netzwerkdose f&uuml;r DELTA line</TD>
+			<TD ALIGN=LEFT>titanwei&szlig;</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=33 ALIGN=RIGHT VALIGN=TOP SDVAL="25" SDNUM="1031;">25</TD>
+			<TD ALIGN=RIGHT VALIGN=TOP SDVAL="2" SDNUM="1031;">2</TD>
+			<TD ALIGN=LEFT VALIGN=TOP>Siemens</TD>
+			<TD ALIGN=LEFT>UAE/Doppel RJ45 Deckel f&uuml;r Rutenbeck BTR Netzwerkdose f&uuml;r DELTA profil</TD>
+			<TD ALIGN=LEFT>anthrazit</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="26" SDNUM="1031;">26</TD>
+			<TD ALIGN=RIGHT SDVAL="1" SDNUM="1031;">1</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>Herdanschlu&szlig;dose UP</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="27" SDNUM="1031;">27</TD>
+			<TD ALIGN=RIGHT SDVAL="25" SDNUM="1031;">25</TD>
+			<TD ALIGN=LEFT>(z.b. Kaiser)</TD>
+			<TD ALIGN=LEFT>Ger&auml;te-Hohlwanddosen 68 / 47</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>9063/01</TD>
+			<TD ALIGN=LEFT>eff 17st&uuml;ck / (25 bereits selbst gekauft)</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=RIGHT SDVAL="28" SDNUM="1031;">28</TD>
+			<TD ALIGN=RIGHT SDVAL="1" SDNUM="1031;">1</TD>
+			<TD ALIGN=LEFT>(z.b. Kaiser)</TD>
+			<TD ALIGN=LEFT>Verbindungskasten Hohlwand &gt;45 Adern</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><B>keine Angabe bei Kaiser zu Aderzahl zu finden</B></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=RIGHT SDVAL="29" SDNUM="1031;">29</TD>
+			<TD ALIGN=RIGHT>0)m</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>Leerrohr M25</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><B>Besorgen wir selbst</B></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=RIGHT SDVAL="30" SDNUM="1031;">30</TD>
+			<TD ALIGN=RIGHT SDVAL="1" SDNUM="1031;">1</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>Wandsteckdose CEE 32A 5p AP</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>Innenraum</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=RIGHT SDVAL="31" SDNUM="1031;">31</TD>
+			<TD ALIGN=RIGHT>2m</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>NYM-J 5*4</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="32" SDNUM="1031;">32</TD>
+			<TD ALIGN=RIGHT>0m</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>NYM-J 3*1,5</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>100m Mathias</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=RIGHT SDVAL="33" SDNUM="1031;">33</TD>
+			<TD ALIGN=RIGHT>0m</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>NYM-J 5*1,5</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>100m bekommen + 40m Mathias</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=RIGHT SDVAL="34" SDNUM="1031;">34</TD>
+			<TD ALIGN=RIGHT>50m</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>NYM-J 3*2,5</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=RIGHT SDVAL="35" SDNUM="1031;">35</TD>
+			<TD ALIGN=RIGHT>100m</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>NYM-J 5*2,5</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+	
+<!-- ************************************************************************** -->
+
+<HR>
+<H1><EM>UV1 &Uuml;bersicht</EM></H1>
+<TABLE FRAME=VOID CELLSPACING=0 COLS=25 RULES=NONE BORDER=0>
+	
+	
+		<TR>
+			<TD COLSPAN=4 WIDTH=160 HEIGHT=17 ALIGN=LEFT><B>UV1 &Uuml;bersicht</B></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=CENTER SDVAL="1" SDNUM="1031;"><B>1</B></TD>
+			<TD ALIGN=CENTER SDVAL="2" SDNUM="1031;"><B>2</B></TD>
+			<TD ALIGN=CENTER SDVAL="3" SDNUM="1031;"><B>3</B></TD>
+			<TD ALIGN=CENTER SDVAL="4" SDNUM="1031;"><B>4</B></TD>
+			<TD ALIGN=CENTER SDVAL="5" SDNUM="1031;"><B>5</B></TD>
+			<TD ALIGN=CENTER SDVAL="6" SDNUM="1031;"><B>6</B></TD>
+			<TD ALIGN=CENTER SDVAL="7" SDNUM="1031;"><B>7</B></TD>
+			<TD ALIGN=CENTER SDVAL="8" SDNUM="1031;"><B>8</B></TD>
+			<TD ALIGN=CENTER SDVAL="9" SDNUM="1031;"><B>9</B></TD>
+			<TD ALIGN=CENTER SDVAL="10" SDNUM="1031;"><B>10</B></TD>
+			<TD ALIGN=CENTER SDVAL="11" SDNUM="1031;"><B>11</B></TD>
+			<TD ALIGN=CENTER SDVAL="12" SDNUM="1031;"><B>12</B></TD>
+			<TD ALIGN=CENTER><B><BR></B></TD>
+			<TD ALIGN=CENTER SDVAL="37" SDNUM="1031;"><B>37</B></TD>
+			<TD ALIGN=CENTER SDVAL="38" SDNUM="1031;"><B>38</B></TD>
+			<TD ALIGN=CENTER SDVAL="39" SDNUM="1031;"><B>39</B></TD>
+			<TD ALIGN=CENTER SDVAL="40" SDNUM="1031;"><B>40</B></TD>
+			<TD ALIGN=CENTER SDVAL="41" SDNUM="1031;"><B>41</B></TD>
+			<TD ALIGN=CENTER SDVAL="42" SDNUM="1031;"><B>42</B></TD>
+			<TD ALIGN=CENTER SDVAL="43" SDNUM="1031;"><B>43</B></TD>
+			<TD ALIGN=CENTER SDVAL="44" SDNUM="1031;"><B>44</B></TD>
+			<TD ALIGN=CENTER SDVAL="45" SDNUM="1031;"><B>45</B></TD>
+			<TD ALIGN=CENTER SDVAL="46" SDNUM="1031;"><B>46</B></TD>
+			<TD ALIGN=CENTER SDVAL="47" SDNUM="1031;"><B>47</B></TD>
+			<TD ALIGN=CENTER SDVAL="48" SDNUM="1031;"><B>48</B></TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" COLSPAN=3 HEIGHT=116 ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F01</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" COLSPAN=3 ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F02</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F03</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F04</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F05</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F06</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F07</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F08 Frei</FONT></B></TD>
+			<TD ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F09</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F10</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F11</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" COLSPAN=3 ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F12</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F13</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F14</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F15</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F16</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F17</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F18</FONT></B></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=38 ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=CENTER SDVAL="13" SDNUM="1031;"><B>13</B></TD>
+			<TD ALIGN=CENTER SDVAL="14" SDNUM="1031;"><B>14</B></TD>
+			<TD ALIGN=CENTER SDVAL="15" SDNUM="1031;"><B>15</B></TD>
+			<TD ALIGN=CENTER SDVAL="16" SDNUM="1031;"><B>16</B></TD>
+			<TD ALIGN=CENTER SDVAL="17" SDNUM="1031;"><B>17</B></TD>
+			<TD ALIGN=CENTER SDVAL="18" SDNUM="1031;"><B>18</B></TD>
+			<TD ALIGN=CENTER SDVAL="19" SDNUM="1031;"><B>19</B></TD>
+			<TD ALIGN=CENTER SDVAL="20" SDNUM="1031;"><B>20</B></TD>
+			<TD ALIGN=CENTER SDVAL="21" SDNUM="1031;"><B>21</B></TD>
+			<TD ALIGN=CENTER SDVAL="22" SDNUM="1031;"><B>22</B></TD>
+			<TD ALIGN=CENTER SDVAL="23" SDNUM="1031;"><B>23</B></TD>
+			<TD ALIGN=CENTER SDVAL="24" SDNUM="1031;"><B>24</B></TD>
+			<TD ALIGN=CENTER><B><BR></B></TD>
+			<TD ALIGN=CENTER SDVAL="49" SDNUM="1031;"><B>49</B></TD>
+			<TD ALIGN=CENTER SDVAL="50" SDNUM="1031;"><B>50</B></TD>
+			<TD ALIGN=CENTER SDVAL="51" SDNUM="1031;"><B>51</B></TD>
+			<TD ALIGN=CENTER SDVAL="52" SDNUM="1031;"><B>52</B></TD>
+			<TD ALIGN=CENTER SDVAL="53" SDNUM="1031;"><B>53</B></TD>
+			<TD ALIGN=CENTER SDVAL="54" SDNUM="1031;"><B>54</B></TD>
+			<TD ALIGN=CENTER SDVAL="55" SDNUM="1031;"><B>55</B></TD>
+			<TD ALIGN=CENTER SDVAL="56" SDNUM="1031;"><B>56</B></TD>
+			<TD ALIGN=CENTER SDVAL="57" SDNUM="1031;"><B>57</B></TD>
+			<TD ALIGN=CENTER SDVAL="58" SDNUM="1031;"><B>58</B></TD>
+			<TD ALIGN=CENTER SDVAL="59" SDNUM="1031;"><B>59</B></TD>
+			<TD ALIGN=CENTER SDVAL="60" SDNUM="1031;"><B>60</B></TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" COLSPAN=4 HEIGHT=116 ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>FI</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>S01</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" COLSPAN=7 ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>Leer</FONT></B></TD>
+			<TD ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F19</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F20</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F21</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F22</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F23</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F24</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F25</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F26</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F27</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F28 Frei</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F29 Frei</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>F30 Frei</FONT></B></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=38 ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=CENTER SDVAL="25" SDNUM="1031;"><B>25</B></TD>
+			<TD ALIGN=CENTER SDVAL="26" SDNUM="1031;"><B>26</B></TD>
+			<TD ALIGN=CENTER SDVAL="27" SDNUM="1031;"><B>27</B></TD>
+			<TD ALIGN=CENTER SDVAL="28" SDNUM="1031;"><B>28</B></TD>
+			<TD ALIGN=CENTER SDVAL="29" SDNUM="1031;"><B>29</B></TD>
+			<TD ALIGN=CENTER SDVAL="30" SDNUM="1031;"><B>30</B></TD>
+			<TD ALIGN=CENTER SDVAL="31" SDNUM="1031;"><B>31</B></TD>
+			<TD ALIGN=CENTER SDVAL="32" SDNUM="1031;"><B>32</B></TD>
+			<TD ALIGN=CENTER SDVAL="33" SDNUM="1031;"><B>33</B></TD>
+			<TD ALIGN=CENTER SDVAL="34" SDNUM="1031;"><B>34</B></TD>
+			<TD ALIGN=CENTER SDVAL="35" SDNUM="1031;"><B>35</B></TD>
+			<TD ALIGN=CENTER SDVAL="36" SDNUM="1031;"><B>36</B></TD>
+			<TD ALIGN=CENTER><B><BR></B></TD>
+			<TD ALIGN=CENTER><B><BR></B></TD>
+			<TD ALIGN=CENTER><B><BR></B></TD>
+			<TD ALIGN=CENTER><B><BR></B></TD>
+			<TD ALIGN=CENTER><B><BR></B></TD>
+			<TD ALIGN=CENTER><B><BR></B></TD>
+			<TD ALIGN=CENTER><B><BR></B></TD>
+			<TD ALIGN=CENTER><B><BR></B></TD>
+			<TD ALIGN=CENTER><B><BR></B></TD>
+			<TD ALIGN=CENTER><B><BR></B></TD>
+			<TD ALIGN=CENTER><B><BR></B></TD>
+			<TD ALIGN=CENTER><B><BR></B></TD>
+			<TD ALIGN=CENTER><B><BR></B></TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" COLSPAN=4 HEIGHT=116 ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>Z&auml;hler</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" COLSPAN=3 ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>Leer</FONT></B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" COLSPAN=5 ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>Hauptsicherungen NEOZED D02</FONT></B></TD>
+			<TD ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT></B></TD>
+			<TD ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT></B></TD>
+			<TD ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT></B></TD>
+			<TD ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT></B></TD>
+			<TD ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT></B></TD>
+			<TD ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT></B></TD>
+			<TD ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT></B></TD>
+			<TD ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT></B></TD>
+			<TD ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT></B></TD>
+			<TD ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT></B></TD>
+			<TD ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT></B></TD>
+			<TD ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT></B></TD>
+			<TD ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT></B></TD>
+		</TR>
+	
+<!-- ************************************************************************** -->
+<HR>
+<H1><EM>UV2 &Uuml;bersicht</EM></H1>
+<TABLE FRAME=VOID CELLSPACING=0 COLS=2 RULES=NONE BORDER=0>
+	
+		<TR>
+			<TD COLSPAN=7 WIDTH=372 HEIGHT=17 ALIGN=LEFT><B>UV2 &Uuml;bersicht im BR Kanal Trennwand</B></TD>
+			</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=38 ALIGN=CENTER VALIGN=MIDDLE SDVAL="1" SDNUM="1031;"><B>1</B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ROWSPAN=2 ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>FI 2</FONT></B></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=38 ALIGN=CENTER VALIGN=MIDDLE SDVAL="2" SDNUM="1031;"><B>2</B></TD>
+			</TR>
+		<TR>
+			<TD HEIGHT=38 ALIGN=CENTER VALIGN=MIDDLE SDVAL="3" SDNUM="1031;"><B>3</B></TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" ROWSPAN=2 ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>Leer</FONT></B></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=38 ALIGN=CENTER VALIGN=MIDDLE SDVAL="4" SDNUM="1031;"><B>4</B></TD>
+			</TR>
+	
+<!-- ************************************************************************** -->
+<HR>
+<H1><EM>Einbaupl&auml;tze-Leitungsnummer</EM></H1>
+<TABLE FRAME=VOID CELLSPACING=0 COLS=9 RULES=NONE BORDER=0>
+	
+	
+		<TR>
+			<TD COLSPAN=4 WIDTH=483 HEIGHT=17 ALIGN=LEFT><B>UV1 Einbaupl&auml;tze-Leitungsnummer</B></TD>
+			<TD WIDTH=64 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=76 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=76 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=169 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=153 ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=LEFT><B>Platz</B></TD>
+			<TD ALIGN=LEFT><B>Ger&auml;t</B></TD>
+			<TD ALIGN=LEFT><B>TYP</B></TD>
+			<TD ALIGN=LEFT><B>Bezeichnung</B></TD>
+			<TD ALIGN=LEFT><B>Kabelnr</B></TD>
+			<TD ALIGN=LEFT><B>Kabel</B></TD>
+			<TD ALIGN=LEFT><B>L&auml;nge ca.</B></TD>
+			<TD ALIGN=LEFT><B>Kabelende</B></TD>
+			<TD ALIGN=LEFT><B>Bemerkung</B></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDNUM="1031;0;TT.MM.JJ">1 &ndash; 3</TD>
+			<TD ALIGN=LEFT>F01</TD>
+			<TD ALIGN=LEFT>C32/3</TD>
+			<TD ALIGN=LEFT>32A CEE &ndash; Heizung</TD>
+			<TD ALIGN=LEFT>W1</TD>
+			<TD ALIGN=LEFT>NYM 5*4</TD>
+			<TD ALIGN=LEFT>2m</TD>
+			<TD ALIGN=LEFT>Unter dem UV1</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT>4 &ndash; 6</TD>
+			<TD ALIGN=LEFT>F02</TD>
+			<TD ALIGN=LEFT>B16/3</TD>
+			<TD ALIGN=LEFT>Labortisch Aufbau</TD>
+			<TD ALIGN=LEFT>W2</TD>
+			<TD ALIGN=LEFT>NYM 5*2,5</TD>
+			<TD ALIGN=LEFT>12m</TD>
+			<TD ALIGN=LEFT>Trennwand E-Seite</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="7" SDNUM="1031;">7</TD>
+			<TD ALIGN=LEFT>F03</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Steckdosen Fensterfront 1</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>W3</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>NYM 5*2,5</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>30m</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>Fensterfront BR Kanal X2</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="8" SDNUM="1031;">8</TD>
+			<TD ALIGN=LEFT>F04</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Steckdosen Fensterfront 2</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="9" SDNUM="1031;">9</TD>
+			<TD ALIGN=LEFT>F05</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Steckdosen Fensterfront 3</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="10" SDNUM="1031;">10</TD>
+			<TD ALIGN=LEFT>F06</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Steckdosen Server</TD>
+			<TD ALIGN=LEFT>W4</TD>
+			<TD ALIGN=LEFT>NYM 5*1,5</TD>
+			<TD ALIGN=LEFT>12m</TD>
+			<TD ALIGN=LEFT>Trennwand E-Seite</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=LEFT SDVAL="11" SDNUM="1031;">11</TD>
+			<TD ALIGN=LEFT>F07</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Steckdosen E-Wand mitte</TD>
+			<TD ALIGN=LEFT>W5</TD>
+			<TD ALIGN=LEFT>NYM 3*1,5</TD>
+			<TD ALIGN=LEFT>12m</TD>
+			<TD ALIGN=LEFT>Trennwand E-Seite</TD>
+			<TD ALIGN=LEFT>&Uuml;ber UV2 FI 40A 30mA</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="12" SDNUM="1031;">12</TD>
+			<TD ALIGN=LEFT>F08</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Frei</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT>13 &ndash; 16</TD>
+			<TD ALIGN=LEFT>FI</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>40A 30mA</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>nach Platz 37-60</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="17" SDNUM="1031;">17</TD>
+			<TD ALIGN=LEFT>S01</TD>
+			<TD ALIGN=LEFT>K1</TD>
+			<TD ALIGN=LEFT>Schalter</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>NYM 3*1,5</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>noch unbekannt</TD>
+			<TD ALIGN=LEFT>von Platz 57</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT>18 &ndash; 24</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>Leer</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT>25 &ndash; 28</TD>
+			<TD ALIGN=LEFT>B1</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>Z&auml;hler</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT>29 &ndash; 31</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>Leer</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT>32 &ndash; 36</TD>
+			<TD ALIGN=LEFT>zu vergeben</TD>
+			<TD ALIGN=LEFT>D02/35</TD>
+			<TD ALIGN=LEFT>Hauptsicherungen</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="37" SDNUM="1031;">37</TD>
+			<TD ALIGN=LEFT>F09</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Licht 1</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>W6</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>NYM 5*1,5</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>12m</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>Trennwand X1</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="38" SDNUM="1031;">38</TD>
+			<TD ALIGN=LEFT>F10</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Licht 2</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="39" SDNUM="1031;">39</TD>
+			<TD ALIGN=LEFT>F11</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Licht 3</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT>40 &ndash; 42</TD>
+			<TD ALIGN=LEFT>F12</TD>
+			<TD ALIGN=LEFT>C16/3</TD>
+			<TD ALIGN=LEFT>Herd</TD>
+			<TD ALIGN=LEFT>W7</TD>
+			<TD ALIGN=LEFT>NYM 5*2,5</TD>
+			<TD ALIGN=LEFT>12m</TD>
+			<TD ALIGN=LEFT>Trennwand K&uuml;chen-Seite</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="43" SDNUM="1031;">43</TD>
+			<TD ALIGN=LEFT>F13</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Steckdose K&uuml;chenwand Sp&uuml;lmaschine</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>W8</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>NYM 5*2,5</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>12m</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>Trennwand X1 oder X4</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="44" SDNUM="1031;">44</TD>
+			<TD ALIGN=LEFT>F14</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Steckdose K&uuml;chenwand Boiler</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="45" SDNUM="1031;">45</TD>
+			<TD ALIGN=LEFT>F15</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Steckdose K&uuml;chenwand Waschmaschine</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=33 ALIGN=LEFT VALIGN=TOP SDVAL="46" SDNUM="1031;">46</TD>
+			<TD ALIGN=LEFT VALIGN=TOP>F16</TD>
+			<TD ALIGN=LEFT VALIGN=TOP>B16</TD>
+			<TD ALIGN=LEFT>Steckdosen Trennwand K&uuml;chen-Seite  K&uuml;hl/Gefrier/Mikrowelle/Dunstabzugshaube</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>W9</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>NYM 5*1,5</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>12m</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>Trennwand X1 oder X5</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="47" SDNUM="1031;">47</TD>
+			<TD ALIGN=LEFT>F17</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Steckdosen Trennwand K&uuml;chen-Seite rechts</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="48" SDNUM="1031;">48</TD>
+			<TD ALIGN=LEFT>F18</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Steckdosen Trennwand K&uuml;chen-Seite links</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=50 ALIGN=LEFT VALIGN=TOP SDVAL="49" SDNUM="1031;">49</TD>
+			<TD ALIGN=LEFT VALIGN=TOP>F19</TD>
+			<TD ALIGN=LEFT VALIGN=TOP>B16</TD>
+			<TD ALIGN=LEFT VALIGN=TOP>Steckdosen K&uuml;chenwand + T&uuml;r rechts</TD>
+			<TD ALIGN=LEFT>W10 W11 W12</TD>
+			<TD ALIGN=LEFT>NYM 5*1,5 NYM 3*1,5 NYM 3*1,5</TD>
+			<TD ALIGN=LEFT>12m 7m 7m</TD>
+			<TD ALIGN=LEFT>Trennwand X1 oder X6 T&uuml;r rechts oben T&uuml;r rechts unten</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="50" SDNUM="1031;">50</TD>
+			<TD ALIGN=LEFT>F20</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Steckdosen E-Wand oben</TD>
+			<TD ROWSPAN=2 ALIGN=LEFT VALIGN=MIDDLE>W10</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ROWSPAN=2 ALIGN=LEFT VALIGN=MIDDLE>Trennwand X1 oder X6</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="51" SDNUM="1031;">51</TD>
+			<TD ALIGN=LEFT>F21</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Steckdosen E-Wand unten</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="52" SDNUM="1031;">52</TD>
+			<TD ALIGN=LEFT>F22</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Steckdosen &Auml;-Wand oben + T&uuml;r links</TD>
+			<TD ROWSPAN=2 ALIGN=LEFT VALIGN=MIDDLE>W13</TD>
+			<TD ROWSPAN=2 ALIGN=LEFT VALIGN=MIDDLE>NYM 5*1,5</TD>
+			<TD ROWSPAN=2 ALIGN=LEFT VALIGN=MIDDLE>14m</TD>
+			<TD ROWSPAN=2 ALIGN=LEFT VALIGN=MIDDLE>&Auml;-Wand X3</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="53" SDNUM="1031;">53</TD>
+			<TD ALIGN=LEFT>F23</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Steckdosen &Auml;-Wand unten</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="54" SDNUM="1031;">54</TD>
+			<TD ALIGN=LEFT>F24</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Steckdose &Auml;-Wand Boiler</TD>
+			<TD ALIGN=LEFT>W14</TD>
+			<TD ALIGN=LEFT>NYM 3*2,5</TD>
+			<TD ALIGN=LEFT>14m</TD>
+			<TD ALIGN=LEFT>&Auml;-Wand</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="55" SDNUM="1031;">55</TD>
+			<TD ALIGN=LEFT>F25</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Steckdosen 2. Ebene</TD>
+			<TD ALIGN=LEFT>W15</TD>
+			<TD ALIGN=LEFT>NYM 5*1,5</TD>
+			<TD ALIGN=LEFT>10m</TD>
+			<TD ALIGN=LEFT>2. Ebene</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="56" SDNUM="1031;">56</TD>
+			<TD ALIGN=LEFT>F26</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Steckdose Beamer</TD>
+			<TD ALIGN=LEFT>W16</TD>
+			<TD ALIGN=LEFT>NYM 3*1,5</TD>
+			<TD ALIGN=LEFT>10m</TD>
+			<TD ALIGN=LEFT>Deckenmitte</TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="57" SDNUM="1031;">57</TD>
+			<TD ALIGN=LEFT>F27</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Alternativ Licht</TD>
+			<TD ALIGN=LEFT>W17</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT>nach Platz 17</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="58" SDNUM="1031;">58</TD>
+			<TD ALIGN=LEFT>F28</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Frei</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="59" SDNUM="1031;">59</TD>
+			<TD ALIGN=LEFT>F29</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Frei</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="60" SDNUM="1031;">60</TD>
+			<TD ALIGN=LEFT>F30</TD>
+			<TD ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Frei</TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+	
+
+<!-- ************************************************************************** -->
+<HR>
+<H1><EM>Verbindungsdose-Leitungsnummer</EM></H1>
+<TABLE FRAME=VOID CELLSPACING=0 COLS=12 RULES=NONE BORDER=0>
+	
+	
+		<TR>
+			<TD COLSPAN=4 WIDTH=336 HEIGHT=17 ALIGN=LEFT><B>Verbindungsdose-Leitungsnummer</B></TD>
+			<TD WIDTH=76 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=45 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=49 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=40 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=66 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=77 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=62 ALIGN=LEFT><BR></TD>
+			<TD WIDTH=289 ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD COLSPAN=2 HEIGHT=17 ALIGN=CENTER><B>Verbindungsdose</B></TD>
+			<TD STYLE="border-left: 1px solid #000000; border-right: 1px solid #000000" COLSPAN=3 ALIGN=CENTER><B>Zuleitung</B></TD>
+			<TD STYLE="border-left: 1px solid #000000; border-right: 1px solid #000000" COLSPAN=3 ALIGN=CENTER><B>UV1</B></TD>
+			<TD ALIGN=CENTER><B><BR></B></TD>
+			<TD ALIGN=CENTER><B>Abg&auml;nge</B></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=LEFT><B>Bezeichnung</B></TD>
+			<TD ALIGN=LEFT><B>Ort</B></TD>
+			<TD STYLE="border-left: 1px solid #000000" ALIGN=LEFT><B>Kabelnr</B></TD>
+			<TD ALIGN=LEFT><B>Kabel</B></TD>
+			<TD STYLE="border-right: 1px solid #000000" ALIGN=LEFT><B>L&auml;nge ca.</B></TD>
+			<TD STYLE="border-left: 1px solid #000000" ALIGN=LEFT><B>Platz</B></TD>
+			<TD ALIGN=LEFT><B>Ger&auml;t</B></TD>
+			<TD STYLE="border-right: 1px solid #000000" ALIGN=LEFT><B>TYP</B></TD>
+			<TD ALIGN=LEFT><B>Kabelnr.</B></TD>
+			<TD ALIGN=LEFT><B>Kabel</B></TD>
+			<TD ALIGN=LEFT><B>L&auml;nge</B></TD>
+			<TD ALIGN=LEFT><B>Ger&auml;t Bezeichnung / Ort</B></TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ROWSPAN=3 HEIGHT=100 ALIGN=LEFT VALIGN=MIDDLE>X2</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>Fensterfront BR Kanal</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>W3</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>NYM 5*2,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>30m</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE SDVAL="7" SDNUM="1031;">7</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE>F03</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE>B16</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>W3.1 W3.2</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>NYM 3*2,5 NYM 3*2,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>4m 2m</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>Steckdosen Fensterfront 1 rechts Steckdosen Fensterfront 1 links</TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE SDVAL="8" SDNUM="1031;">8</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE>F04</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE>B16</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>W3.3 W3.4</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>NYM 3*2,5 NYM 3*2,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>3m 3m</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>Steckdosen Fensterfront 2 rechts Steckdosen Fensterfront 2 links</TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE SDVAL="9" SDNUM="1031;">9</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE>F05</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE>B16</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>W3.5 W3.6</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>NYM 3*2,5 NYM 3*2,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>2m 4m</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>Steckdosen Fensterfront 3 rechts Steckdosen Fensterfront 3 links</TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ROWSPAN=3 HEIGHT=51 ALIGN=LEFT VALIGN=MIDDLE>X1 oder X4</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>Trennwand</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>W8</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>NYM 3*2,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>12m</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ALIGN=LEFT SDVAL="43" SDNUM="1031;">43</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>F13</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ALIGN=LEFT>B16</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>W8.1</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>NYM 3*2,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>3m</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>Steckdose K&uuml;chenwand Sp&uuml;lmaschine</TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ALIGN=LEFT SDVAL="44" SDNUM="1031;">44</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>F14</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ALIGN=LEFT>B16</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>W8.2</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>NYM 3*2,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>4m</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>Steckdose K&uuml;chenwand Boiler</TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ALIGN=LEFT SDVAL="45" SDNUM="1031;">45</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>F15</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ALIGN=LEFT>B16</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>W8.3</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>NYM 3*2,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>5m</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>Steckdose K&uuml;chenwand Waschmaschine</TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ROWSPAN=3 HEIGHT=68 ALIGN=LEFT VALIGN=MIDDLE>X1 oder X5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>Trennwand</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>W9</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>NYM 5*1,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>12m</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE SDVAL="46" SDNUM="1031;">46</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE>F16</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE>B16</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE>W9.1</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE>NYM 3*1,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE>2m</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>Steckdosen Trennwand K&uuml;chen-Seite  K&uuml;hl/Gefrier/Mikrowelle/Dunstabzugshaube</TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ALIGN=LEFT SDVAL="47" SDNUM="1031;">47</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>F17</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ALIGN=LEFT>B16</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>W9.2</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>NYM 3*1,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>2m</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>Steckdosen Trennwand K&uuml;chen-Seite rechts</TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ALIGN=LEFT SDVAL="48" SDNUM="1031;">48</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>F18</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ALIGN=LEFT>B16</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>W9.3</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>NYM 3*1,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>3m</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>Steckdosen Trennwand K&uuml;chen-Seite links</TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ROWSPAN=3 HEIGHT=51 ALIGN=LEFT VALIGN=MIDDLE>X1 oder X6</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>Trennwand</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>W10</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT>NYM 5*1,5 </TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT>12m </TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE SDVAL="49" SDNUM="1031;">49</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE>F19</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE>B16</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT VALIGN=TOP>W10.1</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT VALIGN=TOP>NYM 3*1,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT VALIGN=TOP>4m</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT VALIGN=TOP>Steckdosen K&uuml;chenwand</TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ALIGN=LEFT SDVAL="50" SDNUM="1031;">50</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>F20</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ALIGN=LEFT>B16</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>W10.2</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>NYM 3*1,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>2m</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>Steckdosen E-Wand oben</TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ALIGN=LEFT SDVAL="51" SDNUM="1031;">51</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>F21</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ALIGN=LEFT>B16</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>W10.3</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>NYM 3*1,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>2m</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>Steckdosen E-Wand unten</TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ROWSPAN=2 HEIGHT=51 ALIGN=LEFT VALIGN=MIDDLE>X3</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ROWSPAN=2 ALIGN=LEFT VALIGN=MIDDLE>&Auml;-Wand</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ROWSPAN=2 ALIGN=LEFT VALIGN=MIDDLE>W13</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ROWSPAN=2 ALIGN=LEFT VALIGN=MIDDLE>NYM 5*1,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ROWSPAN=2 ALIGN=LEFT VALIGN=MIDDLE>14m</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE SDVAL="52" SDNUM="1031;">52</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE>F22</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ALIGN=LEFT VALIGN=MIDDLE>B16</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>W13.1 W13.2</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>NYM 3*1,5 NYM 3*1,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>? ?</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>Steckdosen &Auml;-Wand oben Steckdosen T&uuml;r links</TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" ALIGN=LEFT SDVAL="53" SDNUM="1031;">53</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>F23</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" ALIGN=LEFT>B16</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>W13.3</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>NYM 3*1,5</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>?</TD>
+			<TD STYLE="border-top: 1px solid #000000; border-bottom: 1px solid #000000" ALIGN=LEFT>Steckdosen &Auml;-Wand unten</TD>
+		</TR>
+		<TR>
+			<TD ROWSPAN=3 HEIGHT=51 ALIGN=LEFT VALIGN=MIDDLE>X1</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>Trennwand</TD>
+			<TD STYLE="border-left: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>W6</TD>
+			<TD ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>NYM 5*1,5</TD>
+			<TD STYLE="border-right: 1px solid #000000" ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>12m</TD>
+			<TD STYLE="border-left: 1px solid #000000" ALIGN=LEFT SDVAL="37" SDNUM="1031;">37</TD>
+			<TD ALIGN=LEFT>F09</TD>
+			<TD STYLE="border-right: 1px solid #000000" ALIGN=LEFT>B16</TD>
+			<TD COLSPAN=3 ROWSPAN=3 ALIGN=LEFT VALIGN=MIDDLE>Schalter / Wechselschaltungen</TD>
+			<TD ALIGN=LEFT>Licht 1</TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-left: 1px solid #000000" ALIGN=LEFT SDVAL="38" SDNUM="1031;">38</TD>
+			<TD ALIGN=LEFT>F10</TD>
+			<TD STYLE="border-right: 1px solid #000000" ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Licht 2</TD>
+		</TR>
+		<TR>
+			<TD STYLE="border-left: 1px solid #000000" ALIGN=LEFT SDVAL="39" SDNUM="1031;">39</TD>
+			<TD ALIGN=LEFT>F11</TD>
+			<TD STYLE="border-right: 1px solid #000000" ALIGN=LEFT>B16</TD>
+			<TD ALIGN=LEFT>Licht 3</TD>
+		</TR>
+	
+
+<!-- ************************************************************************** -->
+<HR>
+<H1><EM>Lichtkreise</EM></H1>
+<TABLE FRAME=VOID CELLSPACING=0 COLS=4 RULES=NONE BORDER=0>
+	
+		<TR>
+			<TD COLSPAN=3 WIDTH=182 HEIGHT=17 ALIGN=LEFT><B>Lichtkreise</B></TD>
+			<TD WIDTH=138 ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT><B><BR></B></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+			<TD ALIGN=LEFT><BR></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT><B>Kreis</B></TD>
+			<TD ALIGN=LEFT><B>Phase</B></TD>
+			<TD ALIGN=LEFT><B>Sicherung</B></TD>
+			<TD ALIGN=LEFT><B>Ort</B></TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="1" SDNUM="1031;">1</TD>
+			<TD ALIGN=LEFT>L1</TD>
+			<TD ALIGN=LEFT>F09</TD>
+			<TD ALIGN=LEFT>Decke 1 (2. Ebene)</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="2" SDNUM="1031;">2</TD>
+			<TD ALIGN=LEFT>L2</TD>
+			<TD ALIGN=LEFT>F10</TD>
+			<TD ALIGN=LEFT>Decke 2 (Eingang)</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=18 ALIGN=LEFT SDVAL="3" SDNUM="1031;">3</TD>
+			<TD ALIGN=LEFT>L3</TD>
+			<TD ALIGN=LEFT>F11</TD>
+			<TD ALIGN=LEFT>Decke 3 (Konf.Tisch)</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="4" SDNUM="1031;">4</TD>
+			<TD ALIGN=LEFT>L2</TD>
+			<TD ALIGN=LEFT>F10</TD>
+			<TD ALIGN=LEFT>Decke 4 (Sitzecke)</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="5" SDNUM="1031;">5</TD>
+			<TD ALIGN=LEFT>L1</TD>
+			<TD ALIGN=LEFT>F09</TD>
+			<TD ALIGN=LEFT>K&uuml;che</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="6" SDNUM="1031;">6</TD>
+			<TD ALIGN=LEFT>L1</TD>
+			<TD ALIGN=LEFT>F09</TD>
+			<TD ALIGN=LEFT>E-Decke</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="7" SDNUM="1031;">7</TD>
+			<TD ALIGN=LEFT>L1</TD>
+			<TD ALIGN=LEFT>F09</TD>
+			<TD ALIGN=LEFT>E-Wand</TD>
+		</TR>
+		<TR>
+			<TD HEIGHT=17 ALIGN=LEFT SDVAL="8" SDNUM="1031;">8</TD>
+			<TD ALIGN=LEFT>L1</TD>
+			<TD ALIGN=LEFT>F09</TD>
+			<TD ALIGN=LEFT>&Auml;-Decke</TD>
+		</TR>
+	
+<!-- ************************************************************************** -->
