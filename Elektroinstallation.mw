@@ -1,13 +1,51 @@
 Ich habe euch mal die e-plaung ins wiki geworfen .. nicht schön aber selten
 
-[[Media:e-plan.pdf]]
+<H1>Staus</H1>
 
-[[Media:elektro.pdf]]
+<H2>Elektroinstallation</H2>
+
+Erledigt:
+# Wir haben heute die ersten 200m Kabel verlegt.
+# Ebenso 15m Wellschlauch.
+# Es wurden bereits 12 Hohlraumdosen in die Trennwand eingelassen und die ersten 12 Steckdosen montiert.
+# Desweiteren sind fast alle Leitungsführungskanäle und Brüstungskanäle montiert.
+# Der Brüstungskanal auf der Elektronikwerkstatt Wand ist mit 16 Dosen, Deckeln, Rahmen, Geräteträger UV2 und 9 Steckdosen bestückt.
+
+
+Die Materialbestellung ist raus und ich hoffe das wir die Tage das Material bekommen, daß wir am SA weiter arbeiten können.
+
+ToDo:
+# Es warten noch ein paar hundert Meter Kabel und Adern auf uns. (Helfer gerne gesehen)
+# Einbauen von vielen Hohlwanddosen und BR-Kanaldosen. (Helfer gerne gesehen)
+# Setzen von Steckdosen und Lichtschaltern ca. 60 Stück.
+# Verdrahten der Verteilerdosen
+# usw
+
+
+Es fehlen noch Deckenlampen sowie Leitung NYM-J 3*1,5 (hat vllt noch wer Leitung im Keller liegen?)
+
+
+<H2>Netzwerk</H2>
+
+Erledigt:
+# Fast nix, Materialmangel
+
+ToDo:
+# Fast alles noch :(
+
+Es fehlen ein paar hundert Meter Kabel, Dosen und Patchfelder.
+
 
 <H1>E-Plan</H1>
+
+[[Media:e-plan.pdf]]
+
 [[Datei:E-plan.png]]
 
 <H1>Materialliste</H1>
+
+[[Media:elektro.pdf]]
+
 <TABLE FRAME=VOID CELLSPACING=0 COLS=7 RULES=NONE BORDER=0>
 		<TR>
 			<TD COLSPAN=3 WIDTH=168 HEIGHT=17 ALIGN=LEFT><B>Materialliste</B></TD>
