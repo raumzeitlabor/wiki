@@ -1,4 +1,36 @@
-==Roadmap==
+=Roadmap=
+
+Hier wird grob das weitere Vorgehen zusammengeführt, damit der Raum ein vollweritger Hackerspace wird. Das wichtigste sind natürlich die Renovierungsarbeiten. Infrastruktur for teh win!
+
+==Renovierungsarbeiten==
+
+=== In Arbeit ===
+# Wand streichen (Türenwand und neben der Baemerwand(vorher mit wenig wasser, feucht reinigen, trocknen lassen)) ('''VORSICHT:''' Nicht an folgenden Stellen:)
+## Über der linken Eingangstür die noch nicht verputzte (aber bereits gestrichene) Stelle
+## Um die Löcher über dem Verteilerkasten großzügig Freiraum lassen
+# Farbflecken auf dem Boden versuchen mit Aceton zu entfernen (Achtung beim Umgang mit Aceton UND vorher an einer unauffäligen stelle testen)
+# echox mit einer meiner IR LED in die cam leuten um zu testen ob der ccd auch ir licht erkennt
+# Tür zum Nachbarn am Schloß spachteln, schleifen und ggf rollen.
+# Löcher im Gang über der Treppenhaustür spachteln und den Bereich streichen
+# Weitere Löcher im Gang (durchgebohrt bei stellen der Küchenwand und der Ä-Wand) zuspachteln/glätten/streichen!
+# Löcher im PVC verschweissen um ausreissen zu verhindern
+# Wände, Decke und Stahlträger von Fremdkörpern befreien, säubern, spachteln, schleifen, grundieren und streichen
+# E-Wand fertig weiß lackieren (oberer Streifen ist inzwischen vorhanden)
+# E-Installation an der Ä-wand und Beplankung mit OSB Platten
+# Planung für Verkabelung von Veranstaltungstechnik (PA, Beamer, Mikros, Mischpult, etc.pp.) [-> [[Lutoma]] ?]
+# Netzwerkverkabelung (Dosen, Kabel, Stecker, Patchpanel. Crimpzange of doom)
+# '''Immer mal feucht durchwischen, abziehen, aufnehmen. Wenn Zeit und un Muße auch gern mit der Bodenmaschine und dann versiegeln. Bitte nur bei größeren freien Flächen, die dann aber auch in Ruhe trocknen können.'''
+# '''NACH DER ARBEIT WERKZEUGE REINIGEN, AUFRÄUMEN UND DEN KÜCKENBEREICH FREIRÄUMEN'''
+# '''NOTE im blauen und grünen Eimer ist Anlauger'''
+
+===In Arbeit (fremd)===
+# Zweite Ebene bauen
+# Treppe zur zweiten Ebene bauen
+# Laborspüle fliesen (Ä-Bereich/Tür)
+
+===Geblockt===
+#Küchenzeile fliesen / Trennwand und Küchenrückwand muss erst gestellt werden
+#Boden reinigen und versiegeln / Decke und Wände müssen erst gestrichen werden, Löcher im PVC müssen vorher geflickt sein
 
 ===Erledigt===
 #Rigipsplatten an Brüstung verspachteln und streichen
@@ -22,33 +54,34 @@
 # Loch über "IVAR" verspachteln
 # NACH verspachteln den BR Kanal (Brüstungskanal) (der demontierte braune) an der Wand und vor den Fenstern montieren
 # Ständerkonstruktion Küche vermessen und dokumentieren
-
-=== In Arbeit ===
-# Wand streichen (Türenwand und neben der Baemerwand(vorher mit wenig wasser, feucht reinigen, trocknen lassen)) ('''VORSICHT:''' Nicht an folgenden Stellen:)
-## Über der linken Eingangstür die noch nicht verputzte (aber bereits gestrichene) Stelle
-## Um die Löcher über dem Verteilerkasten großzügig Freiraum lassen
 # LF Leitungsführungskanal (Kabelkanal) montieren WENN die Wandfarbe trocken ist UND über der Tür verputzt wurde
-# DaFo/Nessi/x? E-plan der "Ä-Wand" fertigstellen und Leitungsführung planen sowie Sicherungs "optimierung". Materialliste erweitern. 
-# DaFo/Nessi/x? start der Kabelarbeiten
-# Farbflecken auf dem Boden versuchen mit Aceton zu entfernen (Achtung beim Umgang mit Aceton UND vorher an einer unauffäligen stelle testen)
-# echox mit einer meiner IR LED in die cam leuten um zu testen ob der ccd auch ir licht erkennt
-# Tür zum Nachbarn am Schloß spachteln, schleifen und ggf rollen.
-# Löcher im Gang über der Treppenhaustür spachteln und den Bereich streichen
-# '''NACH DER ARBEIT WERKZEUGE REINIGEN, AUFRÄUMEN UND DEN KÜCKENBEREICH FREIRÄUMEN'''
-# '''NOTE im blauen und grünen Eimer ist Anlauger'''
-#Löcher im PVC verschweissen um ausreissen zu verhindern
-#Wände, Decke und Stahlträger von Fremdkörpern befreien, säubern, spachteln, schleifen, grundieren und streichen
+# E-plan der "Ä-Wand" fertigstellen und Leitungsführung planen sowie Sicherungs "optimierung". Materialliste erweitern. 
+# start der Kabelarbeiten
+# Trennwand Küche/Arbeitsbereich aufstellen
+# Unterkonstruktion Küchenrückwand
+# Unterkonstruktion Ä-Wand
 
-===In Arbeit (fremd)===
-#Trennwand Küche/Arbeitsbereich aufstellen
-#Unterkonstruktion Küchenrückwand
-#Laborspüle fliesen
+----
 
-===Geblockt===
-#Küchenzeile fliesen / Trennwand und Küchenrückwand muss erst gestellt werden
-#Boden reinigen und versiegeln / Decke und Wände müssen erst gestrichen werden, Löcher im PVC müssen vorher geflickt sein
+==Möblierung etc==
+
+# sehr viel mehr Ivar Regale für die Fensterfront besorgen
+# Sammla Boxen von Ikea in rauhen Mengen (jeder bekommt eine persönliche Box zum Kram wegpacken)
+# Konferenztisch bauen
+# mehr Stühle?
+# Beamer besorgen
+# Stromsparenden, leisen File-server bauen und aufsetzen ([[TabascoEye]])
+
+==Aktionen/Vorträge/Veranstaltungen==
+
+# Mikrokontroller Arbeitsgruppe (mit Workshops) [[TabascoEye]]
+## Experimentierboard selbst löten
+## usbasp programmer selbst löten
+## coole Projekte bauen (zB LED blinkenfun)
+# Vortrag über Barcodes
 
 ==Siehe auch==
 *[[Helfer]]
 *[[Material]]
 *[[Elektroinstallation]]
+*[[Gorm & Ivar]]
