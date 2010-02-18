@@ -8,15 +8,14 @@ Bei jeglichen Fragen zum Netz bitte [[Benutzer:Scytale|Scytale]] oder [[Benutzer
 
 == Uplink ==
 Wir nutzen die Internetverbindung eines unserer Nachbarn mit.
-Die Leitung kommt an der Ecke bei der Eingangstür aus der Decke, man bekommt dort auch von irgendnem Consumer-Router per DHCP eine geNATete IP.
-AFAIK ist es ein 2000er Arcor-DSL-Anschluss.
+Die Leitung kommt an der Ecke bei der Eingangstür aus der Decke, man bekommt dort auch von irgendnem Consumer-Router per DHCP eine geNATete IP. Es scheint ein Arcor DSL 6000-Anschluss zu sein
 
 == Unterschied zwischen den WLANs ==
-Es gibt zwei WRT54Gs, einer mit der ESSID „4null4-softcore” und einer mit der ESSID „4null4-hardcore”. Der Schlüssel (WEP) findet sich auf dem Zettel in Augenhöhe im Eingangsbereich.
+Es gibt zwei WRT54Gs, einer mit der ESSID „RZL-softcore” und einer mit der ESSID „RZL-hardcore”. Der Schlüssel (WEP) findet sich auf dem Zettel in Augenhöhe im Eingangsbereich.
 
-In das Netz „4null4-softcore” sind keine eingehenden Verbindungen möglich (aus dem IPv6-Internet und dem dn42.net).
+In das Netz „RZL-softcore” sind keine eingehenden Verbindungen möglich (aus dem IPv6-Internet und dem dn42.net).
 
-Im Netz „4null4-hardcore” wird nicht gefiltert (dein Computer ist im dn42.net und via IPv6 öffentlich (!) erreichbar).
+Im Netz „RZL-hardcore” wird nicht gefiltert (dein Computer ist im dn42.net und via IPv6 öffentlich (!) erreichbar).
 
 == dn42 ==
 
@@ -34,7 +33,7 @@ Wir nehmen als AS64636 teil mit 5 verschiedenen Peerings (zu jchome, ichdasich, 
 * NTP-Server: 172.22.36.1
 * DHCP-Server: 172.22.36.1
 
-(anstatt 172.22.36.1 jeweils 172.22.36.129 aus dem gefilterten WLAN „4null4-softcore”)
+(anstatt 172.22.36.1 jeweils 172.22.36.129 aus dem gefilterten WLAN „RZL-softcore”)
 
 === 172.22.36.0/25 ===
 
@@ -44,7 +43,7 @@ Wir nehmen als AS64636 teil mit 5 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.1 || [[wopr]] || Router
 |-----
-| 172.22.36.2 || wrtu || Linksys WRT54G (unfiltered, „4null4-hardcore”)
+| 172.22.36.2 || wrtu || Linksys WRT54G (unfiltered, „RZL-hardcore”)
 |-----
 | 172.22.36.3 || printer0 || Samsung-Laserdrucker
 |-----
@@ -105,7 +104,7 @@ Wir nehmen als AS64636 teil mit 5 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.129 || wopr || Router
 |-----
-| 172.22.36.130 || wrtf || Linksys WRT54G (filtered, „4null4-softcore”)
+| 172.22.36.130 || wrtf || Linksys WRT54G (filtered, „RZL-softcore”)
 |-----
 | 172.22.36.131 || sprech || Gigaset C475IP VoIP-Telefon
 |-----
