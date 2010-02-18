@@ -116,7 +116,7 @@ Wir nehmen als AS64636 teil mit 5 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.'''135 - 235''' || '''dhcp''' || DHCP-Range (filtered)
 |-----
-| 172.22.36.236 || ''reserved'' || Reserviert für Geräte
+| 172.22.36.236 || eye || WLAN-Kamera
 |-----
 | 172.22.36.237 || ''reserved'' || Reserviert für Geräte
 |-----
