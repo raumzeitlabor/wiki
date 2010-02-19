@@ -1,5 +1,5 @@
 Eine Skizze der geplanten Küche mit 40cm Platz bei '''L''' für Lichtschalter, Schlüsselkasten, etc.
-
+<source>
 
                <----ca 300cm Arbeitsplatte--->
          <------------------418cm------------------->
@@ -27,34 +27,34 @@ Eine Skizze der geplanten Küche mit 40cm Platz bei '''L''' für Lichtschalter, 
          <-60cm>
 
 
-linke Wand (steht an der Trennwand in den Raum hinein):
-<------------------390cm---------------------->
- 60cm   60cm   60cm   60cm   60cm   50cm  
-+------+------+------+------+------+-----+
-|      |      |Mikrow| Ober |Dunst |Ober |
-|      |      |------+------+------+-----+
-| Hoch |Kühl/ |
-|      |Gefr. |<-----ca. 260cm Arbeitsplatte ->
-|      |      +------+------+------+---+------+
-|      |      | Kühl |Schub | Herd |lu |gegen |
-|      |      |      |      |      |ft | Wand |
-+------+------+------+------+------+---+------+
- 60cm   60cm   60cm   60cm   60cm  30cm  60cm
-
-
-rechte Wand (an der tatsächlichen Wand):
-<------------------418cm------------------------>
- ca60cm          ca198cm       60cm   60cm  40cm    
-                             +------+------+----+
-               Regal         | Ober |      |    |
-        +--------------------+------+      |Lic-|
-                                    | Hoch |  ht|
-<-----ca. 300cm Arbeitsplatte ----->|      |Scha|
-+--------+------+------------+------+      |lter|
-|  frei  | Spül | Spülbecken | WaMa |      |    |
-|gegen W.|  Ma  |            |      |      |    |
-+--------+------+------------+------+------+----+
-   78cm    60cm     120cm      60cm   60cm  40cm
+  linke Wand (steht an der Trennwand in den Raum hinein):
+  <------------------390cm---------------------->
+   60cm   60cm   60cm   60cm   60cm   50cm  
+  +------+------+------+------+------+-----+
+  |      |      |Mikrow| Ober |Dunst |Ober |
+  |      |      |------+------+------+-----+
+  | Hoch |Kühl/ |
+  |      |Gefr. |<-----ca. 260cm Arbeitsplatte ->
+  |      |      +------+------+------+---+------+
+  |      |      | Kühl |Schub | Herd |lu |gegen |
+  |      |      |      |      |      |ft | Wand |
+  +------+------+------+------+------+---+------+
+   60cm   60cm   60cm   60cm   60cm  30cm  60cm
+  
+  
+  rechte Wand (an der tatsächlichen Wand):
+  <------------------418cm------------------------>
+  ca60cm          ca198cm       60cm   60cm  40cm    
+                               +------+------+----+
+                 Regal         | Ober |      |    |
+          +--------------------+------+      |Lic-|
+                                      | Hoch |  ht|
+  <-----ca. 300cm Arbeitsplatte ----->|      |Scha|
+  +--------+------+------------+------+      |lter|
+  |  frei  | Spül | Spülbecken | WaMa |      |    |
+  |gegen W.|  Ma  |            |      |      |    |
+  +--------+------+------------+------+------+----+
+     78cm    60cm     120cm      60cm   60cm  40cm
 
 
 Hoch: Hochschrank
@@ -70,7 +70,6 @@ gegen Wand: hier treffen die beiden Küchenzeilen aufeinander, dieser Raum bleib
 SpülMa: Spülmaschine
 WaMa: Waschmaschine
 LichtSchalter: Platz für Lichtschalter, Schlüsselkasten, etc
-
 
 
 ==Legende==
