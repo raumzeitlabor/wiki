@@ -1,70 +1,54 @@
-=Roadmap=
-
 Hier wird grob das weitere Vorgehen zusammengeführt, damit der Raum ein vollweritger Hackerspace wird. Das wichtigste sind natürlich die Renovierungsarbeiten. Infrastruktur for teh win!
 
-==Renovierungsarbeiten==
+=Renovierungsarbeiten=
 
-=== In Arbeit ===
-# Wand streichen (Türenwand und neben der Baemerwand(vorher mit wenig wasser, feucht reinigen, trocknen lassen)) ('''VORSICHT:''' Nicht an folgenden Stellen:)
-## Über der linken Eingangstür die noch nicht verputzte (aber bereits gestrichene) Stelle
-## Um die Löcher über dem Verteilerkasten großzügig Freiraum lassen
-# Farbflecken auf dem Boden versuchen mit Aceton zu entfernen (Achtung beim Umgang mit Aceton UND vorher an einer unauffäligen stelle testen)
-# echox mit einer meiner IR LED in die cam leuten um zu testen ob der ccd auch ir licht erkennt
-# Tür zum Nachbarn am Schloß spachteln, schleifen und ggf rollen.
-# Weitere Löcher im Gang (durchgebohrt bei stellen der Küchenwand und der Ä-Wand) zuspachteln/glätten/streichen!
-# Löcher im PVC verschweissen um ausreissen zu verhindern
-# Wände, Decke und Stahlträger von Fremdkörpern befreien, säubern, spachteln, schleifen, grundieren und streichen
-# E-Wand fertig weiß lackieren (oberer Streifen ist inzwischen vorhanden)
-# E-Installation an der Ä-wand und Beplankung mit OSB Platten
-# Planung für Verkabelung von Veranstaltungstechnik (PA, Beamer, Mikros, Mischpult, etc.pp.) [-> [[Lutoma]] ?]
-# Netzwerkverkabelung (Dosen, Kabel, Stecker, Patchpanel. Crimpzange of doom)
-# LF Leitungsführungskanal (Kabelkanal) montieren WENN die Wandfarbe trocken ist 
-# Neue Löcher im Gang spachteln und den Bereich streichen
+== Hinweise zum Arbeiten: ==
 # '''Immer mal feucht durchwischen, abziehen, aufnehmen. Wenn Zeit und un Muße auch gern mit der Bodenmaschine und dann versiegeln. Bitte nur bei größeren freien Flächen, die dann aber auch in Ruhe trocknen können.'''
 # '''NACH DER ARBEIT WERKZEUGE REINIGEN, AUFRÄUMEN UND DEN KÜCKENBEREICH FREIRÄUMEN'''
 # '''NOTE im blauen und grünen Eimer ist Anlauger'''
 
-===In Arbeit (fremd)===
+
+== todo ==
+
+=== hohe Priorität ===
+# Wasser und Abwasser testen (Mit Hr. Mudlu absprechen wann Druck auf die Wasserleitungen gegeben wird und checken ob alles dicht ist, außerdem 50L in die beiden Abwasserleitungen giessen um zu checken ob der Abfluss frei ist)
+# Träger über Beamerwand & Holzwand zum Nachbarn und abwaschen: --> gibt frei: Holzwand zum Nachbarraum streichen
+## Beamerwand '''gut''' mit Folie abkleben
+## Träger mit Anlauger (grüner & blauer Eimer in Couche Ecke) abwaschen
+
+# Wand streichen (Türenwand und neben der Baemerwand(vorher mit wenig wasser, feucht reinigen, trocknen lassen)) ('''VORSICHT:''' Nicht an folgenden Stellen:)
+## Über der linken Eingangstür die noch nicht verputzte (aber bereits gestrichene) Stelle
+## Um die Löcher über dem Verteilerkasten großzügig Freiraum lassen
+# Wände, Decke und Stahlträger von Fremdkörpern befreien, säubern, spachteln, schleifen, grundieren und streichen
+# Planung für Verkabelung von Veranstaltungstechnik (PA, Beamer, Mikros, Mischpult, etc.pp.) [-> [[Lutoma]] ?]
+# Tür zum Nachbarn am Schloß spachteln, schleifen und ggf rollen.
+# Netzwerkverkabelung (Dosen, Kabel, Stecker, Patchpanel. Crimpzange of doom)
+
+
+=== niedrige Priorität ===
+# Weitere Löcher im Gang (durchgebohrt bei stellen der Küchenwand und der Ä-Wand) zuspachteln/glätten/streichen!
+# Löcher im PVC verschweissen um ausreissen zu verhindern
+# Farbflecken auf dem Boden versuchen mit Aceton zu entfernen oder mit einem Spachte abkratzen (Achtung beim Umgang mit Aceton UND vorher an einer unauffäligen stelle testen)
+# Boden reinigen und versiegeln (wenn ein größeres Stück freigeräumt ist kann es erst gründlich geputzt und dann versiegelt werden (ggf. [[Inte]] fragen))
+
+=== Derzeit noch geblock ===
+#Küchenwand bauen (geblockt von: Wasser und Abwasser testen)
+#Küchenzeile fliesen (geblockt von: Trennwand und Küchenrückwand muss erst gestellt werden)
+#Holzwand zum Nachbarraum streichen (geblockt von: Träger über Beamerwand & Holzwand zum Nachbarn und abwaschen)
+
+=== von Extern ===
 # Zweite Ebene bauen
 # Treppe zur zweiten Ebene bauen
 # Laborspüle fliesen (Ä-Bereich/Tür)
 
-===Geblockt===
-#Küchenzeile fliesen / Trennwand und Küchenrückwand muss erst gestellt werden
-#Boden reinigen und versiegeln / Decke und Wände müssen erst gestrichen werden, Löcher im PVC müssen vorher geflickt sein
+=== Erledigt ===
+Erledigte Dinge finden sich [[ Roadmap_erledigt | hier ]]
 
-===Erledigt===
-#Rigipsplatten an Brüstung verspachteln und streichen
-#Provisorischen Strom aus dem Flur
-#Alte Elektrik demontieren
-#Baustromverteiler anschliessen
-#Rohrleitungen rückbauen und mit Blindstopfen versehen ( siehe Materialliste )
-# Fensterscheiben abwaschen (oben schon angefangen)
-# Fensterrahmen abwaschen (oben schon angefangen)
-# Fensterbank abwaschen
-# Stahlträger um die Fensterfront fertigstreichen grau RAL 7001 (VORHER TROCKNEN! und anlaugen)
-# Gardienenstangen montieren
-# NACH den Arbeiten an der/den Fensterfront/en einen "Nähtisch" stellen
-# 2. Loch über "IVAR" verspachteln
-# Holz im Treppehaus hochtregen und im Gang vor dem Raum stapeln.
-# "TEILE" die zum sw BR Kanal gehören 9st 2es 1ds.
-# Stahlträger/Ständer (Raummitte) abwaschen (unten bis zum knick fertig)
-# Stahlträger/Ständer (Raummitte) anlaugen, das bereits gestrichene nicht mit Anlauger "versüffen"! (Sicherheitsausrüstung!) (unten bis zum knick fertig)
-# Nach den Arbeiten an den Fensterfronten Boden reinigen
-# Verputzen über DER "Eingangstür" (unter der Decke)
-# Loch über "IVAR" verspachteln
-# NACH verspachteln den BR Kanal (Brüstungskanal) (der demontierte braune) an der Wand und vor den Fenstern montieren
-# Ständerkonstruktion Küche vermessen und dokumentieren
-# E-plan der "Ä-Wand" fertigstellen und Leitungsführung planen sowie Sicherungs "optimierung". Materialliste erweitern. 
-# start der Kabelarbeiten
-# Trennwand Küche/Arbeitsbereich aufstellen
-# Unterkonstruktion Küchenrückwand
-# Unterkonstruktion Ä-Wand
-# Löcher im Gang über der Treppenhaustür spachteln und den Bereich streichen
 
-----
+== Benötigtes Material ==
 
-==Möblierung etc==
+
+== Möblierung etc ==
 
 # sehr viel mehr Ivar Regale für die Fensterfront besorgen
 # Sammla Boxen von Ikea in rauhen Mengen (jeder bekommt eine persönliche Box zum Kram wegpacken)
@@ -73,7 +57,7 @@ Hier wird grob das weitere Vorgehen zusammengeführt, damit der Raum ein vollwer
 # Beamer besorgen
 # Stromsparenden, leisen File-server bauen und aufsetzen ([[TabascoEye]])
 
-==Aktionen/Vorträge/Veranstaltungen==
+== Aktionen/Vorträge/Veranstaltungen ==
 
 # Mikrokontroller Arbeitsgruppe (mit Workshops) [[TabascoEye]]
 ## Experimentierboard selbst löten
@@ -81,7 +65,7 @@ Hier wird grob das weitere Vorgehen zusammengeführt, damit der Raum ein vollwer
 ## coole Projekte bauen (zB LED blinkenfun)
 # Vortrag über Barcodes
 
-==Siehe auch==
+== Siehe auch==
 *[[Helfer]]
 *[[Material]]
 *[[Elektroinstallation]]
