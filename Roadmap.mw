@@ -34,6 +34,7 @@ Hier wird grob das weitere Vorgehen zusammengeführt, damit der Raum ein vollwer
 === Derzeit noch geblock ===
 #Küchenwand bauen (geblockt von: Wasser und Abwasser testen)
 #Küchenzeile fliesen (geblockt von: Trennwand und Küchenrückwand muss erst gestellt werden)
+#Küche aufbauen (geblockt von: Kücheenzeile fliesen, Küchenwand bauen und zweite Ebene bauen)
 #Holzwand zum Nachbarraum streichen (geblockt von: Träger über Beamerwand & Holzwand zum Nachbarn und abwaschen)
 
 === von Extern ===
@@ -67,4 +68,5 @@ Erledigte Dinge finden sich [[ Roadmap_erledigt | hier ]]
 *[[Helfer]]
 *[[Material]]
 *[[Elektroinstallation]]
+*[[Küche]]
 *[[Gorm & Ivar]]
