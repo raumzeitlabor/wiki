@@ -158,11 +158,16 @@ Wir nehmen als AS64636 teil mit 5 verschiedenen Peerings (zu jchome, ichdasich, 
 === Samsung Laserdrucker ===
  IP: 172.22.36.3
  
- ipp://172.22.36.3:681
+ Ansprechbar unter URL ipp://172.22.36.3:631
+
+Installation unter Debian:
+ echo "deb http://www-personal.umich.edu/~tjwatt/suldr debian extra" >> /etc/apt/sources.list
+ apt-get update
+ apt-get install samsungmfp-data samsungmfp-driver
 
 === kartoffelsalat ===
  IP: 172.22.36.112
- System: Archlinux
+ System: Debian
  Sonstiges: Temperatursensor
  
  User: Zettel an der Seite
