@@ -1,63 +1,47 @@
-Hier wird grob das weitere Vorgehen zusammengeführt, damit der Raum ein vollwertiger Hackerspace wird. Das wichtigste sind natürlich die Renovierungsarbeiten. Infrastruktur for teh win!
+Hier wird grob das weitere Vorgehen zusammengeführt, damit der Raum ein vollwertiger Hackerspace wird. Das Wichtigste sind natürlich die Renovierungsarbeiten. Infrastruktur for teh win!
 
 =Renovierungsarbeiten=
 
-== Hinweise zum Arbeiten: ==
-# '''Immer mal feucht durchwischen, abziehen, aufnehmen. Wenn Zeit und un Muße auch gern mit der Bodenmaschine und dann versiegeln. Bitte nur bei größeren freien Flächen, die dann aber auch in Ruhe trocknen können.'''
-# '''NACH DER ARBEIT WERKZEUGE REINIGEN, AUFRÄUMEN UND DEN KÜCKENBEREICH FREIRÄUMEN'''
-# '''NOTE im blauen und grünen Eimer ist Anlauger'''
+== Hinweise ==
+# '''ACHTUNG:''' Im blauen Eimer ist Anlauger!
+# Immer mal feucht durchwischen, abziehen, aufnehmen. Wenn Zeit und Muße vorhanden ist, dann auch gern mit der Bodenmaschine reinigen und den Boden anschließend versiegeln. Versiegeln bitte nur bei größeren freien Flächen, die in Ruhe trocknen können.
+# '''NACH DER ARBEIT WERKZEUGE REINIGEN UND AUFRÄUMEN'''
 
 
-== todo ==
 
-=== hohe Priorität ===
+== Todo (hohe Priorität) ==
 # Wasser und Abwasser testen (Mit Hr. Mutlu absprechen wann Druck auf die Wasserleitungen gegeben wird und prüfen ob alles dicht ist. Außerdem 50l in die beiden Abwasserleitungen gießen um zu prüfen ob der Abfluss frei ist.)
-# Träger über Beamerwand & Holzwand zum Nachbarn und abwaschen: --> gibt frei: Holzwand zum Nachbarraum streichen
-## Beamerwand '''gut''' mit Folie abkleben
-## Träger mit Anlauger (grüner & blauer Eimer in Couche Ecke) abwaschen
-
-# Wand streichen (Türenwand und neben der Baamerwand (vorher mit wenig Wasser, feucht reinigen, trocknen lassen)) ('''VORSICHT:''' Nicht an folgenden Stellen:)
-## Über der linken Eingangstür die noch nicht verputzte (aber bereits gestrichene) Stelle
-## Um die Löcher über dem Verteilerkasten großzügig Freiraum lassen
-# Wände, Decke und Stahlträger von Fremdkörpern befreien, säubern, spachteln, schleifen, grundieren und streichen
 # Planung für Verkabelung von Veranstaltungstechnik (PA, Beamer, Mikros, Mischpult, etc.pp.) (-> [[Benutzer:Lutoma]]?)
-# Tür zum Nachbarn am Schloß spachteln, schleifen und ggf rollen.
 # Netzwerkverkabelung (Dosen, Kabel, Stecker, Patchpanel. Crimpzange of doom)
 # Fliesen für die Küchenwand und Ä-Wand kaufen
-## Fliesen vorhanden: "Gomez Gomez Modelo Calida Tono" 20x30cm -> nachgucken obs die Dinger noch gibt (DaFo guckt nach)
+## vorhandene Fliesen: ''Gomez Modelo Calida Tono'' 20x30cm
 # Treppenforschung betreiben (was für Treppen kosten was für Geld)
-# Netzwerkmaterial bestellen (siehe nessis Mail)
-# Boden für 2te Ebene checken
+# [[Einkaufsliste#Netzwerk|Netzwerkmaterial bestellen]]
+# Boden für 2te Ebene
 
 
-=== niedrige Priorität ===
+==Todo (niedrige Priorität)==
 # Weitere Löcher im Gang (durchgebohrt bei stellen der Küchenwand und der Ä-Wand) zuspachteln/glätten/streichen!
-# Löcher im PVC verschweissen um ausreissen zu verhindern
-# Farbflecken auf dem Boden versuchen mit Aceton zu entfernen oder mit einem Spachte abkratzen (Achtung beim Umgang mit Aceton UND vorher an einer unauffäligen stelle testen)
-# Boden reinigen und versiegeln (wenn ein größeres Stück freigeräumt ist kann es erst gründlich geputzt und dann versiegelt werden (ggf. [[Inte]] fragen))
-# Abwasserraum über uns mit Bausschaum ausspritzen
+# Löcher im PVC verschweißen um Ausreißen zu verhindern
+# Farbflecken auf dem Boden versuchen mit Aceton zu entfernen oder mit einem Spachtel abkratzen (Achtung beim Umgang mit Aceton. Vorher an einer unauffälligen Stelle testen.)
+# Boden reinigen und versiegeln (wenn ein größeres Stück freigeräumt ist kann es erst gründlich geputzt und dann versiegelt werden (ggf. [[Benutzer:Inte|Inte]] fragen))
+# Abwasserraum über uns mit Bauschaum ausspritzen
 
 
-=== Derzeit noch geblock ===
+== Derzeit geblockt ==
 #Küchenwand bauen (geblockt von: Wasser und Abwasser testen)
 #Küchenzeile fliesen (geblockt von: Trennwand und Küchenrückwand muss erst gestellt werden)
-#Küche aufbauen (geblockt von: Kücheenzeile fliesen, Küchenwand bauen und zweite Ebene bauen)
-#Holzwand zum Nachbarraum streichen (geblockt von: Träger über Beamerwand & Holzwand zum Nachbarn und abwaschen)
+#Küche aufbauen (geblockt von: Küchenzeile fliesen, Küchenwand bauen und zweite Ebene bauen)
 
-=== von Extern ===
+== Extern ==
 # Zweite Ebene bauen
 # Treppe zur zweiten Ebene bauen
 # Laborspüle fliesen (Ä-Bereich/Tür)
 
-=== Erledigt ===
+== Erledigt ==
 Erledigte Dinge finden sich [[ Roadmap_erledigt | hier ]]
 
-
-== Benötigtes Material ==
-# Stromsparenden, leisen Fileserver bauen und aufsetzen ([[TabascoEye]])
-
 == Aktionen/Vorträge/Veranstaltungen ==
-
 # Mikrokontroller Arbeitsgruppe (mit Workshops) [[TabascoEye]]
 ## Experimentierboard selbst löten
 ## usbasp programmer selbst löten
