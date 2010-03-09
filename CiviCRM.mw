@@ -1,0 +1,32 @@
+'''Ansprechpartner:''' [[Benutzer:Inte|Inte]]
+
+'''[http://civicrm.org/ CiviCRM]''' ist eine freie ''Customer Relationship Management'' Software. Wir wollen im Rahmen dieses Projektes einen Blick auf die verfügbaren Module werfen und deren möglichen Nutzen für das RaumZeitLabor abwägen.
+
+==Testinstallation==
+*http://raumzeitlabor.kral.ws
+
+==Technische Informationen==
+*CiviCRM-3.1.3
+*Drupal-6.16
+*MySQL-5.1.39
+*PHP-5.2.9
+
+Drupal und CiviCRM benutzen jeweils eine eigene MySQL-Datenbank.
+
+==Module==
+===civiCONTRIBUTE===
+Online fundraising and donor management.
+===civiEVENT===
+Online event registration and participant tracking.
+===civiMEMBER===
+Online signup and membership management.
+===civiMAIL===
+Personalized email blasts and newsletters.
+===civiREPORT===
+Report generation and template management.
+
+==Siehe auch==
+*[http://en.wikipedia.org/wiki/CiviCRM Wikipedia - CiviCRM] (''englisch'')
+*[http://en.flossmanuals.net/civicrm CiviCRM-Handbuch] (''englisch'')
+
+[[Kategorie:Projekt]]
