@@ -29,6 +29,8 @@ Personalized email blasts and newsletters.
 Report generation and template management.
 
 ==Benutzerrollen==
+[http://wiki.civicrm.org/confluence/display/CRMDOC/Default+Permissions+and+Roles Default Permissions and Roles in Drupal]
+
 *anonymous user
 *authenticated user
 *contributor
