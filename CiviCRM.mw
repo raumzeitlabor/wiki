@@ -2,6 +2,9 @@
 
 '''[http://civicrm.org/ CiviCRM]''' ist eine freie ''Customer Relationship Management'' Software. Wir wollen im Rahmen dieses Projektes einen Blick auf die verfügbaren Module werfen und deren möglichen Nutzen für das RaumZeitLabor abwägen.
 
+==Mitmachen!==
+Als anonymer und registrierte Nutzer kann man alle veröffentlichten Informationen einsehen. Wer gerne mit CiviCRM rumspielen möchte, meldet sich bitte bei [[Benutzer:Inte|Inte]]. Er weißt dem Benutzer dann die entsprechende [[#Benutzerrollen|Benutzerrolle]] (contributor) zu.
+
 ==Testinstallation==
 *http://raumzeitlabor.kral.ws
 
@@ -24,6 +27,11 @@ Online signup and membership management.
 Personalized email blasts and newsletters.
 ===civiREPORT===
 Report generation and template management.
+
+==Benutzerrollen==
+*anonymous user
+*authenticated user
+*contributor
 
 ==Siehe auch==
 *[http://en.wikipedia.org/wiki/CiviCRM Wikipedia - CiviCRM] (''englisch'')
