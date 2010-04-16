@@ -1,30 +1,24 @@
 '''Status:''' In Arbeit (Teilweise funktionsfähig)<br>
 '''Ansprechpartner:''' [[Benutzer:Silsha|silsha]]
 
-== Erkärung ==
+== Features ==
+Der aktuelle Status kann über http://www.raumzeitlabor.de (oben rechts), über die Webapp oder im IRC via ''!!raum status'' abgerufen werden.
 
-Der Raumstatus wird durch einen Besucher des Labors gesetzt, dafür gibt
-es zurzeit verschiedene Möglichkeiten.
+Der Raumstatus wird durch einen Besucher des Labors gesetzt, dafür gibt es zurzeit verschiedene Möglichkeiten.
 
-1. IRC – In den Räumen #oqlt, #raumzeitlabor und #chaos-hd sitzt ein Bot
-namens RZLBot, bzw. chymeia bei #oqlt. Dem Bot kann man via !!raum
-offen, bzw. !!raum zu den aktuellen Status nennen.
+=== IRC ===
+In den Räumen #oqlt, #raumzeitlabor und #chaos-hd sitzt ein Bot namens RZLBot, bzw. chymeia bei #oqlt. Dem Bot kann man via ''!!raum offen'', bzw. ''!!raum zu'' den aktuellen Status nennen.
 
-2. Mobile Webapp (iPhone optimiert) – unter
-http://status.raumzeitlabor.de/mobile.php
+=== Mobile Webapp ===
+http://status.raumzeitlabor.de/mobile.php (iPhone optimiert)
 
-3. HTTP – Status kann über http://status.raumzeitlabor.de/set.php?set=1 oder
-http://status.raumzeitlabor.de/set.php?set=0 jeweils auf oder zu gesetzt
-werden. Praktisch für spätere Erweiterungen.
+=== HTTP ===
+Der Status kann über http://status.raumzeitlabor.de/set.php?set=1 oder http://status.raumzeitlabor.de/set.php?set=0 jeweils auf oder zu gesetzt werden. Praktisch für spätere Erweiterungen.
 
-Der Status wird Mo.-Fr. um 3 Uhr, und am Wochenende um 5 Uhr automatisch
-auf „Geschlossen“ gesetzt, für den Fall, der Letzte Besucher hat dies
-nicht getan hat.
+=== Automatisches Zurücksetzen ===
+Der Status wird Mo. bis Fr. um 3 Uhr und am Wochenende um 5 Uhr automatisch auf „Geschlossen“ gesetzt. Für den Fall, dass der letzte Besucher dies nicht getan hat.
 
-Der aktuelle Status kann über http://www.raumzeitlabor.de, oben rechts,
-über die Webapp oder im IRC via !!raum status abgerufen werden. Ab
-demnächst steht der Status auch in den drei Channels im Topic.
-
-Viel Spaß damit!
+== Geplant ==
+*Status in den drei IRC-Channels im Topic
 
 [[Kategorie:Projekt]]
