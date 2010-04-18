@@ -7,16 +7,6 @@
 ==Zu diskutierende Punkte:==
 * [[Club-Mate|Matebestellung]]
 * Wasser
-* Elektroinstallation (Wenn Nessi da ist)
-** Was fehlt?
-** Was muss noch geplant werden --> vor Ort planen
-** Zeitplan
-** Schaltung der Hauptlampen
-* Plattform
-** Aufteilung
-** ggf. nötige Anschaffungen (Kabelkanal, Arbeitsplatten / Tische, ...)
-** Beleuchtung
-* Beamer & Audioverkabelung (Wenn Tim da ist)
 * Schließanlage
 ** Was / Wie
 ** Wer
@@ -26,8 +16,149 @@
 * Cam / Statusbot
 * Spülmaschine / 2x Waschmaschine / Fernseher (GEZ?)
 * Tafel/[http://www.magnetoplan.de/ Whiteboard]
-
+* Elektroinstallation (Wenn Nessi da ist)
+** Was fehlt?
+** Was muss noch geplant werden --> vor Ort planen
+** Zeitplan
+** Schaltung der Hauptlampen
 * grober Zeitplan für den Bau
 
+== Protokoll ==
+
+* Anwesende: Sven, Inte, Secure, Scytale, Don, Niklas, Trickster, Doc_steel, fussl, Unicorn
+
+* Protokoll: Unicorn
+
+* Beginn: 17:45 Uhr
+
+
+== Besprechungsinhalte ==
+
+=== Mate-Bestellung ===
+
+Es muss (schon) wieder Mate bestellt werden. Komischerweise verdampft die Mate sehr schnell. Insbesondere weil unser Multi-Level-Marketing a.k.a. anfixen von neuen Opfern offenbar funktioniert.
+
+Es soll eine Palette bestellt werden. 35 Kisten Mate, 5 Kisten Ice-T.
+
+Da auch die Famefabrik offenbar bedarf an Mate hat, wird über den Kastenpreis gesprochen. Basierend auf den Loscherpreisen, soll ein Kasten Mate wie schon immer 13,50 Euro kosten. Nur der Ice-T kostet 14 Euro, da deutlich teurer im Einkauf.
+
+
+=== Wasseranschluss ===
+
+Es gibt kein Statusupdate. Was sehr unbefriedigend ist. Die Küche ist daher blocked.
+
+
+=== Plattform ===
+
+Wir haben ein Geländer!
+
+Es wird über die Nutzung der Plattform gesprochen. Insbesondere, ob die Couch auf der Plattform bleibt. Da sich eine starke Affinität zur Benutzung etabliert hat, scheint die Entscheidung durch Abstimmung mittels Sitzfleisch bereits geschehen.
+
+Inte schlägt vor, abschließbare Schränke für Verwaltungsfoo unter den Träger an der Ä-Wand zu installieren. Der Vorschlag kommt sehr gut an. Man könnte ja mal in der eBucht nach Schließfachresten schauen.
+
+
+=== Beamer und Audioverkabelung ===
+
+
+==== Video ====
+
+Scytale berichtet von der Idee, eine feste Installationslösung inklusive Wanddose für VGA und Audio 
+zu bauen. 
+
+Ansonsten gibt es noch VGA-Brücken über Netzwerkkabel. Kostet laut Inte 100+ Euro. Könnte aber billiger werden, als VGA-Verlegekabel.
+
+Bis das umgesetzt ist, wird es einfach ein herunterhängendes Kabel geben. Provisorisch und so...
+
+
+==== Audio ====
+
+Die Verkabelung wächst und gedeiht.
+
+Was fehlt sind noch die Boxen in den Raumecken. Es wird darüber gesprochen den Raum in verschiedene Soundzonen zu unterteilen. 
+
+
+=== Schließanlage ===
+
+Das retro-Schlüssel System soll ausgetauscht werden. Wer Spaß an sowas hat, ist herzlich eingeladen, etwas im Rahmen eines Projektes zu verwirklichen.
+
+
+=== Computerinfrastruktur ===
+
+Der Router ist zu laut und verbraucht zu viel Strom. Vorallem ist er zu laut. Und laut ist er auch. Aber Secure und Scytale hängen sich da bereits rein und es wird noch diese Woche eine Lösung geben. Zukünftige Server soll es in Form von Low-Power Maschinen geben. Die sind dann auch schön leise. 
+
+Niklas hat Albträume, dass er von unzähligen Rechner verfolgt wird und daher versprechen wir ihm alle, dass wir nicht so viele Rechner in den Raum stellen.
+
+Überraschenderweise stellt die Versammlung fest, dass ein Rechner auch 2 Aufgaben übernehmen kann. 
+
+
+=== Gerüst ===
+
+Tollerweise ist es noch da und daher kann es benutzt werden.
+
+
+=== Deckenventilator ===
+
+Er wird noch schöner aufgehängt, bleibt aber da.
+
+
+=== WebCam/Statusbot ===
+
+Die WebCam ist weg. Doof ist nur, dass es daher etwas schwerer ist, zu sehen ob jemand da ist. Sven erinnert an die Erinnerung von Fabian, der sich an die Technologie "Telefon" erinnert hat.
+
+Das Telefon soll also gefixt werden, damit Leute auch einfach im Raum anrufen können, ob jemand da ist. Die Technikfraktion will sich mit erhöhter Priorität darum kümmern.
+
+Eine andere Idee ist es, eine Heuristik zu entwickeln, bei der so Sachen wie DHCP-Lease, Stromverbrauch und Mondstellung in die Entscheidung einfließen, ob der Raum offen ist.
+
+
+=== Spülmaschine / 2x Waschmaschine ===
+
+Leider haben wir keine Spülmaschine, dafür aber 2 Waschmaschinen. Vielleicht können wir eine Waschmaschine gegen eine Spülmaschine tauschen. 
+
+
+=== Tafel / Whiteboard ===
+
+Niklas hat eine Tafel aus einer Schule gefunden, die wir bekommen können. Wir wollen die haben! Wird besorgt. Muss dann vielleicht händisch ausgebaut werden.
+
+
+=== Sonstiges ===
+
+
+==== Barcamp ====
+
+Sven berichtet vom Barcamp der "Kreativregion". Er berichtet von vielen Interessanten Gesprächen, nachdem er die Idee eines Hackerspaces vorgestellt hat, haben sich auch viele Interessenten gemeldet, die mal vorbeikommen wollen.
+
+Bei der Gelegenheit muss in diesem Protokoll auch unbedingt auf die exzellenten Erdbeer-Vanille Muffins von Sven hingewiesen werden.
+
+
+==== Bits and Bites ====
+
+Wo wir gerade beim Essen sind: Wir wollen wieder ein Bits and Bites! Termin wird der 30. Mai. Sven organisiert das.
+
+
+==== Webseite ====
+
+Im Raum finden bereits viele Aktionen statt, dass soll etwas breiter kommuniziert werden.
+
+
+==== Kassensituation ====
+
+Wer will kann gerne ein Projekt bauen. Sven hat wen der vielleicht was machen will.
+
+
+==== Gründung ====
+
+Nächsten Sonntag ist Gründungsversammlung. Ab 15 Uhr geht es los.
+
+
+
+== Themen die mit dem Vermieter besprochen werden müssen ==
+
+* Wasseranschluss
+* Papiersituation auf der Toilette
+* Wasseranschluss
+* fehlende Lampenträger
+* Wasseranschluss
+* Miete + Kaution
+* Wasseranschluss
 
 [[Kategorie:Protokoll]]
