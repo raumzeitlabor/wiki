@@ -1,0 +1,36 @@
+Das Podcast-Labor ist eigentlich die falsche Beschreibung; vielmehr soll es im Endausbau ein kleines Sound-/Musikstudio im RaumZeitLabor werden. Aber immerhin haben wir so die Möglichkeit, Podcasts mit 32 Sprechern gleichzeitig zu fahren!
+
+Bisher ist folgendes an Hardware vorhanden:
+
+== Audio-Equipment ==
+* Tascam M-2600 32-Kanal Mischpult
+* MoTU UltraLite mk3 Hybrid Audio-Interface (Firewire/USB)
+* Superlux HD 681F Studio-Kopfhörer
+* ESI nEar 05 Monitorlautsprecher
+* Sennheiser e822 S
+* Peavey Unity 1002 12-Kanal Mischpult
+
+== MIDI-Equipment ==
+* Novation Nocturn MIDI-Controller
+* Native Instruments MASCHINE (inkl. Controller)
+* Evolution UC-33 MIDI-Controller
+* M-Audio KeyStation 61es
+* M-Audio KeyStudio 25
+
+== Sonstiges ==
+* Samsung SyncMaster 931BW 19" TFT
+* Genug Audio-Kabel, um 3-5 Mann an die Decke zu fesseln (passiert dann, wenn jemand mit Getränken in der Nähe des Equipments hantiert, siehe unten)
+
+== Regeln und Handhabung ==
+
+Teilweise ist Audio-Hardware etwas empfindlich. Wenn ihr euch nicht sicher seid, was bei bestimmten Aktionen passieren kann (z.b. bei Aktivierung der +48V Phantomspeisung), fragt einfach [[Benutzer:Timo A. Hummel|mich]]. Bestimmte Informationen zu einelznen Geräten findet Ihr auf der Geräte-Seite.
+
+Einschaltprozedur: Immer zuerst das Mischpult einschalten (großer Kasten unter dem Tisch), prüfen, daß kein Signal durch den Master geht (LED-Bargraph-Anzeige ganz rechts auf dem Pult), erst danach die Monitorboxen einschalten (Kippschalter an der Rückseite der Monitorboxen). Andernfalls könnte es ziemlich in den Monitorboxen knacken und je nach Lautstärke könnte ein Herzinfarkt drohen.
+
+'''Regeln zur Benutzung der Hardware:'''
+
+* Keine Getränke in der Nähe (sprich: <1m) des Equipments
+* Keine Getränke in der Nähe (sprich: <1m) des Equipments
+* Keine Speisen in der Nähe (sprich: <1m) des Equipments
+* Geht so pfleglich um, als ob die Geräte euch gehören würden. Ggf. noch etwas pfleglicher.
+* Achtet darauf, daß keine Flüssigkeiten, Krümel, Speisen und anderes auf die Geräte gelangen. Gerade beim Mischpult ist es sehr ärgerlich, wenn ein Krümel in den Faderweg gerät, denn so ein Fader auszutauschen ist ganz schön viel Arbeit und Ersatzteile sind teuer.
