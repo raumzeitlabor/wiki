@@ -26,7 +26,9 @@ Bisher ist folgendes an Hardware vorhanden:
 
 Teilweise ist Audio-Hardware etwas empfindlich. Wenn ihr euch nicht sicher seid, was bei bestimmten Aktionen passieren kann (z.b. bei Aktivierung der +48V Phantomspeisung), fragt einfach [[Benutzer:Timo A. Hummel|mich]]. Bestimmte Informationen zu einelznen Geräten findet Ihr auf der Geräte-Seite.
 
-Einschaltprozedur: Immer zuerst das Mischpult einschalten (großer Kasten unter dem Tisch), prüfen, daß kein Signal durch den Master geht (LED-Bargraph-Anzeige ganz rechts auf dem Pult), erst danach die Monitorboxen einschalten (Kippschalter an der Rückseite der Monitorboxen). Andernfalls könnte es ziemlich in den Monitorboxen knacken und je nach Lautstärke könnte ein Herzinfarkt drohen.
+'''Einschaltprozedur''': Immer zuerst das Mischpult einschalten (großer Kasten unter dem Tisch), prüfen, daß kein Signal durch den Master geht (LED-Bargraph-Anzeige ganz rechts auf dem Pult), erst danach die Monitorboxen einschalten (Kippschalter an der Rückseite der Monitorboxen). Andernfalls könnte es ziemlich in den Monitorboxen knacken und je nach Lautstärke könnte ein Herzinfarkt drohen.
+
+Da verschiedene Leute die Hardware nutzen, solltet ihr euch die Reglerpositionen des Pultes notieren, falls ihr nicht an einem Abend fertig werdet. Im Handbuch gibt es dazu die Grafik eines Channel-Strips, da müsste man mal das ganze als Kopiervorlage umbasteln, damit man da einfach die Einstellungen markieren kann.
 
 '''Regeln zur Benutzung der Hardware:'''
 
