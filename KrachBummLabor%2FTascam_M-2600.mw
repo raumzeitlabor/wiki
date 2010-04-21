@@ -1,0 +1,40 @@
+Das Tascam M-2600 ist ein Studio-Recording-Pult mit 32 Kanälen (Mic/Line), 32 Tape-Sends und 32-Tape-Returns. 
+
+== Schnellstart ==
+
+'''Einschalten''': Alle Kanalfader runterziehen, Mischpult anschalten (großer Kasten unter dem Tisch), erst DANN die Monitorboxen anschalten (Kippschalter auf der Rückseite der Boxen).
+
+== Eingänge ==
+
+* 17-24: MoTU Analog Outs 1-8
+* 29-30: XLR Inputs 1&2
+* 31-32: MoTU Main Outs
+
+Weitere Eingänge werden belegt, sobald der Musikproduktionsrechner inkl. der benötigten Soundkarten vorhanden ist. Auch denkbar wäre eine Patchbay, damit man nicht immer hinter dem Pult herumkriechen muß, wenn jemand seine Gitarre aufnehmen möchte.
+
+== Wie geht ...? ==
+Diese Sektion gibt einige Hinweise für die "Eigenheiten" von diesem Pult und Recording-Pulten im allgemeinen.
+
+=== ...das mit den Stereo-Kanälen? ===
+
+Es gibt nur ganz wenige Pulte, deren Kanalzüge komplett in Stereo ausgelegt sind. Denn die meisten Signale, die im normalen Studioalltag bearbeitet werden, sind Mono (z.b. Sprache, E-Gitarre usw). Jeder Kanalzug kann im Stereopanorama mittels des PAN-Knopfes (der unterste Knopf bei jedem Kanal) platziert werden. C ist Center, L/R sollte klar sein. Weiterhin kann jeder Kanal einen Stereo-Effekt mittels den Aux-Wegen bekommen. Da wir aber noch keine Effektgeräte haben, hat sich das erst einmal erledigt :)
+
+=== ...denn doch, wenn ich jetzt aber doch einen Stereo-Input habe? ===
+
+Ganz einfach. Du benötigst dafür 2 freie Kanäle, den einen legst du mittels Panning auf L und den anderen auf R. Es ist zwar etwas umständlich, weil man zum abmischen immer 2 Fader bewegen muß, funktioniert aber. Ein Beispiel für eine solche Lösung findest du im Regelfall auf den Kanälen 31 und 32, da dies die regulären Stereo-Outs des MoTU-Interfaces darstellen.
+
+=== ...das mit den Subgruppen? ===
+
+Damit man sich die Finger nicht wundmischt, wenn man z.b. ein ganzes Schlagzeug abgemischt hat und jetzt noch eine Gitarre dazumischen möchte, gibt es die Subgruppen. Diese sind dafür da, um beliebige Kanäle als einen quasi virtuellen Kanal zu nutzen (Routing). Hat man z.b. die Kanäle 1-8 für das Schlagzeug benutzt, so kann man diese 8 Kanäle auf die Subgruppe 1/2 routen und mit nur einem Fader die Kanäle 1-8 abmischen. Natürlich muß man das Routing für den Master entfernen. Natürlich kann man mit Subgruppen noch mehr anstellen, aber die Neugier sollte mit der Kurzinfo hier befriedigt sein ;)
+
+== Wichtig!!! ==
+
+Bitte lasst die Finger von der Phantomspeisung weg. Solltet ihr wirklich die Phantomspeisung benötigen, gibts auf der Rückseite kleine Schalter, mit denen die Phantomspeisung für je 8 Kanäle eingeschaltet werden kann. Hier hilft die Anleitung auch weiter.
+
+== Fehlersuche ==
+
+* Sicherstellen, daß die Routing-Taster "L-R" bei den zu hörenden Kanälen gedrückt sind
+* Sicherstellen, daß in der Sektion "Control Room" der Taster "Stereo" gedrückt ist und der "Level"-Regler mindestens 1/4 aufgedreht ist
+* Sicherstellen, daß der Taster "Line" (ganz oben bei jedem Kanalzug) gedrückt ist
+* Sicherstellen, daß SOLO nicht aktiv ist (sprich: SOLO-Lampe in der Sektion "Control Room" ist AUS)
+* Sicherstellen, daß die zu hörenden Kanäle nicht gemutet sind
