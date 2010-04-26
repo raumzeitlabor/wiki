@@ -27,13 +27,11 @@ Wir nehmen als AS64636 teil mit 6 verschiedenen Peerings (zu jchome, ichdasich, 
 
 === Netzwerkinfrastruktur ===
 * IP-Adresse bitte via DHCP beziehen, feste IP-Adressen bitte bei Scytale oder sECuRE anfragen.
-* Subnetzmaske: 255.255.255.128 (!)
+* Subnetzmaske: 255.255.255.0
 * Gateway: 172.22.36.1
 * DNS-Server: 172.22.36.1
 * NTP-Server: 172.22.36.1
 * DHCP-Server: 172.22.36.1
-
-(anstatt 172.22.36.1 jeweils 172.22.36.129 aus dem gefilterten WLAN „RZL-softcore”)
 
 === 172.22.36.0/25 ===
 
