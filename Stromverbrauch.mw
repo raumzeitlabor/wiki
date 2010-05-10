@@ -1,5 +1,12 @@
+==Verbraucher==
 Hier sind einzelne Verbraucher und ihre Verbrauchswerte aufgeführt:
 
 * Großes Licht (oberer Lichtschalter): 1600-1800W!!!
 * Kleines Licht (unterer Lichtschalter): 200-300W
 * Ventilator mit kl. Lampe: 30-50W
+
+
+==Monitoring==
+Unter https://www.mysmartgrid.de/ gibt es ein Nutzerkonto (User/Pw siehe ML) für das RaumZeitLabor.
+
+Hier wird der Stromverbrauch im Raum mit Hilfe eines [[Fluxo]] gemessen.
