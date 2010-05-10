@@ -63,9 +63,9 @@ Wir nehmen als AS64636 teil mit 6 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.112 || kartoffelsalat || Public Terminal
 |-----
-| 172.22.36.113 || flukso || [[Flukso]] WLAN
+| 172.22.36.113 || flukso || [[Flukso]]
 |-----
-| 172.22.36.114 || flusko || [[Flukso]] LAN
+| 172.22.36.114 || ''reserved'' || Reserviert für Geräte
 |-----
 | 172.22.36.115 || ''reserved'' || Reserviert für Geräte
 |-----
