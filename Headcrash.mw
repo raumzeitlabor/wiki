@@ -1,0 +1,12 @@
+Der Headcrash-Sensor erkennt, ob jemand mit dem Kopf* an den Balken stößt und spielt darauf hin einen Sound, blinkt lustig mit den LED's und loggt die Anzahl der Headcrashes mit.
+
+(*) Technisch gesehen ist es kein Berührungssensor, sondern ein kapazitiver Sensor. Stößt man mit Mütze oder Haaren daran, funktioniert es nicht immer. 
+
+Der Arduino Mega ist derzeit über einen 9V-Block angeschlossen und prüft mittels kapazitiver Messung, ob jemand die Sensorleiste berührt hat. Mehr Infos: http://www.arduino.cc/playground/Code/CapacitiveSensor
+
+
+Pin-Belegungen:
+
+* PWM-Pin 11: Cap Sensor In
+* PWM-Pin 8: Lautsprecher
+* Digitalpins 22-29: LEDs
