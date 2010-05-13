@@ -1,0 +1,87 @@
+Blackbox ist unser derzeitiger Router.
+= errorlog =
+== kernel oops ==
+ May  2 16:27:47 blackbox kernel: [ 4277.196026] *pde = 013bc067 *pte = 00000000 
+ May  2 16:27:47 blackbox kernel: [ 4277.196026] Modules linked in: sit tunnel4 tun bridge stp ip6t_REJECT nf_conntrack_ipv6 ip6table_filter ip6_tables xt_state xt_comment xt_tcpudp iptable_filter ipt_MASQUERADE iptable_nat nf_nat nf_conntrack_ipv4 nf_conntrack nf_defrag_ipv4 ip_tables x_tables ext2 loop arc4 geode_rng rng_core ecb aes_i586 ac aes_generic ath5k mac80211 ath button processor snd_pcm cfg80211 snd_timer rfkill pegasus snd ftdi_sio soundcore evdev led_class snd_page_alloc usbserial cs5535_gpio geode_aes pcspkr ext3 jbd mbcache sd_mod crc_t10dif cs5536 ide_pci_generic usb_storage amd74xx ide_core ata_generic ohci_hcd ehci_hcd libata usbcore nls_base scsi_mod r8169 mii thermal fan thermal_sys [last unloaded: scsi_wait_scan]
+ May  2 16:27:47 blackbox kernel: [ 4277.196026] 
+ May  2 16:27:47 blackbox kernel: [ 4277.196026] Pid: 2121, comm: named Tainted: G      D    (2.6.32-3-486 #1) MS-9801
+ May  2 16:27:47 blackbox kernel: [ 4277.196026] EIP: 0060:[<c10a2276>] EFLAGS: 00010286 CPU: 0
+ May  2 16:27:47 blackbox kernel: [ 4277.196026] EIP is at __destroy_inode+0x30/0x65
+ May  2 16:27:47 blackbox kernel: [ 4277.196026] EAX: fffffefe EBX: f6dfb184 ECX: f73a1f34 EDX: fffffeff
+ May  2 16:27:47 blackbox kernel: [ 4277.196026] ESI: 00000008 EDI: f6e2c980 EBP: f6dfb184 ESP: f73a1f4c
+ May  2 16:27:47 blackbox kernel: [ 4277.196026]  DS: 007b ES: 007b FS: 0000 GS: 00e0 SS: 0068
+ May  2 16:27:47 blackbox kernel: [ 4277.196026]  f6dfb184 c10a22b3 f6dfb184 c10a1bed f6e2c980 c109ff79 f6e2c980 00000008
+ May  2 16:27:47 blackbox kernel: [ 4277.196026] <0> c10a12ea f5ae0600 c1094ff9 f6e2c980 f701e280 f6dfb184 f5ae0600 00000000
+ May  2 16:27:47 blackbox kernel: [ 4277.196026] <0> f739e180 f73a0000 c109271a 00000203 f5ae0600 00000204 c109276c 00000203
+ May  2 16:27:47 blackbox kernel: [ 4277.196026]  [<c10a22b3>] ? destroy_inode+0x8/0x2b
+ May  2 16:27:47 blackbox kernel: [ 4277.196026]  [<c10a1bed>] ? iput+0x47/0x49
+ May  2 16:27:47 blackbox kernel: [ 4277.196026]  [<c109ff79>] ? d_kill+0x2a/0x44
+ May  2 16:27:47 blackbox kernel: [ 4277.196026]  [<c10a12ea>] ? dput+0xe4/0xeb
+ May  2 16:27:47 blackbox kernel: [ 4277.196026]  [<c1094ff9>] ? __fput+0x162/0x18c
+ May  2 16:27:47 blackbox kernel: [ 4277.196026]  [<c109271a>] ? filp_close+0x4e/0x54
+ May  2 16:27:47 blackbox kernel: [ 4277.196026]  [<c109276c>] ? sys_close+0x4c/0x7a
+ May  2 16:27:47 blackbox kernel: [ 4277.196026]  [<c100314c>] ? syscall_call+0x7/0xb
+ May  2 16:27:47 blackbox kernel: [ 4277.196026] ---[ end trace d788941254c90285 ]---
+
+ May  3 07:03:35 blackbox kernel: [56824.968031] *pde = 013bc067 *pte = 00000000 
+ May  3 07:03:35 blackbox kernel: [56824.968031] Modules linked in: sit tunnel4 tun bridge stp ip6t_REJECT nf_conntrack_ipv6 ip6table_filter ip6_tables xt_state xt_comment xt_tcpudp iptable_filter ipt_MASQUERADE iptable_nat nf_nat nf_conntrack_ipv4 nf_conntrack nf_defrag_ipv4 ip_tables x_tables ext2 loop arc4 geode_rng rng_core ecb aes_i586 ac aes_generic ath5k mac80211 ath button processor snd_pcm cfg80211 snd_timer rfkill pegasus snd ftdi_sio soundcore evdev led_class snd_page_alloc usbserial cs5535_gpio geode_aes pcspkr ext3 jbd mbcache sd_mod crc_t10dif cs5536 ide_pci_generic usb_storage amd74xx ide_core ata_generic ohci_hcd ehci_hcd libata usbcore nls_base scsi_mod r8169 mii thermal fan thermal_sys [last unloaded: scsi_wait_scan]
+ May  3 07:03:35 blackbox kernel: [56824.968031] 
+ May  3 07:03:35 blackbox kernel: [56824.968031] Pid: 6728, comm: named Tainted: G      D    (2.6.32-3-486 #1) MS-9801
+ May  3 07:03:35 blackbox kernel: [56824.968031] EIP: 0060:[<c10a2298>] EFLAGS: 00210286 CPU: 0
+ May  3 07:03:35 blackbox kernel: [56824.968031] EIP is at __destroy_inode+0x52/0x65
+ May  3 07:03:35 blackbox kernel: [56824.968031] EAX: fffefffe EBX: f6fc5184 ECX: f73a1f34 EDX: fffeffff
+ May  3 07:03:35 blackbox kernel: [56824.968031] ESI: 00000008 EDI: f6fb5e80 EBP: f6fc5184 ESP: f73a1f4c
+ May  3 07:03:35 blackbox kernel: [56824.968031]  DS: 007b ES: 007b FS: 0000 GS: 00e0 SS: 0068
+ May  3 07:03:35 blackbox kernel: [56824.968031]  f6fc5184 c10a22b3 f6fc5184 c10a1bed f6fb5e80 c109ff79 f6fb5e80 00000008
+ May  3 07:03:35 blackbox kernel: [56824.968031] <0> c10a12ea f72d4380 c1094ff9 f6fb5e80 f701e280 f6fc5184 f72d4380 00000000
+ May  3 07:03:35 blackbox kernel: [56824.968031] <0> f55dc3c0 f73a0000 c109271a 00000217 f72d4380 00000217 c109276c 00000217
+ May  3 07:03:35 blackbox kernel: [56824.968031]  [<c10a22b3>] ? destroy_inode+0x8/0x2b
+ May  3 07:03:35 blackbox kernel: [56824.968031]  [<c10a1bed>] ? iput+0x47/0x49
+ May  3 07:03:35 blackbox kernel: [56824.968031]  [<c109ff79>] ? d_kill+0x2a/0x44
+ May  3 07:03:35 blackbox kernel: [56824.968031]  [<c10a12ea>] ? dput+0xe4/0xeb
+ May  3 07:03:35 blackbox kernel: [56824.968031]  [<c1094ff9>] ? __fput+0x162/0x18c
+ May  3 07:03:35 blackbox kernel: [56824.968031]  [<c109271a>] ? filp_close+0x4e/0x54
+ May  3 07:03:35 blackbox kernel: [56824.968031]  [<c109276c>] ? sys_close+0x4c/0x7a
+ May  3 07:03:35 blackbox kernel: [56824.968031]  [<c100314c>] ? syscall_call+0x7/0xb
+ May  3 07:03:35 blackbox kernel: [56824.968031] ---[ end trace d788941254c90286 ]---
+
+ May  8 03:29:30 blackbox kernel: [212420.725479] *pde = 00000000 
+ May  8 03:29:30 blackbox kernel: [212420.725479] Modules linked in: sit tunnel4 tun bridge stp ip6t_REJECT nf_conntrack_ipv6 ip6table_filter ip6_tables xt_state xt_comment xt_tcpudp iptable_filter ipt_MASQUERADE iptable_nat nf_nat nf_conntrack_ipv4 nf_conntrack nf_defrag_ipv4 ip_tables x_tables ext2 loop arc4 geode_rng rng_core ecb aes_i586 ac aes_generic ath5k mac80211 ath button processor pegasus cfg80211 snd_pcm snd_timer rfkill snd soundcore evdev led_class snd_page_alloc cs5535_gpio geode_aes pcspkr ext3 jbd mbcache sd_mod crc_t10dif usb_storage cs5536 ide_pci_generic amd74xx ide_core ata_generic ehci_hcd ohci_hcd libata usbcore nls_base scsi_mod r8169 mii thermal fan thermal_sys [last unloaded: scsi_wait_scan]
+ May  8 03:29:30 blackbox kernel: [212420.725479] 
+ May  8 03:29:30 blackbox kernel: [212420.725479] Pid: 2380, comm: radvd Tainted: G      D    (2.6.32-3-486 #1) MS-9801
+ May  8 03:29:30 blackbox kernel: [212420.725479] EIP: 0060:[<09e4ca30>] EFLAGS: 00010286 CPU: 0
+ May  8 03:29:30 blackbox kernel: [212420.725479] EIP is at 0x9e4ca30
+ May  8 03:29:30 blackbox kernel: [212420.725479] EAX: f2ac0b87 EBX: 00000000 ECX: b78ce000 EDX: f23a27e8
+ May  8 03:29:30 blackbox kernel: [212420.725479] ESI: f2af2000 EDI: c108311a EBP: b78cd000 ESP: f2af3fb0
+ May  8 03:29:30 blackbox kernel: [212420.725479]  DS: 007b ES: 007b FS: 0000 GS: 00e0 SS: 0068
+ May  8 03:29:30 blackbox kernel: [212420.725479]  c100314c b78cd000 00001000 b78c4ff4 09e4ca30 00000000 bfa189a8 0000005b
+ May  8 03:29:30 blackbox kernel: [212420.725479] <0> 0000007b 0000007b 00000000 00000033 0000005b b784d831 00000073 00000206
+ May  8 03:29:30 blackbox kernel: [212420.725479] <0> bfa18994 0000007b 00000000 00000000
+ May  8 03:29:30 blackbox kernel: [212420.725479]  [<c100314c>] ? syscall_call+0x7/0xb
+ May  8 03:29:30 blackbox kernel: [212420.969912] ---[ end trace 7c0ed99ae11a6ed7 ]---
+
+ May 11 09:12:55 blackbox kernel: [72566.516034] *pde = 00000000 
+ May 11 09:12:55 blackbox kernel: [72566.516034] Modules linked in: sit tunnel4 tun bridge stp ip6t_REJECT nf_conntrack_ipv6 ip6table_filter ip6_tables xt_state xt_comment xt_tcpudp iptable_filter ipt_MASQUERADE iptable_nat nf_nat nf_conntrack_ipv4 nf_conntrack nf_defrag_ipv4 ip_tables x_tables ext2 loop arc4 geode_rng rng_core ecb aes_i586 ac aes_generic ath5k mac80211 button processor ath snd_pcm pegasus cfg80211 snd_timer rfkill snd evdev soundcore led_class snd_page_alloc cs5535_gpio geode_aes pcspkr ext3 jbd mbcache sd_mod crc_t10dif cs5536 ide_pci_generic usb_storage amd74xx ide_core ata_generic ohci_hcd ehci_hcd libata usbcore nls_base scsi_mod r8169 mii thermal fan thermal_sys [last unloaded: scsi_wait_scan]
+ May 11 09:12:55 blackbox kernel: [72566.516034] 
+ May 11 09:12:55 blackbox kernel: [72566.516034] Pid: 21839, comm: arduino.sh Not tainted (2.6.32-3-486 #1) MS-9801
+ May 11 09:12:55 blackbox kernel: [72566.516034] EIP: 0060:[<c101cd07>] EFLAGS: 00010046 CPU: 0
+ May 11 09:12:55 blackbox kernel: [72566.516034] EIP is at ftrace_raw_event_sched_migrate_task+0x54/0xaa
+ May 11 09:12:55 blackbox kernel: [72566.516034] EAX: f4425f60 EBX: f4425f60 ECX: 00000000 EDX: f73137bc
+ May 11 09:12:55 blackbox kernel: [72566.516034] ESI: f73134d0 EDI: f729daf8 EBP: f73134d0 ESP: f4425f48
+ May 11 09:12:55 blackbox kernel: [72566.516034]  DS: 007b ES: 007b FS: 0000 GS: 00e0 SS: 0068
+ May 11 09:12:55 blackbox kernel: [72566.516034]  c102ce70 f4425f90 00000001 f729d9a0 00000010 000003d4 00010000 00000000
+ May 11 09:12:55 blackbox kernel: [72566.516034] <0> ffffffea bfc40930 bfc408a4 f4424000 c102cf21 0807e320 00000000 b7746504
+ May 11 09:12:55 blackbox kernel: [72566.516034] <0> 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000011
+ May 11 09:12:55 blackbox kernel: [72566.516034]  [<c102ce70>] ? do_sigaction+0xfe/0x125
+ May 11 09:12:55 blackbox kernel: [72566.516034]  [<c102cf21>] ? sys_rt_sigaction+0x4d/0x77
+ May 11 09:12:55 blackbox kernel: [72566.516034]  [<c100314c>] ? syscall_call+0x7/0xb
+ May 11 09:12:55 blackbox kernel: [72566.516034] ---[ end trace 733ab8c5e03061ae ]---
+
+== reboot ==
+ May  5 16:31:55 blackbox kernel: imklog 3.18.6, log source = /proc/kmsg started.
+
+ May 10 13:06:14 blackbox kernel: imklog 3.18.6, log source = /proc/kmsg started.
+
+ May 12 13:23:15 blackbox kernel: imklog 3.18.6, log source = /proc/kmsg started.
+
+ May 13 09:57:15 blackbox kernel: imklog 3.18.6, log source = /proc/kmsg started.
