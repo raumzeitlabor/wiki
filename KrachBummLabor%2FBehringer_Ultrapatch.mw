@@ -1,0 +1,54 @@
+Die Patchbay ist die zentrale Stelle für '''benutzerdefinierte Audio-Routings'''.
+
+Im Regelfall funktioniert das ganze Audio-Setup "wie erwartet". Möchte jemand jedoch ein eigenes mitgebrachtes Effektgerät oder eine Gitarre mitbringen und einbinden, so muß er dank der Patchbay nicht hinter dem Pult herumturnen und diese einstöpseln, sondern kann das ganz bequem über die Patchbay machen.
+
+Übrigens: '''wer die Patchbay rückseitig umkonfiguriert, den erwartet die gleiche Strafe, wie als wenn er mit Getränken am Pult hantiert: Fesselung mittels Audio-Kabel an der Decke *hrhr*'''
+
+Die Ports der Patchbay werden mit einer Zahl und einem Buchstaben adressiert, z.b. ist der Eingang des Tascam-Pultes "16" auf B16 zu finden (B=untere Reihe, 16 wie beschriftet).
+
+'''Wichtig: Leider ist der Tascam-Sendkanal falsch beschriftet. Er liegt auf 8, nicht auf 1.'''
+
+=== Standardbelegung ===
+
+Die Patchbay ist vorderseitig beschriftet und bei allen Kanälen außer 23 und 24 auf halbnormalisiert gestellt. Sprich: Auf dem oberen Port liegt jeweils das Eingangssignal an (und kann dort ohne Unterbrechung abgenommen werden) und auf dem unteren Port liegt jeweils der Ausgang.
+
+== Tascam-Eingänge ==
+
+Die Klinken-Eingänge des Tascam-Pultes findet man auf B1-B16. Ist die Patchbay nicht belegt, so erhalten B1-B16 das Audio-Signal von A1-A16 (Eingänge des PC-Audio-Interfaces und des MOTU-Interfaces).
+
+Die Kanäle 31 und 32 sind direkt mit dem MOTU-Interface verbunden!
+
+== PC-Ausgänge ==
+
+Der PC hat eine M-Audio Delta 416 Karte mit 8 analogen Ausgängen und 2 analogen Eingängen. Die 8 Ausgänge sind auf A1-A8 zu finden.
+
+== Send/Return ==
+
+Der Mono-Send befindet sich auf A17, der Stereo-Return auf B19-20.
+
+== Virtualizer ==
+
+Der Virtualizer-Eingang befindet sich auf B17-18, der Virtualizer-Ausgang auf A19-20.
+
+== Master-Insert ==
+
+Der Master-Insert Ausgang befindet sich auf A23-24, der Master-Return auf B21-22.
+
+== Composer ==
+
+Der Composer-Eingang befindet sich auf B23-24, der Composer-Ausgang auf A21-22.
+
+=== Wie schliesse ich ... an? ===
+
+== Eigene E-Gitarre ==
+
+Deine E-Gitarre kannst du über jeden Port zwischen B-1 und B-16 anschliessen. Einfach Klinkenkabel in deine Gitarre, das andere Ende in einen Tascam-Input-Port, fertig! Natürlich kannst du auch ein Effektgerät zwischenschalten, da der pure Sound der E-Gitarre eher langweilig ist. Später kannst du auch das Signal deiner Gitarre über einen Software-Verzerrer geben, aber derzeit ist das leider noch nicht möglich.
+
+== Eigener Synthesizer ==
+
+Die Vorgehensweise ist ähnlich wie bei der E-Gitarre, aber je nachdem, ob dein Synthie Mono oder Stereoausgänge hat, mußt du natürlich mehr als einen Kanal verwenden.
+
+== Eigenes Effektgerät ==
+Derzeit nur möglich, wenn man auf den Virtualizer verzichtet. Stecke ein Klinkenkabel in A17 und verbinde es mit dem Eingang deines Effektgerätes. Stecke 2 Klinkenkabel in B19 und B20 und verbinde diese mit dem L/R-Ausgang deines Effektgerätes. Fertig! Der Auxweg für dein eigenes Effektgerät ist übrigens AUX8 (und nicht Aux1, wie beschriftet)!
+
+[[Kategorie:Hardware]]
