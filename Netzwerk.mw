@@ -69,7 +69,7 @@ Wir nehmen als AS64636 teil mit 6 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.115 || ''reserved'' || Reserviert für Geräte
 |-----
-| 172.22.36.116 || ''reserved'' || Reserviert für Geräte
+| 172.22.36.116 || vp-fon || phillips VoIP-fon
 |-----
 | 172.22.36.117 || ''reserved'' || Reserviert für Geräte
 |-----
