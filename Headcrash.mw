@@ -13,4 +13,9 @@ Pin-Belegungen:
 * PWM-Pin 8: Lautsprecher
 * Digitalpins 22-29: LEDs
 
+== Offene Punkte ==
+
+* Messen, wie lange der frisch aufgeladene 9V-Block hält. Vermutlich nuckelt die kapazitive Messung soviel Strom, daß der Akku relativ schnell leer ist. Netzteil scheidet wegen unserer Stromrechnung aus.
+* Die Alustreifen dauerhaft verbinden - nur wie?
+
 [[Kategorie:Projekt]]
