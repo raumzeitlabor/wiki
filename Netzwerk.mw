@@ -6,6 +6,12 @@ Hier wird/ist die Netzwerkstruktur im Raum dokumentiert.
 
 Bei jeglichen Fragen zum Netz bitte [[Benutzer:Scytale|Scytale]] oder [[Benutzer:SEC|sECuRE]] ansprechen, auf keinen Fall selbst Änderungen an Router, Verkabelung oder IP-Adresszuteilung vornehmen!
 
+== Patchpanel ==
+
+Die Patchpanels sind analog zu den Dosen belegt - sprich: Dose 1 = Port 1 auf den Patchfeld. Derzeit sind 20 Dosen belegt.
+
+Die 24 ist mit dem Flukso belegt. Kein Netzwerk auf diesen Port! (Dies muß auf den Patchpanel noch beschriftet werden. Wenn du gerade im Raum bist und das Beschriftungsgerät ein neues Band hat, mach das doch bitte!)
+
 == Uplink ==
 Wir nutzen die Internetverbindung eines unserer Nachbarn mit.
 Die Leitung kommt an der Ecke bei der Eingangstür aus der Decke, man bekommt dort auch von irgendnem Consumer-Router per DHCP eine geNATete IP. Es scheint ein Arcor DSL 6000-Anschluss zu sein
