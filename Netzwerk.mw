@@ -65,7 +65,7 @@ Wir nehmen als AS64636 teil mit 6 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.4 || fritzbox || Fritzbox 7170 Scytale („RZL-hardcore”)
 |-----
-| 172.22.36.5 || ''reserved'' || Reserviert für Infrastruktur
+| 172.22.36.5 || xylan || OmniStack 24 Port Switch
 |-----
 | 172.22.36.6 || ''reserved'' || Reserviert für Infrastruktur
 |-----
