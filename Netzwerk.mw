@@ -4,13 +4,25 @@ Hier wird/ist die Netzwerkstruktur im Raum dokumentiert.
 
 == Ansprechpartner ==
 
-Bei jeglichen Fragen zum Netz bitte [[Benutzer:Scytale|Scytale]] oder [[Benutzer:SEC|sECuRE]] ansprechen, auf keinen Fall selbst Änderungen an Router, Verkabelung oder IP-Adresszuteilung vornehmen!
+Bei jeglichen Fragen zum Netz bitte [[Benutzer:Docsteel|Docsteel]], [[Benutzer:Scytale|Scytale]] oder [[Benutzer:SEC|sECuRE]] ansprechen, auf keinen Fall selbst Änderungen an Router, Verkabelung oder IP-Adresszuteilung vornehmen!
 
 == Patchpanel ==
 
-Die Patchpanels sind analog zu den Dosen belegt - sprich: Dose 1 = Port 1 auf den Patchfeld. Derzeit sind 20 Dosen belegt.
+Die Patchpanels sind analog zu den Dosen belegt - sprich: Dose 1 = Port 1 auf den Patchfeld. Derzeit sind 17 Dosen belegt.
 
-Die 24 ist mit dem Flukso belegt. Kein Netzwerk auf diesen Port! (Dies muß auf den Patchpanel noch beschriftet werden. Wenn du gerade im Raum bist und das Beschriftungsgerät ein neues Band hat, mach das doch bitte!)
+Die Dosen 9 und 10 sind die Dosen auf der Beamerplatform.
+
+'''ACHTUNG:''' Die Patchpanel Ports 21 - 24 sind für Sonderanwendungen(Flusko, Türsteuerung, Audio, etc.) vorgesehen und haben '''krumme Kabelbelegungen und unter Umständen SPANNUNG auf dem Port!'''
+
+Port 24: ist mit dem Flukso belegt. Kein Netzwerk auf diesen Port! (Dies muß auf den Patchpanel noch beschriftet werden. Wenn du gerade im Raum bist und das Beschriftungsgerät ein neues Band hat, mach das doch bitte!)
+
+== Switch ==
+
+Die Ports auf dem Switch sind wie folgt belegt:
+
+Port 1 - 17: Dosen im Raum, Switchport=Dosennummer
+
+Port 18 - 24: Infrastruktur und Sonderanwendungen mit anderer VLAN Config!
 
 == Uplink ==
 Wir nutzen die Internetverbindung eines unserer Nachbarn mit.
@@ -32,7 +44,7 @@ Wir nehmen als AS64636 teil mit 6 verschiedenen Peerings (zu jchome, ichdasich, 
 == Hosts ==
 
 === Netzwerkinfrastruktur ===
-* IP-Adresse bitte via DHCP beziehen, feste IP-Adressen bitte bei Scytale oder sECuRE anfragen.
+* IP-Adresse bitte via DHCP beziehen, feste IP-Adressen bitte bei Docsteel, Scytale oder sECuRE anfragen.
 * Subnetzmaske: 255.255.255.0
 * Gateway: 172.22.36.1
 * DNS-Server: 172.22.36.1
