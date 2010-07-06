@@ -1,8 +1,6 @@
 '''Ansprechpartner:''' [[Benutzer:Inte|Inte]]
 
-Der Konnektor ist eine kompakte mobile Ladestation für alle Geräte die via USB geladen werden können. Versorgt von 4 AA Batterien/Akkus werden selbst die stromhungrigsten Verbraucher gesättigt.
-
-In der nächsten (geplanten) Ausbaustufe soll die Platine als Spannungsversorgung für batteriebetriebene Mikrocontrollerprojekte dienen.
+Der '''Konnektor''' ist eine stabilisierte 5V-Spannungsversorgung (Imax=600mA) mit vier Mignonakkus/-batterien (AA) als Quelle. Alles landet in einem schicken Gehäuse mit ordentlichem Batteriefach und Platz für eine große Platine, auf der alle möglichen Spielereien platziert werden können. Später soll damit ein Mikrocontroller und diverse Sensorik betrieben werden. In der ersten Ausbaustufe gibt es einen USB-Port zum Aufladen/Betreiben von USB-Endgeräten.
 
 ==Teileliste==
 {|
@@ -80,6 +78,7 @@ In der nächsten (geplanten) Ausbaustufe soll die Platine als Spannungsversorgun
 [[Datei:Konnektor_layout.png|400px|thumb|Platinenlayout]]
 
 ==Siehe auch==
+*[http://www.ladyada.net/make/mintyboost/ Mintyboost]
 *[[Kicad]]
 
 [[Kategorie:Projekt]]
