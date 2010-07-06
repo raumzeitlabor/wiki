@@ -8,66 +8,77 @@ Der '''Konnektor''' ist eine stabilisierte 5V-Spannungsversorgung (Imax=600mA) m
 |'''Bezeichnung'''
 |'''Anzahl'''
 |'''Lieferant / Artikelnummer'''
+|'''Datenblatt'''
 |'''Stückpreis'''
 |-
 |1.
 |Kleingehäuse 123x72x39mm, Kunststoff, 4AA
 |1
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=73221;PROVID=2402 Reichelt / GEH KSB 02B]
+|
 |3,15€
 |-
 |2.
 |Streifenrasterplatine, Hartpapier, 75x100mm
 |1
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=8276;PROVID=2402 Reichelt / H25SR075]
+|
 |0,90€
 |-
 |3.
-|LT1302CN8-5
+|[http://www.linear.com/pc/productDetail.jsp?navId=H0,C1,C1003,C1042,C1031,C1060,P1029 LT1302CN8-5]
 |1
 |[http://de.farnell.com/linear-technology/lt1302cn8-5-pbf/dc-dc-converter-5v-dip8-1302/dp/1273715 Farnell / 1273715]
+|[http://cds.linear.com/docs/Datasheet/lt1302.pdf LT1302 - Micropower High Output Current Step-Up Adjustable and Fixed 5V DC/DC Converters]
 |4,04€
 |-
 |4.
 |IC-Sockel, 8-polig, doppelter Federkontakt
 |1
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=8230;PROVID=2402 Reichelt / GS 8]
+|
 |0,04€
 |-
 |5.
 |Elko radial, 105°C, low ESR, RM 2,5mm
 |2
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=84634;PROVID=2402 Reichelt / RAD FC 220/10]
+|
 |0,12€
 |-
 |6.
 |Elko radial, 105°C, low ESR, RM 2,5mm
 |2
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=84580;PROVID=2402 Reichelt / RAD FC 1,0/50]
+|
 |0,08€
 |-
 |7.
 |Metallschichtwiderstand 100 K-Ohm
 |2
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=11458;PROVID=2402 Reichelt / METALL 100K]
+|
 |0,082€
 |-
 |8.
 |Schottky Diode, DO41, 30V, 1A
 |1
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=41849;PROVID=2402 Reichelt / 1N 5818]
+|
 |0,06€
 |-
 |9.
 |Stehende-Induktivität, 07HCP, Ferrit, 22µ
 |1
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=86399;PROVID=2402 Reichelt / L-07HCP 22µ]
+|
 |0,30€
 |-
 |10.
 |USB-Einbaubuchse, Serie A, gew., Printmontage
 |1
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=22184;PROVID=2402 Reichelt / USB AW]
+|
 |0,18€
 |}
 
