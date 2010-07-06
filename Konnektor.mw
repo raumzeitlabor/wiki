@@ -1,5 +1,9 @@
 '''Ansprechpartner:''' [[Benutzer:Inte|Inte]]
 
+Der Konnektor ist eine kompakte mobile Ladestation für alle Geräte die via USB geladen werden können. Versorgt von 4 AA Batterien/Akkus werden selbst die stromhungrigsten Verbraucher gesättigt.
+
+In der nächsten (geplanten) Ausbaustufe soll die Platine als Spannungsversorgung für batteriebetriebene Mikrocontrollerprojekte dienen.
+
 ==Teileliste==
 {|
 |'''Position'''
