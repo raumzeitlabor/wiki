@@ -1,0 +1,52 @@
+Diese Seite dient der Dokumentation des Reverse-Engineering-Prozesses des NPM 2000.
+
+==Überblick==
+
+Das NPM 2000 besteht aus zwei Platinen:
+
+* Hochspannungsteil mit den Relais und einem Trafo zur Versorgnung des Niederspannungsteils.
+* Niederspannungsteil mit µC und einer Netzwerkanbindung auf einer separaten Platine.
+
+==Anschlüsse==
+
+* COM1 ist RS485 oder RS422
+* COM2 ist RS232
+
+==Hochspannungsteil==
+
+===TODO===
+
+* Bilder
+* Schaltplan
+* Bestückungsliste
+
+==Niederspannungsteil==
+
+* CPU: Atmel AT89C52-24PC (MPC51-kompatibel)
+* UART: Exar ST16C550CP D9633
+* EEPROM: Atmel 528 24C02 P127
+* RTC: Dallas DS1307
+* Reset-Controller: Maxim MAX706 EPA0305
+* Diverse 74xx
+* Pegelkonverter für RS232 und RS485/RS422
+
+===TODO===
+
+* Bilder
+* Schaltplan
+* Bestückungsliste vervollständigen
+* EEPROM dumpen
+* AT89C52 dumpen, sofern möglich (Lockbits?)
+
+==Netzwerkanbindung==
+
+* CPU: ??? (Beschriftung abgeschliffen)
+* NIC: RTL8109AS 14454T1
+* EEPROM: CSI 24WC023 0445C
+
+===TODO===
+
+* Bilder
+* Schaltplan
+* Bestückungsliste
+* CPU identifizieren
