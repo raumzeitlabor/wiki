@@ -7,6 +7,8 @@ Das NPM 2000 besteht aus zwei Platinen:
 * Hochspannungsteil mit den Relais und einem Trafo zur Versorgnung des Niederspannungsteils.
 * Niederspannungsteil mit µC und einer Netzwerkanbindung auf einer separaten Platine.
 
+Eine grundlegende Doku gibt es hier: [[Media:NPM_Manual.pdf]]
+
 ==Anschlüsse==
 
 * COM1 ist RS485 oder RS422
