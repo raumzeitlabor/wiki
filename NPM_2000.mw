@@ -140,3 +140,14 @@ etc...
 * Port 8
 ** an:
 ** aus:
+
+
+Abfrage Port Status:
+ (echo -n '5507FFFF123456785A'; sleep 0.1; echo -n 'D103FFFFD2') | netcat 192.168.0.178 4001
+
+Antwort:
+ AA03FFFFA9D104FFFF4E9B
+Die letzten 4 Zeichen in binär: 0100 1110 1001 1011
+* Port an: 7,4,3,2  aus: 8,6,5,1
+* Die ersten beiden der letzen 4er Gruppe in hex geben in Binär konvertiert den Portstatus an.
+* Die vorletzte Vierergruppe (hier:1001) ist noch unklar.
