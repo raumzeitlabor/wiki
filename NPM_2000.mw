@@ -101,10 +101,10 @@ Dies kann auch mit netcat von Hand durchgeführt werden:
 Port 1 einschalten:  
  (echo -n '5507FFFF123456785A'; sleep 0.1; echo -n 'B204FFFF01B7') | netcat 192.168.0.178 4001
 Port 1 ausschalten:
-(echo -n '5507FFFF123456785A'; sleep 0.1; echo -n 'C204FFFF01C7') | netcat 192.168.0.178 4001
+ (echo -n '5507FFFF123456785A'; sleep 0.1; echo -n 'C204FFFF01C7') | netcat 192.168.0.178 4001
 Port 2 einschalten:
-(echo -n '5507FFFF123456785A'; sleep 0.1; echo -n 'B204FFFF02B4') | netcat 192.168.0.178 4001
+ (echo -n '5507FFFF123456785A'; sleep 0.1; echo -n 'B204FFFF02B4') | netcat 192.168.0.178 4001
 Port 2 ausschalten:
-(echo -n '5507FFFF123456785A'; sleep 0.1; echo -n 'C204FFFF02C4') | netcat 192.168.0.178 4001
+ (echo -n '5507FFFF123456785A'; sleep 0.1; echo -n 'C204FFFF02C4') | netcat 192.168.0.178 4001
 
 etc...
