@@ -126,20 +126,20 @@ etc...
 ** aus: 04C2
 
 * Port 5
-** an: 
-** aus: 
+** an: 05B3
+** aus: 05C3
 
 * Port 6
-** an: 
-** aus: 
+** an: 06B0
+** aus: 06C0
 
 * Port 7
-** an: 
-** aus:
+** an: 07B1
+** aus: 07C1
 
 * Port 8
-** an:
-** aus:
+** an: 08BE
+** aus: 08CE
 
 
 Abfrage Port Status:
