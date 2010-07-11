@@ -108,3 +108,35 @@ Port 2 ausschalten:
  (echo -n '5507FFFF123456785A'; sleep 0.1; echo -n 'C204FFFF02C4') | netcat 192.168.0.178 4001
 
 etc...
+
+* Port 1
+** an: 01B7
+** aus: 01C7
+
+* Port 2
+** an: 02B4
+** aus: 02C4
+
+* Port 3
+** an: 03B5
+** aus: 03C5
+
+* Port 4
+** an: 04B2
+** aus: 04C2
+
+* Port 5
+** an: 
+** aus: 
+
+* Port 6
+** an: 
+** aus: 
+
+* Port 7
+** an: 
+** aus:
+
+* Port 8
+** an:
+** aus:
