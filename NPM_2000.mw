@@ -43,6 +43,7 @@ Das NPM 2000 besteht aus zwei Platinen:
 * CPU: ??? (Beschriftung abgeschliffen)
 * NIC: RTL8109AS 14454T1
 * EEPROM: CSI 24WC023 0445C
+* IP: per Default: 192.168.0.178/24
 
 ===TODO===
 
