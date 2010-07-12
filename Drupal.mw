@@ -9,10 +9,22 @@
 *Flattr einbinden
 *Paypal-Spendenbutton einbinden
 *Tweets & Dents von @RaumZeitLabor und mit #RaumZeitLabor einbinden
+*[http://drupal.org/project/udplanet Planet] für externe Inhalte mit dem Tag ''RaumZeitLabor'' einrichten
 ===Inhalt===
 *Benutzer von Wordpress umziehen
 *Texte von Wordpress umziehen
 *Kommentare von Wordpress umziehen
 *Bilder von Wordpress umziehen
+
+==Theme==
+*[http://drupal.org/project/danland Danland]
+
+==Installierte Module==
+*[[CiviCRM]]
+*http://drupal.org/project/views
+*http://drupal.org/project/feeds
+**http://drupal.org/project/ctools
+*http://drupal.org/project/Flattr
+*http://drupal.org/project/twitter
 
 [[Kategorie:Projekt]]
