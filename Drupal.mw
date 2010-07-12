@@ -18,6 +18,12 @@ Eine Testinstallation ist unter http://raumzeitlabor.kral.ws/ zu finden.
 *Kommentare von Wordpress umziehen
 *Bilder von Wordpress umziehen
 
+==Pfade==
+;Modulverzeichnis
+:/sites/all/modules
+;Themeverzeichnis
+:/sites/all/themes
+;
 ==Theme==
 *[http://drupal.org/project/danland Danland]
 
