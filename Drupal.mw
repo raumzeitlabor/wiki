@@ -29,6 +29,8 @@ Eine Testinstallation ist unter http://raumzeitlabor.kral.ws/ zu finden.
 ;
 ==Theme==
 *[http://drupal.org/project/danland Danland]
+===Anpassungen===
+*http://raumzeitlabor.kral.ws/sites/all/themes/danland/local.css
 
 ==Installierte Module==
 *[[CiviCRM]]
