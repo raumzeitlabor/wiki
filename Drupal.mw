@@ -32,6 +32,7 @@ Eine Testinstallation ist unter http://raumzeitlabor.kral.ws/ zu finden.
 
 ==Installierte Module==
 *[[CiviCRM]]
+**[http://drupal.org/project/cck Content Construction Kit (CCK)]
 **[http://crmproject.de/node/22 Direct Debit]
 ***[http://pear.php.net/package/Payment_DTA Payment_DTA]
 *[http://drupal.org/project/views Views]
@@ -49,5 +50,11 @@ Eine Testinstallation ist unter http://raumzeitlabor.kral.ws/ zu finden.
 **[http://ckeditor.com/ CKEditor]
 *[http://drupal.org/project/imce IMCE]
 **[http://drupal.org/project/imce_wysiwyg IMCE Wysiwyg bridge]
+*[http://drupal.org/project/wysiwyg_imageupload WYSIWYG image upload]
+**[http://drupal.org/project/jquery_ui_dialog Jquery UI Dialog]
+**[http://drupal.org/project/jquery_ui jQuery UI]
+**[http://drupal.org/project/jquery_update jQuery Update]
+*[http://drupal.org/project/imageapi ImageAPI]
+**[http://drupal.org/project/imagecache ImageCache]
 
 [[Kategorie:Projekt]]
