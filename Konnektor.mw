@@ -90,6 +90,10 @@ Alternativ kann man den LT1302SO8-5 (z.B. [http://www.conrad.de/ce/ProductDetail
 ==Layout==
 [[Datei:Konnektor_layout.png|400px|thumb|Platinenlayout]]
 
+==FAQ==
+===Ist bei 4 AA-Zellen die Versorgungsspannung mit 6V nicht zu hoch?===
+''Theoretisch'' ja, da der LT1302 ein Stepup-Regler und kein Stepdown- bzw. SEPIC-Regler ist. ''Praktisch'' nein, da wir aus Kostengründen nur mit NiMh-Akkus arbeiten und deren Spannung in Summe maximal 5,4V (4x1,35V) beträgt. Die Schaltungsverluste mit eingerechnet liegen am Ausgang nur noch ~5,16V an. Wem das zu kritisch ist, kann die Eingangsspannung noch mit einer Diode reduzieren. Dabei wird auch gleich ein Verpolungsschutz integriert.
+
 ==Siehe auch==
 *[http://www.ladyada.net/make/mintyboost/ Mintyboost]
 *[http://forums.adafruit.com/viewtopic.php?f=15&t=11827 Adafruit Forums - 4AA efficiency]
