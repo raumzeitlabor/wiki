@@ -28,7 +28,7 @@ Der '''Konnektor''' ist eine stabilisierte 5V-Spannungsversorgung (Imax=600mA) m
 |3.
 |[http://www.linear.com/pc/productDetail.jsp?navId=H0,C1,C1003,C1042,C1031,C1060,P1029 LT1302CN8-5]
 |1
-|[http://de.farnell.com/linear-technology/lt1302cn8-5-pbf/dc-dc-converter-5v-dip8-1302/dp/1273715 Farnell / 1273715]<br>[http://www.conrad.de/ce/ProductDetail.html?hk=WW2&insert=U1&WT.mc_id=epro&productcode=152695&zanpid=1394611093368001536 Conrad / 152695-U1]
+|[http://de.farnell.com/linear-technology/lt1302cn8-5-pbf/dc-dc-converter-5v-dip8-1302/dp/1273715 Farnell / 1273715]
 |[http://cds.linear.com/docs/Datasheet/lt1302.pdf LT1302 - Micropower High Output Current Step-Up Adjustable and Fixed 5V DC/DC Converters]
 |4,04€
 |-
@@ -81,6 +81,8 @@ Der '''Konnektor''' ist eine stabilisierte 5V-Spannungsversorgung (Imax=600mA) m
 |
 |0,18€
 |}
+
+Alternativ kann man den LT1302SO8-5 (z.B. [http://www.conrad.de/ce/ProductDetail.html?hk=WW2&insert=U1&WT.mc_id=epro&productcode=152695&zanpid=1394611093368001536 Conrad / 152695-U1]) verbauen. Dann wird noch ein Adapter (z.B. [http://www.elv.de/output/controller.aspx?cid=74&detail=10&detail2=10621&flv=1 ELV / 68-615-00]) benötigt.
 
 ==Schaltplan==
 [[Datei:Konnektor_schema.png|400px|thumb|Schaltplan]]
