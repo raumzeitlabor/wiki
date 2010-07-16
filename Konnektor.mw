@@ -119,7 +119,7 @@ Der '''Konnektor''' ist eine stabilisierte 5V-Spannungsversorgung (Imax=600mA) m
 
 ==FAQ==
 ===Ist bei 4 AA-Zellen die Versorgungsspannung mit 6V nicht zu hoch?===
-''Theoretisch'' ja, da der LT1302 ein Stepup-Regler und kein Stepdown- bzw. SEPIC-Regler ist. ''Praktisch'' nein, da wir aus Kostengründen nur mit NiMh-Akkus arbeiten und deren Spannung in Summe maximal 5,4V (4x1,35V) beträgt. Die Schaltungsverluste mit eingerechnet liegen am Ausgang nur noch ~5,16V an. Wem das zu kritisch ist, kann die Eingangsspannung noch mit einer Diode reduzieren. Dabei wird auch gleich ein Verpolungsschutz integriert.
+''Theoretisch'' ja, da der LT1302 ein Stepup-Regler und kein Stepdown- bzw. SEPIC-Regler ist. ''Praktisch'' nein, da wir aus Kostengründen (Batterien sind auf Dauer zu teuer) nur mit NiMh-Akkus arbeiten und deren Spannung in Summe maximal 5,4V (4x1,35V) beträgt. Die Schaltungsverluste mit eingerechnet liegen am Ausgang nur noch ~5,16V an. Wem das zu kritisch ist, kann die Eingangsspannung noch mit einer Diode reduzieren. Dabei wird auch gleich ein Verpolungsschutz integriert.
 
 ==Siehe auch==
 *[http://www.ladyada.net/make/mintyboost/ Mintyboost]
