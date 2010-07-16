@@ -76,7 +76,9 @@ Der '''Konnektor''' ist eine stabilisierte 5V-Spannungsversorgung (Imax=600mA) m
 |0,18€
 |}
 
-Alternativ kann man den LT1302SO8-5 (z.B. [http://www.conrad.de/ce/ProductDetail.html?hk=WW2&insert=U1&WT.mc_id=epro&productcode=152695&zanpid=1394611093368001536 Conrad / 152695-U1]) verbauen. Dann wird noch ein Adapter (z.B. [http://www.elv.de/output/controller.aspx?cid=74&detail=10&detail2=10621&flv=1 ELV / 68-615-00]) benötigt.
+====Alternativen====
+#LT1302SO8-5 (z.B. [http://www.conrad.de/ce/ProductDetail.html?hk=WW2&insert=U1&WT.mc_id=epro&productcode=152695&zanpid=1394611093368001536 Conrad / 152695-U1] / 7,32€) verbauen. Dann wird noch ein Adapter (z.B. [http://www.elv.de/output/controller.aspx?cid=74&detail=10&detail2=10621&flv=1 ELV / 68-615-00] / 1,35€) benötigt.
+#LT1302CS8 bei [http://www.reichelt.de/?ACTION=3;ARTICLE=39545;PROVID=2402 Reichelt (4,80€)] + SMD-Adapter. Dann wird noch ein zusätzlicher Spannungsteiler benötigt um die gewünschte Ausgangsspannung von 5V einzustellen. Niedrigere Ausgangsspannungen (z.B. 3,3V) sind auch möglich. Allerdings muss dann auf mindestens eine Zelle (3x 1,35V der Zellen - 0,7V Spannungsabfall an der Schutzdiode = ~3,3V Eingangsspannung) verzichtet werden.
 
 ===Gehäuse===
 {|
