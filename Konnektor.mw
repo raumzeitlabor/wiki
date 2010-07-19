@@ -50,27 +50,34 @@ Der '''Konnektor''' ist eine stabilisierte 5V-Spannungsversorgung (Imax=600mA) m
 |0,04€
 |-
 |6.
+|Tantal-Kondensator, Rm 2,5, 1,0µF/35V
+|''evtl. 1''
+|[http://www.reichelt.de/?ACTION=3;ARTICLE=20330;PROVID=2402 Reichelt / TANTAL 1,0/35]
+|
+|0,14€
+|-
+|7.
 |Metallschichtwiderstand 100 K-Ohm
 |2
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=11458;PROVID=2402 Reichelt / METALL 100K]
 |
 |0,082€
 |-
-|7.
+|8.
 |Schottky Diode, DO41, 30V, 1A
 |1
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=41849;PROVID=2402 Reichelt / 1N 5818]
 |
 |0,06€
 |-
-|8.
+|9.
 |Stehende-Induktivität, 07HCP, Ferrit, 22µ
 |1
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=86399;PROVID=2402 Reichelt / L-07HCP 22µ]
 |[http://www.reichelt.de/?;ACTION=7;LA=28;OPEN=0;INDEX=0;FILENAME=B400%252FL-07HCP.pdf FASTRON / L-07HCP.pdf]
 |0,30€
 |-
-|9.
+|10.
 |USB-Einbaubuchse, Serie A, gew., Printmontage
 |1
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=22184;PROVID=2402 Reichelt / USB AW]
