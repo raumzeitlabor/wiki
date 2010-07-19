@@ -42,11 +42,12 @@ Der '''Konnektor''' ist eine stabilisierte 5V-Spannungsversorgung (Imax=600mA) m
 |0,12€
 |-
 |5.
-|Keramik-Kondensator 100N (0,1µF)
+|Vielschicht-Keramikkondensator 100N, 10%
 |2
-|[http://www.reichelt.de/?ACTION=3;ARTICLE=9265;PROVID=2402 Reichelt / KERKO 100N]
+|[http://www.reichelt.de/?ACTION=3;ARTICLE=22853;PROVID=2402 Reichelt / X7R-2,5 100N]<br>''oder''<br>
+[http://www.reichelt.de/?ACTION=3;ARTICLE=22865;PROVID=2402 Reichelt / X7R-5 100N]
 |
-|0,06€
+|0,04€
 |-
 |6.
 |Metallschichtwiderstand 100 K-Ohm
