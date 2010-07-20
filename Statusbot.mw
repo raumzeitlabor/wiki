@@ -1,24 +1,25 @@
-'''Status:''' In Arbeit (Teilweise funktionsfähig)<br>
+'''Status:''' Beta<br>
 '''Ansprechpartner:''' [[Benutzer:Silsha|silsha]]
 
 == Features ==
 Der aktuelle Status kann über http://www.raumzeitlabor.de (oben rechts), über die Webapp oder im IRC via ''!!raum status'' abgerufen werden.
 
-Der Raumstatus wird durch einen Besucher des Labors gesetzt, dafür gibt es zurzeit verschiedene Möglichkeiten.
+Der Raumstatus wird automatisch durch einen Schalter in der Tür gesetzt.
 
 === IRC ===
-In den Räumen #oqlt, #raumzeitlabor und #chaos-hd sitzt ein Bot namens RZLBot, bzw. chymeia bei #oqlt. Dem Bot kann man via ''!!raum offen'', bzw. ''!!raum zu'' den aktuellen Status nennen.
+In den Räumen #oqlt und #raumzeitlabor (hackint) kann der Status via ''!!raum'' abgefragt werden.
 
 === Mobile Webapp ===
 http://status.raumzeitlabor.de/mobile.php (iPhone optimiert)
 
-=== HTTP ===
-Der Status kann über http://status.raumzeitlabor.de/set.php?set=1 oder http://status.raumzeitlabor.de/set.php?set=0 jeweils auf oder zu gesetzt werden. Praktisch für spätere Erweiterungen.
+===Web 2.0 Zeugs===
+Der Status wird auch auf [http://identi.ca/RaumZeitStatus Identi.ca] und auf [http://twitter.com/raumzeitstatus Twitter] veröffentlicht. Der Account lautet bei beiden Netzwerken RaumZeitStatus
 
-=== Automatisches Zurücksetzen ===
-Der Status wird Mo. bis Fr. um 3 Uhr und am Wochenende um 5 Uhr automatisch auf „Geschlossen“ gesetzt. Für den Fall, dass der letzte Besucher dies nicht getan hat.
+=== RSS ===
+Identi.ca hat einen öffentlichen RSS-Feed über welchen der Status auch ohne Identi.ca Account abgefragt werden kann. Den Feed gibts unter [http://identi.ca/api/statuses/user_timeline/191025.rss http://identi.ca/api/statuses/user_timeline/191025.rss]
 
 == Geplant ==
 *Status in den drei IRC-Channels im Topic
+*Status im IRC-Channel automatisch posten
 
 [[Kategorie:Projekt]]
