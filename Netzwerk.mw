@@ -14,7 +14,8 @@ Die Dosen 9 und 10 sind die Dosen auf der Beamerplatform.
 
 '''ACHTUNG:''' Die Patchpanel Ports 21 - 24 sind für Sonderanwendungen(Flusko, Türsteuerung, Audio, etc.) vorgesehen und haben '''krumme Kabelbelegungen und unter Umständen SPANNUNG auf dem Port!'''
 
-Port 24: ist mit dem Flukso belegt. Kein Netzwerk auf diesen Port! (Dies muß auf den Patchpanel noch beschriftet werden. Wenn du gerade im Raum bist und das Beschriftungsgerät ein neues Band hat, mach das doch bitte!)
+Port 23: ist mit der Türlogik belegt (1 Grün halb 2 Grün 3 Blau 4 Orange halb 5 blau halb 6 orange 7 braun halb 8 braun) 
+Port 24: ist mit dem Flukso belegt.
 
 == Switch ==
 
