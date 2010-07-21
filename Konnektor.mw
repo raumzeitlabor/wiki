@@ -138,9 +138,9 @@ Der '''Konnektor''' ist eine stabilisierte 5V-Spannungsversorgung (Imax=600mA) m
 [[Datei:Konnektor_schema.png|400px|thumb|Schaltplan]]
 
 ==Layout==
-[[Datei:Konnektor_layout.png|400px|thumb|Platinenlayout]]
-[[Datei:Konnektor_lochstreifen_oben.png|400px|thumb|]Da Lochmaster keine Spule in der Bauteilbibliothek hat, wurde sie durch einen Kondensator (C1) ersetzt.]]
-[[Datei:Konnektor_lochstreifen_unten.png|400px|thumb|]]
+[[Datei:Konnektor_layout.png|400px|thumb|Eine erste Version des Platinenlayouts mit Kicad]]
+[[Datei:Konnektor_lochstreifen_oben.png|400px|thumb|Vorderseite (überarbeitete Version)]]
+[[Datei:Konnektor_lochstreifen_unten.png|400px|thumb|Rückseite (überarbeitete Version)]]
 
 ==FAQ==
 ===Ist bei 4 AA-Zellen die Versorgungsspannung mit 6V nicht zu hoch?===
