@@ -24,7 +24,7 @@ Der '''Konnektor''' ist eine stabilisierte 5V-Spannungsversorgung (Imax=600mA) m
 |1
 |[http://de.farnell.com/linear-technology/lt1302cn8-5-pbf/dc-dc-converter-5v-dip8-1302/dp/1273715 Farnell / 1273715]<br>
 [http://de.rs-online.com/web/5455950.html RS Components / 545-5950]
-|[http://cds.linear.com/docs/Datasheet/lt1302.pdf LT1302 - Micropower High Output Current Step-Up Adjustable and Fixed 5V DC/DC Converters]
+|[http://cds.linear.com/docs/Datasheet/lt1302.pdf LT1302]
 |6,95€
 |-
 |3.
@@ -34,50 +34,64 @@ Der '''Konnektor''' ist eine stabilisierte 5V-Spannungsversorgung (Imax=600mA) m
 |
 |0,04€
 |-
-|4.
+|4. (''C1'' & ''C2'')
 |Elko radial, 105°C, low ESR, RM 2,5mm
 |2
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=84634;PROVID=2402 Reichelt / RAD FC 220/10]
 |
 |0,12€
 |-
-|5.
+|5. (''C3'')
 |Vielschicht-Keramikkondensator 100N, 10%
-|2
-|[http://www.reichelt.de/?ACTION=3;ARTICLE=22853;PROVID=2402 Reichelt / X7R-2,5 100N]<br>''oder''<br>
+|1
+|[http://www.reichelt.de/?ACTION=3;ARTICLE=22853;PROVID=2402 Reichelt / X7R-2,5 100N] ''oder''<br>
 [http://www.reichelt.de/?ACTION=3;ARTICLE=22865;PROVID=2402 Reichelt / X7R-5 100N]
 |
-|0,04€
+|0,40€
 |-
-|6.
+|6. (''CC'')
+|Vielschicht-Keramikkondensator 10N, 10%
+|1
+|[http://www.reichelt.de/?ACTION=3;ARTICLE=22854;PROVID=2402 Reichelt / X7R-2,5 10N] ''oder''<br>[http://www.reichelt.de/?ACTION=3;ARTICLE=22866;PROVID=2402 Reichelt / X7R-5 10N]
+|
+|0,30€
+|-
+|7. (''C3'')
 |Tantal-Kondensator, Rm 2,5, 1,0µF/35V
-|''evtl. 1''
+|1
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=20330;PROVID=2402 Reichelt / TANTAL 1,0/35]
 |
 |0,14€
 |-
-|7.
+|8. (''R1'' & ''R2'')
 |Metallschichtwiderstand 100 K-Ohm
 |2
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=11458;PROVID=2402 Reichelt / METALL 100K]
 |
 |0,082€
 |-
-|8.
+|9. (''RC'')
+|Metallschichtwiderstand 22,0 K-Ohm
+|1
+|[http://www.reichelt.de/?ACTION=3;ARTICLE=11622;PROVID=2402 Reichelt / METALL 22,0K]
+|
+|0,082€
+|-
+|10. (''D1'')
 |Schottky Diode, DO41, 30V, 1A
 |1
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=41849;PROVID=2402 Reichelt / 1N 5818]
 |
 |0,06€
 |-
-|9.
+|11. (''L1'')
 |Stehende-Induktivität, 07HCP, Ferrit, 22µ
 |1
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=86399;PROVID=2402 Reichelt / L-07HCP 22µ]
 |[http://www.reichelt.de/?;ACTION=7;LA=28;OPEN=0;INDEX=0;FILENAME=B400%252FL-07HCP.pdf FASTRON / L-07HCP.pdf]
 |0,30€
 |-
-|10.
+|12.
 |USB-Einbaubuchse, Serie A, gew., Printmontage
 |1
 |[http://www.reichelt.de/?ACTION=3;ARTICLE=22184;PROVID=2402 Reichelt / USB AW]
