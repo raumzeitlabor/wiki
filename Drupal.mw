@@ -32,7 +32,9 @@ Eine Testinstallation ist unter http://raumzeitlabor.kral.ws/ zu finden.
 ===Anpassungen===
 *http://raumzeitlabor.kral.ws/sites/all/themes/danland/local.css
 
-==Installierte Module==
+==Module==
+===Core===
+===Nachinstalliert===
 *[[CiviCRM]]
 **[http://drupal.org/project/cck Content Construction Kit (CCK)]
 **[http://crmproject.de/node/22 Direct Debit]
@@ -58,5 +60,31 @@ Eine Testinstallation ist unter http://raumzeitlabor.kral.ws/ zu finden.
 **[http://drupal.org/project/imageapi ImageAPI]
 ***[http://drupal.org/project/imagecache ImageCache]
 *[http://drupal.org/project/tagadelic Tagadelic]
+===Anpassungen===
+====Tagadelic====
+Blendet Schlagwörter im Blog (Pfad: ''/blog''), dessen einzelnen Seiten (Node type: ''blog'') und beim Erstellen eines Beitrags (Pfad: ''/node/add/blog'') in der linken Seitenleiste ein.
+;Ort
+:Left sidebar
+;Show block on specific pages
+:Show if the following PHP code returns TRUE (PHP-mode, experts only).
+<pre><?php
+$match = FALSE;
+$types = array('blog' => 1);
+if (arg(0) == 'node' && is_numeric(arg(1))) {
+  $nid = arg(1);
+  $node = node_load(array('nid' => $nid));
+  $type = $node->type;
+  if (isset($types[$type])) {
+    $match = TRUE;
+  }
+}
 
+if (substr($_SERVER["REQUEST_URI"], 0, 10) == '/blog')
+{ $match = TRUE;}
+
+if (substr($_SERVER["REQUEST_URI"], 0) == '/node/add/blog')
+{ $match = TRUE;}
+
+return $match;
+?></pre>
 [[Kategorie:Projekt]]
