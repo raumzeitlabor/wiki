@@ -15,7 +15,7 @@ Eine Testinstallation ist unter http://raumzeitlabor.kral.ws/ zu finden.
 *Captchas für Kommentare von nicht angemeldeten Besuchern
 *Spamfilter für Kommentare, Track- und Pingbacks
 *Bildergalerien (Interessante Module: [http://drupal.org/project/node_gallery Node Gallery], [http://drupal.org/project/filefield_paths FileField Paths] & [http://drupal.org/project/views_gallery Views Gallery])
-*Videos einbinden (Youtube, Vimeo & HTML5)
+*Videos einbinden (Youtube, Vimeo & HTML5) (Module: [http://drupal.org/project/emfield Embedded Media Field]
 
 ===Inhalt===
 *Benutzer von Wordpress umziehen
