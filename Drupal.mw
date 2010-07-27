@@ -63,7 +63,7 @@ Eine Testinstallation ist unter http://raumzeitlabor.kral.ws/ zu finden.
 ===Anpassungen===
 ====Tagadelic====
 Blendet Schlagwörter im Blog (Pfad: ''/blog''), dessen einzelnen Seiten (Node type: ''blog'') und beim Erstellen eines Beitrags (Pfad: ''/node/add/blog'') in der linken Seitenleiste ein.
-;Ort
+;Block
 :Left sidebar
 ;Show block on specific pages
 :Show if the following PHP code returns TRUE (PHP-mode, experts only).
