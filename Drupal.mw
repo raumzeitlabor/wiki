@@ -50,8 +50,6 @@ Eine Testinstallation ist unter http://raumzeitlabor.kral.ws/ zu finden.
 *[http://drupal.org/project/wysiwyg Wysiwyg]
 **[http://tinymce.moxiecode.com/index.php TinyMCE]
 **[http://ckeditor.com/ CKEditor]
-*[http://drupal.org/project/imce IMCE]
-**[http://drupal.org/project/imce_wysiwyg IMCE Wysiwyg bridge]
 *[http://drupal.org/project/wysiwyg_imageupload WYSIWYG image upload]
 **[http://drupal.org/project/jquery_ui_dialog Jquery UI Dialog]
 ***[http://drupal.org/project/jquery_ui jQuery UI]
@@ -59,5 +57,6 @@ Eine Testinstallation ist unter http://raumzeitlabor.kral.ws/ zu finden.
 ***[http://drupal.org/project/jquery_update jQuery Update]
 **[http://drupal.org/project/imageapi ImageAPI]
 ***[http://drupal.org/project/imagecache ImageCache]
+*[http://drupal.org/project/tagadelic Tagadelic]
 
 [[Kategorie:Projekt]]
