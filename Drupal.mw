@@ -63,6 +63,9 @@ Eine Testinstallation ist unter http://raumzeitlabor.kral.ws/ zu finden.
 **[http://drupal.org/project/imageapi ImageAPI]
 ***[http://drupal.org/project/imagecache ImageCache]
 *[http://drupal.org/project/tagadelic Tagadelic]
+*[http://drupal.org/project/calendar Calendar]
+**[http://drupal.org/project/date Date]
+
 ===Anpassungen===
 ====Tagadelic====
 Blendet Schlagwörter im Blog (Pfad: ''/blog''), dessen einzelnen Seiten (Node type: ''blog'') und beim Erstellen eines Beitrags (Pfad: ''/node/add/blog'') in der linken Seitenleiste ein.
