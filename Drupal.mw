@@ -28,7 +28,12 @@ Eine Testinstallation ist unter http://raumzeitlabor.kral.ws/ zu finden.
 *Kommentare von Wordpress umziehen
 *Bilder von Wordpress umziehen
 
-==Pfade==
+==Setup==
+
+===Datenbanken===
+Um tiefere Eingriffe in diversen Konfigurationsdateien zu vermeiden sollte der Einfachheit halber [http://wiki.civicrm.org/confluence/display/CRMDOC32/Views2+Integration+Module der Benutzername und das Passwort der Drupal-, sowie der CiviCRM-Datenbank identisch sein].
+
+===Pfade===
 ;Modulverzeichnis
 :/sites/all/modules
 ;Themeverzeichnis
