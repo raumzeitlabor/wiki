@@ -5,6 +5,8 @@ Eine Testinstallation ist unter http://raumzeitlabor.kral.ws/ zu finden.
 ==Wunschzettel==
 ===Optik===
 *Fotos vom RaumZeitLabor für die Slideshow auf der [http://raumzeitlabor.kral.ws/ Startseite] anfertigen
+*[http://drupal.org/project/imagecache_actions ImageCache Actions]
+
 ===Funktionalität===
 *[[Spezial:Letzte Änderungen]] mit den letzten 5 Items auf der Startseite einbinden
 *<s>WYSIWYG-Editor installieren</s> '''done''' (CKEditor)
