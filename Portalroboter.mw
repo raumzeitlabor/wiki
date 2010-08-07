@@ -1,0 +1,43 @@
+==Portalroboter==
+
+;Eigentümer
+:RaumZeitLabor
+
+Seit $irgendwann steht ein Portalroboter im Raumzeitlabor, der einmal zum Reprap umgebaut werden soll.
+
+Hier ist ein bischen Dokumentation:
+
+X- und Y-Führungen sind jeweils eine Kugelumlauf-Schienenführung mit einem (relativ breiten) Wagen.
+
+Z- Führung sind zwei 10mm-Stahlwellen mit jeweils zwei Kugelumlauf(?)-Linearbuchsen.
+
+X- und Y-Antrieb ist mittels Schrittmotoren realisiert, auf deren Wellen Zahnscheiben mit 25 Zähnen sitzen.
+Die Zahnscheiben treiben Zahnriemen an, an denen die jeweiligen Linearwägen befestigt sind. 25 Zähne sind 50mm lang, d.h. eine Umdrehung des Motors
+bewegt die jeweilige Achse um 50mm.
+
+Z-Antrieb erfolgt mittels Kugelumlaufspindel, Steigung und Untersetzung des Motors sind unbekannt.
+
+Der Verfahrweg in X und Y beträgt 300mm, in Z 100mm
+
+Auf den Schrittmotoren steht folgendes:
+<pre>
+Model
+PH566-NA-A9
+VEXTA 5-Phase
+Stepping Motor 0,72°/Step
+DC 1,4A 1,2Ω
+RX8 0010
+ORIENTAL MOTOR CO. LTD.
+Made in Japan
+</pre>
+
+==Probleme==
+
+* Auf dem RS 232-Port passiert nichts.
+* Bei längerem Betrieb wird das Display der "Teching Box" heiß und nimmt Schaden.
+
+==Umbau==
+
+Ich schlage vor, die gesamte Elektronik stillzulegen und durch selbstgebaute Schrittmotor-Endstufen und eine Controllerkarte zu ersetzen. --[[Benutzer:Abrock|Abrock]] 14:45, 7. Aug. 2010 (UTC)
+
+[[Kategorie:Hardware]]
