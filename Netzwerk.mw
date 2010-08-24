@@ -70,7 +70,7 @@ Wir nehmen als AS64636 teil mit 6 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.6 || blackbox || Blackbox Server
 |-----
-| 172.22.36.7 || ''reserved'' || Reserviert für Infrastruktur
+| 172.22.36.7 || datengrab || Netzwerk-Festplatte
 |-----
 | 172.22.36.8 || ''reserved'' || Reserviert für Infrastruktur
 |-----
