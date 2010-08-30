@@ -1,8 +1,8 @@
 Ich habe euch mal die e-plaung ins wiki geworfen .. nicht schön aber selten
 
-<H1>Status</H1>
+== Status ==
 
-<H2>Elektroinstallation</H2>
+=== Elektroinstallation ===
 
 Erledigt:
 # Wir haben heute die ersten 200m Kabel verlegt.
@@ -23,13 +23,13 @@ ToDo:
 # Verdrahten der Verteilerdosen
 # usw
 
-<H1>E-Plan</H1>
+== E-Plan ==
 
 [[Media:e-plan.pdf]]
 
 [[Datei:E-plan.png]]
 
-<H1>Materialliste</H1>
+== Materialliste ==
 
 [[Media:elektro.pdf]]
 
@@ -376,7 +376,7 @@ ToDo:
 		</TR>
 	</TABLE>
 
-<H1>UV1 &Uuml;bersicht</H1>
+== UV1 &Uuml;bersicht ==
 <TABLE FRAME=VOID CELLSPACING=0 COLS=25 RULES=NONE BORDER=0>
 	
 	<TR>
@@ -625,7 +625,7 @@ ToDo:
 	</TABLE>
 
 
-<H1>UV2 &Uuml;bersicht</H1>
+== UV2 &Uuml;bersicht ==
 <TABLE FRAME=VOID CELLSPACING=0 COLS=2 RULES=NONE BORDER=0>
 	
 		<TR>
@@ -652,7 +652,7 @@ ToDo:
 	</TABLE>
 
 
-<H1>Einbaupl&auml;tze-Leitungsnummer</H1>
+== Einbaupl&auml;tze-Leitungsnummer ==
 <TABLE FRAME=VOID CELLSPACING=0 COLS=9 RULES=NONE BORDER=0>
 	
 	
@@ -1036,7 +1036,7 @@ ToDo:
 	</TABLE>
 
 
-<H1>Verbindungsdose-Leitungsnummer</H1>
+== Verbindungsdose-Leitungsnummer ==
 <TABLE FRAME=VOID CELLSPACING=0 COLS=12 RULES=NONE BORDER=0>
 	
 	
@@ -1266,7 +1266,7 @@ ToDo:
 	</TABLE>
 
 
-<H1>Lichtkreise</H1>
+== Lichtkreise ==
 <TABLE FRAME=VOID CELLSPACING=0 COLS=4 RULES=NONE BORDER=0>
 	
 		<TR>
@@ -1335,7 +1335,7 @@ ToDo:
 		</TR>
 </TABLE>
 
-=Siehe auch=
+== Siehe auch ==
 *[[Roadmap]]
 *[[Helfer]]
 *[[Einkaufsliste]]
