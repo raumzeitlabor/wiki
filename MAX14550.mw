@@ -1,7 +1,10 @@
 Das Projekt mit dem MAX14550EETB ist am entstehen. Heute ist die Lieferung mit den Samples im RZL eingetroffen.
 
 Da keiner auf die Bauform geachtet hat ... haben wir dem 10 TDFN Gehäuse einen "Sockel" gebaut.
-Hier die ersten Bilder
+
+Das 10TDFN Gehäuse ist 3mm lang * 3mm breit * 0,5mm dick
+
+Der Pinabstand (Mitte/Mitte ist 0,5mm)
 
 Die e-ecke
 
@@ -15,11 +18,38 @@ Der MAX14550 gehalten von einer Pinzette
 
 [[Datei:Pinzette-mit-max14550.jpg|800px]]
 
-MAX14550 im Größenvergleich
+Der MAX14550 im Größenvergleich
 
 [[Datei:max14550-groesse.jpg|800px]]
 
-Weitere Bilder folgen vom Löten und dem Bau des "Sockels"
+Nun sind die 10 Drähte angelötet
+
+[[Datei:MAX14550-angeloetet.jpg|800px]]
+
+Der IC hat einen Sockel bekommen und ist mit der Platine verdrahtet
+
+[[Datei:MAX14550-auf-platine.jpg|800px]]
+
+
+
+[[Datei:MAX1455-rechts.jpg|800px]]
+
+
+
+[[Datei:MAX1455-links.jpg|800px]]
+
+
+
+[[Datei:MAX1455-links.jpg|800px]]
+
+
+
+[[Datei:MAX1455-oben.jpg|800px]]
+
+Ein schneller Größenvergleich zu einem DIP8
+
+[[Datei:MAX1455-vergleich.jpg|800px]]
+
 
 
 [[Kategorie:Projekt]]
