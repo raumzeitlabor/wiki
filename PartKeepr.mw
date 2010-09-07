@@ -6,11 +6,16 @@
 * Datenblätter
 * Herstellerlogos
 * Lieferanten
-* Lagerbestand + Lagerort + Lagerwert + Reservierung
+* Lagerbestand + Lager / Lagerort + Lagerwert + Reservierung
 * User- und Rechteverwaltung (Gruppen?)
 * Bestellisten pro User für Sammelbestellungen
 * Logging (Einlage, Entnahme, ...)
 * Kassensoftwareanbindung
+* Lagerort übergreifende suche
+* Umlagern
+* Inventur
+* Statistik
+* Teile ohne Preis 
 
 === Bauteile ===
 
@@ -24,3 +29,7 @@ Je Bauteil (Artikel) sollen die folgenden Eigenschaften abgelegt werden:
 * Preishistorie zwecks: letztem Einkaufspreis und gemitteltem Preis
 * vorhandene Stückzahl
 * Mindeststückzahl
+* Bestellnumer / Lieferant(en)
+* Lagerort
+* Kommentar
+*
