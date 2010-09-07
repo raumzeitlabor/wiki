@@ -1,0 +1,26 @@
+== Features ==
+
+* Bauteile
+* Kategorien
+* Footprints
+* Datenblätter
+* Herstellerlogos
+* Lieferanten
+* Lagerbestand + Lagerort + Lagerwert + Reservierung
+* User- und Rechteverwaltung (Gruppen?)
+* Bestellisten pro User für Sammelbestellungen
+* Logging (Einlage, Entnahme, ...)
+* Kassensoftwareanbindung
+
+=== Bauteile ===
+
+Je Bauteil (Artikel) sollen die folgenden Eigenschaften abgelegt werden:
+
+* Kategorie
+* Bauteilwert (Ohm, Chip-Typ, ...)
+* Bauform -> Footprint(s)
+* Datenblätter (Datei *und* URL)
+* interner Verkaufspreis
+* Preishistorie zwecks: letztem Einkaufspreis und gemitteltem Preis
+* vorhandene Stückzahl
+* Mindeststückzahl
