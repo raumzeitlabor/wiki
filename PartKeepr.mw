@@ -6,7 +6,7 @@
 * Datenblätter
 * Herstellerlogos
 * Lieferanten
-* Lagerbestand + Lager / Lagerort + Lagerwert + Reservierung
+* Lagerbestand + Lager / Lagerort / Lager-"größe" + Lagerwert + Reservierung
 * User- und Rechteverwaltung (Gruppen?)
 * Bestellisten pro User für Sammelbestellungen
 * Logging (Einlage, Entnahme, ...)
@@ -16,6 +16,7 @@
 * Inventur
 * Statistik
 * Teile ohne Preis 
+* Freier Lagerort
 
 === Bauteile ===
 
