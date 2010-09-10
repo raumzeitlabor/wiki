@@ -1,0 +1,36 @@
+Weil bunte, blinkende Lichter, die man steuern kann toll sind, wollen wir Moodlamps bauen.
+Beim eh2010 in München gab es schon nette Moodlamps, die aber SMD Bauteile beinhalten und deshalb für Anfänger sehr schwer zu löten sind.
+Wir wollten eine Moodlamp mit bedrahteten Bauteilen fertigen.
+Die Erlanger haben sich das auch schon gedacht und sind damit soweit fertig, weshalb wir uns dieses Design klauen (danke Erlangen).
+
+==Bauteile==
+
+
+{| border="1" cellspacing="0" cellpadding="10"
+|-----
+! Bezeichung || Bezugsquelle || Link || Preis 
+|-----
+|3 Watt RGB LED Modul || LED-Tech || http://www.led-tech.de/de/High-Power-LEDs-Edison/Edixeon-RGB/Edison-Edixeon-RGB-Star-LT-1470_142_147.html || 7,90€
+|-----
+|Kühlkörper Stern || LED-Tech || http://www.led-tech.de/de/High-Power-Zubehoer/Kuehlkoerper/Sternkuehlkoerper-51x51mm-LT-1461_106_114.html || 0,99€
+|-----
+|IR Modul TSOP  31238 || Farnell || http://de.farnell.com/vishay-semiconductor/tsop31238/ir-emitter-38khz/dp/1469635?Ntt=TSOP+31238
+|| 1,14€
+|-----
+|RFM12 Modul (funk<->seriell) || CSD || http://www.csd-electronics.de/de/groups/g_273/items3443.htm || 3,95€
+|-----
+|Kleinteile (inkl. ISP wannenstecker, Hausbuswandler, Litze...) || Reichelt ||  http://www.reichelt.de/?ACTION=20;AWKID=281961;PROVID=2084 || 5,75€ 
+|-----
+| || || '''GESAMT''' || '''~23€'''
+|-----
+| Lampenngehäuse FADO || IKEA || http://www.ikea.com/de/de/catalog/products/80096372 || 9,99€
+|}
+
+Also für knapp über 30Euro eine selbstgebaute, voll steuerbare RGB Moodlamp \o/
+
+Ich habe jetzt mal ausreichend Bauteile für 10 Bausätze bestellt und hoffe auf reges Interesse.
+Vor allem möchte ich gerne einen Hausbus<->RFM12 Converter bauen/coden, der dann wireless die Moodlamps im Raum ansprechen kann.
+
+hier: http://git.informatik.uni-erlangen.de/?p=hawo-moodlight/.git;a=blob;f=moodlight.brd;h=1e5b2dfb06c48103af19aaade9f18cce0dfacaa8;hb=HEAD gibts das Eagle layout für die Erlanger boards. Ich werde das mal für Lochraster zurecht routen und dan hier verlinken.
+
+[[Kategorie:Projekt]]
