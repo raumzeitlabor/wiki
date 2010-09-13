@@ -24,7 +24,7 @@ Je Bauteil (Artikel) sollen die folgenden Eigenschaften abgelegt werden:
 
 * Kategorie
 * Bauteilwert (Ohm, Chip-Typ, ...) und zwar mehrdimensional. z.b. spannungsregler 7805 vIn (min 7V max 50V) vOut min 4.5V max 5.0V).
-* Bauform -> Footprint(s) 
+* Bauform (Gehäuseform) und Footprint(s) 
 * Datenblätter (Datei *und* URL)
 * interner Verkaufspreis
 * Preishistorie zwecks: letztem Einkaufspreis und gemitteltem Preis
