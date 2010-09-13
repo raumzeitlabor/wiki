@@ -27,6 +27,10 @@ Je Bauteil (Artikel) sollen die folgenden Eigenschaften abgelegt werden:
 * Bauform (Gehäuseform) und Footprint(s) 
 * Datenblätter (Datei *und* URL)
 * interner Verkaufspreis
+* Status (neu/refurbished)
+* ROHS
+* Quelle
+* Moisture Sensitivity Level
 * Preishistorie zwecks: letztem Einkaufspreis und gemitteltem Preis
 * vorhandene Stückzahl
 * Mindeststückzahl
