@@ -7,6 +7,7 @@ Diese Seite dient als Portalseite zur vollständigen Dokumentation.
 == Dokumentation ==
 * [[Hausbus/ATmega168]]: Referenz-Aufbau (Bauteilliste, Schaltplan, Layout, etc.)
 * [[Hausbus/ATmega644]]: Aufbau für den Pinpad-Controller
+* [[Hausbus/Adressen]]: Liste aller Geräte am Bus und deren Adressen/Gruppen
 * [[Hausbus/Pinbelegung]]: Was kommt aus dem Kabel?
 * [[Hausbus/Paketformat]]: Was wird gesendet/empfangen (low-level)
 * [[Hausbus/Verkabelung]]: Wo laufen die Kabel im Raum entlang?
