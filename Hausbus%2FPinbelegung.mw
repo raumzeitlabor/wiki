@@ -1,0 +1,5 @@
+Für den Hausbus verwenden wir derzeit CAT5-Kabel mit RJ45-Steckern/Buchsen. Unten folgt die Pinbelegung (nur 4 Adern sind benutzt):
+
+[[Image:Hausbus-Pins.png]]
+
+'''Vorsicht''': Unbedingt darauf achten, kein Cross-Over-Kabel zu nutzen.
