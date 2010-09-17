@@ -3,19 +3,29 @@
 Die ATmega168-Hausbus-Platine ist das Referenzdesign für alle Hausbus-Teilnehmer. Der ATmega168 ist ein Mikrokontroller von AVR, der mit 16 MHz betrieben wird (dafür der Quarz), eine serielle Schnittstelle bietet, die am RS485-Bustreiber angeschlossen wird und via ISP-Buchse programmierbar ist. Das Layout wurde für Lochraster entworfen, damit auch Anfänger diesen Aufbau problemlos nachbauen können.
 
 == Bauteilliste ==
-* ATmega168
-* SN75176B (RS485-Bustreiber)
-* RJ45-Buchse ohne Übertrager: MEBP 8-8G
 * LED
 * Vorwiderstand für die LED
-* 16 MHz-Quarz
-* 27 pF-Kondensatoren
 * Reset-Taster
 * Kondensator für den Taster (TODO: Kapazität?)
 * Widerstand für den Reset-Taster
 * Stiftleiste
-* 10er-Buchse
 * Kondensator zur Stabilisierung der Stromversorgung (TODO: Kapazität?)
+{| border="1" cellspacing="0" cellpadding="10"
+! Reichelt || € || Anzahl || Bauteil || Zweck
+|-----
+| ATMEGA 168-20DIP || / || 1 || ATmega168 ||
+|-----
+| SN 75176BP || 0,28 || 1 || SN 75176BP || RS485-Bustreiber
+|-----
+| MEBP 8-8G || 0,55 || 1 || RJ45-Buchse || Hausbus-Anschluss
+|-----
+| 16,0000-HC18 || 0,18 || 1 || Quarz 16 MHz || Mikrokontroller-Takt
+|-----
+| KERKO 27P || 0,06 || 2 || Kondensator 27 pF || Quarz
+|-----
+| WSL 10G || 0,07 || 1 || Wannenstecker 10-polig || ISP-Buchse
+|-----
+|}
 
 == Schaltplan/Layout ==
 Als Bilder:
