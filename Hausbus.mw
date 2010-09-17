@@ -1,0 +1,24 @@
+Der Hausbus ist ein Bussystem (auf RS485 basierend), mit welchem wir verschiedene Mikrokontroller im Raum mit Strom und Kommunikationsmöglichkeit versorgen.
+
+Diese Seite dient als Portalseite zur vollständigen Dokumentation.
+
+== Dokumentation ==
+* [[Hausbus/ATmega168]]: Referenz-Aufbau (Bauteilliste, Schaltplan, Layout, etc.)
+* [[Hausbus/ATmega644]]: Aufbau für den Pinpad-Controller
+* [[Hausbus/Pinbelegung]]: Was kommt aus dem Kabel?
+* [[Hausbus/Paketformat]]: Was wird gesendet/empfangen (low-level)
+* [[Hausbus/Verkabelung]]: Wo laufen die Kabel im Raum entlang?
+* [[Hausbus/Controller-Programmierung]]: Für eigene Mikrokontroller, die am Hausbus teilnehmen sollen.
+* [[Hausbus/Anwendungs-Programmierung]]: Für Anwendungen, die Informationen mit dem Hausbus austauschen sollen.
+
+== Links ==
+* git-Repository (Quelltext, etc.): http://github.com/raumzeitlabor/hausbus
+
+== Beteiligte/Danksagungen ==
+* sECuRE
+* AlexanderB
+* Scytale
+* DaFo
+* nessi
+* TabascoEye
+* sur5r
