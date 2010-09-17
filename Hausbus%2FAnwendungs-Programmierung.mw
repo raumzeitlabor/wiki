@@ -1,0 +1,53 @@
+Anwendungen, die Zugriff auf das Hausbus-Netz (auf Ethernet-Ebene) haben, können Pakete an den Bus schicken, indem sie diese an die entsprechenden IPv6-Adressen schicken. Weiterhin können Anwendungen bestimmte Pakete aus dem Bus empfangen, indem sie auf den jeweiligen Multicast-Adressen lauschen.
+
+== Übersicht ==
+=== Pakete senden ===
+* Wie in [[Hausbus/Adressen]] angesprochen hat jedes Gerät am Bus seine eigene Adresse (zwischen 1 und 29, einschließlich). Diese Adresse bildet die letzte Stelle einer IPv6-Adresse, z.B. ''fe80::b5:ff:fe00:'''01'''''.
+* Da dies eine Link-Local-Adresse ist, muss ein Scope-Identifier angegeben werden. Angenommen, der Hausbus ist auf eth1 verbunden, so lautet die vollständige Adresse ''fe80::b5:ff:fe00:01%eth1''.
+* Der Hausbus läuft auf Port 41999, UDP.
+* Zum Testen kann z.B. folgender ''nc6''-Aufruf verwendet werden:
+ echo -n 'get_status' | nc6 -q0 fe80::b5:ff:fe00:01%eth1 41999
+
+=== Pakete empfangen ===
+* Auf gesendete Pakete gibt es keine direkte Antwort. Stattdessen werden Pakete aus dem Hausbus grundsätzlich an bestimmte IPv6-Multicast-Gruppen geschickt. Die Adresse setzt sich diesmal aus der Gruppennummer (von 50 bis 100 einschließlich) zusammen: ''fe80::b5:ff:fe00:'''32''''' ist die erste Gruppe (0x32 entspricht 50).
+* Nachdem man einen neuen UDP-Socket auf Port 41999 erstellt hat, muss man mit ''setsockopt'' und dem ''IPV6_JOIN_GROUP''-Parameter dem Kernel mitteilen, dass man an der Multicast-Gruppe ''fe80::b5:ff:fe00:'''32''''' (z.B.) Interesse hat.
+* Sofern dieser Aufruf erfolgreich war, sollte die Datei /proc/net/igmp6 einen neuen Eintrag nach folgendem Schema enthalten:
+ 2    eth0            ff020000000000000000000000b50001     1 00000004 0
+* Auf dem UDP-Socket empfängt man nun die Pakete aus dem Hausbus. Die Absenderadresse entspricht hierbei den Adressen, die wir auch im Abschnitt „Pakete senden” benutzt haben (z.B. ''fe80::b5:ff:fe00:01'').
+
+== Ruby ==
+Für Ruby gibt es bereits eine Hausbus-API ([http://github.com/raumzeitlabor/hausbus/tree/master/application/ Github]), die alles nötige abstrahiert. Die Benutzung funktioniert so:
+
+ #!/usr/bin/ruby1.9.1
+ require 'bus'
+ bus = Hausbus.new
+ bus.set_interface "eth0"
+ bus.join_group 50, do |msg, sender|
+   puts "Status: #{msg}"
+   exit 0
+ end
+ puts "Requesting pinpad status..."
+ bus.send 1, "get_status"
+ bus.run
+
+Falls jemand Implementationen für andere Sprachen schreiben will kann er sich gerne an ''bus.rb'' orientieren, der Sourcecode sollte hinreichend klar sein.
+
+== Debugging ==
+Zum Debuggen ist es hilfreich, ''Wireshark'' zu benutzen und sich die Pakete anzusehen. Wer lieber auf Konsole arbeitet (in diesem Fall nicht wirklich besser als Wireshark):
+ $ sudo tcpdump -i eth1 -A -s 2048 -v -n
+Weiterhin kann man die grundlegende Verbindung zum Hausbus kontrollieren, indem man den Busmaster pingt:
+ $ ping6 -n fe80::b5:ff:fe00:00%eth1
+ PING fe80::b5:ff:fe00:00%eth1(fe80::b5:ff:fe00:0) 56 data bytes
+ 64 bytes from fe80::b5:ff:fe00:0: icmp_seq=1 ttl=255 time=21.0 ms
+ 64 bytes from fe80::b5:ff:fe00:0: icmp_seq=2 ttl=255 time=4.09 ms
+ 64 bytes from fe80::b5:ff:fe00:0: icmp_seq=3 ttl=255 time=6.98 ms
+ 64 bytes from fe80::b5:ff:fe00:0: icmp_seq=4 ttl=255 time=9.95 ms
+ 64 bytes from fe80::b5:ff:fe00:0: icmp_seq=5 ttl=255 time=2.97 ms
+ ^C
+ --- fe80::b5:ff:fe00:00%eth1 ping statistics ---
+ 5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+ rtt min/avg/max/mdev = 2.975/9.009/21.043/6.486 ms
+Sollte der Busmaster nicht auf pings antworten, kann man überprüfen, ob wenigstens die Neighbor Discovery (das IPv6-Äquivalent zu ARP) klappt:
+ $ ip -6 neighbor show
+ fe80::b5:ff:fe00:0 dev eth1 lladdr 02:b5:00:00:00:00 REACHABLE
+Falls hier INCOMPLETE oder FAILED steht, antwortet der Busmaster nicht auf die Neighbor Discovery-Pakete (oder der Kernel verwirft die Antworten, was man mit Wireshark prüfen sollte).
