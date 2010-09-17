@@ -1,0 +1,76 @@
+Um einen Mikrokontroller, der einen RS485-Bustreiber angeschlossen hat und mit dem Hausbus verkabelt ist, softwareseitig zur Teilnahme zu bringen, müssen folgende Schritte befolgt werden:
+* Der Watchdog des Mikrokontrollers wird deaktiviert (notwendig um eine Reset-Endlosschleife zu verhindern, da die Funktionen in ''lib/uart.c'' im schlimmsten Fehlerfalle einen Reset via Watchdog durchführen).
+* Die serielle Schnittstelle wird mit 9600 Baud (subject to change) und Frameformat 9N1 (!) initialisiert. Weiterhin wird der Multi-CPU-Modus aktiviert. Weiterhin wird der Driver Enable-Pin des Bustreibers deaktiviert. Alle diese Schritte übernimmt ''net_init()'' aus ''lib/uart.c''.
+* Interrupts werden aktiviert.
+* In der Mainloop wird ''bus_status()'' aufgerufen, welches folgende Rückgabewerte liefern kann:
+** '''BUS_STATUS_IDLE''': Derzeit wurde keine Aktivität festgestellt, man kann also kurzzeitig etwas anderes mit dem Mikrokontroller machen (Statusflags aktualisieren, auf andere Aktivitäten eingehen).
+** '''BUS_STATUS_MESSAGE''': Eine Nachricht wurde komplett in den Ringpuffer geladen und muss nun bearbeitet werden. Via ''current_packet()'' holt man sich eine Kopie des Ringpuffers und reagiert der Nachricht entsprechend (z.B. sendet man via ''send_packet()'' eine Antwort auf eine Ping-Nachricht). Sobald man damit fertig ist, verwirft man das Paket aus dem Ringpuffer, indem man ''packet_done()'' aufruft.
+** '''BUS_STATUS_WRONG_CRC''': Genug Bytes für ein gültiges Paket wurden empfangen, aber die Checksumme ist ungültig. Es ist dem Programmierer überlassen, ob er nun den Controller laut piepsen lässt oder einfach weitermacht. Mit ''skip_byte()'' wird das erste Zeichen im Ringpuffer übersprungen und der Inhalt neu angeschaut.
+** '''BUS_STATUS_BROKEN''': Der Bus ist kaputt (z.B. wenn >1s lang kein Paket vom Busmaster kam). In diesem Fall ist ggf. ein Reset angebracht oder den Benutzer anderweitig zu informieren (LED leuchten lassen o.ä.).
+
+Ein Beispielprogramm sieht so aus:
+ #include <stdio.h>
+ #include <stdlib.h>
+ #include <string.h>
+ #include <avr/io.h>
+ #include <avr/interrupt.h>
+ #include <avr/pgmspace.h>
+ #include <avr/wdt.h>
+ #include <util/delay.h>
+ #include <stdbool.h>
+ #include <stdint.h>
+ 
+ #include "bus.h"
+ 
+ int main() {
+     uint8_t status;
+ 
+     /* enable LED so that the user knows the controller is active */
+     DDRC = (1 << PC7);
+     PORTC = (1 << PC7);
+ 
+     /* disable watchdog */
+     MCUSR &= ~(1 << WDRF);
+     WDTCSR &= ~(1 << WDE);
+     wdt_disable();
+ 
+     net_init();
+ 
+     /* enable interrupts */
+     sei();
+ 
+     while (1) {
+         status = bus_status();
+  
+         if (status == BUS_STATUS_IDLE) {
+             /* you could use this timeframe to do some stuff with
+              * the microcontroller (check sensors etc.) */
+             continue;
+         }
+ 
+         if (status == BUS_STATUS_MESSAGE) {
+             /* we received a message */
+             struct buspkt *packet = current_packet();
+             uint8_t *payload = (uint8_t*)packet;
+             payload += sizeof(struct buspkt);
+             if (packet->source == 0x00 &&
+                 memcmp(payload, "ping", strlen("ping")) == 0) {
+                 fmt_packet(lbuffer, packet->source, MYADDRESS, "pong\x00", 5);
+                 send_packet(lbuffer);
+             }
+ 
+             packet_done();
+             continue;
+         }
+ 
+         if (status == BUS_STATUS_WRONG_CRC) {
+             skip_byte();
+             continue;
+         }
+ 
+         if (status == BUS_STATUS_BROKEN) {
+             /* TODO: enable slow blinking of the LED */
+             continue;
+         }
+     }
+ }
