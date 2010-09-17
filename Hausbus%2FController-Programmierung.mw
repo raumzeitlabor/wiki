@@ -1,4 +1,6 @@
 Um einen Mikrokontroller, der einen RS485-Bustreiber angeschlossen hat und mit dem Hausbus verkabelt ist, softwareseitig zur Teilnahme zu bringen, müssen folgende Schritte befolgt werden:
+
+== Übersicht ==
 * Der Watchdog des Mikrokontrollers wird deaktiviert (notwendig um eine Reset-Endlosschleife zu verhindern, da die Funktionen in ''lib/uart.c'' im schlimmsten Fehlerfalle einen Reset via Watchdog durchführen).
 * Die serielle Schnittstelle wird mit 9600 Baud (subject to change) und Frameformat 9N1 (!) initialisiert. Weiterhin wird der Multi-CPU-Modus aktiviert. Weiterhin wird der Driver Enable-Pin des Bustreibers deaktiviert. Alle diese Schritte übernimmt ''net_init()'' aus ''lib/uart.c''.
 * Interrupts werden aktiviert.
@@ -8,7 +10,7 @@ Um einen Mikrokontroller, der einen RS485-Bustreiber angeschlossen hat und mit d
 ** '''BUS_STATUS_WRONG_CRC''': Genug Bytes für ein gültiges Paket wurden empfangen, aber die Checksumme ist ungültig. Es ist dem Programmierer überlassen, ob er nun den Controller laut piepsen lässt oder einfach weitermacht. Mit ''skip_byte()'' wird das erste Zeichen im Ringpuffer übersprungen und der Inhalt neu angeschaut.
 ** '''BUS_STATUS_BROKEN''': Der Bus ist kaputt (z.B. wenn >1s lang kein Paket vom Busmaster kam). In diesem Fall ist ggf. ein Reset angebracht oder den Benutzer anderweitig zu informieren (LED leuchten lassen o.ä.).
 
-Ein Beispielprogramm sieht so aus:
+== Beispielcode ==
  #include <stdio.h>
  #include <stdlib.h>
  #include <string.h>
@@ -74,3 +76,7 @@ Ein Beispielprogramm sieht so aus:
          }
      }
  }
+
+== Vollständige Programme ==
+Vollständige Firmware gibts z.B. hier:
+* http://github.com/raumzeitlabor/hausbus/tree/master/firmware-pinpad/
