@@ -1,0 +1,41 @@
+== Formatbeschreibung ==
+
+{| border="1" cellspacing="0" cellpadding="10"
+! Byte || Name || Bedeutung
+|-----
+| 00 || destination || Zieladresse
+|-----
+| 01 || source || Senderadresse
+|-----
+| 02 || header_chk || Prüfsumme des Headers
+|-----
+| 03 || payload_chk || Prüfsumme des Payloads
+|-----
+| 04 || length_hi || Most Significant Bits der Payloadlänge
+|-----
+| 05 || length_lo || Least Significant Bits der Payloadlänge
+|-----
+| 06 || || Payload
+|-----
+| … || || …
+|}
+
+== Beispiel ==
+ uint8_t buffer[32];
+ struct buspkt *packet = (struct buspkt*)buffer;
+ uint8_t *payload = buffer;
+ payload += sizeof(struct buspkt);
+ 
+ packet->destination = 0x01; /* pinpad-controller */
+ packet->source = 0x00; /* busmaster */
+ packet->length_hi = 0x00;
+ packet->length_lo = 10;
+ packet->payload_chk = 0xFF; /* not yet implemented */
+ packet->header_chk = packet->destination + packet->source + packet->payload_chk + packet->length_hi + packet->length_lo;
+ strncpy(payload, "get_status", strlen("get_status"));
+…ergibt:
+ {
+  0x01, 0x00, 0x0a, 0xff, 0x00, 0x0a,
+  0x67, 0x65, 0x74, 0x5f, 0x73, 0x74, 0x61, 0x74, 0x75, 0x73
+ }
+'''Vorsicht:''' Pakete befüllen sollte keiner selber müssen. Das nimmt einem die ''lib/bus.c'' ab mit ''fmt_packet()''.
