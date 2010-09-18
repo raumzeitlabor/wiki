@@ -58,7 +58,7 @@ Wir nehmen als AS64636 teil mit 6 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 ! IP-Adresse || Hostname || Beschreibung
 |-----
-| 172.22.36.1 || [[wopr]] || Router
+| 172.22.36.1 || [[firebox]] || Router
 |-----
 | 172.22.36.2 || wrtf || Linksys WRT54G sECuRE („RZL-softcore”)
 |-----
