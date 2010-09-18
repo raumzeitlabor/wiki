@@ -1,0 +1,17 @@
+= Atmel-Foo =
+
+== Was macht's? ==
+
+Der Atmel-Foo ist eine Programmierschnittstelle / Pin-Herausführung für Atmel-Microcontroller mit Funktionen, die während der Entwicklung von Schaltungen mit der Atmel-Mikroprozessorserie benötigt werden. 
+
+== Funktionen ==
+
+* Durchschaltung VCC vom Programmer zum Ziel-IC/Ziel-Platine
+* Durchschaltung ISP-Pins (MOSI/MISO/SS/SCK) vom Programmer zum Ziel-IC/Ziel-Platine
+* Durchschaltung RXD/TXD-Ports vom Programmer zum Ziel-IC/Ziel-Platine
+* Durchschaltung OSC vom Atmel-Foo zum Ziel-IC (z.B. um Atmels direkt zu programmieren, wenn Ext.Osc Fuse gesetzt)
+* Durchschaltung Reset-Pin zu SS
+* Liefert diverse Oszillator-Geschwindigkeiten
+* 6- und 10-poliger Ausgang zur Zielplatine, mit Adaptern für z.b. Breadboards
+* IC-Sockel für Atmega-8 Mikrokontroller für die Direktprogrammierung
+* Herausführung aller Pins als 4mm Buchsen zum Anschluss von z.b. Oszilloskop
