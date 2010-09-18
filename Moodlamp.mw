@@ -38,8 +38,7 @@ hier: http://git.informatik.uni-erlangen.de/?p=hawo-moodlight/.git;a=blob;f=mood
 ===Lessons learned===
 
 - Klebende Wärmeleitpads benutzen (mitbestellen bei led-tech) statt Wärmeleitkleber. Sauerei und nervig bis zum Aushärten.
-
-
+- Bauteile VOR der Bestellung nochmal sorgfältig verifizieren (IC Sockel, Verpolungsdiode, fehlende Widerstände)
 
 
 [[Kategorie:Projekt]][[Kategorie: KleinProzessorZüchter]]
