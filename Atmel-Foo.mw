@@ -2,16 +2,23 @@
 
 == Was macht's? ==
 
-Der Atmel-Foo ist eine Programmierschnittstelle / Pin-Herausführung für Atmel-Microcontroller mit Funktionen, die während der Entwicklung von Schaltungen mit der Atmel-Mikroprozessorserie benötigt werden. 
+Der Atmel-Foo ist eine Programmierschnittstelle / Pin-Herausführung für Atmel-Microcontroller mit Funktionen, die während der Entwicklung von Schaltungen mit der Atmel-Mikroprozessorserie benötigt werden. Hierbei kann
+der Mikroprozessor (nur Atmega8) direkt auf dem Gerät eingesteckt und programmiert werden, oder der Atmel-Foo kann mit der Zielplatine verbunden werden.
+
+Wird der Atmel-Foo direkt mit der Zielplatine verbunden, so können die Pins, die für Programmierung via ISP nötig sind, abgeschalten werden (S2). Die Versorgungsspannung kann vom Programmer zum Ziel-Atmel zu-/abgeschalten werden (S1). Die seriellen Ports (RXD/TXD) können vom Ziel-Atmel zum Programmer zwecks Debugging durchgeschalten werden. Außerdem kann der Reset-Pin vom SS-Pin getrennt werden (S5).
+
+Wird der Ziel-Atmel direkt auf den Atmel-Foo gesteckt, so kann man wählbare Oszillatoren (S6) mittels dem OSC Active-Schalter (S4) aktiviert werden.
 
 == Funktionen ==
 
-* Durchschaltung VCC vom Programmer zum Ziel-IC/Ziel-Platine
-* Durchschaltung ISP-Pins (MOSI/MISO/SS/SCK) vom Programmer zum Ziel-IC/Ziel-Platine
-* Durchschaltung RXD/TXD-Ports vom Programmer zum Ziel-IC/Ziel-Platine
-* Durchschaltung OSC vom Atmel-Foo zum Ziel-IC (z.B. um Atmels direkt zu programmieren, wenn Ext.Osc Fuse gesetzt)
-* Durchschaltung Reset-Pin zu SS
-* Liefert diverse Oszillator-Geschwindigkeiten
+* Durchschaltung VCC vom Programmer zum Ziel-IC/Ziel-Platine (S1)
+* Durchschaltung ISP-Pins (MOSI/MISO/SS/SCK) vom Programmer zum Ziel-IC/Ziel-Platine (S2)
+* Durchschaltung RXD/TXD-Ports vom Programmer zum Ziel-IC/Ziel-Platine (S3)
+* Durchschaltung OSC vom Atmel-Foo zum Ziel-IC (z.B. um Atmels direkt zu programmieren, wenn Ext.Osc Fuse gesetzt) (S4)
+* Durchschaltung Reset-Pin zu SS (S5)
+* Liefert diverse Oszillator-Geschwindigkeiten (S6)
 * 6- und 10-poliger Ausgang zur Zielplatine, mit Adaptern für z.b. Breadboards
 * IC-Sockel für Atmega-8 Mikrokontroller für die Direktprogrammierung
 * Herausführung aller Pins als 4mm Buchsen zum Anschluss von z.b. Oszilloskop
+
+== Beschreibung ==
