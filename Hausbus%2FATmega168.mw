@@ -2,6 +2,12 @@
 
 Die ATmega168-Hausbus-Platine ist das Referenzdesign für alle Hausbus-Teilnehmer. Der ATmega168 ist ein Mikrokontroller von AVR, der mit 16 MHz betrieben wird (dafür der Quarz), eine serielle Schnittstelle bietet, die am RS485-Bustreiber angeschlossen wird und via ISP-Buchse programmierbar ist. Das Layout wurde für Lochraster entworfen, damit auch Anfänger diesen Aufbau problemlos nachbauen können.
 
+== Bilder ==
+{| class="wikitable"
+| [[Image:Hausbus168-vorne.jpg|thumb|none|vorne]]
+| [[Image:Hausbus168-hinten.jpg|thumb|none|hinten]]
+|}
+
 == Bauteilliste ==
 {| border="1" cellspacing="0" cellpadding="10"
 ! Reichelt || € || Anzahl || Bauteil || Zweck
