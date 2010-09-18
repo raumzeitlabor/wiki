@@ -1,7 +1,80 @@
 '''Ansprechpartner:''' [[Benutzer:TabasyoEye|TabascoEye]]
 
-#Experimentierboard selbst löten
-#usbasp programmer selbst löten
-#coole Projekte bauen (zB LED blinkenfun)
+===Die Mikrocontroller Arbeitsgruppe im RaumZeitLabor===
+
+Wir löten, was die Kolben hergeben.
+
+
+==Bausätze==
+
+Derzeit haben wir 3 Bausätze, die die Basis für coole Projekte mit Mikrocontrollern und Software bereitstellen sollen.
+
+
+===Laborboard===
+
+Als erstes Experminetierboard für Mikrocontrollerprojekte nutzen wir das Laborboard, das unser befreundeter Hackerspace Das Labor aus Bochum entwickelt hat.
+Es besteht aus einem Atmel ATmega32 mit ISP Programmierschnittstelle, 16Mhz Quarz, 4 Tastern, 8 freiprogrammierbaren LEDs und einem Spannungsversorgunsteil für die 5V. Das ganze kostet derzeit grob 10Euro im Einkauf und ist zu diesem Preis auch im RZL kaufbar (wenn auf Lager).
+
+Nächste Bestellung (bitte eintragen, wird nach Bestellung jeweils gelöscht):
+{| border="1" cellspacing="0" cellpadding="10"
+|-----
+! Besteller || Anzahl || Brauche Hilfe || liegt bereit || abgeholt || bezahlt
+|-----
+| foobar || 1 || ja || - || - ||
+|-----
+| ||  ||  ||  || ||
+|-----
+|}
+
+===usbasp===
+
+Der usbasp ist ein einfacher Programmieradapter für die Atmel ISP Schnittstelle. Eigentlich kann man die ISP Pins des Atmel mit Widerständen direkt an einen Parallelport des PC anschliessen, aber wer hat sowas heute noch am Laptop?
+Deshalb ist der usbasp ein minimaler USB Programmer. Ein ATmega8 spricht hier das komplette USB Protokoll in Software, weshalb kein spezieller USB transcieverchip gebraucht wird. Die gelayouteten und geätzen Platinen bekommen wir derzeit auch von unserem befreundeten hackerspace Das Labor in Bochum (vielen Dank). Es gibt auch alternative Firmwares für den usbasp, die zB einen STK500 emulieren können.
+Das ganze kostet derzeit etwa 8,14Euro (Platine 3, Bauteile 5,14) und im RZL nehmen wir 8Euro dafür, solange die Bauteile nicht in Zukunft noch teurer werden.
+
+Nächste Bestellung (bitte eintragen, wird nach Bestellung jeweils gelöscht):
+{| border="1" cellspacing="0" cellpadding="10"
+|-----
+! Besteller || Anzahl || Brauche Hilfe || liegt bereit || abgeholt || bezahlt
+|-----
+| mist || 1 || ? || ja || nein  || nein
+|-----
+| Felicitus || 1 || nein || ja || ja || nein
+|-----
+| ||  ||  ||  ||  ||
+|-----
+|}
+derzeit noch auf Lager: 9 Stück
+
+===[[Moodlamp]]===
+
+Die vielen schicken RGB Moodlampprojekte haben mich dazu inspiriert, auch eine haben zu wollen. Der CCC München hat einen schönen Bausatz, der aber mit gefertigten Platinen und SMD Bauteilen bestückt ist (schwer zu löten).
+Ich wollte etwas eher Anfängerkompatibles haben. Die Erlanger haben eine Moodlamp mit bedrahteten Bauteilen entworfen und auch Platinen dafür gelayoutet. Ich möchte das ganze mit Lochrasterplatinen machen, so dass man es auch gut mit einem Lötworkshop verbinden und seine SKills ausweiten kann. Genaues zur Moodlamp findet sich auf einer seperaten Wikiseite [[Moodlamp]].
+Der Moodlampbausatz kostet in der derzeitigen Form 23Euro.
+
+Nächste Bestellung (bitte eintragen, wird nach Bestellung jeweils gelöscht):
+{| border="1" cellspacing="0" cellpadding="10"
+|-----
+! Besteller || Anzahl || Brauche Hilfe || liegt bereit || abgeholt || bezahlt
+|-----
+| simon || 1 || ? || ja || nein  || nein
+|-----
+| mist || 1 || ? || ja || nein || nein
+|-----
+| romain || 2 || ? || ja || nein || nein
+|-----
+| severin || 1 || ? || ja || nein || nein
+|-----
+| docsteel || 1 || ? || ja || nein || nein
+|-----
+| zwetschgo || 1 || ? || ja || nein || nein
+|-----
+| secure || 1 || ? || ja || nein || nein
+|-----
+| ||  ||  ||  || || 
+|-----
+|}
+Derzeit noch auf Lager: 9 Stück
 
 [[Kategorie:Projekt]]
+[[Kategorie:KleinProzessorZüchter]]
