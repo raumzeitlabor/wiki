@@ -3,13 +3,6 @@
 Die ATmega168-Hausbus-Platine ist das Referenzdesign für alle Hausbus-Teilnehmer. Der ATmega168 ist ein Mikrokontroller von AVR, der mit 16 MHz betrieben wird (dafür der Quarz), eine serielle Schnittstelle bietet, die am RS485-Bustreiber angeschlossen wird und via ISP-Buchse programmierbar ist. Das Layout wurde für Lochraster entworfen, damit auch Anfänger diesen Aufbau problemlos nachbauen können.
 
 == Bauteilliste ==
-* LED
-* Vorwiderstand für die LED
-* Reset-Taster
-* Kondensator für den Taster (TODO: Kapazität?)
-* Widerstand für den Reset-Taster
-* Stiftleiste
-* Kondensator zur Stabilisierung der Stromversorgung (TODO: Kapazität?)
 {| border="1" cellspacing="0" cellpadding="10"
 ! Reichelt || € || Anzahl || Bauteil || Zweck
 |-----
@@ -25,7 +18,20 @@ Die ATmega168-Hausbus-Platine ist das Referenzdesign für alle Hausbus-Teilnehme
 |-----
 | WSL 10G || 0,07 || 1 || Wannenstecker 10-polig || ISP-Buchse
 |-----
+| TASTER 9303 || 0,12 || 1 || Taster || Reset-Taster
+|-----
+| MKS-02 100N || 0,14 || 1 || Kondensator 100nF || Entprellen Reset-Taster
+|-----
+| 1W 10K || 0,154 || 1 || Widerstand 10K-Ohm || Pull-Up Reset-Taster
+|-----
+| SL 1X40G 2,54 || 0,23 || 1 || Stiftleiste || Pins rausführen
+|-----
+| RAD 10/100 || 0,04 || 1 || Kondensator 10µF || Stabilisierung Spannungsversorgung
+|-----
+| LED 5MM 5V RT || 0,16 || 1 || LED mit Vorwiderstand ||
+|-----
 |}
+Insgesamt: 2,04€ (Vorsicht: ATmega noch nicht einberechnet weil derzeit nicht lieferbar)
 
 == Schaltplan/Layout ==
 Als Bilder:
