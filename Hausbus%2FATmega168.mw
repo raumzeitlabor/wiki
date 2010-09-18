@@ -40,3 +40,6 @@ Als Bilder:
 Eagle-Dateien:
 * http://github.com/raumzeitlabor/hausbus/blob/master/layouts/hausbus168.brd
 * http://github.com/raumzeitlabor/hausbus/blob/master/layouts/hausbus168.sch
+
+== Fuses setzen ==
+ avrdude -c usbasp -p atmega168 -P usb -U lfuse:w:0x9F:m -U hfuse:w:0xC9:m
