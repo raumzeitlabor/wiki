@@ -1,3 +1,17 @@
+{{ProjektInfoBox
+|name        = Bauteildatenbank
+|status      = experimental
+|image       = RaumZeitLaborLogo.svg
+|description = Bauteildatenbank
+|author      = [[Benutzer:Nessi|Nessi]], [[Benutzer:Felicitus|Felicitus]] und andere
+|username    = 
+|version     = 
+|update      = 
+|platform    = PHP, MySQL, Doctrine2
+|license     = 
+|download    = 
+}}
+
 == Features ==
 
 * Bauteile
