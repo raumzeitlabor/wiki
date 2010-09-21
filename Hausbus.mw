@@ -1,4 +1,16 @@
-[[Image:Hausbus logo.jpg|thumb|Pinpad-Controller am Hausbus|200px|right]]
+{{ProjektInfoBox
+|name        = Hausbus
+|status      = experimental
+|image       = Hausbus_logo.jpg
+|description = 
+|author      = [[Benutzer:sECuRE|sECuRE]], [[Benutzer:AlexanderB|AlexanderB]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
 
 Der Hausbus ist ein Bussystem (auf RS485 basierend), mit welchem wir verschiedene Mikrokontroller im Raum mit Strom und Kommunikationsmöglichkeit versorgen. Er wird auf Ethernet (IPv6) umgesetzt und kann daher sehr einfach aus Anwendungen heraus genutzt werden.
 
