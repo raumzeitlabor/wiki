@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = Atmel-Foo
 |status      = experimental
-|image       = RaumZeitLaborLogo.svg
+|image       = atmel-foo.jpg
 |description = Programmier- und Debugbox für ATMega8 und andere Atmel-ISP-Mikrokontroller
 |author      = [[Benutzer:Nessi|Nessi]], [[Benutzer:Felicitus|Felicitus]]
 |username    = 
@@ -13,6 +13,8 @@
 }}
 
 = Atmel-Foo =
+
+Ein Programmieradapter und Debugbox für ATMega8-Mikrokontroller. Gehäuse stammt von einem ausgedienten Cisco 1000 Router.
 
 == Warum ? ==
 
