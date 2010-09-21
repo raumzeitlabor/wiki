@@ -1,11 +1,22 @@
-;Ansprechpartner
-:[[Benutzer:Timo A. Hummel|Felicitus]]
+{{ProjektInfoBox
+|name        = Headcrash-Sensor
+|status      = experimental
+|image       = 
+|description = Kapazitiver Sensor mit Audio- und Blinkausgabe
+|author      = [[Benutzer:Felicitus|Felicitus]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = Atmel AtMega8
+|license     = 
+|download    = 
+}}
+
 Der Headcrash-Sensor erkennt, ob jemand mit dem Kopf* an den Balken stößt und spielt darauf hin einen Sound, blinkt lustig mit den LED's und loggt die Anzahl der Headcrashes mit.
 
 (*) Technisch gesehen ist es kein Berührungssensor, sondern ein kapazitiver Sensor. Stößt man mit Mütze oder Haaren daran, funktioniert es nicht immer. 
 
 Der Arduino Mega ist derzeit über einen 9V-Block angeschlossen und prüft mittels kapazitiver Messung, ob jemand die Sensorleiste berührt hat. Mehr Infos: http://www.arduino.cc/playground/Code/CapacitiveSensor
-
 
 Pin-Belegungen:
 
@@ -17,5 +28,6 @@ Pin-Belegungen:
 
 * Messen, wie lange der frisch aufgeladene 9V-Block hält. Vermutlich nuckelt die kapazitive Messung soviel Strom, daß der Akku relativ schnell leer ist. Netzteil scheidet wegen unserer Stromrechnung aus.
 * Die Alustreifen dauerhaft verbinden - nur wie?
+* Projektplattform auf Atmega8 umziehen
 
 [[Kategorie:Projekt]]
