@@ -1,5 +1,16 @@
-'''Ansprechpartner:''' [[Benutzer:Inte|Inte]]
-
+{{ProjektInfoBox
+|name        = Drupal
+|status      = experimental
+|image       = RaumZeitLaborLogo.svg
+|description = 
+|author      = [[Benutzer:Inte|Inte]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
 Eine Testinstallation ist unter http://raumzeitlabor.kral.ws/ zu finden.
 
 ==Wunschzettel==
