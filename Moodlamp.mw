@@ -33,6 +33,11 @@ Vor allem möchte ich gerne einen Hausbus<->RFM12 Converter bauen/coden, der dan
 
 hier: http://git.informatik.uni-erlangen.de/?p=hawo-moodlight/.git;a=blob;f=moodlight.brd;h=1e5b2dfb06c48103af19aaade9f18cce0dfacaa8;hb=HEAD gibts das Eagle layout für die Erlanger boards. Ich werde das mal für Lochraster zurecht routen und dan hier verlinken.
 
+===Lochraster Layout===
+
+[[Datei:Moodlamp-board.png|400px|thumb|]]
+hier das krude layout, um die bisherige version (pre-redesign) erstmalzu bauen.
+[[Datei:Moodlamp_bw.png|400px|thumb|]]
 ----
 
 ===Lessons learned===
