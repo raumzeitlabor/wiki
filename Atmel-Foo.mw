@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = Atmel-Foo
 |status      = experimental
-|image       = 
+|image       = RaumZeitLaborLogo.svg
 |description = Programmier- und Debugbox für ATMega8 und andere Atmel-ISP-Mikrokontroller
 |author      = [[Benutzer:Nessi|Nessi]], [[Benutzer:Felicitus|Felicitus]]
 |username    = 
