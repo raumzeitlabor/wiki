@@ -1,4 +1,16 @@
-'''Ansprechpartner:''' [[Benutzer:Inte|Inte]]
+{{ProjektInfoBox
+|name        = CiviCRM
+|status      = experimental
+|image       = RaumZeitLaborLogo.svg
+|description = 
+|author      = [[Benutzer:Inte|Inte]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
 
 '''[http://civicrm.org/ CiviCRM]''' ist eine freie ''Customer Relationship Management'' Software. Wir wollen im Rahmen dieses Projektes einen Blick auf die verfügbaren Module werfen und deren möglichen Nutzen für das RaumZeitLabor abwägen.
 
