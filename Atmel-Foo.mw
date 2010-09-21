@@ -1,4 +1,35 @@
+{{ProjektInfoBox
+|name        = Atmel-Foo
+|status      = experimental
+|image       = 
+|description = Programmier- und Debugbox für ATMega8 und andere Atmel-ISP-Mikrokontroller
+|author      = [[Benutzer:Nessi|Nessi]], [[Benutzer:Felicitus|Felicitus]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = Atmel AtMega8
+|license     = 
+|download    = 
+}}
+
 = Atmel-Foo =
+
+== Warum ? ==
+
+=== Breadboard-Problematik ===
+Werden neue Projekte mit Atmega8-Prozessoren begonnen, so kommt es desöfteren vor, daß man die Schaltung zunächst einmal auf einem [http://de.wikipedia.org/wiki/Steckplatine Breadboard] aufbaut. Auf dieses Breadboard kann man natürlich keinen [ww.mikrocontroller.net/articles/AVR_In_System_Programmer#ISP ISP-Stecker] stecken, da der Stecker 2-reihig ausgeführt ist. Dafür braucht man also einen Adapter.
+
+=== Ständiges Neu-Verbinden bei Programmierung ===
+
+Egal, ob man eine Schaltung auf Breadboard oder Platine hat - möchte man den Atmega8 neu programmieren, so sollte man nach der Programmierung den Programmieradapter trennen (oder den Jumper auf dem Adapter umstecken), da dieser die Leitungen SS und RESET brückt. Außerdem sollte die Versorgungsspannung nur von einer Quelle kommen. Dies kann bei häufigem Neuprogrammieren in einer Kabel-Rein-Raus-Orgie enden. Schön wäre daher ein Schalter, mit dem man einfach die Programmierleitungen MOSI, MISO, SCK und SS sowie die Stromversorgungsleitung und ggf. die Verbindung von SS auf RESET mittels Kippschalter trennen kann.
+
+=== Überprüfung eines Atmega8 auf Funktion / Fuses Recovern ===
+
+Findet man einen Atmega8 in einer $Kiste und möchte diesen auf Funktion testen, oder gar einen fremden Atmega8 retten, so muß man diesem normalerweise in eine Zielschaltung eingebaut werden. Schön wäre es daher, einfach einen IC-Sockel zu haben, in den man den Atmega8 steckt, um dann zusätzlich einen Oszillator oder eine externe Taktquelle zuschalten zu können.
+
+=== Debugging auf der Zielplatine ===
+
+Außerdem ist es schwierig, in einer bestehenden Schaltung auf Platine zu debuggen. Schön wäre es, wenn man einfach alle Pins des Atmega8 herausführen könnte, ohne die Funktion der Schaltung zu beeinflussen.
 
 == Was macht's? ==
 
