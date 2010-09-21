@@ -1,8 +1,8 @@
 {{ProjektInfoBox
 |name        = Eggbot
 |status      = experimental
-|image       = RaumZeitLaborLogo.svg
-|description = 
+|image       = eggbot.jpg
+|description = Der Eggbot ist eine kleine Maschine, welche Eier bemalt.
 |author      = [[Benutzer:Abrock|Abrock]]
 |username    = 
 |version     = 
@@ -11,7 +11,7 @@
 |license     = 
 |download    = 
 }}
-
+Der Eggbot ist eine kleine Maschine, welche Eier bemalt.
 ==Todo==
 #Dokumentation
 #Bilder hochladen
