@@ -11,7 +11,6 @@
 |license     = 
 |download    = 
 }}
-'''Ansprechpartner:''' [[Benutzer:Inte|Inte]]
 
 Der '''Konnektor''' ist eine stabilisierte 5V-Spannungsversorgung (Imax=600mA) mit vier Mignonakkus/-batterien (AA) als Quelle. Alles landet in einem schicken Gehäuse mit ordentlichem Batteriefach und Platz für eine große Platine, auf der alle möglichen Spielereien platziert werden können. Später soll damit ein Mikrocontroller und diverse Sensorik betrieben werden. In der ersten Ausbaustufe gibt es einen USB-Port zum Aufladen/Betreiben von USB-Endgeräten.
 
