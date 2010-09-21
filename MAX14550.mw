@@ -1,3 +1,16 @@
+{{ProjektInfoBox
+|name        = MAX14550EETB
+|status      = experimental
+|image       = RaumZeitLaborLogo.svg
+|description = USB-Ladeadapter mit MAX14550EETB
+|author      = [[Benutzer:Nessi|Nessi]], [[Benutzer:Felicitus|Felicitus]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
 Das Projekt mit dem MAX14550EETB ist am entstehen. Heute ist die Lieferung mit den Samples im RZL eingetroffen.
 
 Da keiner auf die Bauform geachtet hat ... haben wir dem 10 TDFN Gehäuse einen "Sockel" gebaut.
