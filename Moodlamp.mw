@@ -44,7 +44,8 @@ Also für knapp über 30Euro eine selbstgebaute, voll steuerbare RGB Moodlamp \o
 Ich habe jetzt mal ausreichend Bauteile für 10 Bausätze bestellt und hoffe auf reges Interesse.
 Vor allem möchte ich gerne einen Hausbus<->RFM12 Converter bauen/coden, der dann wireless die Moodlamps im Raum ansprechen kann.
 
-hier: http://git.informatik.uni-erlangen.de/?p=hawo-moodlight/.git;a=blob;f=moodlight.brd;h=1e5b2dfb06c48103af19aaade9f18cce0dfacaa8;hb=HEAD gibts das Eagle layout für die Erlanger boards. Ich werde das mal für Lochraster zurecht routen und dan hier verlinken.
+hier: http://git.informatik.uni-erlangen.de/?p=hawo-moodlight/.git;a=blob;f=moodlight.brd;h=1e5b2dfb06c48103af19aaade9f18cce0dfacaa8;hb=HEAD gibts das Eagle layout für die Erlanger boards.
+Und hier http://git.informatik.uni-erlangen.de/?p=hawo-moodlight/.git;a=blob;f=moodlight.sch;h=783581f14790a23bafa9855cb4fe9d82c3f8b828;hb=refs/heads/master den schaltplan.
 
 ===Lochraster Layout===
 
