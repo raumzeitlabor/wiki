@@ -40,4 +40,11 @@ Made in Japan
 
 Ich schlage vor, die gesamte Elektronik stillzulegen und durch selbstgebaute Schrittmotor-Endstufen und eine Controllerkarte zu ersetzen. --[[Benutzer:Abrock|Abrock]] 14:45, 7. Aug. 2010 (UTC)
 
+Hier ist eine Schrittmotorkarte, die geeignet erscheint:
+[http://www.watterott.com/de/Pololu-A4983-Schrittmotortreiber|Pololu A4983 Schrittmotortreiber]
+
+Im 1/16tel Modus könnte man eine Auflösung von 1/16tel mm in X- und Y-Achse erreichen, das ist IMHO hinreichend für Plastik-Extruder-Druckerei
+
+Man braucht dann nur noch ein Netzteil, das 35V DC, 5V DC erzeugt und einen uC, der vom Rechner erzeugte Schritte über USB entgegennimmt und puffert, da man sonst auf dem Rechner ein Echtzeitbetriebssystem bräuchte. --[[Benutzer:Abrock|Abrock]] 13:40, 26. Sep. 2010 (CEST)
+
 [[Kategorie:Hardware]]
