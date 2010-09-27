@@ -60,17 +60,53 @@ Hier kommt ein Atmega8 zum Einsatz. Die LCD-Library [http://code.google.com/p/do
 
 Um Platz zu sparen, wird der Mikrocontroller direkt unter das LCD-Display ohne IC-Sockel gelötet. Das LCD-Display selbst wird mit einer Buchsenleiste erhöht, damit der Mikrocontroller und die Brücken unterhalb des Displays platz finden. Wichtig dabei ist, daß man eine Buchsenleiste mit geringer Bauhöhe nutzt (quasi ein einreihiger IC-Sockel), sonst wird die Konstruktion zu hoch! Passende Buchsenleiste gibt's [http://www.reichelt.de/?;ACTION=3;LA=444;GROUP=C131;GROUPID=3215;ARTICLE=19398;START=0;SORT=artnr;OFFSET=16 hier].
 
-= Bauteilliste (Reichelt) =
+= Bauteilliste =
 
-2x Buchsenleiste SPL 20, je 0,34€ (0,68 € total)
-1x Hintergrundbeleuchtung weiß EA LED55X31-W, 10,35€
-1x LCD-Display EA DOGM163S-A, 12,60 €
-1x Power Mosfet IRLD 024, 0,55€
-1x Atmega8-16PU, ca. 2-3 Eur (derzeit nicht lieferbar)
-1x 16MHz Quarz 16,0000-HC49U-S, 0,18 €
+{| class="wikitable"
+|-
+! Anzahl !! Bauteil !! Bestellnummer Reichelt !! Einzelpreis !! Gesamtpreis
+|-
+| 1 || Lochrasterplatine 75x100mm || H25PR075 || 0,98€ || 0,98€
+|-
+| 2 || Buchsenleiste || SPL 20 || 0,34€ || 0,68 €
+|-
+| 1 || Hintergrundbeleuchtung EA-DOG weiß || EA LED55X31-W || 10,35€ || 10,35 €
+|-
+| 1 || LCD-Display EA DOGM, 3-zeilig || EA DOGM163S-A || 12,60 € || 12,60€
+|-
+| 1 || Power-Mosfet IRLD024 || IRLD024 || 0,55€ || 0,55€
+|-
+| 1 || Atmega8-16PU || ATMEGA 8-16 DIP || 2-3 Eur || 2-3 Eur
+|- 
+| 1 || 16MHz Quarz || 16,0000-HC49U-S || 0,18 € || 0,18€
+|-
+| 1 || Wannenstecker 10pol gerade || WSL 10G || 0,07 € || 0,07€
+|-
+| 2 || Keramik-Kondensator 27pF || KERKO 27P || 0,06€ || 0,12€
+|-
+| 1 || Vielschicht-Keramik-Kondensator 100nF || X7R-2,5 100N || 0,04€ || 0,04€
+|-
+| 1 || Elko axial 4,7uF || AX 4,7/63 || 0,13€ || 0,13€
+|-
+| 2 || Z-Diode 3,6V || ZF 3,6 || 0,04 € || 0,08€
+|-
+| 1 || Widerstand 1mOhm || 1/4W 1,0M || 0,10€ || 0,10€
+|-
+| 2 || Widerstand 68 Ohm || 1/4W 68 || 0,10€ || 0,20€
+|-
+| 2 || Widerstand 33 Ohm || 1/4W 33 || 0,10€ || 0,20€
+|-
+| 2 || Widerstand 1,5kOhm || 1/4W 1,5K || 0,10€ || 0,20€
+|-
+| 1 || Widerstand 1kOhm || 1/4W 1,0K || 0,10€ || 0,10€
+|-
+| style="border-top: 1pt black solid;" colspan=4 | Gesamt || style="border-top: 1pt black solid;"  | 26,56€ zzgl. Atmega8 (nicht lieferbar bei Reichelt)
+|}
 
-achtung nicht vollständig! Angaben zu Widerständen, Buchsenleiste für ISP-Stecker, Dioden und Kondensatoren fehlen! Gesamtkosten um die 30 Eur, eventuell günstiger bei anderer DOG-LCD Variante.
+Die Kosten lassen sich reduzieren, in dem man eine andere DOG-LCD Variante und Hintergrundbeleuchtung wählt.
 
-= Schaltplan und Lochrasteer-Layout =
+Reichelt-Warenkorb: https://secure.reichelt.de/?;ACTION=20;LA=5010;AWKID=289095;PROVID=2084
+
+= Schaltplan und Lochraster-Layout =
 
 [[Kategorie:Projekt]]
