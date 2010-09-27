@@ -57,5 +57,6 @@ Um Platz zu sparen, wird der Mikrocontroller direkt unter das LCD-Display ohne I
 1x Atmega8-16PU, ca. 2-3 Eur (derzeit nicht lieferbar)
 1x 16MHz Quarz 16,0000-HC49U-S, 0,18 €
 
-achtung nicht vollständig! Angaben zu Widerständen, Buchsenleiste für ISP-Stecker, Dioden und Kondensatoren fehlen!
+achtung nicht vollständig! Angaben zu Widerständen, Buchsenleiste für ISP-Stecker, Dioden und Kondensatoren fehlen! Gesamtkosten um die 30 Eur, eventuell günstiger bei anderer DOG-LCD Variante.
+
 = Schaltplan und Lochrasteer-Layout =
