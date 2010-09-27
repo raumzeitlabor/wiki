@@ -60,3 +60,5 @@ Um Platz zu sparen, wird der Mikrocontroller direkt unter das LCD-Display ohne I
 achtung nicht vollständig! Angaben zu Widerständen, Buchsenleiste für ISP-Stecker, Dioden und Kondensatoren fehlen! Gesamtkosten um die 30 Eur, eventuell günstiger bei anderer DOG-LCD Variante.
 
 = Schaltplan und Lochrasteer-Layout =
+
+[[Kategorie:Projekt]]
