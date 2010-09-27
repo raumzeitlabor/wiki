@@ -1,0 +1,61 @@
+{{ProjektInfoBox
+|name        = Dockstar LCD
+|status      = experimental
+|image       = RaumZeitLaborLogo.svg
+|description = USB-LCD für die [http://www.seagate.com/www/de-de/products/network_storage/freeagent_dockstar/ Seagate Dockstar]
+|author      = [[Benutzer:Felicitus|Felicitus]]
+|username    = 
+|version     = 0.1
+|update      = 
+|platform    = Atmega8
+|license     = 
+|download    = 
+}}
+
+
+Die [http://www.seagate.com/www/de-de/products/network_storage/freeagent_dockstar/ Seagage Dockstar] ist ein [http://en.wikipedia.org/wiki/ARM9E ARM9E]-basierter Embedded-Computer mit 1.2GHz, 128MB RAM, 256MB Flash, 4x USB (3x USB-A, 1x Mini-USB) und Gigabit Ethernet. Durch den derzeit sehr günstigen Preis von 25 € wird die Dockstar gerne als Heimserver verwendet. Da die Dockstar ursprünglich für die Aufnahme einer Festplatte gedacht war, ragt an der Gehäuseoberseite eine Lasche heraus, die unschön aussieht, wenn keine Festplatte eingesteckt ist. Was liegt also näher, dort etwas sinnvolles hineinzubauen und somit den Platz zu nutzen?
+
+= Planung / Ziele =
+LCD-Display für den Dockstar HDD-Slot, Aufbau auf Lochraster-Platine (Punktraster). Die Höhe soll dabei so gering wie möglich sein, außerdem soll die Platine relativ einfach zu löten sein (keine Kreuz- und Querverbindungen durch Fädeldraht o.ä.). Leider müssen dann ein paar Kompromisse eingegangen werden, was in relativ vielen Brücken resultiert, die auf und unter der Platine angebracht werden müssen.
+
+Eine Optimierung ist sicherlich noch möglich, ebenso die Entwicklung einer fertigen Platine.
+
+== Abmessungen ==
+Die Breite des Dockstar-Slots beträgt ca. 810mm. Die Maximalgröße für die Platine habe ich daher mit 800mm angesetzt. Die maximale Tiefe der Platine beträgt 2cm, ansonsten passt sie nicht mehr in den Port. Um Platz zu sparen, wird das LCD-Display erhöht aufgesetzt, direkt darunter befindet sich der Atmega8. Die Länge der Platine beträgt ungefähr 5,5cm.
+
+== Ansteuerung ==
+
+Die Dockstar bietet zwar ein serielles Interface mit TTL-Leveln, allerdings braucht man selbiges, wenn man eine neue Firmware aufspielen möchte, wenn etwas beim Flashen im laufenden Betrieb schiefgegangen ist. Da das Display in den Festplattenslot gesteckt werden soll, lag also nahe, den dortigen USB-Anschluss zu nutzen. Ob man sich jetzt die Mühe machen möchte und eine Mini-USB-Buchse auflöten möchte (die es, soweit ich weiß, nur in SMD-Ausführung gibt) oder ganz einfach den Stecker gegen etwas "brauchbares" austauscht, liegt im Ermessen des Bauers. Ich habe mich für letzteres entschieden.
+
+USB wird komplett in Software mittels dem [http://www.obdev.at/products/vusb/index-de.html VUSB Stack] gemacht, es gibt keine externen USB-Chips. Die Transferrate ist dabei auf 1,5Mbit beschränkt, was zur Ansteuerung des LCD-Displays vollkommen ausreicht.
+
+== LCD-Display ==
+
+Zum Einsatz kommt ein 3-zeiliges Display von [http://www.lcd-module.de/ Electronic Assembly], ein EA DOGM163-A. Diese Displays benötigen nur 4 Datenleitungen dank SPI-Interface und sind daher gut geeignet für "enge" Platinen. Außerdem kann das Display direkt mit 5V betrieben werden, was zusätzliche Bauteile einspart. Lediglich die Hintergrundbeleuchtung benötigt 2 Widerstände.
+
+== Dimmbare Hintergrundbeleuchtung ==
+
+Da ich das LCD-Display auch zum Systemmonitoring nutzen möchte, soll die Hintergrundbeleuchtung blinken, wenn wichtige Ereignisse anstehen. Hierzu kommt ein IRLD024 zum Einsatz, mit dem das Display über PWM sogar dimmbar ist. Andere Anwendungen sind natürlich möglich, z.b. abschalten des Displays nach einer gewissen Zeit.
+
+== LEDs ==
+Auf meiner Platine habe ich zusätzlich 2 LEDs angebracht: 1x Power und 1x ansteuerbar durch Software. Taster und andere Ein-/Ausgabefunktionen können hinzugefügt werden, allerdings muß dann das Lochraster-Layout geändert werden. Da ich keine Eingabemöglichkeiten benötige, habe ich diese auch nicht eingeplant.
+
+== Mikrocontroller ==
+
+Hier kommt ein Atmega8 zum Einsatz. Die LCD-Library [http://code.google.com/p/doglcd/ doglcd] habe ich von der Arduino-Plattform auf GNU-C zurückportiert, außerdem kommt der VUSB-Stack zum Einsatz. Die eigentliche Firmware soll LCD4Linux-kompatibel werden. Auf dem Board habe ich bereits einen ISP-Stecker vorgesehen, damit die Firmware geändert werden kann, da der Atmel ja fest eingelötet wird.
+
+= Umsetzung =
+
+Um Platz zu sparen, wird der Mikrocontroller direkt unter das LCD-Display ohne IC-Sockel gelötet. Das LCD-Display selbst wird mit einer Buchsenleiste erhöht, damit der Mikrocontroller und die Brücken unterhalb des Displays platz finden. Wichtig dabei ist, daß man eine Buchsenleiste mit geringer Bauhöhe nutzt (quasi ein einreihiger IC-Sockel), sonst wird die Konstruktion zu hoch! Passende Buchsenleiste gibt's [http://www.reichelt.de/?;ACTION=3;LA=444;GROUP=C131;GROUPID=3215;ARTICLE=19398;START=0;SORT=artnr;OFFSET=16 hier].
+
+= Bauteilliste (Reichelt) =
+
+2x Buchsenleiste SPL 20, je 0,34€ (0,68 € total)
+1x Hintergrundbeleuchtung weiß EA LED55X31-W, 10,35€
+1x LCD-Display EA DOGM163S-A, 12,60 €
+1x Power Mosfet IRLD 024, 0,55€
+1x Atmega8-16PU, ca. 2-3 Eur (derzeit nicht lieferbar)
+1x 16MHz Quarz 16,0000-HC49U-S, 0,18 €
+
+achtung nicht vollständig! Angaben zu Widerständen, Buchsenleiste für ISP-Stecker, Dioden und Kondensatoren fehlen!
+= Schaltplan und Lochrasteer-Layout =
