@@ -58,6 +58,9 @@ Hier kommt ein Atmega8 zum Einsatz. Die LCD-Library [http://code.google.com/p/do
 
 = Umsetzung =
 
+[[Image:Dockstar LCD 1.1 Vorderseite.png|thumb|Bestückungsplan Vorderseite|200px|right]]
+[[Image:DockstarRueck.png|thumb|Bestückungsplan Rückseite|200px|right]]
+
 Um Platz zu sparen, wird der Mikrocontroller direkt unter das LCD-Display ohne IC-Sockel gelötet. Das LCD-Display selbst wird mit einer Buchsenleiste erhöht, damit der Mikrocontroller und die Brücken unterhalb des Displays platz finden. Wichtig dabei ist, daß man eine Buchsenleiste mit geringer Bauhöhe nutzt (quasi ein einreihiger IC-Sockel), sonst wird die Konstruktion zu hoch! Passende Buchsenleiste gibt's [http://www.reichelt.de/?;ACTION=3;LA=444;GROUP=C131;GROUPID=3215;ARTICLE=19398;START=0;SORT=artnr;OFFSET=16 hier].
 
 = Bauteilliste =
@@ -107,6 +110,12 @@ Die Kosten lassen sich reduzieren, in dem man eine andere DOG-LCD Variante und H
 
 Reichelt-Warenkorb: https://secure.reichelt.de/?;ACTION=20;LA=5010;AWKID=289095;PROVID=2084
 
+
 = Schaltplan und Lochraster-Layout =
 
+Vor den Lötarbeiten können die Bestückungspläne in '''schwarz/weiß''' ausgedruckt werden. So kann man mit einem Filzschreiber markieren, welche Bauteile man schon eingelötet hat. Gerade bei der Vielzahl an Brücken ist das sehr hilfreich!
+
+Um die Platine zu bestücken, fängt man am besten mit den niedrigsten Bauteilen (Brücken) an. Diese werden gebogen und von oben auf die Platine besteckt. Sind alle Brücken fertig, werden diese mit Klebeband fixiert und angelötet. Danach kommen die nächsthöheren Bauteile (Widerstände, Dioden etc). Erst wenn die Vorderseite fertig ist, sollte man die Rückseite beginnen. Hier hat es sich bewährt, die Verbindungen nicht über Lötaugen zu ziehen, sondern einfach entsprechende Drähte zurechtzubiegen und diese zur Kontaktierung zu verwenden.
+
+Modifikation: Im Layout ist der Pin PC3 mit dem Widerstand R7 verbunden, mit dessen Hilfe die Hintergrundbeleuchtung ein- und ausgeschaltet werden kann. Soll PWM verwendet werden (dimmbare Hintergrundbeleuchtung), so darf die Brücke von PC3 zu R7 nicht gesetzt werden, sondern es muß eine "fliegende" Verbindung (z.b. mit Verowire/Veropen) von R7 zu PB1 gemacht werden. Leider habe ich das zu spät gemerkt, als die Schaltung und das Lochraster-Layout schon fertig waren. 
 [[Kategorie:Projekt]]
