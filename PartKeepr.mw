@@ -31,6 +31,8 @@
 * Statistik
 * Teile ohne Preis 
 * Freier Lagerort
+* Mehrere Lagerorte pro Teil
+* Mutterlager -> damit ist gemeint, daß Bauteile aus einem anderen, größeren Lager kommen. Beispielsweise haben wir 3000 Dioden, von denen 20 in Lager XY gelagert werden, und der Rest in Lager ZZ. Ist XY leer, kann umgebucht werden.
 * Private Lager (damit man auch seine eigenen, nicht-public Bauteile verwalten kann)
 
 === Bauteile ===
