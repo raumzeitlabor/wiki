@@ -28,12 +28,12 @@ Eine Optimierung ist sicherlich noch möglich, ebenso die Entwicklung einer fert
 |-
 !  !! Länge !! Breite !! Höhe
 |-
-| Dockstar HDD-Slot || ?? || ca. 810mm || ca. 200mm
+| Dockstar HDD-Slot || ?? || ca. 81mm || ca. 20mm
 |-
-| Platine || 550mm || 800mm || max. 200mm
+| Platine || 55mm || 80mm || max. 20mm
 |}
 
-Die Breite des Dockstar-Slots beträgt ca. 810mm. Die Maximalgröße für die Platine habe ich daher mit 800mm angesetzt. Die maximale Tiefe der Platine beträgt 2cm, ansonsten passt sie nicht mehr in den Port. Um Platz zu sparen, wird das LCD-Display erhöht aufgesetzt, direkt darunter befindet sich der Atmega8. Die Länge der Platine beträgt ungefähr 5,5cm.
+Die Breite des Dockstar-Slots beträgt ca. 81mm. Die Maximalgröße für die Platine habe ich daher mit 80mm angesetzt. Die maximale Tiefe der Platine beträgt 2cm, ansonsten passt sie nicht mehr in den Port. Um Platz zu sparen, wird das LCD-Display erhöht aufgesetzt, direkt darunter befindet sich der Atmega8. Die Länge der Platine beträgt ungefähr 5,5cm.
 
 == Ansteuerung ==
 
