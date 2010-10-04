@@ -124,4 +124,9 @@ Der Schaltplan ist Work-in-Progress, wenn du ihn dringend haben möchtest, so ko
 
 Die Firmware für das Display und die LCD4Linux-Anpassung sind in Arbeit. Ich überlege derzeit, ob das Display, welches ja über SPI angesteuert wird, nicht einfach mittels dem HD44780 LCD2USB-Treiber realisierbar ist.
 
+
+Was schon funktioniert: Textausgabe mittels LCD4Linux und einem kleinen Patch für LCD2USB.
+
+Was noch nicht funktioniert: Eigene Icons (Display zeigt nur Garbage an).
+
 [[Kategorie:Projekt]]
