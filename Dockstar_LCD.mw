@@ -16,7 +16,7 @@ Die [http://www.seagate.com/www/de-de/products/network_storage/freeagent_docksta
 = Planung / Ziele =
 [[Image:Dockstar_LCD_Breadboard.jpg|thumb|Kompletter Schaltungsaufbau auf einem Breadboard, darunter die Zielplatine|200px|right]]
 [[Image:Dockstar_LCD_Stecktest.jpg|thumb|Ausgesägte Platine mit LCD-Display, Stecktest ob alles passt|200px|right]]
-[[Image:Dockstar_LCD_erstes_Lebenszeichen.jpg|thumb|Ausgesägte Platine mit LCD-Display, Stecktest ob alles passt|200px|right]]
+[[Image:Dockstar_LCD_erstes_Lebenszeichen.jpg|thumb|Das erste Lebenszeichen des LCD-Displays|200px|right]]
 
 LCD-Display für den Dockstar HDD-Slot, Aufbau auf Lochraster-Platine (Punktraster). Die Höhe soll dabei so gering wie möglich sein, außerdem soll die Platine relativ einfach zu löten sein (keine Kreuz- und Querverbindungen durch Fädeldraht o.ä.). Leider müssen dann ein paar Kompromisse eingegangen werden, was in relativ vielen Brücken resultiert, die auf und unter der Platine angebracht werden müssen.
 
