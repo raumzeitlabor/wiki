@@ -1,6 +1,6 @@
 {{ProjektInfoBox
 |name        = Dockstar LCD
-|status      = experimental
+|status      = beta
 |image       = Dockstar LCD Display aufgebaut.jpg
 |description = USB-LCD für die [http://www.seagate.com/www/de-de/products/network_storage/freeagent_dockstar/ Seagate Dockstar]
 |author      = [[Benutzer:Felicitus|Felicitus]]
@@ -119,5 +119,9 @@ Um die Platine zu bestücken, fängt man am besten mit den niedrigsten Bauteilen
 
 Modifikation: Im Layout ist der Pin PC3 mit dem Widerstand R7 verbunden, mit dessen Hilfe die Hintergrundbeleuchtung ein- und ausgeschaltet werden kann. Soll PWM verwendet werden (dimmbare Hintergrundbeleuchtung), so darf die Brücke von PC3 zu R7 nicht gesetzt werden, sondern es muß eine "fliegende" Verbindung (z.b. mit Verowire/Veropen) von R7 zu PB1 gemacht werden. Leider habe ich das zu spät gemerkt, als die Schaltung und das Lochraster-Layout schon fertig waren.
 
+Der Schaltplan ist Work-in-Progress, wenn du ihn dringend haben möchtest, so kontaktiere [[Benutzer:Felicitus|mich]] bitte.
+= Software =
+
+Die Firmware für das Display und die LCD4Linux-Anpassung sind in Arbeit. Ich überlege derzeit, ob das Display, welches ja über SPI angesteuert wird, nicht einfach mittels dem HD44780 LCD2USB-Treiber realisierbar ist.
 
 [[Kategorie:Projekt]]
