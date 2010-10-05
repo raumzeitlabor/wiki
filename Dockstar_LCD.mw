@@ -1,15 +1,15 @@
 {{ProjektInfoBox
 |name        = Dockstar LCD
-|status      = beta
+|status      = stable
 |image       = Dockstar LCD Display aufgebaut.jpg
 |description = USB-LCD für die [http://www.seagate.com/www/de-de/products/network_storage/freeagent_dockstar/ Seagate Dockstar]
 |author      = [[Benutzer:Felicitus|Felicitus]]
 |username    = 
-|version     = 0.1
+|version     = 1.0
 |update      = 
 |platform    = Atmega8
-|license     = 
-|download    = 
+|license     = GPL
+|download    = http://github.com/timoahummel/dockstar_lcd
 }}
 Die [http://www.seagate.com/www/de-de/products/network_storage/freeagent_dockstar/ Seagage Dockstar] ist ein [http://en.wikipedia.org/wiki/ARM9E ARM9E]-basierter Embedded-Computer mit 1.2GHz, 128MB RAM, 256MB Flash, 4x USB (3x USB-A, 1x Mini-USB) und Gigabit Ethernet. Durch den derzeit sehr günstigen Preis von 25 € wird die Dockstar gerne als Heimserver verwendet. Da die Dockstar ursprünglich für die Aufnahme einer Festplatte gedacht war, ragt an der Gehäuseoberseite eine Lasche heraus, die unschön aussieht, wenn keine Festplatte eingesteckt ist. Was liegt also näher, dort etwas sinnvolles hineinzubauen und somit den Platz zu nutzen?
 
@@ -60,6 +60,7 @@ Hier kommt ein Atmega8 zum Einsatz. Die LCD-Library [http://code.google.com/p/do
 
 [[Image:Dockstar LCD 1.1 Vorderseite.png|thumb|Bestückungsplan Vorderseite|200px|right]]
 [[Image:DockstarRueck.png|thumb|Bestückungsplan Rückseite|200px|right]]
+[[Image:Dockstar_LCD_mit_LCD4Linux.jpg|thumb|Fertig aufgebautes Dockstar LCD|200px|right]]
 
 Um Platz zu sparen, wird der Mikrocontroller direkt unter das LCD-Display ohne IC-Sockel gelötet. Das LCD-Display selbst wird mit einer Buchsenleiste erhöht, damit der Mikrocontroller und die Brücken unterhalb des Displays platz finden. Wichtig dabei ist, daß man eine Buchsenleiste mit geringer Bauhöhe nutzt (quasi ein einreihiger IC-Sockel), sonst wird die Konstruktion zu hoch! Passende Buchsenleiste gibt's [http://www.reichelt.de/?;ACTION=3;LA=444;GROUP=C131;GROUPID=3215;ARTICLE=19398;START=0;SORT=artnr;OFFSET=16 hier].
 
@@ -121,7 +122,7 @@ Modifikation: Im Layout ist der Pin PC3 mit dem Widerstand R7 verbunden, mit des
 
 = Software =
 
-Firmware und LCD4Linux-Treiber sind unter http://github.com/timoahummel/dockstar_lcd zu finden.
+Firmware und LCD4Linux-Treiber sind unter http://github.com/timoahummel/dockstar_lcd zu finden. Dort findet sich auch der Schaltplan im Eagle-Format.
 
 Was schon funktioniert: Textausgabe mittels LCD4Linux und einem kleinen Patch für LCD2USB.
 
