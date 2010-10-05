@@ -122,8 +122,7 @@ Modifikation: Im Layout ist der Pin PC3 mit dem Widerstand R7 verbunden, mit des
 Der Schaltplan ist Work-in-Progress, wenn du ihn dringend haben möchtest, so kontaktiere [[Benutzer:Felicitus|mich]] bitte.
 = Software =
 
-Die Firmware für das Display und die LCD4Linux-Anpassung sind in Arbeit. Ich überlege derzeit, ob das Display, welches ja über SPI angesteuert wird, nicht einfach mittels dem HD44780 LCD2USB-Treiber realisierbar ist.
-
+Firmware und LCD4Linux-Treiber sind unter http://github.com/timoahummel/dockstar_lcd zu finden.
 
 Was schon funktioniert: Textausgabe mittels LCD4Linux und einem kleinen Patch für LCD2USB.
 
