@@ -1,1 +1,36 @@
 Platzhalter für DIY-Synthesizer-Projekt
+
+= Ausstattung =
+
+== Oszillatoren ==
+
+* 3 Oszillatoren, jeder Oszillator kann einen von 6 Oszillatortypen beinhalten
+* Grundparameter für jeden Oszillator:
+** Octave
+** Semitone (12 Halbtonschritte)
+** Tune (einen Halbton nach oben/unten)
+** Keyboard Tracking (Tonhöhe folgt den Tasten)
+
+
+=== Oszillatortypen ===
+==== Analog-Oszillator ====
+* Wellenformen: Sinus, Rechteck, Sägezahn, Dreieck
+* Die Wellenform Rechteck lässt sich durch PWM beeinflussen
+
+==== Wavetable-Oszillator ====
+* Die zur Verfügung stehenden Wellenformen können im LCD-Display editiert werden
+* Position in der Wellenform ist editierbar
+* Interpolationsmöglichkeit beim Spring zwischen den Positionen
+
+==== Phasenmodulations-Oszillator ====
+* 2 Wellenformen werden seriell (nacheinander) kombiniert
+* Über den Regler "PM" kann die Phase moduliert werden
+
+==== FM-Oszillator ====
+Noch überlegen
+
+==== Multioszillator ====
+Noch überlegen
+
+==== Rauschen ====
+Noch überlegen
