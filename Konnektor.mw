@@ -16,13 +16,14 @@ Der '''Konnektor''' ist eine stabilisierte 5V-Spannungsversorgung (Imax=600mA) m
 
 ==Teileliste==
 ===Elektronik===
-{|
-|'''Position'''
-|'''Bezeichnung'''
-|'''Anzahl'''
-|'''Lieferant / Artikelnummer'''
-|'''Datenblatt'''
-|'''Stückpreis'''
+{| class="wikitable"
+|-
+!Position
+!Bezeichnung
+!Anzahl
+!Lieferant / Artikelnummer
+!Datenblatt
+!Stückpreis
 |-
 |1.
 |Streifenrasterplatine, Hartpapier, 75x100mm
