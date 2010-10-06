@@ -72,5 +72,9 @@ Und hier http://git.informatik.uni-erlangen.de/?p=hawo-moodlight/.git;a=blob;f=m
 * Einbaurichtung von Transistoren ordentlich dokumentieren
 * LED Vorwiderstände in Frage stellen m(
 
+==Firmware==
+===Fuses===
+<code>avrdude -c usbasp -p m48 -U lfuse:w:0xff:m -U hfuse:w:0xde:m</code>
+
 
 [[Kategorie:Projekt]][[Kategorie: KleinProzessorZüchter]]
