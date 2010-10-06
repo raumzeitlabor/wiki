@@ -22,7 +22,7 @@ Ob der Raum gerade offen ist (sprich ob die Tür geöffnet ist) wird jede Minute
 Die Scripts in firebox/ holen vom Etherrape den Raumstatus und mithilfe der
 Leases-Datei des DHCP-Servers und eines Broadcast-Pings die im Netz
 befindlichen Geräte, protokollieren beides jeweils in einer RRD-Datei und
-laden anschließend einen generierten Graphen sowie full.json und simple.txt
+laden anschließend einen [http://status.raumzeitlabor.de/status-1week.png generierten Graphen] sowie [http://status.raumzeitlabor.de/api/full.json full.json] und [http://status.raumzeitlabor.de/api/simple simple.txt]
 via WebDAV auf status.raumzeitlabor.de.
 
 == Links ==
