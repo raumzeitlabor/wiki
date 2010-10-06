@@ -71,6 +71,7 @@ Und hier http://git.informatik.uni-erlangen.de/?p=hawo-moodlight/.git;a=blob;f=m
 * Schaltungen immer mal in Frage stellen. Wir werden die Schaltung re-designen...
 * Einbaurichtung von Transistoren ordentlich dokumentieren
 * LED Vorwiderstände in Frage stellen m(
+* Unterschiede von Pinkompatiblen Atmels *soifz* ==> ATmega328p oder 168 will man nehmen (16 oder 32K statt 4)
 
 ==Firmware==
 ===Fuses===
