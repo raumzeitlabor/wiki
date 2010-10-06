@@ -40,8 +40,8 @@ via WebDAV auf status.raumzeitlabor.de.
 * http://github.com/raumzeitlabor/raumzeitstatus<br>→ Sourcecode (auf GitHub)
 
 === Mobile Devices ===
-* http://github.com/raumzeitlabor/raumzeitlabor-status-widget<br>→ Widget für Maemo (Nokia N900)
-* TODO: android widget
+* http://github.com/raumzeitlabor/raumzeitlabor-maemo-widget<br>→ Widget für Maemo (Nokia N900)
+* http://github.com/raumzeitlabor/raumzeitstatus-android-widget<br>→ Widget für Android
 
 === Social Networks/Web 2.0 ===
 * http://github.com/raumzeitlabor/raumzeitstatus-identica<br>→ Identica-Updates
