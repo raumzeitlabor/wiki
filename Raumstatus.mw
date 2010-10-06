@@ -34,9 +34,11 @@ via WebDAV auf status.raumzeitlabor.de.
 * [http://identi.ca/raumzeitstatus raumzeitstatus] auf identi.ca informiert über den Raumstatus
 * [http://twitter.com/raumzeitstatus raumzeitstatus] auf twitter informiert über den Raumstatus (derzeit mit Vorsicht zu genießen, da Update-Probleme).
 
-=== Für Entwickler ===
+=== Für Entwickler (API) ===
 * http://status.raumzeitlabor.de/api/simple<br>→ Text-API, welche entweder "1", "0" oder "?" enthält
 * http://status.raumzeitlabor.de/api/full.json<br>→ JSON-API, welche ein JSON-Dokument enthält
+
+== Quelltext ==
 * http://github.com/raumzeitlabor/raumzeitstatus<br>→ Sourcecode (auf GitHub)
 
 === Mobile Devices ===
