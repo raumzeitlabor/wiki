@@ -1,8 +1,9 @@
 {{ProjektInfoBox
 |name        = Raumstatus
 |status      = stable
-|image       =
-|description = 
+|image       = Status-maemo-widget.png
+|imagesize   = 90
+|description = RZL offen?
 |author      = [[Benutzer:sECuRE|sECuRE]]
 |username    = 
 |version     = 
