@@ -32,7 +32,8 @@ Die Erlanger haben sich das auch schon gedacht und sind damit soweit fertig, wes
 |-----
 |RFM12 Modul (funk<->seriell) || CSD || http://www.csd-electronics.de/de/groups/g_273/items3443.htm || 3,95€
 |-----
-|Kleinteile (inkl. ISP wannenstecker, Hausbuswandler, Litze...) || Reichelt || http://www.reichelt.de/?ACTION=20;AWKID=285044;PROVID=2084 || 6,77€ 
+|Kleinteile (inkl. ISP wannenstecker, Hausbuswandler, Litze...) || Reichelt || 
+http://www.reichelt.de/?ACTION=20;AWKID=292918;PROVID=2084 || 7,27€ 
 |-----
 | || || '''GESAMT''' || '''~23€'''
 |-----
@@ -59,6 +60,8 @@ hier das krude layout, um die bisherige version (pre-redesign) erstmalzu bauen.
 * Klebende Wärmeleitpads benutzen (mitbestellen bei led-tech) statt Wärmeleitkleber. Sauerei und nervig bis zum Aushärten.
 * Bauteile VOR der Bestellung nochmal sorgfältig verifizieren (IC Sockel, Verpolungsdiode, fehlende Widerstände)
 * Schaltungen immer mal in Frage stellen. Wir werden die Schaltung re-designen...
+* Einbaurichtung von Transistoren ordentlich dokumentieren
+* LED Vorwiderstände in Frage stellen m(
 
 
 [[Kategorie:Projekt]][[Kategorie: KleinProzessorZüchter]]
