@@ -50,9 +50,18 @@ Und hier http://git.informatik.uni-erlangen.de/?p=hawo-moodlight/.git;a=blob;f=m
 
 ===Lochraster Layout===
 
+
+* hier das krude layout, um die bisherige version (pre-redesign) erstmal zu bauen.
 [[Datei:Moodlamp-board.png|400px|thumb|]]
-hier das krude layout, um die bisherige version (pre-redesign) erstmalzu bauen.
 [[Datei:Moodlamp_bw.png|400px|thumb|]]
+
+----
+
+* Die Transistoren (BD139) mit dem metallischen Teil vom Atmel weg zeigend einbauen!
+* Wer schon einen Bausatz hat: Die Widerstände sind falsch. Als Abhilfe genügt es zur Zeit, ROT und GRÜN mit den 10ohm Widerständen auszustatten, und BLAU mit dem 6,8ohm. Ich bestelle bei Reichelt nach, damit die korrekten Widerstände verbaut werden können. Tut mir Leid!
+* Ich werd bei Zeiten das minimalisierte Layout von Severin in Lochmaster nachbauen und hier einpflegen.
+* Wir wollen ein Geekend mit den Erlangern machen und weiter an der Moodlamp hacken (Re-design, RFM12 Ansteuerung, Projektideen...)
+
 ----
 
 ===Lessons learned===
