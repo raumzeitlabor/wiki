@@ -11,7 +11,10 @@
 |license     = 
 |download    = 
 }}
-= Einleitung =
+
+Ob der Raum gerade offen ist (sprich ob die Tür geöffnet ist) wird jede Minute ermittelt und im Web zur Verfügung gestellt. Somit sollte niemand vor verschlossener Tür stehen, wenn er Lust hat, spontan ins RaumZeitLabor zu kommen. Der Status kann entweder via Web, IRC oder via Widget auf deinem Mobiltelefon abgerufen werden.
+
+= Funktionsweise =
 
 Die Scripts in firebox/ holen vom Etherrape den Raumstatus und mithilfe der
 Leases-Datei des DHCP-Servers und eines Broadcast-Pings die im Netz
@@ -19,7 +22,7 @@ befindlichen Geräte, protokollieren beides jeweils in einer RRD-Datei und
 laden anschließend einen generierten Graphen sowie full.json und simple.txt
 via WebDAV auf status.raumzeitlabor.de.
 
-== Adressen ==
+== Links ==
 
 === Für Nutzer ===
 * http://status.raumzeitlabor.de/ → Website mit dem aktuellen Status
