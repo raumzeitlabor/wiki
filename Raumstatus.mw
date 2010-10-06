@@ -39,16 +39,16 @@ via WebDAV auf status.raumzeitlabor.de.
 * http://status.raumzeitlabor.de/api/full.json<br>→ JSON-API, welche ein JSON-Dokument enthält
 
 == Quelltext ==
-* http://github.com/raumzeitlabor/raumzeitstatus<br>→ Sourcecode (auf GitHub)
+* [http://github.com/raumzeitlabor/raumzeitstatus github: raumzeitstatus]<br>→ Sourcecode (auf GitHub)
 
 === Mobile Devices ===
-* http://github.com/raumzeitlabor/raumzeitstatus-maemo-widget<br>→ Widget für Maemo (Nokia N900)
-* http://github.com/raumzeitlabor/raumzeitstatus-android-widget<br>→ Widget für Android
+* [http://github.com/raumzeitlabor/raumzeitstatus-maemo-widget github: raumzeitstatus-maemo-widget]<br>→ Widget für Maemo (Nokia N900)
+* [http://github.com/raumzeitlabor/raumzeitstatus-android-widget github: raumzeitstatus-android-widget]<br>→ Widget für Android
 
 === Social Networks/Web 2.0 ===
-* http://github.com/raumzeitlabor/raumzeitstatus-identica<br>→ Identica-Updates
+* [http://github.com/raumzeitlabor/raumzeitstatus-identica github: raumzeitstatus-identica]<br>→ Identica-Updates
 * Twitter wird derzeit via Identica aktualisiert.
-* http://github.com/raumzeitlabor/raumzeitstatus-xmpp<br>→ Jabber-Bot
+* [http://github.com/raumzeitlabor/raumzeitstatus-xmpp github: raumzeitstatus-xmpp]<br>→ Jabber-Bot
 
 == Setup ==
 
