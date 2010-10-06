@@ -39,6 +39,9 @@ via WebDAV auf status.raumzeitlabor.de.
 * http://github.com/raumzeitlabor/raumzeitlabor-status-widget<br>→ Widget für Maemo (Nokia N900)
 * TODO: android widget
 
+=== Social Networks/Web 2.0 ===
+* http://github.com/raumzeitlabor/raumzeitstatus-identica<br>→ Identica-Updates
+
 == Setup ==
 
 * RRD-Datenbanken erstellen:
