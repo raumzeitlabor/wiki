@@ -16,6 +16,8 @@ Ob der Raum gerade offen ist (sprich ob die Tür geöffnet ist) wird jede Minute
 
 = Funktionsweise =
 
+[[Image:Rzl-status.png|200px|thumb|Funktionsweise]]
+
 Die Scripts in firebox/ holen vom Etherrape den Raumstatus und mithilfe der
 Leases-Datei des DHCP-Servers und eines Broadcast-Pings die im Netz
 befindlichen Geräte, protokollieren beides jeweils in einer RRD-Datei und
@@ -25,16 +27,16 @@ via WebDAV auf status.raumzeitlabor.de.
 == Links ==
 
 === Für Nutzer ===
-* http://status.raumzeitlabor.de/ → Website mit dem aktuellen Status
-* http://status.raumzeitlabor.de/status-1week.png → Graph des Status über die letzte Woche
+* http://status.raumzeitlabor.de/<br>→ Website mit dem aktuellen Status
+* http://status.raumzeitlabor.de/status-1week.png<br>→ Graph des Status über die letzte Woche
 
 === Für Entwickler ===
-* http://status.raumzeitlabor.de/api/simple → Text-API, welche entweder "1", "0" oder "?" enthält
-* http://status.raumzeitlabor.de/api/full.json → JSON-API, welche ein JSON-Dokument enthält
-* http://github.com/raumzeitlabor/raumzeitstatus → Sourcecode (auf GitHub)
+* http://status.raumzeitlabor.de/api/simple<br>→ Text-API, welche entweder "1", "0" oder "?" enthält
+* http://status.raumzeitlabor.de/api/full.json<br>→ JSON-API, welche ein JSON-Dokument enthält
+* http://github.com/raumzeitlabor/raumzeitstatus<br>→ Sourcecode (auf GitHub)
 
 === Mobile Devices ===
-* http://github.com/raumzeitlabor/raumzeitlabor-status-widget → Widget für Maemo (Nokia N900)
+* http://github.com/raumzeitlabor/raumzeitlabor-status-widget<br>→ Widget für Maemo (Nokia N900)
 * TODO: android widget
 
 == Setup ==
