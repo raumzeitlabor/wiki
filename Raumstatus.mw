@@ -1,3 +1,16 @@
+{{ProjektInfoBox
+|name        = Raumstatus
+|status      = funktioniert
+|image       =
+|description = 
+|author      = [[Benutzer:sECuRE|sECuRE]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
 = Einleitung =
 
 Die Scripts in firebox/ holen vom Etherrape den Raumstatus und mithilfe der
@@ -46,3 +59,6 @@ via WebDAV auf status.raumzeitlabor.de.
  </Location>
 
 * status-unreachable.pl als Cronjob einrichten
+
+
+[[Kategorie:Projekt]]]
