@@ -2,6 +2,10 @@ Platzhalter für DIY-Synthesizer-Projekt
 
 = Ausstattung =
 
+Als Mainboard evtl ein Geode-Board, z.b. aus einem Futro S-400 (1GHz, schluckt direkt 12V und braucht sonst nix).
+
+Software evtl. SuperCollider. Erste Aufgabe wird sein, SuperCollider so zu programmieren, daß er die Oszillatoren durch ein rudimentäres Filter jagt, angesteuert per OpenSoundControl und/oder MIDI.
+
 == Oszillatoren ==
 
 * 3 Oszillatoren, jeder Oszillator kann einen von 6 Oszillatortypen beinhalten
@@ -11,7 +15,7 @@ Platzhalter für DIY-Synthesizer-Projekt
 ** Tune (einen Halbton nach oben/unten)
 ** Keyboard Tracking (Tonhöhe folgt den Tasten)
 
-Als Mainboard evtl ein Geode-Board, z.b. aus einem Futro S-400 (1GHz, schluckt direkt 12V und braucht sonst nix).
+
 
 === Oszillatortypen ===
 ==== Analog-Oszillator ====
