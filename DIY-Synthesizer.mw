@@ -8,16 +8,24 @@ Software evtl. SuperCollider. Erste Aufgabe wird sein, SuperCollider so zu progr
 
 Eventuell sollte man die Oszillatorsektion generisch halten, weil SuperCollider sehr viele Osc-Modelle besitzt. Diese alle auf der Frontplatte abzubilden wäre etwas zu krass.
 
+== Grundfunktionen Benutzerführung ==
+
+* Jeder Regler / Taster kann eine Zweitfunktion haben. Diese wird mittels des "Shift"-Buttons ausgewählt.
+
 == Oszillatoren ==
 
-* 3 Oszillatoren, jeder Oszillator kann einen von 6 Oszillatortypen beinhalten
+* 4 Oszillatoren, jeder Oszillator kann einen von <anzahl der SuperCollider-Oszillatortypen)  beinhalten
 * Grundparameter für jeden Oszillator:
-** Octave
-** Semitone (12 Halbtonschritte)
-** Tune (einen Halbton nach oben/unten)
-** Keyboard Tracking (Tonhöhe folgt den Tasten)
+** Octave (Einstellbar mittels '''ENC_OSC1'''). Zwischen Octave und Semitone wird durch drücken von ENC_OSC1 gewechselt.
+** Semitone (12 Halbtonschritte), Einstellbar mittels Encoder '''ENC_OSC1'''. Werden die +-12 überschritten, so wird automatisch die Oktave verändert.
+** Tune (einen Halbton nach oben/unten), Schrittunterteilung muß noch definiert werden. Einstellbar mittels Encoder '''ENC_OSC2'''. 
+** Keyboard Tracking (Tonhöhe folgt den Tasten). Einstellbar durch Druck auf den Encoder '''ENC_OSC2'''.
 
-
+* Die 4 Oszillatoren können durch die Taster '''SW_OSC1'''-'''SW_OSC4''' gewählt werden
+* Der Oszillatortyp kann durch den Encoder '''ENC_OSC3''' gewählt werden. Durch Druck auf den Encoder kann der Oszillator aktiv oder inaktiv geschalten werden.
+* Die Wellenform für den Wavetable-Oszillator bzw. die Oszillatorparameter lassen sich mittels '''ENC_OSC4''' ändern. Durch Drücken von '''ENC_OSC4''' lässt sich zwischen den verschiedenen Oszillator-Parametern bzw. der Wellenformkategorie durchschalten.
+* Die Intensität der Frequenzmodulation lässt sich mittels '''ENC_OSC5''' ändern. Durch Drücken von '''ENC_OSC5''' passiert im Moment noch '''nichts'''.
+* Später: Die Lautstärke zwischen den Oszillatoren mittels Joystick ändern
 
 === Oszillatortypen ===
 ==== Analog-Oszillator ====
@@ -41,7 +49,6 @@ Noch überlegen
 
 ==== Rauschen ====
 Noch überlegen
-
 
 = Historie =
 
