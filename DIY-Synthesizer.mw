@@ -6,6 +6,8 @@ Als Mainboard evtl ein Geode-Board, z.b. aus einem Futro S-400 (1GHz, schluckt d
 
 Software evtl. SuperCollider. Erste Aufgabe wird sein, SuperCollider so zu programmieren, daß er die Oszillatoren durch ein rudimentäres Filter jagt, angesteuert per OpenSoundControl und/oder MIDI.
 
+Eventuell sollte man die Oszillatorsektion generisch halten, weil SuperCollider sehr viele Osc-Modelle besitzt. Diese alle auf der Frontplatte abzubilden wäre etwas zu krass.
+
 == Oszillatoren ==
 
 * 3 Oszillatoren, jeder Oszillator kann einen von 6 Oszillatortypen beinhalten
@@ -39,3 +41,14 @@ Noch überlegen
 
 ==== Rauschen ====
 Noch überlegen
+
+
+= Historie =
+
+{| class="wikitable"
+|-
+! Datum !! Was ist passiert?
+|-
+| 09.10.2010 || Ansteuerung von SuperCollider über MIDI, Latenz bei gerade mal 2.5ms (bei 48kHz) auf einem P3 1GHz - unter 1ms wenn ein Audiointerface mit mehr "Power" verwendet wird! :) Natürlich kann es passieren, daß SuperCollider soviel CPU braucht, daß man die Puffer hochsetzen muß, aber hoffen wir mal das beste!
+|-
+| 08.10.2010 || Erste Tests mit SuperCollider, Suche nach passender Hardware
