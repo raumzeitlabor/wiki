@@ -60,7 +60,7 @@ Nächste Bestellung (bitte eintragen, wird nach Bestellung jeweils gelöscht):
 |-----
 ! Besteller || Anzahl || Brauche Hilfe || liegt bereit || abgeholt || bezahlt
 |-----
-| simon || 1 || ? || ja || ja  || nein
+| simon || 1 || ? || ja || ja  || ja
 |-----
 | mist || 1 || ? || ja || ja || nein
 |-----
