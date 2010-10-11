@@ -55,6 +55,10 @@ Noch überlegen
 {| class="wikitable"
 |-
 ! Datum !! Was ist passiert?
+|- 
+| 11.10.2010 || Neuer Kernel ist kompiliert, Latenz mit einer Buffer Size von 64 liegt bei 0.7ms! 
+|- 
+| 10.10.2010 || Umstieg auf Mainboard/CPU Fujitsu Futro S400 mit 1GHz AMD Geode Prozessor (Athlon XP-Klasse), PCI-Soundkarte M-Audio Delta 410 mit 8 Outs / 2 Ins
 |-
 | 09.10.2010 || Ansteuerung von SuperCollider über MIDI, Latenz bei gerade mal 2.5ms (bei 48kHz) auf einem P3 1GHz - unter 1ms wenn ein Audiointerface mit mehr "Power" verwendet wird! :) Natürlich kann es passieren, daß SuperCollider soviel CPU braucht, daß man die Puffer hochsetzen muß, aber hoffen wir mal das beste!
 |-
