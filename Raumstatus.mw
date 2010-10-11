@@ -32,7 +32,7 @@ via WebDAV auf status.raumzeitlabor.de.
 * http://status.raumzeitlabor.de/status-1week.png<br>→ Graph des Status über die letzte Woche
 * Hinter '''raumzeitstatus@jabber.ccc.de''' (Jabber) verbirgt sich ein Bot mit Raumstatus als Away-Status.
 * [http://identi.ca/raumzeitstatus raumzeitstatus] auf identi.ca informiert über den Raumstatus
-* [http://twitter.com/raumzeitstatus raumzeitstatus] auf twitter informiert über den Raumstatus (derzeit mit Vorsicht zu genießen, da Update-Probleme).
+* [http://twitter.com/raumzeitstatus raumzeitstatus] auf twitter informiert über den Raumstatus
 
 === Für Entwickler (API) ===
 * http://status.raumzeitlabor.de/api/simple<br>→ Text-API, welche entweder "1", "0" oder "?" enthält
