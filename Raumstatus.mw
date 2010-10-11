@@ -47,7 +47,7 @@ via WebDAV auf status.raumzeitlabor.de.
 
 === Social Networks/Web 2.0 ===
 * [http://github.com/raumzeitlabor/raumzeitstatus-identica github: raumzeitstatus-identica] (Identica)
-* Twitter wird derzeit via Identica aktualisiert.
+* [http://github.com/raumzeitlabor/raumzeitstatus/tree/master/twitter/ github: raumzeitstatus/twitter] (Twitter)
 * [http://github.com/raumzeitlabor/raumzeitstatus-xmpp github: raumzeitstatus-xmpp] (Jabber)
 
 == Setup ==
