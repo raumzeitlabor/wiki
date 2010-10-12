@@ -78,7 +78,9 @@ Hier das neue Kompaktlayout (Danke Tiefpunkt fürs Routen und DaFo für Lochmast
 
 ==Firmware==
 ===Fuses===
-<code>avrdude -c usbasp -p m48 -U lfuse:w:0xff:m -U hfuse:w:0xde:m</code>
+ avrdude -c usbasp -p m48 -U lfuse:w:0xff:m -U hfuse:w:0xde:m
+* Der Befehl setzt einen USBasp als Programmer vorraus
+* Auf dem USBasp vor dem Setzen der Fuses den "Slow SCK"-Jumper (J3, der zwischen den beiden LEDs) setzen. Die anderen Jumper dürfen nicht gesetzt sein!
 ===Source===
 Einfaches Farb-Fading, Rest ist noch in Arbeit...
 [http://github.com/tiefpunkt/Moodlamp http://github.com/tiefpunkt/Moodlamp]
