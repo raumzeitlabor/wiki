@@ -1,0 +1,18 @@
+Welche Teile braucht man noch für den Prototyp?
+
+
+= Reichelt =
+{| class="wikitable"
+|-
+! Anzahl !! Bauteil !! Bestellnummer Reichelt !! Einzelpreis !! Gesamtpreis !! Kommentar
+|-
+| 10? || Wannenstecker, 34-polig, gerade || WSL 34G || 0,13€ || 1,30€ || um die einzelnen Platinen zu verbinden. Ist noch zu prüfen!
+|}
+
+= Conrad =
+{| class="wikitable"
+|-
+! Anzahl !! Bauteil !! Link !! Einzelpreis !! Gesamtpreis !! Kommentar
+|-
+| 12 || Stiftleiste 3,96mm 2-pol || [http://www.conrad.de/ce/de/product/740940/STIFTLEISTE-GERADE-2-POL-RM396/0224410] || 0,31€ || 3,72€ || Für EL-Folienanschluss. Ist noch zu prüfen, ob man nicht einfach die Kabel an der LCD-Platine so festlötet.
+|}
