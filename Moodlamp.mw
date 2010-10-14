@@ -2,10 +2,10 @@
 |name        = Moodlamp
 |status      = experimental
 |image       = RaumZeitLaborLogo.svg
-|description = 
-|author      = 
+|description = Lecker-bunte Farblaterne
+|author      = TabascoEye
 |username    = 
-|version     = 
+|version     = 1.5
 |update      = 
 |platform    = 
 |license     = 
@@ -81,9 +81,15 @@ Hier das neue Kompaktlayout (Danke Tiefpunkt fürs Routen und DaFo für Lochmast
  avrdude -c usbasp -p m48 -U lfuse:w:0xff:m -U hfuse:w:0xde:m
 * Der Befehl setzt einen USBasp als Programmer vorraus
 * Auf dem USBasp vor dem Setzen der Fuses den "Slow SCK"-Jumper (J3, der zwischen den beiden LEDs) setzen. Die anderen Jumper dürfen nicht gesetzt sein!
+
 ===Source===
 Einfaches Farb-Fading, Rest ist noch in Arbeit...
 [http://github.com/tiefpunkt/Moodlamp http://github.com/tiefpunkt/Moodlamp]
+
+
+==Fotos==
+[[Datei:2010-10-14 00.52.10.jpg|400px|thumb|right|Aufgebaute Moodlamp von tiefpunkt]]
+
 
 
 [[Kategorie:Projekt]][[Kategorie: KleinProzessorZüchter]]
