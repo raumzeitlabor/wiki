@@ -53,7 +53,7 @@ Und hier http://git.informatik.uni-erlangen.de/?p=hawo-moodlight/.git;a=blob;f=m
 * hier das krude layout, um die bisherige version (pre-redesign) erstmal zu bauen.
 [[Datei:Moodlamp-board.png|400px|thumb|right|Moodlampschaltung 1.0]]
 [[Datei:Moodlamp_bw.png|400px|thumb|right|Moodlampschaltung 1.0]]
-
+<br style="clear:both" />
 ----
 
 * Die Transistoren (BD139) mit dem metallischen Teil vom Atmel weg zeigend einbauen!
@@ -66,7 +66,7 @@ Und hier http://git.informatik.uni-erlangen.de/?p=hawo-moodlight/.git;a=blob;f=m
 Hier das neue Kompaktlayout (Danke Tiefpunkt fürs Routen und DaFo für Lochmaster)
 [[Datei:Moodlamp_1.5_top.png|400px|thumb|right|Moodlampschaltung 1.5 oben]]
 [[Datei:Moodlamp_1.5_bottom.png|400px|thumb|right|Moodlampschaltung 1.5 unten]]
-
+<br style="clear:both" />
 ===Lessons learned===
 
 * Klebende Wärmeleitpads benutzen (mitbestellen bei led-tech) statt Wärmeleitkleber. Sauerei und nervig bis zum Aushärten.
