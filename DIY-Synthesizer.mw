@@ -55,6 +55,8 @@ Noch überlegen
 {| class="wikitable"
 |-
 ! Datum !! Was ist passiert?
+|-
+| 12.10.2010 - 16.10.2010 || Leider funktioniert die M-Audio Delta 410 auf dem Board nicht richtig, weil sie IRQ-Sharing mit einer anderen Hardware nutzt. Bisher hab ich es nicht hinbekommen, das IRQ-Sharing zu deaktivieren. Notfalls muß ein neues Board her, eventuell werde ich auch erstmal eine Billig-USB-Soundkarte testen.
 |- 
 | 11.10.2010 || Neuer Kernel ist kompiliert, Latenz mit einer Buffer Size von 64 liegt bei 0.7ms! 
 |- 
