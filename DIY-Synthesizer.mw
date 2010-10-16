@@ -50,6 +50,10 @@ Noch überlegen
 ==== Rauschen ====
 Noch überlegen
 
+= Ideen =
+
+* Quick-Save-Funktion hinzufügen. Damit kann man den aktuellen Patch sofort in einer separaten Speicherlokation speichern. Quasi: "Oh, das klingt geil, mal schnell speichern". Wichtig ist, daß die aktuelle Speicherlokation nicht geändert wird.
+
 = Historie =
 
 {| class="wikitable"
