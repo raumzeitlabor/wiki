@@ -16,6 +16,14 @@ Das KrachBummLabor ist ein kleines Musikstudio innerhalb vom RaumZeitLabor.
 
 Bisher ist folgendes an Hardware vorhanden (Bedienhinweise sind hinter den Links hinterlegt):
 
+== Einschaltprozedur ==
+
+Einfach die Steckdosenleiste, die von unten unter den rechten Tisch geschraubt ist, anschalten. Das war's auch schon.
+
+== Lautstärke regeln ==
+
+Nutze dafür den "Studio"-Regler auf der rechten Seite des Pultes. Bitte '''nicht''' die Lautstärke an den Lautsprechern selbst ändern.
+
 == Audio-Equipment ==
 * [[Podcast-Labor/Tascam M-2600|Tascam M-2600]] 32-Kanal Mischpult
 * [[Podcast-Labor/MoTU UltraLite mk3|MoTU UltraLite mk3]] Hybrid Audio-Interface (Firewire/USB)
@@ -40,8 +48,6 @@ Bisher ist folgendes an Hardware vorhanden (Bedienhinweise sind hinter den Links
 
 Teilweise ist Audio-Hardware etwas empfindlich. Wenn ihr euch nicht sicher seid, was bei bestimmten Aktionen passieren kann (z.b. bei Aktivierung der +48V Phantomspeisung), fragt einfach [[Benutzer:Timo A. Hummel|mich]]. Bestimmte Informationen zu einelznen Geräten findet Ihr auf der Geräte-Seite.
 
-'''Einschaltprozedur''': Immer zuerst das Mischpult einschalten (großer Kasten unter dem Tisch), prüfen, daß kein Signal durch den Master geht (LED-Bargraph-Anzeige ganz rechts auf dem Pult), erst danach die Monitorboxen einschalten (Kippschalter an der Rückseite der Monitorboxen). Andernfalls könnte es ziemlich in den Monitorboxen knacken und je nach Lautstärke könnte ein Herzinfarkt drohen.
-
 Da verschiedene Leute die Hardware nutzen, solltet ihr euch die Reglerpositionen des Pultes notieren, falls ihr nicht an einem Abend fertig werdet. Im Handbuch gibt es dazu die Grafik eines Channel-Strips, da müsste man mal das ganze als Kopiervorlage umbasteln, damit man da einfach die Einstellungen markieren kann.
 
 '''Regeln zur Benutzung der Hardware:'''
@@ -58,14 +64,6 @@ Da verschiedene Leute die Hardware nutzen, solltet ihr euch die Reglerpositionen
 * Mehr Effektgeräte wären toll. Ich persönlich plane, nach den I/O-Karten ein Boss VF-1 und ein Lexicon MPX-500 zu organisieren.
 * Wer wissen möchte, was man mit dem Equipment so alles anstellen kann, für den kann ich gerne einen Workshop anbieten.
 * In ferner Zukunft wäre natürlich ein Raum-im-Raum mit akustischer Optimierung nützlich, weil unser Raum schon ganz schön hallt. Das hängt aber stark davon ab, wie sehr das Equipment auch genutzt wird.
-
-== Sonstige Infos ==
-
-Ab und zu scheinen das MoTU Ultralite, der MASCHINE-Controller und der Novation Nocturn spurlos zu verschwinden, und tauchen dann in den Folgetagen wie von Geisterhand wieder auf. Das liegt daran, daß [[Benutzer:Timo A. Hummel|ich]] ungefähr einmal alle 3 Monate einen Auftritt habe und noch kein Zweitequipment habe (und mir so schnell auch keines anschaffen werde).
-
-== Open Issues ==
-
-* Wohin mit Maus und Tastatur? Die Tastatur kann zwar zwischen Tisch und Mischpult geklemmt werden, ist aber nicht wirklich zu empfehlen. Eine "Tastatur mit Trackpad auf dem Schlitten" wäre toll, oder eine ausziehbare Tastatur. Ggf. eine zweite Tastatur/Maus-Kombi. Die Frage ist natürlich auch, ob unbedingt beide Monitore über dem Mischpult platziert werden sollten oder ob man einfach einen Monitor auf den Beitisch stellt, damit man ordentlich mit Maschine, MPC und co Bildschirmgestützt arbeiten kann?
 
 == Defekte ==
 
