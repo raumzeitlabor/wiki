@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = Moodlamp
 |status      = experimental
-|image       = RaumZeitLaborLogo.svg
+|image       = Moodlamp01.jpg
 |description = Lecker-bunte Farblaterne
 |author      = TabascoEye
 |username    = 
@@ -9,16 +9,15 @@
 |update      = 
 |platform    = 
 |license     = 
-|download    = 
+|download    = [http://github.com/tiefpunkt/Moodlamp Firmware(Github)]
 }}
 Weil bunte, blinkende Lichter, die man steuern kann toll sind, wollen wir Moodlamps bauen.
 Beim eh2010 in München gab es schon nette Moodlamps, die aber SMD Bauteile beinhalten und deshalb für Anfänger sehr schwer zu löten sind.
 Wir wollten eine Moodlamp mit bedrahteten Bauteilen fertigen.
 Die Erlanger haben sich das auch schon gedacht und sind damit soweit fertig, weshalb wir uns dieses Design klauen (danke Erlangen).
 
-==Bauteile==
-
-
+==Hardware==
+===Bauteile===
 {| border="1" cellspacing="0" cellpadding="10"
 |-----
 ! Bezeichung || Bezugsquelle || Link || Preis 
@@ -86,13 +85,19 @@ Hier das neue Kompaktlayout (Danke Tiefpunkt fürs Routen und DaFo für Lochmast
 * Auf dem USBasp vor dem Setzen der Fuses den "Slow SCK"-Jumper (J3, der zwischen den beiden LEDs) setzen. Die anderen Jumper dürfen nicht gesetzt sein!
 
 ===Source===
-Einfaches Farb-Fading, Rest ist noch in Arbeit...
+Einfaches Farb-Fading sowie Steuerung per IR-Fernbdienung (Farbauswahl, zurück zum Fading-Modus). Passt gerade noch auf den Atmega48.
 [http://github.com/tiefpunkt/Moodlamp http://github.com/tiefpunkt/Moodlamp]
 
+===Mögliche Erweiterungen===
+* Steuerung über RFM12-Chip --> Chip schon vorhanden, muss nur angesprochen werden!
+* Steuerung über Audiosignal ?
+* DMX? Hausbus?
+* etc.
 
 ==Fotos==
 {|
 | [[Datei:2010-10-14 00.52.10.jpg|400px|thumb|Aufgebaute Moodlamp von tiefpunkt]]
+| [[Datei:Moodlamp01.jpg|277px|thumb|Moodlamp in Betrieb, mit passender Fernbedienung]]
 |}
 
 
