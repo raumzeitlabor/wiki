@@ -1,82 +1,92 @@
-16. November 2011 - 19:00 Uhr
-Infrastruktur Meeting
+ 16. November 2011 - 20:11 Uhr bis 21:05 Uhr
+ Infrastruktur Meeting
 
-Tagesordnung
-1. Schließsystem
-Zuständig: Abrock, Secure
-Status:
-ABUS Hometech-System wird an uC angeschlossen
-Neues Schloss kommt an Haupttür, altes Schloss an Nebentür
+==Schließsystem==
+;Zuständig: Abrock, Secure
+*ABUS Hometech-System wird an uC angeschlossen
+*Neues Schloss kommt an Haupttür, altes Schloss an Nebentür
+;TODO
+#Gehäuse für Platinen innerhalb des RZL bauen (neben der Tür) damit alles nerdsicher verpackt ist
+#Pinpad-Software schreiben (secure)
+#Mitglieder DB aufsetzen(->MySQL auf blackbox), DB Layout?
+
+==Internet==
+;Zuständig: docsteel, Secure, Inte
+*Telekom schaltet bis an die Straße (Übergabepunkt). Für Breitband müssten wir Glasfasern verlegen. Von Manda gibt es keine Rückmeldung, docsteel hakt nach (Gigabit!). Famefabrik hat Arcor. Zur ABB existiert ein Kabelschacht. Docsteel hat einen günstigen Anbieter für Glasfasererdkabel. Unklar ist immernoch, wie viel Geld für Internet zur Verfügung steht.
+*Fazit: alles Zukunftsmusik, günstig muss es sein.
+
+==Platinen ätzen==
+;Zuständig: sur5r, DaFo
+*sur5r hat von seinem alten Arbeitgeber Ausrüstung mitgebracht. 
+*Abrock hat Flaschen, Erlenmeyerkolben, Trichter, Glasrührstäbe gekauft.
+*Noch kein neuer Termin für die Ätzprojektgruppe (DaFo, Abrock, Kiwi, Romain)
+;TODO
+#Ätzecke aufräumen
+#Schutzbrillen kaufen
+#UV-Belichter
+#Wand verfliesen
+#Waschbecken
+#Wiki-Seite anlegen
+#Entsorgung der Alt-Chemikalien klären
+#Mit dem Typen reden, der auf Platinen mit Tintenstrahldrucker druckt
+
+==Küche==
+;Zuständig: Zwetschgo
+;TODO
+#Rückwände von Schränken verkleiden
+#Kühlschränke umräumen
+#Vorratsbehälter für Mehl etc. beschaffen
+
+==Lichtsteuerung==
+;Zuständig: keiner
+*Hat momentan keine Priorität
+*Bei großem Lichtstrang (Beamerwand) die Hälfte der Lampen deaktivieren
+
+==Audioverkabelung==
+*'''F:''' Dafo mal fragen, ob er da schon was gemacht hat. Er erwähnte mal, daß er Übertrager besorgt hat, aber ich weiß nicht genau wie da der Stand ist. Ich bin heute leider nicht da.
+*'''A:''' Noch keine besorgt. DaFo sucht noch Gegentaktdrosseln.
+
+==Öffentlichkeitsarbeit==
+;Zuständig: Naddie, Zwetschgo
+*Wollen Corporate Design erstellen, Logos für KrachBummLabor, KochBackLabor, etc.
+
+===Mal wieder ne Shirtbestellung, etc.===
+;Zuständig: Naddie, Zwetschgo
+;TODO
+#Bestellaufruf im Wiki
+#Infomail/Shop für Weihnachtsgeschenke
+
+===RZL-Präsentation von Inte===
+*am 24.11 (Mittwoch, das nach Dienstag, vor Donnerstag). Inte
+;TODO
+#Bildmaterial sammeln
+#Wenn ihr Schwerpunkte habt, bitte darauf hinweisen.
+#Raum für Workshops bewerben.
+
+==Werbematerial==
+===Rollup-Banner===
+;Zuständig: Inte
+;TODO
+*Design erstellen
+*Bestellung (wann/wo) klären
+
+===Flyer===
+;Zuständig: Inte
+;TODO
+*Mit dem Bannerentwurf auch gleich 'nen Flyer bestellen?
+
+==Smartmeter==
+;Zuständig: docsteel
+*Läuft seit 5 Wochen wieder.
+;TODO
+#Chmuby Plugin
+#Verbrauchsstatistik ins Wiki / auf die Hompage
+
+==Elektroecke==
+;Zuständig: Tabascoeye
 TODO
-a) Gehäuse für Platinen innerhalb des RZL bauen (neben der Tür) damit alles nerdsicher verpackt ist
-b) Pinpad-Software schreiben (secure)
-c) Mitglieder DB aufsetzen(->MySQL auf blackbox), DB Layout?
+#Trennwand zum Serverschrank aufbauen
 
-2. Internet
-Zuständig: docsteel, Secure, Inte
-Telekom schaltet bis an die Straße (Übergabepunkt). Für Breitband müssten wir Glasfasern verlegen. Von Manda gibt es keine Rückmeldung, docsteel hakt nach (Gigabit!). Famefabrik hat Arcor. Zur ABB existiert ein Kabelschacht. Docsteel hat einen günstigen Anbieter für Glasfasererdkabel. Unklar ist immernoch, wie viel Geld für Internet zur Verfügung steht.
-Fazit: alles Zukunftsmusik, günstig muss es sein.
-
-3. Platinen ätzen
-Zuständig: sur5r, DaFo
-sur5r hat von seinem alten Arbeitgeber Ausrüstung mitgebracht. 
-Abrock hat Flaschen, Erlenmeyerkolben, Trichter, Glasrührstäbe gekauft.
-Noch kein neuer Termin für die Ätzprojektgruppe (DaFo, Abrock, Kiwi, Romain)
-TODO
-a) Ätzecke aufräumen
-b) Schutzbrillen kaufen
-c) UV-Belichter
-d) Wand verfliesen
-e) Waschbecken
-f) Wiki-Seite anlegen
-g) Entsorgung der Alt-Chemikalien klären
-h) Mit dem Typen reden, der auf Platinen mit Tintenstrahldrucker druckt
-
-4. Küche
-Zuständig: Zwetschgo
-TODO
-a) Rückwände von Schränken verkleiden
-b) Kühlschränke umräumen
-c) Vorratsbehälter für Mehl etc. beschaffen
-
-5. Lichtsteuerung
-Zuständig: keiner
-Hat momentan keine Priorität
-Bei großem Lichtstrang (Beamerwand) die Hälfte der Lampen deaktivieren
-
-6. Audioverkabelung
-F: Dafo mal fragen, ob er da schon was gemacht hat. Er erwähnte mal, daß er Übertrager besorgt hat, aber ich weiß nicht genau wie da der Stand ist. Ich bin heute leider nicht da.
-A: Noch keine besorgt. DaFo sucht noch Gegentaktdrosseln.
-
-7. Öffentlichkeitsarbeit
-Zuständig: Naddie, Zwetschgo
-Wollen Corporate Design erstellen, Logos für KrachBummLabor, KochBackLabor, etc.
-
-7.1. Mal wieder ne Shirtbestellung, etc.(?). Naddie
-TODO
-a) Bestellaufruf im Wiki
-b) Infomail/Shop für Weihnachtsgeschenke
-
-7.2. RZL-Präsentation von Inte am 24.11 (Mittwoch, das nach Dienstag, vor Donnerstag). Inte
-TODO
-a) Bildmaterial sammeln
-b) Wenn ihr Schwerpunkte habt, bitte darauf hinweisen.
-c) Raum für Workshops bewerben.
-
-8. Werbematerial
-8.1. Rollup-Banner - Design erstellen und Bestellung (wann/wo) klären.
-8.2. Flyer - Mit dem Bannerentwurf auch gleich 'nen Flyer bestellen?
-
-9. Smartmeter
-Zuständig: docsteel
-Läuft seit 5 Wochen wieder.
-TODO
-a) Chmuby Plugin
-b) Verbrauchsstatistik ins Wiki / auf die Hompage
-
-10. Elektroecke
-TODO
-a) Trennwand zum Serverschrank aufbauen
-
-11. Vereinsstatus
-Wir sind gemeinnützig!!! Eintragung beim Notar erfolgt Freitag.
+==Vereinsstatus==
+*Wir sind gemeinnützig!
+*Eintragung beim Notar erfolgt Freitag.
