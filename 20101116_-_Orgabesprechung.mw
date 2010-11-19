@@ -6,13 +6,13 @@
 *ABUS Hometech-System wird an uC angeschlossen
 *Neues Schloss kommt an Haupttür, altes Schloss an Nebentür
 ;TODO
-#Gehäuse für Platinen innerhalb des RZL bauen (neben der Tür) damit alles nerdsicher verpackt ist
+#Gehäuse für Platinen innerhalb des RZL bauen (neben der Tür) damit alles nerdsicher verpackt ist, im Moment liegt das alles auf einem Brett auf dem Vorratsschrank.
 #Pinpad-Software schreiben (secure)
 #Mitglieder DB aufsetzen(->MySQL auf blackbox), DB Layout?
 
 ==Internet==
 ;Zuständig: docsteel, Secure, Inte
-*Telekom schaltet bis an die Straße (Übergabepunkt). Für Breitband müssten wir Glasfasern verlegen. Von Manda gibt es keine Rückmeldung, docsteel hakt nach (Gigabit!). Famefabrik hat Arcor. Zur ABB existiert ein Kabelschacht. Docsteel hat einen günstigen Anbieter für Glasfasererdkabel. Unklar ist immernoch, wie viel Geld für Internet zur Verfügung steht.
+*Telekom schaltet bis an die Straße (Übergabepunkt). Für Breitband müssten wir Glasfasern verlegen. Von Manda gibt es keine Rückmeldung, docsteel hakt nach (Gigabit!). Famefabrik hat Arcor. Zur ABB existiert ein Kabelschacht. Docsteel hat einen günstigen Anbieter für Glasfaser-Erdkabel. Unklar ist immernoch, wie viel Geld für Internet zur Verfügung steht.
 *Fazit: alles Zukunftsmusik, günstig muss es sein.
 
 ==Platinen ätzen==
@@ -43,7 +43,7 @@
 *Bei großem Lichtstrang (Beamerwand) die Hälfte der Lampen deaktivieren
 
 ==Audioverkabelung==
-*'''F:''' Dafo mal fragen, ob er da schon was gemacht hat. Er erwähnte mal, daß er Übertrager besorgt hat, aber ich weiß nicht genau wie da der Stand ist. Ich bin heute leider nicht da.
+*'''F:''' Dafo mal fragen, ob er da schon was gemacht hat. Er erwähnte mal, dass er Übertrager besorgt hat, aber ich weiß nicht genau wie da der Stand ist. Ich bin heute leider nicht da.
 *'''A:''' Noch keine besorgt. DaFo sucht noch Gegentaktdrosseln.
 
 ==Öffentlichkeitsarbeit==
