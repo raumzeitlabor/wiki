@@ -1,4 +1,8 @@
 == Übersicht ==
+
+Die vier Pins links oben sind keine Masseleiste, sondern, von links nach rechts:
+Masse, öffnen (PA2), schließen (PA3), 5V. Angeschlossen wird daran das Kabel zu dem Abus-Gerät, das die Tür auf- und zuschließt. Ein Schaltvorgang wird ausgelöst, in dem der entsprechende Pin auf Masse gezogen wird.
+
 [[Image:Hausbus644-overview.jpg]]
 
 == Schaltplan/Layout ==
