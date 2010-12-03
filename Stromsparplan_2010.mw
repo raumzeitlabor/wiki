@@ -1,16 +1,9 @@
 == Auflistung der Verbraucher mit Stromsparpotential (bitte ergänzen/korrigieren) ==
-{| width="200" border="1" cellpadding="1" cellspacing="1"
+{| class="wikitable" border="1" cellpadding="1" cellspacing="1"
 |-
-| Art
-| Verbraucher
-| Stromverbrauch geschätzt
-| Stromverbrauch effektiv
-| Einsparpotential
-| Läuft permanent?
-| Abschaltbar
-| Ansprechpartner für Einsparungen
+! Art !! Verbraucher !! Stromverbrauch geschätzt !! Stromverbrauch effektiv !! Einsparpotential !! Läuft permanent? !! Abschaltbar !! Ansprechpartner für Einsparungen
 |-
-| IT-Infrastruktur
+|| IT-Infrastruktur
 | Firebox
 | 50w
 | unbekannt
