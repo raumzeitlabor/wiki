@@ -1,0 +1,143 @@
+{| width="200" border="1" cellpadding="1" cellspacing="1"
+|-
+| Art
+| Verbraucher
+| Stromverbrauch geschätzt
+| Stromverbrauch effektiv
+| Einsparpotential
+| Läuft permanent?
+| Abschaltbar
+| Ansprechpartner für Einsparungen
+|-
+| IT-Infrastruktur
+| Firebox
+| 50w
+| unbekannt
+| ?
+| ja
+| ?
+| docsteel?, secure?
+|-
+| IT-Infrastruktur
+| Datengrab
+| 40w
+| unbekannt
+| ?
+| ja
+| ?
+| docsteel
+|-
+| IT-Infrastruktur
+| Blackbox
+| 65w
+| unbekannt
+| ?
+| ja
+| ?
+| docsteel?, secure?
+|-
+| IT-Infrastruktur
+| 24-Port Switch
+| 65w
+| unbekannt
+| ja, indem er per NPM abgeschalten wird
+| ja
+| ja
+| 
+|-
+| IT-Infrastruktur
+| NPM
+| ?
+| unbekannt
+| eher nicht
+| noch nicht, soll aber
+| vermutlich nicht
+| 
+|-
+| IT-Infrastruktur
+| Flukso
+| ?
+| unbekannt
+| eher nicht
+| ja
+| nein
+| 
+|-
+| IT-Infrastruktur
+| Etherrape
+| ?
+| unbekannt
+| ?
+| ja
+| ?
+| 
+|-
+| IT-Infrastruktur
+| Pinpad
+| ?
+| ?
+| ?
+| ja
+| nein
+| 
+|-
+| IT-Infrastruktur
+| DECT/LAN-Adapter (Basisstation)
+| 5w
+| ?
+| ja, könnte durch NPM abgeschalten werden
+| ja
+| vermutlich ja
+| 
+|-
+| IT-Infrastruktur
+| DECT Ladeschale
+| 10w
+| ?
+| ja, könnte durch NPM abgeschalten werden
+| ja
+| vermutlich ja
+| 
+|-
+| Küche
+| Gemeinschaftskühlschrank
+| ?
+| ?
+| ?
+| ja
+| ?
+| 
+|-
+| Küche
+| Getränkekühlschrank
+| ?
+| ?
+| ja, wird im Winter abgeschalten
+| ja
+| ja
+| 
+|-
+| Küche
+| Kühl/Gefrierkombi
+| ?
+| ?
+| ?
+| ?
+| ?
+| 
+|-
+| Küche
+| Boiler
+| ?
+| ?
+| ja, indem der Boiler manuell geschalten wird
+| ja
+| vermutlich ja
+| 
+|}
+
+Vorgehensweise:
+* moemoe und DaFo? wollen am 18.19. Strommesswochenende machen. Wichtig wäre es dann auch,  alle o.g. Verbraucher zu messen, um die Daten zu aktualisieren
+* Wer kümmert sich um die Installation des NPM?
+* docsteel und secure haben sich über ein "Internet Light" unterhalten, damit man die Firebox dynamisch booten kann, wenn jemand im Raum ist, ohne auf einen RaumZeitStatus zu verzichten. Wie ist da der Stand?
+* Weitere Vorschläge?
