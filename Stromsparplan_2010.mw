@@ -28,7 +28,7 @@
 | ?
 | ja
 | ?
-| docsteel?, secure?
+| docsteel?, secure
 |-
 | IT-Infrastruktur
 | 24-Port Switch
@@ -37,7 +37,7 @@
 | ja, indem er per NPM abgeschalten wird
 | ja
 | ja
-| docsteel?, secure?
+| docsteel
 |-
 | IT-Infrastruktur
 | NPM
