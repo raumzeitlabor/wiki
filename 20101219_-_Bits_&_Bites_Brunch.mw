@@ -1,8 +1,18 @@
-;Unkostenbeitrag:5EUR
+;Wann:Sonntag, der 19. Dezember 2010, ab 11 Uhr.
+;Unkostenbeitrag:5 Euro
 
 ==Ansprechpartner==
+===Vorbereitungn===
+;Einkauf:Fnord
+;Küche putzen:Helga
+;Boden reinigen (saugen/wischen):Paul
+===Durchführung===
+;Mülltütendienst:Hans
 ;Rührei:Foo
 ;Toast:Bar
+===Nachbereitung===
+;Küche putzen:Helga
+;Bodenreinigung (saugen/wischen):Paul
 
 ==Einkaufsliste==
 *...
@@ -10,4 +20,9 @@
 ==Teilnehmer==
 *...
 
+==Zeitplan==
+===Samstag===
+:20:00 Küche & Boden reinigen
+===Sonntag===
+:17:00 Küche & Boden reinigen
 [[Kategorie:Bits & Bites Brunch]]
