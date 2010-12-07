@@ -88,6 +88,10 @@ Hier das neue Kompaktlayout (Danke Tiefpunkt fürs Routen und DaFo für Lochmast
 Einfaches Farb-Fading sowie Steuerung per IR-Fernbdienung (Farbauswahl, zurück zum Fading-Modus). Passt gerade noch auf den Atmega48.
 [http://github.com/tiefpunkt/Moodlamp http://github.com/tiefpunkt/Moodlamp]
 
+===ToDo===
+* Andere IR-Routinen ( http://www.mikrocontroller.net/articles/IRMP )
+* Stabilität
+
 ===Mögliche Erweiterungen===
 * Steuerung über RFM12-Chip --> Chip schon vorhanden, muss nur angesprochen werden!
 * Steuerung über Audiosignal ?
