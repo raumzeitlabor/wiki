@@ -6,3 +6,29 @@ Die Firebox ist unser derzeitiger Router. Die Aufgaben sind:
 * Via NPM Switch ein-/ausschalten
 * DNS, DHCP, radvd, firewall
 * Zugang ins dn42
+
+== Spezifikation für einen Ersatz ==
+
+Da die Firebox relativ viel Strom frisst, kann man über einen Ersatz nachdenken. Folgende Punkte '''müssen''' erfüllt sein:
+
+* mindestens (!) 4 Ethernet-Ports, je mehr desto besser
+* mindestens 256 MB Arbeitsspeicher, besser 512 MB
+* mindestens 2 GB Speicher (Flash/CF-card/…)
+* Echtes Linux lauffähig (kein OpenWRT o.ä.)
+* mindestens 500 MHz CPU
+* signifikant weniger Stromverbrauch als die Firebox (genauer Stromverbrauch derzeit noch nicht bekannt!)
+
+Folgende Punkte wären gut, sind aber nicht notwendig:
+
+* 19"-Gehäuse
+* USB-Ports
+* RS232-Ports
+
+== Hardware ==
+
+* Intel(R) Celeron(TM) CPU 1200MHz
+* 256 MB RAM
+* 2 GB CF-Card
+* 6 Ethernet-Ports
+* 19"-Gehäuse, 1HE
+* Linux 2.6.33
