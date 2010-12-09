@@ -1,7 +1,7 @@
 == Auflistung der Verbraucher mit Stromsparpotential (bitte ergänzen/korrigieren) ==
 {| class="wikitable" border="1" cellpadding="1" cellspacing="1"
 |-
-! Art !! Verbraucher !! Stromverbrauch geschätzt !! Stromverbrauch effektiv !! Einsparpotential !! Läuft permanent? !! Abschaltbar !! Ansprechpartner für Einsparungen
+! Art !! Verbraucher !! Verbrauch geschätzt !! Verbrauch gemessen !! Einsparpotential !! Läuft permanent? !! Abschaltbar !! Ansprechpartner für Einsparungen
 |-
 || IT-Infrastruktur
 | [[Firebox]]
@@ -25,17 +25,17 @@
 | Blackbox
 | 8w
 | unbekannt
-| ?
+| '''ja''', wird bald abgeschaltet
+| zzt
 | ja
-| ?
 | docsteel?, secure
 |-
 | IT-Infrastruktur
 | 24-Port Switch
 | 65w
 | unbekannt
-| nein (wird geschaltet)
-| ja
+| nein
+| nein
 | ja
 | docsteel
 |-
@@ -61,7 +61,7 @@
 | Etherrape
 | ca. 2,5W
 | unbekannt
-| ?
+| nein, da Anpassungen zu kritisch
 | ja
 | ?
 | 
@@ -70,7 +70,7 @@
 | Pinpad
 | ca. 2W
 | ?
-| ?
+| nein, da Anpassungen zu kritisch
 | ja
 | nein
 | 
@@ -79,8 +79,8 @@
 | DECT/LAN-Adapter (Basisstation)
 | 5w
 | ?
-| ja, wird bald durch NPM abgeschaltet
-| ja
+| '''ja''', wird bald durch NPM abgeschaltet
+| zzt
 | vermutlich ja
 | 
 |-
@@ -88,8 +88,8 @@
 | DECT Ladeschale
 | 10w
 | ?
-| ja, wird bald durch NPM abgeschaltet
-| ja
+| '''ja''', wird bald durch NPM abgeschaltet
+| zzt
 | vermutlich ja
 | 
 |-
@@ -97,9 +97,9 @@
 | FritzBox? (WLAN-AP auf der Beamerplattform) Modell unbekannt
 | ?
 | ?
-| ?
+| nein
 | ja
-| vermutlich ja
+| nein
 | 
 |-
 | Küche
