@@ -95,7 +95,7 @@ Nächste Bestellung (bitte eintragen, wird nach Bestellung jeweils gelöscht):
 |-----
 | foobar || 1 || ja || - || - ||
 |-----
-| sECuRE || 1 || nein || ? || nein || nein
+| sECuRE || 2 || nein || ? || ja || ja
 |-----
 | max || 1 || evtl || ? || nein || nein
 |-----
@@ -103,7 +103,7 @@ Nächste Bestellung (bitte eintragen, wird nach Bestellung jeweils gelöscht):
 |-----
 
 |}
-Derzeit noch auf Lager: 18 Stück
+Derzeit noch auf Lager: 16 Stück
 
 [[Kategorie:Projekt]]
 [[Kategorie:KleinProzessorZüchter]]
