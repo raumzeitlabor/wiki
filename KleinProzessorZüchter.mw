@@ -95,9 +95,9 @@ Nächste Bestellung (bitte eintragen, wird nach Bestellung jeweils gelöscht):
 |-----
 | foobar || 1 || ja || - || - ||
 |-----
-| sECuRE || 2 || nein || ? || ja || ja
+| sECuRE || 1 || nein || ? || ja || ja
 |-----
-| max || 1 || evtl || ? || nein || nein
+| max || 1 || evtl || ? || ja || ja
 |-----
 | bluegene || 1 || evtl || ? || ja || ja
 |-----
