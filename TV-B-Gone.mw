@@ -13,6 +13,7 @@ Nach Vorlage von LadyAda haben wir ein TV-B-Gone-Layout für Lochraster entworfe
 
 ===Lochraster Layout===
 
+'''VORSICHT:''' Das Layout wie unten zu sehen ist nicht ganz korrekt. Beispielsweise ist der Transistor unten spiegelverkehrt. Weiterhin ist die rechte Verbindung vom Taster weg nicht klar eingezeichnet. Die Transistoren auf der rechten Seite haben die falschen Beinchenbeschriftungen. Auf Funktionsfähigkeit habe ich noch nicht getestet.
 
 * hier das erste Layout für unsere Version der Ladyada-tv-b-gone:
 {|
