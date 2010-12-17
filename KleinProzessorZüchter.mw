@@ -38,7 +38,7 @@ Nächste Bestellung (bitte eintragen, wird nach Bestellung jeweils gelöscht):
 |-----
 ! Besteller || Anzahl || Brauche Hilfe || liegt bereit || abgeholt || bezahlt
 |-----
-| mist || 1 || ? || ja || ja  || nein
+| mist || 1 || ? || ja || ja  || ja
 |-----
 | Felicitus || 1 || nein || ja || ja || nein
 |-----
