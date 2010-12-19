@@ -1,30 +1,31 @@
 {{ProjektInfoBox
 |name        = TV-B-Gone
-|status      = experimental
+|status      = beta
 |image       = Tvbgone01.jpg
 |description = 
 |author      = TabascoEye
 |username    = TabascoEye
-|version     = 0.1
+|version     = 0.5
 }}
 
 Nach Vorlage von LadyAda haben wir ein TV-B-Gone-Layout für Lochraster entworfen. Gehen euch die ganzen Fernseher überall auf den Wecker? Dann schnappt euch so einen Bausatz, lötet ihn zusammen und habt Spaß.
-
-Original-Schematic:
-http://www.ladyada.net/images/tvbgone/tvbgonev12schem.png
+Wir haben die ersten 20 Bausätze im Raum vorbereitet. Die Atmels sind vorprogrammiert (vielen Dank an anonymen Hacker fürs Programmiergerät).
+Kommt vorbei und tragt euch in der Liste auf der Wikiseite der [[KleinProzessorZüchter]] ein.
 
 ===Lochraster Layout===
-
-'''VORSICHT:''' Bisher noch ungetestet!
 
 * hier das erste Layout für unsere Version der Ladyada-tv-b-gone:
 {|
 | [[Datei:Tvbgone RZL.png|300px|thumb|Layout auf Lochraster für RZL tv-b-gone]]
 | [[Datei:Tvbgone_RZL_back.png|300px|thumb|Rückseitenlayout für RZL tv-b-gone]]
 |}
-----
 
+Der Testaufbau von secure hat funktioniert.
 
+===Aufbauhinweise===
+
+Die IR LEDs sind zwei verschiedene Sorten. Die eine Sorte hat einen breiten Streuwinkel mit wenig Reichweite, die andere sorte einen engen Winkel aber mehr Reichweite. Sinnvollerweise sollten die engen beiden LEDs nach innen, die breitstreuenden nach außen.
+In unserem Bausatz scheinen die blau-transparenten LEDs die eng fokussierten zu sein (also nach innen), die schwarz aussehenden sollten dann die breit streuenden sein und kommen nach außen.
 
 
 [[Kategorie:Projekt]][[Kategorie: KleinProzessorZüchter]]
