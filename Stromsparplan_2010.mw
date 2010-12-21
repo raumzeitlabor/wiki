@@ -87,7 +87,7 @@
 | IT-Infrastruktur
 | DECT Ladeschale
 | 10w
-| ?
+| 1W
 | '''ja''', wird bald durch NPM abgeschaltet
 | zzt
 | vermutlich ja
@@ -137,6 +137,78 @@
 | ja
 | vermutlich ja
 | 
+|-
+| Licht
+| Olymp
+| ?
+| 85W
+| -
+| nein
+| ja
+| -
+|-
+| Licht
+| Küchenlampe
+| ?
+| 125W
+| -
+| nein
+| ja
+| -
+|-
+| Licht
+| Lagerlampe
+| ?
+| 230W
+| -
+| nein
+| ja
+| -
+|-
+| Licht
+| Tafellicht
+| ?
+| 350W
+| -
+| nein
+| ja
+| -
+|-
+| Licht
+| Beamerlicht
+| ?
+| 360W
+| -
+| nein
+| ja
+| -
+|-
+| Licht
+| Elektrolicht
+| ?
+| 120W
+| -
+| nein
+| ja
+| -
+|-
+| Licht
+| Ätzlicht
+| ?
+| 120W
+| -
+| nein
+| ja
+| -
+|-
+| Licht
+| E-Wand
+| ?
+| 60W
+| -
+| nein
+| ja
+| -
 |}
 
 == Weitere Vorgehensweisen ==
