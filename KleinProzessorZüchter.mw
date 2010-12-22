@@ -78,14 +78,6 @@ Nächste Bestellung (bitte eintragen, wird nach Bestellung jeweils gelöscht):
 |-----
 ! Besteller || Anzahl || Brauche Hilfe || liegt bereit || abgeholt || bezahlt
 |-----
-| foobar || 1 || ja || - || - ||
-|-----
-| sECuRE || 1 || nein || ? || ja || ja
-|-----
-| max || 1 || evtl || ? || ja || ja
-|-----
-| bluegene || 1 || evtl || ? || ja || ja
-|-----
 | romain || 1 || evtl || ? || ja || nein
 |-----
 | simon || 1 || evtl || ? || ja || nein
@@ -95,7 +87,7 @@ Nächste Bestellung (bitte eintragen, wird nach Bestellung jeweils gelöscht):
 | Unicorn || 1 || evtl || ? || ja || nein
 |-----
 |}
-Derzeit noch auf Lager: 16 Stück
+Derzeit noch auf Lager: 13 Stück
 
 [[Kategorie:Projekt]]
 [[Kategorie:KleinProzessorZüchter]]
