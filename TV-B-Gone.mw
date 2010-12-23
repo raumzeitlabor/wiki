@@ -22,9 +22,11 @@ Für Selbstbesteller hier der [http://www.reichelt.de/?ACTION=20;AWKID=292918;PR
 |}
 
 '''Nachtrag:''' es gab im Layout noch einen Fehler beim 10K Widerstand, der die Unterscheidung zwischen EU und US Codes per Pulldown regelt. Ausserdem haben wir die verlegung der Groundleitung etwas optimiert und die Transistoren waren falsch herum.
-Bitte also mit dem aktuellen Layout arbeiten!
+'''Bitte also mit dem aktuellen Layout arbeiten!'''
 
 Der Testaufbau von secure hat soweit funktioniert. (löst auf unserem Universum Fernseher im RZL verschiedene Reaktionen von Mute bis standby aus)
+
+Da wir mit "kompatiblen" Transistoren zum Ladyada Design arbeiten, scheint der 1K Widerstand vor dem Steuertransistor überdimensioniert. Alex hat in Experimenten und Messungen mit einem 1 Ohm Widerstand brauchbare Ergebnisse erzielt, wobei scheinbar immernoch sehr viel Luft nach oben wäre, was die LEDs aushalten. Den RZL Fernseher haben wir damit ausschalten können! Wir forschen weiter...
 
 ===Aufbauhinweise===
 
