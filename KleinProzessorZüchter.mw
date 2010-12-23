@@ -59,7 +59,7 @@ Nächste Bestellung (bitte eintragen, wird nach Bestellung jeweils gelöscht):
 |-----
 ! Besteller || Anzahl || Brauche Hilfe || liegt bereit || abgeholt || bezahlt
 |-----
-| romain || 1 || ? || ja || ja || nein
+| romain || 1 || ? || ja || ja || ja
 |-----
 | zwetschgo || 1 || ja || ja || nein || nein
 |-----
