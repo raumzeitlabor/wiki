@@ -75,7 +75,7 @@ Nächste Bestellung (bitte eintragen, wird nach Bestellung jeweils gelöscht):
 |-----
 ! Besteller || Anzahl || Brauche Hilfe || liegt bereit || abgeholt || bezahlt
 |-----
-| romain || 1 || evtl || ? || ja || nein
+| romain || 1 || evtl || ? || ja || ja
 |-----
 | simon || 1 || evtl || ? || ja || nein
 |-----
