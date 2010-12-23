@@ -21,7 +21,7 @@ Für Selbstbesteller hier der [http://www.reichelt.de/?ACTION=20;AWKID=292918;PR
 | [[Datei:Tvbgone_RZL_back.png|300px|thumb|Rückseitenlayout für RZL tv-b-gone]]
 |}
 
-'''Nachtrag:''' es gab im Layout noch einen Fehler beim 10K Widerstand, der die Unterscheidung zwischen EU und US Codes per Pulldown regelt. Ausserdem haben wir die verlegung der Groundleitung etwas optimiert. Ausserdem waren die Transistoren falsch herum.
+'''Nachtrag:''' es gab im Layout noch einen Fehler beim 10K Widerstand, der die Unterscheidung zwischen EU und US Codes per Pulldown regelt. Ausserdem haben wir die verlegung der Groundleitung etwas optimiert und die Transistoren waren falsch herum.
 Bitte also mit dem aktuellen Layout arbeiten!
 
 Der Testaufbau von secure hat soweit funktioniert. (löst auf unserem Universum Fernseher im RZL verschiedene Reaktionen von Mute bis standby aus)
