@@ -20,9 +20,10 @@ Kommt vorbei und tragt euch in der Liste auf der Wikiseite der [[KleinProzessorZ
 | [[Datei:Tvbgone_RZL_back.png|300px|thumb|Rückseitenlayout für RZL tv-b-gone]]
 |}
 
-'''Nachtrag:''' es gab im Layout noch einen Fehler beim 10K Widerstand, der die Unterscheidung zwischen EU und US Codes per Pulldown regelt. Ausserdem haben wir die verlegung der Groundleitung etwas optimiert. Bitte also mit dem aktuellen Layout arbeiten!
+'''Nachtrag:''' es gab im Layout noch einen Fehler beim 10K Widerstand, der die Unterscheidung zwischen EU und US Codes per Pulldown regelt. Ausserdem haben wir die verlegung der Groundleitung etwas optimiert. Ausserdem waren die Transistoren falsch herum.
+Bitte also mit dem aktuellen Layout arbeiten!
 
-Der Testaufbau von secure hat funktioniert.
+Der Testaufbau von secure hat soweit funktioniert. (löst auf unserem Universum Fernseher im RZL verschiedene Reaktionen von Mute bis standby aus)
 
 ===Aufbauhinweise===
 
