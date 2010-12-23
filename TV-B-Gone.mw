@@ -11,7 +11,7 @@
 Nach Vorlage von LadyAda haben wir ein TV-B-Gone-Layout für Lochraster entworfen. Gehen euch die ganzen Fernseher überall auf den Wecker? Dann schnappt euch so einen Bausatz, lötet ihn zusammen und habt Spaß.
 Wir haben die ersten 20 Bausätze im Raum vorbereitet. Die Atmels sind vorprogrammiert (vielen Dank an anonymen Hacker fürs Programmiergerät).
 Kommt vorbei und tragt euch in der Liste auf der Wikiseite der [[KleinProzessorZüchter]] ein.
-Für Selbstbesteller hier der [http://www.reichelt.de/?ACTION=20;AWKID=292918;PROVID=2084 Reichelt Warenkorb] und hier [http://www.spielmaterial.de/deutsch5/d_K0009a_Kartenhulle__gros___geeignet_fur_Dominion.php das "Gehäuse"].
+Für Selbstbesteller hier der [http://www.reichelt.de/?ACTION=20;AWKID=7133;PROVID=2084 Reichelt Warenkorb] und hier [http://www.spielmaterial.de/deutsch5/d_K0009a_Kartenhulle__gros___geeignet_fur_Dominion.php das "Gehäuse"].
 
 ===Lochraster Layout===
 
@@ -26,7 +26,7 @@ Für Selbstbesteller hier der [http://www.reichelt.de/?ACTION=20;AWKID=292918;PR
 
 Der Testaufbau von secure hat soweit funktioniert. (löst auf unserem Universum Fernseher im RZL verschiedene Reaktionen von Mute bis standby aus)
 
-Da wir mit "kompatiblen" Transistoren zum Ladyada Design arbeiten, scheint der 1K Widerstand vor dem Steuertransistor überdimensioniert. Alex hat in Experimenten und Messungen mit einem 1 Ohm Widerstand brauchbare Ergebnisse erzielt, wobei scheinbar immernoch sehr viel Luft nach oben wäre, was die LEDs aushalten. Den RZL Fernseher haben wir damit ausschalten können! Wir forschen weiter...
+Da wir mit "kompatiblen" Transistoren zum Ladyada Design arbeiten, scheint der 1K Widerstand vor dem Steuertransistor überdimensioniert. Alex hat in Experimenten und Messungen mit einem 1 Ohm Widerstand brauchbare Ergebnisse erzielt, wobei scheinbar immernoch sehr viel Luft nach oben wäre, was die LEDs aushalten. Wir forschen weiter...
 
 ===Aufbauhinweise===
 
