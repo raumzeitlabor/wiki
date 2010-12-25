@@ -17,6 +17,12 @@ Eine grundlegende Doku gibt es hier: [[Media:NPM_Manual.pdf]]
 ==Shell Script zum Ansprechen==
 Ein Shell Script zum Ansprechen der NPM findet sich [http://github.com/Niklas974/npm2000 hier]
 
+== npmd (daemon) ==
+
+Neben dem Shellscript gibt es nun auch einen daemon, der eine HTTP-API bereitstellt um mit dem NPM zu sprechen. Der Vorteil eines Daemons liegt darin, dass es nun keine Timing-Probleme mehr gibt (der NPM kann nur eine Verbindung und hat ein gewisses Delay bis er diese als geschlossen erkennt) und die Befehle schneller abgearbeitet werden:
+
+http://github.com/raumzeitlabor/npmd
+
 ==Hochspannungsteil==
 
 ===TODO===
