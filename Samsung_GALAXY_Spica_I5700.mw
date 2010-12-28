@@ -42,7 +42,10 @@
 #Ausschalten
 #SIM-Karte entnehmen
 #Gleichzeitig die Tasten ''Lautstärke veringern'', ''Kamera'' und ''Auflegen'' drücken.
-
+===Revocerymodus aktivieren===
+Der Recoverymodus setzt einen angepassten Kernel voraus.
+#Ausschalten
+#Gleichzeitig die Tasten ''Lautstärke verringern'', ''Anruf annehmen'' und ''Auflegen drücken''
 ===Modem JC1 oder JD1?===
 Welche angepasste Firmware installiert werden muss, hängt von der verbauten GSM/GPS-Komponente ab. Zur Prüfung bitte folgende Schritte ausführen:
 #Einstellungen
