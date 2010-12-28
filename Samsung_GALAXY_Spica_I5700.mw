@@ -1,27 +1,7 @@
 [[Benutzer:Inte|Inte]] und [[Benutzer:Unicorn|Unicorn]] besitzen ein ''Samsung Galaxy Spica I5700'' und dokumentieren hier in Form einer "Schritt für Schritt"-Anleitung, wie man Backups erstellt und zurückspielt, die Firmware von Samsung wieder herstellen kann und angepasste Firmware installiert.
 
 ==Technische Daten==
-;Akku:Li-Ion (1500 mAh)
-;Gesprächszeit (2G):bis zu 12,1 Std.
-;Gesprächszeit (3G):bis zu 10,9 Std.
-;Stand-by (2G):bis zu 656 Std.
-;Stand-by (3G):bis zu 362 Std.
-;Maße Gehäuse (H x B x T):116 x 56 x 13,2 mm
-;Gewicht:124 g
-===CPU===
-;Typ:Samsung S3C6410
-;CPU-Takt:800 MHz
-===Display===
-;Anzahl der Farben:65536
-;Bildschirmgröße: 8,1 cm (3,2 Zoll)
-;Auflösung:320 x 480 Pixel
-===Speicher===
-;RAM:256 MiB
-;ROM:512 MiB (zugreifbar: 200 MiB)
-;microSD-Steckplatz:bis zu 32 GB
-===Kamera===
-;Auflösung:3,2 Megapixel (2048 x 1536 Pixel)
-;Video:320 x 240 Pixel
+*[http://forum.samdroid.net/wiki/showwiki/Specifications+i5700 Spezifikationen im Samdroid Wiki]
 
 ==Voraussetzungen==
 #Odin Multi Downloader (ist in der Regel bei der Custom Firmware in der passenden Version dabei).
