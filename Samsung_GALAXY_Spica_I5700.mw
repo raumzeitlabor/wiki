@@ -9,6 +9,16 @@
 #USB-Debugging aktivieren
 
 ==Backup==
+===Rücksicherung via Odin===
+#Angepassten Kernel installieren.
+#Leere microSD-Karte einsetzen.
+#Recoverymodus starten.
+#[http://forum.samdroid.net/wiki/showwiki/Recovery#Samdroid+v0+2+1+backup Samdroid Backup] starten.
+===Rücksicherung via Recoverymodus===
+#Angepassten Kernel installieren.
+#Leere microSD-Karte einsetzen.
+#Recoverymodus starten.
+#[http://forum.samdroid.net/wiki/showwiki/Recovery#TAR+Backup+Restore Backup mit ''tar''] starten.
 
 ==Rücksicherung==
 
