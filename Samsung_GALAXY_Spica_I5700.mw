@@ -45,7 +45,7 @@
 ===Revocerymodus aktivieren===
 Der Recoverymodus setzt einen angepassten Kernel (z.B. [http://files.samdroid.net/files/2forum/i5700_LK2-08_PDA.7z LK2.08]) voraus.
 #Ausschalten
-#Gleichzeitig die Tasten ''Lautstärke verringern'', ''Anruf annehmen'' und ''Auflegen drücken''
+#Gleichzeitig die Tasten ''Lautstärke verringern'', ''Anruf annehmen'' und ''Auflegen'' drücken.
 
 ===Modem JC1 oder JD1?===
 Welche angepasste Firmware installiert werden muss, hängt von der verbauten GSM/GPS-Komponente ab. Zur Prüfung bitte folgende Schritte ausführen:
