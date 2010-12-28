@@ -45,6 +45,11 @@ Welche angepasste Firmware installiert werden muss, hängt von der verbauten GSM
 #Basisbandversion
   i570EXXJC1 -> Modem JC1
   i570EXXJD1 -> Modem JD1
+===USB-Debugging aktivieren===
+#Einstellungen
+#Anwendungen
+#Entwicklung
+#USB-Debugging
 
 ==Siehe auch==
 * [http://www.samsung.de/de/consumer/detail.aspx?aguid=66ff9ee4-9eef-40c6-a1ae-991183b21440 Samsung GALAXY SPICA I5700]
