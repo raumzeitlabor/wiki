@@ -1,0 +1,52 @@
+[[Benutzer:Inte|Inte]] und [[Benutzer:Unicorn|Unicorn]] besitzen ein ''Samsung Galaxy Spica I5700'' und dokumentieren hier in Form einer "Schritt für Schritt"-Anleitung, wie man Backups erstellt und zurückspielt, die Firmware von Samsung wieder herstellen kann und angepasste Firmware installiert.
+
+==Technische Daten==
+;Akku:Li-Ion (1500 mAh)
+;Gesprächszeit (2G):bis zu 12,1 Std.
+;Gesprächszeit (3G):bis zu 10,9 Std.
+;Stand-by (2G):bis zu 656 Std.
+;Stand-by (3G):bis zu 362 Std.
+;Maße Gehäuse (H x B x T):116 x 56 x 13,2 mm
+;Gewicht:124 g
+===CPU===
+;Typ:Samsung S3C6410
+;CPU-Takt:800 MHz
+===Display===
+;Anzahl der Farben:65536
+;Bildschirmgröße: 8,1 cm (3,2 Zoll)
+;Auflösung:320 x 480 Pixel
+===Speicher===
+;RAM:256 MiB
+;ROM:512 MiB (zugreifbar: 200 MiB)
+;microSD-Steckplatz:bis zu 32 GB
+===Kamera===
+;Auflösung:3,2 Megapixel (2048 x 1536 Pixel)
+;Video:320 x 240 Pixel
+
+==Voraussetzungen==
+#Odin Multi Downloader (ist in der Regel bei der Custom Firmware in der passenden Version dabei).
+#[http://www.samsung.de/de/Privatkunden/Mobil/Mobiltelefone/MultimediaInfotainment/samsunggalaxyspicai5700/GT-i5700HKADBT/detail.aspx?atab=support&aguid=66ff9ee4-9eef-40c6-a1ae-991183b21440&dl=software SAMSUNG New PC Studio, SAMSUNG Kies] ''oder'' die [http://forum.samdroid.net/f28/samsung-usb-drivers-2350/ USB-Treiber als Einzelpaket] (November 2010, 1.3.1600.0, 25MB)
+
+==Backup==
+
+==Rücksicherung==
+
+==Wiederherstellung==
+
+==Custom Firmware==
+*[http://forum.samdroid.net/f53/cyanogenmod-6-1-1-spica-alpha8-1-one-package-odin-3-95-3-98-4-03-a-3563/ CyanogenMod 6.1.1 alpha8.1 '''One Package''']
+
+==FAQ==
+===Modem JC1 oder JD1?===
+Welche angepasste Firmware installiert werden muss, hängt von der verbauten GSM/GPS-Komponente ab. Zur Prüfung bitte folgende Schritte ausführen:
+#Einstellungen
+#Telefoninfo
+#Basisbandversion
+  i570EXXJC1 -> Modem JC1
+  i570EXXJD1 -> Modem JD1
+
+==Siehe auch==
+* [http://www.samsung.de/de/consumer/detail.aspx?aguid=66ff9ee4-9eef-40c6-a1ae-991183b21440 Samsung GALAXY SPICA I5700]
+* [http://forum.samdroid.net/ Samdroid board]
+
+[[Kategorie:Android]]
