@@ -88,6 +88,9 @@ Um tiefere Eingriffe in diversen Konfigurationsdateien zu vermeiden sollte der E
 **[http://drupal.org/project/date Date]
 
 ===Anpassungen===
+====Calendar====
+Für PHP 5.3 wird die aktuelle (>August 2010) Entwicklungversion empfohlen. Leider gibt es in dieser noch Probleme mit dem Import von CiviCRM-Events, weswegen noch mit der letzten stabilen Version (2.2) und PHP-5.3-Patch gearbeitet wird.
+*[http://drupal.org/node/613528#comment-2250424 v2.2 mit PHP 5.3 Patch]
 ====Tagadelic====
 Blendet Schlagwörter im Blog (Pfad: ''/blog''), dessen einzelnen Seiten (Node type: ''blog'') und beim Erstellen eines Beitrags (Pfad: ''/node/add/blog'') in der linken Seitenleiste ein.
 ;Block
