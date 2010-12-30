@@ -61,21 +61,21 @@ Um tiefere Eingriffe in diversen Konfigurationsdateien zu vermeiden sollte der E
 ===Nachinstalliert===
 *[[CiviCRM]]
 **[http://drupal.org/project/cck Content Construction Kit (CCK)]
-**[http://crmproject.de/node/22 Direct Debit]
-***[http://pear.php.net/package/Payment_DTA Payment_DTA]
+**<s>[http://crmproject.de/node/22 Direct Debit]</s>
+***<s>[http://pear.php.net/package/Payment_DTA Payment_DTA]</s>
 *[http://drupal.org/project/views Views]
 *[http://drupal.org/project/feeds Feeds]
 **[http://drupal.org/project/ctools Chaos Tools]
-*[http://drupal.org/project/Flattr Flattr]
-*[http://drupal.org/project/twitter Twitter]
-*[http://drupal.org/project/subdomain Subdomain]
+*<s>[http://drupal.org/project/Flattr Flattr]</s>
+*<s>[http://drupal.org/project/twitter Twitter]</s>
+*<s>[http://drupal.org/project/subdomain Subdomain</s>]
 **[http://drupal.org/project/pathauto Pathauto]
 ***[http://drupal.org/project/token Token]
-*[http://drupal.org/project/og Organic Groups]
+*<s>[http://drupal.org/project/og Organic Groups]</s>
 *[http://drupal.org/project/multiblock Multiblock]
 *[http://drupal.org/project/wysiwyg Wysiwyg]
 **[http://tinymce.moxiecode.com/index.php TinyMCE]
-**[http://ckeditor.com/ CKEditor]
+**<s>[http://ckeditor.com/ CKEditor]</s>
 *[http://drupal.org/project/wysiwyg_imageupload WYSIWYG image upload]
 **[http://drupal.org/project/jquery_ui_dialog Jquery UI Dialog]
 ***[http://drupal.org/project/jquery_ui jQuery UI]
