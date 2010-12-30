@@ -84,7 +84,7 @@ Um tiefere Eingriffe in diversen Konfigurationsdateien zu vermeiden sollte der E
 **[http://drupal.org/project/imageapi ImageAPI]
 ***[http://drupal.org/project/imagecache ImageCache]
 *[http://drupal.org/project/tagadelic Tagadelic]
-*[http://drupal.org/project/calendar Calendar]
+*[http://drupal.org/project/calendar Calendar] [http://drupal.org/node/613528#comment-2250424 v2.2 mit PHP 5.3 Patch]
 **[http://drupal.org/project/date Date]
 
 ===Anpassungen===
