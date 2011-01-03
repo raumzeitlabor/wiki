@@ -11,24 +11,23 @@
 |license     = 
 |download    = 
 }}
-Eine Testinstallation ist unter http://raumzeitlabor.kral.ws/ zu finden.
+Eine Beta ist unter http://www2.raumzeitlabor.de/ zu finden.
 
 ==Wunschzettel==
 ===Optik===
-*Fotos vom RaumZeitLabor für die Slideshow auf der [http://raumzeitlabor.kral.ws/ Startseite] anfertigen
+*Fotos vom RaumZeitLabor für die Slideshow auf der [http://www2.raumzeitlabor.de/ Startseite] anfertigen
 *[http://drupal.org/project/imagecache_actions ImageCache Actions]
 *[http://drupal.org/project/hover_preview Hover Preview]
 *[http://drupal.org/project/slider Slider]
 
 ===Funktionalität===
 *[[Spezial:Letzte Änderungen]] mit den letzten 5 Items auf der Startseite einbinden
-*<s>WYSIWYG-Editor installieren</s> '''done''' (CKEditor)
-*<s>Flattr einbinden</s> Entfällt wg. monatlicher Mindestkosten von 2€
-*Paypal-Spendenbutton einbinden
+*<s>WYSIWYG-Editor installieren</s> '''done''' (TinyMCE)
+*<s>Flattr einbinden</s> '''done'''
+*<s>Paypal-Spendenbutton einbinden<s> '''done'''
 *Tweets & Dents von @RaumZeitLabor und mit #RaumZeitLabor einbinden
 *[http://drupal.org/project/udplanet Planet] für externe Inhalte mit dem Tag ''RaumZeitLabor'' einrichten
-*Captchas für Kommentare von nicht angemeldeten Besuchern
-*Spamfilter für Kommentare, Track- und Pingbacks
+*<s>Spamfilter für Kommentare von nicht angemeldeten Besuchern</s> '''done'''
 *Bildergalerien (Interessante Module: '''[http://drupal.org/project/views_galleriffic Views Galleriffic] ''', <s>[http://drupal.org/project/gallery_assist Gallery Assist],</s> [http://drupal.org/project/node_gallery Node Gallery], [http://drupal.org/project/filefield_paths FileField Paths] & [http://drupal.org/project/views_gallery Views Gallery])
 *Videos einbinden (Youtube, Vimeo & HTML5) (Module: [http://drupal.org/project/emfield Embedded Media Field])
 *<s>CiviEvent Aktivitäten in Drupal Kalender integrieren [http://wiki.civicrm.org/confluence/display/CRMDOC32/Using+Drupal+Calendar+with+CiviEvent]</s> http://raumzeitlabor.kral.ws/events
@@ -43,7 +42,7 @@ Eine Testinstallation ist unter http://raumzeitlabor.kral.ws/ zu finden.
 ==Setup==
 
 ===Datenbanken===
-Um tiefere Eingriffe in diversen Konfigurationsdateien zu vermeiden sollte der Einfachheit halber [http://wiki.civicrm.org/confluence/display/CRMDOC32/Views2+Integration+Module der Benutzername und das Passwort der Drupal-, sowie der CiviCRM-Datenbank identisch sein].
+Um tiefere Eingriffe in diversen Konfigurationsdateien zu vermeiden sollte der Einfachheit halber [http://wiki.civicrm.org/confluence/display/CRMDOC32/Views2+Integration+Module der Benutzername und das Passwort der Drupal-, sowie der CiviCRM-Datenbank identisch sein oder nur eine Datenbank benutzt werden]. Momentan befinden sich Drupal & CiviCRM-Daten in einer Datenbank.
 
 ===Pfade===
 ;Modulverzeichnis
