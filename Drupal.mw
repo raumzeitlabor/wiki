@@ -91,7 +91,7 @@ Um tiefere Eingriffe in diversen Konfigurationsdateien zu vermeiden sollte der E
 Für PHP 5.3 wird die aktuelle (>August 2010) Entwicklungversion empfohlen. Leider gibt es in dieser noch Probleme mit dem Import von CiviCRM-Events, weswegen noch mit der letzten stabilen Version (2.2) und PHP-5.3-Patch gearbeitet wird.
 *[http://drupal.org/node/613528#comment-2250424 v2.2 mit PHP 5.3 Patch]
 ====Tagadelic====
-Blendet Schlagwörter im Blog (Pfad: ''/blog''), dessen einzelnen Seiten (Node type: ''blog'') und beim Erstellen eines Beitrags (Pfad: ''/node/add/blog'') in der linken Seitenleiste ein.
+Blendet Schlagwörter im Blog (Pfad: ''/blog''), dessen einzelnen Seiten (Node type: ''blog'') beim Erstellen eines Beitrags (Pfad: ''/node/add/blog'') und allen Taxonomie-Seiten (''Tags'') in der rechten Seitenleiste ein.
 ;Block
 :Left sidebar
 ;Show block on specific pages
@@ -112,6 +112,9 @@ if (substr($_SERVER["REQUEST_URI"], 0, 10) == '/blog')
 { $match = TRUE;}
 
 if (substr($_SERVER["REQUEST_URI"], 0) == '/node/add/blog')
+{ $match = TRUE;}
+
+if (arg(0) == 'taxonomy')
 { $match = TRUE;}
 
 return $match;
