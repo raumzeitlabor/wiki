@@ -1,0 +1,29 @@
+=== Idee ===
+Die Bezahlung der Getränke und sonstiger Produkte soll automatisiert werden.
+=== Jetzt ===
+Keine Ahnung
+=== Ziel ===
+Eine ins Drupal integrierte Kassenanwenung mit extensiver Nutzung von Barcodes.<br>
+
+==== Identifizierung ====
+Jeder benutzer erhält eine ID-Karte, optimalerweise laminiert, die einen EAN13 Barcode enthält, mit der er sich dem System
+gegenüber ausweisen kann. 
+==== Authentifizierung ====
+Der Benutzer wählt eine PIN die als Barcode gedruckt wird. Diese soll geheimgehalten werden :-)
+
+==== Barcodes ====
+Als Barcodes bieten sich EAN13 an, da diese einfach verarbeitet, gedruckt und gelesen werden können.<br>
+<pre>
+0123|456789ab|c
+4567 89012345 6
+</pre>
+0-3 enthalten die Action in dezimaler Schreibweise.<br>
+Die Action wertet dann selber 4-b aus.<br>
+Das Feld c wird durch den Parser ausgewertet. Wenn c nicht die korrekte Prüfziffer enthält, wird der Request ungültig.
+
+==== Actions ====
+{|cellspacing="0" border="1" cellspacing="0" cellpadding="5"
+!Action || What || Value Range
+|-
+|00001 || Identify || 0-99999999
+|}
