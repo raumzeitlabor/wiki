@@ -6,7 +6,15 @@ Sollte niemand im Raum sein ([http://status.raumzeitlabor.de Status]: <span styl
 == Schlüssel ==
 Wer einen eigenen Schlüssel möchte, kann sich bei [[Benutzer:Inte|Inte]] melden.
 === Raum ===
-Es gibt 20 Schlüssel für den Raum, die wie folgt verteilt sind: 
+Der Raum ist über ein Schließsystem gesichert, das wir selbst implementiert haben.
+Ein Pinpad neben der Raumtür kennt momentan genau 1 Zugangs-PIN.
+Diese könnt ihr als Mitglied einfach erfragen.
+
+Später wird es eine User Datenbank geben, mit der dann auch gleich die Kasse und weitere Dienste laufen werden.
+Zusätzlich zu dem PINpad ist noch ein Wlan AP geplant über den man von aussen per SSH die Tür öffnen kann (so wie bei den Münchner CCClern).
+
+
+Als Notfallbackup gibt es noch unsere zweite Tür in der unser alter Schließzylinder steckt. Für diesen existieren 20 Schlüssel, die wie folgt verteilt sind: 
 
 #[[Benutzer:Cyberrunner|Cyberrunner]]
 #[[Benutzer:D0n|D0n]]
