@@ -2,7 +2,7 @@
 |name        = Schwarzes Loch
 |status      = geplant
 |image       =
-|description = Gravitationswirbel
+|description = hyperbolischer Trichter
 |author      = Inte
 |username    = Inte
 |version     =
@@ -20,5 +20,6 @@ Das RaumZeitLabor ist nicht komplett, ohne ein eigenes schwarzes Loch. Aus diese
 
 ==Links==
 *http://mathforum.org/library/drmath/view/51500.html
+*http://www.wolframalpha.com/input/?i=y%3D1%2Fx
 
 [[Kategorie:Projekt]]
