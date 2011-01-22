@@ -26,8 +26,6 @@ Für Selbstbesteller hier der [http://www.reichelt.de/?ACTION=20;AWKID=7133;PROV
 
 Der Testaufbau von secure hat soweit funktioniert. (löst auf unserem Universum Fernseher im RZL verschiedene Reaktionen von Mute bis standby aus)
 
-Da wir mit "kompatiblen" Transistoren zum Ladyada Design arbeiten, scheint der 1K Widerstand vor dem Steuertransistor überdimensioniert. Alex hat in Experimenten und Messungen mit einem 1 Ohm Widerstand brauchbare Ergebnisse erzielt, wobei scheinbar immernoch sehr viel Luft nach oben wäre, was die LEDs aushalten. Wir forschen weiter...
-
 ===Aufbauhinweise===
 
 Die IR LEDs sind zwei verschiedene Sorten. Die eine Sorte hat einen breiten Streuwinkel mit wenig Reichweite, die andere sorte einen engen Winkel aber mehr Reichweite. Sinnvollerweise sollten die engen beiden LEDs nach innen, die breitstreuenden nach außen.
