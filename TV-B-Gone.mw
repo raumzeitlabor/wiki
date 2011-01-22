@@ -33,6 +33,14 @@ In unserem Bausatz scheinen die blau-transparenten LEDs die eng fokussierten zu 
 
 Der Elko sollte umgeknickt werden, damit der Bausatz anschließend in der Kartenspiel-Verpackung Platz hat (und man den Taster betätigen kann).
 
+===Firmware===
+
+Die Bausätze, die ihr bei uns bekommt sind mit vorprogrammierten Atmels ausgestattet. Ihr braucht also keinen Programmierstecker in der Schaltung und euch keine Sorgen um Firmware download zu machen.
+Trotzdem der Vollständigkeit halber der Link zur Ladyada Firmware bzw. deren gepatchte Version:
+
+*[http://ladyada.net/make/tvbgone/download.html Ladyada Download Seite zum TV-b-gone]
+*[http://ladyada.net/media/tvbgone/caitsith_firmwarev12.zip Firmwaremod für V1.5 von Caitsith (diese FW ist auf den Atmels vorgeflasht)]
+
 ===Erster Aufbau===
 
 * hier Bilder vom ersten Aufbau (hier noch mit Programmierstecker, aufrechtem Elko und Löchern für die LEDs)
