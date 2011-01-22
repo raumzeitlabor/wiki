@@ -83,6 +83,10 @@ via WebDAV auf status.raumzeitlabor.de.
  </Location>
 
 * status-unreachable.pl als Cronjob einrichten
+== Technische Doku ==
+
+Auf dem Patchpanel ist der Kontakt an Blau-weiß/Blau (aufgelegt auf Pin 4-5) angeschlossen. Die restlichen Adern sind nicht belegt.
+
 
 == Beteiligte/Danksagungen ==
 * [[User:SEC|sECuRE]]
