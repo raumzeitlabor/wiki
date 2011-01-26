@@ -1,0 +1,27 @@
+{{ProjektInfoBox
+|name        = rfm12usb
+|status      = experimental
+|image       = 
+|description = USB-Adapter für RFM12 auf Lochraster
+|author      = tiefpunkt
+|username    = 
+|version     = 0.1
+|update      = 
+|platform    = 
+|license     = 
+|download    = http://das-labor.org/wiki/Rfm12usb
+}}
+
+Unsere [[Moodlamp]] hat einen Funkchip, einen RFM12. Damit wir damit auch vom Rechner aus tolle Sachen veranstalten können, wollen wir einen USB-to-RFM12-Adapter bauen. [http://das-labor.org/wiki/Rfm12usb Das Labor] hat da schon tolle Arbeit geleistet, allerdings ohne Lochraster-Layout. Das wollen wir ändern!
+
+
+== Hardware ==
+=== Bauteile ===
+...
+=== Lochraster-Layout ===
+{|
+| [[Datei:Rfm12usb_layout01.png|400px|thumb|Lochrasterlayout v0.1 - Oben]]
+| [[Datei:Rfm12usb_layout02.png|400px|thumb|Lochrasterlayout v0.1 - Unten]]
+|}
+
+[[Kategorie:Projekt]][[Kategorie: KleinProzessorZüchter]]
