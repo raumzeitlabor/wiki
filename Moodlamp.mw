@@ -17,8 +17,13 @@ Wir wollten eine Moodlamp mit bedrahteten Bauteilen fertigen.
 Die Erlanger haben sich das auch schon gedacht und sind damit soweit fertig, weshalb wir uns dieses Design klauen (danke Erlangen).
 
 ==Hardware==
-===Bauteile===
-{| border="1" cellspacing="0" cellpadding="10"
+===Version 1===
+* Genau nach Vorlage der Erlanger Moodlamp
+* hier: http://git.informatik.uni-erlangen.de/?p=hawo-moodlight/.git;a=blob;f=moodlight.brd;h=1e5b2dfb06c48103af19aaade9f18cce0dfacaa8;hb=HEAD gibts das Eagle layout für die Erlanger boards.
+* Und hier http://git.informatik.uni-erlangen.de/?p=hawo-moodlight/.git;a=blob;f=moodlight.sch;h=783581f14790a23bafa9855cb4fe9d82c3f8b828;hb=refs/heads/master den schaltplan.
+
+====Bauteile====
+{| border="1" cellspacing="0" cellpadding="5"
 |-----
 ! Bezeichung || Bezugsquelle || Link || Preis 
 |-----
@@ -40,52 +45,40 @@ Die Erlanger haben sich das auch schon gedacht und sind damit soweit fertig, wes
 
 Also für knapp über 30Euro eine selbstgebaute, voll steuerbare RGB Moodlamp \o/
 
-Ich habe jetzt mal ausreichend Bauteile für 10 Bausätze bestellt und hoffe auf reges Interesse.
-Vor allem möchte ich gerne einen Hausbus<->RFM12 Converter bauen/coden, der dann wireless die Moodlamps im Raum ansprechen kann.
 
-hier: http://git.informatik.uni-erlangen.de/?p=hawo-moodlight/.git;a=blob;f=moodlight.brd;h=1e5b2dfb06c48103af19aaade9f18cce0dfacaa8;hb=HEAD gibts das Eagle layout für die Erlanger boards.
-Und hier http://git.informatik.uni-erlangen.de/?p=hawo-moodlight/.git;a=blob;f=moodlight.sch;h=783581f14790a23bafa9855cb4fe9d82c3f8b828;hb=refs/heads/master den schaltplan.
-
-===Lochraster Layout===
-
-
-* hier das krude layout, um die bisherige version (pre-redesign) erstmal zu bauen.
+====Lochraster Layout====
+Hier das krude layout, um die bisherige version (pre-redesign) erstmal zu bauen.
 {|
 | [[Datei:Moodlamp-board.png|400px|thumb|Moodlampschaltung 1.0]]
 | [[Datei:Moodlamp_bw.png|400px|thumb|Moodlampschaltung 1.0]]
 |}
-----
 
 * Die Transistoren (BD139) mit dem metallischen Teil vom Atmel weg zeigend einbauen!
-* Wer schon einen Bausatz hat: Die Widerstände sind falsch. Als Abhilfe genügt es zur Zeit, ROT und GRÜN mit den 10ohm Widerständen auszustatten, und BLAU mit dem 6,8ohm. Ich bestelle bei Reichelt nach, damit die korrekten Widerstände verbaut werden können. Tut mir Leid!
-* Ich werd bei Zeiten das minimalisierte Layout von Severin in Lochmaster nachbauen und hier einpflegen.
-* Wir wollen ein Geekend mit den Erlangern machen und weiter an der Moodlamp hacken (Re-design, RFM12 Ansteuerung, Projektideen...)
+* Wer schon einen Bausatz hat: Die Widerstände sind falsch. Als Abhilfe genügt es zur Zeit, ROT und GRÜN mit den 10ohm Widerständen auszustatten, und BLAU mit dem 6,8ohm.
 
-----
 
 Hier das neue Kompaktlayout (Danke Tiefpunkt fürs Routen und DaFo für Lochmaster)
-
 {|
 | [[Datei:Moodlamp_1.5_top.png|400px|thumb|Moodlampschaltung 1.5 oben]]
 | [[Datei:Moodlamp_1.5_bottom.png|400px|thumb|Moodlampschaltung 1.5 unten]]
 |}
 
-----
-Und hier das derzeitige Layout V2.0
-
-{|
-| [[Datei:Moodlamp2.0 RZL.png|400px|thumb|Moodlamp V2.0 oben]]
-| [[Datei:Moodlamp2.0 RZL back.png|400px|thumb|Moodlamp V2.0 unten]]
-|}
-
-===Lessons learned===
-
+====Lessons learned====
 * Klebende Wärmeleitpads benutzen (mitbestellen bei led-tech) statt Wärmeleitkleber. Sauerei und nervig bis zum Aushärten.
 * Bauteile VOR der Bestellung nochmal sorgfältig verifizieren (IC Sockel, Verpolungsdiode, fehlende Widerstände)
 * Schaltungen immer mal in Frage stellen. Wir werden die Schaltung re-designen...
 * Einbaurichtung von Transistoren ordentlich dokumentieren
 * LED Vorwiderstände in Frage stellen m(
 * Unterschiede von Pinkompatiblen Atmels *soifz* ==> ATmega328p oder 168 will man nehmen (16 oder 32K statt 4)
+
+
+===Version 2.0===
+Und hier das derzeitige Layout V2.0
+{|
+| [[Datei:Moodlamp2.0 RZL.png|400px|thumb|Moodlamp V2.0 oben]]
+| [[Datei:Moodlamp2.0 RZL back.png|400px|thumb|Moodlamp V2.0 unten]]
+|}
+
 
 ==Firmware==
 ===Fuses===
@@ -98,8 +91,9 @@ Einfaches Farb-Fading sowie Steuerung per IR-Fernbdienung (Farbauswahl, zurück 
 [http://github.com/tiefpunkt/Moodlamp http://github.com/tiefpunkt/Moodlamp]
 
 ===ToDo===
-* Andere IR-Routinen ( http://www.mikrocontroller.net/articles/IRMP )
+* <del>Andere IR-Routinen ( http://www.mikrocontroller.net/articles/IRMP )</del>
 * Stabilität
+** Könnte auch ein Hardwareproblem sein (fehlender Pull-Up-Widerstand am RESET-Pin)
 
 ===Mögliche Erweiterungen===
 * Steuerung über RFM12-Chip --> Chip schon vorhanden, muss nur angesprochen werden!
