@@ -1,72 +1,183 @@
 Es gibt mal wieder ein paar Dinge zu entscheiden, besprechen oder diskutieren.
 
-==Finanzen==
-*Finanzbericht
-**Einnahmen/Ausgaben 2010
-**Kontostand
-**Spenden (Überweisung, Flattr, Paypal, Moneybookers,...)
-*Mitgliederzahlen
-*Weitere Einnahmequellen
-*Kommende Ausgaben
-*Projektfinanzierungen
+;Beginn:13:45
+;Teilnehmer:10 + Gäste
+;Ende:16:00
+Die Reihenfolge der Themen wird nach Priorität, Aktualität und Wünschen der Teilnehmer festgesetzt.
 
-==Neuigkeiten==
-*Vereinsstatus
-*Mietvertrag
-*Hausordnung
-*Müll
-*Dach
-*Heizung
+==Finanzübersicht==
+;Unicorn
+:Es fehlen noch Mitgliedbeiträge von 5 bis 6 Mitgliedern. Über Sanktionen machen wir uns Gedanken, wenn sich '''bald''' nichts daran ändert.
+:Im Januar haben wir 800€ (ohne Mitgliedsbeiträge) eingenommen. Da das Konto noch nicht eröffnet wurde, sollen die ''Mitgliedsbeiträge & Spenden (vor allem die Daueraufträge) bis auf Weiteres auf das Konto von Oli'' überwiesen werden.
+:Hinweis, dass einige Laboranten nochmal eine Einweisung in die Bedienung der Strichliste benötigen.
 
-==Infrastruktur==
-*Tür
-*ReallifePing
-*RaumHandy
-*Beamer
-*Strom sparen
+==Miete==
+;Unicorn
+:Die Verbindlichkeiten von 2010 werden wir mit einer Pauschalzahlung begleichen.
+:Ab dem 01.01. zahlen wir ~1100€ incl. Strom und Heizung.
 
-==Aussenwirkung==
-*Drupal, CiviCRM
+==Vereinsstatus==
+Die Formalien sind erledigt, das Registergericht trödelt zusammen mit der IHK.
+
+
+==Mietvertrag==
+Kommt später. Wird nach Möglichkeit erst mit erfolgreicher Eintragung abgeschlossen. '''WICHTIG:''' Die Daueraufträge der Mitgliedsbeiträge & Spenden müssen eingerichtet werden.
+
+==Hausordnung==
+Nicht das Dach betreten. Die Tür ist abgeschlossen. Der Sicherheitsdienst hat darauf hingewiesen, dass die Tür zum Treppenhaus unten geschlossen werden soll.
+
+==Müll==
+*Ausführliche Dokumentation im Wiki.
+*Großer Aschenbecher für den Hof.
+
+==Heizung==
+Warme Heizung ist warm! Umbenennung in LauWarmLabor. Die Nachtabschaltung ist eher unangenehm. Inte will mit Robert sprechen, um die Betriebszeiten an die Öffnungszeiten anzupassen und nicht umgekehrt.
+
+==Raumtür==
+*Glas seit LHC kaputt. Robert weiß Bescheid. Wird irgendwann gefixt.
+
+==Schließsystem==
+Wichtig zu differenzieren:
+#Zuverlässigkeit des Schließmechanismus
+#Status der Raums
+
+==ReallifePing==
+Rückmeldung des Pingbot in den Channel
+
+==RaumHandy==
+*Handy liegt in E-Ecke
+*Sipgate-Account bekommt AB mit Ansage der neuen Nummer.
+
+==Beamer==
+We haz beamer. Ein Ventiladufter läuft nicht bei t=0 an, das ist aber Absicht. Native Auflösung ist 800x600.
+
+==Brüllwürfel==
+*Ist verkabelt
+*Belegungsplan klebt am Regal, sur5r laminiert das nochmal in schön
+* DVDs schauen: Svideo kabel von Anlage in Beamer, Anlage auf Tape2(?->belegplan), DVD in Player ==> go
+
+==Strom sparen==
+*Gibt Übersicht im Wiki dank Strommonitoringwochenende.
+*1W kostet pro Jahr 2€.
+*Flukso funktioniert(e) wieder (manchmal)
+*Das Ziel eines "Alles aus"-Schalters beim Verlassen des Raums (vlt. automagisch) wird aus vielen Gründen immer noch vorangetrieben (keine Lötkolben vergessen -> kein Brand...)
+
+==Internet==
+Hammwa. Von den Famern und Docsteel (danke!). Ein monatliches Budget für vereinseigene Leitungen wird evaluiert. Sobald wir einen entsprechenden monatlichen Überschuss haben, können wir davon Internet kaufen.
+
+==Ä-Ecke==
+Inte wird in den nächsten Wochen die Wand fließen. Dazu muss ein Termin ausgemacht werden, an dem das alles passiert. Bis zu diesem Termin muss die Ä-Ecke ausgeräumt sein. Inte macht ein Doodle, alle die Zeug in der Ä-Ecke gestapelt haben tragen sich ein, damit ein Termin gefunden werden kann, die Wand freizuräumen.
+
+==Homepage==
+Drupal, CiviCRM
 **Blog, Flattr
 **Galerie, Kalender, Eventmanagement
-*Wiki
-*Flickr
-*Facebook
-*Pressearbeit
-*Banner+Rollup
-*Flyer
-*Pressearbeit?
+*Icons der Social Networks hinzufügen
 
-==Projekte und Gruppen (neue+alte)==
-*KlickBlitzLabor (AG Photo)
-**Vorträge
-**Fotosafaris
-**HandsOn
-**Experimente
-*FlimmerBildLabor (AG Video)
-**Tools lernen
-**Kurzfilme drehen
-**Equipment testen
-*KleinProzessorZüchter
-**Moodlamp 2.0
-**Tv-b-gone
-**Laborboard
-**usbasp
-**<eure Projekte>
-*KleinProzessorZüchterZüchter
-**Workshop/Vortragsreihe zu Grundbegriffen, selbst erarbeitet
-*NerdAmHerd
-*AnonymeAndroholiker
-**Android-Treff: Erfahrungsaustausch, Spielerei und App-Entwicklung
-*UUGRN Fixme
-*Sendung im Bermudafunk
-Blick nach Vorne
+==Wiki==
+[[Hack the Wiki]]-Event am 20. Februar
 
-==Geplant 2011==
-*Dieses Jahr wieder ein LHC, evtl. wieder im RZL
-*Deko: Mehr Moodlamps, mehr Kunst, mehr Bunt, mehr w00t
-*Webseite: Plugins, Themeing, Fotos, Blogbeiträge
-*Defrag: Nach Heizungsbau wieder Aufräumen, Ä-Ecke starten, mehr Regale
-*Party!
+==Werkzeug==
+*Unklar ist, wem welches Werkzeug gehört und wer es benutzen darf.
+**Privates Werkzeug, was sonst keiner nutzen soll bitte in die eigenen Kisten räumen
+*'''WICHTIG:''' Bei Schäden an Gerätschaften/Werkzeug (egal ob selbst verursacht oder Fremdverschulden) den Besitzer benachrichtigen und/oder Mail an die Liste schicken!
+
+==Flickr==
+*Gibt 'ne Gruppe mit dem Namen RZL
+
+==Facebook==
+*Place/Fanseite wird von Tim betreut
+*Gruppe
+
+==Pressearbeit==
+*Ziel ist 6 Wochen vor Events eine ausführliche Beschreibung im Kalender stehen zu haben, damit die Lokalzeitungen und Blogs Zeit haben über uns zu berichten.
+*Zwetschgo hat presse@ eingerichtet.
+
+==info@-Mailingliste==
+*Prüfen wie das konfiguriert ist. 
+*Falls noch keine eigene Liste besteht, dann einrichten.
+*Rabe fragen.
+
+==E-Mail-Weiterleitung==
+*E-Mail-Adressen der Form nickname@raumzeitlabor.de wären cool, vielleicht ist das möglich.
+*Rabe fragen.
+
+==Banner==
+*Inte kann Hebebühne besorgen, um Banner an der Hausfront von Cargopack zu befestigen
+*Zwetschgo spendet im März 20€ dafür, Oli 15€, TabascoEye 20€
+*"Lufthoheit" klären
+
+==Flyer==
+*UUGRN druckt demnächst Flyer. Wenn wir DIN A6 Vorlage liefern, kommen wir kostenlos auf die Rückseite.
+*Wir wollen Öffentlichkeitstaugliche Propagandamaterialien. Dazu setzen sich die interessierten DesigntextundPR-Strategen ASAP zusammen.
+*Inte braucht was an die Hand um potentielle Spender zu überzeugen.
+*evtl. noch n Satz schöne neue Aufkleber und Buttons
+
+==Flur==
+Eine l'Art-Konzeption könnte dem Vermieter vorgestellt werden. Wir bitten um Vorschläge/Initiativen.
+(Google Image Suche: ''perspective parking'')
+
+==Projekte und Gruppen==
+
+===Bermudafunk===
+*http://www.bermudafunk.org/
+*Vorschlag: Interessenten sollten sich mal beim Bermudafunk-Stammtisch im Wild-West (Neckarstadt-West) treffen.
+*Wir hatten auch schon 'ne Anfrage. Tim fragt nach, wann er zum Interview ins RZL kommen kann.
+
+===KlickBlitzLabor (AG Photo)===
+*Vorträge
+*Fotosafaris
+*HandsOn
+*Experimente
+*Kooperation mit Daniel Obradovic (Fotograf hinter/bei der FameFabrik, Greenscreen-Spaß)
+
+===FlimmerBildLabor (AG Video)===
+*Tools lernen
+*Kurzfilme drehen
+*Equipment testen
+*Kooperation mit der FameFabrik?
+*Cosima wäre an Grundlagen interessiert und würde noch vier bis fünf Mädels mitbringen.
+*Zwetschgo würde auch gerne mit zwei Freunden teilnehmen.
+*Zwetschgo würde gerne was mit Trickfilmen/Stopmotion machen.
+
+===KleinProzessorZüchter===
+*Moodlamp 2.0 - Jetzt auch mit Fernbedienung. Gesamtkosten ca. 30€.
+**Ziemlich viel Feedback zur neuen Revision.
+*Tv-b-gone
+*Laborboard
+*usbasp
+
+===KleinProzessorZüchterZüchter===
+*Workshop/Vortragsreihe zu Grundbegriffen, selbst erarbeitet
+
+===NerdAmHerd===
+*Fällt derzeit mangels Interesse aus.
+*Momentan kocht jeder selbst und spontan.
+
+===AnonymeAndroholiker===
+*Android-Treff: Erfahrungsaustausch, Spielerei und App-Entwicklung
+*Termin wird per Doodle ausgemacht, sofern sich jemand dazu bereit erklärt.
+
+==Kommunikationsworkshop==
+Zwetschgo will einen auf die Beine stellen.
+*Mailingliste bedienen
+*E-Mail-Programm einrichten
+
+==Mannheim reagiert==
+Sven, Oli und naddie gehen zum Einführungstreffen und berichten.
+
+==LHC 2011==
+*Dieses Jahr wieder ein LHC, evtl. wieder im RZL, vielleicht im Zusammenhang mit Mannheim reagiert
+
+==Deko==
+Mehr Moodlamps, mehr Kunst, mehr Bunt, mehr w00t
+
+==Defrag==
+Nach Heizungsbau wieder Aufräumen, Ä-Ecke starten, mehr Regale
+
+==Chaos Communication Camp 2011==
+*großes Projekt fürs Camp/bis zum Camp/am Camp
+*Inte baut ein [[schwarzes Loch]]
 
 [[Kategorie:Protokoll]]
+[[Kategorie:Verein]]
