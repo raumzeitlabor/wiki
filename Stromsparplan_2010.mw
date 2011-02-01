@@ -280,3 +280,5 @@ Embedded-Lösungen z.B. von ARM sind entweder zu leistungsschwach für ein vollw
 Der Cisco SLM2008 ist ein 8-Port 10/100/1000-Switch mit VLAN-Support. Die Idee ist, jeden der 7 Ports in ein eigenes VLAN zu stecken und an den 8. Port den eigentlich Router anzuschließen, der dann in allen VLANs Mitglied ist. Diese Lösung ist laut Internetposts möglich, der SLM2008 setzt dann entsprechende 802.11q-VLAN-tags auf Port 8.
 
 Stromverbrauch des SLM2008 ist 6W. Neupreis liegt bei ca. 72€ (exkl. Versand) laut Geizhals. Jetzt braucht man noch einen sinnvollen Router dazu.
+
+* Handbuch zum SLM2008: http://www.cisco.com/en/US/products/ps9994/prod_maintenance_guides_list.html
