@@ -279,6 +279,13 @@ Embedded-Lösungen z.B. von ARM sind entweder zu leistungsschwach für ein vollw
 
 Der Cisco SLM2008 ist ein 8-Port 10/100/1000-Switch mit VLAN-Support. Die Idee ist, jeden der 7 Ports in ein eigenes VLAN zu stecken und an den 8. Port den eigentlich Router anzuschließen, der dann in allen VLANs Mitglied ist. Diese Lösung ist laut Internetposts möglich, der SLM2008 setzt dann entsprechende 802.11q-VLAN-tags auf Port 8.
 
-Stromverbrauch des SLM2008 ist 6W. Neupreis liegt bei ca. 72€ (exkl. Versand) laut Geizhals. Jetzt braucht man noch einen sinnvollen Router dazu.
-
+Stromverbrauch des SLM2008 ist 6W. Neupreis liegt bei ca. 72€ (exkl. Versand) laut Geizhals.
 * Handbuch zum SLM2008: http://www.cisco.com/en/US/products/ps9994/prod_maintenance_guides_list.html
+
+Als Router würde sich z.B. ein VIA EPIA CN10000EG eignen, welches einen Stromverbrauch von 9W bis 14W (je nach Last) hat. Es kostet (Mainboard+CPU, kein Speicher) 141 € exklusive Versand. Dazu kommt ein Netzteil, z.B. das pioPSU-80-60W-power-kit für 29 € exklusuive Versand. Ein Gehäuse könnte man ggf. selbst bauen.
+
+Gesamtkosten also ca. 250 € + Versand, sagen wir also 275 €. Stromverbrauch liegt dann bei geschätzten 20W bis 25W (je nachdem, wie gut die Netzteile tatsächlich funktionieren). Verglichen mit den 46W, die die Firebox braucht, sparen wir also 20W ein. Bei unserem derzeitigen Stromtarif von 19ct/kWh macht das 24 * 7 * 4 = 672 Stunden pro Monat und 0,02kW Verbrauch, also 672 * 0.02 * 0.19 = 2.55 €/Monat Ersparnis aus.
+
+'''Es dauert also 107 Monate (oder: fast 9 Jahre) bis sich die Investition lohnt.'''
+
+--[[Benutzer:SEC|sECuRE]] 13:25, 1. Feb. 2011 (CET)
