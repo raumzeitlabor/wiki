@@ -9,20 +9,23 @@ Die Firebox ist unser derzeitiger Router. Die Aufgaben sind:
 
 == Spezifikation für einen Ersatz ==
 
-Da die Firebox relativ viel Strom frisst, kann man über einen Ersatz nachdenken. Folgende Punkte '''müssen''' erfüllt sein:
+Da die Firebox 46W frisst, kann man über einen Ersatz nachdenken. Folgende Punkte '''müssen''' erfüllt sein:
 
 * mindestens (!) 4 Ethernet-Ports, je mehr desto besser
 * mindestens 256 MB Arbeitsspeicher, besser 512 MB
 * mindestens 2 GB Speicher (Flash/CF-card/…)
 * Echtes Linux lauffähig (kein OpenWRT o.ä.)
 * mindestens 500 MHz CPU
-* signifikant weniger Stromverbrauch als die Firebox (genauer Stromverbrauch derzeit noch nicht bekannt!)
+* maximal ca. 20W Stromverbrauch, inklusive Netzteil!
+* Kosten deutlich weniger als 200 € (sonst ammortisiert es sich nicht) 
 
 Folgende Punkte wären gut, sind aber nicht notwendig:
 
 * 19"-Gehäuse
 * USB-Ports
 * RS232-Ports
+
+Siehe auch [[Stromsparplan_2010#Variante_mit_externem_VLAN-Switch]]
 
 == Hardware ==
 
