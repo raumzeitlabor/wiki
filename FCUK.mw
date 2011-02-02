@@ -1,0 +1,34 @@
+Presenting: '''FCUK - Fucking Creative Universal Klock'''
+
+== Übersicht & Hauptfeatures ==
+
+Bei der '''FCUK''' handelt es sich um die ultimative Binäruhr. Die Hauptfeatures sind:
+
+* DCF77-Empfänger für '''nie mehr Uhr stellen'''*
+* Automatische Leuchtstärkenregelung für '''nie mehr geblendet werden'''**
+* Freie Farbwahl für '''nie mehr Fehlfarben'''***
+* NTP Port für '''nie mehr RTC stellen'''
+
+''*jedenfalls fast überall in Europa
+
+''**außer du leuchtest die Photodiode mit nem Laser an. Oder dein Auge.
+
+''***Gegen Geschmacksverirrung können wir auch nichts
+
+== Hardware-Planungen ==
+
+Die genauen Details des Projektes entfalten sich aktuell. Hier schon einmal erste Überlegungen:
+
+* Projektspannung: 3,3 V (wegen DCF77-Empfänger)
+* Anzahl RGB-LEDs: 20 (für BCD-Anzeigeformat)
+* Photodiode für Leuchtstärkenregulation
+* Lautsprecher für ...
+* IR-Diode für Fernbedienung (Farbwahl)
+* Bedienelemente
+** 1 Farbwahltaster
+** 1 Farbinvertiertaster
+** 1 Drehpoti mit Schalter (Stellungen AUS - Regelbereich) <- AUS bedeutet "automatische Helligkeit" ansonsten manuelle Helligkeit
+** 3 Taster fürs Uhrstellen (falls DCF77 bei Kellernerds nicht will)
+* Netzwerk-Modul (SNTP Sender/Empfänger) mit 3-Wege-Schalter (Empfänger-Sender-Aus)
+
+[[Kategorie:Projekte]]
