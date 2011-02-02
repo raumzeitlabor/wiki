@@ -21,13 +21,15 @@ Bei der '''FCUK''' handelt es sich um die ultimative Binäruhr. Die Hauptfeature
 * DCF77-Empfänger für '''nie mehr Uhr stellen'''*
 * Automatische Leuchtstärkenregelung für '''nie mehr geblendet werden'''**
 * Freie Farbwahl für '''nie mehr Fehlfarben'''***
-* NTP Port für '''nie mehr RTC stellen'''
+* SNTP Port für '''nie mehr RTC stellen'''****
 
-''*jedenfalls fast überall in Europa
+''*jedenfalls fast überall in Europa''
 
-''**außer du leuchtest die Photodiode mit nem Laser an. Oder dein Auge.
+''**außer du leuchtest die Photodiode mit nem Laser an. Oder dein Auge.''
 
-''***Gegen Geschmacksverirrung können wir auch nichts
+''***Gegen Geschmacksverirrung können wir auch nichts''
+
+''****Sofern man ein Betriebssystem mit NTP-Client findet''
 
 == Hardware-Planungen ==
 
@@ -45,4 +47,4 @@ Die genauen Details des Projektes entfalten sich aktuell. Hier schon einmal erst
 ** 3 Taster fürs Uhrstellen (falls DCF77 bei Kellernerds nicht will)
 * Netzwerk-Modul (SNTP Sender/Empfänger) mit 3-Wege-Schalter (Empfänger-Sender-Aus)
 
-[[Kategorie:Projekte]]
+[[Kategorie:Projekt]]
