@@ -1,0 +1,40 @@
+{{ProjektInfoBox
+|name        = LED-Wall
+|status      = experimental
+|image       = 
+|description = Fette LED-Action
+|author      = tiefpunkt, Unicorn
+|username    = 
+|version     = 0.1
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
+PRON ist unsere LED-Wall, oder soll es zumindest werden. Erstmalig darf sie Teil unserer Rube-Goldberg-Maschine werden und danach einen wunderbaren Platz hier im RZL erhalten.
+
+== Akronym ==
+Namen sind eh nur Schall und Rauch, darum konnten wir uns nicht so ganz entscheiden. Sucht euch halt was aus
+===PRON===
+* Public Red Open Notifier
+* PRON Red Open Notifier
+===ROFL===
+* Red Open Flame of LEDs
+
+==Warum?==
+* Ne Menge Spaß für unsere Rube Goldberg-Machine
+* Pong
+* $your_imagination
+
+==Unser Plan==
+* Größe: 280cm x 140cm (passt in den Freiraum überm Lager)
+* Anzahl LEDs: 80 x 40 -> 3200 LEDs
+* Unterteilung in 5 Module mit 16 x 40 LEDs
+** Je Modul ein Controller (AVR)
+** Zentraler Controller
+* LED-Farbe: Rot
+
+==Inspirationen==
+* http://www.kitesurfer1404.de/tech/matrix
+* http://bertjwregeer.com/Project/LEDWall.html
