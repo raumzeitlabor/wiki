@@ -1,5 +1,5 @@
 == Adressen der Mikrokontroller ==
-Jeder Mikrokontroller hat eine Adresse zwischen 1 und 29 (einschließlich), mit der er am Bus zu erreichen ist. Diese Adresse bildet die letzte Stelle der IPv6-Adresse wie z.B. ''fe80::b5:ff:fe00:'''01'''''.
+Jeder Mikrokontroller hat eine Adresse zwischen 1 und 29 (einschließlich), mit der er am Bus zu erreichen ist. Diese Adresse bildet die letzte Stelle der IPv6-Adresse wie z.B. ''fd1a:56e6:97e9:0:b5:ff:fe00:'''01'''''.
 
 {| border="1" cellspacing="0" cellpadding="10"
 ! Adresse || Mikrokontroller
@@ -15,7 +15,7 @@ Jeder Mikrokontroller hat eine Adresse zwischen 1 und 29 (einschließlich), mit 
 |}
 
 == Multicast-Gruppen ==
-Jeder Mikrokontroller kann Nachrichten an die Außenwelt schicken (egal ob von sich aus oder als Antwort auf ein anderes Paket). Diese landen in verschiedenen Multicast-Gruppen, sodass sich die Anwendungen aussuchen können, welche Nachrichten auf dem Bus sie empfangen möchten. Die Gruppennummer zwischen 50 und 100 (einschließlich) bildet die letzte Stelle der IPv6-Adresse wie z.B. ''fe80::b5:ff:fe00:'''32''''' (50 in diesem Fall, Hexadezimal als 32 ausgedrückt).
+Jeder Mikrokontroller kann Nachrichten an die Außenwelt schicken (egal ob von sich aus oder als Antwort auf ein anderes Paket). Diese landen in verschiedenen Multicast-Gruppen, sodass sich die Anwendungen aussuchen können, welche Nachrichten auf dem Bus sie empfangen möchten. Die Gruppennummer zwischen 50 und 100 (einschließlich) bildet die letzte Stelle der IPv6-Adresse wie z.B. ''ff05::b5:ff:fe00:'''32''''' (50 in diesem Fall, Hexadezimal als 32 ausgedrückt).
 
 {| border="1" cellspacing="0" cellpadding="10"
 ! Gruppe || Zweck
