@@ -1,19 +1,19 @@
 Anwendungen, die Zugriff auf das Hausbus-Netz (auf Ethernet-Ebene) haben, können Pakete an den Bus schicken, indem sie diese an die entsprechenden IPv6-Adressen schicken. Weiterhin können Anwendungen bestimmte Pakete aus dem Bus empfangen, indem sie auf den jeweiligen Multicast-Adressen lauschen.
 
 == Übersicht ==
+
+Im Hausbus verwenden wir Unique Local Addresses aus dem Bereich fd1a:56e6:97e9:0:b5:ff:fe00:01.
+
 === Pakete senden ===
-* Wie in [[Hausbus/Adressen]] angesprochen hat jedes Gerät am Bus seine eigene Adresse (zwischen 1 und 29, einschließlich). Diese Adresse bildet die letzte Stelle einer IPv6-Adresse, z.B. ''fe80::b5:ff:fe00:'''01'''''.
-* Da dies eine Link-Local-Adresse ist, muss ein Scope-Identifier angegeben werden. Angenommen, der Hausbus ist auf eth1 verbunden, so lautet die vollständige Adresse ''fe80::b5:ff:fe00:01%eth1''.
+* Wie in [[Hausbus/Adressen]] angesprochen hat jedes Gerät am Bus seine eigene Adresse (zwischen 1 und 29, einschließlich). Diese Adresse bildet die letzte Stelle einer IPv6-Adresse, z.B. ''fd1a:56e6:97e9:0:b5:ff:fe00:'''01'''''.
 * Der Hausbus läuft auf Port 41999, UDP.
-* Zum Testen kann z.B. folgender ''nc6''-Aufruf verwendet werden:
- echo -n 'get_status' | nc6 -q0 fe80::b5:ff:fe00:01%eth1 41999
 
 === Pakete empfangen ===
-* Auf gesendete Pakete gibt es keine direkte Antwort. Stattdessen werden Pakete aus dem Hausbus grundsätzlich an bestimmte IPv6-Multicast-Gruppen geschickt. Die Adresse setzt sich diesmal aus der Gruppennummer (von 50 bis 100 einschließlich) zusammen: ''fe80::b5:ff:fe00:'''32''''' ist die erste Gruppe (0x32 entspricht 50).
-* Nachdem man einen neuen UDP-Socket auf Port 41999 erstellt hat, muss man mit ''setsockopt'' und dem ''IPV6_JOIN_GROUP''-Parameter dem Kernel mitteilen, dass man an der Multicast-Gruppe ''fe80::b5:ff:fe00:'''32''''' (z.B.) Interesse hat.
+* Auf gesendete Pakete gibt es keine direkte Antwort. Stattdessen werden Pakete aus dem Hausbus grundsätzlich an bestimmte IPv6-Multicast-Gruppen geschickt. Die Adresse setzt sich diesmal aus der Gruppennummer (von 50 bis 100 einschließlich) zusammen: ''ff05::b5:ff:fe00:'''32''''' ist die erste Gruppe (0x32 entspricht 50).
+* Nachdem man einen neuen UDP-Socket auf Port 41999 erstellt hat, muss man mit ''setsockopt'' und dem ''IPV6_JOIN_GROUP''-Parameter dem Kernel mitteilen, dass man an der Multicast-Gruppe ''ff05::b5:ff:fe00:'''32''''' (z.B.) Interesse hat.
 * Sofern dieser Aufruf erfolgreich war, sollte die Datei /proc/net/igmp6 einen neuen Eintrag nach folgendem Schema enthalten:
- 2    eth0            ff020000000000000000000000b50001     1 00000004 0
-* Auf dem UDP-Socket empfängt man nun die Pakete aus dem Hausbus. Die Absenderadresse entspricht hierbei den Adressen, die wir auch im Abschnitt „Pakete senden” benutzt haben (z.B. ''fe80::b5:ff:fe00:01'').
+ 2    eth0            ff050000000000000000000000b50001     1 00000004 0
+* Auf dem UDP-Socket empfängt man nun die Pakete aus dem Hausbus. Die Absenderadresse entspricht hierbei den Adressen, die wir auch im Abschnitt „Pakete senden” benutzt haben (z.B. ''fd1a:56e6:97e9:0:b5:ff:fe00:01'').
 
 == Ruby ==
 Für Ruby gibt es bereits eine Hausbus-API ([http://github.com/raumzeitlabor/hausbus/tree/master/application/ Github]), die alles nötige abstrahiert. Die Benutzung funktioniert so:
