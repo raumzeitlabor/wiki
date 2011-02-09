@@ -13,9 +13,9 @@ Wir haben die ersten 20 Bausätze im Raum vorbereitet. Die Atmels sind vorprogra
 Kommt vorbei und tragt euch in der Liste auf der Wikiseite der [[KleinProzessorZüchter]] ein.
 Für Selbstbesteller hier der [http://www.reichelt.de/?ACTION=20;AWKID=7133;PROVID=2084 Reichelt Warenkorb] und hier [http://www.spielmaterial.de/deutsch5/d_K0009a_Kartenhulle__gros___geeignet_fur_Dominion.php das "Gehäuse"].
 
-===Lochraster Layout===
+===Lochraster-Layout===
 
-* hier das erste Layout für unsere Version der Ladyada-tv-b-gone:
+* hier das aktuelle Lochraster-Layout für unsere Version der Ladyada-tv-b-gone:
 {|
 | [[Datei:Tvbgone RZL.png|300px|thumb|Layout auf Lochraster für RZL tv-b-gone]]
 | [[Datei:Tvbgone_RZL_back.png|300px|thumb|Rückseitenlayout für RZL tv-b-gone]]
@@ -26,7 +26,14 @@ Für Selbstbesteller hier der [http://www.reichelt.de/?ACTION=20;AWKID=7133;PROV
 
 Der Testaufbau von secure hat soweit funktioniert. (löst auf unserem Universum Fernseher im RZL verschiedene Reaktionen von Mute bis standby aus)
 
-===Aufbauhinweise===
+==Lochstreifen-Layout==
+[[Benutzer:Inte|Inte]] hat sowohl das Lochraster-Layout neu als Streifenraster gesetzt, als auch die freie Verdrahtung und Anzahl der Brücken reduziert.
+{|
+| [[Datei:Tv-b-gone-streifenraster-oben.jpg|200px|thumb|Layout auf Streifenraster für RZL tv-b-gone.]]
+| [[Datei:Tv-b-gone-streifenraster-gewendet.jpg|200px|thumb|Layout der Rückseite.]]
+| [[Datei:Tv-b-gone-streifenraster-durchsicht.jpg|200px|thumb|Durchsicht von oben.]]
+|}
+==Aufbauhinweise==
 
 Die IR LEDs sind zwei verschiedene Sorten. Die eine Sorte hat einen breiten Streuwinkel mit wenig Reichweite, die andere sorte einen engen Winkel aber mehr Reichweite. Sinnvollerweise sollten die engen beiden LEDs nach innen, die breitstreuenden nach außen.
 In unserem Bausatz scheinen die blau-transparenten LEDs die eng fokussierten zu sein (also nach innen), die schwarz aussehenden sollten dann die breit streuenden sein und kommen nach außen.
@@ -41,7 +48,7 @@ Trotzdem der Vollständigkeit halber der Link zur Ladyada Firmware bzw. deren ge
 *[http://ladyada.net/make/tvbgone/download.html Ladyada Download Seite zum TV-b-gone]
 *[http://ladyada.net/media/tvbgone/caitsith_firmwarev12.zip Firmwaremod für V1.5 von Caitsith (diese FW ist auf den Atmels vorgeflasht)]
 
-===Erster Aufbau===
+===Fotos===
 
 * hier Bilder vom ersten Aufbau (hier noch mit Programmierstecker, aufrechtem Elko und Löchern für die LEDs)
 {|
@@ -54,6 +61,11 @@ Trotzdem der Vollständigkeit halber der Link zur Ladyada Firmware bzw. deren ge
 |[[Datei:Tv-b-gone-coke.jpg|200px|thumb|In einem Coca Cola-Becher]]
 |}
 
+*Aufbau des Lochstreifen-Layouts:
+{|
+| [[Datei:Tv-b-gone streifenraster-vorne.jpg|300px|thumb]]
+| [[Datei:Tv-b-gone streifenraster-oben.jpg|300px|thumb]]
+|}
 ===Demonstrationsvideo===
 
 Die folgende Aufzeichnung wurde uns aus einer Elektroapotheke zugespielt:
