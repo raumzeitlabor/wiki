@@ -12,7 +12,7 @@ Die ATmega168-Hausbus-Platine ist das Referenzdesign für alle Hausbus-Teilnehme
 {| border="1" cellspacing="0" cellpadding="10"
 ! Reichelt || € || Anzahl || Bauteil || Zweck
 |-----
-| ATMEGA 168-20DIP || / || 1 || ATmega168 ||
+| ATMEGA 168-20DIP || 3,65 || 1 || ATmega168 ||
 |-----
 | SN 75176BP || 0,28 || 1 || SN 75176BP || RS485-Bustreiber
 |-----
@@ -37,7 +37,7 @@ Die ATmega168-Hausbus-Platine ist das Referenzdesign für alle Hausbus-Teilnehme
 | LED 5MM 5V RT || 0,16 || 1 || LED mit Vorwiderstand ||
 |-----
 |}
-Insgesamt: 2,04€ (Vorsicht: ATmega noch nicht einberechnet weil derzeit nicht lieferbar)
+Insgesamt: 5,69€ (Vorsicht: ATmega noch nicht einberechnet weil derzeit nicht lieferbar)
 
 == Schaltplan/Layout ==
 Als Bilder:
