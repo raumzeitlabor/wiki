@@ -18,6 +18,9 @@ Der Hausbus ist ein Bussystem (auf RS485 basierend), mit welchem wir verschieden
 
 Diese Seite dient als Portalseite zur vollständigen Dokumentation.
 
+== Status ==
+Lange Kabel machen uns Probleme derzeit. Terminierungswiderstand und Gegentaktdrossel helfen nicht.
+
 == Dokumentation ==
 * [[Hausbus/ATmega168]]: Referenz-Aufbau (Bauteilliste, Schaltplan, Layout, etc.)
 * [[Hausbus/ATmega644]]: Aufbau für den Pinpad-Controller
