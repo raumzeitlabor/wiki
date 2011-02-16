@@ -19,7 +19,7 @@ Der Hausbus ist ein Bussystem (auf RS485 basierend), mit welchem wir verschieden
 Diese Seite dient als Portalseite zur vollständigen Dokumentation.
 
 == Status ==
-Lange Kabel machen uns Probleme derzeit. Terminierungswiderstand und Gegentaktdrossel helfen nicht.
+Nach korrekter Termination mit Widerständen zwischen A/B/VCC/GND scheint bisher alles zu funktionieren. Wir müssen noch etwas abwarten, bevor wir daraus Schlüsse ziehen können.
 
 == Dokumentation ==
 * [[Hausbus/ATmega168]]: Referenz-Aufbau (Bauteilliste, Schaltplan, Layout, etc.)
