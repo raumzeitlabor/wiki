@@ -8,7 +8,7 @@ Auf dieser Seite wird das neue Frontend dokumentiert. Da die alte Platine in Bet
 DaFo hat uns freundlicherweise ein JHD 162A-LCD bereitgestellt, welches 16x2 Zeichen darstellen kann. Das LCD kann man im 4-Bit-Modus betreiben, sodass man effektiv 3 Pins (Enable, Read/Write, Register Select) und 4 Datenpins braucht.
 
 Wichtig:
-* Contrast (VEE, Pin 3) auf GND ziehen für maximalen Kontrast, sonst sieht man nichts.
+* Contrast (VEE, Pin 3) auf GND ziehen für maximalen Kontrast, sonst sieht man nichts. Den idealen Kontrast hat man zwischen 0.24V und 0.36V auf VEE.
 * Fuse-Settings beachten, sonst stehen die Pins ggf. nicht zur Verfügung
 * Zur Ansteuerung verwenden wir derzeit die lcd.{c,h} von http://www.jump.to/fleury
 
