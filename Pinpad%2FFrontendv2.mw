@@ -14,3 +14,9 @@ Wichtig:
 
 = LEDs =
 Als LEDs verwenden wir zur Anzeige des Raumstatus und zur Eingabebestätigung/-verweigerung zweifarbige LEDs (rot/grün). Diese haben eine gemeinsame Kathode und zwei Pins, die jeweils Rot bzw. Grün aktivieren. Die entsprechenden Widerstände sind 140 Ohm für Grün und 150 Ohm für Rot. Das Beinchen auf der abgeflachten Seite ist für Rot.
+
+= Übertragung =
+Diesmal möchten wir statt TTL-Pegel-UART lieber RS485 verwenden, was bei zwei Teilnehmern sehr einfach sein sollte.
+
+Wichtig:
+* Darauf achten den Bus ordentlich zu terminieren (Widerstände zwischen A/B/VCC/GND, wie beim Hausbus).
