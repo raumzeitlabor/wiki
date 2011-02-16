@@ -1,0 +1,5 @@
+Auf dieser Seite wird das neue Frontend dokumentiert. Da die alte Platine in Betrieb ist können wir dort nicht ohne größeren Aufwand zu treiben alte Probleme beheben (beispielsweise funktionieren die Blink- und Pieps-Funktionen zwar prinzipiell, aber nicht so wie wir das gerne hätten). Unter anderem aus diesem Grund bauen wir ein neues Frontend.
+
+= Fuses =
+ sudo avrdude -c usbasp -p atmega644p -P usb -U lfuse:w:0xdf:m -U hfuse:w:0xd9:m
+'''Unbedingt''' diese Fuses verwenden, sonst sind z.B. JTAG oder Clock Output aktiv, was dazu führt, dass manche Sachen nicht richtig funktionieren (wir belegen nahezu alle Ports des ATmegas).
