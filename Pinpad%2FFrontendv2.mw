@@ -3,3 +3,14 @@ Auf dieser Seite wird das neue Frontend dokumentiert. Da die alte Platine in Bet
 = Fuses =
  sudo avrdude -c usbasp -p atmega644p -P usb -U lfuse:w:0xdf:m -U hfuse:w:0xd9:m
 '''Unbedingt''' diese Fuses verwenden, sonst sind z.B. JTAG oder Clock Output aktiv, was dazu führt, dass manche Sachen nicht richtig funktionieren (wir belegen nahezu alle Ports des ATmegas).
+
+= LCD =
+DaFo hat uns freundlicherweise ein JHD 162A-LCD bereitgestellt, welches 16x2 Zeichen darstellen kann. Das LCD kann man im 4-Bit-Modus betreiben, sodass man effektiv 3 Pins (Enable, Read/Write, Register Select) und 4 Datenpins braucht.
+
+Wichtig:
+* Contrast (VEE, Pin 3) auf GND ziehen für maximalen Kontrast, sonst sieht man nichts.
+* Fuse-Settings beachten, sonst stehen die Pins ggf. nicht zur Verfügung
+* Zur Ansteuerung verwenden wir derzeit die lcd.{c,h} von http://www.jump.to/fleury
+
+= LEDs =
+Als LEDs verwenden wir zur Anzeige des Raumstatus und zur Eingabebestätigung/-verweigerung zweifarbige LEDs (rot/grün). Diese haben eine gemeinsame Kathode und zwei Pins, die jeweils Rot bzw. Grün aktivieren. Die entsprechenden Widerstände sind 140 Ohm für Grün und 150 Ohm für Rot. Das Beinchen auf der abgeflachten Seite ist für Rot.
