@@ -1,0 +1,7 @@
+= Dienstag/Mittwoch (2011-02-08) =
+* Busmaster-Update (keine Link-Local-Adressen, sondern ULAs)
+* RS485-Kabel gelegt (Kabel zur Tür wiederverwendet), durchgemessen, angeschlossen
+* Neue Sensoren in der Tür an den Pinpad-Controller angeschlossen
+* Firmware auf dem Pinpad-Controller Hausbus-fähig gemacht
+* Pinpad-Events programmiert (Tastendruck, Öffnen, etc.)
+* Türstatus-Script aktualisiert
