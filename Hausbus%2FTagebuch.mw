@@ -14,3 +14,5 @@ Hausbus lief ca. 2 Tage, dann unerklärliche Fehler (Pakete kamen nicht mehr ord
 * Neue Pinpad-Frontend-Platine gelötet
 * Ziffernfeld aus altem Telefon reverse-engineered
 * LCD/LEDs/Ziffernfeld angesteuert von neuem Frontend aus
+
+Hausbus lief wenige Stunden, dann stieg vermutlich wieder das Etherrape aus. Symptom bekannt, genaue Ursache noch unklar. Immerhin kein Fehler auf dem Bus selbst (vermutlich).
