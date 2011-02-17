@@ -5,6 +5,7 @@
 * Firmware auf dem Pinpad-Controller Hausbus-fähig gemacht
 * Pinpad-Events programmiert (Tastendruck, Öffnen, etc.)
 * Türstatus-Script aktualisiert
+* Video gemacht: Öffnen/Schließen via SSH
 
 Hausbus lief ca. 2 Tage, dann unerklärliche Fehler (Pakete kamen nicht mehr ordentlich an)
 
