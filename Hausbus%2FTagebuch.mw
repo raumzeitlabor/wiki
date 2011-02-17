@@ -5,3 +5,12 @@
 * Firmware auf dem Pinpad-Controller Hausbus-fähig gemacht
 * Pinpad-Events programmiert (Tastendruck, Öffnen, etc.)
 * Türstatus-Script aktualisiert
+
+Hausbus lief ca. 2 Tage, dann unerklärliche Fehler (Pakete kamen nicht mehr ordentlich an)
+
+= Dienstag/Mittwoch (2011-02-15) =
+* Kabel zur Tür ordentlich abisoliert/verlötet (vorher Jumper Wires, die dann gebrochen sind)
+* Debugging Session: Terminierung des Bus mit Widerständen zwischen A/B/VCC/GND fehlte, danach keine Errors mehr auf UART-Level
+* Neue Pinpad-Frontend-Platine gelötet
+* Ziffernfeld aus altem Telefon reverse-engineered
+* LCD/LEDs/Ziffernfeld angesteuert von neuem Frontend aus
