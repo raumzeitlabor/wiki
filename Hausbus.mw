@@ -30,6 +30,7 @@ Nach korrekter Termination mit Widerständen zwischen A/B/VCC/GND scheint bisher
 * [[Hausbus/Verkabelung]]: Wo laufen die Kabel im Raum entlang?
 * [[Hausbus/Controller-Programmierung]]: Für eigene Mikrokontroller, die am Hausbus teilnehmen sollen.
 * [[Hausbus/Anwendungs-Programmierung]]: Für Anwendungen, die Informationen mit dem Hausbus austauschen sollen.
+* [[Hausbus/Tagebuch]]
 
 == Links ==
 * git-Repository (Quelltext, etc.): http://github.com/raumzeitlabor/hausbus
