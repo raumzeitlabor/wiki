@@ -6,6 +6,7 @@
 * Pinpad-Events programmiert (Tastendruck, Öffnen, etc.)
 * Türstatus-Script aktualisiert
 * Video gemacht: Öffnen/Schließen via SSH
+* Temperatur-Sensor-Platine gebaut
 
 Hausbus lief ca. 2 Tage, dann unerklärliche Fehler (Pakete kamen nicht mehr ordentlich an)
 
@@ -18,3 +19,7 @@ Hausbus lief ca. 2 Tage, dann unerklärliche Fehler (Pakete kamen nicht mehr ord
 * Layout/Schaltplan gemacht (wir wollen eine Platine)
 
 Hausbus lief wenige Stunden, dann stieg vermutlich wieder das Etherrape aus. Symptom bekannt, genaue Ursache noch unklar. Immerhin kein Fehler auf dem Bus selbst (vermutlich).
+
+= Freitag (2011-02-18) =
+* RS485-auf-RS232-Platine ordentliche gelötet (Gegentaktdrossel, Ethernet, ggf. Bustreiber)
+* Festgestellt, dass die Firebox crashed, wenn man mit der seriellen Schnittstelle dort Mist baut, ergo werden wir diese nicht als Busmaster verwenden
