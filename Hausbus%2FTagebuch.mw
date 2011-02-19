@@ -23,7 +23,8 @@ Hausbus lief wenige Stunden, dann stieg vermutlich wieder das Etherrape aus. Sym
 = Freitag/Samstag (2011-02-18) =
 * RS485-auf-RS232-Platine ordentliche gelötet (Gegentaktdrossel, Ethernet, ggf. Bustreiber)
 * Festgestellt, dass die Firebox crashed, wenn man mit der seriellen Schnittstelle dort Mist baut, ergo werden wir diese nicht als Busmaster verwenden
-* Pinpad-Platine gefixed (bei einem Kondensator war auf der Oberseite kein Lötzinn)
+* Pinpad2-Platine gefixed (bei einem Kondensator war auf der Oberseite kein Lötzinn)
 * HomeTec++: Bau einer Platine zur direkten Ansteuerung des HomeTecs (ohne dessen Elektronik)
+* Busmaster-Firmware auf das andere Etherrape aufgespielt (mit anderem Netzteil), eine kleine Verbesserung (unklar obs hilft) in der Firmware
 
 Hausbus läuft derzeit seit 2011-02-19 11:06:00 ohne Ausfall
