@@ -34,4 +34,5 @@ Laufzeiten des Busmasters:
 * 2011-02-20 09:55:00 bis 2011-02-20 16:07:00 ← '''firmware-upgrade''', beabsichtigt
 * 2011-02-20 16:08:00 bis 2011-02-20 19:25:00
 * 2011-02-20 19:26:00 bis 2011-02-20 20:20:00
+** Interessant: die 'handling udp packet'-meldung kam noch, die 'ethernet to rs485 done' nicht
 * 2011-02-20 20:20:00 bis …
