@@ -27,4 +27,6 @@ Hausbus lief wenige Stunden, dann stieg vermutlich wieder das Etherrape aus. Sym
 * HomeTec++: Bau einer Platine zur direkten Ansteuerung des HomeTecs (ohne dessen Elektronik)
 * Busmaster-Firmware auf das andere Etherrape aufgespielt (mit anderem Netzteil), eine kleine Verbesserung (unklar obs hilft) in der Firmware
 
-Hausbus läuft derzeit seit 2011-02-19 11:06:00 bis 18:27:00 ohne Ausfall, dann powercycled
+Laufzeiten des Busmasters:
+* 2011-02-19 11:06:00 bis 2011-02-19 18:27:00
+* 2011-02-19 18:27:00 bis 2011-02-20 02:55:00
