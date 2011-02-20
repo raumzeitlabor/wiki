@@ -20,6 +20,9 @@ Hausbus lief ca. 2 Tage, dann unerklärliche Fehler (Pakete kamen nicht mehr ord
 
 Hausbus lief wenige Stunden, dann stieg vermutlich wieder das Etherrape aus. Symptom bekannt, genaue Ursache noch unklar. Immerhin kein Fehler auf dem Bus selbst (vermutlich).
 
+= Donnerstag (2011-02-17) =
+* Pinpadv2-Platine layouten/fräsen mit Volker
+
 = Freitag/Samstag (2011-02-18) =
 * RS485-auf-RS232-Platine ordentliche gelötet (Gegentaktdrossel, Ethernet, ggf. Bustreiber)
 * Festgestellt, dass die Firebox crashed, wenn man mit der seriellen Schnittstelle dort Mist baut, ergo werden wir diese nicht als Busmaster verwenden
