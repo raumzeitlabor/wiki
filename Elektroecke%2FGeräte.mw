@@ -26,8 +26,13 @@ Noch defekt
 
 === Peaktech 6000A ===
 
-[[Image:Peaktech regelbare spannungsquelle.jpg|thumb|PeakTech 6000A|200px|right]]
-Noch defekt
+{{RowInfoBox
+|bild          = Peaktech regelbare spannungsquelle.jpg
+|hersteller    = Peaktech
+|typ           = 6000A
+|beschreibung  = Regelbarespannungsquelle
+|status        = Defekt
+}}
 
 === Festspannungsnetzteil I ===
 
