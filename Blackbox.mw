@@ -1,4 +1,8 @@
-Blackbox ist unser derzeitiger Router.
+Blackbox ist unser interner Server. Dieser hostet derzeit:
+
+* MPD (an die Stereoanlage verlinkt)
+* PartDB
+
 = errorlog =
 == kernel oops ==
  May  2 16:27:47 blackbox kernel: [ 4277.196026] *pde = 013bc067 *pte = 00000000 
