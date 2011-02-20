@@ -32,13 +32,13 @@ Hausbus lief wenige Stunden, dann stieg vermutlich wieder das Etherrape aus. Sym
 * Busmaster-Firmware auf das andere Etherrape aufgespielt (mit anderem Netzteil), eine kleine Verbesserung (unklar obs hilft) in der Firmware
 
 Laufzeiten des Busmasters:
-* 2011-02-19 11:06:00 bis 2011-02-19 18:27:00
-* 2011-02-19 18:27:00 bis 2011-02-20 02:55:00
-* 2011-02-20 02:56:00 bis 2011-02-20 09:54:00
+* 2011-02-19 11:06:00 bis 2011-02-19 18:27:00 (~ 7:30h)
+* 2011-02-19 18:27:00 bis 2011-02-20 02:55:00 (~ 8:30h)
+* 2011-02-20 02:56:00 bis 2011-02-20 09:54:00 (~ 7:00h)
 * 2011-02-20 09:55:00 bis 2011-02-20 16:07:00 ← '''firmware-upgrade''', beabsichtigt
-* 2011-02-20 16:08:00 bis 2011-02-20 19:25:00
-* 2011-02-20 19:26:00 bis 2011-02-20 20:20:00
+* 2011-02-20 16:08:00 bis 2011-02-20 19:25:00 (~ 3:00h)
+* 2011-02-20 19:26:00 bis 2011-02-20 20:20:00 (~ 1:00h)
 ** Interessant: die 'handling udp packet'-meldung kam noch, die 'ethernet to rs485 done' nicht
-* 2011-02-20 20:20:00 bis 2011-02-20 21:08:00
-* 2011-02-20 21:34:00 bis 2011-02-20 21:55:00
+* 2011-02-20 20:20:00 bis 2011-02-20 21:08:00 (~ 1:00h)
+* 2011-02-20 21:34:00 bis 2011-02-20 21:55:00 (~ 1:30h)
 * 2011-02-20 21:55:00 bis …
