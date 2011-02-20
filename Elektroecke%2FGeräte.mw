@@ -11,21 +11,35 @@
 |license     = 
 |download    = 
 }}
-
 Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werden.
 
+
 == Labornetzgeräte ==
-
 === Voltkraft Digi 35 (1 von 3) ===
-
+{{RowInfoBox
+|bild          = Voltcraft_digi_35_1.jpg
+|hersteller    = Voltcraft
+|typ           = Digi35
+|beschreibung  = 
+|status        = OK
+}}
 === Voltkraft Digi 35 (2 von 3) ===
-
+{{RowInfoBox
+|bild          = Voltcraft digi 35.jpg
+|hersteller    = Voltcraft
+|typ           = Digi35
+|beschreibung  = 
+|status        = OK
+}}
 === Voltkraft Digi 35 (3 von 3) ===
-
-Noch defekt
-
+{{RowInfoBox
+|bild          = Voltcraft digi 35.jpg
+|hersteller    = Voltcraft
+|typ           = Digi35
+|beschreibung  = 
+|status        = Defekt
+}}
 === Peaktech 6000A ===
-
 {{RowInfoBox
 |bild          = Peaktech regelbare spannungsquelle.jpg
 |hersteller    = Peaktech
@@ -33,72 +47,155 @@ Noch defekt
 |beschreibung  = Regelbarespannungsquelle
 |status        = Defekt
 }}
-
 === Festspannungsnetzteil I ===
-
-[[Image:Festspannungsnetzgeraet.jpg|thumb|Festspannungsnetzteil I|200px|right]]
-
+{{RowInfoBox
+|bild          = Festspannungsnetzgeraet.jpg
+|hersteller    = Eigenbau
+|typ           = 
+|beschreibung  = 
+|status        = OK
+}}
 === Regelbaresnetzteil I ===
-
-[[Image:Regelbare spannungsquelle-von-nessi.jpg|thumb|Regelbaresnetzteil I|200px|right]]
-
+{{RowInfoBox
+|bild          = Regelbare spannungsquelle-von-nessi.jpg
+|hersteller    = Eigenbau
+|typ           = 
+|beschreibung  = 
+|status        = OK
+}}
 === Regelbaresnetzteil II ===
-
-Noch defekt, Umbau
-
+{{RowInfoBox
+|bild          = Netzteil_3.jpg
+|hersteller    = Eigenbau
+|typ           = 
+|beschreibung  = 
+|status        = Noch defekt, Umbau
+}}
 == Messtechnik ==
-
 === VM 70 ===
-
+{{RowInfoBox
+|bild          = Voltmeter mv 70.jpg
+|hersteller    = VEB
+|typ           = VM70
+|beschreibung  = 
+|status        = OK
+}}
 === Oszilloskop Hameg HM 203-6 ===
-
-[[Image:Hameg hm203-6 oszi.jpg|thumb|Hameg HM 203-6|200px|right]]
-
+{{RowInfoBox
+|bild          = Hameg hm203-6 oszi.jpg
+|hersteller    = Hameg
+|typ           = HM 203-6
+|beschreibung  = 
+|status        = OK
+}}
 === Oszilloskop Hameg HM 705 ===
-
-[[Image:Hameg hm705 oszi.jpg|thumb|Hameg HM 705|200px|right]]
-
-=== Oszilloskop Goud === 
-
+{{RowInfoBox
+|bild          = Hameg hm705 oszi.jpg
+|hersteller    = Hameg
+|typ           = HM 705
+|beschreibung  = 
+|status        = OK
+}}
+=== Oszilloskop Gould OS300 === 
+{{RowInfoBox
+|bild          = Gould os300.jpg
+|hersteller    = Gould
+|typ           = OS300
+|beschreibung  = 
+|status        = OK
+}}
 === Oszilloskop Healtkit === 
-
-[[Image:Heathkit oszi.jpg|thumb|Healtkit|200px|right]]
-
+{{RowInfoBox
+|bild          = Heathkit oszi.jpg
+|hersteller    = Heathkit
+|typ           = 
+|beschreibung  = 
+|status        = OK
+}}
 === Kapazitätsmessgerät I ===
-
+{{RowInfoBox
+|bild          = Hp 36d.jpg
+|hersteller    = HoldPeak
+|typ           = HP-36D
+|beschreibung  = 
+|status        = OK
+}}
 == Löttechnik ==
-
 === Ersa Lötnadel ===
-Nennleistung 5W
-Versorgungsspannung 6 V
-
+{{RowInfoBox
+|bild          = RaumZeitLabor - Logo - Schwarz.svg
+|hersteller    = Ersa
+|typ           = 
+|beschreibung  = Nennleistung 5W Versorgungsspannung 6 V
+|status        = OK
+}}
 === Ersa Lödbad ===
-
+{{RowInfoBox
+|bild          = RaumZeitLabor - Logo - Schwarz.svg
+|hersteller    = Ersa
+|typ           = 
+|beschreibung  = 
+|status        = OK
+}}
 === Lötstation I ===
-
+{{RowInfoBox
+|bild          = RaumZeitLabor - Logo - Schwarz.svg
+|hersteller    = 
+|typ           = 
+|beschreibung  = 
+|status        = OK
+}}
 == Sonstiges ==
-
 === Frequenzgenerator I ===
-
-Umbau in neues Gehäuse
-
+{{RowInfoBox
+|bild          = RaumZeitLabor - Logo - Schwarz.svg
+|hersteller    = Eigenbau
+|typ           = 
+|beschreibung  = 
+|status        = Umbau in neues Gehäuse
+}}
 === Patterngenerator I ===
-[[Image:Elektronika ekd480.jpg|thumb|Patterngenerator|200px|right]]
-
+{{RowInfoBox
+|bild          = Elektronika ekd480.jpg
+|hersteller    = Elektronika
+|typ           = EKD480
+|beschreibung  = 
+|status        = OK
+}}
 === ISEL EPROM UV Löschgerät ===
-
+{{RowInfoBox
+|bild          = Eprom uv eraser.jpg
+|hersteller    = ISEL
+|typ           = 
+|beschreibung  = 
+|status        = OK
+}}
 === Laborwaage Sartorius ===
-
-ToDo: Messgewichte besorgen und einbauen. Eichen. Aufbauen & Inbetriebnahme
-
+{{RowInfoBox
+|bild          = Sartorius 2002 mp1.jpg
+|hersteller    = Sartorius
+|typ           = 2002
+|beschreibung  = 
+|status        = ToDo: Messgewichte besorgen und einbauen. Eichen. Aufbauen & Inbetriebnahme
+}}
 === Messleitungen und Zubehör ===
-
 [[Elektroecke/Zubehoer|Messleitungen und Zubehör]]
-
 === PC mir Laserdrucker ===
-
+{{RowInfoBox
+|bild          = RaumZeitLabor - Logo - Schwarz.svg
+|hersteller    = 
+|typ           = 
+|beschreibung  = 
+|status        = 
+}}
 === Absaugung ===
-
+{{RowInfoBox
+|bild          = Polysorb m2.jpg
+|hersteller    = 
+|typ           = Polysorb M2
+|beschreibung  = 
+|status        = OK
+}}
 == Beteiligte/Danksagungen ==
 * AlexanderB
 * DaFo
