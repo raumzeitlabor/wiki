@@ -22,6 +22,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.voltcraft.de Voltcraft]
 |typ           = Digi35
 |beschreibung  = 
+|doku          = 
 |status        = OK
 }}
 === Voltcraft Digi 35 (2 von 3) ===
@@ -30,6 +31,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.voltcraft.de Voltcraft]
 |typ           = Digi35
 |beschreibung  = 
+|doku          = 
 |status        = OK
 }}
 === Voltcraft Digi 35 (3 von 3) ===
@@ -38,6 +40,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.voltcraft.de Voltcraft]
 |typ           = Digi35
 |beschreibung  = 
+|doku          = 
 |status        = Defekt
 }}
 === Peaktech 6000A ===
@@ -46,6 +49,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = Peaktech
 |typ           = 6000A
 |beschreibung  = Regelbarespannungsquelle
+|doku          = 
 |status        = Defekt
 }}
 === Festspannungsnetzteil I ===
@@ -54,6 +58,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = Eigenbau
 |typ           = 
 |beschreibung  = 
+|doku          = 
 |status        = OK
 }}
 === Regelbaresnetzteil I ===
@@ -62,6 +67,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = Eigenbau
 |typ           = 
 |beschreibung  = 
+|doku          = 
 |status        = OK
 }}
 === Regelbaresnetzteil II ===
@@ -70,6 +76,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = Eigenbau
 |typ           = 
 |beschreibung  = 
+|doku          = 
 |status        = Noch defekt, Umbau
 }}
 == Messtechnik ==
@@ -79,6 +86,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = VEB
 |typ           = VM70
 |beschreibung  = 
+|doku          = 
 |status        = OK
 }}
 === Oszilloskop Hameg HM 203-6 ===
@@ -87,6 +95,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.hameg.de Hameg]
 |typ           = HM 203-6
 |beschreibung  = 
+|doku          = 
 |status        = OK
 }}
 === Oszilloskop Hameg HM 705 ===
@@ -95,6 +104,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.hameg.de Hameg]
 |typ           = HM 705
 |beschreibung  = 
+|doku          = 
 |status        = OK
 }}
 === Oszilloskop Gould OS300 === 
@@ -103,6 +113,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = Gould
 |typ           = OS300
 |beschreibung  = 
+|doku          = 
 |status        = OK
 }}
 === Oszilloskop Healtkit === 
@@ -111,6 +122,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = Heathkit
 |typ           = 
 |beschreibung  = 
+|doku          = 
 |status        = OK
 }}
 === Kapazitätsmessgerät I ===
@@ -119,6 +131,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.holdpeak.de HoldPeak]
 |typ           = HP-36D
 |beschreibung  = Digitales Messgerät zur Kapazitätsmessung HP 36D, mit 9 Messbereichen von 0,1pF bis 20mF (20.000μF) mit Display-Hintergrundbeleuchtung. 
+|doku          = [[Media:Kapazitaetsmessgeraet_hp-36d.pdf|Bedienungsanleitung]]
 |status        = OK
 }}
 == Löttechnik ==
@@ -128,6 +141,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.ersa.de Ersa]
 |typ           = 
 |beschreibung  = Nennleistung 5W Versorgungsspannung 6 V
+|doku          = 
 |status        = OK
 }}
 === Ersa Lödbad ===
@@ -136,6 +150,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.ersa.de Ersa]
 |typ           = 
 |beschreibung  = 
+|doku          = 
 |status        = OK
 }}
 === Lötstation I ===
@@ -144,6 +159,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = 
 |typ           = 
 |beschreibung  = 
+|doku          = 
 |status        = OK
 }}
 == Sonstiges ==
@@ -153,6 +169,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = Eigenbau
 |typ           = 
 |beschreibung  = 
+|doku          = 
 |status        = Umbau in neues Gehäuse
 }}
 === Patterngenerator I ===
@@ -161,6 +178,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = Elektronika
 |typ           = EKD480
 |beschreibung  = 
+|doku          = 
 |status        = OK
 }}
 === ISEL EPROM UV Löschgerät ===
@@ -169,6 +187,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = ISEL
 |typ           = 
 |beschreibung  = 
+|doku          = 
 |status        = OK
 }}
 === Laborwaage Sartorius ===
@@ -177,6 +196,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = Sartorius
 |typ           = 2002
 |beschreibung  = 
+|doku          = 
 |status        = ToDo: Messgewichte besorgen und einbauen. Eichen. Aufbauen & Inbetriebnahme
 }}
 === Messleitungen und Zubehör ===
@@ -187,6 +207,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = 
 |typ           = 
 |beschreibung  = PC mit Brother Laserdrucker
+|doku          = 
 |status        = OK
 }}
 === Absaugung ===
@@ -195,6 +216,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = 
 |typ           = Polysorb M2
 |beschreibung  = 
+|doku          = 
 |status        = OK
 }}
 == Beteiligte/Danksagungen ==
