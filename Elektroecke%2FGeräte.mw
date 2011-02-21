@@ -16,26 +16,26 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 
 
 == Labornetzgeräte ==
-=== Voltkraft Digi 35 (1 von 3) ===
+=== Voltcraft Digi 35 (1 von 3) ===
 {{RowInfoBox
 |bild          = Voltcraft_digi_35_1.jpg
-|hersteller    = Voltcraft
+|hersteller    = [http://www.voltcraft.de Voltcraft]
 |typ           = Digi35
 |beschreibung  = 
 |status        = OK
 }}
-=== Voltkraft Digi 35 (2 von 3) ===
+=== Voltcraft Digi 35 (2 von 3) ===
 {{RowInfoBox
 |bild          = Voltcraft digi 35.jpg
-|hersteller    = Voltcraft
+|hersteller    = [http://www.voltcraft.de Voltcraft]
 |typ           = Digi35
 |beschreibung  = 
 |status        = OK
 }}
-=== Voltkraft Digi 35 (3 von 3) ===
+=== Voltcraft Digi 35 (3 von 3) ===
 {{RowInfoBox
 |bild          = Voltcraft digi 35.jpg
-|hersteller    = Voltcraft
+|hersteller    = [http://www.voltcraft.de Voltcraft]
 |typ           = Digi35
 |beschreibung  = 
 |status        = Defekt
@@ -84,7 +84,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 === Oszilloskop Hameg HM 203-6 ===
 {{RowInfoBox
 |bild          = Hameg hm203-6 oszi.jpg
-|hersteller    = Hameg
+|hersteller    = [http://www.hameg.de Hameg]
 |typ           = HM 203-6
 |beschreibung  = 
 |status        = OK
@@ -92,7 +92,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 === Oszilloskop Hameg HM 705 ===
 {{RowInfoBox
 |bild          = Hm 705.jpg
-|hersteller    = Hameg
+|hersteller    = [http://www.hameg.de Hameg]
 |typ           = HM 705
 |beschreibung  = 
 |status        = OK
@@ -116,16 +116,16 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 === Kapazitätsmessgerät I ===
 {{RowInfoBox
 |bild          = Hp 36d.jpg
-|hersteller    = HoldPeak
+|hersteller    = [http://www.holdpeak.de HoldPeak]
 |typ           = HP-36D
-|beschreibung  = 
+|beschreibung  = Digitales Messgerät zur Kapazitätsmessung HP 36D, mit 9 Messbereichen von 0,1pF bis 20mF (20.000μF) mit Display-Hintergrundbeleuchtung. 
 |status        = OK
 }}
 == Löttechnik ==
 === Ersa Lötnadel ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
-|hersteller    = Ersa
+|hersteller    = [http://www.ersa.de Ersa]
 |typ           = 
 |beschreibung  = Nennleistung 5W Versorgungsspannung 6 V
 |status        = OK
@@ -133,7 +133,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 === Ersa Lödbad ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
-|hersteller    = Ersa
+|hersteller    = [http://www.ersa.de Ersa]
 |typ           = 
 |beschreibung  = 
 |status        = OK
@@ -186,8 +186,8 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
 |hersteller    = 
 |typ           = 
-|beschreibung  = 
-|status        = 
+|beschreibung  = PC mit Brother Laserdrucker
+|status        = OK
 }}
 === Absaugung ===
 {{RowInfoBox
