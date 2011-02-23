@@ -1,5 +1,5 @@
 {{ProjektInfoBox
-|name        = E-Eck
+|name        = Elektroecke
 |status      = beta
 |image       = Oscilloscope.svg
 |description = 
@@ -12,7 +12,7 @@
 |download    = 
 }}
 Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werden.
-[[Image:Eeck.jpg|thumb|400px|right]]
+[[Image:IMG 0894 scale.JPG|thumb|400px|right]]
 
 
 == Labornetzgeräte ==
@@ -22,7 +22,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.voltcraft.de Voltcraft]
 |typ           = Digi35
 |beschreibung  = 
-|doku          = 
+|doku          = Schaltplan, Papier im Geräteordner
 |status        = OK
 }}
 === Voltcraft Digi 35 (2 von 3) ===
@@ -31,7 +31,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.voltcraft.de Voltcraft]
 |typ           = Digi35
 |beschreibung  = 
-|doku          = 
+|doku          = Schaltplan, Papier im Geräteordner
 |status        = OK
 }}
 === Voltcraft Digi 35 (3 von 3) ===
@@ -40,7 +40,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.voltcraft.de Voltcraft]
 |typ           = Digi35
 |beschreibung  = 
-|doku          = 
+|doku          = Schaltplan, Papier im Geräteordner
 |status        = Defekt
 }}
 === Peaktech 6000A ===
@@ -57,7 +57,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |bild          = Netzteil 2.jpg
 |hersteller    = Eigenbau
 |typ           = 
-|beschreibung  = 
+|beschreibung  = 2 * 5V (nicht brückbar)<br> 2 * 15V (brückbar)
 |doku          = 
 |status        = OK
 }}
@@ -80,13 +80,13 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |status        = Noch defekt, Umbau
 }}
 == Messtechnik ==
-=== VM 70 ===
+=== Voltmeter VM 70 ===
 {{RowInfoBox
 |bild          = Voltmeter mv 70.jpg
 |hersteller    = VEB
 |typ           = VM70
-|beschreibung  = 
-|doku          = 
+|beschreibung  = AC Spannungsmessgerät
+|doku          = Beschreibung & Bedienungsanleitung & Schaltplan als Papierausgabe im Geräteordner
 |status        = OK
 }}
 === Oszilloskop Hameg HM 203-6 ===
@@ -104,7 +104,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.hameg.de Hameg]
 |typ           = HM 705
 |beschreibung  = 
-|doku          = 
+|doku          = Originaldoku in Nessis-Kiste
 |status        = OK
 }}
 === Oszilloskop Gould OS300 === 
@@ -122,7 +122,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = Heathkit
 |typ           = 
 |beschreibung  = 
-|doku          = 
+|doku          = Doku als Papierausgabe im Geräteordner
 |status        = OK
 }}
 === Kapazitätsmessgerät I ===
@@ -178,7 +178,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = Elektronika
 |typ           = EKD480
 |beschreibung  = 
-|doku          = 
+|doku          = Doku als Papierausgabe im Geräteordner
 |status        = OK
 }}
 === ISEL EPROM UV Löschgerät ===
@@ -187,7 +187,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = ISEL
 |typ           = 
 |beschreibung  = 
-|doku          = 
+|doku          = Doku als Papierausgabe im Geräteordner
 |status        = OK
 }}
 === Laborwaage Sartorius ===
@@ -196,7 +196,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = Sartorius
 |typ           = 2002
 |beschreibung  = 
-|doku          = 
+|doku          = Doku als Papierausgabe im Geräteordner
 |status        = ToDo: Messgewichte besorgen und einbauen. Eichen. Aufbauen & Inbetriebnahme
 }}
 === Messleitungen und Zubehör ===
@@ -215,6 +215,15 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |bild          = Polysorb m2.jpg
 |hersteller    = 
 |typ           = Polysorb M2
+|beschreibung  = 
+|doku          = 
+|status        = OK
+}}
+=== Microscop ===
+{{RowInfoBox
+|bild          = 
+|hersteller    = 
+|typ           = 200 fach, USB
 |beschreibung  = 
 |doku          = 
 |status        = OK
