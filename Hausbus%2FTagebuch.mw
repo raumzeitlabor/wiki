@@ -60,3 +60,4 @@ Plan:
 * UART-2-Ethernet-Modul in Betrieb nehmen an zweiter Schnittstelle auf der Resetcard
 * Molex-Stecker am HomeTec++ nutzen statt Stiftleiste
 * geliehenen USB-Charger austauschen
+* geliehenes Jumper-Wire austauschen am Busmaster
