@@ -96,6 +96,10 @@ Einfaches Farb-Fading sowie Steuerung per IR-Fernbdienung (Farbauswahl, zurück 
 | [[Datei:Moodlamp01.jpg|277px|thumb|Moodlamp in Betrieb, mit passender Fernbedienung]]
 |}
 
+{|
+| [[Datei:BackLEDs.JPG|277px|thumb|Moodlamp LEDs aus dem Backofen]]
+|}
+
 ==Planung==
 ===Kurzfristig===
 * <del>Andere IR-Routinen ( http://www.mikrocontroller.net/articles/IRMP )</del>
