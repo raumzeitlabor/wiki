@@ -56,8 +56,6 @@ Laufzeiten des Busmasters:
 * Busmaster durch eine Resetcard ersetzt, hat allerdings keine Besserung gebracht. Liegt vmtl an fehlenden Kondensatoren rund um den ENC28J60 oder so.
 
 = Freitag (2011-02-25) =
-Plan:
-* UART-2-Ethernet-Modul in Betrieb nehmen an zweiter Schnittstelle auf der Resetcard
-* Molex-Stecker am HomeTec++ nutzen statt Stiftleiste
-* geliehenen USB-Charger austauschen
-* geliehenes Jumper-Wire austauschen am Busmaster
+* Testaufbau für das UART-2-Ethernet-Modul gebaut, funktioniert leider noch nicht vollständig.
+* HomeTec++ besser montiert/Kabel getauscht
+* Temperatursensor-Platine weiterentwickelt
