@@ -24,4 +24,12 @@ Unsere [[Moodlamp]] hat einen Funkchip, einen RFM12. Damit wir damit auch vom Re
 | [[Datei:Rfm12usb_layout02.png|400px|thumb|Lochrasterlayout v0.1 - Unten]]
 |}
 
+== Build Log ==
+[[Datei:Rfm12usb_photo01.jpg|200px|thumb|Der erste RZL-Lochraster-rfm12usb]]
+=== 1.3.2011 ===
+* v0.1 fertig aufgebaut
+* Dioden im Layout verdreht, Kondensator fehlt -> Update folgt
+* USB-Device wird erkannt
+* Demo-Application vom Labor erkennt das Device auch
+* Tatsächliche Funktion noch unbekannt, da keine Gegenstelle verfügbar
 [[Kategorie:Projekt]][[Kategorie: KleinProzessorZüchter]]
