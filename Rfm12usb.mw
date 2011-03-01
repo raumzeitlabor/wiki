@@ -32,4 +32,5 @@ Unsere [[Moodlamp]] hat einen Funkchip, einen RFM12. Damit wir damit auch vom Re
 * USB-Device wird erkannt
 * Demo-Application vom Labor erkennt das Device auch
 * Tatsächliche Funktion noch unbekannt, da keine Gegenstelle verfügbar
+** Code für Moodlamp geschrieben, der einfache Pakete über RFM12-Chip versendet und Status über UART ausgibt. Leider kommt keine Kommunikation zustande, egal in welche Richtung. Lade das ganze Coding jetzt mal hoch, vielleicht mag sich ja mal wer mit beschäftigen...
 [[Kategorie:Projekt]][[Kategorie: KleinProzessorZüchter]]
