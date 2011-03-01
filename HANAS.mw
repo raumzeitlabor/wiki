@@ -1,0 +1,24 @@
+{{ProjektInfoBox
+|name        = HANAS (Hacker's NAS)
+|status      = experimental
+|image       = 
+|description = Eigenbau NAS mit Hack-Value
+|author      = docsteel, Inte
+|username    = 
+|version     = 0.1
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
+Wir Nerds wollen ein NAS was unseren Anforderungen gerecht wird.
+
+== Anforderungen ==
+
+* Leise
+* Stromsparend
+* USB-Client Mode
+* GBit-LAN
+* Streaming
+* HDMI
