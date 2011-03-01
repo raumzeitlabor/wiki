@@ -15,12 +15,18 @@
 Wir Nerds wollen ein NAS was unseren Anforderungen gerecht wird.
 
 == Anforderungen ==
+Hier machen wir erstmal eine Liste auf was das HANAS können sollte, unabhängig davon wie gut das realisierbar ist.
 
 * Leise
 * Stromsparend
 * USB-Client Mode
-* GBit-LAN
+* GBit-LAN (2x?)
 * Streaming
 * HDMI
+* Raid 5
+* NFS
+* AFS
+* SMB/CIFS
+* ZFS
 
 [[Kategorie:Projekt]]
