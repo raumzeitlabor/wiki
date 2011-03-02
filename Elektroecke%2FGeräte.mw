@@ -198,15 +198,16 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |doku          = 
 |status        = OK
 }}
-=== Lötstation I ===
+=== Lötstation Digi 60 ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
 |hersteller    = Conrad
-|typ           =  
-|beschreibung  = 
+|typ           = Digi 60 
+|beschreibung  = 230V 80W 200-450°C
 |doku          = 
 |status        = OK
 }}
+
 === Weller Mini 2000 Lötkolben ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
