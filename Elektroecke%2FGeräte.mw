@@ -166,17 +166,44 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
 |hersteller    = [http://www.ersa.de Ersa]
-|typ           = 
+|typ           = ANALOG 60
 |beschreibung  = 
 |doku          = 
-|status        = OK
+|status        = Defekt, klackern
 }}
 === Ersa Lötstation II ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
 |hersteller    = [http://www.ersa.de Ersa]
-|typ           = 
+|typ           = ANALOG 60
 |beschreibung  = 
+|doku          = 
+|status        = OK
+}}
+=== Lötstation ZD-931 ===
+{{RowInfoBox
+|bild          = RaumZeitLabor - Logo - Schwarz.svg
+|hersteller    = [www.reichelt.de Reichelt GmbH]
+|typ           = ZD-931 
+|beschreibung  = Digitale Lötstation
+|doku          = 
+|status        = OK
+}}
+=== Lötstation ZD-931 ===
+{{RowInfoBox
+|bild          = RaumZeitLabor - Logo - Schwarz.svg
+|hersteller    = [www.reichelt.de Reichelt GmbH]
+|typ           = ZD-931 
+|beschreibung  = Digitale Lötstation
+|doku          = 
+|status        = OK
+}}
+=== Lötstation ZD-931 ===
+{{RowInfoBox
+|bild          = RaumZeitLabor - Logo - Schwarz.svg
+|hersteller    = [www.reichelt.de Reichelt GmbH]
+|typ           = ZD-931 
+|beschreibung  = Digitale Lötstation
 |doku          = 
 |status        = OK
 }}
@@ -184,13 +211,13 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
 |hersteller    = [http://www.weller.de/ Weller]
-|typ           = 
-|beschreibung  = 
+|typ           = WS 81 
+|beschreibung  = Elektronisch geregelte Lötstation
 |doku          = 
 |status        = OK
 }}
 == Sonstiges ==
-=== Frequenzgenerator I ===
+=== Frequenzgenerator ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
 |hersteller    = Eigenbau
@@ -199,7 +226,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |doku          = 
 |status        = Umbau in neues Gehäuse
 }}
-=== Patterngenerator I ===
+=== Patterngenerator ===
 {{RowInfoBox
 |bild          = Pattern generator.jpg
 |hersteller    = Elektronika
