@@ -116,7 +116,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |doku          = 
 |status        = OK
 }}
-=== Oszilloskop Healtkit === 
+=== Oszilloskop Heathkit === 
 {{RowInfoBox
 |bild          = Heathkit oszilloskop.jpg
 |hersteller    = Heathkit
@@ -144,7 +144,16 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |doku          = 
 |status        = OK
 }}
-=== Ersa Lödbad ===
+=== Ersa Mini Lötkolben ===
+{{RowInfoBox
+|bild          = RaumZeitLabor - Logo - Schwarz.svg
+|hersteller    = [http://www.ersa.de Ersa]
+|typ           = 
+|beschreibung  = Nennleistung 6W Versorgungsspannung 230V
+|doku          = 
+|status        = OK
+}}
+=== Ersa Lötbad ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
 |hersteller    = [http://www.ersa.de Ersa]
@@ -153,10 +162,28 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |doku          = 
 |status        = OK
 }}
-=== Lötstation I ===
+=== Ersa Lötstation I ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
-|hersteller    = 
+|hersteller    = [http://www.ersa.de Ersa]
+|typ           = 
+|beschreibung  = 
+|doku          = 
+|status        = OK
+}}
+=== Ersa Lötstation II ===
+{{RowInfoBox
+|bild          = RaumZeitLabor - Logo - Schwarz.svg
+|hersteller    = [http://www.ersa.de Ersa]
+|typ           = 
+|beschreibung  = 
+|doku          = 
+|status        = OK
+}}
+=== Weller Lötstation  ===
+{{RowInfoBox
+|bild          = RaumZeitLabor - Logo - Schwarz.svg
+|hersteller    = [http://www.weller.de/ Weller]
 |typ           = 
 |beschreibung  = 
 |doku          = 
@@ -221,7 +248,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 }}
 === Microscop ===
 {{RowInfoBox
-|bild          = 
+|bild          = RaumZeitLabor - Logo - Schwarz.svg
 |hersteller    = 
 |typ           = 200 fach, USB
 |beschreibung  = 
