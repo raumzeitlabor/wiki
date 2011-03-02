@@ -19,19 +19,36 @@ Hier machen wir erstmal eine Liste auf was das HANAS können sollte, unabhängig
 
 * Leise
 * Stromsparend
+* Intel Atom CPU oder Intel C2D Mobile?
 * USB-Client Mode (OTG, DAS)
 * GBit-LAN (2x?)
 * eSATA
 * iSCSI Target
 * Streaming (DLNA)
 * HDMI
-* Raid 1 oder 5
+* evtl. DVI/VGA
+* Firewire 400/800
+* Raid 1 und 5
+* zwischen 2 und 5 HDDs
 * NFS
 * AFS
 * SMB/CIFS
 * Dateisystem
 ** NTFS
 ** ZFS
+** ext3
+** VFAT
+** HFS+ (lesend)
+
+==Hardware==
+
+
+==Software==
+
+* OS: Debian
+* Streaming: vlc, icecast,
+* FileServer: Samba
+* Frontend:
 
 ==Produkte==
 
