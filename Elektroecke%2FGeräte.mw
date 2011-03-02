@@ -144,21 +144,12 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |doku          = 
 |status        = OK
 }}
-=== Ersa Mini Lötkolben ===
+=== Ersa Lötbad T10S ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
 |hersteller    = [http://www.ersa.de Ersa]
-|typ           = 
-|beschreibung  = Nennleistung 6W Versorgungsspannung 230V
-|doku          = 
-|status        = OK
-}}
-=== Ersa Lötbad ===
-{{RowInfoBox
-|bild          = RaumZeitLabor - Logo - Schwarz.svg
-|hersteller    = [http://www.ersa.de Ersa]
-|typ           = 
-|beschreibung  = 
+|typ           = Lötbad T10S
+|beschreibung  = 230V 130W Temperaturbereich 340°C Lot-Menge 185g
 |doku          = 
 |status        = OK
 }}
@@ -180,7 +171,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |doku          = 
 |status        = OK
 }}
-=== Lötstation ZD-931 ===
+=== Lötstation ZD-931 I ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
 |hersteller    = [www.reichelt.de Reichelt GmbH]
@@ -189,7 +180,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |doku          = 
 |status        = OK
 }}
-=== Lötstation ZD-931 ===
+=== Lötstation ZD-931 II ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
 |hersteller    = [www.reichelt.de Reichelt GmbH]
@@ -198,12 +189,30 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |doku          = 
 |status        = OK
 }}
-=== Lötstation ZD-931 ===
+=== Lötstation ZD-931 III ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
 |hersteller    = [www.reichelt.de Reichelt GmbH]
 |typ           = ZD-931 
 |beschreibung  = Digitale Lötstation
+|doku          = 
+|status        = OK
+}}
+=== Lötstation I ===
+{{RowInfoBox
+|bild          = RaumZeitLabor - Logo - Schwarz.svg
+|hersteller    = Conrad
+|typ           =  
+|beschreibung  = 
+|doku          = 
+|status        = OK
+}}
+=== Weller Mini 2000 Lötkolben ===
+{{RowInfoBox
+|bild          = RaumZeitLabor - Logo - Schwarz.svg
+|hersteller    = [http://www.weller.de/ Weller]
+|typ           = Mini 2000 WM 15 L
+|beschreibung  = Nennleistung 15W Versorgungsspannung 230V
 |doku          = 
 |status        = OK
 }}
@@ -216,6 +225,16 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |doku          = 
 |status        = OK
 }}
+=== Hammer Lötkoben  ===
+{{RowInfoBox
+|bild          = RaumZeitLabor - Logo - Schwarz.svg
+|hersteller    = 
+|typ           =  
+|beschreibung  = 230V
+|doku          = 
+|status        = OK
+}}
+
 == Sonstiges ==
 === Frequenzgenerator ===
 {{RowInfoBox
