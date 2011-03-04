@@ -79,6 +79,13 @@ Und hier das derzeitige Layout V2.0
 | [[Datei:Moodlamp2.0 RZL back.png|400px|thumb|Moodlamp V2.0 unten]]
 |}
 
+'''WICHTIG: Der Plan ist noch nicht final. Work in progress, please wait...'''
+
+TODO:
+* Schaltplan
+* Neue IR-LEDs berücksichtigen
+* Vorwiderstände für die Transistoren
+* Pullup für Reset-Pin
 
 ==Firmware==
 ===Fuses===
