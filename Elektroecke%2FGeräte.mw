@@ -46,12 +46,13 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 === Peaktech 6000A ===
 {{RowInfoBox
 |bild          = Peaktech regelbare spannungsquelle.jpg
-|hersteller    = Peaktech
+|hersteller    = [http://www.peaktech.de/ Peaktech]
 |typ           = 6000A
 |beschreibung  = Regelbarespannungsquelle
 |doku          = 
 |status        = Defekt
 }}
+
 === Festspannungsnetzteil I ===
 {{RowInfoBox
 |bild          = Netzteil 2.jpg
