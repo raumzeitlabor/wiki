@@ -58,10 +58,11 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |bild          = Netzteil 2.jpg
 |hersteller    = Eigenbau
 |typ           = 
-|beschreibung  = 2 * 5V (nicht brückbar)<br> 2 * 15V (brückbar)
+|beschreibung  = 2 * 5V (nicht brückbar) 3A <br> 2 * 15V (brückbar) 750mA
 |doku          = 
 |status        = OK
 }}
+
 === Regelbaresnetzteil I ===
 {{RowInfoBox
 |bild          = Regelbare spannungsquelle-von-nessi.jpg
