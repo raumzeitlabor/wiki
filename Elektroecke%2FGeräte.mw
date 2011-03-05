@@ -211,15 +211,16 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |status        = OK
 }}
 
-=== Weller Mini 2000 Lötkolben ===
+=== Weller Lötkolben WM12 ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
 |hersteller    = [http://www.weller.de/ Weller]
-|typ           = Mini 2000 WM 15 L
+|typ           = WM12
 |beschreibung  = Nennleistung 15W Versorgungsspannung 230V
 |doku          = 
 |status        = OK
 }}
+
 === Weller Lötstation  ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
