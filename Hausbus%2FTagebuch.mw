@@ -61,6 +61,8 @@ Laufzeiten des Busmasters:
 * Temperatursensor-Platine weiterentwickelt
 
 = Freitag (2011-03-04) =
+* kleine Änderungen an der alten Busmaster-Firmware, keine Besserung erzielt
+* nema10 + resetcard als Busmaster deployed
 
-Laufzeiten:
+Laufzeiten alter Busmaster (Etherrape):
 * 2011-03-04 20:45:00 bis 2011-03-05 02:00:00
