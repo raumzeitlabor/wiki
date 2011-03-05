@@ -72,6 +72,7 @@ Laufzeiten neuer Busmaster (Resetcard + serial2ethernet):
 
 = Dienstag (2011-03-08) =
 Plan:
+* FritzBox an Port 3 klemmen an der Firebox, Switch wieder abschalten bei geschlossenem Raum
 * Benutzer-eigene Pins in Testbetrieb nehmen, sofern der Busmaster bis dahin stabil läuft
 * Temperatursensor-Platine an den Hausbus anschließen
 * Pinpadv2-Frontend weitermachen
