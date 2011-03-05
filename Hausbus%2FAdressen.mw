@@ -8,7 +8,9 @@ Jeder Mikrokontroller hat eine Adresse zwischen 1 und 29 (einschließlich), mit 
 |-----
 | 01 || Pinpad-Controller (innen)
 |-----
-| 02 || ''frei''
+| 02 || Temperatur-Sensor
+|-----
+| 03 || ''frei''
 |-----
 | … || …
 |-----
@@ -24,7 +26,9 @@ Jeder Mikrokontroller kann Nachrichten an die Außenwelt schicken (egal ob von s
 |-----
 | 50 || Nachrichten des Pinpad-Controllers (Türstatus, Pinpad-Eingaben)
 |-----
-| 51 || ''frei''
+| 51 || Temperatur-Sensoren
+|-----
+| 52 || ''frei''
 |-----
 | … || …
 |-----
