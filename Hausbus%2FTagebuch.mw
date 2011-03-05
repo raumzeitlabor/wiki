@@ -67,6 +67,9 @@ Laufzeiten des Busmasters:
 Laufzeiten alter Busmaster (Etherrape):
 * 2011-03-04 20:45:00 bis 2011-03-05 02:00:00
 
+Laufzeiten neuer Busmaster (Resetcard + serial2ethernet):
+* 2011-03-05 06:17:00 bis …
+
 = Dienstag (2011-03-08) =
 Plan:
 * Benutzer-eigene Pins in Testbetrieb nehmen, sofern der Busmaster bis dahin stabil läuft
