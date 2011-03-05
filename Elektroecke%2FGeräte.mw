@@ -136,15 +136,16 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |status        = OK
 }}
 == Löttechnik ==
-=== Ersa Lötnadel ===
+=== Ersa Minor ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
 |hersteller    = [http://www.ersa.de Ersa]
-|typ           = 
+|typ           = Lötnadel Ersa-Minor
 |beschreibung  = Nennleistung 5W Versorgungsspannung 6 V
 |doku          = 
 |status        = OK
 }}
+
 === Ersa Lötbad T10S ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
