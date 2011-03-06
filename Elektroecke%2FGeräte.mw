@@ -22,7 +22,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.voltcraft.de Voltcraft]
 |typ           = Digi35
 |beschreibung  = 
-|doku          = Schaltplan, Papier im Geräteordner
+|doku          = Schaltplan als Papierausgabe im Geräteordner 
 |status        = OK
 }}
 === Voltcraft Digi 35 (2 von 3) ===
@@ -31,7 +31,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.voltcraft.de Voltcraft]
 |typ           = Digi35
 |beschreibung  = 
-|doku          = Schaltplan, Papier im Geräteordner
+|doku          = Schaltplan als Papierausgabe im Geräteordner 
 |status        = OK
 }}
 === Voltcraft Digi 35 (3 von 3) ===
@@ -40,7 +40,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.voltcraft.de Voltcraft]
 |typ           = Digi35
 |beschreibung  = 
-|doku          = Schaltplan, Papier im Geräteordner
+|doku          = Schaltplan als Papierausgabe im Geräteordner 
 |status        = Defekt
 }}
 === Peaktech 6000A ===
@@ -97,7 +97,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.hameg.de Hameg]
 |typ           = HM 203-6
 |beschreibung  = 
-|doku          = 
+|doku          = Doku als Papierausgabe im Geräteordner 
 |status        = OK
 }}
 === Oszilloskop Hameg HM 705 ===
@@ -106,7 +106,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.hameg.de Hameg]
 |typ           = HM 705
 |beschreibung  = 
-|doku          = Originaldoku in Nessis-Kiste
+|doku          = Originaldoku in Nessis-Kiste & Doku als Papierausgabe im Geräteordner 
 |status        = OK
 }}
 === Oszilloskop Gould OS300 === 
@@ -115,7 +115,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = Gould
 |typ           = OS300
 |beschreibung  = 
-|doku          = 
+|doku          = Doku als Papierausgabe im Geräteordner 
 |status        = OK
 }}
 === Oszilloskop Heathkit === 
@@ -182,7 +182,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.reichelt.de Reichelt GmbH]
 |typ           = ZD-931 
 |beschreibung  = Digitale Lötstation
-|doku          = 
+|doku          = Doku als Papierausgabe im Geräteordner 
 |status        = OK
 }}
 === Lötstation ZD-931 II ===
@@ -191,7 +191,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.reichelt.de Reichelt GmbH]
 |typ           = ZD-931 
 |beschreibung  = Digitale Lötstation
-|doku          = 
+|doku          = Doku als Papierausgabe im Geräteordner 
 |status        = OK
 }}
 === Lötstation ZD-931 III ===
@@ -200,7 +200,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = [http://www.reichelt.de Reichelt GmbH]
 |typ           = ZD-931 
 |beschreibung  = Digitale Lötstation
-|doku          = 
+|doku          = Doku als Papierausgabe im Geräteordner 
 |status        = OK
 }}
 === Lötstation LS-Digi 60 ===
@@ -289,7 +289,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |hersteller    = 
 |typ           = 
 |beschreibung  = PC mit Brother Laserdrucker
-|doku          = 
+|doku          = Doku als Papierausgabe im Geräteordner 
 |status        = OK
 }}
 === Absaugung ===
