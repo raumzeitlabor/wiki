@@ -1,20 +1,3 @@
-{{ProjektInfoBox
-|name        = Elektroecke
-|status      = beta
-|image       = Oscilloscope.svg
-|description = 
-|author      = [[Benutzer:nessi|nessi]]
-|username    = 
-|version     = 
-|update      = 
-|platform    = 
-|license     = 
-|download    = 
-}}
-Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werden.
-[[Image:IMG 0894 scale.JPG|thumb|400px|right]]
-
-
 == Labornetzgeräte ==
 === Voltcraft Digi 35 (1 von 3) ===
 {{RowInfoBox
@@ -280,9 +263,6 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |doku          = Doku als Papierausgabe im Geräteordner
 |status        = ToDo: Messgewichte besorgen und einbauen. Eichen. Aufbauen & Inbetriebnahme
 }}
-
-=== Messleitungen und Zubehör ===
-[[Elektroecke/Zubehoer|Messleitungen und Zubehör]]
 === PC mir Laserdrucker ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
@@ -318,6 +298,7 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 * nessi
 * TabascoEye
 ==Siehe auch==
+*[[Elektroecke/Zubehoer|Messleitungen und Zubehör]]
 *[[Bauteildatenbank]]
 
 [[Kategorie:Projekt]]
