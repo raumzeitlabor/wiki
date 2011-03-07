@@ -11,10 +11,15 @@
 |license     = 
 |download    = 
 }}
-Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werden.
-[[Image:IMG 0894 scale.JPG|thumb|400px|right]]
-
-
-
-
-[[Elektroecke/Geräte]]
+Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werden. <br>
+[[Image:IMG 0894 scale.JPG|thumb|300px|left]]
+{| style="width:100%"
+|[[image:Oscilloscope.svg|thumb|200px|center|link=Elektroecke/Geräte]]
+|[[image:Schublade.JPG|thumb|200px|center|link=Elektroecke/Geräte/Zubehoer]]
+|[[image:Partdb2.jpg|thumb|200px|center|link=Bauteildatenbank ]]
+|-
+|style="text-align:center" | [[Elektroecke/Geräte | Geräte]]
+|style="text-align:center" | [[Elektroecke/Geräte/Zubehoer | Messzubehör]]
+|style="text-align:center" | [[Bauteildatenbank | Bauteile]]
+|}
+[[Kategorie:Projekt]]
