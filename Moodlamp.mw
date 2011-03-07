@@ -86,6 +86,7 @@ TODO:
 * Neue IR-LEDs berücksichtigen
 * Vorwiderstände für die Transistoren
 * Pullup für Reset-Pin
+* RFM12 (Andere Bauform)
 
 ==Firmware==
 ===Fuses===
@@ -109,10 +110,12 @@ Einfaches Farb-Fading sowie Steuerung per IR-Fernbdienung (Farbauswahl, zurück 
 
 ==Planung==
 ===Kurzfristig===
-* <del>Andere IR-Routinen ( http://www.mikrocontroller.net/articles/IRMP )</del>
-* Stabilität
-** Könnte ein Hardwareproblem sein (fehlender Pull-Up-Widerstand am RESET-Pin)
-* Design von HW v2.0
+* IR-Fernbedienungen
+** Neue China-Fernbedienung
+** RC5 (wie bei v1.0)
+* Mehrere Fading-Modi
+* Makefile-Anpassung
+* Neuen Code mit IR auf 4k schrumpfen, wenn möglich (Support für alte Moodlamp)
 
 ===Mittel-/Langfristig===
 * Steuerung über RFM12-Chip --> Chip schon vorhanden, muss nur angesprochen werden!
