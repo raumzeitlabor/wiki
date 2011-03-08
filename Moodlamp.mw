@@ -95,7 +95,7 @@ TODO:
 * Auf dem USBasp vor dem Setzen der Fuses den "Slow SCK"-Jumper (J3, der zwischen den beiden LEDs) setzen. Die anderen Jumper dürfen nicht gesetzt sein!
 
 ===Source===
-Einfaches Farb-Fading sowie Steuerung per IR-Fernbdienung (Farbauswahl, zurück zum Fading-Modus). Passt gerade noch auf den Atmega48.
+Angepasst auf Moodlamp v2.0 mit neuer Fernbedienung. Fernbedienungsfunktionen abgedeckt, die Helligkeits-Buttons regeln die Geschwindigkeit der Modi "FADE" und "SMOOTH".
 [http://github.com/tiefpunkt/Moodlamp http://github.com/tiefpunkt/Moodlamp]
 
 ==Fotos==
@@ -111,9 +111,9 @@ Einfaches Farb-Fading sowie Steuerung per IR-Fernbdienung (Farbauswahl, zurück 
 ==Planung==
 ===Kurzfristig===
 * IR-Fernbedienungen
-** Neue China-Fernbedienung
+** <del>Neue China-Fernbedienung</del> - '''DONE'''
 ** RC5 (wie bei v1.0)
-* Mehrere Fading-Modi
+* <del>Mehrere Fading-Modi</del> - '''DONE'''
 * Makefile-Anpassung
 * Neuen Code mit IR auf 4k schrumpfen, wenn möglich (Support für alte Moodlamp)
 
