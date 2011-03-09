@@ -16,6 +16,29 @@ Beim eh2010 in München gab es schon nette Moodlamps, die aber SMD Bauteile bein
 Wir wollten eine Moodlamp mit bedrahteten Bauteilen fertigen.
 Die Erlanger haben sich das auch schon gedacht und sind damit soweit fertig, weshalb wir uns dieses Design klauen (danke Erlangen).
 
+==Bausätze==
+Aktuell kann man MoodLamp Bausätze in zwei verschiedenen Ausführungen hier im RaumZeitLabor günstig erstehen.
+
+===MoodLamp V2 economy===
+BYOCAR - Bring your own case and remote
+====Inhalt====
+* 3 Watt RGB LED
+* ATmega328p
+* IR Empfänger
+* Netzteil
+* alle weiteren Bauteile
+====Preis====
+Mindestens 25 EUR
+
+===MoodLamp V2 premium===
+Beinhaltet eine der unterstützen Fernbedienungen sowie ein ultimativ geniales Lampengehäuse als Diffusor
+====Inhalt====
+Ergänzend zum Inhalt der MoodLamp V2 Economy:
+* IKEA FADO Glaslamp
+* IR-Fernbedienung, die speziell für RGB-LEDs gedacht ist
+====Preis====
+Mindestens 40 EUR
+
 ==Hardware==
 ===Version 1===
 * Genau nach Vorlage der Erlanger Moodlamp
@@ -100,7 +123,7 @@ Angepasst auf Moodlamp v2.0 mit neuer Fernbedienung. Fernbedienungsfunktionen ab
 
 ==Fotos==
 {|
-| [[Datei:2010-10-14 00.52.10.jpg|400px|thumb|Aufgebaute Moodlamp von tiefpunkt]]
+| [[Datei:2010-10-14 00.52.10.jpg|400px|thumb|Aufgebaute Moodlamp v1.5 von tiefpunkt]]
 | [[Datei:Moodlamp01.jpg|277px|thumb|Moodlamp in Betrieb, mit passender Fernbedienung]]
 |}
 
@@ -112,7 +135,7 @@ Angepasst auf Moodlamp v2.0 mit neuer Fernbedienung. Fernbedienungsfunktionen ab
 ===Kurzfristig===
 * IR-Fernbedienungen
 ** <del>Neue China-Fernbedienung</del> - '''DONE'''
-** RC5 (wie bei v1.0)
+** <del>RC5 (wie bei v1.0)</del> - '''DONE'''
 * <del>Mehrere Fading-Modi</del> - '''DONE'''
 * Makefile-Anpassung
 * Neuen Code mit IR auf 4k schrumpfen, wenn möglich (Support für alte Moodlamp)
