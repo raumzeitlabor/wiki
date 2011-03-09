@@ -71,8 +71,8 @@ Laufzeiten neuer Busmaster (Resetcard + serial2ethernet):
 * 2011-03-05 06:17:00 bis …
 
 = Dienstag (2011-03-08) =
-* Benutzer-eigene Pins in Testbetrieb nehmen, sofern der Busmaster bis dahin stabil läuft
-* Türstatus-API auf push umstellen statt poll
+* Benutzer-eigene Pins in Testbetrieb genommen, Busmaster scheint stabil
+* Türstatus-API auf push umgestellt statt poll
 
 = Dienstag (2011-03-15) =
 Plan:
