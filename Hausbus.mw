@@ -19,7 +19,7 @@ Der Hausbus ist ein Bussystem (auf RS485 basierend), mit welchem wir verschieden
 Diese Seite dient als Portalseite zur vollständigen Dokumentation.
 
 == Status ==
-Nach korrekter Termination mit Widerständen zwischen A/B/VCC/GND scheint bisher auf RS485-Ebene alles zu funktionieren. Wir haben allerdings andauernd Probleme mit dem Busmaster.
+Derzeit läuft der Busmaster anscheinend stabil (seit 5 Tagen keine Probleme)
 
 == Dokumentation ==
 * [[Hausbus/ATmega168]]: Referenz-Aufbau (Bauteilliste, Schaltplan, Layout, etc.)
