@@ -145,6 +145,7 @@ Angepasst auf Moodlamp v2.0 mit neuer Fernbedienung. Fernbedienungsfunktionen ab
 * Steuerung über Audiosignal
 * DMX? Hausbus?
 * USB, Zusammenführung mit [[Rfm12usb]]
-
+* Schaltplan für die Moodlamp v2
+* Lochraster-Layout für die Moodlamp v2 überarbeiten (evtl. mit Pinheadern für RS232 Debugging und Herausführung aller nicht verwendeten Atmel-Pins?)
 
 [[Kategorie:Projekt]][[Kategorie: KleinProzessorZüchter]]
