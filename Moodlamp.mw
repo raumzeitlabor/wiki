@@ -96,19 +96,13 @@ Hier das neue Kompaktlayout (Danke Tiefpunkt fürs Routen und DaFo für Lochmast
 
 
 ===Version 2.0===
-Und hier das derzeitige Layout V2.0
+Und hier das derzeitige Layout V2.0 mit passenden Aussparungen, damit es in die FADO Fassung passt
 {|
-| [[Datei:Moodlamp2.0 RZL.png|400px|thumb|Moodlamp V2.0 oben]]
-| [[Datei:Moodlamp2.0 RZL back.png|400px|thumb|Moodlamp V2.0 unten]]
+| [[Datei:Moodlamp2.0 RZL FADO.png|400px|thumb|Moodlamp V2.0 FADO oben]]
+| [[Datei:Moodlamp2.0 RZL FADO back.png|400px|thumb|Moodlamp V2.0 FADO unten]]
 |}
 
-'''WICHTIG: Der Plan ist noch nicht final. Work in progress, please wait...'''
-
 TODO:
-* Schaltplan
-* Neue IR-LEDs berücksichtigen
-* Vorwiderstände für die Transistoren
-* Pullup für Reset-Pin
 * RFM12 (Andere Bauform)
 
 ==Firmware==
