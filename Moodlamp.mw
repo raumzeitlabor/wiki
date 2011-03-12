@@ -102,6 +102,40 @@ Und hier das derzeitige Layout V2.0 mit passenden Aussparungen, damit es in die 
 | [[Datei:Moodlamp2.0 RZL FADO back.png|400px|thumb|Moodlamp V2.0 FADO unten]]
 |}
 
+Hinweise zu obigem Layout:
+* Die Betriebsanzeige-LED ist nicht verbaut
+* Die IR-LED muß um 180° gedreht verbaut werden.
+* Im Bausatz sind die Vorwiderstände für die Transistoren nicht enthalten. Werte sind 3x 1kOhm
+
+Bauteilliste:
+{| class="wikitable"
+|-
+! Anzahl !! Bauteil !! Anmerkungen
+|-
+| 1 || Lochrasterplatine 50x50mm ||
+|-
+| 1 || Schottky Diode, DO201, 40V, 5A || D1
+|-
+| 1 || Elko 1000uF || C8
+|-
+| 2 || Kerko 22pF || C10, C11
+|-
+| 1 || Kondensator ?? || C5, C7
+|-
+| 3 || 1 kOhm || R1, R2, R3
+|-
+| 1 || 10 kOhm || Runsichtbar
+|-
+| 1 || Quartz 20MHz || Q1
+|-
+| 1 || IR LED || D2, Achtung: Muß Spiegelverkehrt verbaut werden *seufz*
+|-
+| 1 || Metallwiderstand 6,8 Ohm || 6R8
+|-
+| 2 || Metallwiderstand 3,9 Ohm || 3R9
+|-
+| 3 || Transistor BD139 || BD139
+|}
 TODO:
 * RFM12 (Andere Bauform)
 
