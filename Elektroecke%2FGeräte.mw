@@ -119,6 +119,15 @@
 |doku          = [[Media:Kapazitaetsmessgeraet_hp-36d.pdf|Bedienungsanleitung]]
 |status        = OK
 }}
+=== Digitales Speicher-Oszilloskop [[Rigol DS1052E]] ===
+{{RowInfoBox
+|bild          = DS1052E.jpg
+|hersteller    = [http://www.rigolna.com/ Rigol]
+|typ           = DS1052E
+|beschreibung  = DSO, 2 channel, 50 MHz, 1 GSa/s
+|doku          = 
+|status        = OK, Nutzung nur nach Rücksprache!
+}}
 == Löttechnik ==
 === Ersa Minor ===
 {{RowInfoBox
