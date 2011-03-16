@@ -46,6 +46,15 @@ Report generation and template management.
 *anonymous user
 *authenticated user
 *contributor
+*Mitglied
+*Redakteur
+*Öffentlichkeitsarbeit
+
+==Bugs==
+;iCal-Feed hat keine timezone-Infos
+:http://forum.civicrm.org/index.php?topic=9061.0
+
+;iCal-Feed hat Probleme mit Umlauten
 
 ==Links==
 * [http://raumzeitlabor.de/civicrm/event/ical?reset=1&page=1&html=1 HTML Liste aktueller und zukünftiger ''öffentlicher'' Veranstaltungen]
