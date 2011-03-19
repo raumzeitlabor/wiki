@@ -162,19 +162,17 @@ Angepasst auf Moodlamp v2.0 mit neuer Fernbedienung. Fernbedienungsfunktionen ab
 
 ==Planung==
 ===Kurzfristig===
-* IR-Fernbedienungen
-** <del>Neue China-Fernbedienung</del> - '''DONE'''
-** <del>RC5 (wie bei v1.0)</del> - '''DONE'''
-* <del>Mehrere Fading-Modi</del> - '''DONE'''
 * Makefile-Anpassung
 * Neuen Code mit IR auf 4k schrumpfen, wenn möglich (Support für alte Moodlamp)
+* Steuerung über Audiosignal
 
 ===Mittel-/Langfristig===
-* Steuerung über RFM12-Chip --> Chip schon vorhanden, muss nur angesprochen werden!
-* Steuerung über Audiosignal
+* Steuerung über RFM12-Chip <del>--> Chip schon vorhanden, muss nur angesprochen werden!</del>
+** Ankunft der Chips verzögert sich noch ein bisschen --[[Benutzer:Tiefpunkt|Tiefpunkt]] 10:33, 19. Mär. 2011 (CET)
 * DMX? Hausbus?
 * USB, Zusammenführung mit [[Rfm12usb]]
 * Schaltplan für die Moodlamp v2
 * Lochraster-Layout für die Moodlamp v2 überarbeiten (evtl. mit Pinheadern für RS232 Debugging und Herausführung aller nicht verwendeten Atmel-Pins?)
+** Vllt lieber als seperates "Development-Board" ? --[[Benutzer:Tiefpunkt|Tiefpunkt]] 10:33, 19. Mär. 2011 (CET)
 
 [[Kategorie:Projekt]][[Kategorie: KleinProzessorZüchter]]
