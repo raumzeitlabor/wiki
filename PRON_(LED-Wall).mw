@@ -28,9 +28,10 @@ Namen sind eh nur Schall und Rauch, darum konnten wir uns nicht so ganz entschei
 * $your_imagination
 
 ==Unser Plan==
-* Größe: 280cm x 140cm (passt in den Freiraum überm Lager)
-* Anzahl LEDs: 80 x 40 -> 3200 LEDs
-* Unterteilung in 5 Module mit 16 x 40 LEDs
+* Größe: 128cm x 256cm (passt in den Freiraum überm Lager)
+* 8 Module jeweils 64 x 64 cm mit jeweils 32 x 32 LEDs (1024)
+* Abstand der LEDs (Mitte-Mitte / horizontal & vertikal) 2 cm
+* Anzahl LEDs: 32 x 32 x 8 -> 8192 LEDs
 ** Je Modul ein Controller (AVR)
 ** Zentraler Controller
 * LED-Farbe: Rot
