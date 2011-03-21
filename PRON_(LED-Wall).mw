@@ -34,6 +34,7 @@ Namen sind eh nur Schall und Rauch, darum konnten wir uns nicht so ganz entschei
 ** Je Modul ein Controller (AVR)
 ** Zentraler Controller
 * LED-Farbe: Rot
+* DMX zum Ansteuern
 
 ==Inspirationen==
 * http://www.kitesurfer1404.de/tech/matrix
