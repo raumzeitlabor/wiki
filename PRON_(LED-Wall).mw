@@ -36,6 +36,16 @@ Namen sind eh nur Schall und Rauch, darum konnten wir uns nicht so ganz entschei
 * LED-Farbe: Rot
 * DMX zum Ansteuern
 
+für später:
+* verschiedene Spiele
+* Controller
+** RFM12 in NES Controllergehäuse
+** alternativ: Bluetooth + Wiimote
+** alternativ: Bluetooth + Handy
+** alternativ: Kabelcontroller mit eigenem Prozessor
+* je nach Spiel hochkant/quer (z.B: Tetris, Pong)
+* Uhrzeit
+
 ==Inspirationen==
 * http://www.kitesurfer1404.de/tech/matrix
 * http://bertjwregeer.com/Project/LEDWall.html
