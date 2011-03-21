@@ -47,6 +47,21 @@ für später:
 * je nach Spiel hochkant/quer (z.B: Tetris, Pong, Crysis)
 * Uhrzeit
 
+==Technical==
+===Ansteuerung===
+* DMX
+** 512 Kanäle mit je 8bit pro Universe -> 2 Universes für gesamte Wall
+** Module einfach umstrukturierbar
+** Implementierung "einfach"
+* USB-to-DMX-Interface für PC-Steuerung
+
+===Modul===
+* Je Modul ein ATmegaXX
+** Auslesen des DMX-Signals
+** Ausgabe auf LEDs
+* Stromversorgung?
+** Stepdownregeler pro x Zeilen? -> [http://www.mikrocontroller.net/articles/MC34063 MC34063]
+
 ==Inspirationen==
 * http://www.kitesurfer1404.de/tech/matrix
 * http://bertjwregeer.com/Project/LEDWall.html
