@@ -13,8 +13,17 @@
 |download    = 
 }}
 Der Eggbot ist eine kleine Maschine, welche Eier bemalt.
-==Todo==
-#Dokumentation
-#Bilder hochladen
+
+==Dokumentation==
+
+Unipolare Schrittmotoren aus einem Drucker treiben über 1:16-Zahnradgetriebe das Ei und den Schwenkarm für den Stift an. Die Motoren haben 48 Vollschritte pro Umdrehung, die [http://www.pololu.com/catalog/product/1201 Pololu A4983 Schrittmotortreiber] unterstützen 1/16 Mikroschrittbetrieb, dadurch ergeben sich 12288 Mikroschritte pro Umdrehung, der maximale Verfahrweg des Schwenkarms beträgt 3000 Schritte.
+
+Der Eggbot und die Steuerungsplatine liegen in Alexanders Kiste, können aber ohne ihn im Moment nicht betrieben werden.
+
+Figuren werden als Schritt-Folgen programmiert, "r", "l", "u", "d" stehen für "right", "left", "up", "down", wobei "r" und "l" das Ei drehen. Die Sequenz für ein Quadrat mit Seitenlänge 4 sähe z.B. so aus: rrrruuuulllldddd.
+
+==Bilder==
+
+[[Bild:Eggbot1.jpg|miniatur|hochkant=2]]
 
 [[Kategorie:Projekt]]
