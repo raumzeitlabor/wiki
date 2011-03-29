@@ -65,7 +65,7 @@ Wir nehmen als AS64636 teil mit 6 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.2 || wrtf || Linksys WRT54G sECuRE („RZL-softcore”)
 |-----
-| 172.22.36.3 || printer0 || Laserdrucker (Samsung SCX-5530FN) [http://www.samsung.de/de/Geschaeftskunden/BusinessBuero/BusinessPrinter/SWLaserMFP/SCX-5530FN/SCX-5530FNXEG/detail.aspx?atab=support&aguid=7d682121-bdca-4377-9d86-c549053fc961&dl=driver Samsung Support -> Treiber] 
+| 172.22.36.3 || printer0 || Laserdrucker (Samsung SCX-5530FN) 
 |-----
 | 172.22.36.4 || fritzbox || Fritzbox 7170 Scytale („RZL-hardcore”)
 |-----
@@ -169,15 +169,16 @@ Wir nehmen als AS64636 teil mit 6 verschiedenen Peerings (zu jchome, ichdasich, 
 |}
 
 === Samsung Laserdrucker ===
- IP: 172.22.36.3
- 
- Ansprechbar unter URL ipp://172.22.36.3:631
+'''IP: 172.22.36.3'''
+:Ansprechbar unter URL ipp://172.22.36.3:631
 
-Installation unter Debian:
+;Installation unter Debian:
  echo "deb http://www-personal.umich.edu/~tjwatt/suldr debian extra" >> /etc/apt/sources.list
  apt-get update
  apt-get install samsungmfp-data samsungmfp-driver
 
+;Sonstige Treiber
+:[http://www.samsung.de/de/Geschaeftskunden/BusinessBuero/BusinessPrinter/SWLaserMFP/SCX-5530FN/SCX-5530FNXEG/detail.aspx?atab=support&aguid=7d682121-bdca-4377-9d86-c549053fc961&dl=driver Samsung Support -> Treiber]
 === kartoffelsalat ===
  IP: 172.22.36.112
  System: Debian
