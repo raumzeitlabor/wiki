@@ -74,6 +74,15 @@
 |doku          = Beschreibung & Bedienungsanleitung & Schaltplan als Papierausgabe im Geräteordner
 |status        = OK
 }}
+=== Voltmeter MV40 ===
+{{RowInfoBox
+|bild          = MV40.JPG
+|hersteller    = VEB
+|typ           = MV40
+|beschreibung  = DC Strom- Spannungsmessgerät & Widerstandmessgerät <br> Messumfang 5 * 10^7 bis 10^14 Ohm, 1pA bis 300µA, 10µV bis 300V 
+|doku          = Beschreibung & Bedienungsanleitung & Schaltplan als Papierausgabe im Geräteordner
+|status        = OK
+}}
 === Oszilloskop Hameg HM 203-6 ===
 {{RowInfoBox
 |bild          = Hameg hm203-6 oszi.jpg
@@ -128,6 +137,7 @@
 |doku          = 
 |status        = OK, Nutzung nur nach Rücksprache!
 }}
+
 == Löttechnik ==
 === Ersa Minor ===
 {{RowInfoBox
