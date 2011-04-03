@@ -27,8 +27,6 @@ Die Firmware für den KeyDial ist in C geschrieben, und benutzt die V-USB-Librar
 Der KeyDial-Prototype funktioniert, und sendet Tastendrücke an den USB-Host. Allerdings nur recht langsam.
 
 === ToDo ===
-* Schaltung und Fotos
-* Sourcecode auf GitHub
 * Optimierung des Codes, um mehr Tastendrücke senden zu können
 * LCD-Display
 
