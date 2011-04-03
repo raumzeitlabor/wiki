@@ -102,6 +102,7 @@ Und hier das derzeitige Layout V2.0 mit passenden Aussparungen, damit es in die 
 |}
 
 Hinweise zu obigem Layout:
+* '''Der äußere Pin des ISP Steckers muss nicht wie im Layout an den untersten Pin des Atmels gebrückt werden, sondern 2 Pins höher zu den andern ISP Stecker Pins'''
 * Die Betriebsanzeige-LED ist nicht verbaut
 * Die IR-LED muß um 180° gedreht verbaut werden.
 * Im Bausatz sind die Vorwiderstände für die Transistoren nicht enthalten. Werte sind 3x 1kOhm
