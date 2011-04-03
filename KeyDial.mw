@@ -1,0 +1,35 @@
+{{ProjektInfoBox
+|name        = KeyDial
+|status      = experimental
+|image       = 
+|description = Drehencoder als USB-Eingabegerät
+|author      = tiefpunkt
+|username    = tiefpunkt
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+Der KeyDial ist ein USB-Gerät, dass sich als Tastatur ausgibt. Allerdings besitzt es keine Tasten, sonder einen oder zwei Drehencoder (Endlos-Drehregler). Werden diese gedreht, sendet der KeyDial vorher festgelegte Tastendrücke an den USB-Host.
+
+== Hardware ==
+Zur Zeit existiert der KeyDial als Prototype auf einem einem Laborboard. Angeschlossen sind ein Drehencoder (Pollin, Best.-Nr. 240 383), sowie ein USB-B-Port. Schaltung folgt.
+
+Geplant ist ein zweiter Drehencoder sowie ein LCD-Display, über das sich verschiedene Tastenkombinationen für die jeweiligen Encoder auswählen lassen.
+
+== Software ==
+Die Firmware für den KeyDial ist in C geschrieben, und benutzt die V-USB-Library, um auf dem AVR den USB-Anschluss zu implementieren.
+
+Da das Gerät als HID-Gerät erkannt wird, brauch man auf Rechner-Seite keine weitere Software.
+
+== Status ==
+Der KeyDial-Prototype funktioniert, und sendet Tastendrücke an den USB-Host. Allerdings nur recht langsam.
+
+=== ToDo ===
+* Schaltung und Fotos
+* Sourcecode auf GitHub
+* Optimierung des Codes, um mehr Tastendrücke senden zu können
+* LCD-Display
+
+[[Kategorie:Projekt]][[Kategorie: KleinProzessorZüchter]]
