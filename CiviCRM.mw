@@ -56,6 +56,9 @@ Report generation and template management.
 
 ;iCal-Feed hat Probleme mit Umlauten
 
+;ß im Eventtitel verursacht Parserfehler
+:http://issues.civicrm.org/jira/browse/CRM-3205
+
 ==Links==
 * [http://raumzeitlabor.de/civicrm/event/ical?reset=1&page=1&html=1 HTML Liste aktueller und zukünftiger ''öffentlicher'' Veranstaltungen]
 * [http://raumzeitlabor.de/civicrm/event/ical?reset=1&page=1&rss=1 RSS-Feed aktueller und zukünftiger ''öffentlicher'' Veranstaltungen]
