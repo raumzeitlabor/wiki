@@ -171,7 +171,6 @@ Angepasst auf Moodlamp v2.0 mit neuer Fernbedienung. Fernbedienungsfunktionen ab
 ** Ankunft der Chips verzögert sich noch ein bisschen --[[Benutzer:Tiefpunkt|Tiefpunkt]] 10:33, 19. Mär. 2011 (CET)
 * DMX? Hausbus?
 * USB, Zusammenführung mit [[Rfm12usb]]
-* Schaltplan für die Moodlamp v2
 * Lochraster-Layout für die Moodlamp v2 überarbeiten (evtl. mit Pinheadern für RS232 Debugging und Herausführung aller nicht verwendeten Atmel-Pins?)
 ** Vllt lieber als seperates "Development-Board" ? --[[Benutzer:Tiefpunkt|Tiefpunkt]] 10:33, 19. Mär. 2011 (CET)
 
