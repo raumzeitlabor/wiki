@@ -55,6 +55,7 @@ Report generation and template management.
 :http://forum.civicrm.org/index.php?topic=9061.0
 
 ;iCal-Feed hat Probleme mit Umlauten
+:Gefixed, bugreport mit patch auf http://issues.civicrm.org/jira/browse/CRM-7888
 
 ;ß im Eventtitel verursacht Parserfehler
 :http://issues.civicrm.org/jira/browse/CRM-3205
