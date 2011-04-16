@@ -46,6 +46,7 @@ für später:
 ** alternativ: Kabelcontroller mit eigenem Prozessor
 * je nach Spiel hochkant/quer (z.B: Tetris, Pong, Crysis)
 * Uhrzeit
+* Blinkenlights-Protokoll? (Wiederverwendung von Animationen)
 
 ==Technical==
 ===Ansteuerung===
