@@ -3,7 +3,7 @@
 |status      = experimental
 |image       = 
 |description = Fette LED-Action
-|author      = tiefpunkt, Unicorn
+|author      = bluegene, tiefpunkt, toxios, Unicorn
 |username    = 
 |version     = 0.1
 |update      = 
@@ -60,8 +60,6 @@ für später:
 * Je Modul ein ATmegaXX
 ** Auslesen des DMX-Signals
 ** Ausgabe auf LEDs
-* Stromversorgung?
-** Stepdownregeler pro x Zeilen? -> [http://www.mikrocontroller.net/articles/MC34063 MC34063]
 
 === Bauteile ===
 * [[Media:Diodenkennlinie_LED_rot_Ali.pdf | Diodenkennlinie LED rot Ali]]
