@@ -63,6 +63,9 @@ für später:
 * Stromversorgung?
 ** Stepdownregeler pro x Zeilen? -> [http://www.mikrocontroller.net/articles/MC34063 MC34063]
 
+=== Bauteile ===
+* [[Media:Diodenkennlinie_LED_rot_Ali.pdf | Diodenkennlinie LED rot Ali]]
+
 ==Inspirationen==
 * http://www.kitesurfer1404.de/tech/matrix
 * http://bertjwregeer.com/Project/LEDWall.html
