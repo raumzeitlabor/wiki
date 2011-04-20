@@ -164,6 +164,8 @@ Angepasst auf Moodlamp v2.0 mit neuer Fernbedienung. Fernbedienungsfunktionen ab
 * Makefile-Anpassung
 * Neuen Code mit IR auf 4k schrumpfen, wenn möglich (Support für alte Moodlamp)
 * Steuerung über Audiosignal
+** http://tinkerlog.com/2007/05/20/cheap-sound-sensor-for-avr/
+** http://www.reconnsworld.com/forum/read.php?9,10
 
 ===Mittel-/Langfristig===
 * Steuerung über RFM12-Chip <del>--> Chip schon vorhanden, muss nur angesprochen werden!</del>
