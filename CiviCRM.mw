@@ -60,6 +60,9 @@ Report generation and template management.
 ;ß im Eventtitel verursacht Parserfehler
 :http://issues.civicrm.org/jira/browse/CRM-3205
 
+;In der Eventübersicht werden alte Einträge ohne gesetztes Enddatum angezeigt.
+:[http://raumzeitlabor.de/civicrm/event/manage&reset=1 Manage Events (''Show Current & Upcoming Events'')]
+
 ==Links==
 * [http://raumzeitlabor.de/civicrm/event/ical?reset=1&page=1&html=1 HTML Liste aktueller und zukünftiger ''öffentlicher'' Veranstaltungen]
 * [http://raumzeitlabor.de/civicrm/event/ical?reset=1&page=1&rss=1 RSS-Feed aktueller und zukünftiger ''öffentlicher'' Veranstaltungen]
