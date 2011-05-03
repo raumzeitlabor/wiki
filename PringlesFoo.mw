@@ -1,0 +1,22 @@
+{{ProjektInfoBox
+|name        = PringlesSound
+|status      = beta
+|image       = 
+|description = Wenn jemand eine Pringles-Dose entnimmt, wird ein Sound gespielt
+|author      = [[Benutzer:Felicitus|Felicitus]]
+|username    = 
+|version     = 1.0
+|update      = 
+|platform    = Attiny2313
+|license     = GPL
+|download    = 
+}}
+
+Wir haben ja eine tolle Pringles-Spenderröhre. Jetzt haben wir auch Sound!
+
+== Wie funktioniert's? ==
+
+An der linken Röhre ist ein Taster eingebaut, welcher durch die Pringlesdosen dauerhaft gedrückt wird. Wird der Taster losgelassen und erneut gedrückt, merkt das der verbaute Attiny2313 und schiebt ein Zeichen (C) über den seriellen Port raus. Da die [[Blackbox]] normale Seriellpegel erwartet, ist noch eine kleine Wandlerplatine verbaut.
+
+Ein Script auf der Blackbox (test.sh) läuft in einem screen und wartet auf Aktivität auf dem seriellen Port. Kommt etwas rein, wird zufällig ein Soundfile aus /home/felicitus/sounds abgespielt.
+[[Kategorie:Projekt]]
