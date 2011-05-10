@@ -176,5 +176,10 @@ Angepasst auf Moodlamp v2.0 mit neuer Fernbedienung. Fernbedienungsfunktionen ab
 * Lochraster-Layout für die Moodlamp v2 überarbeiten (evtl. mit Pinheadern für RS232 Debugging und Herausführung aller nicht verwendeten Atmel-Pins?)
 ** Vllt lieber als seperates "Development-Board" ? --[[Benutzer:Tiefpunkt|Tiefpunkt]] 10:33, 19. Mär. 2011 (CET)
 *** Developmentboard ist gebaut, liegt in meiner Kiste --[[Benutzer:Tiefpunkt|Tiefpunkt]] 22:46, 10. Mai 2011 (CEST)
+* Ambi-Light
+** Video-Eingang an Atmel
+** Durchschnittsfarbe des Videobildes ausrechnen
+** Moodlamp-Farbe setzen
+
 
 [[Kategorie:Projekt]][[Kategorie: KleinProzessorZüchter]]
