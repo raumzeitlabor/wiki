@@ -20,6 +20,9 @@
 * Zugriff aufs Kassensystem nur ausgewählte Personen
 * Systemlogging auf Server für Monitoring
 * lokale Datenbank (SQLite) mit regelmäßigem Backup
+* Preisverwaltung über Webinterface
+** Authentifizierung gegen Mitgliedsdatenbank
+** "normale" Benutzer können Einkaufshistorie einsehen (falls aktiviert)
 
 ==Prozess "Bezahlen"==
 # Identifierung der Person
