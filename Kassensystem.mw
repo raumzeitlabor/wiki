@@ -34,6 +34,11 @@ Generell gilt: nur im Voraus!
 * per Überweisung aufs Konto vom RaumZeitLabor (Verwaltungsaufwand? eventuell HCBI) '''oder'''
 * bar bei ausgewählten "Trusted Persons" (Bestimmung über Plenum/Mitgliedsversammlung?)
 
+== Aktueller Stand ==
+* Debian 6.0.1a installiert (eine Partition, ext4)
+** keine Ahnung ob ein Journaling Filesystem die beste Idee auf einer CF ist
+** Zugriff per SSH
+
 ==Links==
 * http://www.das-labor.org/wiki/Getr%C3%A4nkekasse
 * http://wiki.c-base.org/coredump/CassenDevice
