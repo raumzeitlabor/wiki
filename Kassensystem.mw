@@ -13,11 +13,13 @@
 * zwei Arten von Kunden: Gäste bzw. Mitglieder
 ** Guthabenkarte für Gäste, aufgeladen mit bestimmtem Betrag (nicht personengebunden)
 ** Guthabenkarte für Mitglieder, kann beliebig aufgeladen werden (personengebunden)
-** eventuell andere Preise für Gäste
+** eventuell andere Preise für GästeBARCODE
 * evtl. später: Einzahlen mittels Geldleser
 * "Trusted Persons" zwecks Einzahlung
 * bei Zahlungsvorgang: Geräusch (Instantsfun!!!11)
 * Zugriff aufs Kassensystem nur ausgewählte Personen
+* Systemlogging auf Server für Monitoring
+* lokale Datenbank (SQLite) mit regelmäßigem Backup
 
 ==Prozess "Bezahlen"==
 # Identifierung der Person
