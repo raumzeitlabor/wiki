@@ -57,6 +57,8 @@ Generell gilt: nur im Voraus!
 * Verkauf: <u>VID</u>, GID, UID, DatumKauf
 ** UID ist nur auf Wunsch gesetzt, um Historie einsehen zu können
 * VerkaufsPosition: <u>PosID</u>, VID, KID, Menge
+* Guthaben: <u>CID</u>, UID, VID, Datum, Betrag
+** VID kann leer gelassen werden (bei Aufladung)
 
 ==Links==
 * http://www.das-labor.org/wiki/Getr%C3%A4nkekasse
