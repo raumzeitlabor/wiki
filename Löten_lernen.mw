@@ -1,22 +1,22 @@
 {{ProjektInfoBox
 |name        = Löten lernen - Einsteigerworkshop
 |status      = beta
-|image       = 
+|image       = loeten-lernen.jpg
 |description = Löten lernen für Anfänger
 |author      = Kristian
 |username    = Kristian
 |version     = 0.1
-|update      = 
-|platform    = 
-|license     = 
-|download    = 
+|update      = none
+|platform    = none
+|license     = CC
+|download    = none
 |bausatz     = Nein - Material in der Elektroecke vorhanden
 |preis       = 1,50 € in die Kasse für Strom und Kleinteile
 }}
 == Löten lernen - Einsteigerworkshop ==
 
 === Der Einstieg ===
-Löten lernen ist nicht schwer, ein wenig Geduld und Übung ist alles was Du benötigst. Für diesen Workshop benötigst Du lediglich einen einfachen Lötkolben, egal ob er dünn oder dick ist, es muss auch keine professionelle Lötstation sein. Schau unter Material und Werkzeug nach, dort findest Du eine Liste sämtlicher Dinge, die wir in diesem Workshop einsetzen werden.
+Löten lernen ist nicht schwer, ein wenig Geduld und Übung ist alles was Du benötigst. Für diesen Workshop benötigst Du lediglich einen einfachen Lötkolben - unabhängig von der Lötspitze - es muss auch keine professionelle Lötstation sein. Schau unter [[#Material und Werkzeug]] nach, dort findest Du eine Liste sämtlicher Dinge, die Du für diesen Workshop benötigst.
 
 === Warnung uns Sicherheitshinweise ===
 Auch wenn es lächerlich klingt: Lötzinn und Lötkolben werden heiß, je nach Ausführung um die 300°C. Die Verbrennungsgefahr ist also recht groß. Wenn ein Lötkolben herunterfällt, sei kein Held und fang ihn in der Luft auf, erwischst Du das falsche Ende, dann tut es weh. 
@@ -26,6 +26,7 @@ Eine letzte Empfehlung: Wenn Du mit einem Seitenschneider Drahtenden abzwickst, 
 
 === Material und Werkzeug ===
 ==== Werkzeug ====
+[[Datei:loeten-lernen.jpg|miniatur|Diese Werkzeuge benötigst Du für den Workshop.]]
 * Lötkolben
 * Lötkolbenständer zur sicheren Ablage
 * Entlötpumpe um Lötfehler zu beseitigen
@@ -46,16 +47,19 @@ Eine letzte Empfehlung: Wenn Du mit einem Seitenschneider Drahtenden abzwickst, 
 # Achte noch einmal darauf, dass der Lötkolben sicher steht und nicht umgeworfen werden kann.
 
 === Übung 1: Zwei Drähte kreuzweise miteinander verbinden ===
+[[Datei:draehte-gekreuzt.jpg|miniatur|Gekreuzte Drähte zusammengelötet.]]
 '''Lernziel:''' Stelle Deine erste Lötstelle her.
 # Isoliere einen der Drähte an beiden Seiten ab, biege ihn zu einem Ring zusammen, die abisolierten Enden sollen sich dabei kreuzweise berühren.
 # Klemme den Draht mittels der helfenden Hand fest, so das Du bequem mit dem Lötkolben an die Kontaktstelle kommst. Die gekreuzten Kabel helfen dabei. 
 # Erhitze mit dem Lötkolben die Lötstelle so, dass beide Drähte berührt werden. Normalerweise reichen 3-5 Sekunden aus. Jetzt führst Du das Lötzinn zu. Warte kurz – dann wird es flüssig. Schiebe nun soviel Lötzinn nach, bis die Menge des Lots ausreichend die gesamte Lötstelle zu umfließt. Entferne nun gleichzeitig Lötzinn und Lötkolben von der Lötstelle und lasse sie erkalten.
 
 === Übung 2: Zwei Drähte parallel miteinander verbinden ===
+[[Datei:draehte-parallel.jpg|miniatur|Parallel liegende Drähte zusammengelötet.]]
 '''Lernziel:''' Diese Art der Verbindung ist besonders nützlich wenn Du zwei Drähte miteinander zusammenbringen möchtest. Ziehe vorher noch einen Schrumpfschlauch auf, dann kannst Du nach dem Löten mittels der Heißluftpistole eine perfekte isolierte Verbindung herstellen.
 # Drähte abisolieren und in die helfende Hand einspannen, ausrichten und wie in Übung 1 miteinander verbinden. 
 
 === Übung 3: Eine Litze verzinnen ===
+[[Datei:litze-verzinnt.jpg|miniatur|Eine verzinnte Litze.]]
 '''Lernziel:''' Wenn Du eine Litze mit dem Seitenschneider durchtrennst und abisolierst, dann siehst Du viele feine Drähtchen. Diese stehen schnell wild in alle Richtungen ab, um dies zu verhindern verzinnt man das Ende.
 # Isoliere ein Ende vom Draht ab und verdrille es zwischen Daumen und Zeigefinger.
 # Klemme das Ende wieder in der helfenden Hand ein.
@@ -63,13 +67,15 @@ Eine letzte Empfehlung: Wenn Du mit einem Seitenschneider Drahtenden abzwickst, 
 # Führe jetzt das Lötzinn zu. Wenn es flüssig geworden ist, bewege den Lötkolben hin und her und verteile das Zinn auf der gesamten Litze.
 
 === Übung 4: Ein Bauteil auf einer Platine festlöten ===
-'''Lernziel:''' Wenn Du ein Bauteil auf einer Platine festlöten möchtest, dann solltest Du Dir vorher die Platine genau ansehen. Auf den Photos dieser Übung siehst eine Lochrasterplatine. Sie besitzt auf einer Seite „Kupferpunkten“. Bei einer Streifenrasterplatine sind anstelle der Punkte Streifen aus Kupferbahnen. Für diese Übung spielt es keine Rolle welchen Platinentyp Du verwendest.
+[[Datei:bauteil-festloeten.jpg|miniatur|Ein Widerstand auf einer Lochrasterplatine festgelötet.]]
+'''Lernziel:''' Wenn Du ein Bauteil auf einer Platine festlöten möchtest, dann solltest Du Dir vorher die Platine genau ansehen. Auf den Photos dieser Übung siehst Du eine Lochrasterplatine. Sie besitzt auf einer Seite „Kupferpunkte“. Bei einer Streifenrasterplatine sind anstelle der Punkte Streifen aus Kupferbahnen. Für diese Übung spielt es keine Rolle welchen Platinentyp Du verwendest.
 # Nimm ein beliebiges Bauteil (auf dem Foto siehst Du einen Widerstand) und biege die Beinchen. Sie sollten mühelos durch die Löcher hindurchpassen. Setze das Bauteil nun so auf, dass es auf der Seite ohne Kupferpunkt / Kupfersteifen ist und die Beinchen auf der Seite mit den Punkten / Streifen herausschauen.
 # Du erleichterst Dir die Arbeit, wenn Du das Bauteil mit einem kurzen Stück Klebeband oder Malerkrepp festklebst, dann verrutscht Dir auch nichts.
 # Spanne die Platine wieder in der helfenden Hand ein.
 # Achte nun beim Löten darauf, dass Du sowohl den Draht des Bauteils, als auch das Kupfer auf der Platine erhitzt. Führe nun das Lötzinn zu. Du wirst sehen, es umschließt den Draht vollkommen und fließt dabei auch in das Loch - die Verbindung ist somit perfekt. Wenn Du nur den Draht erhitzt, dann kann das Zinn die Verbindung mit der Platine nicht richtig herstellen – ein Wackelkontakt ist vorprogrammiert.
 
 === Übung 5: Entlöten ===
+[[Datei:entloetpumpe.jpg|miniatur|Mit dieser Entlötpumpe können Lötfehler beseitigt werden.]]
 '''Lernziel:''' Leider passieren immer mal wieder Fehler beim Löten. Wenn Du zuviel Lötzinn verwendet hast, es über die Platine gelaufen ist oder Du ein Bauteil wieder von der Platine lösen möchtest, dann kannst Du eine Entlötpumpe verwenden.
 # Bereite die Entlötpumpe vor, bei meiner Version muss über einen Feder die Pumpe gespannt werden.
 # Erhitze das überschüssige Lötzinn mit dem Lötkolben und warte bis es flüssig ist.
@@ -77,6 +83,7 @@ Eine letzte Empfehlung: Wenn Du mit einem Seitenschneider Drahtenden abzwickst, 
 # Bei Bedarf den Vorgang mehrfach wiederholen.
 
 === Übung 6: Eine Verbindung herstellen ===
+[[Datei:loetverbindung.jpg|miniatur|Zwei Bauteile mit Lötverbindung.]]
 '''Lernziel:''' Auf den Platinen ist es manchmal nötig eine Verbindung zwischen zwei Lötstellen herzustellen. Längere Strecken solltest Du vermeiden, bzw. sie durch eine ordentliche Drahtverbindung zusammenbringen. Ich habe auch schon längere Lötverindungen gesehen, sie sind oftmals aber nur Resultat von schlechtem Platinendesign.
 # Löte die Bauteile an der gwünschten Position fest.
 # Beginne an einem Bauteil, erhitze das Lötzinn an dieser Stelle solange bis es wieder flüssig wird. Gebe nun Lötzinn dazu und ziehe den Lötkolben nun unter gleichmäßiger Zugabe von Lötzinn bis zu der gewünschten Position. 
@@ -86,7 +93,6 @@ Eine letzte Empfehlung: Wenn Du mit einem Seitenschneider Drahtenden abzwickst, 
 ----
 
 == ToDo ==
-* Bilder bearbeiten, hochladen und einbinden
 * Videos bearbeiten, hochladen und einbinden
 * Rechtschreibprüfung
 
