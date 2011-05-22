@@ -39,11 +39,6 @@ Generell gilt: nur im Voraus!
 * per Überweisung aufs Konto vom RaumZeitLabor (Verwaltungsaufwand? eventuell HCBI) '''oder'''
 * bar bei ausgewählten "Trusted Persons" (Bestimmung über Plenum/Mitgliedsversammlung?)
 
-== Aktueller Stand ==
-* Debian 6.0.1a installiert (eine Partition, ext4)
-** keine Ahnung ob ein Journaling Filesystem die beste Idee auf einer CF ist
-** Zugriff per SSH
-
 == Datenmodell ==
 Dies ist ein erster Entwurf.
 * Produkt: <u>PID</u>, EAN, Name, Lieferant, SchwellenMenge, DatumAufgenommen
@@ -63,6 +58,11 @@ Dies ist ein erster Entwurf.
 ** für jedes Mitglied wird ein Code generiert
 ** UID kann leer gelassen werden (für Gäste)
 ** VID kann leer gelassen werden (bei Aufladung)
+
+== Aktueller Stand ==
+* Debian 6.0.1a installiert (eine Partition, ext4)
+** keine Ahnung ob ein Journaling Filesystem die beste Idee auf einer CF ist
+** Zugriff per SSH
 
 ==Links==
 * http://www.das-labor.org/wiki/Getr%C3%A4nkekasse
