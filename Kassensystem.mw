@@ -45,6 +45,7 @@ Generell gilt: nur im Voraus!
 ** Zugriff per SSH
 
 == Datenmodell ==
+Dies ist ein erster Entwurf. Das derzeitige Modell unterstützt noch keine Cashkarten.
 * Produkt: <u>PID</u>, Name, Lieferant, DatumAufgenommen
 * Einkauf: <u>EID</u>, PID, UID, DatumEinkauf, Menge, EKPreis
 ** EKPreis wird als Basis für Berechnung der Standardkondition herangezogen
