@@ -13,7 +13,7 @@
 * zwei Arten von Kunden: Gäste bzw. Mitglieder
 ** Guthabenkarte für Gäste, aufgeladen mit bestimmtem Betrag (nicht personengebunden)
 ** Guthabenkarte für Mitglieder, kann beliebig aufgeladen werden (personengebunden)
-** eventuell andere Preise für GästeBARCODE
+** eventuell andere Preise für Gäste
 * evtl. später: Einzahlen mittels Geldleser
 * "Trusted Persons" zwecks Einzahlung
 * bei Zahlungsvorgang: Geräusch (Instantsfun!!!11)
