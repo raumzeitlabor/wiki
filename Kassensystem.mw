@@ -40,7 +40,6 @@ Generell gilt: nur im Voraus!
 * bar bei ausgewählten "Trusted Persons" (Bestimmung über Plenum/Mitgliedsversammlung?)
 
 == Datenmodell ==
-Dies ist ein erster Entwurf.
 * Produkt: <u>PID</u>, EAN, Name, Lieferant, SchwellenMenge, DatumAufgenommen
 * Einkauf: <u>EID</u>, PID, UID, DatumEinkauf, Menge, EKPreis
 ** EKPreis wird als Basis für Berechnung der Standardkondition herangezogen
@@ -53,7 +52,9 @@ Dies ist ein erster Entwurf.
 * Verkauf: <u>VID</u>, GID, UID, DatumKauf
 ** UID ist nur auf Wunsch gesetzt, um Historie einsehen zu können
 * VerkaufsPosition: <u>PosID</u>, VID, KID, Menge
-* Guthaben: <u>CID</u>, UID, VID, Datum, Betrag
+* GuthabenKarten: <u>GKID</u>, Code, UID, DatumAusgestellt
+** wenn UID Null ist, dann anonyme Cashcard (z.B. für Gäste)
+* Guthaben: <u>CID</u>, GKID, VID, Datum, Betrag
 ** VID kann leer gelassen werden (bei Aufladung)
 
 == Aktueller Stand ==
