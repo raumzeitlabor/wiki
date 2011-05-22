@@ -53,10 +53,7 @@ Dies ist ein erster Entwurf.
 * Verkauf: <u>VID</u>, GID, UID, DatumKauf
 ** UID ist nur auf Wunsch gesetzt, um Historie einsehen zu können
 * VerkaufsPosition: <u>PosID</u>, VID, KID, Menge
-* Guthaben: <u>CID</u>, Code, UID, VID, Datum, Betrag
-** Code ist der Barcode der Cashcard
-** für jedes Mitglied wird ein Code generiert
-** UID kann leer gelassen werden (für Gäste)
+* Guthaben: <u>CID</u>, UID, VID, Datum, Betrag
 ** VID kann leer gelassen werden (bei Aufladung)
 
 == Aktueller Stand ==
