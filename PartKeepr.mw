@@ -14,9 +14,9 @@
 
 == Features ==
 
-* Bauteile
-* Kategorien
-* Footprints (implementiert, jedoch noch ohne Footprint DXFs)
+* Bauteile '''erledigt'''
+* Kategorien '''erledigt'''
+* Footprints '''erledigt''', jedoch noch ohne Footprint DXFs
 * Datenblätter
 * Herstellerlogos
 * Lieferanten
