@@ -52,8 +52,9 @@ Generell gilt: nur im Voraus!
 * Verkauf: <u>VID</u>, GID, UID, DatumKauf
 ** UID ist nur auf Wunsch gesetzt, um Historie einsehen zu können
 * VerkaufsPosition: <u>PosID</u>, VID, KID, Menge
-* GuthabenKarten: <u>GKID</u>, Code, UID, DatumAusgestellt
-** wenn UID Null ist, dann anonyme Cashcard (z.B. für Gäste)
+* GuthabenKarten: <u>GKID</u>, Code, GID, UID, DatumAusgestellt
+** wenn UID Null, dann anonyme Cashcard (z.B. für Gäste)
+** wenn UID Null, dann muss GID gesetzt sein
 * Guthaben: <u>CID</u>, GKID, VID, Datum, Betrag
 ** VID kann leer gelassen werden (bei Aufladung)
 
