@@ -40,7 +40,7 @@ Generell gilt: nur im Voraus!
 * bar bei ausgewählten "Trusted Persons" (Bestimmung über Plenum/Mitgliedsversammlung?)
 
 == Datenmodell ==
-* Produkt: <u>PID</u>, EAN, Name, Lieferant, SchwellenMenge, DatumAufgenommen
+* Produkt: <u>PID</u>, EAN, Name, Lieferant, MengenEinheit, SchwellenMenge, DatumAufgenommen
 * Einkauf: <u>EID</u>, PID, UID, DatumEinkauf, Menge, EKPreis
 ** EKPreis wird als Basis für Berechnung der Standardkondition herangezogen
 ** Überlegung, ob FIFO (vermutlich), LIFO oder Durchschnitt genommen werden soll
