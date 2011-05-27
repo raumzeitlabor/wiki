@@ -44,14 +44,14 @@ Generell gilt: nur im Voraus!
 * Einkauf: <u>EID</u>, PID, UID, Lieferant, DatumEinkauf, Menge, EKPreis
 ** EKPreis wird als Basis für Berechnung der Standardkondition herangezogen
 ** Überlegung, ob FIFO (vermutlich), LIFO oder Durchschnitt genommen werden soll
-* Kondition: <u>KID</u>, GID, UID, PID, DatumEinkauFaktor, Preis, DatumStart, DatumEnde
+* Kondition: <u>KID</u>, GID, UID, PID, DatumEinkauf, Faktor, Preis, DatumStart, DatumEnde
 ** ermöglicht granulare Preissteuerung bis auf den Käufer (z.B. bei Geburtstag)
 ** jede Gruppe sollte einen GID Eintrag haben (ohne UID und PID) mit Standardfaktor (vom EK)
 ** entweder Faktor oder Preis ist gesetzt (nie beides)
 ** DatumEnde muss nicht gesetzt sein (unbegrenzt)
-* Verkauf: <u>VID</u>, GID, UID, DatumKauf
+* Verkauf: <u>VID</u>, GID, UID, DatumKauf, Total
 ** UID ist nur auf Wunsch gesetzt, um Historie einsehen zu können
-* VerkaufsPosition: <u>PosID</u>, VID, KID, Menge
+* VerkaufsPosition: <u>PosID</u>, VID, KID, Menge, Summe
 * GuthabenKarten: <u>GKID</u>, Code, GID, UID, DatumAusgestellt
 ** wenn UID Null, dann anonyme Cashcard (z.B. für Gäste)
 ** wenn UID Null, dann muss GID gesetzt sein
