@@ -51,7 +51,7 @@ Generell gilt: nur im Voraus!
 ** DatumEnde muss nicht gesetzt sein (unbegrenzt)
 * Verkauf: <u>VID</u>, GID, UID, DatumKauf, Total
 ** UID ist nur auf Wunsch gesetzt, um Historie einsehen zu können
-* VerkaufsPosition: <u>PosID</u>, VID, KID, Menge, Summe
+* VerkaufsPosition: <u>PosID</u>, VID, KID, PID, Menge, Summe
 * GuthabenKarten: <u>GKID</u>, Code, GID, UID, DatumAusgestellt
 ** wenn UID Null, dann anonyme Cashcard (z.B. für Gäste)
 ** wenn UID Null, dann muss GID gesetzt sein
