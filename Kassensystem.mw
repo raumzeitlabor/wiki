@@ -19,7 +19,7 @@
 * bei Zahlungsvorgang: Geräusch (Instantsfun!!!11)
 * Zugriff aufs Kassensystem nur ausgewählte Personen
 * Systemlogging auf Server für Monitoring
-* lokale Datenbank (SQLite) mit regelmäßigem Backup
+* lokale Datenbank mit regelmäßigem Backup
 * Preisverwaltung über Webinterface
 ** Authentifizierung gegen Mitgliedsdatenbank
 ** "normale" Benutzer können Einkaufshistorie einsehen (falls aktiviert)
