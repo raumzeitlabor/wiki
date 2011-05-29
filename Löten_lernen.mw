@@ -1,13 +1,13 @@
 {{ProjektInfoBox
 |name        = Löten lernen - Einsteigerworkshop
-|status      = beta
+|status      = stable
 |image       = loeten-lernen.jpg
-|description = Löten lernen für Anfänger
+|description = Löten lernen für Anfänger. Wenn Du noch nie einen Lötkolben in der Hand gehabt hast, dann bist Du hier richtig.
 |author      = Kristian
 |username    = Kristian
-|version     = 0.1
-|update      = none
-|platform    = none
+|version     = 1.0
+|update      = 29.05.2011
+|platform    = Elektronik
 |license     = CC
 |download    = none
 |bausatz     = Nein - Material in der Elektroecke vorhanden
