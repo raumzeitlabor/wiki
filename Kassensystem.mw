@@ -59,9 +59,14 @@ Generell gilt: nur im Voraus!
 ** VID kann leer gelassen werden (bei Aufladung)
 
 == Aktueller Stand ==
-* Debian 6.0.1a installiert (eine Partition, ext4)
-** keine Ahnung ob ein Journaling Filesystem die beste Idee auf einer CF ist
-** Zugriff per SSH
+* Futro S300 mit 1GHz (danke Felicitus)
+* PSC QS6000+ Barcode Scanner ([http://www.barcode-shop.com/assets/own/QS6000.pdf Übersicht], [http://www.bluestarinc.com/techsupport/Datalogic/QS6000_PLUS_Manual.pdf
+ Handbuch])
+* 2GB CompactFlash Karte (danke docsteel)
+** alternativ: 2.5GB "Microdrive" (von Seagate)
+* Debian 6.0.1a testweise installiert (eine Partition, ext4)
+** idealerweise in Zukunft als Image, was in RAM entpackt wird
+** Zugriff über SSH
 
 ==Links==
 * http://www.das-labor.org/wiki/Getr%C3%A4nkekasse
