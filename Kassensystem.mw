@@ -39,9 +39,14 @@ Generell gilt: nur im Voraus!
 * per Überweisung aufs Konto vom RaumZeitLabor (Verwaltungsaufwand? eventuell HCBI) '''oder'''
 * bar bei ausgewählten "Trusted Persons" (Bestimmung über Plenum/Mitgliedsversammlung?)
 
+== Reporting ==
+* Umsatz pro Gruppe, Produkt, User (nur falls gewünscht) pro Zeiteinheit
+* Produkte mit baldigem Verfall
+* Gewinn
+
 == Datenmodell ==
 * Produkt: <u>PID</u>, EAN, Name, MengenEinheit, SchwellenMenge, DatumAufgenommen
-* Einkauf: <u>EID</u>, PID, UID, Lieferant, DatumEinkauf, Menge, EKPreis
+* Einkauf: <u>EID</u>, PID, UID, Lieferant, DatumEinkauf, VerfallsDatum, Menge, EKPreis
 ** EKPreis wird als Basis für Berechnung der Standardkondition herangezogen
 ** Überlegung, ob FIFO (vermutlich), LIFO oder Durchschnitt genommen werden soll
 * Kondition: <u>KID</u>, GID, UID, PID, Faktor, Preis, DatumStart, DatumEnde
@@ -55,8 +60,10 @@ Generell gilt: nur im Voraus!
 * GuthabenKarten: <u>GKID</u>, Code, GID, UID, DatumAusgestellt
 ** wenn UID Null, dann anonyme Cashcard (z.B. für Gäste)
 ** wenn UID Null, dann muss GID gesetzt sein
-* Guthaben: <u>CID</u>, GKID, VID, Datum, Betrag
+* Guthaben: <u>CID</u>, GKID, VID, AufladungsArt, Anmerkung, Datum, Betrag
 ** VID kann leer gelassen werden (bei Aufladung)
+** AufladungsArt ist z.B. bar, Überweisung, ...
+** Anmerkung je nach AufladungsArt (z.B. verantwortliche Person, Transaktionscode)
 
 == Aktueller Stand ==
 * Futro S300 mit 1GHz (danke Felicitus)
