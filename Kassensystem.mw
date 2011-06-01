@@ -41,6 +41,7 @@ Generell gilt: nur im Voraus!
 
 == Reporting ==
 * Umsatz pro Gruppe, Produkt, User (nur falls gewünscht) pro Zeiteinheit
+* Produkte, deren Lagerbestand unter Schwellenmenge ist
 * Produkte mit baldigem Verfall
 * Gewinn
 
