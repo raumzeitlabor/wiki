@@ -1,3 +1,17 @@
+{{ProjektInfoBox
+|name        = Kassensystem
+|status      = experimental
+|image       = 
+|description = Kassensystem mit Barcode-Scanner und Webinterface zur Verwaltung
+|author      = tiefpunkt, bluegene
+|username    = 
+|version     = 0.1
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
 ==Ideen==
 * "normale" Hardware (Thin Client? siehe z.B. [http://cgi.ebay.de/IGEL-3-4-Compact-3210-Thin-Client-600MHz-256MB-128MB-/300544341496?pt=DE_Technik_Computer_Peripherieger%C3%A4te_PC_Systeme&hash=item45f9d6b5f8#ht_3136wt_1096 hier] oder [http://cgi.ebay.de/IGEL-3-4-Compact-3210-Thin-Client-600MHz-256MB-128MB-/300544341496?pt=DE_Technik_Computer_Peripherieger%C3%A4te_PC_Systeme&hash=item45f9d6b5f8#ht_3136wt_1096 hier])
 ** Booten von Compact Flash oder USB Stick
