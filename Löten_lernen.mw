@@ -100,7 +100,10 @@ http://www.youtube.com/watch?v=LzO8SMubWsY
 
 == Tipps ==
 === Kalte Lötstellen - zu wenig Hitze ===
-Eine kalte Lötstelle entsteht wenn Du das Lötzinn nicht richtig erhitzt. Die Molekularstruktur des Lötzinns verändert sich nicht, es wird nicht richtig leitend.
+Eine kalte Lötstelle entsteht wenn Du das Lötzinn nicht richtig erhitzt, es bildet sich keine stoffschlüssige Verbindung. Durch den fehlenden Materialkontakt ist die volle Leitfähigkeit nicht gegeben.
+
+Ein weiterer Aspekt ist: die Verbindung ist mechanisch nicht stark belastbar, sie bricht sehr leicht, bzw. hält keinem Zug stand. Aus diesem Grund unbedingt darauf achten, dass die Lötstelle vollständig erhitzt ist.
+
 === Lötzinn anstatt Drähte erhitzen ===
 Erhitze mit dem Lötkolben immer zuerst die Drähte, bzw. die Kontaktstelle. Erst jetzt solltest Du das Lötzinn hinzugeben, es schmilzt und umfließt die Lötstelle genau so wie es sein soll. Falsch ist es zuerst das Lötzinn mit dem Lötkolben zu schmelzen und dann an der Lötstelle zu verteilen, dies gibt meistens kalte Lötstellen.
 === Zuviel Hitze ===
