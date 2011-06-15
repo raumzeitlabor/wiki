@@ -5,18 +5,18 @@
 |description = Löten lernen für Anfänger. Wenn Du noch nie einen Lötkolben in der Hand gehabt hast, dann bist Du hier richtig.
 |author      = Kristian
 |username    = Kristian
-|version     = 1.0.1
-|update      = 07.06.2011
+|version     = 1.0.2
+|update      = 16.06.2011
 |platform    = Elektronik
 |license     = CC
 |download    = none
-|bausatz     = Nein - Material in der Elektroecke vorhanden
-|preis       = 1,50 € in die Kasse für Strom und Kleinteile
+|bausatz     = Ja
+|preis       = 3,30 €
 }}
 == Löten lernen - Einsteigerworkshop ==
 
 === Der Einstieg ===
-Löten lernen ist nicht schwer, ein wenig Geduld und Übung ist alles was Du benötigst. Für diesen Workshop benötigst Du lediglich einen einfachen Lötkolben - unabhängig von der Lötspitze - es muss auch keine professionelle Lötstation sein. Schau unter [[#Material und Werkzeug]] nach, dort findest Du eine Liste sämtlicher Dinge, die Du für diesen Workshop benötigst.
+Löten lernen ist nicht schwer, ein wenig Geduld und Übung ist alles was Du benötigst. Für diesen Workshop benötigst Du lediglich einen einfachen Lötkolben - unabhängig von der Lötspitze - es muss auch keine professionelle Lötstation sein. Schau unter [[#Material und Werkzeug]] nach, dort findest Du eine Liste sämtlicher Dinge, die Du für diesen Workshop benötigst. Du kannst gerne im Raumzeitlabor einen [[#Bausatz]] erwerben, er beinhaltet alle notwendigen Teile.
 
 === Warnung und Sicherheitshinweise ===
 Auch wenn es lächerlich klingt: Lötzinn und Lötkolben werden heiß, je nach Ausführung um die 300°C. Die Verbrennungsgefahr ist also recht groß. Wenn ein Lötkolben herunterfällt, sei kein Held und fang ihn in der Luft auf, erwischst Du das falsche Ende, dann tut es weh.
@@ -114,5 +114,23 @@ Erhitze mit dem Lötkolben immer zuerst die Drähte, bzw. die Kontaktstelle. Ers
 Manche Bauteile vertragen nicht viel Hitze. Schütze es mit meinem Kühlkörper vor der Zerstörung. Beispielsweise kannst Du eine Krokodilklemme - am Besten aus Kupfer - zwischen Lötstelle und Bauteil klemmen. Sie leitet die Wärme ab.
 === zu wenig Lötzinn ===
 Gerade bei Rasterplatinen solltest Du auf eine ausreichende Menge an Lötzinn achten. Wichtig ist nicht nur ein kleines "Häufchen" auf der Platine. Wenn Du sie richtig erhitzt hast, dann soll auch etwas Lötzinn in das Loch fließen und so die Ritzen schließen.
+
+----
+
+== Bausatz ==
+
+=== Beschreibung ===
+Ab sofort gibt es einen kleinen Bausatz. In dem Bausatz findest Du genügend Material um die oben genannten Übungen mehrfach durchzuführen. Wenn Du auch gleich das Entlöten üben willst, dann kannst Du ihn unendlich oft benutzen!
+
+=== Inhalt ===
+In dem Bausatz befinden sich:
+* 1x Platine (wahlweise Loch- oder Streifenraster) ca. 5 cm x 6 cm groß, genügend Platz um die ersten Bauteile darauf zu verlöten
+* 4x Litze ca. 8 - 10 cm lang.
+* 6x diverse gebrauchte elektronische Bauteile, sie stammen aus alten Platinen und wären eigentlich zum Elektrokmüll gewandert. In jedem Bausatz befinden sich unterschiedliche Teile, aber Achtung: wahrscheinlich sind sie defekt. Sie dienen wirklich nur als Lötübung!
+
+=== Arbeitsmaterialien intern ===
+* Der Bausatz passt in die 60x80mm Druckverschlussbeutel
+* Beipackzettel einzeln als .png und .xcf
+* Beipackzettel 9fach als .odf
 
 [[Kategorie:Projekt]]
