@@ -11,8 +11,9 @@
 |license     = 
 |download    = 
 }}
-Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werden. <br>
-[[Image:IMG 0894 scale.JPG|thumb|300px|left]]
+Die Elektroecke bietet Platz für Schaltungsentwicklung, Lötarbeiten, Fehlersuche, Schaltungsanalyse und Messarbeiten. Dafür stehen eine vielzahl an Geräten, Zubehör und Software bereit. Ausserdem werden Bauteile gelagert (Anzahl der verschidenen Bauteile: 1673 vorhandenen Bauteile: 30677) und mittels Software (PartDB / bald PartKeepr) verwaltet.
+
+[[Image:IMG 0283.JPG|thumb|500px|left]]
 {| style="width:100%"
 |[[image:Oscilloscope.svg|200px|center|link=Elektroecke/Geräte]]
 |[[image:Schublade.JPG|200px|center|link=Elektroecke/Geräte/Zubehoer]]
@@ -21,8 +22,8 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 |-
 |style="text-align:center" | [[Elektroecke/Geräte | Geräte]]
 |style="text-align:center" | [[Elektroecke/Geräte/Zubehoer | Messzubehör]]
-|style="text-align:center" | [[Partdb | Bauteildatenbank]]
-|style="text-align:center" | [[Bauteildatenbank | Bauteildatenbank 2]] <br> in Entwicklung
+|style="text-align:center" | [[Partdb | Bauteildatenbank]] <br> PartDB
+|style="text-align:center" | [[Bauteildatenbank | Bauteildatenbank]] <br> PartKeepr in Entwicklung
 |}
 == Beteiligte/Danksagungen ==
 * AlexanderB
@@ -30,4 +31,5 @@ Die Elektroecke ist der Ort, an dem Löt- und Bastelarbeiten durchgeführt werde
 * [[Benutzer:Felicitus|Felicitus]]
 * [[Benutzer:Nessi|nessi]]
 * TabascoEye
+* Sur5er
 [[Kategorie:Projekt]]
