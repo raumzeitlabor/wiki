@@ -19,13 +19,15 @@
 Löten lernen ist nicht schwer, ein wenig Geduld und Übung ist alles was Du benötigst. Für diesen Workshop benötigst Du lediglich einen einfachen Lötkolben - unabhängig von der Lötspitze - es muss auch keine professionelle Lötstation sein. Schau unter [[#Material und Werkzeug]] nach, dort findest Du eine Liste sämtlicher Dinge, die Du für diesen Workshop benötigst. Du kannst gerne im Raumzeitlabor einen [[#Bausatz]] erwerben, er beinhaltet alle notwendigen Teile.
 
 === Warnung und Sicherheitshinweise ===
-Auch wenn es lächerlich klingt: Lötzinn und Lötkolben werden heiß, je nach Ausführung um die 300°C. Die Verbrennungsgefahr ist also recht groß. Wenn ein Lötkolben herunterfällt, sei kein Held und fang ihn in der Luft auf, erwischst Du das falsche Ende, dann tut es weh.
+Auch wenn es lächerlich klingt: Lötzinn und Lötkolben werden heiß. Für die Lötarbeiten im Elektronikbereich arbeitet man mit Temperaturen zwischen 280°C und 370°C, je nach Aufgabe. Die Verbrennungsgefahr ist also recht groß. Wenn ein Lötkolben herunterfällt, sei kein Held und fang ihn in der Luft auf, erwischst Du das falsche Ende, dann tut es weh.
 
 Benutze immer eine Lötunterlage, beispielsweise eine Holzplatte und sorge dafür, dass Dein Lötkolben sicher und stabil liegt, am besten benutzt Du einen Lötkolbenständer. Achte auch darauf, dass das Kabel des Lötkolbens sicher liegt, niemand sollte darauf herumtreten können.
 
 Sorge für eine gute Belüftung. Die Dämpfe, die beim Löten entstehen sind sicherlich nicht mehr so giftig wie vor ein paar Jahrzehnten, frische Luft reduziert jedoch den Schadstoffgehalt um einiges. Alternativ haben wir in der E-Ecke auch eine Lötlampe mit aktivierbarem Lüfter, der die Dämpfe von deiner Nase wegzieht und filtert.
 
-Eine letzte Empfehlung: Wenn Du mit einem Seitenschneider Drahtenden abzwickst, dann fliegen diese gerne wild durch die Gegend, eine Schutzbrille ist deswegen ratsam.
+Eine letzte Empfehlung: Wenn Du mit einem Seitenschneider Drahtenden abzwickst, dann fliegen diese gerne wild durch die Gegend. Um das zu verhindern, gibt es 2 Möglichkeiten:
+* eine Schutzbrille tragen (Befinden sich an der Werkbank im RaumZeitLabor)
+* Bauteile grundsätzlich in Richtung Boden abknipsen. Den Arbeitsplatz nach Beendigung der Arbeit zu kehren gehört übrigens zum Pflichtprogramm.
 
 === Material und Werkzeug ===
 ==== Werkzeug ====
