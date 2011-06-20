@@ -87,9 +87,11 @@ Erklärende Hinweise:
 [[Datei:bauteil-festloeten.jpg|miniatur|Ein Widerstand auf einer Lochrasterplatine festgelötet.]]
 '''Lernziel:''' Wenn Du ein Bauteil auf einer Platine festlöten möchtest, dann solltest Du Dir vorher die Platine genau ansehen. Auf den Photos dieser Übung siehst Du eine Lochrasterplatine. Sie besitzt auf einer Seite „Kupferpunkte“. Bei einer Streifenrasterplatine sind anstelle der Punkte Streifen aus Kupferbahnen. Für diese Übung spielt es keine Rolle welchen Platinentyp Du verwendest.
 # Nimm ein beliebiges Bauteil (auf dem Foto siehst Du einen Widerstand) und biege die Beinchen. Sie sollten mühelos durch die Löcher hindurchpassen. Setze das Bauteil nun so auf, dass es auf der Seite ohne Kupferpunkt / Kupfersteifen ist und die Beinchen auf der Seite mit den Punkten / Streifen herausschauen.
-# Du erleichterst Dir die Arbeit, wenn Du das Bauteil mit einem kurzen Stück Klebeband oder Malerkrepp festklebst, dann verrutscht Dir auch nichts.
+# Du erleichterst Dir die Arbeit, wenn Du das Bauteil mit einem kurzen Stück Klebeband oder Malerkrepp festklebst, dann verrutscht Dir auch nichts. Du solltest auf keinen Fall die Beinchen auf der Rückseite der Platine biegen, um dir die Fixierung mittels Klebeband zu ersparen, denn:
+## Verbogene Beinchen machen das Entlöten im Korrekturfalle schwer
+## Verbogene Beinchen können unter Umständen dazu führen, daß sich das Lötzinn von Nachbarlötstellen mit dem verbogenen Beinchen verbinden.
 # Spanne die Platine wieder in der helfenden Hand ein.
-# Erhitze sowohl den Draht des Bauteils, als auch das Kupfer auf der Platine. Führe nun das Lötzinn zu. Du wirst sehen, es umschließt den Draht vollkommen und fließt dabei auch in das Loch - die Verbindung ist somit perfekt. Wenn Du nur den Draht erhitzt, dann kann das Zinn die Verbindung mit der Platine nicht richtig herstellen – ein Wackelkontakt ist vorprogrammiert.
+# Erhitze sowohl den Draht des Bauteils, als auch das Kupfer auf der Platine. Führe nun das Lötzinn zu. Du wirst sehen, es umschließt den Draht vollkommen und fließt dabei auch in das Loch - die Verbindung ist somit perfekt. Wenn Du nur den Draht erhitzt, dann kann das Zinn die Verbindung mit der Platine nicht richtig herstellen – ein Wackelkontakt oder eine sogenannte kalte Lötstelle ist vorprogrammiert.
 
 === Übung 5: Entlöten ===
 [[Datei:entloetpumpe.jpg|miniatur|Mit dieser Entlötpumpe können Lötfehler beseitigt werden.]]
