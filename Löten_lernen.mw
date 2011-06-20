@@ -61,6 +61,15 @@ Eine letzte Empfehlung: Wenn Du mit einem Seitenschneider Drahtenden abzwickst, 
 
 http://www.youtube.com/watch?v=LzO8SMubWsY
 
+Erklärende Hinweise:
+* Immer erst die Bauteile erhitzen, dann das Lot zuführen! Dafür gibt es mehrere Gründe:
+** Führst du das Lot zu früh auf den Lötkolben, so verdampft das Flussmittel und die Verbindung von Lot und Bauteilen wird nicht richtig hergestellt ("Kalte Lötstelle"). Das Flussmittel sorgt übrigens dafür, daß die Oxide an den Komponenten entfernt werden und es verringert die Oberflächenspannung. Weitere Informationen über Flussmittel erhälst du bei [http://de.wikipedia.org/wiki/Flussmittel_(L%C3%B6ten) Wikipedia].
+** Sind die zu verbindenden Bauteile kalt, so wird keine ordentliche Verbindung hergestellt und unter Umständen kann dann kein Strom fließen.
+* Die Erhitzdauer der Komponenten, die du verbinden möchtest, ist Gefühls- und Erfahrungssache. Die richtige Zeit hängt von der Dicke der Materialien ab. Erhitzt du ein Bauteil zu lange, kann es den Hitzetod sterben, erhitzt du es zu kurz, kann die Verbindung nicht hergestellt werden.
+* Solche gekreutzen Verbindungen sind zur Übung recht geeignet, um die Festigkeit zu demonstrieren. Allerdings solltest du beachten:
+** Lötstellen sind nicht dafür gedacht, große mechanische Kräfte auszuhalten. Im Zweifelsfalle mußt du die mechanische Kraft anders abführen.
+** Gekreuzte Verbindungen sind nicht "die feine Art". Verwende, sofern möglich, parallele Verbindungen.
+
 === Übung 2: Zwei Drähte parallel miteinander verbinden ===
 [[Datei:draehte-parallel.jpg|miniatur|Parallel liegende Drähte zusammengelötet.]]
 '''Lernziel:''' Diese Art der Verbindung ist besonders nützlich wenn Du zwei Drähte miteinander zusammenbringen möchtest. Ziehe vorher noch einen Schrumpfschlauch auf, dann kannst Du nach dem Löten mittels der Heißluftpistole eine perfekte isolierte Verbindung herstellen.
