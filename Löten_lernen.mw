@@ -46,6 +46,14 @@ Eine letzte Empfehlung: Wenn Du mit einem Seitenschneider Drahtenden abzwickst, 
 * Diverse Drähte, ca. 5cm lang
 * Klebeband oder Malerkrepp
 
+=== Lötzinn ===
+
+Das richtige Lötzinn ist wichtig - denn es gibt sehr viele verschiedene Arten. Du solltest auf folgendes Achten:
+
+* Nutze Elektroniklot. Dies gehört zur Kategorie Weichlot.
+* Es gibt diverse Legierungen. Diese ist auf der Lötzinnrolle aufgedruckt, z.b. Sn60Pb40 - dieses besitzt einen Zinngehalt von 60% und einen Bleigehalt von 40%. Je nach Legierung schmilzt das Lötzinn bei bestimmten Temperaturen und hat verschiedene Eigenschaften. Für Einsteiger empfiehlt sich eine Legierung mit Blei, denn bleifreies Löten erfordert mehr Erfahrung und u.U. auch eine passende Lötstation. Sn60PB40 ist also für dich als Einsteiger gut gebräuchlich, außerdem ist es recht günstig.
+* Zusätzlich gibt es verschiedene Arten von Flußmittel, z.b. Halogenhaltig und Halogenfrei. Je nach Flußmittel mußt du die Lötstelle von Flußmittelresten säubern. Es gibt auch Lötzinn, welches sich "no-clean" nennt - hierbei ist ein Säubern nicht nötig, da das Flußmittel vollständig verdampt.
+
 === Vorbereitung ===
 # Bau die Lötstation auf, stecke den Lötkolben in die Steckdose und heize ihn auf. Wenn du eine Lötstation verwendest, stelle die Temperatur auf etwa 330°C ein.
 # Lege Seitenschneider, Abisolierungszange und Lötzinn bereit
@@ -138,6 +146,9 @@ Wenn die Verbindung von zwei Litzen noch stabiler sein soll, dann kannst Du folg
 
 Eine detaillierte Beschreibung mit vielen Bildern findet Ihr auch hier: http://moritz.augsburger.name/2011/06/07/183-Litzen-auf-Stoss-verloeten.html
 
+== Weiterführende Informationen ==
+
+In der Elektronikecke hängt die ERSA Lötfibel, die sehr gute Informationen zum Löten enthält. Lesenswert!
 
 ----
 
