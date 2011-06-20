@@ -119,12 +119,13 @@ Erklärende Hinweise:
 # Setze die Entlötpumpe an und löse sie aus. Das flüssige Lötzinn wird dann in die Pumpe gesaugt.
 # Bei Bedarf den Vorgang mehrfach wiederholen.
 
-Wichtig:
+'''Wichtig:'''
 * Lagere die Entlötpumpe niemals in gespanntem Zustand, denn dann ermüdet die Feder und die Entlötpumpe wird unbrauchbar.
 * Reinige die Entlötpumpe regelmäßig. Wenn du das kalte Lötzinn aus der Spitze der Pumpe drücken kannst, war es zuviel.
 * Entlötpumpen haben im Regelfall eine Spitze aus Silikon. Du kannst also die Lötpumpe für eine kurze Zeit auf dem Lötkolben platzieren.
 
 === Übung 6: Entlöten mit Entlötlitze ===
+[[Datei:Entlötlitze.jpg|miniatur|(Noch) saubere Entlötlitze (D-Kuru/Wikimedia Commons/CC-BY-SA 3.0)]]
 '''Lernziel:''' Eine Alternative zur Entlötpumpe stellt eine Entlötlitze dar. Eine Entlötlitze besteht aus einem engmaschigen Geflecht aus Kupferdraht, das mit einem Flussmittel behandelt ist. Durch das engmaschige Geflecht besitzt die Entlötlitze eine große Oberfläche. Beim Erhitzen kann durch diese große Oberfläche in Verbindung mit dem Flussmittel Lötzinn von einer Lötstelle auf die Entlötlitze gezogen werden, wodurch die Lötstelle von Lötzinn gereinigt wird.
 # Vorbereitung: Erhöhe die Temperatur des Lötkolbens um 20-30°C, rolle ein längeres Stück (10cm) Entlötlitze von der Rolle und greife es mit einer Spitzzange
 # Lege die Entlötlitze über die Lötstelle und drücke leicht mit dem Lötkolben auf die Entlötlitze
@@ -132,7 +133,7 @@ Wichtig:
 # Falls die Lötstelle noch mit Lötzinn verunreinigt ist, wiederhole den Vorgang mit einem noch sauberen Teil der Entlötlitze
 # Vergiss nicht nach dem Entlöten, die Temperatur des Lötkolbens wieder zu verringern.
 
-Wichtig:
+'''Wichtig:'''
 * Die Entlötlitze leitet wunderbar die Hitze - rolle daher immer ausreichend Entlötlitze von der Rolle und benutze eine Spitzzange o.Ä. zum Festhalten.
 * Entferne nach dem Übertragen des Lötzinns von der Lötstelle auf die Entlötlitze nie erst den Lötkolben, da sonst die Entlötlitze mit dem Bauteil verlötet wird - erst Entlötllitze vom Bauteil, dann den Lötkolben entfernen
 * Gebrauchte Entlötlitze kann mit einem Seitenschneider abgetrennt werden - da Flussmittel beim Entlöten verbraucht wird, lasse einen halben Zentimeter Abstand zum benutzten Teil der Entlötlitze.
