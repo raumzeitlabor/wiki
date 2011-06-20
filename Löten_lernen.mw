@@ -101,6 +101,13 @@ Erklärende Hinweise:
 # Setze die Entlötpumpe an und löse sie aus. Das flüssige Lötzinn wird dann in die Pumpe gesaugt.
 # Bei Bedarf den Vorgang mehrfach wiederholen.
 
+Wichtig:
+* Lagere die Entlötpumpe niemals in gespanntem Zustand, denn dann ermüdet die Feder und die Entlötpumpe wird unbrauchbar.
+* Reinige die Entlötpumpe regelmäßig. Wenn du das kalte Lötzinn aus der Spitze der Pumpe drücken kannst, war es zuviel.
+* Entlötpumpen haben im Regelfall eine Spitze aus Silikon. Du kannst also die Lötpumpe für eine kurze Zeit auf dem Lötkolben platzieren.
+
+Eine Alternative zur Entlötpumpe stellt Entlötlitze dar. Dies wird zu einem späteren Zeitpunkt dokumentiert.
+
 === Übung 6: Eine Verbindung herstellen ===
 [[Datei:loetverbindung.jpg|miniatur|Zwei Bauteile mit Lötverbindung.]]
 '''Lernziel:''' Auf den Platinen ist es manchmal nötig eine Verbindung zwischen zwei Lötstellen herzustellen. Längere Lötverbindungen solltest Du vermeiden, bzw. sie durch eine ordentliche Drahtverbindung zusammenbringen. Ich habe auch schon längere Lötverindungen gesehen, sie sind oftmals aber nur Resultat von schlechtem Platinendesign.
