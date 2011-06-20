@@ -111,11 +111,12 @@ Eine Alternative zur Entlötpumpe stellt Entlötlitze dar. Dies wird zu einem sp
 === Übung 6: Eine Verbindung herstellen ===
 [[Datei:loetverbindung.jpg|miniatur|Zwei Bauteile mit Lötverbindung.]]
 '''Lernziel:''' Auf den Platinen ist es manchmal nötig eine Verbindung zwischen zwei Lötstellen herzustellen. Längere Lötverbindungen solltest Du vermeiden, bzw. sie durch eine ordentliche Drahtverbindung zusammenbringen. Ich habe auch schon längere Lötverindungen gesehen, sie sind oftmals aber nur Resultat von schlechtem Platinendesign.
-# Löte die Bauteile an der gwünschten Position fest.
+# Löte die Bauteile an der gewünschten Position fest.
 # Beginne an einem Bauteil, erhitze das Lötzinn an dieser Stelle solange bis es wieder flüssig wird. Gebe Lötzinn dazu und ziehe den Lötkolben unter gleichmäßiger Zugabe von Lötzinn bis zu der gewünschten Position. 
 # Achte darauf, dass auch an der Anschlussstelle das Lötzinn wieder flüssig wird und das Bauteil richtig umfließt. Ab jetzt sind beide Bauteile miteinander verbunden.
 # Sollte es zwischendurch zu Unterbrechungen gekommen sein, dann erhitze diese Stelle mit dem Lötkolben, gebe bei Bedarf noch etwas Lötzinn hinzu und schließe die Unterbrechung.
 
+Grundsätzlich sind allerdings diese "Tröpfchenverbindungen" nicht schön, da sie schwer zu Löten sind. Nutze besser einen gebogenen Draht. Das richtige Drahtbiegen kannst du gerne bei uns erfragen, einen Mini-Guide gibt es leider noch nicht.
 ----
 
 == Tipps ==
