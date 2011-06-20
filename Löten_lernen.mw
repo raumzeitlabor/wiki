@@ -111,7 +111,7 @@ Erklärende Hinweise:
 # Spanne die Platine wieder in der helfenden Hand ein.
 # Erhitze sowohl den Draht des Bauteils, als auch das Kupfer auf der Platine. Führe nun das Lötzinn zu. Du wirst sehen, es umschließt den Draht vollkommen und fließt dabei auch in das Loch - die Verbindung ist somit perfekt. Wenn Du nur den Draht erhitzt, dann kann das Zinn die Verbindung mit der Platine nicht richtig herstellen – ein Wackelkontakt oder eine sogenannte kalte Lötstelle ist vorprogrammiert.
 
-=== Übung 5: Entlöten ===
+=== Übung 5: Entlöten mit Entlötpumpe ===
 [[Datei:entloetpumpe.jpg|miniatur|Mit dieser Entlötpumpe können Lötfehler beseitigt werden.]]
 '''Lernziel:''' Leider passieren immer mal wieder Fehler beim Löten. Wenn Du zuviel Lötzinn verwendet hast, es über die Platine gelaufen ist oder Du ein Bauteil wieder von der Platine lösen möchtest, dann kannst Du eine Entlötpumpe verwenden.
 # Bereite die Entlötpumpe vor, bei meiner Version muss über eine Feder die Pumpe gespannt werden.
@@ -124,9 +124,20 @@ Wichtig:
 * Reinige die Entlötpumpe regelmäßig. Wenn du das kalte Lötzinn aus der Spitze der Pumpe drücken kannst, war es zuviel.
 * Entlötpumpen haben im Regelfall eine Spitze aus Silikon. Du kannst also die Lötpumpe für eine kurze Zeit auf dem Lötkolben platzieren.
 
-Eine Alternative zur Entlötpumpe stellt Entlötlitze dar. Dies wird zu einem späteren Zeitpunkt dokumentiert.
+=== Übung 6: Entlöten mit Entlötlitze ===
+'''Lernziel:''' Eine Alternative zur Entlötpumpe stellt eine Entlötlitze dar. Eine Entlötlitze besteht aus einem engmaschigen Geflecht aus Kupferdraht, das mit einem Flussmittel behandelt ist. Durch das engmaschige Geflecht besitzt die Entlötlitze eine große Oberfläche. Beim Erhitzen kann durch diese große Oberfläche in Verbindung mit dem Flussmittel Lötzinn von einer Lötstelle auf die Entlötlitze gezogen werden, wodurch die Lötstelle von Lötzinn gereinigt wird.
+# Vorbereitung: Erhöhe die Temperatur des Lötkolbens um 20-30°C, rolle ein längeres Stück (10cm) Entlötlitze von der Rolle und greife es mit einer Spitzzange
+# Lege die Entlötlitze über die Lötstelle und drücke leicht mit dem Lötkolben auf die Entlötlitze
+# Nach kurzer Zeit siehst Du, wie das Lötzinn von der Lötstelle auf die Entlötlitze übergeht - entferne nun gleichzeitig die Entlötlitze von der Lötstelle und den Lötkolben.
+# Falls die Lötstelle noch mit Lötzinn verunreinigt ist, wiederhole den Vorgang mit einem noch sauberen Teil der Entlötlitze
+# Vergiss nicht nach dem Entlöten, die Temperatur des Lötkolbens wieder zu verringern.
 
-=== Übung 6: Eine Verbindung herstellen ===
+Wichtig:
+* Die Entlötlitze leitet wunderbar die Hitze - rolle daher immer ausreichend Entlötlitze von der Rolle und benutze eine Spitzzange o.Ä. zum Festhalten.
+* Entferne nach dem Übertragen des Lötzinns von der Lötstelle auf die Entlötlitze nie erst den Lötkolben, da sonst die Entlötlitze mit dem Bauteil verlötet wird - erst Entlötllitze vom Bauteil, dann den Lötkolben entfernen
+* Gebrauchte Entlötlitze kann mit einem Seitenschneider abgetrennt werden - da Flussmittel beim Entlöten verbraucht wird, lasse einen halben Zentimeter Abstand zum benutzten Teil der Entlötlitze.
+
+=== Übung 7: Eine Verbindung herstellen ===
 [[Datei:loetverbindung.jpg|miniatur|Zwei Bauteile mit Lötverbindung.]]
 '''Lernziel:''' Auf den Platinen ist es manchmal nötig eine Verbindung zwischen zwei Lötstellen herzustellen. Längere Lötverbindungen solltest Du vermeiden, bzw. sie durch eine ordentliche Drahtverbindung zusammenbringen. Ich habe auch schon längere Lötverindungen gesehen, sie sind oftmals aber nur Resultat von schlechtem Platinendesign.
 # Löte die Bauteile an der gewünschten Position fest.
