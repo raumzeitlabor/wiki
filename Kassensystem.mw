@@ -65,11 +65,13 @@ Generell gilt: nur im Voraus!
 * Einkauf: <u>EID</u>, PID, UID, Lieferant, DatumEinkauf, VerfallsDatum, Menge, EKPreis
 ** EKPreis wird als Basis für Berechnung der Standardkondition herangezogen
 ** Überlegung, ob FIFO (vermutlich), LIFO oder Durchschnitt genommen werden soll
-* Kondition: <u>KID</u>, GID, UID, PID, Menge, Faktor, Preis, Kommentar, DatumStart, DatumEnde
+* Kondition: <u>KID</u>, GID, UID, PID, Menge, Aufschlag, Preis, Kommentar, DatumStart, DatumEnde
 ** ermöglicht granulare Preissteuerung bis auf den Käufer (z.B. bei Geburtstag)
 ** jede Gruppe sollte einen GID Eintrag haben (ohne UID und PID) mit Standardfaktor (vom EK)
-** entweder Faktor oder Preis ist gesetzt (nie beides)
+** drei Konditionsarten möglich: Aufschlag, (Fix-)Preis, und Aufschlag mit Abgabe (z.B. für Pfand)
 ** DatumEnde muss nicht gesetzt sein (unbegrenzt)
+* PreisCache: <u>PCID</u>, <u>KID</u>, Preis
+** muss bei Erstellung von Konditionen sowie Einkäufen aktualisiert/generiert werden
 * Verkauf: <u>VID</u>, GID, UID, DatumKauf, Total
 ** UID ist nur auf Wunsch gesetzt, um Historie einsehen zu können
 * VerkaufsPosition: <u>PosID</u>, VID, KID, PID, Menge, Summe
