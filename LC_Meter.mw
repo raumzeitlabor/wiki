@@ -8,15 +8,25 @@
 |version     = 1.0
 }}
 
-Das LC Meter dient zum messen von Kapazitäten (Kondensator) und Induktivitäten (Spulen). 
+Das LC Meter dient zum messen von Kapazitäten (Kondensator - keine Elkos) und Induktivitäten (Spulen). 
 
+==Funktionsbeschreibung==
 
-===Funktionsbeschreibung===
+Zum Einschalten Schalter(1) benutzen. Das Messobjekt zwischen roter Buchse(2) und schwarzer Buchse(3) mit Messleitungen anschließen.
 
-Zum einschalten Schalter(1) benutzen. Das Messobjekt zwischen roter Buchse(2) und schwarzer Buchse(3) mit Messleitungen anschließen.
+Mittels "Mode"-Taster den gewünschten Messmodus auswählen. Danach "Start" drücken, um die Messung durchzuführen.
 
+=== Kondensatoren messen ===
 
-===Fotos===
+Es können alle Kondensatortypen außer Elektrolytkondensatoren gemessen werden.
+
+=== Spulen messen ===
+
+=== Kalibrierung ===
+
+Vor der eigentlichen Messung bietet es sich an, eine Kalibrierung durchzuführen. Hierzu die Messleitungen anschließen und den Taster "Kalibrierung" drücken.
+
+==Fotos==
 
 * Ein Paar Bilder vom Aufbau
 {|
@@ -28,5 +38,18 @@ Zum einschalten Schalter(1) benutzen. Das Messobjekt zwischen roter Buchse(2) un
 |-
 | [[Datei:IMG 0303a.JPG|300px|thumb|Spannungsversorgungplatinengehäuselöscher bohren]]
 |}
+
+== Aufbau ==
+
+Das LC-Meter besteht aus 2 Platinen:
+
+* Spannungsversorgung Eingang 12-30V mit Verpolungsschutz und stabilisierung über 1000µF Elko, Ausgang 9V
+* LC-Meter-Mainboard
+
+Wir verwenden 2 getrennte Spannungsregler (1x 7809 und 1x 7805), da wir für die Verstärkerschaltung/Komparator 9V benötigen und für den Atmel sowie die Peripherie 5V.
+
+==Ursprung==
+
+Die ursprüngliche Schaltung stammt von Bernhard Erfurth und wurde auf [http://www.mikrocontroller.net/topic/60797 mikrokontroller.net] veröffentlicht. 
 
 [[Kategorie:Projekt]]
