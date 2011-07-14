@@ -1,0 +1,32 @@
+{{ProjektInfoBox
+|name        = LC Meter
+|status      = stable
+|image       = IMG 0303a.JPG
+|description = 
+|author      = Felicitus
+|username    = Felicitus
+|version     = 1.0
+}}
+
+Das LC Meter dient zum messen von Kapazitäten (Kondensator) und Induktivitäten (Spulen). 
+
+
+===Funktionsbeschreibung===
+
+Zum einschalten Schalter(1) benutzen. Das Messobjekt zwischen roter Buchse(2) und schwarzer Buchse(3) mit Messleitungen anschließen.
+
+
+===Fotos===
+
+* Ein Paar Bilder vom Aufbau
+{|
+| [[Datei:IMG 0299.JPG|300px|thumb|Frontplatten Herstellung]]
+| [[Datei:IMG 0300.JPG|300px|thumb|Schaltungs foo]]
+|-
+| [[Datei:IMG 0301a.JPG|300px|thumb|Gehäuse foo]]
+| [[Datei:IMG 0302.JPG|300px|thumb|Frontplatten Herstellung mehr Löcher]]
+|-
+| [[Datei:IMG 0303a.JPG|300px|thumb|Spannungsversorgungplatinengehäuselöscher bohren]]
+|}
+
+[[Kategorie:Projekt]]
