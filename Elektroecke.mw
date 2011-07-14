@@ -11,19 +11,33 @@
 |license     = 
 |download    = 
 }}
-Die Elektroecke bietet Platz für Schaltungsentwicklung, Lötarbeiten, Fehlersuche, Schaltungsanalyse und Messarbeiten. Dafür stehen eine vielzahl an Geräten, Zubehör und Software bereit. Ausserdem werden Bauteile gelagert (Anzahl der verschidenen Bauteile: 2046 vorhandenen Bauteile: 41117) und mittels Software (Partkeepr / nicht mehr PartDB) verwaltet.
+[[Image:IMG 0283.JPG|thumb|250px|right|Bild der E-Ecke]]
+Die Elektroecke bietet Platz für Schaltungsentwicklung, Lötarbeiten, Fehlersuche, Schaltungsanalyse und Messarbeiten. Dafür stehen eine vielzahl an Geräten, Zubehör und Software bereit. Ausserdem werden Bauteile gelagert und mittels Software verwaltet.
 
-[[Image:IMG 0283.JPG|thumb|500px|left]]
+die Elektroecke hat derzeit 3 Arbeitsplätze. Die Arbeitsplätze auf der rechten Seite sind primär für Löt- und Messarbeiten ausgelegt, der Arbeitsplatz auf der linken Seite primär nur für Lötarbeiten. Die Rollcontainer sind entsprechend bestückt.
+
+== Gerätenutzung ==
+
+Bei einigen Geräten ist vorher die Erlaubnis des/der Eigentümer einzuholen. Diese Geräte sind besonders beschriftet, bitte beachten!
+
+== Rechner Elektroecke ==
+
+Der Rechner in der Elektroecke ist öffentlich nutzbar. Allerdings ist dieser primär für Nutzer der Elektroecke gedacht - wenn du also nur darauf chatten möchtest und jemand anders den Rechner benötigt, mache ihn bitte frei. Für Chatzwecke stehen auf der oberen Ebene öffentliche Notebooks bereit.
+
+== Ordnung ==
+
+Bitte räume nach der Nutzung die Geräte/Werkzeuge wieder an ihren Platz. 
+
+== Unterkategorien ==
+
 {| style="width:100%"
 |[[image:Oscilloscope.svg|200px|center|link=Elektroecke/Geräte]]
 |[[image:Schublade.JPG|200px|center|link=Elektroecke/Geräte/Zubehoer]]
-|[[image:Partdb2.jpg|200px|center|link=Partdb]]
-|[[image:Partdb2.jpg|200px|center|link=Bauteildatenbank]]
+|[[image:Partdb2.jpg|200px|center|link=PartKeepr]]
 |-
 |style="text-align:center" | [[Elektroecke/Geräte | Geräte]]
 |style="text-align:center" | [[Elektroecke/Geräte/Zubehoer | Messzubehör]]
-|style="text-align:center" | [[Partdb | Bauteildatenbank]] <br> PartDB
-|style="text-align:center" | [[Bauteildatenbank | Bauteildatenbank]] <br> PartKeepr in Entwicklung
+|style="text-align:center" | [[PartKeepr | Bauteildatenbank]] <br> PartKeepr
 |}
 == Beteiligte/Danksagungen ==
 * AlexanderB
