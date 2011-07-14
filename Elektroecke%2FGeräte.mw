@@ -320,12 +320,22 @@
 |status        = OK
 }}
 
-=== Microscop ===
+=== Microskop ===
 {{RowInfoBox
 |bild          = Usb-cam.JPG
 |hersteller    = [http://www.dnt.de dnt Drahtlose Nachrichtentechnik GmbH]
 |typ           = 200 fach, USB
 |beschreibung  = 1.3MP
+|doku          = 
+|status        = OK
+}}
+
+=== Monitor ===
+{{RowInfoBox
+|bild          = Monitor_E-Ecke.jpg
+|hersteller    = 
+|typ           = 200 fach, USB
+|beschreibung  = 1600x1200, DVI und VGA-Eingang. Achtung, der Monitor scheint erst im Laufe der Zeit heller zu werden
 |doku          = 
 |status        = OK
 }}
