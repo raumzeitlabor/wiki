@@ -18,9 +18,22 @@ Zum Einschalten Schalter(1) benutzen. Das Messobjekt zwischen roter Buchse(2) un
 
 Mittels "Mode"-Taster(6) den gewünschten Messmodus auswählen. Danach "Start"-Taster(7) drücken, um die Messung durchzuführen.
 
-[[Datei:LC_Meter2.JPG|600px|thumb|left]]
 
 
+{|
+|colspan=2|[[Datei:LC_Meter2.JPG|600px|thumb|left]]
+|-
+|
+*LED(1) - Relais 1
+*LED(2) - Relais 2 
+*LED(3) - Relais 3
+*LED(4) - Relais 4
+*LED(5) - Relais Kalibrierung
+*LED(6) - Power
+*LED(7) - 
+*LED(8) - 
+*LED(9) - 
+|
 * Schalter(1) - Power
 * Buchse(2) - Messbuchse
 * Buchse(3) - Messbuchse
@@ -32,17 +45,7 @@ Mittels "Mode"-Taster(6) den gewünschten Messmodus auswählen. Danach "Start"-T
 * Taster(9) - 
 * Taster(10) - Kalibrierung
 
-
-*LED(1) - Relais 1
-*LED(2) - Relais 2 
-*LED(3) - Relais 3
-*LED(4) - Relais 4
-*LED(5) - Relais Kalibrierung
-*LED(6) - Power
-*LED(7) - 
-*LED(8) - 
-*LED(9) - 
-
+|}
 === Kondensatoren messen ===
 
 Es können alle Kondensatortypen außer Elektrolytkondensatoren gemessen werden.
