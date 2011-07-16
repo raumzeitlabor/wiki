@@ -36,7 +36,7 @@ Mittels "Mode"-Taster(6) den gewünschten Messmodus auswählen. Danach "Start"-T
 *LED(3) - Relais 3
 *LED(4) - Relais 4
 *LED(5) - Relais Kalibrierung
-*LED(6) - 
+*LED(6) - Power
 *LED(7) - 
 *LED(8) - 
 *LED(9) - 
@@ -61,8 +61,16 @@ Vor der eigentlichen Messung bietet es sich an, eine Kalibrierung durchzuführen
 | [[Datei:IMG 0301a.JPG|300px|thumb|Gehäuse foo]]
 | [[Datei:IMG 0302.JPG|300px|thumb|Frontplatten Herstellung mehr Löcher]]
 |-
-| [[Datei:IMG 0303a.JPG|300px|thumb|Spannungsversorgungplatinengehäuselöscher bohren]]
+| [[Datei:IMG 0303a.JPG|300px|thumb|Spannungsversorgungplatinengehäuselöcher bohren. Hier erkennt man gut die Löcher des "Originalproduktes" (ein MGA/CGA auf EGA Konverter+6x Splitter)]]
+| [[Datei:LC_Meter_Lackierte_Frontplatten.jpg|300px|thumb|Die überflüssigen Löcher des "Originalproduktes" wurden mit Flüssigmetall gefüllt und die Front/Rückplatte schwarz lackiert]]
+|-
+| [[Datei:LC_Meter_Passtest.jpg|300px|thumb|Die Bedienelemente wurden testweise eingebaut, danach folgt die Verkabelung]]
+| [[Datei:LC_Meter_25.jpg|300px|thumb|Bedienelemente komplett eingebaut]]
+|-
+| [[Datei:LC_Meter_Innen.jpg|300px|thumb|Innenansicht, komplett aufgebaut]]
 |}
+
+
 
 == Aufbau ==
 
@@ -73,6 +81,9 @@ Das LC-Meter besteht aus 2 Platinen:
 
 Wir verwenden 2 getrennte Spannungsregler (1x 7809 und 1x 7805), da wir für die Verstärkerschaltung/Komparator 9V benötigen und für den Atmel sowie die Peripherie 5V.
 
+{|
+| [[Datei:LC Meter nur Platinen.jpg|300px|thumb|Die 7809-Platine und das Mainboard]]
+|}
 ==Ursprung==
 
 Die ursprüngliche Schaltung stammt von Bernhard Erfurth und wurde auf [http://www.mikrocontroller.net/topic/60797 mikrokontroller.net] veröffentlicht. 
