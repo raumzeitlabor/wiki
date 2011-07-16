@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = 78xx-Platine
 |status      = stable
-|image       = 
+|image       = 78xx-Platine.jpg
 |description = Eine kleine Platine für die 78xx-Serie mit dickem Kühlkörper.
 |author      = nessi
 |username    = nessi
@@ -55,7 +55,7 @@ Eine kleine Platine für die 78xx-Serie mit dickem Kühlkörper, aufgebaut auf S
 |1
 |Kühlkörper für TO-220
 |A0013
-|Es müssen für den Kühlkörper Löcher in die Platine gebohrt werden.
+|Es müssen für den Kühlkörper Löcher in die Platine gebohrt werden. Da nicht viele von diesen dicken Kühlkörpern mehr vorhanden sind, kannst du dir alternativ einen TO-220 aus z.B. A0084 nehmen.
 |-
 |7.
 |1
