@@ -11,8 +11,6 @@
 
 Das LC Meter dient zum messen von Kapazitäten (Kondensator - keine Elkos) und Induktivitäten (Spulen). 
 
-'''Derzeit ist nur die C-Messung (Kapazität = hauptsächlich Kondensatoren) möglich. L muß noch debuggt werden'''
-
 ==Funktionsbeschreibung==
 
 Zum Einschalten Schalter(1) benutzen. Das Messobjekt zwischen roter Buchse(2) und schwarzer Buchse(3) mit Messleitungen anschließen.
@@ -49,12 +47,40 @@ Mittels "Mode"-Taster(6) den gewünschten Messmodus auswählen. Danach "Start"-T
 |}
 === Kondensatoren messen ===
 
-Es können alle Kondensatortypen außer Elektrolytkondensatoren gemessen werden. Hierzu den Taster "Mode" (6) solange drücken, bis der entsprechende Eintrag erscheint.
+Es können alle Kondensatortypen außer Elektrolytkondensatoren gemessen werden.
 
-Die Kapazität wird in Picofarad (pF) angegeben. Der Wert wird in deutschem Format angezeigt.
+# Den Taster "Mode" (6) solange drücken, bis der Eintrag "Kondensator" erscheint.
+# Die Messleitungen anschließen, aber noch '''nicht''' den zu messenden Kondensator
+# Den Taster "Kalibrierung" (10) drücken
+# Die Kalibrierung abwarten, danach den Kondensator anschließen
+# Die Taste "Start Messung" (7) drücken
+
+Die Kapazität wird in Picofarad (pF) angezeigt. Der Wert wird in deutschem Format angezeigt, z.B. 329.550,5pF für 329,55nF.
 
 === Spulen messen ===
 
+Es gibt 2 verschiedene Arten, die Messung durchzuführen: Parallel und in Reihe. Hierbei wird allerdings nicht die Messinduktivität anders angeschlossen, sondern lediglich der interne Aufbau der Testschaltung verändert.
+
+Kleine Induktivitäten lassen sich besser seriell messen, große Induktivitäten besser parallel.
+
+'''Spule parallel messen'''
+
+# Den Taster "Mode" (6) solange drücken, bis der Eintrag "L parallel" erscheint.
+# Die Messleitungen anschließen, aber noch '''nicht''' die zu messende Induktivität
+# Den Taster "Kalibrierung" (10) drücken
+# Die Kalibrierung abwarten, danach die Induktivität anschließen
+# Die Taste "Start Messung" (7) drücken
+
+Die Induktivität wird in Microhenry (µH) angezeigt. Bei unplausiblen Werten kann es sein, daß die Induktivität defekt, zu klein oder zu groß ist. Induktivitäten unter 100µH sind nicht ordentlich messbar.
+
+''' Spule in Reihe messen'''
+
+''' ACHTUNG: FUNKTIONIERT NOCH NICHT RICHTIG '''
+# Den Taster "Mode" (6) solange drücken, bis der Eintrag "L Reihe" erscheint.
+# Die Messleitungen anschließen, aber noch '''nicht''' die zu messende Induktivität
+# Den Taster "Kalibrierung" (10) drücken
+# Die Kalibrierung abwarten, danach die Induktivität anschließen
+# Die Taste "Start Messung" (7) drücken
 === Kalibrierung ===
 
 Vor der eigentlichen Messung bietet es sich an, eine Kalibrierung durchzuführen. Hierzu die Messleitungen anschließen und den Taster(10) "Kalibrierung" drücken.
