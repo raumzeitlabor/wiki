@@ -37,18 +37,20 @@ Mittels "Mode"-Taster(6) den gewünschten Messmodus auswählen. Danach "Start"-T
 * Schalter(1) - Power
 * Buchse(2) - Messbuchse
 * Buchse(3) - Messbuchse
-* Taster(4) - 
-* Taster(5) - 
+* Taster(4) - Wert+ (nur im Settings-Menü)
+* Taster(5) - Menu+
 * Taster(6) - Mode
 * Taster(7) - Start Messung
-* Taster(8) - 
-* Taster(9) - 
+* Taster(8) - Wert- (nur im Settings-Menü)
+* Taster(9) - Menu-
 * Taster(10) - Kalibrierung
 
 |}
 === Kondensatoren messen ===
 
-Es können alle Kondensatortypen außer Elektrolytkondensatoren gemessen werden.
+Es können alle Kondensatortypen außer Elektrolytkondensatoren gemessen werden. Hierzu den Taster "Mode" (6) solange drücken, bis der entsprechende Eintrag erscheint.
+
+Die Kapazität wird in Picofarad (pF) angegeben. Der Wert wird in deutschem Format angezeigt.
 
 === Spulen messen ===
 
