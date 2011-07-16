@@ -1,0 +1,65 @@
+{{ProjektInfoBox
+|name        = 78xx-Platine
+|status      = stable
+|image       = 
+|description = Eine kleine Platine für die 78xx-Serie mit dickem Kühlkörper.
+|author      = nessi
+|username    = nessi
+|version     = 1.0
+|download    = [[Datei:78xx-Platine.7z]]
+}}
+
+Eine kleine Platine für die 78xx-Serie mit dickem Kühlkörper, aufgebaut auf Streifenraster, mit Schraubklemme für einfache Montage.
+
+== Stückliste ==
+
+{| class="wikitable"
+|-
+!Position
+!Anzahl
+!Bezeichnung
+!Fach
+!Hinweis
+|-
+|1.
+|1
+|3/2-5,08 Printklemme 2-polig
+|A0020
+|Achtung, darin liegen Klemmen mit 2 und 3 bestückten Polen. Du brauchst eine Klemme mit 3 bestückten Polen
+|-
+|2.
+|1
+|1N4001
+|B0005
+|
+|-
+|3.
+|1
+|Elko 1000µF
+|B0183 oder B0216
+|Der Elko muß die geplante Eingangsspannung verkraften. Außerdem: Messe den Elko nach! Der Durchmesser sollte 13mm oder weniger betragen (oder du mußt die Platine etwas breiter machen).
+|-
+|4.
+|1
+|0.33µF Folienkondensator
+|
+|Folienkondensator auf Eingangsseite
+|-
+|5.
+|1
+|0.1µF Folienkondensator
+|
+|Folienkondensator auf Ausgangsseite
+|-
+|6.
+|1
+|Kühlkörper für TO-220
+|A0013
+|Es müssen für den Kühlkörper Löcher in die Platine gebohrt werden.
+|-
+|7.
+|1
+|7805, 7809, 7812 etc.
+|
+|Je nach Ausgangsspannung kannst du dir den entsprechenden 78-er Typ aussuchen - die Werte für die Kondensatoren ändern sich dadurch nicht.
+|}
