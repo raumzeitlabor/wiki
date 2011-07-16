@@ -10,6 +10,8 @@
 
 Das LC Meter dient zum messen von Kapazitäten (Kondensator - keine Elkos) und Induktivitäten (Spulen). 
 
+'''Derzeit ist nur die C-Messung (Kapazität = hauptsächlich Kondensatoren) möglich. L muß noch debuggt werden'''
+
 ==Funktionsbeschreibung==
 
 Zum Einschalten Schalter(1) benutzen. Das Messobjekt zwischen roter Buchse(2) und schwarzer Buchse(3) mit Messleitungen anschließen.
