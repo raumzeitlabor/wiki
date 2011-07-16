@@ -9,7 +9,12 @@
 |download    = [[Datei:78xx-Platine.7z]]
 }}
 
-Eine kleine Platine für die 78xx-Serie mit dickem Kühlkörper, aufgebaut auf Streifenraster, mit Schraubklemme für einfache Montage.
+[[Datei:78xx-Platine Aufgebaut.jpg|200px|thumb|right|Aufgebaute Platine]]
+Eine kleine Platine für die 78xx-Serie mit dickem Kühlkörper, aufgebaut auf Streifenraster, mit Schraubklemme für einfache Montage und Verpolschutzdiode.
+
+Die 78xx-Serie sind Festspannungswandler, die aus einer variablen Eingangsspannung eine feste Ausgangsspannung erzeugen.
+
+Achtung: Die Spannungswandler arbeiten erst ab einem bestimmtem Offset effektiv - d.h. wenn du einen 7805 verwendest und nur 6V Eingangsspannung hast, wird der 7805 nicht richtig arbeiten. Zusätzlich gibt es einen Spannungsabfall wegen der Verpolschutzdiode. Es bietet sich daher an, mit mindestens 3V Puffer zu arbeiten - wenn du also einen 7805 verwendest, sollte dein Netzteil mindestens 8V liefern.
 
 == Stückliste ==
 
