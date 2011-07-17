@@ -1,15 +1,14 @@
 == Hardware ==
 
-== Erfolge ==
-
-Puppy Linux (aktuelle Version) bootet ohne Probleme auf der Kiste, inkl. xorg.
-
 == Kernel hängt ==
 
 Da viele Kernel zwar für i686 kompiliert wurden, allerdings die CMOV Instruction verwenden, stürzt der VIA EDEN ab, da dieser es nicht unterstützt.
 
 [http://www.google.com/search?ie=UTF-8&q=via+cmov Infos bei Google]
 
+== Erfolge ==
+
+Puppy Linux (aktuelle Version) bootet ohne Probleme auf der Kiste, inkl. xorg.
 
 [[Datei:IMG 0311.JPG|thumb|500px|left|Neoware CA2]]
 [[Datei:IMG 0317.JPG|thumb|500px|left|Neoware CA2]]
