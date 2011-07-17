@@ -1,9 +1,28 @@
+{{ProjektInfoBox
+|name        = Telefön
+|status      = beta
+|image       = Telefön.png
+|description = 
+|author      = Felicitus nessi
+|version     = 0.1
+}}
+
+==Plan==
+[[bild:Telefoen.jpg|250px|left|thumb]]
+
+==ToDo==
+
+==Info==
+
 http://www.atmel.com/dyn/resources/prod_documents/doc2572.pdf
 
 https://github.com/nessi/telefoen
 
+http://www.pollin.de/shop/dt/NjU4OTgxOTk-/Bausaetze_Module/Module/3_Achsen_Beschleunigungssensor_Modul.html
 Lagesensor Pollin
 
 USB Stick RFM
 
-[[Datei:Telefoen.pdf | Telefoen]]
+[[Media:Telefoen.pdf | Telefoen]]
+
+[[Kategorie:Projekt]]
