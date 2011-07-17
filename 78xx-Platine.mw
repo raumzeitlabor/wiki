@@ -68,3 +68,18 @@ Achtung: Die Spannungsregler arbeiten erst ab einem bestimmtem Offset effektiv -
 |
 |Je nach Ausgangsspannung kannst du dir den entsprechenden 78-er Typ aussuchen - die Werte für die Kondensatoren ändern sich dadurch nicht.
 |}
+
+== Version mit Sicherung ==
+
+Um den Spannungsabfall an der Diode loszuwerden, kann man die Diode umgekehrt einsetzen und damit dafür sorgen, daß sie bei Verpolung einen Kurzschluss herstellt. Da man aber keine diodenbasierte Heizung haben will, baut man vor der Diode noch eine Sicherung ein. Dann fliegt also im Verpolungsfall nur die Sicherung. In die zwei Stiftsockel lässt sich z.b. eine Picofuse von [http://www.reichelt.de/?GROUPID=3305] einsetzen.
+
+{{ProjektInfoBox
+|name        = 78xx-Platine mit Sicherung
+|status      = stable
+|image       = 78xx-Platine+sicherung.jpg
+|description = Eine kleine Platine für die 78xx-Serie mit dickem Kühlkörper und Sicherung
+|author      = sur5r
+|username    = sur5r
+|version     = 1.0
+|download    = [[Datei:78xx-Platine-mit-Sicherung.lm4]]
+}}
