@@ -1,0 +1,8 @@
+== Hardware ==
+
+
+== Kernel hängt ==
+
+Da viele Kernel zwar für i686 kompiliert wurden, allerdings die CMOV Instruction verwenden, stürzt der VIA EDEN ab, da dieser es nicht unterstützt.
+
+[http://www.google.com/search?ie=UTF-8&q=via+cmov Infos bei Google]
