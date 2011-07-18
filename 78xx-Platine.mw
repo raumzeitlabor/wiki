@@ -73,6 +73,7 @@ Achtung: Die Spannungsregler arbeiten erst ab einem bestimmtem Offset effektiv -
 
 Um den Spannungsabfall an der Diode loszuwerden, kann man die Diode umgekehrt einsetzen und damit dafür sorgen, daß sie bei Verpolung einen Kurzschluss herstellt. Da man aber keine diodenbasierte Heizung haben will, baut man vor der Diode noch eine Sicherung ein. Dann fliegt also im Verpolungsfall nur die Sicherung. In die zwei Stiftsockel lässt sich z.b. eine Picofuse von [http://www.reichelt.de/?GROUPID=3305] einsetzen.
 
+Update von Felicitus: Optimiertes Layout für die Variante mit Sicherung, anstatt der PicoFuse kann man auch die Stiftsockel wieder einsetzen. Den Sicherungshalter für die Kleinstsicherung gibt's bei [http://www.reichelt.de/Sicherungshalter/PL-166600/index.html?;ACTION=3;LA=2;ARTICLE=17544;GROUPID=3308;SID=13TaO4Q38AAAIAAF5XDXg4901007c1db8252a4669347acce4fcff], die dazugehörigen Kleinstsicherungen bei [http://www.reichelt.de/Miniatur-Sicherungen/0/500/index.html?;ACTION=2;LA=3;GROUP=C47;GROUPID=3306;START=0;OFFSET=500;SHOW=1;SID=13TaO4Q38AAAIAAF5XDXg4901007c1db8252a4669347acce4fcff]
 {{ProjektInfoBox
 |name        = 78xx-Platine mit Sicherung
 |status      = stable
