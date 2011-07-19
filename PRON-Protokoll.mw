@@ -1,0 +1,217 @@
+================================================================================
+RZL1337                          PRON-Wall Protocol                    Juli 2011
+================================================================================
+
+1 Introduction
+--------------
+
+This PRON-Wall Protocol (PWP) is defined to make available a datagram mode of
+communicating with a series of dot matrix light panels working together to form 
+a display. This protocol assumes that the ethernet protocol [1] is used as the
+underlying protocol.
+
+This protocol provides a procedure for application programs to send messages 
+to light panels with a minimum of protocol mechanism. The protocol is 
+transaction oriented.
+
+1.1 Terminology
+---------------
+
+panel
+      A device connected to the network, with a unique MAC address.
+      
+subpanel
+      A logical unit for displaying pictures. All Subpanels belong to a panel.
+
+display
+      The set of panels logically connected to the same Ethernet segment.
+
+client
+      The system that sends requests to the display (user equipment).
+
+1.2 Hardware setup
+------------------
+
+A display has one ethernet interface (RJ45), power supply and two cinch sockets
+to daisy chain the common interrupt line. Displays are addressed by their MAC
+address (or via broadcast).
+
+2 Communication
+---------------
+
+The following types of frames and packets are used for communication purposes.
+The communication is structured into two parts: the first part deals with the
+configuration of the panel devices and client software, the second part is used
+for the actual image frame transmission and processing. All communication is
+based on the Ethernet protocol.
+
+2.1 Ethernet Frame
+------------------
+
+              0      8     16    24                          63 
+              +-----+-----+-----+-----+-----+-----+-----+-----+
+              |  T  |  V  |  S  |              R              |
+              +-----+-----+-----+-----+-----+-----+-----+-----+
+	      |                   Payload ...
+              +-----+-----+-----+-----...
+				
+    T ... Packet type
+    V ... Version of the protocol (should be 23 for the first version)
+    S ... Subpanel ID
+    R ... Reserved
+
+    Ethertype: 0x2342
+
+2.2 Packet Types
+----------------
+
+The first bit of the packet type defines whether is a request or reply.
+
+    0xxxxxxx ... request message
+    1xxxxxxx ... reply message
+
+There are 
+
+    0x00 ... Scan Request
+    0x80 ... Scan Reply
+    0x01 ... Echo Request
+    0x81 ... Echo Reply
+    0x02 ... Set Master Request
+    0x82 ... Set Master Reply
+    0x03 ... Frame
+    0x83 ... Frame Acknowledgement
+
+2.2.1 Scan Request Payload
+--------------------------
+
+			0		n
+			+---+---+---+---+
+			|       R       |
+			+---+---+---+---+
+
+    R ... Reserved
+
+
+2.2.2 Scan Reply Payload
+------------------------
+
+	0 1           15 16   23 24   31 32    39
+	+-+-----+-------+-------+-------+-------+
+	|T|   BUFSZ     | COLR  |  COLG |  COLB |
+	+-+-----+-------+-------+-------+-------+
+	|      REF      | NSUBP | SUBPR |   X1  |
+	+-------+-------+-------+-------+-------+
+	|  Y1   |   ...
+	+-------+...
+	
+    T      ... Type of display (1 = RGB / 0 = Monochromatic)	
+    BUFSZ  ... Buffer size in frames of the panel
+    COLR   ... Color of panel (Red value)
+    COLG   ... Color of panel (Green value)
+    COLB   ... Color of panel (Blue value)
+    REF    ... Refresh rate of the panel (Hz)
+    NSUBP  ... Number of subpanels in this panel
+    SUBPR  ... Subpanels per row
+    X(1-N) ... Panel Width in pixels
+    Y(1-N) ... Panel Height in pixels
+
+There are as many X,Y pairs as indicated in NSUBP. If NSUBP%SUBPR != 0, the last
+row of subpanels consists of less subpanels than the other rows. "Color of
+panel" could be used for identification in the client UI.
+
+2.2.3 Echo Request Payload
+--------------------------
+
+    0    8   16  24  32
+    +---+---+---+---+---+---+---+---+
+    |       R       |       ID      |
+    +---+---+---+---+---+---+---+---+
+
+    R  ... Reserved
+    ID ... ID of the Echo Request. Should be returned by the other endpoint.
+
+
+2.2.4 Echo Reply Payload
+------------------------
+
+    +---+---+---+---+---+---+---+---+
+    |       R       |       ID      |
+    +---+---+---+---+---+---+---+---+
+
+    R  ... Reserved
+    ID ... ID of the Echo Request as sent by the client.
+
+2.2.5 Set Master Request Payload
+--------------------------------
+
+    +---+---+---+---+---+---+---+---+---+---+
+    |       R       | MAC ADDRESS OF MASTER |
+    +---+---+---+---+---+---+---+---+---+---+
+
+2.2.6 Set Master Reply Payload
+------------------------------
+
+    +---+---+---+---+
+    |     R     | I |
+    +---+---+---+---+
+
+    R ... Reserved
+    I ... Feedback. 1 if the selected Panel is now the Master. 0 if not.
+
+3 Master Autodiscovery
+----------------------
+
+Upon bootup, a device waits at least one interrupt interval plus an additional
+random backoff timer. If, during that time, no interrupt was recognized on the
+input line, the device sets up an interrupt by itself and thus serves as the
+master. Also, it informs the connected client about this decision so that
+unlikely, but possible collisions (several masters) can be detected and
+resolved by the client.
+
+4 Image Frames
+--------------
+
+Each frame contains a single image with brightness levels. This image can either
+be a greyscale image or one of the three base colors (R,G,B).
+
+The protocol also supports 3D displays. The two most significant bits are 
+designated for those frames. The most significant bit marks frames that are part
+of a 3D picture, the second one designates a frame for the left eye when it is
+not set and for the right eye when set.
+
+4.1 Image Frame
+---------------
+
+    0    8   16  24    32
+    +---+---+---+---+---+
+    | C | TIME  |  SEQ  |
+    +---+---+---+---+---+
+    |       PIXELS ... 
+    ----------...
+
+    C     ... type of frame (see 4.2)
+    TIME  ... duration in milliseconds frame will be displayed
+    SEQ   ... will be used for retransmissions
+    PIXEL ... each pixel is represented by a single byte, containing the
+              brightness level of this pixel
+
+4.2 Image Frame Types
+---------------------
+
+PWP supports monochromatic/greyscale, 3D and RGB frames. 3D can be achieved
+using the shutter technique with an infrared LED serving as the synchronization
+clock generator.
+
+    00xxxxxx ... normal frame
+    1xxxxxxx ... 3D frame
+    10xxxxxx ... 3D frame for left eye
+    11xxxxxx ... 3D frame for right eye
+    xxxxxx00 ... greyscale frame
+    xxxxxx01 ... red frame
+    xxxxxx10 ... blue frame
+    xxxxxx11 ... green frame
+
+4.3 Sequence number
+-------------------
+
+A sequence number designates the current full picture
