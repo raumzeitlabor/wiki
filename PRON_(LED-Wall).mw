@@ -12,21 +12,18 @@
 |download    = 
 }}
 
-PRON ist unsere LED-Wall, oder soll es zumindest werden. Erstmalig darf sie Teil unserer Rube-Goldberg-Maschine werden und danach einen wunderbaren Platz hier im RZL erhalten.
-
-'''Wichtig: Die hier enthaltenen Informationen sind veraltet und daher mit Vorsicht zu genießen'''
+PRON ist unsere LED-Wall, oder soll es zumindest werden. Eigentlich sollte sie Teil der Rube-Goldberg-Maschine werden, da wir aber immer mehr geplant haben, hat sich die Fertigstellung leicht verzögert.
 
 == Akronym ==
 Namen sind eh nur Schall und Rauch, darum konnten wir uns nicht so ganz entscheiden. Sucht euch halt was aus...
 ===PRON===
-* Public Red Open Notifier
 * PRON Red Open Notifier
-===ROFL===
-* Red Open Flame of LEDs
+
 
 ==Warum?==
-* Ne Menge Spaß für unsere Rube Goldberg-Machine
+* Darum.
 * Pong
+* ASCII-PRON FTW!!!!
 * $your_imagination
 
 ==Unser Plan==
@@ -34,10 +31,10 @@ Namen sind eh nur Schall und Rauch, darum konnten wir uns nicht so ganz entschei
 * 8 Module jeweils 64 x 64 cm mit jeweils 32 x 32 LEDs (1024)
 * Abstand der LEDs (Mitte-Mitte / horizontal & vertikal) 2 cm
 * Anzahl LEDs: 32 x 32 x 8 -> 8192 LEDs
-** Je Modul ein Controller (AVR)
+** Je Modul ein Controller
 ** Zentraler Controller
 * LED-Farbe: Rot
-* DMX zum Ansteuern
+* Ethernet zur Ansteuerung
 
 für später:
 * verschiedene Spiele
@@ -48,20 +45,22 @@ für später:
 ** alternativ: Kabelcontroller mit eigenem Prozessor
 * je nach Spiel hochkant/quer (z.B: Tetris, Pong, Crysis)
 * Uhrzeit
-* Blinkenlights-Protokoll? (Wiederverwendung von Animationen)
+* Blinkenlights
 
 ==Technical==
 ===Ansteuerung===
-* DMX
-** 512 Kanäle mit je 8bit pro Universe -> 2 Universes für gesamte Wall
-** Module einfach umstrukturierbar
-** Implementierung "einfach"
-* USB-to-DMX-Interface für PC-Steuerung
+* Ethernet
+** Je anzuzeigendem Bild brauchen wir nur ein Ethernet Frame
+** Eigenes Protokoll
+** Modulidentifikation via MAC
+
+==Ethernet-Protokoll==
+
+Siehe [[PRON-Protokoll]]
 
 ===Modul===
-* Je Modul ein ATmegaXX
-** Auslesen des DMX-Signals
-** Ausgabe auf LEDs
+* Je Modul ein LPXPRESSO (Awesome MFLOPs!)
+** Ethernet -> LEDs
 
 === Bauteile ===
 * [[Media:Diodenkennlinie_LED_rot_Ali.pdf | Diodenkennlinie LED rot Ali]]
