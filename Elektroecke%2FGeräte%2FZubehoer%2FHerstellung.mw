@@ -1,44 +1,21 @@
-{{ProjektInfoBox
-|name        = Herstellung von 2mm Messleitungen
-|status      = beta
-|image       = Loeten2mmhirschmann.JPG
-|description = Herstellung von 2mm Messleitungen
-|author      = [[Benutzer:Nessi|Nessi]]
-|username    = 
-|version     = 1.0
-|update      = 
-|platform    = 
-|license     = 
-|download    = 
+==Licht & Sound==
+{|style="width:100%;border:2px solid #dfdfdf; background-color:#f8f8ff; padding:8px; font-size: 110%;"
+{{VierProjekteZeile
+|p1bild		= Loeten2mmhirschmann.JPG
+|p1bildSz	= 
+|p1link		= 2mm_Messleitungen
+|p1desc		= Herstellung von 2mm-Messleitungen
+|p2bild		= 
+|p2bildSz	= 
+|p2link		= 
+|p2desc		= 
+|p3bild		= 
+|p3bildSz	= 
+|p3link		= 
+|p3desc		= 
+|p4bild		= 
+|p4bildSz	= 
+|p4link		= 
+|p4desc		= 
 }}
-
-== Herstellung von 2mm Messleitungen ==
-
-1. Litze auf 1m Länge abschneiden. Typ Silicon Litze 1 * 0,5mm² schwarz Bestellnummer Pollin: 560147 <br>
-2. Tülle von beiden Enden über die Litze ziehen.<br>
-3. Litze 3-4mm abisolieren.<br>
-4. Litzenenden verzinnen mit Lötfett und vorzugsweise einem Lötbad.<br>
-[[Datei:Loeten2mmhirschmann.JPG|thumb|center|500px]]
-
-
-
-5. Steckerkontakt verzinnen mit Lötfett und vorzugsweise einem Lötbad. (so, dass sich die Hülse mit Lötzinn füllt, Zange wird empfohlen!). Dann einfach die Litze in die noch heiße Hülse schieben und einen Moment abkühlen lassen, damit das Lötzinn erstarrt.
-[[Datei:Loeten2mmhirschmann2.JPG|thumb|center|500px]]
-
-
-6. Nach dem Abkühlen die Lötverbindung prüfen.<br>
-7. Das Steckergehäuse über den Steckerkontakt schieben.<br>
-
-
-Die neuen Messleitungen mit Abgreifklemme & Adapter auf das 4mm-System & Klemmprüfspitze
-[[Datei:Loeten2mmhirschmann3.JPG|thumb|center|500px]]
-
-
-Hier ein Größenvergleich zwischen dem 2- und 4mm-System: 
-[[Datei:Loeten2mmhirschmann4.JPG|thumb|center|500px]]
-
-== Verbesserungen ==
-
-* Bessere Messleitung finden
-* Flussmittelreste entfernen
-[[Kategorie:Projekt]]
+|}
