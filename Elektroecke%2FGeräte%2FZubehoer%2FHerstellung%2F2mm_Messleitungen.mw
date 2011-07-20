@@ -1,0 +1,64 @@
+{{ProjektInfoBox
+|name        = Herstellung von 2mm Messleitungen
+|status      = beta
+|image       = Loeten2mmhirschmann.JPG
+|description = Herstellung von 2mm Messleitungen
+|author      = [[Benutzer:Nessi|Nessi]]
+|username    = 
+|version     = 1.0
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
+= Herstellung von 2mm Messleitungen =
+Dieser Artikel beschreibt die Herstellung von 2mm Messleitungen.
+
+== Materialliste ==
+
+{| class="wikitable"
+|-
+!Position
+!Anzahl
+!Bezeichnung
+!Hinweis
+|-
+|1.
+|1
+|Silkionleitung 0,5mm²
+|Solikonleitung erhältlich z.b. bei Pollin ( [http://www.pollin.de/shop/dt/MzU4OTM0OTk-/Haustechnik/Kabel_Draehte_Litzen/Litzen/Silikon_Litze_0_5_mm_rot_10_m.html rot] oder [http://www.pollin.de/shop/dt/NjQ4OTM0OTk-/Haustechnik/Kabel_Draehte_Litzen/Litzen/Silikon_Litze_0_5_mm_blau_10_m.html blau] oder [http://www.pollin.de/shop/dt/NTQ4OTM0OTk-/Haustechnik/Kabel_Draehte_Litzen/Litzen/Silikon_Litze_0_5_mm_gelb_10_m.html gelb] oder [http://www.pollin.de/shop/dt/NDQ4OTM0OTk-/Haustechnik/Kabel_Draehte_Litzen/Litzen/Silikon_Litze_0_5_mm_gruen_10_m.html grün] oder [http://www.pollin.de/shop/dt/MjU4OTM0OTk-/Haustechnik/Kabel_Draehte_Litzen/Litzen/Silikon_Litze_0_5_mm_schwarz_10_m.html schwarz])
+|-
+|2.
+|20
+|Hirschmann 2mm-Stecker
+|je 2 Stecker für eine Messleitung werden benötigt. Wir haben in diesem Artikel 10m Litze verwendet, mit einer Länge von ca. 1m pro Meßleitung. Die Stecker sind z.b. erhältlich bei Reichelt ([http://www.reichelt.de/Stecker-Kupplungen/MST-3-BL/index.html?;ACTION=3;LA=444;GROUP=C1721;GROUPID=4890;ARTICLE=13211;START=0;SORT=-preis;OFFSET=500;SID=28CmZl@KwQARwAAEMKIw095f9f8692d269faa86df8d139ebb1016 blau] oder [http://www.reichelt.de/Stecker-Kupplungen/MST-3-SW/index.html?;ACTION=3;LA=444;GROUP=C1721;GROUPID=4890;ARTICLE=13215;START=0;SORT=-preis;OFFSET=500;SID=28CmZl@KwQARwAAEMKIw095f9f8692d269faa86df8d139ebb1016 schwarz] oder [http://www.reichelt.de/Stecker-Kupplungen/MST-3-RT/index.html?;ACTION=3;LA=444;GROUP=C1721;GROUPID=4890;ARTICLE=13214;START=0;SORT=-preis;OFFSET=500;SID=28CmZl@KwQARwAAEMKIw095f9f8692d269faa86df8d139ebb1016 rot] oder [http://www.reichelt.de/Stecker-Kupplungen/MST-3-GE/index.html?;ACTION=3;LA=444;GROUP=C1721;GROUPID=4890;ARTICLE=13212;START=0;SORT=-preis;OFFSET=500;SID=28CmZl@KwQARwAAEMKIw095f9f8692d269faa86df8d139ebb1016 gelb] oder [http://www.reichelt.de/Stecker-Kupplungen/MST-3-GN/index.html?;ACTION=3;LA=444;GROUP=C1721;GROUPID=4890;ARTICLE=13213;START=0;SORT=-preis;OFFSET=500;SID=28CmZl@KwQARwAAEMKIw095f9f8692d269faa86df8d139ebb1016 grün]
+|-
+|3.
+|1
+|Lötfett
+|z.b. von Reichelt [http://www.reichelt.de/Flussmittel-Loetpasten/ULF-10/index.html?;ACTION=3;LA=2;ARTICLE=98664;GROUPID=4132;SID=28CmZl@KwQARwAAEMKIw095f9f8692d269faa86df8d139ebb1016]
+|-
+|}
+
+== Anleitung ==
+[[Datei:Loeten2mmhirschmann.JPG|thumb|right|250px|Die abisolierten Messleitungen inkl. aufgeschobener Tülle]]
+[[Datei:Loeten2mmhirschmann2.JPG|thumb|right|250px|Verzinnen der Steckerkontakte]]
+[[Datei:Loeten2mmhirschmann3.JPG|thumb|right|250px|Die neuen Messleitungen mit Abgreifklemme & Adapter auf das 4mm-System & Klemmprüfspitze]]
+[[Datei:Loeten2mmhirschmann4.JPG|thumb|right|250px|Größenvergleich zwischen dem 2- und 4mm-System]]
+# Litze auf 1m Länge abschneiden.
+# Tülle von beiden Enden über die Litze ziehen.<br>
+# Litze 3-4mm abisolieren.<br>
+# Litzenenden verzinnen mit Lötfett und vorzugsweise einem Lötbad.
+# Steckerkontakt verzinnen mit Lötfett und vorzugsweise einem Lötbad. (so, dass sich die Hülse mit Lötzinn füllt, Zange wird empfohlen!). Dann einfach die Litze in die noch heiße Hülse schieben und einen Moment abkühlen lassen, damit das Lötzinn erstarrt.
+# Nach dem Abkühlen die Lötverbindung prüfen.<br>
+# Das Steckergehäuse über den Steckerkontakt schieben.<br>
+
+
+
+
+== Verbesserungen ==
+
+* Bessere Messleitung finden
+* Flussmittelreste entfernen
+[[Kategorie:Projekt]]
