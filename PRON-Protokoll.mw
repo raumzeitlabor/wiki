@@ -1,8 +1,8 @@
-================================================================================
+ <nowiki>================================================================================
 RZL1337                          PRON-Wall Protocol                    Juli 2011
 ================================================================================
 
-1 Introduction
+ 1 Introduction
 --------------
 
 This PRON-Wall Protocol (PWP) is defined to make available a datagram mode of
@@ -214,4 +214,4 @@ clock generator.
 4.3 Sequence number
 -------------------
 
-A sequence number designates the current full picture
+A sequence number designates the current full picture.</code>
