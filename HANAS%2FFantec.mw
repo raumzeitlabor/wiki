@@ -1,0 +1,200 @@
+* Fantec Boot Log:
+
+<pre>
+PPCBoot 2.0.0-A9 (Mar 27 2007 - 13:25:38)
+
+CPU:   MPC8241 Revision 1.4 at 266.666 MHz: 16 kB I-Cache 16 kB D-Cache
+
+Board: Sandpoint 8241 Unity ##Test not implemented yet##
+
+DRAM:  64 MB
+
+FLASH: Manufacturer code: 0xEC, Device code: 0xA2 :  4 MB
+
+In:    serial
+Out:   serial
+Err:   serial
+EPIC: reset is in process ....doneNet:
+RTL8169S driver v1.5-A4  03-15-2005
+RTL8169#0
+Press space to abort autoboot in 3 second
+  running post....
+## Booting image at ffc10000 ...
+   Image Name:   kernel
+   Image Type:   PowerPC Linux Kernel Image (gzip compressed)
+   Data Size:    1259711 Bytes =  1.2 MB
+   Load Address: 00000000
+   Entry Point:  0000000c
+   Verifying Checksum ...  OK
+   Uncompressing Kernel Image ...  OK
+## Loading RAMDisk Image at fff20000 ...
+   Image Name:   Mpc8241 ramdisk
+   Image Type:   PowerPC Linux RAMDisk Image (gzip compressed)
+   Data Size:    900408 Bytes = 879.3 kB
+   Load Address: 00000000
+   Entry Point:  00000000
+   Verifying Checksum ... OK
+   Loading Ramdisk to 03e71000, end 03f4cd38 ... OK
+before (*kernel) (kbd, initrd_start, initrd_end, cmd_start, cmd_end);Memory BAT mapping: BAT2=64Mb, BAT3=0Mb, residual: 0Mb
+Linux version 2.4.32 (hearn@MARS-V) (gcc version 3.2.3) #1 Tue Nov 13 14:38:38 CST 2007
+Motorola  PMC8241
+PORTING  by  Premier Microelectronics Development
+On node 0 totalpages: 16384
+zone(0): 16384 pages.
+zone(1): 0 pages.
+zone(2): 0 pages.
+Kernel command line: ethaddr=00:08:54:48:FB:D2
+
+ sizeof(OpenPIC_Reg)=16
+OpenPIC Version 1.2 (1 CPUs and 138 IRQ sources) at fc040000
+Decrementer frequency = 133.000000 MHz
+Warning: real time clock seems stuck!
+Calibrating delay loop... 176.94 BogoMIPS
+Memory: 61132k available (1616k kernel code, 896k data, 240k init, 0k highmem)
+Dentry cache hash table entries: 8192 (order: 4, 65536 bytes)
+Inode cache hash table entries: 4096 (order: 3, 32768 bytes)
+Mount cache hash table entries: 512 (order: 0, 4096 bytes)
+Buffer cache hash table entries: 4096 (order: 2, 16384 bytes)
+Page cache: 64MB memory, maximum pages = 5120, maximum inactive pages = 300
+Page-cache hash table entries: 16384 (order: 4, 65536 bytes)
+POSIX conformance testing by UNIFIX
+PCI: Probing PCI hardware
+Linux NET4.0 for Linux 2.4
+Based upon Swansea University Computer Society NET3.039
+Initializing RT netlink socket
+Starting kswapd
+VFS: Disk quotas vdquot_6.5.1
+Journalled Block Device driver loaded
+devfs: v1.12c (20020818) Richard Gooch (rgooch@atnf.csiro.au)
+devfs: boot_options: 0x0
+NTFS driver 2.1.6b [Flags: R/O].
+NH230_gpio: NH200 GPIO setting ...
+Trying to free free IRQ20
+NH230_gpio: Get the IRQ SUCCESS !!
+Serial driver version 5.05c (2001-07-08) with MANY_PORTS SHARE_IRQ SERIAL_PCI enabled
+ttyS00 at 0xfc004500 (irq = 137) is a 16550A
+RAMDISK driver initialized: 16 RAM disks of 193840K size 1024 blocksize
+loop: loaded (max 8 devices)
+RTL8169s/8110s: RTL8169S: NAPI enabled
+eth0: RTL8169s/8110s Gigabit Ethernet driver 2.2-R5 (09/05/2005) at 0xc5000e00, 00:08:54:48:fb:d2, IRQ 17
+eth0: Auto-negotiation Enabled.
+SCSI subsystem driver Revision: 1.00
+sata_sil(00:10.0): cache line size not set.  Driver may not function
+ata1: SATA max UDMA/100 cmd 0xC5002C80 ctl 0xC5002C8A bmdma 0xC5002C00 irq 18
+ata2: SATA max UDMA/100 cmd 0xC5002CC0 ctl 0xC5002CCA bmdma 0xC5002C08 irq 18
+ata1: dev 0 ATA, max UDMA/133, 1465149168 sectors: lba48
+ata1: dev 0 configured for UDMA/100
+ata2: no device found (phy stat 00000000)
+scsi0 : sata_sil
+scsi1 : sata_sil
+  Vendor: ATA       Model: ST3750640AS       Rev: 3.AA
+  Type:   Direct-Access                      ANSI SCSI revision: 05
+Attached scsi disk sda at scsi0, channel 0, id 0, lun 0
+scsi: fn_scsi_storage_pnp [/etc/rc.d/usb_pnp sda 1 255 serial_unknown]
+fn_scsi_storage_pnp: error[-2]: failed to call user-mode shell script [/etc/rc.d/usb_pnp].
+SCSI device sda: 1465149168 512-byte hdwr sectors (750156 MB)
+Partition check:
+ /dev/scsi/host0/bus0/target0/lun0: p1 p2
+physmap flash device: 400000 at ffc00000
+ Amd/Fujitsu Extended Query Table v3.3 at 0x0040
+number of CFI chips: 1
+cfi_cmdset_0002: Disabling fast programming due to code brokenness.
+Using physmap partition definition
+Creating 8 MTD partitions on "Physically mapped flash":
+0x00300000-0x00320000 : "Boot-loader"
+0x00000000-0x00004000 : "Boot CFG"
+0x00004000-0x00006000 : "POST Result"
+0x00008000-0x00010000 : "Linux CFG"
+0x00006000-0x00008000 : "Reserved"
+0x00010000-0x00190000 : "Linux"
+0x00190000-0x00300000 : "RAM disk #2"
+0x00320000-0x00400000 : "RAM disk #1 (root)"
+usb.c: registered new driver usbdevfs
+usb.c: registered new driver hub
+ehci_hcd 00:0e.2: NEC Corporation USB 2.0
+ehci_hcd 00:0e.2: irq 19, pci mem c5006f00
+usb.c: new USB bus registered, assigned bus number 1
+ehci_hcd 00:0e.2: USB 2.0 enabled, EHCI 1.00, driver 2003-Dec-29/2.4
+hub.c: USB hub found
+hub.c: 5 ports detected
+host/usb-ohci.c: USB OHCI at membase 0xc5008000, IRQ 19
+host/usb-ohci.c: usb-00:0e.0, NEC Corporation USB
+usb.c: new USB bus registered, assigned bus number 2
+hub.c: USB hub found
+hub.c: 3 ports detected
+host/usb-ohci.c: USB OHCI at membase 0xc500a000, IRQ 19
+host/usb-ohci.c: usb-00:0e.1, NEC Corporation USB (#2)
+usb.c: new USB bus registered, assigned bus number 3
+hub.c: USB hub found
+hub.c: 2 ports detected
+usb.c: registered new driver usblp
+printer.c: v0.13: USB Printer Device Class driver
+usb.c: registered new driver audio
+audio.c: v1.0.0:USB Audio Class driver
+Initializing USB Mass Storage driver...
+usb.c: registered new driver usb-storage
+USB Mass Storage support registered.
+NET4: Linux TCP/IP 1.0 for NET4.0
+IP Protocols: ICMP, UDP, TCP
+IP: routing cache hash table of 512 buckets, 4Kbytes
+TCP: Hash tables configured (established 4096 bind 8192)
+NET4: Unix domain sockets 1.0/SMP for Linux NET4.0.
+RAMDISK: Compressed image found at block 0
+Freeing initrd memory: 879k freed
+kjournald starting.  Commit interval 5 seconds
+EXT3-fs: mounted filesystem with ordered data mode.
+VFS: Mounted root (ext3 filesystem) readonly.
+Freeing unused kernel memory: 240k init
+init started:  BusyBox v1.00 (2007.11.13-06:43+0000) multi-call binary
+Remounting root EXT3 FS 2.4-0.9.19, 19 August 2002 on ramdisk(1,0), filesystem in reinternal journal
+ad-write mode.
+Mounting local filesystems.
+kjournald starting.  Commit interval 5 seconds
+EXT3 FS 2.4-0.9.19, 19 August 2002 on sd(8,1), internal journal
+EXT3-fs: recovery complete.
+EXT3-fs: mounted filesystem with ordered data mode.
+kjournald starting.  Commit interval 5 seconds
+EXT3 FS 2.4-0.9.19, 19 August 2002 on sd(8,1), internal journal
+EXT3-fs: mounted filesystem with ordered data mode.
+ *** Copy the etc.tgz to the etc ***>>
+ITUNES_FOLDER='mp3'
+UPNP_ENABLE='0'
+UPNP_FOLDER='upnp'
+Load last config ==>
+ *** Init ...... ***>>
+ *** Set up the hostname ***>>
+Running network.....
+killall: dhcpcd: no process killed
+route: SIOC[ADD|DEL]RT: No such process
+Thu Jul 21 13:16:00 CET 2011
+Adding Swap: 538168k swap-space (priority -1)
+ *** Mount swap partition OK ***>>
+ *** Auto check USB storage ***>>
+killall: smbd: no process killed
+ *** smb.conf success checked!!! ***>>
+ *** Check HD and smb.conf ***>>
+killall: smbd: no process killed
+ *** smb.conf success checked!!! ***>>
+Version 3.0.6
+cp: /mnt/ntx_chset.h: No such file or directory
+ *** Starting httpd ***>>
+ *** Starting the upnp ***>>
+Starting main()!!
+SERVER_PORT = 80(80)
+
+ Can't start upnp !!
+ *** Starting the pnmd ***>>
+MAC address = 00:08:54:48:FB:D2
+killall: smbd: no process killed
+ *** smb.conf success checked!!! ***>>
+
+/dev/sda:
+ setting standby to 180 (15 minutes)
+
+
+
+BusyBox v1.00 (2007.11.13-06:43+0000) Built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+# cron.c-main: CRON 304 startup fork ok
+</pre>
