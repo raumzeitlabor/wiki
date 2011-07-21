@@ -201,6 +201,9 @@ Enter 'help' for a list of built-in commands.
 # cron.c-main: CRON 304 startup fork ok
 </pre>
 
+
+* Cat of various Configs, Directorys, etc.
+
 <pre>
 # cat /proc/cpuinfo
 processor       : 0
@@ -241,5 +244,48 @@ drwxrwxr-x   10 503      506          1024 Jul 21 08:38 ..
 -rwxr--r--    1 0        0            1033 Nov 13  2007 upnp.sh
 -rwxr--r--    1 0        0            1672 Nov 13  2007 watchdog.sh
 -rwxr--r--    1 0        0            1589 Nov 13  2007 watchdog.sh.bak
+# 
+</pre>
+
+<pre>
+# ls -la /etc/rc.d
+drwxr-xr-x    2 503      506          1024 Nov 13  2007 .
+drwxrwxr-x   10 503      506          1024 Jul 21 07:50 ..
+-rwxr--r--    1 0        0             134 Nov 13  2007 copy_button_led.sh
+-rwxr--r--    1 0        0            1602 Nov 13  2007 groupadd
+-rwxr--r--    1 0        0             568 Nov 13  2007 groupdel
+-rwxr--r--    1 0        0            1293 Nov 13  2007 groupmod
+-rwxr--r--    1 0        0             327 Nov 13  2007 hostname
+-rwxr--r--    1 0        0             247 Nov 13  2007 hosts.sh
+-rwxr--r--    1 0        0             930 Nov 13  2007 init.sh
+-rwxr--r--    1 0        0             394 Nov 13  2007 itunes.sh
+-rwxr--r--    1 0        0            1896 Nov 13  2007 mkEXT3disk.sh
+-rwxr--r--    1 0        0             224 Nov 13  2007 mkEXT3usb.sh
+-rwxr--r--    1 0        0             682 Nov 13  2007 mkFAT32disk.sh
+-rwxr--r--    1 0        0            6306 Nov 13  2007 network
+-rwxr--r--    1 0        0             623 Nov 13  2007 network_timesync
+-rwxr--r--    1 0        0            1855 Nov 13  2007 old_usb_info.sh
+-rwxr--r--    1 0        0            1792 Nov 13  2007 old_usb_info_all.sh
+-rwxr--r--    1 0        0              76 Nov 13  2007 options
+-rwxr--r--    1 0        0            3610 Nov 13  2007 p2p.sh
+-rwxr--r--    1 0        0            3610 Nov 13  2007 p2p_bak.sh
+-rwxr--r--    1 0        0             465 Nov 13  2007 powerdown.sh
+-rwxr-xr-x    1 503      506          2227 Nov 13  2007 rc.sysinit
+-rwxr--r--    1 0        0             350 Nov 13  2007 remove_usb.sh
+-rwxr--r--    1 0        0              42 Nov 13  2007 restart
+-rwxr--r--    1 0        0            3365 Nov 13  2007 save_config.sh
+-rwxr--r--    1 0        0             127 Nov 13  2007 set_to_default.sh
+-rwxr--r--    1 0        0               6 Nov 13  2007 sfdisk.conf
+-rwxr--r--    1 0        0             397 Nov 13  2007 upnp_host.sh
+-rwxr--r--    1 0        0             299 Nov 13  2007 upnpav.sh
+-rwxr--r--    1 0        0             755 Nov 13  2007 usb_backup.sh
+-rwxr--r--    1 0        0            3926 Nov 13  2007 usb_info.sh
+-rwxr--r--    1 0        0            3830 Nov 13  2007 usb_info_one_port.sh
+-rwxr--r--    1 0        0            6823 Nov 13  2007 usb_pnp
+-rwxr--r--    1 0        0             639 Nov 13  2007 usb_pnp0
+-rwxr--r--    1 0        0             639 Nov 13  2007 usb_pnp1
+-rwxr--r--    1 0        0             639 Nov 13  2007 usb_pnp2
+-rwxr--r--    1 0        0             639 Nov 13  2007 usb_pnp3
+-rwxr--r--    1 0        0             598 Nov 13  2007 wget_upgrade.sh
 # 
 </pre>
