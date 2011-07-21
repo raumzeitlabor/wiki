@@ -1,3 +1,5 @@
+* RS232 Port unter der HDD
+** Belegung: >| 3,3V | RX | TX | GND |
 * Fantec Boot Log:
 
 <pre>
