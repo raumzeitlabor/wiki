@@ -200,3 +200,46 @@ Enter 'help' for a list of built-in commands.
 
 # cron.c-main: CRON 304 startup fork ok
 </pre>
+
+<pre>
+# cat /proc/cpuinfo
+processor       : 0
+cpu             : 82xx
+revision        : 16.20 (pvr 8081 1014)
+bogomips        : 176.94
+vendor          : Motorola 
+machine         : MPC8241
+processor       : PVID: 0x80811014, vendor: Motorola
+</pre>
+
+<pre>
+#cat /proc/version 
+Linux version 2.4.32 (hearn@MARS-V) (gcc version 3.2.3) #1 Tue Nov 13 14:38:38 CST 2007
+</pre>
+
+<pre>
+# free
+              total         used         free       shared      buffers
+  Mem:        62252        20000        42252            0          472
+ Swap:            0            0            0
+Total:        62252        20000        42252
+</pre>
+
+<pre>
+# ls -la /etc/init.d/
+drwxr-xr-x    2 0        0            1024 Nov 13  2007 .
+drwxrwxr-x   10 503      506          1024 Jul 21 08:38 ..
+-rwxr--r--    1 0        0             134 Nov 13  2007 arp.sh
+-rwxr--r--    1 0        0             151 Nov 13  2007 automount.sh
+-rwxr--r--    1 0        0              71 Nov 13  2007 date2rtc.sh
+-rwxr--r--    1 0        0             650 Nov 13  2007 dhcpc.sh
+-rwxr--r--    1 0        0             527 Nov 13  2007 ntp.sh
+-rwxr--r--    1 0        0            1530 Nov 13  2007 old_automount.sh
+-rwxr--r--    1 0        0              24 Nov 13  2007 rtc2date.sh
+-rwxr--r--    1 0        0             350 Nov 13  2007 umount_usb.sh
+-rwxr--r--    1 0        0            2118 Nov 13  2007 update_printer.sh
+-rwxr--r--    1 0        0            1033 Nov 13  2007 upnp.sh
+-rwxr--r--    1 0        0            1672 Nov 13  2007 watchdog.sh
+-rwxr--r--    1 0        0            1589 Nov 13  2007 watchdog.sh.bak
+# 
+</pre>
