@@ -7,6 +7,8 @@ Hier wird/ist die Netzwerkstruktur im Raum dokumentiert.
 Bei jeglichen Fragen zum Netz bitte [[Benutzer:Docsteel|Docsteel]], [[Benutzer:Scytale|Scytale]] oder [[Benutzer:SEC|sECuRE]] ansprechen, auf keinen Fall selbst Änderungen an Router, Verkabelung oder IP-Adresszuteilung vornehmen!
 
 == Rack ==
+
+[[Datei:IMG_0336.JPG|Thumb|300px]]
 Das [[DELLPS38S|Rack]] befindet sich in der [[E-Eck]]e und enthält das Patchpanel, unseren Switch, unseren Router sowie diverse andere Hardware, z.B. für die Türsteuerung.
 
 == Patchpanel ==
