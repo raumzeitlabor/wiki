@@ -14,6 +14,15 @@ Eine grundlegende Doku gibt es hier: [[Media:NPM_Manual.pdf]]
 * COM1 ist RS485 oder RS422
 * COM2 ist RS232
 
+* Port(1) Switch
+* Port(2) Rundumleuchte
+* Port(3) Flachhupe
+* Port(4) frei
+* Port(5) frei
+* Port(6) frei
+* Port(7) frei
+* Port(8) frei
+
 ==Shell Script zum Ansprechen==
 Ein Shell Script zum Ansprechen der NPM findet sich [http://github.com/Niklas974/npm2000 hier]
 
