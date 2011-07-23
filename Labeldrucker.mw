@@ -1,0 +1,18 @@
+== Brother P-touch QL-500 ==
+[[Datei:Labeldrucker QL500.JPG|thumb|300px|right|Der QL-500 Druckre]]
+
+Benutzung: Der große Taster schaltet den Drucker ein/aus, der kleine Taster löst den Vorschub aus. Da der Drucker keine automatische Schneideeinheit befindet, mußt du den Hebel unten nach rechts ziehen.
+
+== Etiketten drucken ==
+[[Datei:LabelMaker.jpg|thumb|300px|right|Die LabelMaker Software]]
+Prinzipiell kannst du jede Software verwenden, z.b. gLabels oder direkt aus einer Anwendungssoftware drucken. Du kannst aber auch die LabelMaker-Software nutzen - erreichbar auf dem E-Eck PC unter:
+
+http://localhost/LabelMaker/
+
+Die Software druckt dann direkt auf dem lokalen Drucker.
+
+== LabelMaker ==
+
+LabelMaker ist eine Software, die fix zusammengehackt wurde.
+
+Wer eine bessere Variante entwickeln will - sehr gerne! Es ist aber sinnvoll, wenn du vorher mit [[Benutzer:Felicitus]] sprichst.
