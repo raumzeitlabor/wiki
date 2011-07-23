@@ -11,25 +11,6 @@ Bei jeglichen Fragen zum Netz bitte [[Benutzer:Docsteel|Docsteel]], [[Benutzer:S
 [[Datei:IMG_0336.JPG|Thumb|300px]]
 Das [[DELLPS38S|Rack]] befindet sich in der [[E-Eck]]e und enthält das Patchpanel, unseren Switch, unseren Router sowie diverse andere Hardware, z.B. für die Türsteuerung.
 
-== Patchpanel ==
-
-Die Patchpanels sind analog zu den Dosen belegt - sprich: Dose 1 = Port 1 auf den Patchfeld. Derzeit sind 17 Dosen belegt.
-
-Die Dosen 9 und 10 sind die Dosen auf der Beamerplatform.
-
-'''ACHTUNG:''' Die Patchpanel Ports 21 - 24 sind für Sonderanwendungen(Flusko, Türsteuerung, Audio, etc.) vorgesehen und haben '''krumme Kabelbelegungen und unter Umständen SPANNUNG auf dem Port!'''
-
-Port 23: ist mit der Türlogik belegt (1 Grün halb 2 Grün 3 Blau 4 Orange halb 5 blau halb 6 orange 7 braun halb 8 braun) 
-Port 24: ist mit dem Flukso belegt.
-
-== Switch ==
-
-Die Ports auf dem Switch sind wie folgt belegt:
-
-Port 1 - 17: Dosen im Raum, Switchport=Dosennummer
-
-Port 18 - 24: Infrastruktur und Sonderanwendungen mit anderer VLAN Config!
-
 == Uplink ==
 Wir nutzen die Internetverbindung eines unserer Nachbarn mit.
 Die Leitung kommt an der Ecke bei der Eingangstür aus der Decke, man bekommt dort auch von irgendnem Consumer-Router per DHCP eine geNATete IP. Es scheint ein Arcor DSL 6000-Anschluss zu sein
