@@ -1,0 +1,8 @@
+Die Patchpanels sind analog zu den Dosen belegt - sprich: Dose 1 = Port 1 auf den Patchfeld. Derzeit sind 17 Dosen belegt.
+
+Die Dosen 9 und 10 sind die Dosen auf der Beamerplatform.
+
+'''ACHTUNG:''' Die Patchpanel Ports 21 - 24 sind für Sonderanwendungen(Flusko, Türsteuerung, Audio, etc.) vorgesehen und haben '''krumme Kabelbelegungen und unter Umständen SPANNUNG auf dem Port!'''
+
+Port 23: ist mit der Türlogik belegt (1 Grün halb 2 Grün 3 Blau 4 Orange halb 5 blau halb 6 orange 7 braun halb 8 braun) 
+Port 24: ist mit dem Flukso belegt.
