@@ -1,0 +1,17 @@
+==Laserdrucker==
+===Samsung===
+'''IP: 172.22.36.3'''
+:Ansprechbar unter URL ipp://172.22.36.3:631
+
+;Installation unter Debian:
+ echo "deb http://www-personal.umich.edu/~tjwatt/suldr debian extra" >> /etc/apt/sources.list
+ apt-get update
+ apt-get install samsungmfp-data samsungmfp-driver
+
+;Sonstige Treiber
+:[http://www.samsung.de/de/Geschaeftskunden/BusinessBuero/BusinessPrinter/SWLaserMFP/SCX-5530FN/SCX-5530FNXEG/detail.aspx?atab=support&aguid=7d682121-bdca-4377-9d86-c549053fc961&dl=driver Samsung Support -> Treiber]
+
+==Tintenstrahldrucker==
+===HP Business Inkjet 1200===
+'''IP: 172.22.36.118'''
+Hängt an Druckserver TP-LINK TL-PS110U v2.
