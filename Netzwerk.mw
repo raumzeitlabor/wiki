@@ -54,9 +54,9 @@ Wir nehmen als AS64636 teil mit 6 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.5 || xylan || OmniStack 24 Port Switch
 |-----
-| 172.22.36.6 || blackbox || [[Blackbox]] Server
+| 172.22.36.6 || [[blackbox]] || [[Blackbox]] Server
 |-----
-| 172.22.36.7 || datengrab || Netzwerk-Festplatte
+| 172.22.36.7 || [[datengrab]] || Netzwerk-Festplatte
 |-----
 | 172.22.36.8 || chumby || RZL Chumby
 |-----
@@ -66,7 +66,7 @@ Wir nehmen als AS64636 teil mit 6 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.111 || fujiko || Notebook Eingang
 |-----
-| 172.22.36.112 || kartoffelsalat || Public Terminal
+| 172.22.36.112 || PC-Eeck || Public Terminal
 |-----
 | 172.22.36.113 || flukso || [[Flukso]] LAN
 |-----
