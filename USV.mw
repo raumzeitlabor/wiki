@@ -1,11 +1,9 @@
-Hersteller: APC
+*Hersteller: APC
+*TYP: SmartUPS 750
+*Anbindung RS232: Blackbox
+*Versorgung kommend: Steckdose über Sicherung F06
+*Versorgung gehend: Blackbox
+*Akkus getauscht: 29.01.2011
 
-TYP: SmartUPS 750
 
-Anbindung RS232: Blackbox
-
-Versorgung kommend: Steckdose über Sicherung F06
-
-Versorgung gehend: Blackbox
-
-Akkus getauscht: 29.01.2011
+[[Kategorie:Hardware]]
