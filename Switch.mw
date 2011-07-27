@@ -1,14 +1,10 @@
-Hersteller: Linksys
-
-Typ: SLM2024
-
-24 Port 10/100/1000MBit
-
-2 Port miniGBic
-
+*Hersteller: Linksys
+*Typ: SLM2024
+*24 Port 10/100/1000MBit
+*2 Port miniGBic
 
 Die Ports auf dem Switch sind wie folgt belegt:
+*Port 1 - 17: Dosen im Raum, Switchport=Dosennummer
+*Port 18 - 24: Infrastruktur und Sonderanwendungen mit anderer VLAN Config!
 
-Port 1 - 17: Dosen im Raum, Switchport=Dosennummer
-
-Port 18 - 24: Infrastruktur und Sonderanwendungen mit anderer VLAN Config!
+[[Kategorie:Hardware]]
