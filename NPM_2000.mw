@@ -172,3 +172,6 @@ Die letzten 4 Zeichen in binär: 0100 1110 1001 1011
 * Port an: 7,4,3,2  aus: 8,6,5,1
 * Die ersten beiden der 4er Gruppen in hex geben in Binär konvertiert den Portstatus an. (hier: 0100 und 1110)
 * Die letzen beiden Vierergruppen (hier:1001 und 1011) sind noch unklar.
+
+
+[[Kategorie:Hardware]]
