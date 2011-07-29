@@ -1,6 +1,7 @@
 Blackbox ist unser interner Server. Dieser hostet derzeit:
 
 * PartDB
+* PartKeepr
 
 = errorlog =
 == kernel oops ==
