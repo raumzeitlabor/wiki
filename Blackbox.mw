@@ -1,6 +1,5 @@
 Blackbox ist unser interner Server. Dieser hostet derzeit:
 
-* MPD (an die Stereoanlage verlinkt)
 * PartDB
 
 = errorlog =
