@@ -52,7 +52,7 @@ Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.4 || fritzbox || Fritzbox 7170 Scytale („RZL-hardcore”)
 |-----
-| 172.22.36.5 || xylan || OmniStack 24 Port Switch
+| 172.22.36.5 || xylan || OmniStack 24 Port Switch (Veraltet! Doku über neuen Switch fehlt!)
 |-----
 | 172.22.36.6 || [[blackbox]] || [[Blackbox]] Server
 |-----
@@ -64,7 +64,7 @@ Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.'''10 - 110''' || dhcp || DHCP-Range (unfiltered)
 |-----
-| 172.22.36.111 || fujiko || Notebook Eingang
+| 172.22.36.111 || fujiko || Notebook Eingang (Veraltet?)
 |-----
 | 172.22.36.112 || [[PC-Eeck]] || Public Terminal
 |-----
@@ -74,7 +74,7 @@ Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.115 || denkbrett || [[Benutzer:Docsteel|docsteel]]
 |-----
-| 172.22.36.116 || vp-fon || phillips VoIP-fon
+| 172.22.36.116 || vp-fon || phillips VoIP-fon (Veraltet?)
 |-----
 | 172.22.36.117 || vip1710 || [[VIP1710]]
 |-----
@@ -102,7 +102,7 @@ Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.130 || ''reserved'' || Reserviert für Infrastruktur
 |-----
-| 172.22.36.131 || sprech || Gigaset C475IP VoIP-Telefon
+| 172.22.36.131 || sprech || Gigaset C475IP VoIP-Telefon (Veraltet?)
 |-----
 | 172.22.36.132 || ''reserved'' || Reserviert für Infrastruktur
 |-----
