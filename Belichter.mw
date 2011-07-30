@@ -1,0 +1,27 @@
+{{ProjektInfoBox
+|name        = Belichter
+|status      = experimental
+|image       = IMG_0353.JPG
+|description = 
+|author      = [[Benutzer:Felicitus|Felicitus]] [[Benutzer:Nessi|Nessi]]
+|version     = 0.1
+}}
+
+Unser Belichter Projekt.
+
+[[Datei:IMG_0351.JPG|thumb|left]]
+[[Datei:IMG_0352.JPG|thumb|left]]
+[[Datei:IMG_0353.JPG|thumb|left]]
+[[Datei:IMG_0354.JPG|thumb|left]]
+
+==ToDo==
+
+[X] Scanner besorgen <br>
+[X] Gesichtsbräuner besorgen <br>
+[ ] Schaltplan erstellen <br>
+[ ] Röhren einbauen <br>
+[ ] Netzteil bauen <br>
+[ ] Steuerelektronik bauen <br>
+[ ] Lüfter einbauen
+
+[[Kategorie:Projekt]]
