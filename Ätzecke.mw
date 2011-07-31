@@ -1,6 +1,6 @@
 {{ProjektInfoBox
 |name        = Ätzecke
-|status      = beta
+|status      = experimental
 |image       = IMG_0353.JPG
 |description = 
 |author      = [[Benutzer:nessi|nessi]], [[Benutzer:Felicitus|Felicitus]]
@@ -19,6 +19,31 @@
 Die Ätzecke bietet Platz für Platinenbelichtung und Platinenätzen. Dafür stehen eine vielzahl an Geräten und Zubehör bereit. 
 
 Die Ätzecke hat derzeit 2 Arbeitsplätze. Der Rollcontainer ist entsprechend bestückt.
+
+==Zu Besorgen==
+*Latexhandschuhe
+*UV Schutzbrille
+*Schutzbrille gegen Flüssigkeiten
+*Laborkittel
+*Augenspühlflasche
+*Seifenspender
+*Mülleimer
+*Arbeitsplatte
+*Waschbecken
+*Wasserhahn
+*Platinen-Spühlschale
+*Kanister zum entsorgen für Entwickler
+*Kanister zum entsorgen für Ätzmittel
+*Kanister zum lagern von Entwickler
+*Kanister zum lagern von Ätzmittel
+*Box für Schutzbrille
+
+
+==ToDo==
+*Ätzeecke Fließen
+*Wasser anschließen
+Waschbecken und Hahn anbauen
+*Unterschrank bauen mit Schloss
 
 == Gerätenutzung ==
 
