@@ -18,7 +18,7 @@ Um Strom zu sparen, wurde ein [http://raumzeitlabor.de/blog/der-warmwasser-panic
 
 Zum Aktivieren den Button für drei Sekunden gedrückt halten.
 ==Neue Schrankbeschriftung==
-Die alten Etiketten der Küchenbeschriftung waren teils nicht lesbar. Die  Vorlagendatei [[Datei:Etiketten.tar.gz]] wurde für einen Brother P-Touch 2700 erstellt, Etikettenbreite 24mm und wird mit einer CSV-Datei gefüttert, in der die zu druckenden Texte stehen. Benötigt wird zusätzlich noch unsere [http://omkrets.se/typografi Hausschrift Miso]. Zur Zeit gibt es folgende Labels: [[Datei:Kueche Etiketten.csv]]
+Die alten Etiketten der Küchenbeschriftung waren teils nicht lesbar. Die  Vorlagendatei [[Datei:Etiketten.tar.gz]] wurde für einen Brother P-Touch 2700 erstellt, Etikettenbreite 24mm und wird mit einer CSV-Datei gefüttert, in der die zu druckenden Texte stehen. Benötigt wird zusätzlich noch unsere [http://omkrets.se/typografi Hausschrift Miso]. Zur Zeit gibt es folgende Labels: [[Datei:Kueche Etiketten.csv]] [[Datei:Preisetiketten.tar]]
 
 Die Etiketten tragen auch einen QR-Code, einfach weils geht und man die Position des Textanfangs schneller erfassen kann, Stichwort Aufzählungspunkte. Inhalt ist einfach nur der Text selbst. 
 
