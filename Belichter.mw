@@ -55,4 +55,11 @@ Eine rudimentäre, funktionierende Firmware gibt's als Hack unter [https://githu
 
 [http://www.atmel.com/dyn/resources/prod_documents/doc2543.pdf www.atmel.com/dyn/resources/prod_documents/doc2543.pdf]
 
+== Doku ==
+
+=== LED-Board ===
+Gelb=VCC
+Orange= LED grün
+Rot = LED gelb 1
+Braun = LED gelb 2
 [[Kategorie:Projekt]]
