@@ -13,7 +13,8 @@ Unser Belichter Projekt.
 Einiges ist bereits erledigt und mit einem weiteren Basteltag/Bastelwochenende sollte er fertig werden.
 
 ==Zu Besorgen==
-1²mm Starr 5m
+[X] 1²mm Starr 5m <br>
+[ ] Fotolack
 
 ==Bilder==
 [[Datei:IMG_0351.JPG|thumb|left]]
@@ -39,8 +40,9 @@ Einiges ist bereits erledigt und mit einem weiteren Basteltag/Bastelwochenende s
 [o] Starter einbauen <br>
 [o] Röhren einbauen <br>
 [X] Netzteil bauen <br>
+[o] Platinenlayout erstellen <br>
 [ ] Steuerelektronik bauen <br>
-[ ] Lüfter einbauen <br>
+[o] Lüfter einbauen <br>
 [ ] Display einbauen <br>
 [ ] Steuerelektronik einbauen <br>
 [ ] Verdrahtung <br>
@@ -58,8 +60,16 @@ Eine rudimentäre, funktionierende Firmware gibt's als Hack unter [https://githu
 == Doku ==
 
 === LED-Board ===
-Gelb=VCC
-Orange= LED grün
-Rot = LED gelb 1
+Gelb=VCC <br>
+Orange= LED grün <br>
+Rot = LED gelb 1 <br>
 Braun = LED gelb 2
+
+===Layout===
+[[Media:Belichter.LM4 | Belichter.LM4]]
+
+===Röhren===
+
+Oben und Unten je 4 * 15W
+
 [[Kategorie:Projekt]]
