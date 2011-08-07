@@ -65,6 +65,12 @@ Einiges ist bereits erledigt und mit einem weiteren Basteltag/Bastelwochenende s
 ==Firmware==
 
 Eine rudimentäre, funktionierende Firmware gibt's als Hack unter [https://github.com/timoahummel/belichter]
+
+Die Firmware erfrägt die Belichtungszeit sowie die zu schaltenden Röhren (oben, unten oder beides) und startet dann den Belichtungsvorgang.
+
+TODO:
+* Stop des Vorgangs bei Tastendrück
+
 ==Links==
 
 [http://www.atmel.com/dyn/resources/prod_documents/doc2543.pdf www.atmel.com/dyn/resources/prod_documents/doc2543.pdf]
