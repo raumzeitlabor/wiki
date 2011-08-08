@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = Belichter
 |status      = experimental
-|image       = IMG_0353.JPG
+|image       = IMG_0385.JPG
 |description = 
 |author      = [[Benutzer:Felicitus|Felicitus]] [[Benutzer:Nessi|Nessi]]
 |version     = 0.1
@@ -94,9 +94,11 @@ Braun = LED gelb 2
 
 ===Layout===
 [[Media:Belichter.LM4 | Belichter.LM4]]
+[[Image:Belichterplatine.jpg|left|thumb|250px]]
 
 ===Röhren===
-
+Philips TL29D16/09N <br>
 Oben und Unten je 4 * 15W
+
 
 [[Kategorie:Projekt]]
