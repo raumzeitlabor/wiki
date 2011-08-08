@@ -29,17 +29,26 @@
 ==Tastatur==
 *Hersteller: Logitech
 *Typ: Cordless Desktop® LX 710 Laser
+*Port: USB
 
 ==Drucker==
 *Hersteller: Brother
 *Typ: HL2040
 *Beschreibung: Laserdrucker (SW) 
+*Port: USB
 
 ==Labeldrucker==
 *Hersteller: Brother
 *Typ: P-thouch QL-500
 *[[Labeldrucker]]
+*Port: USB
 
 ==Labeldrucker II==
 *Hersteller: Brother
 *Typ: P-thouch 1230 PC
+*Port: USB
+
+==Scanner==
+*Hersteller: Hewlett Packard
+*Typ: ScanJet 5200C
+*Port: USB
