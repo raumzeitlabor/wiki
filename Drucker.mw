@@ -1,5 +1,6 @@
 ==Laserdrucker==
 ===Samsung SCX-5530FN===
+[[Datei:IMG_0398.JPG|250px|thumb|right]]
 '''IP: 172.22.36.3'''
 :Ansprechbar unter URL ipp://172.22.36.3:631
 
@@ -17,11 +18,13 @@
 
 ;Defekte
 :Beim Versuch den verbogenen ADF (automatischer Dokumenteneinzug) gerade zu biegen, hat Inte das linke Scharnier ([http://www.google.de/search?q=JC97-02779A JC97-02779A/MEA UNIT-HINGE]) des Deckels abgebrochen. Der Dokumenteneinzug funktioniert wieder, nur der Deckel wackelt jetzt beim Aufklappen.
-[[Datei:IMG_0398.JPG|250px|thumb|left]]
+
 
 ===Brother HL2040===
+[[Datei:IMG_0396.JPG|250px|thumb|right]]
 USB - Hängt an [[PC-Eeck]]
-[[Datei:IMG_0396.JPG|250px|thumb|left]]
+<div style="clear:both;"></div>
+
 ==Tintenstrahldrucker==
 ===HP Business Inkjet 1200===
 '''IP: 172.22.36.118'''
