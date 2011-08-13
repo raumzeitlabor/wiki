@@ -7,6 +7,7 @@
 |version     = 0.1
 }}
 
+Die Busanzeigen wurden von Felicitus' Bruder zur Verfügung gestellt. Primär erstmal zum testen, wenn die FlipDot-Anzeige ansteuerbar ist, bekommen wir auch eine große FlipDot-Anzeige. Diese braucht nur Spannung zum Umschalten der Dots und eignet sich super zur Anzeige des Chats.
 
 ==Zu Besorgen==
 [ ] Doku
@@ -15,7 +16,11 @@
 ==ToDo==
 [ ] Labeln <br>
 [ ] Putzen <br>
-[ ] Testen
+[ ] Testen <br>
+[ ] Interface Blackbox <-> Anzeige bauen<br>
+[ ] Aufbauplatz finden<br><br>
+Später:<br>
+[ ] Hausbus <-> Anzeige bauen
 
 
 ==Bilder Flipdot==
