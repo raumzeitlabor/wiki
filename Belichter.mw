@@ -1,16 +1,23 @@
 {{ProjektInfoBox
 |name        = Belichter
-|status      = experimental
-|image       = IMG_0385.JPG
-|description = 
+|status      = beta
+|image       = Belichter_0467.JPG
+|description = Belichter
 |author      = [[Benutzer:Felicitus|Felicitus]] [[Benutzer:Nessi|Nessi]]
-|version     = 0.1
+|version     = 0.9
 }}
 
 Unser Belichter Projekt.
 
+==Sicherheitsinfo==
+'''* Während des Betriebs nicht in den Belichter schauen. UV Strahlung schädigt die Augen.'''
+
 ==Status==
 Der Belichter ist soweit fertig, nur noch Kleinigkeiten sind zu erledigen. Im Prinzip ist er einsatzbereit.
+
+==Bedienung==
+
+Durch den Drehencoder an der Vorderseite die Belichtungszeit sowie die Röhren (oben, unten oder beide) auswählen und mit einem Druck auf den Encoder bestätigen. (Nach dem Schließen des Deckels startet der Belichtungsvorgang). Wird der Deckel während dem Betrieb geöffnet schalten sich die UV-Röhren zur Sicherheit ab.
 
 ==Zu Besorgen==
 [X] 1²mm Starr 5m <br>
@@ -24,7 +31,7 @@ Der Belichter ist soweit fertig, nur noch Kleinigkeiten sind zu erledigen. Im Pr
 [X] Schaltplan erstellen <br>
 [X] Firmware schreiben <br>
 [X] Drosseln einbauen <br>
-[x] Starter einbauen <br>
+[X] Starter einbauen <br>
 [X] Röhren einbauen <br>
 [X] Netzteil bauen <br>
 [X] Platinenlayout erstellen <br>
@@ -34,11 +41,13 @@ Der Belichter ist soweit fertig, nur noch Kleinigkeiten sind zu erledigen. Im Pr
 [X] Platine von Flussmittel befreien<br>
 [X] Steuerelektronik einbauen <br>
 [X] Verdrahtung <br>
-[ ] Labeln <br>
-[o] Putzen <br>
+[X] Labeln <br>
+[X] Putzen <br>
 [o] Testen <br>
-[ ] Lüftergitter besorgen<br>
-[ ] Erdung für Deckel
+[ ] Lüftergitter besorgen und einbauen<br>
+[ ] Erdung für Deckel<br>
+[ ] Lüftungsschlitze von innen abkleben<br>
+[ ] Prüfen, warum der Atmel den Taster im Deckel nicht lesen kann
 
 ==Firmware==
 
@@ -54,6 +63,28 @@ TODO:
 [http://www.atmel.com/dyn/resources/prod_documents/doc2543.pdf www.atmel.com/dyn/resources/prod_documents/doc2543.pdf]
 
 [http://www.helektra.de/static/pdf_typ/liycy.pdf http://www.helektra.de/static/pdf_typ/liycy.pdf]
+
+==Bauteilliste==
+
+===Platine===
+1* Streifenrasterplatine Eurokarte <br>
+2* Relais <br>
+1* Atmel Attiny2313<br>
+4* Abstandshalter 5mm <br>
+...
+
+===230V Teil===
+6* PG16 Verschraubung <br>
+3m Kabel <br>
+...
+
+===Sonstiges===
+2* 60mm Lüfter <br>
+1* Drehencoder <br>
+1* Display <br>
+1* Kleinsicherung 2,5A <br>
+1* Kleinsicherungshalter <br>
+...
 
 == Doku ==
 
