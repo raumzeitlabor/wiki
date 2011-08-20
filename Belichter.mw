@@ -10,7 +10,7 @@
 Unser Belichter Projekt.
 
 ==Status==
-Einiges ist bereits erledigt und mit einem weiteren Basteltag/Bastelwochenende sollte er fertig werden.
+Der Belichter ist soweit fertig, nur noch Kleinigkeiten sind zu erledigen. Im Prinzip ist er einsatzbereit.
 
 ==Zu Besorgen==
 [X] 1²mm Starr 5m <br>
@@ -22,21 +22,23 @@ Einiges ist bereits erledigt und mit einem weiteren Basteltag/Bastelwochenende s
 [X] Gesichtsbräuner "Philips HB 170 Gesichtsbräuner" besorgen <br>
 [X] Gesichtsbräuner zerlegen <br>
 [X] Schaltplan erstellen <br>
-[o] Firmware schreiben <br>
+[X] Firmware schreiben <br>
 [X] Drosseln einbauen <br>
-[o] Starter einbauen <br>
+[x] Starter einbauen <br>
 [X] Röhren einbauen <br>
 [X] Netzteil bauen <br>
 [X] Platinenlayout erstellen <br>
 [X] Steuerelektronik bauen <br>
 [X] Lüfter einbauen <br>
 [X] Display einbauen <br>
-[o] Platine von Flussmittel befreien<br>
-[o] Steuerelektronik einbauen <br>
-[o] Verdrahtung <br>
+[X] Platine von Flussmittel befreien<br>
+[X] Steuerelektronik einbauen <br>
+[X] Verdrahtung <br>
 [ ] Labeln <br>
 [o] Putzen <br>
-[ ] Testen
+[o] Testen <br>
+[ ] Lüftergitter besorgen<br>
+[ ] Erdung für Deckel
 
 ==Firmware==
 
