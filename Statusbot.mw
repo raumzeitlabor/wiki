@@ -19,6 +19,7 @@ Der Raumstatus wird automatisch durch einen Schalter in der Tür gesetzt.
 
 === IRC ===
 In den Räumen #oqlt und #raumzeitlabor (hackint) kann der Status via ''!!raum'' abgefragt werden.
+Mit !stream wird der aktuell über den MPD abgespielte Musiktitel angezeigt.
 
 === Mobile Webapp ===
 http://status.raumzeitlabor.de/mobile.php (iPhone optimiert)
