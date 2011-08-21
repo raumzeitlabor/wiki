@@ -1295,19 +1295,19 @@ ToDo:
 			<TD HEIGHT=17 ALIGN=LEFT SDVAL="2" SDNUM="1031;">2</TD>
 			<TD ALIGN=LEFT>L2</TD>
 			<TD ALIGN=LEFT>F10</TD>
-			<TD ALIGN=LEFT>Decke 2 (Eingang)</TD>
+			<TD ALIGN=LEFT>Decke 2 (Lager)</TD>
 		</TR>
 		<TR>
 			<TD HEIGHT=18 ALIGN=LEFT SDVAL="3" SDNUM="1031;">3</TD>
 			<TD ALIGN=LEFT>L3</TD>
 			<TD ALIGN=LEFT>F11</TD>
-			<TD ALIGN=LEFT>Decke 3 (Konf.Tisch)</TD>
+			<TD ALIGN=LEFT>Decke 3 (Beamer)</TD>
 		</TR>
 		<TR>
 			<TD HEIGHT=17 ALIGN=LEFT SDVAL="4" SDNUM="1031;">4</TD>
 			<TD ALIGN=LEFT>L2</TD>
 			<TD ALIGN=LEFT>F10</TD>
-			<TD ALIGN=LEFT>Decke 4 (Sitzecke)</TD>
+			<TD ALIGN=LEFT>Decke 4 (Tafel)</TD>
 		</TR>
 		<TR>
 			<TD HEIGHT=17 ALIGN=LEFT SDVAL="5" SDNUM="1031;">5</TD>
