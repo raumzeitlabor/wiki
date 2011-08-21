@@ -1269,73 +1269,52 @@ ToDo:
 
 
 == Lichtkreise ==
-<TABLE FRAME=VOID CELLSPACING=0 COLS=4 RULES=NONE BORDER=0>
-	
-		<TR>
-			<TD COLSPAN=3 WIDTH=182 HEIGHT=17 ALIGN=LEFT><B>Lichtkreise</B></TD>
-			<TD WIDTH=138 ALIGN=LEFT><BR></TD>
-		</TR>
-		<TR>
-			<TD HEIGHT=17 ALIGN=LEFT><B><BR></B></TD>
-			<TD ALIGN=LEFT><BR></TD>
-			<TD ALIGN=LEFT><BR></TD>
-			<TD ALIGN=LEFT><BR></TD>
-		</TR>
-		<TR>
-			<TD HEIGHT=17 ALIGN=LEFT><B>Kreis</B></TD>
-			<TD ALIGN=LEFT><B>Phase</B></TD>
-			<TD ALIGN=LEFT><B>Sicherung</B></TD>
-			<TD ALIGN=LEFT><B>Ort</B></TD>
-		</TR>
-		<TR>
-			<TD HEIGHT=17 ALIGN=LEFT SDVAL="1" SDNUM="1031;">1</TD>
-			<TD ALIGN=LEFT>L1</TD>
-			<TD ALIGN=LEFT>F09</TD>
-			<TD ALIGN=LEFT>Decke 1 (2. Ebene)</TD>
-		</TR>
-		<TR>
-			<TD HEIGHT=17 ALIGN=LEFT SDVAL="2" SDNUM="1031;">2</TD>
-			<TD ALIGN=LEFT>L2</TD>
-			<TD ALIGN=LEFT>F10</TD>
-			<TD ALIGN=LEFT>Decke 2 (Lager)</TD>
-		</TR>
-		<TR>
-			<TD HEIGHT=18 ALIGN=LEFT SDVAL="3" SDNUM="1031;">3</TD>
-			<TD ALIGN=LEFT>L3</TD>
-			<TD ALIGN=LEFT>F11</TD>
-			<TD ALIGN=LEFT>Decke 3 (Beamer)</TD>
-		</TR>
-		<TR>
-			<TD HEIGHT=17 ALIGN=LEFT SDVAL="4" SDNUM="1031;">4</TD>
-			<TD ALIGN=LEFT>L2</TD>
-			<TD ALIGN=LEFT>F10</TD>
-			<TD ALIGN=LEFT>Decke 4 (Tafel)</TD>
-		</TR>
-		<TR>
-			<TD HEIGHT=17 ALIGN=LEFT SDVAL="5" SDNUM="1031;">5</TD>
-			<TD ALIGN=LEFT>L1</TD>
-			<TD ALIGN=LEFT>F09</TD>
-			<TD ALIGN=LEFT>K&uuml;che</TD>
-		</TR>
-		<TR>
-			<TD HEIGHT=17 ALIGN=LEFT SDVAL="6" SDNUM="1031;">6</TD>
-			<TD ALIGN=LEFT>L1</TD>
-			<TD ALIGN=LEFT>F09</TD>
-			<TD ALIGN=LEFT>E-Decke</TD>
-		</TR>
-		<TR>
-			<TD HEIGHT=17 ALIGN=LEFT SDVAL="7" SDNUM="1031;">7</TD>
-			<TD ALIGN=LEFT>L1</TD>
-			<TD ALIGN=LEFT>F09</TD>
-			<TD ALIGN=LEFT>E-Wand</TD>
-		</TR>
-		<TR>
-			<TD HEIGHT=17 ALIGN=LEFT SDVAL="8" SDNUM="1031;">8</TD>
-			<TD ALIGN=LEFT>L1</TD>
-			<TD ALIGN=LEFT>F09</TD>
-			<TD ALIGN=LEFT>&Auml;-Decke</TD>
-		</TR>
-</TABLE>
+{|
+|'''Kreis'''
+|'''Phase'''
+|'''Sicherung'''
+|'''Ort'''
+|-
+|1
+|L1
+|F09
+|Decke 1 (2. Ebene)
+|-
+|2
+|L2
+|F10
+|Decke 2 (Lager)
+|-
+|3
+|L3
+|F11
+|Decke 3 (Beamer)
+|-
+|4
+|L2
+|F10
+|Decke 4 (Tafel)
+|-
+|5
+|L1
+|F09
+|Küche
+|-
+|6
+|L1
+|F09
+|E-Decke
+|-
+|7
+|L1
+|F09
+|E-Wand
+|-
+|8
+|L1
+|F09
+|Ä-Decke
+|}
 
 == Siehe auch ==
 *[[Roadmap]]
