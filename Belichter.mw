@@ -59,10 +59,9 @@ TODO:
 * Stop des Vorgangs bei Tastendrück
 
 ==Links==
-
-[http://www.atmel.com/dyn/resources/prod_documents/doc2543.pdf www.atmel.com/dyn/resources/prod_documents/doc2543.pdf]
-
-[http://www.helektra.de/static/pdf_typ/liycy.pdf http://www.helektra.de/static/pdf_typ/liycy.pdf]
+* [http://www.atmel.com/dyn/resources/prod_documents/doc2543.pdf Datenblatt ATtiny2313]
+* [http://www.helektra.de/static/pdf_typ/liycy.pdf Datenblatt Steuerleitung (Verbindungen zwischen Basis und Deckel)]
+* [http://hackaday.com/2011/08/23/home-tanning-lamps-become-organ-donors-for-a-pcb-exposure-bed/ Projekt auf Hack-A-Day]
 
 ==Bauteilliste==
 
