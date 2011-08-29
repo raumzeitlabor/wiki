@@ -46,5 +46,8 @@ Schaltplan, Layout, Firmware befinden sich auf https://github.com/raumzeitlabor/
 
 Das HomeTec++ kommuniziert via PWM (zwei Leitungen, die jeweils über die Pulsweite einen Zustand empfangen bzw. senden) mit dem Pinpad-Controller, da wir keine seriellen Schnittstellen mehr frei hatten.
 
+=== BenutzerDB-validator ===
+
+Die Software befindet sich auf https://github.com/raumzeitlabor/rzl-benutzerdb/tree/master/pin-validator
 
 [[Kategorie:Projekt]]
