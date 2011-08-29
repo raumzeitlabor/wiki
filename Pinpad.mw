@@ -30,6 +30,8 @@ Das Pinpad besteht aus mehreren Teilen:
 * Der HomeTec++ ist eine Platine, welche die beiden Motoren im HomeTec-Türschloss steuert (die originale Elektronik fanden wir ungeeignet).
 * Auf der Blackbox läuft die Benutzerdatenbank. Dort läuft auch eine Software, welche via Hausbus PIN-Eingaben validiert und die Tür öffnet (Benutzer-PINs). Der Pinpad-Controller hat noch eine hardcoded PIN, sofern die Blackbox oder der Hausbus aus irgendwelchen Gründen nicht funktioniert. Geplant ist hier eine Synchronisation.
 
+Ein Video der Funktionalität (noch mit original HomeTec) sieht man auf http://www.youtube.com/watch?v=54flBqny6HU
+
 == Details ==
 
 === Frontend ===
