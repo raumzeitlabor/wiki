@@ -1,3 +1,18 @@
+{{ProjektInfoBox
+|name        = Pinpad
+|status      = stable
+|image       = Status-maemo-widget.png
+|imagesize   = 90
+|description = Zugang zum RZL
+|author      = [[Benutzer:SEC|sECuRE]], [[Benutzer:Alexander_Brock|AlexanderB]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
 == Status ==
 
 Das Pinpad ist seit dem 23.11.2010 in Benutzung. Zum Öffnen der Tür hat jedes Mitglied eine persönliche PIN, die man auf http://blackbox.raumzeitlabor.de/BenutzerDB/ einsehen kann. Wer noch keine PIN hat, kann sie bei [[Benutzer:SEC|sECuRE]] beantragen.
