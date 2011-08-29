@@ -15,7 +15,14 @@
 '''[http://civicrm.org/ CiviCRM]''' ist eine freie ''Customer Relationship Management'' Software. Wir wollen im Rahmen dieses Projektes einen Blick auf die verfügbaren Module werfen und deren möglichen Nutzen für das RaumZeitLabor abwägen.
 
 ==Mitmachen!==
-Als anonymer und registrierte Nutzer kann man alle veröffentlichten Informationen einsehen. Wer gerne mit CiviCRM rumspielen möchte, meldet sich bitte bei [[Benutzer:Inte|Inte]]. Er weist dem Benutzer dann die entsprechende [[#Benutzerrollen|Benutzerrolle]] (contributor) zu.
+Als anonymer und registrierte Nutzer kann man alle veröffentlichten Informationen einsehen. 
+
+Wer Inhalte in CiviCRM einstellen möchte, meldet sich bitte bei [[Benutzer:Inte|Inte]], [[Benutzer:TabascoEye|TabascoEye]] oder [[Benutzer:Unicorn|Unicorn]]. Er weist dem Benutzer dann die entsprechende [[#Benutzerrollen|Benutzerrolle]] (contributor) zu.
+
+Bisher gibt es folgende Guides:
+
+* [[CiviCRM/Blog|Blogeintrag erstellen]]
+* [[CiviCRM/Event|Event erstellen]]
 
 ==Testinstallation==
 *http://raumzeitlabor.kral.ws
