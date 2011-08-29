@@ -36,6 +36,8 @@ Das Pinpad besteht aus mehreren Teilen:
 
 Die Firmware befindet sich auf https://github.com/raumzeitlabor/pinpad/tree/master/firmware-aussen
 
+Derzeit kommunizieren wir via RS232 zwischen Frontend und Pinpad-Controller. Aufgrund besserer Stabilität wird das im [[Pinpad/Frontendv2]] aber via RS485 gelöst werden. Es gibt Befehle für Tastendrücke (Frontend → Controller), die verschiedenen LEDs und Piepscodes (Controller → Frontend) und ein simples Ping/Pong-Protokoll, welches beide Seiten nutzen können, um sicherzustellen, dass die Kommunikation noch funktioniert.
+
 === Pinpad-Controller ===
 
 Die Firmware befindet sich auf https://github.com/raumzeitlabor/hausbus/tree/master/firmware-pinpad
