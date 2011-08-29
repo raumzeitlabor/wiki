@@ -36,7 +36,7 @@ Das Pinpad besteht aus mehreren Teilen:
 
 Die Firmware befindet sich auf https://github.com/raumzeitlabor/pinpad/tree/master/firmware-aussen
 
-=== Pinpad-Controller ==
+=== Pinpad-Controller ===
 
 Die Firmware befindet sich auf https://github.com/raumzeitlabor/hausbus/tree/master/firmware-pinpad
 
