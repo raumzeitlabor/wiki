@@ -1,3 +1,5 @@
+[[Datei:Pinpad_Frontend_v2_01.jpg|200px|thumb|right|Prototyp]]
+
 Auf dieser Seite wird das neue Frontend dokumentiert. Da die alte Platine in Betrieb ist können wir dort nicht ohne größeren Aufwand zu treiben alte Probleme beheben (beispielsweise funktionieren die Blink- und Pieps-Funktionen zwar prinzipiell, aber nicht so wie wir das gerne hätten). Unter anderem aus diesem Grund bauen wir ein neues Frontend.
 
 = Fuses =
