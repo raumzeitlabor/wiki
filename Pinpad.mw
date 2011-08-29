@@ -42,6 +42,16 @@ Derzeit kommunizieren wir via RS232 zwischen Frontend und Pinpad-Controller. Auf
 
 Die Firmware befindet sich auf https://github.com/raumzeitlabor/hausbus/tree/master/firmware-pinpad
 
+Der Pinpad-Controller kann drei Sensoren in der Tür auslesen:
+* TODO
+* TODO
+* TODO
+Den Sensorstatus stellt er auf dem Hausbus zur Verfügung (kann abgefragt werden, schickt aber auch selbstständig bei Änderungen ein entsprechendes Paket). Der Türstatus-Daemon schickt den Status dann zum RZL-Jail und zeichnet ihn in der Datenbank auf.
+
+Weiterhin kommuniziert er mit dem HomeTec++ um die Öffnen- und Schließ-Befehle umzusetzen. Dabei schließt er solange auf bzw. zu bis die Sensoren vermelden, dass offen bzw. zu ist.
+
+Im Pinpad-Controller befindet sich eine fest eingespeicherte PIN. Diese sollte man aber nicht benutzen, sondern stattdessen die Benutzer-PINs. Die fest eingespeicherte wird noch funktionieren, solange die Synchronisation der Benutzer-DB auf den Pinpad-Controller-EEPROM noch nicht läuft.
+
 === HomeTec++ ===
 
 Schaltplan, Layout, Firmware befinden sich auf https://github.com/raumzeitlabor/pinpad/tree/master/hometecpp
