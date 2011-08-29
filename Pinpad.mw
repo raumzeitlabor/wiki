@@ -1,13 +1,7 @@
-Seit dem 23.11.2010 ist das Pinpad vor der Eingangstür direkt beim RZL funktionsfähig. Kurze Bedienungsanleitung:
+== Status ==
 
-In Arbeit ist derzeit das [[Pinpad/Frontendv2]]
+Das Pinpad ist seit dem 23.11.2010 in Benutzung. Zum Öffnen der Tür hat jedes Mitglied eine persönliche PIN, die man auf http://blackbox.raumzeitlabor.de/BenutzerDB/ einsehen kann. Wer noch keine PIN hat, kann sie bei [[Benutzer:SEC|sECuRE]] beantragen.
 
-== Aufschließen ==
-* Wenn du die Tür aufschließen willst, gibst du die korrekte PIN ein (als Mitglied wird dir die PIN auf den üblichen Kommunikationswegen mitgeteilt), gefolgt von der Rautetaste
-* Wenn die rote LED leuchtet, war die Eingabe falsch. Wenn die Eingabe definitiv nicht falsch war, resette das Pinpad (die beiden losen Drähte oben verbinden).
+Zum Abschließen des Raums gibt man die Pin 666, gefolgt von der Rautetaste ein.
 
-== Abschließen ==
-* Zum Abschließen gibst du 666# ein.
-
-== Benutzerdatenbank ==
-Individuelle PINs sind gerade im Testbetrieb. Näheres dazu gabs auf der Mailingliste.
+In Arbeit ist derzeit das [[Pinpad/Frontendv2]].
