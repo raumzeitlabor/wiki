@@ -37,3 +37,9 @@ Das Pinpad besteht aus mehreren Teilen:
 Die Firmware befindet sich auf https://github.com/raumzeitlabor/pinpad/tree/master/firmware-aussen
 
 [[Kategorie:Projekt]]
+
+=== HomeTec++ ==
+
+Schaltplan, Layout, Firmware befinden sich auf https://github.com/raumzeitlabor/pinpad/tree/master/hometecpp
+
+Das HomeTec++ kommuniziert via PWM (zwei Leitungen, die jeweils über die Pulsweite einen Zustand empfangen bzw. senden) mit dem Pinpad-Controller, da wir keine seriellen Schnittstellen mehr frei hatten.
