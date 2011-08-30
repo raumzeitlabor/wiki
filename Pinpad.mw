@@ -36,11 +36,15 @@ Ein Video der Funktionalität (noch mit original HomeTec) sieht man auf http://w
 
 === Frontend ===
 
+[[Datei:Pinpadv1_front.jpg|200px|thumb|right|Frontend v1]]
+
 Die Firmware befindet sich auf https://github.com/raumzeitlabor/pinpad/tree/master/firmware-aussen
 
 Derzeit kommunizieren wir via RS232 zwischen Frontend und Pinpad-Controller. Aufgrund besserer Stabilität wird das im [[Pinpad/Frontendv2]] aber via RS485 gelöst werden. Es gibt Befehle für Tastendrücke (Frontend → Controller), die verschiedenen LEDs und Piepscodes (Controller → Frontend) und ein simples Ping/Pong-Protokoll, welches beide Seiten nutzen können, um sicherzustellen, dass die Kommunikation noch funktioniert.
 
 === Pinpad-Controller ===
+
+[[Datei:Pinpadcontroller.jpg|200px|thumb|right|Pinpad-Controller]]
 
 Die Firmware befindet sich auf https://github.com/raumzeitlabor/hausbus/tree/master/firmware-pinpad
 
@@ -57,6 +61,7 @@ Weiterhin kommuniziert er mit dem HomeTec++ um die Öffnen- und Schließ-Befehle
 Im Pinpad-Controller befindet sich eine fest eingespeicherte PIN. Diese sollte man aber nicht benutzen, sondern stattdessen die Benutzer-PINs. Die fest eingespeicherte wird noch funktionieren, solange die Synchronisation der Benutzer-DB auf den Pinpad-Controller-EEPROM noch nicht läuft.
 
 === HomeTec++ ===
+[[Datei:Hometecpp.jpg|100px|thumb|right|HomeTec++]]
 
 Schaltplan, Layout, Firmware befinden sich auf https://github.com/raumzeitlabor/pinpad/tree/master/hometecpp
 
