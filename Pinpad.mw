@@ -50,7 +50,7 @@ Der Pinpad-Controller kann drei Taster in der Tür auslesen:
 
 Ein Magnetsensor ist oben am Türrahmen befestigt und wird von einem Magneten geschlossen, wenn die Tür zu ist, unabhängig vom Zustand des Schlosses. Dieser Magnetsensor wird noch nicht ausgelesen.
 
-Den Sensorstatus stellt er auf dem Hausbus zur Verfügung (kann abgefragt werden, schickt aber auch selbstständig bei Änderungen ein entsprechendes Paket). Der Türstatus-Daemon schickt den Status dann zum RZL-Jail und zeichnet ihn in der Datenbank auf.
+Der Pinpad-Controller stellt den Sensorstatus auf dem Hausbus zur Verfügung (kann abgefragt werden, schickt aber auch selbstständig bei Änderungen ein entsprechendes Paket). Der Türstatus-Daemon schickt den Status dann zum RZL-Jail und zeichnet ihn in der Datenbank auf.
 
 Weiterhin kommuniziert er mit dem HomeTec++ um die Öffnen- und Schließ-Befehle umzusetzen. Dabei schließt er solange auf bzw. zu bis die Sensoren vermelden, dass offen bzw. zu ist.
 
