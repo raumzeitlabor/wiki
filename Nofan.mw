@@ -9,11 +9,22 @@
 
 == Doku ==
 
+=== Hersteller ===
+http://www.guentner.de
+
+=== 230V Beschaltung ===
+
+http://de.wikipedia.org/wiki/Steinmetzschaltung
+
+=== Klemmleiste ===
+
+7 8 1 2 3 4 5 6 <br>
+
 === Motor ===
 Axialventilatoren <br>
 {|
 |Flügel
-|1000
+|1000mmm
 |-
 |Art.-Nr.
 |VT0147
@@ -42,9 +53,6 @@ Axialventilatoren <br>
 |€
 |1.809,-
 |}
-
-===Flügel===
-1000mm Durchmesser
 
 ==Bilder==
 [[Datei:Lüfter.JPG|thumb|left|250px]]
