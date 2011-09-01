@@ -1,10 +1,10 @@
 {{ProjektInfoBox
 |name        = nofan
-|status      = experimental
+|status      = beta
 |image       = Lüfter.JPG
 |description = nofan
 |author      = [[Benutzer:inte|inte]] [[Benutzer:Nessi|Nessi]]
-|version     = 0.1
+|version     = 0.5
 }}
 
 ==Status==
