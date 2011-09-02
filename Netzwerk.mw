@@ -60,7 +60,7 @@ Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.8 || chumby || RZL Chumby
 |-----
-| 172.22.36.9 || ''reserved'' || Reserviert für Infrastruktur
+| 172.22.36.9 || cashpoint || RZL Cashpoint
 |-----
 | 172.22.36.'''10 - 110''' || dhcp || DHCP-Range (unfiltered)
 |-----
