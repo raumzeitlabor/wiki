@@ -105,6 +105,7 @@ Generell gilt: nur im Voraus!
 * Debian 6.0.1a testweise installiert (eine Partition, ext4)
 ** idealerweise in Zukunft als Image, was in RAM entpackt wird
 ** Zugriff über SSH
+* 4x40 Zeilen LCD mit [http://www.mikrocontroller.net/articles/HD44780 HD44780 Controller]
 
 ==Links==
 * http://www.das-labor.org/wiki/Getr%C3%A4nkekasse
