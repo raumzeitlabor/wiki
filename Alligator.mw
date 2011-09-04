@@ -1,11 +1,14 @@
 {{ProjektInfoBox
 |name        = Alligator
-|status      = beta
-|image       = Alligator1.JPG
+|status      = stable
+|image       = IMG_0547.JPG
 |description = Alligator
 |author      = [[Benutzer:Alexander Brock|Alexander Brock]] [[Benutzer:Nessi|Nessi]]
-|version     = 0.8
+|version     = 1.0
 }}
+
+==Info==
+Um sich das bewegen der Schale mit Entwickler von Hand zu ersparen erledigt das Schnappi nun für uns automatisch.
 
 ==Vorlage==
 http://www.youtube.com/watch?v=gytfAYq0uE8
