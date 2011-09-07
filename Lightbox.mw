@@ -25,4 +25,10 @@ Wir haben einen Scanner mit Stahblech-Gehäuse und internem Netzteil bekommen. D
 * schwarz Masse
 * rot 5V
 
+Es gibt eine Platine, die die Röhre schaltet, diese war über einen 3-poligen Stecker an die Logik-Platine angeschlossen:
+
+* rot 24V
+* schwarz Masse
+* braun Logik?
+
 [[Kategorie:Projekt]]
