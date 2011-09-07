@@ -15,14 +15,14 @@
 
 Wir haben einen Scanner mit Stahblech-Gehäuse und internem Netzteil bekommen. Das Netzteil hat einen 9-poligen Ausgangsstecker mit folgender Farbreihenfolge und Belegung:
 
-* pink
-* gelb
+* pink 20V
+* gelb 24V
 * schwarz Masse
 * schwarz Masse
-* braun 
+* braun 15V
 * schwarz Masse
-* weiß
+* weiß -15V
 * schwarz Masse
-* rot
+* rot 5V
 
 [[Kategorie:Projekt]]
