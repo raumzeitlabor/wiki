@@ -7,28 +7,42 @@
 |version     = 0.1
 }}
 
+Wir haben einen Scanner mit Stahblech-Gehäuse und internem Netzteil bekommen. Das Netzteil hat einen 9-poligen Ausgangsstecker mit folgender Farbreihenfolge und Belegung:
+{| class="wikitable"
+! Farbe || Belegung
+|-
+| pink || 20V
+|-
+| gelb || 24V
+|-
+| schwarz || Masse
+|-
+| schwarz || Masse
+|-
+| braun || 15V
+|-
+| schwarz || Masse
+|-
+| weiß || -15V
+|-
+| schwarz || Masse
+|-
+| rot || 5V
+|}
+
+Es gibt eine Platine, die die Röhre schaltet, diese war über einen 3-poligen Stecker an die Logik-Platine angeschlossen:
+{| class="wikitable"
+| rot || 24V
+|-
+| schwarz || Masse
+|-
+| braun || Logik?
+|}
+
 ==Bilder==
 {| 
 | [[Datei:Lightbox1.JPG|thumb|left|250px]]
 | [[Datei:Lightbox2.JPG|thumb|left|250px]]
 |}
-
-Wir haben einen Scanner mit Stahblech-Gehäuse und internem Netzteil bekommen. Das Netzteil hat einen 9-poligen Ausgangsstecker mit folgender Farbreihenfolge und Belegung:
-
-* pink 20V
-* gelb 24V
-* schwarz Masse
-* schwarz Masse
-* braun 15V
-* schwarz Masse
-* weiß -15V
-* schwarz Masse
-* rot 5V
-
-Es gibt eine Platine, die die Röhre schaltet, diese war über einen 3-poligen Stecker an die Logik-Platine angeschlossen:
-
-* rot 24V
-* schwarz Masse
-* braun Logik?
 
 [[Kategorie:Projekt]]
