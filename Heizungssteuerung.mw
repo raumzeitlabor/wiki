@@ -1,0 +1,11 @@
+{{ProjektInfoBox
+|name        = Heizungssteuerung
+|status      = Planung
+|image       = Sensor_steller.jpg
+|description = 
+|author      = [[Benutzer:Alexander Brock|Alexander Brock]] [[Benutzer:Nessi|Nessi]]
+|version     = 1.0
+}}
+
+
+Hier wird die Heizungssteuerung geplant. Dafo hat vier Heizungssteller vom Typ Siemens STE71.1 ([http://w5.siemens.ch/sbt/datenblaetter/de/downloads/n4874d.pdf Datenblatt]) und fünf Temperatursensoren vom Typ Thermokon VFG54 ([http://www.thermokon.de/files/produktblatt-af25-af50-pr25-vfg541254226887.pdf Datenblatt]) mitgebracht. In den VFG54-Gehäusen sind Ni1000TK5k-Sensoren ([http://www.e-i.co.il/assets/products/1/sensor%20charactersistic_102.pdf Datenblatt]) eingebaut.
