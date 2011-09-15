@@ -30,3 +30,4 @@ Wir brauchen:
 * Lan-Interface ENC28J60
 * Human Interface:
 ** Ein Taster für "Heizung soll den Raum auf 20°C bringen", falls Ethernet defekt
+** Ein Schalter für "Ich will die Heizung jetzt aber doch an haben" ist eventuell problematisch.
