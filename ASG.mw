@@ -36,5 +36,11 @@ Siehe auch [[Stromsparplan_2010#Variante_mit_externem_VLAN-Switch]]
 * 19"-Gehäuse, 1HE
 * Linux 2.6.33
 
+== Adminstuff ==
+=== Busmaster-Reset ===
 
+<pre>
+curl -d 0 -X PUT http://localhost:5000/port/2
+curl -d 1 -X PUT http://localhost:5000/port/2
+</pre>
 [[Kategorie:Hardware]]
