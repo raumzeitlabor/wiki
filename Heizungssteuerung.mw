@@ -35,7 +35,7 @@ Wir brauchen:
 
 Bestelliste Reichelt:
 {| class="wikitable"
-! Anzahl || Bezeichnung || Einzelpreis || Gesamtpreis || Summe
+! Anzahl || Bezeichnung || Einzelpreis || Gesamtpreis || Summe || Wiederbeschaffung || Summe
 |-
 | 1 || [http://www.reichelt.de/USB-CAN-BUS-Controller/ENC-28J60-I-SO/index.html?;ACTION=3;LA=444;GROUP=A316;GROUPID=2946;ARTICLE=89339;START=0;SORT=preis;OFFSET=500; ENC 28J60-I/SO :: Ethernet Controller, Stand-Alone, SOIC-28] || 2,70€ || 2,70€ || 2,70€
 |-
@@ -65,19 +65,29 @@ Bestelliste Reichelt:
 |-
 | 50 || SMD-Widerstände || 0,10€ || 5,00€ || 67,72€
 |-
-| 1 || [http://www.bopla.de/de/produktkatalog/gehaeusetechnik/product-category/rcp-000-1/product-detail/rcp-2000-5.html RCP 4000] || 20€ || 20€ || 87,72€
+| 1 || [http://www.bopla.de/de/produktkatalog/gehaeusetechnik/product-category/rcp-000-1/product-detail/rcp-2000-5.html RCP 4000] || 20€ || 20€ || 87,72€ || 80€ || 80€
 |-
-| 20 || SMD-Kondensatoren || 0,10€ || 2€ || 69,72€
+| 20 || SMD-Kondensatoren || 0,10€ || 2€ || 89,72€
 |-
-| 5 || SMD-Induktivitäten || 0,20€ || 1€ || 70,72€
+| 5 || SMD-Induktivitäten || 0,20€ || 1€ || 90,72€
 |-
-| 1 || [http://www.watterott.com/de/NaPS-Natriumpersulfat-1kg Natriumpersulfat] || 8,50€ || 8,50€ || 79,22€
+| 1 || [http://www.watterott.com/de/NaPS-Natriumpersulfat-1kg Natriumpersulfat] || 8,50€ || 8,50€ || 99,22€
 |-
-| 4 || [http://www.reichelt.de/IRL-IRFZ-Transistoren/IRLU-024N/index.html?;ACTION=3;LA=5000;GROUP=A167;GROUPID=2896;ARTICLE=90365; IRLU 024N :: Leistungs-MOSFET N-LogL TO-251AA 55V 17A] || 0,42 || 1,68 || 80,90€
+| 4 || [http://www.reichelt.de/IRL-IRFZ-Transistoren/IRLU-024N/index.html?;ACTION=3;LA=5000;GROUP=A167;GROUPID=2896;ARTICLE=90365; IRLU 024N :: Leistungs-MOSFET N-LogL TO-251AA 55V 17A] || 0,42 || 1,68 || 100,90€
 |-
-| 4 || [http://www.reichelt.de/RJ45-Stecker-buchsen/HIROSE-SW/index.html?;ACTION=3;LA=444;GROUP=ECC7;GROUPID=4319;ARTICLE=8569 HIROSE SW :: Hirose RJ45 Stecker, schwarz] || 0,90€ || 3,60€ || 84,50€
+| 4 || [http://www.reichelt.de/RJ45-Stecker-buchsen/HIROSE-SW/index.html?;ACTION=3;LA=444;GROUP=ECC7;GROUPID=4319;ARTICLE=8569 HIROSE SW :: Hirose RJ45 Stecker, schwarz] || 0,90€ || 3,60€ || 104,50€
 |-
-| 10 || [http://www.reichelt.de/5x20mm-Feinsicherungen/MTR-0-1A/index.html?;ACTION=3;LA=2;ARTICLE=13229; MTR. 0,1A :: Feinsicherung 5x20mm, mittelträge 0,1A] || 0,11€ || 1,10€ || 85,60€
+| 10 || [http://www.reichelt.de/5x20mm-Feinsicherungen/MTR-0-1A/index.html?;ACTION=3;LA=2;ARTICLE=13229; MTR. 0,1A :: Feinsicherung 5x20mm, mittelträge 0,1A] || 0,11€ || 1,10€ || 105,60€
 |-
-| 12 || Reedschalter + Magnet || 3€ || 36€ || 121,60€ 
+| 12 || Reedschalter + Magnet || 3€ || 36€ || 141,60€ 
+|-
+| 4 || Abzweigdose, Feuchtraum IP54 || 1€ || 4€ || 145,60€
+|-
+| 10 || PG-Verschraubung || 1€ || 10€ || 155,60€
+|-
+| 4 || Heizungssteller || 0 || 0 || 155,60€ || 720€ || 800€
+|-
+| 5 || Anlegetemperaturfühler || 0 || 0 || 155,60€ || 165€ || 965€
+|-
+| 20% || Sicherheitszuschlag || 31,12€ || 31,12€ || 186,72€
 |}
