@@ -1,10 +1,10 @@
 {{ProjektInfoBox
 |name        = Heizungssteuerung
-|status      = Planung
+|status      = experimental
 |image       = Sensor_steller.jpg
 |description = 
 |author      = [[Benutzer:Alexander Brock|Alexander Brock]] [[Benutzer:Nessi|Nessi]]
-|version     = 1.0
+|version     = 0.1
 }}
 
 
