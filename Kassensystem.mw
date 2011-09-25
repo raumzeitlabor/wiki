@@ -11,6 +11,7 @@
 |license     = 
 |download    = 
 }}
+[[Datei:Device-2011-09-25-171200.png|right|thumb|270px|Cashpoint-Manager]]
 
 ==Ideen==
 * "normale" Hardware (Thin Client? siehe z.B. [http://cgi.ebay.de/IGEL-3-4-Compact-3210-Thin-Client-600MHz-256MB-128MB-/300544341496?pt=DE_Technik_Computer_Peripherieger%C3%A4te_PC_Systeme&hash=item45f9d6b5f8#ht_3136wt_1096 hier] oder [http://cgi.ebay.de/IGEL-3-4-Compact-3210-Thin-Client-600MHz-256MB-128MB-/300544341496?pt=DE_Technik_Computer_Peripherieger%C3%A4te_PC_Systeme&hash=item45f9d6b5f8#ht_3136wt_1096 hier])
@@ -73,7 +74,11 @@ Generell gilt: nur im Voraus!
 * Verwaltungssystem
 ** Webanwendung
 
+== Cashpoint-Manager ==
+* Android-Anwendung zur Verwaltung des Cashpoints
+
 == Datenmodell ==
+'''Achtung, die folgenden Angaben können abweichen!'''
 * Produkt: <u>PID</u>, EAN, Name, MengenEinheit, SchwellenMenge, DatumAufgenommen
 * Einkauf: <u>EID</u>, PID, UID, Lieferant, DatumEinkauf, VerfallsDatum, Menge, EKPreis
 ** EKPreis wird als Basis für Berechnung der Standardkondition herangezogen
