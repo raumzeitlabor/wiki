@@ -265,7 +265,17 @@
 |status        = OK
 }}
 == Sonstiges ==
-=== Frequenzgenerator ===
+=== Frequenzgenerator 1 ===
+{{RowInfoBox
+|bild          = Frequenzgenerator_1_Front.JPG
+|hersteller    = Eigenbau
+|typ           = 
+|beschreibung  = bis 2 MHz, verschiedene Wellenformen
+|doku          = 
+|status        = OK
+}}
+
+=== Frequenzgenerator 2 ===
 {{RowInfoBox
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
 |hersteller    = Eigenbau
@@ -274,6 +284,7 @@
 |doku          = 
 |status        = Umbau in neues Gehäuse
 }}
+
 === Patterngenerator ===
 {{RowInfoBox
 |bild          = Pattern generator.jpg
