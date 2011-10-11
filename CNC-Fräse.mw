@@ -17,6 +17,12 @@
 In einem eBay-Wahn hat [[Benutzer:Tiefpunkt|tiefpunkt]] <del>einen</del> zwei Bausätze zum Bau einer CNC-Fräse gefunden. Beide Bausätze sind nicht ganz vollständig, darum gibts da noch so einiges zu tun. Aber erstmal ein bisschen Doku...
 
 
-== eBay-Beschreibung ==
+== Hardware ==
 * [[Datei:CNC-Fräse_-_XY_ebay.pdf]]
 * [[Datei:CNC-Fräse_-_Z_ebay.pdf]]
+
+== Elektronik ==
+In den Bausätzen sind keine Schrittmotorsteuerungen enthalten. Eventuell können wir die Ansteuerung der MTM Snap benutzen. [http://mtm.cba.mit.edu/machines/mtm_snap-lock/build/electronics.html]
+
+== Software ==
+Siehe MTM Snap [http://mtm.cba.mit.edu/machines/mtm_snap-lock/build/software.html]
