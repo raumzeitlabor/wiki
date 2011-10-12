@@ -1,5 +1,4 @@
-[[Kategorie:Projekt]]
-{{ProjektInfoBox
+[[Kategorie:Projekt]]{{ProjektInfoBox
 |name        = Heizungssteuerung
 |status      = experimental
 |image       = Sensor_steller.jpg
@@ -7,14 +6,12 @@
 |author      = [[Benutzer:Alexander Brock|Alexander Brock]] [[Benutzer:Nessi|Nessi]]
 |version     = 0.1
 }}
-
-
 Hier wird die Heizungssteuerung geplant. Dafo hat vier Heizungssteller vom Typ Siemens STE71.1 ([http://w5.siemens.ch/sbt/datenblaetter/de/downloads/n4874d.pdf Datenblatt]) und fünf Temperatursensoren vom Typ Thermokon VFG54 ([http://www.thermokon.de/files/produktblatt-af25-af50-pr25-vfg541254226887.pdf Datenblatt]) mitgebracht. In den VFG54-Gehäusen sind Ni1000TK5k-Sensoren ([http://www.e-i.co.il/assets/products/1/sensor%20charactersistic_102.pdf Datenblatt]) eingebaut.
 
 Die Heizungssteller sind kompatibel mit den an den Heizkörpern verbauten Ventilen.
 
+== Aufbau ==
 Wir brauchen:
-
 * Einen Mikrocontroller
 * Fünf Messwandler:
 ** Heizungsvorlauf
@@ -33,7 +30,7 @@ Wir brauchen:
 ** Ein Taster für "Heizung soll den Raum auf 20°C bringen", falls Ethernet defekt
 ** Ein Schalter für "Ich will die Heizung jetzt aber doch an haben" ist eventuell problematisch.
 
-
+== Einkaufsliste ==
 Bestelliste Reichelt:
 {| class="wikitable"
 ! Anzahl || Bezeichnung || Einzelpreis || Gesamtpreis || Summe || Wiederbeschaffung || Summe
