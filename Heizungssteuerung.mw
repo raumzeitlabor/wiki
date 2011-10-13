@@ -1,4 +1,4 @@
-[[Kategorie:Projekt]]{{ProjektInfoBox
+{{ProjektInfoBox
 |name        = Heizungssteuerung
 |status      = experimental
 |image       = Sensor_steller.jpg
@@ -101,3 +101,5 @@ Bestelliste Reichelt:
 |-
 | 15 || Sicherheitszuschlag || 1€ || 15€ || 238,95€
 |}
+
+[[Kategorie:Infrastruktur]]
