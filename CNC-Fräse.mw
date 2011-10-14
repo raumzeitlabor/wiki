@@ -22,7 +22,11 @@ In einem eBay-Wahn hat [[Benutzer:Tiefpunkt|tiefpunkt]] <del>einen</del> zwei Ba
 * [[Datei:CNC-Fräse_-_Z_ebay.pdf]]
 
 == Elektronik ==
-In den Bausätzen sind keine Schrittmotorsteuerungen enthalten. Eventuell können wir die Ansteuerung der MTM Snap benutzen. [http://mtm.cba.mit.edu/machines/mtm_snap-lock/build/electronics.html]
+In den Bausätzen sind keine Schrittmotorsteuerungen enthalten. Mögliche Alternativen:
+* Arduino mit GRBL
+** GrmlShield [http://www.synthetos.com/wiki/index.php?title=Projects:grblShield]
+** Shield des MTM-Snap[http://mtm.cba.mit.edu/machines/mtm_snap-lock/build/electronics.html]
+** Eigenbau mit Schrittmotortreibern
 
 == Software ==
 Siehe MTM Snap [http://mtm.cba.mit.edu/machines/mtm_snap-lock/build/software.html]
