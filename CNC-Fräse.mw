@@ -25,7 +25,7 @@ In einem eBay-Wahn hat [[Benutzer:Tiefpunkt|tiefpunkt]] <del>einen</del> zwei Ba
 == Elektronik ==
 In den Bausätzen sind keine Schrittmotorsteuerungen enthalten. Mögliche Alternativen:
 * Arduino mit GRBL
-** GrmlShield [http://www.synthetos.com/wiki/index.php?title=Projects:grblShield]
+** grblShield [http://www.synthetos.com/wiki/index.php?title=Projects:grblShield]
 ** Shield des MTM-Snap[http://mtm.cba.mit.edu/machines/mtm_snap-lock/build/electronics.html]
 ** Eigenbau mit Schrittmotortreibern
 
