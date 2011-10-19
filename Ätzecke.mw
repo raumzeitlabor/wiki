@@ -1,17 +1,16 @@
 {{ProjektInfoBox
 |name        = Ätzecke
 |status      = beta
-|image       = Aetzbad_mit_moertel_rand_sauber.jpg
+|image       = IMG_0622.JPG
 |description = Ätzecke
 |author      = [[Benutzer:nessi|nessi]], [[Benutzer:Felicitus|Felicitus]]
 |username    = 
-|version     = 0.5
+|version     = 0.9
 |update      = 
 |platform    = 
 |license     = 
 |download    = 
 }}
-[[Image:IMG 0283.JPG|thumb|250px|right|Bild der E-Ecke]]
 '''WICHTIG: In der Ätzecke befinden sich Geräte und Chemikalien die nicht Ungefährlich sind. Wer hier eigenständig Arbeiten ausführen will benötigt eine Unterweisung. Persönliche Sicherheitsausstattung ist erforderlich. (z.B. Laborkittel, UV-Schutzbrille, Handschuhe)'''
 
 '''Die Ätzecke ist im Aufbau'''
@@ -19,6 +18,16 @@
 Die Ätzecke bietet Platz für Platinenbelichtung und Platinenätzen. Dafür stehen eine vielzahl an Geräten und Zubehör bereit. 
 
 Die Ätzecke hat derzeit 2 Arbeitsplätze. Der Rollcontainer ist entsprechend bestückt.
+
+== Gerätenutzung ==
+
+Bei einigen Geräten ist vorher die Erlaubnis des/der Eigentümer einzuholen. Diese Geräte sind besonders beschriftet, bitte beachten!
+
+== Ordnung ==
+
+Bitte räume nach der Nutzung die Geräte/Werkzeuge wieder an ihren Platz. 
+
+Beim verlassen der Ätzecke die Arbeitsflächen und den Boden (ab)kehren bzw putzen.
 
 ==Zu Besorgen==
 *Latexhandschuhe
@@ -28,9 +37,7 @@ Die Ätzecke hat derzeit 2 Arbeitsplätze. Der Rollcontainer ist entsprechend be
 *Augenspühlflasche
 *Seifenspender
 *Mülleimer
-*Arbeitsplatte
-*Waschbecken
-*Wasserhahn
+
 *Platinen-Spühlschale
 *Kanister zum entsorgen für Entwickler
 *Kanister zum entsorgen für Ätzmittel [http://www.hubersoft.net/chemie/kupferabfall/kupferabfall.html]
@@ -46,16 +53,21 @@ Die Ätzecke hat derzeit 2 Arbeitsplätze. Der Rollcontainer ist entsprechend be
 *[http://www.reichelt.de/Flussmittel-Loetpasten/CR-44/index.html?;ACTION=3;LA=2;ARTICLE=6833;GROUPID=4132; SMD-Lötpaste]
 
 == Schon besorgt oder vorhanden ==
-* Tonerverdichter
+*Tonerverdichter
+*Arbeitsplatte
+*Waschbecken
+*Wasserhahn
 
 ==ToDo==
+*Unterschrank bauen mit Schloss
+*Ätzbad prüfen
+
+==Erledigt==
 *Ausmessen der Wände im Bereich der Fließen inkl. Träger
 *Planen des Waschbeckenunterbaus
 *Ätzeecke Fließen
 *Wasser anschließen
 *Waschbecken und Hahn anbauen
-*Unterschrank bauen mit Schloss
-*Ätzbad prüfen
 *Steckdosen einbauen
 
 ==Ätzecke Vermessen==
@@ -63,16 +75,6 @@ Hintere Wand 127cm
 Seitliche Wand 56cm
 Pfosten 11cm * 11cm
 Abstand hintere Wand zum Hängeschrank 32cm
-
-== Gerätenutzung ==
-
-Bei einigen Geräten ist vorher die Erlaubnis des/der Eigentümer einzuholen. Diese Geräte sind besonders beschriftet, bitte beachten!
-
-== Ordnung ==
-
-Bitte räume nach der Nutzung die Geräte/Werkzeuge wieder an ihren Platz. 
-
-Beim verlassen der Ätzecke die Arbeitsflächen und den Boden (ab)kehren bzw putzen.
 
 == Bilder ==
 {| 
@@ -90,6 +92,14 @@ Beim verlassen der Ätzecke die Arbeitsflächen und den Boden (ab)kehren bzw put
 |-
 | [[Datei:Aetzecke work4.JPG|thumb|left|250px]]
 | [[Datei:Aetzecke work5.JPG|thumb|left|250px]]
+| [[Datei:IMG 0592.JPG|thumb|left|250px]]
+|-
+| [[Datei:IMG 0594.JPG|thumb|left|250px]]
+| [[Datei:IMG 0596.JPG|thumb|left|250px]]
+| [[Datei:IMG 0597.JPG|thumb|left|250px]]
+|-
+| [[Datei:IMG 0598.JPG|thumb|left|250px]]
+| [[Datei:IMG 0600.JPG|thumb|left|250px]]
 | [[Datei:Aetzbad_moertel_verteilen.jpg|thumb|left|250px]]
 |-
 | [[Datei:Aetzbad_moertel_verteilen_details.jpg|thumb|left|250px]]
@@ -99,6 +109,8 @@ Beim verlassen der Ätzecke die Arbeitsflächen und den Boden (ab)kehren bzw put
 | [[Datei:Aetzbad_mit_moertel_rand.jpg|thumb|left|250px]]
 | [[Datei:Aetzbad_mit_moertel_rand_sauber.jpg|thumb|left|250px]]
 | [[Datei:Aetzbad_mit_moertel_becken_sauber.jpg|thumb|left|250px]]
+|-
+| [[Datei:IMG 0622.JPG|thumb|left|250px]]
 |}
 
 == Unterkategorien ==
