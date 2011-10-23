@@ -38,9 +38,14 @@ Siehe auch [[Stromsparplan_2010#Variante_mit_externem_VLAN-Switch]]
 
 == Adminstuff ==
 
-== Serielle Schnittstelle
+=== Serielle Schnittstelle ===
 
-Die Firebox hat eine serielle Schnittstelle: 115,2kHz, 8N1, Fabian empfiehlt Minicom 
+Die Firebox hat eine serielle Schnittstelle: 115,2kHz, 8N1, Fabian empfiehlt Minicom. Ein passendes Kabel ist verbunden und liegt oben auf der Firebox.
+
+Alternativ:
+<pre>
+screen /dev/ttyUSB0 115200
+</pre>
 
 === Busmaster-Reset ===
 
