@@ -65,6 +65,8 @@ Generell gilt: nur im Voraus!
  +--------------+  HTTP  +--------+  HTTP  +-----------------+
  |Kassenterminal| <----> |Core-API| <----> |Verwaltungssystem|
  +--------------+        +--------+        +-----------------+
+        ^                     ^                     ^
+   CP-Terminal             CP-API               CP-Manager
 * Core API: REST & JSON
 ** stellt Funktionen der Kasse bereit (inkl. Administration)
 ** [https://github.com/codeguy/Slim/wiki/Slim-Framework-Documentation Slim] sieht perfekt für unsere Zwecke aus
