@@ -37,6 +37,11 @@ Siehe auch [[Stromsparplan_2010#Variante_mit_externem_VLAN-Switch]]
 * Linux 2.6.33
 
 == Adminstuff ==
+
+== Serielle Schnittstelle
+
+Die Firebox hat eine serielle Schnittstelle: 115,2kHz, 8N1, Fabian empfiehlt Minicom 
+
 === Busmaster-Reset ===
 
 <pre>
