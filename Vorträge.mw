@@ -5,7 +5,7 @@ Um einen Vortrag zu dokumentieren legt bitte eine Unterseite (z.B. [[Vorträge/B
 Für Wünsche zu Workshops & Vorträgen gibt es die entsprechende Seite: [[Wünsch dir was]] 
 
 ==Kommend==
-{| class="prettytable"  valign = "top"
+{| class="wikitable"  valign = "top"
 !Titel
 !Referent
 !Beschreibung
@@ -16,7 +16,7 @@ Für Wünsche zu Workshops & Vorträgen gibt es die entsprechende Seite: [[Wüns
 |}
 
 ==Geplant==
-{| class="prettytable"  valign = "top"
+{| class="wikitable"  valign = "top"
 !Titel
 !Referent
 !Beschreibung
