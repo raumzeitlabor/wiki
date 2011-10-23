@@ -112,6 +112,11 @@ Generell gilt: nur im Voraus!
 ** Zugriff über SSH
 * 4x40 Zeilen LCD mit [http://www.mikrocontroller.net/articles/HD44780 HD44780 Controller]
 
+==Code==
+* Cashpoint-API: http://git.iodev.org/cashpoint-api/
+* Cashpoint-Manager: http://git.iodev.org/cashpoint-manager/
+* Cashpoint-Terminal: http://git.iodev.org/cashpoint-terminal/
+
 ==Links==
 * http://www.das-labor.org/wiki/Getr%C3%A4nkekasse
 * http://wiki.c-base.org/coredump/CassenDevice
