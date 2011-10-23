@@ -42,7 +42,7 @@ Siehe auch [[Stromsparplan_2010#Variante_mit_externem_VLAN-Switch]]
 
 Die Firebox hat eine serielle Schnittstelle: 115,2kHz, 8N1, Fabian empfiehlt Minicom. Ein passendes Kabel ist verbunden und liegt oben auf der Firebox.
 
-Alternativ:
+Alternativ zu minicom kann man auch screen verwenden:
 <pre>
 screen /dev/ttyUSB0 115200
 </pre>
