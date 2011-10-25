@@ -1,0 +1,63 @@
+{{projektInfoBox
+| description = Portable Stromversorgung
+| status = experimental
+| download = https://pad.foebud.org/rzlsolar
+}} [[Kategorie: Projekt]]
+Aktuellere Informationen im Projekt-Pad: https://pad.foebud.org/rzlsolar
+== Solarpanel ==
+Wir haben ein Solarpanel bei Ebay geschossen. Das ist zum Testen gedacht. 
+* 1.39 A Nennstrom
+* 18 V Nennspannung
+* 25 W Leistung
+* Link zum Panel: http://www.solar-tronics.de/products/solarmodul-25-watt
+
+ggf für die Funker: Noch einen QRP oder ähnlichen Sparsamen Tranceiver einbauen.
+Von den Freiburger Kollegen wurde ein YAESU FT-817 oder ähnliches empfohlen
+
+== Akku ==
+Der Akku der Wahl wird wohl ein Blei-Gel Akku sein, da diese nicht darauf angewiesen sind aufrecht betrieben zu werden.
+Beim Laden von Gel-Akkus muss aufgepasst werden das diese nicht anfangen zu gasen. Dies ist wohl bei bei einer Ladespannung von kleiner 14,2Volt gewährleistet.
+
+== Regler ==
+Der Regler sollte über einen Über- und Tiefentladeschutz verfügen. Um dies zu realisieren muss er extra Anschlüsse für Solarpanel, Akku und Verbraucher haben.
+Es sollten eventuell Leistungsreservern für den Betrieb zusätzl. Panels/Batterieb
+
+
+== Unterverteilung und Verkabelung nach außen ==
+* Vorschlag Anderson PowerPoles: http://www.powerwerx.com/anderson-powerpoles/, siehe auch: http://www.amateurfunk.de/notfunk/news/2010/10/Einheitliche_Verwendung_von_Steckern.php
+*  Alternativ Neutrik PowerCon: http://tinyurl.com/5umtbu, (aus den deutschen Notfunkrichtilinien: http://www.notfunk-deutschland.de/docs/TR-NF-110521.pdf )
+** + Verpolungssicher
+** - Sehen Größer aus und brauchen ggf mehr platz
+** "Spezielle" verlängerungskabel notwendig
+
+== Laden ==
+* grundsätzlich sollte der Ladestrom höher sein als die eigenentladung
+* Faustformel für Ladedauer für einen leeren Akku: Ladedauer=Akkukapazität/Ladestrom*1,3
+** wobei die Regel 1/10 in erster Linie als Schonung zu Gunsten längerer Lebensdauer für das Akku gedacht ist
+
+== Nächste Schritte ==
+* Testaufbau mit Panel, Regler und Akku. Interessant wäre diesen "live" zu betreiben und über längere Zeit die relevanten Spannungen und Ströme zu monitoren (Atmega -> SD ?!?)
+* Für den Testaufbau könnte auch erstmal eine "normale" Autobatterie verwendet werden, da (einfach) vorhanden.
+
+== Weiter Überlegungen ==
+* Alternativ Laden einer externen Batterie -> z.B. Auto
+* Anschlussmöglichkeit weiterer "externen" Panels (Kaskadierung)
+* Weitere Spannungen (z.B. 5Volt USB)
+
+== Offene Fragen ==
+* viele, vor allem zum Technischen Background und zu den richtigen Berechnungsformeln..
+* ...
+
+== Links ==
+* Reichelt.de hat auch Panels im Sortiment (keine Kaufempfehlung nur Info)
+** SOLARSET ETM3620 (239,95 EUR (Stand 111025) 2.7kg 15Ah, 20W, Maximum power voltage (Vmp) 17.82V) 
+*** http://www.reichelt.de/?;ACTION=3;ARTICLE=105243
+*** Datenblatt: http://www.reichelt.de/index.html?;ACTION=7;FILENAME=K100%252FDATENBLATTET-20W.pdf
+** Blei-Gel-Akku
+*** LCR-12V 17P :: Blei-Gel-Akku, 12 Volt, 17 Ah, 181x76x167mm
+*** http://www.reichelt.de/?;ACTION=3;ARTICLE=34885
+* Ähnliches Problem bei wer-weiss-was:
+** http://www.wer-weiss-was.de/Anfragen/www_de/archiv/243773/blei-akku-ueber-solarmodul-mit-regler-laden.html
+*** http://www.conrad.de/ce/de/product/113344/Solar-Laderegler-12-V-
+*** http://www.conrad.de/ce/de/product/110390/SOLARMODUL-5W-12V/SHOP_AREA_37356&promotionareaSearchDetail=005
+* Shop mit teilw. Erläuterungen: http://www.solarzellen-shop.de
