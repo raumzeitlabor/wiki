@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = Minecraft-Server
-|status      = experimental
-|image       = 
+|status      = beta
+|image       = Minecraft_Logo.png
 |description = Der RaumZeitLabor-Minecraftserver
 |author      = [[Benutzer:Lutoma|Lutoma]], [[Benutzer:Bluegene|bluegene]]
 |username    = 
