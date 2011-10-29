@@ -6,5 +6,14 @@ Hier werden Zustände des RZL protokolliert.
 |-
 ! Datum !! Uhrzeit !! Stand
 |-
-| 29.10.2011 || 18:40 || 20069,76
+| 29.10.2011 || 18:40 || 20069,76 
+|}
+
+== Getränkestand ==
+
+{| class="wikitable"
+|-
+! Datum !! Uhrzeit !! CM !! CMC !! ICE-T !! A-K !! Cola-Mix !! Zitrone 
+|-
+| 29.10.2011 || 18:40 || 17 || 0 || 19 || 9,5 || 0,5 || 0,5
 |}
