@@ -4,9 +4,11 @@ Hier werden Zustände des RZL protokolliert.
 
 {| class="wikitable"
 |-
-! Datum !! Uhrzeit !! Stand
+! Datum !! Uhrzeit !! Stand !! Kosten !! Kosten pro Tag
 |-
-| 29.10.2011 || 18:40 || 20069,76 
+| 29.10.2011 || 18:40 || 20069.76 
+|-
+| 01.11.2011 || 20:08 || 20166.67 || 19,38€
 |}
 
 == Getränkestand ==
