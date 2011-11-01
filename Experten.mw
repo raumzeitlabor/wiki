@@ -1,0 +1,59 @@
+Hier findet sich eine Liste von Leuten, die sich mit bestimmten Dingen auskennen.
+Und zwar erstens für RaumZeitLabor-eigene Themen (z.B. unsere Infrastruktur), aber auch ganz allgemein.
+Ziel ist es, dass man, wenn man Probleme mit irgendwas hat oder wissen will, wie es funktioniert, einfach hier nachschlagen kann.
+
+Wenn ihr ein neues Projekt anfangt, tragt euch bitte hier ein.
+Legt bitte auch (evtl. leere) Einträge an, wenn ihr gerne wüsstet, wer für irgendwas ein Experte ist.
+Wenn ihr es herausgefunden habt, könnt ihr es auch gern hier eintragen.
+
+(Ich bin mir noch nicht sicher, ob nicht besser für jedes Ding eine eigene Wikiseite angelegt und die Experten dort definiert sein sollten. Ich mach mir darüber mal Gedanken. Vorerst gilt diese Seite daher als Konzept. --[[Benutzer:Scytale|Scytale]])
+
+== RaumZeitLabor-Dinge ==
+{|
+! Thema/Ding/Objekt
+! Experte(n)
+|-
+! Hausbus
+| [[Benutzer:SEC|sECuRE]]
+|-
+! Türstatus-System
+| [[Benutzer:SEC|sECuRE]]
+|-
+! Server „blackbox“
+| [[Benutzer:SEC|sECuRE]]
+|-
+! Router „firebox“
+| [[Benutzer:SEC|sECuRE]]
+|-
+! Webserver und Jail [http://raumzeitlabor.de/ raumzeitlabor.de] (Technik, nicht Inhalt)
+| [[Benutzer:Rabe|Rabe]], [[Benutzer:SEC|sECuRE]]
+|-
+! Wiki (Technik, nicht Inhalt)
+| [[Benutzer:Rabe|Rabe]]
+|-
+! Website [http://status.raumzeitlabor.de/ status.raumzeitlabor.de]
+| [[Benutzer:SEC|sECuRE]]
+|-
+! Mailinglisten
+| [[Benutzer:Rabe|Rabe]]
+|-
+! Twitter-Account [https://twitter.com/RaumZeitStatus @RaumZeitStatus]
+| [[Benutzer:SEC|sECuRE]]
+|-
+! Twitter-Account [https://twitter.com/RaumZeitLabor @RaumZeitLabor]
+| [[Benutzer:Scytale|Scytale]]
+|-
+! IRC-Bot RaumZeitInfo
+| ?
+|-
+! IRC-Bot RaumZeitMPD
+| ?
+|-
+! IRC-Bot RaumZeitNPM
+| ?
+|-
+! IRC-Bot RaumZeitStatus
+| ?
+|}
+
+== Ganz allgemein ==
