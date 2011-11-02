@@ -13,62 +13,62 @@ Wenn ihr es herausgefunden habt, könnt ihr es auch gern hier eintragen.
 ! Thema/Ding/Objekt
 ! Experte(n)
 |-
-! Hausbus
+| Hausbus
 | [[Benutzer:SEC|sECuRE]]
 |-
-! Türstatus-System
+| Türstatus-System
 | [[Benutzer:SEC|sECuRE]]
 |-
-! Server „blackbox“
+| Server „blackbox“
 | [[Benutzer:SEC|sECuRE]]
 |-
-! Router „firebox“
+| Router „firebox“
 | [[Benutzer:SEC|sECuRE]]
 |-
-! Webserver und Jail [http://raumzeitlabor.de/ raumzeitlabor.de] (Technik, nicht Inhalt)
+| Webserver und Jail [http://raumzeitlabor.de/ raumzeitlabor.de] (Technik, nicht Inhalt)
 | [[Benutzer:Rabe|Rabe]], [[Benutzer:SEC|sECuRE]]
 |-
-! Wiki (Technik, nicht Inhalt)
+| Wiki (Technik, nicht Inhalt)
 | [[Benutzer:Rabe|Rabe]], [[Benutzer:Felicitus|Felicitus]]
 |-
-! Website [http://status.raumzeitlabor.de/ status.raumzeitlabor.de]
+| Website [http://status.raumzeitlabor.de/ status.raumzeitlabor.de]
 | [[Benutzer:SEC|sECuRE]]
 |-
-! Mailinglisten
+| Mailinglisten
 | [[Benutzer:Rabe|Rabe]]
 |-
-! IRC-Bot RaumZeitInfo
+| IRC-Bot RaumZeitInfo
 | [[Benutzer:Bluegene|simon]]
 |-
-! IRC-Bot RaumZeitMPD
+| IRC-Bot RaumZeitMPD
 | ?
 |-
-! IRC-Bot RaumZeitNPM
+| IRC-Bot RaumZeitNPM
 | ?
 |-
-! IRC-Bot RaumZeitStatus
+| IRC-Bot RaumZeitStatus
 | ?
 |-
-! [[PartKeepr]]
+| [[PartKeepr]]
 | [[Benutzer:Felicitus|Felicitus]]
 |-
-! [[PringlesFoo]]
+| [[PringlesFoo]]
 | [[Benutzer:Felicitus|Felicitus]]
 |-
-! [[Elektroecke]]
+| [[Elektroecke]]
 | [[Benutzer:Felicitus|Felicitus]]
 |-
-! [[VIP1710]] (MPD-Server)
+| [[VIP1710]] (MPD-Server)
 | [[Benutzer:Felicitus|Felicitus]], docsteel?
 |}
 
 == Ganz allgemein ==
 
-{|
+{| class="wikitable"
 ! Thema/Ding/Objekt
 ! Experte(n)
 |-
-! PHP, Doctrine2, Symfony2
+| PHP, Doctrine2, Symfony2
 | [[Benutzer:Felicitus|Felicitus]]
 |}
 ==Siehe auch==
