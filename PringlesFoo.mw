@@ -16,6 +16,8 @@
 
 Wir haben ja eine tolle Pringles-Spenderröhre. Jetzt haben wir auch Sound!
 
+'''Achtung: Derzeit außer Betrieb. TODO: Umbau auf Hausbus'''
+
 == Wie funktioniert's? ==
 
 An der linken Röhre ist ein Taster eingebaut, welcher durch die Pringlesdosen dauerhaft gedrückt wird. Wird der Taster losgelassen und erneut gedrückt, merkt das der verbaute Attiny2313 und schiebt ein Zeichen (C) über den seriellen Port raus. Da die [[Blackbox]] normale Seriellpegel erwartet, ist noch eine kleine Wandlerplatine verbaut.
