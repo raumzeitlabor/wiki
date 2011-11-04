@@ -15,11 +15,13 @@ Hier werden Zustände des RZL protokolliert.
 
 == Getränkestand ==
 
-Anzahl der Kästen
+Anzahl der Kästen '''ohne''' den Inhalt des Kühlschranks
 
 {| class="wikitable"
 |-
 ! Datum !! Uhrzeit !! CM !! CMC !! ICE-T !! A-K !! Cola-Mix !! Zitrone !! Orange !! ACE !! Apfelschorle !! ISO-Sport !! Malz
+|-
+| 04.11.2011 || 14:41 || 9    ||  0 || 17   || 8,2  || 2,5 || 3 || 3   || 2 || 1   || 1 || 0,8
 |-
 | 02.11.2011 || 21:34 || 9½   ||  0 || 16   || 8½   || 1½  || 2 || 2   || 2 || 1   || 1 || 1
 |-
