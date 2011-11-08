@@ -1,0 +1,15 @@
+Diese Seite dient als Übersicht über vergangene Lightning Talks, die im Rahmen der offenen RaumZeitLaborierung gehalten wurden.
+
+{| class="wikitable"  valign = "top"
+!Datum
+!Titel
+!Referent
+|-
+| 08.11.2011
+| Wie portiert man Pakete ins FreeBSD Port System?
+| [[Benutzer:blabber|blabber]]
+|-  
+| 01.11.2011
+| Pizzaproxys und die Welt der Massenbestellungen
+| [[Benutzer:muzy|muzy]]
+|}
