@@ -1,9 +1,10 @@
 ==PC==
-*Hersteller: DELL
-*Typ: Dimension 9150
-*Hardware: Pentium D Dualcore 2,8GHz, 2GB Ram, Cardreader, HD 160GB Sata (ST3160023AS), ATI Radeon X600, DVD-ROM, CD-RW
-*Betriebsystem: Ubuntu und Win XP
-* IP: 172.22.36.112
+* Hersteller: Fujitsu-Siemens
+* Typ: Futro D100 Thin CLient
+* Hardware: Celeron 1,3 Ghz, 512MB RAM, 40GB HDD
+* Betriebsystem: Xubuntu 11.10
+* Besitzer: [[Benutzer:Tiefpunkt|tiefpunkt]]
+* IP: DHCP <del>172.22.36.112</del>
 
 ==Monitor==
 [[Datei:IMG_0389.JPG|250px|thumb|right]]
@@ -29,32 +30,13 @@
 *Hersteller: cabstone
 *Typ: CAB WH LCD-4
 
-==Tastatur & Maus==
-<div style="float:right;">
-{|
-| [[Datei:IMG_0390.JPG|250px|thumb]]
-| [[Datei:IMG_0392.JPG|250px|thumb]]
-|}
-</div>
-*Hersteller: Logitech
-*Typ: Cordless Desktop® LX 710 Laser
-*Port: USB
-<div style="clear:both;"></div>
-
-==Drucker==
-[[Datei:IMG_0396.JPG|250px|thumb|right]]
-*Hersteller: Brother
-*Typ: HL2040
-*Beschreibung: Laserdrucker (SW) 
-*Port: USB
-<div style="clear:both;"></div>
-
 ==Labeldrucker==
 [[Datei:IMG_0393.JPG|250px|thumb|right]]
 *Hersteller: Brother
 *Typ: P-thouch QL-500
 *[[Labeldrucker]]
 *Port: USB
+* '''Derzeit nicht angeschlossen'''
 <div style="clear:both;"></div>
 
 ==Labeldrucker II==
@@ -62,6 +44,7 @@
 *Hersteller: Brother
 *Typ: P-thouch 1230 PC
 *Port: USB
+* '''Derzeit nicht auffindbar?!?'''
 <div style="clear:both;"></div>
 
 ==Scanner==
@@ -69,5 +52,6 @@
 *Hersteller: Hewlett Packard
 *Typ: ScanJet 5200C
 *Port: USB
+* '''Derzeit nicht auffindbar?!?'''
 
 [[Kategorie:Hardware]]
