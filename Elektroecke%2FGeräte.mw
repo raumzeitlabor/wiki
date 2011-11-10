@@ -16,6 +16,7 @@
 |typ           = 
 |beschreibung  = 
 |doku          = 
+|besitzer      = DaFo
 |status        = Noch defekt, Umbau
 }}
 == Messtechnik ==
@@ -62,6 +63,7 @@
 |typ           = DS1052E
 |beschreibung  = DSO, 2 channel, 50 MHz, 1 GSa/s
 |doku          = 
+|besitzer      = [[Benutzer:AlexanderB|AlexanderB]], [[Benutzer:SEC|sECuRE]]
 |status        = OK, Nutzung nur nach Rücksprache!
 }}
 === LC Meter I ===
@@ -71,6 +73,7 @@
 |typ           = 
 |beschreibung  = Digitales Messgerät zur Kapazitätsmessung und Induktivitätsmessung. 
 |doku          = [[LC Meter]]
+|besitzer    = [[Benutzer:Felicitus|Felicitus]]
 |status        = Aktuell werden die letzten Schrauben reingedreht
 }}
 
@@ -188,6 +191,7 @@
 |typ           = iCon Nano
 |beschreibung  = Nutzung nur nach Rücksprache mit Felicitus
 |doku          = [[Ersa i-con nano]]
+|besitzer    = [[Benutzer:Felicitus|Felicitus]]
 |status        = OK
 }}
 
@@ -199,6 +203,7 @@
 |typ           = 
 |beschreibung  = bis 2 MHz, verschiedene Wellenformen
 |doku          = 
+|besitzer    = [[Benutzer:Felicitus|Felicitus]]
 |status        = OK
 }}
 
@@ -239,6 +244,7 @@
 |typ           = 
 |beschreibung  = siehe [[PC-Eeck]]
 |doku          = n/a
+|besitzer    = [[Benutzer:Tiefpunkt|tiefpunkt]] (der eigentliche Rechner zumindest)
 |status        = OK
 }}
 
@@ -269,6 +275,7 @@
 |typ           = 
 |beschreibung  = 1600x1200, DVI und VGA-Eingang. Achtung, der Monitor scheint erst im Laufe der Zeit heller zu werden
 |doku          = 
+|besitzer    = RaumZeitLabor
 |status        = OK
 }}
 
