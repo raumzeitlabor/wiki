@@ -1,31 +1,4 @@
 == Labornetzgeräte ==
-=== Voltcraft Digi 35 (1 von 3) ===
-{{RowInfoBox
-|bild          = Voltcraft_digi_35_1.jpg
-|hersteller    = [http://www.voltcraft.de Voltcraft]
-|typ           = Digi35
-|beschreibung  = 
-|doku          = Schaltplan als Papierausgabe im Geräteordner 
-|status        = OK
-}}
-=== Voltcraft Digi 35 (2 von 3) ===
-{{RowInfoBox
-|bild          = Voltcraft digi 35.jpg
-|hersteller    = [http://www.voltcraft.de Voltcraft]
-|typ           = Digi35
-|beschreibung  = 
-|doku          = Schaltplan als Papierausgabe im Geräteordner 
-|status        = OK
-}}
-=== Voltcraft Digi 35 (3 von 3) ===
-{{RowInfoBox
-|bild          = Voltcraft digi 35.jpg
-|hersteller    = [http://www.voltcraft.de Voltcraft]
-|typ           = Digi35
-|beschreibung  = 
-|doku          = Schaltplan als Papierausgabe im Geräteordner 
-|status        = Defekt
-}}
 === Peaktech 6000A ===
 {{RowInfoBox
 |bild          = Peaktech regelbare spannungsquelle.jpg
@@ -36,26 +9,7 @@
 |status        = Defekt
 }}
 
-=== Festspannungsnetzteil I ===
-{{RowInfoBox
-|bild          = Netzteil 2.jpg
-|hersteller    = Eigenbau
-|typ           = 
-|beschreibung  = 2 * 5V (nicht brückbar) 3A <br> 2 * 15V (brückbar) 750mA
-|doku          = 
-|status        = OK
-}}
-
 === Regelbaresnetzteil I ===
-{{RowInfoBox
-|bild          = Regelbare spannungsquelle-von-nessi.jpg
-|hersteller    = Eigenbau
-|typ           = 
-|beschreibung  = 
-|doku          = 
-|status        = OK
-}}
-=== Regelbaresnetzteil II ===
 {{RowInfoBox
 |bild          = Netzteil_3.jpg
 |hersteller    = Eigenbau
@@ -65,25 +19,6 @@
 |status        = Noch defekt, Umbau
 }}
 == Messtechnik ==
-=== Voltmeter VM 70 ===
-{{RowInfoBox
-|bild          = Voltmeter mv 70.jpg
-|hersteller    = VEB
-|typ           = VM70
-|beschreibung  = AC Spannungsmessgerät
-|doku          = Beschreibung & Bedienungsanleitung & Schaltplan als Papierausgabe im Geräteordner
-|status        = OK
-}}
-=== Voltmeter MV40 ===
-{{RowInfoBox
-|bild          = MV40.JPG
-|hersteller    = VEB
-|typ           = MV40
-|beschreibung  = DC Strom- Spannungsmessgerät & Widerstandmessgerät <br> Messumfang 5 * 10^7 bis 10^14 Ohm, 1pA bis 300µA, 10µV bis 300V 
-|doku          = Beschreibung & Bedienungsanleitung & Schaltplan als Papierausgabe im Geräteordner [[MV40 Bilder]]
-|status        = OK
-}}
-
 === Oszilloskop Hameg HM 203-6 ===
 {{RowInfoBox
 |bild          = Hameg hm203-6 oszi.jpg
@@ -91,15 +26,6 @@
 |typ           = HM 203-6
 |beschreibung  = 
 |doku          = Doku als Papierausgabe im Geräteordner 
-|status        = OK
-}}
-=== Oszilloskop Hameg HM 705 ===
-{{RowInfoBox
-|bild          = Hm 705.jpg
-|hersteller    = [http://www.hameg.de Hameg]
-|typ           = HM 705
-|beschreibung  = 
-|doku          = Originaldoku in Nessis-Kiste & Doku als Papierausgabe im Geräteordner 
 |status        = OK
 }}
 === Oszilloskop Gould OS300 === 
@@ -286,15 +212,6 @@
 |status        = Umbau in neues Gehäuse
 }}
 
-=== Patterngenerator ===
-{{RowInfoBox
-|bild          = Pattern generator.jpg
-|hersteller    = Elektronika
-|typ           = EKD480
-|beschreibung  = 
-|doku          = Doku als Papierausgabe im Geräteordner
-|status        = OK
-}}
 === ISEL EPROM UV Löschgerät ===
 {{RowInfoBox
 |bild          = Eprom uv eraser.jpg
@@ -304,6 +221,7 @@
 |doku          = Doku als Papierausgabe im Geräteordner
 |status        = OK
 }}
+
 === Laborwaage Sartorius ===
 {{RowInfoBox
 |bild          = Sartorius 2002 mp1.jpg
@@ -319,8 +237,8 @@
 |bild          = RaumZeitLabor - Logo - Schwarz.svg
 |hersteller    = 
 |typ           = 
-|beschreibung  = [[PC-Eeck]] PC DELL Dimension 9150 (Pentium D Dualcore 2,8GHz, 2GB Ram, Cardreader, Ubuntu und Win XP), 17" LCD Monitor, Logitech Cordless Desktop® LX 710 Laser und Brother HL2040 Laserdrucker (SW) ...
-|doku          = Doku als Papierausgabe im Geräteordner 
+|beschreibung  = siehe [[PC-Eeck]]
+|doku          = n/a
 |status        = OK
 }}
 
