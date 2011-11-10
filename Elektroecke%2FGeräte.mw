@@ -47,15 +47,6 @@
 |doku          = Doku als Papierausgabe im Geräteordner
 |status        = OK
 }}
-=== Kapazitätsmessgerät I ===
-{{RowInfoBox
-|bild          = Hp 36d.jpg
-|hersteller    = [http://www.holdpeak.de HoldPeak]
-|typ           = HP-36D
-|beschreibung  = Digitales Messgerät zur Kapazitätsmessung HP 36D, mit 9 Messbereichen von 0,1pF bis 20mF (20.000μF) mit Display-Hintergrundbeleuchtung. 
-|doku          = [[Media:Kapazitaetsmessgeraet_hp-36d.pdf|Bedienungsanleitung]]
-|status        = OK
-}}
 === Digitales Speicher-Oszilloskop [[Rigol DS1052E]] ===
 {{RowInfoBox
 |bild          = DS1052E.jpg
@@ -78,45 +69,6 @@
 }}
 
 == Löttechnik ==
-=== Ersa Minor ===
-{{RowInfoBox
-|bild          = Ersa-minor.JPG
-|hersteller    = [http://www.ersa.de Ersa]
-|typ           = Lötnadel Ersa-Minor
-|beschreibung  = Nennleistung 5W Versorgungsspannung 6 V
-|doku          = 
-|status        = OK
-}}
-
-=== Ersa Lötbad T10 ===
-{{RowInfoBox
-|bild          = Ersa-t10.JPG
-|hersteller    = [http://www.ersa.de Ersa]
-|typ           = Lötbad T10
-|beschreibung  = 230V 130W Temperaturbereich 340°C Lot-Menge 185g
-|doku          = 
-|status        = OK
-}}
-
-=== Ersa Lötstation I ===
-{{RowInfoBox
-|bild          = Ersa-Analog60.JPG
-|hersteller    = [http://www.ersa.de Ersa]
-|typ           = ANALOG 60
-|beschreibung  = 
-|doku          = 
-|status        = Zurück an Eigentümer
-}}
-
-=== Ersa Lötstation II ===
-{{RowInfoBox
-|bild          = Ersa-Analog60.JPG
-|hersteller    = [http://www.ersa.de Ersa]
-|typ           = ANALOG 60
-|beschreibung  = 
-|doku          = 
-|status        = OK
-}}
 === Lötstation ZD-931 I ===
 {{RowInfoBox
 |bild          = Zd-931.JPG
@@ -154,35 +106,6 @@
 |status        = OK
 }}
 
-=== Weller Lötkolben WM12 ===
-{{RowInfoBox
-|bild          = Weller-WD12.JPG
-|hersteller    = [http://www.weller.de/ Weller]
-|typ           = WM12
-|beschreibung  = Nennleistung 15W Versorgungsspannung 230V
-|doku          = 
-|status        = OK
-}}
-
-=== Weller Lötstation  ===
-{{RowInfoBox
-|bild          = Weller-pu81.JPG
-|hersteller    = [http://www.weller.de/ Weller]
-|typ           = PU 81 
-|beschreibung  = Elektronisch geregelte Lötstation
-|doku          = 
-|status        = OK
-}}
-
-=== Hammer Lötkoben  ===
-{{RowInfoBox
-|bild          = RaumZeitLabor - Logo - Schwarz.svg
-|hersteller    = 
-|typ           =  
-|beschreibung  = 230V
-|doku          = 
-|status        = OK
-}}
 
 === Ersa iCon Nano ===
 {{RowInfoBox
@@ -207,35 +130,6 @@
 |status        = OK
 }}
 
-=== Frequenzgenerator 2 ===
-{{RowInfoBox
-|bild          = RaumZeitLabor - Logo - Schwarz.svg
-|hersteller    = Eigenbau
-|typ           = 
-|beschreibung  = 
-|doku          = 
-|status        = Umbau in neues Gehäuse
-}}
-
-=== ISEL EPROM UV Löschgerät ===
-{{RowInfoBox
-|bild          = Eprom uv eraser.jpg
-|hersteller    = ISEL
-|typ           = 
-|beschreibung  = 
-|doku          = Doku als Papierausgabe im Geräteordner
-|status        = OK
-}}
-
-=== Laborwaage Sartorius ===
-{{RowInfoBox
-|bild          = Sartorius 2002 mp1.jpg
-|hersteller    = Sartorius
-|typ           = 2002MP1
-|beschreibung  = 
-|doku          = Doku als Papierausgabe im Geräteordner
-|status        = Reparieren
-}}
 
 === [[PC-Eeck]] ===
 {{RowInfoBox
