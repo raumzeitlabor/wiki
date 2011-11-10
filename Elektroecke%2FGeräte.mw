@@ -76,6 +76,7 @@
 |hersteller    = [http://www.reichelt.de Reichelt GmbH]
 |typ           = ZD-931 
 |beschreibung  = Digitale Lötstation
+|besitzer      = RaumZeitLabor
 |doku          = Doku als Papierausgabe im Geräteordner 
 |status        = OK
 }}
@@ -84,15 +85,7 @@
 |bild          = Zd-931.JPG
 |hersteller    = [http://www.reichelt.de Reichelt GmbH]
 |typ           = ZD-931 
-|beschreibung  = Digitale Lötstation
-|doku          = Doku als Papierausgabe im Geräteordner 
-|status        = OK
-}}
-=== Lötstation ZD-931 III ===
-{{RowInfoBox
-|bild          = Zd-931.JPG
-|hersteller    = [http://www.reichelt.de Reichelt GmbH]
-|typ           = ZD-931 
+|besitzer      = RaumZeitLabor
 |beschreibung  = Digitale Lötstation
 |doku          = Doku als Papierausgabe im Geräteordner 
 |status        = OK
