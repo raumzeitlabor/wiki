@@ -1,17 +1,16 @@
 {{ProjektInfoBox
 |name        = Drupal
-|status      = experimental
+|status      = stable
 |image       = RaumZeitLabor - Logo - Schwarz.svg
 |description = 
-|author      = [[Benutzer:Inte|Inte]]
-|username    = 
+|author      = 
+|username    = Inte
 |version     = 
 |update      = 
 |platform    = 
 |license     = 
 |download    = 
 }}
-Eine Beta ist unter http://www2.raumzeitlabor.de/ zu finden.
 
 ==Wunschzettel==
 ===Optik===
@@ -21,7 +20,7 @@ Eine Beta ist unter http://www2.raumzeitlabor.de/ zu finden.
 *[http://drupal.org/project/slider Slider]
 
 ===Funktionalität===
-*[[Spezial:Letzte Änderungen]] mit den letzten 5 Items auf der Startseite einbinden
+*<s>[[Spezial:Letzte Änderungen]] mit den letzten 5 Items auf der Startseite einbinden</s> '''done'''
 *<s>WYSIWYG-Editor installieren</s> '''done''' (TinyMCE)
 *<s>Flattr einbinden</s> '''done'''
 *<s>Paypal-Spendenbutton einbinden</s> '''done'''
@@ -30,12 +29,12 @@ Eine Beta ist unter http://www2.raumzeitlabor.de/ zu finden.
 *<s>Spamfilter für Kommentare von nicht angemeldeten Besuchern</s> '''done'''
 *Bildergalerien (Interessante Module: '''[http://drupal.org/project/views_galleriffic Views Galleriffic] ''', <s>[http://drupal.org/project/gallery_assist Gallery Assist],</s> [http://drupal.org/project/node_gallery Node Gallery], [http://drupal.org/project/filefield_paths FileField Paths] & [http://drupal.org/project/views_gallery Views Gallery])
 *Videos einbinden (Youtube, Vimeo & HTML5) (Module: [http://drupal.org/project/emfield Embedded Media Field])
-*<s>CiviEvent Aktivitäten in Drupal Kalender integrieren [http://wiki.civicrm.org/confluence/display/CRMDOC32/Using+Drupal+Calendar+with+CiviEvent]</s> http://www2.raumzeitlabor.de/events ''(Noch kein iCal-Feed)''
+*<s>CiviEvent Aktivitäten in Drupal Kalender integrieren [http://wiki.civicrm.org/confluence/display/CRMDOC32/Using+Drupal+Calendar+with+CiviEvent]</s>
 *Mobilversion für Smartphones & Co. [http://drupal.org/project/mobileplugin (z.B. Mobile Plugin)]
 
 ===Inhalt===
-*Benutzer von Wordpress umziehen
-*Texte von Wordpress umziehen
+*<s>Benutzer von Wordpress umziehen</s> '''hat sich erledigt'''
+*<s>Texte von Wordpress umziehen</s> '''done'''
 *Kommentare von Wordpress umziehen
 *Bilder von Wordpress umziehen
 
@@ -53,7 +52,7 @@ Um tiefere Eingriffe in diversen Konfigurationsdateien zu vermeiden sollte der E
 ==Theme==
 *[http://drupal.org/project/danland Danland]
 ===Anpassungen===
-*http://raumzeitlabor.kral.ws/sites/all/themes/danland/local.css
+*http://raumzeitlabor.de/sites/all/themes/danland/local.css
 
 ==Module==
 ===Core===
