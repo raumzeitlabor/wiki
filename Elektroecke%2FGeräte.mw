@@ -1,15 +1,27 @@
 == Labornetzgeräte ==
-=== Peaktech 6000A ===
+=== Regelbares Netzteil I ===
 {{RowInfoBox
-|bild          = Peaktech regelbare spannungsquelle.jpg
-|hersteller    = [http://www.peaktech.de/ Peaktech]
-|typ           = 6000A
-|beschreibung  = Regelbarespannungsquelle
+|bild          = powersupply01.jpg
+|hersteller    = MC Power
+|typ           = RNG-1501
+|beschreibung  = 
 |doku          = 
-|status        = Defekt
+|besitzer      = [[Benutzer:Alexander Brock|Alexander Brock]]
+|status        = OK
 }}
 
-=== Regelbaresnetzteil I ===
+=== Regelbares Netzteil II ===
+{{RowInfoBox
+|bild          = powersupply02.jpg
+|hersteller    = PeakTech
+|typ           = 6080
+|beschreibung  = 
+|doku          = 
+|besitzer      = [[Benutzer:Tabascoeye|TabascoEye]]
+|status        = OK
+}}
+
+=== Regelbares Netzteil III ===
 {{RowInfoBox
 |bild          = Netzteil_3.jpg
 |hersteller    = Eigenbau
@@ -48,6 +60,7 @@
 |doku          = Doku als Papierausgabe im Geräteordner
 |status        = OK
 }}
+
 === Digitales Speicher-Oszilloskop [[Rigol DS1052E]] ===
 {{RowInfoBox
 |bild          = DS1052E.jpg
@@ -55,9 +68,32 @@
 |typ           = DS1052E
 |beschreibung  = DSO, 2 channel, 50 MHz, 1 GSa/s
 |doku          = 
-|besitzer      = [[Benutzer:AlexanderB|AlexanderB]], [[Benutzer:SEC|sECuRE]]
+|besitzer      = [[Benutzer:Alexander Brock|Alexander Brock]], [[Benutzer:SEC|sECuRE]]
 |status        = OK, Nutzung nur nach Rücksprache!
 }}
+
+=== Multimeter I ===
+{{RowInfoBox
+|bild          = multimeter01.jpg
+|hersteller    = UNI-T
+|typ           = UT132C
+|beschreibung  = 
+|doku          = 
+|besitzer      = RaumZeitLabor
+|status        = OK
+}}
+
+=== Multimeter II ===
+{{RowInfoBox
+|bild          = multimeter02.jpg
+|hersteller    = PeakTech
+|typ           = 3335 DMM
+|beschreibung  = 
+|doku          = 
+|besitzer      = [[Benutzer:Tabascoeye|TabascoEye]]
+|status        = OK
+}}
+
 === LC Meter I ===
 {{RowInfoBox
 |bild          = LC Meter.JPG
@@ -97,13 +133,13 @@
 |typ           = Digi 60 
 |beschreibung  = 230V 80W 200-450°C
 |doku          = 
-|besitzer      = Felicitus
+|besitzer      = [[Benutzer:Felicitus|Felicitus]]
 |status        = OK
 }}
 
 === Ersa iCon Nano ===
 {{RowInfoBox
-|bild          = RaumZeitLabor - Logo - Schwarz.svg
+|bild          = Ersa_icon.jpg
 |hersteller    = Ersa
 |typ           = iCon Nano
 |beschreibung  = Nutzung nur nach Rücksprache mit Felicitus
