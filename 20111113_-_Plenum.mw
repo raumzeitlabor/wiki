@@ -7,12 +7,67 @@ Wenn wir zeitig fertig werden, können wir noch nen Film zum gemütlichen Wochen
 #Mitgliedschaft im [http://offene-werkstaetten.org Verbund Offener Werkstätten] ([http://offene-werkstaetten.org/?view=fileAttachmentFile&fileId=17 Informationsbroschüre])
 #Zugangssystem (persönliche Pincodes)
 #Durchsetzen des Hausrechts, Anzeigen von Vergehen nach §123 StGB
-#* Haben wir derartige Vergehen? (§ 123 ist Hausfriedensbruch)
+#* Haben wir derartige Vergehen? (§ 123 ist Hausfriedensbruch)
 #E-Ecke (Material unter den Tischen, Grundaustattung)
 #Gemeinschaftskühlschrank (Wer nutzt den? Neues System wie in Coworkingspace?)
 #Spülmaschine (zukünftig nur noch bei Events nutzen?)
 #* http://ragefac.es/53
 #…
+
+=Protokoll=
+Anwesend: 14 physisch, 3 im Hangout
+
+Inte fasst zusammen, was heute besprochen werden soll.
+Das Setup fürs Hangout stellt sich als anspruchsvoll heraus (Mikro echo)
+
+=== Congressstreaming===
+* Inte hat dargelegt, dass er Interesse hat ein dezentrales Event zu veranstalten.
+* Es gibt noch keine konkreten Pläne
+* ca. 8 Leute haben Interesse bekundet teilzunehmen
+* Es ist unklar wie die dezentralen Kongressevents heissen sollen
+
+=== Mitgliedschaft im Verbund Offener Werkstätten (Informationsbroschüre)===
+* Wird positiv aufgenommen, Inte kümmert sich um das weitere.
+
+=== Zugangssystem (persönliche Pincodes)===
+* In MV beschlossener Wunsch nach Deaktivierung der Public PIN am Türsystem
+* sECuRE:
+** bisher 24 Benutzer-PINs ausgegeben (+ 1 testnutzer, 2 nutzer ohne PIN)
+** Derzeitige Lösung nicht stabil (wenn Blackbox ausfällt)
+** PoC steht, ausrollen hopefully innerhalb der nächsten 2-3 Wochen
+** bessere doku muss noch ins wiki
+
+=== Durchsetzen des Hausrechts, Anzeigen von Vergehen nach §123 StGB===
+** Haben wir derartige Vergehen? (§ 123 ist Hausfriedensbruch)
+Übersprungen, weil Unicorn nicht da ist. 
+
+=== E-Ecke (Material unter den Tischen, Grundaustattung)===
+** Sobald Nessi seine Teile und Geräte gepackt hat, sagt er Bescheid, und wir können unter und auf den Tischen aufräumen.
+** Fabian hat 1 Multimeter, 1 Labornetzteil und 2 Hirschmann Kabel-Sortimente gekauft.
+** Wenn Bedarf an Geräten besteht bitte auf der ML äußern.
+
+=== Gemeinschaftskühlschrank (Wer nutzt den? Neues System wie in Coworkingspace?)===
+Fabian berichtet vom System im Coworkingspace Berlin. Folgender Vorschlag:
+Alles wird zunächst in die oberste Ebene gepackt. Alle 14 Tage werden die Fächer eine Ebene runtergeräumt. Die unterste Ebene wird somit alle zwei Wochen AUSNAHMSLOS geleert. Wenn jemand nicht möchte, dass etwas weggeschmissen wird, muss er das dann wieder selber nach oben räumen. Die Allgemeinheit sekundiert, somit werden wir das System wohl im Rahmen des W&D einsetzen.
+
+
+=== Spülmaschine (zukünftig nur noch bei Events nutzen?)===
+* Das bisherige Vorgehen wird beibehalten.
+* Mißstände rund um den Betrieb der Spülmaschine sollen entsprechend kommuniziert werden, z.B. Mail auf ML: Ich musste mal wieder eine Ladung ausräumen die irgend jemand vergessen hat.
+  
+=== Wipe&Defrag===
+** wieder regelmäßig stattfinden lassen (alle 4 Wochen)
+** mehr Leute, macht es schneller und schmerzloser
+** Ankündigung auf ML
+** Anderer Termin als bisher?
+    
+=== Sonstiges ===
+* Hangout braucht besseres Audio equipment
+    AlexanderB bringt seine USB-Mikros mit
+* Testbetrieb angestrebt
+** Bis zum nächsten Plenum mal vorbereitet und getestet haben
+   sECuRE steht gerne für tests zur verfügung
+** für das nächste Plenum soll eine Themensammelseite eingerichtet werde. Plenum findet statt sobald ausreichend(tm) Themen aufgelaufen sind
 
 =Siehe auch=
 *[[Wipe & Defrag#Benutzt das überhaupt jemand?|Wipe & Defrag - Benutzt das überhaupt jemand?]]
