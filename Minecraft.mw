@@ -79,6 +79,9 @@ Wer für den Server freigeschaltet werden möchte, tut dies auf unserer Mailingl
 ===Technisches===
 Der Server ist eine virtuelle Maschine mit 4 Kernen und 2 GB RAM, von denen der Minecraft-Server ca. 1GB tatsächlich normalerweise nutzt. Wir benutzen absichtlich kein Craftbukkit und daher auch keinerlei Plugins, weil das vorher zu epischen Bugs geführt hat. Distri auf dem Server ist Arch Linux.
 
+===Onlinestatistik===
+http://minecraft.iodev.org/onlinestats.png
+
 ===Mumble===
 Wir haben einen [http://mumble.sourceforge.net/ Mumble]-Server, der genutzt werden kann, um sich remote abzusprechen:
 
