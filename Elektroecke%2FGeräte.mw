@@ -15,8 +15,8 @@
 |bild          = powersupply02.jpg
 |hersteller    = PeakTech
 |typ           = 6080
-|beschreibung  = 
-|doku          = 
+|beschreibung  = 0-15V, 0-3A
+|doku          = [[Datei:Peaktech_6080_Manual.pdf]]
 |besitzer      = [[Benutzer:Tabascoeye|TabascoEye]]
 |status        = OK
 }}
@@ -78,7 +78,7 @@
 |hersteller    = UNI-T
 |typ           = UT132C
 |beschreibung  = 
-|doku          = 
+|doku          = [[Datei:Uni-T_UT132C_Manual.pdf]]
 |besitzer      = RaumZeitLabor
 |status        = OK
 }}
