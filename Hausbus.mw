@@ -19,10 +19,8 @@ Der Hausbus ist ein Bussystem (auf RS485 basierend), mit welchem wir verschieden
 Diese Seite dient als Portalseite zur vollständigen Dokumentation.
 
 == Status ==
-Derzeit gibt es nur eine 1:1-Verkabelung zwischen dem Busmaster und der Tür (Pinpad/Öffner). Die Anbindung eigener Geräte ist derzeit nur durch Leitungen ziehen möglich (secure: ist das richtig so? wenn ja, wie würde sowas aussehen?)
 
-Volker arbeitet an einem neuen Busmaster, der wird allerdings frühstens Anfang 2012 fertig.
-
+Derzeit gibt es nur eine 1:1-Verkabelung zwischen dem Busmaster und der Tür (Pinpad/Öffner). Die Anbindung eigener Geräte ist derzeit nur durch Leitungen ziehen möglich, wovon wir aber abraten. Vermutlich wird der Hausbus in seiner jetztigen Form nicht längerfristig bestehen.
 
 == Dokumentation ==
 * [[Hausbus/ATmega168]]: Referenz-Aufbau (Bauteilliste, Schaltplan, Layout, etc.)
