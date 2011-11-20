@@ -1,0 +1,82 @@
+Diese Seite dient dazu, den Nachfolger des Hausbus zu designen. Wer mithelfen möchte, möge sich zunächst des http://en.wikipedia.org/wiki/Second_System_Effect bewusst machen und Änderungen dann mit sECuRE besprechen :).
+
+== Hausbus in a Nutshell ==
+* Wurde in Q3 2010 hauptsächlich von sECuRE gebastelt, nach Idee/Vorschlägen von Scytale und anderen
+* verwendet RS485 (etwas aufgebohrte serielle Schnittstelle) zur Kommunikation (2 Adern) in Patchkabeln, zwei Adern zur Stromversorgung
+* Busmaster kontrolliert, wer wann spricht und schickt das ganze via Ethernet an die Firebox
+* Firebox stellt eine Schnittstelle (HTTP) zur Verfügung um zu lesen und zu senden. Derzeit läuft auf der Blackbox z.B. der Pin-Validator, der vom Pinpad liest und zum Pinpad den Entsperr-Befehl sendet. Weiterhin läuft auf der Firebox das SSH-Aufschließ-Script.
+* Teilnehmer sind Mikrocontroller, z.B. ATmega644p.
+* Derzeit existiert nur der Pinpad-Controller, angedacht sind Heizungssteuerung (in naher Zukunft), Temperatursensoren (Proof-of-concept vorhanden), Lichtsteuerung (Status unklar), evtl. Stromzähler (statt Flukso), evtl. Kassenterminal (?)
+
+== Probleme mit dem derzeitigen Hausbus ==
+* Verkabelung erfolgt (derzeit noch garnicht, aber prinzipiell) mit Stichleitungen von einem großen Bus. Das ist sehr bescheuert und sternförmige Verkabelung deutlich besser/flexibler/stabiler.
+* Datenübertragung ist/war fummelig. RS485 stabil zu kriegen hat uns einiges an Zeit gekostet. Ich bin von der Stabilität nicht überzeugt. Gelegentlich gehen derzeit immernoch Pakete verloren. Insbesondere wenn man an den Parametern dreht: Wenn man den Busmaster schneller macht, steigt der Paketverlust.
+* Stromversorgung ist ein Gebiet, auf dem sich viele nicht (genug?) auskennen, um einen stabilen Betrieb sicherzustellen. Wenn wir am Busmaster etwas ändern, haben die Geräte währenddessen keinen Strom. Wenn ein Gerät kaputtgeht, könnten andere darunter leiden.
+* Busmaster ist ein Mikrocontroller (Programmieren schwierig/zeitaufwändig), daher ist das Scheduling sehr primitiv. Durch Master/Slave-Funktionsweise ist das ein Single-Point-of-Failure.
+* Ethernet-Schnittstelle des Busmasters ist teilweise instabil (ENC28J60), wurde auch auf der Mailingliste dargelegt. Derzeit funktioniert es (einen Großteil der Zeit), aber hängt sich manchmal auf. Wir benutzen den NPM um den Busmaster zu powercyclen wenn das passiert.
+* Library/Code-Organisation ist schwierig für C/Mikrocontroller-Projekte, so haben wir z.B. derzeit ein Folder firmware-pinpad im rzl-hausbus Repository (damit wir ../lib verwenden können), was eigentlich getrennte Projekte sind.
+* Durch den Missbrauch von Patchkabeln ist unklar, welche Buchsen im RZL für Hausbus und welche für Ethernet genutzt werden (klar, kann man labeln). Statt die Anzahl an Geräten durch einen Switch erhöhen zu können, scheidet das bei Hausbus-Buchsen aus!
+
+== Alternativ-Vorschlag ==
+
+Statt ein Bussystem mit Mikrocontrollern zu betreiben, würde ich gerne Geräte wie das Raspberry Pi (~700 MHz ARM Linux, <1 W Stromverbrauch, Ethernet, Strom via USB, kostet ca. 25 €) verwenden und einfach Ethernet nutzen. Die derzeitigen Kosten sind etwas unter 10 € für einen "großen" Hausbus-Teilnehmer. Im Vergleich zum Raspberry Pi ist der Zeitaufwand zum Programmieren / Basteln allerdings '''deutlich''' höher.
+
+Die Idee hinter dem Hausbus war, dass die Teilnehmer miteinander sprechen können und nicht jeder sein eigenes Süppchen kocht. Um das zu fördern, schlage ich ein Konzept (und eine Library) vor, mit der man mit sehr wenig Aufwand Geräte im RZL betreiben kann, die miteinander interagieren und stabil laufen.
+
+== Konzept ==
+
+* Jeder Teilnehmer wird eigens mit Strom versorgt (5V USB), Netzteile dafür sind nicht teuer. Powercyclen ist einfach möglich, Stromversorgung funktioniert weiterhin, wenn andere Geräte explodieren.
+* Jeder Teilnehmer ist via Ethernet mit dem RZL-Netz (oder einem eigenen Netz, welches aus dem RZL erreichbar ist) verbunden. Dadurch können wir die im RZL vorhandene Ethernet-Infrastruktur nutzen und haben keinerlei Probleme auf der physikalischen Ebene.
+* Jeder Teilnehmer kann entweder via DHCP ins Netz (schnelle Experimente) oder eine statische IP konfigurieren (Registration via Wiki, wie gehabt).
+* Jeder Teilnehmer benutzt DNS (evtl. periodisch nach /etc/hosts gesynced als backup?) um andere Teilnehmer zu finden. Umkonfiguration erfordern damit keine Firmware-Updates anderer Teilnehmer.
+* Jeder Teilnehmer bietet seine Funktionalität und State via HTTP/JSON an (mit einem gemeinsamen Grundschema). Client/Server-Libraries für HTTP/JSON gibt es für jede Programmiersprache.
+* Es gibt einen Teilnehmer, der Logging/Monitoring bereitstellt. Weiterhin kann er (nach entsprechender Konfiguration) State abfragen und abspeichern (z.B. Temperaturwerte, Falscheingaben am Pinpad, …).
+
+== Beispiel: HTTP-API des Pinpad-Controller ==
+
+=== GET /_/state (allgemein) ===
+Ruft den kompletten state ab (z.B. für den Logging-Teilnehmer).
+
+Antwort:
+    {"pinpad.door": "locked",
+     "pinpad.lastsync": 1321819942,
+     "pinpad.wrongpins": 3,
+     "pinpad.msg": "Willkommen im RZL"}
+
+=== GET /_/state/pinpad.door (allgemein) ===
+Ruft einen einzigen Wert ab (z.B. wenn ein anderer Teilnehmer den State monitored, in diesem Fall z.B. das Jail um den Status auf der Website zu haben).
+
+Antwort:
+    {"pinpad.door": "locked"}
+
+=== POST /_/state (allgemein, ggf. authentifizierung nötig) ===
+Request:
+    {"pinpad.msg": "Offen ab 19:00"}
+
+=== POST /_/reboot (allgemein, authentifizierung nötig) ===
+
+=== POST /unlock_door (spezifisch, authentifizierung nötig) ===
+=== POST /lock_door (spezifisch, authentifizierung nötig) ===
+
+== Beispiel: Code im Pinpad ==
+    # Angenommen der Status ist in $sensor
+    if ($sensor == 0) {
+        rb_set_state("pinpad.door", "locked");
+    } else {
+        rb_set_state("pinpad.door", "open");
+    }
+
+    # Bei Falscheingabe
+    rb_inc_state("pinpad.wrongpins");
+
+    # LCD bespielen
+    if (rb_get_state("pinpad.msg") != $old_msg) {
+        update_lcd(rb_get_state("pinpad.msg"));
+        $old_msg = rb_get_state("pinpad.msg");
+    }
+
+== Umsetzung ==
+
+Zunächst müssen die Raspberry Pis verfügbar sein und funktionieren :).
+
+Sobald das der Fall ist, kann man eine Library implementieren, welche die oben beschriebene API bereitstellt. Geräte kann man dann einfach ins RZL-Netz hängen zunächst (in ein separates Netz kann man sie später ohne großen Aufwand verschieben). Die Firebox kriegt neue DNS-Einträge für neue Geräte. Anschließend kann man die bestehende Software (pin-sync, türstatusd, ssh-unlock) anpassen.
