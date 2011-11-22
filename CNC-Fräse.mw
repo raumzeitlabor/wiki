@@ -23,6 +23,15 @@ In einem eBay-Wahn hat [[Benutzer:Tiefpunkt|tiefpunkt]] <del>einen</del> zwei Ba
 * [[Datei:CNC-Fräse - Motoren XY - Datasheet.pdf]]
 
 == Elektronik ==
+=== CNC Electronics v0.1 ===
+* Arduino Uno (Kopfüber)
+* 3x Pololu A4983 Schrittmotortreiber
+* Lochraster
+* Powered by ATX Netzteil
+==== Lochraster Layout ====
+[[Datei:Cnc-electronics-v0.1-layout.jpg|400px|Lochraster Layout]]
+
+=== First Thoughts ===
 In den Bausätzen sind keine Schrittmotorsteuerungen enthalten. Mögliche Alternativen:
 * Arduino mit GRBL
 ** grblShield [http://www.synthetos.com/wiki/index.php?title=Projects:grblShield]
