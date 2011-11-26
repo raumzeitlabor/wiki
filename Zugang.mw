@@ -1,18 +1,18 @@
 Einfach unter [http://status.raumzeitlabor.de status.raumzeitlabor.de] nachsehen ob jemand da ist. Wenn der
-Status <span style="background:#00ff00; font-variant:small-caps">grün</span> ist, sollte jemand im Raum sein. Ruf einfach die Festnetznummer (0621&nbsp;48345866 // 0152&nbsp;58362591) des RaumZeitLabor an und sag Bescheid, dass man nicht abhauen soll und du vorbeikommst.
+Status <span style="background:#00ff00; font-variant:small-caps">grün</span> ist, sollte jemand im Raum sein. Ruf einfach das Raumtelefon des RaumZeitLabor an (0152 58362591) und sag Bescheid, dass man nicht abhauen soll und du vorbeikommst. Über das Telefon können wir dir auch Hinweise geben, wie du uns finden kannst - wir sind leider nicht ganz so einfach zu finden.
 
-Sollte niemand im Raum sein ([http://status.raumzeitlabor.de Status]: <span style="background:#ff0000; font-variant:small-caps">rot</span>), kann man sich einfach an einen der Schlüsselinhaber wenden.
+Als [[Verein#Mitglied_werden|Mitglied]] steht es dir frei, den Raum jederzeit zu nutzen. Hierzu benötigst du eine persönliche Pin, die du bei [[Benutzer:SEC|sECuRE]] bekommst. Da das Treppenhaus nicht über eine PIN geöffnet werden kann, benötigst du im Zweifelsfalle auch einen Schlüssel, mit dem du das Treppenhaus öffnen kannst.
 
-== Schlüssel ==
-Wer einen eigenen Schlüssel möchte, kann sich bei [[Benutzer:Inte|Inte]] melden.
-=== Raum ===
-Der Raum ist über ein Schließsystem gesichert, das wir selbst implementiert haben.
-Ein Pinpad neben der Raumtür kennt momentan genau 1 Zugangs-PIN.
-Diese könnt ihr als Mitglied einfach erfragen.
+Bitte achte darauf, daß keine nicht-Mitglieder im Raum sind, wenn du gehst.
 
-Später wird es eine User Datenbank geben, mit der dann auch gleich die Kasse und weitere Dienste laufen werden.
-Zusätzlich zu dem PINpad ist noch ein Wlan AP geplant über den man von aussen per SSH die Tür öffnen kann (so wie bei den Münchner CCClern).
+Sollte niemand im Raum sein ([http://status.raumzeitlabor.de Status]: <span style="background:#ff0000; font-variant:small-caps">rot</span>), so mußt du warten, bis ein Mitglied vorbeischaut. Hierbei hilft auch unser IRC-Kanal, um sich mit Mitgliedern abzusprechen.
 
+== Raum ==
+Der Raum ist über ein Schließsystem gesichert, das wir selbst implementiert haben. Den Raum kannst du mittels persönlicher PIN öffnen.
+
+Bestimmte Personen können den Raum auch via SSH öffnen und schließen. (sollen wir eine Liste führen, wer das kann?)
+
+=== Veraltet? (Schlüsselliste Raum) ===
 
 Als Notfallbackup gibt es noch unsere zweite Tür in der unser alter Schließzylinder steckt. Für diesen existieren 20 Schlüssel, die wie folgt verteilt sind: 
 
