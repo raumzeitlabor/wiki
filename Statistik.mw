@@ -1,5 +1,16 @@
 Hier werden Zustände des RZL protokolliert.
 
+
+== Temperaturen ==
+
+{| class="wikitable"
+|-
+! Datum !! Uhrzeit !! Raum
+|-
+| 26.11.2011 || 19:06 || 17,3°C
+|}
+
+
 == Stromverbrauch ==
 
 {| class="wikitable"
