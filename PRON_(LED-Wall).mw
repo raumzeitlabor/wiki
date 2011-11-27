@@ -71,8 +71,6 @@ Siehe [[PRON-Protokoll]]
 === libpronisate ===
 [[Benutzer:Blabber|blabber]] bastelt gerade an einer C Bibliothek die beliebige Bilder in Byteströme umwandelt die als `PIXELS` in `Image Frames` gemäß dem [[PRON-Protokoll]] verwendet werden können. Momentan wird ein Bild in einen Bytestrom umgewandelt, [[Benutzer:Blabber|blabber]]s Ziel ist es allerdings für rechteckige Anordnungen identisch dimensionierter PRON-Panels die Byteströme für die einzelnen Kacheln des Bildes mit einem Aufruf zu generieren.
 
-Mittelfristig soll die Bibliothek auch mit animierten Bildern umgehen können - insbesondere mit Animationen im MNG-Format (denn es gibt einen "blinkenlights-to-mng" Konverter).
-
 libpronisate lebt momentan in [https://github.com/blabber/libpronisate github].
 
 ==Inspirationen==
