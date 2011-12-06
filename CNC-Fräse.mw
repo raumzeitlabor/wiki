@@ -82,6 +82,10 @@ Siehe MTM Snap [http://mtm.cba.mit.edu/machines/mtm_snap-lock/build/software.htm
 * Elektronik v0.1 fertig gelötet
 * Arduino mit grbl 0.6 geflasht
 * Mit einem Schrittmotor getestet -> Success!
+|-
+| 2011-12-03 - 2011-12-06
+* CAD Seitenplatte designed in QCAD, Prototyp gelasert (fail) und ausgesägt --> passt!
+* Werkzeug für Seitenschienen "gebaut" (Winkelschraubendreher Innen-Sechskant 4mm gekürzt)
 |}
 
 == Bilder ==
