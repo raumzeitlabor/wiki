@@ -1,9 +1,39 @@
-= Beamer =
- * Spender: thinkJD
- * Hersteller: NEC
- * Ausgabe von xrandr:
-<code>VGA1 connected 1024x768+0+0 (normal left inverted right x axis y axis) 0mm x 0mm
-   1024x768       60.0* 
-   800x600        60.3     56.2  
-   848x480        60.0  
-   640x480        59.9  </code>
+{{ProjektInfoBox
+|name        = Beamer
+|status      = 
+|image       = Beamer-04.jpg
+|description = Ein spezieller Projektor, der Bilder aus einem visuellen Ausgabegerät für ein Publikum in   vergrößerter Form an eine Leinwand projiziert.
+|author      = [[Benutzer:thinkJD|thinkJD]] [[Benutzer:hax404|hax404]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|video      = 
+|download    = 
+}}
+
+==Beamer==
+Der Beamer befindet sich auf der Plattform unter der Decke. 
+Es handelt sich um einen NEC VT660. 
+Der Karton, auf der Oberseite dient dem Staubschutz und sollte nicht entfernt werden.
+Bitte darauf achten, dass er nach Benutzung 15min nachlüftet, bis er endgültig vom Netz getrennt werden darf.
+Die Fernbedienung funktioniert nur, wenn sie sich im "PJ" Modus befindet. Dazu einfach auf den weisen Knopf in der Mitte drücken, dieser leuchtet daraufhin rot.
+
+'''Im Moment sind folgende Schnittstellen angeschlossen:'''
+* VGA 
+
+[http://www.support.nec-display.com/dl_service/data/manual/german/vt660_manual_g.pdf Das Manual zu dem Gerät ist hier zu finden.]
+
+==ToDo==
+* Funksteckdose oder Ähnliches, um den Beamer vom Netz zu trennen
+* Weitere Schnittstellen anschließen und herunterführen
+* Stammplatz für die Fernbedienung finden
+
+
+==Technische Daten==
+'''Folgende Auflösungen werden unterstützt:'''
+   * 1024x768       60.0* 
+   * 800x600        60.3     56.2  
+   * 848x480        60.0  
+   * 640x480        59.9
