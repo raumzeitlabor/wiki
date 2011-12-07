@@ -3,7 +3,7 @@
 |status      = alpha
 |image       = 
 |description = Binäres RaumZeit-Messgerät
-|author      = thinkJD, muzy
+|author      = [[Benutzer:thinkJD|thinkJD]], [[Benutzer:muzy|muzy]]
 |username    = 
 |version     = 0.1
 |update      = 
@@ -12,8 +12,18 @@
 |download    = 
 }}
 Es ist bunt, es blinkt und misst sekundengenau die RaumZeit! Der RaumZeitMesser wird ein einfacher Selbstbau-Bausatz, welcher Grundlagen von Mikrocontrollerschaltungen und der Mikrocontrollerprogrammierung anschaulich vermittelt.
+Der RaumZeitMesser soll mit einem sehr kleinen Mikrocontroller ([http://www.atmel.com/dyn/resources/prod_documents/doc2535.pdf ATtiny13]) aufgebaut werden. Durch die notwendige Außenbeschaltung soll ein Lerneffekt in folgenden Bereichen erzielt werden:
+
+*Digitaltechnik was ist Low, was ist High und gibt's da was dazwischen
+*Schieberegister das unbekannte wesen
+*Mehr Strom dank Treiber
+*I²C 
+*Programmieren mit (sehr) geringen ressourcen
+
 ==Bausätze==
 Bausatz wird momentan entwickelt - Progress wird im Wiki dokumentiert.
 
 ==Bauteile==
 [https://secure.reichelt.de/index.html?;ACTION=20;AWKID=509620;PROVID=2084 Link zum Reichelt-Warenkorb]
+
+==ToDo==
