@@ -21,9 +21,13 @@ Der RaumZeitMesser soll mit einem sehr kleinen Mikrocontroller ([http://www.atme
 * Programmieren mit (sehr) geringen Ressourcen
 
 ==Bausätze==
-Bausatz wird momentan entwickelt - Progress wird im Wiki dokumentiert.
+Bausatz wird momentan entwickelt - Dokumentation ist in Entwicklung.
+
+==Schaltplan(V0.2)==
+[[Datei:Board.png]]
+Eagle-Datei: [[Datei:Board.sch]]
 
 ==Bauteile==
-[https://secure.reichelt.de/index.html?;ACTION=20;AWKID=509620;PROVID=2084 Link zum Reichelt-Warenkorb]
+[https://secure.reichelt.de/index.html?;ACTION=20;AWKID=509672;PROVID=2084 Link zum Reichelt-Warenkorb]
 
 ==ToDo==
