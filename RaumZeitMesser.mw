@@ -32,5 +32,5 @@ Eagle-Datei: [[Datei:Board.sch]]
 
 ==ToDo==
 Wir können die Datenleitung des TWI auch als Datenleitung für die Schieberegister verwenden. 
-Solange kein Clock auf der Taktleitung ist stört sich die DS1337 nicht sonderlich daran. 
+Solange kein Clock auf der Taktleitung ist, stört sich die DS1337 nicht sonderlich daran. 
 Den frei gewordenen Pin PB4 können wir an den Schieberegistern an den Output Enable pin anschließen. So ist ein dimmen der Uhr über pwm möglich.
