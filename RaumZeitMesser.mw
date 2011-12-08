@@ -24,7 +24,7 @@ Der RaumZeitMesser soll mit einem sehr kleinen Mikrocontroller ([http://www.atme
 Bausatz wird momentan entwickelt - Dokumentation ist in Entwicklung.
 
 ==Schaltplan(V0.2)==
-[[Datei:Board.png]]
+[[Datei:Board.png|400px|thumb]]
 Eagle-Datei: [[Datei:Board.sch]]
 
 ==Bauteile==
