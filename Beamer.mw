@@ -24,9 +24,12 @@ Die Fernbedienung funktioniert nur, wenn sie sich im "PJ" Modus befindet. Dazu e
 
 ==ToDo==
 * Funksteckdose oder Ähnliches, um den Beamer vom Netz zu trennen
-** Eventuell hilft eine Nachlaufregelung (wie z.b. [http://www.pollin.de/shop/dt/ODQ2OTQ0OTk-/Haustechnik/Installationsmaterial/Schaltgeraete/Nachlauf_Relais_CS3_1B.html von Pollin]) (Keine ausreichende Schaltleistung, siehe Handbuch G34) beim 
-**Oder ein Relais, angeschlossen am Hausbus. Material ist vorhanden. (Sollte das Relais die 230V Seite schalten an die VDE und berechtigte [[Helfer]] denken)
-Nachlüften.
+** Eventuell hilft eine Nachlaufregelung (wie z.b. [http://www.pollin.de/shop/dt/ODQ2OTQ0OTk-/Haustechnik/Installationsmaterial/Schaltgeraete/Nachlauf_Relais_CS3_1B.html von Pollin]) beim Nachlüften.
+*** Keine ausreichende Schaltleistung, siehe Handbuch G34 --[[Benutzer:Nessi|Nessi]] 00:51, 8. Dez. 2011 (CET) 
+** Oder ein Relais, angeschlossen am Hausbus. Material ist vorhanden.
+*** Sollte das Relais die 230V Seite schalten an die VDE und berechtigte [[Helfer]] denken --[[Benutzer:Nessi|Nessi]] 00:51, 8. Dez. 2011 (CET) 
+*** Der Hausbus wartet auf ein Redesign, darum würde ich das erstmal nicht als Option in Betracht ziehen --[[Benutzer:Tiefpunkt|Tiefpunkt]] 01:31, 8. Dez. 2011 (CET)
+
 * Weitere Schnittstellen anschließen und herunterführen
 * Stammplatz für die Fernbedienung finden
 
