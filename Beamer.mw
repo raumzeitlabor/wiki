@@ -1,6 +1,6 @@
 {{ProjektInfoBox
 |name        = Beamer
-|status      = 
+|status      = beta
 |image       = Beamer-04.jpg
 |description = Ein spezieller Projektor, der Bilder aus einem visuellen Ausgabegerät für ein Publikum in   vergrößerter Form an eine Leinwand projiziert.
 |author      = [[Benutzer:thinkJD|thinkJD]] [[Benutzer:hax404|hax404]]
@@ -32,6 +32,7 @@ Die Fernbedienung funktioniert nur, wenn sie sich im "PJ" Modus befindet. Dazu e
 
 * Weitere Schnittstellen anschließen und herunterführen
 * Stammplatz für die Fernbedienung finden
+** Ich schlage mal den Platz vom RaumZeitHandy vor --[[Benutzer:Hax404|Hax404]] 13:15, 10. Dez. 2011 (CET)
 
 
 ==Technische Daten==
