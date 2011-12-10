@@ -7,6 +7,8 @@ Hier werden Zustände des RZL protokolliert.
 |-
 ! Datum !! Uhrzeit !! Raum
 |-
+| 10.12.2011 || 19:00 || 17,4°C
+|-
 | 09.12.2011 || 19:42 || 17,1°C
 |-
 | 07.12.2011 || 23:27 || 17,9°C
@@ -27,6 +29,8 @@ Hier werden Zustände des RZL protokolliert.
 {| class="wikitable"
 |-
 ! Datum !! Uhrzeit !! Stand !! Kosten !! Kosten pro Tag !! Kosten pro Monat
+|-
+| 10.12.2011 || 19:00 || 20835.70 ||   4,21€ || 4,21€
 |-
 | 09.12.2011 || 19:42 || 20816.10 ||  18,55€ || 3,71€
 |-
