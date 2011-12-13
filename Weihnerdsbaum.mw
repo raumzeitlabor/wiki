@@ -1,15 +1,15 @@
 {{ProjektInfoBox
 |name        = Weihnerdsbaum
 |status      = experimental
-|image       = 
+|image       = Ctree-00-vorschau.png
 |description = Weihnachtsbastelei für Nerds
 |author      = Kristian
 |username    = Kristian
 |version     = 1.0
 |update      = 13.12.2011
-|platform    = Elektronik
+|platform    = Basteln / Elektronik
 |license     = CC
-|download    = none
+|download    = http://raumzeitlabor.de/w/images/7/70/Ctree-01-schaltplan.pdf
 |bausatz     = Ja
 |preis       = 2,50 €
 }}
@@ -21,9 +21,18 @@ Kleine Bastelei für Nerds und solche die es werden wollen.
 Wie man mit Papier, Schere, Kleber, ein paar LEDs, einem Widerstand und einer Batterie einen stilvollen Weihnachtsbaum basteln kann.
 
 === Bauanleitung - Übersicht ===
-*Schneide mittels der Vorlage die beiden Papierstücke heraus aus denen die Spitze für den Weihnachtsbaum und der Stamm geformt werden. Achte bei der Spitze darauf, dass Du die Schnitte richtig setzt. Falze die Teile und klebe sie dann zusammen.
+*Schneide mittels der Vorlage die beiden Papierstücke aus dem Tonpapier heraus, aus denen die Spitze für den Weihnachtsbaum und der Stamm geformt werden. Achte bei der Spitze darauf, dass Du die Schnitte richtig setzt. Falze die Teile und klebe sie dann zusammen.
+*Schneide aus dem Transpaprentpapier die zwei Dreicke aus, sie werden einfach in den Schlitz eingeschoben. Wenn Du es stabilisieren willst, dann machst Du an der Spitze jeweils einen kleinen Klebepunkt.
 *Löte die LEDs und den Widerstand entsprechend der Anleitung zusammen, achte dabei auf die Polung (langes Beinchen an kurzes Beinchen).
 *Forme am Ende der LED-Kette jeweils eine kleine Öse und löte sie auf dem Batterieclip fest. ACHTUNG: Nicht zu heiß werden lassen, das Plastik schmilzt sonst.
 *Stelle den Baum über die LEDs und schon leuchtet es schummrig
+
+=== Bauteile ===
+1 Bogen farbiges Tonpapier, 1 Bogen Transparentpapier, 4 LED ca. 2V bei 20mA, 1 Widerstand 47Ohm, 1 Batterieclip, 1 Blockbatterie 9V
+
+=== Downloads ===
+*Schaltplan: [[Medium:Ctree-01-schaltplan.pdf]]
+*Vorlage zum Ausschneiden der Bauteile: [[Medium:Ctree-02-schablone.tif]]
+*gezeichnete 3D-Ansicht: [[Medium:Ctree-03-ansicht.tiff]]
 
 [[Kategorie:Projekt]]
