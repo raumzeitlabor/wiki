@@ -1,3 +1,67 @@
+== Erstellen von Vektor-Dateien für den Laser (Vector Cut) ==
+
+Für den Vektor-Schnitt braucht man Dateien aus einem Vektorprogramm (Inkscape, Adobe Illustrator). Generell zeichnet man hier mit geometrischen Grundformen (Linien, Kreise) die dann später vom Laser abgefahren werden. Diese Linien haben keinen "Dicke" sondern sind nur Pfade auf denen der Laser langfährt. Dieser Modus eignet sich sehr gut für Zuschnitte oder einfach Gravuren.
+
+=== Arbeiten mit verschiedenen "Layern" in RetinaEngrave ===
+
+Die Lasersoftware kann bis zu 7 verschiedene "Layer" (Farben) in einer Datei verarbeiten und man kann mit einer Datei somit 7 verschiedene Stärken in einem Durchgang lasern. Das hilft vor allem, wenn man in einer Datei sowohl schneiden (viel Laser) als auch gravieren (wenig Laser) vorsehen will.
+
+Dazu legt man die Linien in einem Vektorprogramm mit den folgenden RGB-Farben an:
+
+{| border="1" cellpadding="2" cellspacing="0"
+!Layer
+!Farbe
+!R
+!G
+!B
+|-
+|1
+|Rot
+|255
+|0
+|0
+|-
+|2
+|Grün
+|0
+|255
+|0
+|-
+|3
+|Blau
+|0
+|0
+|255
+|-
+|4
+|Magenta
+|255
+|0
+|255
+|-
+|5
+|Cyan
+|0
+|255
+|255
+|-
+|6
+|Gelb
+|255
+|255
+|0
+|-
+|7
+|Schwarz
+|255
+|255
+|255
+|}
+
+=== Transport von Vektordateien mit mehreren Layern ===
+
+Bisher ist es noch nicht gelungen diese Farbinformationen mittels SVG oder PDF von einem Rechner zu einem anderen zu bringen, so dass die Layer erhalten blieben. Auf Rechnern auf denen RetinaEngrave nicht installiert ist, kann man aber ein XPS erzeugen, mit dem RetinaEngrave umgehen kann
+
 == Erfahrungswerte von anderen Hackerspaces: ==
 
 === Mit dem gleichen Gerät ===
