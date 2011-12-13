@@ -23,7 +23,7 @@ Der RaumZeitMesser soll mit einem sehr kleinen Mikrocontroller ([http://www.atme
 ==Bausätze==
 Bausatz wird momentan entwickelt - Dokumentation ist in Entwicklung.
 
-==Schaltplan(V0.2)==
+==Schaltplan(V0.3)==
 [[Datei:Board.png|400px|thumb]]
 Eagle-Datei: [[Datei:Board.sch]]
 
@@ -34,3 +34,4 @@ Eagle-Datei: [[Datei:Board.sch]]
 Wir können die Datenleitung des TWI auch als Datenleitung für die Schieberegister verwenden. 
 Solange kein Clock auf der Taktleitung ist, stört sich die DS1337 nicht sonderlich daran. 
 Den frei gewordenen Pin PB4 können wir an den Schieberegistern an den Output Enable pin anschließen. So ist ein dimmen der Uhr über pwm möglich.
+ In Schaltplan V. 03 gemerged --[[Benutzer:Muzy|Muzy]] 19:08, 13. Dez. 2011 (CET)
