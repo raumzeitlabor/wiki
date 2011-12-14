@@ -62,13 +62,22 @@ Dazu legt man die Linien in einem Vektorprogramm mit den folgenden RGB-Farben an
 
 Bisher ist es noch nicht gelungen diese Farbinformationen mittels SVG oder PDF von einem Rechner zu einem anderen zu bringen, so dass die Layer erhalten blieben. Auf Rechnern auf denen RetinaEngrave nicht installiert ist, kann man aber ein XPS erzeugen, mit dem RetinaEngrave umgehen kann
 
-== Erfahrungswerte von anderen Hackerspaces: ==
+== Materialwissenschaft ==
 
-=== Mit dem gleichen Gerät ===
+* KEIN Metall!
+* KEIN PVC oder andere Chlorhaltigen Verbindungen!
+
+Kunststoffverbindungen mit Flammtest erforschen:
+[http://www.nycresistor.com/2008/08/28/how-to-identify-polymers-with-burnination/ Identify Polymers]
+
+
+=== Erfahrungswerte von anderen Hackerspaces: ===
+
+==== Mit dem gleichen Gerät ====
 
 [[https://www.noisebridge.net/wiki/Lasercutter Noisebridge]]
 
-=== Mit einem anderen Cutter ===
+==== Mit einem anderen Cutter ====
 
 [[http://wiki.happylab.at/w/Laser_Cutter Happylab]]
 
