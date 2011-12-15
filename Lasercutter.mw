@@ -66,8 +66,10 @@ Bisher ist es noch nicht gelungen diese Farbinformationen mittels SVG oder PDF v
 
 = Raster Mode =
 
-Beim Rastern sollte man darauf achten, dass man NICHT ganz links am Rand anfängt. Der Laser braucht etwas seitliche "Anlaufstrecke" neben dem Motiv.
+== Grundsätzliches ==
+*Beim Rastern sollte man darauf achten, dass man NICHT ganz links am Rand anfängt. Der Laser braucht etwas seitliche "Anlaufstrecke" neben dem Motiv.
 
+*Es ist (vor allem bei Holz) schlauer, wenn man mit wenig Power (30), viel Speed (70) mehrere Durchgänge lasort. Ansonsten hat man die gefürchteten "Burn Marks" auf dem Material.
 
 = Materialwissenschaft =
 
