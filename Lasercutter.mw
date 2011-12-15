@@ -81,18 +81,30 @@ Kunststoffverbindungen mit Flammtest erforschen:
 
 == Bereits getestet ==
 
-{|
+{| border="1" cellpadding="2" cellspacing="0"
 ! Material
 ! Bezugsquelle
 ! Settings (Mode/Speed/Power)
 ! Ergebnis
 |-
 | Alulaz/AlumaMark
-| Trotec Laser
-| Raster/20/80
+| Rowmark / Trotec
+| Raster/1/60
 | Schwarze Gravur
+|-
+| eloxiertes Aluminium
+| Trotec Laser
+| Raster/1/60
+| Weiße Gravur
+|-
+| Laser Mark Reverse
+| Rowmark / Trotec
+| Raster/80/60 (2-Pass)
+| WiP
 |}
 
+Hilfreiches Dokument wenn man Rowmark Sachen bearbeitet:
+[http://rowmark.com/MARK/LaserandRotarySettingsGuide/Laser%20Setting%20Guide%2010.11.pdf Rowmark Laser Guide]
 === Erfahrungswerte von anderen Hackerspaces: ===
 
 ==== Mit dem gleichen Gerät ====
