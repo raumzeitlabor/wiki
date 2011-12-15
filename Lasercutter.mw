@@ -79,6 +79,19 @@ Bisher ist es noch nicht gelungen diese Farbinformationen mittels SVG oder PDF v
 Kunststoffverbindungen mit Flammtest erforschen:
 [http://www.nycresistor.com/2008/08/28/how-to-identify-polymers-with-burnination/ Identify Polymers]
 
+== Bereits getestet ==
+
+{|
+! Material
+! Bezugsquelle
+! Settings (Mode/Speed/Power)
+! Ergebnis
+|-
+| Alulaz/AlumaMark
+| Trotec Laser
+| Raster/20/80
+| Schwarze Gravur
+|}
 
 === Erfahrungswerte von anderen Hackerspaces: ===
 
