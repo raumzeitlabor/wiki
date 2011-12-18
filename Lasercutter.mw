@@ -1,10 +1,10 @@
-= Vektor Mode =
+== Vektor Mode ==
 
-== Erstellen von Vektor-Dateien für den Laser (Vector Cut) ==
+=== Erstellen von Vektor-Dateien für den Laser (Vector Cut) ===
 
 Für den Vektor-Schnitt braucht man Dateien aus einem Vektorprogramm (Inkscape, Adobe Illustrator). Generell zeichnet man hier mit geometrischen Grundformen (Linien, Kreise) die dann später vom Laser abgefahren werden. Diese Linien haben keinen "Dicke" sondern sind nur Pfade auf denen der Laser langfährt. Dieser Modus eignet sich sehr gut für Zuschnitte oder einfach Gravuren.
 
-=== Arbeiten mit verschiedenen "Layern" in RetinaEngrave ===
+==== Arbeiten mit verschiedenen "Layern" in RetinaEngrave ====
 
 Die Lasersoftware kann bis zu 7 verschiedene "Layer" (Farben) in einer Datei verarbeiten und man kann mit einer Datei somit 7 verschiedene Stärken in einem Durchgang lasern. Das hilft vor allem, wenn man in einer Datei sowohl schneiden (viel Laser) als auch gravieren (wenig Laser) vorsehen will.
 
@@ -60,20 +60,20 @@ Dazu legt man die Linien in einem Vektorprogramm mit den folgenden RGB-Farben an
 |255
 |}
 
-=== Transport von Vektordateien mit mehreren Layern ===
+==== Transport von Vektordateien mit mehreren Layern ====
 
 Bisher ist es noch nicht gelungen diese Farbinformationen mittels SVG oder PDF von einem Rechner zu einem anderen zu bringen, so dass die Layer erhalten blieben. Auf Rechnern auf denen RetinaEngrave nicht installiert ist, kann man aber ein XPS erzeugen, mit dem RetinaEngrave umgehen kann
 
-= Raster Mode =
+== Raster Mode ==
 
-== Grundsätzliches ==
+=== Grundsätzliches ===
 *Beim Rastern sollte man darauf achten, dass man NICHT ganz links am Rand der Arbeitsfläche anfängt. Der Laser braucht etwas seitliche "Anlaufstrecke" neben dem Motiv.
 
 *Es ist (vor allem bei Holz) schlauer, wenn man mit wenig Power (30), viel Speed (70) mehrere Durchgänge lasort. Ansonsten hat man die gefürchteten "Burn Marks" auf dem Material.
 
 *Ein Featurewunsch für die Software wäre das Lasern von "unten nach oben". Das soll laut Rowmark das Ergebniss deutlich verbessern, weil weniger Material an den gerade gelaserten Stellen hängenbleibt.
 
-= Materialwissenschaft =
+== Materialwissenschaft ==
 
 * KEIN Metall!
 * KEIN PVC oder andere Chlorhaltigen Verbindungen!
@@ -81,7 +81,7 @@ Bisher ist es noch nicht gelungen diese Farbinformationen mittels SVG oder PDF v
 Kunststoffverbindungen mit Flammtest erforschen:
 [http://www.nycresistor.com/2008/08/28/how-to-identify-polymers-with-burnination/ Identify Polymers]
 
-== Bereits getestet ==
+=== Bereits getestet ===
 
 {| border="1" cellpadding="2" cellspacing="0"
 ! Material
@@ -122,13 +122,13 @@ Kunststoffverbindungen mit Flammtest erforschen:
 
 Hilfreiches Dokument wenn man Rowmark Sachen bearbeitet:
 [http://rowmark.com/MARK/LaserandRotarySettingsGuide/Laser%20Setting%20Guide%2010.11.pdf Rowmark Laser Guide]
-=== Erfahrungswerte von anderen Hackerspaces: ===
+==== Erfahrungswerte von anderen Hackerspaces: ====
 
-==== Mit dem gleichen Gerät ====
+===== Mit dem gleichen Gerät =====
 
 [[https://www.noisebridge.net/wiki/Lasercutter Noisebridge]]
 
-==== Mit einem anderen Cutter ====
+===== Mit einem anderen Cutter =====
 
 [[http://wiki.happylab.at/w/Laser_Cutter Happylab]]
 
