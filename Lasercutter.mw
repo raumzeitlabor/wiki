@@ -106,12 +106,17 @@ Kunststoffverbindungen mit Flammtest erforschen:
 |-
 | LaserMax Farbe
 | Rowmark / Trotec
-| Raster/100/30
+| Raster/70/25
 | dünne Schicht weglasern
 |-
 | Metalgraph Plus Metalloptik
 | Rowmark / Trotec
-| Raster/100/20
+| Raster/100/30
+| 
+|-
+| Textures 8xx Farbe
+| Rowmark / Trotec
+| Raster/15/30
 | 
 |}
 
