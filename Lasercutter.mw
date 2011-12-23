@@ -91,7 +91,7 @@ Kunststoffverbindungen mit Flammtest erforschen:
 {| border="1" cellpadding="2" cellspacing="0"
 ! Material
 ! Bezugsquelle
-! Settings (Mode/Speed/Power)
+! Mode/Speed/Power/Current/passes
 ! Ergebnis/Kommentar
 |-
 | Alulaz/AlumaMark
@@ -143,6 +143,21 @@ Kunststoffverbindungen mit Flammtest erforschen:
 | Mutiger Inte
 | Raster/100/20
 | hätte tick mehr sein können, aber goil (aufgerauhte Oberfläche)
+|-
+| Zucker (körnig auf Teller)
+| Supahmarkt
+| Raster/10/95
+| wird flüssig und härtet aus. Etwas weniger power ginge auch.
+|-
+| Schichtholz (0,385mm)
+| ?
+| Raster/80/35
+| heller Braunton und deutlicher Materialabrieb
+|-
+| Schichtholz (0,385mm)
+| ?
+| Vector/100/40/75/6-15
+| unklar wann durch, wenig Brandwunden
 |}
 
 Hilfreiches Dokument wenn man Rowmark Sachen bearbeitet:
