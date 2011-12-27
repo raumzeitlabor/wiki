@@ -80,7 +80,7 @@ Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.118 || usbprint0 || [[Drucker#HP_Business_Inkjet_1200|USB Printserver]]
 |-----
-| 172.22.36.119 || ''reserved'' || Reserviert für Geräte
+| 172.22.36.119 || liteshow || [[InFocus LiteShow II]]
 |-----
 | 172.22.36.120 || ''reserved'' || Reserviert für Geräte
 |-----
