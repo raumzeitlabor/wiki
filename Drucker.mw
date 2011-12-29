@@ -8,7 +8,7 @@
 :Scan/E-Mail -> Scannen&SMB -> Datengrab -> (TIFF, PDF, JPEG) -> Datei landet in \\datengrab.rzl\share\scans
 
 ;Installation unter Debian:
- echo "deb http://www-personal.umich.edu/~tjwatt/suldr debian extra" >> /etc/apt/sources.list
+ echo "deb http://www.bchemnet.com/suldr/ debian extra debian extra" >> /etc/apt/sources.list
  apt-get update
  apt-get install samsungmfp-data samsungmfp-driver
 
