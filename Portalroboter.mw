@@ -41,18 +41,7 @@ Made in Japan
 
 ==Umbau==
 
-Ich schlage vor, die gesamte Elektronik stillzulegen und durch selbstgebaute Schrittmotor-Endstufen und eine Controllerkarte zu ersetzen. --[[Benutzer:Abrock|Abrock]] 14:45, 7. Aug. 2010 (UTC)
-
-Hier ist eine Schrittmotorkarte, die geeignet erscheint:
-[http://www.watterott.com/de/Pololu-A4983-Schrittmotortreiber|Pololu A4983 Schrittmotortreiber]
-
-Im 1/16tel Modus könnte man eine Auflösung von 1/16tel mm in X- und Y-Achse erreichen, das ist IMHO hinreichend für Plastik-Extruder-Druckerei
-
-Man braucht dann nur noch ein Netzteil, das 35V DC, 5V DC erzeugt und einen uC, der vom Rechner erzeugte Schritte über USB entgegennimmt und puffert, da man sonst auf dem Rechner ein Echtzeitbetriebssystem bräuchte. --[[Benutzer:Abrock|Abrock]] 13:40, 26. Sep. 2010 (CEST)
-
-: Ich hab schon ein Projekt mit Software-USB/Atmel gemacht. Bauteile sind vernachlässigbar, haben wir fast alles da bis auf 2 Zehner-Dioden. Wie schnell müssen denn die Daten vom uC zur Schnittstellenkarte raus bzw. wieviele Daten sind das denn? Da die Software-USB-Lösung schon Interrupt-gesteuert ist, könnte das eventuell Timing-Probleme geben, wenn der Host-PC (warum auch immer) den USB-Port vollspammt - könnte man ja zur Not mit einer Testschaltung mal ausprobieren. Auch die Anbindung von externem Speicher sollte möglich sein, allerdings NUR für reine Arbeitsdaten. Der Firmware-Code muß komplett in den Atmel passen. --[[Benutzer:Felicitus|Felicitus]] 07:30, 27. Sep. 2010 (CEST)
-
-Ich sammel mal ein paar Links bzgl. Steuerungen:
+Die verbauten Schrittmotorendstufen heißen C5D5814N-P Oriental Motor ([http://www.electro-tech-online.com/custompdfs/2009/05/vextajpncskmanual.pdf Datenblatt]). Ich layoute eine Optokopplerplatine, mit der der Parallelport des Dell-Notebooks an den Portalroboter angeschlossen wird. Das Schaltnetzteil im Portalroboter erzeugt +5V und +24V. --[[Benutzer:Alexander Brock|Alexander Brock]] 01:14, 30. Dez. 2011 (CET)
 
 [http://www.piclist.com/techref/io/stepper/linistep/index.htm Lineare Strombegrenzung]
 
