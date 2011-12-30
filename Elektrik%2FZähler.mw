@@ -3,7 +3,7 @@
 |status      = beta
 |image       = Stromzähler Board.jpg
 |description = Das Stromzählerboard überwacht unseren Stromverbrauch.
-|author      = [[Benutzer:Alexander Brock|Alexander Brock]]
+|author      = [[Benutzer:Alexander Brock|Alexander Brock]], [[Benutzer:Tiefpunkt|tiefpunkt]]
 |username    = 
 |version     = 
 |update      = 
@@ -12,3 +12,6 @@
 |video       = 
 |download    = 
 }}
+Ein Laborboard im Serverschrank kann die Impulse, die von unserem Stromzähler (nicht der Flukso) kommen, zählen und an die Blackbox weiterreichen. Dort werden sie aufbereitet, und unter [http://blackbox.raumzeitlabor.de/strom/] (IPv6 only) zur Verfügung gestellt.
+
+Und weil das noch nicht genug ist, schieben wir das Ganze noch in unseren Pachube-Feed [https://pachube.com/feeds/42055]. Die dort angegebene Leistung ist dabei ein Durchschnitt über 5 Minuten.
