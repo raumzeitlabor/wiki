@@ -113,4 +113,21 @@ Bestelliste Reichelt:
 |
 |}
 
-[[Kategorie:Infrastruktur]]
+==Temperatur-Board==
+[[Datei:Heizungssteuerung-Temperatur-Flowchart.png|thumb|right|400px]]
+Zur Messung der Temperaturen von Vor- und Rücklauf, sowie der Raumtemperatur, kommt ein AVR-Board zum Einsatz, dass seine Daten dann wie in der Grafik gezeigt verteilt. Aktuelle Werte sind im [https://pachube.com/feeds/42055 RaumZeitLabor-Pachube-Feed] zu finden.
+
+Rohdaten finden sich auf der Blackbox [http://blackbox.raumzeitlabor.de/temperatur/] (IPv6 only). In der Datei "log" stehen folgende Werte in jeder Zeile: Die beiden Raumtemperatursensoren liefern
+unplausible Werte, die muss ich nochmal neu abgleichen, deshalb werden
+die im Moment nicht geplottet.
+</pre></code>
+* Unix Timestamp
+* Vorlauf in °C*100
+* Rücklauf in °C*100
+* Temperatur bei der Tafel in °C*100
+* Temperatur unter der Beamerplattform in °C*100
+* und vier unbenutzte Temperatursensoreingänge, wenn jemand eine tolle Idee hat wo noch einer hinmuss und ein Kabel kann man da noch mehr Sensoren anschließen.
+
+Es ersetzt damit vorerst den [[RaumTemperaturLaborSensor]].
+
+[[Kategorie:Projekt]][[Kategorie:Infrastruktur]]
