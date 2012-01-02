@@ -1,13 +1,10 @@
+[[Image:Netzdiagramm-blackbox.png|thumb|300px|Nicht ganz aktuelles Netzwerkdiagramm]]
 Hier wird/ist die Netzwerkstruktur im Raum dokumentiert.
 
-[[Image:Netzdiagramm-blackbox.png]]
-
 == Ansprechpartner ==
-
 Bei jeglichen Fragen zum Netz bitte [[Benutzer:Docsteel|Docsteel]], [[Benutzer:Scytale|Scytale]] oder [[Benutzer:SEC|sECuRE]] ansprechen, auf keinen Fall selbst Änderungen an Router, Verkabelung oder IP-Adresszuteilung vornehmen!
 
 == Rack ==
-
 [[Datei:IMG_0336.JPG|Thumb|300px]]
 Das [[DELLPS38S|Rack]] befindet sich in der [[E-Eck]]e und enthält das Patchpanel, unseren Switch, unseren Router sowie diverse andere Hardware, z.B. für die Türsteuerung.
 
@@ -15,15 +12,10 @@ Das [[DELLPS38S|Rack]] befindet sich in der [[E-Eck]]e und enthält das Patchpan
 Wir nutzen die Internetverbindung eines unserer Nachbarn mit.
 Die Leitung kommt an der Ecke bei der Eingangstür aus der Decke, man bekommt dort auch von irgendnem Consumer-Router per DHCP eine geNATete IP. Es scheint ein Arcor DSL 6000-Anschluss zu sein
 
-== Unterschied zwischen den WLANs ==
-Es gibt zwei WRT54Gs, einer mit der ESSID „RZL-softcore” und einer mit der ESSID „RZL-hardcore”. Der Schlüssel (WEP) findet sich auf dem Zettel in Augenhöhe im Eingangsbereich.
-
-In das Netz „RZL-softcore” sind keine eingehenden Verbindungen möglich (aus dem IPv6-Internet und dem dn42.net).
-
-Im Netz „RZL-hardcore” wird nicht gefiltert (dein Computer ist im dn42.net und via IPv6 öffentlich (!) erreichbar).
+== Sicherheit ==
+Wenn du im Netzwerk (mit oder ohne Kabel) hängst, ist dein Computer im dn42.net und via IPv6 öffentlich (!) erreichbar.
 
 == dn42 ==
-
 Das dn42 ist ein VPN, welches Chaostreffs, Hackerspaces und sonstige Chaoten vernetzt. Siehe [http://dn42.net dn42.net]
 
 Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, welterde, mittagessen, nobody, docsteel, Felicitus).
@@ -40,17 +32,17 @@ Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, 
 
 === 172.22.36.0/24 ===
 
-{| border="1" cellspacing="0" cellpadding="0" width="100%"
+{| class="wikitable" width="100%"
 |-----
 ! IP-Adresse || Hostname || Beschreibung
 |-----
 | 172.22.36.1 || [[firebox]] || Router
 |-----
-| 172.22.36.2 || wrtf || Linksys WRT54G sECuRE („RZL-softcore”)
+| 172.22.36.2 || wrtf || Linksys WRT54G sECuRE („RZL-softcore”) (Veraltet!)
 |-----
 | 172.22.36.3 || printer0 || [[Drucker#Samsung_SCX-5530FN|Laserdrucker (Samsung SCX-5530FN)]] 
 |-----
-| 172.22.36.4 || fritzbox || Fritzbox 7170 Scytale („RZL-hardcore”)
+| 172.22.36.4 || fritzbox || Fritzbox 7170 Scytale („RZL-hardcore”) (Veraltet, mittlerweile ein WRT54G)
 |-----
 | 172.22.36.5 || xylan || OmniStack 24 Port Switch (Veraltet! Doku über neuen Switch fehlt!)
 |-----
@@ -64,7 +56,7 @@ Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.'''10 - 110''' || dhcp || DHCP-Range (unfiltered)
 |-----
-| 172.22.36.111 || fujiko || Notebook Eingang (Veraltet?)
+| 172.22.36.111 || fujiko || Notebook Eingang (Veraltet!)
 |-----
 | 172.22.36.112 || [[PC-Eeck]] || Public Terminal
 |-----
@@ -74,11 +66,11 @@ Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.115 || helios || [[Benutzer:Docsteel|docsteel]]
 |-----
-| 172.22.36.116 || vp-fon || phillips VoIP-fon (Veraltet?)
+| 172.22.36.116 || vp-fon || phillips VoIP-fon (Veraltet!)
 |-----
-| 172.22.36.117 || vip1710 || [[VIP1710]]
+| 172.22.36.117 || vip1710 || [[VIP1710]] - MPD
 |-----
-| 172.22.36.118 || usbprint0 || [[Drucker#HP_Business_Inkjet_1200|USB Printserver]]
+| 172.22.36.118 || usbprint0 || [[Drucker#HP_Business_Inkjet_1200|USB Printserver]] (Veraltet!)
 |-----
 | 172.22.36.119 || liteshow || [[InFocus LiteShow II]]
 |-----
@@ -102,7 +94,7 @@ Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.130 || ''reserved'' || Reserviert für Infrastruktur
 |-----
-| 172.22.36.131 || sprech || Gigaset C475IP VoIP-Telefon (Veraltet?)
+| 172.22.36.131 || sprech || Gigaset C475IP VoIP-Telefon (Veraltet!)
 |-----
 | 172.22.36.132 || ''reserved'' || Reserviert für Infrastruktur
 |-----
@@ -110,7 +102,7 @@ Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.134 || ''reserved'' || Reserviert für Infrastruktur
 |-----
-| 172.22.36.'''135 - 235''' || '''dhcp''' || DHCP-Range (filtered)
+| 172.22.36.'''135 - 235''' || '''dhcp''' || DHCP-Range (filtered) (Veraltet!)
 |-----
 | 172.22.36.236 || ''reserved'' || Reserviert für Geräte
 |-----
