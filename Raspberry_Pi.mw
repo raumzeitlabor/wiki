@@ -1,0 +1,33 @@
+Der Raspberry Pi ist ein Einplatinen-Computer, der von der einer englischen Stiftung namens Raspberry Pi Foundation entwickelt wird. Auf einer Platine mit der ungefähren Größe einer Visitenkarte vereint er einen 700Mhz ARM-Prozessor, 128/256MB RAM, USB, 10/100Mbit Ethernet, HDMI, Composite Video, sowie einen SD-Karten-Slot. Es soll 2 Versionen geben, das Modell A mit 128MB RAM und ohne Ethernet für ~25€, und das Modell B mit 256MB RAM und Ethernet für ~35€.
+
+== Schnittstellen ==
+Der Raspberry Pi bietet über einen 26poligen Verbinder eine Reihe von interessanten Schnittstellen zur Kommunikation mit Microcontrollern etc.
+* UART
+* SPI
+* I²C
+* Universelle GPIOs
+Details dazu gibt es hier [http://elinux.org/RaspberryPiBoard#General_Purpose_Input.2FOutput_.28GPIO.29.2C_I2C.2C_I2S.2C_SPI.2C_UART].
+
+== Erweiterungen ==
+Die Raspberry Pi Foundation hat anscheinend vor, ein Erweiterungsboard mit dem Namen "Gertboard" anzubieten. Infos dazu: [http://www.raspberrypi.org/archives/411]
+
+=== PoE-Adapter ===
+Laut FAQ werden die ersten Revisionen kein PoE unterstützen. Daher könnte man hier selber aktiv werden. Der Raspberry Pi erwartet regulierte 5V über einen MicroUSB-Port. Über einen selbstgebauten Splitter mit Spannungsregulierung (vorzugsweise nicht linear) könnte man diese über das Netzwerkkabel transportieren. Pläne folgen.
+
+== Use Cases ==
+Wofür könnte man den Raspberry Pi alles einsetzen?
+
+* Der [[Hausbus2|Hausbus v2.0]] wird möglicherweise auf dem Raspberry Pi basieren.
+
+== Sammelbestellung ==
+Je nach Versandkosten macht es evtl. Sinn, eine Sammelbestellung zu starten. Interessenten können sich hier eintragen.
+
+{| class=wikitable
+! Name
+! Anzahl Modell A
+! Anzahl Modell B
+|-nicht 
+| [[Benutzer:Tiefpunkt|tiefpunkt]]
+| 0
+| 3
+|}
