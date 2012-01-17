@@ -1,0 +1,63 @@
+= Geeks@Work =
+
+* [[Benutzer:fabfrank|fabfrank]]
+* [[Benutzer:TheTinyToon|TheTinyToon]]
+
+
+= Sicherheitshinweise =
+
+Die benutzten Chemikalien sind zwar nicht hochätzend oder ähnliches, aber können bei Kontakt mit Schleimhäuten dennoch ätzend wirken (sorry, no drinking).
+
+* Schutzbrille (Spritzer!) tragen
+* Kittel (Ätzmittel hinterlässt nette Flecken)
+* nach Möglichkeit Handschuhe (richtige Gummihandschuhe, nicht nur Latexgloves)
+
+= Ätzablauf =
+
+
+== Vorlage ==
+
+* Laserausdruck auf Zweckformfolie
+* auf hohen Kontrast achten (Toner-Überdruck einstellen)
+* Leiterbahnen eher dünn drucken (ca 0,5mm Stärke - Toner stößt sich ab, dünne Bahnen werden dichter gedruckt)
+* Layout spiegelbildlich ausdrucken
+* Flächen und dicke Leiterbahnen ggf. mit Edding nachschwärzen
+
+== Belichtung ==
+
+* Layout mit der Tonerseite zur Lackseite auf die Platine auflegen (dadurch schärfere Belichtung)
+* Belichtung auf ca. 90 Sekunden stellen (für [http://www.bungard.de/ Bungard-Platinen])
+
+== Entwickler ==
+
+* immer frisch ansetzen
+* nach Anleitung anmischen (bei uns 1/5 Löffel / 2g Natriumhydroxit auf 200ml kaltes Wasser)
+* ca 1min entwickeln, Platine ständig in Bewegung halten (z.B. mit weichen Haarpinsel abstreifen)
+* Entwicklungszeit ist zu Ende, wenn die belichteten Stellen blankes Kupfer zeigen und kein Grauschleier mehr vorhanden ist
+* anschließend: mit Wasser abspülen und abtrocknen
+* Tipp: Sollte der Photolack an einer Stelle Unterbrechungen/Beschädigungen aufweisen, mit (ätzfesten) Edding übermalen/korrigieren
+
+== Ätzen ==
+
+Wir haben die Küvettenätzanlage eingeweiht.
+
+* nach Anleitung Ätzlösung ansetzen oder alte Ätzlösung benutzen
+** Ätzlösung auf rund 40-50°C erhitzen
+** bei Neuansetzen 200g Natriumpersulfat auf 1l Wasser benutzen
+* Ätzlösung in Ätzanlage einfüllen, Heizstab und Luftpumpe einschalten
+* Platine in Platinenhalter einspannen und in die Küvette eintauchen
+* Ätzen, bis das restliche Kupfer an den belichteten Stellen komplett abgetragen ist und das Basismaterial sichtbar wird - bei uns: Ätzdauer 11min
+** das Ätzen wandelt das Kupfer in Kupfersulfat um - dadurch wird die Lösung leicht bläulich
+* anschließend: mit Wasser abspülen
+
+== Nachbearbeitung ==
+
+* Mit Kleenex trocknen
+* etwas Aceton auf Tuch auftragen und den restlichen Photolack der Platine vollständig entfernen (lieber mehr als einmal wiederholen, min. 2 Vorgänge, um alle Lackreste zu erwischen)
+* Lötlack aufsprühen zum Oxidationsschutz und als Flussmittel fürs spätere Auflöten von Komponenten
+
+== Bohren ==
+
+* bei Hartpapierplatinen mit HSS-Bohrer, bei Epoxitharz mit Hartmetallbohrer (Epoxitharz hat eine hohe Härte und verschleißt daher HSS-Bohrer sehr schnell - Hartmetallbohrer sind hingegen sehr teuer und brechen schnell)
+* Bohrständer benutzen (insbesondere bei Hartmetallbohrer wegen Bruchanfälligkeit)
+* Safety first (Schutzbrille tragen!)
