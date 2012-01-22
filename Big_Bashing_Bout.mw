@@ -1,0 +1,87 @@
+= Was sind die "Big Bashing Bout"s? =
+
+Ihr kennt sie alle, die ungeklärten Fragen des Nerdtums. Fragen die Freundschaften zerstören können. Fragen die man auf Mailinglisten und im IRC erst stellt nachdem man sich eine alternative Identität erschaffen hat. Fragen die ungelöstes Konfliktpotenzial bedeuten, das unter der Oberfläche schlummert um irgendwann herauszubrechen.
+
+Wir vom RaumZeitLabor möchten andere Wege gehen und diesen Fragen Raum geben. Herzlich willkommen zu den "Big Bashing Bouts".
+
+= Regeln =
+
+Es wird ein Thema vorgegeben. Freiwillige "Verteiger" übernehmen die Präsentation und Verteidigung ihres präferiertes Werkzeugs/Tools/Programms (ab jetzt $dings genannt) zu diesem Thema. Jeder "Verteidiger" hält einen Kurzvortrag zu dem $dings welches er verteidigt. Danach heißt es "Flame on!" und die anderen "Verteiger" sowie die Zuschauer dürfen ihre Meinung zu dem $dings des Verteidigers loswerden. Ernsthafte Fragen? Trollerei? Ungerechtfertigte Vorurteile gegen das $dings? Alles ist erlaubt. Ein Spaß für die ganze Familie!
+
+= Wie kann ich mitmachen? =
+
+Unten seht ihr eine Liste mit Themen (einige $dings sind als Beispiele bereits eingetragen). Tragt euch und das $dings das ihr verteidigen wollt ein. Das erste Thema in dem sich fünf Verteidiger eingetragen haben wird an einem Dienstag ausgefochten.
+
+= Wie kann ich gewinnen? =
+
+Wie bei allen Flamewars gibt es auch bei den "Big Bashing Bout"s keine Gewinner.
+
+= Themen =
+
+Themen dürfen selbstverständlich gerne ergänzt werden.
+
+== Der beste Window Manager ==
+
+{| class="wikitable"  valign = "top"
+!WM
+!Verteidiger
+|-
+|dwm
+|
+|-
+|i3
+|
+|-
+|KWin (innerhalb KDE)
+|
+|-
+|}
+
+== Das beste Betriebssystem / Die beste Distribution ==
+
+{| class="wikitable"  valign = "top"
+!BS/Distro
+!Verteidiger
+|-
+|Ubuntu
+|
+|-
+|Arch Linux
+|
+|-
+|Windows
+|
+|-
+|FreeBSD
+|
+|-
+|Mac OS X
+|
+|-
+|}
+
+== Die beste Programmiersprache ==
+
+{| class="wikitable"  valign = "top"
+!Sprache
+!Verteidiger
+|-
+|C
+|
+|-
+|C++
+|
+|-
+|Java
+|
+|-
+|Ruby
+|
+|-
+|Python
+|
+|-
+|sh
+|
+|-
+|}
