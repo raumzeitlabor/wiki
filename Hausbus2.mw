@@ -80,3 +80,5 @@ Request:
 Zunächst müssen die Raspberry Pis verfügbar sein und funktionieren :).
 
 Sobald das der Fall ist, kann man eine Library implementieren, welche die oben beschriebene API bereitstellt. Geräte kann man dann einfach ins RZL-Netz hängen zunächst (in ein separates Netz kann man sie später ohne großen Aufwand verschieben). Die Firebox kriegt neue DNS-Einträge für neue Geräte. Anschließend kann man die bestehende Software (pin-sync, türstatusd, ssh-unlock) anpassen.
+
+Die oben erklärte HTTP-API habe ich in einer Go-Library (und Beispiel) umgesetzt: https://github.com/raumzeitlabor/rzlbus
