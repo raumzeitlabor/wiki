@@ -113,3 +113,22 @@ Themen dürfen selbstverständlich gerne ergänzt werden.
 |
 |-
 |}
+
+== Das beste Versionskontrollsystem ==
+{| class="wikitable"  valign = "top"
+!Versionskontrollsystem
+!Verteidiger
+|-
+|git
+|
+|-
+|SVN
+|
+|-
+|Mercurial
+|
+|-
+|CVS
+|
+|-
+|}
