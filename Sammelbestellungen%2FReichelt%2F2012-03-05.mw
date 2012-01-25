@@ -12,6 +12,14 @@ HS DIN 374;2
 
 LR 44;4
 
+MAX 232 CPE;5
+
+D-SUB BU 09EU;5
+
+
+
+== Das RZL benötigt ==
+
 P-TOUCH 2430PCBE;1
 
 == Jiska benötigt ==
