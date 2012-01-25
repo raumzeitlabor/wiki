@@ -1,0 +1,35 @@
+{{ProjektInfoBox
+|name        = Wall Of Nerds
+|status      = experimental
+|image       = wallofnerds-logo.png
+|description = Eine kleine Hilfe fürs Nerd <=> Nickname-Gedächtnis
+|author      = [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:TheTinyToon|TheTinyToon]], [[Benutzer:Rami|Rami]], ...
+|username    = 
+|version     = 
+|update      = 
+|platform    = Reality 1.0
+|license     = 
+|download    = 
+|bausatz     =
+|preis       =
+}}
+Die '''Wall of Nerds''' ist eine Wand mit Steckbriefen von RaumZeitLaboranten, und soll dazu dienen, unser Gesicht<->Nickname-Gedächtnis ein wenig zu unterstützen. Es ist entstanden aus einem [[Lightning Talks|Lightning Talk]] von [[Benutzer:Tiefpunkt|tiefpunkt]], und befindet sich derzeit in der Implementierungsphase. Noch existiert die Wand nicht, aber es wird hart an einem Generator für Steckbriefe gearbeitet, während nach der perfekten Location für die Wall im Raum gesucht wird.
+
+== Steckbriefe ==
+Es gibt keine Vorgaben für die Steckbriefe, außer die Größe: DIN A5, hochkant (210mmx148mm). Der Nerd von heute kann sich also kreativ austoben.
+
+Ein paar Vorschläge für Contents:
+* Photo
+* Name (Real-, Nick-, ...)
+* Geburtstag
+* Kontaktdaten
+* Skills (Badges)
+* Links, QR-Codes
+
+=== Badges ===
+Um Interessen und Skills auf den Steckbrief zu packen, gibt es Badges. Es handelt sich dabei um kleine Grafiken, die man auf seinen Steckbrief packen kann, um damit anderen Leute zu zeigen, mit welchen Themen man sich auskennt oder gerne auskennen würde.
+
+=== Generator ===
+Für die unter uns, die nicht so kreativ veranlagt sind, oder es sich einfach ein wenig einfacher machen wollen, baut [[Benutzer:TheTinyToon|TheTinyToon]] einen Generator, der mit Hilfe eines Templates und ein paar Eingaben einen wunderbaren Steckbrief generiert. 
+
+[[Kategorie:Projekt]]
