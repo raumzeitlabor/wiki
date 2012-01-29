@@ -1,0 +1,37 @@
+Die [https://wiki.ubuntu.com/UbuntuDeveloperWeek Ubuntu Developer Week] ist eine dreitägige Veranstaltung der Firma Canonical, die hinter der Linux-Distribution [http://www.ubuntu.com Ubuntu] steckt. Die UDW findet regelmäßig statt und wird im IRC mit gestreamten Vorträgen abgehalten.
+
+== Teilnehmen ==
+
+Der Chatchannel ist [http://webchat.freenode.net/?channels=ubuntu-classroom%2Cubuntu-classroom-chat #ubuntu-classroom/Freenode]. Einen einfachen Einstieg gibt es mit dem Programm [https://wiki.ubuntu.com/Lernid Lernid], mit dem man z.B. auch die Folien in RealTime anschauen kann.
+
+== Sessions ==
+
+Die verfügbaren Sessions finden sich auf [https://wiki.ubuntu.com/UbuntuDeveloperWeek/Sessions dieser Seite] mit einer Kurzinfo. Das Who-Attends-Who findet sich hier (Bitte beachten: Die angegebenen Zeiten sind UTC!):
+
+{| class="wikitable"
+!Datum
+!Uhrzeit (UTC)
+!Titel
+!Raumzeitlaboranten
+|-
+|31.01.
+|20:00
+|Automated Testing and Jenkins (Continuous Integration)
+|[[Benutzer:eeemsi|eeemsi]], [[Benutzer:TheTinyToon|TheTinyToon]]
+|-
+|01.02.
+|17:00
+|Charming Juju (Cloud-Verwaltung a la Ubuntu)
+|[[Benutzer:eeemsi|eeemsi]], [[Benutzer:TheTinyToon|TheTinyToon]]
+|-
+|01.02.
+|19:00
+|Ubuntu Distributed Development (Weltweite Entwicklung coordinieren)
+|[[Benutzer:eeemsi|eeemsi]], [[Benutzer:TheTinyToon|TheTinyToon]]
+|-
+|02.02.
+|18:30
+|Pair Programming and Code Review in the Cloud
+|[[Benutzer:eeemsi|eeemsi]], [[Benutzer:TheTinyToon|TheTinyToon]]
+|-
+|}
