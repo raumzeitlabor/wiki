@@ -132,3 +132,35 @@ Themen dürfen selbstverständlich gerne ergänzt werden.
 |
 |-
 |}
+
+== Der beste Editor ==
+{| class="wikitable"  valign = "top"
+!Editor
+!Verteidiger
+|-
+|vim
+|
+|-
+|emacs
+|
+|-
+|nano
+|
+|-
+|joe
+|
+|-
+|}
+
+== Der beste Bildbetrachter ==
+{| class="wikitable"  valign = "top"
+!Editor
+!Verteidiger
+|-
+|imagemagick
+|
+|-
+|feh
+|
+|-
+|}
