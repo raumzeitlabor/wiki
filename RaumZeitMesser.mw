@@ -30,8 +30,18 @@ Eagle-Datei: [[Datei:Board.sch]]
 ==Bauteile==
 [https://secure.reichelt.de/index.html?;ACTION=20;AWKID=509672;PROVID=2084 Link zum Reichelt-Warenkorb]
 
+==Software==
+Die Software findet ihr auf GitHub.
+[https://github.com/thinkJD/RaumZeitMesser GitHub]
+
 ==ToDo==
 Wir können die Datenleitung des TWI auch als Datenleitung für die Schieberegister verwenden. 
 Solange kein Clock auf der Taktleitung ist, stört sich die DS1337 nicht sonderlich daran. 
 Den frei gewordenen Pin PB4 können wir an den Schieberegistern an den Output Enable pin anschließen. So ist ein dimmen der Uhr über pwm möglich.
  In Schaltplan V. 03 gemerged --[[Benutzer:Muzy|Muzy]] 19:08, 13. Dez. 2011 (CET)
+
+Ich habe die Platine ein wenig abgeändert. 
+Wir verwenden acht Bit Schieberegister aber nur sieben Bit Treiber. Ich habe immer ein Treiber an ein Register gelötet, der letzte Pin am Register bleibt daher frei. Das müsste im Plan geändert werden. 
+Grund: Es schaut im Code und auf der Platine übersichtlicher aus.
+
+Das Layout der Platine auf GutHub einchecken. (Macht das sinn oder gibt es eine bessere Lösung?)
