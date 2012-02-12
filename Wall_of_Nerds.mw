@@ -13,7 +13,7 @@
 |bausatz     =
 |preis       =
 }}
-Die '''Wall of Nerds''' ist eine Wand mit Steckbriefen von RaumZeitLaboranten, und soll dazu dienen, unser Gesicht<->Nickname-Gedächtnis ein wenig zu unterstützen. Es ist entstanden aus einem [[Lightning Talks|Lightning Talk]] von [[Benutzer:Tiefpunkt|tiefpunkt]] ([[Media:Lightning Talk 20120124 - SocialFoo im RaumZeitLabor.pdf|Slides]]), und befindet sich derzeit in der Implementierungsphase. Noch existiert die Wand nicht, aber es wird hart an einem Generator für Steckbriefe gearbeitet, während nach der perfekten Location für die Wall im Raum gesucht wird.
+Die '''Wall of Nerds''' ist eine Wand mit Steckbriefen von RaumZeitLaboranten, und soll dazu dienen, unser Gesicht<->Nickname-Gedächtnis ein wenig zu unterstützen. Es ist entstanden aus einem [[Lightning Talks|Lightning Talk]] von [[Benutzer:Tiefpunkt|tiefpunkt]] ([[Media:Lightning Talk 20120124 - SocialFoo im RaumZeitLabor.pdf|Slides]]), und befindet sich derzeit in der Implementierungsphase. <del>Noch existiert die Wand nicht, aber es wird hart an einem Generator für Steckbriefe gearbeitet, während nach der perfekten Location für die Wall im Raum gesucht wird.</del> Über der Garderobe ist ein gutes Stück Platz geschaffen worden, wo ihr eure Steckbriefe aufhängen könnt.
 
 == Steckbriefe ==
 Es gibt keine Vorgaben für die Steckbriefe, außer die Größe: DIN A5, hochkant (210mmx148mm). Der Nerd von heute kann sich also kreativ austoben.
@@ -32,4 +32,8 @@ Um Interessen und Skills auf den Steckbrief zu packen, gibt es Badges. Es handel
 === Generator ===
 Für die unter uns, die nicht so kreativ veranlagt sind, oder es sich einfach ein wenig einfacher machen wollen, baut [[Benutzer:TheTinyToon|TheTinyToon]] einen Generator, der mit Hilfe eines Templates und ein paar Eingaben einen wunderbaren Steckbrief generiert. [[Benutzer:Rami|rami]] hat dazu eine provisorische Vorlage für einen Steckbrief als SVG auf Grundlage der Diskussion in der Runde entworfen.
 
+== Bilder ==
+{|
+|[[Datei:Wall of Nerds - Example.png|thumb|200px|Ein Beispiel-Steckbrief, fast nach Vorlage]]
+|}
 [[Kategorie:Projekt]]
