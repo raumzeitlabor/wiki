@@ -131,4 +131,10 @@ Es ersetzt damit vorerst den [[RaumTemperaturLaborSensor]].
 
 Da die analogen Temperatursensoren kalibriert werden müssen und ungenau sind werden sie durch digitale 1-wire-sensoren ersetzt (DS18S20). Kabelbelegung: schwarz+weiß = Masse, rot = 5V, gelb = Daten. 
 
+SensorIDs:
+
+101a712902080015 Tafel
+101c0c2902080026 Beamer
+
+
 [[Kategorie:Projekt]][[Kategorie:Infrastruktur]]
