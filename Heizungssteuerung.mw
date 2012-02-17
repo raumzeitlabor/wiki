@@ -127,4 +127,8 @@ Rohdaten finden sich auf der Blackbox [http://blackbox.raumzeitlabor.de/temperat
 
 Es ersetzt damit vorerst den [[RaumTemperaturLaborSensor]].
 
+== Umrüstung auf DS18S20 ==
+
+Da die analogen Temperatursensoren kalibriert werden müssen und ungenau sind werden sie durch digitale 1-wire-sensoren ersetzt (DS18S20). Kabelbelegung: schwarz+weiß = Masse, rot = 5V, gelb = Daten. 
+
 [[Kategorie:Projekt]][[Kategorie:Infrastruktur]]
