@@ -153,6 +153,8 @@ Da die analogen Temperatursensoren kalibriert werden müssen und ungenau sind we
 | 28d9075102000005 || Heizungsvorlauf
 |-
 | 287f085102000084 || Heizungsrücklauf
+|-
+| 10b257290208008c || Außentemperatur
 |}
 
 Anstiegszeit des Datenpegels: 46us. 1,5kOhm-Widerstand zwischen 5V und Datenleitung verbessert Ansteigszeit auf 11us.
