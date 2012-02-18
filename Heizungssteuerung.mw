@@ -129,14 +129,31 @@ Es ersetzt damit vorerst den [[RaumTemperaturLaborSensor]].
 
 == Umrüstung auf DS18S20 ==
 
-Da die analogen Temperatursensoren kalibriert werden müssen und ungenau sind werden sie durch digitale 1-wire-sensoren ersetzt (DS18S20). Kabelbelegung: schwarz+weiß = Masse, rot = 5V, gelb = Daten. 
+Da die analogen Temperatursensoren kalibriert werden müssen und ungenau sind werden sie durch digitale 1-wire-sensoren ersetzt (DS18S20).
 
-SensorIDs:
+{| class="wikitable"
+! Kabelfarbe || Signal
+|-
+| schwarz || Masse
+|-
+| weiß || Masse
+|-
+| rot || +5V
+|-
+| gelb || Daten
+|}
 
-101a712902080015 Tafel
-101c0c2902080026 Beamer
-287f085102000084 Heizungsrücklauf
-28d9075102000005 Heizungsvorlauf
+{| class="wikitable"
+! Sensor-ID || Ort
+|-
+| 101a712902080015 || Tafel
+|-
+| 101c0c2902080026 || Beamer
+|-
+| 28d9075102000005 || Heizungsvorlauf
+|-
+| 287f085102000084 || Heizungsrücklauf
+|}
 
 Anstiegszeit des Datenpegels: 46us. 1,5kOhm-Widerstand zwischen 5V und Datenleitung verbessert Ansteigszeit auf 11us.
 
