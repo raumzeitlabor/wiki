@@ -136,6 +136,7 @@ SensorIDs:
 101a712902080015 Tafel
 101c0c2902080026 Beamer
 287f085102000084 Heizungsrücklauf
+28d9075102000005 Heizungsvorlauf
 
 Anstiegszeit des Datenpegels: 46us. 1,5kOhm-Widerstand zwischen 5V und Datenleitung verbessert Ansteigszeit auf 11us.
 
