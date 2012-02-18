@@ -137,6 +137,6 @@ SensorIDs:
 101c0c2902080026 Beamer
 287f085102000084 Heizungsrücklauf
 
-Anstiegszeit des Datenpegels: 46us
+Anstiegszeit des Datenpegels: 46us. 1,5kOhm-Widerstand zwischen 5V und Datenleitung verbessert Ansteigszeit auf 11us.
 
 [[Kategorie:Projekt]][[Kategorie:Infrastruktur]]
