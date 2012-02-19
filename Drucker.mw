@@ -23,8 +23,19 @@
 Farb-Laserdrucker, Dauerleihgabe von [[Benutzer:Unicorn|Unicorn]]
 
 * Derzeit nicht über Netzwerk erreichbar, USB only
-* Kosten pro Seite: 0,15€, Spende erwünscht 
+* Kosten pro Seite: 0,15€, Spende erwünscht
+
+==== Treiber ====
+* Bei Konica Minolta nur für Windows verfügbar
+* OpenSource-Linux-Treiber http://sourceforge.net/projects/m2300w/
+** Install first, plug in later :)
+
+==== Defekte =====
+* Verursacht Papierstau
+* Laut Unicorn auf Grund eines verschmutzten Sensors
 
 ==Tintenstrahldrucker==
 ===HP Business Inkjet 1200===
 [[Datei:IMG_0397.JPG|250px|thumb|left]]
+* Ansprechbar über USB
+* Derzeit schwarze Patrone leer
