@@ -13,6 +13,7 @@ Video von der Webcam in das loopback-device schaufeln:
 
 Dann Video aus dem loopback lesen und (via PulseAudio) Audio von der Soundkarte aufnehmen:
  gst-launch v4l2src device=/dev/video1 ! video/x-raw-yuv,framerate=30/1 ! \
+    queue ! videorate ! video/x-raw-yuv,framerate=20/1 ! \
     timeoverlay halign=right valign=top shaded-background=true ! \
     queue ! mux. \
     pulsesrc device="alsa_input.usb-Creative_Technology_Ltd._VF0610_Live__Cam_Socialize_HD_100507_a_00851-02-HD.analog-mono" ! \
