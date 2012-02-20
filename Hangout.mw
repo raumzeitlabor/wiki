@@ -1,15 +1,25 @@
-(draft)
+Die Idee ist, für die dienstägliche offene Raumzeitlaborierung ein Google+ Hangout anzubieten und gleichzeitig aufzuzeichnen. Geschehen soll das ganze zunächst mit einfachen Mitteln, d.h. mit einer USB-Webcam unter Linux.
+
+== Voraussetzungen ==
 
 uvcvideo webcam ist /dev/video0.
 
-Getestet mit linux 3.1 und v4l2loopback 0.5.0
+Getestet habe ich mit linux 3.1 und v4l2loopback 0.5.0. Folgendermaßen installiert und lädt man das Modul:
 
  apt-get install v4l2loopback-dkms 
  modprobe v4l2loopback
 
+== Schritt 1 ==
+
 Video von der Webcam in das loopback-device schaufeln:
  gst-launch v4l2src ! 'video/x-raw-yuv,width=800,height=448,framerate=20/1' ! \
     queue ! videorate ! 'video/x-raw-yuv,framerate=30/1' ! v4l2sink device=/dev/video1
+
+== Schritt 2 ==
+
+Hangout starten, sicherstellen dass man die richtigen Devices nimmt.
+
+== Schritt 3 ==
 
 Dann Video aus dem loopback lesen und (via PulseAudio) Audio von der Soundkarte aufnehmen:
  gst-launch v4l2src device=/dev/video1 ! video/x-raw-yuv,framerate=30/1 ! \
@@ -24,3 +34,7 @@ Dann Video aus dem loopback lesen und (via PulseAudio) Audio von der Soundkarte 
 (Den device-parameter kriegt man aus "pactl list")
 
 Das sind ca. 11 MiB pro Sekunde, macht also ca. 39 GiB für eine Stunde Aufnahme. Ich gehe davon aus, dass man eine USB-Festplatte mit dauerhaften 11 MiB/s betreiben kann.
+
+== Schritt 4 ==
+
+Enkodieren. TODO.
