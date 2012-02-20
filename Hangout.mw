@@ -1,0 +1,11 @@
+(draft)
+
+uvcvideo webcam ist /dev/video0.
+
+Getestet mit linux 3.1 und v4l2loopback 0.5.0
+
+ apt-get install v4l2loopback-dkms 
+ modprobe v4l2loopback
+
+ gst-launch v4l2src ! 'video/x-raw-yuv,width=800,height=448,framerate=20/1' ! \
+    queue ! videorate ! 'video/x-raw-yuv,framerate=30/1' ! v4l2sink device=/dev/video1
