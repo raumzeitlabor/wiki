@@ -3,13 +3,13 @@
 |status      = experimental
 |image       = MiniMoody_rot_gruen.jpg
 |description = Kleine Moodlamp als SMD-Lötübung
-|author      = fabster
+|author      = [[user:fabster|fabster]]
 |username    = 
 |version     = 1.0
 |update      = 
 |platform    = 
 |license     = Creative Commons (siehe unten)
-|download    = 
+|download    = [[MiniMoody#Download|Download]]
 }}
 
 
@@ -37,7 +37,7 @@ Benötigt wird eine Ausrüstung, die zum SMD-Löten geeignet ist.
 
 
 ==Platine==
-Eine Belichtungsvorlage für die Platine findet sich unter [[MiniMoody#Dokumente]]. Sie enthält eine einzelne Platine (5 cm x 5 cm) und einen 2-fach Nutzen (10 cm x 5 cm). Unter Verwendung der Vorlage wird die Platine belichtet und geätzt.
+Eine Belichtungsvorlage für die Platine findet sich unter [[MiniMoody#Download|Download]]. Sie enthält eine einzelne Platine (5 cm x 5 cm) und einen 2-fach Nutzen (10 cm x 5 cm). Unter Verwendung der Vorlage wird die Platine belichtet und geätzt.
 
 Folgende Bohrungen sind nötig:
 * 12 Bohrungen für die drei Taster (Durchmesser 1,0 mm)
@@ -57,9 +57,7 @@ Nachdem alle SMD-Bauteile versorgt sind, werden auf der anderen (kupferfreien) S
 Zum Flashen der Software benötigt man einen AVR-Programmer, der an der ISP-Schnittstelle angeschlossen wird. Die Fuses des ATtiny2313 müssen so eingestellt werden, daß der Controller mit seinem internen RC-Oszillator auf 8 MHz läuft. Bei einem Controller frisch ab Werk ist hierzu das Löschen der Fuse CKDIV8 nötig. Danach wird das Hex-File ins Flash geschrieben. 
 
 
-==Lizenzen==
-
-==Dokumente==
+==Download==
 {| class="wikitable"  valign = "top"
 !Datei
 !Format
