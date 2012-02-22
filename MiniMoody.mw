@@ -1,6 +1,6 @@
 {{ProjektInfoBox
 |name        = MiniMoody
-|status      = experimental
+|status      = stable
 |image       = MiniMoody_rot_grün.jpg
 |description = Kleine Moodlamp als SMD-Lötübung
 |author      = [[user:fabster|fabster]]
@@ -88,7 +88,7 @@ Zum Flashen der Software benötigt man einen AVR-Programmer, der an der ISP-Schn
 |CC0
 |-
 |Bestückungsplan
-|.pdf
+|[[Medium:MiniMoody-Assembly.pdf|.pdf]]
 |BY-NC-SA
 |-
 |Software
@@ -101,10 +101,10 @@ Die aufgeführten Dateien stehen unter der jeweils angegebenen Creative-Commons-
 ==Bilder==
 {| 
 | [[Datei:MiniMoody_PCB_nach_Entwicklung.jpg|thumb|left|250px]]Platine nach dem Entwickeln
-| [[Datei:MiniMoody_PCB|thumb|left|250px]]Platine fertig geäzt und gebohrt
+| [[Datei:MiniMoody_PCB.jpg|thumb|left|250px]]Platine fertig geäzt und gebohrt
 |-
 | [[Datei:MiniMoody_PCB_bestückt.jpg|thumb|left|250px]]Bestücke Platine (hier noch der Prototyp)
-| [[Datei:MiniMoody_rot_grün|left|250px]]MiniMoody in Aktion
+| [[Datei:MiniMoody_rot_grün.jpg|left|250px]]MiniMoody in Aktion
 }
 
 [[Kategorie:Projekt]]
