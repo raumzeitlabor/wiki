@@ -99,6 +99,13 @@ Zum Flashen der Software benötigt man einen AVR-Programmer, der an der ISP-Schn
 Die aufgeführten Dateien stehen unter der jeweils angegebenen Creative-Commons-Lizenz.
 
 ==Bilder==
-
+{| 
+| [[MiniMoody_PCB_nach_Entwicklung.jpg|thumb|left|250px]]Platine nach dem Entwickeln
+| [[MiniMoody_PCB|thumb|left|250px]]Platine fertig geäzt und gebohrt
+|-
+| [[MiniMoody_PCB_bestückt.jpg|thumb|left|250px]]Bestücke Platine (hier noch der Prototyp)
+| [[MiniMoody_rot_grün|left|250px]]MiniMoody in Aktion
+|-
+}
 
 [[Kategorie:Projekt]]
