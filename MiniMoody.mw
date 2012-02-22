@@ -18,8 +18,7 @@ MiniMoody ist ein Projekt, welches als kleine SMD-Lötübung gedacht ist. Es bes
 
 ==Besonderheiten==
 
-Im Gegensatz zu anderen Moodlamps zeichnet sich MiniMoody durch zwei unabhängig gesteuerte RGB-Leds aus, wodurch zeitliche und räumliche Farbverläufe ermöglicht werden. Die zahlreichen eingebauten Lichtsequenzen machen MiniMoody zu einem echten "Hingucker".
-
+Im Gegensatz zu anderen Moodlamps zeichnet sich MiniMoody durch ''zwei'' unabhängig gesteuerte RGB-Leds aus, wodurch zeitliche und räumliche Farbverläufe ermöglicht werden. Die zahlreichen eingebauten Lichtsequenzen machen MiniMoody zu einem echten "Hingucker".
 
 ==Anforderungen==
 Wer MiniMoody nachbauen möchte, sollte über ausreichend Löterfahrung verfügen. Für Anfänger, die noch keine Löterfahrung haben oder noch etwas unsicher im Umgang mit dem Lötkolben sind, ist das Projekt nicht geeignet.
