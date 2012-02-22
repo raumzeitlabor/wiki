@@ -68,23 +68,23 @@ Zum Flashen der Software benötigt man einen AVR-Programmer, der an der ISP-Schn
 |BY-NC-ND
 |-
 |Schaltplan
-|.pdf
+|[[Medium:MiniMoody-Schematic.pdf|.pdf]]
 |BY-NC-SA
 |-
 |Schaltplan als DesignSpark Schematic
-|.sch
+|[[Medium:MiniMoody.sch|.sch]]
 |BY-NC-SA
 |-
 |Bauteil-Bibliothek für DesignSpark
-|.ssl, .psl, .cml
+|[[Medium:MiniMoody.ssl|.ssl]], [[Medium:MiniMoody.psl|.psl]], [[Medium:MiniMoody.cml|.cml]]
 |CC0
 |-
 |Belichtungsvorlage
-|.pdf
+|[[Medium:MiniMoody_Nutzen-PCB.pdf|.pdf]]
 |BY-NC-SA
 |-
 |Bauteileliste
-|.txt
+|[[Medium:MiniMoody-BOM.txt|.txt]]
 |CC0
 |-
 |Bestückungsplan
