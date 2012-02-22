@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = MiniMoody
 |status      = experimental
-|image       = MiniMoody_rot_gruen.jpg
+|image       = [[Datei:MiniMoody_rot_gruen.jpg]]
 |description = Kleine Moodlamp als SMD-Lötübung
 |author      = [[user:fabster|fabster]]
 |username    = 
@@ -100,11 +100,11 @@ Die aufgeführten Dateien stehen unter der jeweils angegebenen Creative-Commons-
 
 ==Bilder==
 {| 
-| [[MiniMoody_PCB_nach_Entwicklung.jpg|thumb|left|250px]]Platine nach dem Entwickeln
-| [[MiniMoody_PCB|thumb|left|250px]]Platine fertig geäzt und gebohrt
+| [[Datei:MiniMoody_PCB_nach_Entwicklung.jpg|thumb|left|250px]]Platine nach dem Entwickeln
+| [[Datei:MiniMoody_PCB|thumb|left|250px]]Platine fertig geäzt und gebohrt
 |-
-| [[MiniMoody_PCB_bestückt.jpg|thumb|left|250px]]Bestücke Platine (hier noch der Prototyp)
-| [[MiniMoody_rot_grün|left|250px]]MiniMoody in Aktion
+| [[Datei:MiniMoody_PCB_bestückt.jpg|thumb|left|250px]]Bestücke Platine (hier noch der Prototyp)
+| [[Datei:MiniMoody_rot_grün|left|250px]]MiniMoody in Aktion
 }
 
 [[Kategorie:Projekt]]
