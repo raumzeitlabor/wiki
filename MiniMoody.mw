@@ -42,7 +42,7 @@ Folgende Bohrungen sind nötig:
 ==Aufbau==
 Wer mit dem SMD-Löten noch keine Erfahrung hat, sollte sich kurz anleiten lassen.
 
-Der Aufbau folgt dem Bestückungsplan. Am besten beginnt man mit dem Einlöten der Widerstände, da diese am einfachsten sind. Danach folgen der Transistor und die ICs. Elko und Leds werden zuletzt eingelötet.
+Der Aufbau folgt dem [[Medium:MiniMoody-Assembly.pdf|Bestückungsplan]]. Am besten beginnt man mit dem Einlöten der Widerstände, da diese am einfachsten sind. Danach folgen der Transistor und die ICs. Elko und Leds werden zuletzt eingelötet.
 
 Nachdem alle SMD-Bauteile versorgt sind, werden auf der anderen (kupferfreien) Seite, die drei Taster und der ISP-Stecker eingelötet.
 
