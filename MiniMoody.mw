@@ -12,9 +12,7 @@
 |download    = [[MiniMoody#Download|Download]]
 }}
 
-
 MiniMoody ist ein Projekt, welches als kleine SMD-Lötübung gedacht ist. Es besteht aus ca. 20 Bauteilen, welche die gängigsten SMD-Gehäusebauformen (1206, 0805, Minimelf, SOT23, SO16/20) repräsentieren. Die Platine ist komplett einseitig und kann daher selber hergestellt werden. Als Belohnung für die Lötmühen erhält man eine hübsche kleine Moodlamp, die sich per USB-Kabel direkt am Laptop betreiben läßt.
-
 
 ==Besonderheiten==
 
@@ -22,7 +20,6 @@ Im Gegensatz zu anderen Moodlamps zeichnet sich MiniMoody durch ''zwei'' unabhä
 
 ==Anforderungen==
 Wer MiniMoody nachbauen möchte, sollte über ausreichend Löterfahrung verfügen. Für Anfänger, die noch keine Löterfahrung haben oder noch etwas unsicher im Umgang mit dem Lötkolben sind, ist das Projekt nicht geeignet.
-
 
 ==Ausrüstung==
 Benötigt wird eine Ausrüstung, die zum SMD-Löten geeignet ist.
@@ -34,7 +31,6 @@ Benötigt wird eine Ausrüstung, die zum SMD-Löten geeignet ist.
 * gut beleuchteter Arbeitsplatz
 * optional: Lupe
 
-
 ==Platine==
 Eine Belichtungsvorlage für die Platine findet sich unter [[MiniMoody#Download|Download]]. Sie enthält eine einzelne Platine (5 cm x 5 cm) und einen 2-fach Nutzen (10 cm x 5 cm). Unter Verwendung der Vorlage wird die Platine belichtet und geätzt.
 
@@ -43,7 +39,6 @@ Folgende Bohrungen sind nötig:
 * 6 Bohrungen für den ISP-Stecker (Durchmesser 0,9 mm)
 * 2 Bohrungen für die Spannungsversorgung (Durchmesser 0,9 mm)
 
-
 ==Aufbau==
 Wer mit dem SMD-Löten noch keine Erfahrung hat, sollte sich kurz anleiten lassen.
 
@@ -51,10 +46,8 @@ Der Aufbau folgt dem Bestückungsplan. Am besten beginnt man mit dem Einlöten d
 
 Nachdem alle SMD-Bauteile versorgt sind, werden auf der anderen (kupferfreien) Seite, die drei Taster und der ISP-Stecker eingelötet.
 
-
 ==Flashen==
 Zum Flashen der Software benötigt man einen AVR-Programmer, der an der ISP-Schnittstelle angeschlossen wird. Die Fuses des ATtiny2313 müssen so eingestellt werden, daß der Controller mit seinem internen RC-Oszillator auf 8 MHz läuft. Bei einem Controller frisch ab Werk ist hierzu das Löschen der Fuse CKDIV8 nötig. Danach wird das Hex-File ins Flash geschrieben. 
-
 
 ==Download==
 {| class="wikitable"  valign = "top"
