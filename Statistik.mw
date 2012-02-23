@@ -26,11 +26,13 @@ Hier werden Zustände des RZL protokolliert.
 
 == Stromverbrauch ==
 
-Die Kilowattstunde kostet uns 0,215€.
+Die Kilowattstunde kostet uns 0,22€.
 
 {| class="wikitable"
 |-
 ! Datum !! Uhrzeit !! Stand !! Kosten !! Kosten pro Tag !! Kosten pro Monat
+|-
+| 22.02.2012 || 23:42 || 22364.46 || 120,70€ || 4,47€ 
 |-
 | 26.01.2012 || 20:42 || 21815.81 || 110,55€ || 5,03€ 
 |-
