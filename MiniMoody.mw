@@ -44,7 +44,9 @@ Wer mit dem SMD-Löten noch keine Erfahrung hat, sollte sich kurz anleiten lasse
 
 Der Aufbau folgt dem [[Medium:MiniMoody-Assembly.pdf|Bestückungsplan]]. Am besten beginnt man mit dem Einlöten der Widerstände, da dies am einfachsten ist. Danach folgen der Transistor und die ICs. Bei den ICs auf die richtige Position achten. Pin 1 ist im Bestückungsplan durch einen Punkt markiert. Elko und Leds werden zuletzt eingelötet. Auch hier auf die richtige Polung achten.
 
-Nachdem alle SMD-Bauteile versorgt sind, werden auf der anderen (kupferfreien) Seite, die drei Taster und der ISP-Stecker eingelötet.
+Nachdem alle SMD-Bauteile versorgt sind, werden auf der anderen (kupferfreien) Seite, die drei Taster und der ISP-Stecker eingelötet. Zum Schluß müssen nur noch die drei Beine angeschraubt werden.
+
+Als Aufstellungsort eignet sich jede weiße, gut reflektierende Oberfläche, z. B. ein weißes Blatt Papier.
 
 ==Flashen==
 Zum Flashen der Software benötigt man einen AVR-Programmer, der an der ISP-Schnittstelle angeschlossen wird. Die Fuses des ATtiny2313 müssen so eingestellt werden, daß der Controller mit seinem internen RC-Oszillator auf 8 MHz läuft. Bei einem Controller frisch ab Werk ist hierzu das Löschen der Fuse CKDIV8 nötig. Danach wird das Hex-File ins Flash geschrieben. 
