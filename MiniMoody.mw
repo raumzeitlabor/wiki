@@ -52,6 +52,29 @@ Als Aufstellungsort eignet sich jede weiße, gut reflektierende Oberfläche, z. 
 ==Flashen==
 Zum Flashen der Software benötigt man einen AVR-Programmer, der an der ISP-Schnittstelle angeschlossen wird. Die Fuses des ATtiny2313 müssen so eingestellt werden, daß der Controller mit seinem internen RC-Oszillator auf 8 MHz läuft. Bei einem Controller frisch ab Werk ist hierzu das Löschen der Fuse CKDIV8 nötig. Danach wird das Hex-File ins Flash geschrieben. 
 
+==Bedienung==
+Die Programmwahl erfolgt über die Up- / Down-Tasten. Es stehen folgende Lichtsequenzen zur Verfügung:
+* red glow
+* vivid green
+* aquatic
+* golden sun
+* green poison
+* dusk till dawn
+* sky
+* pink candy
+* chromatic shadow
+* red green changer
+* green pink changer
+* color wheel
+* warning
+* lighthouse
+* flash blue
+
+Mit der Speed-Taste kann der Sequenzablauf beschleunigt werden.
+
+Über die serielle Schnittstelle (2400 Baud, 8N1) lassen sich die sechs PWM-Kanäle einzeln setzen. Das erste Zeichen bestimmt den Kanal (r, g, b, R, G, B) die daran anschließende Dezimalzahl (Bereich 0..127) legt das Pulse-Pause-Verhältnis (also die Helligkeit) fest. Jeder Befehl wird durch <return>  abgeschlossen. Sobald ein Kommando empfangen wurde, stoppt die aktuelle Lichtsequenz. Mit x<return> kann sie wieder fortgesetzt werden.
+
+
 ==Download==
 {| class="wikitable"  valign = "top"
 !Datei
