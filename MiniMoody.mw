@@ -68,12 +68,16 @@ Die Programmwahl erfolgt über die Up- / Down-Tasten. Es stehen folgende Lichtse
 * color wheel
 * warning
 * lighthouse
-* flash blue
+* flash bluee
+Mit der Speed-Taste kann der Sequenzablauf beschleunigt werden. Nach 30 Sekunden ohne Tastenaktivität werden das aktuelle Programm und die aktuelle Geschwindigkeit im EEPROM abgespeichert.
 
-Mit der Speed-Taste kann der Sequenzablauf beschleunigt werden.
+Über die serielle Schnittstelle (2400 Baud, 8N1) lassen sich die sechs PWM-Kanäle einzeln setzen. Das erste Zeichen bestimmt den Kanal (r, g, b, R, G, B), die daran anschließende Dezimalzahl (Bereich 0..127) legt das Pulse-Pause-Verhältnis (also die Helligkeit) fest. Entfällt die Zahlenangabe, wird Null angenommen. Jeder Befehl wird durch <return>  abgeschlossen (<return> = char(13)). Sobald ein Kommando empfangen wurde, stoppt die aktuelle Lichtsequenz. Mit x<return> kann sie wieder fortgesetzt werden.
 
-Über die serielle Schnittstelle (2400 Baud, 8N1) lassen sich die sechs PWM-Kanäle einzeln setzen. Das erste Zeichen bestimmt den Kanal (r, g, b, R, G, B) die daran anschließende Dezimalzahl (Bereich 0..127) legt das Pulse-Pause-Verhältnis (also die Helligkeit) fest. Jeder Befehl wird durch <return>  abgeschlossen. Sobald ein Kommando empfangen wurde, stoppt die aktuelle Lichtsequenz. Mit x<return> kann sie wieder fortgesetzt werden.
-
+Beispiele:
+* Roten Kanal der ersten LED auf Maximum setzen: r127<return> Die aktuelle Lichtsequenz wird hierbei gestoppt.
+* Beide LEDs ausschalten: r<return>g<return>b<return>R<return>G<return>B<return>
+* Erste LED blau, zweite LED gelb: r<return>g<return>b127<return>R83<return>G83<return>B<return>
+* Eingebautes Programm fortsetzen: x<return>
 
 ==Download==
 {| class="wikitable"  valign = "top"
