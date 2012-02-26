@@ -94,7 +94,7 @@ Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.129 || ''reserved'' || Reserviert für Geräte
 |-----
-| 172.22.36.130 || ''reserved'' || Reserviert für Infrastruktur
+| 172.22.36.130 || nanostation01 || Ubiquiti NanoStation2 Loco - WLAN AP neben Super Nintendo-Schild
 |-----
 | 172.22.36.131 || ''reserved'' || Reserviert für Infrastruktur
 |-----
