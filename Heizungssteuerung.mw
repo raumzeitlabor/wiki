@@ -159,6 +159,8 @@ Da die analogen Temperatursensoren kalibriert werden müssen und ungenau sind we
 | 108e29ce010800f8 || Getränkelager
 |-
 | 10b620290208006c || Ätzecke
+|-
+| 1099302902080082 || Olymp
 |}
 
 Anstiegszeit des Datenpegels: 46us. 1,5kOhm-Widerstand zwischen 5V und Datenleitung verbessert Ansteigszeit auf 11us.
