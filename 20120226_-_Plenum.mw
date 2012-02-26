@@ -1,5 +1,11 @@
-== Themen ==
+== Protokoll ==
+Plenum vom 26.02.2012
 
+Zur Verwirrungsvermeidung wird um Benennung im Pad gebeten. Vorzugsweise mit eurem echten Nick.
+
+Anwesend: 12 Leute
+
+== TOP ==
 # Finanzen, Mietsachen
 # Sponsoring
 # Erfa Diskussion
@@ -8,10 +14,136 @@
 # Infrastruktur
 # Aufteilung der Mailingliste
 # Merchandise Shop
+# Bestellung bei Loscher
 # Sonstiges
 
 == Protokoll ==
-n/a
+=== Finanzen, Mietsachen ===
+
+Simon berichtet von Rechnungen und Gesprächen mit Robert Mutlu:
+
+Im Januar kamen Rechnungen des Vermieters:
+a) 7000 Euro für 2010
+b) noch 7000 Euro für 2011
+c) 7000 für Strom
+
+Die Zahlung hat sich verzögert, allerdings gab es auch Rückfragen.
+
+Zum Thema Strom:
+Beim Strom wurden pauschal 10MWh für die zählerlose Zeit aufgeschlagen, auf die Kritik von Seiten des Vorstands, dass die Zahlen frei erfunden sind, ist der Vermieter nicht eingegangen.
+Der Vorstand bezweifelt, dass an dieser Sache was zu drehen ist.
+
+Allerdings muss man auch sehen, dass der Vermieter bei der Miete 2010 eine gewisse Kulanz hat walten lassen und hier auf ca. 3500 Euro verzichtet. Insbesondere deswegen schlägt der Vorstand vor, dass auf die 1500 Euro Streitwert bzgl Strom verzichtet.
+
+Zum Thema Miete:
+Die Miete erschien zu hoch. Allerdings sind wir bisher davon ausgegangen, dass der Raum eine Fläche von 112m² hat, tatsächlich hat er aber 123m². Unter diesen Gesichtspunkten kommt der Betrag hin.
+AlexanderB wird die Raumgröße allerdings am Dienstag erfassen.
+
+Die Miete teilt sich auf in 4,50 Euro pro m² sowie 180 Euro Nebenkosten plus MwSt.
+Gesamtmiete pro Monat 878,22 Euro pro Monat inkl. Nebenkosten und MwSt. plus 20 Euro pro Monat für das Getränkelager
+[Die Stromkosten im Monat haben wir momentan mit ca 130 Euro pro Monat eingeschätzt]
+==> 1028 Euro kosten pro Monat (je nach Stromverbrauch)
+
+Nach Meinung vom Vorstand geht die Berechnung des Vermieters daher so weit in Ordnung und wir müssen die Rechnungen bezahlen. Allerdings ist dies nicht ad hoc möglich, es fehlen aktuell ca. 6000 Euro.
+
+Die Miete 2010 sowie der Strom von -10.000 bis +21.500 kWh sind bereits bezahlt.
+
+Wir haben aber die Erlaubnis, die im Jahr 2012 getätigen Zahlungen für die Tilgung der Mietschuld 2011 zu verwenden. Vorausgesetzt, wird dürfen mit den aktuellen monatlichen Zahlungen die Schulden vom letzten Jahr abbezahlen (das würde bis Mai dauern), danach dann erst mit der Mietzahlung für 2012 beginnen, müssten wir bis zum Ende des Jahres noch etwa 2500 Euro zusätzlich aktivieren, wenn der Plan vom Vermieter genehmigt wird.
+
+'''Es wäre sinnvoll, dass die Mitglieder noch einmal darüber nachdenken, ob eine individuelle Aufstockung der Mitgliedsbeiträge für sie möglich ist.'''
+
+Außerdem helfen natürlich neue Mitglieder, tolle Events, interessante Sachen, etc.
+* Congress Aufzeichnungen zeigen
+* Kleinprozessorzüchter etablieren
+* mehr Workshops und Vorträge beibehalten
+* Arduino-Workshop
+* Ponytime
+* mehr als nur am Dienstag - wir wollen dezentral werden
+* Lasernight
+* …
+
+Die schönsten Einnahmen sind nicht entstandene Ausgaben. Daher zum Beispiel über den Stromverbrauch nachdenken, wenn man da ist.
+Der rote Stromschlauch auf der oberen Ebene verbraucht 300W und ist gerne tagelang an. Wird abmontiert.
+
+Wir müssten auch mal wieder Flyer machen und verteilen.
+
+=== Sponsoring === 
+
+Firmen sponsern meist nur noch projektbezogen. Außerdem gefährdet das unsere Unabhängigkeit
+Wir sind uns einig, dass uns Unabhängigkeit wichtiger ist, als Geld von Firmen, die wir dafür „gut“ finden müssen (Banner, etc.).
+
+=== Erfa Diskussion ===
+
+; Erfa
+: zweistufiges Konzept, Chaostreff, Erfa
+: pro CCC-Mitglied gibt’s als Erfa Rückerstattungen
+: Erfa nicht zwingend gleich Hackerspace
+: wird nicht nur positiv gesehen (wegen CCC-nähe)
+
+In Mannheim gibts bereits den C3MA als Erfa. Im vergangenen Dezember gab es den Regiotreff auf dem Congress, an dem Chaostreffs & Erfas Dinge berichten. Auch werden dort Anträge zur Abstimmung gestellt. Auf dem letzten Treff hat das RaumZeitLabor Antrag gestellt, allerdings ist unklar, ob wir das wirklich wollen. Es gab Bedenken, weil es in Mannheim bereits einen Erfa gibt, und zwei Erfas in einer Stadt traditionell Stress ergeben haben. Fabian hat sich daraufhin mal mit dem C3MA zusammengesetzt, um Unklarheiten aus dem Weg zu schaffen. Fabian ist der Meinung, dass es im RZL keinen ausreichenden Konsens gibt, dass wir Erfa werden müssen/sollen. Auch gab es keine richtige Entscheidung dazu, und vielen Mitgliedern ist möglicherweise nicht ganz bewusst, dass das nicht nur Abgreifen der Rückerstattung bedeutet.
+
+Letztenendes kam bei dem Gespräch mit C3MA heraus, dass das zunächst nochmal in einer größeren Runde im RZL besprochen werden soll, um die Meinung zu dem Thema zu erfahren. Der Antrag ist zunächst auf Eis gelegt (nachträglich), um das erstmal intern abzuklären und Klarheit zu schaffen. Fabian bittet daher, unsere Meinung kundzutun. Wollen wir ein Organ des CCC werden? Und überhaupt: Wieviele CCC Mitglieder sind überhaupt im RZL?
+
+Ergebnis: Das Plenum hält mehrheitlich die Freundschaft mit dem CCC für ausreichend. Die Möglichkeit des Treffens einer Subgruppe als „Chaostreff“ wäre eine Idee.
+
+=== Kooperation mit C3MA ===
+
+Gemeinsames Projekt mit C3MA. Der C3MA hält demnächst™ ein Lightning Talk über die Coding Challenge im RZL. Wir könnten uns beteiligen.
+
+Außerdem gibt es dann noch die mrmcd von mehreren Gruppen in der Gegend, unter anderem dem c3ma und dem rzl.
+
+mrmcd == Meta Rhein Mannheim Chaos Days
+
+=== Vorträge aufzeichnen ===
+
+sECuRE streamed die nächsten 4 Wochen nach Google+ Hangouts und nimmt auf. Danach (vorausgesetzt es gibt genug Interesse) baut sECuRE das sinniger auf: Mit möglichst wenig Aufwand und freier Software kann man dann ein Video ins Netz stellen.
+
+Es gibt ein RZL-Introvideo unter http://raumzeitlabor.de/wiki/RZL_Introvideo
+
+=== Infrastruktur ===
+
+==== RackReorg ====
+
+Feli hat gestern angefangen, und jetzt ist das viel ordentlicher und schöner und überhaupt. Ein paar Sachen die nicht bootfest waren, wurden improved… Doku ist was tolles (sprich: Infrastruktur-Dienste müssen dokumentiert werden, welche Scripte/Daemons laufen wo und wie agieren diese miteinander).
+
+==== Müllentsorgung ====
+
+Prozess: Nummer an der Tür anrufen, dann auf die Frage was es für Müll ist mit „Hausmüll“ antworten und das Zeug runterschaffen. Großes Problem sind die Büroöffnungszeiten, daher BITTEN wir ALLE Nerds die mal etwas früher da sind, zu versuchen Müll runterzubringen.
+
+Wir sollten da aber dennoch drauf achten, nur sinnvollen Müll wegzuschmeißen und keinen Sperrmüll/Schrott dahin zu bringen.
+
+==== WLAN ====
+
+Das WLAN ist nicht direkt immer dauerhaft stabil über große Zeit und viele Clientverbindungen. docsteel weiß das und kümmert sich drum.
+
+severin hat aber auch was dickes dabei und baut da gleich was.
+
+==== Internetanbindung ====
+
+Unicorn kümmert sich darum seit Dezember. Die Telekom kommt $bald (oder nie) und legt uns hoffentlich (nach Ron Sommers Gnade) eine Internetleitung ans Gebäude, dann sehen wir weiter (und kriegen VDSL \o/).
+Felicitus und weitere kümmern sich mit Erlaubnis von Robert gerne mal darum Kabelstränge zu suchen und die Inhouse-Verkabelung zu eruieren. Unicorn fragt deshalb bei Robert an.
+
+=== Aufteilung der Mailingliste ===
+
+silsha schlägt vor, eine announce ML einzurichten, über welche neue Events angekündigt werden. Wird umgesetzt, silsha meldet sich bei Rabe.
+
+=== Merchandise Shop ===
+
+Felicitus baut ein Formular, am Ende fällt eine simple Email raus. Produkt-Bilder werden heute noch gemacht.
+
+=== Bestellung bei Loscher ===
+
+Status: Wir haben noch 5 Kästen Ice-T aber (nur) noch 57 Kästen Mate, kein Apfel-Kirsch. WIR VERBRAUCHEN PRO TAG AKTUELL 0,93 KÄSTEN MATE, 0,32 CMC, 0,35 ICE-T, 0,09 APFEL-KIRSCH
+
+Wir bestellen 40 Kästen Mate, 40 Kästen ICE-T, 20 Kästen CMC, 20 Kästen Apfel-Kirsch.
+
+=== Sonstiges ===
+
+==== Weltherrschaft ====
+
+Wird weiter geheim dran gearbeitet und Diskussion auf’s nächste Plenum verschoben. Rest ist NDA.
+
+
 
 [[Kategorie:Plenum]]
 [[Kategorie:Protokoll]]
