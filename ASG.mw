@@ -53,4 +53,7 @@ screen /dev/ttyUSB0 115200
 curl -d 0 -X PUT http://localhost:5000/port/2
 curl -d 1 -X PUT http://localhost:5000/port/2
 </pre>
+
+=== Scripte ===
+Es laufen diverse Scripte, die derzeit beim Start der Firebox in diversen screens über /etc/rc.local gestartet werden.
 [[Kategorie:Hardware]]
