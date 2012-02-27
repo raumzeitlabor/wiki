@@ -37,6 +37,13 @@ Derzeit gibt es nur eine 1:1-Verkabelung zwischen dem Busmaster und der Tür (Pi
 * git-Repository (Quelltext, etc.): http://github.com/raumzeitlabor/hausbus
 * http://www.mikrocontroller.net/articles/RS-485
 
+== Technik ==
+
+=== Umsetzung von Hausbus auf Ethernet, HTTP-Daemon ===
+
+Die Firebox sorgt dafür, daß der Busmaster mit dem Rest der Welt kommunizieren kann. Er stellt eine HTTP-API zur Verfügung.
+
+[[Image:Hausbus-Anbindung.png]]
 == Beteiligte/Danksagungen ==
 * sECuRE
 * AlexanderB
