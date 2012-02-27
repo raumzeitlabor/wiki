@@ -165,4 +165,6 @@ Da die analogen Temperatursensoren kalibriert werden müssen und ungenau sind we
 
 Anstiegszeit des Datenpegels: 46us. 1,5kOhm-Widerstand zwischen 5V und Datenleitung verbessert Ansteigszeit auf 11us.
 
+Die Sensoren sind an eine Platine mit einem Atmega644-20PU angeschlossen, dieser liest die Werte aus und sendet sie über RS232 an eine Dockstar, das Format ist Plaintext, erst Sensor-ID, dann Temperatur in °C mit zwei Nachkommastellen und dann ein Zeilenumbruch. Auf der Dockstar liegt eine Software in /rott/logger, die die empfangenen Werte eine Minute lang aufsummiert und zählt und dann den Mittelwert in einzelne Dateien in /root/logger/logs/$Sensor-ID schreibt, gleichzeitig werden sie von der selben Software in eine json-Datei geschrieben und an pachube gesendet. Außerdem werden sie mit gnuplot geplottet und an die Blackbox geschickt.
+
 [[Kategorie:Projekt]][[Kategorie:Infrastruktur]]
