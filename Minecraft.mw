@@ -97,14 +97,5 @@ Wer für den Server freigeschaltet werden möchte, tut dies auf unserer Mailingl
 ===Technisches===
 Der Server ist eine virtuelle Maschine mit 4 Kernen und 2 GB RAM, von denen der Minecraft-Server ca. 1GB tatsächlich normalerweise nutzt. <s>Wir benutzen absichtlich kein Craftbukkit und daher auch keinerlei Plugins, weil das vorher zu epischen Bugs geführt hat.</s> Distri auf dem Server ist Arch Linux.
 
-===Onlinestatistik===
-http://minecraft.iodev.org/onlinestats.png
-
-===Mumble===
-Wir haben einen [http://mumble.sourceforge.net/ Mumble]-Server, der genutzt werden kann, um sich remote abzusprechen:
-
-* Server: randy.iodev.org
-* Passwort: siehe ML
-
 ===Known Bugs===
 Der Server scheint zu crashen, sobald das Rendern der Google-Maps-Karte anfängt. Der entsprechende Cronjob wurde als dirty fix erstmal von stündlich auf sechsstündlich gesetzt. Lutoma vermutet ein Speicherproblem. Simon sekundiert und weist darauf hin, dass momentan kein Swap eingerichtet ist. Sollte man mal™ tun.
