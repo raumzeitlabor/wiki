@@ -30,6 +30,10 @@ Der Status wird auch auf [http://identi.ca/RaumZeitStatus Identi.ca] und auf [ht
 === RSS ===
 Identi.ca hat einen öffentlichen RSS-Feed über welchen der Status auch ohne Identi.ca Account abgefragt werden kann. Den Feed gibts unter [http://identi.ca/api/statuses/user_timeline/191025.rss http://identi.ca/api/statuses/user_timeline/191025.rss]
 
+=== Technik ===
+
+Auf der [[Firebox]] läuft ein Daemon (tuerstatusd.pl), der die HTTP-API des Hausbus abfragt und den Status ins Netz (sprich: auf den RZL-Server) veröffentlicht.
+
 == Geplant ==
 *Status in den drei IRC-Channels im Topic
 *Status im IRC-Channel automatisch posten
