@@ -33,7 +33,7 @@ Dann Video aus dem loopback lesen und (via PulseAudio) Audio von der Soundkarte 
 
 (Den device-parameter kriegt man aus "pactl list")
 
-Das sind ca. 11 MiB pro Sekunde, macht also ca. 39 GiB für eine Stunde Aufnahme. Ich gehe davon aus, dass man eine USB-Festplatte mit dauerhaften 11 MiB/s betreiben kann.
+Das sind ca. 11 MiB pro Sekunde, macht also ca. 39 GiB für eine Stunde Aufnahme. In 'dstat -f' sehe ich, dass die USB-Festplatte ca. 16 MiB/s wegschreibt. Wenn ich mit dd schreibe, kriege ich ca. 27 MiB/s hin, das sollte also kein Problem darstellen.
 
 == Schritt 4 ==
 
