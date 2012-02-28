@@ -38,3 +38,6 @@ Das sind ca. 11 MiB pro Sekunde, macht also ca. 39 GiB für eine Stunde Aufnahme
 == Schritt 4 ==
 
 Enkodieren. TODO.
+Introvideo von Felicitus in die passende Auflösung re-encodiert:
+
+ ffmpeg -i RZL_Intro_FullHD.mp4 -vf scale=800:448 -b:v 500k rzl_fullhd_800x480.avi
