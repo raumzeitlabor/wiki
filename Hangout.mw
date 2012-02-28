@@ -50,3 +50,5 @@ Introvideo von Felicitus in die passende Auflösung re-encodiert:
     80k -ar 48000 -ac 2 -r 30 video.mp4
 
 (ja, -r 30 ist absicht. ansonsten wird audio async später)
+
+Enkodieren einer 27-minütigen Aufnahme (22 GiB) dauert auf meinem Thinkpad X200 (Intel(R) Core(TM)2 Duo CPU     P8400  @ 2.26GHz) ca. 24 Minuten. Das Resultat ist 180 MiB groß.
