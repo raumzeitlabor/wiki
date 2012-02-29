@@ -22,7 +22,24 @@ Widerstände:
 * HEIZUNG 2 :: Ersatzheizung für Ätzgeräte
 * THERMOMETER S1 :: Ersatzthermometer für Sprüh-Ätzanlage
 
+== Felicitus braucht ==
 
+CSV:
+
+<pre>
+MKS-2-5 100N;2
+RAD 105 10/63;2
+RAD 105 22/63;2
+RAD 105 2.200/50;2
+64Z-2,0K;2
+1N 4004;50
+LM 317-220;1
+LM 337-220;1
+V 5801B;2
+RKT 5018;1
+BEL 160X100-1;3
+</pre>
+Gesamtsumme ca 26 Euro
 
 
 ==Siehe auch==
