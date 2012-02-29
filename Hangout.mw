@@ -52,3 +52,5 @@ Introvideo von Felicitus in die passende Auflösung re-encodiert:
 (ja, -r 30 ist absicht. ansonsten wird audio async später)
 
 Enkodieren einer 27-minütigen Aufnahme (22 GiB) dauert auf meinem Thinkpad X200 (Intel(R) Core(TM)2 Duo CPU     P8400  @ 2.26GHz) ca. 24 Minuten. Das Resultat ist 180 MiB groß.
+
+Enkodieren einer 66-minütigen Aufnahme (55 GiB) dauert auf meinem Core i7 (Intel(R) Core(TM) i7-2600K CPU @ 3.40GHz) ca. 27 Minuten. Das Resultat ist 1,1 GiB groß.
