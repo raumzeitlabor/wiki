@@ -1,0 +1,36 @@
+{{ProjektInfoBox
+|name        = Ping+
+|status      = alpha
+|image       = 
+|description = !ping-Interface für das IRC
+|author      = [[Benutzer:SEC|sECuRE]],[[Benutzer:Felicitus|Felicitus]], drahti, others? 
+|username    = 
+|version     = 1.0
+|update      = 
+|platform    = ATMEGA8-16PU, Raspberry Pi
+|license     = GPL
+|download    = 
+}}
+
+== Aktuelle Funktionsweise ==
+
+Das IRC kann sich über den !ping-Befehl im Raum bemerkbar machen. Hierdurch wird eine [http://www.youtube.com/watch?v=FiTnXi2nTF8 Rundleuchte für 5 Sekunden aktiviert].
+
+== Einschränkungen ==
+
+Oftmals wird im IRC direkt nach dem !ping eine Frage gestellt, aber oftmals kommen die Laboranten erst nach einem !ping ins IRC, d.h. die Frage muß erneut gestellt werden. Daher war der Wunsch, ein '''!ping <text>''' machen zu können, welches dann im RaumZeitLabor angezeigt wird.
+
+== Plan 2012 ==
+
+drahti hat ein lustiges LED-Panel mit 16 Modulen zu je 5x7 Pixeln angeschleppt, welches einfach ansteuerbar ist. Ein AVR soll die Ansteuerung übernehmen, am Ende fällt ein USB-Stöpsel raus. Dieser wiederum wird an einen Raspberry Pi angeschlossen, der dann die Konnektivität ins Netz vornimmt.
+
+
+== Bisherige Modifikationen ==
+
+* Zeitweise war eine Flachhupe mit dem Ping gekoppelt, damit man den Ping auch akustisch wahrnehmen konnte. Dies wurde jedoch als störend empfunden, die Kopplung wurde aufgehoben.
+
+
+
+
+
+[[Kategorie:Projekt]]
