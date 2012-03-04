@@ -1,9 +1,9 @@
 {{ProjektInfoBox
 |name        = Ping+
-|status      = alpha
+|status      = stable
 |image       = 
 |description = !ping-Interface für das IRC
-|author      = [[Benutzer:SEC|sECuRE]],[[Benutzer:Felicitus|Felicitus]], drahti, others? 
+|author      = [[Benutzer:SEC|sECuRE]], others? 
 |username    = 
 |version     = 1.0
 |update      = 
@@ -22,8 +22,9 @@ Oftmals wird im IRC direkt nach dem !ping eine Frage gestellt, aber oftmals komm
 
 == Plan 2012 ==
 
-drahti hat ein lustiges LED-Panel mit 16 Modulen zu je 5x7 Pixeln angeschleppt, welches einfach ansteuerbar ist. Ein AVR soll die Ansteuerung übernehmen, am Ende fällt ein USB-Stöpsel raus. Dieser wiederum wird an einen Raspberry Pi angeschlossen, der dann die Konnektivität ins Netz vornimmt.
+drahti hat ein lustiges LED-Panel mit 16 Modulen zu je 5x7 Pixeln angeschleppt (80x7), welches einfach ansteuerbar ist. Ein AVR soll die Ansteuerung übernehmen, am Ende fällt ein USB-Stöpsel raus. Dieser wiederum wird an einen Raspberry Pi angeschlossen, der dann die Konnektivität ins Netz sowie die effektive Ansteuerung vornimmt.
 
+Welche Aufgaben der AVR und welche der Raspberry Pi übernehmen wird, muß noch geklärt werden. [[Benutzer:Felicitus|Felicitus]] schlägt vor, daß der AVR lediglich ein double buffered Bitmap vorhält und die Displayansteuerung übernimmt, und die Bitmap-Daten über USB in den AVR gepustet werden.
 
 == Bisherige Modifikationen ==
 
