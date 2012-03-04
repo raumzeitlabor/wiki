@@ -46,6 +46,16 @@ Widerstände:
 * HEIZUNG 2 :: Ersatzheizung für Ätzgeräte
 * THERMOMETER S1 :: Ersatzthermometer für Sprüh-Ätzanlage
 
+csv:
+
+<pre>
+SAT KABEL FB;2
+F-KABEL 5,0;2
+AMJ45 CAT5E;2
+HEIZUNG 2;1
+THERMOMETER S1;1
+</pre>
+
 == Felicitus braucht ==
 
 CSV:
