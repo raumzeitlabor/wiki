@@ -85,6 +85,12 @@ SUMMER KPE 232A;1
 LED 3MM BL;70
 </pre>
 ja, 70
+
+== rinne braucht ==
+VAP VAL001;1
+MICRO BITSET;1
+
+
 ==Siehe auch==
 *[[Einkaufsliste]]
 *[[Pollin]]
