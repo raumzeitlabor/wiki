@@ -17,10 +17,14 @@
 Der Beamer befindet sich auf der Plattform unter der Decke. 
 Es handelt sich um einen NEC VT660. 
 Der Karton, auf der Oberseite dient dem Staubschutz und sollte nicht entfernt werden.
-Bitte darauf achten, dass er nach Benutzung 15min nachlüftet, bis er endgültig vom Netz getrennt werden darf.
-Die Fernbedienung funktioniert nur, wenn sie sich im "PJ" Modus befindet. Dazu einfach auf den weißen Knopf in der Mitte drücken, dieser leuchtet daraufhin rot.
 
 [http://www.support.nec-display.com/dl_service/data/manual/german/vt660_manual_g.pdf Das Manual zu dem Gerät ist hier zu finden.]
+
+==Tipps für Profis==
+* Die Fernbedienung liegt neben dem Raumhandy. Bitte sorgt dafür, dass diese Aussage IMMER stimmt.
+* Bitte darauf achten, dass er nach Benutzung 15min nachlüftet, bis er endgültig vom Netz getrennt werden darf.
+* Neben dem Beamer steht ein Karton, in dem Karton befindet sich eine Ersatzlampe. 
+* Die Fernbedienung funktioniert nur, wenn sie sich im "PJ" Modus befindet. Dazu einfach auf den weißen Knopf in der Mitte drücken, dieser leuchtet daraufhin rot.
 
 ==ToDo==
 * Funksteckdose oder Ähnliches, um den Beamer vom Netz zu trennen
@@ -31,13 +35,11 @@ Die Fernbedienung funktioniert nur, wenn sie sich im "PJ" Modus befindet. Dazu e
 *** Der Hausbus wartet auf ein Redesign, darum würde ich das erstmal nicht als Option in Betracht ziehen --[[Benutzer:Tiefpunkt|Tiefpunkt]] 01:31, 8. Dez. 2011 (CET)
 
 * Weitere Schnittstellen anschließen und herunterführen
-* Stammplatz für die Fernbedienung finden
-** Ich schlage mal den Platz vom RaumZeitHandy vor --[[Benutzer:Hax404|Hax404]] 13:15, 10. Dez. 2011 (CET)
-* Mikrofone ausm Bild entfernen
 
 ==Technische Daten==
 '''Im Moment sind folgende Schnittstellen angeschlossen:'''
 * VGA
+* S-Video
 
 '''Folgende Auflösungen werden unterstützt:'''
    * 1024x768       60.0* 
