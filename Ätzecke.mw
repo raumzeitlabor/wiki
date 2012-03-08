@@ -35,6 +35,23 @@ Beim verlassen der Ätzecke die Arbeitsflächen und den Boden (ab)kehren bzw put
 * [[Ätzecke/Ätzsession 17.01.2012|Ätzsession 17.01.2012]] (erfolgreich!)
 * [[Medium:Vortrag_Lets_Aetz.pdf|Vortrag zur Platinenherstellung]] (Teil 1, 14.02.2012)
 
+== Prozessübersicht ==
+Grobe Prozessübersicht für 1-Seitiges Layout, Bungard Epoxyd-Platinen.
+
+{| class="wikitable"  valign = "top"
+!Schritt
+!Anweisungen
+|-
+|Belichten
+|Platine mit dem ausgedruckten Platinenlayout in den Bilderrahmen spannen. Auf die richtige Positionierung von Platine und Folie achten. Bilderrahmen auf die Holzklötzchen legen. Etwa 120-150 Sekunden belichten.
+|-
+|Entwickeln
+|Entwickler mit 2g/200ml anrühren und in eine Entwicklungsschale geben. Die Platine hineinlegen und dafür sorgen, daß genügend Verwirbelungen in der Entwicklerflüssigkeit entstehen. [[Benutzer:Fabster|Fabster]] empfiehlt einen Haarpinsel, damit sanft über die Platine streichen. Entwicklungsdauer beträgt ca. 1 Minute.
+|-
+|Ätzen
+|Die Platine ca. 10-15 Minuten ätzen. Während dieser Zeit einmal wenden. Die Heizspirale muß vollständig mit Ätzflüssigkeit bedeckt sein! Ätztemperatur ca. 40-45°C.
+|}
+
 ==Zu Besorgen==
 *Latexhandschuhe
 *UV Schutzbrille
