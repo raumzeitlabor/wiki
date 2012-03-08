@@ -4,6 +4,14 @@
 '''IP: 172.22.36.3'''
 :Ansprechbar unter URL ipp://172.22.36.3:631
 
+Anleitung für CUPS: 
+
+* Installiere CUPS
+* Gehe ins [https://localhost:631/admin Administrationsmenü]
+* Setze ein Häkchen bei "Show printers shared by other systems"
+* Bestätige mit der Schaltfläche "Change Settings"
+* Unter "Printers" sollte nun der Drucker auftauchen
+
 ;Scannen
 :Scan/E-Mail -> Scannen&SMB -> Datengrab -> (TIFF, PDF, JPEG) -> Datei landet in \\datengrab.rzl\share\scans
 
