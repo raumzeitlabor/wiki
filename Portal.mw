@@ -18,11 +18,11 @@
 *Mailman
 
 ==Pfade==
-*raumzeitlabor.de (Drupal, Content Type: ''Page'')
-*blog.raumzeitlabor.de (Drupal, Content Type: ''Blog'')
-*lists.raumzeitlabor.de (Mailman)
-*wiki.raumzeitlabor.de (Wiki)
-*status.raumzeitlabor.de ([[Statusbot|Raumstatus]], offen/geschlossen)
+*[https://raumzeitlabor.de raumzeitlabor.de] (Drupal, Content Type: ''Page'')
+*[https://raumzeitlabor.de/blog raumzeitlabor.de/blog] (Drupal, Content Type: ''Blog'')
+*[http://lists.raumzeitlabor.de lists.raumzeitlabor.de] (Mailman)
+*[https://raumzeitlabor.de/wiki raumzeitlabor.de/wiki] (Wiki)
+*[http://status.raumzeitlabor.de status.raumzeitlabor.de] ([[Statusbot|Raumstatus]], offen/geschlossen)
 *[http://raumzeitlabor.soup.io/ soup.raumzeitlabor.de] (soup.io)
 
 [[Kategorie:Projekt]]
