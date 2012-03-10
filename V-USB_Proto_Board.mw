@@ -1,0 +1,68 @@
+{{ProjektInfoBox
+|name        = V-USB Proto Board
+|status      = beta
+|image       = 
+|description = Ein kleines Development-Board für V-USB-Anwendungen
+|author      = [[Benutzer:Felicitus|Felicitus]]
+|username    = 
+|version     = 1.0
+|update      = 
+|platform    = 
+|license     = Creative Commons (siehe unten)
+|download    = [[V-USB Proto Board#Download|Download]]
+}}
+
+Das V-USB Proto Board ist ein kleines Development-Board, welches einen Atmega8 und alle benötigten Komponenten an Bord hat. Getaktet wird das Board mit 16 MHz und führt alle freien Pins als Solder Pads oder Stiftleisten heraus.
+
+== Platine ätzen ==
+
+Die Ätzvorlage beinhaltet 4 Platinen auf Eurokartenformat. Jede Einzelplatine ist 66x39mm klein.
+
+==Download==
+
+{| class="wikitable"  valign = "top"
+!Datei
+!Format
+!Lizenz
+|-
+|Schaltplan (Eagle 6)
+|[https://github.com/raumzeitlabor/v-usb-proto-board/blob/master/VUSB%20Protoboard.sch VUSB-Protoboard.sch]
+|BY-NC-SA
+|-
+|Platinenlayout (Eagle 6)
+|[https://github.com/raumzeitlabor/v-usb-proto-board/blob/master/VUSB%20Protoboard.brd VUSB-Protoboard.brd]
+|BY-NC-SA
+|-
+|Belichtungsvorlage
+|[https://github.com/raumzeitlabor/v-usb-proto-board/blob/master/V-USB%20Proto%20Board%20Eurocard.pdf V-USB Eurocard.pdf]
+|BY-NC-SA
+|-
+|Bauteileliste
+|[https://github.com/raumzeitlabor/v-usb-proto-board/blob/master/bill-of-materials.txt bill-of-materials.txt]
+|CC0
+|-
+|}
+
+==Bausatzreservierung==
+Bitte tragt euch hier ein, falls ihr das RZL unterstützen und einen Bauteilesatz inkl. Platine für 6,00 € erwerben wollt. Es stehen 3 Bausätze zur Verfügung. Der Erlös geht komplett als Spende an das RZL. Weitere Bausätze können auf Wunsch zusammengestellt werden.
+
+Es ist noch zu prüfen, ob alle Bauteile im RZL vorrätig sind.
+
+{| class="wikitable"  valign = "top"
+!Bausatznr.
+!reserviert für
+|-
+|1
+|Felicitus
+|-
+|2
+|leer
+|-
+|3
+|leer
+|-
+|4
+|leer
+|}
+
+[[Kategorie:Projekt]]
