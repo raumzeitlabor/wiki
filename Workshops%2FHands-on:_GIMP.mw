@@ -1,6 +1,6 @@
 Eine Einführung in die freie Bildbearbeitung GIMP. Anhand eines Beispiel-Flyers erarbeiten wir die notwendigen Techniken und Konzepte für den alltäglichen Gebrauch. Der Workshop findet am [http://raumzeitlabor.de/civicrm/event/info?reset=1&id=297 Mittwoch, den 25.01.2012, um 18:30 Uhr] statt.
 
-= Vorbereitungen =
+== Vorbereitungen ==
 
 Damit wir abends direkt loslegen können, sollte Gimp in der Version 2.7.4 installiert sein. Diese Version ist der aktuelle Developersnapshot, der diverse Vorteile hat und Bedienkuriositäten der 2.6er Reihe ausbügelt.
 
@@ -10,7 +10,7 @@ Damit wir abends direkt loslegen können, sollte Gimp in der Version 2.7.4 insta
 
 Dringend empfohlen wird außerdem eine externe Maus oder ein Graphiktablet.
 
-= Themen =
+== Themen ==
 
 * Einführung in die GUI - Customizing
 * Basis-Werkzeuge
@@ -19,11 +19,10 @@ Dringend empfohlen wird außerdem eine externe Maus oder ein Graphiktablet.
 * Masken
 * typische Bildbearbeitungen
 
-== Weitere Themenwünsche ==
+=== Weitere Themenwünsche ===
 
 Habt ihr noch weitere Themenwünsche? Dann bitte hier eintragen, evtl. kann ich sie direkt in das Beispiel einbauen.
 
 * freistellen von Objekten
 
-[[Kategorie:Veranstaltung| ]]
-[[Kategorie:Workshop| ]]
+[[Kategorie:Workshop]]
