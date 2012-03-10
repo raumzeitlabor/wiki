@@ -1,13 +1,15 @@
 {{ProjektInfoBox
 |name        = ISP-Adapter
 |status      = beta
-|image       = ISP-Adapter.png
+|image       = 
 |description = Ein Adapter für die AVR ISP-Schnittstelle
 |author      = [[Benutzer:Felicitus|Felicitus]]
 |username    = 
 |version     = 1.0
 |update      = 
 |platform    = 
+|bausatz     = [[ISP-Adapter#Bausatzreservierung|Bausatzreservierung]]
+|preis       = 3,00 €
 |license     = Creative Commons (siehe unten)
 |download    = [[MiniMoody#Download|Download]]
 }}
