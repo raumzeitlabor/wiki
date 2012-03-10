@@ -1,0 +1,48 @@
+{{ProjektInfoBox
+|name        = ISP-Adapter
+|status      = beta
+|image       = 
+|description = Ein Adapter für die AVR ISP-Schnittstelle
+|author      = [[Benutzer:Felicitus|Felicitus]]
+|username    = 
+|version     = 1.0
+|update      = 
+|platform    = 
+|license     = Creative Commons (siehe unten)
+|download    = [[MiniMoody#Download|Download]]
+}}
+
+Der ISP-Adapter wird verwendet, um einen Programmer mit 10-poligem ISP-Anschluss an 6-polige ISP-Geräte zu verbinden. Außerdem bietet der ISP-Adapter eine Stiftleiste, um manuelle Verbindungen herzustellen.
+
+== Aufbau ==
+
+Der Aufbau ist sehr simpel, da nur 3 Steckverbinder eingelötet werden müssen.
+
+== Platine ätzen ==
+
+Die Ätzvorlage beinhaltet 9 Platinen auf Eurokartenformat.
+
+==Download==
+
+{| class="wikitable"  valign = "top"
+!Datei
+!Format
+!Lizenz
+|-
+|Schaltplan (Eagle 6)
+|[https://github.com/raumzeitlabor/isp-adaptor/blob/master/ISP-Adaptor.sch ISP-Adaptor.sch]
+|BY-NC-SA
+|-
+|Platinenlayout (Eagle 6)
+|[https://github.com/raumzeitlabor/isp-adaptor/blob/master/ISP-Adaptor.brd ISP-Adaptor.brd]
+|BY-NC-SA
+|-
+|Belichtungsvorlage
+|[https://github.com/raumzeitlabor/isp-adaptor/blob/master/ispadaptor.pdf ispadaptor.pdf]
+|BY-NC-SA
+|-
+|Bauteileliste
+|[https://github.com/raumzeitlabor/isp-adaptor/blob/master/bill-of-materials.txt bill-of-materials.txt]
+|CC0
+|-
+|}
