@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = ISP-Adapter
 |status      = beta
-|image       = 
+|image       = ISP-Adapter.png
 |description = Ein Adapter für die AVR ISP-Schnittstelle
 |author      = [[Benutzer:Felicitus|Felicitus]]
 |username    = 
