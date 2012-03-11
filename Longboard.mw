@@ -1,6 +1,6 @@
 {{ProjektInfoBox
 |name        = Longboard
-|status      = alpha
+|status      = experimental
 |image       = 
 |description = Ein DIY-Longboard
 |author      = [[Benutzer:pennylane|pennylane]], [[Benutzer:Felicitus|Felicitus]]
@@ -12,6 +12,8 @@
 |license     = 
 |download    = 
 }}
+
+[[Benutzer:pennylane|pennylane]] und [[Benutzer:Felicitus|Felicitus]] wollen longboarden nach Bauanleitung von http://www.youtube.com/watch?v=8dHtyBM45DU
 
 == Benötigter Kram ==
 
