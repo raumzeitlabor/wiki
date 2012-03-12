@@ -83,12 +83,6 @@ LM 386 DIP;5
 == sur5r braucht ==
  H03VV F375W 10M;1
 
-== echox braucht ==
-<pre>
-LED 3MM BL;70
-</pre>
-ja, 70
-
 == rinne braucht ==
 <pre>
 VAP VAL001;1
