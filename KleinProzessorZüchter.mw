@@ -1,7 +1,15 @@
-'''Ansprechpartner:''' [[Benutzer:TabasyoEye|TabascoEye]]
-
-===Die Mikrocontroller Arbeitsgruppe im RaumZeitLabor===
-
+{{EventInfoBox
+|name        = KleinProzessorZüchter
+|status      = stable
+|image       = 
+|description = Die Mikrocontroller Arbeitsgruppe im RaumZeitLabor
+|author      = [[Benutzer:TabasyoEye|TabascoEye]]
+|username    = 
+|rhythm      = Wöchentlich
+|day         = Mittwoch
+|time        = 19:30 Uhr
+|preis       = Kostenlos
+}}
 Wir löten, was die Kolben hergeben.
 
 
@@ -104,5 +112,6 @@ Derzeit noch auf Lager: 13 Stück
 ** http://www.runoffgroove.com/littlegem.html
 
 
-[[Kategorie:Projekt]]
+[[Kategorie:Veranstaltung]]
 [[Kategorie:KleinProzessorZüchter]]
+[[Kategorie:Wiki Cleanup/ToDo]]
