@@ -49,7 +49,7 @@ Nachdem alle SMD-Bauteile versorgt sind, werden auf der anderen (kupferfreien) S
 
 Als Aufstellungsort eignet sich jede weiße, gut reflektierende Oberfläche, z. B. ein weißes Blatt Papier.
 
-Wichtig: Beim Benutzen einer USB-Verbindung als Spannungsversorgung ist das Bauteil Spannungsregler (U4 in der Stückliste) nicht notwendig - dafür muss die Brücke J1 eingelötet werden.
+'''Wichtig:''' Beim Benutzen einer USB-Verbindung als Spannungsversorgung ist das Bauteil Spannungsregler (U4 in der Stückliste) nicht notwendig - dafür muss die Brücke J1 eingelötet werden.
 
 ==Flashen==
 Zum Flashen der Software benötigt man einen AVR-Programmer, der an der ISP-Schnittstelle angeschlossen wird. Die Fuses des ATtiny2313 müssen so eingestellt werden, daß der Controller mit seinem internen RC-Oszillator auf 8 MHz läuft. Bei einem Controller frisch ab Werk ist hierzu das Löschen der Fuse CKDIV8 nötig. Danach wird das Hex-File ins Flash geschrieben.
