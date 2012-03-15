@@ -128,9 +128,13 @@ Beispiele:
 |[[Medium:MiniMoody-Assembly.pdf|.pdf]]
 |BY-NC-SA
 |-
-|Software
+|Hex-File zum Flashen des Controllers
 |[[Medium:MiniMoody.hex|.hex]]
 |BY-NC-ND
+|-
+|Sourcecode
+|[https://github.com/fabster/MiniMoody]
+|BY-NC-SA
 |}
 
 Die aufgeführten Dateien stehen unter der jeweils angegebenen Creative-Commons-Lizenz.
