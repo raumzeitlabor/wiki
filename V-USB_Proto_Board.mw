@@ -45,6 +45,10 @@ Die Ätzvorlage beinhaltet 4 Platinen auf Eurokartenformat. Jede Einzelplatine i
 |-
 |}
 
+== Open Issues ==
+
+Bei der ersten bestückten Platine hatte ich diverse Schwierigkeiten, das ganze zum Laufen zu bekommen. Scheinbar ist ein 1,7k-Ohm als D+-Pullup besser geeignet als 1,5k (zumindest, wenn man die Schaltung mit 5V betreiben will). Die D+-Line muß ausserdem an INT0 konnektiert werden. Außerdem sind die Pads viel zu klein, als daß man komfortabel Löten könnte. Diese Punkte fixe ich noch.
+
 ==Bausatzreservierung==
 Bitte tragt euch hier ein, falls ihr das RZL unterstützen und einen Bauteilesatz inkl. Platine für 6,00 € erwerben wollt. Es stehen 3 Bausätze zur Verfügung. Der Erlös geht komplett als Spende an das RZL. Weitere Bausätze können auf Wunsch zusammengestellt werden.
 
