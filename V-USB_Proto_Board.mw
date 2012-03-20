@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = V-USB Proto Board
 |status      = beta
-|image       = 
+|image       = Vusb-protoboard.jpg
 |description = Ein kleines Development-Board für V-USB-Anwendungen
 |author      = [[Benutzer:Felicitus|Felicitus]]
 |username    = 
@@ -18,7 +18,7 @@ Das V-USB Proto Board ist ein kleines Development-Board, welches einen Atmega8 u
 
 == Platine ätzen ==
 
-Die Ätzvorlage beinhaltet 4 Platinen auf Eurokartenformat. Jede Einzelplatine ist 66x39mm klein.
+Die Ätzvorlage beinhaltet 4 Platinen auf Eurokartenformat. Jede Einzelplatine ist 75x50mm klein.
 
 ==Download==
 
