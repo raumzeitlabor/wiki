@@ -16,8 +16,9 @@ LM 317-220;5
 USB BW;5
 WELLER WDC E;2
 EDSYN LT 1;1
-
-Ersatzspitze für die i-con nano, Meißelform, so klein wie möglich (alte Spitze messen)
+ATMEGA 8-16 DIP;3
+BOHRERSET;1
+I-TIP PD 10;1
 </pre>
 
 
