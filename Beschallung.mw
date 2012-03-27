@@ -1,7 +1,22 @@
+{{ProjektInfoBox
+|name        =Beschallung
+|status      = beta
+|image       = Musikanlage.jpg
+|description = Musik und so
+|author      = 
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|video      = 
+|download    = 
+}}
+
+
 Im Raum befindet sich im Regal, auf dem eine Hifi-Komponentenanlage und ein Musikserver befinden.
 
 == Crashkurs ==
-[[Image:Musikanlage.jpg|thumb|right]]
 [[Image:Musikanlage_Konnektbox.jpg|thumb|right]]
 
 '''WICHTIG: Die Anlage wird über eine Funksteckdose geschaltet. Die Fernbedienung befindet sich links von der Eingangstür, die Funksteckdose kann manuell geschalten werden'''
