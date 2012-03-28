@@ -26,14 +26,29 @@ I-TIP PD 10;1
 METALL 2,00K;100
 </pre>
 
-
 ==sur5r braucht==
  LED 5-RGB2-L;1
  LED 5-RGB2-S;1
  NT IP USB SL;1
 
-
 '''Bitte geben Sie unbedingt Ihr Geburtsdatum an und tragen Sie bitte am Ende des Bestellprozesses den Hinweis "Artikel werden nur in erlaubter Weise verwendet" in das Bemerkungsfeld ein. '''
+
+==Fabster braucht==
+<pre>
+ DI25MM;3
+ DA25MM;3
+ ATTINY 2313 SO;1
+ PBL 3717A;1
+ MCP 2200-I/SO;2
+ D-SUB BU 09;5
+ PS 25/2W BR;1
+ LCD
+</pre>
+1x    Kabel mit Pfostenstecker 2-pol.
+1x    DB9 Buchse
+ LED 5-RGB2-L;1
+ LED 5-RGB2-S;1
+ NT IP USB SL;1
 
 ==Else braucht==
 Einiges. Trags bei nächster Gelegenheit ein.
