@@ -42,13 +42,14 @@ METALL 2,00K;100
  MCP 2200-I/SO;2
  D-SUB BU 09;5
  PS 25/2W BR;1
- LCD
+ IRLML6401;10
+ 18,4320-HC49U-S;1
+ LCD 162F LED;1
+ PS 25/8G BR;1
+ SMD HC 138;2
+ X7R-G0805 1,0/16;10
+ MCP 1703-3302;2
 </pre>
-1x    Kabel mit Pfostenstecker 2-pol.
-1x    DB9 Buchse
- LED 5-RGB2-L;1
- LED 5-RGB2-S;1
- NT IP USB SL;1
 
 ==Else braucht==
 Einiges. Trags bei nächster Gelegenheit ein.
