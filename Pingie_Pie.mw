@@ -87,8 +87,8 @@ Wenn sich jemand dazu berufen fühlt, kann er gerne die Firmware umschreiben, so
 
 Die Implementation auf der Blackbox besteht aus 2 Programmen:
 
-* Ein Python-Script, welches mittels pyusb und libusb die USB-Mikrokontrollerfunktionen hostseitig anbietet und als CLI-Script implementiert ist
-* Ein $nochzudefinierender Webservice, an welchen neue Zeilen aus dem IRC gepostet werden können
+* Ein [https://github.com/raumzeitlabor/ping-plus-host/blob/master/pingplus.py Python-Script], welches mittels pyusb und libusb die USB-Mikrokontrollerfunktionen hostseitig anbietet und als CLI-Script implementiert ist
+* Ein kleiner [https://github.com/raumzeitlabor/ping-plus-host/blob/master/index.php Webservice], an welchen neue Zeilen aus dem IRC gepostet werden können
 
 == Status ==
 
