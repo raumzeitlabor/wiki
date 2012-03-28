@@ -21,6 +21,8 @@ Benutzung im IRC:
 
 == Implementation ==
 
+[[Image:Ping-plus-implementation.png]]
+
 === Hardware ===
 Die Implementation besteht aus dem [[V-USB Proto Board]], einer 85x7 Pixel LED-Anzeige sowie einer Treiberplatine.
 
