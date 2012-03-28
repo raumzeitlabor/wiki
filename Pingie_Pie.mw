@@ -93,12 +93,9 @@ Die Implementation auf der Blackbox besteht aus 2 Programmen:
 == Status ==
 
 * Die Hardware ist soweit komplett und aufgehängt
-* Es muß noch ein Stromkabel vom NPM zum Ping+-Board gelegt werden
-* Es muß eine zweite USB-Verlängerung vom Rack gelegt werden (das Endstück hängt derzeit über dem E-Eck-Drucker)
-* Die Python-Software muß CLI-fähig gemacht werden
+* Es muß noch ein Stromkabel vom NPM zum Ping+-Board gelegt werden (derzeit hängt das Netzteil direkt an ner Steckdose)
+* Da die USB-Verlängerung (15m!) nicht sonderlich stabil ist, haben wir ein 20m aktives USB-Kabel geordert.
 * Der Mikrokontroller-Code muß beschönigt werden
-* Das HTTP Gateway muß geschrieben werden
-* Alles ins GIT einchecken
 * ???
 * Profit!
 
