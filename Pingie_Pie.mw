@@ -1,1 +1,103 @@
-#WEITERLEITUNG [[Ping]]
+{{ProjektInfoBox
+|name        = Ping+
+|status      = experimental
+|image       = Ping-Plus.jpg
+|description = Textanzeige für !ping <text>
+|author      = [[Benutzer:Felicitus|Felicitus]], [[Benutzer:Drahti|drahti]]
+|username    = 
+|version     = 1.0
+|update      = 
+|platform    = ATMEGA168
+|license     = GPL
+|download    = 
+}}
+
+Der Ping+ ist eine Erweiterung für den [[Ping]], welcher einen Text anzeigt, der nach dem !ping-Kommando im IRC geschrieben wird.
+
+Benutzung im IRC:
+<pre>
+!ping Wer ist im Raum?
+</pre>
+
+== Implementation ==
+
+=== Hardware ===
+Die Implementation besteht aus dem [[V-USB Proto Board]], einer 85x7 Pixel LED-Anzeige sowie einer Treiberplatine.
+
+Das LED-Panel bekommt seinen Strom von einem ausgedienten D-Link-Netzteil, welches 3A bei 5V liefern kann. Das LED-Panel zieht je nach Ansteuerung zwischen 50mA und 1A. Deshalb wird das LED-Panel durch den [[NPM 2000]] bei Bedarf angeschalten und nach einer noch zu definierenden Zeit wieder abgeschalten. Das V-USB Proto Board wird über USB dauerhaft gespeist.
+
+=== Software (Controller) ===
+
+Auf dem V-USB Proto Board kommt eine kleine Firmware zum Einsatz, die folgende Funktionen über Control Messages unterstützt:
+
+{| class="wikitable"  valign = "top"
+!Funktion
+!bRequest
+!wValue
+!wIndex
+|-
+|Pixel setzen
+|2
+|x-Koordinate
+|y-Koordinate
+|-
+|Pixel löschen
+|3
+|x-Koordinate
+|y-Koordinate
+|-
+|Einzelnes Zeichen in den Offscreen-Buffer übertragen
+|4
+| -
+|ASCII-Code (32-127)
+|-
+|Offscreen-Buffer in den Main Buffer kopieren
+|5
+| -
+| -
+|-
+|Offscreen-Buffer leeren
+|10
+| -
+| -
+|-
+|Aktuelle Zeile nach oben wegscrollen
+|20
+| -
+| -
+|-
+|Wartezeit am Zeilenende/Zeilenanfang in Zyklen
+|25
+|Zyklen (0-255)
+| -
+|-
+|Scrolldelay
+|26
+|Delay (0-255)
+| -
+|}
+
+Da Control Messages nicht besonders schnell sind und durch das permanente Neu-Aufbauen des Displays nicht ständig nach USB-Messages gepollt werden kann, werden die Zeichen zuerst in einen Offscreen-Buffer geschrieben (bRequest 4). Ist die Übertragung der Nachrichten komplett, kann der Offscreen-Buffer in den sichtbaren Main Buffer kopiert werden (bRequest 5).
+
+Ist die Zeile länger als das Display anzeigen kann, scrollt es von Anfang bis Ende und wieder zurück. Die Scrollgeschwindigkeit und die Wartezeit am Anfang/Ende einer Zeile kann definiert werden.
+
+Wenn sich jemand dazu berufen fühlt, kann er gerne die Firmware umschreiben, sodaß sie über etwas anderes als Control Messages arbeitet.
+
+=== Software (Blackbox) ===
+
+Die Implementation auf der Blackbox besteht aus 2 Programmen:
+
+* Ein Python-Script, welches mittels pyusb und libusb die USB-Mikrokontrollerfunktionen hostseitig anbietet und als CLI-Script implementiert ist
+* Ein $nochzudefinierender Webservice, an welchen neue Zeilen aus dem IRC gepostet werden können
+
+== Status ==
+
+* Die Hardware ist soweit komplett und aufgehängt
+* Es muß noch ein Stromkabel vom NPM zum Ping+-Board gelegt werden
+* Es muß eine zweite USB-Verlängerung vom Rack gelegt werden (das Endstück hängt derzeit über dem E-Eck-Drucker)
+* Die Python-Software muß CLI-fähig gemacht werden
+* Der Mikrokontroller-Code muß beschönigt werden
+* Das HTTP Gateway muß geschrieben werden
+* Alles ins GIT einchecken
+* ???
+* Profit!
