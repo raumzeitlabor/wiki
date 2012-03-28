@@ -20,7 +20,9 @@ Das IRC kann sich über den !ping-Befehl im Raum bemerkbar machen. Hierdurch wir
 
 Oftmals wird im IRC direkt nach dem !ping eine Frage gestellt, aber oftmals kommen die Laboranten erst nach einem !ping ins IRC, d.h. die Frage muß erneut gestellt werden. Daher war der Wunsch, ein '''!ping <text>''' machen zu können, welches dann im RaumZeitLabor angezeigt wird.
 
-== Plan 2012 ==
+== Ping+ ==
+
+[[Ping+|siehe Ping+]]
 
 drahti hat ein lustiges LED-Panel mit 16 Modulen zu je 5x7 Pixeln angeschleppt (80x7), welches einfach ansteuerbar ist. Ein AVR soll die Ansteuerung übernehmen, am Ende fällt ein USB-Stöpsel raus. Dieser wiederum wird an einen Raspberry Pi angeschlossen, der dann die Konnektivität ins Netz sowie die effektive Ansteuerung vornimmt.
 
