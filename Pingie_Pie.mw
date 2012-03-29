@@ -32,7 +32,7 @@ Das LED-Panel bekommt seinen Strom von einem ausgedienten D-Link-Netzteil, welch
 
 === Software (Controller) ===
 
-Auf dem V-USB Proto Board kommt eine kleine Firmware zum Einsatz, die folgende Funktionen über Control Messages unterstützt:
+Auf dem V-USB Proto Board kommt eine kleine [https://github.com/raumzeitlabor/ping-plus-avr Firmware] zum Einsatz, die folgende Funktionen über Control Messages unterstützt:
 
 {| class="wikitable"  valign = "top"
 !Funktion
