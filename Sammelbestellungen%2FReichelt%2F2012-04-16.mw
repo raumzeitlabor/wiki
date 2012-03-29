@@ -10,6 +10,17 @@ IFSH-B-6,35;10
 RK-B-6;10
 </pre>
 
+Laut PartKeepr zu bestellen (B-Kisten habe ich ignoriert):
+
+<pre>
+1/4W 10;100
+1/4W 100;100
+1/4W 150;100
+1/4W 220;100
+1/4W 470;100
+RAD 470/25;10
+</pre>
+
 == Felicitus braucht ==
 
 
