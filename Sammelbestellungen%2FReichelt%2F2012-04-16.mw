@@ -70,10 +70,11 @@ LF 412 CP;5
 6N 138;1
 ATMEGA 16-16 DIP;1
 BAT 42;10
+OSZI 16,000000;1
 
 </pre>
 
-Gesamt 186,69€
+Gesamt 186,69€ (plus paar Euro für das, was ich vergessen habe zu addieren).
 
 ==sur5r braucht==
  LED 5-RGB2-L;1
