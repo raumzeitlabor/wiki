@@ -10,6 +10,7 @@ WSL 26G;8
 AWG 28-26G 3M;1
 IFSH-B-6,35;10
 RK-B-6;10
+ÄTZMITTEL 600G;2
 </pre>
 
 Laut PartKeepr zu bestellen (B-Kisten habe ich ignoriert):
@@ -31,7 +32,6 @@ V 4511F;1
 BEL 160X100-1;10
 DIGITUS DA-73102;1
 BEL 75X100-1;10
-ÄTZMITTEL 600G;2
 LM 337-220;5
 LM 317-220;5
 USB BW;5
