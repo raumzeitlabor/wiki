@@ -94,6 +94,10 @@ Die Implementation auf der Blackbox besteht aus 2 Programmen:
 * Ein [https://github.com/raumzeitlabor/ping-plus-host/blob/master/pingplus.py Python-Script], welches mittels pyusb und libusb die USB-Mikrokontrollerfunktionen hostseitig anbietet und als CLI-Script implementiert ist
 * Ein kleiner [https://github.com/raumzeitlabor/ping-plus-host/blob/master/index.php Webservice], an welchen neue Zeilen aus dem IRC gepostet werden können
 
+== Limitations ==
+* Unterstützt nur 7-bit ASCII (codes 32-127). Erweiterung bis zu 255 möglich, dazu muß jemand den Font anpassen. Das PHP-Script setzt UTF8 automatisch in ISO-8859-1 um.
+* UTF-8 nur mit Aufwand möglich.
+
 == Status ==
 
 * Die Hardware ist soweit komplett und aufgehängt
