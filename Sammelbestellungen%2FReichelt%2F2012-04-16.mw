@@ -179,13 +179,13 @@ BIEGELEHRE;1
 
 == echox braucht: ==
 <pre>
-1x STECKBOARD 4K7V  
-2x GS 40P         
-2x 16,0000-HC18        
-6x BC 338-25    
-1x USB BW 
-1x SL 2X10G 2,00
-2x SS 13ASP              
+STECKBOARD 4K7V;1
+GS 40P;2
+16,0000-HC18;2      
+BC 338-25;6
+USB BW;1
+SL 2X10G 2,00;1
+SS 13ASP;2       
 </pre>
 
 ==Bestellung==
