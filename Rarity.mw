@@ -1,5 +1,5 @@
 {{ProjektInfoBox
-|name        = Stickmaschine
+|name        = Rarity
 |status      = beta
 |image       = Erstes muster.jpg
 |description = Eine awesome Textilveredelungsmöglichkeit
@@ -12,7 +12,7 @@
 |download    = 
 }}
 
-Wir haben eine Stickmaschine des Typs Brother Inno-vis 90E.
+Wir haben eine Stickmaschine des Typs Brother Inno-vis 90E. Bei einem Besuch im [http://shackspace.de shackspace] wurde sie '''Rarity''' getauft.
 
 == Historie ==
 
@@ -21,6 +21,12 @@ Es gab die Idee bestickte Textilien mit dem RaumZeitLogo zu bestellen. Nachdem w
 == Technische Details ==
 
 Die Wahl fiel auf eine Brother inno-vis 90E mit USB-Anschluss (Wechseldatenträger). Zur Benutzung muss man einfach nur Stickdatein auf der Maschine ablegen (*.pes, *.dst). '''Man kann nicht einfach Bilder auf die Maschine laden und sticken!'''
+
+== Hardware ==
+
+Für die Maschine liegen vier Rahmen in drei verschiedenen Größen vor. Zwei 10×10 cm Rahmen, ein 17×10 cm Rahmen und ein 4×4 cm Rahmen.
+
+Der 4×4 cm Rahmen eignet sich besonders für Stellen, an welchen keine ausreichend große Fläche Textil eingespannt werden kann (z.B. Hemdkragen). Beim 17×10 cm Rahmen ist zu beachten, dass es 3 verschiedene Steckpositionen gibt. Die Maschine markiert auf dem Vorschaubild, auf welche Position sie gesteckt werden muss.
 
 == Software ==
 
@@ -51,6 +57,6 @@ Folgende Benutzer können die Maschine benutzen und können auch eine Einführun
 
 == Galerie ==
 
-[[Datei:Rzl logo stick.jpg]]
+[[Datei:Rzl logo stick.jpg|thumb|left]]
 
 [[Kategorie:Projekt]]
