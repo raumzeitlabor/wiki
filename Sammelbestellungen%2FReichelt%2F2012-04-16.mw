@@ -185,8 +185,9 @@ DELOCK 42488;1
 </pre>
 
 == Drahti braucht: ==
-
-1x   UP 941EP :: Laborkarte, Epoxyd, 160x100mm, CU 35µ
+<pre>
+UP 941EP;1
+</pre>
 
 == echox braucht: ==
 <pre>
