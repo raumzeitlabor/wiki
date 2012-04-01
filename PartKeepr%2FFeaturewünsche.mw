@@ -1,0 +1,51 @@
+featurewünsche:
+
+== Features ==
+
+* Bauteile '''erledigt'''
+* Kategorien '''erledigt'''
+* Footprints '''erledigt''', jedoch noch ohne Footprint DXFs
+* Datenblätter
+* Herstellerlogos
+* Lieferanten
+* Lagerbestand + Lager / Lagerort / Lager-"größe" + Lagerwert + Reservierung
+* User- und Rechteverwaltung (Gruppen?)
+* Bestellisten pro User für Sammelbestellungen
+* Logging (Einlage, Entnahme, ...)
+* Kassensoftwareanbindung
+* Lagerort übergreifende suche
+* Umlagern
+* Inventur
+* Statistik
+* Teile ohne Preis 
+* Freier Lagerort
+* Mehrere Lagerorte pro Teil
+* Mutterlager -> damit ist gemeint, daß Bauteile aus einem anderen, größeren Lager kommen. Beispielsweise haben wir 3000 Dioden, von denen 20 in Lager XY gelagert werden, und der Rest in Lager ZZ. Ist XY leer, kann umgebucht werden.
+* Private Lager (damit man auch seine eigenen, nicht-public Bauteile verwalten kann)
+
+=== Bauteile ===
+
+Je Bauteil (Artikel) sollen die folgenden Eigenschaften abgelegt werden:
+
+* Kategorie
+* Bauteilwert (Ohm, Chip-Typ, ...) und zwar mehrdimensional. z.b. spannungsregler 7805 vIn (min 7V max 50V) vOut min 4.5V max 5.0V).
+* Bauform (Gehäuseform) und Footprint(s) 
+* Datenblätter (Datei *und* URL)
+* interner Verkaufspreis
+* Status (neu/refurbished)
+* ROHS
+* Quelle
+* Moisture Sensitivity Level
+* Preishistorie zwecks: letztem Einkaufspreis und gemitteltem Preis
+* vorhandene Stückzahl
+* Mindeststückzahl
+* Bestellnumer / Lieferant(en)
+* Lagerort
+* Kommentar
+* Ähnliche Bauteile (querlinks)
+* Hersteller
+* Matchcode ?
+* Bezeichnung
+* Artikelzustand (neu/gebraucht)
+
+* Footprint Viewer unter http://www.mentor.com/products/pcb-system-design/library-tools/lp-wizard/lp-viewer-download
