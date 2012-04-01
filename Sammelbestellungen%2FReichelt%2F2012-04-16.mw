@@ -100,17 +100,28 @@ LED 105 A WS;5
 METALL 75,0;100
 64Y-2,0K;2
 KN 97 61 145A;1
-
+PSS 254/2G;10
+PSS 254/3G;10
+PSS 254/4G;10
+PSS 254/5G;10
+PSK 254/5W;20
+PSK 254/4W;10
+PSK 254/3W;20
+PSK 254/2W;20
+PSS 254/5W;10
+PSS 254/3W;10
+PSS 254/2W;10
+PSK-KONTAKTE;20
 </pre>
 
-Gesamt 210,29€ (plus paar Euro für das, was ich vergessen habe zu addieren).
+Gesamt ca. 240€ (Reichelt crasht beim Import)
 
 ==sur5r braucht==
  LED 5-RGB2-L;1
  LED 5-RGB2-S;1
  NT IP USB SL;1
 
-'''Bitte geben Sie unbedingt Ihr Geburtsdatum an und tragen Sie bitte am Ende des Bestellprozesses den Hinweis "Artikel werden nur in erlaubter Weise verwendet" in das Bemerkungsfeld ein. '''
+
 
 ==Fabster braucht==
 <pre>
@@ -207,7 +218,7 @@ SS 13ASP;2
 
 ==Bestellung==
 
-Felicitus bestellt vorraussichtlich Anfang April.
+'''Bitte geben Sie unbedingt Ihr Geburtsdatum an und tragen Sie bitte am Ende des Bestellprozesses den Hinweis "Artikel werden nur in erlaubter Weise verwendet" in das Bemerkungsfeld ein. '''
 
 == Vergangene Bestellungen ==
 
