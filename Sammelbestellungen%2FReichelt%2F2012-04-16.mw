@@ -15,6 +15,9 @@ ULN 2803 D;4
 SMD HC 4050;5
 SMD-LED 1206 GN;10
 SMD-LED 1206 BL;10
+AKL 101-02;2
+AKL 101-04;3
+AKL 101-06;2
 </pre>
 
 Laut PartKeepr zu bestellen (B-Kisten habe ich ignoriert):
