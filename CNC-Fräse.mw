@@ -42,6 +42,10 @@ In den Bausätzen sind keine Schrittmotorsteuerungen enthalten. Mögliche Altern
 == Software ==
 Siehe MTM Snap [http://mtm.cba.mit.edu/machines/mtm_snap-lock/build/software.html]
 
+== Wishlist ==
+
+* Für die Fräse will man eine Absaugung oder Wegblasung haben, damit beim Gravieren die Gravurtiefe auch erreicht wird
+
 == Build Log ==
 {| class="wikitable"
 ! Datum
