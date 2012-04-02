@@ -1,10 +1,95 @@
 Bitte die Warenkörbe exportieren (über myreichelt), damit die Sammelbestellung einfach zusammengeführt werden kann.
 
+== Felicitus braucht ==
+
+<pre>
+V 4511F;1
+BEL 160X100-1;10
+DIGITUS DA-73102;1
+BEL 75X100-1;10
+LM 337-220;5
+LM 317-220;5
+USB BW;5
+WELLER WDC E;2
+EDSYN LT 1;1
+ATMEGA 8-16 DIP;3
+BOHRERSET;1
+I-TIP PD 10;1
+METALL 2,00K;100
+TL 072 DIP;10
+LM 13700 DIL;5
+RAD 105 10/63;20
+RAD 105 2,2/100;20
+KERKO 10N;10
+MKS-02 1,0N;10
+MKS-02 4,7N;10
+XR 2206CP;2
+MOS 4046;2
+2N 3904;10
+GS 6P;10
+GS 8P;10
+GS 14P;10
+GS 16P;10
+GS 18P;10
+GS 20P;10
+GS 24P-S;10
+GS 24P;4
+GS 40P;5
+TL 082 DIP;5
+EBM 63;10
+4,0000-HC18;5
+ATTINY 2313 DIP;2
+MOS 4067;2
+09P 1,0M;2
+µA 78L05;5
+AD 712 JN;1
+LF 412 CP;5
+6N 138;1
+ATMEGA 16-16 DIP;1
+BAT 42;10
+OSZI 16,000000;1
+KERKO 33P;10
+MKS-02 10N;20
+MKS-02 100N;40
+WSL 6G;2
+PS 25/2G WS;11
+SIL 6-5 1,0K;1
+METALL 11,5K;10
+SIL 5-4 1,0K;2
+KMR 16;1
+DIO-50S EMS;2
+LED 105 A WS;5
+METALL 75,0;100
+64Y-2,0K;2
+KN 97 61 145A;1
+PSS 254/2G;10
+PSS 254/3G;10
+PSS 254/4G;10
+PSS 254/5G;10
+PSK 254/5W;20
+PSK 254/4W;10
+PSK 254/3W;20
+PSK 254/2W;20
+PSS 254/5W;10
+PSS 254/3W;10
+PSS 254/2W;10
+PSK-KONTAKTE;20
+CRIMPZANGE PSK;1
+KFA 4A SN;1
+KM 01SH-1;1
+GUARD R17-10;1
+KS A1080;1
+KS C3900;1
+</pre>
+
+Gesamt ca. 240€ (Reichelt crasht beim Import)
+
+
 ==Bestellung==
 
-'''Bitte geben Sie unbedingt Ihr Geburtsdatum an und tragen Sie bitte am Ende des Bestellprozesses den Hinweis "Artikel werden nur in erlaubter Weise verwendet" in das Bemerkungsfeld ein. '''
+Felicitus bestellt in der ersten Aprilwoche.
 
 == Vergangene Bestellungen ==
 
-* [[Reichelt/2012 03]]
 * [[Reichelt/2012 04]]
+* [[Reichelt/2012 03]]
