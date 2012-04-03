@@ -3,7 +3,7 @@
 |status      = experimental
 |image       = Pronwall01.jpg
 |description = Fette LED-Action
-|author      = tabascoeye, the_nihilant, bluegene, tiefpunkt, toxios, Unicorn
+|author      = tabascoeye, the_nihilant, bluegene, tiefpunkt, toxios, Unicorn, [[Benutzer:thinkJD|thinkJD]]
 |username    = 
 |version     = 0.1
 |update      = 
@@ -60,13 +60,26 @@ für später:
 Siehe [[PRON-Protokoll]]
 
 ===Modul===
-* Je Modul ein LPXPRESSO (Awesome MFLOPs!)
-** Ethernet -> LEDs
 
-=== Bauteile ===
+==Schaltplan==
+{| 
+| [[Datei:Pron_Led-Controller_1.png|thumb|left|250px]]
+| [[Datei:pron_Led-Controller_2.png|thumb|left|250px]]
+| [[Datei:Pron_LED-Controller_3.png|thumb|left|250px]]
+|}
+
+== Bauteile ==
 * [[Media:Diodenkennlinie_LED_rot_Ali.pdf | Diodenkennlinie LED rot Ali]]
+* [[Media:Pron ULN2003L.pdf | 7bit Treiber]]
+* [[Media:Pron 74HC HCT595.pdf | 8bit Schieberegister]]
+* [[Media:Pron 74HC HCT138.pdf | 3-to-8 Multiplexer]]
 
 == Software ==
+Die bisher geschriebene Software, sowie die Pläne liegen auf GitHub.
+https://github.com/raumzeitlabor/pron-ledwall
+
+==ToolChain==
+Die NXP LPCXpresso boards, welche als Master und als PanelController zum Einsatz kommen sind leider nur mit WIndows ohne Schmerzen zu betreiben. Um die Schmerzen im Zaum zu halten, soll hier beschrieben werden, wie man sich eine funktionierende Toolchain baut und wie man die Controller programmiert bekommt.
 
 === libpronisate ===
 [[Benutzer:Blabber|blabber]] bastelt gerade an einer C Bibliothek die beliebige Bilder in Byteströme umwandelt die als `PIXELS` in `Image Frames` gemäß dem [[PRON-Protokoll]] verwendet werden können. Momentan wird ein Bild in einen Bytestrom umgewandelt, [[Benutzer:Blabber|blabber]]s Ziel ist es allerdings für rechteckige Anordnungen identisch dimensionierter PRON-Panels die Byteströme für die einzelnen Kacheln des Bildes mit einem Aufruf zu generieren.
