@@ -1,35 +1,33 @@
 Hier wird die TODO-Liste gepflegt und absteigend nach Priorität sortiert.
 
-== Rund um den Raum Allgemein ==
+== Offene Aufgaben ==
+=== Rund um den Raum Allgemein ===
+* RZL-Führung 2.0 (quasi wie http://vimeo.com/7996862 nur in aktueller Version)
 
-== Fun ==
-* Telefönprojekt weiterentwickeln
-
-== Elektroecke ==
-* Defekte Netzteile reparieren
-* Frequenzgenerator in ein neues gehäuse bauen
-* Atmel Multi-Programmer mit fertig bauen
+=== Elektroecke ===
 * Teile einlagern
-* Partkeepr weiterentwickeln und testen
-* Lüftungssystem für den Laser planen
+* Defekte Netzteile reparieren
 
-== Haustechnik und Infrastruktur ==
-
+=== Haustechnik und Infrastruktur ===
 * E-Mail-Versand auf der Dockstar einrichten
+** Details?!?
 * Lankabel richtig auflegen
-* Heizungssteuerungs-Schaltung bauen.
+** Details?!?
 * Lichtsteuerung
-* Kassensystem
 
-== Ätzecke ==
-* Lightbox zum Belichten bauen
+=== Ätzecke ===
 
-== Diverses ==
+=== Rumliegende Projekte ===
+* Busanzeigen
+* LED-Panels
+* Portalroboter
 
-* RZL-Führung 2.0 mit Inte, DaFo und Scytale machen (quasi wie http://vimeo.com/7996862 nur in aktueller Version)
+== In Arbeit ==
+* Lüftungssystem für den Laser planen ([[Benutzer:TabascoEye|TabascoEye]])
+* [[Kassensystem]]
+* Heizungssteuerungs-Schaltung bauen ([[Benutzer:Alexander Brock|Alexander Brock]])
 
-==Erledigte Aufgaben==
-
+== Erledigt ==
 * Pumpengehäuse der Spülmaschine öffnen und ggf. reinigen erledigt von --[[Benutzer:Alexander Brock|Alexander Brock]] 01:09, 1. Mär. 2012 (CET)
 * aktuelle provisorische Verkabelung der Heizungssteuerung in ein Gehäuse umziehen, erledigt von [[Benutzer:Tiefpunkt|Tiefpunkt]]
 * Pringels-Röhren umbauen, sodaß sich das Plastik am Rohrende nicht mehr zusammenzieht, erledigt von [[Benutzer:Alexander Brock|Alexander Brock]]
