@@ -1,0 +1,645 @@
+__TOC__
+
+{{EventInfoBox
+|name        = 
+|status      = upcoming
+|image       = 28c3-logo.png
+|description = Geselliges konsumieren von 28C3 Vorträgen
+|author      = [[Benutzer:Unicorn|Unicorn]], [[Benutzer:Blabber|blabber]] 
+|username    = 
+|rhythm      = Wöchentlich
+|day         = Donnerstag
+|time        = ~20:00 Uhr
+|preis       = Kostenlos
+}}
+
+''Dieses Event wurde massiv von dem gleichnamigen Event des [http://wiki.attraktor.org/Chaotic-Congress-Cinema Attraktor] in Hamburg inspiriert.''
+
+= Chaotic Congress Cinema Mannheim =
+
+Jede Woche donnerstags findet gegen 20 Uhr im RaumZeitLabor Mannheim das ''Chaotic Congress Cinema Mannheim'', kurz ''CCC Mannheim'', statt. In geselliger Runde werden jeweils zwei Vorträge die auf dem ''28C3'' aufgezeichnet wurden vorgeführt. 
+
+Der Eintritt ist kostenlos und jeder ist willkommen. Getränke, Popcorn, Pizza und Junkfood kann käuflich erworben werden.
+
+Der freundliche Hackerspace von nebenan freut sich auf euren Besuch!
+
+== Programmgestaltung ==
+
+Die Vorträge die vorgeführt werden, werden von den Gastgebern [[Benutzer:Unicorn|Unicorn]] und [[Benutzer:Blabber|blabber]] bestimmt. Aus sicherer Quelle ist aber bekannt, dass die Beiden durch gutes Zureden und/oder Matezufuhr beeinflussbar sind. Ausserdem könnt ihr euch, falls euch ein bestimmter Vortrag interessiert, als Interessent in der unteren Tabelle eintragen. 
+
+Die Chancen das diese Einträge bei der Programmgestaltung berücksichtigt werden stehen ziemlich gut.
+
+Das Programm für Donnerstag wird jeweils bei der vorangehenden [[Offene RaumZeitLaborierung]] und über die Mailingliste bekanntgegeben.
+
+=== Noch nicht vorgeführte Vorträge ===
+
+{| class="wikitable"  valign="top"
+!Titel
+!Referent
+!Zusammenfassung
+!Sprache
+!Interessenten
+|- 
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4816.en.html 7 years, 400+ podcasts, and a whole lot of Frequent Flyer Miles]
+| Bicyclemark
+| 7 years, 400+ podcasts, and a whole lot of Frequent Flyer Miles- Lessons learned from producing a weekly independent podcast on international conflicts and concerns.
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4766.en.html 802.11 Packets in Packets]
+| Travis Goodspeed
+| 802.11 Packets in Packets- A Standard-Compliant Exploit of Layer 1
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4826.en.html A Brief History of Plutocracy]
+| Robin Upton
+| A Brief History of Plutocracy
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4913.en.html Almighty DNA?]
+| Susanne Schultz, Uta Wagenmann
+| Almighty DNA?- Was die Tatort-Wahrheitsmaschine mit Überwachung zu tun hat
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4828.en.html Antiforensik]
+| Martin Wundram
+| Antiforensik- Einführung in das Thema Antiforensik am Beispiel eines neuen Angriffsvektors
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4676.en.html Apple vs. Google Client Platforms]
+| Bruhns, FX of Phenoelit, greg
+| Apple vs. Google Client Platforms- How you end up being the Victim.
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4764.en.html Automatic Algorithm Invention with a GPU]
+| Wes Faler
+| Automatic Algorithm Invention with a GPU- Hell Yeah, it's rocket science
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4814.en.html Behind the scenes of a C64 demo]
+| Ninja / The Dreams
+| Behind the scenes of a C64 demo
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4669.en.html Bionic Ears]
+| Helga Velroyen
+| Bionic Ears- Introduction into State-of-the-Art Hearing Aid Technology
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4746.en.html Bitcoin - An Analysis]
+| Kay Hamacher, Stefan Katzenbeisser
+| Bitcoin - An Analysis
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4930.en.html Black Ops of TCP/IP 2011]
+| Dan Kaminsky
+| Black Ops of TCP/IP 2011
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4916.en.html BuggedPlanet]
+| Andy Müller-Maguhn
+| BuggedPlanet- Surveillance Industry &amp; Country's Actings
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4699.en.html Building a Distributed Satellite Ground Station Network - A Call To Arms]
+| Andreas -horn- Hornig, hadez
+| Building a Distributed Satellite Ground Station Network - A Call To Arms- Hackers need satellites.  Hackers need internet over satellites.  Satellites require ground stations.  Let's build them!
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4587.en.html bup: Git for backups]
+| Zoran Zaric
+| bup: Git for backups
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4799.en.html Can trains be hacked?]
+| Stefan Katzenbeisser
+| Can trains be hacked?- Die Technik der Eisenbahnsicherungsanlagen
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4932.en.html CCC Camp 2011 Video Impressions]
+| 
+| CCC Camp 2011 Video Impressions- Reviving a nice summer dream
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4663.en.html Cellular protocol stacks for Internet]
+| Harald Welte
+| Cellular protocol stacks for Internet- GPRS, EDGE, UMTS, HSPA demystified
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4903.en.html Changing techno-optimists by shaking up the bureaucrats]
+| Brenno de Winter
+| Changing techno-optimists by shaking up the bureaucrats
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4760.en.html ChokePointProject - Quis custodiet ipsos custodes?]
+| Ruben Bloemgarten
+| ChokePointProject - Quis custodiet ipsos custodes?- Aggregating and Visualizing (lack of) Transparancy Data in near-realtime
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4899.en.html Closing Event]
+| Frank Rieger
+| Closing Event
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4755.en.html Counterlobbying EU institutions]
+| Christian Bahls - MOGiS e.V., Jérémie Zimmermann
+| Counterlobbying EU institutions- How to attempt to counter the influence of industry lobbyists and political forces aiming towards increasing control over the Internet
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4730.en.html Crowdsourcing Genome Wide Association Studies]
+| Bastian Greshake, Philipp Bayer
+| Crowdsourcing Genome Wide Association Studies- Freeing Genetic Data from Corporate Vaults
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4732.en.html Datamining for Hackers]
+| Stefan Burschka
+| Datamining for Hackers- Encrypted Traffic Mining
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4652.en.html Data Mining the Israeli Census]
+| Yuval Adam
+| Data Mining the Israeli Census- Insights into a publicly available registry
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4788.en.html Datenvieh oder Daten-Fee]
+| Rene Meissner
+| Datenvieh oder Daten-Fee- Welchen Wert haben Trackingdaten?
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4723.en.html DC+, The Protocol]
+| klobs
+| DC+, The Protocol- Technical defense against data retention law
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4781.en.html Deceiving Authorship Detection]
+| Michael Brennan, Rachel Greenstadt
+| Deceiving Authorship Detection- Tools to Maintain Anonymity Through Writing Style &amp; Current Trends in Adversarial Stylometry
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4736.en.html Defending mobile phones]
+| Karsten Nohl, Luca Melette
+| Defending mobile phones
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4910.en.html Demokratie auf Sächsisch]
+| Josephine Fischer, Tobias Naumann
+| Demokratie auf Sächsisch
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4901.en.html Der Staatstrojaner]
+| 0zapfths, Constanze Kurz, Frank Rieger, Ulf Buermeyer
+| Der Staatstrojaner- Vom braunen Briefumschlag bis zur Publikation
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4675.en.html Die Koalition setzt sich aber aktiv und ernsthaft dafür ein]
+| maha/Martin Haase
+| Die Koalition setzt sich aber aktiv und ernsthaft dafür ein- Sprachlicher Nebel in der Politik
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4749.en.html Does Hacktivism Matter?]
+| Kai Denker
+| Does Hacktivism Matter?- How the Btx hack changed computer law-making in Germany
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4770.en.html Don't scan, just ask]
+| Fabian Mihailowitsch
+| Don't scan, just ask- A new approach of identifying vulnerable web applications
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4768.en.html Eating in the Anthropocene]
+| Cathrine Kramer, Zack Denfeld
+| Eating in the Anthropocene- Transgenic Fish, Mutagenic Grapefruits and Space Potatoes
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4738.en.html Echtes Netz ]
+| Falk Lüke, Markus Beckedahl
+| Echtes Netz - Kampagne für Netzneutralität
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4680.en.html Effective Denial of Service attacks against web application platforms]
+| Alexander alech Klink, Julian | zeri
+| Effective Denial of Service attacks against web application platforms- We are the 99% (CPU usage)
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4758.en.html Ein Mittelsmannangriff auf ein digitales Signiergerät]
+| Alexander Koch
+| Ein Mittelsmannangriff auf ein digitales Signiergerät- Bachelorarbeit Informatik Uni Kiel SS 2011
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4668.en.html Electronic money: The road to Bitcoin and a glimpse forward]
+| Peio Popov
+| Electronic money: The road to Bitcoin and a glimpse forward- How the e-money systems can be made better
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4844.en.html EU-Datenschutz und das Internet der Dinge]
+| Andreas Krisch
+| EU-Datenschutz und das Internet der Dinge
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4935.en.html EU-Datenschutz und das Internet der Dinge (english translation)]
+| Andreas Krisch
+| EU-Datenschutz und das Internet der Dinge (english translation)
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4818.en.html Evolving custom communication protocols]
+| Wes Faler
+| Evolving custom communication protocols- Hell Yeah, it's rocket science
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4866.en.html Fnord-Jahresrückblick]
+| Felix von Leitner, Frank Rieger
+| Fnord-Jahresrückblick- von Atomendlager bis Zensus
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4740.en.html Frag den Staat]
+| Stefan Wehrmeyer
+| Frag den Staat- Praktische Informationsfreiheit
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4742.en.html From Press Freedom to the Freedom of information]
+| Reporters Without Borders
+| From Press Freedom to the Freedom of information- Why every citizen should be concerned
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4775.en.html Hacker Jeopardy]
+| Ray, Stefan 'Sec' Zehl
+| Hacker Jeopardy- Number guessing for geeks
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4934.en.html Hacker Jeopardy Translation]
+| 
+| Hacker Jeopardy Translation
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4871.en.html Hacking MFPs]
+| Andrei Costin
+| Hacking MFPs- Part2 - PostScript: Um, you've been hacked
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4800.en.html How governments have tried to block Tor]
+| Jacob Appelbaum, Roger Dingledine
+| How governments have tried to block Tor
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4686.en.html Implementation of MITM Attack on HDCP-Secured Links]
+| bunnie
+| Implementation of MITM Attack on HDCP-Secured Links- A non-copyright circumventing application of the HDCP master key
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4688.en.html Introducing Osmo-GMR]
+| Sylvain Munaut
+| Introducing Osmo-GMR- Building a sniffer for the GMR satphones
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4908.en.html Jahresrückblick]
+| Andreas Bogk, Constanze Kurz, Erdgeist, Frank Rieger
+| Jahresrückblick
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4928.en.html KinectFusion]
+| David Kim
+| KinectFusion- Real-time 3D Reconstruction and Interaction Using a Moving Depth Camera
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4905.en.html Lightning Talks Day 2]
+| Nick Farr
+| Lightning Talks Day 2
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4906.en.html Lightning Talks Day 3]
+| Nick Farr
+| Lightning Talks Day 3- Pecha Kucha Round!
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4907.en.html Lightning Talks Day 4]
+| Nick Farr
+| Lightning Talks Day 4
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4813.en.html Macro dragnets: Why trawl the river when you can do the whole ocean]
+| Redbeard
+| Macro dragnets: Why trawl the river when you can do the whole ocean- What happens when data collection goes awry in the 21st century
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4897.en.html Marriage From Hell: On the Secret Love Affair Between Dictators and Western Technology Companies]
+| Evgeny Morozov
+| Marriage From Hell: On the Secret Love Affair Between Dictators and Western Technology Companies
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4832.en.html "Neue Leichtigkeit"]
+| Alex Antener, Amelie Boehm, Andrin Uetz, Jonas Bischof, ruedi tobler, Samuel Weniger
+| "Neue Leichtigkeit"- when unconditional artistic freedom happens
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4761.en.html New Ways I'm Going to Hack Your Web App]
+| Jesse Ou, Rich
+| New Ways I'm Going to Hack Your Web App
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4927.en.html NOC Review]
+| Kay, Will Hargrave
+| NOC Review- NOC Review about the Camp 2011 and 28C3
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4821.en.html Not your Grandfathers moon landing]
+| Karsten Becker, Robert Böhme
+| Not your Grandfathers moon landing- Hell yeah, it's Rocket Science 3.1415926535897932384626!
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4722.en.html NPC - Nerds Pissing Contest]
+| Benjamin Kellermann, klobs
+| NPC - Nerds Pissing Contest- Mein Ruby ist besser als dein urxvt!
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4656.en.html Ooops I hacked my PBX]
+| pt
+| Ooops I hacked my PBX- Why auditing proprietary protocols matters
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4759.en.html Open source music: Tracking 2.0]
+| Tom Hargreaves
+| Open source music: Tracking 2.0
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4721.en.html Pentanews Game Show 2k11/3]
+| Alien8, _john, klobs
+| Pentanews Game Show 2k11/3- 42 new questions, new jokers, same concept, more fun than last year!
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4804.en.html Politik hacken]
+| Alexander Müller, Bärwulf Kannitschreiber, Montserrat Graupenschläger
+| Politik hacken- Kleine Anleitung zur Nutzung von Sicherheitslücken gesellschaftlicher und politischer Kommunikation
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4660.en.html Post Memory Corruption Memory Analysis]
+| endrazine
+| Post Memory Corruption Memory Analysis- Automating exploitation of invalid memory writes
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4706.en.html Power gadgets with your own electricity]
+| Gunnar Thöle, Jörg Dürre
+| Power gadgets with your own electricity- escape the basement and make the sun work for you
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4780.en.html Print Me If You Dare]
+| Ang Cui, Jonathan Voris
+| Print Me If You Dare- Firmware Modification Attacks and the Rise of Printer Malware
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4712.en.html Privacy Invasion or Innovative Science?]
+| Conrad Lee
+| Privacy Invasion or Innovative Science?- Academia, social media data, and privacy
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4756.en.html Quantified-Self and OpenBCI Neurofeedback Mind-Hacking]
+| Christian Kleineidam, MetaMind Evolution
+| Quantified-Self and OpenBCI Neurofeedback Mind-Hacking- Transhumanism, Self-Optimization and Neurofeedback for post-modern hackers
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4648.en.html Quantum of Science]
+| Robert Helling
+| Quantum of Science- How quantum information differs from classical
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4777.en.html r0ket++]
+| lilafisch, Stefan 'Sec' Zehl
+| r0ket++- The CCC-Badge
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4741.en.html Resilience Towards Leaking or Why Julian Assange Might Be Wrong After All]
+| Kay Hamacher
+| Resilience Towards Leaking or Why Julian Assange Might Be Wrong After All
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4735.en.html Reverse-engineering a Qualcomm baseband]
+| Guillaume Delugré
+| Reverse-engineering a Qualcomm baseband
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4847.en.html Reverse Engineering USB Devices]
+| Drew Fisher
+| Reverse Engineering USB Devices
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4811.en.html Rootkits in your Web application]
+| Artur Janc
+| Rootkits in your Web application- Achieving a permanent stealthy compromise of user accounts with XSS and JS injection attacks.
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4876.en.html Sachsen dreht frei]
+| Anne Roth
+| Sachsen dreht frei- On- und Offline-Überwachung: Weil sie es können
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4661.en.html SCADA and PLC Vulnerabilities in Correctional Facilities]
+| Teague, Tiffany Rad
+| SCADA and PLC Vulnerabilities in Correctional Facilities- Tiffany Rad, Teague Newman, John Strauchs
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4767.en.html Security Log Visualization with a Correlation Engine]
+| Chris Kubecka
+| Security Log Visualization with a Correlation Engine- What's inside your network?
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4898.en.html Security Nightmares]
+| Frank Rieger, Ron
+| Security Nightmares
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4754.en.html Smart Hacking For Privacy]
+| Dario Carluccio, Stephan Brinkhaus
+| Smart Hacking For Privacy
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4798.en.html Sovereign Keys]
+| Peter Eckersley
+| Sovereign Keys- A proposal for fixing attacks on CAs and DNSSEC
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4817.en.html String Oriented Programming]
+| Mathias Payer
+| String Oriented Programming- Circumventing ASLR, DEP, and Other Guards
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4581.en.html Taking control over the Tor network]
+| Eric Filiol, Seun Omosowon
+| Taking control over the Tor network
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4711.en.html The Atari 2600 Video Computer System: The Ultimate Talk]
+| Sven Oliver ('SvOlli') Moll
+| The Atari 2600 Video Computer System: The Ultimate Talk- The history, the hardware and how to write programs
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4748.en.html The best of The oXcars]
+| Simona Xnet
+| The best of The oXcars- the greatest free/Libre culture show of all times
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4848.en.html The coming war on general computation]
+| Cory Doctorow
+| The coming war on general computation- The copyright war was just the beginning
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4856.en.html The engineering part of social engineering]
+| Aluc
+| The engineering part of social engineering- Why just lying your way in won't get you anywhere
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4710.en.html The future of cryptology: which 3 letters algorithm(s) could be our Titanic?]
+| Jean-Jacques Quisquater, Renaud Devaliere
+| The future of cryptology: which 3 letters algorithm(s) could be our Titanic?- RMS Olympic, RMS Titanic, HMHS Britannic  vs Discrete Logarithm, Integer factorization, Conjectured hard problems
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4751.en.html The Hack will not be televised?]
+| Caspar Clemens Mierau
+| The Hack will not be televised?- Hacker in Movies
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4753.en.html The movements against state-controlled Internet in Turkey]
+| Bar, seda
+| The movements against state-controlled Internet in Turkey- A short account of its history and future challenges
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4763.en.html The Science of Insecurity]
+| Meredith L. Patterson, Sergey
+| The Science of Insecurity
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4640.en.html Time is on my Side]
+| Sebastian Schinzel
+| Time is on my Side- Exploiting Timing Side Channel Vulnerabilities on the Web
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4802.en.html Towards a Single Secure European Cyberspace?]
+| Suso Baleato
+| Towards a Single Secure European Cyberspace?- What the European Union wants. What the hackerdom can do..
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4869.en.html TRESOR: Festplatten sicher verschlüsseln]
+| tilo
+| TRESOR: Festplatten sicher verschlüsseln
+| German
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4713.en.html What is in a name?]
+| Christoph Engemann
+| What is in a name?- Identity-Regimes from 1500 to the 2000s
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4700.en.html What is WhiteIT and what does it aim for?]
+| Christian Bahls -- MOGiS e.V. - Eine Stimme der Vernunft
+| What is WhiteIT and what does it aim for?- Why you probably want to be concerned about it and similiar alliances.
+| English
+|
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4707.en.html Your Disaster/Crisis/Revolution just got Pwned]
+| Herr Urbach, willowbl00
+| Your Disaster/Crisis/Revolution just got Pwned- Telecomix and Geeks without Bounds on Security and Crisis Response
+| English
+|
+|-
+|}
+
+=== Bereits vorgeführte Vorträge ===
+
+noch keine
+
+== Sonstiges ==
+
+Die Vortragstabelle wurde per [https://gist.github.com/2304814 XSLT] aus dieser [http://events.ccc.de/congress/2011/Fahrplan/schedule.de.xcs Datei] erstellt.
