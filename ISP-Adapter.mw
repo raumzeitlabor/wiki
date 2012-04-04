@@ -49,6 +49,35 @@ Die Ätzvorlage beinhaltet 9 Platinen auf Eurokartenformat. Jede Einzelplatine i
 |-
 |}
 
+== Bauteile ==
+
+{| class="wikitable" valign="top"
+! Quantity
+! Part
+! Storage Location
+! Remarks
+|-
+| 1
+| Wannenstecker 10polig
+| B0112
+| 
+|-
+| 1
+| Wannenstecker 6polig
+| X074
+| 
+|-
+| 1
+| Stiftleiste 36
+| X083
+| ISP-Adapter: Nur 8 Stifte benötigt
+|-
+| 1
+| Platine ISP-Adapter
+| ZUÄTZEN
+| 
+|}
+
 ==Bausatzreservierung==
 Bitte tragt euch hier ein, falls ihr das RZL unterstützen und einen Bauteilesatz inkl. Platine für 3,00 € erwerben wollt. Es stehen 9 Bausätze zur Verfügung. Der Erlös geht komplett als Spende an das RZL.
 
