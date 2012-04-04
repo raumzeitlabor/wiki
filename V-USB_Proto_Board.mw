@@ -49,6 +49,90 @@ Die Ätzvorlage beinhaltet 4 Platinen auf Eurokartenformat. Jede Einzelplatine i
 
 Bei der ersten bestückten Platine hatte ich diverse Schwierigkeiten, das ganze zum Laufen zu bekommen. Scheinbar ist ein 1,7k-Ohm als D+-Pullup besser geeignet als 1,5k (zumindest, wenn man die Schaltung mit 5V betreiben will). Die D+-Line muß ausserdem an INT0 konnektiert werden. Außerdem sind die Pads viel zu klein, als daß man komfortabel Löten könnte. Diese Punkte fixe ich noch.
 
+==Bauteilliste ==
+
+{| class="wikitable" valign="top"
+! Quantity
+! Part
+! Storage Location
+! Remarks
+|-
+| 2
+| 22pF
+| X074
+| 
+|-
+| 1
+| 100nF RM2,5
+| G0006
+| 
+|-
+| 1
+| 100µF 25V
+| X074
+| 
+|-
+| 2
+| ZF 3,6V 0,5W
+| G0008
+| 
+|-
+| 1
+| ATMEGA8-16
+| ZUBESTELLEN
+| 
+|-
+| 1
+| Stiftleiste 36
+| X083
+| V-USB Proto Board: 24 Pins benötigt
+|-
+| 1
+| IC-Sockel 28-polig, Federkontakt
+| X074
+| 
+|-
+| 1
+| Standardquarz 16MHz flach
+| X080
+| 
+|-
+| 2
+| 68Ω 5% 1/4W
+| W003
+| 
+|-
+| 1
+| 1MΩ 5% 1/4W
+| W0001
+| 
+|-
+| 1
+| 1,5kΩ 5% 1/4W
+| W0001
+| 
+|-
+| 1
+| 10kΩ 5% 1/4W
+| W0001
+| 
+|-
+| 1
+| Wannenstecker 6polig
+| X074
+| 
+|-
+| 1
+| USB-Einbaubuchse Typ B
+| X044
+| 
+|-
+| 1
+| Platine V-USB Proto Board
+| ZUÄTZEN
+| 
+|}
+
 ==Bausatzreservierung==
 Bitte tragt euch hier ein, falls ihr das RZL unterstützen und einen Bauteilesatz inkl. Platine für 6,00 € erwerben wollt. Es stehen 3 Bausätze zur Verfügung. Der Erlös geht komplett als Spende an das RZL. Weitere Bausätze können auf Wunsch zusammengestellt werden.
 
