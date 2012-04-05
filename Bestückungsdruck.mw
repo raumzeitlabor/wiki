@@ -1,0 +1,41 @@
+{{ProjektInfoBox
+|name        = Bestückungsdruck
+|status      = experimental
+|image       = 
+|description = Lustige Symbole
+|author      = [[Benutzer:Felicitus|Felicitus]]
+|username    = 
+|version     = 0.1
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
+Der Bestückungsdruck sind die lustigen kleinen Symbole auf der Oberseite der Platine, damit der Elektroniker weiß, welches Bauteil wohin gehört.
+
+= Varianten =
+
+Es gibt diverse Varianten für den Bestückungsdruck. Alle diese Varianten sind bisher Experimente.
+
+== Transparente Folie auf die Platine kleben (Variante Haushaltskleber) ==
+
+Dies war der erste Versuch. Dazu wurde von derselben Folie wie zum Belichten (Zweckform 3491) der Bestückungsdruck ausgeschnitten und mittels Haushaltskleber (UHU-Derivat) auf die Platine geklebt. Der Kleber trocknet sehr langsam, dadurch ist es möglich, den Kleber recht gut unter der Folie zu verteilen. Nachteil: Durch die lange Trocknungsdauer hebt sich die Folie wieder etwas an.
+
+Beim nächsten Mal auf jeden Fall die Platine pressen und 24 Stunden ruhen lassen.
+
+Punktzahl: 5/10 Punkten
+
+== Transparente Folie auf die Platine kleben (Variante Sprühkleber) ==
+
+Dies war der zweite Versuch. Selbe Folie wie zum Belichten (Zweckform 3491), diesmal wurde die Platine aber mit Sprühkleber von Wiko eingesprüht. Ein Test mit wenig Kleber, ein Test mit viel Kleber. Platine ungefähr 2 Minuten ruhen gelassen, dann die Folie aufgeklebt. Mit einem Spülhandtuch festgedrückt. Ergebnis ist so naja, an einigen Stellen ist die Folie plan auf der Platine, an anderen Stellen sehr fleckig. Eher ungeeignet, da der Kleber schnell haftet. Problematisch ist auch, daß sich der Toner durch das Spülhandtuch löst.
+
+Bei einem weiteren Versuch testen, ob es was bringt, wenn man Platine und Folie besprüht. Außerdem testen, ob es was bringt, wenn man die Folie spiegelverkehrt ausdruckt und so aufklebt, damit sich beim Spültuchrubbeln kein Toner löst.
+
+Punktzahl: 3/10 Punkten
+
+== Tonertransfermethode (Transparente Folie) ==
+
+Das war der dritte Versuch. Da noch ein Stück von der Testfolie übrig war, wurde dieses aufgebügelt.
+
+Ergebnisse: Bei der ersten Bügelaktion mit mittlerer Hitze hat sich kaum Toner auf die Platine übertragen, bei der zweiten Bügelaktion etwas mehr. Aber viel zu wenig, als daß der Bestückungsdruck gut lesbar wäre.
