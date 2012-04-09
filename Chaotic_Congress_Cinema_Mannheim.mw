@@ -31,6 +31,28 @@ Die Chancen das diese Einträge bei der Programmgestaltung berücksichtigt werde
 
 Das Programm für Donnerstag wird jeweils bei der vorangehenden [[Offene RaumZeitLaborierung]] und über die Mailingliste bekanntgegeben.
 
+=== Upcoming ===
+
+Als nächstes werden folgende Mitschnitte vorgeführt:
+
+{| class="wikitable"  valign="top"
+!Titel
+!Referent
+!Zusammenfassung
+!Sprache
+|- 
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4804.en.html Politik hacken]
+| Alexander Müller, Bärwulf Kannitschreiber, Montserrat Graupenschläger
+| Politik hacken- Kleine Anleitung zur Nutzung von Sicherheitslücken gesellschaftlicher und politischer Kommunikation
+| German
+|-
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4848.en.html The coming war on general computation]
+| Cory Doctorow
+| The coming war on general computation- The copyright war was just the beginning
+| English
+|-
+|}
+
 === Noch nicht vorgeführte Vorträge ===
 
 {| class="wikitable"  valign="top"
@@ -430,12 +452,6 @@ Das Programm für Donnerstag wird jeweils bei der vorangehenden [[Offene RaumZei
 | English
 |
 |-
-| [http://events.ccc.de/congress/2011/Fahrplan/events/4804.en.html Politik hacken]
-| Alexander Müller, Bärwulf Kannitschreiber, Montserrat Graupenschläger
-| Politik hacken- Kleine Anleitung zur Nutzung von Sicherheitslücken gesellschaftlicher und politischer Kommunikation
-| German
-|
-|-
 | [http://events.ccc.de/congress/2011/Fahrplan/events/4660.en.html Post Memory Corruption Memory Analysis]
 | endrazine
 | Post Memory Corruption Memory Analysis- Automating exploitation of invalid memory writes
@@ -559,12 +575,6 @@ Das Programm für Donnerstag wird jeweils bei der vorangehenden [[Offene RaumZei
 | [http://events.ccc.de/congress/2011/Fahrplan/events/4748.en.html The best of The oXcars]
 | Simona Xnet
 | The best of The oXcars- the greatest free/Libre culture show of all times
-| English
-|
-|-
-| [http://events.ccc.de/congress/2011/Fahrplan/events/4848.en.html The coming war on general computation]
-| Cory Doctorow
-| The coming war on general computation- The copyright war was just the beginning
 | English
 |
 |-
