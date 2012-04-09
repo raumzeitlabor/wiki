@@ -3,33 +3,8 @@ Bitte die Warenkörbe exportieren (über myreichelt), damit die Sammelbestellung
 == Mitbesteller ==
 === Felicitus braucht ===
 
-Für PolyDAC:
+Allgemeines (Gesamt 105,48€):
 <pre>
-09P 1,0M;2
-6N 138;2
-AD 712 JN;2
-ATMEGA 16-16 DIP;2
-OSZI 16,000000;1
-64W-100;2
-MOS 4067;2
-SIL 5-4 1,0K;2
-SIL 6-5 1,0K;1
-BAT 42;10
-KMR 16;1
-LF 412 CP;5
-</pre>
-
-Für Modularsynth:
-
-<pre>
-
-
-</pre>
-
-Allgemeines:
-<pre>
-2N 3904;20
-2N 3906;20
 ATMEGA 8-16 DIP;3
 BC 547A;10
 BC 547C;10
@@ -51,7 +26,7 @@ METALL 220;100
 METALL 220K;100
 METALL 27,0K;100
 METALL 33,0K;100
-METALL 4,7K;100
+METALL 4,70K;100
 METALL 47,0K;100
 METALL 470K;100
 METALL 68,0K;100
@@ -62,46 +37,29 @@ RAD 105 10/63;20
 RAD 105 2,2/100;20
 WSL 6G;2
 µA 78L05;5
-
 </pre>
 
-Unbekannt:
-
+Mechanik (7,50 €):
 <pre>
-4,0000-HC18;5
-DIO-50S EMS;2
-LF 442 CN;2
-LM 13700 DIL;5
-
 DK 10MM;20
 DK 12MM;20
 DK 15MM;20
 DK 18MM;20
+DK 30MM;20
+DK 25MM;20
+DK 20MM;20
 DK 5MM;20
 DK 8MM;20
-
-MKS-02 1,0N;10
-MKS-02 100N;40
-MKS-02 4,7N;10
-MKS-2-5 1,0µ;5
-MOS 4046;2
-
 </pre>
 
-Mechanik:
-<pre>
-SKS-E M3X20-100;1
-
-</pre>
-
-Werkzeug:
+Werkzeug (36,25€):
 
 <pre>
 CRIMPZANGE PSK;1
 KN 97 61 145A;1
 </pre>
 
-Für Modular-Synth-Module:
+Für Modular-Synth-Module (39,19€):
 <pre>
 TANTAL 1,0/35;3
 EBM 63;50
@@ -133,7 +91,7 @@ MKS-02 10N;20
 PS 25/2G WS;11
 </pre>
 
-Für Modular Synth PSU
+Für Modular Synth PSU (37,25 €)
 <pre>
 V 4511F;1
 KFA 4A SN;1
@@ -144,6 +102,24 @@ KM 01SH-1;1
 KS A1080;1
 KS C3900;1
 LED 105 I WS;5
+AKL 055-03;5
+</pre>
+
+
+----
+
+Unbekannt:
+
+<pre>
+4,0000-HC18;5
+DIO-50S EMS;2
+LF 442 CN;2
+LM 13700 DIL;5
+MKS-02 1,0N;10
+MKS-02 100N;40
+MKS-02 4,7N;10
+MKS-2-5 1,0µ;5
+MOS 4046;2
 </pre>
 
 Für XR-VCO
@@ -151,6 +127,21 @@ Für XR-VCO
 XR 2206CP;1
 </pre>
 
+Für PolyDAC (23,43€):
+<pre>
+09P 1,0M;2
+6N 138;2
+AD 712 JN;2
+ATMEGA 16-16 DIP;2
+OSZI 16,000000;1
+64W-100;2
+MOS 4067;2
+SIL 5-4 1,0K;2
+SIL 6-5 1,0K;1
+BAT 42;10
+KMR 16;1
+LF 412 CP;5
+</pre>
 Gesamt 255,71€
 
 === Cheatha braucht ===
