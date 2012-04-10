@@ -1,0 +1,36 @@
+{{ProjektInfoBox
+|name        = Schoko3D
+|status      = experimental
+|image       = 
+|description = 3D Schoko Drucker
+|author      = muzy, TheTinyToon
+|username    = 
+|version     = 0.0
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
+Ein 3D Drucker der mit Schokolade druckt.
+
+== Linkdump ==
+* http://wiki.makerbot.com/frostruder-mk2
+* http://wiki.makerbot.com/frostruder-mk1
+* http://www.amazon.de/Kaiser-666327-Cremespritzen-Set-Edelstahlt%C3%BCllen-Adapterscheibenset/dp/B002WHXJOS/ref=pd_sim_k_1
+
+== Kühlung ==
+* 4 Peltierelemente, gekauft --[[Benutzer:Muzy|Muzy]] 23:06, 10. Apr. 2012 (CEST)
+* Netzteil, gekauft --[[Benutzer:Muzy|Muzy]] 23:06, 10. Apr. 2012 (CEST)
+
+== Ideendump ==
+* Schokodrops
+* Heizspirale
+
+== ToDo ==
+* Spritzen, Kanülen ausprobieren
+
+
+
+
+[[Kategorie:Projekt]][[Kategorie: KleinProzessorZüchter]]
