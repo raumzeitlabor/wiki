@@ -1,6 +1,6 @@
 {{EventInfoBox
 |name        = 
-|status      = upcoming
+|status      = stable
 |image       = 28c3-logo.png
 |description = Geselliges konsumieren von 28C3 Vorträgen
 |author      = [[Benutzer:Unicorn|Unicorn]], [[Benutzer:Blabber|blabber]], [[Benutzer:Silsha|silsha]]
@@ -754,3 +754,6 @@ noch keine
 == Sonstiges ==
 
 Die Vortragstabelle wurde per [https://gist.github.com/2304814 XSLT] aus dieser [http://events.ccc.de/congress/2011/Fahrplan/schedule.de.xcs Datei] erstellt.
+
+
+[[Kategorie:Veranstaltung]]
