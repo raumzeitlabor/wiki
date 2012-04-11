@@ -11,6 +11,17 @@ IFSH-B-4,75;20
 
 === Felicitus braucht ===
 
+Für den RZL Audio Switch:
+<pre>
+EBS 35;4
+KSSM 35;4
+CSP RT;4
+CSP SW;4
+CKP RT;2
+CKP SW;2
+CBM METALL;4
+</pre>
+
 Allgemeines (Gesamt 105,48€):
 <pre>
 ATMEGA 8-16 DIP;3
