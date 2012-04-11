@@ -67,7 +67,7 @@ CRIMPZANGE PSK;1
 KN 97 61 145A;1
 </pre>
 
-Für Modular-Synth-Module (39,19€):
+Für Modular-Synth-Module (61,21€):
 <pre>
 TANTAL 10/35;4
 EBM 63;100
@@ -101,6 +101,8 @@ MKS-02 10N;20
 MKS-2-5 1,0µ;5
 PS 25/2G WS;11
 TANTAL 1,0/35;1
+LM 13700 DIL;1
+MOS 4046;2
 </pre>
 
 Für Modular Synth PSU (37,25 €)
@@ -120,27 +122,15 @@ AKL 055-03;5
 
 ----
 
-Unbekannt:
-
-<pre>
-4,0000-HC18;5
-DIO-50S EMS;2
-LF 442 CN;2
-LM 13700 DIL;5
-MKS-02 1,0N;10
-MKS-02 100N;40
-MKS-02 4,7N;10
-MKS-2-5 1,0µ;5
-MOS 4046;2
-</pre>
-
 Für XR-VCO
 <pre>
 XR 2206CP;1
+LF 442 CN;2
 </pre>
 
 Für PolyDAC (23,43€):
 <pre>
+DIO-50S EMS;2
 09P 1,0M;2
 6N 138;2
 AD 712 JN;2
@@ -153,7 +143,11 @@ SIL 6-5 1,0K;1
 BAT 42;10
 KMR 16;1
 LF 412 CP;5
+MKS-02 1,0N;10
+MKS-02 100N;40
+MKS-02 4,7N;10
 </pre>
+
 Gesamt 255,71€
 
 === Cheatha braucht ===
