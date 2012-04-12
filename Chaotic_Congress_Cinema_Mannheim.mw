@@ -42,18 +42,6 @@ Als nächstes werden folgende Mitschnitte vorgeführt.
 !Dauer
 !Sprache
 |-
-| [http://events.ccc.de/congress/2011/Fahrplan/events/4848.en.html The coming war on general computation]
-| Cory Doctorow
-| The coming war on general computation- The copyright war was just the beginning
-| 01H00M00S
-| English
-|- 
-| [http://events.ccc.de/congress/2011/Fahrplan/events/4804.en.html Politik hacken]
-| Alexander Müller, Bärwulf Kannitschreiber, Montserrat Graupenschläger
-| Politik hacken- Kleine Anleitung zur Nutzung von Sicherheitslücken gesellschaftlicher und politischer Kommunikation
-| 01H00M00S
-| German
-|-
 |}
 
 === Noch nicht vorgeführte Vorträge ===
@@ -749,7 +737,29 @@ Als nächstes werden folgende Mitschnitte vorgeführt.
 
 === Bereits vorgeführte Vorträge ===
 
-noch keine
+{| class="wikitable"  valign="top"
+!Datum
+!Titel
+!Referent
+!Zusammenfassung
+!Dauer
+!Sprache
+|-
+| 12.04.2012
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4848.en.html The coming war on general computation]
+| Cory Doctorow
+| The coming war on general computation- The copyright war was just the beginning
+| 01H00M00S
+| English
+|- 
+| 12.04.2012
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4804.en.html Politik hacken]
+| Alexander Müller, Bärwulf Kannitschreiber, Montserrat Graupenschläger
+| Politik hacken- Kleine Anleitung zur Nutzung von Sicherheitslücken gesellschaftlicher und politischer Kommunikation
+| 01H00M00S
+| German
+|-
+|}
 
 == Sonstiges ==
 
