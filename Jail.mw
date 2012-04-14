@@ -1,0 +1,10 @@
+==Datenbanken==
+*[[Drupal|rzl_drupal]]
+
+==htdocs==
+;/data/www/raumzeitlabor.de/htdocs/
+:''shop'' [https://raumzeitlabor.de/shop https://raumzeitlabor.de/shop]
+:''status.php'' Symlink zu ''/data/www/status.raumzeitlabor.de/htdocs/''
+:''w'' [https://raumzeitlabor.de/wiki https://raumzeitlabor.de/wiki]
+
+[[Kategorie:Projekt]]
