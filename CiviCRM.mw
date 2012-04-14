@@ -24,13 +24,12 @@ Bisher gibt es folgende Guides:
 * [[CiviCRM/Event|Event erstellen]]
 
 ==Technische Informationen==
-(womöglich veraltet?)
 *CiviCRM-3.1.3
 *Drupal-6.16
 *MySQL-5.1.39
 *PHP-5.2.9
 
-Drupal und CiviCRM benutzen jeweils eine eigene MySQL-Datenbank.
+Drupal und CiviCRM benutzen eine gemeinsame MySQL-Datenbank.
 
 ==Module==
 ===civiCONTRIBUTE===
