@@ -69,6 +69,9 @@ Report generation and template management.
 ;In der Eventübersicht werden alte Einträge ohne gesetztes Enddatum angezeigt.
 :[http://raumzeitlabor.de/civicrm/event/manage&reset=1 Manage Events (''Show Current & Upcoming Events'')]
 
+==Upgrade auf CiviCRM 4.x==
+*[http://wiki.civicrm.org/confluence/display/CRMDOC41/Upgrade+Drupal+Sites+to+4.1+-+Drupal+6 Upgrade Drupal Sites to 4.1 - Drupal 6]
+
 ==Links==
 * [http://raumzeitlabor.de/civicrm/event/ical?reset=1&page=1&html=1 HTML Liste aktueller und zukünftiger ''öffentlicher'' Veranstaltungen]
 * [http://raumzeitlabor.de/civicrm/event/ical?reset=1&page=1&rss=1 RSS-Feed aktueller und zukünftiger ''öffentlicher'' Veranstaltungen]
