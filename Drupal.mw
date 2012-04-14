@@ -124,5 +124,8 @@ return $match;
 ===Update Vorbereitungen===
 *[http://drupal.org/documentation/upgrade/6/7 Upgrading from Drupal 6 to 7]
 *[http://drupal.org/node/895314 Drupal 6 contributed modules that are in Drupal 7 core]
-*
+====PHP Updates====
+<pre>A PDO database driver is required!
+You need to enable the PDO_MYSQL database driver for PHP 5.2.4 or higher so that Drupal 7 can access the database.
+See the system requirements page for more information.</pre>
 [[Kategorie:Projekt]]
