@@ -51,7 +51,9 @@ Report generation and template management.
 *authenticated user
 *contributor
 *Mitglied
+**Kann Blogbeiträge erstellen
 *Redakteur
+**Kann auch fremde Blogbeiträge bearbeiten
 *Öffentlichkeitsarbeit
 
 ==Bugs==
