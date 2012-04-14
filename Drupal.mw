@@ -74,8 +74,8 @@ Um tiefere Eingriffe in diversen Konfigurationsdateien zu vermeiden sollte der E
 *[http://drupal.org/project/wysiwyg Wysiwyg]
 **[http://tinymce.moxiecode.com/index.php TinyMCE]
 **<s>[http://ckeditor.com/ CKEditor]</s>
-*[http://drupal.org/project/wysiwyg_imageupload WYSIWYG image upload]
-**[http://drupal.org/project/jquery_ui_dialog Jquery UI Dialog]
+*[http://drupal.org/project/wysiwyg_imageupload WYSIWYG image upload] (Neues Repository: [https://github.com/EugenMayer/wysiwyg_imageupload])
+**[http://drupal.org/project/jquery_ui_dialog Jquery UI Dialog] (Neues Repository: [https://github.com/EugenMayer/jquery_ui_dialog])
 ***[http://drupal.org/project/jquery_ui jQuery UI]
 ****[https://code.google.com/p/jquery-ui/downloads/list?can=3&q=1.7 jquery-ui]
 ***[http://drupal.org/project/jquery_update jQuery Update]
