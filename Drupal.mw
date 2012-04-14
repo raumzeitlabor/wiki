@@ -118,4 +118,11 @@ if (arg(0) == 'taxonomy')
 
 return $match;
 ?></pre>
+
+==Drupal 7==
+*[http://pad.raumzeitlabor.de:9001/p/homepage Pad]
+===Update Vorbereitungen===
+*[http://drupal.org/documentation/upgrade/6/7 Upgrading from Drupal 6 to 7]
+*[http://drupal.org/node/895314 Drupal 6 contributed modules that are in Drupal 7 core]
+*
 [[Kategorie:Projekt]]
