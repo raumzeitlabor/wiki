@@ -2,10 +2,25 @@
 
 === Felicitus braucht ===
 
-* 10x TT Potentiometer, 16mm, 100k log, solder pads
-* 10x TT Potentiometer, 16mm, 1M log, solder pads
-* 10x TT Potentiometer, 16mm, 10k lin, solder pads
-* 10x TT Potentiometer, 16mm, 100k lin, solder pads
+<pre>
+TT-Potentiometer:
+
+15x 50k lin
+13x 25k lin
+1x 250k lin
+8x 50k log
+10x 10k lin
+14x 10k log
+5x 100k lin
+12x 1M log
+1x 500k log
+12x 100k log
+
+$woanders:
+2x 1M rev log
+1x 500k rev log
+
+
 
 == Bestellinformationen ==
 
