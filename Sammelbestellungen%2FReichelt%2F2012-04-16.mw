@@ -118,6 +118,16 @@ LM 13700 DIL;1
 MOS 4046;2
 </pre>
 
+Für den Minimoog VCF:
+
+<pre>
+MKS-2-5 47N;20
+RAD 10/100;10
+RAD 220/35;10
+64W-500;5
+</pre>
+
+
 Für Modular Synth PSU (37,25 €)
 <pre>
 V 4511F;1
