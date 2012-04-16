@@ -77,8 +77,13 @@ Request:
 
 == Umsetzung ==
 
-Zunächst müssen die Raspberry Pis verfügbar sein und funktionieren :).
+sECuRE hat einen funktionierenden Raspberry Pi. Cross-kompilierte Go-Programme laufen darauf.
 
-Sobald das der Fall ist, kann man eine Library implementieren, welche die oben beschriebene API bereitstellt. Geräte kann man dann einfach ins RZL-Netz hängen zunächst (in ein separates Netz kann man sie später ohne großen Aufwand verschieben). Die Firebox kriegt neue DNS-Einträge für neue Geräte. Anschließend kann man die bestehende Software (pin-sync, türstatusd, ssh-unlock) anpassen.
+Angepeilte Milestones:
+
+# Eigenes Image fürs Raspberry Pi bauen (read-only), welches sich stabil via DHCP ins Netz klemmt und via IPv4 + IPv6 ansprechbar ist. iptables sollte vorhanden sein.
+# Kommunikation via UART mit dem (neuen) Pinpad-Frontend implementieren.
+# Kommunikation mit dem Hometec+0x implementieren.
+# tuerstatusd ersetzen, pin-sync implementieren
 
 Die oben erklärte HTTP-API habe ich in einer Go-Library (und Beispiel) umgesetzt: https://github.com/raumzeitlabor/rzlbus
