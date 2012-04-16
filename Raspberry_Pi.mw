@@ -55,3 +55,19 @@ Je nach Versandkosten macht es evtl. Sinn, eine Sammelbestellung zu starten. Int
 | 0
 | 3
 |}
+
+== Leistung ==
+
+=== RAM ===
+
+Nachdem man auf der SD-Karte in /boot den Bootloader arm224_start.elf nach /boot/start.elf kopiert und neustartet, hat man den maximalen Arbeitsspeicher zur Verfügung:
+
+ pi@raspberrypi:~$ free -m
+              total       used       free     shared    buffers     cached
+ Mem:           218         38        179          0          4         20
+ -/+ buffers/cache:         12        205
+ Swap:            0          0          0
+
+=== Ethernet ===
+
+Mittels iperf (keine Optionen) konnte ich 94 MBit/s Durchsatz messen. Standardmäßig hat zumindest das Debian-Image des Raspberry Pis kein iptables geladen. Mit iptables wird der Durchsatz vermutlich schlechter.
