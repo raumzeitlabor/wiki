@@ -5,22 +5,24 @@
 <pre>
 TT-Potentiometer:
 
-15x 50k lin
 13x 25k lin
+12x 100k log
 1x 250k lin
-8x 50k log
 10x 10k lin
 14x 10k log
 15x 100k lin
 12x 1M log
 1x 500k log
-12x 100k log
-
-$woanders:
-2x 1M rev log
-1x 500k rev log
 </pre>
 
+$woanders:
+<pre>
+2x 1M rev log
+1x 500k rev log
+15x 50k lin
+8x 50k log
+
+</pre>
 
 == Bestellinformationen ==
 
