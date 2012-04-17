@@ -1,3 +1,7 @@
+[[Bild:Hometech++0x-oberseite.jpg|miniatur]]
+
+[[Bild:Hometech++0x-unterseite.jpg|miniatur]]
+
 Die Hometech++0x-Platine enthält Motorsteuerung für die Motoren im Hometech, IO für die Türsensoren und IO für RS232 als Verbindung zum Pinpad-Frontend.
 
 Dies ist die Pinbelegung für die Motortreiber:
@@ -41,7 +45,3 @@ Dies ist die Pinbelegung für die Türsensoren:
 |-
 | GPIO1 || TAST5
 |}
-
-[[Bild:Hometech++0x-oberseite.jpg|miniatur]]
-
-[[Bild:Hometech++0x-unterseite.jpg|miniatur]]
