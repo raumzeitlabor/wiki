@@ -1,3 +1,7 @@
+Bitte die Warenkörbe exportieren (über myreichelt), damit die Sammelbestellung einfach zusammengeführt werden kann.
+
+== Mitbesteller ==
+
 == Simon benötigt ==
 <pre>
 TS 78L03 CX;10
@@ -17,3 +21,5 @@ SMD-LED 1206 GE;10
 SMD-LED 1206 RT;10
 X7R-G1206 1,0/50;25
 </pre>
+
+[[Kategorie:Sammelbestellungen/Reichelt]]
