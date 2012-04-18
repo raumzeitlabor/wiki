@@ -2,7 +2,7 @@
 
 [[Bild:Hometech++0x-unterseite.jpg|miniatur]]
 
-Die Hometech++0x-Platine enthält Motorsteuerung für die Motoren im Hometech, IO für die Türsensoren und IO für RS232 als Verbindung zum Pinpad-Frontend.
+Die Hometech++0x-Platine enthält Motorsteuerung für die Motoren im Hometech, IO für die Türsensoren und IO für RS232 als Verbindung zum Pinpad-Frontend. Propagation delay bei RX beträgt unter 80ns, bei TX unter 20ns.
 
 Dies ist die Pinbelegung für die Motortreiber:
 
