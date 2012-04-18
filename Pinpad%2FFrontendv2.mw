@@ -22,3 +22,8 @@ Diesmal möchten wir statt TTL-Pegel-UART lieber RS485 verwenden, was bei zwei T
 
 Wichtig:
 * Darauf achten den Bus ordentlich zu terminieren (Widerstände zwischen A/B/VCC/GND, wie beim Hausbus).
+
+= TODO-Liste =
+
+* Das Protokoll so erweitern, dass man die mehrfarbigen LEDs und das LCD ansteuern kann (sECuRE)
+* Gehäuse entwerfen/planen/machen (AlexanderB)
