@@ -71,3 +71,31 @@ Nachdem man auf der SD-Karte in /boot den Bootloader arm224_start.elf nach /boot
 === Ethernet ===
 
 Mittels iperf (keine Optionen) konnte ich 94 MBit/s Durchsatz messen. Standardmäßig hat zumindest das Debian-Image des Raspberry Pis kein iptables geladen. Mit iptables wird der Durchsatz vermutlich schlechter.
+
+=== SATA-Festplatte via USB2SATA ===
+
+Ich habe eine Seagate ST2000DL (2 TiB) mit einem USB2SATA-Adapter (Noname) angeschlossen. Folgende Geschwindigkeiten werden erreicht:
+
+ root@raspberrypi:/home/pi# dd if=/dev/sda of=/dev/null bs=5M count=100
+ 100+0 records in
+ 100+0 records out
+ 524288000 bytes (524 MB) copied, 24.1694 s, 21.7 MB/s
+
+ root@raspberrypi:/home/pi# dd if=/dev/zero of=/dev/sda bs=5M count=100
+ 100+0 records in
+ 100+0 records out
+ 524288000 bytes (524 MB) copied, 31.0694 s, 16.9 MB/s
+
+Wohingegen ich auf meiner Workstation folgende Geschwindigkeiten erreiche:
+
+ midna ~ $ s dd if=/dev/sdd of=/dev/null bs=5M count=100
+ 100+0 records in
+ 100+0 records out
+ 524288000 bytes (524 MB) copied, 16,6109 s, 31,6 MB/s
+
+ midna ~ $ s dd if=/dev/zero of=/dev/sdd bs=5M count=100
+ 100+0 records in
+ 100+0 records out
+ 524288000 bytes (524 MB) copied, 17,8588 s, 29,4 MB/s
+
+Bei meiner Workstation scheint also entweder USB oder der Adapter der Flaschenhals zu sein (USB2 schafft 60 MB/s laut Spec, die Festplatte auch). Beim Raspberry Pi hingegen ist der Raspberry Pi selbst der Flaschenhals.
