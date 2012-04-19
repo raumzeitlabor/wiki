@@ -112,14 +112,12 @@ Wenn man den Raspberry Pi als billige NAS benutzen will, hat man folgendes Probl
 
  root@raspberrypi:/home/pi# dd if=/dev/sda bs=5M count=100 | nc -l -p 7000
  524288000 bytes (524 MB) copied, 109.542 s, 4.8 MB/s
-
- root@raspberrypi:/home/pi# dd if=/dev/sda bs=5M count=100 | nc -l -p 7000
  524288000 bytes (524 MB) copied, 95.8238 s, 5.5 MB/s
-
- root@raspberrypi:/home/pi# dd if=/dev/sda bs=5M count=100 | nc -l -p 7000
  524288000 bytes (524 MB) copied, 95.4676 s, 5.5 MB/s
 
 Man büßt also ca. 2 MB/s an Netzwerk-Performance ein.
 Das liegt daran, dass der Ethernet-Port via USB angebunden ist:
 
  smsc95xx 1-1.1:1.0: eth0: register 'smsc95xx' at usb-bcm2708_usb-1.1, smsc95xx USB 2.0 Ethernet
+
+Wenn man auf dem Raspberry Pi einen Apache installiert und von einem ext4-Dateisystem auf der Festplatte eine 150 MiB große Datei bereitstellt, kann man diese mit 8,13 MB/s (~ 65 Mbit/s) laden.
