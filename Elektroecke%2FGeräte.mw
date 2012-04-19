@@ -31,6 +31,17 @@
 |besitzer      = DaFo
 |status        = Noch defekt, Umbau
 }}
+
+=== Regelbares Netzteil IV ===
+{{RowInfoBox
+|bild          = Netzteil goobay DF1730LCD.jpg
+|hersteller    = goobay
+|typ           = DF1730LCD
+|beschreibung  = 
+|doku          = 
+|besitzer      = [[Benutzer:Felicitus|Felicitus]]
+|status        = OK
+}}
 == Messtechnik ==
 === Oszilloskop Hameg HM 203-6 ===
 {{RowInfoBox
@@ -45,7 +56,7 @@
 
 === Oszilloskop Tektronix 2215 ===
 {{RowInfoBox
-|bild          = Kommt noch
+|bild          = Oszilloskop Tektronix 2215.jpg
 |hersteller    = [http://www.tek.com/ Tektronix]
 |typ           = tek-2215
 |besitzer      = Drahti
@@ -56,7 +67,7 @@
 
 === Oszilloskop Owon PDS8202T ===
 {{RowInfoBox
-|bild          = Kommt noch
+|bild          = Oszilloskop Owon PDS8202T.jpg
 |hersteller    = [http://www.owon.com.cn/eng/index.asp Owon]
 |typ           = Owon PDS8202
 |besitzer      = Drahti
