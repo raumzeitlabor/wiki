@@ -43,6 +43,28 @@
 |status        = OK
 }}
 
+=== Oszilloskop Tektronix 2215 ===
+{{RowInfoBox
+|bild          = Kommt noch
+|hersteller    = [http://www.tek.com/ Tektronix]
+|typ           = tek-2215
+|besitzer      = Drahti
+|beschreibung  =
+|doku          = Drahti fragen
+|status        = OK  
+}}
+
+=== Oszilloskop Owon PDS8202T ===
+{{RowInfoBox
+|bild          = Kommt noch
+|hersteller    = [http://www.owon.com.cn/eng/index.asp Owon]
+|typ           = Owon PDS8202
+|besitzer      = Drahti
+|beschreibung  =
+|doku          = Drahti fragen
+|status        = OK  
+}}
+
 === Oszilloskop Gould OS300 === 
 {{RowInfoBox
 |bild          = Gould os300.jpg
