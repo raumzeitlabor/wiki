@@ -101,6 +101,11 @@ Wohingegen ich auf meiner Workstation folgende Geschwindigkeiten erreiche:
 
 Bei meiner Workstation scheint also entweder USB oder der Adapter der Flaschenhals zu sein (USB2 schafft 60 MB/s laut Spec, die Festplatte auch). Beim Raspberry Pi hingegen ist der Raspberry Pi selbst der Flaschenhals.
 
+Wenn ich auf ein Dateisystem schreibe und der Kernel daher cachen kann, fällt das nicht mehr so ins Gewicht:
+
+ root@raspberrypi:/mnt/2t# dd if=/dev/zero of=150M bs=1M count=150
+ 157286400 bytes (157 MB) copied, 5.6233 s, 28.0 MB/s
+
 === SATA-Festplatte via USB2SATA übers Netz ===
 
 Wenn man den Raspberry Pi als billige NAS benutzen will, hat man folgendes Problem:
