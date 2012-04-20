@@ -15,6 +15,15 @@ Hier wird die TODO-Liste gepflegt und absteigend nach Priorität sortiert.
 * Lankabel richtig auflegen
 ** Details?!?
 * Lichtsteuerung
+* Public Laptops dokumentieren
+* IP-Zuweisung für Public Terminals anpassen
+{| class=wikitable style="margin-left:30px;"
+| 172.22.36.121 || electr0ll || Public Terminal PC E-Ecke I
+|-
+| 172.22.36.122 || eeckpc    || Public Terminal PC E-Ecke II
+|-
+| 172.22.36.123 || imurks    || Public Terminal Apple iMac 
+|}
 
 === Ätzecke ===
 
