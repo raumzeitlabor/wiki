@@ -205,16 +205,26 @@
 |status        = OK
 }}
 
-
-=== [[PC-Eeck]] ===
+=== PC E-Ecke I ===
 {{RowInfoBox
-|bild          = RaumZeitLabor - Logo - Schwarz.svg
+|bild          = IMG_0389.JPG
 |hersteller    = 
 |typ           = 
-|beschreibung  = siehe [[PC-Eeck]]
+|beschreibung  = siehe [[Public Terminals#PC_E-Ecke_I|Public Terminals]]
 |doku          = n/a
-|besitzer    = [[Benutzer:Tiefpunkt|tiefpunkt]] (der eigentliche Rechner zumindest)
+|besitzer      = 
 |status        = OK
+}}
+
+=== PC E-Ecke II ===
+{{RowInfoBox
+|bild          = Monitor_E-Ecke.jpg
+|hersteller    = 
+|typ           = 
+|beschreibung  = siehe [[Public Terminals#PC_E-Ecke_II|Public Terminals]]
+|doku          = n/a
+|besitzer       = [[Benutzer:Tiefpunkt|tiefpunkt]] (der eigentliche Rechner zumindest)
+|status        = Noch nicht angeschlossen
 }}
 
 === Absaugung ===
@@ -235,17 +245,6 @@
 |beschreibung  = 1.3MP
 |doku          = 
 |besitzer      = RaumZeitLabor
-|status        = OK
-}}
-
-=== Monitor ===
-{{RowInfoBox
-|bild          = Monitor_E-Ecke.jpg
-|hersteller    = CTV
-|typ           = 
-|beschreibung  = 1600x1200, DVI und VGA-Eingang. Achtung, der Monitor scheint erst im Laufe der Zeit heller zu werden
-|doku          = 
-|besitzer    = RaumZeitLabor
 |status        = OK
 }}
 
