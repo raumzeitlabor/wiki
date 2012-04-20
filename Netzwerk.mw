@@ -2,11 +2,11 @@
 Hier wird/ist die Netzwerkstruktur im Raum dokumentiert.
 
 == Ansprechpartner ==
-Bei jeglichen Fragen zum Netz bitte [[Benutzer:Docsteel|Docsteel]], [[Benutzer:Scytale|Scytale]] oder [[Benutzer:SEC|sECuRE]] ansprechen, auf keinen Fall selbst Änderungen an Router, Verkabelung oder IP-Adresszuteilung vornehmen!
+Bei jeglichen Fragen zum Netz bitte [[Benutzer:Docsteel|Docsteel]], [[Benutzer:SEC|sECuRE]] oder  [[Benutzer:Tiefpunkt|tiefpunkt]] ansprechen, auf keinen Fall selbst Änderungen an Router oder  Verkabelung vornehmen!
 
 == Rack ==
 [[Datei:IMG_0336.JPG|Thumb|300px]]
-Das [[DELLPS38S|Rack]] befindet sich in der [[E-Eck]]e und enthält das Patchpanel, unseren Switch, unseren Router sowie diverse andere Hardware, z.B. für die Türsteuerung.
+Das [[Rack]] befindet sich in der [[E-Ecke]] und enthält das Patchpanel, unseren Switch, unseren Router sowie diverse andere Hardware, z.B. für die Türsteuerung.
 
 == Uplink ==
 Wir nutzen die Internetverbindung eines unserer Nachbarn mit.
@@ -19,6 +19,9 @@ Wenn du im Netzwerk (mit oder ohne Kabel) hängst, ist dein Computer im dn42.net
 Das dn42 ist ein VPN, welches Chaostreffs, Hackerspaces und sonstige Chaoten vernetzt. Siehe [http://dn42.net dn42.net]
 
 Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, welterde, mittagessen, nobody, docsteel, Felicitus).
+
+== WLAN ==
+Wir betreiben 2 802.11g Access Points, einen auf der Beamer-Ebene und einen neben der Tafel. Das Netz hört auf die SSID "RZL-hardcore" und ist WEP-"verschlüsselt".
 
 == Hosts ==
 
@@ -58,7 +61,7 @@ Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.111 || ''reserved'' || Reserviert für Infrastruktur
 |-----
-| 172.22.36.112 || [[PC-Eeck]] || Public Terminal
+| 172.22.36.112 || ''reserved'' || Reserviert für Infrastruktur
 |-----
 | 172.22.36.113 || ''reserved'' || Reserviert für Infrastruktur
 |-----
@@ -76,11 +79,11 @@ Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.120 || bottom || bottom.uurgn.org von rabe ([https://wiki.uugrn.org/UUGRN:Server/bottom Details im UUGRN Wiki])
 |-----
-| 172.22.36.121 || ''reserved'' || Reserviert für Geräte
+| 172.22.36.121 || electr0ll || [[Public Terminals|Public Terminal]] PC E-Ecke I
 |-----
-| 172.22.36.122 || ''reserved'' || Reserviert für Geräte
+| 172.22.36.122 || eeckpc || [[Public Terminals|Public Terminal]] PC E-Ecke II
 |-----
-| 172.22.36.123 || ''reserved'' || Reserviert für Geräte
+| 172.22.36.123 || imurks || [[Public Terminals|Public Terminal]] Apple iMac
 |-----
 | 172.22.36.124 || ''reserved'' || Reserviert für Geräte
 |-----
@@ -144,5 +147,6 @@ Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, 
 |-----
 | 172.22.36.254 || ''reserved'' || Reserviert für Geräte
 |}
+
 
 [[Kategorie:Infrastruktur]]
