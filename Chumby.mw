@@ -1,9 +1,9 @@
-Der Chumby ist eine nette kleine Box und dient als Monitor für unseren Stromverbrauch.
+Der Chumby ist ein kleines Device mit TouchScreen und (W)LAN, und steht auf dem Regal neben der Stereo-Anlage. Er ist eine Leihgabe von [[Benutzer:Docsteel|docsteel]]. Auf Grund von Problemen mit der WiFi-Konfiguration ist er über einen USB-Ethernet-Adapter an unser Netz angeschlossen.
 
-==Siehe auch==
-*[[Flukso]]
+Auf dem Chumby laufen kleine Flash-Apps. Neben einem Haufen spaßigem Krimskrams läuft auf unserem ein MPD-Client, über den sich unser [[VIP1710|MPD-Server]] steuern lässt.
 
 ==Links==
-*http://www.chumby.com/
+* http://de.wikipedia.org/wiki/Chumby
+* http://www.chumby.com/
 
 [[Kategorie:Hardware]]
