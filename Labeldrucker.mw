@@ -1,20 +1,24 @@
 == Brother P-touch QL-500 ==
-[[Datei:Labeldrucker QL500.JPG|thumb|300px|right|Der QL-500 Druckre]]
+[[Datei:Labeldrucker QL500.JPG|thumb|200px|right|Der QL-500 Druckre]]
 
 Der Drucker ist am Rechner der E-Ecke angeschlossen.
 
 Benutzung: Der große Taster schaltet den Drucker ein/aus, der kleine Taster löst den Vorschub aus. Da der Drucker keine automatische Schneideeinheit befindet, mußt du den Hebel unten nach rechts ziehen.
 
-== Etiketten drucken ==
-[[Datei:LabelMaker.jpg|thumb|300px|right|Die LabelMaker Software]]
+=== Etiketten drucken ===
+[[Datei:LabelMaker.jpg|thumb|200px|right|Die LabelMaker Software]]
 Prinzipiell kannst du jede Software verwenden, z.b. gLabels oder direkt aus einer Anwendungssoftware drucken. Du kannst aber auch die LabelMaker-Software nutzen - erreichbar auf dem E-Eck PC unter:
 
 http://localhost/LabelMaker/
 
 Die Software druckt dann direkt auf dem lokalen Drucker.
 
-== LabelMaker ==
+=== LabelMaker ===
 
-LabelMaker ist eine Software, die fix zusammengehackt wurde.
+LabelMaker ist eine Software, die fix zusammengehackt wurde. Sie ist geeignet dafür, um Besitzeretiketten zu drucken.
 
 Wer eine bessere Variante entwickeln will - sehr gerne! Es ist aber sinnvoll, wenn du vorher mit [[Benutzer:Felicitus]] sprichst.
+
+== Brother P-Touch 2430PC ==
+
+Dieser Labeldrucker ist am Rechner der E-Ecke angeschlossen. Unter Linux kannst du bLabel nutzen, diese Software kann aber maximal Bänder mit 12mm drucken. Für weitere größen willst du das Windows-System booten und die Brother Software nutzen (diese kann übrigens auch Barcodes und automatische Nummerierung).
