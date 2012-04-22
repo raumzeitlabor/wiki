@@ -1,0 +1,12 @@
+[[Datei:Laserscanner_drehtisch.jpg|200px|thumb|right|Drehtisch]]
+
+[[Datei:Laserscanner_laser.jpg|200px|thumb|right|Linienlaser]]
+
+Es soll ein 3D-Laserscanner nach dem Vorbild des Fabscan[http://hci.rwth-aachen.de/FabScan] gebaut werden. Dazu hat Alexander einen Drehtisch und eine Vorrichtung um den Laser zu drehen gebaut.
+
+=== TODO ===
+
+* Arduino Shield für Motortreiber ätzen/beschaffen. Motortreiber sind bereits vorhanden.
+* Gehäuse bauen
+* Software evaluieren
+* Laserscanner in Betrieb nehmen
