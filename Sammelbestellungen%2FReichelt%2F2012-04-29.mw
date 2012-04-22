@@ -26,6 +26,7 @@ SMD 1/4W 330;100
 SMD 1/4W 10K;100
 DI 8MM;12
 USB BW SMD;5
+FT 232 RL;1
 </pre>
 
 == hax404 benötigt ==
