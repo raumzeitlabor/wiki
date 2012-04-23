@@ -61,6 +61,12 @@ Grobe Prozessübersicht für 1-seitiges Layout, Bungard Epoxyd-Platinen.
 |Ätzen
 |Die Platine ca. 10-15 Minuten ätzen. Während dieser Zeit einmal oder mehrmals wenden. Die Heizspirale muß vollständig mit Ätzflüssigkeit bedeckt sein! Ätztemperatur ca. 40-45°C. 
 |-
+|Optional: Chemisch Verzinnen
+|Eine der Flaschen mit chemisch Zinn in ein Glasgefäß geben und ordentlich umrühren (die Bestandteile setzen sich am Boden ab). Danach ca. 200ml in die Arbeitsschale geben und die Platine 2-3 Minuten chemisch verzinnen lassen. Der Prozess stoppt automatisch bei ca 5µm. Platine entfernen und den Rest der Flüssigkeit wieder in den Aufbewahrungsbehälter geben. Die Platine zeitnah löten oder mit Lötlack versiegeln, damit die Schicht nicht oxidiert.
+|-
+|Optional: Lötlack SK10 aufsprühen
+|Der Lötlack dient zum Schutz der Platine vor Oxidierung und Versiegelung. Dies kann auch ohne vorheriges Verzinnen geschehen. Es empfiehlt sich, die Platine *vorher* zu schneiden/bohren. Wichtig ist, daß der Lötlack in einer recht staubfreien Umgebung aufgesprüht wird (RZL ist staubig!). Am besten draußen mit einem Karton, der verschlossen werden kann. Verfahrensweise siehe Aufdruck der Flasche. Der Lötlack ist auch nach dem trocken klebrig und Fingerabdrücke bleiben dauerhaft.
+|-
 |Aufräumen
 |Ätzflüssigkeit abkühlen lassen (unter 30°C sind OK), mit dem Trichter in die Plastikflaschen abfüllen. Das Abfüllen kann etwas trickreich sein - '''IMMER''' obacht geben und nicht die neusten Klamotten zum Ätzen verwenden (trotz Labcoat). Alle Gegenstände gründlich säubern und Abstrocknen. [[Benutzer:Felicitus|Felicitus]] vermutet, daß Kalkablagerungen den Anschein erwecken, als ob dort getrocknetes Ätzmittel wäre - deshalb abtrocknen! Arbeitsflächen abwischen.
 |}
