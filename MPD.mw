@@ -17,8 +17,10 @@
 Ich ([[Benutzer:hax404|hax404]]) stoße mal das Projekt „MPD-Wipe&Defrag“ an. Ziel ist es, dass am Ende die Musik im Datengrab geordnet und getaggt ist.
 
 Gedanken zu diesem Thema:
-* Ordnerhirachie: Interpret/Album/Tracknummer - Titel.Dateiendung
-* Tags sollten mindestens Enthalten: Interpret, Titel
-* Wie gehen wir mit Alben um, die eher Zusammenstellungen darstellen um?
+* Ordnerhirachie: Interpret/Album/Tracknummer - Interpret - Titel.Dateiendung
+* Tags sollten mindestens Enthalten: Interpret, Titel, Album
+* Compilations erhalten einen eigenen Unterordner: Compilations/Compilationname/Tracknummer - Interpret - Titel.Dateiendung
 
+
+Zum taggen empfiehlt sich [http://musicbrainz.org/doc/MusicBrainz_Picard Music Brainz Picard]: kostenlos, open source, erweiterbar, cross-Plattform.
 [[Kategorie:Projekt]]
