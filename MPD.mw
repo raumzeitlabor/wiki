@@ -20,7 +20,10 @@ Gedanken zu diesem Thema:
 * Ordnerhirachie: Interpret/Album/Tracknummer - Interpret - Titel.Dateiendung
 * Tags sollten mindestens Enthalten: Interpret, Titel, Album
 * Compilations erhalten einen eigenen Unterordner: Compilations/Compilationname/Tracknummer - Interpret - Titel.Dateiendung
+* Inbox, in der unsortierte Musik gesammelt wird. Einsortiert wird händisch, sonst ist die Gefahr zu groß Dinge falsch zu taggen.
+* Ordner für Playlists: Playlist/Username/MeinePlaylist.Erweiterung
 
 
-Zum taggen empfiehlt sich [http://musicbrainz.org/doc/MusicBrainz_Picard Music Brainz Picard]: kostenlos, open source, erweiterbar, cross-Plattform.
+Zum taggen empfiehlt sich [http://musicbrainz.org/doc/MusicBrainz_Picard Music Brainz Picard]: kostenlos, open source, erweiterbar, cross-Plattform. Kann Musik anhand eines Fingerprints erkennen und automatisch in eine vorgegebene Ordnerstruktur verschieben.
+
 [[Kategorie:Projekt]]
