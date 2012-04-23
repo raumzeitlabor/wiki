@@ -25,6 +25,9 @@ Gedanken zu diesem Thema:
 # Compilations erhalten einen eigenen Unterordner: <pre>Compilations/Compilationname/Tracknummer - Interpret - Titel.Dateiendung</pre>
 # Inbox, in der unsortierte Musik gesammelt wird. Einsortiert wird händisch, sonst ist die Gefahr zu groß Dinge falsch zu taggen.
 # Ordner für Playlists: <pre>Playlist/Username/MeinePlaylist.Erweiterung</pre>
+# Übernahme vom alten zum neuen Stand:
+## sortierte, getaggte Musik in '''Datengrab/share/music''' speichern; MPD ebenfalls dieses Verzeichnis durchsuchen lassen
+## ab bestimmtem Verhältnis zwischen „sortiert“ und „unsortiert“ MPD nicht mehr '''Datengrab/share/mp3''' durchsuchen lassen und '''mp3''' als Inbox verwenden 
 
 
 Zum taggen empfiehlt sich [http://musicbrainz.org/doc/MusicBrainz_Picard Music Brainz Picard]: kostenlos, open source, erweiterbar, cross-Plattform. Kann Musik anhand eines Fingerprints erkennen und automatisch in eine vorgegebene Ordnerstruktur verschieben.
