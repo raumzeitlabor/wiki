@@ -1,0 +1,22 @@
+{{ProjektInfoBox
+|name        = MPD-Wipe&Defrag
+|status      = 
+|image       = 
+|description = 
+|author      = [[Benutzer:hax404|hax404]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+|bausatz     =
+|preis       =
+}}
+
+Ich ([[Benutzer:hax404|hax404]]) stoße mal das Projekt „MPD-Wipe&Defrag“ an. Ziel ist es, dass am Ende die Musik im Datengrab geordnet und getaggt ist.
+
+Gedanken zu diesem Thema:
+* Ordnerhirachie: Interpret/Album/Tracknummer - Titel.Dateiendung
+* Tags sollten mindestens Enthalten: Interpret, Titel
+* Wie gehen wir mit Alben um, die eher Zusammenstellungen darstellen um?
