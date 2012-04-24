@@ -18,16 +18,15 @@ Ich ([[Benutzer:hax404|hax404]]) stoße mal das Projekt „MPD-Wipe&Defrag“ an
 
 Gedanken zu diesem Thema:
 # Ordnerhirachie:<pre>Interpret/Album/Tracknummer - Interpret - Titel.Dateiendung</pre>
+# bei Mehrfach-CD-Alben fängt die Tracknummer mit der Nummer der CD ohne führende Null an: <pre>1-02 - Interpret - Titel.Dateiendung</pre>
 # Tags sollten mindestens Enthalten:
 #*Interpret
 #*Titel
 #*Album
 # Compilations erhalten einen eigenen Unterordner: <pre>Compilations/Compilationname/Tracknummer - Interpret - Titel.Dateiendung</pre>
-# Inbox, in der unsortierte Musik gesammelt wird. Einsortiert wird händisch, sonst ist die Gefahr zu groß Dinge falsch zu taggen.
-# Ordner für Playlists: <pre>Playlist/Username/MeinePlaylist.Erweiterung</pre>
-# Übernahme vom alten zum neuen Stand:
-## sortierte, getaggte Musik in '''Datengrab/share/music''' speichern; MPD ebenfalls dieses Verzeichnis durchsuchen lassen
-## ab bestimmtem Verhältnis zwischen „sortiert“ und „unsortiert“ MPD nicht mehr '''Datengrab/share/mp3''' durchsuchen lassen und '''mp3''' als Inbox verwenden 
+# Inbox, in der unsortierte Musik gesammelt wird. Einsortiert wird händisch, sonst ist die Gefahr zu groß Dinge falsch zu taggen.<pre>Datengrab/share/music/inbox</pre>
+# Ordner für Playlists: <pre>Datengrab/share/music/playlists/Username/MeinePlaylist.Erweiterung</pre>
+# sortierte, getaggte Musik: <pre>Datengrab/share/music/sortiert</pre>
 
 
 Zum taggen empfiehlt sich [http://musicbrainz.org/doc/MusicBrainz_Picard Music Brainz Picard]: kostenlos, open source, erweiterbar, cross-Plattform. Kann Musik anhand eines Fingerprints erkennen und automatisch in eine vorgegebene Ordnerstruktur verschieben.
