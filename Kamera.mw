@@ -1,3 +1,28 @@
+[[Image:Kameraposition_ideal.jpg|thumb|Ideale Kameraposition|200px|right|Ideale Kameraposition]]
+
+= Checkliste für Vortrags-Aufzeichnungen =
+
+Vorbereitung:
+
+# Kamera aus dem Karton holen und an den Strom anschließen. Tisch-stativ aus dem Regal bei der Beamerwand holen.
+# Kamera an der idealen Position aufstellen (siehe Bild).
+# Kontrollieren, dass man das vollständige Beamerbild sieht und den Vortragenden.
+# Kontrollieren, dass genug Speicher auf der SD-Karte frei ist (die Kamera zeigt auf dem LCD die verbleibende Aufnahmezeit an). Sofern nötig alte Aufnahmen löschen (Aufnahmen müssen nach Benutzung der Kamera direkt kopiert werden, wichtige Daten liegen niemals '''nur''' auf der SD-Karte).
+# Mikrofon an die Kamera anschließen.
+# Labornotebook aus dem Regal bei der Stereo-Anlage holen und an den Strom anschließen.
+# USB-Mikrofon aus dem Regal bei der Beamerwand holen und an das Labornotebook anschließen.
+# Pegel des USB-Mikrofons überprüfen.
+
+Aufnahme starten:
+
+# Bei der Kamera auf den Aufnahme-Knopf drücken.
+# Am Labornotebook folgenden Befehl ausführen:
+ gst-launch pulsesrc device="alsa_input.usb-Thomann_SC450USB-00-SC450USB.analog-stereo" ! \                                  
+   audio/x-raw-int,rate=48000,channels=2,width=16 ! queue ! \
+   audioconvert ! queue ! mux. avimux name=mux ! filesink location=audio-1.avi
+
+= Bearbeitung =
+
 Die Videos der Kamera haben eine Framerate von 29.97 fps, aber eine Field-Anzahl von 59, obwohl sie nicht interlaced sind. Das verwirrt kdenlive, daher re-encodiere ich derzeit vorher:
 
  ffmpeg -threads 0 -i IMAG0001.MP4 -target ntsc-dvd -sameq -s hd1080 IMAG0001_recoded.mpg
