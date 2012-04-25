@@ -60,6 +60,10 @@ PSK 254/8W;20
 METALL 1,00M;100
 MTR. 0,315A;10
 TRÄGE 0,315A;10
+BAT 42;2
+ATMEGA 16-16 DIP;1
+AD 712 JN;1
+LF 412 CP;4
 </pre>
 
 == Cyberrunner benötigt ==
