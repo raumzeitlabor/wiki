@@ -81,11 +81,6 @@ https://github.com/raumzeitlabor/pron-ledwall
 ==ToolChain==
 Die NXP LPCXpresso boards, welche als Master und als PanelController zum Einsatz kommen sind leider nur mit WIndows ohne Schmerzen zu betreiben. Um die Schmerzen im Zaum zu halten, soll hier beschrieben werden, wie man sich eine funktionierende Toolchain baut und wie man die Controller programmiert bekommt.
 
-=== libpronisate ===
-[[Benutzer:Blabber|blabber]] bastelt gerade an einer C Bibliothek die beliebige Bilder in Byteströme umwandelt die als `PIXELS` in `Image Frames` gemäß dem [[PRON-Protokoll]] verwendet werden können. Momentan wird ein Bild in einen Bytestrom umgewandelt, [[Benutzer:Blabber|blabber]]s Ziel ist es allerdings für rechteckige Anordnungen identisch dimensionierter PRON-Panels die Byteströme für die einzelnen Kacheln des Bildes mit einem Aufruf zu generieren.
-
-libpronisate lebt momentan in [https://github.com/blabber/libpronisate github].
-
 ==Inspirationen==
 * http://www.kitesurfer1404.de/tech/matrix
 * http://bertjwregeer.com/Project/LEDWall.html
