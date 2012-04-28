@@ -44,6 +44,78 @@ Eine Software zum Erstellen der Stickdateien ist das kostenlose "SophieSew". Urs
 ;Embird
 :weil
 
+==Tutorial==
+
+=== Die Vorlage ===
+Die Software PE Design kann Pixelbilder in Stickdateien umwandeln. Damit dies funktioniert, solltet ihr eine gute Vorlage wählen und entsprechend der folgenden Anleitung bearbeiten.
+
+{| border="1" cellspacing="0" cellpadding="5"
+|-----
+| 1. || 
+Die Software ist alles andere als gut, wenn es darum geht, die Vorlage nach dem Importieren zu skalieren. Um Frust zu vermeiden, solltet ihr das im Vorfeld selbst tun. Benutzt ein Programm eurer Wahl, um das Motiv auf die richtige Größe (Max 100 mm x 100 mm) zu bringen. Achtet dabei darauf, dass die Auflösung größer 150 DPI bleibt. Die hohe Auflösung erleichtert später die Kantenerkennung und ihr erhaltet schärfer abgegrenzte Flächen.
+|-----
+| 2. || 
+Um zu gewährleisten, dass beim Importieren nicht 100 verschiedene Farben erkannt werden (zum Beispiel bei einem Farbverlauf), solltet ihr die Farbpalette eurer Bilddatei auf indizierte Farben stellen. Wenn euer Bildbearbeitungsprogramm nicht in der Lage ist, die Vorlage selbstständig umzurechnen, müsst ihr die einzelnen Farbflächen markieren und farblich zusammengehörige Flächen mit der gleichen Farbe füllen. (Markieren und Farbeimer).
+|-----
+| 3. || 
+Sorgt für klare Kanten! Pixeltreppen sind hinderlich und bescheren euch viel Nacharbeit. Also lieber gleich die Outlines nachzeichnen oder eine Vorlage mit höherer Auflösung und scharf getrennten Kanten benutzen.
+|-----
+| 4. || 
+Dass die Farben auch wie vorher eingestellt indiziert gespeichert werden, wählt das Dateiformat Bitmap aus. Manche Bildbearbeitungsprogramme müssen an dieser Stelle (Optionen, Extras etc.) noch einmal darauf hingewiesen werden, dass sie es WIRKLICH als Bild mit indizierten Farben speichern soll.
+Wenn ihr so weit gekommen seid, habt ihr eure Vorlage fertig.
+|-----
+|}
+
+
+{| border="1" cellspacing="0" cellpadding="5"
+|-----
+| [[Datei:Rarity_NM_Orig.png‎|border|thumb]] ||  [http://moongazeponies.deviantart.com/ Das Originalbild von Nightmare Moon]
+
+|-----
+| [[Datei:Rarity_FertigBearbeiteteVorlage.png‎|border|thumb]] || Die fertig bearbeitet Vorlage. Achtet auf den Mond und die Augenfarbe.
+|}
+
+=== Importieren ===
+Nachdem die Vorlage jetzt optimal bearbeitet ist, kann sie mit Hilfe der Software PE Design in eine Stickbare Datei umgewandelt werden. Dazu sind folgende Schritte notwendig:
+
+[[Datei:Rarity_1_Zauberstab.png‎|border]]
+
+Öffnet die Software PE Design und klickt auf den Zauberstab Button
+
+[[Datei:Rarity_2_Auswahlfenster.png‎|border]]
+
+Der Wizard öffnet sich und ihr werdet aufgefordert, den Dateipfad auszuwählen. Nachdem ihr eure zuvor bearbeitete Vorlage ausgewählt habt, seht ihr ein Vorschaubild mit der Möglichkeit die Importparameter zu ändern.
+
+[[Datei:Rarity_3_ImportParameter.png‎|border]]
+
+Mit den Reglern könnt ihr ein wenig spielen oder auf folgende vielfach bewährte Methode zurückgreifen:
+Stellt den Regler "Noise Reduction" auf Min und den Regler "Segmentation sensetivity" auf Maximum.
+Auf der rechten Seite seht ihr ein DropDown Menü "Max Number of Colors", stellt hier die Farbanzahl eurer Vorlage (Stichwort indizierte Farben) ein.
+In der ListBox "Omit Colors" seht ihr die erkannten Farben sauber aufgelistet. Wenn ihr zum Beispiel einen weißen Laborkittel besticken wollt, könnt ihr die Farbe Weiß anklicken. Das hat zu Folge, dass diese NICHT gestickt wird. Bei einer schwarzen Schürze könnt ihr dementsprechend schwarz ausblenden.
+Wenn ihr alle Parameter eingestellt habt, könnt ihr das Ergebnis durch einen Klick auf "Refresh" begutachten. 
+
+Seid ihr zufrieden? Dann klickt auf den Button "Finish", um die Vorlage in eine stickbare Datei umzuwandeln.
+
+[[Datei:Rarity_Importiert.png‎|border]]
+
+Glückwunsch, ihr habt soeben erfolgreich eine Stickdatei erstellt!
+
+[[Datei:Rarity_4_StickVorschau.png‎|border]]
+
+Mit Hilfe der realen Vorschau könnt ihr das spätere Stickergebnis von der Software anzeigen lassen. Klickt dazu auf den Vorschau Button in der Iconzeile.
+
+[[Datei:Rarity_Stickvorschau.png‎|border]]
+
+Berechnete Vorschau der Sticksoftware. Passt etwas noch nicht, habt ihr jetzt noch die Möglichkeit Änderungen vorzunehmen. Wenn ihr soweit zufrieden seid, könnt ihr die Datei speichern und via USB auf die Maschine übertragen.
+
+[[Datei:Rarity_NM_Ergebnis.jpg‎|border]]
+ 
+So schaut das Muster später auf dem Laborkittel aus.
+
+== Tipps und Tricks ==
+
+* Achtet auf kleine Farbflächen, diese neigen dazu nicht ordentlich erkannt zu werden.
+
 == Benutzungsberechtigte ==
 
 Da die Maschine recht kostenintensiv war und durch Fehlbedienung recht schnell in einen nicht mehr sehr wertvollen Zustand verwandelt werden kann, ist die Benutzung erst nach Einweisung möglich.
@@ -54,6 +126,7 @@ Folgende Benutzer können die Maschine benutzen und können auch eine Einführun
 * [[Benutzer:Unicorn | Unicorn]]
 * [[Benutzer:bluegene | bluegene]]
 * [[Benutzer:Silsha|silsha]]
+* [[Benutzer:thinkJD|thinkJD]]
 
 == Galerie ==
 
