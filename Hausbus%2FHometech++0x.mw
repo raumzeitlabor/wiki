@@ -8,23 +8,23 @@ Dies ist die Pinbelegung für die Motortreiber:
 
 {| class="wikitable"
 |-
-! Raspberry PI !! IO !! Beschreibung
+! Raspberry PI !! IO !! Beschreibung !! /sys/class/gpio/
 |-
-| SPI_SCLK || RINB1 || Dreht Motor 1 nach links
+| SPI_SCLK || RINB1 || Dreht Motor 1 nach links || gpio11
 |-
-| SPI_MISO || RENB1 || Aktiviert Motortreiber 1
+| SPI_MISO || RENB1 || Aktiviert Motortreiber 1 || gpio9
 |-
-| SPI_MOSI || RENA 1 || Aktiviert Motortreiber 1
+| SPI_MOSI || RENA 1 || Aktiviert Motortreiber 1 || gpio10
 |-
-| GPIO3 || RINA 1 || Dreht Motor 1 nach rechts
+| GPIO3 || RINA 1 || Dreht Motor 1 nach rechts || gpio22
 |-
-| GPIO2 || RINB2 || Dreht Motor 2 nach links
+| GPIO2 || RINB2 || Dreht Motor 2 nach links || gpio21
 |-
-| GPIO0 || RENB2 || Aktiviert Motortreiber 2
+| GPIO0 || RENB2 || Aktiviert Motortreiber 2 || gpio17
 |-
-| GPIO 7 || RENA2 || Aktiviert Motortreiber 2
+| GPIO 7 || RENA2 || Aktiviert Motortreiber 2 || gpio4
 |-
-| SCL0 || RINA2 || Dreht Motor 2 nach rechts
+| SCL0 || RINA2 || Dreht Motor 2 nach rechts || gpio1
 |}
 
 Dies ist die Pinbelegung für die Türsensoren:
