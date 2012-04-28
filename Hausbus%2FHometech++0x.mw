@@ -28,8 +28,8 @@ Dies ist die Pinbelegung für die Motortreiber:
 |}
 
 Standardzustand:
-for i in $(echo "11 9 10 22 21 17 4 1"); do echo "out" > /sys/class/gpio/gpio$i/direction; done
-root@rzl-rpi:~# for i in $(echo "11 9 10 22 21 17 4 1"); do echo "1" > /sys/class/gpio/gpio$i/value; done
+ for i in $(echo "11 9 10 22 21 17 4 1"); do echo "out" > /sys/class/gpio/gpio$i/direction; done
+ root@rzl-rpi:~# for i in $(echo "11 9 10 22 21 17 4 1"); do echo "1" > /sys/class/gpio/gpio$i/value; done
 
 Um den Motor 1 nach rechts zu drehen, folgende Sequenz:
  echo "0" > /sys/class/gpio/gpio22/value # nach rechts drehen
