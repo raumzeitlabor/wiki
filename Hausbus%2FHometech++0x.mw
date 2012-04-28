@@ -31,17 +31,17 @@ Dies ist die Pinbelegung für die Türsensoren:
 
 {| class="wikitable"
 |-
-! Raspberry PI !! IO
+! Raspberry PI !! IO !! /sys/class/gpio/
 |-
-| SPI_CE1_N || TAST0
+| SPI_CE1_N || TAST0 || gpio18
 |-
-| SPI_CE0_N || TAST1
+| SPI_CE0_N || TAST1 || gpio23
 |-
-| GPIO6 || TAST2
+| GPIO6 || TAST2 || gpio24
 |-
-| GPIO5 || TAST3
+| GPIO5 || TAST3 || gpio8
 |-
-| GPIO4 || TAST4
+| GPIO4 || TAST4 || gpio7
 |-
-| GPIO1 || TAST5
+| GPIO1 || TAST5 || gpio25
 |}
