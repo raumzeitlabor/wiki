@@ -34,6 +34,6 @@ Zum taggen empfiehlt sich [http://musicbrainz.org/doc/MusicBrainz_Picard Music B
 = …dann das Vergnügen =
 
 Viele Clients ordnen die Musik standardmäßig die Musik nach dem Artist und nicht nach dem Album-Artist. Dies fällt bei Alben auf, die Remixe von verschiedenen Interpreten enthalten. Diesem Umstand kann in der Regel in den Ansichtsoptionen entgegengewirkt werden:
-* ncmpcpp: <pre>~/.ncmpcpp/config: media_library_left_column = "A"</pre>
+;ncmpcpp: <pre>~/.ncmpcpp/config: media_library_left_column = "A"</pre>
 
 [[Kategorie:Projekt]]
