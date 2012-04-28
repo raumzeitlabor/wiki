@@ -15,7 +15,7 @@
 }}
 
 Ich ([[Benutzer:hax404|hax404]]) stoße mal das Projekt „MPD-Wipe&Defrag“ an. Ziel ist es, dass am Ende die Musik im Datengrab geordnet und getaggt ist.
-
+= Erst die Arbeit… =
 Gedanken zu diesem Thema:
 # Ordnerhirachie:<pre>Interpret/Album/Tracknummer - Interpret - Titel.Dateiendung</pre>
 # bei Mehrfach-CD-Alben fängt die Tracknummer mit der Nummer der CD ohne führende Null an: <pre>1-02 - Interpret - Titel.Dateiendung</pre>
@@ -30,5 +30,10 @@ Gedanken zu diesem Thema:
 
 
 Zum taggen empfiehlt sich [http://musicbrainz.org/doc/MusicBrainz_Picard Music Brainz Picard]: kostenlos, open source, erweiterbar, cross-Plattform. Kann Musik anhand eines Fingerprints erkennen und automatisch in eine vorgegebene Ordnerstruktur verschieben.
+
+= …dann das Vergnügen =
+
+Viele Clients ordnen die Musik standardmäßig die Musik nach dem Artist und nicht nach dem Album-Artist. Dies fällt bei Alben auf, die Remixe von verschiedenen Interpreten enthalten. Diesem Umstand kann in der Regel in den Ansichtsoptionen entgegengewirkt werden:
+* ncmpcpp: <pre>~/.ncmpcpp/config: media_library_left_column = "A"</pre>
 
 [[Kategorie:Projekt]]
