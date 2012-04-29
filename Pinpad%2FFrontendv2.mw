@@ -25,5 +25,10 @@ Wichtig:
 
 = TODO-Liste =
 
-* Das Protokoll so erweitern, dass man die mehrfarbigen LEDs und das LCD ansteuern kann (sECuRE)
-* Gehäuse entwerfen/planen/machen (AlexanderB)
+* Gehäuse fürs Frontend entwerfen/planen/machen (AlexanderB)
+* Türkontakt für Erkennung von Abgeschlossen einbauen (AlexanderB)
+* Strom ins Getränkelager bringen (tiefpunkt)
+* Stecker mitbringen und an beide Seiten des LAN-Kabels crimpen (sECuRE)
+* Hometec0x und RasPi in das Gehäuse einbauen
+* Das cat5-Kabel fürs Frontend durch die Wand legen
+* Frontend ankleben
