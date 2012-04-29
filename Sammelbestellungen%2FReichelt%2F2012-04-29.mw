@@ -98,4 +98,10 @@ MW 3IP25GS;1
 H25PR200;2
 HPR 160X100;2
 </pre>
+
+== tiefpunkt benötigt ==
+<pre>
+ATTINY 25-20 PU;2
+ATTINY 45-20PU;2
+</pre>
 [[Kategorie:Sammelbestellungen/Reichelt]]
