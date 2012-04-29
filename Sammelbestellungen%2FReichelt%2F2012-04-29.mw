@@ -99,8 +99,9 @@ KLETT 1000;1
 
 == echox benoetigt ==
 <pre>
-H25PR200;2
-HPR 160X100;2
+H25PR200;3
+HPR 500X100;3
+HPR 160X100;3
 </pre>
 
 == tiefpunkt benötigt ==
