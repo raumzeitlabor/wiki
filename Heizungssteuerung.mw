@@ -167,6 +167,6 @@ Anstiegszeit des Datenpegels: 46us. 1,5kOhm-Widerstand zwischen 5V und Datenleit
 
 Die Sensoren sind an eine Platine mit einem Atmega644-20PU angeschlossen, dieser liest die Werte aus und sendet sie über RS232 an eine Dockstar, das Format ist Plaintext, erst Sensor-ID, dann Temperatur in °C mit zwei Nachkommastellen und dann ein Zeilenumbruch. Auf der Dockstar liegt eine Software in /rott/logger, die die empfangenen Werte eine Minute lang aufsummiert und zählt und dann den Mittelwert in einzelne Dateien in /root/logger/logs/$Sensor-ID schreibt, gleichzeitig werden sie von der selben Software in eine json-Datei geschrieben und an pachube gesendet. Außerdem werden sie mit gnuplot geplottet und an die Blackbox geschickt.
 
-Der Stromverbrauch der aktuellen Installation soll gemessen werden. Die Messung wurde am 28.04.12 um 20:07 gestartet.
+Der Stromverbrauch der aktuellen Installation soll gemessen werden. Die Messung wurde am 28.04.12 um 20:07 gestartet. Die Messung wurde am 29.4.2012 um 19:10 gestoppt. Der Zählerstand betrug 0.14kWh. 
 
 [[Kategorie:Projekt]][[Kategorie:Infrastruktur]]
