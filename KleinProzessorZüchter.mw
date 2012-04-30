@@ -34,27 +34,7 @@ Derzeit noch auf Lager: 2 Stück
 
 ===usbasp===
 
-Der usbasp ist ein einfacher Programmieradapter für die Atmel ISP Schnittstelle. Eigentlich kann man die ISP Pins des Atmel mit Widerständen direkt an einen Parallelport des PC anschliessen, aber wer hat sowas heute noch am Laptop?
-Deshalb ist der usbasp ein minimaler USB Programmer. Ein ATmega8 spricht hier das komplette USB Protokoll in Software, weshalb kein spezieller USB transcieverchip gebraucht wird. Die gelayouteten und geätzen Platinen bekommen wir derzeit auch von unserem befreundeten hackerspace Das Labor in Bochum (vielen Dank). Es gibt auch alternative Firmwares für den usbasp, die zB einen STK500 emulieren können.
-Das ganze kostet im Einkauf derzeit etwa 8,14Euro (Platine 3, Bauteile 5,14) und im RZL nehmen wir 10 Euro dafür, um den Raum noch mitzufinanzieren.
-
-Nächste Bestellung (bitte eintragen, wird nach Bestellung jeweils gelöscht):
-{| border="1" cellspacing="0" cellpadding="10"
-|-----
-! Besteller || Anzahl || Brauche Hilfe || liegt bereit || abgeholt || bezahlt
-|-----
-| mist || 1 || ? || ja || ja  || ja
-|-----
-| Felicitus || 1 || nein || ja || ja || nein
-|-----
-| Acuda/Björn || 1 || ja || ja || ja || ja
-|-----
-| talynrae || 1 || ? ||  ja || ja || ja
-|-----
-| thinkJD || 1 || nein || ka || nein || nein
-|-----
-|}
-derzeit noch auf Lager: 6 Stück
+Siehe [[Usbasp]]
 
 ===[[Moodlamp]]===
 
