@@ -20,7 +20,7 @@ Gedanken zu diesem Thema:
 # Ordnerhirachie:<pre>Interpret/Album/Tracknummer - Interpret - Titel.Dateiendung</pre>
 # bei Mehrfach-CD-Alben fängt die Tracknummer mit der Nummer der CD ohne führende Null an: <pre>1-02 - Interpret - Titel.Dateiendung</pre>
 # Tags sollten mindestens Enthalten:
-#*Interpret
+#*Artist
 #*Titel
 #*Album
 # Compilations erhalten einen eigenen Unterordner: <pre>Compilations/Compilationname/Tracknummer - Interpret - Titel.Dateiendung</pre>
@@ -30,6 +30,12 @@ Gedanken zu diesem Thema:
 
 
 Zum taggen empfiehlt sich [http://musicbrainz.org/doc/MusicBrainz_Picard Music Brainz Picard]: kostenlos, open source, erweiterbar, cross-Plattform. Kann Musik anhand eines Fingerprints erkennen und automatisch in eine vorgegebene Ordnerstruktur verschieben.
+
+= Picard richtig einstellen =
+Bitte unbedingt bei Verwendung von Picard folgendes beachten:
+* Unter '''Options → Options… → Name files like this''' <pre>$if2(%albumartist%,%artist%)/%album%/$if($gt(%totaldiscs%,1),%discnumber%-,)$num(%tracknumber%,2) - %artist% - %title% </pre>
+* Kein Programm ist perfekt - auch nicht Picard. Bitte nur unter '''datengrab/share/music/inbox''' oder lokal speichern lassen.
+* Lieber vorher nachsehen, ob das gewünschte Album schon existiert. Dupletten bitte immer vermeiden.
 
 = …dann das Vergnügen =
 
