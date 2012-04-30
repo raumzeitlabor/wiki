@@ -1,0 +1,21 @@
+Der usbasp ist ein einfacher Programmieradapter für die Atmel ISP Schnittstelle.
+
+== Wozu? ==
+
+Wenn du einen Atmel Mikrocontroller programmieren möchtest, brauchst du einen Programmieradapter. Diesen gibt's als Kaufversion oder bei uns als Bausatz.
+
+== Funktionsweise ==
+
+Eigentlich kann man die ISP Pins des Atmel mit Widerständen direkt an einen Parallelport des PC anschliessen, aber wer hat sowas heute noch am Laptop? Deshalb ist der usbasp ein minimaler USB Programmer. Ein ATmega8 spricht hier das komplette USB Protokoll in Software, weshalb kein spezieller USB transcieverchip gebraucht wird.
+
+== Bausatz ==
+
+Der Bausatz kostet 10€. Wenn keine Bausätze mehr vorhanden sein sollten, bitte [[Benutzer:Felicitus|Felicitus]] ansprechen.
+
+Die usbasp-Platine wurde vom Labor in Bochum layoutet, das Ursprungsdesign kommt von [http://www.fischl.de/usbasp/ Thomas Fischl].
+
+=== Anleitung ===
+
+Die Bestückungsliste findest du im [https://www.das-labor.org/trac/browser/microcontroller/doc/Layouts/usbasp svn vom labor].
+
+Wenn du den usbasp fertig bestückt hast, muß der Atmel darauf noch programmiert werden. Dazu wende dich an jemanden, der bereits einen usbasp hat, um die Firmware zu flashen (auch im SVN zu finden).
