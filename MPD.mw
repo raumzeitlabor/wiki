@@ -24,8 +24,8 @@ Gedanken zu diesem Thema:
 #*Titel
 #*Album
 # Compilations erhalten einen eigenen Unterordner: <pre>Compilations/Compilationname/Tracknummer - Interpret - Titel.Dateiendung</pre>
-# Inbox, in der unsortierte Musik gesammelt wird. Einsortiert wird händisch, sonst ist die Gefahr zu groß Dinge falsch zu taggen.<pre>Datengrab/share/music/inbox</pre>
-# Ordner für Playlists: <pre>Datengrab/share/music/playlists/Username/MeinePlaylist.Erweiterung</pre>
+# Inbox, in der unsortierte Musik gesammelt wird. Einsortiert wird händisch, sonst ist die Gefahr zu groß Dinge falsch zu taggen. Vorallem werden dadurch Dupletten vermieden<pre>Datengrab/share/music/inbox</pre>
+# Ordner für Playlists: '''Diesen Ordner NUR ''per Hand'' anfassen! Niemals mit Programmen wie Picard reinschreiben. Dafür ist die inbox da.''' <pre>Datengrab/share/music/playlists/Username/MeinePlaylist.Erweiterung</pre>
 # sortierte, getaggte Musik: <pre>Datengrab/share/music/sortiert</pre>
 
 
