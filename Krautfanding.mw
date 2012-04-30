@@ -1,0 +1,41 @@
+Nicht selten gibt es Projekte, die man finanziell nicht alleine stemmen kann. Sei es, um einen neuen Lasercutter zu kaufen oder die Raumverkabelung auf Vordermann zu bringen.
+Das Problem kann durch Crowdfunding gelöst werden.
+__TOC__
+== Wie es funktioniert ==
+=== Projekt anlegen ===
+# Lege eine Seite im Wiki an, auf welcher du dein Projekt vorstellst. Erläutere auch möglichst detailliert, wofür das Geld benötigt wird.
+# Trage das Projekt unten in die Tabelle ein. ''Beachte die fortlaufende Kontonummer''.
+# Informiere die Laboranten über die Mailingliste und halte am Besten noch einen Vortrag bei der [[Offene RaumZeitLaborierung|Offenen RaumZeitLaborierung]].
+
+=== Spenden ===
+Überweise einen beliebigen Betrag an unser Vereinskonto. Im '''Verwendungszweck''' gibst du die Kontonummer des Projekts an, welches du unterstützen möchtest.
+
+{|
+|'''Empfänger:'''
+|RaumZeitLabor e.V.<br>
+|-
+|'''Kontonummer:'''
+|39061040
+|-
+|'''Bankleitzahl:'''
+|67050505
+|-
+|'''Institut:'''
+|Sparkasse Rhein Neckar Nord
+|-
+|'''Verwendungszweck:'''
+|''Projektkontonummer''
+|}
+
+== Projektliste  ==
+{| class="wikitable"  valign = "top"
+!Konto
+!Projekt
+!Benötigt
+!Vorhanden
+|-
+|100000
+|Beispielprojekt (editiere mich)
+|9001,—€
+|1337,—€
+|-}
