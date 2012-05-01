@@ -95,14 +95,14 @@ Die Implementation auf der Blackbox besteht aus 2 Programmen:
 * Ein kleiner [https://github.com/raumzeitlabor/ping-plus-host/blob/master/index.php Webservice], an welchen neue Zeilen aus dem IRC gepostet werden können
 
 == Limitations ==
-* Unterstützt nur 7-bit ASCII (codes 32-127). Erweiterung bis zu 255 möglich, dazu muß jemand den Font anpassen. Das PHP-Script setzt UTF8 automatisch in ISO-8859-1 um.
 * UTF-8 nur mit Aufwand möglich.
 
 == Status ==
 
+* Unterstützt jetzt auch ISO-8859-15 - danke an [[Benutzer:pennylane|pennylane]].
+
 * Die Hardware ist soweit komplett und aufgehängt
 * Es muß noch ein Stromkabel vom NPM zum Ping+-Board gelegt werden (derzeit hängt das Netzteil direkt an ner Steckdose)
-* Da die USB-Verlängerung (15m!) nicht sonderlich stabil ist, haben wir ein 20m aktives USB-Kabel geordert.
 * Der Mikrokontroller-Code muß beschönigt werden
 * ???
 * Profit!
