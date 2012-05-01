@@ -22,6 +22,9 @@ Aufnahme starten:
    audio/x-raw-int,rate=48000,channels=2,width=16 ! queue ! \
    audioconvert ! queue ! mux. avimux name=mux ! filesink location=audio-1.avi
 
+Testweise nutzen wir folgendes:
+ gst-launch pulsesrc device="alsa_input.usb-Thomann_SC450USB-00-SC450USB.analog-mono" ! audio/x-raw-int,rate=48000,channels=2,width=16 ! tee name=t_audio t_audio. ! queue ! pulsesink t_audio. ! audioconvert ! vorbisenc ! oggmux ! filesink location=record.oga
+
 = Bearbeitung =
 
 Die Videos der Kamera haben eine Framerate von 29.97 fps, aber eine Field-Anzahl von 59, obwohl sie nicht interlaced sind. Das verwirrt kdenlive, daher re-encodiere ich derzeit vorher:
