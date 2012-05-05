@@ -87,3 +87,6 @@ Angepeilte Milestones:
 # tuerstatusd ersetzen, pin-sync implementieren
 
 Die oben erklärte HTTP-API habe ich in einer Go-Library (und Beispiel) umgesetzt: https://github.com/raumzeitlabor/rzlbus
+
+[[Benutzer:Tiefpunkt|tiefpunkt]] arbeitet an einer Implementierung des Hausbus2 in Python: https://github.com/raumzeitlabor/hausbus2-python
+[[Kategorie:Infrastruktur]]
