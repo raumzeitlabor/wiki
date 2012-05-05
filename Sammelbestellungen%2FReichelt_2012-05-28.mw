@@ -29,5 +29,12 @@ COMPUTER WZ KIT;1
 
 <pre>
 MM SL 12SK;4
-MM FL 12G,4
+MM FL 12G;4
+</pre>
+
+== Else benötigt ==
+
+<pre>
+TS 78L03 CX;1
+LED 1206-420 RT;1
 </pre>
