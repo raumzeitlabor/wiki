@@ -1,4 +1,21 @@
-Unsere NAS
+{{ProjektInfoBox
+|name        = Datengrab
+|status      = beta
+|image       = Hdd.jpg
+|description = Unser NAS
+|platform    = $some_platform
+}}
+{|
+|-
+! scope="row" | Hostname
+| datengrab.rzl
+|-
+! scope="row" | Admin
+| docsteel
+|}
 
+
+mount.cifs //datengrab.rzl/Share /mnt
 
 [[Kategorie:Hardware]]
+[[Kategorie:Infrastruktur]]
