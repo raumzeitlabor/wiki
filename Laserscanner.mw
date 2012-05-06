@@ -11,7 +11,7 @@ Es soll ein 3D-Laserscanner nach dem Vorbild des Fabscan[http://hci.rwth-aachen.
 * Software evaluieren
 * Laserscanner in Betrieb nehmen
 
-Schrittmotordoku:
+Schrittmotordoku: [http://www.robotikhardware.de/download/23lmc30415.pdf 23LM-C304-15]
 
 * Durchmesser 56,5
 * Höhe 50,5
@@ -31,9 +31,9 @@ Steckerbelegung:
 * 7: schwarz-weiß
 * 8: grün-weiß
 
-Gemessene Widerstände:
+Widerstände:
 
-* 1-2: 5 Ohm
-* 3-4: 5 Ohm
-* 5-6: 5 Ohm
-* 7-8: 5 Ohm
+* 1-2: 5,1 Ohm
+* 3-4: 5,1 Ohm
+* 5-6: 5,1 Ohm
+* 7-8: 5,1 Ohm
