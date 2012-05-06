@@ -39,3 +39,9 @@ LED 1206-420 RT;1
 X7R-G1206 22N;10
 X7R-G1206 100N;10
 </pre>
+
+== mdb benötigt ==
+
+<pre>
+KAB HA 08-10;1
+</pre>
