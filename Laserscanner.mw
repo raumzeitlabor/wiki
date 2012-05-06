@@ -11,9 +11,29 @@ Es soll ein 3D-Laserscanner nach dem Vorbild des Fabscan[http://hci.rwth-aachen.
 * Software evaluieren
 * Laserscanner in Betrieb nehmen
 
+Schrittmotordoku:
+
 * Durchmesser 56,5
 * Höhe 50,5
 * Flanschdicke 5 mm
 * Lochstand Innen 42 mm
 * Lochabstand Außen 52 mm
 * Flanschinnenkreis 38 mm
+
+Steckerbelegung:
+
+* 1: schwarz
+* 2: pink
+* 3: weiß
+* 4: weiß-rot
+* 5: orange
+* 6: grün
+* 7: schwarz-weiß
+* 8: grün-weiß
+
+Gemessene Widerstände:
+
+* 1-2: 5 Ohm
+* 3-4: 5 Ohm
+* 5-6: 5 Ohm
+* 7-8: 5 Ohm
