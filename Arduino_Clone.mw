@@ -1,0 +1,20 @@
+{{ProjektInfoBox
+|name        = Arduino Clone
+|status      = experimental
+|image       = 
+|description = Ein RaumZeitLabor-eigener Arduino Clone
+|author      = [[Benutzer:Felicitus|Felicitus]], [[Benutzer:Tiefpunkt|tiefpunkt]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
+== Inspirationen ==
+* [https://metalab.at/wiki/Metaboard Metaboard]
+* [http://www.makehackvoid.com/group-projects/mhvboard-arduino-clone MHVBoard]
+* [http://arduino.cc/en/Main/ArduinoBoardSerialSingleSided Arduino Single Sided Board]
+
+[[Kategorie:Projekt]]
