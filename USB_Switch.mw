@@ -1,0 +1,33 @@
+{{ProjektInfoBox
+| name = USB Switch
+| description = Ein geschalteter USB-Port
+| author = [[Benutzer:Tiefpunkt|tiefpunkt]]
+| status = experimental
+| download = [https://github.com/tiefpunkt/usbswitch GitHub]
+}}
+Der USB Switch ist ein Device, was man zwischen den USB-Port am Rechner und einem USB-powered Device wie z.B. eine USB-LED o.ä. anschließen. Anschließen kann das angeschlossene Gerät über einfache Softwarebefehle ein- und ausgeschaltet werden. Entstanden ist es aufgrund einer Mail von Hannes:
+<pre>
+Hallo allerseits,
+
+ich möchte gern eine USB-LED-Lampe oder ähnliches per Software unter
+Linux an/aus knipsen. Nach kurzer Recherche im Internet hat sich
+herausgestellt, dass das wohl bei den ganz einfach Geräten, die nur
+Strom über USB beziehen, nicht geht. Komplexere Geräte (USB-Dongles,
+Maus etc) kann man aber wohl per Befehl in Standby versetzen
+
+Ein Vorschlag war, ein kleines Gerät vor die LED-Lampe zu schalten,
+das per Software den Strom an-/ausknipsen kann.
+
+Meine Frage an die Experten: kann man sich so etwas selbst bauen oder
+gibt es sogar schon etwas? Oder hab ich irgendwas komplett
+missverstanden?
+
+Viele Grüße
+Hannes
+</pre>
+
+== Prototyping ==
+== Version 1 ==
+Auf Breadboard, ATtiny25, USB und einer LED. Firmware http://eeegadgets.blogspot.de/2009/07/usb-mail-notifier-final-revision.html
+
+[[Kategorie:Projekt]]
