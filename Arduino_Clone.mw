@@ -18,7 +18,9 @@ Arduinos sind toll zum Prototypen, und auch um sie fest in Projekte einbauen zu 
 
 == Entscheidungen ==
 * Breadboard oder vollwertiger Arduino?
+** Ein Schaltplan, 2 Layouts? --[[Benutzer:Tiefpunkt|Tiefpunkt]] 11:49, 7. Mai 2012 (CEST)
 * USB on Board? FT232? FTDI-Stecker?
+** FT232 kosten bei Reichelt min. 3€ Evtl. weglassen um Geld zu sparen, oder durch einen attiny* mit v-usb ersetzen, wenn das funzt --[[Benutzer:Tiefpunkt|Tiefpunkt]] 11:49, 7. Mai 2012 (CEST)
 
 == Inspirationen ==
 * [https://metalab.at/wiki/Metaboard Metaboard]
