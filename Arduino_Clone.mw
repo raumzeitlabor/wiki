@@ -11,10 +11,14 @@
 |license     = 
 |download    = 
 }}
+Arduinos sind toll zum Prototypen, und auch um sie fest in Projekte einbauen zu können. Allerdings sind die Dinger nicht ganz so billig, wie wir sie gerne hätten. Darum möchten eine Clone designen, der unsere Anforderungen erfüllt, und den wir selber ätzen können. Preisziel ist 10€ oder weniger
 
 == Requirements ==
-
 * Einseitige Platine, notfalls mit Brücken, damit wir es selbst ätzen können
+
+== Entscheidungen ==
+* Breadboard oder vollwertiger Arduino?
+* USB on Board? FT232? FTDI-Stecker?
 
 == Inspirationen ==
 * [https://metalab.at/wiki/Metaboard Metaboard]
