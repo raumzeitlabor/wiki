@@ -23,6 +23,7 @@ Arduinos sind toll zum Prototypen, und auch um sie fest in Projekte einbauen zu 
 * USB on Board? FT232? FTDI-Stecker?
 ** FT232 kosten bei Reichelt min. 3€ Evtl. weglassen um Geld zu sparen, oder durch einen attiny* mit v-usb ersetzen, wenn das funzt --[[Benutzer:Tiefpunkt|Tiefpunkt]] 11:49, 7. Mai 2012 (CEST)
 ** Guter Plan. Ich will aber vorher noch prüfen, *wie* die den Atmel programmieren - ISP scheint's wohl nicht zu sein. --[[Benutzer:Felicitus|Felicitus]] 18:21, 7. Mai 2012 (CEST)
+*** Wen meinste mit "die"? Die Arduinos haben einen Bootloader der den STK500 emuliert, den du dann halt über USB <-> seriell ansteuerst.
 
 == Inspirationen ==
 * [https://metalab.at/wiki/Metaboard Metaboard]
