@@ -53,28 +53,38 @@ Die Ätzvorlage beinhaltet 9 Platinen auf Eurokartenformat. Jede Einzelplatine i
 
 {| class="wikitable" valign="top"
 ! Quantity
-! Part
 ! Storage Location
+! Part
 ! Remarks
 |-
 | 1
-| Wannenstecker 10polig
 | B0112
+| Wannenstecker 10polig
 | 
 |-
 | 1
-| Wannenstecker 6polig
 | X074
+| Wannenstecker 6polig
 | 
 |-
 | 1
-| Stiftleiste 36
 | X083
+| Stiftleiste 36
 | ISP-Adapter: Nur 8 Stifte benötigt
 |-
 | 1
-| Platine ISP-Adapter
 | ZUÄTZEN
+| Platine ISP-Adapter
+| 
+|-
+| 2
+| X074
+| Pfostenbuchse 6polig
+| 
+|-
+| 30
+| C001
+| Flachbandleitung AWG28 10-Polig
 | 
 |}
 
