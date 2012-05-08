@@ -87,6 +87,15 @@ Ist die Zeile länger als das Display anzeigen kann, scrollt es von Anfang bis E
 
 Wenn sich jemand dazu berufen fühlt, kann er gerne die Firmware umschreiben, sodaß sie über etwas anderes als Control Messages arbeitet.
 
+=== Pong+ ===
+
+Der Pong+ ist eine Erweiterung, mit der man mittels Grobhandtaster eine Antwort ins IRC senden kann. Der Pong+ kann nur dann verwendet werden, wenn ein Ping aktiv ist.
+
+Die geplante Funktionsweise:
+* Den Taster kurz drücken wechselt zwischen verschiedenen vordefinierten Antworten
+* Den Taster lang drücken schickt die Antwort ins IRC ab
+
+
 === Software (Blackbox) ===
 
 Die Implementation auf der Blackbox besteht aus 2 Programmen:
