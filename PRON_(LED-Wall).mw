@@ -78,6 +78,31 @@ Siehe [[PRON-Protokoll]]
 Die bisher geschriebene Software, sowie die Pläne liegen auf GitHub.
 https://github.com/raumzeitlabor/pron-ledwall
 
+== ToDo ==
+{| class="wikitable"  valign = "top"
+!Task
+!reserviert für
+|-
+|Löten der restlichen Treiberplatinen
+|Frei
+|-
+|Pr0nisierung
+|[[Benutzer:blabber|blabber]]
+|-
+|Übertragen der Pr0nisierungsdaten an die ARMs übertragen byte[] rein -> UDP raus
+|Frei
+|-
+|Ansteuern der Panels mit dem ARM
+| [[Benutzer:thinkJD|thinkJD]]
+|-
+|Daten via UDP empfangen und in ein array auf dem ARM schreiben
+|Frei
+|-
+|Erstellen der Steuerungsplatine (Ethernet)
+|[[Benutzer:thinkJD|thinkJD]]
+|-
+|}
+
 ==ToolChain==
 Die NXP LPCXpresso boards, welche als Master und als PanelController zum Einsatz kommen sind leider nur mit WIndows ohne Schmerzen zu betreiben. Um die Schmerzen im Zaum zu halten, soll hier beschrieben werden, wie man sich eine funktionierende Toolchain baut und wie man die Controller programmiert bekommt.
 
