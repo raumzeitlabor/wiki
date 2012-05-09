@@ -10,3 +10,15 @@ Only use these modules to play legal BACKUP copies of games you own or for homeb
 * sECuRE: 20 €
 * muzy: 5 € (bezahlt)
 * pennylane: 25 €
+
+= Status =
+
+Das Modul ist angekommen und funktioniert, wird am 2012-05-11 ins RZL gebracht.
+
+= Bedienung =
+
+Am Anfang wählt man via Richtungskreuz (links) das Spiel aus und lädt mit Start. Sofern statt der Spielauswahl eine Fehlermeldung kommt, die besagt, dass er das OS nicht finden kann, einfach nochmal neu starten. Manchmal scheint er die SD-Karte nicht richtig zu erkennen.
+
+= Save Games =
+
+Bisher unklar, wie das funktioniert. Mit L/R kann man vor dem Spielstart beeinflussen, wie das save game-handling läuft. Aber bei "force sram" hat das Spiel hinterher den State verloren und auf der SD-Karte finde ich keine neuen Dateien.
