@@ -12,3 +12,10 @@ USB AWF;5
 USB AW;5
 SMD 1/4W 10K;100
 </pre>
+
+== else braucht ==
+
+<pre>
+TS 78L03 CX;5
+32,768 PGC-12,5;2
+</pre>
