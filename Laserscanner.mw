@@ -2,7 +2,7 @@
 
 [[Datei:Laserscanner_laser.jpg|200px|thumb|right|Linienlaser]]
 
-Es soll ein 3D-Laserscanner nach dem Vorbild des Fabscan[http://hci.rwth-aachen.de/FabScan] gebaut werden. Dazu hat Alexander einen Drehtisch und eine Vorrichtung um den Laser zu drehen gebaut.
+Es soll ein 3D-Laserscanner nach dem Vorbild des Fabscan[http://hci.rwth-aachen.de/FabScan] gebaut werden. Dazu hat Alexander einen Drehtisch und eine Vorrichtung um den Laser zu drehen gebaut, eine Webcam gekauft und alles auf einer Holzplatte montiert
 
 === TODO ===
 
@@ -37,3 +37,12 @@ Widerstände:
 * 3-4: 5,1 Ohm
 * 5-6: 5,1 Ohm
 * 7-8: 5,1 Ohm
+
+== Schaltungsdoku ==
+
+Ein Atmega644P-20PU auf einem Laborboard steuert zwei [http://www.watterott.com/de/Pololu-A4988-Schrittmotortreiber Pololu A4988 Schrittmotortreiber], einer dreht den Laser und einer dreht das Objekt auf einem Drehtisch.
+
+== Pinbelegung ==
+
+* PA0: Laser (Ausgang)
+* PA1: Endtaster für Laser-Turm
