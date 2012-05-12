@@ -1,0 +1,35 @@
+== Aktueller Planungsstatus== 
+
+Pro Tisch 2 3er-Dosen (insgesamt 36 Steckdosen), so:
+<pre>
+...--+---------------------------+--...
+     |                           |
+     |                           |
+     |    [OOO]        [OOO]     |
+...--+---------------------------+--...
+     |    [OOO]        [OOO]     |
+     |                           |
+     |                           |
+...--+---------------------------+--...
+</pre>
+
+Die Versorgung erfolgt zentral über eine 5*1,5mm² Gummischlauchleitung von der Regalseite zum mittleren Tisch. Im Kabelkanal unter dem Regal wird eine 3-Phasen 16A CEE UP-Dose, zusammen mit einem FI-Schutzschalter, installiert. Durch einen Kabelkanal (vgl. [https://bilder.ottoversand.at/pool/formata/3757300.jpg]) kommt das Kabel zum Tisch. Jeweils 2 Tische werden über eine Phase versorgt, unter den Tischen werden die Verbindungen über AP-Steckdosen hergestellt.
+
+== Kosten ==
+
+{| class = wikitable
+! Anzahl !! Bezeichnung !! Einzel !! Gesamt !! Link !! Notiz
+|-
+| 36 || Siemens Schuko-Dose 5UB1511 	|| 3,05	|| 109,80 || [http://www.elektroradar.de/Schalterprogramme/Siemens/i-system_Komponenten/i-system/Steckdosen/Siemens_Schuko-Dose_5UB1511_i1456_63598_0.htm]
+|-
+| 6  ||	Siemens Rahmen 3fach 5TG25530	|| 3,88	|| 23,28  || [http://www.elektroradar.de/Schalterprogramme/Siemens/i-system_Komponenten/i-system/Potentialausgleich/Siemens_Rahmen_3fach_5TG25530_i1464_60444_0.htm] || Wir haben noch 6 3fach-Rahmen, darum brauchen wir nur noch weitere 6.
+|-
+| 12 ||	Dreifach-Hohlwanddose		|| 1,69	|| 20,28  || [http://www.ebay.de/itm/Hohlwanddose-45mm-3-Loch-NEU-/300674621292]
+|-
+| 5  ||	Einfach-AP-Steckdose		|| ?,??	|| ??,??  ||
+|-
+| 1  || CEE 16A UP Dose			|| 16,49 || 16,49 || [http://www.ebay.de/itm/16-A-CEE-DESIGN-UP-UNTERPUTZ-STECKDOSE-PCE-5-POL-16A-/140562901567]
+|-
+| 1  || FI Schutzschalter		|| ??,?? || ??,?? ||
+|}
++ Kabel + Stecker + Kleinkrams + Versandkosten
