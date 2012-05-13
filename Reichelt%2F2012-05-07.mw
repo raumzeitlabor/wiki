@@ -1,0 +1,51 @@
+Bitte den Warenkorb exportieren, damit man das später einfach importieren kann.
+
+== sECuRE benötigt ==
+
+<pre>
+HIROSE CAT6 BL;10
+AVK 119Q-25;1
+LOGILINK UA0095;1
+PATCH-DW6 5 BL;1
+LED 5 RG-3;2
+LED 5MM 5V GN;1
+</pre>
+
+== cradle benötigt ==
+<pre>
+FUNK 470N;2
+</pre>
+
+== pennylane benötigt ==
+
+<pre>
+AK 673-A;2
+AK 93352;1
+WIHA 302-HK6;1
+COMPUTER WZ KIT;1
+</pre>
+
+== Felicitus benötigt ==
+
+<pre>
+MM SL 12SK;4
+MM FL 12G;4
+LF 412 CP;6
+SIL 5-4 1,0K;1
+</pre>
+
+== Else benötigt ==
+
+<pre>
+LED 1206-420 RT;1
+X7R-G1206 22N;10
+X7R-G1206 100N;10
+CR 2032;2
+</pre>
+
+== mdb benötigt ==
+
+<pre>
+KAB HA 08-10;1
+PATCH-C6 2 BL;1
+</pre>
