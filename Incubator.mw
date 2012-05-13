@@ -57,6 +57,14 @@ Hier eine Sammlung von Ideen. Fügt eure einfach hinzu, vielleicht finden sich j
 | [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Inte|Inte]]
 | 08.05.2012
 | 09.05.2012
+|-
+|Die RZL-Blackbox
+| Eine schwarze Box, die alle Aktivitäten im RZL loggt.
+Zum Beispiel IRC, den Statusbot, Temperaturen, stündliche Bilder mit einer angeschlossenen Webcam, wer war wann im Raum, Transaktionen an der Kasse, Kontobewegungen und so weiter. So hätten wir am Ende des Jahres einen mega Datenbestand, um ein paar Statistiken zu fahren oder einfach mal was nachzuschlagen. Man könnte über eine Alu-Hut-Funktion nachdenken, wenn ein User nicht geloggt werden will, trägt er das in einem Feld der Benutzer-DB ein und wird von der Blackbox ignoriert.
+| [[Benutzer:thinkJD|thinkJD]]
+| 
+| 12.05.2012
+| 12.05.2012
 |}
 
 == Mitstreiter gesucht ==
