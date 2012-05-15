@@ -23,7 +23,9 @@ Aufnahme starten:
    audioconvert ! queue ! mux. avimux name=mux ! filesink location=audio-1.avi
 
 Testweise nutzen wir folgendes:
- gst-launch pulsesrc device="alsa_input.usb-Thomann_SC450USB-00-SC450USB.analog-mono" ! audio/x-raw-int,rate=48000,channels=2,width=16 ! tee name=t_audio t_audio. ! queue ! pulsesink t_audio. ! audioconvert ! vorbisenc ! oggmux ! filesink location=record.oga
+ gst-launch pulsesrc device="alsa_input.usb-Thomann_SC450USB-00-SC450USB.analog-mono" ! \
+   audio/x-raw-int,rate=48000,channels=2,width=16 ! tee name=t_audio ! queue ! \
+   pulsesink t_audio. ! audioconvert ! vorbisenc ! oggmux ! filesink location=record.oga
 
 = Bearbeitung =
 
