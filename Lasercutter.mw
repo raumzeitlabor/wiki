@@ -1,3 +1,9 @@
+{{projektInfoBox
+| name = FaZzZ0r
+| description = It's a laser cutter! It cuts lasers!
+| status = beta
+| username = TabascoEye
+}}
 [[Benuzer:TabascoEye|TabascoEye]]s Laser Cutter steht im RaumZeitLabor. Es handelt sich dabei um einen "40W CO2 Deluxe Hobby Laser" der Firma "Full Spectrum Laser".
 
 == Facts ==
@@ -281,3 +287,5 @@ Ihr braucht eine Box? Kein Problem!
 Auf der Seite [[http://boxmaker.rahulbotics.com BoxMaker]] könnt ihr euch einfach und schnell die benötigte Vorlage erstellen.
 Einfach die gewünschten Maße in das Formular eintragen, das PDF herunterladen, ab in den Laser, kleben -> fertig.
 [[Datei:BoxMaker Screenshot.png|thumb|250px|left]]
+
+[[Kategorie:Projekt]]
