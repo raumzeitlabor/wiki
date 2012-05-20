@@ -5,6 +5,55 @@ Bitte den Warenkorb exportieren, damit man das später einfach importieren kann.
 DK22205;1
 </pre>
 
+Für den usbasp:
+
+<pre>
+KERKO 22P;20
+LED 5MM RT;10
+LED 5MM GN;10
+ZF 3,6;20
+ATMEGA 8-16 DIP;10
+12,0000-HC49U-S;10
+USB BW;10
+WSL 10G;10
+SL 1X36G 2,54;3
+AK 672/2-1,0;10
+PFL 10;20
+</pre>
+
+Für den ISP-Adapter:
+
+<pre>
+WSL 10G;10
+WSL 6G;10
+PFL 6;20
+SL 1X36G 2,54;3
+</pre>
+
+Für das V-USB-Protoboard:
+
+<pre>
+KERKO 22P;10
+ZF 3,6V 0,5W;10
+ATMEGA8-16;5
+SL 1X36G 2,54;5
+16,0000-HC49U-S;5
+WSL 6G;5
+USB BW;10
+</pre>
+
+Allgemeine Dinge/Reserve:
+
+<pre>
+KERKO 22P;20
+12,0000-HC49U-S;10
+16,0000-HC49U-S;5
+PFL 6;10
+PFL 10;10
+WSL 10G;10
+WSL 6G;10
+USB BW;10
+</pre>
 
 == tiefpunkt braucht ==
 <pre>
