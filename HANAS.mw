@@ -25,6 +25,7 @@ Hier machen wir erstmal eine Liste auf was das HANAS können sollte, unabhängig
 * eSATA
 * iSCSI Target
 * Streaming (DLNA)
+* AirPlay Target: [[https://github.com/albertz/shairport shairport]]
 * HDMI
 * evtl. DVI/VGA
 * Firewire 400/800
@@ -91,6 +92,7 @@ Interessanter Artikel über [http://blog.hani-ibrahim.de/de/ndas-als-netzwerkspe
 * Nachfolger des HP N36L
 * 2 GB RAM
 * 250 GB HDD
+* bei Fragen: [[Benutzer:docsteel docsteel]] hat einen
 
 == Links ==
 * http://www.linux-usb.org/gadget/file_storage.html
