@@ -58,6 +58,7 @@ USB BW;10
 </pre>
 
 == tiefpunkt braucht ==
+USB Switch
 <pre>
 SMD 1/4W 68;100
 SMD 1/4W 1,5K;100
@@ -68,6 +69,17 @@ SMD ZF 3,6;5
 USB AWF;5
 USB AW;5
 SMD 1/4W 10K;100
+</pre>
+
+LED Matrix Dings
+<pre>
+TSM 2311 SMD;5
+USB BWM SMD;5
+TA 20-11 RT;5
+HALTER 3XAA;5
+TASTER 9313;5
+SS ESP101;5
+SL 1X10W SMD2,54;5
 </pre>
 
 == else braucht ==
