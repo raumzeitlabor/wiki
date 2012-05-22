@@ -2,6 +2,17 @@ Blackbox ist unser interner Server. Dieser hostet derzeit:
 
 * PartDB
 * PartKeepr
+* approx
+
+= approx =
+
+approx ist ein Cache für Debian-Repositories. Um die externe Leitung zu schonen sollten Besucher, die größere Updates von Debian-Maschinen oder Neuinstallationen machen, folgende Zeilen in ihre sources.list schreiben (möglich am Anfang):
+
+ deb http://blackbox.rzl:9999/debian $DIST main non-free contrib
+
+$DIST ist stable/testing/unstable/squeeze/wheezy/...
+
+Der approx-Cache ist auf dem Datengrab unter /Share/approx_cache abgelegt.
 
 = errorlog =
 == kernel oops ==
