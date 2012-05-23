@@ -283,10 +283,35 @@ Hilfreiches Dokument wenn man Rowmark Sachen bearbeitet:
 * Für gute Luft sorgen. Dazu habe ich einen Radiallüfter besorgt, der genug Power haben könnte unsere Abluft zu entsorgen.
 
 ==Tipps==
+
+===Boxen===
 Ihr braucht eine Box? Kein Problem! 
-Auf der Seite [[http://boxmaker.rahulbotics.com BoxMaker]] könnt ihr euch einfach und schnell die benötigte Vorlage erstellen.
-Einfach die gewünschten Maße in das Formular eintragen, das PDF herunterladen, ab in den Laser, kleben -> fertig.
-[[Datei:BoxMaker Screenshot.png|thumb|250px|left]]
+Auf der Seite [[http://boxmaker.rahulbotics.com BoxMaker]] könnt ihr euch einfach und schnell die benötigte Vorlage erstellen. Einfach die gewünschten Maße in das Formular eintragen, das PDF herunterladen, ab in den Laser, kleben -> fertig.
+
+[[Datei:BoxMaker Screenshot.png|400px]]
+
+===3D Modelle===
+Als Mac oder Windows User kommt ihr in den Genuss der kostenlosen Software [[http://www.123dapp.com/make 123D Make von Autodesk]].
+Was die Software kann lässt sich am besten an einem Beispiel verdeutlichen. Angenommen ihr habt ein schönes 3D Modell von einer Rakete. Dieses könnt ihr importieren und ein wenig nachbearbeiten. Im Anschluss bietet euch die Software an das Modell in Scheiben umzurechnen. 
+
+In der Option Stack Slice werden einzelne Scheiben erstellt, die dann im Anschluss gestapelt werden.
+
+[[Datei:Lasercutter Autodesk 123D StackSlice.png|400px]]
+
+Curve erstellt Scheiben, die mit einigen wenigen Verbindungsstücken fixiert werden können.
+
+[[Datei:Lasercutter Autodesk 123D Curve.png|400px]]
+
+Interlock Slice erstellt ineinander verzahnte Modelle.
+
+[[Datei:Lasercutter Autodesk 123D InterlockSlice.png|400px]]
+
+Nachdem euer Modell fertig ist, könnt ihr die einzelnen Bauteile als PDF exportieren und mit dem Laser ausschneiden. Nach ein wenig Bastelarbeit ist aure Rakete fertig zum anfassen, beleuchten und zeigen.
+
+[[Datei:Lasercutter Autodesk 123D PdfExport.png|400px]]
+
+
+
 
 == Siehe auch ==
 [[Lasercutter/Luftfilter]]
