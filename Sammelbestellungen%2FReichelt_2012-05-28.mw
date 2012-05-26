@@ -55,6 +55,7 @@ PFL 10;10
 WSL 10G;10
 WSL 6G;10
 USB BW;10
+USB BW SMD;5
 </pre>
 
 == tiefpunkt braucht ==
