@@ -23,4 +23,14 @@ Im Raum befindet sich im Regal, auf dem eine Hifi-Komponentenanlage und ein Musi
 
 Die Belegung der Eingangskanäle befindet sich links von der Anlage. Sollen Drittquellen angeschlossen werden, so kann dies über die schwarze Box für die Konnektierung verwendet werden.
 
+== Mitbestimmen ==
+
+Du kannst die gespielte Musik mitbestimmen, indem Du dir einen MPD Client installierst und dich auf den Host mpd.rzl verbindest. Gebräuchliche Clients sind:
+
+* ncmpcpp (Terminal)
+* $FIXME (Gnome)
+* MPDroid (Android)
+
+Gerne kannst Du deine eigene Musik in die Playlist einsortieren. Bitte bedenke jedoch, dass vermutlich jeder einen anderen Geschmack hat, und daher auch möglichst viel verschiedene Musik drankommen sollte. Du solltest daher nicht zuviele Tracks auf einmal hinzufügen. Auch solltest Du nicht einfach die gesamte Playlist ohne zu fragen löschen.
+
 [[Kategorie:Projekt]]
