@@ -28,10 +28,8 @@ Die Belegung der Eingangskanäle befindet sich links von der Anlage. Sollen Drit
 Du kannst die gespielte Musik mitbestimmen, indem Du dir einen MPD Client installierst und dich auf den Host mpd.rzl verbindest. Gebräuchliche Clients sind:
 
 * ncmpcpp (Terminal)
-* $FIXME (Gnome)
+* gmpc (Gnome)
 * MPDroid (Android)
-
-Eine Übersicht aller Clients findest Du [http://mpd.wikia.com/wiki/Clients hier].
 
 Gerne kannst Du deine eigene Musik in die Playlist einsortieren. Bitte bedenke jedoch, dass vermutlich jeder einen anderen Geschmack hat, und daher auch möglichst viel verschiedene Musik drankommen sollte. Du solltest daher nicht zuviele Tracks auf einmal hinzufügen. Auch solltest Du nicht einfach die gesamte Playlist ohne zu fragen löschen.
 
