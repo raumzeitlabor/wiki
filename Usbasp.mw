@@ -26,12 +26,16 @@ Eigentlich kann man die ISP Pins des Atmel mit Widerständen direkt an einen Par
 
 == Bausatz ==
 
-Der Bausatz kostet 10€, mit schwarzer Platine 12€. Wenn keine Bausätze mehr vorhanden sein sollten, bitte [[Benutzer:Felicitus|Felicitus]] ansprechen.
+* Der Bausatz kostet 10€, mit schwarzer Platine 12€. Wenn keine Bausätze mehr vorhanden sein sollten, bitte [[Benutzer:Felicitus|Felicitus]] ansprechen.
+* Die aktuellen Bausätze haben einen Bestückungsdruck (außer die schwarze Edition).
 
 Die usbasp-Platine wurde vom Labor in Bochum layoutet, das Ursprungsdesign kommt von [http://www.fischl.de/usbasp/ Thomas Fischl].
 
 === Anleitung ===
 
-Die Bestückungsliste findest du im [https://www.das-labor.org/trac/browser/microcontroller/doc/Layouts/usbasp svn vom labor].
-
-Wenn du den usbasp fertig bestückt hast, muß der Atmel darauf ggf. noch programmiert werden. Neuere Bausätze haben den Atmel vorprogrammiert. Falls nicht: wende dich an jemanden, der bereits einen usbasp hat, um die Firmware zu flashen (auch im SVN zu finden).
+* Denk daran, deine Platine '''vor''' dem Löten mit deinem Namen zu versehen, nachher ist es fummelig, da was draufzuschreien. Am besten einen dünnen, wasserfesten Edding verwenden.
+* Neuere Bausätze haben einen Bestückungsdruck. Wenn du einen älteren Bausatz hast oder die schwarze Edition, so verwende entweder das Bild mit dem Bestückungsdruck oder die Informationen im [https://www.das-labor.org/trac/browser/microcontroller/doc/Layouts/usbasp svn vom labor].
+* Fang mit den 3 Brücken an, bestücke dann die Widerstände und Dioden, dann die nächsthöheren Bauteile.
+* Hast du alles gelötet, kontrolliere die Platine optisch, ob nicht irgendwo ausversehen Lötbrücken geschaffen wurden.
+* Wenn du den usbasp fertig bestückt hast, muß der Atmel darauf ggf. noch programmiert werden. Neuere Bausätze haben den Atmel vorprogrammiert. Falls nicht: wende dich an jemanden, der bereits einen usbasp hat, um die Firmware zu flashen (auch im SVN zu finden).
+* Setze den Mikrokontroller ein und schaue, ob er erkannt wird.
