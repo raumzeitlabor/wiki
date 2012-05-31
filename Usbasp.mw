@@ -1,3 +1,19 @@
+{{ProjektInfoBox
+|name        = Usbasp
+|status      = beta
+|image       = 
+|description = *Der* Atmel-Programmer
+|author      = [[Benutzer:Felicitus|Felicitus]]
+|username    = 
+|version     = 1.0
+|update      = 
+|platform    = 
+|bausatz     = ja
+|preis       = 10,00 € / 12,00 €
+|license     = GNU GPL Version 2
+|download    = https://github.com/raumzeitlabor/usbasp
+}}
+
 Der usbasp ist ein einfacher Programmieradapter für die Atmel ISP Schnittstelle.
 
 == Wozu? ==
