@@ -1,9 +1,9 @@
 {{ProjektInfoBox
 |name        = Usbasp
 |status      = beta
-|image       = 
+|image       = Usbasp-Bestückung.png
 |description = *Der* Atmel-Programmer
-|author      = [[Benutzer:Felicitus|Felicitus]]
+|author      = [[Benutzer:Felicitus|Felicitus]], T. Fischl, das-labor
 |username    = 
 |version     = 1.0
 |update      = 
@@ -34,4 +34,4 @@ Die usbasp-Platine wurde vom Labor in Bochum layoutet, das Ursprungsdesign kommt
 
 Die Bestückungsliste findest du im [https://www.das-labor.org/trac/browser/microcontroller/doc/Layouts/usbasp svn vom labor].
 
-Wenn du den usbasp fertig bestückt hast, muß der Atmel darauf noch programmiert werden. Dazu wende dich an jemanden, der bereits einen usbasp hat, um die Firmware zu flashen (auch im SVN zu finden).
+Wenn du den usbasp fertig bestückt hast, muß der Atmel darauf ggf. noch programmiert werden. Neuere Bausätze haben den Atmel vorprogrammiert. Falls nicht: wende dich an jemanden, der bereits einen usbasp hat, um die Firmware zu flashen (auch im SVN zu finden).
