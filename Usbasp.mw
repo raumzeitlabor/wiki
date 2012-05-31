@@ -18,7 +18,7 @@ Der usbasp ist ein einfacher Programmieradapter für die Atmel ISP Schnittstelle
 
 == Wozu? ==
 
-Wenn du einen Atmel Mikrocontroller programmieren möchtest, brauchst du einen Programmieradapter. Diesen gibt's als Kaufversion oder bei uns als Bausatz.
+Wenn du einen Atmel Mikrocontroller programmieren möchtest, brauchst du einen Programmieradapter - der usbasp ist ein solcher Programmieradapter. Diesen gibt's als Kaufversion oder bei uns als Bausatz. Diese Seite beschreibt den Bausatz.
 
 == Funktionsweise ==
 
