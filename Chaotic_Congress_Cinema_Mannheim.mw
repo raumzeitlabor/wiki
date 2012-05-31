@@ -42,18 +42,6 @@ Als nächstes werden folgende Mitschnitte vorgeführt.
 !Dauer
 !Sprache
 |-
-| [http://events.ccc.de/congress/2011/Fahrplan/events/4928.en.html KinectFusion]
-| David Kim
-| KinectFusion- Real-time 3D Reconstruction and Interaction Using a Moving Depth Camera
-| 01H00M00S
-| English
-|-
-| [http://events.ccc.de/congress/2011/Fahrplan/events/4764.en.html Automatic Algorithm Invention with a GPU]
-| Wes Faler
-| Automatic Algorithm Invention with a GPU- Hell Yeah, it's rocket science
-| 01H00M00S
-| English
-|-
 |}
 
 === Noch nicht vorgeführte Vorträge ===
@@ -672,6 +660,20 @@ Als nächstes werden folgende Mitschnitte vorgeführt.
 !Zusammenfassung
 !Dauer
 !Sprache
+|-
+| 31.05.2012
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4928.en.html KinectFusion]
+| David Kim
+| KinectFusion- Real-time 3D Reconstruction and Interaction Using a Moving Depth Camera
+| 01H00M00S
+| English
+|-
+| 31.05.2012
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4764.en.html Automatic Algorithm Invention with a GPU]
+| Wes Faler
+| Automatic Algorithm Invention with a GPU- Hell Yeah, it's rocket science
+| 01H00M00S
+| English
 |-
 | 24.05.2012
 | [http://events.ccc.de/congress/2011/Fahrplan/events/4751.en.html The Hack will not be televised?]
