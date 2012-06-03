@@ -93,6 +93,7 @@ Das war der vierte Versuch. Das bisher beste Ergebnis. Weiße Folie wurde in Kom
 
 '''Update 03.06.2011: Bisher habe ich einige Platinen damit versehen (z.B. aktuelle Serie der usbasps), ist gut lötbar (sprich: Folie verformt sich wenig bis gar nicht) und schaut 1a aus! Epic Win!'''
 
+* Beim Druck '''unbedingt''' den Medientyp "Folie" auf dem CLP-310 auswählen - unter Linux geht das (noch) nicht. Daher besser den Windows-Treiber verwenden, der kann's und druckt die Farben auch richtig aus.
 * Hint für optimale Lesbarkeit: Nur Schwarz oder bei einem Farblaser die Grundfarben (CMY) verwenden, ansonsten wird's gerastert und schaut doof aus. Ich nutze Cyan für den Bestückungsdruck und Schwarz für Dinge, die man auch "im Betrieb" lesen muß (letzteres z.b. beim usbasp für das Name-Tag und die Beschriftungen für die Ports).
 * Folie *vor* dem Bohren und *vor* dem Sägen mit Sprühkleber aufkleben. Dann min. 24h trocknen lassen, sonst löst sich die Folie beim Bohren leicht. Beim Sägen darauf achten, daß das Kreissägeblatt von '''oben''' auf die Folie kommt, sonst hebt sich die Folie an der Schnittkante leicht an.
 * Beim Bohren von der Kupferseite aus bohren, unter die Platine Holz legen (evtl nicht nötig, war beim ersten Versuch etwas paranoid - aber sicher ist sicher).
