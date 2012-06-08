@@ -1,0 +1,7 @@
+Schlachtplan: Moodlamp-Board bauen, das $vieles kann.
+
+Was man will:
+* Möglichst kleines Board, also SMD
+* Steuerbar via I²C, wenn jemand Ethernet/Seriell/RFM12/whatever haben mag, kann er es einfach über I²C anbinden
+* CPU: ATtiny26L ? Kann nur 2 HW-PWM-Channels, aber da die CPU nur wenig machen muß (I²C->PWM, geht auch in SW), könnte das gehen.
+* Treiber-IC will mann, sofern es welche mit 1A per Channel gibt
