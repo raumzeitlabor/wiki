@@ -19,12 +19,13 @@ PartKeepr ist eine Datenbank für elektronische Bauteile.
 
 == RZL-spezifisches ==
 
-* Du kannst dich direkt mit dem Benutzernamen + Passwort anmelden, welches du in der [[BenutzerDB]] verwendest.
+* Du kannst dich direkt mit dem Benutzernamen + Passwort anmelden, welches du in der [[Pinpad#Status|BenutzerDB]] verwendest. Die Authentifizierung läuft direkt via HTTP Auth gegen die BenutzerDB, PartKeepr hat also mit dem Auth nichts mehr zu tun.
+* PartKeepr läuft auf der [[Blackbox]]. Die Suche von Bauteilen ist aufgrund der CPU-Geschwindigkeit etwas langsam, wird aber durch cleveres-caching™ $bald™ gefixt.
 * Es befinden sich derzeit viele Bauteile in der Datenbank, die nicht mehr existieren. '''Sämtliche Bauteile, die in den Kisten beginnend mit A oder B gelagert sind, sind höchstwarscheinlich nicht mehr da'''. Dies wird $bald gefixt.
 
 == Quellen ==
 
-* RZL-Installation: [https://blackbox.raumzeitlabor.de/partkeepr blackbox.raumzeitlabor.de/partkeepr]
+* RZL-Installation: [https://blackbox.raumzeitlabor.de/partkeepr blackbox.raumzeitlabor.de/partkeepr - IPv6 only]
 * Projektseite: [http://partkeepr.org partkeepr.org]
 * Demo: [http://demo.partkeepr.org demo.partkeepr.org]
 
