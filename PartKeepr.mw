@@ -11,7 +11,12 @@
 |license     = 
 |download    = 
 }}
-	
+
+[[Image:E_Ecke_158_Kisten.jpg|thumb|300px|right|Sortimentskisten H1 bis B0150]]
+[[Image:Sortimentskisten ab B0151.JPG|thumb|300px|right|Sortimentskisten H1 ab B0151]]
+[[Image:Elektroecke Kleinteilemagazine bis A0054.JPG|thumb|300px|right|Kleinteilemagazine bis A0054]]
+[[Image:Elektroecke Kleinteilemagazine ab A0055.JPG|thumb|300px|right|Kleinteilemagazine ab A0055]]
+[[Image:Elektroecke Schüttkisten Wand.JPG|thumb|300px|right|Schüttkisten bis G0140]]
 
 == Allgemeines ==
 
@@ -28,6 +33,18 @@ PartKeepr ist eine Datenbank für elektronische Bauteile.
 * RZL-Installation: [https://blackbox.raumzeitlabor.de/partkeepr blackbox.raumzeitlabor.de/partkeepr - IPv6 only]
 * Projektseite: [http://partkeepr.org partkeepr.org]
 * Demo: [http://demo.partkeepr.org demo.partkeepr.org]
+
+==Lagerorte==
+Vergabe von eindeutigen Nummern zum wiederfinden der Teile
+
+Wir haben:
+#Kleinteilmagazine (Axxxx - veraltet)
+#Sortimenskästen (Xnnn - veraltet: Bxxxx)
+#Kisten (Cxxx)
+#Sichtlagerboxen (Dxxx)
+#Schränke (Exx)
+#Schubladen (Fxx)
+#Schüttkisten (Gxxxx)
 
 == Sonstiges ==
 
