@@ -4,6 +4,10 @@ Blackbox ist unser interner Server. Dieser hostet derzeit:
 * PartKeepr
 * approx
 
+= Hardware =
+
+Das ist eine AMD Geode 500MHz Kiste, die von einer CF-Karte bootet, um möglichst stromsparend zu sein.
+
 = approx =
 
 approx ist ein Cache für Debian-Repositories. Um die externe Leitung zu schonen sollten Besucher, die größere Updates von Debian-Maschinen oder Neuinstallationen machen, folgende Zeilen in ihre sources.list schreiben (möglich am Anfang):
