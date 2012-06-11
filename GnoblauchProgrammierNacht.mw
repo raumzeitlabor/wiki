@@ -7,7 +7,7 @@
 |username    = 
 |rhythm      = einmalig
 |day         = 16. Juni 2012
-|time        =
+|time        = 19:00
 |preis       =
 }}
 Hier planen wir die '''GnoblauchProgrammierNacht''' am 16. Juni. 2012.
@@ -23,6 +23,20 @@ IRC: [irc://irc.hackint.org/#gnoblauch #gnoblauch] auf hackint
 == Vorträge/Workshops ==
 Wir werden uns auf Grund der Größe des geplanten Vortragsareals auf (extended) Lightning Talks (Länge max. 15 minuten) beschränken, die dann gerne in Workshops oder Breakout-Sessions an anderen Orten in der Event-Location weiter gehen dürfen.
 
+=== Fahrplan v0.01 ===
+{| class=wikitable
+! Uhrzeit !! Ort !! Titel !! Speaker !! Beschreibung
+|-
+| 19:00 || Hackcenter || Keynote || [[Benutzer:Unicorn|Unicorn]],[[Benutzer:tiefpunkt|tiefpunkt]] || Introduction-Foo 
+|-
+| 19:30 || Ebene || World Wide Gnoblauch || [[Benutzer:zwetschgo|zwetschgo]] || Knoblauch in der Internationalen Küche
+|-
+| 20:00 || Ebene || Small Scale ZFS || [[Benutzer:Blabber|blabber]] || ...
+|-
+| 20:30 || Ebene || MyLittleSynthie || [[Benutzer:Felicitus|Felicitus]] || Modularsynthesizer für Anfänger
+|-
+| 21:00 || Ebene || GnoblauchMediPack || [[Benutzer:zwetschgo|zwetschgo]] || Knoblauch als Heilpflanze
+|}
 === Confirmed ===
 * Modularsynthesizer ([[Benutzer:Felicitus|Felicitus]])
 * Small Scale ZFS ([[Benutzer:Blabber|blabber]])
