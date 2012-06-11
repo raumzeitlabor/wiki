@@ -1,80 +1,29 @@
 {{EventInfoBox
 |name        = KleinProzessorZüchter
-|status      = stable
+|status      = unknown
 |image       = 
 |description = Die Mikrocontroller Arbeitsgruppe im RaumZeitLabor
-|author      = [[Benutzer:TabasyoEye|TabascoEye]], [[Benutzer:Fabster|Fabster]]
+|author      = [[Benutzer:TabasyoEye|TabascoEye]], [[Benutzer:Fabster|Fabster]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Felicitus|Felicitus]]
 |username    = 
 |rhythm      = Wöchentlich
 |day         = Mittwoch
 |time        = 19:30 Uhr
 |preis       = Kostenlos
 }}
-Wir löten, was die Kolben hergeben.
+Die '''KleinProzessorZüchter''' sind eine losen Gruppen von Lebewesen, die sich einmal wöchentlich mit der wunderbaren Welt der Elektronik beschäftigt haben. Leider ist das Event in letzter Zeit ein wenig eingeschlafen, es besteht allerdings Hoffnung auf Wiederbelebung. Zusätzlich kümmert sich diese losen Gruppierung um die Bereitstellung von tollen Bausätzen, die günstig in den Räumlichkeiten des RaumZeitLabors, sowie auf sämtlichen Veranstaltungen der RaumZeitLabor Hackerspace Holding Inc., erworden werden können.
 
 
 ==Bausätze==
 
-===Laborboard===
+===Auf Lager===
+* [[Usbasp]]
+* [[V-USB Proto Board]]
+* [[ISP-Adapter]]
 
-Als erstes Experminetierboard für Mikrocontrollerprojekte nutzen wir das Laborboard, das unser befreundeter Hackerspace Das Labor aus Bochum entwickelt hat.
-Es besteht aus einem Atmel ATmega32 mit ISP Programmierschnittstelle, 16Mhz Quarz, 4 Tastern, 8 freiprogrammierbaren LEDs und einem Spannungsversorgunsteil für die 5V. Das ganze kostet derzeit grob 10Euro im Einkauf und ist zu diesem Preis auch im RZL kaufbar (wenn auf Lager).
-
-Nächste Bestellung (bitte eintragen, wird nach Bestellung jeweils gelöscht):
-{| border="1" cellspacing="0" cellpadding="10"
-|-----
-! Besteller || Anzahl || Brauche Hilfe || liegt bereit || abgeholt || bezahlt
-|-----
-| foobar || 1 || ja || - || - ||
-|-----
-| ||  ||  ||  || ||
-|-----
-|}
-Derzeit noch auf Lager: 2 Stück
-
-===usbasp===
-
-Siehe [[Usbasp]]
-
-===[[Moodlamp]]===
-
-Die vielen schicken RGB Moodlampprojekte haben mich dazu inspiriert, auch eine haben zu wollen. Der CCC München hat einen schönen Bausatz, der aber mit gefertigten Platinen und SMD Bauteilen bestückt ist (schwer zu löten).
-Ich wollte etwas eher Anfängerkompatibles haben. Die Erlanger haben eine Moodlamp mit bedrahteten Bauteilen entworfen und auch Platinen dafür gelayoutet. Ich möchte das ganze mit Lochrasterplatinen machen, so dass man es auch gut mit einem Lötworkshop verbinden und seine SKills ausweiten kann. Genaues zur Moodlamp findet sich auf einer seperaten Wikiseite [[Moodlamp]].
-Der Moodlampbausatz kostet in der derzeitigen Form knapp 25 Euro im Einkauf. Die RZL Kasse würde sich freuen, wenn ihr 30-35Euro bezahltet.
-
-Nächste Bestellung (bitte eintragen, wird nach Bestellung jeweils gelöscht):
-{| border="1" cellspacing="0" cellpadding="10"
-|-----
-! Besteller || Anzahl || Brauche Hilfe || liegt bereit || abgeholt || bezahlt
-|-----
-| romain || 1 || ? || ja || ja || ja
-|-----
-| zwetschgo || 1 || ja || ja || nein || nein
-|-----
-| TrickSTer || 1 || ja || || nein || nein
-|-----
-|}
-Derzeit noch auf Lager: 0 Stück
-
-===[[TV-B-Gone]] (RZL version)===
-
-Auf vielfachen Wunsch (Unicorn) haben wir uns mal das Design des [[TV-B-Gone]] von [http://ladyada.net/make/tvbgone/index.html Ladyada und Mitch Altman] angeschaut. Ich habe dann ein Layout für Lochraster zusammengestrickt und die Bauteile bei Reichelt bestellt. Mehr zum Bausatz auf seiner Wikiseite. Ein Bausatz kostet im Einkauf knapp 7 Euro, wir würden uns über 12-15 Euro freuen.
-
-Nächste Bestellung (bitte eintragen, wird nach Bestellung jeweils gelöscht):
-{| border="1" cellspacing="0" cellpadding="10"
-|-----
-! Besteller || Anzahl || Brauche Hilfe || liegt bereit || abgeholt || bezahlt
-|-----
-| romain || 1 || evtl || ? || ja || ja
-|-----
-| simon || 1 || evtl || ? || ja || nein
-|-----
-| severin || 1 || evtl || ? || ja || nein
-|-----
-| Unicorn || 1 || evtl || ? || ja || nein
-|-----
-|}
-Derzeit noch auf Lager: 13 Stück
+=== Vergriffen ===
+* [[Moodlamp]]
+* [[TV-B-Gone]]
+* Laborboard<br>Als erstes Experminetierboard für Mikrocontrollerprojekte nutzen wir das Laborboard, das unser befreundeter Hackerspace Das Labor aus Bochum entwickelt hat. Es besteht aus einem Atmel ATmega32 mit ISP Programmierschnittstelle, 16Mhz Quarz, 4 Tastern, 8 freiprogrammierbaren LEDs und einem Spannungsversorgunsteil für die 5V.
 
 === Mögliche zukünftige Bausätze ===
 * CMOY-Kopfhörer-Verstärker
@@ -94,4 +43,3 @@ Derzeit noch auf Lager: 13 Stück
 
 [[Kategorie:Veranstaltung]]
 [[Kategorie:KleinProzessorZüchter]]
-[[Kategorie:Wiki Cleanup/ToDo]]
