@@ -23,7 +23,7 @@ IRC: [irc://irc.hackint.org/#gnoblauch #gnoblauch] auf hackint
 == Vorträge/Workshops ==
 Wir werden uns auf Grund der Größe des geplanten Vortragsareals auf (extended) Lightning Talks (Länge max. 15 minuten) beschränken, die dann gerne in Workshops oder Breakout-Sessions an anderen Orten in der Event-Location weiter gehen dürfen.
 
-=== Fahrplan v0.01 ===
+=== Fahrplan v0.02 ===
 {| class=wikitable
 ! Uhrzeit !! Ort !! Titel !! Speaker !! Beschreibung
 |-
@@ -33,15 +33,18 @@ Wir werden uns auf Grund der Größe des geplanten Vortragsareals auf (extended)
 |-
 | 20:00 || Ebene || Small Scale ZFS || [[Benutzer:Blabber|blabber]] || ...
 |-
-| 20:30 || Ebene || MyLittleSynthie || [[Benutzer:Felicitus|Felicitus]] || Modularsynthesizer für Anfänger
+| 20:30 || Ebene || LED³ || [[Benutzer:Echox|echox]] || Build your own LED-Cube
 |-
-| 21:00 || Ebene || GnoblauchMediPack || [[Benutzer:zwetschgo|zwetschgo]] || Knoblauch als Heilpflanze
+| 21:00 || Ebene || MyLittleSynthie || [[Benutzer:Felicitus|Felicitus]] || Modularsynthesizer für Anfänger
+|-
+| 21:30 || Ebene || GnoblauchMediPack || [[Benutzer:zwetschgo|zwetschgo]] || Knoblauch als Heilpflanze
 |}
 === Confirmed ===
 * Modularsynthesizer ([[Benutzer:Felicitus|Felicitus]])
 * Small Scale ZFS ([[Benutzer:Blabber|blabber]])
 * Knoblauch als Heilpflanze ([[Benutzer:zwetschgo|zwetschgo]])
 * Knoblauch in der Internationalen Küche ([[Benutzer:zwetschgo|zwetschgo]])
+* LED-Cube ([[Benutzer:Echox|echox]])
 
 === Ideas ===
 * Hack the Wiki - unser Wiki muss so schön werden wie unser Space
