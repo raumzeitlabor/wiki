@@ -4,6 +4,17 @@
 '''Hinweis für Besteller:''' Reichelt hat Probleme beim Importieren von großen Warenkörben. Du solltest die Bestellung daher in mehreren Schritten importieren. Weiterhin summiert Reichelt bei mehreren Zeilen der gleichen Artikel die jeweiligen Mengen nicht auf. Um dir das Leben zu vereinfachen, kannst Du [http://rcsvtool.labs.iodev.org dieses] Tool benutzen (Ansprechpartner: [[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]])).
 |}<br>
 
+== TV-B-Gone ==
+
+<pre>
+RAD 100/25;1
+IRF 630;1
+X7R-G1206 10/16;4
+TASTER 3301;1
+ATTINY 85-20 PU;1
+GS 8P;1
+</pre>
+
 == $besteller1 braucht ==
 
 <pre>
