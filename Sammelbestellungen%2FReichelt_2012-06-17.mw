@@ -37,6 +37,12 @@ LD 274-3;2
 CST 8,00;1
 </pre>
 
+evtl:
+
+<pre>
+XO32 8,00000
+</pre>
+
 == $besteller1 braucht ==
 
 <pre>
