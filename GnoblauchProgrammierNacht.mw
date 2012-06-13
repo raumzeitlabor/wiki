@@ -62,9 +62,11 @@ Keine GnoblauchProgrammierNacht ohne Unmengen Gnoblauch. Seid kreativ, wir freue
 == Vorträge/Workshops ==
 Wir werden uns auf Grund der Größe des geplanten Vortragsareals auf (extended) Lightning Talks (Länge max. 15 minuten) beschränken, die dann gerne in Workshops oder Breakout-Sessions an anderen Orten in der Event-Location weiter gehen dürfen.
 
-=== Fahrplan v0.02 ===
+=== Fahrplan ===
 {| class=wikitable
 ! Uhrzeit !! Ort !! Titel !! Speaker !! Beschreibung
+|- style="background:#ff0;"
+| 14:00 || Hackcenter || GO-Workshop || Matthias || Pre-Game: Lerne GO - Das Spiel der Götter
 |-
 | 19:00 || Hackcenter || Keynote || [[Benutzer:Unicorn|Unicorn]],[[Benutzer:tiefpunkt|tiefpunkt]] || Introduction-Foo 
 |-
@@ -80,6 +82,7 @@ Wir werden uns auf Grund der Größe des geplanten Vortragsareals auf (extended)
 |-
 | 22:00 || Ebene || GnoblauchWettessen || [[Benutzer:jiska|jiska]] || Wettessen von leckeren Dingen mit Gnoblauch. Wer überwindet sich zuerst, eine Tasse Gnoblauchsoße zu exen? Wer vernichtet den Gnoblauch-Wackelpudding in Null-komma-Nichts? Mutige Männer_innen gesucht!
 |}
+Version 0.03 (201206130959)
 
 === Confirmed ===
 * Modularsynthesizer ([[Benutzer:Felicitus|Felicitus]])
