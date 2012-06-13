@@ -11,18 +11,20 @@ Die Busanzeigen wurden von Felicitus' Bruder zur Verfügung gestellt. Primär er
 
 == Steckerbelegung vom Mainboard zum LCD ==
 
+<pre>
 Pin 1: +5V
 Pin 2: +12V
-Pin 3: ???
-Pin 4: 6V?
+Pin 3: GND
+Pin 4: 6V
 Pin 5: Takt (4ms)
-Pin 6: ??
+Pin 6: ?? (immer low)
 Pin 7: Data
 Pin 8: Data oder shift?
 Pin 9: Data nochmal?
-Pin 10: Takt
+Pin 10: Takt (Rückleitung)
 Pin 11: +12V
 Pin 12: GND
+</pre>
 
 == Doku ==
 
