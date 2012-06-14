@@ -46,9 +46,10 @@ XO32 8,00000
 == dj2mc a/k/a bibor braucht ==
 
 <pre>
-KSSKG 35 ;3
-KSSM 35 ;3
-ICK SMD B13 ;1
+KSSKG 35;3
+KSSM 35;3
+ICK SMD B13;1
+ICK SMD E22;1
 </pre>
 
 == $besteller1 braucht ==
