@@ -38,4 +38,4 @@ Die Videos der Kamera haben eine Framerate von 29.97 fps, aber eine Field-Anzahl
 
  ffmpeg -threads 0 -i IMAG0001.MP4 -target ntsc-dvd -sameq -s hd1080 IMAG0001_recoded.mpg
 
-Die [[Datei:RZL_Vortrag_Vorlage.xml|Projekt-Datei für Kdenlive]] gibt es hier und das Introvideo [[RZL_Introvideo|hier]].
+Die Projekt-Datei für Kdenlive gibt es [[Datei:RZL_Vortrag_Vorlage.xml|hier]] und das Introvideo [[RZL_Introvideo|hier]].
