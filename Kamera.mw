@@ -37,3 +37,5 @@ Notebook-Setup (Thinkpad X200):
 Die Videos der Kamera haben eine Framerate von 29.97 fps, aber eine Field-Anzahl von 59, obwohl sie nicht interlaced sind. Das verwirrt kdenlive, daher re-encodiere ich derzeit vorher:
 
  ffmpeg -threads 0 -i IMAG0001.MP4 -target ntsc-dvd -sameq -s hd1080 IMAG0001_recoded.mpg
+
+Die [[Datei:RZL_Vortrag_Vorlage.xml|Projekt-Datei für Kdenlive]] gibt es hier und das Introvideo [[RZL_Introvideo|hier]].
