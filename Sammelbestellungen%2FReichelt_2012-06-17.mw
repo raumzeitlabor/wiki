@@ -4,6 +4,15 @@
 '''Hinweis für Besteller:''' Reichelt hat Probleme beim Importieren von großen Warenkörben. Du solltest die Bestellung daher in mehreren Schritten importieren. Weiterhin summiert Reichelt bei mehreren Zeilen der gleichen Artikel die jeweiligen Mengen nicht auf. Um dir das Leben zu vereinfachen, kannst Du [http://rcsvtool.labs.iodev.org dieses] Tool benutzen (Ansprechpartner: [[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]])).
 |}<br>
 
+== IR-Empfänger ==
+
+<pre>
+SFH 300 FA-3/4;2
+TSOP 31240;1
+TSOP 31238;1
+TSOP 31236;1
+</pre>
+
 == Fehlende Teile für usbasp ==
 
 <pre>
