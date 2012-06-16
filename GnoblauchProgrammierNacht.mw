@@ -15,6 +15,44 @@ Hier planen wir die '''GnoblauchProgrammierNacht''' am 16. Juni. 2012.
 == Kommunikation ==
 IRC: [irc://irc.hackint.org/#gnoblauch #gnoblauch] auf hackint
 
+== Vorträge/Workshops ==
+Wir werden uns auf Grund der Größe des geplanten Vortragsareals auf (extended) Lightning Talks (Länge max. 15 minuten) beschränken, die dann gerne in Workshops oder Breakout-Sessions an anderen Orten in der Event-Location weiter gehen dürfen.
+
+=== Fahrplan ===
+{| class=wikitable
+! Uhrzeit !! Ort !! Titel !! Speaker !! Beschreibung
+|- style="background:#ff0;"
+| 14:00 || Hackcenter || GO-Workshop || Matthias || Pre-Game: Lerne GO - Das Spiel der Götter
+|-
+| 19:00 || Hackcenter || Keynote || [[Benutzer:Unicorn|Unicorn]],[[Benutzer:tiefpunkt|tiefpunkt]] || Introduction-Foo 
+|-
+| 19:30 || Ebene || World Wide Gnoblauch || [[Benutzer:zwetschgo|zwetschgo]] || Knoblauch in der Internationalen Küche
+|-
+| 20:00 || Ebene || Small Scale ZFS || [[Benutzer:Blabber|blabber]] || Erfahrungen mit ZFS auf einem Laptop (aber 15 min werden knapp)
+|-
+| 20:30 || Ebene || LED³ || [[Benutzer:Echox|echox]] || Build your own LED-Cube
+|-
+| 21:00 || Ebene || MyLittleSynthie || [[Benutzer:Felicitus|Felicitus]] || Modularsynthesizer für Anfänger
+|-
+| 21:30 || Ebene || GnoblauchMediPack || [[Benutzer:zwetschgo|zwetschgo]] || Knoblauch als Heilpflanze
+|-
+| 22:00 || Ebene || GnoblauchWettessen || [[Benutzer:jiska|jiska]] || Wettessen von leckeren Dingen mit Gnoblauch. Wer überwindet sich zuerst, eine Tasse Gnoblauchsoße zu exen? Wer vernichtet den Gnoblauch-Wackelpudding in Null-komma-Nichts? Mutige Männer_innen gesucht!
+|}
+Version 0.03 (201206130959)
+
+=== Confirmed ===
+* Modularsynthesizer ([[Benutzer:Felicitus|Felicitus]])
+* Small Scale ZFS ([[Benutzer:Blabber|blabber]])
+* Knoblauch als Heilpflanze ([[Benutzer:zwetschgo|zwetschgo]])
+* Knoblauch in der Internationalen Küche ([[Benutzer:zwetschgo|zwetschgo]])
+* LED-Cube ([[Benutzer:Echox|echox]])
+* GnoblauchWettessen ([[Benutzer:jiska|jiska]])
+
+=== Ideas ===
+* Hack the Wiki - unser Wiki muss so schön werden wie unser Space
+* PizzaProxy Hacking [[Benutzer:Muzy|muzy]]
+* Retro: Wat is einklich eine Mailbox? [[Benutzer:Atari-Frosch|Atari-Frosch]]
+
 == Gnome ==
 Jede Veranstaltung braucht tolle Helfer. Wir nennen sie "Gnome". Der Gnom an sich ist ein selbstloses Wesen, dass gerne seinen intergalaktischen Mitlebenwesen hilft. Für unsere Veranstaltung brauchen wir folgende Gnom-Typen:
 * Vortragsgnom<br>Der Vortragsgnom ist zuständig für das ankündigen eines Vortrags, der Sicherstellung des geordneten Ablaufs eines Vortrags, sowie der Videoaufnahme des selbigen.
@@ -70,44 +108,6 @@ Keine GnoblauchProgrammierNacht ohne Unmengen Gnoblauch. Seid kreativ, wir freue
 * Blätterteigtaschen mit Gnoblauch-Hack-Füllung --[[Benutzer:flederrattie|flederrattie]]
 * Griechischer Salat --[[Benutzer:flederrattie|flederrattie]]
 * Spaghettisalat -- Romina
-
-== Vorträge/Workshops ==
-Wir werden uns auf Grund der Größe des geplanten Vortragsareals auf (extended) Lightning Talks (Länge max. 15 minuten) beschränken, die dann gerne in Workshops oder Breakout-Sessions an anderen Orten in der Event-Location weiter gehen dürfen.
-
-=== Fahrplan ===
-{| class=wikitable
-! Uhrzeit !! Ort !! Titel !! Speaker !! Beschreibung
-|- style="background:#ff0;"
-| 14:00 || Hackcenter || GO-Workshop || Matthias || Pre-Game: Lerne GO - Das Spiel der Götter
-|-
-| 19:00 || Hackcenter || Keynote || [[Benutzer:Unicorn|Unicorn]],[[Benutzer:tiefpunkt|tiefpunkt]] || Introduction-Foo 
-|-
-| 19:30 || Ebene || World Wide Gnoblauch || [[Benutzer:zwetschgo|zwetschgo]] || Knoblauch in der Internationalen Küche
-|-
-| 20:00 || Ebene || Small Scale ZFS || [[Benutzer:Blabber|blabber]] || Erfahrungen mit ZFS auf einem Laptop (aber 15 min werden knapp)
-|-
-| 20:30 || Ebene || LED³ || [[Benutzer:Echox|echox]] || Build your own LED-Cube
-|-
-| 21:00 || Ebene || MyLittleSynthie || [[Benutzer:Felicitus|Felicitus]] || Modularsynthesizer für Anfänger
-|-
-| 21:30 || Ebene || GnoblauchMediPack || [[Benutzer:zwetschgo|zwetschgo]] || Knoblauch als Heilpflanze
-|-
-| 22:00 || Ebene || GnoblauchWettessen || [[Benutzer:jiska|jiska]] || Wettessen von leckeren Dingen mit Gnoblauch. Wer überwindet sich zuerst, eine Tasse Gnoblauchsoße zu exen? Wer vernichtet den Gnoblauch-Wackelpudding in Null-komma-Nichts? Mutige Männer_innen gesucht!
-|}
-Version 0.03 (201206130959)
-
-=== Confirmed ===
-* Modularsynthesizer ([[Benutzer:Felicitus|Felicitus]])
-* Small Scale ZFS ([[Benutzer:Blabber|blabber]])
-* Knoblauch als Heilpflanze ([[Benutzer:zwetschgo|zwetschgo]])
-* Knoblauch in der Internationalen Küche ([[Benutzer:zwetschgo|zwetschgo]])
-* LED-Cube ([[Benutzer:Echox|echox]])
-* GnoblauchWettessen ([[Benutzer:jiska|jiska]])
-
-=== Ideas ===
-* Hack the Wiki - unser Wiki muss so schön werden wie unser Space
-* PizzaProxy Hacking [[Benutzer:Muzy|muzy]]
-* Retro: Wat is einklich eine Mailbox? [[Benutzer:Atari-Frosch|Atari-Frosch]]
 
 == Testimonials ==
 
