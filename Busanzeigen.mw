@@ -17,10 +17,10 @@ Pin 2: +12V
 Pin 3: GND
 Pin 4: 6V
 Pin 5: Takt (4ms)
-Pin 6: ?? (immer low)
-Pin 7: Data
-Pin 8: Data oder shift?
-Pin 9: Data nochmal?
+Pin 6: ?? (meistens low) wird benötigt, ohne geht's nicht. Wird im betrieb vom controller auf low gezogen, ansonsten kommt da komischer analog-foo raus (auf <100mV niveau).
+Pin 7: Data? kommt zeugs. kleinster Impuls bei 30µS
+Pin 8: Data oder shift? Kleinster Impuls bei ca. 83µS
+Pin 9: Data nochmal? 
 Pin 10: Takt (Rückleitung)
 Pin 11: +12V
 Pin 12: GND
