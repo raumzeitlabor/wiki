@@ -30,6 +30,8 @@ Pin 12: GND
 
 Die Doku liegt auf dem Datengrab bzw. abgeheftet in den Schnellheftern im oberen E-Eck-Regal.
 
+* Die Hintergrundbeleuchtung schaltet erst dann aktiv, wenn 24V anliegen. (Damit könnte man was tricksen, um die Hintergrundbeleuchtung Situationsabhängig zu schalten).
+
 ==Zu Besorgen==
 [x] Doku <br>
 [ ] Netzteil
