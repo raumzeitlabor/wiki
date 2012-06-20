@@ -26,10 +26,26 @@ Pin 11: +12V
 Pin 12: GND
 </pre>
 
-== Protokol ==
+== Protokoll ==
 * Signale: [http://timohummel.com/temp/untitled.vcd] (Lesbar mit GTKWave)
 * Daraus entstehendes Bild: [https://twitter.com/_felicitus/status/214992498085478400/photo/1]
 * Auflösung: 152 * 16 (ca.)
+
+* Pin 7 gibt den Datenübertragungstakt vor, Pin 9 die Daten. Wohl Flankengesteuert. Um einen Pixel zu setzen, muß der Pixelzustand auf Pin 9 sowohl bei High als auch Low auf Pin 7 gesetzt sein. Beispiel: Takt 1 Pin 7+9 high, Takt 2 Pin 7 low, Pin 9 high
+* Für das setzen von Pixel muß Pin 8 auf High gezogen werden.
+* Die Übertragungsgeschwindigkeit scheint nicht von relevanz zu sein
+* Die Übertragung ist in Blöcke unterteilt. Ein Block für das setzen/löschen von Pixeln funktioniert nach folgendem Schema:
+** Spalte N, Zeile 2
+** Spalte N, Zeile 4
+** Spalte N, Zeile 6
+** Spalte N, Zeile 8
+** Spalte N, Zeile 16
+** Spalte N, Zeile 14
+** Spalte N, Zeile 12
+** Spalte N, Zeile 10
+** Spalte N+1, Zeile 2
+** Spalte N+1, Zeile 4
+** etc
 
 == Doku ==
 
