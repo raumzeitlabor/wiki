@@ -13,3 +13,5 @@ This is a 32 button input board which connects to your MAME computer and emulate
 An attiny2313 is used, connected via the usual V-USB setup and the HID firmware.
 
 Parts cost about 8 EUR plus the PCB.
+
+'''THIS IS WIP - NO ACTUAL PCB HAS BEEN BUILT SO FAR. HANDLE WITH CARE.'''
