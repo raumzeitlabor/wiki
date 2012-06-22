@@ -27,6 +27,7 @@ Zum Beamer liegen Composite, S-Video und VGA-Kabel. Für VGA steht auf dem Regal
 * Fertig mit Film gucken oder Vortrag halten? Beamer ausschalten nicht vergessen!
 * Bitte darauf achten, dass er nach Benutzung 15min nachlüftet, bis er endgültig vom Netz getrennt werden darf.
 * Neben dem Beamer steht ein Karton, in dem Karton befindet sich eine Ersatzlampe. 
+** Diese ist mittlerweile verbaut. Da sie nicht neu ist, kann keine Aussage über die Restlaufzeit getroffen werden. Es sollten aber noch einige Stunden möglich sein. Bei der Lampe handelt es sich um eine "VT60LP" von NEC. In der Bucht kostet sie im Moment 139€
 * Die Fernbedienung funktioniert nur, wenn sie sich im "PJ" Modus befindet. Dazu einfach auf den weißen Knopf in der Mitte drücken, dieser leuchtet daraufhin rot.
 
 ==ToDo==
@@ -44,6 +45,7 @@ Zum Beamer liegen Composite, S-Video und VGA-Kabel. Für VGA steht auf dem Regal
 '''Im Moment sind folgende Schnittstellen angeschlossen:'''
 * VGA
 * S-Video
+* Composite
 
 '''Folgende Auflösungen werden unterstützt:'''
    * 1024x768       60.0* 
