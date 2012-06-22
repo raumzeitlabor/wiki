@@ -1,0 +1,15 @@
+{{ProjektInfoBox
+|name        = MAMEInput
+|status      = experimental
+|image       = 
+|description = A 32 button input board with V-USB
+|author      = [[Benutzer:Felicitus|Felicitus]]
+|version     = 0.1
+|download    = https://github.com/timoahummel/eagle/tree/master/MAMEInput
+}}
+
+This is a 32 button input board which connects to your MAME computer and emulates a HID keyboard. It most likely has no key ghosting or blocking, as keys are queried by 4 cascaded shift register. If using 74HCT175, tPD will be 10ns, which means that the shift register delay would be more than acceptable (<1ms to query all keys).
+
+An attiny2313 is used, connected via the usual V-USB setup and the HID firmware.
+
+Parts cost about 8 EUR plus the PCB.
