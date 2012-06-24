@@ -36,18 +36,26 @@ Das Buspanel nimmt auch problemlos Daten vom rPI ohne Level Shifter an (3.3V Peg
 * Pin 7 gibt den Datenübertragungstakt vor, Pin 9 die Daten. Wohl Flankengesteuert. Um einen Pixel zu setzen, muß der Pixelzustand auf Pin 9 sowohl bei High als auch Low auf Pin 7 gesetzt sein. Beispiel: Takt 1 Pin 7+9 high, Takt 2 Pin 7 low, Pin 9 high
 * Für das setzen von Pixel muß Pin 8 auf High gezogen werden.
 * Die Übertragungsgeschwindigkeit scheint nicht von relevanz zu sein
-* Die Übertragung ist in Blöcke unterteilt. Ein Block für das setzen/löschen von Pixeln funktioniert nach folgendem Schema:
-** Spalte N, Zeile 2
-** Spalte N, Zeile 4
-** Spalte N, Zeile 6
-** Spalte N, Zeile 8
-** Spalte N, Zeile 16
-** Spalte N, Zeile 14
-** Spalte N, Zeile 12
-** Spalte N, Zeile 10
-** Spalte N+1, Zeile 2
-** Spalte N+1, Zeile 4
+
+=== Pixelblöcke ===
+Ein sogenannter Pixelblock kennzeichnet die Übertragung einer Reihe von Pixeln. Ein Pixelblock enthält genau 38 Pixel. Die Übertragung geschieht zeilenweise.
+
+Beispiel:
+** Spalte 1, Zeile 2
+** Spalte 1, Zeile 4
+** Spalte 1, Zeile 6
+** Spalte 1, Zeile 8
+** Spalte 1, Zeile 16
+** Spalte 1, Zeile 14
+** Spalte 1, Zeile 12
+** Spalte 1, Zeile 10
+** Spalte 2, Zeile 2
+** Spalte 2, Zeile 4
 ** etc
+
+Die Übertragung eines Pixelblockes wird eingeleitet, indem Pin 8 auf High gesetzt wird. Pin 7 gibt den Takt vor, Pin 9 die Daten. Die Daten, die bei fallender Flanke von Pin 7 auf Pin 9 angelegt sind, werden übernommen.
+
+Insgesamt werden 2*32 Pixelblöcke übertragen.
 
 == Doku ==
 
