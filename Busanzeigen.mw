@@ -3,8 +3,9 @@
 |status      = experimental
 |image       = IMG_0453.JPG
 |description = 
-|author      = [[Benutzer:Felicitus|Felicitus]] [[Benutzer:Nessi|Nessi]]
+|author      = [[Benutzer:Felicitus|Felicitus]]
 |version     = 0.1
+|download    = https://github.com/timoahummel/pingie-pie-plusplus
 }}
 
 Die Busanzeigen wurden von Felicitus' Bruder zur Verfügung gestellt. Primär erstmal zum testen, wenn die FlipDot-Anzeige ansteuerbar ist, bekommen wir auch eine große FlipDot-Anzeige. Diese braucht nur Spannung zum Umschalten der Dots und eignet sich super zur Anzeige des Chats.
@@ -17,10 +18,10 @@ Pin 2: +12V
 Pin 3: GND
 Pin 4: 6V
 Pin 5: Takt (4ms)
-Pin 6: ?? (meistens low) wird benötigt, ohne geht's nicht. Wird im betrieb vom controller auf low gezogen, ansonsten kommt da komischer analog-foo raus (auf <100mV niveau).
-Pin 7: Data? kommt zeugs. kleinster Impuls bei 30µS
-Pin 8: Data oder shift? Kleinster Impuls bei ca. 83µS
-Pin 9: Data nochmal? 
+Pin 6: Shift Register Reset
+Pin 7: Clock
+Pin 8: Data oder shift? Kleinster Impuls bei ca. 83µS. Scheint ne Rückleitung vom Display zu sein.
+Pin 9: Bitdaten
 Pin 10: Takt (Rückleitung)
 Pin 11: +12V
 Pin 12: GND
@@ -35,8 +36,9 @@ Wir hijacken die Daten zwischen dem Mainboard und den LCD-Multiplexern, da wir k
 * Daraus entstehendes Bild: [https://twitter.com/_felicitus/status/214992498085478400/photo/1]
 * Auflösung: 152 * 16 (ca.)
 
-* Pin 7 gibt den Datenübertragungstakt vor, Pin 9 die Daten. Wohl Flankengesteuert. Um einen Pixel zu setzen, muß der Pixelzustand auf Pin 9 sowohl bei High als auch Low auf Pin 7 gesetzt sein. Beispiel: Takt 1 Pin 7+9 high, Takt 2 Pin 7 low, Pin 9 high
-* Für das setzen von Pixel muß Pin 8 auf High gezogen werden.
+* Pin 7 gibt den Datenübertragungstakt vor, Pin 9 die Daten. Flankengesteuert.
+* Pin 6 setzt das Schieberegister zurück.
+* Der Aufbau eines Bildes geschieht mit Halbzeilen
 * Die Übertragungsgeschwindigkeit scheint nicht von relevanz zu sein
 
 === Pixelblöcke ===
@@ -80,20 +82,6 @@ Sind alle 32 Pixelblöcke für ein Halbzeilenbild übertragen, muß das Blockend
 Die Doku liegt auf dem Datengrab bzw. abgeheftet in den Schnellheftern im oberen E-Eck-Regal.
 
 * Die Hintergrundbeleuchtung schaltet erst dann aktiv, wenn ca. 20V anliegen. (Damit könnte man was tricksen, um die Hintergrundbeleuchtung Situationsabhängig zu schalten).
-
-==Zu Besorgen==
-[x] Doku <br>
-[ ] Netzteil
-
-==ToDo==
-[ ] Labeln <br>
-[ ] Putzen <br>
-[ ] Testen <br>
-[ ] Interface Blackbox <-> Anzeige bauen<br>
-[ ] Aufbauplatz finden<br><br>
-Später:<br>
-[ ] Hausbus <-> Anzeige bauen
-
 
 ==Bilder Flipdot==
 {|
