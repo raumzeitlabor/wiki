@@ -29,6 +29,8 @@ Pin 12: GND
 Das Buspanel nimmt auch problemlos Daten vom rPI ohne Level Shifter an (3.3V Pegel).
 
 == Protokoll ==
+Wir hijacken die Daten zwischen dem Mainboard und den LCD-Multiplexern, da wir kein IBIS sprechen möchten. Das Mainboard in dem Panel generiert also nur noch die Versorgungsspannungen, der Rest wird vom Raspberry Pi erzeugt. Das LCD schluckt die 3.3V-Daten, ein Pegelwandler ist also nicht notwendig.
+
 * Signale: [http://timohummel.com/temp/untitled.vcd] (Lesbar mit GTKWave)
 * Daraus entstehendes Bild: [https://twitter.com/_felicitus/status/214992498085478400/photo/1]
 * Auflösung: 152 * 16 (ca.)
