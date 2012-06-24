@@ -55,9 +55,25 @@ Beispiel:
 ** Spalte 2, Zeile 4
 ** etc
 
-Die Übertragung eines Pixelblockes wird eingeleitet, indem Pin 8 auf High gesetzt wird. Pin 7 gibt den Takt vor, Pin 9 die Daten. Die Daten, die bei fallender Flanke von Pin 7 auf Pin 9 angelegt sind, werden übernommen.
-
+Ein Pixel wird als ein Bit übertragen. Ein Bit wird übertragen, indem der Pegel auf Pin 9 bei fallender Flanke von Pin 7 gelesen wird.
 Insgesamt werden 2*32 Pixelblöcke übertragen.
+
+=== Spacer ===
+Nach einem jeden Pixelblock kommt ein Spacer, der 10 Bits lang ist. Die Bedeutung ist folgendermaßen:
+
+* 1. Bit: immer low (unbekannt)
+* 2. Bit: immer low (unbekannt)
+* 3. Bit: low für ungerade Zeilen, high für gerade Zeilen
+* 4. Bit: immer low (unbekannt)
+* 5. Bit: immer low (unbekannt)
+* 6. Bit: immer high (unbekannt)
+* 7. Bit: immer low (unbekannt)
+* 8. Bit: immer low (unbekannt)
+* 9. Bit: immer low (unbekannt)
+* 10. Bit: immer low (unbekannt)
+
+=== Blockende ===
+Sind alle 32 Pixelblöcke für ein Halbzeilenbild übertragen, muß das Blockende signalisiert werden. Dies passiert, indem Pin 6 kurz auf high gezogen wird. Ich nenne es den Schieberegister-Reset. Danach kann mit der Übertragung der nächsten Pixelblöcke begonnen werden.
 
 == Doku ==
 
