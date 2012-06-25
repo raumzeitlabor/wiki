@@ -87,6 +87,9 @@ Ist die Zeile länger als das Display anzeigen kann, scrollt es von Anfang bis E
 
 Wenn sich jemand dazu berufen fühlt, kann er gerne die Firmware umschreiben, sodaß sie über etwas anderes als Control Messages arbeitet.
 
+=== Gebührenzähler ===
+[[Datei:Pingie Pie Gebührenzähler.jpg|thumb|right|Gebührenzähler]]
+Es ist ein Gebührenzähler installiert, welcher bei jedem Ping eine Einheit abrechnet. 
 === Pong+ ===
 
 Der Pong+ ist eine Erweiterung, mit der man mittels Grobhandtaster eine Antwort ins IRC senden kann. Der Pong+ kann nur dann verwendet werden, wenn ein Ping aktiv ist.
