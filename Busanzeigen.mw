@@ -106,4 +106,26 @@ Die Doku liegt auf dem Datengrab bzw. abgeheftet in den Schnellheftern im oberen
 |
 |
 |}
+
+== Flip-Dot-Anzeige ==
+
+11 power mosfets (dual)
+50 pol connector
+
+7 power mosfets auf der gegenseite (dual)
+
+
+13 zeilen
+28 spalten
+
+20-22 gnd
+
+
+
+
+flip dot board
+pin 1+64 gnd
+pin 2+63 +24V
+
+
 [[Kategorie:Projekt]]
