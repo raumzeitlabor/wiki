@@ -16,7 +16,7 @@ System, welches sich bei mitteleuropäischen Wetterbedingungen ein ganzes Jahr e
 * Ausserdem sollte es bauartbedingt Diebstahl erschweren, zB durch Montage an einem hohen Mast
 * Am Aufstellungsort muss es möglich sein, Energie zB Solarenergie kontinuierlich zu bekommen. Auch Solarzellen sollten diebstahlsicher montiert sein.
 * Die Energie- und Internetversorgung muss vollautonom sein, d.h. keine Kabel irgendwohin, ausser zB einer Antenne
-* Eine Watchdog-Schaltung sorgt dafür, dass sich das System bei Energiemangel ordnungsgemäß "abmeldet" und bei ausreichendem Energiestand wieder hochfährt und zurückmeldet. Ansonsten Abzüge in der B-Note.
+* Eine Watchdog-Schaltung (im Sinne von "[http://de.wikipedia.org/wiki/Lights_Out_Management Lights-Out-Management]") sorgt dafür, dass sich das System bei Energiemangel ordnungsgemäß "abmeldet" und geregelt runterfährt (zB Suspend-to-ram, suspend-to-disk) bei ausreichendem Energiestand wieder hochfährt/aufweckt und zurückmeldet. Ansonsten Abzüge in der B-Note.
 * Das System soll eine gewisse "Verfügbarkeit" im Netz bringen, d.h. viele "online-minuten pro Tag"
 * Das System soll von extern erreichbar sein (Verfübarkeitsmessung)
 * Das System soll sich regelmäßig selbst mitteilen, zB indem es Nachrichten an Twitter schickt oder dergleichen
