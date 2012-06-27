@@ -42,18 +42,17 @@ Als nächstes werden folgende Mitschnitte vorgeführt.
 !Dauer
 !Sprache
 |-
-| [http://events.ccc.de/congress/2011/Fahrplan/events/4676.en.html Apple vs. Google Client Platforms]
-| Bruhns, FX of Phenoelit, greg
-| Apple vs. Google Client Platforms- How you end up being the Victim.
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4766.en.html 802.11 Packets in Packets]
+| Travis Goodspeed
+| 802.11 Packets in Packets- A Standard-Compliant Exploit of Layer 1
 | 01H00M00S
 | English
 |-
-| [http://events.ccc.de/congress/2011/Fahrplan/events/4758.en.html Ein Mittelsmannangriff auf ein digitales Signiergerät]
-| Alexander Koch
-| Ein Mittelsmannangriff auf ein digitales Signiergerät- Bachelorarbeit Informatik Uni Kiel SS 2011
+| [http://events.ccc.de/congress/2007/Fahrplan/events/2355.en.html Tracker fahrn]
+| Denis, Erdgeist, Cristian Yxen
+| Tracker fahrn- We Track Harder - We Track More! Take the pain out of running a Bittorrent-Tracker!
 | 01H00M00S
 | German
-|-
 |}
 
 === Noch nicht vorgeführte Vorträge ===
@@ -69,13 +68,6 @@ Als nächstes werden folgende Mitschnitte vorgeführt.
 | [http://events.ccc.de/congress/2011/Fahrplan/events/4816.en.html 7 years, 400+ podcasts, and a whole lot of Frequent Flyer Miles]
 | Bicyclemark
 | 7 years, 400+ podcasts, and a whole lot of Frequent Flyer Miles- Lessons learned from producing a weekly independent podcast on international conflicts and concerns.
-| 01H00M00S
-| English
-|
-|-
-| [http://events.ccc.de/congress/2011/Fahrplan/events/4766.en.html 802.11 Packets in Packets]
-| Travis Goodspeed
-| 802.11 Packets in Packets- A Standard-Compliant Exploit of Layer 1
 | 01H00M00S
 | English
 |
@@ -644,6 +636,20 @@ Als nächstes werden folgende Mitschnitte vorgeführt.
 !Zusammenfassung
 !Dauer
 !Sprache
+|-
+| 21.06.2012
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4676.en.html Apple vs. Google Client Platforms]
+| Bruhns, FX of Phenoelit, greg
+| Apple vs. Google Client Platforms- How you end up being the Victim.
+| 01H00M00S
+| English
+|-
+| 21.06.2012
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4758.en.html Ein Mittelsmannangriff auf ein digitales Signiergerät]
+| Alexander Koch
+| Ein Mittelsmannangriff auf ein digitales Signiergerät- Bachelorarbeit Informatik Uni Kiel SS 2011
+| 01H00M00S
+| German
 |-
 | 14.06.2012
 | [http://events.ccc.de/congress/2011/Fahrplan/events/4828.en.html Antiforensik]
