@@ -1,0 +1,55 @@
+== Worum gehts? ==
+System, welches sich bei mitteleuropäischen Wetterbedingungen ein ganzes Jahr eigenständig mit Energie(reserven) versorgt und dabei gleichzeitig zu mindest bei ausreichenden Energiereserven via UMTS im Internet erreichbar ist oder sich zB per twitter regelmäßig meldet. Praktische Anwendung: zB moderner Geo-Cache.
+
+== Herausforderungen ==
+* Zunächst ist es ja schon eine Herausforderung, ein System zu bauen, welches mit einer externen Energieversorgung (zB Netzteil) dauerhaft am leben bleibt und eine Funktion erfüllt. Wir kennen das alle. 
+
+* Ein System, welches ansich unter kontrollierten Bedingungen läuft (z.B. Plaste-Router zu Hause), soll automatisch (on demand) eine Verbindung zum Internet herstellen und dann via zB dyndns oder vpn erreichbar sein.
+
+* Erschwerend kommt hinzu, dass ein autonomes System nicht "mal eben" manuell gefixt werden kann, wenn es ausgefallen ist, vergleichbar mit einem Weltraumsatellit.
+
+* Die vermutlich größte Herausforderung ist aber, eine Energieversorgung zu bauen, die zB dauerhaft eine Last von zB. 20W abgeben kann. Eine intelligente Watchdog-Schaltung sorgt dafür, dass bei niedrigem Energiestand überflüssige Dinge gedrosselt oder abgeschaltet werden. Es müssen kontinuerlich zB Energiezuführung (Solarzellen, Windrad, …) und der Verbrauch gemessen werden.
+
+== Regeln ==
+* Aufstellungsort ist so zu wählen, dass man im Zweifel mit Aufwand an das System herankommt.
+* Gleichzeitig soll das System so gebaut sein, dass es Wind und Wetter standhält und auch bei Sonnenschein nicht an Hitze stirbt
+* Ausserdem sollte es bauartbedingt Diebstahl erschweren, zB durch Montage an einem hohen Mast
+* Am Aufstellungsort muss es möglich sein, Energie zB Solarenergie kontinuierlich zu bekommen. Auch Solarzellen sollten diebstahlsicher montiert sein.
+* Die Energie- und Internetversorgung muss vollautonom sein, d.h. keine Kabel irgendwohin, ausser zB einer Antenne
+* Eine Watchdog-Schaltung sorgt dafür, dass sich das System bei Energiemangel ordnungsgemäß "abmeldet" und bei ausreichendem Energiestand wieder hochfährt und zurückmeldet. Ansonsten Abzüge in der B-Note.
+* Das System soll eine gewisse "Verfügbarkeit" im Netz bringen, d.h. viele "online-minuten pro Tag"
+* Das System soll von extern erreichbar sein (Verfübarkeitsmessung)
+* Das System soll sich regelmäßig selbst mitteilen, zB indem es Nachrichten an Twitter schickt oder dergleichen
+* Das System soll einen praktischen oder zu mindest originellen Nutzen liefern, zB Wetterstation, Webcam, WLAN-im-Wald
+
+== Technologien, Lernen ==
+* Gehäusebau (Schutz gegen Wetter, Hitze, Insekten, Diebe, ...)
+* zuverlässige Energieversorgung, zB Solarenergie. --> Laderegler! Akkus bei -15°C? Akkus bei +60°C?
+* Bau eines Management-Systems/Watchdog auf Stromspar-Technologie, zB <1W Dauerverbrauch (ggf. eigene Notstromversorgung)
+* Bau eines "Servers", auf dem zB Linux oder BSD läuft, welches einen Dienst betreibt und sich um Internet und Kommunikation kümmert, Energiebedarf möglichst gering.
+* Bau eines "Mehrwert"-Dienstes, zB Webcam, Wetterstation, WLAN-AP im Wald
+
+Alle diese "Module" sind einzeln zu entwickeln und ergeben nachher eine tolle "Team-Leistung". Gefragt sind hier nicht nur technisches KnowHow und Geschick sondern auch Team- und Projektmanagement. 
+
+Die Entwicklung und Test der einzelnen Komponenten ist sicher sehr zeitaufwendig und vielleicht sogar handfeste Forschung und Entwicklung. Sicher also aufwendiger mehr als ein TV-B-Gone Baussatz zum Selberlöten ;-)
+
+== Wettbewerb ==
+Die oben vorgeschlagenen Regeln könnte man z.B. in Form einer "Hacksport-Regel" zusammenfassen und mit anderen Hackerspaces in Konkurrenz treten in diesem Wettkampf.
+
+;mögliches Punktesystem:
+* ab 30 Tage mit jeweils mindestens einem Tweet gibt es 100 Punkte. Schafft es ein System an einem Tag nicht sich zu melden, dann beginnt der Counter bei 0.
+* Verfügbarkeitsmessung: Das System ist mindestens 4/8/12/24 Stunden pro Tag via Internet erreichbar, zB können aktuelle Daten abgefragt werden.
+* Rettungseinsatz vor Ort (physischer Kontakt erforderlich, zB für Reset, debugging): 100P Abzug
+* Ausfall pro Tag: 10P Abzug
+* Versorgung mit Notstrom für Wideranlauf des Watchdog: 100P Abzug
+* …
+* Punkte werden vergeben für originelle oder praktische Einsatzzwecke, gerne auch rein künstlerische Zwecke wie etwa ein Blinkenlights-Display.
+
+Letztlich kann man hier überall noch "bescheissen", denn wer will das in einem Wettbewerb wirklich überwachen? Zudem ist das ganze natürlich angreifbar, indem zB jemand sehr sehr viel Traffic verursacht und dabei mehr Energie für UMTS benötigt wird, was den Watchdog früher auslöst und eine niedrigere Verfügbarkeit einbringt.
+
+== Kosten ==
+Das Zeug kostet natuerlich alles Geld. Da es sich hier (möglicherweise) um einen Wettbewerb handelt, könnte man Sponsoren gewinnen oder Crowdfunding betreiben.
+
+== Ziel ==
+* Ziel des Ganzen ist es, verschiedene Technologien praxisnah zu erforschen und daraus einzelne Module zu entwickeln, die bestimmten Spezifikationen genügen.
+* Spaß an Forschung und Entwicklung
