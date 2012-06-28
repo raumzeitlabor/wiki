@@ -21,7 +21,11 @@ Das dn42 ist ein VPN, welches Chaostreffs, Hackerspaces und sonstige Chaoten ver
 Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, welterde, mittagessen, nobody, docsteel, Felicitus).
 
 == WLAN ==
+
 Wir betreiben 2 802.11g Access Points, einen auf der Beamer-Ebene und einen neben der Tafel. Das Netz hört auf die SSID "RZL-hardcore" und ist WEP-"verschlüsselt".
+
+Folgende Access-Points sind im RZL vorhanden:
+* D-Link DWL-1000AP+
 
 == Hosts ==
 
