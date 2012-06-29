@@ -26,11 +26,11 @@ Unser WLAN ist WEP-"verschlüsselt". Der Key hängt im Raum aus, oder wird dir g
 Folgende Access-Points sind im RZL vorhanden:
 * D-Link DWL-1000AP+ (2.4 GHz, 802.11b), derzeit Kanal 1, "RZL-hardcore2". Standort: Regal Fensterseite, ganz rechts vor der Tafel.
 * Ubiquiti NanoStation2 Loco (2.4 GHz, 802.11b/g), derzeit Kanal 6, "RZL-hardcore". Standort: Beamerplatform
+* scy: FRITZ!Box Fon WLAN 7320 (2.4 GHz, 802.11b/g/n), nicht in Betrieb, befindet sich ganz rechts im Regal (bei der Tafel)
 
 Angekündigt wurden:
 * Unicorn: D-Link DIR-635 (2.4 GHz, 802.11b/g/draft-n)
 * Cheatha: HP $irgendwas (2.4 GHz, 802.11b/g)
-* scy: FRITZ!Box Fon WLAN 7320 (2.4 GHz, 802.11b/g/n)
 
 == Hosts ==
 
