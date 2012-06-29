@@ -21,12 +21,11 @@ Das dn42 ist ein VPN, welches Chaostreffs, Hackerspaces und sonstige Chaoten ver
 Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, welterde, mittagessen, nobody, docsteel, Felicitus).
 
 == WLAN ==
-
-Wir betreiben 2 802.11g Access Points, einen auf der Beamer-Ebene und einen neben der Tafel. Das Netz hört auf die SSID "RZL-hardcore" und ist WEP-"verschlüsselt".
+Unser WLAN ist WEP-"verschlüsselt". Der Key hängt im Raum aus, oder wird dir gerne auf Nachfrage mitgeteilt :)
 
 Folgende Access-Points sind im RZL vorhanden:
-* D-Link DWL-1000AP+ (2.4 GHz, 802.11b), derzeit Kanal 1, "RZL-hardcore2"
-* Ubiquiti NanoStation2 Loco (2.4 GHz, 802.11b/g), derzeit Kanal 6, "RZL-hardcore"
+* D-Link DWL-1000AP+ (2.4 GHz, 802.11b), derzeit Kanal 1, "RZL-hardcore2". Standort: Regal Fensterseite, ganz rechts vor der Tafel.
+* Ubiquiti NanoStation2 Loco (2.4 GHz, 802.11b/g), derzeit Kanal 6, "RZL-hardcore". Standort: Beamerplatform
 
 Angekündigt wurden:
 * Unicorn: D-Link DIR-635 (2.4 GHz, 802.11b/g/draft-n)
