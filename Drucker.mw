@@ -1,5 +1,5 @@
-==Laserdrucker==
-===Samsung SCX-5530FN===
+=Laserdrucker=
+==Samsung SCX-5530FN==
 [[Datei:IMG_0398.JPG|250px|thumb|right]]
 '''IP: 172.22.36.3'''
 :Ansprechbar unter URL ipp://172.22.36.3:631
@@ -27,23 +27,27 @@ Anleitung für CUPS:
 ;Defekte
 :Beim Versuch den verbogenen ADF (automatischer Dokumenteneinzug) gerade zu biegen, hat Inte das linke Scharnier ([http://www.google.de/search?q=JC97-02779A JC97-02779A/MEA UNIT-HINGE]) des Deckels abgebrochen. Der Dokumenteneinzug funktioniert wieder, nur der Deckel wackelt jetzt beim Aufklappen.
 
-=== Konica Minolta Magicolor 2300W ===
+== Konica Minolta Magicolor 2300W ==
 Farb-Laserdrucker, Dauerleihgabe von [[Benutzer:Unicorn|Unicorn]]
 
 * Derzeit nicht über Netzwerk erreichbar, USB only
 * Kosten pro Seite: 0,15€, Spende erwünscht
 
-==== Treiber ====
+=== Treiber ===
 * Bei Konica Minolta nur für Windows verfügbar
 * OpenSource-Linux-Treiber http://sourceforge.net/projects/m2300w/
 ** Install first, plug in later :)
 
-==== Defekte ====
+=== Defekte ===
 * Verursacht Papierstau
 * Laut Unicorn auf Grund eines verschmutzten Sensors
 
-==Tintenstrahldrucker==
-===HP Business Inkjet 1200===
+== Kyocera FS-3700+ ==
+
+Von unbekannt. Hat LAN, Seriell, Centronics Parallel.
+
+=Tintenstrahldrucker=
+==HP Business Inkjet 1200==
 [[Datei:IMG_0397.JPG|250px|thumb|left]]
 * Ansprechbar über USB
 * Derzeit schwarze Patrone leer
