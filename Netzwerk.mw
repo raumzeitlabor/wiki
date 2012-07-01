@@ -50,11 +50,11 @@ Angekündigt wurden:
 |-----
 | 172.22.36.1 || [[firebox]] || Router
 |-----
-| 172.22.36.2 || ''nanostation01'' || Ubiquiti NanoStation2 Loco
+| 172.22.36.2 || ''reserved'' || Reserviert für Infrastruktur
 |-----
 | 172.22.36.3 || printer0 || [[Drucker#Samsung_SCX-5530FN|Laserdrucker (Samsung SCX-5530FN)]] 
 |-----
-| 172.22.36.4 || wlanap || WRT54GS
+| 172.22.36.4 || ''reserved'' || Reserviert für Infrastruktur
 |-----
 | 172.22.36.5 || switch || Linksys 24 Port Gbit Switch
 |-----
@@ -78,7 +78,7 @@ Angekündigt wurden:
 |-----
 | 172.22.36.115 || helios || [[Benutzer:Docsteel|docsteel]]
 |-----
-| 172.22.36.116 || dlink ap || Temporärer D-Link AP (26.06.2012)
+| 172.22.36.116 || ''reserved'' || Reserviert für Infrastruktur
 |-----
 | 172.22.36.117 || vip1710 || [[VIP1710]] - MPD
 |-----
