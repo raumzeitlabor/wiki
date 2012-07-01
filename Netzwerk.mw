@@ -21,7 +21,7 @@ Das dn42 ist ein VPN, welches Chaostreffs, Hackerspaces und sonstige Chaoten ver
 Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, welterde, mittagessen, nobody, docsteel, Felicitus).
 
 == WLAN ==
-Unser WLAN ist WEP-"verschlüsselt". Der Key hängt im Raum aus, oder wird dir gerne auf Nachfrage mitgeteilt :)
+Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir gerne auf Nachfrage mitgeteilt :)
 
 Folgende Access-Points sind im RZL vorhanden:
 * scy: FRITZ!Box Fon WLAN 7320 (2.4 GHz, 802.11b/g/n), Kanal 6, "RZL-hardcore" (Beamerplattform)
