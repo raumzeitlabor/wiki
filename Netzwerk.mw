@@ -24,7 +24,7 @@ Wir nehmen als AS64636 teil mit 7 verschiedenen Peerings (zu jchome, ichdasich, 
 Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir gerne auf Nachfrage mitgeteilt :)
 
 Folgende Access-Points sind im RZL vorhanden:
-* scy: FRITZ!Box Fon WLAN 7320 (2.4 GHz, 802.11b/g/n), Kanal 6, "RZL-hardcore" (Beamerplattform)
+* scy: FRITZ!Box Fon WLAN 7270 (2.4 GHz 802.11b/g/n _oder_ 5 GHz 802.11a/b/g/n), Kanal 6, "RZL-hardcore" (Beamerplattform)
 * D-Link DWL-1000AP+ (2.4 GHz, 802.11b), nicht in Betrieb, Standort: Regal Fensterseite, ganz rechts vor der Tafel.
 * Ubiquiti NanoStation2 Loco (2.4 GHz, 802.11b/g), nicht in Betrieb, liegt im Rack rechts neben dem Datengrab
 
