@@ -54,7 +54,7 @@ Angekündigt wurden:
 |-----
 | 172.22.36.3 || printer0 || [[Drucker#Samsung_SCX-5530FN|Laserdrucker (Samsung SCX-5530FN)]] 
 |-----
-| 172.22.36.4 || ''reserved'' || Reserviert für Infrastruktur
+| 172.22.36.4 || printer1 || [[Drucker#Kyocera_FS-3700.2B|Laserdrucker (Kyocera FS-3700+)]]
 |-----
 | 172.22.36.5 || switch || Linksys 24 Port Gbit Switch
 |-----
