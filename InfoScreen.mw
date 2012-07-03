@@ -1,0 +1,23 @@
+{{ProjektInfoBox
+|name        = InfoScreen
+|status      = beta
+|image       = Infoscreen01.jpg
+|description = Aktuelle Information über das RaumZeitLabor
+|author      = [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Blabber|blabber]]
+|username    = 
+|version     = v0.2
+|update      = 
+|platform    = 
+|preis       = 
+|license     = 
+|download    = https://github.com/raumzeitlabor/rzlInfoScreen
+}}
+Der InfoScreen steht auf dem Kühlschrank und zeigt einige interessante Informationen an. Aktuell sind das:
+* Aktueller Stromverbrauch + Graph des Verbrauchs über die letzten 60 Minuten
+* Anzahl Geräte im Netzwerk
+* Temperatur
+* RaumStatus
+* Fahrplan der Bahnhaltestelle Boveristraße
+* Twitterwall
+
+Auf einem ThinClient ist ein SilTaz installiert, dass beim Hochfahren eine Browser öffnet und auf http://cosm.tiefpunkt.com/infoscreen/ navigiert. Da läuft der Infoscreen, eine Mischung aus PHP, HTML und JS, die aus Daten von Cosm, der VRN und Twitter eine kleine Seite produziert, die alle 30 Sekunden aktualisiert wird.
