@@ -15,3 +15,8 @@
 * 1x Kohlenmonoxid Sensor MQ-7 (SEN-09403)
 * 1x Breakout Board für die Gassensoren (BOB-08891)
 * 1x Sharp GP2Y1010AU0F (optischer Staubsensor) (COM-09689)
+
+=== thinkJD braucht nach Rücksprache ===
+* 4x Schrittmotor: Bipolar NEMA14 Art.Nr.: 1209
+* 4X Pololu A4988 Schrittmotortreiber Art.Nr.: 1182
+* 1x Arduino Mega Art.Nr.: A000067
