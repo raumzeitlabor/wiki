@@ -42,17 +42,6 @@ Als nächstes werden folgende Mitschnitte vorgeführt.
 !Dauer
 !Sprache
 |-
-| [http://events.ccc.de/congress/2011/Fahrplan/events/4766.en.html 802.11 Packets in Packets]
-| Travis Goodspeed
-| 802.11 Packets in Packets- A Standard-Compliant Exploit of Layer 1
-| 01H00M00S
-| English
-|-
-| [http://events.ccc.de/congress/2007/Fahrplan/events/2355.en.html Tracker fahrn]
-| Denis, Erdgeist, Cristian Yxen
-| Tracker fahrn- We Track Harder - We Track More! Take the pain out of running a Bittorrent-Tracker!
-| 01H00M00S
-| German
 |}
 
 === Noch nicht vorgeführte Vorträge ===
@@ -636,6 +625,20 @@ Als nächstes werden folgende Mitschnitte vorgeführt.
 !Zusammenfassung
 !Dauer
 !Sprache
+|-
+| 28.06.2012
+| [http://events.ccc.de/congress/2011/Fahrplan/events/4766.en.html 802.11 Packets in Packets]
+| Travis Goodspeed
+| 802.11 Packets in Packets- A Standard-Compliant Exploit of Layer 1
+| 01H00M00S
+| English
+|-
+| 28.06.2012
+| [http://events.ccc.de/congress/2007/Fahrplan/events/2355.en.html Tracker fahrn]
+| Denis, Erdgeist, Cristian Yxen
+| Tracker fahrn- We Track Harder - We Track More! Take the pain out of running a Bittorrent-Tracker!
+| 01H00M00S
+| German
 |-
 | 21.06.2012
 | [http://events.ccc.de/congress/2011/Fahrplan/events/4676.en.html Apple vs. Google Client Platforms]
