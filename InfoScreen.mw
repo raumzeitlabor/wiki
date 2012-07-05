@@ -19,6 +19,7 @@ Der InfoScreen steht auf dem Kühlschrank und zeigt einige interessante Informat
 * RaumStatus
 * Fahrplan der Bahnhaltestelle Boveristraße
 * Twitterwall
+* Bilder aus [http://log.raumzeitlabor.de log.raumzeitlabor.de]
 
 Auf einem ThinClient ist ein SilTaz installiert, dass beim Hochfahren eine Browser öffnet und auf http://cosm.tiefpunkt.com/infoscreen/ navigiert. Da läuft der Infoscreen, eine Mischung aus PHP, HTML und JS, die aus Daten von Cosm, der VRN und Twitter eine kleine Seite produziert, die alle 30 Sekunden aktualisiert wird.
 
