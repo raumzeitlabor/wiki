@@ -68,7 +68,7 @@ Angekündigt wurden:
 |-----
 | 172.22.36.'''10 - 110''' || dhcp || DHCP-Range (unfiltered)
 |-----
-| 172.22.36.111 || ''reserved'' || Reserviert für Infrastruktur
+| 172.22.36.111 || heizung || [[Heizungssteuerung]]
 |-----
 | 172.22.36.112 || ''reserved'' || Reserviert für Infrastruktur
 |-----
