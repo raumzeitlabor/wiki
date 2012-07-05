@@ -21,6 +21,8 @@ Der Karton, auf der Oberseite dient dem Staubschutz und sollte nicht entfernt we
 == Ansteuerung ==
 Zum Beamer liegen Composite, S-Video und VGA-Kabel. Für VGA steht auf dem Regal ein KVM-Switch ([[Medium:SmartViewPro-Manual.pdf|Manual]]). Am KVM-Switch ist der Mac Mini angeschlossen, und ein weiteres VGA-Kabel für Laptops etc. Über den Monitor auf dem KVM-Switch lässt sich das Beamer-Bild previewen.
 
+== Applejack (Beamer-Mac) ==
+Am KVM-Switch (Kanal 1) ist fest ein Mac Mini namens Applejack angeschlossen. Auf dem Gerät läuft Mac OS X 10.6 und es kann für Vorführungen beliebiger Art genutzt werden.
 
 == Tipps für Profis ==
 * Die Fernbedienung liegt neben dem Raumhandy. Bitte sorgt dafür, dass diese Aussage IMMER stimmt.
