@@ -5,7 +5,7 @@
 |description = Aktuelle Information über das RaumZeitLabor
 |author      = [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Blabber|blabber]]
 |username    = 
-|version     = v0.2
+|version     = v0.3
 |update      = 
 |platform    = 
 |preis       = 
@@ -16,6 +16,8 @@ Der InfoScreen steht auf dem Kühlschrank und zeigt einige interessante Informat
 * Aktueller Stromverbrauch + Graph des Verbrauchs über die letzten 60 Minuten
 * Anzahl Geräte im Netzwerk
 * Temperatur
+* Mitgliederanzahl
+* Kontostand
 * RaumStatus
 * Fahrplan der Bahnhaltestelle Boveristraße
 * Twitterwall
