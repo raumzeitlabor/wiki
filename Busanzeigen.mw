@@ -10,6 +10,7 @@
 
 Die Busanzeigen wurden von Felicitus' Bruder zur Verfügung gestellt. Primär erstmal zum testen, wenn die FlipDot-Anzeige ansteuerbar ist, bekommen wir auch eine große FlipDot-Anzeige. Diese braucht nur Spannung zum Umschalten der Dots und eignet sich super zur Anzeige des Chats.
 
+= LCD-Anzeige =
 == Steckerbelegung vom Mainboard zum LCD ==
 
 <pre>
@@ -83,12 +84,6 @@ Die Doku liegt auf dem Datengrab bzw. abgeheftet in den Schnellheftern im oberen
 
 * Die Hintergrundbeleuchtung schaltet erst dann aktiv, wenn ca. 20V anliegen. (Damit könnte man was tricksen, um die Hintergrundbeleuchtung Situationsabhängig zu schalten).
 
-==Bilder Flipdot==
-{|
-| [[Datei:IMG_0414.JPG|thumb|left]]
-| [[Datei:IMG_0416.JPG|thumb|left]]
-|}
-
 ==Bilder LCD Display==
 {|
 | [[Datei:LCD-innen.jpg|thumb|left]]
@@ -106,6 +101,21 @@ Die Doku liegt auf dem Datengrab bzw. abgeheftet in den Schnellheftern im oberen
 |
 |
 |}
+
+= Flipdot-Anzeige =
+
+[[Benutzer:Felicitus|Felicitus]] hat schon ein bisschen rumgespielt. Das Display spricht den sogenannten Monobus, und leider tut das Display beim Einschalten gar nichts, da es auf ein "Telegramm" vom Monobus wartet. Die Steckerbelegung ist auf dem Mainboard abgedruckt:
+
+Das Display erwartet 8V, 24V (auf I-DOT), bidirektionale Serielle Daten mit 24V Pegeln und braucht GND.
+
+Der µC schaltet die meisten Pins auf High, insofern wird der nächste Schritt sein: Kabel dranlöten und mittels Multimeter durchtesten, wo das Ende ist (und hoffentlich geht nix kaputt).
+==Bilder Flipdot==
+{|
+| [[Datei:IMG_0414.JPG|thumb|left]]
+| [[Datei:IMG_0416.JPG|thumb|left]]
+|}
+
+
 
 == Flip-Dot-Anzeige ==
 
