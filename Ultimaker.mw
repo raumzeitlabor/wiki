@@ -6,6 +6,11 @@
 
 * Eine Version die bei der 20mm Testbox gar nicht so schlechte Ergebnisse brachte: [[Datei:Profil pla magenta 140712.ini]]
 
+== Hints ==
+
+* In Cura in den Standard-Mode gehen und bei Distance (mm) 2.0 eingeben
+* Sind Lücken im Ausdruck vorhanden, muß die Retraction Speed erhöht oder die generelle Geschwindigkeit verringert werden.
+
 == Open Issues ==
 
 * Das Backlight des UltiControllers flackerte, dann wurde es komplett dunkel.
