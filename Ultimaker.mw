@@ -12,14 +12,26 @@
 |download    = 
 }}
 
-== Cura ==
+==3D-CAD Software==
+===OpenSCAD===
+
+===Google Sketchup===
+* Einfach zu erlernen
+* Free Version kann mit Hilfe eines Plugins .stl Dateien erzeugen. http://www.guitar-list.com/download-software/convert-sketchup-skp-files-dxf-or-stl
+
+== Software zur Druckvorbereitung==
+Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerdem müssen wichtige Parameter wie  Temperaturen, Supportstrukturen, Geschwindigkeiten etc. eingestellt werden. Der Slicer selbst wandelt das Objekt in ein zweidimensionales Schichtmodell um, dieses wird dann, dargestellt in G-Code, zu dem Drucker gesendet. Da diese Arbeitsschritte unmittelbar zusammenhängen werden sie meist von einem Softwarepaket übernommen. Folgende Pakete haben sich bewährt:
+
+=== Cura ===
 
 * Cura ist das Programm der Wahl wie es aktuell aussieht.
 * Leider nicht wirklich unter OSX Lion lauffähig. Es wird aber daran gearbeitet.
 
 === Cura Profile ===
-
 * Eine Version die bei der 20mm Testbox gar nicht so schlechte Ergebnisse brachte: [[Datei:Profil pla magenta 140712.ini]]
+
+=== Slic3r===
+* Komfortabler Slicer für den Mac. Cura läuft in der aktuellen Version nicht (Python Probleme) http://slic3r.org/
 
 == Hints ==
 
@@ -38,3 +50,4 @@ http://daid.mine.nu/blag/2012/07/03/ultimaker-suicide/
 == Andere Interessante $Dinge ==
 * WebGL GCode Visualisierung
 ** http://gcode.joewalnes.com/
+* http://techwall.net/how-precise-is-the-ultimaker
