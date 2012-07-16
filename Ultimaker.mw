@@ -23,7 +23,7 @@
 Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerdem müssen wichtige Parameter wie  Temperaturen, Supportstrukturen, Geschwindigkeiten etc. eingestellt werden. Der Slicer selbst wandelt das Objekt in ein zweidimensionales Schichtmodell um, dieses wird dann, dargestellt in G-Code, zu dem Drucker gesendet. Da diese Arbeitsschritte unmittelbar zusammenhängen werden sie meist von einem Softwarepaket übernommen. Folgende Pakete haben sich bewährt:
 
 === Cura ===
-
+* Website: http://daid.github.com/Cura/
 * Cura ist das Programm der Wahl wie es aktuell aussieht.
 * Leider nicht wirklich unter OSX Lion lauffähig. Es wird aber daran gearbeitet.
 
