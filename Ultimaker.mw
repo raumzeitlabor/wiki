@@ -26,7 +26,7 @@ Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerd
 * Website: http://daid.github.com/Cura/
 * Cura ist das Programm der Wahl wie es aktuell aussieht.
 * Leider nicht wirklich unter OSX Lion lauffähig. Es wird aber daran gearbeitet.
-* Else hatte unter Linux das Problem, daß er sich nicht zum Drucker connecten konnte. Export als GDATA und dann via SD-Karte drucken geht aber.
+* Else hatte unter Linux das Problem, daß er sich nicht zum Drucker connecten konnte. Export als G-Code und dann via SD-Karte drucken geht aber.
 
 === Cura Profile ===
 * Eine Version die bei der 20mm Testbox gar nicht so schlechte Ergebnisse brachte: [[Datei:Profil pla magenta 140712.ini]]
