@@ -17,16 +17,17 @@ Datum: 19.08.2012
 
 === Austrittsfristverkürzung ===
 [[Benutzer:Unicorn]] schlägt die folgende Satzungsänderung zur Verkürzung der Austrittsfrist vor:
-* Änderung von §4 Abs. 4 in:
- Die Mitgliedschaft endet durch Austrittserklärung, durch Tod von
+* Änderung von §4 Abs. 4:
+
+ Die Mitgliedschaft endet durch Austrittserklärung <span style="background-color:lightPink;text-decoration:line-through">zum Ende des Geschäftsjahres</span>, durch Tod von
  natürlichen Personen oder durch Auflösung und Erlöschung von
- juristischen Personen oder durch Ausschluss.
+ juristischen Personen oder durch Ausschluss<span style="background-color:lightPink;text-decoration:line-through">; die Beitragspflicht für das laufende Geschäftsjahr bleibt hiervon unberührt</span>.
 
-* Änderung von §4 Abs. 5 in:
+* Änderung von §4 Abs. 5:
+
  Die Austrittserklärung erfordert die Schriftform gegenüber dem
- Vorstand und muss mit einer Frist von 3 Wochen zum Ende des Quartals
+ Vorstand und muss mit einer Frist von <span style="background-color:lightPink;text-decoration:line-through">6</span><span style="background-color:lightGreen">3</span> Wochen zum Ende des <span style="background-color:lightPink;text-decoration:line-through">Geschäftsjahre</span><span style="background-color:lightGreen">Quartal</span>s
  eingereicht werden.
-
 
 
 [[Kategorie:Verein]][[Kategorie:Protokoll]]
