@@ -1,0 +1,23 @@
+{{ProjektInfoBox
+|name        = Hydroponics
+|status      = experimental
+|image       = 
+|description = Hydroponischer Garten für Essbares
+|author      = [[user:don|don]]
+|username    = 
+|version     = 0.1
+|update      = 
+|platform    = Windowfarm
+|license     = 
+|download    = 
+}}
+
+Ziel des Hydroponischen Gartens ist es frische Kräuter, Erdbeeren, ... direkt im Raumzeitlabor anzubauen. 
+Auf diesem Wege lässt sich die große ungenutzte Fensterfläche des Raumzeitlabors produktiv nutzen.
+Der Prototyp basiert auf einer Stehlampe, das Endprodukt soll hängend vor dem Fenster (innen) angebracht werden.
+
+
+==Schläuche==
+Verwendet werden aktuell 6/4mm Schläuche.
+Zur Ansaugung ist eine Wassersäule von mind. 25cm nötig. (Vermutlich nicht so viel, haben es aber noch nicht ausprobiert mit wie wenig es noch geht)
+Luft wird dazu Unterwasser in ein T-Stück gepumpt, welche dann Wassertropfen nach oben trägt. Damit die Luft nicht direkt aus dem anderen Ende des T-Stücks entweicht, muss hier ebenfalls ein Schlauch angebracht sein (etwa 5-10cm).
