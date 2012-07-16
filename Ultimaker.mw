@@ -39,6 +39,7 @@ Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerd
 * In Cura in den Standard-Mode gehen und bei Distance (mm) 2.0 eingeben
 * Sind Lücken im Ausdruck vorhanden, muß die Retraction Speed erhöht oder die generelle Geschwindigkeit verringert werden.
 * Die Bodenplatte muß Plan ausgerichtet sein, der Abstand zwischen Druckkopf und Bodenplatte sollte ungefähr die Dicke eines Blatt Papier sein. [[Benutzer:Felicitus|Felicitus]] nutzt die Funktion des UltiControllers, um etwas Material zu feeden und fährt dann manuell die X- und Y-Achse ab, um den Materialfluß zu kontrollieren. Eine automatische Funktion dafür wäre super, Issue unter [https://github.com/ErikZalm/Marlin/issues/194 #194]
+* Schichtdicke sollte nicht größer 2 x Düsendurchmesser sein. Die Lagen verbinden sich sonst nicht ordentlich.
 
 == Open Issues ==
 
