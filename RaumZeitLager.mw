@@ -1,12 +1,12 @@
 {{ProjektInfoBox
 |name        = RaumZeitLager
-|status      = beta
+|status      = experimental
 |image       = BierBrauSet.jpg
 |description = Heute back ich, morgen Brau ich und übermorgen -> Weltherrschaft!
 |author      = [[Benutzer:thinkJD|thinkJD]]
 |username    = 
 |version     = 0.1
-|update      = 16.07.2012
+|update      = 
 |platform    = Wasser, Hopfen, Malz, Hefe
 |license     = 
 |download    = 
