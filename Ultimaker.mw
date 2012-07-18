@@ -30,7 +30,7 @@ Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerd
 ** Ich habe dafür einen Bugreport aufgemacht. Scheinbar hängt das mit unterschiedlichen Baudraten unter Windows/Linux zusammen, siehe [https://github.com/daid/Cura/issues/170 hier] --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]])
 * Cura läuft auch unter FreeBSD, wenn man das vorkompilierte pypy aus dem Cura Verzeichnis löscht. Das Slicen wird dann durch Python durchgeführt. Das ist deutlich langsamer, aber es geht.
 
-=== Cura Profile ===
+==== Cura Profile ====
 * Eine Version die bei der 20mm Testbox gar nicht so schlechte Ergebnisse brachte: [[Datei:Profil pla magenta 140712.ini]]
 
 === Slic3r===
