@@ -1,0 +1,11 @@
+Die Belt Tensions sind kleine Klammern für unseren Ultimaker, welche den Zug auf die Führungsriemen verbessern sollen.
+
+[[Benutzer:Felicitus|Felicitus]] hat dabei getestet, wie sich die verschiedenen Parameter auf den Druck auswirken.
+
+
+{|
+| [[Image:Belt Tension mit Extra Length.jpg|thumb|Ein Belt Tension mit Extra Length = 2mm. Man sieht deutlich die Ausfransungen, weil zuviel Material pro Schicht extrudiert wurde.]]
+| [[Image:Belt Tension ohne Extra Length.jpg|thumb|Ein Belt Tension ohne Extra Length (0). Man sieht zwar immer noch Ausfransungen, aber wesentlich weniger als mit Extra Length.]]
+| [[Image:Belt Tension mit Druckgeschwindigkeit 150.jpg|thumb|Ein Belt Tension, der mit 150% Druckgeschwindigkeit gedruckt wurde (via UltiController). Die Schichten sind nicht mehr deckend und weisen Lücken auf.]]
+| [[Image:Belt Tension mit 200mm in Software.jpg|thumb|Ein Belt Tension, der mit 200mm Travel Speed gedruckt wurde. Wesentlich weniger Ausfransungen als bei 150mm (dem Default).]]
+|}
