@@ -64,6 +64,12 @@ Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerd
 |-
 | Nozzle Size
 | 0.4mm
+|-
+| Firmware-Version
+| Marlin 1.0RC2 mit [http://daid.mine.nu/~daid/marlin_build/index.php?build=1&baudrate=250000&maxFeedX=250&maxFeedY=250&maxFeedZ=5&maxFeedE=45&maxAccelX=9000&maxAccelY=9000&maxAccelZ=100&maxAccelE=10000&homeFeedrateX=50&homeFeedrateY=50&homeFeedrateZ=4&maxXlength=205&maxYlength=205&maxZlength=200&enablePID=1&PID_Kp=22.2&PID_Ki=1.08&PID_Kd=114&enablePIDextrusion=1&PID_Kc=1&extrudeMinTemp=170&maxTemp=275&tempHysteresis=3&tempResidencyTime=10&tempAD595gain=1.0&tempAD595offset=0.0&fastPwmFan=1&boardType=7&arduino=4&heater0=100&heater1=-1&heater2=-1&heaterbed=-1&endstopPullups=1&endstopInvert=1&enableLow=1&invertX=1&invertZ=1&stepsX=78.7402&stepsY=78.7402&stepsZ=533.333333333&stepsE=865.888&ultiController=1&sdSupport=1 dieser Konfiguration]
+|-
+| Mainboard-Revision
+| 1.5.6 JJ/SW/EdB
 |}
 
 == Changelog ==
@@ -83,3 +89,7 @@ Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerd
 ** http://gcode.joewalnes.com/
 * http://techwall.net/how-precise-is-the-ultimaker
 * http://techwall.net/analyzing-your-first-print
+
+== Bilder ==
+
+[[Datei:Ultimaker Mainboard Revision.jpg|thumb|left|Die exakte Mainboard-Revision unseres Ultimakers]]
