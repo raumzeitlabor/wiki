@@ -34,6 +34,7 @@ Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerd
 ==== Cura Profile ====
 * Eine Version die bei der 20mm Testbox gar nicht so schlechte Ergebnisse brachte: [[Datei:Profil pla magenta 140712.ini]]
 * Neue Version mit einigen Verbesserungen. Das Material wird beim neu positionieren des Extruders ein stück zurückgezogen, um die Bildung von Fäden zu vermeiden. Funktioniert sehr gut mit dem Transparent-Blauen PLA. [[Datei:Cura_Profile_Feli-test-2012-07-20.ini]]
+* [[https://raumzeitlabor.de/wiki/Ultimaker/Testreihen|Testreihen]] inklusive Configs mit [http://www.thingiverse.com/thing:24238 dieser Pyramide]
 
 === Slic3r===
 * Wesentlich schneller als Cura http://slic3r.org/
