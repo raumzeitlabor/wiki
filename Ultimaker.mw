@@ -25,7 +25,7 @@ Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerd
 === Cura ===
 * Website: http://daid.github.com/Cura/
 * Cura ist das Programm der Wahl wie es aktuell aussieht.
-* Leider nicht wirklich unter OSX Lion lauffähig. Es wird aber daran gearbeitet.
+* Unter OSX muss der User zur Gruppe weel gehören, sonst kann Cura nicht auf den Port zugreifen.
 * Else hatte unter Linux das Problem, daß er sich nicht zum Drucker connecten konnte. Export als G-Code und dann via SD-Karte drucken geht aber.
 ** Ich habe dafür einen Bugreport aufgemacht. Scheinbar hängt das mit unterschiedlichen Baudraten unter Windows/Linux zusammen, siehe [https://github.com/daid/Cura/issues/170 hier] --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]])
 ** Scheinbar haben neuere Versionen der Marlin-Firmware 250.000 Baud als Default, ich hab's nochmal auf den Drucker geklebt. Bei mir ging's mit 250.000 Baud und Linux. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 10:16, 19. Jul. 2012 (CEST)
