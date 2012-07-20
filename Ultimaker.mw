@@ -53,7 +53,6 @@ Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerd
 
 * Das Backlight des UltiControllers flackerte, dann wurde es komplett dunkel.
 ** [[Benutzer:Felicitus|Felicitus]] hat diese Frage ins [http://forum.ultimaker.com/viewtopic.php?f=7&t=1134 Forum] gepackt. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 21:10, 14. Jul. 2012 (CEST)
-* Den Z-Switch nochmal kalibrieren nach http://wiki.ultimaker.com/Ultimaker_rev.3_assembly:_Mounting_the_electronics#Step_9:_Checking_and_aligning_the_Z-homing_switch oder noch besser: http://www.thingiverse.com/thing:11033
 * Die Schrittmotoren werden sehr heiß - Kühlkörper dranbauen oder gleich nen Lüfter (oder beides). Kühlkörper haben wir noch genügend da.
 
 == Interessante Mods ==
