@@ -38,4 +38,9 @@ Die Videos der Kamera haben eine Framerate von 29.97 fps, aber eine Field-Anzahl
 
  ffmpeg -threads 0 -i IMAG0001.MP4 -target ntsc-dvd -sameq -s hd1080 IMAG0001_recoded.mpg
 
-Die Projekt-Datei für Kdenlive gibt es da: [[Datei:RZL_Vortrag_Vorlage.xml]] und das Introvideo dort: [[RZL_Introvideo]]. Die verwendete Schriftart kriegt ihr unter http://www.fontex.org/download/Miso.otf (und müsst die .otf-Datei nach ~/.fonts/ legen, anschließend fc-cache -fv).
+== Nötige Dateien ==
+
+* [[Datei:RZL_Vorlage-2012-07-22.kdenlive.bz2]] (Projekt-Datei für kdenlive)
+* [[RZL_Introvideo]] (RZL-Introvideo, Full HD)
+* http://www.fontex.org/download/Miso.otf (verwendete Schriftart)
+** Miso.otf nach ~/.fonts/ legen, anschließend fc-cache -fv ausführen.
