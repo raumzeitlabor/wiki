@@ -115,6 +115,10 @@ Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerd
 | 2012-07-20
 | Nochmal nen neuen [http://www.thingiverse.com/thing:25611 Lüfterauslass] gedruckt. Der hat eine geringere Höhe und liegt nicht mehr auf. 
 | Unicorn, Tiefpunkt, Felicitus, $andere
+|-
+| 2012-07-22
+| LEDs eingebaut, nochmal neuer Lüfter, Firmware auf '''115200''' Baud reduziert, damit auch die Linux-User mitspielen können.
+| Drahti, tiefpunkt, Felicitus
 |}
 
 == Andere Interessante $Dinge ==
