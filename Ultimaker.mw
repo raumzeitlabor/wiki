@@ -45,7 +45,7 @@ Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerd
 
 == Hints ==
 
-* In Cura in den Standard-Mode gehen und bei Distance (mm) 2.0 eingeben
+* In Cura in den Standard-Mode gehen und bei Distance (mm) 2.0 eingeben sowie "Extra Length on Start" 0.1mm. Dies bedeutet, daß nach einer Retraction zusätzlich 0.1mm Material gedrückt wird. [[Benutzer:Felicitus|Felicitus]] hat ohne die zusätzliche Retraction sehr schlechte, mit der zusätzlichen Retraction brilliante Ergebnisse erzielt.
 * Sind Lücken im Ausdruck vorhanden, muß die Retraction Speed erhöht oder die generelle Geschwindigkeit verringert werden.
 * Die Bodenplatte muß Plan ausgerichtet sein, der Abstand zwischen Druckkopf und Bodenplatte sollte ungefähr die Dicke eines Blatt Papier sein. [[Benutzer:Felicitus|Felicitus]] nutzt die Funktion des UltiControllers, um etwas Material zu feeden und fährt dann manuell die X- und Y-Achse ab, um den Materialfluß zu kontrollieren. Eine automatische Funktion dafür wäre super, Issue unter [https://github.com/ErikZalm/Marlin/issues/194 #194]
 * Eine Schichtdicke von 0,2 mm hat sich bewährt. Größere Schichtdicken eventuell möglich, dazu muss allerdings wesentlich mehr Material extrudiert werden.
