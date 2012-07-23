@@ -1,0 +1,22 @@
+{{ProjektInfoBox
+|name        = Dudelkran
+|status      = experimental
+|description = Sicherheitsbehälter für runde Gegenstände
+|username    = Kisl
+|version     = 0.2
+|license     = non-free
+}}
+
+Der Dudelkran ist Sicherheitsbehälter für <del>Sicherheit</del> kleine rundliche Gegenstände (z.B. kurzformatike Schokoriegel), den [[Benutzer:Kisl|Kisl]] $bald am RZL stationieren will.
+
+== Physische Sicherheit ==
+Die Sicherheit wird erreicht, indem die Entnahmemöglichkeiten für unkreative Benutzer auf ein Ausgabefach beschränkt sind, in welches der zu entnehmende Gegenstand zuvor in begrenzter Zeit mittels einer elektromechanischen Vereinzelungsanlage ("Kran") umverteilt werden muss. Zusätzlich wird die Anzahl der möglichen Versuche dadurch begrenzt, dass unkreative Benutzer den Entnahmeversuch nur durch spezielle Token starten können, welches dabei verbraucht (im Gerät eingelagert) wird. Unbemerkte Benutzung wird durch während der Entnahmeversuche abgespieltes Jahrmarktsgedudel erschwert.
+
+== Modifikationen ==
+* Stromversorgung auf USB umgerüstet &ndash; zuvor mittels 3 &times; 1,5 V Batterien (afair AAA) [Kisl]
+* Haupt-{an/aus}-Schalter auf Gedudel-{an/aus}-Schalter umgerüstet [Kisl]
+
+== Ungelöste Probleme ==
+* Funktion des Schalters für vertikale Bewegung unklar wegen undokumentierter Vermischung mit Greiffunktion, erscheint manchmal undeterministisch
+* Sound unzuverlässig seit alternativer&trade; Entnahmestrategie (notwendig infolge zur Vereinzelungsanlage inkompatibler Befüllung)
+* Geruchsentwicklung abhängig von als Stromquelle verwendetem Computer und Betriebszeit &rarr; USB-Strom müsste ggf. erst harmonisiert werden
