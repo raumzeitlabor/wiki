@@ -33,7 +33,7 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein.
 |Git
 |[[Benutzer:TheTinyToon|TheTinyToon]]
 |Dezentrale Versionsverwaltung (DVCS) mit Git: Einführung, Workflows, Best Practices
-|[[Benutzer:nazco|nazco]], [[Benutzer:Else|simon]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:hax404|hax404]], [[Benutzer:walery|walery]], [[Benutzer:Felicitus|Felicitus]], [[Benutzer:fabfrank|fabfrank]], [[Benutzer:PhyberApex|PhyberApex]]
+|[[Benutzer:nazco|nazco]], [[Benutzer:Else|simon]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:hax404|hax404]], [[Benutzer:walery|walery]], [[Benutzer:Felicitus|Felicitus]], [[Benutzer:fabfrank|fabfrank]], [[Benutzer:PhyberApex|PhyberApex]], [[Benutzer:nicoduck|nicoduck]]
 |-
 |Impress.JS
 |[[Benutzer:Muzy|Muzy]]
@@ -89,6 +89,16 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein.
 |Else
 |Wie WLAN grundsätzlich funktioniert. 
 | [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Blabber|blabber]]
+|-
+|ZNC
+|[[Benutzer:nicoduck|nicoduck]]
+|Wie der ZNC IRC Bouncer funktioniert und wieso er toll ist
+|
+|-
+|IEEE 802.1X & WPA Enterprise
+|[[Benutzer:nicoduck|nicoduck]]
+|Wie man LAN und WLAN für größere Installationen absichert
+|
 |}
 
 ==Vergangen==
