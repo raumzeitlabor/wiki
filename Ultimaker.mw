@@ -78,7 +78,7 @@ Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerd
 | 1.5.6 JJ/SW/EdB
 |-
 | Parameter für PLA
-| minimale Temperatur für sinnvolle Drucke: zwischen 210°C und 215°C (getestet)<br/>minimale Temperatur allgemein: um die 185°C - erfordert aber exakte Justierung der Z-Axis, damit der erste Layer in das Tape gepresst wird.
+| minimale Temperatur für sinnvolle Drucke: zwischen 210°C und 215°C (getestet)<br/>'''Verschiedene Farben brauchen verschiedene Temperaturen! Vorher Testdruck mit der [http://www.thingiverse.com/thing:24238 Pyramide] machen!'''<br/>Minimale Temperatur allgemein: um die 185°C - erfordert aber exakte Justierung der Z-Axis, damit der erste Layer in das Tape gepresst wird.
 |-
 |Nozzle Size
 | 0.4mm (extrudiertes Material ist auch exakt diese Dicke, Verifiziert von [[Benutzer:Felicitus|Felicitus]])
