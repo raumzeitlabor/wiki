@@ -13,6 +13,10 @@ Der Dudelkran ist ein Sicherheitsbehälter für <del>Sicherheiten</del> kleine r
 == Physische Sicherheit ==
 Die Sicherheit wird erreicht, indem die Entnahmemöglichkeiten für unkreative Benutzer auf ein Ausgabefach beschränkt sind, in welches der zu entnehmende Gegenstand zuvor in begrenzter Zeit mittels einer elektromechanischen Vereinzelungsanlage ("Kran") umverteilt werden muss. Zusätzlich wird die Anzahl der möglichen Versuche dadurch begrenzt, dass unkreative Benutzer den Entnahmeversuch nur durch spezielle Tokens starten können, welche dabei verbraucht (im Gerät eingelagert) werden. Unbemerkte Benutzung wird durch während der Entnahmeversuche abgespieltes Jahrmarktgedudel erschwert.
 
+== Steuerung ==
+* Taster im Schlitz links von den Hebeln: Entnahmeversuch beginnen. Aktiver Entnahmeversuch wird durch rotes Licht im Ausgabefach angezeigt und ggf. durch die Musik. Schnellere Musik = Zeit fast abgelaufen.
+* Hebel = Greifer steuern: links = vor/zurück, mitte = links/rechts, rechts = hoch/zu/runter/auf
+
 == Modifikationen ==
 * Stromversorgung auf USB umgerüstet &ndash; zuvor mittels 3 &times; 1,5 V Batterien (afair AAA) [Kisl]
 * Haupt-{an/aus}-Schalter auf Gedudel-{an/aus}-Schalter umgerüstet [Kisl]
