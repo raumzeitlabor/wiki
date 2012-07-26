@@ -13,7 +13,10 @@ Pro Tisch 2 3er-Dosen (insgesamt 36 Steckdosen), so:
 ...--+---------------------------+--...
 </pre>
 
-Die Versorgung erfolgt zentral über eine 5*1,5mm² Gummischlauchleitung von der Regalseite zum mittleren Tisch. Im Kabelkanal unter dem Regal wird eine 3-Phasen 16A CEE UP-Dose, zusammen mit einem FI-Schutzschalter, installiert. Durch einen Kabelkanal (vgl. [https://bilder.ottoversand.at/pool/formata/3757300.jpg]) kommt das Kabel zum Tisch. Jeweils 2 Tische werden über eine Phase versorgt, unter den Tischen werden die Verbindungen über AP-Steckdosen hergestellt.
+Die Versorgung erfolgt zentral über eine 5*1,5mm² Gummischlauchleitung von der Regalseite zum mittleren Tisch. Im Kabelkanal unter dem Regal wird eine 3-Phasen 16A CEE UP-Dose, zusammen mit einem FI-Schutzschalter, installiert. Durch einen Kabelkanal (vgl. [https://bilder.ottoversand.at/pool/formata/3757300.jpg]) kommt das Kabel zum Tisch.
+* Ich sehe hier ein Problem mit dem daraus resultierenden gemeinsamen N. Dieser wird eventuell überlastet, da wir die Steckdose nicht symetrisch über die drei Aussenleiter belasten. Besser wären drei einzel abgesicherte Steckdosen, die direkt an der Unterverteilkung angeklemmt werden. --[[Benutzer:ThinkJD|ThinkJD]] ([[Benutzer Diskussion:ThinkJD|Diskussion]]) 13:03, 26. Jul. 2012 (CEST)
+
+Jeweils 2 Tische werden über eine Phase versorgt, unter den Tischen werden die Verbindungen über AP-Steckdosen hergestellt.
 
 == Kosten ==
 
@@ -33,6 +36,9 @@ Die Versorgung erfolgt zentral über eine 5*1,5mm² Gummischlauchleitung von der
 | 1  || FI Schutzschalter		|| ??,?? || ??,?? ||
 |}
 + Kabel + Stecker ([http://www.pollin.de/shop/t/ODE5OTA5OTk-/Haustechnik/Installationsmaterial/Schalter_Steckdosen/CEE_Steckdosen_Stecker_Kupplungen.html], ...) + Kleinkrams ([http://www.pollin.de/shop/dt/NTcyOTQ0OTk-/Haustechnik/Installationsmaterial/Zubehoer/Einfach_Schelle_10_17_mm_25_Stueck.html], ...) + Versandkosten
+
+== Was ist bereits passiert? ==
+* Zwei Tische sind bereits vollständig elektrifiziert. Dazu wurden Kabelkanäle sowie je eine AP-Steckdose und eine AP-Abzweigdose installiert. Die Zuleitung erfolgt über eine Silikonleitung mit Schukostecker. Von der Abzweigdose geht es mit NYM-3x1,5mm² weiter zu den Tischsteckdosen. Allerdings wurde noch kein Isolationswiderstand / Schleifenimpedanz gemessen. Das wird evtl. am Dienstag (31.07.2012) erledigt und hier dokumentiert. Bis dahin sollten die Steckdosen noch nicht verwendet werden.
 
 = Gedanken von hax404 =
 [[Datei:Tischsteckdosenentwurf-vorne.png]]
