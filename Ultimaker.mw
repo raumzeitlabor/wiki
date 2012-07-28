@@ -123,6 +123,18 @@ Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerd
 | 2012-07-22
 | LEDs eingebaut, nochmal neuer Lüfter, Firmware auf '''115200''' Baud reduziert, damit auch die Linux-User mitspielen können.
 | Drahti, tiefpunkt, Felicitus
+|-
+| 2012-07-28
+| Diesen [http://www.thingiverse.com/thing:22851] Clip an den Feeder gebaut, dieser verhindert das mit einziehen des Schlauchs, bei Verwendung der "Retract" Funktion. Siehe Bilder
+| thinkJD
+|-
+| 2012-07-28
+| Draht an den Extruder montiert, er dient als Abstandhalter, um die Schlauchschelle höher zu ziehen und somit den Anpressdruck der Klingen, welche den Schaluch fixieren, zu erhöhen. Bis jetzt erstaunlich stabil.
+| thinkJD
+|-
+| 2012-07-28
+| Schlauch mit einem Senker etwas aufgebohrt. Er sollte nun bündig in der Isolierung abschließen.
+| thinkJD
 |}
 
 == Andere Interessante $Dinge ==
@@ -134,3 +146,5 @@ Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerd
 == Bilder ==
 
 [[Datei:Ultimaker Mainboard Revision.jpg|thumb|left|Die exakte Mainboard-Revision unseres Ultimakers]]
+[[Datei:FeederKlammer.jpg|thumb|left|Clip, um das zurückziehen des Schlauchs zu verhindern]]
+[[Datei:DrahtAmExtruder.jpg|thumb|left|Erhöht den Anpressdruck am Schlauch]]
