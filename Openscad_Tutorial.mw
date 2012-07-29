@@ -1,0 +1,317 @@
+{{ProjektInfoBox
+|name        = Openscad Tutorial
+|status      = beta
+|image       = 
+|description = Ein Projekt zum schnellen Lernen von OPENSCAD
+|author      = Kristian
+|username    = Kristian
+|version     = 0.1
+|update      = 
+|platform    = openscad
+|license     = cc
+|download    = bald
+|preis       = 0,00 EUR
+}}== Openscad Tutorial ==
+
+=== Einleitung ===
+Auf Basis der Einführung von thinkjd http://www.youtube.com/watch?v=v1_h0gADm5E findet ihr hier ein Projekt für den Einstieg in openscad. Wenn ihr es durchgearbeitet habt seid ihr fit im Umgang mit openscad. Basis ist ein kleiner Geist. Ihr findet ihn unter: http://www.thingiverse.com/thing:27287 Wenn ihr ihn mit unserem Ultimaker druckt oder beim rumprobieren Veränderungen durchführt, dann posted das dort unter "I made a derivate" oder "I made a thing", dann hat jeder was davon.
+
+Der Geist ist skalierbar und änderbar. Du kannst Dir also Deinen Wunschgeist zusammenbauen. Achtung wenn Du den Geist später mit dem 3D-Drucker drucken möchtest musst Du auf ein paar Stellen aufpassen. Beispielsweise ist die Oberkante des lachenden Mundes (s.u.) eine horizontale Linie. Wenn diese Strecke zu groß wird, dann "sackt" sie durch.
+
+Kopiert den unten angezeigten Quelltext einfach in euer openscad und drückt F5, im rechten Vorschaubereich seht ihr dann das jeweilige Ergebnis.
+
+=== 1. Der Kopf ===
+Der Kopf besteht aus zwei Elementen, dem Körper (einem Zylinder) und der Halbkugel oben
+
+'''Lernziel: Basisobjekte (Kubus, Kugel, Zylinder), Differenzen, Positionierung, Module'''
+
+==== Halbkugel oben ====
+* Zuerst erstellen wir eine Kugel
+* von der Kugel ziehen wir im Zentrum eine kleinere Kugel ab
+* übrig bleibt eine hohle Kugel
+* unter der hohlen Halbkugel positionieren wird jetzt einen Kubus
+<code>
+ difference()
+ { 
+ 	sphere(r=10);
+ 	sphere(r=9);
+ }
+ translate([-11,-11,-22])
+ cube(22,22,11);
+</code>
+* von der hohlen Kugel ziehen wir nun wiederum einen großen Kubus ab
+* übrig bleibet eine Halbkugel
+<code>
+ difference()
+ {
+        difference()
+        { 
+        	sphere(r=10);
+        	sphere(r=9);
+        }
+        translate([-11,-11,-22])
+        cube(22,22,11);
+ }
+</code>
+
+==== Der Körper ====
+* Jetzt verschieben wir die Halbkugel nach oben
+* Wir nehmen einen Zylinder
+* Wir ziehen von dem Zylinder einen kleineren Zylinder im Inneren ab
+<code>
+ translate([0,0,15])
+ difference()
+ {
+ 	difference()
+ 	{
+ 		sphere(r=10);
+ 		sphere(r=9);
+ 	}
+ 	translate([-11,-11,-22])
+ 	cube(22,22,11);
+ }
+ difference()
+ {
+ 	cylinder(h=15, r=10);
+ 	translate([0,0,-1])
+ 	cylinder(h=17, r=9);
+ }
+</code>
+
+==== Modularisierung / Paramterisierung ====
+Da wir den Geist skalierbar machen wollen, packen wir ihn nun noch in ein Modul und vergeben anstatt fester Werte Variablen.
+<code>
+ module head(headradius,headheight,headthickness)
+ {
+ 	translate([0,0,headheight])
+ 	difference()
+ 	{
+ 		difference()
+ 		{
+ 			sphere(r=headradius);
+ 			sphere(r=headradius-headthickness);
+ 		}
+ 		translate([-headradius-1,-headradius-1,-headradius*2-2])
+ 		cube(headradius*2+2,headradius*2+2,headradius+1);
+ 	}
+ 	difference()
+ 	{
+ 		cylinder(h=headheight, r=headradius);
+ 		translate([0,0,-1])
+ 		cylinder(h=headheight+2, r=headradius-headthickness);
+ 	}
+ }
+ 
+ head(7,15,1);
+</code>
+
+=== 2. Die Augen === 
+
+Die Augen sind zwei Zylinder die von dem Körper abgezogen werden. Sie sind in der Höhe veränderbar, auch der Augenabstand ist einstellbar.
+
+'''Lernziel: Rotation'''
+
+- Wir erstellen jeweils einen Zylinder, rotieren ihn und bringen ihn in die richtige Position, dann wird er abgezogen und die Ausschnitte im Kopf entstehen.
+
+<code>
+ module head(headradius,headheight,headthickness)
+ {
+ 	translate([0,0,headheight])
+ 	difference()
+ 	{
+ 		difference()
+ 		{
+ 			sphere(r=headradius);
+ 			sphere(r=headradius-headthickness);
+ 		}
+ 		translate([-headradius-1,-headradius-1,-headradius*2-2])
+ 		cube(headradius*2+2,headradius*2+2,headradius+1);
+ 	}
+ 	difference()
+ 	{
+ 		cylinder(h=headheight, r=headradius);
+ 		translate([0,0,-1])
+ 		cylinder(h=headheight+2, r=headradius-headthickness);
+ 	}
+ }
+ 
+ module eyes(eyesize, eyedistance, eyeheight,headradius)
+ {
+ 	translate([eyedistance,headradius,eyeheight])
+ 	rotate([90,0,0])
+ 	cylinder(h=headradius, r=eyesize);
+ 	translate([-eyedistance,headradius,eyeheight])
+ 	rotate([90,0,0])
+ 	cylinder(h=headradius, r=eyesize);
+ }
+ 
+ module ghost(headradius, headheight, headthickness, eyesize, eyedistance, eyeheight)
+ {
+ 	difference()
+ 	{
+ 		head(headradius, headheight, headthickness);
+ 		eyes(eyesize, eyedistance, eyeheight, headradius);
+ 	}
+ }
+ 
+ ghost(7,15,1,1.5,3.5,12);
+</code>
+
+=== 3. Die Nase === 
+Die Nase soll ebenfalls skalierbar sein. Höhe und Größe möchten wir einstellen können.
+
+'''Lernziel: Polygone (2D) und extrudieren'''
+
+* Wir erstellen ein 2D Polygon als Dreieck.
+* Wir extrudieren das Dreieck
+* Wir rotieren und positioneren es an der richtigen Stelle und ziehen es wirder von unserem Geist ab
+
+<code>
+ module head(headradius,headheight,headthickness)
+ {
+ 	translate([0,0,headheight])
+ 	difference()
+ 	{
+ 		difference()
+ 		{
+ 			sphere(r=headradius);
+ 			sphere(r=headradius-headthickness);
+ 		}
+ 		translate([-headradius-1,-headradius-1,-headradius*2-2])
+ 		cube(headradius*2+2,headradius*2+2,headradius+1);
+ 	}
+ 	difference()
+ 	{
+ 		cylinder(h=headheight, r=headradius);
+ 		translate([0,0,-1])
+ 		cylinder(h=headheight+2, r=headradius-headthickness);
+ 	}
+ }
+ 
+ module eyes(eyesize, eyedistance, eyeheight,headradius)
+ {
+ 	translate([eyedistance,headradius,eyeheight])
+ 	rotate([90,0,0])
+ 	cylinder(h=headradius, r=eyesize);
+ 	translate([-eyedistance,headradius,eyeheight])
+ 	rotate([90,0,0])
+ 	cylinder(h=headradius, r=eyesize);
+ }
+ 
+ module nose(nosesize,noseheight,headradius)
+ {
+ 	translate([0,headradius,noseheight])
+ 	rotate([90,0,0])
+ 	linear_extrude(height=headradius)
+ 	polygon(points = [ [-nosesize, 0], [nosesize, 0], [0, 2*nosesize]]);
+ }
+ 
+ module ghost(headradius, headheight, headthickness, eyesize, eyedistance, eyeheight, nosesize, noseheight)
+ {
+ 	difference()
+ 	{
+ 		head(headradius, headheight, headthickness);
+ 		eyes(eyesize, eyedistance, eyeheight, headradius);
+ 		nose(nosesize, noseheight, headradius);
+ 	}
+ }
+ 
+ ghost(7,15,1,1.5,3.5,12,1,9,3,7);
+</code>
+
+
+=== 4. Der Mund === 
+
+Beim Mund wollen wir neben Größe und Position auch noch bestimmen ob wir einen fröhlichen, einen traurigen oder einen erchreckten Geist haben. Dazu bauen wir nicht nur einen Mund sondern gleich drei Münder und entscheiden dann anhand eines Parameters welcher von diesen Mündern angezeigt werden soll.
+
+Der erschreckte Ausdruck ist einfach ein gedrehter und verschobener Zylinder, der wieder von unserem Kopf abgezogen wird. Beim Lachen wird vorher oben mittels eines Kubus die obere Hälfte abgeschnitten, beim traurigen Mund unten.
+
+'''Lernziel: Bedingungen (inklusive geschachtelter Bedinungen)'''
+
+<code>
+ module head(headradius,headheight,headthickness)
+ {
+ 	translate([0,0,headheight])
+ 	difference()
+ 	{
+ 		difference()
+ 		{
+ 			sphere(r=headradius);
+ 			sphere(r=headradius-headthickness);
+ 		}
+ 		translate([-headradius-1,-headradius-1,-headradius*2-2])
+ 		cube(headradius*2+2,headradius*2+2,headradius+1);
+ 	}
+ 	difference()
+ 	{
+ 		cylinder(h=headheight, r=headradius);
+ 		translate([0,0,-1])
+ 		cylinder(h=headheight+2, r=headradius-headthickness);
+ 	}
+ }
+ 
+ module eyes(eyesize, eyedistance, eyeheight,headradius)
+ {
+ 	translate([eyedistance,headradius,eyeheight])
+ 	rotate([90,0,0])
+ 	cylinder(h=headradius, r=eyesize);
+ 	translate([-eyedistance,headradius,eyeheight])
+ 	rotate([90,0,0])
+ 	cylinder(h=headradius, r=eyesize);
+ }
+ 
+ module nose(nosesize,noseheight,headradius)
+ {
+ 	translate([0,headradius,noseheight])
+ 	rotate([90,0,0])
+ 	linear_extrude(height=headradius)
+ 	polygon(points = [ [-nosesize, 0], [nosesize, 0], [0, 2*nosesize]]);
+ }
+ 
+ module mouth(mouthsize,mouthheight,mood,headradius)
+ {
+ 	translate([0,0,mouthheight])
+ 	rotate([270,0,0])
+ 	if(mood==0)
+ 	{
+ 		cylinder(h=headradius, r=mouthsize);
+ 	} 
+ 	else 
+ 	{
+ 		if (mood==1)
+ 		{
+ 			difference()
+ 			{
+ 				cylinder(h=headradius, r=mouthsize);
+ 				translate([-mouthsize,-2*mouthsize,0])
+ 				cube([2*mouthsize,2*mouthsize,headradius+1]);
+ 			}
+ 		}
+ 		else
+ 		{
+ 			if (mood==2)
+ 			{
+ 				difference()
+ 				{
+ 					cylinder(h=headradius, r=mouthsize);
+ 					translate([-mouthsize,0,0])
+ 					cube([2*mouthsize,2*mouthsize,headradius+1]);
+ 				}
+ 			}
+ 		}
+ 	}
+ }
+ 
+ module ghost(headradius, headheight, headthickness, eyesize, eyedistance, eyeheight, nosesize, noseheight, mouthsize, mouthheight,  mood)
+ {
+ 	difference()
+ 	{
+ 		head(headradius, headheight, headthickness);
+ 		eyes(eyesize, eyedistance, eyeheight, headradius);
+ 		nose(nosesize, noseheight, headradius);
+ 		mouth(mouthsize, mouthheight, mood, headradius);
+ 	}
+ }
+ 
+ ghost(7,15,1,1.5,3.5,12,1,9,3,7,1);
+</code>
