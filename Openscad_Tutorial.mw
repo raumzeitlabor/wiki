@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = Openscad Tutorial
 |status      = beta
-|image       = 
+|image       = Ghost-T08.png
 |description = Ein Projekt zum schnellen Lernen von OPENSCAD
 |author      = Kristian
 |username    = Kristian
@@ -9,9 +9,10 @@
 |update      = 
 |platform    = openscad
 |license     = cc
-|download    = bald
-|preis       = 0,00 EUR
-}}== Openscad Tutorial ==
+|download    = http://www.thingiverse.com/download:81175
+}}
+
+== Openscad Tutorial ==
 
 === Einleitung ===
 Auf Basis der Einführung von thinkjd http://www.youtube.com/watch?v=v1_h0gADm5E findet ihr hier ein Projekt für den Einstieg in openscad. Wenn ihr es durchgearbeitet habt seid ihr fit im Umgang mit openscad. Basis ist ein kleiner Geist. Ihr findet ihn unter: http://www.thingiverse.com/thing:27287 Wenn ihr ihn mit unserem Ultimaker druckt oder beim rumprobieren Veränderungen durchführt, dann posted das dort unter "I made a derivate" oder "I made a thing", dann hat jeder was davon.
@@ -30,6 +31,7 @@ Der Kopf besteht aus zwei Elementen, dem Körper (einem Zylinder) und der Halbku
 * von der Kugel ziehen wir im Zentrum eine kleinere Kugel ab
 * übrig bleibt eine hohle Kugel
 * unter der hohlen Halbkugel positionieren wird jetzt einen Kubus
+[[Datei:Ghost-T01.png|miniatur]]
 <code>
  difference()
  { 
@@ -41,6 +43,7 @@ Der Kopf besteht aus zwei Elementen, dem Körper (einem Zylinder) und der Halbku
 </code>
 * von der hohlen Kugel ziehen wir nun wiederum einen großen Kubus ab
 * übrig bleibet eine Halbkugel
+[[Datei:Ghost-T02.png|miniatur]]
 <code>
  difference()
  {
@@ -58,6 +61,7 @@ Der Kopf besteht aus zwei Elementen, dem Körper (einem Zylinder) und der Halbku
 * Jetzt verschieben wir die Halbkugel nach oben
 * Wir nehmen einen Zylinder
 * Wir ziehen von dem Zylinder einen kleineren Zylinder im Inneren ab
+[[Datei:Ghost-T03.png|miniatur]]
 <code>
  translate([0,0,15])
  difference()
@@ -80,6 +84,7 @@ Der Kopf besteht aus zwei Elementen, dem Körper (einem Zylinder) und der Halbku
 
 ==== Modularisierung / Paramterisierung ====
 Da wir den Geist skalierbar machen wollen, packen wir ihn nun noch in ein Modul und vergeben anstatt fester Werte Variablen.
+[[Datei:Ghost-T04.png|miniatur]]
 <code>
  module head(headradius,headheight,headthickness)
  {
@@ -113,6 +118,7 @@ Die Augen sind zwei Zylinder die von dem Körper abgezogen werden. Sie sind in d
 
 - Wir erstellen jeweils einen Zylinder, rotieren ihn und bringen ihn in die richtige Position, dann wird er abgezogen und die Ausschnitte im Kopf entstehen.
 
+[[Datei:Ghost-T05.png|miniatur]]
 <code>
  module head(headradius,headheight,headthickness)
  {
@@ -166,6 +172,7 @@ Die Nase soll ebenfalls skalierbar sein. Höhe und Größe möchten wir einstell
 * Wir extrudieren das Dreieck
 * Wir rotieren und positioneren es an der richtigen Stelle und ziehen es wirder von unserem Geist ab
 
+[[Datei:Ghost-T06.png|miniatur]]
 <code>
  module head(headradius,headheight,headthickness)
  {
@@ -228,6 +235,7 @@ Der erschreckte Ausdruck ist einfach ein gedrehter und verschobener Zylinder, de
 
 '''Lernziel: Bedingungen (inklusive geschachtelter Bedinungen)'''
 
+[[Datei:Ghost-T07.png|miniatur]]
 <code>
  module head(headradius,headheight,headthickness)
  {
