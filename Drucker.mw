@@ -12,10 +12,28 @@ Anleitung für CUPS:
 * Bestätige mit der Schaltfläche "Change Settings"
 * Unter "Printers" sollte nun der Drucker auftauchen
 
-;Scannen
-:Scan/E-Mail -> Scannen&SMB -> Datengrab -> (TIFF, PDF, JPEG) -> Datei landet in \\datengrab.rzl\share\scans
+==Scannen==
+Scan/E-Mail -> Scannen&SMB -> Datengrab -> (TIFF, PDF, JPEG) -> Datei landet in \\datengrab.rzl\share\scans
+===Setup===
+Falls die Einstellungen ''vergessen'' werden.
 
-;Installation unter Debian:
+;SMB Setup > SMB General Setup >>
+:Default Original Type: ''Text''
+:Default Scan Resolution: ''300dpi''
+:Default Scan Color: ''Mono''
+:Default Image Format: ''PDF''
+ 
+;SMB Setup > Server List >>
+:Alias for the Setup: ''Datengrab''
+:IP Address or Host Name: ''[x] IP Address''
+:SMB Server Address and Port: ''172.22.36.7'' ''139''
+:Share name: ''Share''
+:Anonymous: ''[x] Enable''
+:Scan File Folder: ''scans''
+:Scan Filename: ''scan''
+:Filing Method: ''Change Name''
+
+==Installation unter Debian==
  echo "deb http://www.bchemnet.com/suldr/ debian extra debian extra" >> /etc/apt/sources.list
  apt-get update
  apt-get install samsungmfp-data samsungmfp-driver
