@@ -13,7 +13,8 @@ Anleitung für CUPS:
 * Unter "Printers" sollte nun der Drucker auftauchen
 
 ==Scannen==
-Scan/E-Mail -> Scannen&SMB -> Datengrab -> (TIFF, PDF, JPEG) -> Datei landet in \\datengrab.rzl\share\scans
+Direkt am Gerät:
+:Scan/E-Mail -> Scannen&SMB -> Datengrab -> (TIFF, PDF, JPEG) -> Datei landet in \\datengrab.rzl\share\scans
 ===Setup===
 Falls die Einstellungen ''vergessen'' werden.
 
