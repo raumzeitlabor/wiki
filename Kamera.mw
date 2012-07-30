@@ -44,6 +44,7 @@ Die Videos der Kamera haben eine Framerate von 29.97 fps, aber eine Field-Anzahl
 * [[RZL_Introvideo]] (RZL-Introvideo, Full HD)
 * http://www.fontex.org/download/Miso.otf (verwendete Schriftart)
 ** Miso.otf nach ~/.fonts/ legen, anschließend fc-cache -fv ausführen.
+* http://t.zekjur.net/rzl-video-sound.wav.bz2 (test-sound zur synchronisation)
 
 == Zeitplan ==
 
