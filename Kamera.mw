@@ -13,20 +13,18 @@ Vorbereitung:
 # Labornotebook aus dem Regal bei der Stereo-Anlage holen und an den Strom anschließen.
 # USB-Mikrofon aus dem Regal bei der Beamerwand holen und an das Labornotebook anschließen.
 # Pegel des USB-Mikrofons überprüfen.
-# Bei der Stereo-Anlage den Kanal A abschalten (Box nahe beim Mikrofon), indem man unten vorne auf den mit "A" beschrifteten Taster drückt, der danach weit raussteht.
+# Die Tischlampen vom Tisch nehmen.
+# Das Licht beim Beamer ausschalten
 
 Aufnahme starten:
 
 # Bei der Kamera auf den Aufnahme-Knopf drücken.
 # Am Labornotebook folgenden Befehl ausführen:
- gst-launch pulsesrc device="alsa_input.usb-Thomann_SC450USB-00-SC450USB.analog-stereo" ! \                                  
-   audio/x-raw-int,rate=48000,channels=2,width=16 ! queue ! \
-   audioconvert ! queue ! mux. avimux name=mux ! filesink location=audio-1.avi
 
-Testweise nutzen wir folgendes:
  gst-launch pulsesrc device="alsa_input.usb-Thomann_SC450USB-00-SC450USB.analog-mono" ! \
    audio/x-raw-int,rate=48000,channels=2,width=16 ! tee name=t_audio ! queue ! \
    pulsesink t_audio. ! audioconvert ! vorbisenc ! oggmux ! filesink location=record.oga
+
 Notebook-Setup (Thinkpad X200):
 * Pegel auf "Base" stehen lassen in pavucontrol, Profil Audio Mono
 * In alsamixer auf 80 (13 dB) stellen beim mic in capture.
