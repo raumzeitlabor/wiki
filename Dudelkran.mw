@@ -25,7 +25,6 @@ Die Sicherheit wird erreicht, indem die Entnahmemöglichkeiten für unkreative B
 == Ungelöste Probleme ==
 * Funktion des Schalters für vertikale Bewegung unklar wegen undokumentierter Vermischung mit Greiffunktion, erscheint manchmal undeterministisch
 * Sound unzuverlässig seit alternativer&trade; Entnahmestrategie (notwendig infolge zur Vereinzelungsanlage inkompatibler Befüllung)
-* Geruchsentwicklung abhängig von als Stromquelle verwendetem Computer und Betriebszeit &rarr; USB-Strom müsste ggf. erst harmonisiert werden
 
 == Erweiterungsideen ==
 * Highscore
