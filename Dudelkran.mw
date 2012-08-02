@@ -18,8 +18,9 @@ Die Sicherheit wird erreicht, indem die Entnahmemöglichkeiten für unkreative B
 * Hebel = Greifer steuern: links = vor/zurück, mitte = links/rechts, rechts = hoch/zu/runter/auf
 
 == Modifikationen ==
-* Stromversorgung auf USB umgerüstet &ndash; zuvor mittels 3 &times; 1,5 V Batterien (afair AAA) [Kisl]
-* Haupt-{an/aus}-Schalter auf Gedudel-{an/aus}-Schalter umgerüstet [Kisl]
+* Stromversorgung auf USB umgerüstet &ndash; zuvor mittels 3 &times; 1,5 V Batterien (afair AAA) ([[Benutzer:Kisl|Kisl]])
+** Stromversorgung auf 230 V Steckdose umgerüstet, denn USB tötet den Kran und den PC von dem man es abgreift. ([[Benutzer:Brainfreeze|Brainfreeze]])
+* Haupt-{an/aus}-Schalter auf Gedudel-{an/aus}-Schalter umgerüstet ([[Benutzer:Kisl|Kisl]])
 
 == Ungelöste Probleme ==
 * Funktion des Schalters für vertikale Bewegung unklar wegen undokumentierter Vermischung mit Greiffunktion, erscheint manchmal undeterministisch
@@ -32,4 +33,3 @@ Die Sicherheit wird erreicht, indem die Entnahmemöglichkeiten für unkreative B
 * ansprechendere Farbgestaltung (wechselbares Theming möglich?)
 * andere Musik
 * Token-Umgehung erschweren &rarr; zu Auswärtsveranstaltungen mitnehmen &rarr; ??? &rarr; Profit
-* Stromversorgung nicht mehr über USB (tötet den Kran und den PC von dem man es abgreift) &rarr; macht Brainfreeze
