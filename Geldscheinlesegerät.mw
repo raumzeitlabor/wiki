@@ -14,8 +14,10 @@ Else hat zwei ARDAC Eagle auf Ebay geschossen. Fabian ist ein krasser Checker un
 * untere Reihe, Pin 4 von links: GND (+5V) => vermutlich Reset (muss gesetzt sein)
 
 === DIP Switches ===
-Stimmen eventuell nicht mit den Angaben im Manual überein.
+Stellen den Grundzustand vom Akzeptor ein. Stimmen eventuell nicht mit den Angaben im Manual überein.
 * DIP2, Pin 3 OFF: Euro-Schein wird nach 10s zurückgegeben (vermutlich ESCROW Mode)
+* DIP1: Wenn alle Pins auf OFF, dann werden scheinbar alle Scheine angenommen (obwohl Datenblatt sagt, is nich)
+* DIP1, Pin 4 ON: Zwanni wird zurückgewiesen nach Timeout (5s oder so), Zehner bleibt drin, Fünfer wird zurückgewiesen
 
 == Trivia ==
 * die Geräte sind NICHT exakt baugleich, obwohl es die äußere Erscheinung vermuten lässt
