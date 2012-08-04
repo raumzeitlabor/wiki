@@ -11,7 +11,7 @@ Else hat zwei ARDAC Eagle auf Ebay geschossen. Fabian ist ein krasser Checker un
 
 === Host Adapter ===
 24 Pins insgesamt; Nut oben, frontal
-* untere Reihe, Pin 4 von links: GND (+5V)
+* untere Reihe, Pin 4 von links: GND (+5V) => vermutlich Reset (muss gesetzt sein)
 
 === DIP Switches ===
 Stimmen eventuell nicht mit den Angaben im Manual überein.
