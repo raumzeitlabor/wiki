@@ -4,7 +4,6 @@ Else hat zwei ARDAC Eagle auf Ebay geschossen. Fabian ist ein krasser Checker un
 '''Achtung''': Entsprichen nicht den Informationen auf dem Datenblatt!
 
 === Stromversorgung ===
-'''Achtung''': Entspricht nicht den Informationen auf dem Datenblatt!
 * GRÜN: GND (+24V)
 * ROT: +24V
 * SCHWARZ: GND (+5V)
@@ -21,3 +20,7 @@ Stimmen eventuell nicht mit den Angaben im Manual überein.
 == Trivia ==
 * Fabian rät ins Blaue, dass es sich bei dem Gerät eventuell doch nicht um eins mit einer seriellen Schnittstelle handelt, weil Relais (NAIS HB1E-DC12V) geschaltet werden, nachdem der Geldschein eingezogen wurde (=> 4 Bit)
 ** eventuell mit einem Logic Analyzer der 12V DC aushält debuggen?
+
+== Ressourcen ==
+* [http://www.money-controls.de Hersteller- / Distributor-Webseite]
+* [https://raumzeitlabor.de/w/images/f/f0/Ardac_eagle.pdf Handbuch] vom 80X2500
