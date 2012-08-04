@@ -20,6 +20,7 @@ Stimmen eventuell nicht mit den Angaben im Manual überein.
 == Trivia ==
 * Fabian rät ins Blaue, dass es sich bei dem Gerät eventuell doch nicht um eins mit einer seriellen Schnittstelle handelt, weil Relais (NAIS HB1E-DC12V) geschaltet werden, nachdem der Geldschein eingezogen wurde (=> 4 Bit)
 ** eventuell mit einem Logic Analyzer der 12V DC aushält debuggen?
+* je nach Geldschein werden unterschiedliche Relais geschaltet
 
 == Ressourcen ==
 * [http://www.money-controls.de Hersteller- / Distributor-Webseite]
