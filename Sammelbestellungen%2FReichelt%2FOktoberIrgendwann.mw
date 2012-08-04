@@ -4,9 +4,8 @@
 '''Hinweis für Besteller:''' Reichelt hat Probleme beim Importieren von großen Warenkörben. Du solltest die Bestellung daher in mehreren Schritten importieren. Weiterhin summiert Reichelt bei mehreren Zeilen der gleichen Artikel die jeweiligen Mengen nicht auf. Um dir das Leben zu vereinfachen, kannst Du [http://rcsvtool.labs.iodev.org dieses] Tool benutzen (Ansprechpartner: [[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]])).
 |}<br>
 
-== $besteller1 braucht ==
+== Simon braucht ==
 
 <pre>
-NUMMER;ANZAHL
-NUMMER;ANZAHL
+LOGILINK UA0141;1
 </pre>
