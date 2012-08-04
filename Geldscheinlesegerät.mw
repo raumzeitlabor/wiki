@@ -7,7 +7,7 @@ Else hat zwei ARDAC Eagle auf Ebay geschossen. Fabian ist ein krasser Checker un
 * GRÜN: GND (+24V)
 * ROT: +24V
 * SCHWARZ: GND (+5V)
-* WEISS: +5V (funktioniert auch ohne, lulz)
+* WEISS: +5V (funktioniert auch ohne, solange Reset GND ist, lulz)
 
 === Host Adapter ===
 24 Pins insgesamt; Nut oben, frontal
