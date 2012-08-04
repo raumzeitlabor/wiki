@@ -18,6 +18,7 @@ Stimmen eventuell nicht mit den Angaben im Manual überein.
 * DIP2, Pin 3 OFF: Euro-Schein wird nach 10s zurückgegeben (vermutlich ESCROW Mode)
 
 == Trivia ==
+* die Geräte sind NICHT exakt baugleich, obwohl es die äußere Erscheinung vermuten lässt
 * Fabian rät ins Blaue, dass es sich bei dem Gerät eventuell doch nicht um eins mit einer seriellen Schnittstelle handelt, weil Relais (NAIS HB1E-DC12V) geschaltet werden, nachdem der Geldschein eingezogen wurde (=> 4 Bit)
 ** eventuell mit einem Logic Analyzer der 12V DC aushält debuggen?
 * Je nach Geldschein werden unterschiedliche Relais geschaltet. Jetz isser sich plötzlich doch nicht mehr so sicher.
