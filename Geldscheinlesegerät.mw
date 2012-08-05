@@ -9,6 +9,8 @@ Else hat zwei ARDAC Eagle auf Ebay geschossen. Fabian ist ein krasser Checker un
 * SCHWARZ: GND (gemeinsam)
 * WEISS: +5V (funktioniert auch ohne, solange Reset GND ist, lulz)
 
+Der Stacker bekommt 15V gewandelt vom MC7815C. Gleichrichter vermutlich zwecks Verpolungsschutz (sonst keinerlei Funktion).
+
 === Host Adapter ===
 24 Pins insgesamt; Nut oben, frontal
 * untere Reihe, Pin 4 von links: GND (+5V) => vermutlich Reset (muss gesetzt sein)
