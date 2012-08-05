@@ -4,9 +4,9 @@ Else hat zwei ARDAC Eagle auf Ebay geschossen. Fabian ist ein krasser Checker un
 '''Achtung''': Entsprichen nicht den Informationen auf dem Datenblatt!
 
 === Stromversorgung ===
-* GRÜN: GND (+24V)
+* GRÜN: GND (gemeinsam)
 * ROT: +24V
-* SCHWARZ: GND (+5V)
+* SCHWARZ: GND (gemeinsam)
 * WEISS: +5V (funktioniert auch ohne, solange Reset GND ist, lulz)
 
 === Host Adapter ===
