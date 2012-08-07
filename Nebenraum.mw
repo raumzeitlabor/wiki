@@ -1,20 +1,16 @@
 {{ProjektInfoBox
 |name        = Nebenraum
-|status      = beta
+|status      = experimental
 |image       = 
 |description = Gedankensammlung zum Nebenraum
-|author      = nessi
+|author      = 
 |username    = 
-|version     = 0.1
+|version     =
 |update      = 
 |platform    = 
 |license     = 
 |download    = 
 }}
-
-Ich versuche alle Punkte, aus den Mails, hier ins Wiki zu übertragen.
-
-
 
 == Status ==
 
@@ -23,39 +19,23 @@ Ich versuche alle Punkte, aus den Mails, hier ins Wiki zu übertragen.
 
 
 == Vorschläge zur Raumaufteilung ==
-{| style="width:100%; text-align:left;" cellpadding="1" cellspacing="1"
-|'''Inte 1'''
-|'''Nessi 2a'''
-|'''Inte 2 oder (3''')
-|-
-|BILD1
-|Nebenraum_v2a.pdf‎
-|Nebenraum3.pdf
-|-
-|'''Pro'''
-|'''Pro'''
-|'''Pro'''
-|-
-|ja
-|ja
-|ja
-|-
-|'''Kontra'''
-|'''Kontra'''
-|'''Kontra'''
-|-
-|NEIN
-|NEIN
-|NEIN
-|}
+gebaut mit [http://www.sweethome3d.com/de Sweet Home 3D]
+=== Inte 1 ===
+* siehe Propaganda-[[Teamdrive]]
+
+=== Nessi 1 ===
+* siehe ML
+
+=== Inte 2 ===
+* [https://www.dropbox.com/s/r8qtgxoexsge0yz/Nebenraum.pdf]
 
 == ToDo ==
-
 * Vorschläge sammeln für die Nebenraumaufteilung
 * Abstimmen oder so
 * Weltherrschaft
 
 
 == Baumaterialien / Baukosten ==
+TBD
 
-Der Herzinfaktabschnitt für Alex :)
+[[Kategorie:Projekt]]
