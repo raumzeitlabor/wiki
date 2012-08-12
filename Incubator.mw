@@ -36,14 +36,6 @@ Hier eine Sammlung von Ideen. Fügt eure einfach hinzu, vielleicht finden sich j
 |touched = 04.04.2012
 }}
 {{IncubatorProjectIdea
-|title   = Einarmiger Hacker
-|descr   = Coole Dinge mit dem Roboterarm, der im Raum rumsteht
-|author  =
-|megusta = [[Benutzer:Tiefpunkt|tiefpunkt]] [[Benutzer:muzy|muzy]]
-|added   = 04.04.2012
-|touched = 04.04.2012
-}}
-{{IncubatorProjectIdea
 |title   = Nerd am Herd II
 |descr   = Mal wieder etwas Education rund um die Küche ansich, Techniken und Koordination im Küchenchaos
 |author  = [[Benutzer:muzy|muzy]]
@@ -55,9 +47,9 @@ Hier eine Sammlung von Ideen. Fügt eure einfach hinzu, vielleicht finden sich j
 |title   = [[Tischsteckdosen|Intelligente Kabelführung am Konferenztisch]]
 |descr   = Steckdosen/RJ45-Buchsen/Kabelkanäle an den Konferenztischen anbringen, um den massiven Kabelsalat zu reduzieren. Eventuell auch eine Art "Tribüne" vor die Tafel basteln, um Kabel drunter durch zulegen. Idealerweise sollten die Dosen versenkt werden. Angenommen, die Tische werden durch ein an jedem Tisch durchgeschleiftes Kabel mit Strom versorgt. Bei welchem Kabelquerschnitt das zulässig?
 |author  = [[Benutzer:mxf|mxf]], [[Benutzer:Else|else]]
-|megusta = [[Benutzer:hax404|hax404]]
+|megusta = [[Benutzer:hax404|hax404]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:ThinkJD|thinkJD]], [[Benutzer:Nicoduck|nicoduck]]
 |added   = 27.04.2012
-|touched = 14.06.2012
+|touched = 10.08.2012
 }}
 {{IncubatorProjectIdea
 |title   = [[USB Switch]]
@@ -125,24 +117,8 @@ Zum Beispiel IRC, den Statusbot, Temperaturen, stündliche Bilder mit einer ange
 |touched = 25.05.2012
 }}
 {{IncubatorProjectIdea
-|title   = Stromverbrauchskosten pro Tag
-|descr   = Der Revspace hat die Stromverbrauchskosten pro Tag in Ihrem Diagramm. Find ich cool. Siehe [https://revspace.nl/stats/ hier]
-|author  = [[Benutzer:Else|else]]
-|megusta = [[Benutzer:Tiefpunkt|tiefpunkt]]
-|added   = 16.06.2012
-|touched = 17.06.2012
-}}
-{{IncubatorProjectIdea
 |title   = JouleThief Bike Light
 |descr   = 1. JouleThief + LEDs = Fahrradlampe, die auf Restbatterien läuft, 2. ???, 3. Profit!
-|author  = [[Benutzer:Tiefpunkt|tiefpunkt]]
-|megusta = 
-|added   = 21.06.2012
-|touched = 21.06.2012
-}}
-{{IncubatorProjectIdea
-|title   = RZL Infoscreen
-|descr   = Bildschirm im RZL mit interessanten Informationen, wie Bahnfahrplan, Stromverbrauch, etc.
 |author  = [[Benutzer:Tiefpunkt|tiefpunkt]]
 |megusta = 
 |added   = 21.06.2012
@@ -191,6 +167,57 @@ Wer sich an Projekten beteiligen möchte, hier eine Liste.
 }}
 |}
 
+== Abgeschlossen ==
+{| class=wikitable width="100%"
+|- style="font-style: italic;"
+! style="width: 4em;" | Titel
+! &nbsp;<!-- weil Firefox colspan=2 für Titel ignorieren würde -->
+! style="width: 10em;" | Autor
+! style="width: 7ex;" | Eingetragen
+! style="width: 7ex;" | Letzte<br />Aktivität
+|- style="font-style: italic;"
+| &nbsp;
+| colspan=4 | Beschreibung
+{{IncubatorProjectIdea
+|title   = [[InfoScreen|RZL Infoscreen]]
+|descr   = Bildschirm im RZL mit interessanten Informationen, wie Bahnfahrplan, Stromverbrauch, etc.
+|author  = [[Benutzer:Tiefpunkt|tiefpunkt]]
+|megusta = 
+|added   = 21.06.2012
+|touched = 21.07.2012
+|comment = [[InfoScreen|Ergebnis]] steht auf dem Kühlschrank.
+}}
+{{IncubatorProjectIdea
+|title   = Stromverbrauchskosten pro Tag
+|descr   = Der Revspace hat die Stromverbrauchskosten pro Tag in Ihrem Diagramm. Find ich cool. Siehe [https://revspace.nl/stats/ hier]
+|author  = [[Benutzer:Else|else]]
+|megusta = [[Benutzer:Tiefpunkt|tiefpunkt]]
+|added   = 16.06.2012
+|touched = 28.07.2012
+|comment = [http://cosm.tiefpunkt.com/usagecost/ Demo], [https://github.com/tiefpunkt/cosmUsageCost/ GitHub Repository]
+}}
+|}
 
+== Fehlgeschlagen/Obsolet ==
+{| class=wikitable width="100%"
+|- style="font-style: italic;"
+! style="width: 4em;" | Titel
+! &nbsp;<!-- weil Firefox colspan=2 für Titel ignorieren würde -->
+! style="width: 10em;" | Autor
+! style="width: 7ex;" | Eingetragen
+! style="width: 7ex;" | Letzte<br />Aktivität
+|- style="font-style: italic;"
+| &nbsp;
+| colspan=4 | Beschreibung
+{{IncubatorProjectIdea
+|title   = Einarmiger Hacker
+|descr   = Coole Dinge mit dem Roboterarm, der im Raum rumsteht
+|author  =
+|megusta = [[Benutzer:Tiefpunkt|tiefpunkt]] [[Benutzer:muzy|muzy]]
+|added   = 04.04.2012
+|touched = 04.04.2012
+|comment = Roboterarm steht nicht mehr im RZL.
+}}
+|}
 == Links ==
 * [http://en.wikipedia.org/wiki/Business_incubator Incubator im eng. Wikipedia]
