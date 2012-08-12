@@ -2,165 +2,193 @@
 | name=Incubator
 | description=Mal n paar mehr serious Projekte starten und so!!!1!
 | status=experimental
-| author=[[Benutzer:Tiefpunkt|tiefpunkt]]
+| author=[[Benutzer:Kisl|Kisl]] (zuvor [[Benutzer:Tiefpunkt|tiefpunkt]])
 }}
-Du hast eine Projektidee, und weißt nicht, wie du sie anpacken sollst? Dir fehlen Mitstreiter, Zeit, Ansätze oder einfach nur 5€ für ein paar Microcontroller? Nun, du bist vermutlich nicht der Einzige. Eventuell hat wer Anders schon eine ähnliche Idee. Oder findet deine Idee so cool, dass sie dieser $person die 5€ wert sind, die du noch brauchst.
-
-
+Du hast eine Projektidee und weißt nicht, wie du sie anpacken sollst? Dir fehlen Mitstreiter, Zeit, Ansätze oder einfach nur 5€ für ein paar Microcontroller? Nun, du bist vermutlich nicht der Einzige. Eventuell hat wer anderes schon eine ähnliche Idee. Oder findet deine Idee so cool, dass sie dieser $person die 5€ wert sind, die du noch brauchst.
 <div style="clear:both;"></div>
+
 == Ideen ==
-Hier eine Sammlung von Ideen. Fügt eure einfach hinzu, vielleicht finden sich ja Interessierte...mehr Text kommt noch ...
-{| class=wikitable
-! Titel
-! Beschreibung
-! Author
-! Interessierte/Mitstreiter
-! Eingetragen am
-! Letzte Aktivität
-|-
-| GroupTumblr
-| Webinterface, um $Dinge in unseren Tumblr posten zu können
-| [[Benutzer:Tiefpunkt|tiefpunkt]]
-| [[Benutzer:muzy|muzy]]
-| 04.04.2012
-| 04.04.2012
-|-
-| Barbot
-| Ein Getränke-mixender Roboter
-| [[Benutzer:Tiefpunkt|tiefpunkt]]
-| [[Benutzer:muzy|muzy]]
-| 04.04.2012
-| 04.04.2012
-|-
-| Einarmiger Hacker
-| Coole Dinge mit dem Roboterarm, der im Raum rumsteht
-|
-| [[Benutzer:Tiefpunkt|tiefpunkt]] [[Benutzer:muzy|muzy]]
-| 04.04.2012
-| 04.04.2012
-|-
-| Nerd am Herd II
-| Mal wieder etwas Education rund um die Küche ansich, Techniken und Koordination im Küchenchaos
-| [[Benutzer:muzy|muzy]]
-| 
-| 08.04.2012
-| 08.04.2012
-|-
-| [[Tischsteckdosen|Intelligente Kabelführung am Konferenztisch]]
-| Steckdosen/RJ45-Buchsen/Kabelkanäle an den Konferenztischen anbringen, um den massiven Kabelsalat zu reduzieren. Eventuell auch eine Art "Tribüne" vor die Tafel basteln, um Kabel drunter durch zulegen. Idealerweise sollten die Dosen versenkt werden. Angenommen, die Tische werden durch ein an jedem Tisch durchgeschleiftes Kabel mit Strom versorgt. Bei welchem Kabelquerschnitt das zulässig?
-| [[Benutzer:mxf|mxf]], [[Benutzer:Else|else]]
-| [[Benutzer:hax404|hax404]]
-| 27.04.2012
-| 14.06.2012
-|-
-| [[USB Switch]]
-| Ein Device, um USB-powered Geräte wie LEDs, Ventilatoren, etc. an- und ausschalten zu können, ohne sie abstöpseln zu müssen.
-| Hannes
-| [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Inte|Inte]]
-| 08.05.2012
-| 19.06.2012
-|-
-|Die RZL-Blackbox
-| Eine schwarze Box, die alle Aktivitäten im RZL loggt.
+Hier eine Sammlung von Ideen. Fügt eure einfach hinzu, vielleicht finden sich ja Interessierte. Mehr Text kommt noch.
+{| class=wikitable width="100%"
+|- style="font-style: italic;"
+! style="width: 4em;" | Titel
+! &nbsp;<!-- weil Firefox colspan=2 für Titel ignorieren würde -->
+! style="width: 10em;" | Autor
+! style="width: 7ex;" | Eingetragen
+! style="width: 7ex;" | Letzte<br />Aktivität
+|- style="font-style: italic;"
+| &nbsp;
+| colspan=4 | Beschreibung
+{{IncubatorProjectIdea
+|title   = GroupTumblr
+|descr   = Webinterface, um $Dinge in unseren Tumblr posten zu können
+|author  = [[Benutzer:Tiefpunkt|tiefpunkt]]
+|megusta = [[Benutzer:muzy|muzy]]
+|added   = 04.04.2012
+|touched = 04.04.2012
+}}
+{{IncubatorProjectIdea
+|title   = Barbot
+|descr   = Ein Getränke-mixender Roboter
+|author  = [[Benutzer:Tiefpunkt|tiefpunkt]]
+|megusta = [[Benutzer:muzy|muzy]]
+|added   = 04.04.2012
+|touched = 04.04.2012
+}}
+{{IncubatorProjectIdea
+|title   = Einarmiger Hacker
+|descr   = Coole Dinge mit dem Roboterarm, der im Raum rumsteht
+|author  =
+|megusta = [[Benutzer:Tiefpunkt|tiefpunkt]] [[Benutzer:muzy|muzy]]
+|added   = 04.04.2012
+|touched = 04.04.2012
+}}
+{{IncubatorProjectIdea
+|title   = Nerd am Herd II
+|descr   = Mal wieder etwas Education rund um die Küche ansich, Techniken und Koordination im Küchenchaos
+|author  = [[Benutzer:muzy|muzy]]
+|megusta = 
+|added   = 08.04.2012
+|touched = 08.04.2012
+}}
+{{IncubatorProjectIdea
+|title   = [[Tischsteckdosen|Intelligente Kabelführung am Konferenztisch]]
+|descr   = Steckdosen/RJ45-Buchsen/Kabelkanäle an den Konferenztischen anbringen, um den massiven Kabelsalat zu reduzieren. Eventuell auch eine Art "Tribüne" vor die Tafel basteln, um Kabel drunter durch zulegen. Idealerweise sollten die Dosen versenkt werden. Angenommen, die Tische werden durch ein an jedem Tisch durchgeschleiftes Kabel mit Strom versorgt. Bei welchem Kabelquerschnitt das zulässig?
+|author  = [[Benutzer:mxf|mxf]], [[Benutzer:Else|else]]
+|megusta = [[Benutzer:hax404|hax404]]
+|added   = 27.04.2012
+|touched = 14.06.2012
+}}
+{{IncubatorProjectIdea
+|title   = [[USB Switch]]
+|descr   = Ein Device, um USB-powered Geräte wie LEDs, Ventilatoren, etc. an- und ausschalten zu können, ohne sie abstöpseln zu müssen.
+|author  = Hannes
+|megusta = [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Inte|Inte]]
+|added   = 08.05.2012
+|touched = 19.06.2012
+}}
+{{IncubatorProjectIdea
+|title   = Die RZL-Blackbox
+|descr   = Eine schwarze Box, die alle Aktivitäten im RZL loggt.
 Zum Beispiel IRC, den Statusbot, Temperaturen, stündliche Bilder mit einer angeschlossenen Webcam, wer war wann im Raum, Transaktionen an der Kasse, Kontobewegungen und so weiter. So hätten wir am Ende des Jahres einen mega Datenbestand, um ein paar Statistiken zu fahren oder einfach mal was nachzuschlagen. Man könnte über eine Alu-Hut-Funktion nachdenken, wenn ein User nicht geloggt werden will, trägt er das in einem Feld der Benutzer-DB ein und wird von der Blackbox ignoriert.
-| [[Benutzer:thinkJD|thinkJD]]
-| [[Benutzer:echox|echox]]
-| 12.05.2012
-| 12.05.2012
-|-
-| Das negierte Navi
-| Ein Navi das immer ansagt, was man NICHT tun soll. "Fahren Sie nicht links, fahren Sie nicht rechts, wenden Sie nicht." Wäre die Ansage für fahren Sie an einer Kreuzung gerade aus. "Fahren sie die nächste Abfahrt NICHT ab."
-| [[Benutzer:thinkJD|thinkJD]]
-| 
-| 08.04.2012
-| 08.04.2012
-|-
-| Brick Box
-| Kiste(n) mit den genoppten Steinen zum Spielen, Bauen, Konstruieren, evtl auch Programmieren (Mindstorms) Aufbau einer LEGO Sammlung. Erstmal ein Grundsortiment anschaffen, dann langsam aufstocken. Würde auch sehr gerne Mindstorms mit einbeziehen, allerdings ist das eben doch recht teuer, selbst gebraucht. Kann man die Teile dann evtl auch mit dem PartKeepr erfassen und katalogisieren oder ist der nur für Elektronikteile? 
-| [[Benutzer:zwetschgo|zwetschgo]]
-| 
-| 20.05.2012
-| 20.05.2012
-|-
-| Handarbeitselipse
-| (Mehr oder weniger) Regelmäßige Treffen zum Sticken, Stricken, Häkeln, Nähen, Basteln. Eine Stickmaschine haben wir schon, wäre es gut auch eine Nähmaschine zu haben? Dazu einen Grundstock an Werkzeug (Strick- und Häkelnadeln, Scheren, etc) und Materialien (Garn, Wolle, aber auch Papier, Pappen, Klebstoffe) Dazu dann (regelmäßig) wechselnde Dekorationen (Themes) für den Raum zusammen entwickeln und umsetzen - Update 10.08.12: Mitmachen bei  [http://www.supercraftlab.de Supercraftlab]. Kits im Abo beziehen und dann basteln und handarbeiten.
-| [[Benutzer:zwetschgo|zwetschgo]]
-| 
-| 20.05.2012
-| 20.05.2012
-|-
-| GSM Security
-| Ich habe mit viel Interesse CRE179 gehört, sowie die CCC-Talks zu OsmocomBB usw. gesehen. In anfänglicher Euphorie habe ich mir direkt ein Motorola C123, das Maintarget von Osmocom, in der Bucht geschossen. Das Handy liegt in meiner Kiste und ich habe leider keine Zeit mich darum zu kümmern. Vielleicht mag jemand die 2TB Rainbow Tables laden (kann ich auch übernehmen, ich habe eine schnelle Leitung zu Hause aber keine HDD), die Software bauen, Spaß haben und einen Vortrag halten. Hier noch ein paar Links zum Thema:
-[http://cre.fm/cre179 CRE179 GSM Security]
-[http://cre.fm/cre120 CRE120 OpenBSC]
-[http://cre.fm/cre056 CRE056 GSM Hacking]
-[http://bb.osmocom.org/trac/ OsmocomBB]
-[http://media.ccc.de/browse/congress/2010/27c3-3952-en-running_your_own_gsm_stack_on_a_phone_osmocombb.html Talk: Running your own GSM stack on a phone]
-[http://media.ccc.de/browse/conferences/camp2007/cccamp07-en-2015-The_A5_Cracking_Project.html Talk: The A5 Cracking Project]
-| [[Benutzer:thinkJD|thinkJD]]
-| [[Benutzer:echox|echox]]
-| 22.05.2012
-| 24.05.2012
-|-
-| Der Ragefacestempel
-| Einen (günstigen) Druckkopf, gerne Nadeldrucker, mit ATMega versehen. An einem Drehrad kann man die Nummer von ragefac.es auswählen und das entsprechende Bildchen (oder die URL) auf beliebige Oberflächen StempelDrucken.
-| [[Benutzer:thinkJD|thinkJD]]>
-|
-| 25.05.2012
-| 25.05.2012
-|-
-| Stromverbrauchskosten pro Tag
-| Der Revspace hat die Stromverbrauchskosten pro Tag in Ihrem Diagramm. Find ich cool. Siehe [https://revspace.nl/stats/ hier]
-| [[Benutzer:Else|else]]>
-| [[Benutzer:Tiefpunkt|tiefpunkt]]
-| 16.06.2012
-| 17.06.2012
-|-
-| JouleThief Bike Light
-| 1. JouleThief + LEDs = Fahrradlampe, die auf Restbatterien läuft, 2. ???, 3. Profit!
-| [[Benutzer:Tiefpunkt|tiefpunkt]]
-|
-| 21.06.2012
-| 21.06.2012
-|-
-| RZL Infoscreen
-| Bildschirm im RZL mit interessanten Informationen, wie Bahnfahrplan, Stromverbrauch, etc.
-| [[Benutzer:Tiefpunkt|tiefpunkt]]
-|
-| 21.06.2012
-| 21.06.2012
-|-
-| MAME Cabinet
-| Eine Spielhöllenconsole im Selbstbau.
-| [[Benutzer:Felicitus|Felictus]]
-| [[Benutzer:Felicitus|Felictus]]
-| 22.06.2012
-| 22.06.2012
-|-
-| [[NerdsSatellite|Vollautonomes System/ähnlich Satellit]]
-| System, welches sich bei mitteleuropäischen Wetterbedingungen ein ganzes Jahr eigenständig mit Energie(reserven) versorgt und dabei gleichzeitig zu mindest bei ausreichenden Energiereserven via UMTS im Internet erreichbar ist oder sich zB per twitter regelmäßig meldet. Praktische Anwendung: zB moderner Geo-Cache.
-| [[Benutzer:Rabe|Raphael Eiselstein]] <sup><small>[[Benutzer Diskussion:Rabe|talk]]</small></sup>
-| <!-- --~~~~ -->
-| 27.6.2012
-| 27.6.2012
+|author  = [[Benutzer:thinkJD|thinkJD]]
+|megusta = [[Benutzer:echox|echox]]
+|added   = 12.05.2012
+|touched = 12.05.2012
+}}
+{{IncubatorProjectIdea
+|title   = Das negierte Navi
+|descr   = Ein Navi das immer ansagt, was man NICHT tun soll. "Fahren Sie nicht links, fahren Sie nicht rechts, wenden Sie nicht." Wäre die Ansage für fahren Sie an einer Kreuzung gerade aus. "Fahren sie die nächste Abfahrt NICHT ab."
+|author  = [[Benutzer:thinkJD|thinkJD]]
+|megusta = 
+|added   = 08.04.2012
+|touched = 08.04.2012
+}}
+{{IncubatorProjectIdea
+|title   = Brick Box
+|descr   = Kiste(n) mit den genoppten Steinen zum Spielen, Bauen, Konstruieren, evtl auch Programmieren (Mindstorms) Aufbau einer LEGO Sammlung. Erstmal ein Grundsortiment anschaffen, dann langsam aufstocken. Würde auch sehr gerne Mindstorms mit einbeziehen, allerdings ist das eben doch recht teuer, selbst gebraucht. Kann man die Teile dann evtl auch mit dem PartKeepr erfassen und katalogisieren oder ist der nur für Elektronikteile? 
+|author  = [[Benutzer:zwetschgo|zwetschgo]]
+|megusta = 
+|added   = 20.05.2012
+|touched = 20.05.2012
+}}
+{{IncubatorProjectIdea
+|title   = Handarbeitselipse
+|descr   = (Mehr oder weniger) Regelmäßige Treffen zum Sticken, Stricken, Häkeln, Nähen, Basteln. Eine Stickmaschine haben wir schon, wäre es gut auch eine Nähmaschine zu haben? Dazu einen Grundstock an Werkzeug (Strick- und Häkelnadeln, Scheren, etc) und Materialien (Garn, Wolle, aber auch Papier, Pappen, Klebstoffe) Dazu dann (regelmäßig) wechselnde Dekorationen (Themes) für den Raum zusammen entwickeln und umsetzen.
+
+''Update 10.08.2012:'' Mitmachen bei  [http://www.supercraftlab.de Supercraftlab]. Kits im Abo beziehen und dann basteln und handarbeiten.
+|author  = [[Benutzer:zwetschgo|zwetschgo]]
+|megusta = 
+|added   = 20.05.2012
+|touched = 20.05.2012
+}}
+{{IncubatorProjectIdea
+|title   = GSM Security
+|descr   = Ich habe mit viel Interesse CRE179 gehört, sowie die CCC-Talks zu OsmocomBB usw. gesehen. In anfänglicher Euphorie habe ich mir direkt ein Motorola C123, das Maintarget von Osmocom, in der Bucht geschossen. Das Handy liegt in meiner Kiste und ich habe leider keine Zeit mich darum zu kümmern. Vielleicht mag jemand die 2TB Rainbow Tables laden (kann ich auch übernehmen, ich habe eine schnelle Leitung zu Hause aber keine HDD), die Software bauen, Spaß haben und einen Vortrag halten. Hier noch ein paar Links zum Thema:
+* [http://cre.fm/cre179 CRE179 GSM Security]
+* [http://cre.fm/cre120 CRE120 OpenBSC]
+* [http://cre.fm/cre056 CRE056 GSM Hacking]
+* [http://bb.osmocom.org/trac/ OsmocomBB]
+* [http://media.ccc.de/browse/congress/2010/27c3-3952-en-running_your_own_gsm_stack_on_a_phone_osmocombb.html Talk: Running your own GSM stack on a phone]
+* [http://media.ccc.de/browse/conferences/camp2007/cccamp07-en-2015-The_A5_Cracking_Project.html Talk: The A5 Cracking Project]
+|author  = [[Benutzer:thinkJD|thinkJD]]
+|megusta = [[Benutzer:echox|echox]]
+|added   = 22.05.2012
+|touched = 24.05.2012
+}}
+{{IncubatorProjectIdea
+|title   = Der Ragefacestempel
+|descr   = Einen (günstigen) Druckkopf, gerne Nadeldrucker, mit ATMega versehen. An einem Drehrad kann man die Nummer von ragefac.es auswählen und das entsprechende Bildchen (oder die URL) auf beliebige Oberflächen StempelDrucken.
+|author  = [[Benutzer:thinkJD|thinkJD]]
+|megusta = 
+|added   = 25.05.2012
+|touched = 25.05.2012
+}}
+{{IncubatorProjectIdea
+|title   = Stromverbrauchskosten pro Tag
+|descr   = Der Revspace hat die Stromverbrauchskosten pro Tag in Ihrem Diagramm. Find ich cool. Siehe [https://revspace.nl/stats/ hier]
+|author  = [[Benutzer:Else|else]]
+|megusta = [[Benutzer:Tiefpunkt|tiefpunkt]]
+|added   = 16.06.2012
+|touched = 17.06.2012
+}}
+{{IncubatorProjectIdea
+|title   = JouleThief Bike Light
+|descr   = 1. JouleThief + LEDs = Fahrradlampe, die auf Restbatterien läuft, 2. ???, 3. Profit!
+|author  = [[Benutzer:Tiefpunkt|tiefpunkt]]
+|megusta = 
+|added   = 21.06.2012
+|touched = 21.06.2012
+}}
+{{IncubatorProjectIdea
+|title   = RZL Infoscreen
+|descr   = Bildschirm im RZL mit interessanten Informationen, wie Bahnfahrplan, Stromverbrauch, etc.
+|author  = [[Benutzer:Tiefpunkt|tiefpunkt]]
+|megusta = 
+|added   = 21.06.2012
+|touched = 21.06.2012
+}}
+{{IncubatorProjectIdea
+|title   = MAME Cabinet
+|descr   = Eine Spielhöllenconsole im Selbstbau.
+|author  = [[Benutzer:Felicitus|Felictus]]
+|megusta = [[Benutzer:Felicitus|Felictus]]
+|added   = 22.06.2012
+|touched = 22.06.2012
+}}
+{{IncubatorProjectIdea
+|title   = [[NerdsSatellite|Vollautonomes System/ähnlich Satellit]]
+|descr   = System, welches sich bei mitteleuropäischen Wetterbedingungen ein ganzes Jahr eigenständig mit Energie(reserven) versorgt und dabei gleichzeitig zu mindest bei ausreichenden Energiereserven via UMTS im Internet erreichbar ist oder sich zB per twitter regelmäßig meldet. Praktische Anwendung: zB moderner Geo-Cache.
+|author  = [[Benutzer:Rabe|Raphael Eiselstein]] <sup><small>[[Benutzer Diskussion:Rabe|talk]]</small></sup>
+|megusta = <!-- --~~~~ -->
+|added   = 27.6.2012
+|touched = 27.6.2012
+}}
 |-
 |}
 
 == Mitstreiter gesucht ==
 Wer sich an Projekten beteiligen möchte, hier eine Liste.
 
-{| class=wikitable
-! Titel
-! Beschreibung
-! Author
-! Kommentare
-! Interessierte/Mitstreiter
-|-
-| [[Benutzer:Felicitus/Modular-Synth|RaumZeitLabor Modularsynth]]
-| Ein modularer Synthesizer
-| [[Benutzer:Felicitus|Felicitus]]
-| Wer auch Module bauen möchte oder einfach etwas über Synthesizer lernen möchte, spricht Felicitus an. Er baut den Modularsynth und freut sich über Hilfe oder über Interessenten.
-|[[Benutzer:Mxf|mxf]]
+{| class=wikitable width="100%"
+|- style="font-style: italic;"
+! style="width: 4em;" | Titel
+! &nbsp;<!-- weil Firefox colspan=2 für Titel ignorieren würde -->
+! style="width: 10em;" | Autor
+! style="width: 7ex;" | Eingetragen
+! style="width: 7ex;" | Letzte<br />Aktivität
+|- style="font-style: italic;"
+| &nbsp;
+| colspan=4 | Beschreibung
+{{IncubatorProjectIdea
+|title   = [[Benutzer:Felicitus/Modular-Synth|RaumZeitLabor Modularsynth]]
+|descr   = Ein modularer Synthesizer
+|author  = [[Benutzer:Felicitus|Felicitus]]
+|megusta = [[Benutzer:Mxf|mxf]]
+|added   = ?
+|touched = ?
+|comment = Wer auch Module bauen möchte oder einfach etwas über Synthesizer lernen möchte, spricht Felicitus an. Er baut den Modularsynth und freut sich über Hilfe oder über Interessenten.
+}}
 |}
 
 
