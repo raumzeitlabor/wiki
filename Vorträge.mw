@@ -30,11 +30,6 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein.
 |Eine Distribution und Desktop Environment auswählen, runterladen, brennen/USB-Stick erstellen, installieren, einrichten
 |
 |-
-|Git
-|[[Benutzer:TheTinyToon|TheTinyToon]]
-|Dezentrale Versionsverwaltung (DVCS) mit Git: Einführung, Workflows, Best Practices
-|[[Benutzer:nazco|nazco]], [[Benutzer:Else|simon]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:hax404|hax404]], [[Benutzer:walery|walery]], [[Benutzer:Felicitus|Felicitus]], [[Benutzer:fabfrank|fabfrank]], [[Benutzer:PhyberApex|PhyberApex]], [[Benutzer:nicoduck|nicoduck]]
-|-
 |Impress.JS
 |[[Benutzer:Muzy|Muzy]]
 |bewegte Cross-Plattform Präsentationen mit impress.js
@@ -283,6 +278,13 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein.
 | Eine kurze Einführung in OpenSCAD
 | [[Medium:Vortrag_OpenSCAD.pdf|Download]]
 | ??
+|-
+| 14.08.2012
+| Git
+| [[Benutzer:TheTinyToon|TheTinyToon]]
+| Dezentrale Versionsverwaltung (DVCS) mit Git: Einführung, Workflows, Tools
+| [[Medium:Vortrag_GIT.pdf|Download]]
+| follows
 |-
 |}
 
