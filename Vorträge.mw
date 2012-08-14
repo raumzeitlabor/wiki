@@ -2,116 +2,181 @@ Eine Übersicht von angedachten und bereits gehaltenen Vorträgen findet ihr in 
 
 Um einen Vortrag zu dokumentieren legt bitte eine Unterseite (z.B. [[Vorträge/Barcodes]]) an.
 
-Für Wünsche zu Workshops & Vorträgen gibt es die entsprechende Seite: [[Wünsch dir was]] 
+== Gewünscht ==
 
-==Kommend==
+Interessent sucht Referent zum allgemeinen Wissensaustausch - Wünsche nach Vorträgen kommen hier rein.
+
 {| class="wikitable"  valign = "top"
-! Datum
+! Geplant seit
 ! Titel
-! Referent
 ! Beschreibung
-! Abstract
+! Interessenten
 |-
+|
+| Objective-C
+| Objective-C \ Cocoa für Programmierer
+| [[Benutzer:thinkJD|thinkJD]], [[Benutzer:walery|walery]]
+|-
+| 
+| Schweißen
+| Schweißen für Anfänger - siehe auch http://hackerspaces.org/wiki/Welding_tools
+| [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:hax404|hax404]]
+|-
+|
+| tinc
+| Einrichtung eines dezentralen VPN mittels tinc (evl. auch andere Software)
+| [[Benutzer: nazco|nazco]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:hax404|hax404]], [[Benutzer:walery|walery]]
+|-
+|
+| µController Programmierung
+| Programmierung von µControllern mit C
+| [[Benutzer: nazco|nazco]]
+|-
+|
+| DN42
+| Einführung in DN42
+| [[Benutzer:Doozer|Doozer]], [[Benutzer:nazco|nazco]], [[Benutzer:hax404|hax404]]
 |}
 
-==Geplant==
-Diese Vorträge werden grade geplant, haben aber noch kein spezielles Datum oder feststehendes Konzept.
 
-Wer einen Vortrag halten möchte trägt sich hier bitte ein.
+== In Planung und Angebote ==
+
+Ein Referent wurde zu einem Themenwunsch gefunden oder es werden Interessenten für ein Thema gesucht.
+
+Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend Interessenten da sind, wird ein Datum gesetzt, wann der Vortrag gehalten wird.
 
 {| class="wikitable"  valign = "top"
-!Geplant seid
+!Geplant seit
+!Datum
 !Titel
 !Referent
 !Beschreibung
 !Interessenten
 |-
 | 31.10.2011
+| tba
 |Auf Linux umsteigen
 |[[Benutzer:Monika|Monika]]
 |Eine Distribution und Desktop Environment auswählen, runterladen, brennen/USB-Stick erstellen, installieren, einrichten
 |
 |-
 | 17.01.2012
+| tba
 |Impress.JS
 |[[Benutzer:Muzy|Muzy]]
 |bewegte Cross-Plattform Präsentationen mit impress.js
 |[[Benutzer:TheTinyToon|TheTinyToon]], [[Benutzer:Rami|rami]]
 |-
 | 24.10.2011
+| tba
 |Network Security I
 |[[Benutzer:Docsteel|Docsteel]]
 |Grundlagen Network Security, IDS/IPS, DPI, Audit
 |[[Benutzer:bluegene|simon]], [[Benutzer:Blabber|blabber]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Nessi|nessi]], [[Benutzer:Dj2mc|dj2mc]], [[Benutzer:Hax404|hax404]], [[Benutzer:nazco|nazco]],[[Benutzer:Felicitus|Felicitus]], [[Benutzer:Rami|rami]], [[Benutzer:fabfrank|fabfrank]], [[Benutzer:PhyberApex|PhyberApex]]
 |-
 | 31.10.2011
+|tba
 |Superhelden
 |[[Benutzer:Nemo|Nemo]]
 |Na Na Na Na Na Na BATMAN!.
 |[[Benutzer:Silsha|silsha]], Ajna, [[Benutzer:bluegene|simon]], Monika, [[Benutzer:zwetschgo|zwetschgo]], [[Benutzer:Blabber|blabber]], [[Benutzer:hax404|hax404]]
 |-
 | 15.03.2012
+|tba
 |Luzide Träume
 |[[Benutzer:Silsha|silsha]]
 |Wie man Träume hackt.
 |
 |-
 | 31.10.2011
+|tba
 |Xelix: Kernelentwicklung
 |[[Benutzer:lutoma|Lutoma]]
 |Wie man seinen eigenen Kernel entwickelt und auch noch Spaß dabei hat.
 |[[Benutzer:bluegene|simon]], [[Benutzer:Blabber|blabber]], [[Benutzer:nazco|nazco]], [[Benutzer:walery|walery]], ([[Benutzer:Rami|rami]])
 |-
 | 16.01.2012
+|tba
 |Character Animation with Blender
 |[https://twitter.com/fysxdotorg @fysxdotorg]
 | n/a
 |[[Benutzer:bluegene|simon]], [[Benutzer:Rami|rami]] +1, [[Benutzer:Blabber|blabber]], [[Benutzer:nazco|nazco]], [[Benutzer:PhyberApex|PhyberApex]]
 |-
 | 30.01.2012
+|tba
 |Einführung in Java
 |Monika
 |Java ist eine ziemlich schöne Programmiersprache, gerade auch für Leute, die noch nicht programmieren können. 
 |[[Benutzer:zwetschgo|zwetschgo]]
 |-
 | 30.01.2012
+|tba
 |Einführung in HTML und CSS
 |Monika
 |Hypertext Markup Language und Cascading Style Sheets, das Zeug aus dem das WWW besteht. 
 |[[Benutzer:zwetschgo|zwetschgo]]
 |-
 | 31.01.2012
+|tba
 |PHP: Serious Business
 |Felicitus
 |Warum PHP nicht mehr die Fricklersprache von gestern ist - ernsthafte Softwareentwicklung mit PHP, Doctrine2 und Symfony2
 |([[Benutzer:Rami|rami]]), [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Else|else]]
 |-
 | 24.02.2012
+|tba
 |SPDY
 |Else
 |Vorstellung des SPDY Protokolls
 | [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Blabber|blabber]]
 |-
 | 24.02.2012
+|tba
 |IEEE 802.11
 |Else
 |Wie WLAN grundsätzlich funktioniert. 
 | [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Blabber|blabber]]
 |-
 | 23.07.2012
+|tba
 |ZNC
 |[[Benutzer:nicoduck|nicoduck]]
 |Wie der ZNC IRC Bouncer funktioniert und wieso er toll ist
 |
 |-
 | 23.07.2012
+|tba
 |IEEE 802.1X & WPA Enterprise
 |[[Benutzer:nicoduck|nicoduck]]
 |Wie man LAN und WLAN für größere Installationen absichert
 |
+|-
+|
+| tba
+| Ragefaces für Fortgeschrittene
+| [[Benutzer:simon|simon]]
+| 
+| [[Benutzer:Nemo|Nemo]], [[Benutzer:hax404|hax404]], [[Benutzer:walery|walery]]
+|-
+|
+|
+| DJ-Workshop
+| [[Benutzer:TabascoEye|TabascoEye]]
+| 
+| [[Benutzer:DreamFlasher|DreamFlasher]]
+|-
+|
+|
+| Löten
+| [[Benutzer:TabascoEye|TabascoEye]]
+| Wie funktioniert das mit dem Lötzinn und Lötkolben
+| [[Benutzer:DreamFlasher|DreamFlasher]], [[Benutzer:hax404|hax404]]
 |}
 
 ==Vergangen==
+
+Diese Vorträge sind schon durch - Aufzeichnungen und Folien bitte verlinken.
+
 {| class="wikitable"  valign = "top"
 !Datum
 !Titel
