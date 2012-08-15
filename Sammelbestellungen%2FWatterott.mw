@@ -9,7 +9,8 @@
 === Felicitus ===
 
 * 1x ATMEGA328P-PU DIP28
-* 4x Schrittmotor NEMA 17, 1200mA (ArtNr 1200)
+* 5x Schrittmotor NEMA 17, 1200mA (ArtNr 1200)
+
 === tiefpunkt ===
 * 1x Arduino Uno Rev 3 (A000066)
 * 1x Kohlenmonoxid Sensor MQ-7 (SEN-09403)
