@@ -1,3 +1,8 @@
+{{ProjektInfoBox
+| description=Steckdosen in unserem Konferenztisch
+| status = beta
+| author=[[Benutzer:Hax404|hax404]], [[Benutzer:ThinkJD|thinkJD]], [[Benutzer:Tiefpunkt|tiefpunkt]]
+}}
 == Aktueller Planungsstatus== 
 
 Pro Tisch 2 3er-Dosen (insgesamt 36 Steckdosen), so:
@@ -42,5 +47,7 @@ Jeweils 2 Tische werden über eine Phase versorgt, unter den Tischen werden die 
 
 Die Isolationswiderstände beider Tische sind gemessen und OK. Viel Spaß bei der Stromentnahme!
 
-= Gedanken von hax404 =
-[[Datei:Tischsteckdosenentwurf-vorne.png]]
+== Gedanken von hax404 ==
+[[Datei:Tischsteckdosenentwurf-vorne.png|300px]]
+
+[[Kategorie:Projekt]]
