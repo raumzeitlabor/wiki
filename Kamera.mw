@@ -36,6 +36,8 @@ Die Videos der Kamera haben eine Framerate von 29.97 fps, aber eine Field-Anzahl
 
  ffmpeg -threads 0 -i IMAG0001.MP4 -target ntsc-dvd -sameq -s hd1080 IMAG0001_recoded.mpg
 
+Zur Aufbereitung der Audiospur empfliehlt sich die Datei durch [https://auphonic.com/ Auphonic] laufen zu lassen. Im Zweifelsfall schadet es dabei nicht, alle Filter einzuschalten.
+
 == Nötige Dateien ==
 
 * [[Datei:RZL_Vorlage-2012-07-22.kdenlive.bz2]] (Projekt-Datei für kdenlive)
