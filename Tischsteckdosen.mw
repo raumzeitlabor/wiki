@@ -38,7 +38,9 @@ Jeweils 2 Tische werden über eine Phase versorgt, unter den Tischen werden die 
 + Kabel + Stecker ([http://www.pollin.de/shop/t/ODE5OTA5OTk-/Haustechnik/Installationsmaterial/Schalter_Steckdosen/CEE_Steckdosen_Stecker_Kupplungen.html], ...) + Kleinkrams ([http://www.pollin.de/shop/dt/NTcyOTQ0OTk-/Haustechnik/Installationsmaterial/Zubehoer/Einfach_Schelle_10_17_mm_25_Stueck.html], ...) + Versandkosten
 
 == Was ist bereits passiert? ==
-* Zwei Tische sind bereits vollständig elektrifiziert. Dazu wurden Kabelkanäle sowie je eine AP-Steckdose und eine AP-Abzweigdose installiert. Die Zuleitung erfolgt über eine Silikonleitung mit Schukostecker. Von der Abzweigdose geht es mit NYM-3x1,5mm² weiter zu den Tischsteckdosen. Allerdings wurde noch kein Isolationswiderstand / Schleifenimpedanz gemessen. Das wird evtl. am Dienstag (31.07.2012) erledigt und hier dokumentiert. Bis dahin sollten die Steckdosen noch nicht verwendet werden.
+* Zwei Tische sind bereits vollständig elektrifiziert. Dazu wurden Kabelkanäle sowie je eine AP-Steckdose und eine AP-Abzweigdose installiert. Die Zuleitung erfolgt über eine Silikonleitung mit Schukostecker. Von der Abzweigdose geht es mit NYM-3x1,5mm² weiter zu den Tischsteckdosen. 
+
+Die Isolationswiderstände beider Tische sind gemessen und OK. Viel Spaß bei der Stromentnahme!
 
 = Gedanken von hax404 =
 [[Datei:Tischsteckdosenentwurf-vorne.png]]
