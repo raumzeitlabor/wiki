@@ -1,0 +1,18 @@
+Der Git-Praxisworkshop findet am 19. Januar 2012 nach der Mitgliederversammlung statt.
+
+== Vorbereitungen ==
+
+Wer an dem Workshop teilnehmen möchte, möge bitte Git im Vorfeld installieren - d.h. jeder sollte ein Git-Repository über den Befehl ''git init'' (oder alternativ mit einer GUI) durchführen können.
+
+== Themen ==
+
+Wir starten mit Solo-Projekten, gehen dann über auf die Zusammenarbeit mit Patchsets und schauen uns anschließend den dezentralen Workflow mit public repositories an. Je nach Bedarf und Zeit können wir uns dann auch noch mit Github oder Spezialthemen wie hooks befassen.
+
+== FAQ ==
+
+''[[Benutzer:hax404|hax404]]: Ich möchte die Konfigurationsdateien eines Servers mit Git verwalten. soll ich mir da ein extra verzeichnis machen und mit Symlinks arbeiten?''
+* Entweder so, oder (falls Du die Dateien gleich auch in den richtigen Ordnern haben möchtest) Du legst Dir den Working Tree auf das root-Verzeichnis und addest die Konfigurationsdateien. Dadurch ist auch das Wiederherstellen einfacher. --[[Benutzer:TheTinyToon|TTT]]
+
+== Annotations ==
+
+* [[Benutzer:Nazco|Nazco]] - Eine weitere gute Ressource für Git ist die [http://gitref.org/ Git Reference] von den Git-Machern
