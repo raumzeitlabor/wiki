@@ -53,7 +53,7 @@ Hier eine Sammlung von Ideen. Fügt eure einfach hinzu, vielleicht finden sich j
 }}
 {{IncubatorProjectIdea
 |title   = [[USB Switch]]
-|descr   = Ein Device, um USB-powered Geräte wie LEDs, Ventilatoren, etc. an- und ausschalten zu können, ohne sie abstöpseln zu müssen.
+|descr   = Ein Device, um USB-powered Geräte wie LEDs, Ventilatoren, etc. an- und ausschalten zu können, nicht nur [http://www.getdigital.de/products/ultimatehub ohne abstöpseln], sondern per Software.
 |author  = Hannes
 |megusta = [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Inte|Inte]]
 |added   = 08.05.2012
