@@ -8,6 +8,8 @@ Wer an dem Workshop teilnehmen möchte, möge bitte Git im Vorfeld installieren 
 
 Wir starten mit Solo-Projekten, gehen dann über auf die Zusammenarbeit mit Patchsets und schauen uns anschließend den dezentralen Workflow mit public repositories an. Je nach Bedarf und Zeit können wir uns dann auch noch mit Github oder Spezialthemen wie hooks befassen.
 
+Während dem Workshop kommunizieren wir über http://piratenpad.de/p/rzlgit
+
 == FAQ ==
 
 ''[[Benutzer:hax404|hax404]]: Ich möchte die Konfigurationsdateien eines Servers mit Git verwalten. soll ich mir da ein extra verzeichnis machen und mit Symlinks arbeiten?''
