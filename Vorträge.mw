@@ -171,13 +171,6 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 | Wie funktioniert das mit dem Lötzinn und Lötkolben
 | [[Benutzer:DreamFlasher|DreamFlasher]], [[Benutzer:hax404|hax404]]
 |-
-| 15.08.2012
-| [https://raumzeitlabor.de/civicrm/event/info?reset=1&id=454 19.08.2012]
-| [[Vorträge/Git_Praxisworkshop|Git Praxisworkshop]]
-| [[Benutzer:TheTinyToon|Lars Kumbier]]
-| Nach dem GIT-Vortrag jetzt der Praxis-Workshop
-| [[Benutzer:Hax404|hax404]]
-|-
 | 16.08.2012
 | 
 | Kryptographie (Vortragsreihe)
@@ -392,6 +385,13 @@ Diese Vorträge sind schon durch - Aufzeichnungen und Folien bitte verlinken.
 | Dezentrale Versionsverwaltung (DVCS) mit Git: Einführung, Workflows, Tools
 | [[Medium:Vortrag_GIT.pdf|Download]]
 | follows
+|-
+| 19.08.2012
+| Git Workshop
+| Lars Kumbier
+| Wdh. der Grundlagen, Going Solo, Branching, Patching, Remote Repositories
+| [[Vorträge/Git_Praxisworkshop|Wiki-Page]]
+| n/a
 |-
 |}
 
