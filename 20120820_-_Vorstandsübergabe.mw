@@ -1,0 +1,24 @@
+== ToDo ==
+=== Vereinsregister ===
+*Eintragung ins Vereinsregister bei dem städtischen Notar (http://www.notariat-mannheim.de/). Da alle Vorstandsmitglieder alleinvertretungsberechtigt sind, genügt es, wenn ein Vorstandsmitglied die Änderungen vornimmt. Dazu sind folgende Unterlagen nötig: 
+** Bescheinigung über die (vorläufige) Gemeinnützigkeit
+** Das unterschriebene Protokoll der MV
+** Volle Daten des neuen Vorstands (http://www.jum.baden-wuerttemberg.de/servlet/PB/show/1222674/RS%20127.pdf)
+*** Adresse
+*** Geburtsdatum
+*** Name / Vorname
+*Nach Satzungsänderung auf Homepage ändern.
+
+=== sonstige Administrativa ===
+*Verteilerliste des Vorstands anpassen: http://lists.raumzeitlabor.de/mailman/listinfo/vorstand
+* Wiki anpassen: https://raumzeitlabor.de/wiki/Verein#Vorstand
+* Impressum auf Webseite anpassen (Drupal-Admin): http://raumzeitlabor.de/impressum
+* Vorstand Administrationsrechte auf der Webseite geben: https://raumzeitlabor.de/admin/user/user
+* Mailing templates anpassen (Eintritt, Austritt, Schulden, Reduzierter Mitgliedsbeitrag)
+* Rechte in der BenutzerDB vergeben (sECuRE): https://blackbox.raumzeitlabor.de/BenutzerDB/login
+
+== Tagesgeschäft ==
+* Die Briefkästen (Boveristraße & im RZL) min. einmal wöchentlich leeren und die enthaltene Post lesen und bearbeiten (Werbung darf entsorgt werden).
+* Den Rest merkt ihr schon.
+
+[[Kategorie:Protokoll]]
