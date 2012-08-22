@@ -18,45 +18,17 @@ Wir haben eine Ricoo T 338 Textilpresse mit der man Textilien noch cooler machen
 
 == Vorhandene Folien ==
 
+=== Flexfolie (Matt) ===
+
 {|
 |'''Bild'''
 |'''Farbe'''
 |'''Folienart / Nummer'''
 |'''Restmenge'''
 |-
-| [[Datei:PoliTape Poli-Flock 501.png]]
-| Weiß
-| Flockfolie
-| 
-|-
-|
-| Gold
-| Poly-Flex Nylon 4820
-| 
-|-
-|
-| Glittergold
-| Poly-Flex Image 439
-| 
-|-
 | [[Datei:PoliTape Poli-Flex 412.png]]
 | Grau
 | Poly-Flex Premium 412
-| 
-|-
-| [[Datei:PoliTape Poli-Flock 508.png]]
-| Dunkelrot
-| Flockfolie
-| 
-|-
-| [[Datei:PoliTape Poli-Flock 510.png]]
-| Gelb
-| Flockfolie
-| 
-|-
-|
-| Starflex Pink
-| Poly-Flex Image 497
 | 
 |-
 | [[Datei:PoliTape_Poli-Flex_442.png]]
@@ -64,34 +36,9 @@ Wir haben eine Ricoo T 338 Textilpresse mit der man Textilien noch cooler machen
 | Poly-Flex Premium 442
 | 
 |-
-| [[Datei:PoliTape Poli-Flock 506.png]]
-| Dunkelblau
-| Flockfolie
-| 
-|-
-|
-| Gold (brilliant)
-| Poly-Flex Image 421
-| 
-|-
 | [[Datei:PoliTape Poli-Flex 415.png]]
 | Orange
 | Poly-Flex Premium 415
-| 
-|-
-|
-| Silber (brilliant)
-| Poly-Flex Image 431
-| 
-|-
-|
-| Weiß
-| Poly-Flex Nylon 4801
-| 
-|-
-|
-| Glittergrün
-| Poly-Flex Image 437
 | 
 |-
 | [[Datei:PoliTape_Poli-Flex_474.png]]
@@ -129,9 +76,94 @@ Wir haben eine Ricoo T 338 Textilpresse mit der man Textilien noch cooler machen
 | Poly-Flex Premium 406
 | 
 |-
+|}
+
+=== Flexfolie (glänzend) ===
+
+{|
+|'''Bild'''
+|'''Farbe'''
+|'''Folienart / Nummer'''
+|'''Restmenge'''
+|-
 |
 | Starflex Rainbow
 | Poly-Flex Image 496
+| 
+|-
+|
+| Gold (brilliant)
+| Poly-Flex Image 421
+| 
+|-
+|
+| Silber (brilliant)
+| Poly-Flex Image 431
+| 
+|-
+|
+| Glittergrün
+| Poly-Flex Image 437
+| 
+|-
+|
+| Glittergold
+| Poly-Flex Image 439
+| 
+|-
+|
+| Starflex Pink
+| Poly-Flex Image 497
+| 
+|-
+|}
+
+=== Flockfolie ===
+
+{|
+|'''Bild'''
+|'''Farbe'''
+|'''Folienart / Nummer'''
+|'''Restmenge'''
+|-
+| [[Datei:PoliTape Poli-Flock 501.png]]
+| Weiß
+| Flockfolie
+| 
+|-
+| [[Datei:PoliTape Poli-Flock 508.png]]
+| Dunkelrot
+| Flockfolie
+| 
+|-
+| [[Datei:PoliTape Poli-Flock 510.png]]
+| Gelb
+| Flockfolie
+| 
+|-
+| [[Datei:PoliTape Poli-Flock 506.png]]
+| Dunkelblau
+| Flockfolie
+| 
+|-
+|}
+
+=== Spezialfolien ===
+
+{|
+|'''Bild'''
+|'''Farbe'''
+|'''Folienart / Nummer'''
+|'''Restmenge'''
+|-
+|
+| Gold
+| Poly-Flex Nylon 4820
+| 
+|-
+|
+| Weiß
+| Poly-Flex Nylon 4801
 | 
 |-
 |}
