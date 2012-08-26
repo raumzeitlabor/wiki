@@ -13,27 +13,19 @@
 }}
 [[Datei:2011-10-30_02.24.01.png|right|thumb|270px|Vorsicht: Auch auf diesem Server gibt es Spieler mit ausgeprägtem Hang zum Exhibitionismus.]]
 
-Das RaumZeitLabor hat einen Minecraftserver, der unter minecraft.raumzeitlabor.de (176.9.249.86) läuft. Unter http://minecraft.raumzeitlabor.de/ findet sich ein Google-Maps-ähnliches Interface. '''Der Server wurde am 27.10.2011 resettet und ist invite-only.'''
+Das RaumZeitLabor hat einen Minecraftserver, der unter minecraft.raumzeitlabor.de läuft. Unter http://minecraft.raumzeitlabor.de/ findet sich ein Google-Maps-ähnliches Interface. '''Der Server wurde am 27.10.2011 & am 26.08.2012 resettet und ist invite-only.'''
 
 Der Schwierigkeitsgrad ist auf ''[http://www.minecraftwiki.net/wiki/Difficulty Easy]'' eingestellt.
 
-===Kontaktmöglichkeiten===
-* IRC: irc.libertirc.net / Channel #minecraft
+== Kontaktmöglichkeiten ==
+* IRC: irc.hackint.eu / Channel #rzl-minecraft
 * Mailingliste: [http://lists.raumzeitlabor.de/mailman/listinfo/minecraft minecraft@raumzeitlabor.de]
 
-===Koordinaten===
-* unsere Butze: {{Minecraft-Koordinaten|213|65|275}}
-* Schafe (Nah & Gefangen): {{Minecraft-Koordinaten|567|69|167}} (?)
-* Schafe, nich soo weit weg: {{Minecraft-Koordinaten|774|68|804}}
-* Schafe (Weit weg): {{Minecraft-Koordinaten|45|66|-1072}}
-* NPC Village: {{Minecraft-Koordinaten|67|69|-249}} (Von p997t und Lutoma weitestgehend abgebaut)
-* Kühe: {{Minecraft-Koordinaten|236|66|422}}, {{Minecraft-Koordinaten|58|66|553}}
-* Ravine: {{Minecraft-Koordinaten|250|64|500}}
-** Es gibt einen von Lutoma erbauten Weg nach unten, der bei {{Minecraft-Koordinaten|252|64|509}} anfängt.
-* verlassene Mine: {{Minecraft-Koordinaten|324|27|297}}
-* Zombie-Dungeon: {{Minecraft-Koordinaten|309|46|274}} (geplündert)
+<!--
+== Koordinaten ==
+* unsere Butze: {{Minecraft-Koordinaten|213|65|275}}-->
 
-===Whitelist===
+== Whitelist ==
 Wer für den Server freigeschaltet werden möchte, tut dies auf unserer Mailingliste kund (siehe oben).
 {| class="wikitable"
 |-----
@@ -92,10 +84,9 @@ Wer für den Server freigeschaltet werden möchte, tut dies auf unserer Mailingl
 | erbel || Freund von Sardoka84
 |-
 | Blafoo42 || unbekannt
+|-
+| simonszu || Twitter-Mensch den Lutoma kennt
 |}
 
-===Technisches===
-Der Server ist eine virtuelle Maschine mit 4 Kernen und 2 GB RAM, von denen der Minecraft-Server ca. 1GB tatsächlich normalerweise nutzt. <s>Wir benutzen absichtlich kein Craftbukkit und daher auch keinerlei Plugins, weil das vorher zu epischen Bugs geführt hat.</s> Distri auf dem Server ist Arch Linux.
-
-===Known Bugs===
-Der Server scheint zu crashen, sobald das Rendern der Google-Maps-Karte anfängt. Der entsprechende Cronjob wurde als dirty fix erstmal von stündlich auf sechsstündlich gesetzt. Lutoma vermutet ein Speicherproblem. Simon sekundiert und weist darauf hin, dass momentan kein Swap eingerichtet ist. Sollte man mal™ tun.
+== Technisches ==
+Der Server ist eine virtuelle Maschine mit 4 Kernen und 2 GB RAM, von denen der Minecraft-Server ca. 1GB tatsächlich normalerweise nutzt. Distri auf dem Server ist Arch Linux.
