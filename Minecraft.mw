@@ -21,79 +21,16 @@ Der Schwierigkeitsgrad ist auf ''[http://www.minecraftwiki.net/wiki/Difficulty E
 * IRC: irc.hackint.eu / Channel #rzl-minecraft
 * Mailingliste: [http://lists.raumzeitlabor.de/mailman/listinfo/minecraft minecraft@raumzeitlabor.de]
 
-<!--
 == Koordinaten ==
-* unsere Butze: {{Minecraft-Koordinaten|213|65|275}}-->
+* Spawnpoint: {{Minecraft-Koordinaten|176|69|252}}
 
 == Installierte Plugins ==
-* bPermissions: Berechtigungsverwaltung
 * CreeperHeal: Stellt von Creepern & TNT zerstörte Blöcke langsam automatisch wieder her
-* AntiGuest: Sorgt dafür, dass Gäste keine Blöcke bearbeiten können, bis sie manuell freigeschaltet wurden.
+* WorldEdit: Dependency von WorldGuard
+* WorldGuard: Gibt uns die Möglichkeit, einzelne Regionen zu schützen
 * TelePlusPlus: Teleportations-Kram
 * dynmap: Liefert die Daten an die Online-Map
-
-== Whitelist ==
-Wer für den Server freigeschaltet werden möchte, tut dies auf unserer Mailingliste kund (siehe oben).
-{| class="wikitable"
-|-----
-! Minecraft-Nick || Name || Op?
-|-----
-| lutoma || [[Benutzer:Lutoma|Lutoma]] || X
-|-----
-| p997t || [[Benutzer:Else|Else]] || X
-|-----
-| Scy83 || [[Benutzer:Scytale|Scytale]] ||
-|-----
-| Nuurtuka || echo_mirage || X
-|-----
-| talynrae || [[Benutzer:Talynrae|talynrae]] ||
-|-
-| tuxwurf || [http://twitter.com/tuxwurf tuxwurf] ||
-|-
-| FoldingChair || Niklas ||
-|-
-| raphaelmi || [[Benutzer:rami|rami]] ||
-|-
-| silsha || [[Benutzer:silsha|silsha]] ||
-|-
-| TabascoEye || [[Benutzer:TabascoEye|TabascoEye]] ||
-|-
-| viirus42 || Freund von [[Benutzer:lutoma|lutoma]] ||
-|-
-| tuxwurf || Freund von [[Benutzer:lutoma|lutoma]] ||
-|-
-| Sardoka84 || [[Benutzer:zwetschgo|zwetschgo]]s Bruder||
-|-
-| smuzy || [[Benutzer:muzy|muzy]] ||
-|-
-| tiefpunkt || [[Benutzer:Tiefpunkt|tiefpunkt]] ||
-|-
-| Gigadoc2 || [[Benutzer:Gigadoc 2|Gigadoc 2]] ||
-|-
-| nihaopaul || Freund von [[Benutzer:tiefpunkt|tiefpunkt]], Shanghai ||
-|-
-| danielkral ||  ||
-|-
-| Exodragon || $Derp 1 ||
-|-
-| _Stahlbeton_ || $Derp 2 ||
-|-
-| bicefish || $Derp 3 (dakra) ||
-|-
-| siamhamster || Freundin von danielkral ||
-|-
-| ubuciko || Lutoma-Derpson ||
-|-
-| the_nihilant || [[Benutzer:the_nihilant|the_nihilant]] ||
-|-
-| Aragami86 || Freund von Sardoka84
-|-
-| erbel || Freund von Sardoka84
-|-
-| Blafoo42 || unbekannt
-|-
-| simonszu || Twitter-Mensch den Lutoma kennt
-|}
+* Dynmap-Worldguard: Zeigt die Worldguard-Regionen in der Online-Map an
 
 == Technisches ==
 Der Server ist eine virtuelle Maschine mit 4 Kernen und 2 GB RAM, von denen der Minecraft-Server ca. 1GB tatsächlich normalerweise nutzt. Distri auf dem Server ist Arch Linux.
