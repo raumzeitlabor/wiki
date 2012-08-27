@@ -153,6 +153,21 @@ Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerd
 * http://techwall.net/how-precise-is-the-ultimaker
 * http://techwall.net/analyzing-your-first-print
 
+== PLA-Hints ==
+
+{| class="wikitable"
+! Quelle
+! Farbe
+! Hinweise
+|-
+| Ultimaker
+| Magenta
+| Relativ problemlos, Durchmesser 2.89mm
+|-
+|fabber-parts
+|Alle
+| Dicke ist sehr variabel, zwischen 2.9 und 3.1mm ist alles dabei (auf derselben Spule) und weist teilweise einige enge Biegungen auf. What you pay is what you get. Bleibt nicht gut auf dem blauen Tape kleben und zieht merkwürdige Fäden. Der erste Layer ist sehr übel druckbar, ich konnte dieses PLA nur drucken, wenn das Druckbett ziemlich genau 0.15mm Abstand vom Kopf hat. Alles darüber hat den Effekt, daß das Material mitgezogen wird. Eventuell kann man das umgehen, wenn man die Druckgeschwindigkeit des ersten Layers noch weiter verringert oder das beheizte Druckbett verwendet. Ist aber nervig. Dieses PLA '''nicht''' mehr kaufen.
+|}
 == Bilder ==
 
 [[Datei:Ultimaker Mainboard Revision.jpg|thumb|left|Die exakte Mainboard-Revision unseres Ultimakers]]
