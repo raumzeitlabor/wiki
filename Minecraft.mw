@@ -22,14 +22,14 @@ Der Schwierigkeitsgrad ist auf ''[http://www.minecraftwiki.net/wiki/Difficulty E
 * Mailingliste: [http://lists.raumzeitlabor.de/mailman/listinfo/minecraft minecraft@raumzeitlabor.de]
 
 == Koordinaten ==
-* Spawnpoint: {{Minecraft-Koordinaten|176|69|252}}
-* Lutomas Haus: {{Minecraft-Koordinaten|68|65|260}}
+* Spawnpoint: {{Minecraft-Koordinaten|176|69|252}} (/spawn)
+* Lutomas Haus: {{Minecraft-Koordinaten|68|65|260}} (/warp lutoma)
 * Ravine (Zugang über Lutomas Haus): {{Minecraft-Koordinaten|118|65|290}}
 == Installierte Plugins ==
 * CreeperHeal: Stellt von Creepern & TNT zerstörte Blöcke langsam automatisch wieder her
 * WorldEdit: Dependency von WorldGuard
 * WorldGuard: Gibt uns die Möglichkeit, einzelne Regionen zu schützen
-* TelePlusPlus: Teleportations-Kram
+* CommandBook: Teleportations-Kram, /spawn, /warp, /home, Banverwaltung u.a.
 * dynmap: Liefert die Daten an die Online-Map
 * Dynmap-Worldguard: Zeigt die Worldguard-Regionen in der Online-Map an
 
