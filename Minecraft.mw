@@ -38,6 +38,7 @@ Der Schwierigkeitsgrad ist auf ''[http://www.minecraftwiki.net/wiki/Difficulty E
 Um einen Bereich als Region geschützt zu bekommen, bei lutoma melden. Die Regionen sind auch auf der Online-Karte eingezeichnet.
 
 == Installierte Plugins ==
+* PermissionsBukkit: Berechtigungsverwaltung
 * CreeperHeal: Stellt von Creepern & TNT zerstörte Blöcke langsam automatisch wieder her
 * WorldEdit: Dependency von WorldGuard
 * WorldGuard: Gibt uns die Möglichkeit, einzelne Regionen zu schützen
