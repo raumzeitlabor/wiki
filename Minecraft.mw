@@ -47,6 +47,6 @@ Um einen Bereich als Region geschützt zu bekommen, bei lutoma melden. Die Regio
 * Dynmap-Worldguard: Zeigt die Worldguard-Regionen in der Online-Map an
 
 == Technisches ==
-Der Server ist eine virtuelle Maschine auf dem Root-Server von [[Benutzer:lutoma|lutoma]] und [[Benutzer:else|else] bei Hetzner mit 4 Kernen und 2 GB RAM, von denen der Minecraft-Server ca. einen Gigabyte tatsächlich normalerweise nutzt. Der Server ist via IPv4 und IPv6 erreichbar. Als Distribution ist Debian Squeeze im Einsatz. Der Minecraft-Ordner mit allen Einstellungen und der World wird stündlich auf einen Server von Lutoma in Wien gebackupt.
+Der Server ist eine virtuelle Maschine auf dem Root-Server von [[Benutzer:lutoma|lutoma]] und [[Benutzer:else|else]] bei Hetzner mit 4 Kernen und 2 GB RAM, von denen der Minecraft-Server ca. einen Gigabyte tatsächlich normalerweise nutzt. Der Server ist via IPv4 und IPv6 erreichbar. Als Distribution ist Debian Squeeze im Einsatz. Der Minecraft-Ordner mit allen Einstellungen und der World wird stündlich auf einen Server von Lutoma in Wien gebackupt.
 
 [[Kategorie:Projekt]]
