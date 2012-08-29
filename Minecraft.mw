@@ -28,6 +28,7 @@ Der Schwierigkeitsgrad ist auf ''[http://www.minecraftwiki.net/wiki/Difficulty E
 
 == Relevante Befehle ==
 * /ec – Eigener Kontostand
+* /pay <person> <betrag> – Geld an einen anderen Spieler übertragen
 * /time – Aktuelle Ingame-Uhrzeit
 * /whereami – Eigene Position
 * /sethome – Setzt den eigenen Home-Punkt
