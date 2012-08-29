@@ -27,11 +27,12 @@ Der Schwierigkeitsgrad ist auf ''[http://www.minecraftwiki.net/wiki/Difficulty E
 * Ravine (Zugang über Lutomas Haus): {{Minecraft-Koordinaten|118|65|290}}
 
 == Relevante Befehle ==
-* /time – Aktuelle ingame-Uhrzeit
+* /ec – Eigener Kontostand
+* /time – Aktuelle Ingame-Uhrzeit
 * /whereami – Eigene Position
 * /sethome – Setzt den eigenen Home-Punkt
-* /home – Teleportiert einen zum Home-Punkt
-* /spawn – Teleportiert einen zum Spawn
+* /home – Teleportiert zum Home-Punkt
+* /spawn – Teleportiert zum Spawn
 * /region addmember <regionsname> <person> – Gibt einer Person Zugriff auf eine Region (Geht nur bei eigenen Regionen)
 * /region removemember <regionsname> <person> – Nimmt einer Person Zugriff wieder weg
 
