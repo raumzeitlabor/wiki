@@ -36,11 +36,10 @@ Der Schwierigkeitsgrad ist auf ''[http://www.minecraftwiki.net/wiki/Difficulty E
 * /buy <gegenstandsname> <menge> <optional: Maximalpreis>e – Einen oder mehrere Gegenstände vom Markt kaufen
 * /sethome – Setzt den eigenen Home-Punkt
 * /home – Teleportiert zum Home-Punkt
-* /spawn – Teleportiert zum Spawn
 * /region addmember <regionsname> <person> – Gibt einer Person Zugriff auf eine Region (Geht nur bei eigenen Regionen)
 * /region removemember <regionsname> <person> – Nimmt einer Person Zugriff wieder weg
 
-Um einen Bereich als Region geschützt zu bekommen, bei lutoma melden. Die Regionen sind auch auf der Online-Karte eingezeichnet.
+Um einen Bereich als Region geschützt zu bekommen, einfach in den Chat schreiben und irgendwo 'lutoma' erwähnen. Ich bekomme das dank IRC-Bridge auch mit, wenn ich gerade nicht online bin. Die Regionen sind auch auf der Online-Karte eingezeichnet.
 
 == Installierte Plugins ==
 * PermissionsBukkit: Berechtigungsverwaltung
