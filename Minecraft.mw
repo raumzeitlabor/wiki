@@ -27,10 +27,13 @@ Der Schwierigkeitsgrad ist auf ''[http://www.minecraftwiki.net/wiki/Difficulty E
 * Ravine (Zugang über Lutomas Haus): {{Minecraft-Koordinaten|118|65|290}}
 
 == Relevante Befehle ==
-* /ec – Eigener Kontostand
-* /pay <person> <betrag> – Geld an einen anderen Spieler übertragen
 * /time – Aktuelle Ingame-Uhrzeit
 * /whereami – Eigene Position
+* /ec – Eigener Kontostand
+* /pay <person> <betrag> – Geld an einen anderen Spieler übertragen
+* /em list – Verkaufsangebote auf dem Markt anzeigen
+* /sell <gegenstandsname> <menge> <preis>e – Einen oder mehrere Gegenstände für je <preis> Bits verkaufen ('e' beim Preis streichen um einen Gesamtpreis anzugeben).
+* /buy <gegenstandsname> <menge> <optional: Maximalpreis> – Einen oder mehrere Gegenstände vom Markt kaufen
 * /sethome – Setzt den eigenen Home-Punkt
 * /home – Teleportiert zum Home-Punkt
 * /spawn – Teleportiert zum Spawn
