@@ -40,11 +40,18 @@ Zur Aufbereitung der Audiospur empfliehlt sich die Datei durch [https://auphonic
 
 == Nötige Dateien ==
 
-* [[Datei:RZL_Vorlage-2012-07-22.kdenlive.bz2]] (Projekt-Datei für kdenlive)
-* [[RZL_Introvideo]] (RZL-Introvideo, Full HD)
-* http://www.fontex.org/download/Miso.otf (verwendete Schriftart)
-** Miso.otf nach ~/.fonts/ legen, anschließend fc-cache -fv ausführen.
-* http://t.zekjur.net/rzl-video-sound.wav.bz2 (test-sound zur synchronisation)
+# [[RZL_Introvideo]] (RZL-Introvideo, Full HD)
+# [[Datei:RZL_Vorlage-2012-08-28.tar.bz2]] (Projekt-Datei für kdenlive, Schriftart, CC-BY-Logo, Synchronisations-Sound)
+Vorsicht, die Datei ist eine Tarbomb! Am besten für jedes Video so benutzen (wichtig ist, dass man kdenlive im selben Verzeichnis startet):
+ cd ~/videos/2012-08-28/
+ tar xf ~/Downloads/RZL_Vorlage-2012-08-28.tar.bz2
+ kdenlive *.kdenlive
+
+Einmalig muss man die Font installieren:
+ tar xf ~/Downloads/RZL_Vorlage-2012-08-28.tar.bz2 -C ~/.fonts miso.otf
+ fc-cache -fv
+
+(Die Schriftart stammt von http://www.fontex.org/download/Miso.otf)
 
 == Zeitplan ==
 
