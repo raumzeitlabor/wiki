@@ -14,7 +14,7 @@ Vorbereitung:
 # USB-Mikrofon aus dem Regal bei der Beamerwand holen und an das Labornotebook anschließen.
 # Pegel des USB-Mikrofons überprüfen.
 # Die Tischlampen vom Tisch nehmen.
-# Das Licht beim Beamer ausschalten
+# Das Licht beim Beamer ausschalten, bei der Tafel anlassen
 
 Aufnahme starten:
 
@@ -24,6 +24,8 @@ Aufnahme starten:
  gst-launch pulsesrc device="alsa_input.usb-Thomann_SC450USB-00-SC450USB.analog-mono" ! \
    audio/x-raw-int,rate=48000,channels=2,width=16 ! tee name=t_audio ! queue ! \
    pulsesink t_audio. ! audioconvert ! vorbisenc ! oggmux ! filesink location=record.oga
+
+Anschließend kann man [[Datei:Rzl-video-sound.mp3]] abspielen (z.B. mit einem Smartphone) um später einfacher die Audio-/Video-Spur zu synchronisieren.
 
 Notebook-Setup (Thinkpad X200):
 * Pegel auf "Base" stehen lassen in pavucontrol, Profil Audio Mono
