@@ -1,0 +1,34 @@
+== Grundidee ==
+# Sensormütze mit mehr Sensoren als auf den [http://www.open-bci.org/ OpenBCI-Fotos]
+# innovative RaumZeitLaborierung
+# <code>$ </dev/ttyBrain0 tee blafoo.txt</code>
+
+Arbeitswut nie wieder von Sehnenscheidenentzündungen untergraben lassen!
+
+== Was wollen wir denn so steuern ==
+=== $TERM ===
+* deshalb <H>BCI
+* hohe Präzision erforderlich: Del Bksp Enter Up Down Left Right Paste NextTerminal PreviousTerminal Ctrl+C Ctrl+D
+* mäßige Präzision tolerabel: normale&trade; Textzeichen
+* Bonus:
+** welchen Bildschirm ich gerade angucke (Hals- und Augenmuskeln?)
+
+=== Musikspieler ===
+* Stimmungserkennung in den ersten paar Sekunden eines neuen Liedes &rarr; ggf. wechseln
+* Kopfhörer-Erkennung? Sieht BCI, ob etwas auf meine Ohren drückt?
+* Erschrecken erkennen &rarr; Musik aus, für besser hören was da jetzt los war.
+
+=== Malprogramm ===
+* hohe Präzision erforderlich:
+** Pinselführung
+*** X/Y, vermutlich mit Delta oder Speed vorne dran
+*** Andruck (z.B. für Opacity oder Pinselradius)
+*** Bonus: TiltX TiltY
+* mäßige Präzision tolerabel:
+** n Makros (n<sub>0</sub> = 8) für z.B. vorausgewählten Pinselformen aktivieren
+** Analogschieberegler
+*** Pinselradius
+*** 3 Farbkomponentenregler (RGB oder HSV)
+*** Layer wählen
+*** vorerst auch digitale Steuerung möglich, z.B. 5 Ereignisse: etwas/viel mehr/weniger = 4, +1 Umschaltung ob Regler wählen oder gewählten Regler schieben
+* €€€&times;9001 wenn wirs schaffen, das mit benutzerfreundlichem Interface in halbtransparent weiße Kisten mit runden Ecken zu verpacken, die sich am USB als generisches Wacom Intuos ausgeben
