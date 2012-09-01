@@ -22,11 +22,20 @@ Arbeitswut nie wieder von Sehnenscheidenentzündungen untergraben lassen!
 * mäßige Präzision tolerabel: normale&trade; Textzeichen
 * Bonus:
 ** welchen Bildschirm ich gerade angucke (Hals- und Augenmuskeln?)
+** welchen Computer ich gerade meine (für welche die keinen Bildschirm haben aber trotzdem eine hoffentlich BCI-erkennbare Identität)
+*** notfalls reicht vorerst HostSelect erkennen, dann Hostnames/Icons flashen und mit [http://www.bci2000.org/wiki/index.php/User_Tutorial:Introduction_to_the_P300_Response P300] auswählen
 
 === Musikspieler ===
 * Stimmungserkennung in den ersten paar Sekunden eines neuen Liedes &rarr; ggf. wechseln
 * Kopfhörer-Erkennung? Sieht BCI, ob etwas auf meine Ohren drückt?
 * Erschrecken erkennen &rarr; Musik aus, für besser hören was da jetzt los war.
+
+=== Browser ===
+* Spezialfall von $TERM
+
+=== X Window System ===
+# benutze ''xdotool'' mit ''xorg''
+# ''xorg'' digitiert zu $TERM
 
 === Malprogramm ===
 * hohe Präzision erforderlich:
