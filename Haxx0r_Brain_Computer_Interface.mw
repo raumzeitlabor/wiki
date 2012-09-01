@@ -57,7 +57,7 @@ Arbeitswut nie wieder von Sehnenscheidenentzündungen untergraben lassen!
 Forsche auch du mit! Bequem von zu Hause mit Suchmaschine deiner Wahl. Quellenangaben helfen auch dabei, das Umfeld der Quellen langfristig zu beobachten, um zukünftige fremde Erkenntnisse importieren zu können.
 
 === Was messen? ===
-{| class=wikitable width="100%"
+{| class="wikitable table-align-top" width="100%"
 ! Signal
 ! auslösen wie?
 ! Signaleigenschaften<ref>erwartete Signalstärke, -qualität, zur Erfassung notwendige Zeitdauer</ref>
@@ -73,7 +73,7 @@ Forsche auch du mit! Bequem von zu Hause mit Suchmaschine deiner Wahl. Quellenan
 + deine Ideen/Funde
 
 === Infoquellen ===
-{| class=wikitable width="100%"
+{| class="wikitable table-align-top" width="100%"
 ! Name
 ! Themen
 ! Eindruck
@@ -82,10 +82,22 @@ Forsche auch du mit! Bequem von zu Hause mit Suchmaschine deiner Wahl. Quellenan
 |
 * Grundwissen
 * Tutorials
-* Software (GPL, Source erst nach Registrierung)
+* Software (Win32, Win64, Linux, OS X; GPL, Source erst nach Registrierung)
 * Anwenderforum
 |
 * schaut auf den ersten Blick brauchbar aus, Source müsste man vielleicht noch befreien. [[Benutzer:Kisl|Kisl]] ([[Benutzer Diskussion:Kisl|Diskussion]]) 13:26, 1. Sep. 2012 (CEST)
+|-
+| [http://openeeg.sourceforge.net/doc/ OpenEEG]
+|
+* DIY EEG Hardware
+|
+* teuer? Hab nicht so recht verstanden ob das Kostenproblem in den Materialkosten liegt oder ob nur klinische Tests für ne Vertribeszulassung so teuer waren. [[Benutzer:Kisl|Kisl]] ([[Benutzer Diskussion:Kisl|Diskussion]]) 13:53, 1. Sep. 2012 (CEST)
+|-
+| [http://emotiv.com/ emotiv]
+|
+* Kaufe unsere Sensormütze jetzt!
+|
+* Hab in einem Vortrag (YouTube Link verloren) gehört, das sei auf Gesichtsmimik erkennen optimiert und in vielen anderen Bereichen noch nicht so ausgereift. Der Kommentar könnte aber falsch oder veraltet sein, also bei Zeit nochmal genauer draufgucken. [[Benutzer:Kisl|Kisl]] ([[Benutzer Diskussion:Kisl|Diskussion]]) 13:53, 1. Sep. 2012 (CEST)
 |}
 
 + deine Ideen/Funde
