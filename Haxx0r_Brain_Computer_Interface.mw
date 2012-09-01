@@ -9,7 +9,6 @@
 |license     = 
 }}
 
-== Grundidee ==
 # Sensormütze mit mehr Sensoren als auf den [http://www.open-bci.org/ OpenBCI-Fotos]
 # innovative RaumZeitLaborierung
 # <code>$ </dev/ttyBrain0 tee blafoo.txt</code>
