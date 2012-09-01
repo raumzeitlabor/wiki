@@ -1,3 +1,14 @@
+[[Kategorie:Incubator]]
+[[Kategorie:Projekt]]{{ProjektInfoBox
+|name        = HBCI<!-- von mir aus auch HaxBCI falls irgendwann jemand HBankCI anfängt -->
+|image       = 
+|status      = experimental
+|description = </dev/ttyBrain0 tee blafoo.txt
+|username    = Kisl
+|version     = 
+|license     = 
+}}
+
 == Grundidee ==
 # Sensormütze mit mehr Sensoren als auf den [http://www.open-bci.org/ OpenBCI-Fotos]
 # innovative RaumZeitLaborierung
@@ -32,3 +43,10 @@ Arbeitswut nie wieder von Sehnenscheidenentzündungen untergraben lassen!
 *** Layer wählen
 *** vorerst auch digitale Steuerung möglich, z.B. 5 Ereignisse: etwas/viel mehr/weniger = 4, +1 Umschaltung ob Regler wählen oder gewählten Regler schieben
 * €€€&times;9001 wenn wirs schaffen, das mit benutzerfreundlichem Interface in halbtransparent weiße Kisten mit runden Ecken zu verpacken, die sich am USB als generisches Wacom Intuos ausgeben
+
+
+== interessierte Bastler ==
+* [[Benutzer:Kisl]]
+
+== interessierte Versuchspersonen ==
+* du? (Gibt auch Kuchen wenns brauchbar funzt!)
