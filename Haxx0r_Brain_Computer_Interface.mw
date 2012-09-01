@@ -23,7 +23,7 @@ Arbeitswut nie wieder von Sehnenscheidenentzündungen untergraben lassen!
 * Bonus:
 ** welchen Bildschirm ich gerade angucke (Hals- und Augenmuskeln?)
 ** welchen Computer ich gerade meine (für welche die keinen Bildschirm haben aber trotzdem eine hoffentlich BCI-erkennbare Identität)
-*** notfalls reicht vorerst HostSelect erkennen, dann Hostnames/Icons flashen und mit [http://www.bci2000.org/wiki/index.php/User_Tutorial:Introduction_to_the_P300_Response P300] auswählen
+*** notfalls reicht vorerst HostSelect erkennen, dann Hostnames/ Icons flashen/ auswählen
 
 === Musikspieler ===
 * Stimmungserkennung in den ersten paar Sekunden eines neuen Liedes &rarr; ggf. wechseln
@@ -52,6 +52,43 @@ Arbeitswut nie wieder von Sehnenscheidenentzündungen untergraben lassen!
 *** vorerst auch digitale Steuerung möglich, z.B. 5 Ereignisse: etwas/viel mehr/weniger = 4, +1 Umschaltung ob Regler wählen oder gewählten Regler schieben
 * €€€&times;9001 wenn wirs schaffen, das mit benutzerfreundlichem Interface in halbtransparent weiße Kisten mit runden Ecken zu verpacken, die sich am USB als generisches Wacom Intuos ausgeben
 
+
+== Grundlagenwissen ==
+Forsche auch du mit! Bequem von zu Hause mit Suchmaschine deiner Wahl. Quellenangaben helfen auch dabei, das Umfeld der Quellen langfristig zu beobachten, um zukünftige fremde Erkenntnisse importieren zu können.
+
+=== Was messen? ===
+{| class=wikitable width="100%"
+! Signal
+! auslösen wie?
+! Signaleigenschaften<ref>erwartete Signalstärke, -qualität, zur Erfassung notwendige Zeitdauer</ref>
+! Verwendung
+! Fortschritt<br />Nutzung
+|-
+| [http://www.bci2000.org/wiki/index.php/User_Tutorial:Introduction_to_the_P300_Response P300]
+| Objekt als relevant empfinden
+| 2-5 µV, 150-300 ms, stark verrauscht
+| multiple choice
+| geplant
+|}
++ deine Ideen/Funde
+
+=== Infoquellen ===
+{| class=wikitable width="100%"
+! Name
+! Themen
+! Eindruck
+|-
+| [http://www.bci2000.org/wiki/ BCI 2000 Wiki]
+|
+* Grundwissen
+* Tutorials
+* Software (GPL, Source erst nach Registrierung)
+* Anwenderforum
+|
+* schaut auf den ersten Blick brauchbar aus, Source müsste man vielleicht noch befreien. [[Benutzer:Kisl|Kisl]] ([[Benutzer Diskussion:Kisl|Diskussion]]) 13:26, 1. Sep. 2012 (CEST)
+|}
+
++ deine Ideen/Funde
 
 == Interessenten ==
 === Bastler ===
