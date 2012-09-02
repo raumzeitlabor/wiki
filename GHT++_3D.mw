@@ -1,0 +1,38 @@
+[[Kategorie:Incubator]]
+[[Kategorie:Projekt]]{{ProjektInfoBox
+|name        = GHT++ 3D
+|image       = 
+|status      = experimental
+|description = Grobhandtaster: Director's Cut
+|username    = Kisl
+|version     = 
+|license     = 
+}}
+
+Grobhandtaster rocken. Egal ob als Jeopardy-Buzzer, xkill-Hotkey oder aus Gründen. Aber manchmal hätte man gerne dch etwas mehr Funktion, um bei xkill das Fenster zu wählen oder beim Jeopardy seinen Nickname selber einzutasten, wenn mal wieder Kandidaten mitmachen, die nicht Peter heißen.
+
+;1. Dimension<nowiki>:</nowiki> Drehung des Pilzkopfes
+:Nutzungsvorschlag: Inhalt der Antwort
+;2. Dimension<nowiki>:</nowiki> Einschlagstärke
+:Nutzungsvorschlag: Unterscheidung zwischen "weiter" (Nickname-Buchstabe hinzufügen) und "fertig" (Nickname absenden)
+;3. Dimension<nowiki>:</nowiki> Handkurbel
+:Nutzungsvorschlag: Marketingzwecke oder deine Idee
+;1. "+"<nowiki>:</nowiki> Beleuchtung
+:Nutzungsvorschlag: Anzeigen, in welcher Phase das Spiel ist, welcher Kandidat gerade dran ist, visuelles Feedback ob der Einschlag vom Zielsystem empfangen wurde.
+;2. "+"<nowiki>:</nowiki> mehr Buttons
+:Nutzungsvorschlag: Werkzeug wählen/nachladen
+
+== Plan für Implementierung ==
+* 1.-2. Dimension optisch am Kolben unter dem Pilzkopf ablesen, [[Benutzer:Kisl|Kisl]] hat dazu schon vier optische Mäuse gekauft (sprechen USB, Adapter auf PS/2 vorhanden).
+* Stabiles Gehäuse aus... Holz? Alu?
+** Können wir SVG oder OpenSCAD in Alu drucken?
+* 3. Dimension auf das Scrollrad übertragen, oder wenn Faulheit über Swag siegt, Gehäuse so gestalten, dass das Mausrad direkt exponiert wird statt Handkurbel.
+
+== Forschungsbedarf ==
+* wie sagt man xorg, dass es Mäuse mit folgenden Seriennummern oder an folgenden USB-Ports nicht auf den Hauptzeiger mappen soll?
+* wie liest man die Mausdaten trotzdem aus? hcidump geht, Python-USB geht, gibts was noch einfacheres oder eleganteres?
+* wie groß muss der Kolbenradius sein, damit der für die Maus sichtbare Bereich flach genug ist für zuverlässige Erkennung?
+* verschiedene Federmechanismen vergleichen für Kolbenrücksteller/ Schlag-o-meter
+
+== Links, Fußnoten und so ==
+<references />
