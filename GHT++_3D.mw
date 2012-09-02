@@ -18,9 +18,9 @@ Grobhandtaster rocken. Egal ob als Jeopardy-Buzzer, xkill-Hotkey oder aus Gründ
 ;3. Dimension<nowiki>:</nowiki> Handkurbel
 :Nutzungsvorschlag: Marketingzwecke oder deine Idee
 ;1. "+"<nowiki>:</nowiki> Beleuchtung
-:Nutzungsvorschlag: Anzeigen, in welcher Phase das Spiel ist, welcher Kandidat gerade dran ist, visuelles Feedback ob der Einschlag vom Zielsystem empfangen wurde.
+:Nutzungsvorschlag: Anzeigen Spielphase, welcher Kandidat gerade dran ist, Feedback ob Einschlag vom Zielsystem empfangen
 ;2. "+"<nowiki>:</nowiki> mehr Buttons
-:Nutzungsvorschlag: Werkzeug wählen/nachladen
+:Nutzungsvorschlag: Joker, Werkzeug wählen, nachladen, Booster zuschalten
 
 == Plan für Implementierung ==
 * 1.-2. Dimension optisch am Kolben unter dem Pilzkopf ablesen, [[Benutzer:Kisl|Kisl]] hat dazu schon vier optische Mäuse gekauft (sprechen USB, Adapter auf PS/2 vorhanden).
