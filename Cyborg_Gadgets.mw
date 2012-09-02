@@ -1,0 +1,34 @@
+[[Kategorie:Incubator]]
+[[Kategorie:Projekt]]{{ProjektInfoBox
+|name        = Cyborg Gadgets
+|image       = 
+|status      = experimental
+|description = erweiter dich selbst modular
+|username    = Kisl
+|version     = 
+|license     = 
+}}
+
+== Navigation ==
+=== Kompass-Biofeedback ===
+Sensor: elektronischer Kompass
+
+Feedback: mechanisch, optisch (z.B. Farb-LED auf Innenseite einer Schirmmütze), deine Idee?
+
+Trainingswirkung:
+# bessere Orientierung
+# besseres räumliches Vorstellungsvermögen
+# präszisere Einschätzung von Entfernungen und Weglängen
+
+Literatur:
+* [http://anonym.to/?http://www.scinexx.de/wissen-aktuell-4091-2006-01-06.html Kompassgürtel, deutsch] (Achtung: Springerverlag)
+* [http://www.wired.com/wired/archive/15.04/esp.html Kompassgürtel, englisch]
+
+Interessenten:
+* [[Benutzer:Kisl|Kisl]] hätte gerne ne Kompass-LED mit Winkel -> Farbton (Hue) und dimmbarer Helligkeit für wechselbar Schirmmütze oder Fahrradhelm.
+
+Fortschritt Implementierung:
+* 2012-09-02: Wunschliste
+
+== Links, Fußnoten und so ==
+<references />
