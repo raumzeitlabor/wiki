@@ -119,6 +119,17 @@ Siehe MTM Snap [http://mtm.cba.mit.edu/machines/mtm_snap-lock/build/software.htm
 |
 * Führung für Zahnriemen eingebaut
 * Geschwindwigkeitstests
+|-
+| 2012-08-31
+|
+* Motorhalterung und Passstücke für Kugellager der X-Achse gedruckt und eingebaut.
+|-
+| 2012-09-05/06
+|
+* Trapezgewindemutter für X-Achse gedruckt
+* Platten für X/Z-Achsen-Verbindung gelasert. Erster Entwurf, noch Optimierungspotential
+* Bei Testlauf Motorhalterung X-Achse gebrochen, neue Halterung gedruckt
+* Not-Aus-Taster in Elektronik eingebaut
 |}
 
 == Bilder ==
