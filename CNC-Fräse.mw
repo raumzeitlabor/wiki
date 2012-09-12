@@ -23,11 +23,13 @@ In einem eBay-Wahn hat [[Benutzer:Tiefpunkt|tiefpunkt]] <del>einen</del> zwei Ba
 * [[Datei:CNC-Fräse - Motoren XY - Datasheet.pdf]]
 
 == Elektronik ==
-=== CNC Electronics v0.1 ===
+=== CNC Electronics v0.1.1 ===
 * Arduino Uno (Kopfüber)
 * 3x Pololu A4983 Schrittmotortreiber
 * Lochraster
 * Powered by ATX Netzteil
+* Not-Aus-Taster, kappt Motor-seitige Stromversorgung der Schrittmotortreiber
+
 ==== Lochraster Layout ====
 [[Datei:Cnc-electronics-v0.1-layout.jpg|400px|Lochraster Layout]]
 [[Datei:Cnc02-02.jpg|400px|Fertige Platine]]
