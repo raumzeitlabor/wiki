@@ -21,7 +21,23 @@ Die Bauanleitung gibt es bei der [http://www.windowfarms.org Community Windowfar
 
 == Status ==
 
-muzy hat begonnen, einen Prototypen zu bauen, aber aufgrund von Dringlichkeitskollisionen zwischen RealLife und RZL-Projekten aktuell nicht weiter machen können. [[Benutzer:TheTinyToon|TTT]] hat den Faden aufgenommen und baut weiter dran.
+[[Datei:Hydrofarm_TTT_1.jpg|65px|thumb|right]]
+[[Datei:Hydrofarm_TTT_2.jpg|65px|thumb|right]]
+[[Datei:Hydrofarm_TTT_3.jpg|65px|thumb|right]]
+
+[[Benutzer:TheTinyToon|TTT]] hat daheim einen Prototypen nach einem Mix aus der Windowfarms-Bauanleitungen V2 und V3 entstanden. Vier 1,5l-Colaflaschen wurden entsprechend der Anleitung aufgesägt und über ein Kabelsystem aufgehangen. Die Böden wurden mit einem Bohrer mit Lochaufsatz ausgesägt, so dass der Verschluss der nächsten Flasche durch das Loch passt und die Konstruktion stabilisiert. In die Verschlüsse der Colaflaschen wurden kleine Löcher als Sieb gebohrt, damit das Tongranulat nicht in die nächste Flasche fällt.
+
+Etwas problematisch war der Aufbau des Transportsystems, weil der Wasser-Luft-Transport nicht so richtig funktionieren wollte. Der Fehler lag darin, dass das Wasserreservoir (die unterste Colaflasche) beim testen nicht genügend befüllt war. Dadurch hatte der Druck des Wassers nicht ausgereicht, um genug Wasser in den Transportschlauch zu ziehen. Als Effekt wurde die Luft aus der Luftpumpe entweder nach unten aus dem Schlauch gedrückt oder es wurde kaum Wasser nach oben transportiert. Im Prototypen muss der Wasserstand mindestens 12cm über dem Einzugsloch für das Wasser liegen, um keine Probleme zu bekommen.
+
+Ich habe außerdem mit unterschiedlichen Schlauchdurchmessern experimentiert - der in der Anleitung vorgeschlagene Durchmesser von 6mm funktioniert am besten. Als Luftpumpe kommt eine sehr leise ''Newair 22'' mit zwei getrennt regelbaren Anschlüssen zum Einsatz, um ggf. eine zweite Konstruktion mit versorgen zu können. Das Rücklaufschutzventil wurde entfernt, da es sich mit der Zeit zugesetzt und keine Luft mehr durchgelassen hatte. Statt dessen wurde eine provisorische Sperre durch das Hochhängen des Zuluftschlauchs eingebaut.
+
+Als Pflanzen wurden Schnittlauch, Petersilie und Basilikum eingesetzt.
+
+== Verbesserungen für die nächste Version ==
+
+* Die Sprühfarbe aus dem Bauhaus deckt alleine nur sehr ungenügend ab - besser erst ein Tauchbad in einer deckenden Farbe, bevor die eigentliche Farbe aufgetragen wird.
+* Das Wasserreservoir lässt sich aktuell nur durch das Aufdrehen des Deckels entleeren, was immer eine ziemliche Sauerei ist. Besser wäre ein Schlauchadapter auf der Rückseite und ein abnehmbares Reservoir, das man zum Waschbecken mitnehmen und dort entleeren kann.
+* Ich würde bei der nächsten Version die Flaschen komplett aufsägen, anstatt nur ein Loch raus zu nehmen, so dass die Pflanzen leichter zugänglich sind. Dann muss als Tropfschutz ein Schlauch aus dem unteren Deckel zur nächsten Flasche geführt werden.
 
 == Weblinks ==
 
