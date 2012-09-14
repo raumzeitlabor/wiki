@@ -1,3 +1,18 @@
+{{ProjektInfoBox
+|name        = Freifunk
+|status      = experimental
+|image       = 
+|description = 
+|author      = [[Benutzer:Muzy|muzy]], [[Benutzer:Hax404|hax404]], [[Benutzer:Nazco|nazco]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
+
 Dies wird unsere Projektseite für Freifunk.
 
 === Ressourcen ===
@@ -63,3 +78,6 @@ TODO
 * [Kuebler kontaktieren (wg. Gelaendetestlaeufen)]
 * Wer kann was? (Hardware? Elektronik? OpenWRT?)
 </blockquote>
+
+
+[[Kategorie:Projekt]]
