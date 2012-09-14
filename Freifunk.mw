@@ -15,14 +15,12 @@
 
 Dies wird unsere Projektseite für Freifunk.
 
-=== Ressourcen ===
+== Ressourcen ==
 * [http://interprojekt.pl interprojekt.pl] polnischer Shop mit allerlei WLAN Hardware (Boards, Steckkarten, Antennen, etc.). Verschickt auch nach DE.
 
-=== Kickoff Meeting Protokoll ===
+== Kickoff Meeting Protokoll ==
 
-<blockquote>
-Generelles
-----------
+=== Generelles ===
 
 * FreiFunk Mannheim ist tot
 
@@ -38,8 +36,7 @@ VPN ueber Schweden (5€/mo)
 Was ist das Ziel?
 Anbindung von menschen nicht mehr wirklich relevant.
 
-Ideenrunde
-----------
+=== Ideenrunde ===
 
 Wo liegt das interesse?
 
@@ -55,29 +52,26 @@ Wo liegt das interesse?
 * community splash screen
 * Forschung betreiben, knowhow sammeln
 
-Hardware
---------
+=== Hardware ===
 
 * Carambola(?) Board
 * TPlink wr841nd
 * TPlink mr320
 * 2 Router mit A/B gleichzeitig (Mesh auf A, Clients auf B)
 
-Organisation
-------------
+=== Organisation ===
 
 * Wiki
 * Mailingliste (erstmal ueber RZL liste)
 * monatliche Treffen (jeden dritten freitag im monat, 1900)
 
-TODO
-----
+== TODO ==
+
 * Public FreiFunk kiste (muzy)
 * Finanzierung abklaeren (RZL kasse? Krautfanding?); -> Plenum.
 * Solarpanels, Ladeelektronik: kosten? selbstbau?
 * [Kuebler kontaktieren (wg. Gelaendetestlaeufen)]
 * Wer kann was? (Hardware? Elektronik? OpenWRT?)
-</blockquote>
 
 
 [[Kategorie:Projekt]]
