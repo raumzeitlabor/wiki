@@ -79,6 +79,8 @@ Es wäre allerdings auch möglich, eine unverschlüsselte und eine mit WPA2 vers
 
 Die Betriebsart mit einem Pre-Shared-Key (auch als "Personal" bezeichnet) setzt einen gemeinsamen Schlüssel für alle Clients ein. Trotz dessen wird für jeden Client ein eigener Schlüssel pro Session ausgehandelt, so dass sich Clients nicht gegenseitig abhören können (bei hinreichend langem PSK, laut einer kurzen Recherche - bitte nochmal überprüfen). 
 
+''Vorteile:'' Einfaches Setup, einfache Nutzung
+
 ''Nachteile:'' Jeder AP sollte denselben PSK verwenden - bei einer Änderung tauchen sofort Inkonsistenzen auf, Syncproblematik.
 
 ==== WPA2 Enterprise (Radius) ====
