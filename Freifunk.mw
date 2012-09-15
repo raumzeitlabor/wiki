@@ -56,10 +56,14 @@ Wo liegt das interesse?
 
 * Carambola(?) Board
 * TP-Link TL-WR841ND
-* TP-Link TL-MR3020
 * TP-Link TL-WR1043ND (2x)
+* TP-Link TL-MR3020
 * Linksys WRT 54 GL v1.1
 * 2 Router mit A/B gleichzeitig (Mesh auf A, Clients auf B)
+
+=== Software ===
+
+* Freifunk-Firmware oder Eigene Firmware brauen???
 
 === Organisation ===
 
@@ -91,12 +95,13 @@ Die Enterprisevariante bietet die Möglichkeit, einen Nutzer per 802.1x und dami
 
 ''Nachteile:'' Zentralistisches Konzept, höherer Aufwand, mehr Fehlerquellen
 
+
 == TODO ==
 
 * Public FreiFunk kiste 
   - ist beschafft, wurde spontan ge-crowdfundet. Danke an die Spender! Steht im Regal gelabelt mit Freifunk.--[[Benutzer:Muzy|Muzy]] ([[Benutzer Diskussion:Muzy|Diskussion]]) 12:30, 15. Sep. 2012 (CEST)
 * Finanzierung abklaeren (RZL kasse? Krautfanding?); -> Plenum.
-* Solarpanels, Ladeelektronik: kosten? selbstbau?
+* Solarpanels, Ladeelektronik: kosten? selbstbau? 
 * [Kuebler kontaktieren (wg. Gelaendetestlaeufen)]
 * Wer kann was? (Hardware? Elektronik? OpenWRT?)
 
