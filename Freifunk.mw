@@ -65,8 +65,8 @@ Wo liegt das interesse?
 
 * Freifunk-Firmware oder Eigene Firmware brauen???
  - die Firmware die aus dem Freifunk FirmwareBuilder rausfällt getestet [UNBENUTZBAR ohne viel nachjustieren]
- - selbstgebautes Image mit dem OpenWrt Image Builder _und_ den Freifunk Paketen [UNBENUTZBAR da einfach nichts von dem Freifunk foo geht]
- - selbstgebautes Image mit dem OpenWrt Image Builder _ohne_ Freifunk foo [BENUTZBAR geht alles und man hat mehr platz da man beim Image erstellen Pakete angeben kann]
+ - selbstgebautes Image mit dem OpenWrt Image Builder '''und''' den Freifunk Paketen [UNBENUTZBAR da einfach nichts von dem Freifunk foo geht]
+ - selbstgebautes Image mit dem OpenWrt Image Builder '''ohne''' Freifunk foo [BENUTZBAR geht alles und man hat mehr platz da man beim Image erstellen Pakete angeben kann]
  - download des Images von openwrt.org [BENUTZBAR geht einfach und schnell, Pakete nachinstallieren ist doof da $DATEISYSTEM FOO]
 
 === Organisation ===
