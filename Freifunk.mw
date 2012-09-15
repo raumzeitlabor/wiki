@@ -67,6 +67,28 @@ Wo liegt das interesse?
 * Mailingliste (erstmal ueber RZL liste)
 * monatliche Treffen (jeden dritten freitag im monat, 1900)
 
+== Topics für's nächste Treffen ==
+
+=== Sicherheitsüberlegungen ===
+
+Die meist benutzte Freifunkstruktur von unverschlüsselten WLANs ist anfällig für das Abhören von Daten und Session Hijacking. Verschlüsselte WLANs beugen dem vor, erhöhen aber die Einstiegshürden, da das Kennwort irgendwie verteilt werden muss. Idee: Die meisten Router können min. 2 SSIDs getrennt managen, was beispielsweise benutzt werden kann, um das Heimnetzwerk vom Freifunknetz zu trennen und entsprechende Richtlinien zu vergeben (Heimnetzwerk hat Trafficvorrang und WPA2).
+
+Es wäre allerdings auch möglich, eine unverschlüsselte und eine mit WPA2 verschlüsselte SSID zu betreiben. Der unverschlüsselte Kanal würde im Splashscreen eine Warnung über die Sicherheitsproblematik beinhalten und auf die Möglichkeit der verschlüsselten SSID hinweisen. WPA2 lässt sich dazu in zwei verschiedenen Modi betreiben, die jeweils ihre Vor- und Nachteile haben
+
+==== WPA2 Personal (PSK) ====
+
+Die Betriebsart mit einem Pre-Shared-Key (auch als "Personal" bezeichnet) setzt einen gemeinsamen Schlüssel für alle Clients ein. Trotz dessen wird für jeden Client ein eigener Schlüssel pro Session ausgehandelt, so dass sich Clients nicht gegenseitig abhören können (bei hinreichend langem PSK, laut einer kurzen Recherche - bitte nochmal überprüfen). 
+
+''Nachteile:'' Jeder AP sollte denselben PSK verwenden - bei einer Änderung tauchen sofort Inkonsistenzen auf, Syncproblematik.
+
+==== WPA2 Enterprise (Radius) ====
+
+Die Enterprisevariante bietet die Möglichkeit, einen Nutzer per 802.1x und damit per Username/Kennwort oder per Zertifikat zu authentifizieren. Da wir OpenWRT benutzen, könnten wir auf mehrere Radius-Server betreiben, die sich gegenseitig synchronisieren. 
+
+''Vorteile:'' Höhere Sicherheit für den User, keine Passwort-Sync-Problematik, Möglichkeit der Anbindung an eine Community
+
+''Nachteile:'' Zentralistisches Konzept, höherer Aufwand, mehr Fehlerquellen
+
 == TODO ==
 
 * Public FreiFunk kiste (muzy)
