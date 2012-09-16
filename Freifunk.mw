@@ -101,6 +101,10 @@ Die Enterprisevariante bietet die Möglichkeit, einen Nutzer per 802.1x und dami
 
 ''Nachteile:'' Zentralistisches Konzept, höherer Aufwand, mehr Fehlerquellen
 
+=== Domain ===
+
+Es ist zu überlegen ob wir wenn alles ins Laufen gekommen ist Domains für das Projekt anmelden oder ob wir alles hier Betreiben wollen
+
 
 == TODO ==
 
