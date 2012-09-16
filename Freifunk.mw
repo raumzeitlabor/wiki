@@ -87,7 +87,7 @@ Es wäre allerdings auch möglich, eine unverschlüsselte und eine mit WPA2 vers
 
 ==== WPA2 Personal (PSK) ====
 
-Die Betriebsart mit einem Pre-Shared-Key (auch als "Personal" bezeichnet) setzt einen gemeinsamen Schlüssel für alle Clients ein. Trotz dessen wird für jeden Client ein eigener Schlüssel pro Session ausgehandelt, so dass sich Clients nicht gegenseitig abhören können (bei hinreichend langem PSK, laut einer kurzen Recherche - bitte nochmal überprüfen). 
+Die Betriebsart mit einem Pre-Shared-Key (auch als "Personal" bezeichnet) setzt einen gemeinsamen Schlüssel für alle Clients ein. Trotz dessen wird für jeden Client ein eigener Schlüssel pro Session ausgehandelt, so dass sich Clients nicht einfach gegenseitig abhören können (bei bekanntem PSK und mitgeschnittenem 4-Wege-Handshake ist abhören möglich). 
 
 ''Vorteile:'' Einfaches Setup, einfache Nutzung
 
