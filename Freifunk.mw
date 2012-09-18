@@ -55,12 +55,24 @@ Wo liegt das interesse?
 
 === Hardware ===
 
+== 2,4Ghz ==
+
 * Carambola(?) Board
 * TP-Link TL-WR841ND
 * TP-Link TL-WR1043ND (2x)
 * TP-Link TL-MR3020
 * Linksys WRT 54 GL v1.1
-* 2 Router mit A/B gleichzeitig (Mesh auf A, Clients auf B)
+
+== 5 Ghz ==
+
+== 2,4 und 5 Ghz Single-Band ==
+
+== 2,4 und 5 Ghz Dual-Band ==
+
+* TP-Link TL-WDR3600
+
+== Noch notwendige Test-Hardware ==
+* 1 Router mit A/B gleichzeitig (Mesh auf A, Clients auf B)
 
 === Software ===
 
