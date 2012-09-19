@@ -57,13 +57,14 @@ Wo liegt das interesse?
 
 -2,4Ghz-
 * Carambola(?) Board
-* TP-Link TL-WR841ND
-* TP-Link TL-WR1043ND (2x)
-* TP-Link TL-MR3020
-* Linksys WRT 54 GL v1.1
+* TP-Link TL-WR841ND       -- [b,g,n / 4MB Flash / 32 MB RAM / 20€]
+* TP-Link TL-WR842ND       -- [b,g,n / 8MB Flash / 32 MB RAM / 1xUSB / 30€]
+* TP-Link TL-WR1043ND (2x) -- [b,g,n / 8MB Flash / 32 RAM / 1xUSB / 5xgigE / 40€]
+* TP-Link TL-MR3020        -- [b,g,n / 4MB Flash / 32 MB RAM / 26€]
+* Linksys WRT 54 GL v1.1   -- [b,g / 4MB Flash / 32 MB RAM / 46€] (bitte nicht mehr kaufen)
 
 -2,4 und 5 Ghz Dual-Band-
-* TP-Link TL-WDR3600
+* TP-Link TL-WDR3600       -- [8MB Flash / 128MB RAM / 2xUSB / 5xgigE /50€]
 
 -Noch notwendige Test-Hardware-
 * 1 Router mit A/B gleichzeitig (Mesh auf A, Clients auf B)
