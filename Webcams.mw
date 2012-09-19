@@ -1,0 +1,67 @@
+{{ProjektInfoBox
+|name        = Ulticam
+|status      = stable
+|image       = ulticam.jpg
+|description = Live-Bild unseres 3D Druckers
+|author      = [[Benutzer:muzy|muzy]], [[Benutzer:nicoduck|nicoduck]], [[Benutzer:Felicitus|Felicitus]]
+|username    = 
+|version     = 1.0
+|update      = 
+|platform    = Carambola Board
+|preis       = 
+|license     = 
+|download    = 
+}}
+
+Du willst sehen was gedruckt wird? Mal schnell den Status checken? 
+Jetzt mit HD-Bild bei 1280x720 Pixeln!
+
+Zugang im RaumZeitLabor:
+* [http://ulticam.rzl Live Bild (1280x720)] (Vorzugweise zu verwenden, Stream ist schlecht fürs Netzwerk)
+* [http://ulticam.rzl:8080/?action=stream Live Stream (1280x720) mit Motion-JPG]
+
+Zugang von Extern:
+* [http://ulticam.nicoduck.de Live Bild (1280x720)] Updatezyklus alle 60 ekunden. 
+
+
+----
+
+
+{{ProjektInfoBox
+|name        = Ovencam
+|status      = alpha
+|image       = ovencam.jpg
+|description = Live-Bild unseres Backofens
+|author      = [[Benutzer:muzy|muzy]], [[Benutzer:nicoduck|nicoduck]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = TP-Link 3020
+|preis       = 
+|license     = 
+|download    = 
+}}
+
+Brennt die Pizza schon oder ist ist's bereits Kohle? Jetzt nachschauen ohne aufzustehen.
+Wenn der Ofen aus ist gibt es lustige Bilder mit tollen Spiegelungen. In HD!
+
+
+
+----
+
+{{ProjektInfoBox
+|name        = FaZzZ0r Cam
+|status      = unknown
+|image       = 
+|description = Live-Bild unseres Backofens
+|author      = [[Benutzer:TabascoEye|TabascoEye]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = Raspberry Pi
+|preis       = 
+|license     = 
+|download    = 
+}}
+
+[[Kategorie:Projekt]]
