@@ -1,7 +1,7 @@
 [[Image:Kameraposition_ideal.jpg|thumb|Ideale Kameraposition|200px|right|Ideale Kameraposition]]
 [[Image:Testbild.jpg|thumb|Testbild|200px|right|Testbild]]
 
-= Checkliste für Vortrags-Aufzeichnungen =
+== Checkliste für Vortrags-Aufzeichnungen ==
 
 Vorbereitung:
 
@@ -32,7 +32,7 @@ Notebook-Setup (Thinkpad X200):
 * In alsamixer auf 80 (13 dB) stellen beim mic in capture.
 * Playback Master auf 89 (-8 dB) und PCM auf 100 in alsamixer.
 
-= Bearbeitung =
+== Bearbeitung ==
 
 Die Videos der Kamera haben eine Framerate von 29.97 fps, aber eine Field-Anzahl von 59, obwohl sie nicht interlaced sind. Das verwirrt kdenlive, daher re-encodiere ich derzeit vorher:
 
@@ -40,7 +40,7 @@ Die Videos der Kamera haben eine Framerate von 29.97 fps, aber eine Field-Anzahl
 
 Zur Aufbereitung der Audiospur empfliehlt sich die Datei durch [https://auphonic.com/ Auphonic] laufen zu lassen. Im Zweifelsfall schadet es dabei nicht, alle Filter einzuschalten.
 
-== Nötige Dateien ==
+=== Nötige Dateien ===
 
 # [[RZL_Introvideo]] (RZL-Introvideo, Full HD)
 # [[Datei:RZL_Vorlage-2012-08-28.tar.bz2]] (Projekt-Datei für kdenlive, Schriftart, CC-BY-Logo, Synchronisations-Sound)
@@ -55,7 +55,7 @@ Einmalig muss man die Font installieren:
 
 (Die Schriftart stammt von http://www.fontex.org/download/Miso.otf)
 
-= Zeitplan =
+== Zeitplan ==
 
 {| class="wikitable"  valign = "top"
 !Datum
