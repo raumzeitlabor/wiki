@@ -25,9 +25,9 @@ Zugang von Extern:
 
 Administratives:
   * Zugriff auf das System haben muzy,nicoduck und Felicitus
-  * IPv4: 172.22.36.129
+  * IPv4: 172.22.36.128
   * IPv6: 2001:4d88:100e:ccc0:c693:ff:fe11:26d
- 
+
 Hardware:
   * Webcam gestiftet von TabascoEye
   * Carambola Board gehört muzy
@@ -54,6 +54,21 @@ Hardware:
 Brennt die Pizza schon oder ist ist's bereits Kohle? Jetzt nachschauen ohne aufzustehen.
 Wenn der Ofen aus ist gibt es lustige Bilder mit tollen Spiegelungen. In HD!
 
+Zugang im RaumZeitLabor:
+  * [http://ovencam.rzl Live Bild (1280x720)] (Vorzugweise zu verwenden, Stream ist schlecht fürs Netzwerk)
+  * [http://ovencam.rzl/?action=stream Live Stream (1280x720) mit Motion-JPG]
+
+Zugang von Extern:
+  * [http://ovencam.nicoduck.de Live Bild (1280x720)] Updatezyklus alle 60 Sekunden. 
+
+Administratives:
+  * Zugriff auf das System haben muzy und nicoduck
+  * IPv4: 172.22.36.130
+  * IPv6: 2001:4d88:100e:ccc0:92f6:52ff:fea2:634f
+
+Hardware:
+  * Webcam gehört muzy
+  * MR 3020 gehört muzy
 
 
 ----
@@ -72,5 +87,8 @@ Wenn der Ofen aus ist gibt es lustige Bilder mit tollen Spiegelungen. In HD!
 |license     = 
 |download    = 
 }}
+
+Bitte eintragen!
+
 
 [[Kategorie:Projekt]]
