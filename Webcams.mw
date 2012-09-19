@@ -17,11 +17,20 @@ Du willst sehen was gedruckt wird? Mal schnell den Status checken?
 Jetzt mit HD-Bild bei 1280x720 Pixeln!
 
 Zugang im RaumZeitLabor:
-* [http://ulticam.rzl Live Bild (1280x720)] (Vorzugweise zu verwenden, Stream ist schlecht fürs Netzwerk)
-* [http://ulticam.rzl:8080/?action=stream Live Stream (1280x720) mit Motion-JPG]
+  * [http://ulticam.rzl Live Bild (1280x720)] (Vorzugweise zu verwenden, Stream ist schlecht fürs Netzwerk)
+  * [http://ulticam.rzl:8080/?action=stream Live Stream (1280x720) mit Motion-JPG]
 
 Zugang von Extern:
-* [http://ulticam.nicoduck.de Live Bild (1280x720)] Updatezyklus alle 60 ekunden. 
+  * [http://ulticam.nicoduck.de Live Bild (1280x720)] Updatezyklus alle 60 Sekunden. 
+
+Administratives:
+  * Zugriff auf das System haben muzy,nicoduck und Felicitus
+  * IPv4: 172.22.36.129
+  * IPv6: 2001:4d88:100e:ccc0:c693:ff:fe11:26d
+ 
+Hardware:
+  * Webcam gestiftet von TabascoEye
+  * Carambola Board gehört muzy
 
 
 ----
