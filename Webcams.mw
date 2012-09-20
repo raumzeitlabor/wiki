@@ -1,8 +1,11 @@
-{| style="background: #eee; border: 2px solid #f00"
-|style="width: 40px"| [[Datei:Achtung.png|48px|Achtung]]
-| '''Achtung! Webcams bitte nicht ausschalten.'''.
-Wenn Ausschalten aus Privatsphäre-Gründen dringend benötigt wird:<br />Ausschalten der Webcams erfolgt durch das entfernen des Stromkabels. Webcams sind rebootsicher. Bitte Stromkabel nach Benutzung wieder anschließen.
-|}<br>
+{{AchtungKasten1 |title= Webcams bitte nicht ausschalten! |msg=
+Wenn Ausschalten aus Privatsphäre-Gründen dringend benötigt wird:
+* Ausschalten der Webcams erfolgt durch das Entfernen des Stromkabels.
+* Die Webcams sind rebootsicher.
+* Bitte Stromkabel nach Benutzung wieder anschließen.
+}}
+
+
 == Ulticam ==
 
 {{ProjektInfoBox
