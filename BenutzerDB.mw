@@ -1,0 +1,20 @@
+{{ProjektInfoBox
+|name        = BenutzerDB
+|status      = stable
+|image       = 
+|imagesize   = 
+|description = Benutzerdatenbank
+|author      = [[Benutzer:SEC|sECuRE]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
+Über die BenutzerDB kann jeder seine persönliche PIN und andere Dienste im RZL verwalten und nutzen.
+
+== Technik ==
+
+Die BenutzerDB nutzt [http://perldancer.org/ Dancer] für die Perl-Scripte, welche mittels Twiggy? ausgeliefert werden. Der Apache ist so konfiguriert, daß er mittels ProxyPass das ganze auf der normalen Blackbox abbildet.
