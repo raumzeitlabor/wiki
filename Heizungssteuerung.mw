@@ -6,130 +6,13 @@
 |author      = [[Benutzer:Alexander Brock|Alexander Brock]], [[Benutzer:Nessi|Nessi]]
 |version     = 0.1
 }}
-Hier wird die Heizungssteuerung geplant. Dafo hat vier Heizungssteller vom Typ Siemens STE71.1 ([http://w5.siemens.ch/sbt/datenblaetter/de/downloads/n4874d.pdf Datenblatt]) und fünf Temperatursensoren vom Typ Thermokon VFG54 ([http://www.thermokon.de/files/produktblatt-af25-af50-pr25-vfg541254226887.pdf Datenblatt]) mitgebracht. In den VFG54-Gehäusen sind Ni1000TK5k-Sensoren ([http://www.e-i.co.il/assets/products/1/sensor%20charactersistic_102.pdf Datenblatt]) eingebaut.
-
-Die Heizungssteller sind kompatibel mit den an den Heizkörpern verbauten Ventilen.
+Hier wird die Heizungssteuerung geplant. Dafo hat vier Heizungssteller vom Typ Siemens STE71.1 ([http://w5.siemens.ch/sbt/datenblaetter/de/downloads/n4874d.pdf Datenblatt]) mitgebracht. Die Heizungssteller sind kompatibel mit den an den Heizkörpern verbauten Ventilen.
 
 == Aufbau ==
-Wir brauchen:
-* Einen Mikrocontroller
-* Fünf Messwandler:
-** Heizungsvorlauf
-** Heizungsrücklauf
-** Außentemperatur
-** Innentemperatur oben
-** Innentemperatur unten
-** 4fach Operationsverstärker mit Rails Ein- und Ausgängen oder Spannungsquelle
-* 15m Lankabel für Fühler
-* 20m Kabel für Steller
-* Netzteil 24V (von Dafo)
-* Spannungswandler 24V -> 5V
-* 5V-Relais
-* Lan-Interface ENC28J60
-* Human Interface:
-** Ein Taster für "Heizung soll den Raum auf 20°C bringen", falls Ethernet defekt
-** Ein Schalter für "Ich will die Heizung jetzt aber doch an haben" ist eventuell problematisch.
 
-== Einkaufsliste ==
-Bestelliste Reichelt:
-{| class="wikitable"
-! Anzahl || Bezeichnung || Einzelpreis || Gesamtpreis || Summe || Wiederbeschaffung || Summe
-|-
-| 1 || [http://www.reichelt.de/USB-CAN-BUS-Controller/ENC-28J60-I-SO/index.html?;ACTION=3;LA=444;GROUP=A316;GROUPID=2946;ARTICLE=89339;START=0;SORT=preis;OFFSET=500; ENC 28J60-I/SO :: Ethernet Controller, Stand-Alone, SOIC-28] || 2,70€ || 2,70€ || 2,70€
-|-
-| 1 || [http://www.reichelt.de/Atmel-ATMega-AVRs/ATMEGA-644-20-AU/index.html?;ACTION=3;LA=444;GROUP=A363;GROUPID=2959;ARTICLE=68172 ATMEGA 644-20 AU :: ATMega AVR-RISC-Controller] || 7,20€ || 7,20€ || 9,90€
-|-
-| 5 || [http://de.farnell.com/stmicroelectronics/tsv624ipt/operationsverstaerker-rrio-14-tssop/dp/1737216 STMICROELECTRONICS - TSV624IPT] || 1,99€ || 9,95€ || 19,85€
-|-
-| 1 || [http://www.reichelt.de/zweiseitig-beschichtet/BEL-160X100-2/index.html?;ACTION=3;LA=2;ARTICLE=33774; BEL 160X100-2 :: Fotoplatine, zweiseitig, 160x100mm, 1,5mm, 35µ] || 2,10€ || 2,10€ || 21,95€
-|-
-|| 5 || [http://www.reichelt.de/Modularkabel-stecker-etc-/MEBP-8-8G/index.html?;ACTION=3;LA=5000;GROUP=G12;GROUPID=848;ARTICLE=24975; MEBP 8-8G :: Modular-Einbaubuchse 8/8, geschirmt] || 0,55€ || 2,75€ || 24,70€
-|-
-| 1 || [http://www.reichelt.de/Leiterplatten-Anschlussklemmen/AKL-094-10/index.html?;ACTION=3;LA=2;ARTICLE=72047; AKL 094-10 :: Anreihbare Anschlussklemme 10-polig, RM5,0, Lift] || 1,40€ || 1,40€ || 26,10
-|-
-| 1 || [http://www.reichelt.de/Leiterplatten-Anschlussklemmen/AKL-094-08/index.html?;ACTION=3;LA=2;ARTICLE=72046; AKL 094-08 :: Anreihbare Anschlussklemme 8-polig, RM5,0, Lift] || 1,20€ || 1,20€ || 27,30€
-|-
-| 1 || [http://www.reichelt.de/Leiterplatten-Anschlussklemmen/AKL-094-04/index.html?;ACTION=3;LA=2;ARTICLE=72043; AKL 094-04 :: Anreihbare Anschlussklemme 4-polig, RM5,0, Lift] || 0,74€ || 0,74€ || 28,04€
-|-
-| 1 || [http://www.reichelt.de/Kaltgeraetestecker/KES-1SI/index.html?;ACTION=3;LA=444;GROUP=C1911;GROUPID=5203;ARTICLE=9357; KES 1SI :: Kaltgeräte-Einbaustecker mit Sicherungseinsatz] || 1,65€ || 1,65€ || 29,69€
-|-
-| 1 || [http://www.reichelt.de/ICs-LT-LTC-/LT-1054-CS8/index.html?;ACTION=3;LA=444;GROUP=A216;GROUPID=2913;ARTICLE=39486; LT 1054 CS8 :: Voltage Converter, SO-8] || 3,95€ || 3,95€ || 33,94€
-|-
-| 1 || [http://www.ebay.de/itm/Lan-Kabel-Patchkabel-Cat6-doppelt-geschirmt-100m-PiMf-/370524573774 Lan Kabel Patchkabel Cat6 doppelt geschirmt 100m PiMf] || 28,44€ || 28,44€ || 62,38€
-|-
-| 1 || [http://www.reichelt.de/Quarze/20-0000-HC49-SMD/index.html?;ACTION=3;LA=444;GROUP=B41;GROUPID=3173;ARTICLE=72516; 20,0000-HC49-SMD :: SMD-Quarz, Grundton, 20,000000 MHz] || 0,24€ || 0,24€ || 62,62€
-|-
-| 2 || [http://www.reichelt.de/Vielschicht-SMD-G0603/NPO-G0603-22P/index.html?;ACTION=3;LA=444;GROUP=B3514;GROUPID=3164;ARTICLE=31854; NPO-G0603 22P :: SMD-Vielschicht-Keramikkondensator 22P, 5%] || 0,05€ || 0,10€ || 62,72€
-|-
-| 50 || SMD-Widerstände || 0,10€ || 5,00€ || 67,72€
-|-
-| 1 || [http://www.bopla.de/de/produktkatalog/gehaeusetechnik/product-category/rcp-000-1/product-detail/rcp-2000-5.html RCP 4000] || 20€ || 20€ || 87,72€ || 80€ || 80€
-|-
-| 20 || SMD-Kondensatoren || 0,10€ || 2€ || 89,72€
-|-
-| 5 || SMD-Induktivitäten || 0,20€ || 1€ || 90,72€
-|-
-| 1 || [http://www.watterott.com/de/NaPS-Natriumpersulfat-1kg Natriumpersulfat] || 8,50€ || 8,50€ || 99,22€
-|-
-| 4 || [http://www.reichelt.de/IRL-IRFZ-Transistoren/IRLU-024N/index.html?;ACTION=3;LA=5000;GROUP=A167;GROUPID=2896;ARTICLE=90365; IRLU 024N :: Leistungs-MOSFET N-LogL TO-251AA 55V 17A] || 0,42 || 1,68 || 100,90€
-|-
-| 4 || [http://www.reichelt.de/RJ45-Stecker-buchsen/HIROSE-SW/index.html?;ACTION=3;LA=444;GROUP=ECC7;GROUPID=4319;ARTICLE=8569 HIROSE SW :: Hirose RJ45 Stecker, schwarz] || 0,90€ || 3,60€ || 104,50€
-|-
-| 10 || [http://www.reichelt.de/5x20mm-Feinsicherungen/MTR-0-1A/index.html?;ACTION=3;LA=2;ARTICLE=13229; MTR. 0,1A :: Feinsicherung 5x20mm, mittelträge 0,1A] || 0,11€ || 1,10€ || 105,60€
-|-
-| 12 || Reedschalter + Magnet || 3€ || 36€ || 141,60€ 
-|-
-| 4 || Abzweigdose, Feuchtraum IP54 || 1€ || 4€ || 145,60€
-|-
-| 10 || PG-Verschraubung || 1€ || 10€ || 155,60€
-|-
-| 4 || Heizungssteller || 0 || 0 || 155,60€ || 720€ || 800€
-|-
-| 5 || Anlegetemperaturfühler || 0 || 0 || 155,60€ || 165€ || 965€
-|-
-| 1 || Natriumhydroxid || 10€ || 10€ || 165,60€
-|-
-| 5 || Schalter/Taster || 2€ || 10€ || 175,60€
-|-
-| 5 || LED + Sockel || 1€ || 5€ || 180,60€
-|-
-| 20 || Kabelkanal || 2€ || 40€ || 220,60€
-|-
-| 1 || USB Einbaubuchse || 1€ || 1€ || 221,60€
-|-
-| 1 || ATMega AVR-RISC-Controller, S-DIL-28 || 2,35€ || 2,35€ || 223,95€
-|-
-| 15 || Sicherheitszuschlag || 1€ || 15€ || 238,95€
-|}
+In der Ecke Fenster/Tafel ist ein Gehäuse festgeschraubt, das eine Dockstar enthält, die über einen usb2serial mit einem Atmega644 kommuniziert, der die DS18S20-Sensoren ausliest und demnächst die Heizungssteller schalten soll.
 
-==Bilder==
-{|
-| [[Datei:IMG 0618.JPG|thumb|left|200px]]
-| [[Datei:IMG 0619.JPG|thumb|left|250px]]
-| [[Datei:Heizungssteller.jpg|thumb|left|250px]]
-|-
-| [[Datei:Sensor.jpg|thumb|left|250px]]
-|
-|
-|}
-
-==Temperatur-Board==
-[[Datei:Heizungssteuerung-Temperatur-Flowchart.png|thumb|right|400px]]
-Zur Messung der Temperaturen von Vor- und Rücklauf, sowie der Raumtemperatur, kommt ein AVR-Board zum Einsatz, dass seine Daten dann wie in der Grafik gezeigt verteilt. Aktuelle Werte sind im [https://pachube.com/feeds/42055 RaumZeitLabor-Pachube-Feed] zu finden.
-
-Rohdaten finden sich auf der Blackbox [http://blackbox.raumzeitlabor.de/temperatur/] (IPv6 only). In der Datei "log" stehen folgende Werte in jeder Zeile: 
-* Unix Timestamp
-* Vorlauf in °C*100
-* Rücklauf in °C*100
-* Temperatur bei der Tafel in °C*100
-* Temperatur unter der Beamerplattform in °C*100
-* und vier unbenutzte Temperatursensoreingänge, wenn jemand eine tolle Idee hat wo noch einer hinmuss und ein Kabel kann man da noch mehr Sensoren anschließen.
-
-Es ersetzt damit vorerst den [[RaumTemperaturLaborSensor]].
-
-== Umrüstung auf DS18S20 ==
-
-Da die analogen Temperatursensoren kalibriert werden müssen und ungenau sind werden sie durch digitale 1-wire-sensoren ersetzt (DS18S20).
+== Kabelbelegung Sensorkabel ==
 
 {| class="wikitable"
 ! Kabelfarbe || Signal
