@@ -1,0 +1,38 @@
+{{projektInfoBox
+|name = Class D Amplifier
+|description = Ein selbstgebauter Class D Audio-Verstärker, mit Mikrocontroller
+|author = [[Benutzer:Tiefpunkt|tiefpunkt]]
+|status = experimental
+}}
+Rouslan Dimitrov hat einen Class D Audioverstärker mit einem ATtiny45 gebaut, und den möcht ich nachbauen. Details zum Original gibt es in seinem Blog: http://www.twistedsanity.net/rdimitrov/blog/show.php?entry=Microcontroller%20Class%20D%20Amplifier,%20Rev2
+
+== Theorie ==
+Ein Class D Verstärker verstärkt nicht direkt das Audiosignal, sondern wandelt es in ein digitales SIgnal um, welches dann über PWM wieder ausgegen und verstärkt wird. Dadurch können die benutzten Transistoren wesentlich effizienter arbeiten, es gibt kaum Abwärme.
+
+== Rouslans Version ==
+Rouslan benutzt einen ATtiny45 als AD-Wandler, um das analoge Audiosignal in ein PWM-Signal umzuwandeln. Die benutzten MOSFETs gibt es leider bei Reichelt nicht. Ich habe ihn kontaktiert, und er meint, dass es da nicht so genau drauf ankommt. Darum werde ich wohl mit Alternativen rumspielen. Die LEDs in seiner Schaltung dienen nur als Zener-Dioden.
+
+=== Reichelt ===
+Hier eine Reichelt-Bestellliste für die nötigen Teile (nicht vollständig).
+<pre>
+µA 78L05;1
+ATTINY 45-20PU;1
+LED 5MM GN;6
+ZD 4,3;2
+METALL 100;1
+METALL 1,00K;1
+METALL 10,0K;2
+X7R-5 47N;2
+X7R-2,5 100N;2
+X7R-5 1,0N;1
+RAD 10/100;1
+RAD 330/35;1
+BS 170;2
+</pre>
+
+== Verbesserungen ==
+Zuerst soll das Original nachgebaut werden. Dann geht es mit Verbesserungen weiter.
+
+Der ATtiny hat nur einen 10bit-ADC. Das ist nicht gerade viel, und wirkt sich somit negativ auf die Audioqualität aus. Eine der Möglichkeiten zur Verbesserung der Qualität wäre Oversampling, aber dafür ist der µC bzw der ADC vermutlich zu langsam (probieren kann mans trotzdem mal). Alternativ könnte man einen anderen Microcontroller mit besserem ADC nutzen, oder aber einen externen ADC. Da ich bisher keinen akzeptablen anderen Microcontroller gefunden habe, tendiere ich zu einem externen ADC, in diesem Fall den ADS 7822, den es auch bei Reichelt gibt (Bestellnr: "ADS 7822 UB").
+
+[[Kategorie:Projekt]]
