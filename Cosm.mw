@@ -1,0 +1,26 @@
+{{projektInfoBox
+|name = Cosm Datalogging
+|status = beta
+|description = Give Cosm ALL the data!
+|author = [[Benutzer:tiefpunkt|tiefpunkt]]
+}}
+
+Wir haben einen Cosm-Feed: https://cosm.com/feeds/42055
+Dort wird so einiges aus dem RaumZeitLabor geloggt, zum Beispiel die Temperatur, der Stromverbrauch, Kontostand, Mitgliederzahl, und die Internetnutzung. Details und Doku dazu hier.
+
+== Temperatur ==
+Temperaturen loggt die [[Heizungssteuerung]] mit Hilfe von im Raum sowie im Getränkelager verteilten Temperatursensoren. Bei Fragen: [[Benutzer:Tiefpunkt|tiefpunkt]]
+
+== Stromverbrauch ==
+Der Stromzähler hängt an einem ATmega, der wiederum an der Blackbox hängt. Dort läuft in einem Screen ein Skript, dass den Stromverbrauch berechnet, und zu Cosm pusht. Bei Fragen: [[Benutzer:Alexander Brock|Alexander Brock]] und [[Benutzer:Tiefpunkt|tiefpunkt]]
+
+== Internet ==
+Aktuelle Up-/Download-Geschwindigkeit, sowie Latenz werden von der [[Firebox]] berechnet und hochgeladen. Bei Fragen:  [[Benutzer:Alexander Brock|Alexander Brock]] und [[Benutzer:Nicoduck|nicoduck]]
+
+== Raumstatus ==
+Der Raumstatus wird automatisch zu Cosm geschoben. Ein Skript holt sich regelmäßig den Status via API und läd ihn in unseren Cosm-Feed. Ansprechpartner: [[Benutzer:Tiefpunkt|tiefpunkt]] 
+
+== Mitgliederzahl/Kontostand ==
+Mitgliederzahl und Kontostand werden manuell über ein Webinterface aktualisiert. Bei Fragen: [[Benutzer:Alexander Brock|Alexander Brock]] und [[Benutzer:Tiefpunkt|tiefpunkt]]
+
+[[Kategorie:Projekt]]
