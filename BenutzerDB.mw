@@ -18,3 +18,5 @@
 == Technik ==
 
 Die BenutzerDB nutzt [http://perldancer.org/ Dancer] für die Perl-Scripte, welche mittels Twiggy? ausgeliefert werden. Der Apache ist so konfiguriert, daß er mittels ProxyPass das ganze auf der normalen Blackbox abbildet.
+
+Die BenutzerDB ist via https://raumzeitlabor.de/BenutzerDB/ erreichbar.
