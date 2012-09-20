@@ -1,6 +1,6 @@
 {{ProjektInfoBox
 |name        = RaumTemperaturLaborSensor
-|status      = experimental
+|status      = obsolete
 |image       = RaumZeitLabor - Logo - Schwarz.svg
 |description = Temperatur-Sensor im Raum
 |author      = [[Benutzer:Tiefpunkt|tiefpunkt]]
@@ -11,6 +11,8 @@
 |license     = 
 |download    = [https://github.com/raumzeitlabor/RaumTemperaturLaborSensor Source auf GitHub]
 }}
+'''Dieses Projekt ist in der [[Heizungssteuerung]] aufgegangen. Diese Wikiseite dient nur noch zu historischen Zwecken.'''
+
 Irgendwann mitten in der Nacht vom 15. zum 16. Dezember 2011 haben dunkle Mächte beschlossen, auf ihre etwas eigene Art und Weise das RaumZeitLabor zu verwanzen, und haben einen Temperatursensor installiert. Während wir sie leider nicht davon abhalten konnten, so haben wir es doch geschafft, ihre verschlüsselte Kommunikation abzuhören und öffentlich zu machen! Somit ist jetzt die aktuelle Temperatur im RaumZeitLabor online abrufbar, und zwar hier: https://pachube.com/feeds/42055
 
 == Aufbau ==
