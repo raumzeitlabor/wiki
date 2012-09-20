@@ -39,7 +39,7 @@ Hardware:
 
 {{ProjektInfoBox
 |name        = Ovencam
-|status      = alpha
+|status      = stable
 |image       = ovencam.jpg
 |description = Live-Bild unseres Backofens
 |author      = [[Benutzer:muzy|muzy]], [[Benutzer:nicoduck|nicoduck]]
@@ -70,7 +70,6 @@ Administratives:
 Hardware:
   * Webcam gehört muzy
   * MR 3020 gehört muzy
-
 
 == FaZzZ0r Cam ==
 
