@@ -185,13 +185,6 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 | Linux eignet sich hervorragend zum Aufsetzen von Hochverfügbarkeitssystemen. Im Talk schauen wir uns die Theorie dahinter an, wie man SPOFs vermeidet und welche Software Linux dazu bereithält.
 | Interessenten?
 |-
-| 2012-08-17
-| 
-| Die Ulticam
-| [[Benutzer:nicoduck|nicoduck]]
-| Derzeitiger Aufbau der Cam und eventuelle Erweiterungen.
-| 
-|-
 | 2012-09-21
 | 
 | Wegwerfserver mit Vagrant
@@ -399,6 +392,13 @@ Diese Vorträge sind schon durch - Aufzeichnungen und Folien bitte verlinken.
 | Wdh. der Grundlagen, Going Solo, Branching, Patching, Remote Repositories
 | [[Vorträge/Git_Praxisworkshop|Wiki-Page]]
 | n/a
+|-
+| 2012-08-21
+| Ulticam
+| [[Benutzer:Nicoduck|Nicoduck]]
+| Derzeitiger Aufbau der Cam und eventuelle Erweiterungen.
+| --
+| [https://www.youtube.com/watch?v=hpMmgSaQf4Q&feature=youtube_gdata_player]
 |-
 |}
 
