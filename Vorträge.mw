@@ -191,6 +191,13 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 | [[Benutzer:nicoduck|nicoduck]]
 | Derzeitiger Aufbau der Cam und eventuelle Erweiterungen.
 | 
+|-
+| 21.09.2012
+| 
+| Wegwerfserver mit Vagrant
+| [[Benutzer:TheTinyToon|Lars Kumbier]]
+| [http://www.vagrantup.com Vagrant] ist ein Set aus Scripten, das über Virtualbox und Puppet/Chef nach Rezepten lokale Server erstellt. Damit entfallen händisch erstellte virtuelle Entwicklungsmaschinen und auch Jahre nach einem Projekt hat man im Nu die Entwicklungsumgebung wiederhergestellt (beispielsweise bei einem Folgeprojekt). Vagrant untersützt auch das dynamische Erstellen kompletter Servernetzwerke.
+| Interessenten?
 |}
 
 ==Vergangen==
