@@ -4,7 +4,7 @@
 |author = [[Benutzer:Tiefpunkt|tiefpunkt]]
 |status = experimental
 }}
-Rouslan Dimitrov hat einen Class D Audioverstärker mit einem ATtiny45 gebaut, und den möcht ich nachbauen. Details zum Original gibt es in seinem Blog: http://www.twistedsanity.net/rdimitrov/blog/show.php?entry=Microcontroller%20Class%20D%20Amplifier,%20Rev2
+Rouslan Dimitrov hat einen Class D Audioverstärker mit einem ATtiny45 gebaut, und den möcht ich nachbauen. Details zum Original gibt es [http://www.twistedsanity.net/rdimitrov/blog/show.php?entry=Microcontroller+Class+D+Amplifier,+Rev2 hier in seinem Blog].
 
 == Theorie ==
 Ein Class D Verstärker verstärkt nicht direkt das Audiosignal, sondern wandelt es in ein digitales SIgnal um, welches dann über PWM wieder ausgegen und verstärkt wird. Dadurch können die benutzten Transistoren wesentlich effizienter arbeiten, es gibt kaum Abwärme.
