@@ -18,9 +18,7 @@ Dies wird unsere Projektseite für Freifunk.
 == Ressourcen ==
 * [http://interprojekt.pl interprojekt.pl] polnischer Shop mit allerlei WLAN Hardware (Boards, Steckkarten, Antennen, etc.). Verschickt auch nach DE.
 
-== Kickoff Meeting Protokoll ==
-
-=== Generelles ===
+== Generelles ==
 
 * FreiFunk Mannheim ist tot
 
@@ -37,7 +35,7 @@ VPN ueber Schweden (5€/mo)
 Was ist das Ziel?
 Anbindung von menschen nicht mehr wirklich relevant.
 
-=== Ideenrunde ===
+== Ideenrunde ==
 
 Wo liegt das interesse?
 
@@ -53,7 +51,34 @@ Wo liegt das interesse?
 * community splash screen
 * Forschung betreiben, knowhow sammeln
 
-=== Hardware ===
+== Frequenzen ==
+
+=== 2,4 GHz ===
+
+==== Vorteile ====
+* Größere Reichweite (100m Umkreis mit 100mW)
+* Niedrige Dämpfung im vergleich zu 5GHz
+* Billigere Hardware 
+
+==== Nachteile ====
+* Interferenzen da viele andere Anwender diese Frequenz auch nutzen (Babyfon, Bluetooth,etc.)
+* Viele Nutzer
+* Nur 3 überschneidungsfreie Frequenzen (Kanal 1, 7, 13)
+ 
+=== 5 GHz ===
+==== Vorteile ====
+* Weniger Nutzer
+* Mehr Frequenzen und 19 überlappungsfreie Kanäle
+* größere Reichweite bei bis zu 1W Sendeleistung (siehe Nachteile) (lässt sich bei openWRT nicht mal einstellen)
+
+==== Nachteile ====
+* Starke Regulierung
+* Nur manche Frequenzen mit bestimmten Leistungen
+* Nur manchen Frequenzen zur outdoor Nutzung freigegeben
+* Ohne DFS und TPC nur sehr geringe Sendeleistung erlaubt
+* Nur wenige Geräte die es nutzen können
+
+== Hardware ==
 
 -2,4Ghz-
 * Carambola(?) Board
@@ -69,7 +94,7 @@ Wo liegt das interesse?
 -Noch notwendige Test-Hardware-
 * 1 Router mit A/B gleichzeitig (Mesh auf A, Clients auf B)
 
-=== Software ===
+== Software ==
 
 * Freifunk-Firmware oder Eigene Firmware brauen???
 * '''ACHTUNG DIESE FREIFUNK FIRMWARE LÄSST SICH NUR SCHWER WIEDER RUNTER FLASHEN'''
@@ -78,21 +103,19 @@ Wo liegt das interesse?
  - selbstgebautes Image mit dem OpenWrt Image Builder '''ohne''' Freifunk foo ['''BENUTZBAR''' geht alles und man hat mehr platz da man beim Image erstellen Pakete angeben kann]
  - download des Images von openwrt.org ['''BENUTZBAR''' geht einfach und schnell, Pakete nachinstallieren ist doof da $DATEISYSTEM FOO]
 
-=== Organisation ===
+== Organisation ==
 
 * Wiki
 * Mailingliste (erstmal ueber RZL liste)
 * monatliche Treffen (jeden dritten freitag im monat, 1900)
 
-== Topics für's nächste Treffen ==
-
-=== Sicherheitsüberlegungen ===
+== Sicherheitsüberlegungen ==
 
 Die meist benutzte Freifunkstruktur von unverschlüsselten WLANs ist anfällig für das Abhören von Daten und Session Hijacking. Verschlüsselte WLANs beugen dem vor, erhöhen aber die Einstiegshürden, da das Kennwort irgendwie verteilt werden muss. Idee: Die meisten Router können min. 2 SSIDs getrennt managen, was beispielsweise benutzt werden kann, um das Heimnetzwerk vom Freifunknetz zu trennen und entsprechende Richtlinien zu vergeben (Heimnetzwerk hat Trafficvorrang und WPA2).
 
 Es wäre allerdings auch möglich, eine unverschlüsselte und eine mit WPA2 verschlüsselte SSID zu betreiben. Der unverschlüsselte Kanal würde im Splashscreen eine Warnung über die Sicherheitsproblematik beinhalten und auf die Möglichkeit der verschlüsselten SSID hinweisen. WPA2 lässt sich dazu in zwei verschiedenen Modi betreiben, die jeweils ihre Vor- und Nachteile haben
 
-==== WPA2 Personal (PSK) ====
+=== WPA2 Personal (PSK) ===
 
 Die Betriebsart mit einem Pre-Shared-Key (auch als "Personal" bezeichnet) setzt einen gemeinsamen Schlüssel für alle Clients ein. Trotz dessen wird für jeden Client ein eigener Schlüssel pro Session ausgehandelt, so dass sich Clients nicht einfach gegenseitig abhören können (bei bekanntem PSK und mitgeschnittenem 4-Wege-Handshake ist abhören möglich). 
 
@@ -100,7 +123,7 @@ Die Betriebsart mit einem Pre-Shared-Key (auch als "Personal" bezeichnet) setzt 
 
 ''Nachteile:'' Jeder AP sollte denselben PSK verwenden - bei einer Änderung tauchen sofort Inkonsistenzen auf, Syncproblematik.
 
-==== WPA2 Enterprise (Radius) ====
+=== WPA2 Enterprise (Radius) ===
 
 Die Enterprisevariante bietet die Möglichkeit, einen Nutzer per 802.1x und damit per Username/Kennwort oder per Zertifikat zu authentifizieren. Da wir OpenWRT benutzen, könnten wir auf mehrere Radius-Server betreiben, die sich gegenseitig synchronisieren. 
 
@@ -108,10 +131,10 @@ Die Enterprisevariante bietet die Möglichkeit, einen Nutzer per 802.1x und dami
 
 ''Nachteile:'' Zentralistisches Konzept, höherer Aufwand, mehr Fehlerquellen
 
-=== Domain ===
+== Domain ==
 
 Es ist zu überlegen ob wir wenn alles ins Laufen gekommen ist Domains für das Projekt anmelden oder ob wir alles hier Betreiben wollen
-
+"Kann ich mich drum kümmern" -- nazco
 
 == TODO ==
 
