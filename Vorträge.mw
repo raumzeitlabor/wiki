@@ -6,7 +6,7 @@ Um einen Vortrag zu dokumentieren legt bitte eine Unterseite (z.B. [[Vorträge/B
 
 Interessent sucht Referent zum allgemeinen Wissensaustausch - Wünsche nach Vorträgen kommen hier rein.
 
-{| class="wikitable sortable"  valign = "top"
+{| class="wikitable sortable td-top"
 ! Geplant seit
 ! Titel
 ! Beschreibung
@@ -44,7 +44,7 @@ Ein Referent wurde zu einem Themenwunsch gefunden oder es werden Interessenten f
 
 Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend Interessenten da sind, wird ein Datum gesetzt, wann der Vortrag gehalten wird.
 
-{| class="wikitable sortable"  valign = "top"
+{| class="wikitable sortable td-top"
 !Geplant seit
 !Datum
 !Titel
@@ -197,7 +197,7 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 
 Diese Vorträge sind schon durch - Aufzeichnungen und Folien bitte verlinken.
 
-{| class="wikitable sortable"  valign = "top"
+{| class="wikitable sortable td-top"
 !Datum
 !Titel
 !Referent
@@ -411,7 +411,7 @@ Diese Vorträge sind schon durch - Aufzeichnungen und Folien bitte verlinken.
 == Extern ==
 Vorträge über das RaumZeitLabor, oder anderweitig mit dem RaumZeitLabor verbunden.
 
-{| class="wikitable sortable"  valign = "top"
+{| class="wikitable sortable td-top"
 !Datum
 !Ort,Anlass
 !Titel
