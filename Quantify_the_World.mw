@@ -1,0 +1,76 @@
+{{projektInfoBox
+|name = Quantify the World
+|description = Sammel Daten über dich, deine Dinge, und die Welt da draußen
+|status = experimental
+|author = [[Benutzer:tiefpunkt|tiefpunkt]]
+}}
+[https://en.wikipedia.org/wiki/Quantified_Self Quantified Self] ist ein Trend, mehr Daten über sich selber zu finden. Aber warum nur über sich selber? Mit einfachen Mitteln sollte man einen Haufen Daten über sich und seine Umwelt sammeln können. Was das einem persönlich bringt, ist erstmal irrelevant.
+
+Erstmal eine Produkt-/Link-Sammlung. Alles andere kommt später.
+
+== Quantifiables ==
+=== Yourself ===
+==== Gewicht, Körperfett, etc. ====
+* Withings [http://www.withings.com/de/waage]
+* FitBit Aria [https://www.fitbit.com/de/product/aria]
+
+==== Aktiviät ====
+* FitBit
+* MyBasis
+
+==== Schlaf ====
+* zeo [http://www.myzeo.com/]
+
+
+=== Your Stuff ===
+==== Laptop/PC ====
+* SelfTrack [http://github.com/tiefpunkt/selftrack]
+** geschrieben in Python
+** getestet unter Linux, läuft nicht unter Windows, kA ob auf OS X
+** Browser Tabs, Memory Usage, Prozesse, CPU Auslastung, Temperatur
+
+
+=== Your Home ===
+==== Stromverbrauch ====
+* Open Energy Monitor [http://openenergymonitor.org/emon/emontx]
+** Arduino-basierend
+** bis zu 3 Sensoren
+
+* SEGmeter [https://shop.smartenergygroups.com/store/show/segmeter_v2]
+** $199
+** 8 Sensoren
+** SEGduino basierend
+** ZigBee
+
+* panStamp [http://www.panstamp.com/announcements/energyconsumptionandpowermeasurement]
+** Noch nicht zu kaufen
+** Format unbekannt
+** Bis zu 8 Sensoren
+
+==== Wasserverbrauch ====
+* Teague Leagues DIY Arduino Water Meter [http://labs.teague.com/?p=722]
+** Invasiv
+* Wunsch: Etwas non-invasives. Bsp: Umdrehungen des Rades auf Wasserzähler messen.
+
+=== The World ===
+* Buch von O'Reilly: [http://shop.oreilly.com/product/0636920021582.do Environmental Monitoring with Arduino]
+==== Luftqualität ====
+* SmartCitizen [http://smartcitizen.me]
+** Crowdfunding-Projekt des FabLab Barcelona
+** Misst Luftqualität, Temperatur, Feuchtigkeit, Helligkeit, und Lärm
+** [[Benutzer:tiefpunkt|tiefpunkt]] wartet auf "Full Smart Citizen Kit"
+* AirQualityEgg
+* NetAtmo [http://www.netatmo.com/]
+** Proprietär
+** Misst Temperatur, Luftdruck, Luftfeuchtigkeit, CO2-Gehalt, Lärm
+** iPhone/iPad-App (Android in Entwicklung)
+
+==== Wetter ====
+* Raspberry Pi + pywws [https://github.com/yfory/weather]
+** Online Wetterstation, aus Raspberry Pi und einer WH1080 Wetterstation (~110€)
+** Demo: [http://yfory.cc/weather/]
+
+== Siehe Auch ==
+* QtW im RaumZeitLabor: [[Cosm]]
+
+[[Kategorie:Projekt]]
