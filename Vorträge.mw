@@ -71,7 +71,7 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 |Network Security I
 |[[Benutzer:Docsteel|Docsteel]]
 |Grundlagen Network Security, IDS/IPS, DPI, Audit
-|[[Benutzer:bluegene|simon]], [[Benutzer:Blabber|blabber]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Nessi|nessi]], [[Benutzer:Dj2mc|dj2mc]], [[Benutzer:Hax404|hax404]], [[Benutzer:nazco|nazco]],[[Benutzer:Felicitus|Felicitus]], [[Benutzer:Rami|rami]], [[Benutzer:fabfrank|fabfrank]], [[Benutzer:PhyberApex|PhyberApex]], [[Benutzer:eeemsi|eeemsi]], [[Benutzer:nicoduck|nicoduck]]
+|[[Benutzer:bluegene|simon]], [[Benutzer:Blabber|blabber]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Nessi|nessi]], [[Benutzer:Dj2mc|dj2mc]], [[Benutzer:Hax404|hax404]], [[Benutzer:nazco|nazco]],[[Benutzer:Felicitus|Felicitus]], [[Benutzer:Rami|rami]], [[Benutzer:fabfrank|fabfrank]], [[Benutzer:PhyberApex|PhyberApex]], [[Benutzer:eeemsi|eeemsi]], [[Benutzer:nicoduck|nicoduck]], [[Benutzer:Cheatha|Cheatha]]
 |-
 | 2011-10-31
 |tba
@@ -85,7 +85,7 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 |Luzide Träume
 |[[Benutzer:Silsha|silsha]]
 |Wie man Träume hackt.
-|[[Benutzer:Hax404|hax404]], steeph, [[Benutzer:TheTinyToon|TTT]]
+|[[Benutzer:Hax404|hax404]], steeph, [[Benutzer:TheTinyToon|TTT]], [[Benutzer:Cheatha|Cheatha]]
 |-
 | 2011-10-31
 |tba
@@ -120,7 +120,7 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 |PHP: Serious Business
 |Felicitus
 |Warum PHP nicht mehr die Fricklersprache von gestern ist - ernsthafte Softwareentwicklung mit PHP, Doctrine2 und Symfony2
-|([[Benutzer:Rami|rami]]), [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Else|else]], [[Benutzer:eeemsi|eeemsi]], steeph
+|([[Benutzer:Rami|rami]]), [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Else|else]], [[Benutzer:eeemsi|eeemsi]], steeph, [[Benutzer:Cheatha|Cheatha]]
 |-
 | 2012-02-24
 |tba
@@ -169,14 +169,14 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 | Löten
 | [[Benutzer:TabascoEye|TabascoEye]]
 | Wie funktioniert das mit dem Lötzinn und Lötkolben
-| [[Benutzer:DreamFlasher|DreamFlasher]], [[Benutzer:hax404|hax404]]
+| [[Benutzer:DreamFlasher|DreamFlasher]], [[Benutzer:hax404|hax404]], [[Benutzer:Cheatha|Cheatha]]
 |-
 | 2012-08-16
 | 
 | Kryptographie (Vortragsreihe)
 | [[Benutzer:TheTinyToon|Lars Kumbier]]
 | Eine Übersicht über Kryptographie und wie sie geknackt wurde - vom Caesar-Chiffre bis zur Quantenkryptographie. Wird eine Vortragsreihe mit anschaulichen Beispielen. 
-| [[Benutzer:hax404|hax404]]
+| [[Benutzer:hax404|hax404]], [[Benutzer:Cheatha|Cheatha]]
 |-
 | 2012-08-17
 | 
@@ -190,6 +190,34 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 | Wegwerfserver mit Vagrant
 | [[Benutzer:TheTinyToon|Lars Kumbier]]
 | [http://www.vagrantup.com Vagrant] ist ein Set aus Scripten, das über Virtualbox und Puppet/Chef nach Rezepten lokale Server erstellt. Damit entfallen händisch erstellte virtuelle Entwicklungsmaschinen und auch Jahre nach einem Projekt hat man im Nu die Entwicklungsumgebung wiederhergestellt (beispielsweise bei einem Folgeprojekt). Vagrant untersützt auch das dynamische Erstellen kompletter Servernetzwerke.
+| [[Benutzer:Cheatha|Cheatha]]
+|-
+| 2012-09-25
+| 
+| Fotografiekurs
+| [[Benutzer:Cheatha|Cheatha]]
+| Mehrteiliger Workshop, der sich mit Themen wie Grundlagen, Technik, fotografisches Sehen und Bildgestaltung auseinandersetzt. Bitte eigene Digitalkamera mitbringen! (Handyknipse mit 0,x Megapixel reicht.) Disclaimer: Ich bin kein ausgebildeter Fotograf.
+| Interessenten?
+|-
+| 2012-09-25
+| 
+| Einführung in die Bildverwaltung mit Aperture
+| [[Benutzer:Cheatha|Cheatha]]
+| Es ist schön, wenn man viele tolle Bilder gemacht hat. Aber: Wie bekommt man da Ordnung rein?
+| Interessenten?
+|-
+| 2012-09-25
+| 
+| Musikverwaltung mit MusicBrainz Picard
+| [[Benutzer:Cheatha|Cheatha]]
+| Wie bekommt man endlich Ordnung in seine Musiksammlung? Mit MusicBrainz Picard! (Diese Veranstaltung fand zwar schon statt, wurde aber nicht aufgezeichnet, weshalb ich sie wiederholen würde…)
+| Interessenten?
+|-
+| 2012-09-25
+| 
+| Praktische Einführung in After Effects
+| [[Benutzer:Cheatha|Cheatha]]
+| If everything else fails, read the manual. Aber bevor das passiert, kann man sich ja auch einfach mal anhören, wie die ersten Schritte im Bereich 2.5D Animation mit Adobe After Effects aussehen.
 | Interessenten?
 |}
 
