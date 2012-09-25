@@ -1,0 +1,24 @@
+{{projektInfoBox
+| name = Eismaschine
+| description = Softeismaschine
+| status = Beta
+}}
+Der MuCCC hat uns seine Eismaschine geliehen. Sie ist ein bisschen kaputt und freut sich auch sonst über witzige Upgrades und Features.
+
+== Issues ==
+Die Maschine ist schon etwas älter und hat ein paar kleinere Problemchen.
+
+* Aufsatz vorne undicht
+** Dichtringe veraltet
+* Thermosicherungen fliegen ständig raus
+** Spanngurte um die Maschine sind keine längerfristig valide Lösung.
+
+== Upgrades ==
+Hack the Machine!!!1!
+
+* Füllstandsanzeige
+**  Idee: Abstandssensor an der Unterseite des Deckels misst die Höhe der Eisrohmasse im oberen Behälter.
+* Temperaturmessung
+** IR-Sensor im Deckel für Temperatur der Rohmasse
+
+[[Kategorie:Projekt]]
