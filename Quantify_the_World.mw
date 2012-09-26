@@ -21,7 +21,6 @@ Erstmal eine Produkt-/Link-Sammlung. Alles andere kommt später.
 ==== Schlaf ====
 * zeo [http://www.myzeo.com/]
 
-
 === Your Stuff ===
 ==== Laptop/PC ====
 * SelfTrack [http://github.com/tiefpunkt/selftrack]
@@ -29,6 +28,9 @@ Erstmal eine Produkt-/Link-Sammlung. Alles andere kommt später.
 ** getestet unter Linux, läuft nicht unter Windows, kA ob auf OS X
 ** Browser Tabs, Memory Usage, Prozesse, CPU Auslastung, Temperatur
 
+==== Pflanzen ====
+* Koubachi WiFi Pflanzensensor [http://www.koubachi.com/features/sensor?locale=de]
+* Lässt sich sicher auch selber bauen (Nanode+2 Elektroden pro Pflanze?)
 
 === Your Home ===
 ==== Stromverbrauch ====
@@ -46,6 +48,9 @@ Erstmal eine Produkt-/Link-Sammlung. Alles andere kommt später.
 ** Noch nicht zu kaufen
 ** Format unbekannt
 ** Bis zu 8 Sensoren
+
+* Fluksometer [https://www.flukso.net/]
+** Erfahrung im RZL waren nicht so der Renner.
 
 ==== Wasserverbrauch ====
 * Teague Leagues DIY Arduino Water Meter [http://labs.teague.com/?p=722]
@@ -69,6 +74,12 @@ Erstmal eine Produkt-/Link-Sammlung. Alles andere kommt später.
 * Raspberry Pi + pywws [https://github.com/yfory/weather]
 ** Online Wetterstation, aus Raspberry Pi und einer WH1080 Wetterstation (~110€)
 ** Demo: [http://yfory.cc/weather/]
+
+==== Sonstiges ====
+* Strahlung
+** [https://www.sparkfun.com/products/10742 Sparkfun], [http://strawberry-linux.com/catalog/items?code=53001 Strawberry Linux]
+** Google Code Projekt [https://code.google.com/p/open-geiger-development-kit/source/browse/wiki/GeigerCounter.wiki?r=8]
+** Ideen bei Cosm [http://community.cosm.com/node/611]
 
 == Siehe Auch ==
 * QtW im RaumZeitLabor: [[Cosm]]
