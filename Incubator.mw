@@ -154,6 +154,15 @@ Zum Beispiel IRC, den Statusbot, Temperaturen, stündliche Bilder mit einer ange
 |added   = 16.08.2012
 |touched = 16.08.2012
 }}
+{{IncubatorProjectIdea
+|title   = Thingiverse + Git
+|descr   = Thingiverse ist cool, aber in letzter Zeit ordentlich ins Kreuzfeuer geraten. Außerdem kann es keine Versionierung. Schön doof. API ist auch murks, heißt so mit automatischem Deployen oder so ist schonmal nix. Schade. Aber warum nicht mal was Neues bauen? So eine Kombination aus GitHub und Thingiverse.
+|author  = [[Benutzer:Tiefpunkt|tiefpunkt]]
+|megusta = 
+|added   = 26.09.2012
+|touched = 26.09.2012
+|comment = 
+}}
 |-
 |}
 
