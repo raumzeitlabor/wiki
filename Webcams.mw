@@ -27,7 +27,7 @@ Du willst sehen was gedruckt wird? Mal schnell den Status checken?
 Jetzt mit HD-Bild bei 1280x720 Pixeln!
 
 Zugang im RaumZeitLabor:
-  * [http://ulticam.rzl Live Bild (1280x720)] (Vorzugweise zu verwenden, Stream ist schlecht fürs Netzwerk)
+  * [http://ulticam.rzl/ Live Bild (1280x720)] (Vorzugweise zu verwenden, Stream ist schlecht fürs Netzwerk)
   * [http://ulticam.rzl:8080/?action=stream Live Stream (1280x720) mit Motion-JPG]
 
 Zugang von Extern:
@@ -64,7 +64,7 @@ Brennt die Pizza schon oder ist ist's bereits Kohle? Jetzt nachschauen ohne aufz
 Wenn der Ofen aus ist gibt es lustige Bilder mit tollen Spiegelungen. In HD!
 
 Zugang im RaumZeitLabor:
-  * [http://ovencam.rzl Live Bild (1280x720)] (Vorzugweise zu verwenden, Stream ist schlecht fürs Netzwerk)
+  * [http://ovencam.rzl/?action=snapshot Live Bild (1280x720)] (Vorzugweise zu verwenden, Stream ist schlecht fürs Netzwerk)
   * [http://ovencam.rzl/?action=stream Live Stream (1280x720) mit Motion-JPG]
 
 Zugang von Extern:
