@@ -1,0 +1,47 @@
+{{ProjektInfoBox
+|name        = Spendenterminal
+|status      = stable
+|image       = Spendenterminal.jpg
+|description = Spenden mit EC-Karte 
+|author      = [[Benutzer:muzy|muzy]]
+|username    = 
+|version     = 1.2
+|update      = 27.09.2012
+|platform    = Dockstar
+|preis       = 
+|license     = 
+|download    = http://github.com/muzy/donationprint
+}}
+
+An das RaumZeitLabor spenden ist eine tolle Sache. Bargeld kann man einfach in die Kasse werfen, aber oft genug ist der Geldbeutel leer und das Geld nur per Plastikkarte verfügbar. Genau dieser Fall wird von dem Spendenterminal abgedeckt. 
+
+
+== Was du zum Spenden tun musst ==
+
+  1) Du ziehst deine EC-Karte, mit dem Magnetstreifen zu dir    
+     zeigend, durch den Magnetkartenleser
+
+  2) Ein Spendenbon, in dem die wichtigsten Informationen schon 
+     ausgefüllt sind, wird ausgedruckt. Einfach Betrag angeben und 
+     unterschreiben.
+
+  3) Vollständig ausgefüllten Bon in den Vorstandsbriefkasten 
+     (unter der Treppe zum Olymp) werfen.
+
+  4) Unser Kassenwart wird den Betrag in den nächsten Tagen den 
+     Betrag per Lastschrift von deinem Konto abbuchen.
+
+== Was passiert mit den Kartendaten? ==
+
+Der Kartenleser ließt Spur 3 deines Magnetstreifens aus und extrahiert daraus Kontonummer und Bankleitzahl, um diese beiden Felder vorauszufüllen. Das ist notwendig um Zahlendreher zu vermeiden. Die '''Daten werden nicht gespeichert''', sondern sind nur kurz im RAM. Das Spendenterminal ist nicht per Netzwerk angebunden.
+
+== Immer noch unsicher? ==
+
+Ziehe einfach eine andere Karte mit Magnetstreifen durch den Kartenleser und es wird ein leeres Formular gedruckt, welches du per Hand ausfüllen kannst. Bei Fragen steht dir [[Benutzer:muzy|muzy]] gerne zur Verfügung, der Sourcecode ist frei verfügbar.
+
+== Danksagungen ==
+
+  * [[Benutzer:Unicorn|Unicorn]] für den Magnetstreifenleser.
+  * [[Benutzer:Kisl|Kisl]] für Postscript-Magie die alles schneller macht.
+  * Benjamin für die Hilfe bei der Monatge an der aktuellen Position
+  * Alle Spender für ihren tollen Beitrag, das RaumZeitLabor finanziell zu unterstützen
