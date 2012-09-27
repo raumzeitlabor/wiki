@@ -166,8 +166,17 @@ Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerd
 |-
 |fabber-parts
 |Alle
-| Dicke ist sehr variabel, zwischen 2.9 und 3.1mm ist alles dabei (auf derselben Spule) und weist teilweise einige enge Biegungen auf. What you pay is what you get. Bleibt nicht gut auf dem blauen Tape kleben und zieht merkwürdige Fäden. Der erste Layer ist sehr übel druckbar, ich konnte dieses PLA nur drucken, wenn das Druckbett ziemlich genau 0.15mm Abstand vom Kopf hat. Alles darüber hat den Effekt, daß das Material mitgezogen wird. Eventuell kann man das umgehen, wenn man die Druckgeschwindigkeit des ersten Layers noch weiter verringert oder das beheizte Druckbett verwendet. Ist aber nervig. Dieses PLA '''nicht''' mehr kaufen.
+| Dicke ist sehr variabel, zwischen 2.9 und 3.1mm ist alles dabei (auf derselben Spule) und weist teilweise einige enge Biegungen auf. 
+Trotzdem gibt es unterschiedliche Erfahrungen.
+
+[[User:Felicitus|Felicitus]]:
+What you pay is what you get. Bleibt nicht gut auf dem blauen Tape kleben und zieht merkwürdige Fäden. Der erste Layer ist sehr übel druckbar, ich konnte dieses PLA nur drucken, wenn das Druckbett ziemlich genau 0.15mm Abstand vom Kopf hat. Alles darüber hat den Effekt, daß das Material mitgezogen wird. Eventuell kann man das umgehen, wenn man die Druckgeschwindigkeit des ersten Layers noch weiter verringert oder das beheizte Druckbett verwendet. Ist aber nervig. Dieses PLA '''nicht''' mehr kaufen.
+
+[[User:echox|echox]]:
+Es ist nicht so dass man damit garnicht drucken koennte. Ich bin mit http://log.raumzeitlabor.de/image/29923341953 oder http://log.raumzeitlabor.de/image/32274673845 als Ergebnis sehr zufrieden und konnte keine Probleme feststellen.
+Mit dem Rot hatte ich aber aehnliche Schwierigkeiten.
 |}
+
 == Bilder ==
 
 [[Datei:Ultimaker Mainboard Revision.jpg|thumb|left|Die exakte Mainboard-Revision unseres Ultimakers]]
