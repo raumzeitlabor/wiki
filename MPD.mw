@@ -1,6 +1,6 @@
 {{ProjektInfoBox
 |name        = MPD-Wipe&Defrag
-|status      = 
+|status      = stable
 |image       = 
 |description = 
 |author      = [[Benutzer:hax404|hax404]]
@@ -14,8 +14,16 @@
 |preis       =
 }}
 
-Ich ([[Benutzer:hax404|hax404]]) stoße mal das Projekt „MPD-Wipe&Defrag“ an. Ziel ist es, dass am Ende die Musik im Datengrab geordnet und getaggt ist.
-= Erst die Arbeit… =
+= Frontends =
+== ncmpcpp ==
+* Ideal für alle Konsolenliebhaber
+* 
+
+= Hardware =
+Aktuell kommt ein Raspberry-Pi zum Einsatz. Die Soundausgabe erfolgt über eine daran angeschlossene USB-Soundkarte. Dieser kommt mit UTF-8 zurecht.
+
+= Wie Musik abgespeichert werden sollte =
+== Erst die Arbeit… ==
 Gedanken zu diesem Thema:
 # Ordnerhirachie:<pre>Interpret/Album/Tracknummer - Interpret - Titel.Dateiendung</pre>
 # bei Mehrfach-CD-Alben fängt die Tracknummer mit der Nummer der CD ohne führende Null an: <pre>1-02 - Interpret - Titel.Dateiendung</pre>
@@ -31,14 +39,13 @@ Gedanken zu diesem Thema:
 
 Zum taggen empfiehlt sich [http://musicbrainz.org/doc/MusicBrainz_Picard Music Brainz Picard]: kostenlos, open source, erweiterbar, cross-Plattform. Kann Musik anhand eines Fingerprints erkennen und automatisch in eine vorgegebene Ordnerstruktur verschieben.
 
-= Picard richtig einstellen =
+== Picard richtig einstellen ==
 Bitte unbedingt bei Verwendung von Picard folgendes beachten:
 * Unter '''Options → Options… → Name files like this''' <pre>$if2(%albumartist%,%artist%)/%album%/$if($gt(%totaldiscs%,1),%discnumber%-,)$num(%tracknumber%,2) - %artist% - %title% </pre>
 * Kein Programm ist perfekt - auch nicht Picard. Bitte nur unter '''datengrab/share/music/inbox''' oder lokal speichern lassen.
 * Lieber vorher nachsehen, ob das gewünschte Album schon existiert. Dupletten bitte immer vermeiden.
 
-= …dann das Vergnügen =
-
+== …dann das Vergnügen ==
 Viele Clients ordnen die Musik standardmäßig die Musik nach dem Artist und nicht nach dem Album-Artist. Dies fällt bei Alben auf, die Remixe von verschiedenen Interpreten enthalten. Diesem Umstand kann in der Regel in den Ansichtsoptionen entgegengewirkt werden:
 ;ncmpcpp: <pre>~/.ncmpcpp/config: media_library_left_column = "A"</pre>
 
