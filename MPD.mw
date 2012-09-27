@@ -16,13 +16,17 @@
 
 = Frontends =
 == ncmpcpp ==
-* Ideal für alle Konsolenliebhaber
-* 
+* Newcurses-MPD-Client in C++ geschrieben
+
+== Ario ==
+* MPD-Client für die grafische Oberfläche
 
 = Hardware =
 Aktuell kommt ein Raspberry-Pi zum Einsatz. Die Soundausgabe erfolgt über eine daran angeschlossene USB-Soundkarte. Dieser kommt mit UTF-8 zurecht.
 
 = Wie Musik abgespeichert werden sollte =
+Wer damit klar kommt, dass seine Musik nicht sofort im MPD verfügbar ist, kann seine Musik in Datengrab/music/inbox albumweise speichern. Jemand, der diese dort findet, wird diese passend einsortieren.
+
 == Erst die Arbeit… ==
 Gedanken zu diesem Thema:
 # Ordnerhirachie:<pre>Interpret/Album/Tracknummer - Interpret - Titel.Dateiendung</pre>
