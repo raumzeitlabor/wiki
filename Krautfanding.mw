@@ -30,7 +30,7 @@ __TOC__
 Wenn ein Projekt abgeschlossen, aber noch Geld im Projekttopf vorhanden ist, entfällt die Zweckbindung dieser Projektmittel.
 
 == Projektliste  ==
-{| class="wikitable"  valign = "top"
+{| class="wikitable"  class="td-top"
 !Konto
 !Projekt
 !Ansprechpartner
