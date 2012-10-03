@@ -3,7 +3,8 @@ Blackbox ist unser interner Server. Dieser hostet derzeit:
 * PartDB
 * PartKeepr
 * approx
-
+* BenutzerDB
+* Strom+Temperaturlogging
 = Hardware =
 
 Das ist eine AMD Geode 500MHz Kiste, die von einer CF-Karte bootet, um möglichst stromsparend zu sein.
