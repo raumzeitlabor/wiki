@@ -37,6 +37,7 @@ Wenn ein Projekt abgeschlossen, aber noch Geld im Projekttopf vorhanden ist, ent
 !Benötigt
 !Eingenommen
 !Ausgegeben
+!Vorhanden
 |-
 |100001
 |HD Beamer (z.B. BenQ W1100)
@@ -44,6 +45,7 @@ Wenn ein Projekt abgeschlossen, aber noch Geld im Projekttopf vorhanden ist, ent
 |900,—€
 |5,—€
 |0,—€
+|5,—€
 |-
 |100002
 |Ponyplakate im Flur<br><small>Wird jeweils bestellt, wenn genug Geld für da ist</small>
@@ -51,6 +53,7 @@ Wenn ein Projekt abgeschlossen, aber noch Geld im Projekttopf vorhanden ist, ent
 |∞ €
 |102,—€
 |0,—€
+|102,—€
 |-
 |100003
 |[http://futurist.se/gldt/ Distributionstimeline] als Plakat für den Flur
@@ -58,11 +61,13 @@ Wenn ein Projekt abgeschlossen, aber noch Geld im Projekttopf vorhanden ist, ent
 |
 | 0,—€
 | 0,—€
+| 0,—€
 |-
 |100004
 |Unterstütze die [http://trollcon.de Trollcon]
 |[[Benutzer:Silsha|silsha]], [[Benutzer:Blabber|blabber]], [[Benutzer:Unicorn|Unicorn]]
 |
-|717,01€
-|187,31€
+|782,01€
+|299,75€
+|482,26€
 |}
