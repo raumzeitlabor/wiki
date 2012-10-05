@@ -22,6 +22,7 @@ Hier eine Sammlung von Ideen. Fügt eure einfach hinzu, vielleicht finden sich j
 |- style="font-style: italic;"
 | &nbsp;
 | colspan=4 | Beschreibung
+
 {{IncubatorProjectIdea
 |title   = GroupTumblr
 |descr   = Webinterface, um $Dinge in unseren Tumblr posten zu können
@@ -30,6 +31,7 @@ Hier eine Sammlung von Ideen. Fügt eure einfach hinzu, vielleicht finden sich j
 |added   = 04.04.2012
 |touched = 04.04.2012
 }}
+
 {{IncubatorProjectIdea
 |title   = Barbot
 |descr   = Ein Getränke-mixender Roboter
@@ -38,6 +40,7 @@ Hier eine Sammlung von Ideen. Fügt eure einfach hinzu, vielleicht finden sich j
 |added   = 04.04.2012
 |touched = 04.04.2012
 }}
+
 {{IncubatorProjectIdea
 |title   = Nerd am Herd II
 |descr   = Mal wieder etwas Education rund um die Küche ansich, Techniken und Koordination im Küchenchaos
@@ -46,6 +49,7 @@ Hier eine Sammlung von Ideen. Fügt eure einfach hinzu, vielleicht finden sich j
 |added   = 08.04.2012
 |touched = 08.04.2012
 }}
+
 {{IncubatorProjectIdea
 |title   = [[Tischsteckdosen|Intelligente Kabelführung am Konferenztisch]]
 |descr   = Steckdosen/RJ45-Buchsen/Kabelkanäle an den Konferenztischen anbringen, um den massiven Kabelsalat zu reduzieren. Eventuell auch eine Art "Tribüne" vor die Tafel basteln, um Kabel drunter durch zulegen. Idealerweise sollten die Dosen versenkt werden. Angenommen, die Tische werden durch ein an jedem Tisch durchgeschleiftes Kabel mit Strom versorgt. Bei welchem Kabelquerschnitt das zulässig?
@@ -54,6 +58,7 @@ Hier eine Sammlung von Ideen. Fügt eure einfach hinzu, vielleicht finden sich j
 |added   = 27.04.2012
 |touched = 10.08.2012
 }}
+
 {{IncubatorProjectIdea
 |title   = [[USB Switch]]
 |descr   = Ein Device, um USB-powered Geräte wie LEDs, Ventilatoren, etc. an- und ausschalten zu können, nicht nur [http://www.getdigital.de/products/ultimatehub ohne abstöpseln], sondern per Software.
@@ -62,6 +67,7 @@ Hier eine Sammlung von Ideen. Fügt eure einfach hinzu, vielleicht finden sich j
 |added   = 08.05.2012
 |touched = 19.06.2012
 }}
+
 {{IncubatorProjectIdea
 |title   = Die RZL-Blackbox
 |descr   = Eine schwarze Box, die alle Aktivitäten im RZL loggt.
@@ -71,6 +77,7 @@ Zum Beispiel IRC, den Statusbot, Temperaturen, stündliche Bilder mit einer ange
 |added   = 12.05.2012
 |touched = 12.05.2012
 }}
+
 {{IncubatorProjectIdea
 |title   = Das negierte Navi
 |descr   = Ein Navi das immer ansagt, was man NICHT tun soll. "Fahren Sie nicht links, fahren Sie nicht rechts, wenden Sie nicht." Wäre die Ansage für fahren Sie an einer Kreuzung gerade aus. "Fahren sie die nächste Abfahrt NICHT ab."
@@ -79,6 +86,7 @@ Zum Beispiel IRC, den Statusbot, Temperaturen, stündliche Bilder mit einer ange
 |added   = 08.04.2012
 |touched = 08.04.2012
 }}
+
 {{IncubatorProjectIdea
 |title   = Brick Box
 |descr   = Kiste(n) mit den genoppten Steinen zum Spielen, Bauen, Konstruieren, evtl auch Programmieren (Mindstorms) Aufbau einer LEGO Sammlung. Erstmal ein Grundsortiment anschaffen, dann langsam aufstocken. Würde auch sehr gerne Mindstorms mit einbeziehen, allerdings ist das eben doch recht teuer, selbst gebraucht. Kann man die Teile dann evtl auch mit dem PartKeepr erfassen und katalogisieren oder ist der nur für Elektronikteile? 
@@ -87,6 +95,7 @@ Zum Beispiel IRC, den Statusbot, Temperaturen, stündliche Bilder mit einer ange
 |added   = 20.05.2012
 |touched = 20.05.2012
 }}
+
 {{IncubatorProjectIdea
 |title   = Handarbeitselipse
 |descr   = (Mehr oder weniger) Regelmäßige Treffen zum Sticken, Stricken, Häkeln, Nähen, Basteln. Eine Stickmaschine haben wir schon, wäre es gut auch eine Nähmaschine zu haben? Dazu einen Grundstock an Werkzeug (Strick- und Häkelnadeln, Scheren, etc) und Materialien (Garn, Wolle, aber auch Papier, Pappen, Klebstoffe) Dazu dann (regelmäßig) wechselnde Dekorationen (Themes) für den Raum zusammen entwickeln und umsetzen.
@@ -100,6 +109,7 @@ Zum Beispiel IRC, den Statusbot, Temperaturen, stündliche Bilder mit einer ange
 |added   = 20.05.2012
 |touched = 20.05.2012
 }}
+
 {{IncubatorProjectIdea
 |title   = GSM Security
 |descr   = Ich habe mit viel Interesse CRE179 gehört, sowie die CCC-Talks zu OsmocomBB usw. gesehen. In anfänglicher Euphorie habe ich mir direkt ein Motorola C123, das Maintarget von Osmocom, in der Bucht geschossen. Das Handy liegt in meiner Kiste und ich habe leider keine Zeit mich darum zu kümmern. Vielleicht mag jemand die 2TB Rainbow Tables laden (kann ich auch übernehmen, ich habe eine schnelle Leitung zu Hause aber keine HDD), die Software bauen, Spaß haben und einen Vortrag halten. Hier noch ein paar Links zum Thema:
@@ -114,6 +124,7 @@ Zum Beispiel IRC, den Statusbot, Temperaturen, stündliche Bilder mit einer ange
 |added   = 22.05.2012
 |touched = 24.05.2012
 }}
+
 {{IncubatorProjectIdea
 |title   = Der Ragefacestempel
 |descr   = Einen (günstigen) Druckkopf, gerne Nadeldrucker, mit ATMega versehen. An einem Drehrad kann man die Nummer von ragefac.es auswählen und das entsprechende Bildchen (oder die URL) auf beliebige Oberflächen StempelDrucken.
@@ -122,6 +133,7 @@ Zum Beispiel IRC, den Statusbot, Temperaturen, stündliche Bilder mit einer ange
 |added   = 25.05.2012
 |touched = 25.05.2012
 }}
+
 {{IncubatorProjectIdea
 |title   = JouleThief Bike Light
 |descr   = 1. JouleThief + LEDs = Fahrradlampe, die auf Restbatterien läuft, 2. ???, 3. Profit!
@@ -130,6 +142,7 @@ Zum Beispiel IRC, den Statusbot, Temperaturen, stündliche Bilder mit einer ange
 |added   = 21.06.2012
 |touched = 21.06.2012
 }}
+
 {{IncubatorProjectIdea
 |title   = MAME Cabinet
 |descr   = Eine Spielhöllenconsole im Selbstbau.
@@ -138,6 +151,7 @@ Zum Beispiel IRC, den Statusbot, Temperaturen, stündliche Bilder mit einer ange
 |added   = 22.06.2012
 |touched = 22.06.2012
 }}
+
 {{IncubatorProjectIdea
 |title   = [[NerdsSatellite|Vollautonomes System/ähnlich Satellit]]
 |descr   = System, welches sich bei mitteleuropäischen Wetterbedingungen ein ganzes Jahr eigenständig mit Energie(reserven) versorgt und dabei gleichzeitig zu mindest bei ausreichenden Energiereserven via UMTS im Internet erreichbar ist oder sich zB per twitter regelmäßig meldet. Praktische Anwendung: zB moderner Geo-Cache.
@@ -146,6 +160,7 @@ Zum Beispiel IRC, den Statusbot, Temperaturen, stündliche Bilder mit einer ange
 |added   = 27.6.2012
 |touched = 27.6.2012
 }}
+
 {{IncubatorProjectIdea
 |title   = Ballonmission
 |descr   = Wir starten eine Sonde mit Hilfe eines 50€ Ballon von ebay und einer Pulle Wasserstoff bzw. Aluminium + Abflussreiniger + Wasser.  Ich habe noch eine alte Kamera, einen GPS-Empfänger und jede Menge LiPo Akkus.
@@ -154,6 +169,7 @@ Zum Beispiel IRC, den Statusbot, Temperaturen, stündliche Bilder mit einer ange
 |added   = 16.08.2012
 |touched = 16.08.2012
 }}
+
 {{IncubatorProjectIdea
 |title   = Thingiverse + Git
 |descr   = Thingiverse ist cool, aber in letzter Zeit ordentlich ins Kreuzfeuer geraten. Außerdem kann es keine Versionierung. Schön doof. API ist auch murks, heißt so mit automatischem Deployen oder so ist schonmal nix. Schade. Aber warum nicht mal was Neues bauen? So eine Kombination aus GitHub und Thingiverse.
@@ -164,6 +180,8 @@ Zum Beispiel IRC, den Statusbot, Temperaturen, stündliche Bilder mit einer ange
 |comment = 
 }}
 |-
+
+<!-- Neue Einträge *über* diesem Kommentar einfügen. -->
 |}
 
 == Mitstreiter gesucht ==
@@ -179,6 +197,7 @@ Wer sich an Projekten beteiligen möchte, hier eine Liste.
 |- style="font-style: italic;"
 | &nbsp;
 | colspan=4 | Beschreibung
+
 {{IncubatorProjectIdea
 |title   = [[Benutzer:Felicitus/Modular-Synth|RaumZeitLabor Modularsynth]]
 |descr   = Ein modularer Synthesizer
@@ -188,6 +207,7 @@ Wer sich an Projekten beteiligen möchte, hier eine Liste.
 |touched = ?
 |comment = Wer auch Module bauen möchte oder einfach etwas über Synthesizer lernen möchte, spricht Felicitus an. Er baut den Modularsynth und freut sich über Hilfe oder über Interessenten.
 }}
+
 {{IncubatorProjectIdea
 |title   = Lost&Found-Cam
 |descr   = Der bisherige Plan zur Katalogisierung der gefundenen Gegenstände scheiterte anscheinend an zu hohem Bedarf für menschliche Arbeit.<ref>ml://RaumZeitLabor@raumzeitlabor.de/20120829211427.GA2198@oshi.local</ref> Möglicherweise könnte Technik da helfen: Eine billige Kamera direkt in die L&F Kiste so integrieren, dass ein Upgrade von "Gegenstand reinlegen" auf "... und ein Foto davon auf $fotoblog uppen" nur ein Knopfdruck mehr ist.
@@ -199,6 +219,7 @@ Wöchentliche Zusammenfassung der neuen Fotos an die Mailing-Liste? Als Turnus l
 |touched = 2012-08-30
 |comment = Hab die nächsten Wochen leider vermutlich keine Zeit, selbst viel dazu beizutragen. :-(
 }}
+
 {{IncubatorProjectIdea
 |title   = [[Haxx0r Brain Computer Interface|HBCI]]
 |descr   = <code>$ </dev/ttyBrain0 tee blafoo.txt</code>
@@ -208,6 +229,7 @@ Wöchentliche Zusammenfassung der neuen Fotos an die Mailing-Liste? Als Turnus l
 |touched = 01.09.2012
 |comment = 
 }}
+
 {{IncubatorProjectIdea
 |title   = [[Cyborg Gadgets]]
 |descr   = erweiter dich selbst modular; 1. Projekt: Kompass
@@ -217,6 +239,7 @@ Wöchentliche Zusammenfassung der neuen Fotos an die Mailing-Liste? Als Turnus l
 |touched = 02.09.2012
 |comment = 
 }}
+
 {{IncubatorProjectIdea
 |title   = [[GHT++ 3D]]
 |descr   = Grobhandtaster: Director's Cut
@@ -226,6 +249,8 @@ Wöchentliche Zusammenfassung der neuen Fotos an die Mailing-Liste? Als Turnus l
 |touched = 02.09.2012
 |comment = 
 }}
+
+<!-- Neue Einträge *über* diesem Kommentar einfügen. -->
 |}
 
 == Abgeschlossen ==
@@ -239,6 +264,7 @@ Wöchentliche Zusammenfassung der neuen Fotos an die Mailing-Liste? Als Turnus l
 |- style="font-style: italic;"
 | &nbsp;
 | colspan=4 | Beschreibung
+
 {{IncubatorProjectIdea
 |title   = [[InfoScreen|RZL Infoscreen]]
 |descr   = Bildschirm im RZL mit interessanten Informationen, wie Bahnfahrplan, Stromverbrauch, etc.
@@ -248,6 +274,7 @@ Wöchentliche Zusammenfassung der neuen Fotos an die Mailing-Liste? Als Turnus l
 |touched = 21.07.2012
 |comment = [[InfoScreen|Ergebnis]] steht auf dem Kühlschrank.
 }}
+
 {{IncubatorProjectIdea
 |title   = Stromverbrauchskosten pro Tag
 |descr   = Der Revspace hat die Stromverbrauchskosten pro Tag in Ihrem Diagramm. Find ich cool. Siehe [https://revspace.nl/stats/ hier]
@@ -257,6 +284,8 @@ Wöchentliche Zusammenfassung der neuen Fotos an die Mailing-Liste? Als Turnus l
 |touched = 28.07.2012
 |comment = [http://cosm.tiefpunkt.com/usagecost/ Demo], [https://github.com/tiefpunkt/cosmUsageCost/ GitHub Repository]
 }}
+
+<!-- Neue Einträge *über* diesem Kommentar einfügen. -->
 |}
 
 == Fehlgeschlagen/Obsolet ==
@@ -270,6 +299,7 @@ Wöchentliche Zusammenfassung der neuen Fotos an die Mailing-Liste? Als Turnus l
 |- style="font-style: italic;"
 | &nbsp;
 | colspan=4 | Beschreibung
+
 {{IncubatorProjectIdea
 |title   = Einarmiger Hacker
 |descr   = Coole Dinge mit dem Roboterarm, der im Raum rumsteht
@@ -279,6 +309,8 @@ Wöchentliche Zusammenfassung der neuen Fotos an die Mailing-Liste? Als Turnus l
 |touched = 04.04.2012
 |comment = Roboterarm steht nicht mehr im RZL.
 }}
+
+<!-- Neue Einträge *über* diesem Kommentar einfügen. -->
 |}
 
 == Links, Fußnoten und so ==
