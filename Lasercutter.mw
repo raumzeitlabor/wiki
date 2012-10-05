@@ -101,9 +101,10 @@ Bisher ist es noch nicht gelungen diese Farbinformationen mittels SVG oder PDF v
 
 == Materialwissenschaft ==
 
-* KEIN Metall!
-* KEIN PVC oder andere Chlorhaltigen Verbindungen!
-* KEIN MDF (denn der Kleber im MDF verdreckt die Optik extrem schnell) 
+* '''KEIN ABS''' Erzeugt [http://de.wikipedia.org/wiki/Cyanwasserstoff Blausäure], do not laser! ([http://fire.nist.gov/bfrlpubs/fire86/PDF/f86017.pdf Artikel])
+* '''KEIN Metall'''!
+* '''KEIN PVC''' oder andere Chlorhaltigen Verbindungen!
+* '''KEIN MDF''' (denn der Kleber im MDF verdreckt die Optik extrem schnell) 
 
 Kunststoffverbindungen mit Flammtest erforschen:
 [http://www.nycresistor.com/2008/08/28/how-to-identify-polymers-with-burnination/ Identify Polymers]
@@ -174,9 +175,9 @@ Kunststoffverbindungen mit Flammtest erforschen:
 | IBM ThinkPad X40
 | RZL RaumPad
 | Raster/100/20
-| awesome! Vielleicht sogar tick weniger...
+| awesome! Vielleicht sogar tick weniger... (ABS-frei im Ggs zu R61)
 |-
-| IBM ThinkPad R61 ![http://fire.nist.gov/bfrlpubs/fire86/PDF/f86017.pdf Do not do this]! siehe [[Lasercutter#Warnliste]]
+| IBM ThinkPad R61 ![http://fire.nist.gov/bfrlpubs/fire86/PDF/f86017.pdf Do not do this]! siehe oben
 | the_nihilant
 | Raster/100/30
 | ABS Plastik, 500dpi, sieht gut aus, kaum Relief (könnte vll mehr power...) '''!Achtung: nicht wiederholen, Produziert [http://de.wikipedia.org/wiki/Cyanwasserstoff Cyanwasserstoff] (Blausäure)!'''
@@ -184,7 +185,7 @@ Kunststoffverbindungen mit Flammtest erforschen:
 | ThinkPad X200
 | sECuRE
 | Raster/100/50
-| evtl nen tick mehr
+| evtl nen tick mehr ('''Warnhinweis: Teile könnten aus ABS sein oder ABS beinhalten'''. siehe Giftgas-Warnung oben)
 |-
 | MacBook Apfel (plaste)
 | dag & Akisa
@@ -310,10 +311,6 @@ Hilfreiches Dokument wenn man Rowmark Sachen bearbeitet:
 [[http://wiki.nycresistor.com/wiki/Laser_Power NYC Resistor]]
 
 [[https://metalab.at/wiki/Lazzzor Metalab]]
-
-=== Warnliste ===
-
-* '''ABS''' Erzeugt [http://de.wikipedia.org/wiki/Cyanwasserstoff Blausäure], do not laser! ([http://fire.nist.gov/bfrlpubs/fire86/PDF/f86017.pdf Artikel])
 
 ==ToDo==
 * Für gute Luft sorgen. Dazu habe ich einen Radiallüfter besorgt, der genug Power haben könnte unsere Abluft zu entsorgen.
