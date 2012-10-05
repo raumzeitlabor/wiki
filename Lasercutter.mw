@@ -176,10 +176,10 @@ Kunststoffverbindungen mit Flammtest erforschen:
 | Raster/100/20
 | awesome! Vielleicht sogar tick weniger...
 |-
-| IBM ThinkPad R61
+| IBM ThinkPad R61 ![http://fire.nist.gov/bfrlpubs/fire86/PDF/f86017.pdf Do not do this]! siehe [[Lasercutter#Warnliste]]
 | the_nihilant
 | Raster/100/30
-| ABS Plastik, 500dpi, sieht gut aus, kaum Relief (könnte vll mehr power...)
+| ABS Plastik, 500dpi, sieht gut aus, kaum Relief (könnte vll mehr power...) '''!Achtung: nicht wiederholen, Produziert [http://de.wikipedia.org/wiki/Cyanwasserstoff Cyanwasserstoff] (Blausäure)!'''
 |-
 | ThinkPad X200
 | sECuRE
@@ -292,6 +292,7 @@ Kunststoffverbindungen mit Flammtest erforschen:
 |  
 |}
 
+
 Hilfreiches Dokument wenn man Rowmark Sachen bearbeitet:
 [http://rowmark.com/MARK/LaserandRotarySettingsGuide/Laser%20Setting%20Guide%2010.11.pdf Rowmark Laser Guide]
 ==== Erfahrungswerte von anderen Hackerspaces: ====
@@ -309,6 +310,10 @@ Hilfreiches Dokument wenn man Rowmark Sachen bearbeitet:
 [[http://wiki.nycresistor.com/wiki/Laser_Power NYC Resistor]]
 
 [[https://metalab.at/wiki/Lazzzor Metalab]]
+
+=== Warnliste ===
+
+* '''ABS''' Erzeugt Blausäure, do not laser!
 
 ==ToDo==
 * Für gute Luft sorgen. Dazu habe ich einen Radiallüfter besorgt, der genug Power haben könnte unsere Abluft zu entsorgen.
