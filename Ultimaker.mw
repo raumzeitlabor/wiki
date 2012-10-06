@@ -21,7 +21,11 @@
 * Free Version kann mit Hilfe eines Plugins .stl Dateien erzeugen. http://www.guitar-list.com/download-software/convert-sketchup-skp-files-dxf-or-stl
 
 == Software zur Druckvorbereitung==
-Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerdem müssen wichtige Parameter wie  Temperaturen, Supportstrukturen, Geschwindigkeiten etc. eingestellt werden. Der Slicer selbst wandelt das Objekt in ein zweidimensionales Schichtmodell um, dieses wird dann, dargestellt in G-Code, zu dem Drucker gesendet. Da diese Arbeitsschritte unmittelbar zusammenhängen werden sie meist von einem Softwarepaket übernommen. Folgende Pakete haben sich bewährt:
+Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerdem müssen wichtige Parameter wie  Temperaturen, Supportstrukturen, Geschwindigkeiten etc. eingestellt werden. Ein Slicer wandelt das 3D Modell vom STL-File in ein zweidimensionales Schichtenmodell um.
+
+Die dabei entstanden Druckanweisungen werden in G-Code Dateien gespeichert.
+
+Folgende Slicer sind brauchbar:
 
 === Cura ===
 * Website: http://daid.github.com/Cura/
