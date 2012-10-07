@@ -28,47 +28,72 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 '''Bitte konkrete Themen eintragen (Wer will was und warum).'''
 ;$Presse Anfragen
 :Wie gehen wir mit Anfragen der $Presse um?--[[Benutzer:nazco|nazco]]
+
 ;$Pony foo
 :Wie gehen wir mit dem immer mehr zunehmenden Pony foo im RZL um? Ist es nicht langsam genug?
 ::''Fürs Protokoll, das Thema wurde schon mal am 01.07.2012 besprochen: [[20120701_-_Plenum#Ponysituation|Protokoll]]''
 :: TTT möchte, dass der Nebenraum subgruppenfrei bleibt (keine Ponies, Piraten, DanceDanceRevolution) und die Ponysierung vom RZL zurückgefahren wird.
+
+;mangelnde Kritikfähigkeit
+:Der polemischen und beleidigenden Reaktionen auf Kritik geht mir auf die Nerven. --TTT
+
 ;Anschaffungen
 :Offiziell abstimmen, um etwas zu haben, worauf wir bei Anfragen zu dem Thema verweisen können.--[[Benutzer:ThinkJD|ThinkJD]] ([[Benutzer Diskussion:ThinkJD|Diskussion]]) 13:18, 18. Sep. 2012 (CEST)
 :Es wurde die Anschaffung eines Akkuschraubers lt. Plenum am 19.08.2012 beschlossen, AlexanderB wies mich darauf hin, daß er seinen mitbringt. Warum das jetzt so beschlossen wurde weiß ich nicht, aber einen Plenumsbeschluss zu umgehen, ohne daß die Leute darüber informiert werden, ist uncool. Bitte um Klärung, auch wenn ich nicht persönlich bei diesem Plenum da sein kann. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 22:18, 3. Okt. 2012 (CEST)
+
 ;Anschaffung einer Heißluftstation
 : wie [http://www.reichelt.de/Diverse-Rework-Stationen/STATION-ZD-939L/3/index.html?;ACTION=3;LA=2;ARTICLE=90914;GROUPID=4126;artnr=STATION+ZD-939L;SID=10UGyPvX8AAAIAAB1oQbYd8e910f63cc2d569db8184835af0d1bd] zum SMD-Löten --[[Benutzer:Hax404|Hax404]] ([[Benutzer Diskussion:Hax404|Diskussion]]) 21:24, 3. Okt. 2012 (CEST)
 :: Alternativ wäre auch ein Infrarotofen nett zum Umbauen und günstiger (siehe [http://revision3.com/tbhs/solderover]) --TTT
+
 ;Telekom-Internet
 :nicoduck hat am 24.09.2012 bei Mutlu angefragt, dieser sagte, daß er bisher 3x bei der Telekom angefragt, aber nie eine Antwort erhalten habe. Was können wir tun, damit wir endlich unser eigenes Internet bekommen?
+
 ;Automatische Umleitung in Aprox-Cache
 :Ist es vertretbar, Verbindungen auf den Hauptmirror für Debianpakete auf den Aproxcache umzuleiten (Stichwort: Netzneutralität)?
+
 ;RZL-Shop
 :Der Vorstand&trade; wollte mal bei unserem Steuerberater nachfragen, was man aus unserem Online-Shop machen kann. Hat das geklappt? Was ist dabei rumgekommen? --[[Benutzer:Tiefpunkt|Tiefpunkt]] ([[Benutzer Diskussion:Tiefpunkt|Diskussion]]) 12:57, 27. Sep. 2012 (CEST)
+
 ;Mietvertrag
 :Der neue Mietvertragsentwurf ist da und wurde von thinkJD auch auf der ML kommuniziert. Lasst uns darüber reden. --[[Benutzer:Blabber|Blabber]] ([[Benutzer Diskussion:Blabber|Diskussion]]) 00:32, 3. Okt. 2012 (CEST)
+
 ;Trollcon - Die erste geschlossene Veranstaltung des RZLs?
 :Aus Platzgründen können wir eigentlich nur angemeldete Personen und Helfer einlassen, auch wenn dadurch der Grundsatz "keine geschlossenen Veranstaltungen" gebrochen wird. --[[Benutzer:Blabber|Blabber]] ([[Benutzer Diskussion:Blabber|Diskussion]]) 00:34, 3. Okt. 2012 (CEST)
 :Verstehe den Punkt nicht. Die Trollcon Anmeldung war fuer jeden offen und zugaenglich. Die Veranstaltung ist fuer jeden offen. Es wird dabei auch kein Grundsatz gebrochen. Was soll bei dem Punkt hier besprochen werden? --[[Benutzer:Echox|echox]]
 ::Eine Veranstaltung auf der man nur eingelassen wird, wenn man sich angemeldet hat, kann man offen nennen, muss man aber nicht. --[[Benutzer:Blabber|Blabber]] ([[Benutzer Diskussion:Blabber|Diskussion]]) 00:19, 4. Okt. 2012 (CEST)
+
 ;Dinge im Raum
 :Was ist public, was wird wo geduldet, was sollte Vereinseigentum sein, wie löst man Konflikte bezüglich Eigentum. Regelungen und Klarheit schaffen. --[[Benutzer:Muzy|Muzy]] ([[Benutzer Diskussion:Muzy|Diskussion]]) 14:31, 3. Okt. 2012 (CEST)
 : Mir wäre es ganz lieb, wenn das Plenum zwei Dinge beschließen, und sie irgendwie fest verankern könnten (trotz meiner Abwesenheit beim Plenum, bin leider erst ab Sonntag abend wieder in der Gegend): 1. Der Verein übernimmt keinerlei Haftung für im Raum gelagerte Dinge. 2. Fest verbaute Hardware übergeht ins Eigentum des Vereins. Ausnahmen für diese Regelung sind schriftlich (oder mittels ähnlicher Medien) fest zu halten. --[[Benutzer:Tiefpunkt|Tiefpunkt]] ([[Benutzer Diskussion:Tiefpunkt|Diskussion]]) 00:53, 4. Okt. 2012 (CEST)
+
 ;Abstimmung über Infrastruktur-Hardware
 :Alles, was der Infrastruktur des Raumes dient (Kabelkanal, Switches, 19" Rack etc) und fest eingebaut ist gehört dem Raum. Wird Hardware verbaut und wird diese damit Infrastrukturkritisch, geht in den Eigentum des Raumes über. / Ich kann leider am Sonntag nicht beim Plenum anwesend sein, im Notfall bringe ich das beim nächsten Plenum nochmal vor. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 14:38, 3. Okt. 2012 (CEST) 
+
 ;Ersatz für Datengrab und Blackbox
 :HP ProLiant MicroServer N40L http://geizhals.at/de/688459 --Beitrag von [[Benutzer:Mxf|mxf]]
 :Wäre eine gute Wahl, da wenig Stromverbrauch (läuft bei mir zuhause mit 40W bei 4 Platten) und Möglichkeit für VMs. Wäre für Infrastruktur-Dinge nicht übel. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 17:26, 3. Okt. 2012 (CEST)
+
 ;Finanzierung von Projekten
 :Wie können Projekte des RZLs/im RZL finanziert werden? Wie soll sowas gehändelt werden? Grund dafür: Die Freifunk Gruppe hätte gerne ein kleines Budget von ~200 Euro um Hardware zum spielen und basteln anzuschaffen von der jeder profitieren kann. --[[Benutzer:Muzy|Muzy]] ([[Benutzer Diskussion:Muzy|Diskussion]]) 09:43, 4. Okt. 2012 (CEST)
 :: Hier sei auch noch mal auf das [[Krautfanding]] hingewiesen. 200€ bekommt man sicher durch rumfragen zusammen. --[[Benutzer:Silsha|silsha]] ([[Benutzer Diskussion:Silsha|Diskussion]]) 11:28, 4. Okt. 2012 (CEST)
+
 ;Außenwirkung
 : Nein, nicht Ponyculture, sondern wie wollen wir das handhaben, wenn wir jüngere Gäste da hebn, zum Beispiel beim Agenda-Diplom, die dann gegebenenfalls ihr Eltern mitbringen. Punkte wären da Sauberkeit, Ordnung, nicht altersgemäße Deko....--[[Benutzer:zwetschgo|zwetschgo]] ([[Benutzer Diskussion:zwetschgo|Diskussion]]) 15:43, 4. Okt. 2012 (CEST)
+
 ;Lizensierte Aufführungen von Filmen und Serien
 :Die "Frickel-Nacht" hatte ein, wenn auch glimpfliches, Nachspiel. Wie vermeiden wir zukünftigen Ärger mit Lizenzen die wir nicht haben? --[[Benutzer:zwetschgo|zwetschgo]] ([[Benutzer Diskussion:zwetschgo|Diskussion]]) 15:43, 4. Okt. 2012 (CEST)
+
 ;Kisten
 :Wie sieht es mit scheinbar nichtmehr benutzten Kisten von (Ex)Mitgliedern aus? Evtl. ein W&D im Regal und die Leute anschreiben? -- [[Benutzer:Echox|echox]]
+
+;Anschaffungen
+:Politur für den Boden (da die weder im Schrank noch auf dem Boden existiert) --[[Benutzer:TheTinyToon|TTT]]
+:2 neue Besen (weil sich mit Dreadlocks schlecht putzt)
+
 ;Weltherrschaft
 :Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
+
+
 
 [[Kategorie:Veranstaltung]]
 [[Kategorie:Plenum| ]]
