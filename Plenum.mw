@@ -40,6 +40,8 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 :: Alternativ wäre auch ein Infrarotofen nett zum Umbauen und günstiger (siehe [http://revision3.com/tbhs/solderover]) --TTT
 ;Telekom-Internet
 :nicoduck hat am 24.09.2012 bei Mutlu angefragt, dieser sagte, daß er bisher 3x bei der Telekom angefragt, aber nie eine Antwort erhalten habe. Was können wir tun, damit wir endlich unser eigenes Internet bekommen?
+;Automatische Umleitung in Aprox-Cache
+:Ist es vertretbar, Verbindungen auf den Hauptmirror für Debianpakete auf den Aproxcache umzuleiten (Stichwort: Netzneutralität)?
 ;RZL-Shop
 :Der Vorstand&trade; wollte mal bei unserem Steuerberater nachfragen, was man aus unserem Online-Shop machen kann. Hat das geklappt? Was ist dabei rumgekommen? --[[Benutzer:Tiefpunkt|Tiefpunkt]] ([[Benutzer Diskussion:Tiefpunkt|Diskussion]]) 12:57, 27. Sep. 2012 (CEST)
 ;Mietvertrag
