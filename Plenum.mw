@@ -51,6 +51,9 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 ;Telekom-Internet
 :nicoduck hat am 24.09.2012 bei Mutlu angefragt, dieser sagte, daß er bisher 3x bei der Telekom angefragt, aber nie eine Antwort erhalten habe. Was können wir tun, damit wir endlich unser eigenes Internet bekommen?
 
+;VPN-Zugang
+:DocSteel scheint häufiger Abmahnungen zu bekommen wegen Zeugs, dass über den Account läuft. Abhilfe würde ein VPN-Zugang (z.B. [https://ipredator.se iPredator]) bieten (15€/Quartal) --TTT
+
 ;Automatische Umleitung in Aprox-Cache
 :Ist es vertretbar, Verbindungen auf den Hauptmirror für Debianpakete auf den Aproxcache umzuleiten (Stichwort: Netzneutralität)?
 
