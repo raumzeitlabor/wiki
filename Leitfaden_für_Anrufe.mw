@@ -1,3 +1,19 @@
+{{ProjektInfoBox
+|name        = Leitfaden für Anrufe
+|status      = 
+|image       = 
+|description = 
+|author      = 
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+|bausatz     =
+|preis       =
+}}
+
 Dies soll ein unverbindlicher Leifaden für Anrufe werden.
 
 == Jemand ruft an ==
@@ -20,3 +36,6 @@ Hier mal markante Punkte und deren Position relativ zu anderen Objekten eintrage
 
 === Anrufer ist von der Presse und möchte $Infos ===
 Anrufer an Pressekontakt verweisen
+
+
+[[Kategorie:Projekt]]
