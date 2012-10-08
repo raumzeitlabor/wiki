@@ -14,7 +14,5 @@ USB MICRO ST;5
 == Steeph braucht ==
 
 <pre>
-EL-INVERTER 01;1
-EL-FOLIE 1010WS;1
-LR 44;10
+KONTAKT 324;1
 </pre>
