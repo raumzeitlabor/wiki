@@ -15,6 +15,12 @@ Onlineshop ist ohne Probleme und Einschränkungen möglich, keine Konflikte mit 
 == Shopsystem ==
 Aktuell läuft der Shop mit einem Selbstgeschriebenen PHP Script, welches E-Mails verschickt. Eine komplette Shoplösung wird gesucht und evaluiert. Es müssen die Gesetzlichen Anforderungen (Buttonlösung, AGBs, Impressum, Widerrufsrecht und co) beachtet werden. [[Benutzer:nicoduck|Nicoduck]] will verschiedene Shops (tbd) in VMs installieren und mal anschauen.
 
+=== Sammlung ===
+* [http://simplecartjs.org/ simplecart(js)]
+* [http://www.zen-cart.com/ Zen Cart]
+* [http://opensolution.org/quick.cart,en,9.html Quick.Cart]
+* [https://github.com/axis/axiscommerce Axis Commerce]
+
 == AGBs ==
 Sind noch auszuarbeiten.
 
