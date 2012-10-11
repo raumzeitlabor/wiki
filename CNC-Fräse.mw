@@ -42,7 +42,9 @@ In den Bausätzen sind keine Schrittmotorsteuerungen enthalten. Mögliche Altern
 ** Eigenbau mit Schrittmotortreibern
 
 == Software ==
-Siehe MTM Snap [http://mtm.cba.mit.edu/machines/mtm_snap-lock/build/software.html]
+* Siehe MTM Snap [http://mtm.cba.mit.edu/machines/mtm_snap-lock/build/software.html]
+* FabLab MUC: Programme, die G-Code erzeugen [http://wiki.fablab-muenchen.de/display/WIKI/Programme+die+G-Code+erzeugen]
+* HeeksCAD [http://heeks.net/ Website] [https://github.com/Heeks/heekscad GitHub]
 
 == Wishlist ==
 
