@@ -240,56 +240,56 @@ Diese Vorträge sind schon durch - Aufzeichnungen und Folien bitte verlinken.
 !Folien
 !Aufzeichnung
 |-
-| 12.02.2011
+| 2012-02-12
 | IPv6-Grundlagen
 | [[Benutzer:SEC|sECuRE]]
 |
 | [[IPv6-Grundlagen]]
 | n/a
 |- 
-|28.10.2011
+|2012-10-28
 |Harmonielehre 1  
 |[[Benutzer:Alexander_Brock|Alexander Brock]]
 |Einführung in Notensatz und Harmonielehre
 |n/a
 |n/a
 |-
-|11.11.2011
+|2012-11-11
 |Pizzyproxys und die Welt der Massenbestelungen
 |[[Benutzer:Muzy|Muzy]]
 |Wie man für 1000€ Pizza bestellt
 |n/a
 |[http://vimeo.com/31982554]
 |-
-|08.12.2011
+|2012-12-08
 |Agile Softwareentwicklung I - Scrum
 |Dr. Andreas Lüttgau (Kontakt: [[Benutzer:Blabber|blabber]])
 |Agile Softwareentwicklung nach der Scrum Methode
 |n/a
 |n/a
 |-
-|15.12.2011
+|2012-12-15
 |Agile Softwareentwicklung II - Kanban
 |[[Benutzer:TheTinyToon|Lars Kumbier]]
 |Die kurz-vor-chaos-Entwicklungsmethode
 |[[Medium:Agile_Methoden_II_-_Kanban.pdf‎|Download]]
 |[http://vimeo.com/34700709]
 |-
-|17.01.2012
+|2012-01-17
 |MapReduce
 |[[Benutzer:else|simon]]
 |Eine kurze Einführung
 |[[Medium:Mapreduce.pdf|Download]]
 |n/a
 |-
-|14.02.2012
+|2012-02-14
 |logic analyzer
 |[[Benutzer:thinkJD|thinkJD]]
 |Kurze Übersicht und Vorstellung des Saleae Logic 8
 |[[Medium:FolienSaleaeLogic.pdf|Download]]
 |n/a
 |-
-|14.02.2012, 28.02.2012
+|2012-02-14, 2012-02-28
 |Let's ätz! Platinen selbstgemacht
 |[[Benutzer:fabster|fabster]]
 |Einführung in die Herstellung von Platinen im RaumZeitLabor
@@ -297,124 +297,124 @@ Diese Vorträge sind schon durch - Aufzeichnungen und Folien bitte verlinken.
 |n/a
 |-
 |-
-|28.02.2012
+|2012-02-28
 |Remote-upgrading microcontroller firmware
 |[[Benutzer:SEC|sECuRE]]
 |Wie ich dem Pinpad Benutzer-Pins beigebracht habe, obwohl ich mehr als 1000 km weit weg war.
 |[[Medium:Firmware-pinpad.pdf|Download]]
 | [http://www.youtube.com/watch?v=ZWmBBeYuT3M]
 |-
-| 06.03.2012
+| 2012-03-06
 | Git(hub) for Hardware Projects
 | [[Benutzer:Tiefpunkt|tiefpunkt]]
 | Warum git nicht nur für Software, sondern auch für Hardware Projekte eine tolle Sache ist.
 | [[Medium:Git(hub) for Hardware Projects Slides.pdf|Download]]
 | [http://www.youtube.com/watch?v=i66lMITslU4]
 |-
-|06.03.2012
+|2012-03-06
 |MiniMoody
 |[[Benutzer:fabster|fabster]]
 |Eine kleine Moodlamp als Übungsprojekt zum Platinenätzen und SMD-Löten
 |[[Medium:MiniMoody-Vortrag.pdf|Download]]
 |[http://www.youtube.com/watch?v=CsJiGUvxNpY]
 |-
-|06.03.2012
+|2012-03-06
 |USB für AVR Mikrokontroller
 |[[Benutzer:Felicitus|Felicitus]]
 |Wie man seinen Mikrokontroller dazu bringt, USB zu sprechen
 |[[Medium:AVRvsUSB.pdf|Download]]
 |n/a
 |-
-|13.03.2012
+|2012-03-13
 |Small Scale ZFS
 |[[Benutzer:Blabber|blabber]]
 |Warum ZFS auch auf kleinen Systemen Spaß macht
 |[[Medium:Vortrag-small-scale-zfs.pdf‎|Download]] ([[Medium:Vortrag-small-scale-zfs-2.pdf‎|aktualisierte Version vom 16.06.2012]])
 |[https://www.youtube.com/watch?v=N0Tl99sukcc]
 |-
-|13.03.2012
+|2012-03-13
 |AllKnowingDNS
 |[[Benutzer:SEC|sECuRE]]
 |Wie man 2^64 IPv6-Adressen mit reverse DNS ausstattet
 |[[Medium:All-knowing-dns.pdf|Download]]
 |[http://youtu.be/PG_0gXp5Z4k]
 |-
-|13.03.2012
+|2012-03-13
 |Achterbahn-Sicherungstechnik
 |[[Benutzer:TabascoEye|TabascoEye]]
 |
 |?
 |[http://www.youtube.com/watch?v=HlNqUC-Mqqc]
 |-
-|20.03.2012
+|2012-03-20
 |[[ISP-Adapter]]
 |[[Benutzer:Felicitus|Felicitus]]
 |Der kleine ISP-Adapter
 |[[Medium:ISP-Adapter.pdf|Download]]
 | [http://www.youtube.com/watch?v=W8uZ3MiiuXc]
 |-
-|20.03.2012
+|2012-03-20
 |[[BenutzerDB]]
 |[[Benutzer:SEC|sECuRE]]
 |Die Benutzer-Datenbank im RZL
 | keine
 | [http://www.youtube.com/watch?v=cAuLB2FvKOA]
 |-
-| 10.04.2012 || P.R.O.J.E.K.T.W.O.C.H.E.N.D.E. || Echo Mirage, flederrattie || Was war denn über Ostern so im RaumZeitLabor los? ||?? ||??
+| 2012-04-10 || P.R.O.J.E.K.T.W.O.C.H.E.N.D.E. || Echo Mirage, flederrattie || Was war denn über Ostern so im RaumZeitLabor los? ||?? ||??
 |-
-| 10.04.2012 || Projekt K.R.A.C.H. || [[Benutzer:Felicitus|Felicitus]] || ||?? ||??
+| 2012-04-10 || Projekt K.R.A.C.H. || [[Benutzer:Felicitus|Felicitus]] || ||?? ||??
 |-
-| 10.04.2012 || 3D-Druck mit Schokolade || [[Benutzer:muzy|muzy]] || ||?? ||??
+| 2012-04-10 || 3D-Druck mit Schokolade || [[Benutzer:muzy|muzy]] || ||?? ||??
 |-
-| 10.04.2012 || Die Dingfabrik || [[Benutzer:tiefpunkt|tiefpunkt]] || Zu Besuch im Kölner FabLab ||?? ||??
+| 2012-04-10 || Die Dingfabrik || [[Benutzer:tiefpunkt|tiefpunkt]] || Zu Besuch im Kölner FabLab ||?? ||??
 |-
-| 17.04.2012 || ID-Enter || Torsten Jensen, Sebastian Wille || ||?? ||??
+| 2012-04-17 || ID-Enter || Torsten Jensen, Sebastian Wille || ||?? ||??
 |-
-| 24.04.2012 || DIY Hydrokultur || [[Benutzer:muzy|muzy]] || ||?? || [https://www.youtube.com/watch?v=7ymt3KQDPic]
+| 2012-04-24 || DIY Hydrokultur || [[Benutzer:muzy|muzy]] || ||?? || [https://www.youtube.com/watch?v=7ymt3KQDPic]
 |-
-| 24.04.2012 || Videobearbeitung mit freier Software || [[Benutzer:SEC|sECuRE]] || ||?? ||??
+| 2012-04-24 || Videobearbeitung mit freier Software || [[Benutzer:SEC|sECuRE]] || ||?? ||??
 |-
-| 31.04.2012 || Music Brainz Picard || [[Benutzer:Cheatha|Cheatha]] || ||?? ||??
+| 2012-04-31 || Music Brainz Picard || [[Benutzer:Cheatha|Cheatha]] || ||?? ||??
 |-
-| 31.04.2012 || Backspace meets RaumZeitLabor || [[Benutzer:Blabber|blabber]] || ||?? ||??
+| 2012-04-31 || Backspace meets RaumZeitLabor || [[Benutzer:Blabber|blabber]] || ||?? ||??
 |-
-| 07.05.2012 || Zeitungsdruck || [[Benutzer:Hax404|hax404]] || ||?? ||??
+| 2012-05-07 || Zeitungsdruck || [[Benutzer:Hax404|hax404]] || ||?? ||??
 |-
-| 07.05.2012 || Der RaumZeitLabor Incubator|| [[Benutzer:tiefpunkt|tiefpunkt]] || Ein Projekt für mehr Projekte in deinem Lieblingshackerspace || n/a || [https://www.youtube.com/watch?v=Q3OIaQNBdHo]
+| 2012-05-07 || Der RaumZeitLabor Incubator|| [[Benutzer:tiefpunkt|tiefpunkt]] || Ein Projekt für mehr Projekte in deinem Lieblingshackerspace || n/a || [https://www.youtube.com/watch?v=Q3OIaQNBdHo]
 |-
-| 15.05.2012 || Das RZL Spendenterminal || [[Benutzer:muzy|muzy]] || ||?? || [https://www.youtube.com/watch?v=UiLxHZRl91M]
+| 2012-05-15 || Das RZL Spendenterminal || [[Benutzer:muzy|muzy]] || ||?? || [https://www.youtube.com/watch?v=UiLxHZRl91M]
 |-
-| 15.05.2012 || Bau eines LED-Cube || [[Benutzer:Echox|echox]] || ||?? ||??
+| 2012-05-15 || Bau eines LED-Cube || [[Benutzer:Echox|echox]] || ||?? ||??
 |-
-| 22.05.2012 || Compilerbau || Nils M Holm || ||?? ||??
+| 2012-05-22 || Compilerbau || Nils M Holm || ||?? ||??
 |-
-| 22.05.2012 || Das Betriebssystem von Premium Cola || Uwe Lübbermann || Wirtschaft hacken, mit Cola ||?? || [https://www.youtube.com/watch?v=37wyg3W4PxA]
+| 2012-05-22 || Das Betriebssystem von Premium Cola || Uwe Lübbermann || Wirtschaft hacken, mit Cola ||?? || [https://www.youtube.com/watch?v=37wyg3W4PxA]
 |-
-| 29.05.2012 || Die <del>STICK</del>SIGINT 2012|| Echo Mirage, flederrattie || ||?? ||??
+| 2012-05-29 || Die <del>STICK</del>SIGINT 2012|| Echo Mirage, flederrattie || ||?? ||??
 |-
-| 29.05.2012 || Crowdfunding im RaumZeitLabor || [[Benutzer:Silsha|Silsha]] || ||?? ||??
+| 2012-05-29 || Crowdfunding im RaumZeitLabor || [[Benutzer:Silsha|Silsha]] || ||?? ||??
 |-
-| 05.06.2012 || Unicode + UTF8 || the_nihilant || ||?? ||??
+| 2012-06-05 || Unicode + UTF8 || the_nihilant || ||?? ||??
 |-
-| 05.06.2012 || Matewein || [[Benutzer:Inte|Inte]] || ||?? ||??
+| 2012-06-05 || Matewein || [[Benutzer:Inte|Inte]] || ||?? ||??
 |-
-| 12.06.2012 || Carambola Board || [[Benutzer:muzy|muzy]] || ||?? || [https://www.youtube.com/watch?v=NK0ia4DXrtA]
+| 2012-06-12 || Carambola Board || [[Benutzer:muzy|muzy]] || ||?? || [https://www.youtube.com/watch?v=NK0ia4DXrtA]
 |-
-| 03.07.2012
+| 2012-07-03
 | Pingie Pie Reverse Engineering
 |[[Benutzer:Felicitus|Felicitus]]
 |
 | [http://timohummel.com/rzl/Pingie%20Pie%20Reverse%20Engineering.odp Download]
 |
 |-
-| 10.07.2012 
+| 2012-07-10
 | Kompatibilitätsschichten in FreeBSD 
 | [[Benutzer:Blabber|blabber]] 
 | 
 | [[Medium:FreeBSD_compatibility.pdf|Download]]
 | ??
 |-
-| 10.07.2012 
+| 2012-07-10
 | OpenSCAD
 | [[Benutzer:thinkJD|thinkJD]] 
 | Eine kurze Einführung in OpenSCAD
