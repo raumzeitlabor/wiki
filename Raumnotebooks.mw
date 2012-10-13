@@ -1,6 +1,27 @@
+Lagerort: Schublade 0x19
+
+= Funktionierende Notebooks =
+
+== IBM Thinkpad X40 ==
+
+[[Image:IBM ThinkPad X40 closed.jpg]]
+[[Image:IBM ThinkPad X40 open.jpg]]
+
+* Leihgabe von Felicitus
+
+= Nicht-funktionierende Notebooks =
+
 == HP compaq nx8220 ==
 
 [[Image:hp compaq nx8220 closed.jpg|300px]]
 [[Image:hp compaq nx8220 opened.jpg|300px]]
 
 * Festplattenrahmen fehlt, ist von Felicitus bestellt
+
+== Sony Vaio PCG-8S1M ==
+
+[[Image:Sony Vaio PCG-8S1M closed.jpg|300px]]
+[[Image:Sony Vaio PCG-8S1M open.jpg|300px]]
+
+* HW-config unbekant, läuft Ubuntu drauf
+* Benötigt reinstall via cd-rom, da nicht von USB bootbar
