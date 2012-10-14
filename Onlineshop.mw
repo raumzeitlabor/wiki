@@ -21,7 +21,9 @@ Aktuell läuft der Shop mit einem Selbstgeschriebenen PHP Script, welches E-Mail
 * [http://opensolution.org/quick.cart,en,9.html Quick.Cart]
 * [https://github.com/axis/axiscommerce Axis Commerce]
 * [http://www.opencart.com/ Opencart ] bzw deutsche Anpassung unter [http://osworx.net/de/downloads/cat_view/48-ocie--opencart Opencart deutsch]
+** Opencart kostet in der deutschen Anpassung (im bezug auf die Gesetzgebung hier) Geld (zwar nur 15€ oder so), wird damit vorerst nicht weiter betrachtet.
 * [http://www.modified-shop.org/ xtcmodified] soll auch den deutschen Anforderungen entsprechen
+** bringt __MACOSX Ordner mit und will erst mal 777 Rechte haben, erster Eindruck: le meh...
 
 == AGBs ==
 Sind noch auszuarbeiten.
