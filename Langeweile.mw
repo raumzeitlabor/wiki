@@ -1,0 +1,20 @@
+Du hast Langeweile, oder wartest auf $irgendwas, und möchtest produktiv werden?
+
+Hier eine Liste mit Dingen, die du tun kannst (nimm den Punkt raus, wenn er erledigt ist):
+
+{| class="wikitable"
+! Was?
+! Beschreibung
+! Hinweise
+! Karmapunkte
+|-
+| Speicher testen
+| Im Schwerlastregal liegt eine Tüte mit SD-RAM Speicherriegeln. Finde heraus, welcher Art diese sind, suche einen passenden Rechner und teste die Riegel mit memtest86+
+| Der alte, graue Rechner in der E-Ecke könnte SD-RAM schlucken
+| 20
+|-
+| Rechner dokumentieren
+| In der E-Ecke stehen 3 Rechner (einer von Medion, einer unbekannter grauer und ein unbekannter schwarzer). Finde heraus, welche Hardware verbaut ist und lable die Rechner mit deren Hardware-Konfiguration (verbaute CPU, verbaute Platte, Speichertyp SD-RAM/DDR/DDR2/DDR3/etc). Bonuspunkte: Dokumentiere das ganze im Wiki.
+|
+| 20 (+10 Bonuspunkte)
+|}
