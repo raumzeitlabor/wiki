@@ -17,13 +17,13 @@ In der Ecke Fenster/Tafel ist ein Gehäuse festgeschraubt, das eine Dockstar ent
 {| class="wikitable"
 ! Kabelfarbe || Signal
 |-
-| schwarz || Masse
+| schwarz / blau|| Masse
 |-
-| weiß || Masse
+| weiß / blauweis || Masse
 |-
-| rot || +5V
+| rot / orange || +5V
 |-
-| gelb || Daten
+| gelb / orange-weiß|| Daten
 |}
 
 {| class="wikitable"
