@@ -2,10 +2,11 @@ Die Firebox ist unser derzeitiger Router. Die Aufgaben sind:
 
 * IPv4-Internet bereitstellen (getunnelt über docsteel)
 * IPv6-Internet bereitstellen (getunnelt über sECuRE)
-* Türstatus ermitteln und auf status.raumzeitlabor.de laden
+* Türstatus ermitteln und auf status.raumzeitlabor.de laden, dafür auch Hausbusmaster sein
 * Via NPM Switch ein-/ausschalten
 * DNS, DHCP, radvd, firewall
 * Zugang ins dn42
+* Internetauslastung und Latenz monitoren und auf cosm hochladen
 
 == Spezifikation für einen Ersatz ==
 
