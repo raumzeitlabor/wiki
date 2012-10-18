@@ -117,7 +117,7 @@ Angekündigt wurden:
 |-----
 | 172.22.36.134 || ''reserved'' || Reserviert für Infrastruktur
 |-----
-| 172.22.36.'''135 - 235''' || '''dhcp''' || DHCP-Range (filtered) (Veraltet!)
+| 172.22.36.'''135 - 235''' || '''dhcp''' || DHCP-Range (unfiltered)
 |-----
 | 172.22.36.236 || ''reserved'' || Reserviert für Geräte
 |-----
