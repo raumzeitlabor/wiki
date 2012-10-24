@@ -33,6 +33,8 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 ;Feuerlöscher
 :Wie wäre es mit einem CO2 Löscher? Ein 5KG CO2 Löscher kostet etwa 80 Euro und hinterlässt im Falle eines Falles keine Rückstände. --[[Benutzer:Nicoduck|Nicoduck]] ([[Benutzer Diskussion:Nicoduck|Diskussion]]) 19:40, 17. Okt. 2012 (CEST)
 
+;Neuer Server
+:Unsere (also NOC) Pläne haben sich konkretisiert: Blackbox und Datengrab sollen durch den HP N40L ersetzt werden. [[Benutzer:felicitus|felicitus]] hat damit gute Erfahrungen gemacht. Der Server hat 4 3,5" Festplatteneinschübe. Er soll mit 4x2 oder 4x3TB Platten (im RAID 5) bestückt werden (Kosten etwa 40€ pro TB, unabhängig der gesamtkapazität). Mit 4GB RAM kostet der Server etwa 200€ (ohne Platten), er hat AMD-v und kann somit virtuelle Maschinen ohne nennenswerten Overhead laufen lassen. Bei 4 oder 8 GB RAM könnten damit für verschiedene Projekte eigene VMs erstellt werden, um die gegenseitige Beeinflussung zu minimieren (PartKeepr z.B.). Wir brauchen also: ~700€ --[[Benutzer:Nicoduck|Nicoduck]] ([[Benutzer Diskussion:Nicoduck|Diskussion]]) 13:11, 24. Okt. 2012 (CEST)
 
 ;Weltherrschaft
 :Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
