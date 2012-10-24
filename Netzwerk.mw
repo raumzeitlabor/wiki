@@ -51,7 +51,7 @@ Angekündigt wurden:
 |-----
 | 172.22.36.1 || [[firebox]] || Router
 |-----
-| 172.22.36.2 || ''reserved'' || Reserviert für Infrastruktur
+| 172.22.36.2 || ubnt || Ubiquity NanoStation
 |-----
 | 172.22.36.3 || printer0 || [[Drucker#Samsung_SCX-5530FN|Laserdrucker (Samsung SCX-5530FN)]] 
 |-----
