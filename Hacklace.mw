@@ -1,0 +1,123 @@
+{{ProjektInfoBox
+|name        = Hacklace
+|status      = experimental
+|image       = Hacklace.jpg
+|description = Eine Halskette mit 5x7-Dot-Matrix-Led-Display
+|author      = [[user:fabster|fabster]][[user:muzy|muzy]]
+|username    = 
+|version     = Revision B
+|update      = 
+|platform    = 
+|license     = Creative Commons (siehe unten)
+|download    = [[Hacklace#Download|Download]]
+}}
+
+Hacklace - A Necklace for Hackers
+
+* Für alle Nerds, Geeks und Hacker das passende Accessoire zur Adventszeit? Wir haben es jetzt schon.
+* Du suchst noch nach einem unkonventionellen Weihnachtsgeschenk mit individueller Botschaft? Dann ist Hacklace vielleicht die Lösung.
+* Du willst auch ganzjährig auf Partys und in Clubs ein leuchtendes Zeichen setzen? Hacklace ist immer ein Blickfang, mit dem du dich abhebst und deine Leidenschaft dokumentierst. 
+
+Beim Hacklace handelt es sich um ein 5 x 7 Dot-Matrix-Led-Display, welches wie eine Halskette getragen werden kann. Auf dem Display lassen sich beliebige Textnachrichten oder Animationen darstellen.
+
+==Features==
+
+Sei gespannt...
+
+==Anforderungen==
+Hacklace wurde als Einsteigerprojekt konzipiert, so daß es auch von Anfängern leicht nachgebaut werden kann. Du solltest über grundlegende Lötkenntnisse verfügen und in der Lage sein, einen AVR-Mikrocontroller zu flashen. Falls Löten und Flashen noch nicht zu deinem Repertoire gehören, empfehlen wir das Hacklace unter Anleitung eines erfahrenen RaumZeitLaboranten zusammen zu bauen. So kannst du dir die nötigen Kenntnisse schnell und unkompliziert aneignen.
+
+==Ausrüstung und Werkzeug==
+Folgendes wird zum Zusammenbau benötigt:
+
+* einfache Lötausrüstung (Lötkolben, Seitenschneider, Pinzette, "Dritte Hand" ...)
+* ISP-Programmiergerät für Atmel AVR-Mikrocontroller
+* Computer
+* optional: Ausrüstung zum Belichten, Ätzen, Sägen und Bohren von Platinen
+
+Alles ist im RaumZeitLabor vorhanden und steht dir zur Verfügung.
+
+==Platine==
+Die Platine wurde einseitig entworfen und das Layout so gestaltet, daß man die Platine leicht selber ätzen kann. 
+Eine Belichtungsvorlage für die Platine findet sich unter [[Hacklace#Download|Download]]. Sie enthält einen Nutzen, der auf einer Platine im Europakartenformat (160 mm x 100 mm) zwanzig Hacklace-Platinen enthält.
+
+Es werden nur zwei verschiedene Bohrdurchmesser verwendet. Die Pins für die Led-Matrix und die beiden Befestigungsanschlüsse des Tasters werden mit 1,2 mm gebohrt. Alle anderen Bohrungen mit 0,9 mm. An der oberen Kante sind rechts und links jeweils ein Pad, welches keinen elektrischen Anschluß hat und als Zugentlastung für das Kabel dient. Diese Pads werden auf den Außendurchmesser des Kabels aufgebohrt.
+
+Eventuell werden wir zur Herstellung der Platine noch einen Ätzworkshop veranstalten.
+
+==Aufbau==
+
+Kommt noch...
+
+==Flashen==
+Zum Flashen der Software benötigt man einen AVR-Programmer, der an der ISP-Schnittstelle angeschlossen wird. Die Fuses des ATtiny4313 müssen so eingestellt werden, daß der Controller mit seinem internen RC-Oszillator auf 4 MHz läuft. Danach wird das Hex-File ins Flash geschrieben.
+
+Beispiel (mit avrdude und einem mySmartUSB light-Programmer):
+(!!!!!! Das Beispiel muß noch angepaßt werden !!!!!!)
+
+<code>
+  avrdude -p t4313 \                 # ATTiny4313
+          -P /dev/ttyUSB0 \          # Device
+          -c stk500 \                # Programmer
+          -e -v \                    # Chip löschen und verbose Ausgabe
+          -U flash:w:MiniMoody.hex \ # File zum flashen
+          -U lfuse:w:0xe4:m \        # Fuses richtig setzen
+          -U hfuse:w:0xdf:m \
+          -U efuse:w:0xff:m 
+</code>
+
+==Bedienung==
+Muß ich noch was zu schreiben...
+
+==Download==
+(!!!!! Die Dateien werden verfügbar gemacht, sobald das Projekt den Status "stable" hat. !!!!!)
+
+{| class="wikitable"  valign = "top"
+!Datei
+!Format
+!Lizenz
+|-
+|Vortrag zur Projektpräsentation
+|[[Medium:Hacklace-Vortrag.pdf|.pdf]]
+|tbd
+|-
+|Schaltplan
+|[[Medium:Hacklace_Schematic_Rev_B.pdf|.pdf]]
+|tbd
+|-
+|Bauteileliste
+|[[Medium:Hacklace_Bauteileliste.pdf|.pdf]]
+|tbd
+|-
+|Belichtungsvorlage
+|[[Medium:Hacklace_PCB_20x_Rev_B.pdf|.pdf]]
+|tbd
+|-
+|Bestückungsplan
+|[[Medium:Hacklace_Assembly_Copper_Side_Rev_B.pdf|.pdf]], [[Medium:Hacklace_Assembly_Front_Side_Rev_B.pdf|.pdf]]
+|tbd
+|-
+|Hex-File zum Flashen des Controllers
+|[[Medium:Hacklace_Rev_B.hex|.hex]]
+|tbd
+|-
+|Sourcecode
+|[https://github.com/fabster/Hacklace]
+|tbd
+|}
+
+Die aufgeführten Dateien stehen unter der jeweils angegebenen Creative-Commons-Lizenz.
+
+==Bilder==
+{| 
+| [[Datei:MiniMoody_PCB_nach_Entwicklung.jpg|thumb|left|250px]]Platine nach dem Entwickeln
+| [[Datei:MiniMoody_PCB.jpg|thumb|left|250px]]Platine fertig geätzt und gebohrt
+|-
+| [[Datei:MiniMoody_PCB_bestückt.jpg|thumb|left|250px]]Bestückte Platine (hier noch der Prototyp)
+| [[Datei:MiniMoody_rot_grün.jpg|left|250px]]MiniMoody in Aktion
+|}
+
+==Bestellung==
+Die benötigten Bauteile können bei Reichelt bzw. CSD-Electronics bestellt werden. Ein Auflistung mit Bestellnummer findet sich [[Medium:Hacklace_Bauteileliste.pdf|hier]].
+
+[[Kategorie:Projekt]]
