@@ -65,7 +65,16 @@ Beispiel (mit avrdude und einem mySmartUSB light-Programmer):
 </code>
 
 ==Bedienung==
-Muß ich noch was zu schreiben...
+Da das Hacklace nur einen einzigen Knopf besitzt, ist die Bedienung sehr einfach.
+
+Ein kurzer Druck auf den Taster wechselt auf den nächsten Text bzw. die nächste Animation. Hält man den Taster für einige Sekunden gedrückt, schaltet sich das Hacklace aus. Aus diesem Zustand kann man es durch einen kurzen Tastendruck wieder zum Leben erwecken. 
+
+==Interface==
+Über ein serielles Interface kannst du deine eigenen Texte und Animationen auf das Hacklace übertragen. Hierzu benötigst du ein serielles 3,3 Volt-Interfacekabel, welches an CON2 angeschlossen wird (GND - Pin 1, TxD - Pin 2). Anschließend kannst du mit einem Terminalprogramm ein Textfile an das Hacklace senden (2400 Baud, 8 Datenbits, keine Parität, 1 Stoppbit).
+
+Das Textfile dient zur Konfiguration und läßt sich mit jedem beliebigen Texteditor erstellen. Im folgdenden wird das Format erläutert.
+
+Hier muß ich noch was schreiben...
 
 ==Download==
 (!!!!! Die Dateien werden verfügbar gemacht, sobald das Projekt den Status "stable" hat. !!!!!)
