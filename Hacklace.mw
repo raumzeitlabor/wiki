@@ -38,7 +38,7 @@ Alles ist im RaumZeitLabor vorhanden und steht dir zur Verfügung.
 
 ==Platine==
 Die Platine wurde einseitig entworfen und das Layout so gestaltet, daß man die Platine leicht selber ätzen kann. 
-Eine Belichtungsvorlage für die Platine findet sich unter [[Hacklace#Download|Download]].
+Eine Belichtungsvorlage findet sich unter [[Hacklace#Download|Download]].
 
 Es werden nur zwei verschiedene Bohrdurchmesser verwendet. Die Pins für die Led-Matrix und die beiden Befestigungsanschlüsse des Tasters werden mit 1,2 mm gebohrt. Alle anderen Bohrungen mit 0,9 mm. An der oberen Kante sind rechts und links jeweils ein Pad, welches keinen elektrischen Anschluß hat und als Zugentlastung für das Kabel dient. Diese Pads werden auf den Außendurchmesser des Kabels aufgebohrt.
 
@@ -115,10 +115,12 @@ Die aufgeführten Dateien stehen unter der jeweils angegebenen Creative-Commons-
 | [[Datei:Hacklace.jpg|thumb|left|250px]]So sieht der erste Prototyp aus.
 |}
 
-==Bestellung==
+==Bezugsquellen==
 Die benötigten Bauteile können bei Reichelt bzw. CSD-Electronics bestellt werden. Ein Auflistung mit Bestellnummer findet sich [[Medium:Hacklace_Bauteileliste.pdf|hier]].
 
-==Links==
-Das Hacklace-Projekt wurde inspiriert durch [https://sites.google.com/site/tinymatrix/|dieses Projekt] von TigerUp. Da wir jedoch unsere eigenen Vorstellungen umsetzen wollten, ist Hacklace bezüglich Hard- und Software eine komplette Neuentwicklung.
+Eventuell wird das RaumZeitLabor auch einen Bausatz anbieten.
+
+==Credits==
+Hacklace wurde inspiriert durch das Projekt "TinyMatrix" von TigerUp [https://sites.google.com/site/tinymatrix/]. Da wir jedoch unsere eigenen Vorstellungen umsetzen wollten, ist Hacklace bezüglich Hard- und Software eine komplette Neuentwicklung.
 
 [[Kategorie:Projekt]]
