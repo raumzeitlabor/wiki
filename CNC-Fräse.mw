@@ -137,8 +137,15 @@ In den Bausätzen sind keine Schrittmotorsteuerungen enthalten. Mögliche Altern
 |-
 | 2012-10-22
 |
-* Konstruktion für Teil 1/2 der Z-Achse konstruiert
+* Konstruktion für Teil 1/2 der Z-Achse designt
 * Im FabLab München aus 5mm MDF gelasert und zusammengebaut (siehe [[#2012-10-22|Bilder]])
+|-
+| 2012-10-29
+|
+* Konstruktion für Teil 2/2 der Z-Achse, sowie die Spindelhalterung designt.
+* Im FabLab München aus 5mm MDF gelasert und zusammengebaut (siehe [[#2012-10-29|Bilder]])
+* Schrittmotor und dazugehörige Gewindestange sind vermutlich um wenige Millimeter zueinander verschoben, needs fixing.
+* Kupplung fehlt noch, dann ist die Z-Achse fertig.
 |}
 
 == Bilder ==
@@ -176,6 +183,10 @@ In den Bausätzen sind keine Schrittmotorsteuerungen enthalten. Mögliche Altern
 === 2012-10-22 ===
 [[Datei:Cnc06-01.jpg|200px]]
 [[Datei:Cnc06-02.jpg|200px]]
+=== 2012-10-29 ===
+[[Datei:Cnc07-01.jpg|200px]]
+[[Datei:Cnc07-02.jpg|200px]]
+[[Datei:Cnc07-03.jpg|200px]]
 
 == Kosten ==
 {| class="wikitable"
