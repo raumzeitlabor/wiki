@@ -22,6 +22,51 @@ Auf der 2½ im Gebäude ist ein Raum mit 4 nicht ausgebauten Toilettenkabinen. I
 
 Der Plan ist in Kabine 1 einen Durchlauferhitzer zu installieren und in Kabinen 2-4 die Duschen.
 
+{{TaskListStart}}
+{{TaskListItem
+| title = Präsentation Idee
+| description = Mit Mutlu über die Idee, Duschen im Gebäude zu installieren, reden.
+| responsible = 
+| status = done
+| last_changed = 
+}}
+{{TaskListItem
+| title = Planung
+| description = Aufstellung eines groben Bauplans
+| responsible = 
+| status = done
+| last_changed = 
+}}
+{{TaskListItem
+| title = Kostenvoranschlag
+| description = Kostenvoranschlag aufstellen (lassen).
+| responsible = 
+| status = inprogress
+| last_changed = 
+}}
+{{TaskListItem
+| title = Präsentation Kostenvoranschlag
+| description = Kostenvoranschlag mit Mutlu besprechen.
+| responsible = 
+| status = waiting
+| last_changed = 
+}}
+{{TaskListItem
+| title = Einkaufen
+| description = Material besorgen
+| responsible = 
+| status = waiting
+| last_changed = 
+}}
+{{TaskListItem
+| title = Einbauen
+| description = Duschen montieren, etc,
+| responsible = 
+| status = waiting
+| last_changed = 
+}}
+|}
+
 == Kabinen ==
 [[File:Duschkabine.jpg|200px|thumb|Duschkabine in cm, danke an Stressy für die Zeichnung]]
 Die Duschkabinen sind 89cm breit. Wenn die Fliesen entfernt werden entsteht eine Breite von 90cm womit Standard-Duschwannen passen sollten.
