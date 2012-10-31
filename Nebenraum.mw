@@ -17,6 +17,57 @@
 * Anmietung ab 1. Oktober 2012 möglich
 * Gedanken sammeln zur Raumaufteilung sowie Pro und Kontrapunkte
 * '''Dringend:''' Über '''Schalldämmung''' an der Wand zum Hauptraum (siehe Diskussionsseite dieser page)
+{{TaskListStart}}
+{{TaskListItem
+| title = Anmietung
+| description = Anmietung des Nebenraums
+| responsible = Vorstand&trade;
+| status = done
+| last_changed = 
+}}
+{{TaskListItem
+| title = Ideensammlung Aufteilung
+| description = Wie sollen wir den Raum aufteilen?
+| responsible = Alle
+| status = done
+| last_changed = 
+}}
+{{TaskListItem
+| title = Entscheidung Aufteilung
+| description = Wie machen wirs jetzt wirklich?
+| responsible = Plenum
+| status = unknown
+| last_changed = 
+}}
+{{TaskListItem
+| title = Steichen
+| description = Wände verputzen und streichen
+| responsible = 
+| status = done
+| last_changed = 
+}}
+{{TaskListItem
+| title = Wände einziehen
+| description = Umsetzung der Raumaufteilung
+| responsible = 
+| status = waiting
+| last_changed = 
+}}
+{{TaskListItem
+| title = Strom
+| description = 
+| responsible = 
+| status = waiting
+| last_changed = 
+}}
+{{TaskListItem
+| title = Netzwerk
+| description = 
+| responsible = 
+| status = waiting
+| last_changed = 
+}}
+|}
 
 == Daten zum Nebenraum ==
 
