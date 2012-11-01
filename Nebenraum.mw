@@ -67,7 +67,28 @@
 | status = waiting
 | last_changed = 
 }}
-|}
+{{TaskListItem
+| title = Heizungssteuerung
+| description = Heizungssteuerung (inkl. Fenster- und Temp.-Sensoren) erweitern?
+| responsible = 
+| status = waiting
+| last_changed = 
+}}
+{{TaskListItem
+| title = Tür zum Gang
+| description = Tür zum Gang fixen (Schließzylinder, Beschläge)
+| responsible = 
+| status = unknown
+| last_changed = 
+}}
+{{TaskListItem
+| title = Tür zwischen den Räumen
+| description = Tür zwischen den Räumen fixen
+| responsible = 
+| status = unknown
+| last_changed = 
+}}
+{{TaskListEnd}}
 
 == Daten zum Nebenraum ==
 
