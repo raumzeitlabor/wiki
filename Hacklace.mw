@@ -37,6 +37,7 @@ Beim Hacklace handelt es sich um ein 5 x 7 Dot-Matrix-Led-Display, welches wie e
 * Scrollgeschwindigkeit und Pause einstellbar
 * ISP-Anschluß zum Programmieren eigener Firmware
 
+
 ==Voraussetzungen / Schwierigkeitsgrad==
 Hacklace wurde als Einsteigerprojekt konzipiert, so daß es auch von Anfängern leicht nachgebaut werden kann. Du solltest über grundlegende Lötkenntnisse verfügen und in der Lage sein, einen AVR-Mikrocontroller zu flashen. Falls Löten und Flashen noch nicht zu deinem Repertoire gehören, empfehlen wir, das Hacklace unter Anleitung eines erfahrenen RaumZeitLaboranten zusammen zu bauen. So kannst du dir die nötigen Kenntnisse schnell und unkompliziert aneignen.
 
