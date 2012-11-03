@@ -24,7 +24,7 @@ Beim Hacklace handelt es sich um ein 5 x 7 Dot-Matrix-Led-Display, welches wie e
 ==Features==
 * Nur 48 mm x 15 mm groß
 * Mobiler Betrieb durch Versorgung mit Knopfzelle
-* Optisch reizvoll durch perfekt symmetrische Anordnung aller Bauteile (Oberseite)
+* Optisch reizvoll durch perfekt symmetrische Anordnung aller sichtbaren Bauteile
 * Durch Ändern des Pin-Mappings an verschiedene Dot-Matrix-Typen anpaßbar
 * ASCII-Zeichensatz mit deutschen Umlauten
 * Proportional-Font
@@ -36,7 +36,6 @@ Beim Hacklace handelt es sich um ein 5 x 7 Dot-Matrix-Led-Display, welches wie e
 * Zwei Scroll-Modi: Vorwärts und bidirektional
 * Scrollgeschwindigkeit und Pause einstellbar
 * ISP-Anschluß zum Programmieren eigener Firmware
-
 
 ==Voraussetzungen / Schwierigkeitsgrad==
 Hacklace wurde als Einsteigerprojekt konzipiert, so daß es auch von Anfängern leicht nachgebaut werden kann. Du solltest über grundlegende Lötkenntnisse verfügen und in der Lage sein, einen AVR-Mikrocontroller zu flashen. Falls Löten und Flashen noch nicht zu deinem Repertoire gehören, empfehlen wir, das Hacklace unter Anleitung eines erfahrenen RaumZeitLaboranten zusammen zu bauen. So kannst du dir die nötigen Kenntnisse schnell und unkompliziert aneignen.
