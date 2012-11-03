@@ -81,6 +81,11 @@ Erstmal eine Produkt-/Link-Sammlung. Alles andere kommt später.
 ** Google Code Projekt [https://code.google.com/p/open-geiger-development-kit/source/browse/wiki/GeigerCounter.wiki?r=8]
 ** Ideen bei Cosm [http://community.cosm.com/node/611]
 
+== Technik ==
+* Funk
+** Funky[http://harizanov.com/2012/10/funky-as-remote-temperature-sensing-node-with-ds18b20/]: RFM12 + Arudino-kompatibler µC. Powered by Knopfzelle 
+** TinyTX[http://nathan.chantrell.net/tinytx-wireless-sensor/]: Ähnlich Funky, kein ISP-Connector.
+
 == Siehe Auch ==
 * QtW im RaumZeitLabor: [[Cosm]]
 
