@@ -38,6 +38,12 @@ Beim Hacklace handelt es sich um ein 5 x 7 Dot-Matrix-Led-Display, welches wie e
 * ISP-Anschluß zum Programmieren eigener Firmware
 
 
+==Bedienung==
+Da das Hacklace nur einen einzigen Knopf besitzt, ist die Bedienung sehr einfach.
+
+Ein kurzer Druck auf den Taster wechselt auf den nächsten Text bzw. die nächste Animation. Hält man den Taster für einige Sekunden gedrückt, schaltet sich das Hacklace aus. Aus diesem Zustand kann man es durch einen kurzen Tastendruck wieder zum Leben erwecken. 
+
+
 ==Voraussetzungen / Schwierigkeitsgrad==
 Hacklace wurde als Einsteigerprojekt konzipiert, so daß es auch von Anfängern leicht nachgebaut werden kann. Du solltest über grundlegende Lötkenntnisse verfügen und in der Lage sein, einen AVR-Mikrocontroller zu flashen. Falls Löten und Flashen noch nicht zu deinem Repertoire gehören, empfehlen wir, das Hacklace unter Anleitung eines erfahrenen RaumZeitLaboranten zusammen zu bauen. So kannst du dir die nötigen Kenntnisse schnell und unkompliziert aneignen.
 
@@ -147,12 +153,6 @@ Hier muß ich noch was schreiben...
 |}
 
 Die aufgeführten Dateien stehen unter der jeweils angegebenen Creative-Commons-Lizenz.
-
-
-==Bedienung==
-Da das Hacklace nur einen einzigen Knopf besitzt, ist die Bedienung sehr einfach.
-
-Ein kurzer Druck auf den Taster wechselt auf den nächsten Text bzw. die nächste Animation. Hält man den Taster für einige Sekunden gedrückt, schaltet sich das Hacklace aus. Aus diesem Zustand kann man es durch einen kurzen Tastendruck wieder zum Leben erwecken. 
 
 
 ==Bilder==
