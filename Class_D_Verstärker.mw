@@ -33,6 +33,9 @@ BS 170;2
 == Verbesserungen ==
 Zuerst soll das Original nachgebaut werden. Dann geht es mit Verbesserungen weiter.
 
-Der ATtiny hat nur einen 10bit-ADC. Das ist nicht gerade viel, und wirkt sich somit negativ auf die Audioqualität aus. Eine der Möglichkeiten zur Verbesserung der Qualität wäre Oversampling, aber dafür ist der µC bzw der ADC vermutlich zu langsam (probieren kann mans trotzdem mal). Alternativ könnte man einen anderen Microcontroller mit besserem ADC nutzen, oder aber einen externen ADC. Da ich bisher keinen akzeptablen anderen Microcontroller gefunden habe, tendiere ich zu einem externen ADC, in diesem Fall den ADS 7822, den es auch bei Reichelt gibt (Bestellnr: "ADS 7822 UB").
+Der ATtiny hat nur einen 10bit-ADC. Das ist nicht gerade viel, und wirkt sich somit negativ auf die Audioqualität aus. Eine der Möglichkeiten zur Verbesserung der Qualität wäre Oversampling, aber dafür ist der µC bzw der ADC vermutlich zu langsam (probieren kann mans trotzdem mal). Alternativ könnte man einen anderen Microcontroller mit besserem ADC nutzen, oder aber einen externen ADC.
+
+* Externen ADC, z.B. ADS 7822, den es auch bei Reichelt gibt (Bestellnr: "ADS 7822 UB").
+* Atmel XMega (12bit ADCs). Günstiges Dev-Board gibt es z.B. von Boston Android: [http://www.bostonandroid.com/EVAL-04.html EVAL-04]
 
 [[Kategorie:Projekt]]
