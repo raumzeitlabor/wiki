@@ -138,10 +138,8 @@ Bei der Neuaufteilung sollte mit beachtet werden, was mit dem Platz im Hauptraum
 === Licht ===
 
 * Lichtbänder sind drin. Auch einzeln schaltbar. Müssen ggf angepasst werden.
-* Lichtsteuerung? Könnte gleich in beiden Räumen gemacht werden. In jedem Raum im Nebenraum und im großen Raum zu gucken, ob überall Licht aus ist, ist nervig und wird gern mal vergessen.
-* Im großen Raum gibt es ca. 30 Lichtkreise, im Nebenraum unbekannt. Für jeden Lichtkreis wird ein Schütz (oder Relais) benötigt, Kostenpunkt ca. 7-10 Euro pro Schütz/Relais. Es gibt z.B. FIN 49.31.9 24V Relais, die lt. DaFo ausreichen. Alternativ Reichelt FIN 95.95.3 (2,65€ pro Stück) plus Reichelt 40.51.9 12V (1,75€ pro Stück). Bei überschlagenen 50 Lichtkreisen wären das 220€ plus ein paar Euro (10-50€) für Microcontroller und Relaistreiber.
-* Zusätzlich sollten noch Taster (anstatt Lichtschalter) verbaut werden, sodaß man in der E-Ecke selektiv schalten kann. Schalter würden dem µC in der Lichtsteuerung dann die Kommandos geben und der µC schaltet das Licht. Alternativ schaltet der µC über Kommandos vom Netz.
 
+Siehe auch: [[Lichtsteuerung]]
 === Wände ===
 
 * Ständerkonstruktion Holz / Blech
