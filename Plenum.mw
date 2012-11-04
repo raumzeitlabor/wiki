@@ -27,63 +27,7 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 
 '''Bitte konkrete Themen eintragen (Wer will was und warum). Vergiss nicht, deinen Beitrag zu signieren.'''
 ; Beschlüsse des letzten Plenums
-: Wir sollten bei jedem Plenum schauen, ob die Beschlüsse des letzten Plenums umgesetzt worden sind und erfolgreich waren. Wenn ja, Karma++, wenn nein, warum nicht, und wie könnte man das ändern und besser machen? --[[Benutzer:Tiefpunkt|Tiefpunkt]] ([[Benutzer Diskussion:Tiefpunkt|Diskussion]]) 13:54, 24. Okt. 2012 (CEST)
-:: Siehe auch http://hackerspaces.org/wiki/The_Plenum_Pattern (Make people commit themselves to tasks). --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 01:51, 31. Okt. 2012 (CET)
-
-;Schubladenvergabe
-:Wie teilen wir die Schubladen im Apothekerschrank auf? Imho sollte man einen gewissen Betrag als Pfand nehmen. 10€ für ne halbe Schublade, was ungefähr ner Kiste entspricht? --[[Benutzer:Nicoduck|Nicoduck]] ([[Benutzer Diskussion:Nicoduck|Diskussion]]) 21:41, 15. Okt. 2012 (CEST)
-
-;Feuerlöscher
-:Wie wäre es mit einem CO2 Löscher? Ein 5KG CO2 Löscher kostet etwa 80 Euro und hinterlässt im Falle eines Falles keine Rückstände. --[[Benutzer:Nicoduck|Nicoduck]] ([[Benutzer Diskussion:Nicoduck|Diskussion]]) 19:40, 17. Okt. 2012 (CEST)
-
-;Neuer Server
-:Unsere (also NOC) Pläne haben sich konkretisiert: Blackbox und Datengrab sollen durch den HP N40L ersetzt werden. [[Benutzer:felicitus|felicitus]] hat damit gute Erfahrungen gemacht. Der Server hat 4 3,5" Festplatteneinschübe. Er soll mit 4x2 oder 4x3TB Platten (im RAID 5) bestückt werden (Kosten etwa 40€ pro TB, unabhängig der gesamtkapazität). Mit 4GB RAM kostet der Server etwa 200€ (ohne Platten), er hat AMD-v und kann somit virtuelle Maschinen ohne nennenswerten Overhead laufen lassen. Bei 4 oder 8 GB RAM könnten damit für verschiedene Projekte eigene VMs erstellt werden, um die gegenseitige Beeinflussung zu minimieren (PartKeepr z.B.). Wir brauchen also: ~700€ --[[Benutzer:Nicoduck|Nicoduck]] ([[Benutzer Diskussion:Nicoduck|Diskussion]]) 13:11, 24. Okt. 2012 (CEST)
-:: Da ich am Sonntag nicht da sein kann, schreibe ich 2 Punkte die mir dazu einfallen mal hier hin.
-:: - Erstens würde ich die Nebenraumgeschichte abwarten, bevor größere Investitionen getätigt werden
-:: - Zweitens finde ich, dass man hier ein erstmal versuchen könnte über einen Förderantrag zumindest einen Teil der Anschaffung zu finanzieren. Wir benötigen den Server ja um zum Beispiel unbedingt! um unsere Vortragsvideos noch besser zu machen und um umfangreiche Softwareworkshops anbieten zu können... [[Benutzer:Unicorn|Unicorn]] ([[Benutzer Diskussion:Unicorn|Diskussion]])
-:: Ich stelle am Sonntag eine andere günstigere Lösung vor, die das NOCTeam sich ersonnen hat. Also: Keine Panik, aber ein Handtuch schadet nicht! --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 19:21, 2. Nov. 2012 (CET)
-
-;Abstimmung über Streichung des Rumhängertums
-:Der letzte Apell an die Vernunft  ist außer Kontrolle geraten Mitglieder des Raumzeitlabors haben genervt das Rzl verlassen. Und das nur dafür das eine kleine Gruppe von der einige nicht einmal aktive Mitglieder von RZL sind ihren persönlichen Schweinehund in einer "Hackerspace" ausleben können. Es ist mittlerweile soweit das einige Mitglieder generell das Raumzeitlabor meiden. Ordnung halten und helfen ist ein dauerhaftes Event im Raumzeitlabor da stellt sich mir die Frage wieso kapieren das die Leute nicht? Inwiefern hat Rumsitzen und nichts machen etwas mit der Hackerspace zu tun. Sollte es nicht so etwas wie Aktivität hier geben :p So wie ich das sehe sollten die Raumzeitlaboranten abstimmen dürfen ob sie rumsitzende Nichtstuer weiterhin ihren scheiss wegräumen wollen. --evilunicorn
-:: Witzig das die wo hier am meisten ruheulen wegen dem Müll gestern beim aufräumen nicht da waren. Und ich gestern dutzende Tüten von Restmüll entsorgt habe und dann sowas lesen muss. --[[Benutzer:EvilSadnes|EvilSadnes]]
-::: Vielleicht sind das Leute, die schon ewig dabei sind und schon mehr als einmal den Mist von anderen weggeräumt haben. Ich rate dir wirklich: Halte den Ball flach. Du machst dir damit nicht gerade Freunde. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 13:53, 31. Okt. 2012 (CET)
-:::: Ich bin nicht einmal ein Monat Mitglied wieso bin ich eigentlich gerade der Sündenbock für eure angestaute Wut? Ich habe lediglich ein Plenum gestellt über ein Thema was mir persönlich wichtig ist. Und jetz tgehts aufeinmal um ganz andere Dinge. --[[Benutzer:evilsadnes|evilsadnes]]
-::::: ich muss ich bei dir entschuldigen. mit dem satirischen Text wollte ich nicht dich diskreditieren, sondern ein Problem ansprechen. ich habe leider bei mehreren Mitgliedern das Gefühl, dass jegliche Erziehung bisher fehlgeschlagen ist. und das kotzt immer mehr Leute zu recht an. [[Benutzer:Unicorn|Unicorn]] ([[Benutzer Diskussion:Unicorn|Diskussion]])
-
-;Abstimmung über Streichung des My Little Pony Abends
-* Zurückgezogen
-**Mal im Ernst, glaubst du wirklich, dass das das größte Problem vom RZL ist? Auch wenn du noch recht neu bist: Vielleicht ist dir aufgefallen, dass immer die gleichen, wenigen Leute sich darum kümmern, dass Pizza da ist, dass der Raum einigermaßen benutzbar ist und dass coole Sachen stattfinden. Und diese Leute sind weniger von MLP genervt als viel mehr von den Leuten die fast täglich im RZL sind, aber es trotzdem nicht einmal schaffen den Müll runterzubringen oder mal für 3 Minuten irgendeine Kleinigkeit aufzuräumen. Und vor allem sind sie genervt davon, dass Kritik immer von den Leuten kommt, die selbst nichts fürs RZL machen. Mach mal irgendwas (Vortrag, Workshop, cooles Projekt) im RZL. Sei Produktiv, nicht Passiv und vor allem nicht Destruktiv. [[Benutzer:Unicorn|Unicorn]] ([[Benutzer Diskussion:Unicorn|Diskussion]])
-*** Ich fuehle mich da durchaus schuldig (weil viel da), auch wenn ich regelmaessig kleine Dinge aufraume, Teil des Lagers und der Kueche defragmentiere und zumindestens versuche, meinen Scheiss wegzuraeumen. Ich fasse mir auch durchaus an die eigene Nase in Bezug auf "es haette jemand das Maul aufmachen koennen, als die Bronies laut wurden.". Ich glaube, dass das durchaus ein soziales Problem war, dass man sozial haette loesen muessen - aber nachher ist man immer schlauer. Ich werde in Zukunft mehr darauf achten, ob es etwas zu tun gibt, das niemand tut. Ich bin naemlich eigentlich auch nicht im RZL, um 100% der Zeit dort rumzuverpeilen. [[Benutzer:Slowpoke|Slowpoke]] ([[Benutzer Diskussion:Slowpoke|Diskussion]]) 13:06, 31. Okt. 2012 (CET)
-** Ich dachte das Ponythema wäre endlich durch. Allerdings stellt sich die berechtigte Frage, wie die Lage eskalieren konnte (was bedeutet das eigentlich?) obwohl Mitglieder anwesend waren, die regulierend hätten eingreifen können. Ich war die letzten Male nicht dabei, aber bei den Ponytimes bei denen ich dabei war, konnte man mit den Bronies durchaus reden und die Ponytime lief auch immer ruhig ab. --[[Benutzer:Blabber|Blabber]] ([[Benutzer Diskussion:Blabber|Diskussion]]) 07:13, 31. Okt. 2012 (CET)
-*** "von der einige nicht einmal Mitglieder von RZL sind". Srsly? Mitglieder oder nicht, ist für die Frage der Veranstaltung erstmal völlig egal. Wenn Leute es nicht gebacken kriegen, sich ordentlich zu verhalten, dann sollten sie darauf hingewiesen werden. Im Zweifelsfall muss der Verein halt, zumindest bei Nichtmitgliedern (und nur dann ist "Mitglied oder nicht" in meinen Augen relevant), in Form seiner Mitglieder (NICHT in Form des Vorstandes) von seinem Hausrecht gebrauch machen. Aber nur, weil Einzelne da nicht mal den Mund aufmachen können [http://hackerspaces.org/wiki/The_Command_Pattern], ist es IMHO nicht angebracht, eine Veranstaltung, die mittlerweile durchaus legendären Status in den Reihen unseres Kalenders (und des Plenums) hat, abzuschaffen. --[[Benutzer:Tiefpunkt|Tiefpunkt]] ([[Benutzer Diskussion:Tiefpunkt|Diskussion]]) 09:14, 31. Okt. 2012 (CET)
-****  Ich bin tatsächlich recht neu und weiß deshalb wenig über eure Pony Debatten aber da es anscheinend öfter ein Thema ist sollte man vielleicht nicht zu abweichend reagieren daher es doch ein Thema ist was die Leute beschäftigt. Mir geht es in erster Linie darum das es im rzl ein wöchentliches Event gibt, wo einige von genervt sind, punkt. Und deshalb kam ich auf die tolle Idee wieso nicht abstimmen lassen. Und wieso auch nicht weswegen gibt es den das Plenum? --[[Benutzer:EvilSadnes|EvilSadnes]]
-***** Ich bin zwar auch noch nicht uebermaessig lange im RZL, aber lange genug um zu wissen, dass es grundsaetzlich eigentlich immer die selben Leute sind, die sich ueber die Ponies beschweren, und das die Ponytime mit dieser einen Ausnahme am Sonntag bisher immer weitestgehend friedlich verlief. Wenn du einen Blick in die Plenumsprotokolle wirfst, kannst du erahnen, was fuer unepisch lange diskussionen jedes mal ueber die Pony-Antraege gefuehrt werden, und das diese fuer alle Beteiligten unspannend und nervig sind. Ich will damit nicht die diskussion abwuergen, aber es sollte hier nicht um "die poesen poesen Bronies" gehen, sondern darum, dass $Leute im RZL gab, die laut waren, und keine $Leute, die daraufhin mal eine Senkung des Lautstaerkepegels gefordert haben (wie oben erwaehnt, ich bin da durchaus auch schuldig). Das hat mit My Little Pony genau gar nichts zu tun. [[Benutzer:Slowpoke|Slowpoke]] ([[Benutzer Diskussion:Slowpoke|Diskussion]]) 13:06, 31. Okt. 2012 (CET)
-** So oder so: Das Problem ist nicht My Little Pony, sondern höchstens einzelne Leute, die My Little Pony schauen. Deswegen ist es lächerlich, die Ponytime verbieten zu wollen. Im übrigen fand ich die vorletzte Ponytime auf der ich war (Die, wo auch gegrillt wurde, ich war ja geographisch benachteiligt…) eigentlich recht angenehm. Dass es diesmal so viel Chaos gab, hat nichts mit der Sendung zu tun, die eh kaum geschaut wurde. --[[Benutzer:Lutoma|Lutoma]] ([[Benutzer Diskussion:Lutoma|Diskussion]]) 15:19, 31. Okt. 2012 (CET)
-
-;Dusche
-:Wie ist da der Status? --[[Benutzer:Tiefpunkt|Tiefpunkt]] ([[Benutzer Diskussion:Tiefpunkt|Diskussion]]) 09:20, 31. Okt. 2012 (CET)
-* Meines Wissens nach hat Inte derzeit (aus sehr verstaendlichen Gruenden) keine Zeit dafuer. Es muss ein Kostenvoranschlag durch einen Klempner gemacht werden, der dann Robert vorgelegt wird. [[Benutzer:Slowpoke|Slowpoke]] ([[Benutzer Diskussion:Slowpoke|Diskussion]]) 13:06, 31. Okt. 2012 (CET)
-
-
-;Abstimmung über Anschaffungen
-
-* Schriftschablonen bestellen.
-
-Die Schriftschablonen[1] sind zur Verschönerung der Wände gedacht (auch im Flur, wenn wir das dürfen. Zunächst würde ich für die Version 15 cm Großbuchsteben plädieren, Kosten ca. 25€. Wenn die genutzt werden, evtl, ein Set mit Groß-und Kleinbuchsteben in einer anderen Größe.
-
-*Supercraft Abo
-
-Für Handarbeiten wie Häkeln, Stricken Basteln gibt es wie schon mal kurz in einem anderen Plenum erwähnt die Möglichkeit Kits im Abos bei supercraftlabs[2] zu beziehen. Diese enthalten alle benötigten Materialien und Anleitungen. Die Qualität der MAterialien ist hochwertig udn der Preis, zwar über dem Materialwert, aber mit der Zusammenstellung dabei ist der Preis IMHO gerechtfertigt. Leider konnte ich das Kit nicht an einemvder vergangenen Dienstage vorstellen, würde dies aber kurz auf dem Plenum tun, wenn ich anwesend bin. Kosten für ein Kit liegen zwischen ~25 und 30 € je nach Abo Modell. Bestellschluß für das nächste Kit ist der 15. November. 
-
-Kann auch beides auf Dienstag verschoben werden, wenn dann eine Entscheidung bis zum 15. gefällt werden kann.
-
-[1] http://bit.ly/TkpSoP
-
-[2] http://www.supercraftlab.de/bestellen/kits-fuer-mich/
-
-~zwetschgo
- 
-
+:Realitätsabgleich
 
 ;Weltherrschaft
 :Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
