@@ -101,7 +101,7 @@ Beispiel (mit avrdude und einem mySmartUSB light-Programmer):
 
 
 ==Software==
-Die Software wurde mit dem AVR-Studio 6.0 von Atmel entwickelt.
+Die Software wurde mit dem AVR-Studio 6.0 von Atmel (AVRGCC 4.6.2) entwickelt.
 
 ===Displayspeicher===
 Das Hacklace verwendet einen Displayspeicher von 200 Byte. Jedes Byte repräsentiert eine Spalte der Anzeige. Da der Zeichensatz proportional ist, haben die meisten Zeichen nur eine Breite von vier Spalten zuzüglich einer Spalte Abstand zum nächsten Zeichen. Animationen bestehen aus einzelnen Frames, wobei jeder Frame fünf Byte benötigt. Somit können Texte bis zu einer Länge von ca. 40 Zeichen dargestellt werden; eine Animation kann aus maximal 40 Frames bestehen.
@@ -123,7 +123,7 @@ Das Modus-Byte hat folgenden Aufbau:
 * Bit 2..0 bestimmen die Scroll- bzw. Animationsgeschwindigkeit (größer = schneller)
 Es ist zu beachten, daß man nicht alle Bits auf Null setzen darf, da dies für die Markierung des Endes der Messageliste reserviert ist.
 
-Texte können direkt als Klartext eingegeben werden. Es stehen alle druckbaren ASCII-Zeichen sowie die deutschen Umlaute und 'ß' zur Verfügung.
+Texte können direkt als Klartext eingegeben werden. Es stehen alle druckbaren ASCII-Zeichen sowie die deutschen Umlaute und 'ß' zur Verfügung ([[Medium:Hacklace_Font_5x7_extended.bmp|Hacklace Zeichensatz]]).
 
 Um die Eingabe von Sonderzeichen, Animationen und Bytewerten zu erleichtern, gibt es folgende Escape-Sequenzen.
 * Ein vorangestelltes '^' erhöht den Characterwert um 63, so daß die Zeichenfolge '^A' das erste Sonderzeichen (chr(129)), '^B' das zweite Sonderzeichen usw. erzeugt.
@@ -194,7 +194,7 @@ Die aufgeführten Dateien stehen unter der jeweils angegebenen Creative-Commons-
 | [[Datei:Hacklace.jpg|thumb|left|250px]]So sieht der erste Prototyp aus.
 |-
 | [[Datei:Hacklace.jpg|thumb|left|250px]]So sieht der erste Prototyp aus.
-| [[Datei:Hacklace.jpg|thumb|left|250px]]So sieht der erste Prototyp aus.
+| [[Datei:Hacklace_Font_5x7_extended.bmp|thumb|left|250px]]So sieht der erste Prototyp aus.
 |}
 
 ==Bezugsquellen==
