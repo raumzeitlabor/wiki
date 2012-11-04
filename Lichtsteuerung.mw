@@ -1,0 +1,34 @@
+{{ProjektInfoBox
+|name        = Lichtsteuerung
+|status      = experimental
+|image       = 
+|description = 
+|author      = 
+|username    = 
+|version     =
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
+
+== Dinge ==
+
+Im Hauptraum gibt es ca. 30 Lichtkreise. Nebenraum bisher unbekannt.
+
+== Implementierung ==
+
+* Die Lichtkreise werden über Relais gesteuert (siehe unten).
+* Die vorhandenen Schalter werden (teilweise) über Koppelrelais an den µC als Eingang geschalten
+* Der µC schaltet anhand der Schalterstellungen (Wechselschalter), ein Lichttableau oder über externe Steuersignale (z.B. Hausbus) die Relais
+
+
+== Kosten ==
+
+Eine Lichtsteuerung für Haupt- und Nebenraum sollte für unter 500€ machbar sein.
+
+* Pro Lichtkreis Reichelt FIN 95.95.3 (2,65€ pro Stück) plus Reichelt 40.51.9 12V (1,75€ pro Stück) -oder-
+* Pro Lichtkreis G2R-1-SNI 12V DC (3,50€ pro Stück laut Liste, evtl billiger) plus P2RF-05-E (2,20€ pro Stück laut Liste, evtl billiger). Diese haben manuelle Steuerung und Aktiv-LED.
+* Gehäuse Hensel KV 9440, ca. 130€
+* Einen µC, ein bisschen Holz für das Lichttableau, ein paar LEDs und Relaistreiber (z.B. http://www.pollin.de/shop/dt/MTc4ODk4OTk-/Bauelemente_Bauteile/Aktive_Bauelemente/IC/MICREL_MIC5801BWM_TC_LD_801_10_Stueck.html )
