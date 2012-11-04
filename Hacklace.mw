@@ -14,7 +14,7 @@
 
 Hacklace - A Necklace for Hackers
 
-* Ein passendes Accessoire zur Adventszeit für alle Nerds, Geeks und Hacker? Wir haben es jetzt schon.
+* Ein passendes Accessoire zur Adventszeit für Nerds, Geeks und Hacker? Wir haben es jetzt schon.
 * Du suchst noch nach einem unkonventionellen Weihnachtsgeschenk mit individueller Botschaft? Dann ist Hacklace vielleicht die Lösung.
 * Du willst auch ganzjährig auf Partys und in Clubs ein leuchtendes Zeichen setzen? Hacklace ist immer ein Blickfang, mit dem du dich abhebst und deine Leidenschaft für Technik dokumentierst. 
 
@@ -73,10 +73,15 @@ Eventuell werden wir zur Herstellung der Platine noch einen Ätzworkshop veranst
 Zur Erläuterung: Die Platinenoberseite ist die Seite ohne Leiterbahnen. Diese Seite ist die sichtbare Vorderseite. Auf der Rückseite befinden sich die Kupferbahnen. Dies ist die Lötseite.
 
 Der Aufbau geschieht wie folgt:
-# Als erstes werden die beiden SMD-Widerstände auf der Leiterbahnseite aufgelötet. Durch die große 1206-Bauform ist das nicht weiter schwierig. Zunächst ein Pad mit etwas Lötzinn belegen, dann das Bauteil mit der Pinzette an das Lötpad halten und mit dem Lötkolben festlöten. Wenn das Bauteil richtig sitzt, den zweiten Anschluß verlöten.
-# Die Drähte des "normalen" Widerstands im richtigen Abstand abbiegen, Widerstand auf die Platinenoberseite stecken und auf der Lötseite festlöten.
+# Als erstes werden die beiden SMD-Widerstände (R2, R3) auf der Leiterbahnseite aufgelötet. Durch die große 1206-Bauform ist das nicht weiter schwierig. Zunächst ein Pad mit etwas Lötzinn belegen, dann das Bauteil mit der Pinzette an das Lötpad halten und mit dem Lötkolben festlöten. Wenn das Bauteil richtig sitzt, den zweiten Anschluß verlöten.
+# Die Drähte des "normalen" Widerstands (R1) im richtigen Abstand abbiegen, Widerstand auf die Platinenoberseite stecken und auf der Lötseite festlöten. Anschließend die überstehenden Drahtenden mit einem Seitenschneider abknipsen.
+# Mit dem Kondensator (C1) wird genauso verfahren.
+# Wer sich an den weißen Seiten des Displays stört, kann diese schwarz anmalen.
+# Jetzt kommt der etwas trickreiche Teil. Das Dot-Matrix-Display und der Prozessor müssen gleichzeitig eingelötet werden. Dazu wird das Display zunächst von der Oberseite her eingesetzt aber noch nicht verlötet. Das Display gehört in die breiten Pads mit den etwas größeren Löchern. Pad Nummer 1 ist an der quadratischen Form zu erkennen. Die überstehenden Pins auf der Lötseite müssen mit dem Seitenschneider so gekürzt werden, daß sie die Platine nur ca. 1 Millimeter überragen. Nun wird von der Lötseite her der Prozessor eingesetzt, so daß sich Display und Prozessor gegenüberliegen und die Pads mit den großen Löchern jeweils einen Pin vom Prozessor und einen Pin vom Display gemeinsam aufnehmen. Dies erfordert u. U. etwas Probieren, bis alle Beinchen ihren Platz gefunden haben. Anschließend werden Prozessor und Display gleichzeitig verlötet.
+# Jetzt können der Taster und die Stiftleisten von der Oberseite her eingesetzt und auf der Lötseite festgelötet werden.
+# Fehlen noch die Kabel für die Stromversorgung. Jeweils ein rotes (plus) und schwarzes (minus) Kabel wird an das jeweilige Lötpad angelötet. Zur Zugentlastung kann man jedes Kabel dann durch die zugehörige Bohrung in der oberen Ecke führen.
+# Als letzter Schritt sind die Kabel an den Halter für die Knopfzelle zu löten. Dabei unbedingt auf die richtige Polung achten, da das Hacklace keinen Verpolungsschutz besitzt.
 
-Wird fortgesetzt...
 
 ===Flashen===
 Zum Flashen der Software benötigt man einen AVR-Programmer, der an der ISP-Schnittstelle angeschlossen wird. Die Fuses des ATtiny4313 müssen so eingestellt werden, daß der Controller mit seinem internen RC-Oszillator auf 4 MHz läuft. Danach wird das Hex-File ins Flash geschrieben.
@@ -110,9 +115,37 @@ Das Textfile zur Konfiguration enthält deine eigenen Texte und Animationen. Es 
 Um ein irrtümliches Beschreiben zu Verhindern, muß vor dem Download eine Initialisierungssequenz geschickt werden. Dazu wird das Hacklace durch Senden eines Escape-Zeichens (chr(27)) zunächst zurückgesetzt. Um die Programmierung freizuschalten, müssen danach die beiden Großbuchstaben 'H' und 'L' folgen. Nun kannst du das Textfile senden. Nach dem Download empfiehlt es sich, nochmals ein Escape-Zeichen zu senden, damit das Hacklace verriegelt und gegen zufälliges Beschreiben geschützt wird.
 
 ===Format des Konfigurationsfiles===
-Im folgenden wird das Format erläutert.
+Eine Message ist entweder ein Text oder eine Animation. Die Messages können durch Tastendruck auf dem Hacklace weitergeschaltet werden. Jede Zeile des Konfigurationsfiles enthält genau eine Message. Eine Message beginnt immer mit einem Modus-Byte, danach folgt der Text bzw. die Daten der Animation. Ein Modus-Byte von 0 zeigt das Ende der Messageliste an.
 
-Hier muß ich noch was schreiben...
+Das Modus-Byte hat folgenden Aufbau:
+* Bit 7 gibt an, ob nur vorwärts (= 0) oder vor und zurück (= 1) gescrollt werden soll.
+* Bit 6..4 legen die Dauer der Pause nach dem Erreichen des Endes der Message fest (größer = länger)
+* Bit 3 gibt an, ob es sich um einen Text (= 0) oder eine Animation (= 1) handelt.
+* Bit 2..0 bestimmen die Scroll- bzw. Animationsgeschwindigkeit (größer = schneller)
+Es ist zu beachten, daß man nicht alle Bits auf Null setzen darf, da dies für die Markierung des Endes der Messageliste reserviert ist.
+
+Texte können direkt als Klartext eingegeben werden. Es stehen alle druckbaren ASCII-Zeichen sowie die deutschen Umlaute und 'ß' zur Verfügung.
+
+Um die Eingabe von Sonderzeichen, Animationen und Bytewerten zu erleichtern, gibt es folgende Escape-Sequenzen.
+* Ein vorangestelltes '^' erhöht den Characterwert um 63, so daß die Zeichenfolge '^A' das erste Sonderzeichen (chr(129)), '^B' das zweite Sonderzeichen usw. erzeugt.
+* In ähnlicher Weise kann durch eine vorangestellte Tilde '˜' eine im Flash gespeicherte Animation ausgewählt werden ('˜A' erste Animation, '˜B' zweite Animation usw.).
+* Zur Eingabe von Hexadezimalwerten wird ein '$' vorangestellt. Danach folgen zwei Hex-Ziffern (0..9 bzw. A..F). Dabei müssen Großbuchstaben verwendet werden. Durch ein Leerzeichen oder ein Komma wird die Hex-Eingabe beendet.
+Soll in einem Text eines der Escape-Zeichen ('^', '˜' oder '$') verwendet werden, so muß man dieses verdoppeln. So erzeugt z. B. '$$' genau 1 Dollarzeicen.
+
+Eigene Animationen können erzeugt werden, indem man durch Eingabe von '$FF,' das Zeichen chr(255) sendet, wodurch die Eingabe in den Direkt-Modus wechselt. Die folgenden Bytes werden nun direkt abgespeichert. Jedes Byte repräsentiert eine Displayspalte wobei Bit 0 das oberste und Bit 6 das unterste Pixel verkörpern. Bit 7 bleibt ungenutzt und sollte auf Null gesetzt werden. Verlassen kann man den Direkt-Modus ebenfalls durch Senden von chr(255).
+
+Hier nun ein Beispiel für ein Konfigurationsfile.
+<code>
+$45,Beispieltext
+$40,Scrollen in Zeitlupe
+$47,und extrem schnell
+$74,moderat mit längerer Pause
+$84,...bidirektional...
+$24,Ein Herz ^R
+$3B,˜F
+$0C,$FF $55 $2A $55 $2A $55 $2A $55 $2A $55 $2A $FF,
+$00,
+</code>
 
 
 ==Download==
