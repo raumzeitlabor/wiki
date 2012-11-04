@@ -18,7 +18,7 @@ Der aktuelle Status kann über http://www.raumzeitlabor.de (oben rechts), über 
 Der Raumstatus wird automatisch durch einen Schalter in der Tür gesetzt.
 
 === IRC ===
-In den Räumen #oqlt und #raumzeitlabor (hackint) kann der Status via ''!!raum'' abgefragt werden.
+In den Räumen #oqlt und #raumzeitlabor (hackint) kann der Status via ''!!raum'' abgefragt werden. Zusätzlich können über '!weristda' die anwesenden RaumZeitLaboranten ausgegeben werden. Voraussetzung hierfür ist, dass diese in der [[BenutzerDB]] die MAC-Adressen ihrer Netzwerkadapter hinterlegt haben.
 Mit !stream wird der aktuell über den MPD abgespielte Musiktitel angezeigt.
 
 === Mobile Webapp ===
