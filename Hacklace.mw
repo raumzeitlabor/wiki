@@ -79,9 +79,8 @@ Der Aufbau geschieht wie folgt:
 # Wer sich an den weißen Seiten des Displays stört, kann diese schwarz anmalen.
 # Jetzt kommt der etwas trickreiche Teil. Das Dot-Matrix-Display und der Prozessor müssen gleichzeitig eingelötet werden. Dazu wird das Display zunächst von der Oberseite her eingesetzt aber noch nicht verlötet. Das Display gehört in die breiten Pads mit den etwas größeren Löchern. Pad Nummer 1 ist an der quadratischen Form zu erkennen. Die überstehenden Pins auf der Lötseite müssen mit dem Seitenschneider so gekürzt werden, daß sie die Platine nur ca. 1 Millimeter überragen. Nun wird von der Lötseite her der Prozessor eingesetzt, so daß sich Display und Prozessor gegenüberliegen und die Pads mit den großen Löchern jeweils einen Pin vom Prozessor und einen Pin vom Display gemeinsam aufnehmen. Dies erfordert u. U. etwas Probieren, bis alle Beinchen ihren Platz gefunden haben. Anschließend werden Prozessor und Display gleichzeitig verlötet.
 # Jetzt können der Taster und die Stiftleisten von der Oberseite her eingesetzt und auf der Lötseite festgelötet werden.
-# Fehlen noch die Kabel für die Stromversorgung. Jeweils ein rotes (plus) und schwarzes (minus) Kabel wird an das jeweilige Lötpad angelötet. Zur Zugentlastung kann man jedes Kabel dann durch die zugehörige Bohrung in der oberen Ecke führen.
+# Fehlen noch die Kabel für die Stromversorgung. Jeweils ein rotes (plus) und schwarzes (minus) Kabel wird an das jeweilige Lötpad angelötet. Zur Zugentlastung kann man jedes Kabel durch die zugehörige Bohrung in der oberen Ecke führen.
 # Als letzter Schritt sind die Kabel an den Halter für die Knopfzelle zu löten. Dabei unbedingt auf die richtige Polung achten, da das Hacklace keinen Verpolungsschutz besitzt.
-
 
 ===Flashen===
 Zum Flashen der Software benötigt man einen AVR-Programmer, der an der ISP-Schnittstelle angeschlossen wird. Die Fuses des ATtiny4313 müssen so eingestellt werden, daß der Controller mit seinem internen RC-Oszillator auf 4 MHz läuft. Danach wird das Hex-File ins Flash geschrieben.
