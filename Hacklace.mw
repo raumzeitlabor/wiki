@@ -134,16 +134,17 @@ Soll in einem Text eines der Escape-Zeichen ('^', '˜' oder '$') verwendet werde
 Eigene Animationen können erzeugt werden, indem man durch Eingabe von '$FF,' das Zeichen chr(255) sendet, wodurch die Eingabe in den Direkt-Modus wechselt. Die folgenden Bytes werden nun direkt abgespeichert. Jedes Byte repräsentiert eine Displayspalte wobei Bit 0 das oberste und Bit 6 das unterste Pixel verkörpern. Bit 7 bleibt ungenutzt und sollte auf Null gesetzt werden. Verlassen kann man den Direkt-Modus ebenfalls durch Senden von chr(255).
 
 Hier nun ein Beispiel für ein Konfigurationsfile.
+
 <code>
-$45,Beispieltext
-$40,Scrollen in Zeitlupe
-$47,und extrem schnell
-$74,moderat mit längerer Pause
-$84,...bidirektional...
-$24,Ein Herz ^R
-$3B,˜F
-$0C,$FF $55 $2A $55 $2A $55 $2A $55 $2A $55 $2A $FF,
-$00,
+ $45,Beispieltext
+ $40,Scrollen in Zeitlupe
+ $47,und extrem schnell
+ $74,moderat mit längerer Pause
+ $84,...bidirektional...
+ $24,Ein Herz ^R
+ $3B,˜F
+ $0C,$FF $55 $2A $55 $2A $55 $2A $55 $2A $55 $2A $FF,
+ $00,
 </code>
 
 
