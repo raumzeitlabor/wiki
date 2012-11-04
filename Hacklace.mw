@@ -127,9 +127,9 @@ Texte können direkt als Klartext eingegeben werden. Es stehen alle druckbaren A
 
 Um die Eingabe von Sonderzeichen, Animationen und Bytewerten zu erleichtern, gibt es folgende Escape-Sequenzen.
 * Ein vorangestelltes '^' erhöht den Characterwert um 63, so daß die Zeichenfolge '^A' das erste Sonderzeichen (chr(129)), '^B' das zweite Sonderzeichen usw. erzeugt.
-* In ähnlicher Weise kann durch eine vorangestellte Tilde '˜' eine im Flash gespeicherte Animation ausgewählt werden ('˜A' erste Animation, '˜B' zweite Animation usw.).
+* In ähnlicher Weise kann durch eine vorangestellte Tilde '~' eine im Flash gespeicherte Animation ausgewählt werden ('~A' erste Animation, '~B' zweite Animation usw.).
 * Zur Eingabe von Hexadezimalwerten wird ein '$' vorangestellt. Danach folgen zwei Hex-Ziffern (0..9 bzw. A..F). Dabei müssen Großbuchstaben verwendet werden. Durch ein Leerzeichen oder ein Komma wird die Hex-Eingabe beendet.
-Soll in einem Text eines der Escape-Zeichen ('^', '˜' oder '$') verwendet werden, so muß man dieses verdoppeln. So erzeugt z. B. '$$' genau 1 Dollarzeicen.
+Soll in einem Text eines der Escape-Zeichen ('^', '~' oder '$') verwendet werden, so muß man dieses verdoppeln. So erzeugt z. B. '$$' genau 1 Dollarzeicen.
 
 Eigene Animationen können erzeugt werden, indem man durch Eingabe von '$FF,' das Zeichen chr(255) sendet, wodurch die Eingabe in den Direkt-Modus wechselt. Die folgenden Bytes werden nun direkt abgespeichert. Jedes Byte repräsentiert eine Displayspalte wobei Bit 0 das oberste und Bit 6 das unterste Pixel verkörpern. Bit 7 bleibt ungenutzt und sollte auf Null gesetzt werden. Verlassen kann man den Direkt-Modus ebenfalls durch Senden von chr(255).
 
@@ -142,7 +142,7 @@ Hier nun ein Beispiel für ein Konfigurationsfile.
  $74,moderat mit Pause
  $84,.bidirektional.
  $24,Ein Herz ^R
- $3B,˜F
+ $3B,~F
  $0C,$FF $55 $2A $55 $2A $55 $2A $55 $2A $55 $2A $FF,
  $00,
 </code>
