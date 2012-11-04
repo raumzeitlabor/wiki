@@ -89,4 +89,13 @@ Angepeilte Milestones:
 Die oben erklärte HTTP-API habe ich in einer Go-Library (und Beispiel) umgesetzt: https://github.com/raumzeitlabor/rzlbus
 
 [[Benutzer:Tiefpunkt|tiefpunkt]] arbeitet an einer Implementierung des Hausbus2 in Python: https://github.com/raumzeitlabor/hausbus2-python
+
+== Sicherheit ==
+
+Bisher ist ja noch nicht so ganz klar, wie das Sicherheitskonzept aussieht.
+
+Vorschlag:
+* HTTP erst gar nicht unterstützen, sondern nur via HTTPS arbeiten (vermeidet Fehler und ist weniger Aufwand)
+* Bei Aktionen (z.b. Tür öffnen/schließen) nur via HTTPS und Authentifizierung zulassen. Das würde aber natürlich auf Dauer problematisch, da man am Ende nicht mehr weiß, welches Gerät wo Zugriff hat - bisher keine Lösung.
+
 [[Kategorie:Infrastruktur]]
