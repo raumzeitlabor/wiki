@@ -22,7 +22,7 @@
 * MPD-Client für die grafische Oberfläche
 
 = Hardware =
-Aktuell kommt ein Raspberry-Pi zum Einsatz. Die Soundausgabe erfolgt über eine daran angeschlossene USB-Soundkarte. Dieser kommt mit UTF-8 zurecht.
+Aktuell kommt ein AMD-irgendwas (Routinghardware) zum Einsatz (Leihgabe von Don). Die Soundausgabe erfolgt über einen integriert Soundkarte. Das Gerät kommt mit UTF-8 zurecht.
 
 = Wie Musik abgespeichert werden sollte =
 Wer damit klar kommt, dass seine Musik nicht sofort im MPD verfügbar ist, kann seine Musik in Datengrab/music/inbox albumweise speichern. Jemand, der diese dort findet, wird diese passend einsortieren.
