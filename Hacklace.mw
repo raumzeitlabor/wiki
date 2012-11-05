@@ -87,7 +87,7 @@ Zum Flashen der Software benötigt man einen AVR-Programmer, der an der ISP-Schn
 Danach werdem das Hex-File mit der Firmware ins Flash und die Default-Konfigurationsdaten ins EEPROM geschrieben.
 
 ==Software==
-Die Software wurde mit dem AVR-Studio 6.0 von Atmel (AVRGCC 4.6.2) entwickelt.
+Die Software wurde mit dem AVR-Studio 6.0 von Atmel (AVRGCC 4.6.2) entwickelt. Dabei zeigte sich, daß das in dieser Version enthaltene File "iotn4313.h" Fehler enthält. Eine korrigierte Version findet sich im GIT-Repository.
 
 ===Displayspeicher===
 Das Hacklace verwendet einen Displayspeicher von 200 Byte. Jedes Byte repräsentiert eine Spalte der Anzeige. Da der Zeichensatz proportional ist, haben die meisten Zeichen nur eine Breite von vier Spalten zuzüglich einer Spalte Abstand zum nächsten Zeichen. Animationen bestehen aus einzelnen Frames, wobei jeder Frame fünf Byte benötigt. Somit können Texte bis zu einer Länge von ca. 40 Zeichen dargestellt werden; eine Animation kann aus maximal 40 Frames bestehen.
@@ -139,7 +139,6 @@ Hier nun ein Beispiel für ein Konfigurationsfile.
 Wer die vorgefertigten Animationen im Flash durch eigene ersetzen will, muß eine Header-Datei erstellen, die die entsprechenden Daten als Byte-Array enthält. In "animations.h" wird dann ein #include-Befehl eingefügt, der diese Datei einbindet. Außerdem muß die Animation in die Liste der Animationen (animation[]) eingetragen werden. Die Position in dieser Liste legt fest, über welchen Buchstaben die Animation referenziert wird. Z. B. wird mit '~A' die erste Animation in der Liste aufgerufen (siehe [[Hacklace#Format des Konfigurationsfiles|Konfigurationsfile]]).
 
 Als Hilfsmittel zum Erstellen einer Animation kann diese [[Medium:Hacklace_Animationtemplate.bmp|Vorlage]] verwendet werden. Dabei handelt es sich um ein Graustufenbild, das eine Folge von 40 Frames mit je 5 x 8 Pixeln enthält. Mit einem Malprogramm läßt sich die Animation einfach in die Kästchen zeichnen. Die unterste (achte) Zeile bleibt unbenutzt. Eingeschaltete Pixel müssen schwarz (Farbcode 0), ausgeschaltete Pixel müssen weiß (Farbcode 255) gemalt werden. Spalten die Grauwerte enthalten werden später ignoriert. Zuletzt wird das Bild auf die benutzten Frames zugeschnitten, die nicht genutzten Frames werden gelöscht. Eine solche Bitmap läßt sich anschließend mit dem Skript "[[Medium:make_data.m|make_data.m]]" automatisch in ein C-Headerfile konvertieren. Dabei ist der Name des Bildes ohne Extension anzugeben, z. B. make_data('my_animation'). Zum Ausführen des Skripts benötigt man FreeMat, einen freien Matlab-Klon.
-
 
 ==Download==
 (!!!!! Die Dateien werden verfügbar gemacht, sobald das Projekt den Status "stable" hat. !!!!!)
