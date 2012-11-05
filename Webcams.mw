@@ -47,7 +47,7 @@ Hardware:
 
 {{ProjektInfoBox
 |name        = Ovencam
-|status      = stable
+|status      = broken
 |image       = ovencam.jpg
 |description = Live-Bild unseres Backofens
 |author      = [[Benutzer:muzy|muzy]], [[Benutzer:nicoduck|nicoduck]]
@@ -59,6 +59,8 @@ Hardware:
 |license     = 
 |download    = 
 }}
+
+Aktuell ist die Halterung der Webcam leider defekt. Wird demnächst™ neu gedruckt.
 
 Brennt die Pizza schon oder ist ist's bereits Kohle? Jetzt nachschauen ohne aufzustehen.
 Wenn der Ofen aus ist gibt es lustige Bilder mit tollen Spiegelungen. In HD!
