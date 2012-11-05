@@ -155,31 +155,30 @@ Als Hilfsmittel zum Erstellen einer Animation kann diese [[Medium:Hacklace_Anima
 |-
 |Schaltplan
 |[[Medium:Hacklace_Schematic_Rev_B.pdf|.pdf]]
-|tbd
+|CC-BY-ND
 |-
 |Bauteileliste
 |[[Medium:Hacklace_Bauteileliste.pdf|.pdf]]
-|tbd
+|CC0
 |-
 |Belichtungsvorlage
 |[[Medium:Hacklace_PCB_20x_Rev_B.pdf|.pdf]]
-|tbd
+|CC-BY-ND
 |-
 |Bestückungsplan (Vorder- und Rückseite)
 |[[Medium:Hacklace_Assembly_Copper_Side_Rev_B.pdf|.pdf]], [[Medium:Hacklace_Assembly_Front_Side_Rev_B.pdf|.pdf]]
-|tbd
+|CC-BY-ND
 |-
-|Hex-File zum Flashen des Controllers
-|[[Medium:Hacklace_Rev_B.hex|.hex]]
-|tbd
+|Hex-Files zum Flashen des Controllers / EEPROMs
+|[[Medium:Hacklace_Rev_B.hex|.hex]], [[Medium:Hacklace_Rev_B.eep|.eep]]
+|CC-BY-NC-ND
 |-
 |Sourcecode
 |[https://github.com/fabster/Hacklace]
-|tbd
+|CC-BY-NC-ND
 |}
 
 Die aufgeführten Dateien stehen unter der jeweils angegebenen Creative-Commons-Lizenz.
-
 
 ==Bilder==
 {| 
