@@ -83,22 +83,8 @@ Der Aufbau geschieht wie folgt:
 # Als letzter Schritt sind die Kabel an den Halter für die Knopfzelle zu löten. Dabei unbedingt auf die richtige Polung achten, da das Hacklace keinen Verpolungsschutz besitzt.
 
 ===Flashen===
-Zum Flashen der Software benötigt man einen AVR-Programmer, der an der ISP-Schnittstelle angeschlossen wird. Die Fuses des ATtiny4313 müssen so eingestellt werden, daß der Controller mit seinem internen RC-Oszillator auf 4 MHz läuft. Danach wird das Hex-File ins Flash geschrieben.
-
-Beispiel (mit avrdude und einem mySmartUSB light-Programmer):
-(!!!!!! Das Beispiel muß noch angepaßt werden !!!!!!)
-
-<code>
-  avrdude -p t4313 \                 # ATTiny4313
-          -P /dev/ttyUSB0 \          # Device
-          -c stk500 \                # Programmer
-          -e -v \                    # Chip löschen und verbose Ausgabe
-          -U flash:w:Hacklace.hex \  # File zum flashen
-          -U lfuse:w:0xe4:m \        # Fuses richtig setzen
-          -U hfuse:w:0xdf:m \
-          -U efuse:w:0xff:m 
-</code>
-
+Zum Flashen der Software benötigt man einen AVR-Programmer, der an der ISP-Schnittstelle angeschlossen wird. Die Fuses des ATtiny4313 müssen so eingestellt werden, daß der Controller mit seinem internen RC-Oszillator auf 4 MHz läuft.
+Danach werdem das Hex-File mit der Firmware ins Flash und die Default-Konfigurationsdaten ins EEPROM geschrieben.
 
 ==Software==
 Die Software wurde mit dem AVR-Studio 6.0 von Atmel (AVRGCC 4.6.2) entwickelt.
