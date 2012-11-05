@@ -1,0 +1,7 @@
+== GNU/Linux ==
+[[Datei:MAC-linux.png|right|thumb]]
+Mit iputils: <code>ip link show</code>
+
+== Android ==
+[[Datei:MAC-Android.png|right|thumb]]
+Settings → About phone → Status → Wi-Fi MAC address
