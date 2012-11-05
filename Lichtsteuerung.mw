@@ -2,8 +2,8 @@
 |name        = Lichtsteuerung
 |status      = experimental
 |image       = 
-|description = 
-|author      = 
+|description = Deckenlichtschalter goes digital!
+|author      = [[Benutzer:Felicitus|Felicitus]], [[Benutzer:Dancingfo|DancingFo]]
 |username    = 
 |version     =
 |update      = 
@@ -14,8 +14,10 @@
 
 
 == Dinge ==
-
-Im Hauptraum gibt es ca. 30 Lichtkreise. Nebenraum bisher unbekannt.
+* Im Hauptraum gibt es ca. 30 Lichtkreise.
+** Jede einzelne Deckenlampe lässt sich einzeln schalten. Bisher waren diese einzelnen Lichtkreis aus Aufwands- und Spieltriebeindämmungsgründen auf nur 3 zusammengefasst.
+** Mehr Granularität -> bessere Anpassung an den jeweiligen Bedarf -> niedrigerer Stromverbrauch.
+* Nebenraum bisher unbekannt.
 
 == Implementierung ==
 
@@ -66,3 +68,5 @@ Kosten pro Ausgangsstufe: ca. 20€
 == Difficulties ==
 
 * Die ULN2803A schalten zwischen Eingangsspannung und GND durch, d.h. an den Relais liegt am Input dauerhaft eine Spannung an, diese "floaten" daher. Not sure if good idea.
+
+[[Kategorie:Projekt]] [[Kategorie:Infrastruktur]]
