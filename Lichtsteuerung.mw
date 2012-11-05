@@ -36,4 +36,28 @@ Eine Lichtsteuerung für Haupt- und Nebenraum sollte für unter 500€ machbar s
 == Controllerboard ==
 
 * Atmel-Irgendwas auf Platine mit Relaistreibern und Verbindung zum Lichttableau (DaFo schlägt DMX vor wegen Leitungslänge und co).
-* 11x 74AHC594 Schieberegister (serial in, parallel out, einer mehr wegen Overflow) steuern die 10x ULN 2803A Treiber an.
+* 11x 74AHC595 Schieberegister (serial in, parallel out) steuern die 10x ULN 2803A Treiber an.
+
+== Ausgangsstufe ==
+
+* mit 30 Ports
+* LED-Status pro Port
+* Hutschinengehäuse
+* Enthält Schieberegister und Relaistreiber
+* Eingänge: +5V, GND, Data In, Shift, Latch, Clear
+* Ausgänge: 30x Relaisausgänge (eigentlich Eingänge, da gegen GND geschalten wird), Data Out
+
+Kosten pro Ausgangsstufe 30 Port (ca-Preis):
+
+* Gehäuse BOPLA CN 100AK (6,85€)
+* Schieberegister und Relaistreiber: ca. 2 €
+* LED Quadratisch 5mm für Statusanzeige: 3€ (Reichelt V 532)
+* Klemmen (passend für Bopla-Gehäuse, RM5): 6x AKL 320-05 und 2x AKL 320-04 (die eigentlichen Klemmen hat Felicitus noch massenhaft vorrätig)
+* Platine ca. 2 €
+
+Kosten pro Ausgangsstufe: ca. 20€
+
+
+== Difficulties ==
+
+* Die ULN2803A schalten zwischen Eingangsspannung und GND durch, d.h. an den Relais liegt am Input dauerhaft eine Spannung an, diese "floaten" daher. Not sure if good idea.
