@@ -23,6 +23,7 @@ Im Hauptraum gibt es ca. 30 Lichtkreise. Nebenraum bisher unbekannt.
 * Die vorhandenen Schalter werden (teilweise) über Koppelrelais an den µC als Eingang geschalten
 * Der µC schaltet anhand der Schalterstellungen (Wechselschalter), ein Lichttableau oder über externe Steuersignale (z.B. Hausbus) die Relais
 
+[[Image:Lichtsteuerung Overview.svg]]
 
 == Kosten ==
 
