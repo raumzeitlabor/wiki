@@ -8,7 +8,7 @@
 |update      = 
 |platform    = 
 |license     = 
-|download    = 
+|download    = [https://docs.google.com/spreadsheet/ccc?key=0Ail4XBAEXPtQdGpLQXozU3VZOXNKMFdqYWN1S0pRd0E Schubladenbelegung (Google Docs)]
 }}
 
 == Fakten ==
@@ -24,11 +24,11 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 
 '''Das Nutzungsrecht für eine Schublade kostet 10€ (kein Bepfandung!). Leute, die für die Schrankanlage gespendet haben, erhalten den Spendenwert in Schubladen.'''
 
+<br />
 <div style="font-size: 30px">[https://docs.google.com/spreadsheet/ccc?key=0Ail4XBAEXPtQdGpLQXozU3VZOXNKMFdqYWN1S0pRd0E Planungsdokument (Google Docs)]</div>
 
 
 === Inhalts-Kategorien ===
-
 Vorschlag:
 * Werkzeug (Feinmechanik)
 * Werkzeug (Grob)
@@ -43,7 +43,6 @@ Vorschlag:
 :: Grüble doch gerade noch darüber - wenn man Werkzeug in PartKeepr erfasst, kann man in der DB suchen, wo das zeugs ist. Man muß es ja nicht unbedingt auslagern/einlagern. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 01:52, 10. Okt. 2012 (CEST)
 
 === Ideen ===
-
 * die Fächer mit farbigen markern (und oder Symbolen?) versehen, um zwischen Inhalts-Kategorien zu unterscheiden.
 * Man könnte Farben für die Oberkategorien benutzen (Rot=Tools; Blau= Material; Gelb=Privat; Kein Grün, wegen R/G-Blinden) und Muster für die Unterkategorien:
 ** Hammer=Grobmechanik-Tools
