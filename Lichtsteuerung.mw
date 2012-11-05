@@ -22,6 +22,8 @@ Im Hauptraum gibt es ca. 30 Lichtkreise. Nebenraum bisher unbekannt.
 * Die Lichtkreise werden über Relais gesteuert (siehe unten).
 * Die vorhandenen Schalter werden (teilweise) über Koppelrelais an den µC als Eingang geschalten
 * Der µC schaltet anhand der Schalterstellungen (Wechselschalter), ein Lichttableau oder über externe Steuersignale (z.B. Hausbus) die Relais
+* Der µC soll vom DMX-Bus abgekoppelt werden können, um notfalls manuell Problemen aus dem Weg zu gehen (Spielkinder, böse Hackerangriffe, rumspinnende DMX-Apps etc).
+* Es sind ggf. minimale Schaltzeiten zu beachten
 
 [[Image:Lichtsteuerung Overview.svg]]
 
