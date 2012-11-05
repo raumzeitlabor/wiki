@@ -1,6 +1,6 @@
 {{ProjektInfoBox
 |name        = Hacklace
-|status      = experimental
+|status      = stable
 |image       = Hacklace.jpg
 |description = Eine Halskette mit 5x7-Dot-Matrix-Led-Display
 |author      = [[user:fabster|fabster]], [[user:muzy|muzy]]
