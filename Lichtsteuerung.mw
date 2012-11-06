@@ -13,7 +13,7 @@
 }}
 
 
-== Dinge ==
+== Dinge aka Facts ==
 * Im Hauptraum gibt es ca. 30 Lichtkreise.
 ** Jede einzelne Deckenlampe lässt sich einzeln schalten. Bisher waren diese einzelnen Lichtkreis aus Aufwands- und Spieltriebeindämmungsgründen auf nur 3 zusammengefasst.
 ** Mehr Granularität -> bessere Anpassung an den jeweiligen Bedarf -> niedrigerer Stromverbrauch.
@@ -22,6 +22,7 @@
 * Alle Lichter sollen im Haupt+Nebenraum ausgeschalten werden können, wenn der letzte geht.
 * Es soll dunkel/mittel/hell pro Bereich möglich sein, in dem in einer Sektion eben nur 1/3, 2/3 oder 3/3 der Lampen geschalten wird
 * Die Verkabelung der Lampen wurde bereits beim Einbau darauf ausgelegt
+* Auf dem Konferenztisch werden etwa 430 Lux erreicht, was schon ziemlich gut ist.
 
 == Implementierung ==
 
