@@ -17,10 +17,15 @@
 * Im Hauptraum gibt es ca. 30 Lichtkreise.
 ** Jede einzelne Deckenlampe lässt sich einzeln schalten. Bisher waren diese einzelnen Lichtkreis aus Aufwands- und Spieltriebeindämmungsgründen auf nur 3 zusammengefasst.
 ** Mehr Granularität -> bessere Anpassung an den jeweiligen Bedarf -> niedrigerer Stromverbrauch.
+* Eine Röhre benötigt 58 Watt.
 * Nebenraum bisher unbekannt.
+* Alle Lichter sollen im Haupt+Nebenraum ausgeschalten werden können, wenn der letzte geht.
+* Es soll dunkel/mittel/hell pro Bereich möglich sein, in dem in einer Sektion eben nur 1/3, 2/3 oder 3/3 der Lampen geschalten wird
+* Die Verkabelung der Lampen wurde bereits beim Einbau darauf ausgelegt
 
 == Implementierung ==
 
+* Alles, was gemacht wird, muß dokumentiert werden!
 * Die Lichtkreise werden über Relais gesteuert (siehe unten).
 * Die vorhandenen Schalter werden (teilweise) über Koppelrelais an den µC als Eingang geschalten
 * Der µC schaltet anhand der Schalterstellungen (Wechselschalter), ein Lichttableau oder über externe Steuersignale (z.B. Hausbus) die Relais
