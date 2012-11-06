@@ -62,6 +62,7 @@ Alles ist im RaumZeitLabor vorhanden und steht dir zur Verfügung.
 ==Hardware==
 
 ===Platine===
+[[Datei:Hacklace_Platine.jpg|thumb|right|150px]]
 Die Platine wurde einseitig entworfen und das Layout so gestaltet, daß man die Platine leicht selber ätzen kann. 
 Eine Belichtungsvorlage findet sich unter [[Hacklace#Download|Download]].
 
@@ -71,6 +72,9 @@ Eventuell werden wir zur Herstellung der Platine noch einen Ätzworkshop veranst
 
 ===Aufbau===
 Zur Erläuterung: Die Platinenoberseite ist die Seite ohne Leiterbahnen. Diese Seite ist die sichtbare Vorderseite. Auf der Rückseite befinden sich die Kupferbahnen. Dies ist die Lötseite.
+[[Datei:Hacklace_Zusammenbau01.jpg|thumb|right|150px]]
+[[Datei:Hacklace_Zusammenbau02.jpg|thumb|right|150px]]
+[[Datei:Hacklace_Zusammenbau03.jpg|thumb|right|150px]]
 
 Der Aufbau geschieht wie folgt:
 # Als erstes werden die beiden SMD-Widerstände (R2, R3) auf der Leiterbahnseite aufgelötet. Durch die große 1206-Bauform ist das nicht weiter schwierig. Zunächst ein Pad mit etwas Lötzinn belegen, dann das Bauteil mit der Pinzette an das Lötpad halten und mit dem Lötkolben festlöten. Wenn das Bauteil richtig sitzt, den zweiten Anschluß verlöten.
@@ -82,6 +86,11 @@ Der Aufbau geschieht wie folgt:
 # Jetzt können der Taster und die Stiftleisten von der Oberseite her eingesetzt und auf der Lötseite festgelötet werden.
 # Fehlen noch die Kabel für die Stromversorgung. Jeweils ein rotes (plus) und schwarzes (minus) Kabel wird an das jeweilige Lötpad angelötet. Zur Zugentlastung kann man jedes Kabel durch die zugehörige Bohrung in der oberen Ecke führen.
 # Als letzter Schritt sind die Kabel an den Halter für die Knopfzelle zu löten. Dabei unbedingt auf die richtige Polung achten, da das Hacklace keinen Verpolungsschutz besitzt.
+{| 
+| [[Datei:Hacklace_Zusammenbau05.jpg|thumb|right|150px]]
+| [[Datei:Hacklace_Zusammenbau07.jpg|thumb|right|150px]]
+| [[Datei:Hacklace_Zusammenbau08.jpg|thumb|right|150px]]
+|}
 
 ===Flashen===
 Zum Flashen der Software benötigt man einen AVR-Programmer, der an der ISP-Schnittstelle angeschlossen wird. Die Fuses des ATtiny4313 müssen so eingestellt werden, daß der Controller mit seinem internen RC-Oszillator auf 4 MHz läuft.
