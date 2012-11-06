@@ -42,6 +42,8 @@ Eine Lichtsteuerung für Haupt- und Nebenraum sollte für unter 500€ machbar s
 * Pro Lichtkreis Reichelt FIN 95.95.3 (2,65€ pro Stück) plus Reichelt 40.51.9 12V (1,75€ pro Stück) -oder-
 * Pro Lichtkreis G2R-1-SNI 12V DC (3,50€ pro Stück laut Liste, evtl billiger) plus P2RF-05-E (2,20€ pro Stück laut Liste, evtl billiger). Diese haben manuelle Steuerung und Aktiv-LED.
 * Gehäuse Hensel KV 9440, ca. 130€
+* Netzteil für 24V, Hutschine, ca. 20€
+* DC-DC-Wandler von 24V auf 5V für das ControllerBoard, ca. 5 Euro
 * Einen µC, ein bisschen Holz für das Lichttableau, ein paar LEDs und Relaistreiber (z.B. ULN 2803A )
 
 == Controllerboard ==
