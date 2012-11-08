@@ -217,15 +217,28 @@
 }}
 
 === PC E-Ecke I ===
-{{RowInfoBox
-|bild          = IMG_0389.JPG
-|hersteller    = 
-|typ           = 
-|beschreibung  = siehe [[Public Terminals#PC_E-Ecke_I|Public Terminals]]
-|doku          = n/a
-|besitzer      = 
-|status        = OK
-}}
+
+
+{| border="0"
+| rowspan="6" | [[Image:IMG_0389.JPG|thumb|200px]]
+| valign="top" | '''CPU''' 
+| valign="top" | AMD Athlon 1.7GHz, 32-Bit
+|- 
+| valign="top" | '''OS''' 
+| valign="top" | Linux Mint 3.2, Windows 7
+|- 
+| valign="top" | '''RAM''' 
+| valign="top" | 768MB DDR2
+|- 
+| valign="top" | '''Festplatte''' 
+| valign="top" | 120 GB
+|- 
+| valign="top" | '''Grafikkarte'''
+| valign="top" | ATI Radeon 9200 Pro
+|- 
+| valign="top" | '''Status'''
+| valign="top" | In Betrieb
+|}
 
 === PC E-Ecke II ===
 {{RowInfoBox
