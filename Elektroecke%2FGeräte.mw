@@ -241,15 +241,31 @@
 |}
 
 === PC E-Ecke II ===
-{{RowInfoBox
-|bild          = Monitor_E-Ecke.jpg
-|hersteller    = 
-|typ           = 
-|beschreibung  = siehe [[Public Terminals#PC_E-Ecke_II|Public Terminals]]
-|doku          = n/a
-|besitzer       = [[Benutzer:Tiefpunkt|tiefpunkt]] (der eigentliche Rechner zumindest)
-|status        = Noch nicht angeschlossen
-}}
+
+
+{| border="0"
+| rowspan="6" | [[Image:Monitor_E-Ecke.jpg|thumb|200px]]
+| valign="top" | '''CPU''' 
+| valign="top" | Intel Pentium 4 2.6GHz 32-Bit
+|- 
+| valign="top" | '''OS''' 
+| valign="top" | Windows XP
+|- 
+| valign="top" | '''RAM''' 
+| valign="top" | 256MB DDR3
+|- 
+| valign="top" | '''Festplatte''' 
+| valign="top" | 120 GB
+|- 
+| valign="top" | '''Grafikkarte'''
+| valign="top" | NVidia GeForce 4 Ti 4200
+|- 
+| valign="top" | '''Status'''
+| valign="top" | Nicht angeschlossen
+|- 
+| valign="top" | '''Besitzer der Hardware'''
+| valign="top" | Tiefpunkt
+|}
 
 === Absaugung ===
 {{RowInfoBox
