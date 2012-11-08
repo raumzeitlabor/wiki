@@ -73,8 +73,4 @@ Kosten pro Ausgangsstufe 30 Port (ca-Preis):
 
 Kosten pro Ausgangsstufe: ca. 20€
 
-== Difficulties ==
-
-* Die ULN2803A schalten zwischen Eingangsspannung und GND durch, d.h. an den Relais liegt am Input dauerhaft eine Spannung an, diese "floaten" daher. Not sure if good idea.
-
 [[Kategorie:Projekt]] [[Kategorie:Infrastruktur]]
