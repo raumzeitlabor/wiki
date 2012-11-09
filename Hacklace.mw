@@ -205,4 +205,10 @@ Als bequeme Alternative werden wir euch in Kürze einen Bausatz mit allen Teilen
 ==Credits==
 Hacklace wurde inspiriert durch das Projekt "TinyMatrix" von TigerUp [https://sites.google.com/site/tinymatrix/]. Da wir jedoch unsere eigenen Vorstellungen umsetzen wollten, ist Hacklace bezüglich Hard- und Software eine komplette Neuentwicklung.
 
+== Ideen ==
+
+* Die Stromspar-Modis vom Attiny ausnutzen (Messung via Fluke?)
+* Helligkeitsanpassung der LEDs via PWM
+* Automatische oder manuelle Abschaltung (=Versetzung des AVRs in den Stromsparmodus, Power Down Mode mit 0.1µA)
+
 [[Kategorie:Projekt]]
