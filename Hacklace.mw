@@ -207,8 +207,8 @@ Hacklace wurde inspiriert durch das Projekt "TinyMatrix" von TigerUp [https://si
 
 == Ideen ==
 
-* Die Stromspar-Modis vom Attiny ausnutzen (Messung via Fluke?)
-* Helligkeitsanpassung der LEDs via PWM
-* Automatische oder manuelle Abschaltung (=Versetzung des AVRs in den Stromsparmodus, Power Down Mode mit 0.1µA)
+* Die Stromspar-Modi vom Attiny ausnutzen (Messung via Fluke?) Geschieht bereits. Nach dem Ausschalten geht der Controller in den Power-Down-Modus. Der Stromverbrauch liegt dann deutlich unter 1 µA (gemessen ca. 200 - 300 nA). Während des Betriebs Stromsparmodi zu verwenden ist vorerst nicht geplant, da der Stromverbrauch des Controllers (ca. 1,5 mA) gegenüber der LED-Anzeige (ca. 15 mA) kaum ins Gewicht fällt. Die erzielbare Laufzeitverlängerung dürfte also unter 10 % liegen.
+* Helligkeitsanpassung der LEDs via PWM. Bei den aktuell verwendeten Displays würde ich die Helligkeit nicht reduzieren wollen, da sie sonst recht dunkel wirken. Wer jedoch ca. 1 Euro mehr ausgibt und sich ein effizienteres Display beschafft (z. B. die KWA-Serie von Kingbright), der kann entweder heller leuchten, oder per PWM-Dimmer die Laufzeit erhöhen.
+* Automatische oder manuelle Abschaltung (=Versetzung des AVRs in den Stromsparmodus, Power Down Mode mit 0.1µA). Manuelle Abschaltung ist bereits genau in dieser Weise implementiert. Automatische Abschaltung fand ich nicht so passend, da ich nicht wollte, daß einem auf der Party unverhofft das Licht ausgeht. Das Hacklace soll ja ruhig ein paar Stunden am Stück leuchten und sich nicht automatisch abschalten. Wer dieses Feature braucht kann es sich jedoch durch eine kleine Codeanpassung implementieren.
 
 [[Kategorie:Projekt]]
