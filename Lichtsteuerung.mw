@@ -46,7 +46,7 @@ Eine Lichtsteuerung für Haupt- und Nebenraum sollte für unter 500€ machbar s
 * Gehäuse Hensel KV 9440, ca. 130€
 * Netzteil für 24V, Hutschine, ca. 20€
 * DC-DC-Wandler von 24V auf 5V für das ControllerBoard, ca. 5 Euro
-* Einen µC, ein bisschen Holz für das Lichttableau, ein paar LEDs und Relaistreiber (z.B. ULN 2803A )
+* Einen µC, ein bisschen Holz für das Lichttableau, ein paar LEDs und Relaistreiber (z.B. ULN 2803A, UDN2981 )
 
 == Controllerboard ==
 
