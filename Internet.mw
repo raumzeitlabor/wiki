@@ -1,6 +1,28 @@
-Ist bestellt. Sollte noch dieses Jahr kommen.
+{{ProjektInfoBox
+|name        = Internet
+|status      = beta
+|image       = 
+|description = Internet für das RZL
+|author      = nicoduck, docsteel
+|username    = nicoduck
+|version     = 0.1
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+|bausatz     =
+|preis       = unbezahlbar
+}}
+==Aktuelle Situation==
 
-==Aktueller Stand==
-Mittlweile wurde bei der Telekom ein Ansprechpartner gefunden, der sich der Sache annimmt. $AndereAbteilung will nächste Woche (endlich) auf dem Gelände buddeln und $irgendwas hinstellen, damit schnelles Internet geht. Inhouseverkabelung wurde noch nicht angesprochen.
+Im Moment beziehen wir Internet noch über nette Nachbarn, die aber leider zum Ende des Jahres 2012 ausziehen werden. Unabhängig davon wurde ein DSL Anschluss bestellt.
 
-Felicitus, hax404 und drahti haben sich damals für Inhouseverkabelungsdinge freiwillig bei Mutlu gemeldet.
+==Status der Bestellung==
+Mittlweile wurde bei der Telekom ein Ansprechpartner gefunden, der sich der Sache annimmt. $AndereAbteilung will nächste Woche (endlich) auf dem Gelände buddeln und $irgendwas hinstellen, damit schnelles Internet geht. Die Inhouseverkabelung im Gebäude soll vorerst so bleiben wie sie ist, da sie wohl noch in Ordnung sein soll.
+Bei Mutlu wird ein neuer Hausanschluss gesetzt. Damit wird der schlimmste Teil der Verkabelung, der über das ABB/Alstom Werksgelände geht, umgangen und die DSL Geschwindigkeit sollte steigen. Sollte die Inhouseverkabelung zu alt sein, werden wir einen Geschwindigkeitsunterschied zwischen unserem Anschluss und dem unten im Büro feststellen können, dann kann sich um eine Erneuerung gedanken gemacht werden. Felicitus, hax404 und drahti haben sich damals für Inhouseverkabelungsdinge freiwillig bei Mutlu gemeldet.
+
+Noch ausführlichere Infos findet man auf der ML.
+
+==Was geliefert wird==
+
+Der Anschluss wird vorerst mit (echtem) ISDN und ADSL2+ bis 16MBit/s geschaltet. Schaltungstermin ist aktuell der 21.11.. Aktuell haben sich genug freiwillige gemeldet die anwesend sein wollen. Eine Uhrzeit ist noch nicht ausgemacht, auch wird versucht einen ganz bestimmten Techniker zu bekommen (der das Gebäude schon kennt).
