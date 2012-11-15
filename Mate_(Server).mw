@@ -1,0 +1,22 @@
+'''Mate''' ist ein Server, der als Ersatz der [[Blackbox]] und [[Datengrab]] dient.
+
+==Download==
+{| class="wikitable"  valign = "top"
+|CPU
+|[http://www.cpu-world.com/CPUs/K10/AMD-Turion%20II%20Neo%20N40L%20-%20TEN40LGAV23GME.html AMD Turion II Neo N40L] 2x 1.5 GHz
+|-
+|RAM
+|16 GB DDR3 ('''Hersteller und Typ müssen nachgesehen werden''')
+|-
+|HDDs
+|5x1TB ('''Hersteller und Typ müssen nachgesehen werden''')<br/>RAID5 über alle Platten, 4TB nutzbar, LVM
+|-
+|USB
+|1x Onboard, 4x Front, 2x Hinten
+|-
+|Verbrauch
+|60W aktiv / 35W idle (Messung mit einem schlechten Messgerät)
+|-
+|Virtualisierung
+|libvirt/KVM
+|}
