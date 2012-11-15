@@ -67,11 +67,8 @@ Um tiefere Eingriffe in diversen Konfigurationsdateien zu vermeiden sollte der E
 *[http://drupal.org/project/views Views]
 *[http://drupal.org/project/feeds Feeds]
 **[http://drupal.org/project/ctools Chaos Tools]
-*<s></s>
-*<s>[http://drupal.org/project/twitter Twitter]</s>
-*<s>[http://drupal.org/project/subdomain Subdomain</s>]
-**[http://drupal.org/project/pathauto Pathauto]
-***[http://drupal.org/project/token Token]
+*[http://drupal.org/project/pathauto Pathauto]
+**[http://drupal.org/project/token Token]
 *[http://drupal.org/project/multiblock Multiblock]
 *[http://drupal.org/project/wysiwyg Wysiwyg]
 **[http://tinymce.moxiecode.com/index.php TinyMCE]
@@ -93,6 +90,7 @@ Um tiefere Eingriffe in diversen Konfigurationsdateien zu vermeiden sollte der E
 :Hatte eine Sicherheitslücke und brachte keinen wirklichen Mehrwert.--[[Benutzer:Inte|Inte]] ([[Benutzer Diskussion:Inte|Diskussion]]) 19:31, 15. Nov. 2012 (CET)
 ;[http://drupal.org/project/Flattr Flattr]
 :Funktionierte nach der Aktivierung von Default-SSL nicht mehr. Bugfix gibt's nur in der Version für Drupal 7.--[[Benutzer:Inte|Inte]] ([[Benutzer Diskussion:Inte|Diskussion]]) 19:31, 15. Nov. 2012 (CET)
+
 ===Anpassungen===
 ====Calendar====
 Für PHP 5.3 wird die aktuelle (>August 2010) Entwicklungversion empfohlen. Leider gibt es in dieser noch Probleme mit dem Import von CiviCRM-Events, weswegen noch mit der letzten stabilen Version (2.2) und PHP-5.3-Patch gearbeitet wird.
