@@ -38,4 +38,7 @@ Der ATtiny hat nur einen 10bit-ADC. Das ist nicht gerade viel, und wirkt sich so
 * Externen ADC, z.B. ADS 7822, den es auch bei Reichelt gibt (Bestellnr: "ADS 7822 UB").
 * Atmel XMega (12bit ADCs). Günstiges Dev-Board gibt es z.B. von Boston Android: [http://www.bostonandroid.com/EVAL-04.html EVAL-04]
 
+== Alternativer Wandler ==
+1-Bit ADC, wie z.B. [http://blog.makezine.com/2012/11/05/jeris-short-circuit-a-one-bit-adc/]
+
 [[Kategorie:Projekt]]
