@@ -1,0 +1,18 @@
+{{ProjektInfoBox
+|name        = Monitoring
+|status      = experimental
+|image       = 
+|description = Monitoring der internen Dienste
+|author      = NOC-Team
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
+'''monitoring.rzl''' ist eine VM, auf der Monitoring mittels '''Zabbix''' läuft. Auf der VM läuft eine eigene MySQL-Instanz. 
+
+* Jede VM wird auf Wunsch gemonitort, Monitoring von Spezialdiensten nach Rücksprache
+* Read-Only-Zugriff auf Anfrage an das NOC-Team.
