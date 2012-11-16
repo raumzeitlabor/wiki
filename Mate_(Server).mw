@@ -1,3 +1,17 @@
+{{ProjektInfoBox
+|name        = Mate (Server)
+|status      = experimental
+|image       = RaumZeitLabor - Logo - Schwarz.svg
+|description = 
+|author      = NOC-Team
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
 '''Mate''' ist ein Server, der als Ersatz der [[Blackbox]] und [[Datengrab]] dient.
 
 ==Technische Daten==
@@ -20,3 +34,6 @@
 |Virtualisierung
 |libvirt/KVM
 |}
+
+== Unterseiten ==
+<splist />
