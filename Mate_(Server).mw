@@ -35,6 +35,10 @@
 |libvirt/KVM
 |}
 
+== Dienste ==
+Die Infrastruktur befindet sich noch im Aufbau.
+Aktuell können noch keine Mitglieder VMs erstellt werden. 
+
 == Neue Debian-VM ohne GUI, nur mittels shell installieren (serielle console) ==
 
 Vor der Installation neues, leeres Image anlegen:
