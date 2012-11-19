@@ -20,7 +20,17 @@
 |[http://www.cpu-world.com/CPUs/K10/AMD-Turion%20II%20Neo%20N40L%20-%20TEN40LGAV23GME.html AMD Turion II Neo N40L] 2x 1.5 GHz
 |-
 |RAM
-|16 GB DDR3 ('''Hersteller und Typ müssen nachgesehen werden''')
+|16 GB DDR3
+OEM? Folgendes sagt lshw sowie dmidecode:
+  description: DIMM Synchronous 1333 MHz (0.8 ns)
+  product: ModulePartNumber00
+  vendor: Manufacturer00
+  physical id: 0
+  serial: SerNum00
+  slot: DIMM0
+  size: 8GiB
+  width: 64 bits
+  clock: 1333MHz (0.8ns)
 |-
 |HDDs
 |5x1TB (Hitachi HDS721010DLE630)<br/>RAID5 über alle Platten, 4TB nutzbar, LVM, Platten werden über smartd gemonitort und an netzwerk (ät) rzl dot de im Fehlerfalle geschickt
