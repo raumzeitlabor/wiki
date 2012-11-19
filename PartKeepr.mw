@@ -30,7 +30,7 @@ PartKeepr ist eine Datenbank für elektronische Bauteile.
 
 == Quellen ==
 
-* RZL-Installation: [https://blackbox.raumzeitlabor.de/partkeepr blackbox.raumzeitlabor.de/partkeepr - IPv6 only]
+* RZL-Installation: [https://blackbox.raumzeitlabor.de/partkeepr blackbox.raumzeitlabor.de/partkeepr - IPv6 only] oder innerhalb des RZLs: [https://blackbox.rzl/partkeepr Auch via V4]
 * Projektseite: [http://partkeepr.org partkeepr.org]
 * Demo: [http://demo.partkeepr.org demo.partkeepr.org]
 
