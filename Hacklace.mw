@@ -101,8 +101,8 @@ Danach werdem das Hex-File mit der Firmware ins Flash und die Default-Konfigurat
 Die Software wurde mit dem AVR-Studio 6.0 von Atmel (AVRGCC 4.6.2) entwickelt. Dabei zeigte sich, daß das in dieser Version enthaltene File "iotn4313.h" Fehler enthält. Eine korrigierte Version findet sich im GIT-Repository.
 
 ===Displayspeicher===
+[[Datei:Hacklace_Display_Schema.png|thumb|right|300px]]
 Das Hacklace verwendet einen Displayspeicher von 200 Byte. Jedes Byte repräsentiert eine Spalte der Anzeige. Da der Zeichensatz proportional ist, haben die meisten Zeichen nur eine Breite von vier Spalten zuzüglich einer Spalte Abstand zum nächsten Zeichen. Animationen bestehen aus einzelnen Frames, wobei jeder Frame fünf Byte benötigt. Somit können Texte bis zu einer Länge von ca. 40 Zeichen dargestellt werden; eine Animation kann aus maximal 40 Frames bestehen.
-[[Datei:Hacklace_Display_Schema.png|thumb|right|250px]]
 
 ===Konfiguration===
 Über ein serielles Interface kannst du deine eigenen Texte und Animationen auf das Hacklace übertragen. Hierzu benötigst du ein serielles 3,3 Volt-Interfacekabel (5 Volt geht auch), welches an CON2 angeschlossen wird (GND - Pin 1, TxD - Pin 2). Über das Kabel kannst du mit einem Terminalprogramm ein Textfile an das Hacklace senden (2400 Baud, 8 Datenbits, keine Parität, 1 Stoppbit).
