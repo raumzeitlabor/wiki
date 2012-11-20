@@ -69,7 +69,7 @@ Eine Belichtungsvorlage findet sich unter [[Hacklace#Download|Download]].
 
 Es werden nur zwei verschiedene Bohrdurchmesser verwendet. Die Pins für die Led-Matrix und die beiden Befestigungsanschlüsse des Tasters werden mit 1,2 mm gebohrt. Alle anderen Bohrungen mit 0,9 mm. An der oberen Kante sind rechts und links jeweils ein Pad, welches keinen elektrischen Anschluß hat und als Zugentlastung für das Kabel dient. Diese Pads werden auf den Außendurchmesser des Kabels aufgebohrt.
 
-Für alle, die nicht so gerne selber ätzen, ist demnächst eine professionell gefertigte Platine im Rahmen eines [[Hacklace#Bezugsquellen|Bausatzes]] verfügbar.
+Für alle, die nicht so gerne selber ätzen, ist eine professionell gefertigte Platine im Rahmen eines [[Hacklace#Bezugsquellen|Bausatzes]] verfügbar.
 
 ===Aufbau===
 Zur Erläuterung: Die Platinenoberseite ist die Seite ohne Leiterbahnen. Diese Seite ist die sichtbare Vorderseite. Auf der Rückseite befinden sich die Kupferbahnen. Dies ist die Lötseite.
