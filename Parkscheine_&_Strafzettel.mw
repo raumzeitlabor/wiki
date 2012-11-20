@@ -1,0 +1,69 @@
+{{ProjektInfoBox
+| description = Soziale Lösung für ein soziales Problem --> Mehr Ordnung im RZL
+| author = [[Benutzer:Tiefpunkt|tiefpunkt]]
+| status = experimental
+}}
+Zeug steht im Weg rum, es ist klar, wem es gehört, aber es nervt trotzdem? Stell einen Strafzettel aus. Oder du arbeitest an deinem Projekt auf einem Arbeitsplatz, und musst dann schnell los, deine Bahnn kriegen, und hast keine Zeit mehr aufzuräumen? Dann kauf dir einen Parkschein.
+
+So grob lassen sich die zwei Kernszenarien von Parkscheinen und Strafzetteln im RaumZeitLabor umschreiben. Die Idee stammt von einem [http://blog.makezine.com/2012/10/26/watch-where-you-park-your-stuff-at-heatsync-labs/ Make-Artikel über HeatSync Labs], und die wiederrum haben die Idee auch nur geklaut [http://www.tcmaker.org/wiki/doku.php?id=facilities:equipment:parking_tags], [http://www.tcmaker.org/wiki/doku.php?id=facilities:equipment:parking_tags:readme].
+
+== Geld ==
+Die beiden Scheine alleine reichen nicht, darum kommt ein wenig Geld ins Spiel. Ein Parkschein für 5 Tage kostet z.B. 2€. Ein Strafzettel für die gleiche Zeit z.B. 4€. Im Idealfall holt man sich also einen lieber einen Parkschein, als einen Strafzettel zu kassieren. Und am allerbesten räumt man sein Zeug sogar weg, und muss gar nichts bezahlen. Denn das ist letzendlich das Ziel: Mehr Ordnung im RaumZeitLabor!
+
+Über die genauen Preise sollte man nochmal diskutieren.
+
+== Designs ==
+Sind bisher nur Übersetzungen des Originals + ein wenig kreativer Input. Hat noch Potential™.
+=== Parkschein ===
+<pre># Parkschein
+##Beschreibung
+________________________________________________
+________________________________________________
+________________________________________________
+________________________________________________
+________________________________________________
+## Geplanter Zweck
+________________________________________________
+________________________________________________
+Dieses Ding, bzw. diese Sammlung von Dingen gehört
+mir und/oder unterliegt meiner Verantwortung.
+Innerhalb der nächsten 7 Tage werde ich einen neuen
+Platz dafür finden, oder diesen Parkschein erneuern.
+[ ] Do Not Touch!
+[ ] Bei Bedarf an einen neuen Platz verlagern.
+        (Inhaber informieren)
+Name            __________________________
+Datum/Uhrzeit    __________________________
+Unterschrift     __________________________
+</pre>
+
+=== Strafzettel ===
+<pre>
+# Strafzettel
+[ ] Im Durchgang
+[ ] Auf dem Konferenztisch
+[ ] Am Arbeitsplatz _____
+[ ] Kein Parkschein, oder sonstige Notiz
+
+## Beschreibung
+________________________________________________
+________________________________________________
+________________________________________________
+________________________________________________
+________________________________________________
+
+Ich als Aussteller dieses Strafzettels habe versucht,
+den (vermutlichen) Eigentümer zu kontaktieren und über
+diesen Strafzettel zu informieren.
+
+Name            __________________________
+Datum/Uhrzeit    __________________________
+Unterschrift     __________________________
+</pre>
+
+== Offene Fragen ==
+* Was ist mit Zeug, das niemandem genau zuordbar ist?
+* Welche Flächen sind überhaupt kostenpflichtig? Sollte man die extra kennzeichnen?
+* Gibt es Ausnahmen, und wie werden die behandelt?
+* 
+[[Kategorie:Projekt]]
