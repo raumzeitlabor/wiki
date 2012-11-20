@@ -71,9 +71,9 @@ Für alle, die nicht so gerne selber ätzen, ist eine professionell gefertigte P
 
 ===Aufbau===
 Zur Erläuterung: Die Platinenoberseite ist die Seite ohne Leiterbahnen bzw. ohne Aufdruck. Diese Seite ist die sichtbare Vorderseite. Auf der Rückseite befinden sich die Kupferbahnen und bei der professionellen Platine der weiße Bestückungsdruck. Dies ist die Lötseite.
-[[Datei:Hacklace_Zusammenbau01.jpg|thumb|right|150px]]
-[[Datei:Hacklace_Zusammenbau02.jpg|thumb|right|150px]]
-[[Datei:Hacklace_Zusammenbau03.jpg|thumb|right|150px]]
+[[Datei:Hacklace_Zusammenbau01.jpg|thumb|right|220px|SMD-Widerstände]]
+[[Datei:Hacklace_Zusammenbau02.jpg|thumb|right|220px|Widerstand und Kondensator]]
+[[Datei:Hacklace_Zusammenbau03.jpg|thumb|right|220px|Abrichten der Prozessorpins]]
 
 Der Aufbau geschieht wie folgt:
 # Als erstes werden die beiden SMD-Widerstände (R2, R3) auf der Leiterbahnseite aufgelötet. Durch die große 1206-Bauform ist das nicht weiter schwierig. Zunächst ein Pad mit etwas Lötzinn belegen, dann das Bauteil mit der Pinzette an das Lötpad halten und mit dem Lötkolben festlöten. Wenn das Bauteil richtig sitzt, den zweiten Anschluß verlöten.
@@ -87,9 +87,9 @@ Der Aufbau geschieht wie folgt:
 # Fehlen noch die Kabel für die Stromversorgung. Jeweils ein rotes (plus) und schwarzes (minus) Kabel wird an das jeweilige Lötpad angelötet. Zur Zugentlastung kann man jedes Kabel durch die zugehörige Bohrung in der oberen Ecke führen.
 # Als letzter Schritt sind die Kabel an den Halter für die Knopfzelle zu löten. Dabei unbedingt auf die richtige Polung achten, da das Hacklace keinen Verpolungsschutz besitzt.
 {| 
-| [[Datei:Hacklace_Zusammenbau05.jpg|thumb|right|150px]]
-| [[Datei:Hacklace_Zusammenbau07.jpg|thumb|right|150px]]
-| [[Datei:Hacklace_Zusammenbau08.jpg|thumb|right|150px]]
+| [[Datei:Hacklace_Zusammenbau05.jpg|thumb|right|220px|Löten von Prozessor und Display (vorher, nachher)]]
+| [[Datei:Hacklace_Zusammenbau07.jpg|thumb|right|300px|Mit Pfostenleisten und Taster]]
+| [[Datei:Hacklace_Zusammenbau08.jpg|thumb|right|150px|Fertiges Hacklace mit Kabeln und Knopfzellenhalter]]
 |}
 
 ===Flashen===
