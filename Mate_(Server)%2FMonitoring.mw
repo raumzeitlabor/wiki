@@ -16,3 +16,12 @@
 
 * Jede VM wird auf Wunsch gemonitort, Monitoring von Spezialdiensten nach Rücksprache
 * Read-Only-Zugriff auf Anfrage an das NOC-Team.
+
+== Zu monitorende Dinge (aka Todo-Liste) ==
+
+* IPv6-Connectivity
+* IPv4-Connectivity
+* MTU 1500 mit V4/V6
+
+== Sonstiges ==
+* UMTS-Stick mit ner Prepaid-Sim-Karte wird von Felicitus gesponsort, damit das Monitoring anschlagen kann, wenn keine Connecitivity da ist
