@@ -4,19 +4,21 @@
 |image       = 
 |imagesize   = 
 |description = Benutzerdatenbank
-|author      = [[Benutzer:SEC|sECuRE]]
+|author      = [[Benutzer:SEC|sECuRE]], [[Benutzer:Else|Else]]
 |username    = 
 |version     = 
 |update      = 
 |platform    = 
 |license     = 
-|download    = 
+|download    = http://github.com/raumzeitlabor/rzl-benutzerdb
 }}
 
-Über die BenutzerDB kann jeder seine persönliche PIN und andere Dienste im RZL verwalten und nutzen.
+Über die BenutzerDB kann jeder seine persönliche PIN, MAC-Adressen und andere Dienste im RZL verwalten und nutzen. Sie ist als Debian Paket installiert (<tt>raumzeitbenutzerdb</tt>).
 
 Die BenutzerDB ist via https://raumzeitlabor.de/BenutzerDB/ erreichbar.
 
 == Technik ==
 
-Die BenutzerDB nutzt [http://perldancer.org/ Dancer] für die Perl-Scripte, welche mittels Twiggy? ausgeliefert werden. Der Apache ist so konfiguriert, daß er mittels ProxyPass das ganze auf der normalen Blackbox abbildet.
+Die BenutzerDB basiert auf dem Webframework [http://perldancer.org/ Dancer] sowie Template::Toolkit und wird mittels Twiggy ausgeliefert. Twiggy lauscht auf <tt>127.0.0.1:3000</tt>; der Apache ist so konfiguriert, daß er mittels ProxyPass das ganze auf der normalen Blackbox abbildet. Die BenutzerDB liefert aus Sicherheitsgründen bei Fehlern/Bugs keinen Stracktrace zurück, sondern einen 500 (ohne jeglichen Inhalt -- to be fixed). Auf dem Server sind jedoch weitere Informationen unter <tt>/usr/share/benutzerdb/logs/production.log</tt> verfügbar.
+
+Die BenutzerDB wurde ursprünglich von sECuRE geschrieben und wird nun von Else weiter betreut.
