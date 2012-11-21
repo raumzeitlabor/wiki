@@ -199,11 +199,45 @@ Bei dem Gürtelclip wurde der Knopfzellenhalter mit einem Stück Platine und zwe
 Die benötigten Bauteile können bei Reichelt bzw. CSD-Electronics bestellt werden. Ein Auflistung mit Bestellnummer findet sich [[Medium:Hacklace_Bauteileliste.pdf|hier]].
 
 === Bausatz ===
-Als bequeme Alternative bieten wir einen Bausatz mit allen Teilen und einer professionell gefertigten Platine an. Der Bausatz kostet 10,- Euro.
+Als bequeme Alternative bieten wir einen Bausatz mit allen Teilen und einer professionell gefertigten Platine an. Der Bausatz kostet 10,- Euro. und kann bei [[Benutzer:Fabster|Fabster]] oder [[Benutzer:muzy|muzy]] erworben werden. Bezahlung erfolgt nicht über die Raumkasse.
+
+{{ProgressBar|17
+| text = Verfügbare Bausätze (Stand 21.11.12 10:00Uhr)
+| total = 18
+| center = false
+| height = 5
+}}
+
 {| 
 | [[Datei:Hacklace_Einzelteile.jpg|thumb|right|260px|Einzelteile]]
 | [[Datei:Hacklace_Platine_schwarz.jpg|thumb|right|120px|Professionell gefertigte Platine]]
 | [[Datei:Hacklace_schwarz.jpg|thumb|right|240px|Fertig aufgebautes Hacklace]]
+|-
+|}
+
+=== Kosten ===
+Die Progressbar zeigt die aktuelle Refinanzierung des Projektes an. Sobald die volle Summe erreicht ist, sind die restlichen Einnahmen Spende an das RaumZeitLabor.
+
+{{ProgressBar|10
+| text = Aktueller Refinanzierungsstatus
+| total = 490
+| center = false
+| height = 5
+}}
+
+Übersicht der Ein- und Ausgaben
+{| class="wikitable"  valign = "top"
+!Name
+!Ausgaben
+!Einnahmen
+|-
+|[[Benutzer:Fabster|Fabster]]
+|194€ Platinen
+|10€ Bausätze
+|-
+|[[Benutzer:muzy|muzy]]
+|295,20€ Bauteile, Verpackung
+|0€
 |-
 |}
 
