@@ -1,3 +1,10 @@
+[[Benutzer:Felicitus|Felicitus]] bestellt Anfang Dezember 2012.
+
 == Der Raum braucht ==
 
-* 2x FAN-ML 5010-12 (Ersatzlüfter für Ultimaker)
+<pre>
+FAN-ML 5010-12;2
+LOGILINK UA0148;1
+</pre>
+
+Der Logilink-Switch muß noch vom NOC-Team als "brauchen wir" bestätigt werden.
