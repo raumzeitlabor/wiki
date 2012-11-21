@@ -53,7 +53,7 @@ Dann Netzinstallation starten:
 virt-install --connect qemu:///system --name=monitoring --ram=<raminmb> \
 --vcpus=1 --disk path=<diskpfad>,format=raw --os-type linux --os-variant debianwheezy \
 --nographics --location http://ftp.de.debian.org/debian/dists/wheezy/main/installer-amd64/ \
---extra-args=console=tty0 console=ttyS0,115200n8 -v
+--extra-args="console=tty0 console=ttyS0,115200n8" -v
 </pre>
 
 == Besondere Einstellungen auf dem Hypervisor ==
