@@ -17,6 +17,7 @@
 * Jede VM wird auf Wunsch gemonitort, Monitoring von Spezialdiensten nach Rücksprache
 * Read-Only-Zugriff auf Anfrage an das NOC-Team.
 
+* Zabbix-Login unter '''http://monitoring.raumzeitlabor.de/zabbix'''
 == Zu monitorende Dinge (aka Todo-Liste) ==
 
 * IPv6-Connectivity
