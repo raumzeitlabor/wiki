@@ -200,12 +200,20 @@ Die benötigten Bauteile können bei Reichelt bzw. CSD-Electronics bestellt werd
 === Bausatz ===
 Als bequeme Alternative bieten wir einen Bausatz mit allen Teilen und einer professionell gefertigten Platine an. Der Bausatz kostet 10,- Euro und kann bei [[Benutzer:Fabster|Fabster]] oder [[Benutzer:muzy|muzy]] erworben werden. Die Bezahlung erfolgt '''nicht''' über die Raumkasse. Gerne helfen wir oder andere erfahrene Laboranten beim löten, zusammenbauen, flashen und programmieren.
 
-{{ProgressBar|6
-| text = Verfügbare Bausätze (Stand 22.11.12 00:05Uhr)
+{{ProgressBar|10
+| text = Verfügbare Bausätze für das Happy Hacklace Hacking (Stand 22.11.12 08:15Uhr)
 | total = 18
 | center = false
 | height = 5
 }}
+
+{{ProgressBar|33
+| text = Verfügbare Bausätze zweiter Batch, mit Versandmöglichkeit ab dem 28.11.12 (Stand 22.11.12 08:15Uhr)
+| total = 40
+| center = false
+| height = 5
+}}
+
 
 {| 
 | [[Datei:Hacklace_Einzelteile.jpg|thumb|right|260px|Einzelteile]]
