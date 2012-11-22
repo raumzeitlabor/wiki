@@ -106,6 +106,14 @@ Der Aufbau geschieht wie folgt:
 Zum Flashen der Software benötigt man einen AVR-Programmer (zum Beispiel den [[Usbasp|USBAsp]]), der an der ISP-Schnittstelle angeschlossen wird. Die Fuses des ATtiny4313 müssen so eingestellt werden, daß der Controller mit seinem internen RC-Oszillator auf 4 MHz läuft.
 Danach werdem das Hex-File mit der Firmware ins Flash und die Default-Konfigurationsdaten ins EEPROM geschrieben.
 
+====Fuse Bits====
+Die Fuses für den ATtiny4313 lauten: Low: 0xE2 High: 0xDF Extended: 0xFF
+
+Fusebits mit avrdude setzen:
+ foo@bar $ avrdude -v -c <PROGRAMMER> -p t4313 -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
+
+<PROGRAMMER> bitte durch den benutzten Programmer ersetzen, z.B.: usbasp
+
 ==Software==
 Die Software wurde mit dem AVR-Studio 6.0 von Atmel (AVRGCC 4.6.2) entwickelt. Dabei zeigte sich, daß das in dieser Version enthaltene File "iotn4313.h" Fehler enthält. Eine korrigierte Version findet sich im GIT-Repository.
 
