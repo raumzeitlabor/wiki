@@ -75,17 +75,19 @@ Die Default-Linux-Einstellungen (bzw die von Debian) sind etwas ungünstig für 
 * Das '''Plattenimage''' muß den '''Cache-Modus''' auf '''none''' gesetzt haben ('''<driver name='qemu' type='raw' cache='none'/>''')
 * Der Typ des '''Netzwerkinterfaces''' muß '''virtio''' sein ('''<model type='virtio'/>''')
 === In der VM selbst ===
-* '''Default-Scheduler von cfq auf moop''' (Kernel-Parameter elevator=noop <ref name="KER-PAR-01">[http://www.mjmwired.net/kernel/Documentation/kernel-parameters.txt#796 Dokumentation zum Kernel-Parameter elevator] </ref> in '''/etc/default/grub''' setzen, danach '''update-grub2''' ausführen)
+* '''Default-Scheduler von cfq auf noop''' (Kernel-Parameter elevator=noop <ref name="KER-PAR-01">[http://www.mjmwired.net/kernel/Documentation/kernel-parameters.txt#796 Dokumentation zum Kernel-Parameter elevator] </ref> in '''/etc/default/grub''' setzen, danach '''update-grub2''' ausführen)
 * '''Tickless Kernel aktivieren''' (Kernel-Parameter nohz=on <ref name="KER-PAR-02">[http://www.mjmwired.net/kernel/Documentation/kernel-parameters.txt#1855 Dokumentation zum Kernel-Parameter nohz] </ref> in '''/etc/default/grub''' setzen, danach '''update-grub2''' ausführen)
 * Prüfen, ob die Module '''virtio-blk''' und '''virtio-net''' geladen sind
 * Serielle Konsole in '''/etc/inittab''' aktivieren: '''T0:23:respawn:/sbin/getty -L ttyS0 115200 vt102'''
-* Serielle Konsole zusätzlich zur normalen Konsole aktivieren (in /etc/default/grub), wenn man schon dabei ist, kann man auch grub serial beibringen: <pre>GRUB_TERMINAL=serial&#10;GRUB_SERIAL_COMMAND="serial --unit=0 --speed=115200 --word=8 --parity=no --stop=1"</pre> sowie <pre>console=ttyS0,115200n8 console=tty0</pre>
+* Serielle Konsole zusätzlich zur normalen Konsole aktivieren (in '''/etc/default/grub'''), wenn man schon dabei ist, kann man auch grub serial beibringen: <pre>GRUB_TERMINAL=serial&#10;GRUB_SERIAL_COMMAND="serial --unit=0 --speed=115200 --word=8 --parity=no --stop=1"</pre> sowie <pre>console=ttyS0,115200n8 console=tty0</pre>
 
 Für die faulen Hunde, wie ich einer bin, hier nochmal der komplette GRUB_CMDLINE-Kram:
 
 <pre>
 GRUB_CMDLINE_LINUX_DEFAULT="elevator=noop nohz=on transparent_hugepage=always console=ttyS0,115200n8 console=tty0"
 </pre>
+
+<blink>'''DON'T FORGET THE MAGIC update-grub2'''</blink>
 
 == Unterseiten ==
 <splist />
