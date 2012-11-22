@@ -14,7 +14,9 @@
 
 Wir haben eine Telefonnummer, die über einen Sipgate-Account läuft. Dieser Sipgate-Account ist hängt an einem Asterisk-Server, an den wiederrum über einen CISCO SPA112 ein Telefon im Raum angebunden ist.
 
-Geplant ist, statt der Berliner Nummer die das momentan hat eine der Nummern zu nutzen, die bei unserem ISDN-Anschluss dabei ist. Wenn die Telekom unseren Anschluss mal verlegt. (Alsob).
+<div style="font-size: 40px; margin: 30px 0;">030 / 609 851 33-45</div>
+
+Geplant für die Zukunft ist, statt dieser Berliner Nummer eine der Nummern zu nutzen, die bei unserem ISDN-Anschluss dabei sein wird. Wenn die Telekom unseren Anschluss mal auf die Reihe bekommt. (Alsob).
 
 == Eingehende Anrufe ==
 Anrufer hört Wartemusik, Telefon klingelt im Raum. Ausserdem wird auf der Ping-Anzeige die Nummer des Anrufers (oder ggf. ein Name) angezeigt.
