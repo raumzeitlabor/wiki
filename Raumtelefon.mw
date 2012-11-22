@@ -1,0 +1,26 @@
+{{ProjektInfoBox
+|name        = Raumtelefon
+|status      = beta
+|image       = Raumtelefon.jpg
+|description = Das Raumtelefon.
+|author      = [[Benutzer:Lutoma|lutoma]]
+|username    = 
+|version     = 2.0
+|update      = 
+|platform    = Asterisk/SIP
+|license     = 
+|download    = 
+}}
+
+Wir haben eine Telefonnummer, die über einen Sipgate-Account läuft. Dieser Sipgate-Account ist hängt an einem Asterisk-Server, an den wiederrum über einen CISCO SPA112 ein Telefon im Raum angebunden ist.
+
+Geplant ist, statt der Berliner Nummer die das momentan hat eine der Nummern zu nutzen, die bei unserem ISDN-Anschluss dabei ist. Wenn die Telekom unseren Anschluss mal verlegt. (Alsob).
+
+== Eingehende Anrufe ==
+Anrufer hört Wartemusik, Telefon klingelt im Raum. Ausserdem wird auf der Ping-Anzeige die Nummer des Anrufers (oder ggf. ein Name) angezeigt.
+
+=== Anrufbeantworter ===
+Wenn nach 50 Sekunden niemand ans Telefon geht, springt ein Anrufbeantworter an. Die Aufzeichnung geht per Mail an info@raumzeitlabor.de.
+
+== Ausgehende Anrufe ==
+Sind explizit möglich. Da die Kosten aber privat bezahlt werden, bitte ich darum, auf potentiell teure Telefonate zu verzichten. Die genauen Preise finden sich auf der [http://www.sipgate.de/trunking/tarife Sipgate-Seite].
