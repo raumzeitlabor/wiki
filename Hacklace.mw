@@ -78,6 +78,7 @@ Das Display muss je nach Typ anders eingesetzt werden. Dies ist auch ein Konfigu
 
 # HDSP-5403 hp 008 L3 - Der schwarze Punkt an der Seite des Displays muss diagonal zum PIN 1 (viereckiges Pad) liegen. Von oben betrachtet wäre das die rechte untere Ecke.
 
+====Anleitung====
 
 Zur Erläuterung: Die Platinenoberseite ist die Seite ohne Leiterbahnen bzw. ohne Aufdruck. Diese Seite ist die sichtbare Vorderseite. Auf der Rückseite befinden sich die Kupferbahnen und bei der professionellen Platine der weiße Bestückungsdruck. Dies ist die Lötseite.
 [[Datei:Hacklace_Zusammenbau01.jpg|thumb|right|220px|SMD-Widerstände]]
