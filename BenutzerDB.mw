@@ -26,3 +26,6 @@ Du kannst dich unter https://raumzeitlabor.de/BenutzerDB/register registrieren.
 Die BenutzerDB basiert auf dem Webframework [http://perldancer.org/ Dancer] sowie Template::Toolkit und wird mittels Twiggy ausgeliefert. Twiggy lauscht auf <tt>127.0.0.1:3000</tt>; der Apache ist so konfiguriert, daß er mittels ProxyPass das ganze auf der normalen Blackbox abbildet. Die BenutzerDB liefert aus Sicherheitsgründen bei Fehlern/Bugs keinen Stracktrace zurück, sondern einen 500 (ohne jeglichen Inhalt -- to be fixed). Auf dem Server sind jedoch weitere Informationen unter <tt>/usr/share/benutzerdb/logs/production.log</tt> verfügbar.
 
 Die BenutzerDB wurde ursprünglich von sECuRE geschrieben und wird nun von Else weiter betreut.
+
+== MAC Adressen registrieren ==
+Um Missbrauch zu vermeiden, können MAC Adressen nur innerhalb des RZL-Netzwerks registriert werden. Hierzu musst du über den internen Hostname auf die BenutzerDB zugreifen (momentan: https://blackbox.rzl/BenutzerDB/). Die BenutzerDB kann dann über das Gerät, mit dem die Webseite aufrufst, den aktuellen Lease sowie die MAC Adresse des Geräts automatisch heraussuchen. Möchtest Du z.B. die MAC Adresse deines Handys registrieren, so musst du die BenutzerDB auf deinem Handy aufrufen.
