@@ -24,6 +24,15 @@ Hier eine Sammlung von Ideen. Fügt eure einfach hinzu, vielleicht finden sich j
 | colspan=4 | Beschreibung
 
 {{IncubatorProjectIdea
+|title   = Reflow-Ofen
+|descr   = Ein Reflow-Ofen mit Temperatursteuerung für 35€ nach Anleitung von http://thomaspfeifer.net/backofen_smd_reflow.htm
+|author  = [[Benutzer:Felicitus|Felicitus]]
+|megusta = 
+|added   = 23.11.2012
+|touched = 23.11.2012
+}}
+
+{{IncubatorProjectIdea
 |title   = GroupTumblr
 |descr   = Webinterface, um $Dinge in unseren Tumblr posten zu können
 |author  = [[Benutzer:Tiefpunkt|tiefpunkt]]
