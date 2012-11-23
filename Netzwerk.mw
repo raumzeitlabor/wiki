@@ -68,7 +68,7 @@ Angekündigt wurden:
 |-----
 | 172.22.36.9 || cashpoint || RZL Cashpoint
 |-----
-| 172.22.36.'''10 - 110''' || dhcp || DHCP-Range (unfiltered)
+| 172.22.36.'''10 - 110''' || ''reserved'' || Derzeit ungenutzt
 |-----
 | 172.22.36.111 || heizung || [[Heizungssteuerung]]
 |-----
@@ -118,7 +118,7 @@ Angekündigt wurden:
 |-----
 | 172.22.36.134 || ''reserved'' || Reserviert für Infrastruktur
 |-----
-| 172.22.36.'''135 - 235''' || '''dhcp''' || DHCP-Range (unfiltered)
+| 172.22.36.'''135 - 235''' || ''reserviert'' || Ungenutzt
 |-----
 | 172.22.36.236 || ''reserved'' || Reserviert für Geräte
 |-----
@@ -157,6 +157,8 @@ Angekündigt wurden:
 | 172.22.36.253 || Administrativ belegt || Bei Fragen: Docsteel oder sECuRE
 |-----
 | 172.22.36.254 || ''reserved'' || Reserviert für Geräte
+|-----
+| 172.22.37.'''10 - 110''' || '''dhcp''' || DHCP-Range (unfiltered)
 |}
 
 
