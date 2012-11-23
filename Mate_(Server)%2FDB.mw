@@ -18,7 +18,7 @@
 * es wird ein phpMyAdmin zur Verfügung gestellt
 * die Daten werden zentral gebackupt (''TODO'')
 
-'''Hinweis:''' ''Bis zum Produktivbetrieb wird der MySQL Server Slave-Replication mit der blackbox als Master machen.''
+'''Hinweis:''' ''Bis zum Produktivbetrieb wird der MySQL Server Slave-Replication mit der blackbox als Master machen.'' Die Replication läuft bereits.
 
 Eckdaten:
 * 512MB RAM
@@ -27,3 +27,4 @@ Eckdaten:
 == TODO ==
 * Monitoring
 * Backup
+* Firewalling
