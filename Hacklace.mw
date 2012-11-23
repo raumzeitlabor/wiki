@@ -259,7 +259,7 @@ Als bequeme Alternative bieten wir einen Bausatz mit allen Teilen und einer prof
 === Kosten ===
 Die Progressbar zeigt die aktuelle Refinanzierung des Projektes an. Sobald die volle Summe erreicht ist, sind die restlichen Einnahmen Spende an das RaumZeitLabor.
 
-{{ProgressBar|30
+{{ProgressBar|90
 | text = Aktueller Refinanzierungsstatus
 | total = 490
 | center = false
