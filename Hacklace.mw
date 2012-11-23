@@ -196,12 +196,20 @@ Als Hilfsmittel zum Erstellen einer Animation kann diese [[Medium:Hacklace_Anima
 |[[Medium:Hacklace_Assembly_Front_Side_Rev_B.pdf|.pdf]], [[Medium:Hacklace_Assembly_Copper_Side_Rev_B.pdf|.pdf]]
 |CC-BY-ND
 |-
-|Hex-Files zum Flashen des Controllers / EEPROMs
-|[[Medium:Hacklace_Rev_B.hex|.hex]], [[Medium:Hacklace_Rev_B.eep|.eep]]
+|Hex-File zum Flashen des Controllers (Display Kingbright TA07-11)
+|[[Medium:Hacklace_Kingbright_TA.hex|.hex]]
 |CC-BY-NC-ND
 |-
-|Hex-Files zum Flashen des Controllers (HDSP-5403 Display)
-|//TO upload :-)
+|Hex-File zum Flashen des Controllers (Display Kingbright TC07-11)
+|[[Medium:Hacklace_Kingbright_TC.hex|.hex]]
+|CC-BY-NC-ND
+|-
+|Hex-File zum Flashen des Controllers (Display HDSP-5403)
+|[[Medium:Hacklace_HDSP5403.hex|.hex]]
+|CC-BY-NC-ND
+|-
+|Hex-File für das EEPROM
+|[[Medium:Hacklace.eep|.eep]]
 |CC-BY-NC-ND
 |-
 |Sourcecode (Github)
