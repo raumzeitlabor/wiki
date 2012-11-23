@@ -118,7 +118,9 @@ Angekündigt wurden:
 |-----
 | 172.22.36.134 || ''reserved'' || Reserviert für Infrastruktur
 |-----
-| 172.22.36.'''135 - 235''' || ''reserviert'' || Ungenutzt
+| 172.22.36.'''135 - 199''' || ''reserviert'' || Ungenutzt
+|-----
+| 172.22.36.'''200 - 235''' || ''IP-Netz für VMs'' || IP-Adressen für die virtuellen Maschienen auf [[Mate (Server)]]
 |-----
 | 172.22.36.236 || ''reserved'' || Reserviert für Geräte
 |-----
