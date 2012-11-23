@@ -12,4 +12,17 @@
 |download    = 
 }}
 
-Dies wird der Ersatz für [[Datengrab]]. Im Moment im Aufbau.
+Dies wird der Ersatz für [[Datengrab]]. '''Im Moment im Aufbau.'''
+
+* Derzeitige Kapazität: 2.5TB (erweiterbar)
+* Daten liegen in verschlüsseltem LUKS Container (AES, 256bit), der per NFS über den Host eingehangen wird
+* Performance read: ~50MB/s / write: ''TODO''
+* bei Reboot muss Container erst entlockt werden (kann vom NOC Team erledigt werden)
+
+== Services ==
+* Samba Freigabe ("SHARE") mit Gastzugang (rw). Mountbar mit:
+ <tt>sudo mount -t cifs //datengrab.rzl/SHARE -o uid=1000,gid=1000,password= /mnt/datengrab</tt>
+* anonymer FTP-Server (rw) für Leute, bei denen Samba nicht funktioniert
+
+== TODO ==
+* Monitoring einrichten
