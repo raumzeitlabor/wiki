@@ -43,7 +43,8 @@ Was gut. Ist super gefroren, und hat gut geschmeckt.
 
 == Potentielle Modifikationen ==
 * Neue Grafiken in den Deckel
-* LED-Display in den Deckel
+* LED-Display in den Deckel (benötigt Gleichrichter, da fallen 12V~ raus)
+** [[Benutzer:Felicitus|Felicitus]] hat CCFL-Röhren reingebaut (nicht-destruktiv), allerdings fehlt noch ein Gleichrichter.
 * Sensoren
 ** Füllstand
 ** Temperatur
