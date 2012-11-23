@@ -122,6 +122,8 @@ Angekündigt wurden:
 |-----
 | 172.22.36.'''200 - 235''' || ''IP-Netz für VMs'' || IP-Adressen für die virtuellen Maschienen auf [[Mate (Server)]]
 |-----
+| 172.22.36.200 || [[Mate_(Server)/Datengrab|Datengrab]] || Das Datengrab
+|-----
 | 172.22.36.236 || ''reserved'' || Reserviert für Geräte
 |-----
 | 172.22.36.237 || ''reserved'' || Reserviert für Geräte
