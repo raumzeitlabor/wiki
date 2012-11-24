@@ -14,17 +14,19 @@
 
 Dies wird der Ersatz für [[Datengrab]]. '''Im Moment im Aufbau.'''
 
+== Services ==
+=== Fileserver ===
 * Derzeitige Kapazität: 2.5TB (erweiterbar)
 * Daten liegen in verschlüsseltem LUKS Container (AES, 256bit), der per NFS über den Host eingehangen wird
-* Performance read: ~50MB/s / write: ''TODO''
-* bei Reboot muss der Container auf [[Mate (Server)]] erst entlockt werden (kann vom NOC Team erledigt werden)
+** Performance read: ~50MB/s / write: ''TODO''
+** bei Reboot muss der Container auf [[Mate (Server)]] erst entlockt werden (kann vom NOC Team erledigt werden)
 
-== Services ==
 * Samba Freigabe ("SHARE") mit Gastzugang (rw). Mountbar mit:
  <tt>sudo mount -t cifs //datengrab.rzl/SHARE -o uid=1000,gid=1000,password= /mnt/datengrab</tt>
 * anonymer FTP-Server (rw) für Leute, bei denen Samba nicht funktioniert
 
 === Distributionsproxy ===
+* Daten liegen in eigener LV (300GB)
 * apt-cacher-ng mirrort/proxiet Debian- und Ubuntu-Distributionen (evtl auch andere, bisher nicht getestet)
 
 Debian/Ubuntu: '''/etc/apt/apt.conf.d/02proxy''':
