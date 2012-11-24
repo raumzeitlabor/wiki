@@ -31,7 +31,7 @@ Debian/Ubuntu: '''/etc/apt/apt.conf.d/02proxy''':
 <pre>Acquire::http { Proxy "http://distmirror.rzl:3142"; };</pre>
 
 
-Derzeit befinden sich folgende Distributionen im Precache (d.h. diese werden einmal täglich aktualisiert):
+Derzeit befinden sich folgende Distributionen im [http://www.unix-ag.uni-kl.de/~bloch/acng/html/howtos.html#mirroring Precache] (d.h. diese werden einmal täglich aktualisiert):
 <pre>
 - Debian stable binary amd64
 - Debian testing binary amd64
