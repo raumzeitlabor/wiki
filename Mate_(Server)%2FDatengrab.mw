@@ -26,12 +26,17 @@ Dies wird der Ersatz für [[Datengrab]]. '''Im Moment im Aufbau.'''
 * anonymer FTP-Server (rw) für Leute, bei denen Samba nicht funktioniert
 
 === Distributionsproxy ===
+* http://distmirror.rzl:3142
 * Daten liegen in eigener LV (300GB)
 * apt-cacher-ng mirrort/proxiet Debian- und Ubuntu-Distributionen (evtl auch andere, bisher nicht getestet)
 
 Debian/Ubuntu: '''/etc/apt/apt.conf.d/02proxy''':
 <pre>Acquire::http { Proxy "http://distmirror.rzl:3142"; };</pre>
 
+''alternativ''
+
+folgendes in die sources.list eintragen (ohne Gewähr):
+<pre>deb http://172.22.36.200:3142/debian stable main contrib non-free</pre>
 
 Derzeit befinden sich folgende Distributionen im [http://www.unix-ag.uni-kl.de/~bloch/acng/html/howtos.html#mirroring Precache] (d.h. diese werden einmal täglich aktualisiert):
 <pre>
