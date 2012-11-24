@@ -17,7 +17,7 @@ Dies wird der Ersatz für [[Datengrab]]. '''Im Moment im Aufbau.'''
 * Derzeitige Kapazität: 2.5TB (erweiterbar)
 * Daten liegen in verschlüsseltem LUKS Container (AES, 256bit), der per NFS über den Host eingehangen wird
 * Performance read: ~50MB/s / write: ''TODO''
-* bei Reboot muss Container erst entlockt werden (kann vom NOC Team erledigt werden)
+* bei Reboot muss der Container auf [[Mate (Server)]] erst entlockt werden (kann vom NOC Team erledigt werden)
 
 == Services ==
 * Samba Freigabe ("SHARE") mit Gastzugang (rw). Mountbar mit:
