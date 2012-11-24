@@ -23,8 +23,20 @@ Dies wird der Ersatz für [[Datengrab]]. '''Im Moment im Aufbau.'''
 * Samba Freigabe ("SHARE") mit Gastzugang (rw). Mountbar mit:
  <tt>sudo mount -t cifs //datengrab.rzl/SHARE -o uid=1000,gid=1000,password= /mnt/datengrab</tt>
 * anonymer FTP-Server (rw) für Leute, bei denen Samba nicht funktioniert
-* apt-cacher-ng mirrort Debian- und Ubuntu-Distributionen (evtl auch andere, bisher nicht getestet)
-** Unter Debian und Ubuntu in /etc/apt/apt.conf.d/02proxy eintragen: <pre>Acquire::http { Proxy "http://distmirror.rzl:3142"; };</pre>
+
+=== Distributionsproxy ==
+* apt-cacher-ng mirrort/proxiet Debian- und Ubuntu-Distributionen (evtl auch andere, bisher nicht getestet)
+
+Debian/Ubuntu: '''/etc/apt/apt.conf.d/02proxy''':
+<pre>Acquire::http { Proxy "http://distmirror.rzl:3142"; };</pre>
+
+
+Derzeit befinden sich folgende Distributionen im Precache (d.h. diese werden einmal täglich aktualisiert):
+<pre>
+- Debian stable binary amd64
+- Debian testing binary amd64
+- Debian unstable binary amd64
+</pre>
 
 == TODO ==
 * Monitoring einrichten
