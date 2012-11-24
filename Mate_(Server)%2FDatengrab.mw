@@ -24,7 +24,7 @@ Dies wird der Ersatz für [[Datengrab]]. '''Im Moment im Aufbau.'''
  <tt>sudo mount -t cifs //datengrab.rzl/SHARE -o uid=1000,gid=1000,password= /mnt/datengrab</tt>
 * anonymer FTP-Server (rw) für Leute, bei denen Samba nicht funktioniert
 
-=== Distributionsproxy ==
+=== Distributionsproxy ===
 * apt-cacher-ng mirrort/proxiet Debian- und Ubuntu-Distributionen (evtl auch andere, bisher nicht getestet)
 
 Debian/Ubuntu: '''/etc/apt/apt.conf.d/02proxy''':
@@ -37,6 +37,8 @@ Derzeit befinden sich folgende Distributionen im [http://www.unix-ag.uni-kl.de/~
 - Debian testing binary amd64
 - Debian unstable binary amd64
 </pre>
+
+'''Feedback zur Performance oder anderen Problemen bitte an das [[NOC Team]]'''
 
 == TODO ==
 * Monitoring einrichten
