@@ -9,10 +9,8 @@
 |update      = 
 |platform    = 
 |license     = 
-|download    = 
+|download    =
 }}
-
-Dies wird der Ersatz für [[Datengrab]]. '''Im Moment im Aufbau.'''
 
 == Services ==
 '''Alle Dienste (FTP, Samba) werden über zeroconf (avahi) announced.'''
