@@ -15,6 +15,8 @@
 Dies wird der Ersatz für [[Datengrab]]. '''Im Moment im Aufbau.'''
 
 == Services ==
+'''Alle Dienste (FTP, Samba) werden über zeroconf (avahi) announced.'''
+
 === Fileserver ===
 * Derzeitige Kapazität: 2.5TB (erweiterbar)
 * Daten liegen in verschlüsseltem LUKS Container (AES, 256bit), der per NFS über den Host eingehangen wird
