@@ -13,6 +13,13 @@
 }}
 
 
+== Warum? ==
+
+* Es gibt im Moment nur 2 Zustände pro Bereich: An und aus (oder auch: 350W oder 0W). Oftmals ist im Lagerbereich z.b. nur eine Leuchtstoffröhre nötig.
+* Der Helligkeitsunterschied zwischen Deckenbeleuchtung und den Stehlampen ist zu groß - ein Mittelding fehlt
+* Ist der Nebenraum fertig, so muß man jeden Raum überprüfen, ob dort noch Licht brennt. Dies kann mit der Lichtsteuerung (MasterPowerOff) gelöst werden.
+* Unfallvermeidung (stell dir vor, du sitzt im Olymp, und es wird dunkel. Du mußt erst den Olymp verlassen, um das Licht anzuschalten -> Treppe runterfallen = aua. Mit der Lichtsteuerung könnte das übers LAN gehen).
+
 [[Image:Lichtkreisplan Hauptraum.svg|thumb|300px|Lichtkreisplan Hauptraum]]
 == Dinge aka Facts ==
 * Im Hauptraum gibt es 23 Lichtkreise.
