@@ -22,7 +22,7 @@
 ** bei Reboot muss der Container auf [[Mate (Server)]] erst entlockt werden (kann vom NOC Team erledigt werden)
 
 * Samba Freigabe ("SHARE") mit Gastzugang (rw). Mountbar mit:
- <tt>sudo mount -t cifs //datengrab.rzl/SHARE -o uid=1000,gid=1000,password= /mnt/datengrab</tt>
+ <tt>sudo mount -t cifs //datengrab.rzl/SHARE -o uid=1000,gid=1000,guest /mnt/datengrab</tt>
 * anonymer FTP-Server (rw) für Leute, bei denen Samba nicht funktioniert
 
 === Distributionsproxy ===
