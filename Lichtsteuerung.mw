@@ -34,7 +34,7 @@
 * Der µC schaltet anhand der Schalterstellungen (Wechselschalter), ein Lichttableau oder über externe Steuersignale (z.B. Hausbus) die Relais
 * Der µC soll vom DMX-Bus abgekoppelt werden können, um notfalls manuell Problemen aus dem Weg zu gehen (Spielkinder, böse Hackerangriffe, rumspinnende DMX-Apps etc).
 * Es sind ggf. minimale Schaltzeiten zu beachten
-
+* Der µC soll speichern, wie lange jeder Lichtkreis aktiv war. Somit kann man die Einsparung berechnen und Statistiken sind eh super.
 [[Image:Lichtsteuerung Overview.svg]]
 
 == Kosten ==
