@@ -239,16 +239,10 @@ Die benötigten Bauteile können bei Reichelt bzw. CSD-Electronics bestellt werd
 === Bausatz ===
 Als bequeme Alternative bieten wir einen Bausatz mit allen Teilen und einer professionell gefertigten Platine an. Der Bausatz kostet 10,- Euro und kann bei [[Benutzer:Fabster|Fabster]] oder [[Benutzer:muzy|muzy]] erworben werden. Die Bezahlung erfolgt '''nicht''' über die Raumkasse. Gerne helfen wir oder andere erfahrene Laboranten beim löten, zusammenbauen, flashen und programmieren.
 
-{{ProgressBar|0
-| text = Verfügbare Bausätze für das Happy Hacklace Hacking (Stand 23.11.12 23:55Uhr)
-| total = 18
-| center = false
-| height = 5
-}}
 
 {{ProgressBar|33
-| text = Verfügbare Bausätze zweiter Batch, mit Versandmöglichkeit ab dem 28.11.12 (Stand 22.11.12 08:15Uhr)
-| total = 40
+| text = Verfügbare Bausätze mit Versandmöglichkeit ab dem 28.11.12 (Stand 27.11.12 16:15Uhr)
+| total = 60
 | center = false
 | height = 5
 }}
@@ -264,7 +258,7 @@ Als bequeme Alternative bieten wir einen Bausatz mit allen Teilen und einer prof
 === Kosten ===
 Die Progressbar zeigt die aktuelle Refinanzierung des Projektes an. Sobald die volle Summe erreicht ist, sind die restlichen Einnahmen Spende an das RaumZeitLabor.
 
-{{ProgressBar|100
+{{ProgressBar|200
 | text = Aktueller Refinanzierungsstatus
 | total = 490
 | center = false
