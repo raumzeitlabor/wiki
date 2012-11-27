@@ -24,6 +24,7 @@
 * Samba Freigabe ("SHARE") mit Gastzugang (rw). Mountbar mit:
  <tt>sudo mount -t cifs //datengrab.rzl/SHARE -o uid=1000,gid=1000,guest /mnt/datengrab</tt>
 * anonymer FTP-Server (rw) für Leute, bei denen Samba nicht funktioniert
+* Beispiel-auto.misc-Zeile für autofs: <pre>datengrab       -fstype=cifs,iocharset=utf8,dmask=0777,fmask=0777,uid=1000,gid=1000 ://datengrab.rzl/share</pre>
 
 === Distributionsproxy ===
 * http://distmirror.rzl:3142
