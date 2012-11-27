@@ -103,16 +103,21 @@ Der Aufbau geschieht wie folgt:
 |}
 
 ===Flashen===
-Zum Flashen der Software benötigt man einen AVR-Programmer (zum Beispiel den [[Usbasp|USBAsp]]), der an der ISP-Schnittstelle angeschlossen wird. Die Fuses des ATtiny4313 müssen so eingestellt werden, daß der Controller mit seinem internen RC-Oszillator auf 4 MHz läuft.
-Danach werdem das Hex-File mit der Firmware ins Flash und die Default-Konfigurationsdaten ins EEPROM geschrieben.
+Zum Flashen der Software benötigt man einen AVR-Programmer (zum Beispiel den [[Usbasp|USBAsp]]), der an der ISP-Schnittstelle angeschlossen wird.
 
-====Fuse Bits====
+Die Fuses des ATtiny4313 müssen so eingestellt werden, daß der Controller mit seinem internen RC-Oszillator auf 4 MHz läuft.
 Die Fuses für den ATtiny4313 lauten: Low: 0xE2 High: 0xDF Extended: 0xFF
 
 Fusebits mit avrdude setzen:
- foo@bar $ avrdude -v -c <PROGRAMMER> -p t4313 -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
+ avrdude -v -c <PROGRAMMER> -p t4313 -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
 
 <PROGRAMMER> bitte durch den benutzten Programmer ersetzen, z.B.: usbasp
+
+Danach werden das Hex-File mit der Firmware ins Flash und die Default-Konfigurationsdaten ins EEPROM geschrieben.
+
+Flash und EEPROM mit avrdude programmieren:
+ avrdude -c usbasp -p t4313 -u -U eeprom:w:Hacklace_Rev_B.eep
+ avrdude -c usbasp -p t4313 -u -U flash:w:Hacklace_Kingbright_TA.hex
 
 ==Software==
 
