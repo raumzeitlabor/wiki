@@ -1,0 +1,22 @@
+{{ProjektInfoBox
+|name        = PartKeepr
+|status      = beta
+|image       = 
+|description = Die VM für PartKeepr
+|author      = [[NOC Team|NOC-Team]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
+'''partkeepr.rzl''' ist eine VM, auf der unsere interne Instanz von [[PartKeepr]] gehostet wird.
+
+Eckdaten:
+* 512MB RAM
+* 1 CPU Core
+* 30GB HDD
+* Apache2 fürs Frontend
+* Noch kein SSL
