@@ -24,6 +24,7 @@ NT 10-SMD;5
 XLR 3EB-N;5
 XLR 3ES-N;5
 SIM1-0505S DIL8;1
+SMD ZD 5,1;5
 </pre>
 
 Prüfen, welche Spannung die RGB LED strips verwenden und entsprechenden DC-DC Wandler kaufen
