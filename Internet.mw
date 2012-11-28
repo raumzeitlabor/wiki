@@ -18,6 +18,8 @@ Das RaumZeitLabor soll mit einer weiteren bleeding-edge Technologie ausgestattet
 ==Aktuelle Situation==
 Mittlerweile haben wir einen eigenen DSL Anschluss, der auch genutzt wird.
 
+Ausgehender Traffic wird über [[Benutzer:docsteel|docsteel]] getunnelt, sowohl über IPv4 als auch IPv6.
+
 ==Status der Bestellung==
 Mittlweile wurde bei der Telekom ein Ansprechpartner gefunden, der sich der Sache annimmt. Die Telekom hat mittlerweile zwei neue Kupfer APLs (Hausanschluss) im Gebäude installiert. Die Inhouseverkabelung soll vorerst so bleiben wie sie ist, da sie wohl noch in Ordnung sein soll.
 Damit wird der schlimmste Teil der Verkabelung, der über das ABB/Alstom Werksgelände geht, umgangen und die DSL Geschwindigkeit sollte steigen. Sollte die Inhouseverkabelung zu alt sein, werden wir einen Geschwindigkeitsunterschied zwischen unserem Anschluss und dem unten im Büro feststellen können, dann kann sich um eine Erneuerung gedanken gemacht werden. Felicitus, hax404 und drahti haben sich damals für Inhouseverkabelungsdinge freiwillig bei Mutlu gemeldet.
