@@ -17,6 +17,8 @@ Diese VM wird interne Dienste hosten.
 * BenutzerDB
 * PIN Sync
 * IRC Bots
+* Pingi-Pie Host
+* Stromverbrauch
 * …
 
 Dienste, die in dieser VM laufen sollen, ''müssen'' rebootfest sein (sonst werden sie nicht installiert). Idealerweise sind sie bereits fertig als Debian-Paket gebundelt.
