@@ -25,9 +25,14 @@ XLR 3EB-N;5
 XLR 3ES-N;5
 SIM1-0505S DIL8;1
 SMD ZD 5,1;5
+S202 S02;2
+ATMEGA 8-16 TQ;1
+PL 112100;1
 </pre>
 
-Prüfen, welche Spannung die RGB LED strips verwenden und entsprechenden DC-DC Wandler kaufen
+Prüfen, welche Spannung die RGB LED strips verwenden und entsprechenden DC-DC Wandler kaufen.
+
+Prüfen, ob wir 2mm Raster Buchsenleisten für Carambola haben.
 
 == Der Raum braucht ==
 
