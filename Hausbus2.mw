@@ -98,4 +98,8 @@ Vorschlag:
 * HTTP erst gar nicht unterstützen, sondern nur via HTTPS arbeiten (vermeidet Fehler und ist weniger Aufwand)
 * Bei Aktionen (z.b. Tür öffnen/schließen) nur via HTTPS und Authentifizierung zulassen. Das würde aber natürlich auf Dauer problematisch, da man am Ende nicht mehr weiß, welches Gerät wo Zugriff hat - bisher keine Lösung.
 
+== Events ==
+* Bisher gibt es keine Möglichkeit, auf "Events" zu lauschen. Das soll geändert werden.
+* Beispielsweise gibt es das Event "Raum wird geschlossen". Irgendein Hausbus2-Teilnehmer könnte auf dieses Event horchen und somit den Raumstatus setzen sowie das Licht ausschalten.
+* Events erfordern Multicasting, z.b. auf IP-Ebene.
 [[Kategorie:Infrastruktur]]
