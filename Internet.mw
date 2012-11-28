@@ -16,7 +16,7 @@
 Das RaumZeitLabor soll mit einer weiteren bleeding-edge Technologie ausgestattet werden: Internet. Seit wenigen Jahren erst verbreitet und quasi erst seit gestern angenehm schnell. Aber nicht bei uns! Wir wollen das Nostalgiegefühl aufrechterhalten und verzichten auf neuartige Anbindungen wie Glasfaser oder VDSL.
 ==Aktuelle Situation==
 
-Im Moment beziehen wir Internet noch über nette Nachbarn, die aber leider zum Ende des Jahres 2012 ausziehen werden. Unabhängig davon wurde ein DSL Anschluss bestellt.
+Im Moment beziehen wir Internet noch über nette Nachbarn, die aber leider zum Ende des Jahres 2012 ausziehen werden.Ein eigener Anschluss ist geschaltet.
 
 ==Status der Bestellung==
 Mittlweile wurde bei der Telekom ein Ansprechpartner gefunden, der sich der Sache annimmt. Die Telekom hat mittlerweile zwei neue Kupfer APLs (Hausanschluss) im Gebäude installiert. Die Inhouseverkabelung soll vorerst so bleiben wie sie ist, da sie wohl noch in Ordnung sein soll.
@@ -24,10 +24,10 @@ Damit wird der schlimmste Teil der Verkabelung, der über das ABB/Alstom Werksge
 
 Splitter und Zugangsdaten sind mittlerweile angekommen.
 
-Schaltungstermin verzörgert sich etwas™.
+Das DSL wurde am 2012-11-28 spontan geschaltet.
 
 Noch ausführlichere Infos findet man auf der ML.
 
 ==Was geliefert wird==
 
-Der Anschluss wird vorerst mit (echtem) ISDN und ADSL2+ bis 16MBit/s geschaltet.
+Der Anschluss wird vorerst mit (echtem) ISDN und ADSL2+ bis 16MBit/s geschaltet. Effektiv kommen etwa 12MBit/s down und 1MBit/s up durch. (http://www.speedtest.net/result/2337387738.png)
