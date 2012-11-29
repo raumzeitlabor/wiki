@@ -59,14 +59,13 @@ Everything you ned is available at the RaumZeitLabor. Ask a friendly hackerspace
 
 ==Hardware==
 
-===Platine===
-[[Datei:Hacklace_Platine.jpg|thumb|right|220px|Platine, selbstgeätzt und rot lackiert]]
-Die Platine wurde einseitig entworfen und das Layout so gestaltet, daß man die Platine leicht selber ätzen kann. 
-Eine Belichtungsvorlage findet sich unter [[Hacklace#Download|Download]].
+===Circuit Board===
+[[Datei:Hacklace_Platine.jpg|thumb|right|220px|Circuit board, etched manually and painted red]]
+The circuit board was designed to be easily etched. If you want to etch the circuit by yourself you will find the needed file [[Hacklace/en#Download|here]].
 
-Es werden nur zwei verschiedene Bohrdurchmesser verwendet. Die Pins für die Led-Matrix und die beiden Befestigungsanschlüsse des Tasters werden mit 1,2 mm gebohrt. Alle anderen Bohrungen mit 0,9 mm. An der oberen Kante sind rechts und links jeweils ein Pad, welches keinen elektrischen Anschluß hat und als Zugentlastung für das Kabel dient. Diese Pads werden auf den Außendurchmesser des Kabels aufgebohrt.
+After you etched the circuit you youst need two drilling diameters. Use a 1.2mm (0.047") diameter for the LED-matrix pins and the tactile-switch pins. Apart from those drill holes, the remaining drill holes should have a diameter of 0.9mm (0.035"). The pads on the upper left and upper right side are not part of the circuit and can be drilled to the diameter of the cable which acts as the holder for the necklace.
 
-Für alle, die nicht so gerne selber ätzen, ist eine professionell gefertigte Platine im Rahmen eines [[Hacklace#Bezugsquellen|Bausatzes]] verfügbar.
+In case you do not have the equipment for etching circuit boards, you can buy a professionally manufactured circuit board [[Hacklace#Bezugsquellen|here]].
 
 ===Aufbau===
 
