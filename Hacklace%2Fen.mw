@@ -47,16 +47,15 @@ By pressing this button short time, the hacklace switches to the next text/anima
 ==Prerequisites==
 Building the hacklace will help you learn to solder. If you already have soldering experience and the knowledge how to flash AVR mircocontrollers, it should be easy to build one. If you are not used to the tasks of soldering and flashing a microcontroller, we recommend to ask some RaumZeitLabor member to help you. This way you will gain the needed expertise!
 
-==Ausrüstung und Werkzeug==
-Folgendes wird zum Zusammenbau benötigt:
+==Tools needed==
+To build a hacklace you'll need the following tools:
 
-* Einfache Lötausrüstung (Lötkolben, Seitenschneider, Pinzette, "Dritte Hand" ...)
-* ISP-Programmiergerät für Atmel AVR-Mikrocontroller
-* Computer
-* Optional: Ausrüstung zur Herstellung einseitiger Platinen
+* Soldering equipment (Soldering iron, solder, tweezers, ...)
+* ISP programmer for Atmel AVR-microcontroller
+* A computer
+* Optional: equipment for etching circuit boards (when you do not want to use the professional produced circuit boards)
 
-Alles ist im RaumZeitLabor vorhanden und steht dir zur Verfügung.
-
+Everything you ned is available at the RaumZeitLabor. Ask a friendly hackerspace member to introduce you to the equipment.
 
 ==Hardware==
 
