@@ -67,13 +67,12 @@ After you etched the circuit you youst need two drilling diameters. Use a 1.2mm 
 
 In case you do not have the equipment for etching circuit boards, you can buy a professionally manufactured circuit board [[Hacklace#Bezugsquellen|here]].
 
-===Aufbau===
+===Assembly===
 
-====Hinweis zum Display====
-Es gibt aufgrund der Hardwareverfügbarkeit 3 verschiedene Displaytypen in den Bausätzen.
-Das Display muss je nach Typ anders eingesetzt werden. Dies ist auch ein Konfigurationsparameter in der Firmware.
+====Hint on the display====
+Due to shortages in hardware supply, there are 3 different display types. Depending on the type, the display has to be inserted differently. This is also a configuration parameter in the firmware.
 
-# HDSP-5403 hp 008 L3 - Der schwarze Punkt an der Seite des Displays muss diagonal zum PIN 1 (viereckiges Pad) liegen. Von oben betrachtet wäre das die rechte untere Ecke.
+# HDSP-5403 hp 008 L3 - The black dot on the side of the display has to be arranged diagonally to PIN 1 (rectangular pad). Seen from top, that's the bottom right edge.
 
 ====Anleitung====
 
@@ -82,8 +81,8 @@ Zur Erläuterung: Die Platinenoberseite ist die Seite ohne Leiterbahnen bzw. ohn
 [[Datei:Hacklace_Zusammenbau02.jpg|thumb|right|220px|Widerstand und Kondensator]]
 [[Datei:Hacklace_Zusammenbau03.jpg|thumb|right|220px|Abrichten der Prozessorpins]]
 
-Der Aufbau geschieht wie folgt:
-# Als erstes werden die beiden SMD-Widerstände (R2, R3) auf der Leiterbahnseite aufgelötet. Durch die große 1206-Bauform ist das nicht weiter schwierig. Zunächst ein Pad mit etwas Lötzinn belegen, dann das Bauteil mit der Pinzette an das Lötpad halten und mit dem Lötkolben festlöten. Wenn das Bauteil richtig sitzt, den zweiten Anschluß verlöten.
+The assembling is done as follows:
+# Firstly, the two SMD resistors (R2, R3) are soldered to the conductor path side. Due to the large 1206 type, this is comparatively easy. At first, cover one pad with solder, then hold the resistor to the pad with a pair of tweezers. As soon as the part fits correctly, do the same with the other connector.
 # Die Drähte des "normalen" Widerstands (R1) im richtigen Abstand abbiegen, Widerstand auf die Platinenoberseite stecken und auf der Lötseite festlöten. Anschließend die überstehenden Drahtenden mit einem Seitenschneider abknipsen.
 # Mit dem Kondensator (C1) wird genauso verfahren.
 # Wer sich an den weißen Seiten des Displays stört, kann diese z. B. schwarz anmalen (Edding).
