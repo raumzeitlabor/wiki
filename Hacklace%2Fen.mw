@@ -27,28 +27,24 @@ A hacklace is 5x7 dotmatrix display which is attached to a necklace. You can cre
 
 ==Features==
 * Only 48mm x 15mm (1.89" x 0.59") in size.
-* Mobiler Betrieb durch Versorgung mit Knopfzelle
-* Optisch reizvoll durch perfekt symmetrische Anordnung aller sichtbaren Bauteile
+* Coin cell included
+* Symmetric component layout
 * Durch Ändern des Pin-Mappings an verschiedene Dot-Matrix-Typen anpaßbar
-* ASCII-Zeichensatz mit deutschen Umlauten
-* Proportional-Font
-* Originelle Sonderzeichen und Symbole
-* Zahlreiche vorgefertigte Animationen
-* Speichern von eigenen Texten und Animationen im EEPROM
-* Serielle Schnittstelle (3,3 V oder 5 V) zum einfachen Download eigener Messages
-* Texte und Animationen können als Textfile mit jedem beliebigen Editor erstellt werden
-* Zwei Scroll-Modi: Vorwärts und bidirektional
-* Scrollgeschwindigkeit und Pause einstellbar
-* ISP-Anschluß zum Programmieren eigener Firmware
+* Supports ASCII including german umlauts and additional symbols
+* Propotional font and predefined animations included
+* Serial port (3,3 or 5V) to upload your own messages and animations which are then stored in the EEPROM.
+* Animations and messages can be created easily using a text-editor of your choice.
+* Ready to use. Your hacklace microcontroller comes with the latest firmware.
+* Speed, delay and modus can be set individually.
+* ISP-connector for flashing custom firmware.
 
 
-==Bedienung==
-Da das Hacklace nur einen einzigen Knopf besitzt, ist die Bedienung sehr einfach.
+==Usage==
+Using the hacklace is very easy, because there is just one button which triggers the actions.
 
-Ein kurzer Druck auf den Taster wechselt auf den nächsten Text bzw. die nächste Animation. Hält man den Taster für einige Sekunden gedrückt, schaltet sich das Hacklace aus. Aus diesem Zustand kann man es durch einen kurzen Tastendruck wieder zum Leben erwecken. 
+By pressing this button short time, the hacklace switches to the next text/animation. By pressing the button for a longer time, the hacklace goes into a deep sleep mode which consumes nearly no power. By pressing the button again, one awakes the hacklace from deep sleep.
 
-
-==Voraussetzungen / Schwierigkeitsgrad==
+==Prerequisites==
 Hacklace wurde als Einsteigerprojekt konzipiert, so daß es auch von Anfängern leicht nachgebaut werden kann. Du solltest über grundlegende Lötkenntnisse verfügen und in der Lage sein, einen AVR-Mikrocontroller zu flashen. Falls Löten und Flashen noch nicht zu deinem Repertoire gehören, empfehlen wir, das Hacklace unter Anleitung eines erfahrenen RaumZeitLaboranten zusammen zu bauen. So kannst du dir die nötigen Kenntnisse schnell und unkompliziert aneignen.
 
 
