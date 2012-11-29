@@ -1,0 +1,280 @@
+{{LanguageBox |msg=This page was translated from the German version. Click [[Hacklace|here]] to visit the original page.}}
+{{AchtungKasten1 |title=This page is not fully translated yet|msg=Please remove this message once the article is fully translated!
+}}
+
+{{ProjektInfoBox
+|name        = Hacklace
+|status      = stable
+|image       = Hacklace_schwarz.jpg
+|description = A necklace with a 5x7 dotmatrix display
+|author      = [[user:fabster|fabster]], [[user:muzy|muzy]]
+|username    = 
+|version     = Revision B
+|update      = 
+|platform    = 
+|license     = Creative Commons
+|download    = [[Hacklace#Download|Download]]
+}}
+
+Hacklace - A Necklace for Hackers
+
+* You're searching for an accessory suitable for nerds, geeks and hackers? Try a hacklace!
+* You're searching for an individual gift? Try a hacklace!
+* You want to be the highlight on any party? A hacklace is your gadget with which you can gain attention!
+
+A hacklace is 5x7 dotmatrix display which is attached to a necklace. You can create your own animations and messages which one can display on the dotmatrix display. You are only limited by your own imagination.
+
+
+==Features==
+* Only 48mm x 15mm (1.89" x 0.59") in size.
+* Mobiler Betrieb durch Versorgung mit Knopfzelle
+* Optisch reizvoll durch perfekt symmetrische Anordnung aller sichtbaren Bauteile
+* Durch Ändern des Pin-Mappings an verschiedene Dot-Matrix-Typen anpaßbar
+* ASCII-Zeichensatz mit deutschen Umlauten
+* Proportional-Font
+* Originelle Sonderzeichen und Symbole
+* Zahlreiche vorgefertigte Animationen
+* Speichern von eigenen Texten und Animationen im EEPROM
+* Serielle Schnittstelle (3,3 V oder 5 V) zum einfachen Download eigener Messages
+* Texte und Animationen können als Textfile mit jedem beliebigen Editor erstellt werden
+* Zwei Scroll-Modi: Vorwärts und bidirektional
+* Scrollgeschwindigkeit und Pause einstellbar
+* ISP-Anschluß zum Programmieren eigener Firmware
+
+
+==Bedienung==
+Da das Hacklace nur einen einzigen Knopf besitzt, ist die Bedienung sehr einfach.
+
+Ein kurzer Druck auf den Taster wechselt auf den nächsten Text bzw. die nächste Animation. Hält man den Taster für einige Sekunden gedrückt, schaltet sich das Hacklace aus. Aus diesem Zustand kann man es durch einen kurzen Tastendruck wieder zum Leben erwecken. 
+
+
+==Voraussetzungen / Schwierigkeitsgrad==
+Hacklace wurde als Einsteigerprojekt konzipiert, so daß es auch von Anfängern leicht nachgebaut werden kann. Du solltest über grundlegende Lötkenntnisse verfügen und in der Lage sein, einen AVR-Mikrocontroller zu flashen. Falls Löten und Flashen noch nicht zu deinem Repertoire gehören, empfehlen wir, das Hacklace unter Anleitung eines erfahrenen RaumZeitLaboranten zusammen zu bauen. So kannst du dir die nötigen Kenntnisse schnell und unkompliziert aneignen.
+
+
+==Ausrüstung und Werkzeug==
+Folgendes wird zum Zusammenbau benötigt:
+
+* Einfache Lötausrüstung (Lötkolben, Seitenschneider, Pinzette, "Dritte Hand" ...)
+* ISP-Programmiergerät für Atmel AVR-Mikrocontroller
+* Computer
+* Optional: Ausrüstung zur Herstellung einseitiger Platinen
+
+Alles ist im RaumZeitLabor vorhanden und steht dir zur Verfügung.
+
+
+==Hardware==
+
+===Platine===
+[[Datei:Hacklace_Platine.jpg|thumb|right|220px|Platine, selbstgeätzt und rot lackiert]]
+Die Platine wurde einseitig entworfen und das Layout so gestaltet, daß man die Platine leicht selber ätzen kann. 
+Eine Belichtungsvorlage findet sich unter [[Hacklace#Download|Download]].
+
+Es werden nur zwei verschiedene Bohrdurchmesser verwendet. Die Pins für die Led-Matrix und die beiden Befestigungsanschlüsse des Tasters werden mit 1,2 mm gebohrt. Alle anderen Bohrungen mit 0,9 mm. An der oberen Kante sind rechts und links jeweils ein Pad, welches keinen elektrischen Anschluß hat und als Zugentlastung für das Kabel dient. Diese Pads werden auf den Außendurchmesser des Kabels aufgebohrt.
+
+Für alle, die nicht so gerne selber ätzen, ist eine professionell gefertigte Platine im Rahmen eines [[Hacklace#Bezugsquellen|Bausatzes]] verfügbar.
+
+===Aufbau===
+
+====Hinweis zum Display====
+Es gibt aufgrund der Hardwareverfügbarkeit 3 verschiedene Displaytypen in den Bausätzen.
+Das Display muss je nach Typ anders eingesetzt werden. Dies ist auch ein Konfigurationsparameter in der Firmware.
+
+# HDSP-5403 hp 008 L3 - Der schwarze Punkt an der Seite des Displays muss diagonal zum PIN 1 (viereckiges Pad) liegen. Von oben betrachtet wäre das die rechte untere Ecke.
+
+====Anleitung====
+
+Zur Erläuterung: Die Platinenoberseite ist die Seite ohne Leiterbahnen bzw. ohne Aufdruck. Diese Seite ist die sichtbare Vorderseite. Auf der Rückseite befinden sich die Kupferbahnen und bei der professionellen Platine der weiße Bestückungsdruck. Dies ist die Lötseite.
+[[Datei:Hacklace_Zusammenbau01.jpg|thumb|right|220px|SMD-Widerstände]]
+[[Datei:Hacklace_Zusammenbau02.jpg|thumb|right|220px|Widerstand und Kondensator]]
+[[Datei:Hacklace_Zusammenbau03.jpg|thumb|right|220px|Abrichten der Prozessorpins]]
+
+Der Aufbau geschieht wie folgt:
+# Als erstes werden die beiden SMD-Widerstände (R2, R3) auf der Leiterbahnseite aufgelötet. Durch die große 1206-Bauform ist das nicht weiter schwierig. Zunächst ein Pad mit etwas Lötzinn belegen, dann das Bauteil mit der Pinzette an das Lötpad halten und mit dem Lötkolben festlöten. Wenn das Bauteil richtig sitzt, den zweiten Anschluß verlöten.
+# Die Drähte des "normalen" Widerstands (R1) im richtigen Abstand abbiegen, Widerstand auf die Platinenoberseite stecken und auf der Lötseite festlöten. Anschließend die überstehenden Drahtenden mit einem Seitenschneider abknipsen.
+# Mit dem Kondensator (C1) wird genauso verfahren.
+# Wer sich an den weißen Seiten des Displays stört, kann diese z. B. schwarz anmalen (Edding).
+# Als Vorbereitung für den nächsten Schritt ist es sinnvoll, die Beinchen des Prozessors mit einem entsprechenden Werkzeug genau auf den Abstand der Bohrlöcher auszurichten (siehe Foto). Außerdem empfiehlt es sich, die Pins des Displays mit wenig Lötzinn leicht zu verzinnen.
+# Jetzt kommt der etwas trickreiche Teil. Das Dot-Matrix-Display und der Prozessor müssen gleichzeitig eingelötet werden. Dazu wird das Display zunächst von der Oberseite her eingesetzt aber noch nicht verlötet. Das Display gehört in die breiten Pads mit den etwas größeren Löchern. Pad Nummer 1 ist an der quadratischen Form zu erkennen. Der zugehörige Pin des Displays ist durch eine kleine "1" oder einen Punkt markiert. Die überstehenden Pins auf der Lötseite müssen mit dem Seitenschneider so gekürzt werden, daß sie die Platine nur ca. 1 Millimeter überragen. Nun wird von der Lötseite her der Prozessor eingesetzt, so daß sich Display und Prozessor gegenüberliegen und die Pads mit den großen Löchern jeweils einen Pin vom Prozessor und einen Pin vom Display gemeinsam aufnehmen. Dies erfordert u. U. etwas Probieren, bis alle Beinchen ihren Platz gefunden haben. Auch hier ist darauf zu achten, daß Pin 1 des Prozessors in das quadratische Pad kommt.
+# Anschließend werden Prozessor und Display gleichzeitig verlötet. Um eine gute Verbindung beider Bauteile zu erreichen, hilft die Verwendung eines Elektronik-Flußmittels. Da wir direkt am Pin löten, erwärmt sich das Bauteil recht schnell. Damit der Prozessor hierdurch keinen Schaden nimmt, sollte man nach jedem Pin eine Weile warten, bis er sich wieder abgekühlt hat.
+# Jetzt können der Taster und die Stiftleisten von der Oberseite her eingesetzt und auf der Lötseite festgelötet werden.
+# Fehlen noch die Kabel für die Stromversorgung. Jeweils ein rotes (plus) und schwarzes (minus) Kabel wird an das jeweilige Lötpad angelötet. Zur Zugentlastung kann man jedes Kabel durch die zugehörige Bohrung in der oberen Ecke führen.
+# Als letzter Schritt sind die Kabel an den Halter für die Knopfzelle zu löten. Dabei unbedingt auf die richtige Polung achten, da das Hacklace keinen Verpolungsschutz besitzt. Wer sich an den vorstehenden Pins des Knopfzellenhalters stört, kann diese rechtwinklig abbiegen, damit sie im Nacken nicht pieksen.
+{| 
+| [[Datei:Hacklace_Zusammenbau05.jpg|thumb|right|220px|Löten von Prozessor und Display (vorher, nachher)]]
+| [[Datei:Hacklace_Zusammenbau07.jpg|thumb|right|300px|Mit Pfostenleisten und Taster]]
+| [[Datei:Hacklace_Zusammenbau08.jpg|thumb|right|150px|Fertiges Hacklace mit Kabeln und Knopfzellenhalter]]
+|}
+
+===Flashen===
+Zum Flashen der Software benötigt man einen AVR-Programmer (zum Beispiel den [[Usbasp|USBAsp]]), der an der ISP-Schnittstelle angeschlossen wird.
+
+Die Fuses des ATtiny4313 müssen so eingestellt werden, daß der Controller mit seinem internen RC-Oszillator auf 4 MHz läuft.
+Die Fuses für den ATtiny4313 lauten: Low: 0xE2 High: 0xDF Extended: 0xFF
+
+Fusebits mit avrdude setzen:
+ avrdude -v -c <PROGRAMMER> -p t4313 -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
+
+<PROGRAMMER> bitte durch den benutzten Programmer ersetzen, z.B.: usbasp
+
+Danach werden das Hex-File mit der Firmware ins Flash und die Default-Konfigurationsdaten ins EEPROM geschrieben.
+
+Flash und EEPROM mit avrdude programmieren:
+ avrdude -c usbasp -p t4313 -u -U eeprom:w:Hacklace_Rev_B.eep
+ avrdude -c usbasp -p t4313 -u -U flash:w:Hacklace_Kingbright_TA.hex
+
+==Software==
+
+=== Firmware compilieren ===
+Die Firmware für den Mikrocontroller wurde mit dem AVR-Studio 6.0 von Atmel (AVR Toolchain Version: 3.4.0.663 - GCC  4.6.2) entwickelt. Dabei zeigte sich, daß das mit dieser Version ausgelieferte File "iotn4313.h" Fehler enthält. Eine korrigierte Version findet sich im GIT-Repository. Unter Windows liegt das fehlerhafte Headerfile unter
+"C:\Programme\Atmel\Atmel Studio 6.0\extensions\Atmel\AVRGCC\3.4.0.65\AVRToolchain\avr\include\avr".
+Bevor man das Hacklace-Projekt compilieren kann, muß man das fehlerhafte Headerfile "iotn4313.h" in "iotn4313_buggy.h" umbenennen und die korrekte Version aus dem Repository an seine Stelle kopieren.
+
+Wer das AVR-Studio 6.0 nicht verwenden möchte, sollte den AVR-GCC-Compiler so einstellen, daß er die Codegröße optimiert (Option -Os). Außerdem muß das Symbol F_CPU=4000000 definiert werden (Option -D), damit er weiß, daß der Controller mit 4 MHz läuft.
+
+===Displayspeicher===
+[[Datei:Hacklace_Display_Schema.png|thumb|right|300px]]
+Das Hacklace verwendet einen Displayspeicher von 200 Byte. Jedes Byte repräsentiert eine Spalte der Anzeige. Da der Zeichensatz proportional ist, haben die meisten Zeichen nur eine Breite von vier Spalten zuzüglich einer Spalte Abstand zum nächsten Zeichen. Animationen bestehen aus einzelnen Frames, wobei jeder Frame fünf Byte benötigt. Somit können Texte bis zu einer Länge von ca. 40 Zeichen dargestellt werden; eine Animation kann aus maximal 40 Frames bestehen.
+
+===Konfiguration===
+Über ein serielles Interface kannst du deine eigenen Texte und Animationen auf das Hacklace übertragen. Hierzu benötigst du ein serielles 3,3 Volt-Interfacekabel (5 Volt geht auch), welches an CON2 angeschlossen wird (GND - Pin 1, TxD - Pin 2). Über das Kabel kannst du mit einem Terminalprogramm ein Textfile an das Hacklace senden (2400 Baud, 8 Datenbits, keine Parität, 1 Stoppbit).
+
+Das Textfile zur Konfiguration enthält deine eigenen Texte und Animationen. Es läßt sich mit jedem beliebigen Texteditor erstellen, der in der Lage ist, ASCII-Texte zu erzeugen (kein Unicode!). Zum Speichern des Konfigurationsfiles stehen im internen EEPROM des Mikrocontrollers maximal 256 Byte zur Verfügung.
+
+Um ein irrtümliches Beschreiben zu Verhindern, muß vor dem Download eine Initialisierungssequenz geschickt werden. Dazu wird das Hacklace durch Senden eines Escape-Zeichens (chr(27)) zunächst zurückgesetzt. Um die Programmierung freizuschalten, müssen danach die beiden Großbuchstaben 'H' und 'L' folgen. Nun kannst du das Textfile senden. Nach dem Download empfiehlt es sich, nochmals ein Escape-Zeichen zu senden, damit das Hacklace verriegelt und gegen zufälliges Beschreiben geschützt wird.
+
+===Format des Konfigurationsfiles===
+Eine Message ist entweder ein Text oder eine Animation. Die Messages können durch Tastendruck auf dem Hacklace weitergeschaltet werden. Jede Zeile des Konfigurationsfiles enthält genau eine Message. Eine Message beginnt immer mit einem Modus-Byte, danach folgt der Text bzw. die Daten der Animation. Ein Modus-Byte von 0 zeigt das Ende der Messageliste an.
+
+Das Modus-Byte hat folgenden Aufbau:
+* Bit 7 gibt an, ob nur vorwärts (= 0) oder vor und zurück (= 1) gescrollt werden soll.
+* Bit 6..4 legen die Dauer der Pause nach dem Erreichen des Endes der Message fest (größer = länger)
+* Bit 3 gibt an, ob es sich um einen Text (= 0) oder eine Animation (= 1) handelt.
+* Bit 2..0 bestimmen die Scroll- bzw. Animationsgeschwindigkeit (größer = schneller)
+Es ist zu beachten, daß man nicht alle Bits auf Null setzen darf, da dies für die Markierung des Endes der Messageliste reserviert ist.
+
+Texte können direkt als Klartext eingegeben werden. Es stehen alle druckbaren ASCII-Zeichen sowie die deutschen Umlaute und 'ß' zur Verfügung ([[Medium:Hacklace_Font_5x7_extended.bmp|Hacklace Zeichensatz]]).
+
+Um die Eingabe von Sonderzeichen, Animationen und Bytewerten zu erleichtern, gibt es folgende Escape-Sequenzen.
+* Ein vorangestelltes '^' erhöht den Characterwert um 63, so daß die Zeichenfolge '^A' das erste Sonderzeichen (chr(129)), '^B' das zweite Sonderzeichen usw. erzeugt.
+* In ähnlicher Weise kann durch eine vorangestellte Tilde '~' eine im Flash gespeicherte Animation ausgewählt werden ('~A' erste Animation, '~B' zweite Animation usw.).
+* Zur Eingabe von Hexadezimalwerten wird ein '$' vorangestellt. Danach folgen zwei Hex-Ziffern (0..9 bzw. A..F). Dabei müssen Großbuchstaben verwendet werden. Durch ein Leerzeichen oder ein Komma wird die Hex-Eingabe beendet.
+Soll in einem Text eines der Escape-Zeichen ('^', '~' oder '$') verwendet werden, so muß man dieses verdoppeln. So erzeugt z. B. '$$' genau 1 Dollarzeicen.
+
+Eigene Animationen können erzeugt werden, indem man durch Eingabe von '$FF,' das Zeichen chr(255) sendet, wodurch die Eingabe in den Direkt-Modus wechselt. Die folgenden Bytes werden nun direkt abgespeichert. Jedes Byte repräsentiert eine Displayspalte wobei Bit 0 das oberste und Bit 6 das unterste Pixel verkörpern. Bit 7 bleibt ungenutzt und sollte auf Null gesetzt werden. Verlassen kann man den Direkt-Modus ebenfalls durch Senden von chr(255).
+
+Hier nun ein Beispiel für ein Konfigurationsfile.
+
+<code>
+ $45,Beispieltext
+ $40, Scrollen in Zeitlupe
+ $47, und extrem schnell
+ $74,moderat mit Pause
+ $84,.bidirektional.
+ $44,Umlaute äÄöÖüÜß
+ $24,Ein Herz ^R
+ $3B,~F
+ $0C,$FF $55 $2A $55 $2A $55 $2A $55 $2A $55 $2A $FF,
+ $00,
+</code>
+
+===Animationen erstellen===
+Wer die vorgefertigten Animationen im Flash durch eigene ersetzen will, muß eine Header-Datei erstellen, die die entsprechenden Daten als Byte-Array enthält. In "animations.h" wird dann ein #include-Befehl eingefügt, der diese Datei einbindet. Außerdem muß die Animation in die Liste der Animationen (animation[]) eingetragen werden. Die Position in dieser Liste legt fest, über welchen Buchstaben die Animation referenziert wird. Z. B. wird mit '~A' die erste Animation in der Liste aufgerufen (siehe [[Hacklace#Format des Konfigurationsfiles|Konfigurationsfile]]).
+
+Als Hilfsmittel zum Erstellen einer Animation kann diese [[Medium:Hacklace_Animationtemplate.bmp|Vorlage]] verwendet werden. Dabei handelt es sich um ein Graustufenbild, das eine Folge von 40 Frames mit je 5 x 8 Pixeln enthält. Mit einem Malprogramm läßt sich die Animation einfach in die Kästchen zeichnen. Die unterste (achte) Zeile bleibt unbenutzt. Eingeschaltete Pixel müssen schwarz (Farbcode 0), ausgeschaltete Pixel müssen weiß (Farbcode 255) gemalt werden. Spalten die Grauwerte enthalten werden später ignoriert. Zuletzt wird das Bild auf die benutzten Frames zugeschnitten, die nicht genutzten Frames werden gelöscht. Eine solche Bitmap läßt sich anschließend mit dem Skript "[[Medium:make_data.m|make_data.m]]" automatisch in ein C-Headerfile konvertieren. Dabei ist der Name des Bildes ohne Extension anzugeben, z. B. make_data('my_animation'). Zum Ausführen des Skripts benötigt man FreeMat, einen freien Matlab-Klon.
+
+==Download==
+{| class="wikitable"  valign = "top"
+!Datei
+!Format
+!Lizenz
+|-
+|Schaltplan
+|[[Medium:Hacklace_Schematic_Rev_B.pdf|.pdf]]
+|CC-BY-ND
+|-
+|Bauteileliste
+|[[Medium:Hacklace_Bauteileliste.pdf|.pdf]]
+|CC0
+|-
+|Belichtungsvorlage
+|[[Medium:Hacklace_PCB_20x_Rev_B.pdf|.pdf]]
+|CC-BY-ND
+|-
+|Bestückungsplan (Vorder- und Rückseite)
+|[[Medium:Hacklace_Assembly_Front_Side_Rev_B.pdf|.pdf]], [[Medium:Hacklace_Assembly_Copper_Side_Rev_B.pdf|.pdf]]
+|CC-BY-ND
+|-
+|Hex-File zum Flashen des Controllers (Display Kingbright TA07-11)
+|[[Medium:Hacklace_Kingbright_TA.hex|.hex]]
+|CC-BY-NC-ND
+|-
+|Hex-File zum Flashen des Controllers (Display Kingbright TC07-11)
+|[[Medium:Hacklace_Kingbright_TC.hex|.hex]]
+|CC-BY-NC-ND
+|-
+|Hex-File zum Flashen des Controllers (Display HDSP-5403)
+|[[Medium:Hacklace_HDSP5403.hex|.hex]]
+|CC-BY-NC-ND
+|-
+|Hex-File für das EEPROM
+|[[Medium:Hacklace_Rev_B.eep|.eep]]
+|CC-BY-NC-ND
+|-
+|Sourcecode (Github)
+|[https://github.com/fabster/Hacklace]
+|CC-BY-NC-SA
+|}
+
+Die aufgeführten Dateien stehen unter der jeweils angegebenen Creative-Commons-Lizenz.
+
+==Bilder==
+{| 
+| [[Datei:Hacklace_Halskette.jpg|thumb|left|300px|Ausführung als Halskette]]
+| [[Datei:Hacklace_Skull_red.jpg|thumb|left|250px|Ausführung als Gürtelclip]]
+|}
+Bei dem Gürtelclip wurde der Knopfzellenhalter mit einem Stück Platine und zwei Lötnägeln auf der Rückseite angebracht.
+
+Wer das Hacklace in Aktion sehen möchte, findet ein cooles Video auf YouTube[http://www.youtube.com/watch?v=6ASvxaGiPwA].
+
+==Bezugsquellen==
+Die benötigten Bauteile können bei Reichelt bzw. CSD-Electronics bestellt werden. Ein Auflistung mit Bestellnummer findet sich [[Medium:Hacklace_Bauteileliste.pdf|hier]].
+
+=== Bausatz ===
+Als bequeme Alternative bieten wir einen Bausatz mit allen Teilen und einer professionell gefertigten Platine an. Der Bausatz kostet 10,- Euro und kann bei [[Benutzer:Fabster|Fabster]] oder [[Benutzer:muzy|muzy]] erworben werden. Die Bezahlung erfolgt '''nicht''' über die Raumkasse. Gerne helfen wir oder andere erfahrene Laboranten beim löten, zusammenbauen, flashen und programmieren.
+
+
+{{ProgressBar|33
+| text = Verfügbare Bausätze mit Versandmöglichkeit ab dem 28.11.12 (Stand 27.11.12 16:15Uhr)
+| total = 60
+| center = false
+| height = 5
+}}
+
+
+{| 
+| [[Datei:Hacklace_Einzelteile.jpg|thumb|right|260px|Einzelteile]]
+| [[Datei:Hacklace_Platine_schwarz.jpg|thumb|right|120px|Professionell gefertigte Platine]]
+| [[Datei:Hacklace_schwarz.jpg|thumb|right|240px|Fertig aufgebautes Hacklace]]
+|-
+|}
+
+=== Kosten ===
+Die Progressbar zeigt die aktuelle Refinanzierung des Projektes an. Sobald die volle Summe erreicht ist, sind die restlichen Einnahmen Spende an das RaumZeitLabor.
+
+{{ProgressBar|200
+| text = Aktueller Refinanzierungsstatus
+| total = 490
+| center = false
+| height = 5
+}}
+
+== Fragen, Ideen etc. ==
+Diese Wikiseite dient dazu, die Fakten zum Hacklace zu präsentieren. Hier findest du Informationen über alles, was bereits realisiert worden ist. Für Dinge, die noch offen sind oder in der Zukunt liegen, wie z. B. Fragen, Ideen, Kommentare, Vorschläge, Wünsche steht dir die [[Diskussion:Hacklace|Diskussionsseite]] zur Verfügung. Dort kann alles eingetragen und besprochen werden, was noch nicht umgesetzt wurde.
+
+
+==Credits==
+Hacklace wurde inspiriert durch das Projekt "TinyMatrix" von TigerUp [https://sites.google.com/site/tinymatrix/]. Da wir jedoch unsere eigenen Vorstellungen umsetzen wollten, ist Hacklace bezüglich Hard- und Software eine komplette Neuentwicklung.
+
+
+[[Kategorie:Projekt]]
