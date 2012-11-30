@@ -21,6 +21,7 @@
 * Daten liegen in verschlüsseltem LUKS Container (AES, 256bit), der per NFS über den Host eingehangen wird
 ** Performance read: ~50MB/s / write: ''TODO''
 ** bei Reboot muss der Container auf [[Mate (Server)]] erst entlockt werden (kann vom NOC Team erledigt werden)
+* Avahi-Dienstname: "datengrab", Protokolle: _smb._tcp, _ftp._tcp
 
 * Samba Freigabe ("SHARE") mit Gastzugang (rw). Mountbar mit:
  <tt>sudo mount -t cifs //datengrab.rzl/SHARE -o uid=1000,gid=1000,guest /mnt/datengrab</tt>
@@ -31,6 +32,7 @@
 * http://distmirror.rzl:3142
 * Daten liegen in eigener LV (300GB)
 * apt-cacher-ng mirrort/proxiet Debian- und Ubuntu-Distributionen (evtl auch andere, bisher nicht getestet)
+* Avahi-Dienstname: wird noch nicht verkündigt. Vorschlag [[Benutzer:Kisl|Kisl]]: "apt-cache-proxy", Protokoll: _http._tcp
 
 Debian/Ubuntu: '''/etc/apt/apt.conf.d/02proxy''':
 <pre>Acquire::http { Proxy "http://distmirror.rzl:3142"; };</pre>
@@ -38,7 +40,7 @@ Debian/Ubuntu: '''/etc/apt/apt.conf.d/02proxy''':
 ''alternativ''
 
 folgendes in die sources.list eintragen (ohne Gewähr):
-<pre>deb http://172.22.36.200:3142/debian stable main contrib non-free</pre>
+<pre>deb http://distmirror.rzl:3142/debian stable main contrib non-free</pre>
 
 Derzeit befinden sich folgende Distributionen im [http://www.unix-ag.uni-kl.de/~bloch/acng/html/howtos.html#mirroring Precache] (d.h. diese werden einmal täglich aktualisiert):
 <pre>
