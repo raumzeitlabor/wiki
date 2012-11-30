@@ -42,3 +42,11 @@ LOGILINK UA0148;1
 </pre>
 
 Der Logilink-Switch muß noch vom NOC-Team als "brauchen wir" bestätigt werden.
+
+== Else braucht ==
+<pre>
+LED 3MM ST GN;10
+LED 3MM ST RT;10
+MPE 087-2-020;2
+MPE 094-2-024;4
+</pre>
