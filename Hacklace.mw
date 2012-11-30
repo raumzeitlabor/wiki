@@ -177,6 +177,8 @@ Hier nun ein Beispiel für ein Konfigurationsfile.
  $00,
 </code>
 
+Ein Default-Konfigurationsfile, mit dem sich der Ausgangszustand wieder herstellen läßt, befindet sich im Git-Repository [https://github.com/fabster/Hacklace].
+
 ===Animationen erstellen===
 Wer die vorgefertigten Animationen im Flash durch eigene ersetzen will, muß eine Header-Datei erstellen, die die entsprechenden Daten als Byte-Array enthält. In "animations.h" wird dann ein #include-Befehl eingefügt, der diese Datei einbindet. Außerdem muß die Animation in die Liste der Animationen (animation[]) eingetragen werden. Die Position in dieser Liste legt fest, über welchen Buchstaben die Animation referenziert wird. Z. B. wird mit '~A' die erste Animation in der Liste aufgerufen (siehe [[Hacklace#Format des Konfigurationsfiles|Konfigurationsfile]]).
 
