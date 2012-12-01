@@ -45,6 +45,21 @@ Folgende Slicer sind brauchbar:
 ==== Slic3r Profile ====
 * Brauchbare Profildatei. Liefert im Moment schlechtere Ergebnisse als Cura. [[Datei:Slicer_Profile_Slic3r.ini]]
 
+== Drucker SD-Karte ==
+
+* Wenn du über die SD-Karte im Drucker mit dem Controller drucken willst, erstelle ein Verzeichniss mit deinem Nickname und kopiere deine G-Code Files bitte dorthin.
+* Mache ein Backup deiner Dateien, die Karte wird eventuell gelöscht
+* Da der Speicherplatz begrenzt ist: Kopiere nur G-Code Dateien auf die SD-Karte
+
+Struktur:
+<pre>
+ /
+ |- util - Kalibrierungsdrucke, Imperiealer Marsch 
+ |- old  - alte, unsortierte G-Code Dateien
+ -- /<Nickname> - Lege hier deine G-Code Dateien ab
+
+</pre>
+
 == Hints ==
 * Sind Lücken im Ausdruck vorhanden, muß die Retraction Speed erhöht oder die generelle Geschwindigkeit verringert werden.
 * Die Bodenplatte muß Plan ausgerichtet sein, der Abstand zwischen Druckkopf und Bodenplatte sollte ungefähr die Dicke eines Blatt Papier sein. 
