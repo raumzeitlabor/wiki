@@ -84,6 +84,41 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 ; Anschaffung Laborkittel
 : Siehe 1 obendrüber --[[Benutzer:Alexander Brock|Alexander Brock]] ([[Benutzer Diskussion:Alexander Brock|Diskussion]]) 23:01, 29. Nov. 2012 (CET)
 
+; Regeln fuer den Ultimaker
+: Da der Drucker nicht weniger kompliziert als die Stickmaschine zu bedienen ist, sollten wir auch hier ein paar Regeln einfuehren. Was genau muss sich im Laufe der Zeit zeigen, aber da es dazu noch nichts im Wiki gibt und ich nicht einfach so "Regeln" drannschreiben wollte, moege das Plenum bitte beschliessen, grundsaetzlich einem "Regelwerk" zuzustimmen.
+
+Um das klarer zu machen hier ein erster Entwurf:
+
+'''Einzelne Regeln wuerde ich gerne nicht jetzt im Plenum disskutieren sondern eher bei Bedarf ueber die ML.
+'''
+<pre>
+Allgemein:
+* Finger weg vom Geraet ohne Einweisung
+* Achte darauf, dass das Heated Bed nicht angesteuert wird, wenn es nicht montiert ist
+
+* Nicht ohne Kalibrierung drucken!
+-> Pruefe mit der Auto-Home Funktion ob der Drucker korrekt kalibriert ist
+-> X und Y Achsen duerfen nicht anstossen
+-> Abstand vom Druckkopf zur Z-Achse sollte max 0,3mm betragen (je nach Slicer-Einstellung)
+-> Bei einer Temperatur angemessenen Temperatur laesst sich Problemlos Material extrudieren (PLA: ~190 Grad)
+
+Nach dem Druck:
+* Hinterlasse ein ausgerichtetes Druckbett
+* Hinterlasse ein bezogenes Druckbett
+-> Acrylglas: Alle stellen sind mit Tape bezogen
+-> Heated Bed: Kapton Tape ist ohne Lufteinschluesse aufgezogen
+* Entferne das benutzte Fillament vollstaendig aus dem Drucker (Rolle + Bowden Tube)
+* Raeume die Werkzeuge an ihren Platz
+  -> Bit Satz neben den Drucker oder in die E-Ecken Schublade
+  -> Tastwerkzeug an den Magnet vom Drucker
+  -> Fillament in die Kiste
+* Wenn du die Ulticam aus gemacht hast: Wieder einstoepseln
+
+Wenn was schief geht (z.B.: Material steckt fest) und kein Ansprechpartner da ist: Mail an die Liste
+Wenn der Drucker absehbar fuer laengere Zeit nicht zu benutzen ist: Mail an die Liste
+Vermerke langfristige Aenderungen am Aufbau im Changelog (Wiki: Ultimaker)
+</pre>
+
 ;Weltherrschaft
 :Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
 
