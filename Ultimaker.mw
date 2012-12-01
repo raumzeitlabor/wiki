@@ -61,6 +61,20 @@ Folgende Slicer sind brauchbar:
 * Heated Bed
 
 == Parameter ==
+=== Gerät ===
+
+{| class="wikitable"
+! Typ
+! Wert
+|-
+| Firmware-Version
+| Marlin 1.0RC2 mit [http://daid.mine.nu/~daid/marlin_build/index.php?build=1&baudrate=250000&maxFeedX=250&maxFeedY=250&maxFeedZ=5&maxFeedE=45&maxAccelX=9000&maxAccelY=9000&maxAccelZ=100&maxAccelE=10000&homeFeedrateX=50&homeFeedrateY=50&homeFeedrateZ=4&maxXlength=205&maxYlength=205&maxZlength=200&enablePID=1&PID_Kp=22.2&PID_Ki=1.08&PID_Kd=114&enablePIDextrusion=1&PID_Kc=1&extrudeMinTemp=170&maxTemp=275&tempHysteresis=3&tempResidencyTime=10&tempAD595gain=1.0&tempAD595offset=0.0&fastPwmFan=1&boardType=7&arduino=4&heater0=100&heater1=-1&heater2=-1&heaterbed=4&endstopPullups=1&endstopInvert=1&enableLow=1&invertX=1&invertZ=1&stepsX=78.7402&stepsY=78.7402&stepsZ=533.333333333&stepsE=865.888&ultiController=1&sdSupport=1 dieser Konfiguration]
+|-
+| Mainboard-Revision
+| 1.5.6 JJ/SW/EdB
+|}
+
+=== Druck ===
 
 {| class="wikitable"
 ! Typ
@@ -69,17 +83,14 @@ Folgende Slicer sind brauchbar:
 | Filament
 | 901.96 steps per E
 |-
-| Firmware-Version
-| Marlin 1.0RC2 mit [http://daid.mine.nu/~daid/marlin_build/index.php?build=1&baudrate=250000&maxFeedX=250&maxFeedY=250&maxFeedZ=5&maxFeedE=45&maxAccelX=9000&maxAccelY=9000&maxAccelZ=100&maxAccelE=10000&homeFeedrateX=50&homeFeedrateY=50&homeFeedrateZ=4&maxXlength=205&maxYlength=205&maxZlength=200&enablePID=1&PID_Kp=22.2&PID_Ki=1.08&PID_Kd=114&enablePIDextrusion=1&PID_Kc=1&extrudeMinTemp=170&maxTemp=275&tempHysteresis=3&tempResidencyTime=10&tempAD595gain=1.0&tempAD595offset=0.0&fastPwmFan=1&boardType=7&arduino=4&heater0=100&heater1=-1&heater2=-1&heaterbed=4&endstopPullups=1&endstopInvert=1&enableLow=1&invertX=1&invertZ=1&stepsX=78.7402&stepsY=78.7402&stepsZ=533.333333333&stepsE=865.888&ultiController=1&sdSupport=1 dieser Konfiguration]
-|-
-| Mainboard-Revision
-| 1.5.6 JJ/SW/EdB
-|-
-| Parameter für PLA
-| minimale Temperatur für sinnvolle Drucke: zwischen 210°C und 215°C (getestet)<br/>'''Verschiedene Farben brauchen verschiedene Temperaturen! Vorher Testdruck mit der [http://www.thingiverse.com/thing:24238 Pyramide] machen!'''<br/>Minimale Temperatur allgemein: um die 185°C - erfordert aber exakte Justierung der Z-Axis, damit der erste Layer in das Tape gepresst wird.
+| Temperatur PLA
+| 185°C - 220°C 
 |-
 |Nozzle Size
-| 0.4mm (extrudiertes Material ist auch exakt diese Dicke, Verifiziert von [[Benutzer:Felicitus|Felicitus]])
+| 0.4mm
+|-
+|Layer Height:
+| 0.2mm (oder 0.1mm je nach Kalibrierung)
 |}
 
 == Changelog ==
