@@ -1,23 +1,35 @@
 [[Benutzer:Felicitus|Felicitus]] bestellt Anfang Dezember 2012.
 
 == Felicitus braucht ==
+
+Für 3D-Drucker:
 <pre>
 IRFZ 48N;3
 PFRA 500;1
 VF 10/16 C-B;10
 MPE 094-1-008;20
 MPE 094-1-006;20
-SMD HC 595;10
-74HC 595;10
-UDN 2981;5
-SN 75176BP;5
+</pre>
+
+Allgemeines:
+<pre>
+SMD HC 595;5
+</pre>
+
+Für DMX-Zeugs:
+<pre>
+SN 75176BD;5
 NPO-G0805 22P;10
 X7R-G0805 100N;10
 SMD TAN.22/20;4
 SMD TAN.10/16;4
-ATTINY 2313 SO;4
-SN 75176BD;5
+ATTINY 2313A-SU;4
 μA 78L05 SMD;10
+</pre>
+
+
+
+<pre>
 IRFR 1205;15
 12,000000-MJ;5
 NT 10-SMD;5
