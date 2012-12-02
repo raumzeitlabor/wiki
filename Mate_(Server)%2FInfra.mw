@@ -16,7 +16,6 @@
 Diese VM wird interne Dienste hosten.
 
 * BenutzerDB
-* PIN Sync
 * IRC Bots
 * Pingi-Pie Host
 * Stromverbrauch
@@ -25,3 +24,12 @@ Diese VM wird interne Dienste hosten.
 Dienste, die in dieser VM laufen sollen, ''müssen'' rebootfest sein (sonst werden sie nicht installiert). Idealerweise sind sie bereits fertig als Debian-Paket gebundelt.
 
 Auf der Infra-VM wird '''systemd''' als Init-System eingesetzt, um das Entwickeln und Managen der Systemsoftware zu vereinfachen.
+
+== Dienste ==
+Folgende Dienste laufen ''aktuell'' auf der VM:
+
+* PIN Sync
+
+== TODO ==
+* Monitoring (z.B. pin-sync)
+* Firewalling
