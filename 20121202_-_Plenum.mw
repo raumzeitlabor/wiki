@@ -1,0 +1,222 @@
+RaumZeitLabor Plenum am 2. Dezember 2012
+
+Anwesend: Unbekannt
+
+Leitung: [[Benutzer:Blabber|blabber]]<br>
+Protokoll: [[Benutzer:Silsha|silsha]]
+
+== Protokoll ==
+=== Mailingliste(n) ===
+''von Inte''
+
+Inte ist aufgefallen, dass das NOC eine unsubskribierbare Mailingliste betreibt. NOC-Team sagt: Ist intern. Inte möchte geklärt haben, warum wir nun doch eine interne ML haben.
+
+Nico: Nachdem der letzte Router ausgefallen ist, ist aufgefallen, dass die Informationen verstreut sind. Daher wurde netzwerk@ eingerichtet, um alle Informationen (auch zukünftig) in einer Liste zu sammeln.<br> 95% der Mails sind Monitoring. Ansonsten Änderungen und Passwörter. Das NOC-Team ist grundsätzlich für weitere helfende Mitglieder offen.
+
+Inte: Leute müssen wissen, was passiert um mitzuwirken. Leute sollten selbst entscheiden können, ob sie an den Mails interessiert sind.
+
+Nico: Relevante Infos laden eh im Wiki.
+
+Else: Diskussionen laufen alle über die (öffentliche) ML.
+
+Inte kritisiert, dass die geschlossene Liste nirgendswo besprochen wurde.
+
+Das Team möchte eine interne ML behalten um private Informationen (Passwörter, Telekomfoo, etc.) nicht an die Öffentlichkeit kommen. Die Liste soll NOC-Team-only bleiben.
+
+TabascoEye findet die Enstehung nicht so toll, die geschlossene Mailingliste für das NOC-Team ist aber berechtigt (wg. Passwörter und so).
+
+blabber: Neue Kommunikationswege sollten irgendwo dokumentiert werden.
+
+Es gab mal rzl@, über die irgendwelche Croninfos drüber liefen. Gibt es inzwischen nicht mehr.
+
+Inte möchten, dass alle MLs dokumentiert werden (Wiki/Mailman) – egal ob offen oder nicht.
+
+thinkJD möchte vermeiden, dass sich geschlossene Gruppen bilden.
+
+Ergebnis: $Vorstand kommt auf netzwerk@; Mailinglisten werden im Wiki dokumentiert.
+
+=== Mietvertrag (mal wieder) ===
+''von blabber''
+
+Wird unterschrieben, wenn es keine Einsprüche gibt.
+
+Es gibt Einsprüche: Unicorn hat mit jemanden geredet, der Ahnung von solchen Dingen hat.
+# Pläne sollen beigelegt werden
+# Irgendwas mit Nebenkosten
+
+blabber möchte den Vertrag endlich mal unterschreiben.
+
+Felicitus merkt an, dass die Heizung noch immer kaputt™ ist. Nicht sicher, wie da die Regelung für gewerbliche Räume ist.
+
+blabber möchte weitere Änderungen am Mietvertrag verhinden, da sich das jetzt schon >9000 Jahre hinzieht.
+
+Es wird Einstimmig beschlossen, dass der aktuelle Entwurf unterschrieben wird.
+
+
+=== Nebenraumausbau ===
+''von Felicitus''
+
+Felicitus möchte wissen, wie der aktuelle Stand des Nebenraums ist und wie/wann was passiert und wie Leute mithelfen können.
+
+TabascoEyes Vater hat den Raum ausgemessen und rechnet etwas durch. Raum wird weiterhin gedrittelt. Details landen im Wiki für weitere Planung.
+
+Felicitus beschäftigt sich mit Lichtsteuerung.
+
+TabascoEye schickt demnächst Zahlen rum. Wochenende um den 15. bietet sich ggf. für die Anlieferung an.
+
+Inte möchte Tardis links neben der Tür aufbauen. Kein Einspruch.
+
+Bzgl. zweite Ebene im Nebenraum: Wird nur dreckig.
+
+Raumplan: [[Datei:Nebenraum.pdf]]
+
+=== Parkscheine und Strafzettel ===
+''von tiefpunkt''
+
+tiefpunkt ist nicht da. Blabber vertritt ihn. Macht das aber nicht gerne und will es vertragen.
+
+TabascoEye findet die Idee gut. Es sollen Parkscheine und Strafzettel eingeführt werden. $Zeug das rumstehen soll, müssen mit einem Parkschein gekennzeichnet werden. Ein Parkschein kostet Geld (~2€).
+Zeug das rumsteht (ohne Parkschein) bekommt einen Strafzettel.
+
+Felicitus merkt an, dass öfters mal sein Zeug rumsteht, ohne dass er es genutzt hat (ausgeliehen). Er möchte keine Strafzettel dafür bekommen. 
+
+TabascoEye stellt klar, dass dass es nicht um Arbeitsflächen geht.
+
+blabber: Kennzeichnungen sind okay, Strafzettel nicht. Lost & Found ist in der Regel eine ganz gute Lösung.
+
+Inte bemängelt, dass es zu wenig Lagerfläche gibt. Inte hätte gerne ein Inhaltsverzeichnis für die Regale. Langfristig angelegte Projekte müssen irgendwo gelagert werden können.
+
+TabascoEye wurde überzeugt. Möchte aber das shack-Labelsystem übernehmen.
+
+silsha kümmert sich um das shack-Aufklebersystem.
+
+=== Neues oder größeres Getränkelager ===
+''von thinkJD''
+
+Es ist die Idee aufgekommen, irgendwas am Gertränkelager zu ändern (neu, größer, weiteres), da das Getränkelager aktuell überfüllt ist.
+
+blabber ist der Meinung, dass wir aktuell einfach zu viele Getränke da haben.
+
+Wir haben aktuell zu viel, weil wir kurz vor Einführung der Wintermate für die Trollcon bestellen mussten. Wir haben aktuell für ein halbes Jahr Matevorräte.
+
+blabber möchte Abstimmen. Es wird abgestimmt.
+
+* Dafür: 0
+*Enthalten: 5
+* Dagegen: Rest
+
+Alex hat will prüfen, ob es günstiger ist, 10 Paletten zu bestellen und zu lagern. Hats noch nicht gemacht. 10 Paletten sind aber ein bisschen günstiger.
+
+
+=== Kabelkanal an der Fensterwand ===
+''von hax404''
+
+Seit die Regale weg sind, liegt da so ein Kabelkanal mittem im Fußweg. Leute stolpern drüber.
+
+blabber schlägt vor einfach Regale drüber zu bauen.
+
+nicoduck sieht da kein Problem und möchte gleich mehr Netzwerk reinbauen.
+
+Es gibt kein Kostenvoranschlag, daher wird es aufs nächste Plenum vertagt.
+
+
+=== Workshopraumwand mit Tafelfarbe streichen ===
+''von tiefpunkt''
+
+tiepfunkt ist nicht da, möchte aber Tafelfarbe an die Wand im Nebenraum streichen.
+
+TabascoEye wird Whiteboardfarbe gekauft haben.
+
+
+=== Neutrale Klotüren ===
+''von Rzlguest''
+
+Skip. Abstimmen. Nein, Skip.
+
+Es sind übrigens nicht unsere Klotüren.
+
+Skip, Nao.
+
+=== Geld vorhalten ===
+''von Felicitus''
+
+Das Internet sagt, dass Hackerspaces 3 Monatsmieten vorhalten sollten. Felicitus findet das sinnvoll und möchte, dass wir in den nächsten Monaten die Mieten ansparen.
+
+Inte schlägt vor bei der Sparkasse ein Tagesgeldkonto anzulegen um die Rücklagen getrennt zu bilden.
+
+Rücklagen werden gebildet. Alex macht das einfach.
+
+
+=== Sparkonto ===
+''von Felicitus''
+
+Steht oben. Skip.
+
+=== Regeln für Ultimaker ===
+''von echox''
+
+echox möchte mehr Regeln aufstellen. Er hält den 3D-Drucker für kompliziert und möchte deswegen Regeln aufstellen.
+
+Inte schlägt vor einfach eine Anleitung zu schreiben.
+
+echox merkt an, dass man für das Gerät keine allgemeine Anleitung schreiben kann. Man muss verstehen was man macht.
+
+Slowpoke: Die shackaufkleber sehen ein „nur nach Einweisung“ vor. Das sollte so umgestzt werden.
+
+
+=== Beschlüsse des letzten Plenums ===
+* Anschaffungen
+** CO2-Feuerlöscher (Nicoduck): Nico sagte am 28. Nov, dass er heute bestellt. (Würde Karmapunkte geben.) hax erzählt was von Paintball. Egal.
+** Neuer Server (Nicoduck): Wurde angeschafft; wird eingerichtet. Irgendwann gibt’s Mitglieder-VMs
+** Weltherrschaft (Pinkie): Wird intransparent dran gearbeitet.
+
+=== Anschaffungen ===
+==== Rauchmelder ====
+Felicitus stellt nach zwei Jahren fest, dass wir keine Rauchmelder haben. docsteel möchte vernetzte Geräte kaufen. Felicitus möchte nichts Kompliziertes machen und einfach mal was im Baumarkt kaufen.
+
+blabber kauft was.
+
+==== Magnetheizrührer ====
+Wir wollen Tomatensoße kochen.
+Kostest 75€ davon müsste 15€ das RaumZeitLabor tragen.
+
+Wird gekauft.
+
+==== T-Shirts ====
+Alex geht auf einen lustigen Congress in Hamburg und möchte T-Shirts zum bedrucken kaufen.
+
+blabber hält es für eine gute Idee Blankoshirts zu lagern.
+
+Alex bestellt 50 Shirts.
+==== Laborkittel ====
+Alex möchte Laborkittel bestellen.
+
+Es gibt Leute, die nicht möchten, dass Laborkittel extern verkauft werden.
+
+Es wird abgestimmt:
+* Dafür: 7
+* Dagegen: 7
+* Enthaltung: 3
+
+Wir verkaufen vielleicht keine Laborkittel (oder doch).
+
+Wir bestellen Laborkittel. Es geht eine Mail über die öffentliche ML.
+
+==== Staubsauger ====
+Wird gekauft, wenn niemand einen mitbringt.
+
+Jop, Industriestaubsauger wird gekauft von Dashie.
+
+=== Vorhänge ===
+''von TabascoEye''
+
+Hat er doch reingeschrieben. Wir heizen aktuell in den Zwischenraum zwischen Fenster und Vorhang, seitdem sie gekürzt wurden. TabascoEye schlägt vor, wieder ein Stück bis zur Heizung dranzunähen.
+
+Inte schlägt vor die Vorhänge einfach an die Wand zu hängen (Magnete oder so).
+
+Wird so ausprobiert.
+
+=== Weltherrschaft ===
+''von Pinkie Pie''
+
+Skip.
