@@ -86,7 +86,7 @@ Angepeilte Milestones:
 # Kommunikation mit dem Hometec+0x implementieren.
 # tuerstatusd ersetzen, pin-sync implementieren
 
-Die oben erklärte HTTP-API habe ich in einer Go-Library (und Beispiel) umgesetzt: https://github.com/raumzeitlabor/rzlbus
+Die oben erklärte HTTP-API habe ich in einer Go-Library (und Beispiel) umgesetzt: https://github.com/raumzeitlabor/hausbus2-go
 
 [[Benutzer:Tiefpunkt|tiefpunkt]] arbeitet an einer Implementierung des Hausbus2 in Python: https://github.com/raumzeitlabor/hausbus2-python
 
