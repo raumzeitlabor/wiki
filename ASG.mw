@@ -3,7 +3,7 @@ Die ASG ist unser derzeitiger Router. Die Aufgaben sind:
 * IPv4-Internet bereitstellen (getunnelt über docsteel)
 * IPv6-Internet bereitstellen (getunnelt über docsteel)
 * Türstatus ermitteln und auf status.raumzeitlabor.de laden, dafür auch Hausbusmaster sein
-* Via NPM Switch ein-/ausschalten
+* Via [[NPM 2000|NPM]] Switch ein-/ausschalten (und damit Rundumleuchten für den [[Ping]])
 * DNS, DHCP, radvd, firewall
 * Zugang ins dn42
 * Internetauslastung und Latenz monitoren und auf cosm hochladen
@@ -35,7 +35,7 @@ Nach einem reboot müssen die beiden auskommentierten Zeilen in /root/start-tuer
 while [ 1 ]; do sh /root/raumstatus-meta.sh; sleep 30; done
 cd /root/internetmeter; ./main
 
-initscripte kommen $bald™.
+Initscripte kommen $bald™.
 
 === Serielle Schnittstelle ===
 
@@ -49,6 +49,6 @@ curl -d 1 -X PUT http://localhost:5000/port/2
 </pre>
 
 === NPM Reset ===
-Falls der npmd abstürzt und keine Verbindung mehr zum NPM bekommt: hingehen, NPM ausschalten (hinten Links), wieder einschalten, nochmal versuchen. Am NPM hängt neben dem Busmaster auch der Hauptswitch. Netzwerk ist dann also auch kurz komplett weg.
+Falls der npmd abstürzt und keine Verbindung mehr zum [[NPM 2000|NPM]] bekommt: hingehen, NPM ausschalten (hinten Links), wieder einschalten, nochmal versuchen. Am [[NPM 2000|NPM]] hängt neben dem [[Hausbus|Busmaster]] auch der [[Switch|Hauptswitch]]. [[Netzwerk]] ist dann also auch kurz komplett weg.
 
 [[Kategorie:Hardware]]
