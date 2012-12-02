@@ -7,4 +7,6 @@ Die Ports auf dem Switch sind wie folgt belegt:
 *Port 1 - 17: Dosen im Raum, Switchport=Dosennummer
 *Port 18 - 24: Infrastruktur und Sonderanwendungen mit anderer VLAN Config!
 
+Im Rack liegt noch ein kleinerer Switch (Höhe Busmaster). Dieser hat kein Internet sondern nur das Netz zur Kommunikation mit dem [[NPM 2000|NPM]], da dieser bei Interferenzen im Netzwerk komische bis gar keine Dinge mehr tut. 
+
 [[Kategorie:Hardware]]
