@@ -1,52 +1,45 @@
-Die Firebox ist unser derzeitiger Router. Die Aufgaben sind:
+Die ASG ist unser derzeitiger Router. Die Aufgaben sind:
 
 * IPv4-Internet bereitstellen (getunnelt über docsteel)
-* IPv6-Internet bereitstellen (getunnelt über sECuRE)
+* IPv6-Internet bereitstellen (getunnelt über docsteel)
 * Türstatus ermitteln und auf status.raumzeitlabor.de laden, dafür auch Hausbusmaster sein
 * Via NPM Switch ein-/ausschalten
 * DNS, DHCP, radvd, firewall
 * Zugang ins dn42
 * Internetauslastung und Latenz monitoren und auf cosm hochladen
 
-== Spezifikation für einen Ersatz ==
-
-Da die Firebox 46W frisst, kann man über einen Ersatz nachdenken. Folgende Punkte '''müssen''' erfüllt sein:
-
-* mindestens (!) 4 Ethernet-Ports, je mehr desto besser
-* mindestens 256 MB Arbeitsspeicher, besser 512 MB
-* mindestens 2 GB Speicher (Flash/CF-card/…)
-* Echtes Linux lauffähig (kein OpenWRT o.ä.)
-* mindestens 500 MHz CPU
-* maximal ca. 20W Stromverbrauch, inklusive Netzteil!
-* Kosten deutlich weniger als 200 € (sonst ammortisiert es sich nicht) 
-
-Folgende Punkte wären gut, sind aber nicht notwendig:
-
-* 19"-Gehäuse
-* USB-Ports
-* RS232-Ports
-
-Siehe auch [[Stromsparplan_2010#Variante_mit_externem_VLAN-Switch]]
-
 == Hardware ==
 
-* Intel(R) Celeron(TM) CPU 1200MHz
-* 256 MB RAM
-* 2 GB CF-Card
-* 6 Ethernet-Ports
+* Intel(R) CPU
+* 512 MB RAM
+* 8 Ethernet-Ports
 * 19"-Gehäuse, 1HE
-* Linux 2.6.33
+* Linux
+
+== Software ==
+DHCP: isc-dhcp-server
+DNS: bind9 (master für .rzl und 36.22.172.in-addr.arpa und 37.22.172.in-addr.arpa)
+radvd: radvd
+VPNs: openvpn
+Firewall: iptables
+Scripte: eingenes, wohldokumentiertes, Zeug
 
 == Adminstuff ==
+=== Scripte ===
+$Dinge funktionieren noch nicht per init script, sondern in einem screen. Nach einem Reboot sollte folgendes ausgeführt werden (bitte in einem und nicht pro Dienst einen eigenen):
+Nach einem reboot müssen die beiden auskommentierten Zeilen in /root/start-tuerstatus.sh ausgeführt werden (/tmp/rrd erstellen und n paar default dateien da hin schieben).
+
+/root/start-hausbus.sh
+/root/start-tuerstatus.sh
+/root/start-npmd.sh
+while [ 1 ]; do sh /root/raumstatus-meta.sh; sleep 30; done
+cd /root/internetmeter; ./main
+
+initscripte kommen $bald™.
 
 === Serielle Schnittstelle ===
 
-Die Firebox hat eine serielle Schnittstelle: 115200 baud (115k2), 8N1, Fabian empfiehlt Minicom. Ein passendes Kabel ist verbunden und liegt oben auf der Firebox.
-
-Alternativ zu minicom kann man auch screen verwenden:
-<pre>
-screen /dev/ttyUSB0 115200
-</pre>
+Die ASG hat eine serielle Schnittstelle: Wird aber nich genutzt aktuell.
 
 === Busmaster-Reset ===
 
@@ -55,6 +48,7 @@ curl -d 0 -X PUT http://localhost:5000/port/2
 curl -d 1 -X PUT http://localhost:5000/port/2
 </pre>
 
-=== Scripte ===
-Es laufen diverse Scripte, die derzeit beim Start der Firebox in diversen screens über /etc/rc.local gestartet werden.
+=== NPM Reset ===
+Falls der npmd abstürzt und keine Verbindung mehr zum NPM bekommt: hingehen, NPM ausschalten (hinten Links), wieder einschalten, nochmal versuchen. Am NPM hängt neben dem Busmaster auch der Hauptswitch. Netzwerk ist dann also auch kurz komplett weg.
+
 [[Kategorie:Hardware]]
