@@ -10,7 +10,7 @@
 |platform    = 
 |preis       = 
 |license     = 
-|download    = https://github.com/raumzeitlabor/rzlInfoScreen
+|download    = https://github.com/raumzeitlabor/infoscreen
 }}
 Der InfoScreen steht auf dem Kühlschrank und zeigt einige interessante Informationen an. Aktuell sind das:
 * Aktueller Stromverbrauch + Graph des Verbrauchs über die letzten 60 Minuten
