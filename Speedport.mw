@@ -1,0 +1,2 @@
+Der Speedportrouter im Rack stellt aktuell die DSL Verbindung her. Die [[ASG]] ist daran per LAN Angeschlossen und verteilt das Netz im RZL.
+Der Speedportrouter ist nur als vorübergehende Lösung gedacht und wird $bald durch ein reines DSL Modem ersetzt. der PPPoE Daemon soll dann auf der ASG laufen.
