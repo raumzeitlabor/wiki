@@ -5,6 +5,7 @@
 |description = 
 |author      = [[Benutzer:Alexander Brock|Alexander Brock]], [[Benutzer:Nessi|Nessi]]
 |version     = 0.1
+|download    = https://github.com/raumzeitlabor/heizungssteuerung
 }}
 Hier wird die Heizungssteuerung geplant. Dafo hat vier Heizungssteller vom Typ Siemens STE71.1 ([http://w5.siemens.ch/sbt/datenblaetter/de/downloads/n4874d.pdf Datenblatt]) mitgebracht. Die Heizungssteller sind kompatibel mit den an den Heizkörpern verbauten Ventilen.
 
