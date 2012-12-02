@@ -12,6 +12,33 @@
 |download    = 
 }}
 
+==Regeln im Umgang mit dem Drucker==
+
+===Allgemein===
+* Nicht ohne Einweisung drucken!
+* Achte darauf, dass das Heated Bed nicht angesteuert wird, wenn es nicht montiert ist
+*'''Wenn was schief geht (z.B.: Material steckt fest) und kein Ansprechpartner da ist: Mail an die Liste'''
+*'''Wenn der Drucker absehbar fuer laengere Zeit nicht zu benutzen ist: Mail an die Liste'''
+*'''Vermerke langfristige Aenderungen am Aufbau im Changelog.'''
+
+* Nicht ohne Kalibrierung drucken!
+** Pruefe mit der Auto-Home Funktion ob der Drucker korrekt kalibriert ist
+** X und Y Achsen duerfen nicht anstossen
+** Abstand vom Druckkopf zur Z-Achse sollte max 0,3mm betragen (je nach Slicer-Einstellung)
+** Bei einer Temperatur angemessenen Temperatur laesst sich Problemlos Material extrudieren (PLA: ~190 Grad)
+
+===Nach dem Druck===
+* Hinterlasse ein ausgerichtetes Druckbett
+* Hinterlasse ein bezogenes Druckbett
+** Acrylglas: Alle stellen sind mit Tape bezogen
+** Heated Bed: Kapton Tape ist ohne Lufteinschluesse aufgezogen
+* Entferne das benutzte Fillament vollstaendig aus dem Drucker (Rolle + Bowden Tube)
+* Raeume die Werkzeuge an ihren Platz
+** Bit Satz neben den Drucker oder in die E-Ecken Schublade
+** Tastwerkzeug an den Magnet vom Drucker
+** Fillament in die Kiste
+* Wenn du die Ulticam aus gemacht hast: Wieder einstoepseln
+
 ==3D-CAD Software==
 ===OpenSCAD===
 * Man muss sich nicht mit dem Editor von OpenSCAD zufrieden geben, für die Mac-Nutzer gibt es das hier http://www.thingiverse.com/thing:22362. Für Windows gibt es so etwas wohl auch, dann allerdings für Notepad++. Für den leichten Einstieg gibt es hier ein Tutorial für Euch: [[Openscad Tutorial|Openscad Tutorial]]
