@@ -91,6 +91,18 @@ GRUB_CMDLINE_LINUX_DEFAULT="elevator=noop nohz=on transparent_hugepage=always co
 
 <blink>'''DON'T FORGET THE MAGIC update-grub2'''</blink>
 
+== Puppet ==
+* Um eine VM unter die Kontrolle von Puppet zu bekommen, ist folgendes zu erledigen:
+** '''mate.rzl''':/etc/puppet/manifests/nodes.pp: die Node eintragen
+** '''<neuevm>.rzl''':
+*** Puppet installieren und folgende Sektion eintragen: <pre>[agent]&#10;server=puppet.rzl</pre>
+*** Deamon Autostart in /etc/default/puppet aktivieren
+*** puppet agent --test ausführen
+** '''mate.rzl''': <pre>#Liste der neuen Zertifikate:&#10;puppet cert list&#10;&#10;#Zertifikat signieren:&#10;puppet cert sign <neuevm.rzl></pre>
+** '''<neuevm.rzl>''': Nochmal puppet agent --test ausführen
+
+Wenn alles geklappt hat, so wird puppet zumindest mal alle fehlenden Pakete nachinstallieren.
+
 == TODO ==
 * Backups einrichten
 * Puppet aufsetzen
