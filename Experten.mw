@@ -9,8 +9,8 @@ Wenn ihr es herausgefunden habt, könnt ihr es auch gern hier eintragen.
 (Ich bin mir noch nicht sicher, ob nicht besser für jedes Ding eine eigene Wikiseite angelegt und die Experten dort definiert sein sollten. Ich mach mir darüber mal Gedanken. Vorerst gilt diese Seite daher als Konzept. --[[Benutzer:Scytale|Scytale]])
 
 == RaumZeitLabor-Dinge ==
-{| class=wikitable
-! Thema/Ding/Objekt
+{| class="wikitable"
+! Thema/Ding/Objekt/Konzept
 ! Experte(n)
 |-
 | Hausbus
@@ -25,8 +25,17 @@ Wenn ihr es herausgefunden habt, könnt ihr es auch gern hier eintragen.
 | Webserver und Jail [http://raumzeitlabor.de/ raumzeitlabor.de] (Technik, nicht Inhalt)
 | [[Benutzer:Rabe|Rabe]], [[NOC_Team|NOC-Team]]
 |-
-| Wiki (Technik, nicht Inhalt)
+| Wiki: Inhalt
+| ?
+|-
+| Wiki: Technik
 | [[Benutzer:Rabe|Rabe]], [[Benutzer:Felicitus|Felicitus]]
+|-
+| Wiki: Formatierung, Gestaltung
+| [[Benutzer:Kisl|Kisl]]
+|-
+| Wiki: [[:Kategorie:Geo-Karte|Karten]]
+| [[Benutzer:Kisl|Kisl]]
 |-
 | Website [http://status.raumzeitlabor.de/ status.raumzeitlabor.de]
 | [[Benutzer:SEC|sECuRE]]
@@ -59,13 +68,18 @@ Wenn ihr es herausgefunden habt, könnt ihr es auch gern hier eintragen.
 == Ganz allgemein ==
 
 {| class="wikitable"
-! Thema/Ding/Objekt
+! Thema/Ding/Objekt/Konzept
 ! Experte(n)
 |-
 | PHP, Doctrine2, Symfony2
 | [[Benutzer:Felicitus|Felicitus]]
+|-
+| Utopien über nervenschonende Mensch-Maschine-Interaktion
+| [[Benutzer:Kisl|Kisl]]
 |}
+
 ==Siehe auch==
+
 *[[Konten]]
 
 
