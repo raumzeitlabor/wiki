@@ -1,0 +1,22 @@
+{{ProjektInfoBox
+|name        = abrock.vm.rzl
+|status      = beta
+|image       = 
+|description = VM von [[Benutzer:AlexanderB]]
+|author      = [[NOC Team|NOC-Team]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = abrock.vm.rzl
+|license     = 
+|download    = 
+}}
+
+== Eckdaten ==
+
+* 512MB RAM
+* 1 CPU Core
+* 30GB HDD
+
+[[Kategorie:Infrastruktur]]
