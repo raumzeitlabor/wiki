@@ -1,4 +1,4 @@
-Die ASG ist unser derzeitiger Router. Die Aufgaben sind:
+Die ASG (Astaro Security Gateway) ist unser derzeitiger Router. Die Aufgaben sind:
 
 * IPv4-Internet bereitstellen (getunnelt über docsteel)
 * IPv6-Internet bereitstellen (getunnelt über docsteel)
