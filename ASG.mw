@@ -26,14 +26,20 @@ Die ASG ist unser derzeitiger Router. Die Aufgaben sind:
 
 == Adminstuff ==
 === Scripte ===
-$Dinge funktionieren noch nicht per init script, sondern in einem screen. Nach einem Reboot sollte folgendes ausgeführt werden (bitte in einem und nicht pro Dienst einen eigenen):
+$Dinge funktionieren noch nicht per init script, sondern in einem screen.
+
+Nach einem Reboot sollte folgendes ausgeführt werden (bitte in einem und nicht pro Dienst einen eigenen):
+''(Ist der Code Block unten gemeint?)''
+
 Nach einem reboot müssen die beiden auskommentierten Zeilen in /root/start-tuerstatus.sh ausgeführt werden (/tmp/rrd erstellen und n paar default dateien da hin schieben).
 
+<code><pre>
 /root/start-hausbus.sh
 /root/start-tuerstatus.sh
 /root/start-npmd.sh
 while [ 1 ]; do sh /root/raumstatus-meta.sh; sleep 30; done
 cd /root/internetmeter; ./main
+</pre></code>
 
 Initscripte kommen $bald™.
 
