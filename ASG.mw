@@ -17,12 +17,12 @@ Die ASG ist unser derzeitiger Router. Die Aufgaben sind:
 * Linux
 
 == Software ==
-DHCP: isc-dhcp-server
-DNS: bind9 (master für .rzl und 36.22.172.in-addr.arpa und 37.22.172.in-addr.arpa)
-radvd: radvd
-VPNs: openvpn
-Firewall: iptables
-Scripte: eingenes, wohldokumentiertes, Zeug
+;DHCP: isc-dhcp-server
+;DNS: bind9 (master für .rzl und 36.22.172.in-addr.arpa und 37.22.172.in-addr.arpa)
+;radvd: radvd
+;VPNs: openvpn
+;Firewall: iptables
+;Scripte: eingenes, wohldokumentiertes, Zeug
 
 == Adminstuff ==
 === Scripte ===
