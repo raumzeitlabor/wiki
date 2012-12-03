@@ -11,3 +11,4 @@ Die Ports auf dem Switch sind wie folgt belegt:
 Im Rack liegt noch ein kleinerer Switch (Höhe Busmaster). Dieser hat kein Internet sondern nur das Netz zur Kommunikation mit dem [[NPM 2000|NPM]], da dieser bei Interferenzen im Netzwerk komische bis gar keine Dinge mehr tut. 
 
 [[Kategorie:Hardware]]
+[[Kategorie:Infrastruktur]]
