@@ -95,7 +95,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="elevator=noop nohz=on transparent_hugepage=always co
 * Um eine VM unter die Kontrolle von Puppet zu bekommen, ist folgendes zu erledigen:
 ** '''mate.rzl''':/etc/puppet/manifests/nodes.pp: die Node eintragen
 ** '''<neuevm>.rzl''':
-*** Puppet installieren und folgende Sektion eintragen: <pre>[agent]&#10;server=puppet.rzl</pre>
+*** Puppet installieren
 *** Deamon Autostart in /etc/default/puppet aktivieren
 *** puppet agent --test ausführen
 ** '''mate.rzl''': <pre>#Liste der neuen Zertifikate:&#10;puppet cert list&#10;&#10;#Zertifikat signieren:&#10;puppet cert sign <neuevm.rzl></pre>
