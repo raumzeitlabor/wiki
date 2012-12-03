@@ -2,8 +2,8 @@
 |name        = abrock.vm.rzl
 |status      = beta
 |image       = 
-|description = VM von [[Benutzer:AlexanderB]]
-|author      = [[NOC Team|NOC-Team]], AlexanderB
+|description = VM von [[Benutzer:Alexander Brock|Alexander]]
+|author      = [[NOC Team|NOC-Team]], [[Benutzer:Alexander Brock|Alexander]]
 |username    = 
 |version     = 
 |update      = 
@@ -12,6 +12,10 @@
 |license     = 
 |download    = 
 }}
+
+== Zweck ==
+
+Diese VM soll demnächst eine [http://opentsdb.net/ OpenTSDB] bereitstellen, um alle im RZL anfallenden Sensordaten (Türstatus, Temperaturen, Stromverbrauch) für immer zu speichern und hübsch zu visualisieren.
 
 == Eckdaten ==
 
