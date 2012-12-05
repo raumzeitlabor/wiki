@@ -39,6 +39,6 @@ Der ATtiny hat nur einen 10bit-ADC. Das ist nicht gerade viel, und wirkt sich so
 * Atmel XMega (12bit ADCs). Günstiges Dev-Board gibt es z.B. von Boston Android: [http://www.bostonandroid.com/EVAL-04.html EVAL-04]
 
 == Alternativer Wandler ==
-1-Bit ADC, wie z.B. [http://blog.makezine.com/2012/11/05/jeris-short-circuit-a-one-bit-adc/]
+1-Bit ADC, wie z.B. [http://blog.makezine.com/2012/11/05/jeris-short-circuit-a-one-bit-adc/] (Passende Clocks [http://www.epanorama.net/links/oscillator.html#square])
 
 [[Kategorie:Projekt]]
