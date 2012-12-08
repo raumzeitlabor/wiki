@@ -4,9 +4,10 @@
 | status = beta
 | image = slushmaschine.jpg
 }}
-[[Benutzer:Unicorn|Unicorn]] und [[Benutzer:Tiefpunkt|tiefpunkt]] haben eine einkammerige Slush-Maschine gekauft, und sie ins RaumZeitLabor gestellt. Sobald sie über Spenden abbezahlt ist, gehört sie dem Raum.
+[[Benutzer:Unicorn|Unicorn]] und [[Benutzer:Tiefpunkt|tiefpunkt]] haben 2 Slush-Maschinen gekauft, und sie ins RaumZeitLabor gestellt. Sobald sie über Spenden abbezahlt sind, gehören sie dem RaumZeitLabor (evtl. verkaufen wir eine vorher wieder).
 
-== Die Maschine ==
+== Die Maschinen ==
+=== The little one ===
 Die Maschine ist ein Premium-High-Perfomance-Model mit der Bezeichnung "Granitime 1" der Marke "GBG" (Seriennummer SLGK65366). Sie besitzt eine Kammer, und verbraucht laut Typenschild 350W an Strom. Der Deckel ist mit einer 12V (AC) 10W Halogenbirne beleuchtet (epic Hacks pending), und wartet noch auf eine Auskleidung (Originale liegen bei der Maschine).
 
 {{ProgressBar|38.50
@@ -15,7 +16,16 @@ Die Maschine ist ein Premium-High-Perfomance-Model mit der Bezeichnung "Granitim
 | center = false
 | height = 5
 }}
-=== Pflege ===
+
+=== El Grande ===
+{{ProgressBar|0
+| text = abbezahlt
+| total = 570
+| center = false
+| height = 5
+}}
+
+== Pflege ==
 * Reinigt die Maschine nach jeder Benutzung.
 * Die Dichtungsgummis (Im Zapfhahn sowie hinten am Kühlelement) regelmäßig einfetten.
 * Auffangbehälter nach jeder Nutzung entleeren.
