@@ -39,6 +39,7 @@ Beim Hacklace handelt es sich um ein 5 x 7 Dot-Matrix-Led-Display, welches wie e
 * Zwei Scroll-Modi: Vorwärts und bidirektional
 * Scrollgeschwindigkeit und Pause einstellbar
 * ISP-Anschluß zum Programmieren eigener Firmware
+* Auch als universelles serielles Display verwendbar.
 
 
 ==Bedienung==
@@ -82,7 +83,6 @@ Das Display muss je nach Typ anders eingesetzt werden. Dies ist auch ein Konfigu
 # HDSP-5403 hp 008 L3 - Der schwarze Punkt an der Seite des Displays muss diagonal zum PIN 1 (viereckiges Pad) liegen. Von oben betrachtet wäre das die rechte untere Ecke.
 
 ====Anleitung====
-
 Zur Erläuterung: Die Platinenoberseite ist die Seite ohne Leiterbahnen bzw. ohne Aufdruck. Diese Seite ist die sichtbare Vorderseite. Auf der Rückseite befinden sich die Kupferbahnen und bei der professionellen Platine der weiße Bestückungsdruck. Dies ist die Lötseite.
 [[Datei:Hacklace_Zusammenbau01.jpg|thumb|right|220px|SMD-Widerstände]]
 [[Datei:Hacklace_Zusammenbau02.jpg|thumb|right|220px|Widerstand und Kondensator]]
@@ -122,6 +122,7 @@ Flash und EEPROM mit avrdude programmieren:
  avrdude -c usbasp -p t4313 -u -U eeprom:w:Hacklace_Rev_B.eep
  avrdude -c usbasp -p t4313 -u -U flash:w:Hacklace_Kingbright_TA.hex
 
+
 ==Software==
 
 === Firmware compilieren ===
@@ -147,9 +148,9 @@ Eine Message ist entweder ein Text oder eine Animation. Die Messages können dur
 
 Das Modus-Byte hat folgenden Aufbau:
 * Bit 7 gibt an, ob nur vorwärts (= 0) oder vor und zurück (= 1) gescrollt werden soll.
-* Bit 6..4 legen die Dauer der Pause nach dem Erreichen des Endes der Message fest (größer = länger)
+* Bits 6..4 legen die Dauer der Pause nach dem Erreichen des Endes der Message fest (größer = länger)
 * Bit 3 gibt an, ob es sich um einen Text (= 0) oder eine Animation (= 1) handelt.
-* Bit 2..0 bestimmen die Scroll- bzw. Animationsgeschwindigkeit (größer = schneller)
+* Bits 2..0 bestimmen die Scroll- bzw. Animationsgeschwindigkeit (größer = schneller)
 Es ist zu beachten, daß man nicht alle Bits auf Null setzen darf, da dies für die Markierung des Endes der Messageliste reserviert ist.
 
 Texte können direkt als Klartext eingegeben werden. Es stehen alle druckbaren ASCII-Zeichen sowie die deutschen Umlaute und 'ß' zur Verfügung ([[Medium:Hacklace_Font_5x7_extended.bmp|Hacklace Zeichensatz]]).
@@ -183,6 +184,12 @@ Ein Default-Konfigurationsfile, mit dem sich der Ausgangszustand wieder herstell
 Wer die vorgefertigten Animationen im Flash durch eigene ersetzen will, muß eine Header-Datei erstellen, die die entsprechenden Daten als Byte-Array enthält. In "animations.h" wird dann ein #include-Befehl eingefügt, der diese Datei einbindet. Außerdem muß die Animation in die Liste der Animationen (animation[]) eingetragen werden. Die Position in dieser Liste legt fest, über welchen Buchstaben die Animation referenziert wird. Z. B. wird mit '~A' die erste Animation in der Liste aufgerufen (siehe [[Hacklace#Format des Konfigurationsfiles|Konfigurationsfile]]).
 
 Als Hilfsmittel zum Erstellen einer Animation kann diese [[Medium:Hacklace_Animationtemplate.bmp|Vorlage]] verwendet werden. Dabei handelt es sich um ein Graustufenbild, das eine Folge von 40 Frames mit je 5 x 8 Pixeln enthält. Mit einem Malprogramm läßt sich die Animation einfach in die Kästchen zeichnen. Die unterste (achte) Zeile bleibt unbenutzt. Eingeschaltete Pixel müssen schwarz (Farbcode 0), ausgeschaltete Pixel müssen weiß (Farbcode 255) gemalt werden. Spalten die Grauwerte enthalten werden später ignoriert. Zuletzt wird das Bild auf die benutzten Frames zugeschnitten, die nicht genutzten Frames werden gelöscht. Eine solche Bitmap läßt sich anschließend mit dem Skript "[[Medium:make_data.m|make_data.m]]" automatisch in ein C-Headerfile konvertieren. Dabei ist der Name des Bildes ohne Extension anzugeben, z. B. make_data('my_animation'). Zum Ausführen des Skripts benötigt man FreeMat, einen freien Matlab-Klon.
+
+===Hacklace als serielles Display===
+Das Hacklace läßt sich auch als originelles Display in eigenen Projekten verwenden. Ein schnöder PC sieht z. B. viel cooler aus, wenn der Systemzustand über ein Hacklace angezeigt wird. Auch eine einfaches Zimmerthermometer wird durch eine Textanzeige per Hacklace deutlich aufgewertet.
+
+Um das Hacklace als serielles Display zu verwenden, sendet man die Initialisierungssequenz <ESC>, 'H', 'D'. Danach folgt das Modusbyte, welches unter [[Hacklace#Format des Konfigurationsfiles|"Format des Konfigurationsfiles"]] beschrieben ist. Nun kannst du beliebige ASCII-Zeichen senden, die vom Hacklace sofort dargestellt werden. Ein Zeilenumbruch (<CR> oder <LF>) löscht das Display und du kannst eine neue Nachricht senden.
+
 
 ==Download==
 {| class="wikitable"  valign = "top"
@@ -229,6 +236,7 @@ Als Hilfsmittel zum Erstellen einer Animation kann diese [[Medium:Hacklace_Anima
 
 Die aufgeführten Dateien stehen unter der jeweils angegebenen Creative-Commons-Lizenz.
 
+
 ==Bilder==
 {| 
 | [[Datei:Hacklace_Halskette.jpg|thumb|left|300px|Ausführung als Halskette]]
@@ -237,6 +245,7 @@ Die aufgeführten Dateien stehen unter der jeweils angegebenen Creative-Commons-
 Bei dem Gürtelclip wurde der Knopfzellenhalter mit einem Stück Platine und zwei Lötnägeln auf der Rückseite angebracht.
 
 Wer das Hacklace in Aktion sehen möchte, findet ein cooles Video auf YouTube[http://www.youtube.com/watch?v=6ASvxaGiPwA].
+
 
 ==Bezugsquellen==
 Die benötigten Bauteile können bei Reichelt bzw. CSD-Electronics bestellt werden. Ein Auflistung mit Bestellnummer findet sich [[Medium:Hacklace_Bauteileliste.pdf|hier]].
@@ -269,6 +278,7 @@ Die Progressbar zeigt die aktuelle Refinanzierung des Projektes an. Sobald die v
 | center = false
 | height = 5
 }}
+
 
 == Fragen, Ideen etc. ==
 Diese Wikiseite dient dazu, die Fakten zum Hacklace zu präsentieren. Hier findest du Informationen über alles, was bereits realisiert worden ist. Für Dinge, die noch offen sind oder in der Zukunt liegen, wie z. B. Fragen, Ideen, Kommentare, Vorschläge, Wünsche steht dir die [[Diskussion:Hacklace|Diskussionsseite]] zur Verfügung. Dort kann alles eingetragen und besprochen werden, was noch nicht umgesetzt wurde.
