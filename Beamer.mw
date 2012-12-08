@@ -3,7 +3,7 @@
 |status      = beta
 |image       = Beamer-04.jpg
 |description = Ein spezieller Projektor, der Bilder aus einem visuellen Ausgabegerät für ein Publikum in   vergrößerter Form an eine Leinwand projiziert.
-|author      = [[Benutzer:thinkJD|thinkJD]] [[Benutzer:hax404|hax404]]
+|author      = [[Benutzer:thinkJD|thinkJD]] [[Benutzer:hax404|hax404]] [[User:slowpoke|slowpoke]]
 |username    = 
 |version     = 
 |update      = 
@@ -12,36 +12,34 @@
 |video      = 
 |download    = 
 }}
-Der Beamer befindet sich auf der Plattform unter der Decke. 
-Es handelt sich um einen NEC VT660. 
-Der Karton, auf der Oberseite dient dem Staubschutz und sollte nicht entfernt werden.
+Der Beamer befindet sich auf der Plattform unter der Decke.
+Es handelt sich um einen Acer H7531D DLP-Projektor, der im Dezember 2012 vom 
+Raum durch erfolgreiches Krautfanding™ erworben wurde.
 
-[http://www.support.nec-display.com/dl_service/data/manual/german/vt660_manual_g.pdf Das Manual zu dem Gerät ist hier zu finden.]
+Das Manual kann 
+[https://support.acer.com/us/en/product/default.aspx?modelId=3414 hier]
+heruntergeladen werden. Es befindet sich ebenfalls auf dem [[Datengrab]], 
+vorläufig unter ''Bibliothek/Documentation/Beamer''.
 
 == Ansteuerung ==
-Zum Beamer liegen Composite, S-Video und VGA-Kabel. Für VGA steht auf dem Regal ein KVM-Switch ([[Medium:SmartViewPro-Manual.pdf|Manual]]). Am KVM-Switch ist der Mac Mini angeschlossen, und ein weiteres VGA-Kabel für Laptops etc. Über den Monitor auf dem KVM-Switch lässt sich das Beamer-Bild previewen.
-
-== Applejack (Beamer-Mac) ==
-Am KVM-Switch (Kanal 1) ist fest ein Mac Mini namens Applejack angeschlossen. Auf dem Gerät läuft Mac OS X 10.6 und es kann für Vorführungen beliebiger Art genutzt werden.
+Zum Beamer liegen Composite, S-Video und VGA-Kabel. Für VGA steht auf dem Regal 
+ein KVM-Switch ([[Medium:SmartViewPro-Manual.pdf|Manual]]). Über den Monitor 
+auf dem KVM-Switch lässt sich das Beamer-Bild previewen.
 
 == Tipps für Profis ==
 * Die Fernbedienung liegt neben dem Raumhandy. Bitte sorgt dafür, dass diese Aussage IMMER stimmt.
 * Fertig mit Film gucken oder Vortrag halten? Beamer ausschalten nicht vergessen!
 * Bitte darauf achten, dass er nach Benutzung 15min nachlüftet, bis er endgültig vom Netz getrennt werden darf.
-* Neben dem Beamer steht ein Karton, in dem Karton befindet sich eine Ersatzlampe. 
-** Diese ist mittlerweile verbaut. Da sie nicht neu ist, kann keine Aussage über die Restlaufzeit getroffen werden. Es sollten aber noch einige Stunden möglich sein. Bei der Lampe handelt es sich um eine "VT60LP" von NEC. In der Bucht kostet sie im Moment 139€
-* Die Fernbedienung funktioniert nur, wenn sie sich im "PJ" Modus befindet. Dazu einfach auf den weißen Knopf in der Mitte drücken, dieser leuchtet daraufhin rot.
 
 ==ToDo==
 * Funksteckdose oder Ähnliches, um den Beamer vom Netz zu trennen
-** Eventuell hilft eine Nachlaufregelung (wie z.b. [http://www.pollin.de/shop/dt/ODQ2OTQ0OTk-/Haustechnik/Installationsmaterial/Schaltgeraete/Nachlauf_Relais_CS3_1B.html von Pollin]) beim Nachlüften.
-*** Keine ausreichende Schaltleistung, siehe Handbuch G34 --[[Benutzer:Nessi|Nessi]] 00:51, 8. Dez. 2011 (CET) 
 ** Oder ein Relais, angeschlossen am Hausbus. Material ist vorhanden.
 *** Sollte das Relais die 230V Seite schalten an die VDE und berechtigte [[Helfer]] denken --[[Benutzer:Nessi|Nessi]] 00:51, 8. Dez. 2011 (CET) 
 *** Der Hausbus wartet auf ein Redesign, darum würde ich das erstmal nicht als Option in Betracht ziehen --[[Benutzer:Tiefpunkt|Tiefpunkt]] 01:31, 8. Dez. 2011 (CET)
 
 * Weitere Schnittstellen anschließen und herunterführen
 * SmartView Pro ggf. umstellen (eingeschalteten Beamer besser erkennen)
+* Sinnvolle Lösung für die Erkennung der Auflösung.
 
 ==Technische Daten==
 '''Im Moment sind folgende Schnittstellen angeschlossen:'''
@@ -49,14 +47,48 @@ Am KVM-Switch (Kanal 1) ist fest ein Mac Mini namens Applejack angeschlossen. Au
 * S-Video
 * Composite
 
-'''Folgende Auflösungen werden unterstützt:'''
-   * 1024x768       60.0* 
-   * 800x600        60.3     56.2  
-   * 848x480        60.0  
-   * 640x480        59.9
+=== Auflösung ===
+Der Beamer beherrscht Full-HD, dh 1920x1080, und vermutlich alle sinnvollen 
+Auflösungen daruner.
+
+==== xrandr ====
+xrandr und vermutlich alle auf RandR basierende Tools haben, wohl in 
+Zusammenhang mit dem Switch, ein Problem, die maximale Auflösung korrekt zu 
+erkennen. Um diesem Problem beizukommen, kann man den benötigten Mode relativ 
+einfach hinzufügen.
+
+Dazu generiert man zuerst mit cvt(1) oder gtf(1) die Modeline.
+
+<code>
+    $ gtf 1920 1080 60
+        
+    # 1920x1080 @ 60.00 Hz (GTF) hsync: 67.08 kHz; pclk: 172.80 MHz
+    Modeline "1920x1080_60.00"  172.80  1920 2040 2248 2576  1080 1081 1084 1118  -HSync +Vsync
+</code>
+
+Diese muss dann zunächst als neuer Mode in xrandr hinzugefügt werden.  Beachte, 
+dass nur alles *nach* "Modeline" benötigt wird.
+
+<code>
+     xrandr --newmode "1920x1080_60.00"  172.80  1920 2040 2248 2576  1080 1081 1084 1118  -HSync +Vsync
+</code>
+
+Nun muss dieser Mode noch zum korrekten Output hinzugefügt werden. Auf den 
+meisten Thinkpads ist das VGA1.
+
+<code>
+     xrandr --addmode VGA1 1920x1080_60.00
+</code>
+
+Nun kann dieser wie gewohnt unter diesem Namen gewählt werden.
+
+'''Achtung''': Diese Lösung ist temporär. Nach einem Reboot muss dieses Prozedere 
+erneut durchlaufen werden. Man kann die Modeline auch irgendwie™ in die 
+xorg.conf schreiben, um das ganze permanent zu lösen, aber das musst du selbst 
+herausfinden. Hast du dies getan, ergänze es am besten hier.
 
 == Pläne für die Zukunft ==
-Für die Zukunft planen wir, uns einen Beamer welcher Full HD (1920×1080px) unterstützt anzuschaffen. Mittellange Recherchen haben ergeben, dass hier z.B. der BenQ W1100 in Frage kommt.
+Derzeit keine. Wenn du eine gute Idee hast, fühle dich frei sie hier zu 
+dokumentieren.
 
-Da ein solches Gerät ein wenig teurer ist, kommt hier erstmals die erprobte Crowdfunding-Technologie ins Spiel. Wer dazu beitragen möchte, den Beamer zu finanzieren, findet auf der [[Crowdfunding]] Seite alle nötigen Informationen.
 [[Kategorie:Projekt]]
