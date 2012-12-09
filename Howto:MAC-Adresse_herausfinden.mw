@@ -1,11 +1,20 @@
 == GNU/Linux ==
-<div style="margin-bottom: 12px;">[[Datei:MAC-linux.png|800px]]</div>
+<p>[[Datei:MAC-linux.png|800px]]</p>
 Mit iputils: <code>ip link show</code>
+
+<p>[[Datei:Mac-address-ifconfig.png|ifconfig]]</p>
+oder mit net-tools: <code>ifconfig</code>
 
 == Android ==
 [[Datei:MAC-Android.png|right|thumb|Android]]
 Settings → About phone → Status → Wi-Fi MAC address
+<div style="clear:both;"></div>
 
 == iPhone ==
 [[Datei:Iphone-wlan-mac-adresse-anzeigen.png|right|thumb|iPhone]]
 Einstellungen → Allgemein → Info → WLAN Adresse
+<div style="clear:both;"></div>
+
+== MS Windows ==
+<p>[[Datei:Mac-adressen-winxp.jpeg|WinXP]]</p>
+Win XP: Befehlszeile → <code>arp -a</code>
