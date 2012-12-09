@@ -16,5 +16,5 @@ Einstellungen → Allgemein → Info → WLAN Adresse
 <div style="clear:both;"></div>
 
 == MS Windows ==
-<p>[[Datei:Mac-adressen-winxp.jpeg|WinXP]]</p>
-Win XP: Befehlszeile → <code>arp -a</code>
+<p>[[Datei:Ipconfig-all.jpeg|WinXP]]</p>
+Win XP: Befehlszeile → <code>ipconfig /all</code>
