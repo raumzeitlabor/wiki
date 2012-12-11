@@ -1,3 +1,7 @@
+== Aktueller Stand ==
+
+Das Jail wird derzeit von UUGRN gehostet und läuft auf FreeBSD. Da [[Benutzer:Rabe|rabe]] wohl auf eine neue HW-Infrastruktur umziehen will und keine 32-bit Jails mitnimmt, möchten wir unsere Internetpräsenz bei einem anderen Provider hosten. Mehr dazu auf [[Jail/Umzug]].
+
 ;Ansprechpartner
 * User mit root Rechten:
 :[[Benutzer:Rabe|rabe]]
