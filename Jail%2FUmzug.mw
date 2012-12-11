@@ -1,7 +1,7 @@
 == Anforderungen ==
 
 * Traffic: ??
-* Benötigter Plattenplatz:
+* Benötigter Plattenplatz: mindestens 14GB (soviel braucht das Jail derzeit, exklusive Datenbanken)
 * Benötigter RAM: mindestens 512MB, besser mehr
 
 == Wiki ==
