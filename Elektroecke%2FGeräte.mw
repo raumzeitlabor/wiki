@@ -198,10 +198,17 @@
 |bild          = Ersa_icon1_itool.jpg
 |hersteller    = Ersa
 |typ           = i-con 1 mit i-Tool
-|beschreibung  = Nutzung nur nach Rücksprache mit Felicitus
+|beschreibung  = Nutzung für Jedermann. Um eine Spende wird bei Benutzung gebeten. Nach Abbezahlung gehört die Lötstation dem RZL.
 |doku          = 
 |besitzer    = [[Benutzer:Felicitus|Felicitus]]
 |status        = OK
+}}
+
+{{ProgressBar|0
+| text = abbezahlt
+| total = 223
+| center = false
+| height = 5
 }}
 
 == Sonstiges ==
