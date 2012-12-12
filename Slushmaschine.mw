@@ -33,15 +33,6 @@ Bedienung:
 # SLUSHTIME
 # Reinige die Maschine nach Benutzung!
 
-Reinigung:
-
-# Entleere die Maschine
-# Fülle in alle benutzen Kammern ausreichend (mehrere Liter!) Wasser ein
-# Aktiviere die Rührfunktion für einige Zeit, KEINE KÜHLUNG!
-# Entleere die Kammern.
-# Repeat until sauber
-
-
 {{ProgressBar|35.8
 | text = abbezahlt
 | total = 600
