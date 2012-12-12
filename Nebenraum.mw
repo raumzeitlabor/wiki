@@ -61,7 +61,7 @@
 | last_changed = 
 }}
 {{TaskListItem
-| title = Netzwerk
+| title = [[Nebenraum#Netzwerk|Netzwerk]]
 | description = 
 | responsible = 
 | status = waiting
@@ -140,6 +140,17 @@ Siehe auch: [[Lichtsteuerung]]
 
 * Stromzählerauswertung zum 2.
 
+=== Netzwerk ===
+
+* Es wurde eine Netzwerkdoppelader in den Nebenraum verlegt, die an der Eingangstür rausfällt
+* Es soll im Nebenraum ein Zwischenverteiler aus folgenden Gründen installiert werden:
+** Alle Netzwerkdosen vom Nebenraum in das [[Rack]] zu verlegen ist sehr aufwendig, und der Kabelkanal zum Rack ist sehr voll. Bringt erhebliche Umbauarbeiten mit sich
+** Ein zweiter Switch muß sein, da der im Rack voll ist
+* Die Position des Zwischenverteilers ist fraglich:
+** Das vorhandene 19"-Rollrack ist nicht staubgeschützt, kann also nicht im Werkstattraum eingesetzt werden
+** Eine dauerhafte Lärmquelle im Workshopraum ist auch eher schlecht
+** Idee wäre, einen IP54-Wandschrank zu nutzen.
+*** Problem: bei Staubschutz auch keine Kühlung
 === Türen ===
 Um Platz zu sparen, würde ich den Einbau von Schiebetüren vorschlagen, die in die Trennwände eingelassen werden. Der finanzielle und Aufbauaufwand ist etwas höher als bei normalen Türen (~100€ für das Schienensystem gegenüber $geringer für Zargen), dafür spart man sich nicht unerheblich Platz. In meiner Wohnung habe ich eine bereits eingebaut und soweit keine Probleme damit gehabt (abgesehen von einem einmaligen Nachziehen der Laufräder). Außerdem sind Schiebetüren cool und spawnen gerne weitere Projekte (Star-Trek-Sound anyone?). --[[Benutzer:TheTinyToon|TTT]] 11:05, 7. Aug. 2012 (CEST)
 
