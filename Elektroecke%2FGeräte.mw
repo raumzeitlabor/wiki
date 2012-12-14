@@ -182,9 +182,9 @@
 |status        = OK
 }}
 
-{{ProgressBar|0
+{{ProgressBar|0.90
 | text = abbezahlt
-| total = 223
+| total = 200
 | center = false
 | height = 5
 }}
