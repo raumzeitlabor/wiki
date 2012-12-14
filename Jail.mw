@@ -12,6 +12,19 @@ Das Jail wird derzeit von UUGRN gehostet und läuft auf FreeBSD. Da [[Benutzer:R
 :[[Benutzer:Blabber|blabber]]
 :[[Benutzer:nicoduck|nicoduck]]
 
+== Dienste ==
+*Apache
+*Bind
+*mailman
+*dovecot
+*sendmail
+*verschiedene Screens
+*perl ./twitter.pm (in einem Screen, raumstatus)
+*perl status-ircbot-stream.pl (auch im Screen, irc-bot)
+*RaumZeitStatus (in plack, ist via mod_proxy auf status.raumzeitlabor.de/api erreichbar)
+*/root/status-unreachable.pl (per cron, alle Minute, passt den türstatus an wenn er nicht erreichbar ist)
+*cronscript von der Webseite (alle 30 Minuten)
+
 ==Datenbanken==
 *[[Drupal|rzl_drupal]]
 
