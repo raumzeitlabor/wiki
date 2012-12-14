@@ -1,4 +1,11 @@
 =Laserdrucker=
+==Brother MFC-9840CDW==
+'''IP: 172.22.36.132'''
+:Hostname: guttenberg
+:Ansprechbar http://172.22.36.132:631/ipp
+:Sollte sich unter CUPS selbst announcen
+:Scannt per FTP aufs Datengrab in den Ordner scans
+
 ==Samsung SCX-5530FN==
 [[Datei:IMG_0398.JPG|250px|thumb|right]]
 '''IP: 172.22.36.3'''
