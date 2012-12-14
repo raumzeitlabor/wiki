@@ -28,7 +28,9 @@ Diese VM stellt eine [http://opentsdb.net/ OpenTSDB] bereit, um alle im RZL anfa
 Zum Eingewöhnen gibt es erstmal [http://blackbox.raumzeitlabor.de/
  ein paar bunte Bilder]. Leider kann man in diesem Wiki keine IPv6-URLs verlinken, sonst hätte ich das getan.
 
-Man gibt den Anfangs- und Endzeitpunkt des Intervalls ein, das man darstellen möchte und die Metrik. Metriken sind z.B.:
+Man gibt den Anfangs- und Endzeitpunkt des Intervalls ein, das man darstellen möchte und die Metrik. Bei manchen Metriken gibt es zusätzlich Tags, um z.B. verschiedene Sensoren unterscheiden zu können, z.B. sensor=olymp. Standardmäßig werden alle Werte zu einem Zeitpunkt aufsummiert (Aggregator: sum), man kann aber auch andere Aggregatoren verwenden oder die Auswahl auf einzelne Tags einschränken. 
+
+Metriken sind z.B.:
 
 {| class="wikitable" width="100%"
 ! Metrik || Beschreibung || Tags || Tag-Werte
