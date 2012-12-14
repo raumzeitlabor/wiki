@@ -33,9 +33,9 @@ Bedienung:
 # SLUSHTIME
 # Reinige die Maschine nach Benutzung!
 
-{{ProgressBar|35.8
+{{ProgressBar|52
 | text = abbezahlt
-| total = 600
+| total = 610
 | center = false
 | height = 5
 }}
