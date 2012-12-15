@@ -11,6 +11,8 @@
 Die Busanzeigen wurden von Felicitus' Bruder zur Verfügung gestellt. Primär erstmal zum testen, wenn die FlipDot-Anzeige ansteuerbar ist, bekommen wir auch eine große FlipDot-Anzeige. Diese braucht nur Spannung zum Umschalten der Dots und eignet sich super zur Anzeige des Chats.
 
 = LCD-Anzeige =
+
+Das Mainboard ist mit einer 0.75A Sicherung geschützt, leider ist diese geflogen und wurde durch eine 1A Sicherung ersetzt. Passender Ersatztyp ist [http://de.farnell.com/littelfuse/0448-750mr/sicherung-v-flink-smd-750ma/dp/1596921 dieser in flink], unbekannt welche Trägheit die Originalsicherung hatte.
 == Steckerbelegung vom Mainboard zum LCD ==
 
 <pre>
