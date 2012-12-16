@@ -3,9 +3,9 @@
 '''IP: 172.22.36.132'''
 :Hostname: guttenberg
 :Ansprechbar http://172.22.36.132:631/ipp
-:Sollte sich unter CUPS selbst announcen
+:Wird über den Cups auf [[Mate (Server)/Infra]] automatisch announct.
+:'''Druck dauert ziemlich lange (bis zu 5 Minuten), bisher unklar warum'''
 :Scannt per FTP aufs Datengrab in den Ordner scans
-:'''Derzeit nicht funktionstüchtig, unklar warum. Ansprechpartner hax404'''
 
 ==Samsung SCX-5530FN==
 [[Datei:IMG_0398.JPG|250px|thumb|right]]
