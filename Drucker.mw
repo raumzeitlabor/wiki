@@ -5,6 +5,7 @@
 :Ansprechbar http://172.22.36.132:631/ipp
 :Sollte sich unter CUPS selbst announcen
 :Scannt per FTP aufs Datengrab in den Ordner scans
+:'''Derzeit nicht funktionstüchtig, unklar warum. Ansprechpartner hax404'''
 
 ==Samsung SCX-5530FN==
 [[Datei:IMG_0398.JPG|250px|thumb|right]]
