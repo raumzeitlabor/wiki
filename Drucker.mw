@@ -20,6 +20,8 @@ Anleitung für CUPS:
 * Bestätige mit der Schaltfläche "Change Settings"
 * Unter "Printers" sollte nun der Drucker auftauchen
 
+'''Derzeit nicht angeschlossen'''
+
 ==Scannen==
 Direkt am Gerät:
 :Scan/E-Mail -> Scannen&SMB -> Datengrab -> (TIFF, PDF, JPEG) -> Datei landet in \\datengrab.rzl\share\scans
