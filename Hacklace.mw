@@ -249,18 +249,10 @@ Wer das Hacklace in Aktion sehen möchte, findet ein cooles Video auf YouTube[ht
 
 ==Bezugsquellen==
 Die benötigten Bauteile können bei Reichelt bzw. CSD-Electronics bestellt werden. Ein Auflistung mit Bestellnummer findet sich [[Medium:Hacklace_Bauteileliste.pdf|hier]].
+Altern
 
 === Bausatz ===
 Als bequeme Alternative bieten wir einen Bausatz mit allen Teilen und einer professionell gefertigten Platine an. Der Bausatz kostet 10,- Euro und kann bei [[Benutzer:Fabster|Fabster]] oder [[Benutzer:muzy|muzy]] erworben werden. Die Bezahlung erfolgt '''nicht''' über die Raumkasse. Gerne helfen wir oder andere erfahrene Laboranten beim löten, zusammenbauen, flashen und programmieren.
-
-
-{{ProgressBar|10
-| text = Verfügbare Bausätze mit Versandmöglichkeit ab dem 28.11.12 (Stand 07.12.12 22:00 Uhr)
-| total = 60
-| center = false
-| height = 5
-}}
-
 
 {| 
 | [[Datei:Hacklace_Einzelteile.jpg|thumb|right|260px|Einzelteile]]
@@ -269,16 +261,21 @@ Als bequeme Alternative bieten wir einen Bausatz mit allen Teilen und einer prof
 |-
 |}
 
-=== Kosten ===
+=== Batteriehalter ===
+Um das Hacklace am Gürtel zu tragen, bieten wir für 4€ einen Batteriehalter inklusive Batterien an. Dieser lässt sich nicht nur bequem tragen, sondern erhöht auch die Laufzeit und Helligkeit deines Hacklaces. Erhältlich bei [[Benutzer:Fabster|Fabster]] oder [[Benutzer:muzy|muzy]].
+
+=== USB auf TTL Adapter ===
+Das Hacklace bietet eine serielle Schnittstelle zum aufspielen eigener Animationen. Einen USB auf TTL Adapter kannst du für 5€ bei [[Benutzer:Fabster|Fabster]] oder [[Benutzer:muzy|muzy]] kaufen. Dieser Adapter unterstützt sowohl 3,3V als auch 5V und ist somit universell einsetzbar: z.B. um auf die Rescue-Konsole von Routern zu kommen.
+
+=== Refinanzierung ===
 Die Progressbar zeigt die aktuelle Refinanzierung des Projektes an. Sobald die volle Summe erreicht ist, sind die restlichen Einnahmen Spende an das RaumZeitLabor.
 
-{{ProgressBar|345
+{{ProgressBar|424
 | text = Aktueller Refinanzierungsstatus
-| total = 1004
+| total = 1032
 | center = false
 | height = 5
 }}
-
 
 == Fragen, Ideen etc. ==
 Diese Wikiseite dient dazu, die Fakten zum Hacklace zu präsentieren. Hier findest du Informationen über alles, was bereits realisiert worden ist. Für Dinge, die noch offen sind oder in der Zukunt liegen, wie z. B. Fragen, Ideen, Kommentare, Vorschläge, Wünsche steht dir die [[Diskussion:Hacklace|Diskussionsseite]] zur Verfügung. Dort kann alles eingetragen und besprochen werden, was noch nicht umgesetzt wurde.
