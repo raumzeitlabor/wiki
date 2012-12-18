@@ -262,7 +262,13 @@ Als bequeme Alternative bieten wir einen Bausatz mit allen Teilen und einer prof
 |}
 
 === Batteriehalter ===
-Um das Hacklace am Gürtel zu tragen, bieten wir für 5,- € einen Batteriehalter inklusive Batterien an. Dieser lässt sich nicht nur bequem tragen, sondern erhöht auch die Laufzeit und Helligkeit deines Hacklaces. Erhältlich bei [[Benutzer:Fabster|Fabster]] oder [[Benutzer:muzy|muzy]].
+Um das Hacklace am Gürtel zu tragen, bieten wir für 5,- € einen Batteriehalter inklusive drei Alkaline-Batterien an. Dieser lässt sich nicht nur bequem tragen, sondern erhöht auch die Laufzeit und Helligkeit deines Hacklaces. Erhältlich bei [[Benutzer:Fabster|Fabster]] oder [[Benutzer:muzy|muzy]].
+{| 
+| [[Datei:Hacklace_Battery_Pack_vorne.jpg|thumb|right|160px|Batteriehalter von vorne]]
+| [[Datei:Hacklace_Battery_Pack_hinten.jpg|thumb|right|140px|Versorgung mit 4,5 Volt über 3 Stück AAA-Zellen]]
+| [[Datei:Hacklace_Battery_Pack_schräg.jpg|thumb|right|120px|Der Abstand der Anschlußdrähte ist auf das Hacklace abgestimmt.]]
+| [[Datei:Hacklace_Battery_Pack_Gürtel.jpg|thumb|right|185px|Bequem am Gürtel zu tragen]]
+|}
 
 === USB auf TTL Adapter ===
 Das Hacklace bietet eine serielle Schnittstelle zum aufspielen eigener Animationen. Einen USB auf TTL Adapter kannst du für 5€ bei [[Benutzer:Fabster|Fabster]] oder [[Benutzer:muzy|muzy]] kaufen. Dieser Adapter unterstützt sowohl 3,3V als auch 5V und ist somit universell einsetzbar: z.B. um auf die Rescue-Konsole von Routern zu kommen.
@@ -276,6 +282,7 @@ Die Progressbar zeigt die aktuelle Refinanzierung des Projektes an. Sobald die v
 | center = false
 | height = 5
 }}
+
 
 == Bausatz-Weiterverkauf ==
 Dein Hackerspace ist begeistert vom Hacklace? Du möchtest einen Hacklace-Workshop in deinem Hackerspace anbieten? Bestelle bei uns ([[Benutzer:Fabster|Fabster]] oder [[Benutzer:muzy|muzy]]) einfach die benötigte Anzahl von Bausätzen.
@@ -297,6 +304,7 @@ Damit deinem Hackerspace das ganze auch zu gute kommt, gibt es einen Rabatt bei 
 |align="right"|  ab 50 Stück	 
 |8,00 pro Bausatz
 |}
+
 
 == Fragen, Ideen etc. ==
 Diese Wikiseite dient dazu, die Fakten zum Hacklace zu präsentieren. Hier findest du Informationen über alles, was bereits realisiert worden ist. Für Dinge, die noch offen sind oder in der Zukunt liegen, wie z. B. Fragen, Ideen, Kommentare, Vorschläge, Wünsche steht dir die [[Diskussion:Hacklace|Diskussionsseite]] zur Verfügung. Dort kann alles eingetragen und besprochen werden, was noch nicht umgesetzt wurde.
