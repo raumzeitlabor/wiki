@@ -219,6 +219,20 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 | [[Benutzer:Cheatha|Cheatha]]
 | Ich hatte sie fast alle, Joomla, Typo3, Drupal, Wordpress und wie sie alle heißen. Aber es gab immer irgendetwas, mit dem ich einfach nicht klar kam. Bis ich über MODX gestolpert bin, das für mich passenste Content Management System! Für dich vielleicht auch?
 | steeph, [[Benutzer:hax404|hax404]],
+|-
+| 2012-12-17
+| (irgendein Dienstag)
+| IP over DNS mit Iodine
+| [[Benutzer:Tiefpunkt|tiefpunkt]]
+| IP-Kommunikation getunnelt über DNS. Wie das funktioniert, warum man das überhaupt machen sollte, und wieso man dabei sogar Geld sparen kann.
+| 
+|-
+| 2012-12-17
+| (irgendein Dienstag)
+| MQTT - Message Queue für das Internet of Things
+| [[Benutzer:Tiefpunkt|tiefpunkt]]
+| Message Queues sind die Push-Benachritigungen der M2M-Kommunikation. MQTT ist ein Message-Queue-Protokoll, und eignet sich hervoragend für Sensornetzwerke und Heimautomation.
+| 
 |}
 
 ==Vergangen==
