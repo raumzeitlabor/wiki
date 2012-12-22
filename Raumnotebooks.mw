@@ -1,5 +1,5 @@
-Lagerort: Schublade 0x19
-Standard-Login: rzl/rzl
+* Lagerort: Schublade 0x19
+* Standard-Login: rzl/rzl oder laborant/laborant
 
 
 = Funktionierende Notebooks =
@@ -10,6 +10,14 @@ Standard-Login: rzl/rzl
 [[Image:IBM ThinkPad X40 open.jpg|300px]]
 
 * Leihgabe von Felicitus
+
+== Sony Vaio PCG-8S1M ==
+
+[[Image:Sony Vaio PCG-8S1M closed.jpg|300px]]
+[[Image:Sony Vaio PCG-8S1M open.jpg|300px]]
+
+* HW-config unbekant, läuft Ubuntu drauf (passwort unbekannt)
+* Benötigt reinstall via cd-rom, da nicht von USB bootbar
 
 == Sony VGN-S1XP ==
 
@@ -29,11 +37,3 @@ Standard-Login: rzl/rzl
 
 
 * Der Festplattenrahmen ist jetzt da, leider ist die Platte kaputt. Irgendeine 2,5" HDD mit IDE-Anschluss wird benötigt.
-
-== Sony Vaio PCG-8S1M ==
-
-[[Image:Sony Vaio PCG-8S1M closed.jpg|300px]]
-[[Image:Sony Vaio PCG-8S1M open.jpg|300px]]
-
-* HW-config unbekant, läuft Ubuntu drauf (passwort unbekannt)
-* Benötigt reinstall via cd-rom, da nicht von USB bootbar
