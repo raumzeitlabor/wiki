@@ -10,6 +10,18 @@ Anleitung für deine lokale CUPS-Installation:
 * Bestätige mit der Schaltfläche "Change Settings"
 * Unter "Printers" sollte nun der Drucker auftauchen
 
+=Labeldrucker=
+== Brother P-touch QL-500 ==
+[[Datei:Labeldrucker QL500.JPG|left|150px]]
+Der Drucker ist über CUPS auf http://mate.rzl:631/printers/Brother_QL-500 geshared.
+
+Du kannst diesen Drucker zwar über die Linux-Software [http://www.glabels.org/ glabels] ansteuern, allerdings wird die Benutzung der Brother P-Touch-Software unter Windows empfohlen.
+
+== Brother P-Touch 2430PC ==
+Der Drucker ist über CUPS auf http://mate.rzl:631/printers/Brother_PT-2430PC geshared.
+
+Du kannst diesen Drucker zwar über die Linux-Software [http://apz.fi/blabel/ B-Label] ansteuern, allerdings wird die Benutzung der Brother P-Touch-Software unter Windows empfohlen.
+
 =Laserdrucker=
 ==Brother MFC-9840CDW==
 '''IP: 172.22.36.132'''
