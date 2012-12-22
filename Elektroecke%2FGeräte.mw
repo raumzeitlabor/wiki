@@ -228,8 +228,8 @@
 === PC E-Ecke II ===
 
 
+[[Image:Monitor_E-Ecke.jpg|thumb|200px|left]]
 {| border="0"
-| rowspan="6" | [[Image:Monitor_E-Ecke.jpg|thumb|200px]]
 | valign="top" | '''CPU''' 
 | valign="top" | Intel Pentium 4 | 2.6GHz | 32-Bit
 |- 
@@ -250,6 +250,13 @@
 |- 
 | valign="top" | '''Besitzer der Hardware'''
 | valign="top" | Tiefpunkt
+|- 
+| valign="top" | '''Hinweise'''
+| valign="top" |
+* Brother P-Touch Labelsoftware unter Windows installiert
+* Separate Netzwerkkarte verbaut, da der LAN-Onboard-Chip nicht mehr unter Windows 7 unterstützt wird (shame on you, SiS!)
+* Auto-Login unter Windows ohne Kennwort
+* User/Pw laborant/laborant unter Linux
 |}
 
 === Absaugung ===
