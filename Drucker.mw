@@ -47,16 +47,19 @@
 *[[Benutzer:Felicitus|Felicitus]] hat den Trommelzähler im Dezember 2012 wie vorgeschlagen zurückgesetzt.
 |}
 
-==Samsung SCX-5530FN==
-[[Datei:IMG_0398.JPG|250px|thumb|right]]
-'''IP: 172.22.36.3'''
-:Ansprechbar unter URL ipp://172.22.36.3:631
-:Wird über den Cups auf [[Mate (Server)/Infra]] automatisch announct.
+==Samsung SXC-5530FN==
+[[Datei:Samsung SCX-5530FN.jpg|left|100px]]
+{|
+|
+* Netzwerkdrucker ('''IP: 172.22.363''' / Hostname: '''printer0''')
+* '''Mono-Laser'''
+* Freigegeben über [http://mate.rzl:631/printers/Samsung_SCX-5530FN http://mate.rzl:631/printers/Samsung_SCX-5530FN]
+* Scans landen auf dem Datengrab im Ordner "scans"
 
-===Scannen===
-Direkt am Gerät:
-:Scan/E-Mail -> Scannen&SMB -> Datengrab -> (TIFF, PDF, JPEG) -> Datei landet in \\datengrab.rzl\share\scans
-===Setup===
+<div class="toccolours mw-collapsible mw-collapsed">
+Scannen direkt am Gerät:
+<div class="mw-collapsible-content">
+* Scan/E-Mail -> Scannen&SMB -> Datengrab -> (TIFF, PDF, JPEG) -> Datei landet in \\datengrab.rzl\share\scans
 Falls die Einstellungen ''vergessen'' werden.
 
 ;SMB Setup > SMB General Setup >>
@@ -74,6 +77,9 @@ Falls die Einstellungen ''vergessen'' werden.
 :Scan File Folder: ''scans''
 :Scan Filename: ''scan''
 :Filing Method: ''Change Name''
+</div>
+</div>
+|}
 
 ==Installation unter Debian==
  echo "deb http://www.bchemnet.com/suldr/ debian extra debian extra" >> /etc/apt/sources.list
