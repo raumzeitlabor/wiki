@@ -139,6 +139,38 @@ Siehe auch: [[Lichtsteuerung]]
 
 === Strom ===
 
+[[Datei:Nebenraum_-_Elektro.png|600px]]
+
+Wände sind gekennzeichnet mit Buchstaben A-M
+
+{| class="wikitable"  valign = "top"
+!colspan=2|Kabelkanal-Planung
+|-
+|01
+|Sicherungskasten->Decke (2,50m)
+|-
+|02
+|Kabelkanal C-Wand (4,60m)
+|-
+|03
+|Kabelkanal A-Wand (4,00m)
+|-
+|04
+|Kabelkanal Decke->D-Wand (2,50m)
+|-
+|05
+|Kabelkanal Decke->H-Wand (2,50m)
+|-
+|06
+|Kabelkanal H-Wand (3,20m)
+|-
+|07
+|Kabelkanal J-Wand (5,00m)
+|-
+|ges.
+|24,3 Meter
+|}
+
 * Vorhanden:
 ** Kabelkanal: 6*2m NEU + diverse Reste
 ** Steckdosen: 21 Stück OPUS Schuko (560.430.02)
