@@ -22,6 +22,8 @@
 * Freigegeben über [http://mate.rzl:631/printers/Brother_QL-500 http://mate.rzl:631/printers/Brother_QL-500]
 * '''Vor dem Druck einschalten und danach wieder ausschalten!'''
 * Du kannst diesen Drucker zwar über die Linux-Software [http://www.glabels.org glabels] ansteuern, allerdings wird die Benutzung der Brother P-Touch-Software unter Windows empfohlen.
+* Verbrauchsmaterial befindet sich in Schublade 0x2f
+* Dauerleihgabe von [[Benutzer:Felicitus|Felicitus]]
 |}
 
 == Brother P-Touch 2430PC ==
@@ -31,7 +33,10 @@
 * Angeschlossen an [[Mate (Server)]]
 * Freigegeben über [http://mate.rzl:631/printers/Brother_PT-2430PC http://mate.rzl:631/printers/Brother_PT-2430PC]
 * '''Vor dem Druck einschalten und danach wieder ausschalten!'''
+* Verbrauchsmaterial befindet sich in Schublade 0x2f
+* Gehört dem RaumZeitLabor
 * Du kannst diesen Drucker zwar über die Linux-Software [http://apz.fi/blabel/ B-Label] ansteuern, allerdings wird die Benutzung der Brother P-Touch-Software unter Windows empfohlen.
+
 |}
 
 =Laserdrucker=
@@ -44,7 +49,13 @@
 * Freigegeben über [http://mate.rzl:631/printers/Brother_MFC-9840CDW http://mate.rzl:631/printers/Brother_MFC-9840CDW]
 *'''Druck dauert ziemlich lange (bis zu 5 Minuten), bisher unklar warum'''
 *Scannt per FTP aufs Datengrab in den Ordner scans
+
+<div class="toccolours mw-collapsible mw-collapsed">
+Änderungen / Defekte
+<div class="mw-collapsible-content">
 *[[Benutzer:Felicitus|Felicitus]] hat den Trommelzähler im Dezember 2012 wie vorgeschlagen zurückgesetzt.
+</div>
+</div>
 |}
 
 ==Samsung SXC-5530FN==
@@ -79,19 +90,27 @@ Falls die Einstellungen ''vergessen'' werden.
 :Filing Method: ''Change Name''
 </div>
 </div>
+
+<div class="toccolours mw-collapsible mw-collapsed">
+Installation unter Debian (möglicherweise veraltet, probiere es erst mit den normalen Treibern):
+<div class="mw-collapsible-content">
+
+<pre>
+echo "deb http://www.bchemnet.com/suldr/ debian extra debian extra" >> /etc/apt/sources.list
+apt-get update
+apt-get install samsungmfp-data samsungmfp-driver
+</pre>
+</div>
+</div>
+
+<div class="toccolours mw-collapsible mw-collapsed">
+Defekte
+<div class="mw-collapsible-content">
+* Beim Versuch den verbogenen ADF (automatischer Dokumenteneinzug) gerade zu biegen, hat Inte das linke Scharnier ([http://www.google.de/search?q=JC97-02779A JC97-02779A/MEA UNIT-HINGE]) des Deckels abgebrochen. Der Dokumenteneinzug funktioniert wieder, nur der Deckel wackelt jetzt beim Aufklappen.
+</div>
+</div>
 |}
 
-==Installation unter Debian==
- echo "deb http://www.bchemnet.com/suldr/ debian extra debian extra" >> /etc/apt/sources.list
- apt-get update
- apt-get install samsungmfp-data samsungmfp-driver
-
-;Sonstige Treiber
-:[http://www.samsung.de/de/Geschaeftskunden/BusinessBuero/BusinessPrinter/SWLaserMFP/SCX-5530FN/SCX-5530FNXEG/detail.aspx?atab=support&aguid=7d682121-bdca-4377-9d86-c549053fc961&dl=driver Samsung Support -> Treiber]
-
-
-;Defekte
-:Beim Versuch den verbogenen ADF (automatischer Dokumenteneinzug) gerade zu biegen, hat Inte das linke Scharnier ([http://www.google.de/search?q=JC97-02779A JC97-02779A/MEA UNIT-HINGE]) des Deckels abgebrochen. Der Dokumenteneinzug funktioniert wieder, nur der Deckel wackelt jetzt beim Aufklappen.
 
 == Konica Minolta Magicolor 2300W ==
 Farb-Laserdrucker, Dauerleihgabe von [[Benutzer:Unicorn|Unicorn]]
