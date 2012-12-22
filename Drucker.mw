@@ -1,14 +1,17 @@
 =Allgemeines=
 
-Einige Drucker sind über den CUPS auf [[Mate (Server)/Infra]] geshared.
+'''Einige Drucker sind über den CUPS auf [[Mate (Server)/Infra]] geshared.'''
 
-Anleitung für deine lokale CUPS-Installation: 
-
+<div class="toccolours mw-collapsible mw-collapsed">
+'''Anleitung für deine lokale CUPS-Installation'''
+<div class="mw-collapsible-content">
 * Installiere CUPS
 * Gehe ins [https://localhost:631/admin Administrationsmenü]
 * Setze ein Häkchen bei "Show printers shared by other systems"
 * Bestätige mit der Schaltfläche "Change Settings"
 * Unter "Printers" sollte nun der Drucker auftauchen
+</div>
+</div>
 
 =Labeldrucker=
 == Brother P-touch QL-500 ==
