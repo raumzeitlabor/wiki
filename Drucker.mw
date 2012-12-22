@@ -36,14 +36,16 @@
 
 =Laserdrucker=
 ==Brother MFC-9840CDW==
-'''IP: 172.22.36.132'''
-:Hostname: guttenberg
-:Ansprechbar http://172.22.36.132:631/ipp
-:Wird über den Cups auf [[Mate (Server)/Infra]] automatisch announct.
-:'''Druck dauert ziemlich lange (bis zu 5 Minuten), bisher unklar warum'''
-:Scannt per FTP aufs Datengrab in den Ordner scans
-
-:[[Benutzer:Felicitus|Felicitus]] hat den Trommelzähler wie vorgeschlagen zurückgesetzt.
+[[Image:Brother MFC-9840CDW.jpg|left|100px]]
+{|
+|
+* Netzwerkdrucker ('''IP: 172.22.36.132''' / Hostname: '''guttenberg''')
+* '''Farblaser'''
+* Freigegeben über [http://mate.rzl:631/printers/Brother_MFC-9840CDW http://mate.rzl:631/printers/Brother_MFC-9840CDW]
+*'''Druck dauert ziemlich lange (bis zu 5 Minuten), bisher unklar warum'''
+*Scannt per FTP aufs Datengrab in den Ordner scans
+*[[Benutzer:Felicitus|Felicitus]] hat den Trommelzähler im Dezember 2012 wie vorgeschlagen zurückgesetzt.
+|}
 
 ==Samsung SCX-5530FN==
 [[Datei:IMG_0398.JPG|250px|thumb|right]]
