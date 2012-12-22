@@ -21,7 +21,7 @@ Wir haben eine Telefonnummer™, die an einem Asterisk-Server hängt, an den üb
 Geplant für die Zukunft ist, eventuell eine der Nummern zu nutzen, die bei unserem ISDN-Anschluss dabei sein wird. Wenn die Telekom unseren Anschluss mal auf die Reihe bekommt. (Alsob).
 
 == Eingehende Anrufe ==
-Anrufer hört Wartemusik, Telefon klingelt im Raum. Ausserdem wird auf der Ping-Anzeige die Nummer des Anrufers (oder ggf. ein Name) angezeigt.
+Anrufer hört Wartemusik, Telefon klingelt im Raum. Außerdem wird auf der Ping-Anzeige die Nummer des Anrufers (oder ggf. ein Name) angezeigt.
 
 === Anrufbeantworter ===
 Wenn nach 50 Sekunden niemand ans Telefon geht, springt ein Anrufbeantworter an. Die Aufzeichnung geht per Mail an info@raumzeitlabor.de.
