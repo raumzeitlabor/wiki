@@ -146,32 +146,35 @@ Wände sind gekennzeichnet mit Buchstaben A-M
 {| class="wikitable"  valign = "top"
 !colspan=2|Kabelkanal-Planung
 |-
-|01
+|K01
 |Sicherungskasten->Decke (2,10m)
 |-
-|02
+|K02
 |Kabelkanal C-Wand (4,60m)
 |-
-|03
+|K03
 |Kabelkanal A-Wand (4,00m)
 |-
-|04
+|K04
 |Kabelkanal Decke->D-Wand (3,00m)
 |-
-|05
+|K05
 |Kabelkanal Decke->H-Wand (2,50m)
 |-
-|06
+|K06
 |Kabelkanal H-Wand (3,20m)
 |-
-|07
+|K07
 |Kabelkanal J-Wand (5,00m)
 |-
-|08
+|K08
 |Kabelkanal Decke->A-Wand (3,00m)
 |-
+|K09
+|Kabelkanal Decke->Netzwerkrack (1,30m)
+|-
 |ges.
-|27,8 Meter
+|29,1 Meter
 |}
 
 {| class="wikitable"  valign = "top"
