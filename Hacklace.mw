@@ -139,7 +139,7 @@ Das Hacklace verwendet einen Displayspeicher von 200 Byte. Jedes Byte repräsent
 ===Konfiguration===
 Über ein serielles Interface kannst du deine eigenen Texte und Animationen auf das Hacklace übertragen. Hierzu benötigst du ein serielles 3,3 Volt-Interfacekabel (5 Volt geht auch), welches an CON2 angeschlossen wird (GND - Pin 1, TxD - Pin 2). Über das Kabel kannst du mit einem Terminalprogramm ein Textfile an das Hacklace senden (2400 Baud, 8 Datenbits, keine Parität, 1 Stoppbit, kein Handshake).
 
-Das Textfile zur Konfiguration enthält deine eigenen Texte und Animationen. Es läßt sich mit jedem beliebigen Texteditor erstellen, der in der Lage ist, ASCII-Texte zu erzeugen (kein Unicode!). Zum Speichern des Konfigurationsfiles stehen im internen EEPROM des Mikrocontrollers maximal 256 Byte zur Verfügung.
+Das Textfile zur Konfiguration enthält deine eigenen Texte und Animationen. Es läßt sich mit jedem beliebigen Texteditor erstellen, der in der Lage ist, ASCII-Texte und Umlaute gemäß ISO 8859 zu erzeugen (kein Unicode!). Zum Speichern des Konfigurationsfiles stehen im internen EEPROM des Mikrocontrollers maximal 256 Byte zur Verfügung.
 
 Um ein irrtümliches Beschreiben zu Verhindern, muß vor dem Download eine Initialisierungssequenz geschickt werden. Dazu wird das Hacklace durch Senden eines Escape-Zeichens (chr(27)) zunächst zurückgesetzt. Um die Programmierung freizuschalten, müssen danach die beiden Großbuchstaben 'H' und 'L' folgen. Nun kannst du das Textfile senden. Nach dem Download empfiehlt es sich, nochmals ein Escape-Zeichen zu senden, damit das Hacklace verriegelt und gegen zufälliges Beschreiben geschützt wird.
 
