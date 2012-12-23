@@ -147,7 +147,7 @@ Wände sind gekennzeichnet mit Buchstaben A-M
 !colspan=2|Kabelkanal-Planung
 |-
 |01
-|Sicherungskasten->Decke (2,50m)
+|Sicherungskasten->Decke (2,10m)
 |-
 |02
 |Kabelkanal C-Wand (4,60m)
@@ -167,8 +167,11 @@ Wände sind gekennzeichnet mit Buchstaben A-M
 |07
 |Kabelkanal J-Wand (5,00m)
 |-
+|08
+|Kabelkanal Decke->A-Wand (3,00m)
+|-
 |ges.
-|24,8 Meter
+|27,8 Meter
 |}
 
 {| class="wikitable"  valign = "top"
