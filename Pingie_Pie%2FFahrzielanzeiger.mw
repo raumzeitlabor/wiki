@@ -1,0 +1,13 @@
+Insgesamt 4 Module mit einer Gesamtauflösung von 64x32 Pixeln, jedes Modul besitzt 8 kleinere Module (angeordnet in einer 2x4 Matrix), jedes kleinere Modul hat 8x8 LEDs. Die Beschaltung auf der Rückseite ist auch insgesamt 8x vorhanden.
+
+Folgende ICs sind zu erkennen:
+
+* 74HC4094 Schieberegister (2 Stück pro kleinem Modul)
+* 74HC244D Octal buffer/line driver; 3-state
+* 74HC02D Quad 2-input NOR Gate
+* 74HC164D Schieberegister
+* NE555 mit angrenzendem Poti (vermutlich Helligkeit?)
+
+Pro großen Modul sind 2 20-polige Wannenstecker verbaut, vermutlich Daisy Chain.
+
+Die Stromversorgung geschieht über große Montageabstandshalter (VCC, VBB, GND).
