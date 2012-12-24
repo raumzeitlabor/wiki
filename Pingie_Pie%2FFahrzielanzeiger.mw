@@ -1,3 +1,17 @@
+{{ProjektInfoBox
+|name        = Pingie Pie Nachwuchs
+|status      = experimental
+|image       = 
+|description = Reverse Engineering des Fahrzielanzeigers
+|author      = 
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
 Insgesamt 4 Module mit einer Gesamtauflösung von 64x32 Pixeln, jedes Modul besitzt 8 kleinere Module (angeordnet in einer 2x4 Matrix), jedes kleinere Modul hat 8x8 LEDs. Die Beschaltung auf der Rückseite ist auch insgesamt 8x vorhanden.
 
 Folgende ICs sind zu erkennen:
@@ -20,3 +34,7 @@ Die Stromversorgung geschieht über große Montageabstandshalter (VCC, VBB, GND)
 * 16* FZT751, 16 Zeilen = Könnten Zeilentreiber sein
 * ein 74HC4094 ist das Schieberegister für die Zeilen, der andere für die Spalten
 * Über die Datenleitungen könnten 8 oder 16 Schieberegister parallel gefüttert und mit einem gemeinsamen Takt geschoben werden. Damit reduziert man effektiv die benötigte Datenrate.
+
+= Einsatzzweck =
+
+Man könnte 2 Module aneinanderbauen, um somit zwei 16x64 Module zu erhalten.
