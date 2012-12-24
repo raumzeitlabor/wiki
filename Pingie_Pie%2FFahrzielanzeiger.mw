@@ -7,6 +7,9 @@ Folgende ICs sind zu erkennen:
 * 74HC02D Quad 2-input NOR Gate
 * 74HC164D Schieberegister
 * NE555 mit angrenzendem Poti (vermutlich Helligkeit?)
+* 16x FZT751 PNP Transistor
+* 16x BC847C NPN Transistor (pro kleinem Modul
+* 16x BFG310 oder BAV99 (Marking A7p nicht eindeutig)
 
 Pro großen Modul sind 2 20-polige Wannenstecker verbaut, vermutlich Daisy Chain.
 
