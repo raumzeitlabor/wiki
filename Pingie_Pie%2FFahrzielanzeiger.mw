@@ -14,3 +14,9 @@ Folgende ICs sind zu erkennen:
 Pro großen Modul sind 2 20-polige Wannenstecker verbaut, vermutlich Daisy Chain.
 
 Die Stromversorgung geschieht über große Montageabstandshalter (VCC, VBB, GND).
+
+= Theorien =
+
+* 16* FZT751, 16 Zeilen = Könnten Zeilentreiber sein
+* ein 74HC4094 ist das Schieberegister für die Zeilen, der andere für die Spalten
+* Über die Datenleitungen könnten 8 oder 16 Schieberegister parallel gefüttert und mit einem gemeinsamen Takt geschoben werden. Damit reduziert man effektiv die benötigte Datenrate.
