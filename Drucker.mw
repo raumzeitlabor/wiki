@@ -14,6 +14,8 @@
 </div>
 
 =Labeldrucker=
+'''BETA''': Die Labeldrucker sind über die Brother P-Touch Software ansprechbar, erreichbar über VNC auf 172.22.36.222 (Passwort "label").
+
 == Brother P-touch QL-500 ==
 [[Datei:Labeldrucker QL500.JPG|left|150px]]
 {|
