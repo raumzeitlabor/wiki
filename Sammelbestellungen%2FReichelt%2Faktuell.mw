@@ -11,6 +11,23 @@ RAD 1/100;10
 LUFTVERTEILER 1;2
 </pre>
 
+Stocklevel-Abgleich PartKeepr:
+
+<pre>
+LED 5-05000 WS;10
+METALL 100;100
+METALL 10;100
+METALL 150;100
+METALL 220;100
+METALL 470;100
+KERKO 27P;50
+RAD 470/25;10
+RF 1-100;1
+WSL 6G;10
+GS 28P-S;10
+FLINK 0,2A;10
+</pre>
+
 == Felicitus braucht ==
 
 <pre>
