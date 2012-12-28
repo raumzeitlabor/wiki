@@ -17,9 +17,9 @@
 
 Hacklace - A Necklace for Hackers
 
-* Ein passendes Accessoire zur Adventszeit für Nerds, Geeks und Hacker? Wir haben es jetzt schon.
-* Du suchst nach einem unkonventionellen Weihnachtsgeschenk mit individueller Botschaft? Dann ist Hacklace vielleicht die Lösung.
-* Du willst auch ganzjährig auf Partys und in Clubs ein leuchtendes Zeichen setzen? Hacklace ist immer ein Blickfang, mit dem du dich abhebst und deine Leidenschaft für Technik dokumentierst. 
+* Ein passendes Accessoire für Nerds, Geeks und Hacker? Wir haben es.
+* Du suchst nach einem unkonventionellen Geschenk mit individueller Botschaft? Dann ist Hacklace vielleicht die Lösung.
+* Du willst auf Partys und in Clubs ein leuchtendes Zeichen setzen? Hacklace ist immer ein Blickfang, mit dem du dich abhebst und deine Leidenschaft für Technik dokumentierst. 
 
 Beim Hacklace handelt es sich um ein 5 x 7 Dot-Matrix-Led-Display, welches wie eine Halskette getragen werden kann. Auf dem Display lassen sich beliebige Textnachrichten oder Animationen darstellen.
 
@@ -272,18 +272,8 @@ Um das Hacklace am Gürtel zu tragen, bieten wir für 5,- € einen Batteriehalt
 === USB auf TTL Adapter ===
 Das Hacklace bietet eine serielle Schnittstelle zum aufspielen eigener Animationen. Einen USB auf TTL Adapter kannst du für 5€ bei [[Benutzer:Fabster|Fabster]] oder [[Benutzer:muzy|muzy]] kaufen. Dieser Adapter unterstützt sowohl 3,3V als auch 5V und ist somit universell einsetzbar: z.B. um auf die Rescue-Konsole von Routern zu kommen.
 
-=== Refinanzierung ===
-Die Progressbar zeigt die aktuelle Refinanzierung des Projektes an. Sobald die volle Summe erreicht ist, sind die restlichen Einnahmen Spende an das RaumZeitLabor.
 
-{{ProgressBar|424
-| text = Aktueller Refinanzierungsstatus
-| total = 1032
-| center = false
-| height = 5
-}}
-
-
-== Bausatz-Weiterverkauf ==
+== Geld verdienen mit dem Hacklace ==
 Dein Hackerspace ist begeistert vom Hacklace? Du möchtest einen Hacklace-Workshop in deinem Hackerspace anbieten? Bestelle bei uns ([[Benutzer:Fabster|Fabster]] oder [[Benutzer:muzy|muzy]]) einfach die benötigte Anzahl von Bausätzen.
 Damit deinem Hackerspace das ganze auch zu gute kommt, gibt es einen Rabatt bei größeren Mengen.
 
@@ -303,6 +293,36 @@ Damit deinem Hackerspace das ganze auch zu gute kommt, gibt es einen Rabatt bei 
 |align="right"|  ab 50 Stück	 
 |8,00 pro Bausatz
 |}
+
+
+== Refinanzierung ==
+Die Progressbar zeigt die aktuelle Refinanzierung des Projektes an. Sobald die volle Summe erreicht ist, sind die restlichen Einnahmen Spende an das RaumZeitLabor.
+
+{{ProgressBar|424
+| text = Aktueller Refinanzierungsstatus
+| total = 1032
+| center = false
+| height = 5
+}}
+
+
+== Probleme & Lösungen ==
+
+=== Serielles Interface ===
+
+Sollte bei dir die Kommunikation über das serielle Interface nicht richtig funktionieren, kann dies an einer zu großen Abweichung des Prozessortakts liegen. Der Mikrocontroller wird über den internen RC-Oszillator betrieben, von dem auch der Takt für die serielle Kommunikation abgeleitet wird. Nun sind RC-Oszillatoren leider nicht so präzise wie ein Quarz. Fertigungsbedingte Abweichungen in der Frequenz von bis zu 10 Prozent sind möglich. Ist die Abweichung zu groß, stimmt die Baudrate für die serielle Schnittstelle nicht mehr genau und die Kommunikation schlägt fehl.
+
+Wie groß die Abweichung des Prozessortakts vom Nominalwert (4 MHz) ist, läßt sich ermitteln, indem man den Spaltentakt der Anzeige mißt. Dazu wird mit einem Oszilloskop oder einem Frequenzzähler der Abstand der Pulse (steigende Flanke zu steigender Flanke) an einem der Column-Anschlüsse (z. B. an Pin 18 = column 4) gemessen. Theoretisch sollte alle 5 Millisekunden ein Puls erzeugt werden (Bei einer älteren Software-Version alle 6 Millisekunden). Wenn man die theoretische Zeit durch den gemessenen Wert dividiert, erhält man einen Korrekturfaktor.
+
+Diesen Korrekturfaktor kann man als SER_CLK_CORRECTION im File "config.h" eintragen. Nach dem Neucompilieren des Projekts und dem Flashen des Controllers, wird die serielle Schnittstelle nun mit einer ausreichend exakten Baudrate betrieben, so daß die Kommunikation einwandfrei funktioniert.
+
+
+=== Elektrostatische Ladungen ===
+
+[[Datei:Hacklace_ESD_Kondensator.jpg|thumb|right|150px|Kondensator zwischen den Kontakten des Tasters]][[Datei:Hacklace_ESD_Kondensator2.jpg|thumb|right|150px|Kondensator zwischen Reset und GND]]
+Das Hacklace hat kein Gehäuse, das es gegen Umwelteinflüsse abschirmt. Wenn es mit metallischen oder sonstwie leitenden Gegenständen in Berührung kommt, kann es passieren, daß Kontakte zufällig überbrückt werden. Ebenso ist es möglich, daß sich durch Bewegung und Reibung mit der Kleidung elektrostatische Ladungen aufbauen. Hierdurch ist es in seltenen Fällen möglich, daß sich das Hacklace unbeabsichtigt ein- bzw. ausschaltet.
+
+Als erste Gegenmaßnahme sollte man metallische Gegenstände vom Hacklace fernhalten. Gegen elektrostatische Ladungen kann es helfen, einen kleinen Kondensator (z. B. 10 nF) zwischen den jeweiligen Pin und Masse (GND) zu schalten. Zwischen die Kontakte des Tasters paßt ein SMD-Kondensator der Bauform 1206. Für das Resetsignal wird ein SMD-Kondensator der Bauform 0805 zwischen Pin 5 und Pin 6 des ISP-Steckers gelötet.
 
 
 == Fragen, Ideen etc. ==
