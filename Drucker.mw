@@ -1,6 +1,6 @@
 =Allgemeines=
 
-'''Einige Drucker sind über den CUPS auf [[Mate (Server)/Infra]] geshared.'''
+'''Einige Drucker sind über den CUPS auf [[Mate (Server)/Infra]] geshared. Dies klappt aber leider derzeit nicht so wirklich gut, wer avahi/Zeroconf-wissen hat, bitte [[Benutzer:Felicitus|Felicitus]] ansprechen.'''
 
 <div class="toccolours mw-collapsible mw-collapsed">
 '''Anleitung für deine lokale CUPS-Installation'''
