@@ -312,10 +312,9 @@ Die Progressbar zeigt die aktuelle Refinanzierung des Projektes an. Sobald die v
 
 Sollte bei dir die Kommunikation über das serielle Interface nicht richtig funktionieren, kann dies an einer zu großen Abweichung des Prozessortakts liegen. Der Mikrocontroller wird über den internen RC-Oszillator betrieben, von dem auch der Takt für die serielle Kommunikation abgeleitet wird. Nun sind RC-Oszillatoren leider nicht so präzise wie ein Quarz. Fertigungsbedingte Abweichungen in der Frequenz von bis zu 10 Prozent sind möglich. Ist die Abweichung zu groß, stimmt die Baudrate für die serielle Schnittstelle nicht mehr genau und die Kommunikation schlägt fehl.
 
-Wie groß die Abweichung des Prozessortakts vom Nominalwert (4 MHz) ist, läßt sich ermitteln, indem man den Spaltentakt der Anzeige mißt. Dazu wird mit einem Oszilloskop oder einem Frequenzzähler der Abstand der Pulse (steigende Flanke zu steigender Flanke) an einem der Column-Anschlüsse (z. B. an Pin 18 = column 4) gemessen. Theoretisch sollte alle 5 Millisekunden ein Puls erzeugt werden (Bei einer älteren Software-Version alle 6 Millisekunden). Wenn man die theoretische Zeit durch den gemessenen Wert dividiert, erhält man einen Korrekturfaktor.
+Wie groß die Abweichung des Prozessortakts vom Nominalwert (4 MHz) ist, läßt sich ermitteln, indem man den Spaltentakt der Anzeige mißt. Dazu wird mit einem Oszilloskop oder einem Frequenzzähler der Abstand der Pulse (steigende Flanke zu steigender Flanke) an einem der Column-Anschlüsse (z. B. an Pin 18 = column 4) gemessen. Theoretisch sollte alle 5 Millisekunden (=200Hz) ein Puls erzeugt werden (Bei einer älteren Software-Version alle 6 Millisekunden). Wenn man die theoretische Zeit durch den gemessenen Wert dividiert, erhält man einen Korrekturfaktor.
 
 Diesen Korrekturfaktor kann man als SER_CLK_CORRECTION im File "config.h" eintragen. Nach dem Neucompilieren des Projekts und dem Flashen des Controllers, wird die serielle Schnittstelle nun mit einer ausreichend exakten Baudrate betrieben, so daß die Kommunikation einwandfrei funktioniert.
-
 
 === Elektrostatische Ladungen ===
 
