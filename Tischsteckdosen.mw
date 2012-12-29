@@ -64,7 +64,7 @@ Gegen eine Direktverkabelung mit den Netzwerkdosen im Kabelkanal vor den Heizung
 * Kabel werden vergessen und fliegen in der Gegend rum, Leute treten drauf -> Kabel kabudd
 
 === Idee 1 ===
-* Jeder der 6 Tische muß trennbar sein. Verbindung könnte via Neutrik Ethercon (http://www.neutrik.com/de/ethercon/) passieren
+* Jeder der 6 Tische muß trennbar sein. Verbindung könnte via [http://www.neutrik.com/de/ethercon/ Neutrik Ethercon] passieren
 * Ein Tisch bekommt einen 8-Port Switch untermontiert
 * Jeder Tisch bekommt einen versenkten Ethernet-Port
 * Sollten mehrere Teilnehmer an einem Tisch Ethernet benötigen, kann man noch einen zweiten 8-Port Switch auf den Tisch stellen
