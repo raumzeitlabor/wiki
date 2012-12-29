@@ -71,4 +71,28 @@ Gegen eine Direktverkabelung mit den Netzwerkdosen im Kabelkanal vor den Heizung
 
 Gesamtkosten nach obigem Plan: 78€ für die Neutrik-Verbinder und 20 Euro für den 8-Port Gigabit Switch, sowie ein paar Meter Netzwerkkabel und 6x Unterputz-Dosen (2,95€ bei Reichelt)
 
+==== Vorteile ====
+
+* Gute Steckertechnik, solide (auch wenn die Tische nur ein paarmal pro Jahr auseinandergebaut werden)
+
+==== Nachteile ====
+
+* Nur ein Netzwerkport pro Tisch, mehr nur über Miniswitch
+* Mehr als 10 Euro pro Port
+
+=== Idee 2 ===
+
+In 3 der 6 Tische kommen 8-Port Mini-Patch-Panel (Cat5, ca. 10 Euro pro Stück), die Kabel werden in einen 24-Port-Switch, der unter dem Tisch montiert wird, gesteckt. Der Switch wird über einen Schalter an der Tisch-Oberseite ein- oder ausgeschalten (Stromsparen und so). Die Kabel werden von jedem Tisch zum Switch gezogen.
+
+Kostenpunkt: 30 Euro pro Mini-Patch-Panel, paar Euro für Kabel, 24-Port Switch mit 2x SFP für Uplink ca. 120 Euro (gibt's auch in Lüfterlos), plus einen 1000Base-T SFP für den Switch-Uplink für 20€
+
+==== Vorteile ====
+* 4 Ports pro Tisch
+* Keine separaten Dosen benötigt
+
+==== Nachteile ====
+* Mehr Aufwand beim Auseinanderbauen der Tische, da Kabel abgestöpselt und aufgerollt werden müssen
+* Großer Switch = Mehr Stromverbrauch, ob manuelle Abschaltung wirklich so gut klappt ist fraglich
+* Teurer als Idee 1, aber günstiger pro Port
+
 [[Kategorie:Projekt]]
