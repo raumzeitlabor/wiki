@@ -50,4 +50,25 @@ Die Isolationswiderstände dieser Tische sind gemessen und OK. Viel Spaß bei de
 == Gedanken von hax404 ==
 [[Datei:Tischsteckdosenentwurf-vorne.png|300px]]
 
+== Netzwerk ==
+
+Es kam der Wunsch auf, auch Netzwerk in den Tischen zu haben. Gründe:
+
+* Jemand möchte Daten vom/aufs Datengrab kopieren
+* Jemand besitzt Geräte, die kein WLAN können (Raspberry Pi)
+
+Gegen eine Direktverkabelung mit den Netzwerkdosen im Kabelkanal vor den Heizungen spricht:
+
+* Extreme Stolpergefahr
+* Netzwerkdosen meist schon belegt
+* Kabel werden vergessen und fliegen in der Gegend rum, Leute treten drauf -> Kabel kabudd
+
+=== Idee 1 ===
+* Jeder der 6 Tische muß trennbar sein. Verbindung könnte via Neutrik Ethercon (http://www.neutrik.com/de/ethercon/) passieren
+* Ein Tisch bekommt einen 8-Port Switch untermontiert
+* Jeder Tisch bekommt einen versenkten Ethernet-Port
+* Sollten mehrere Teilnehmer an einem Tisch Ethernet benötigen, kann man noch einen zweiten 8-Port Switch auf den Tisch stellen
+
+Gesamtkosten nach obigem Plan: 78€ für die Neutrik-Verbinder und 20 Euro für den 8-Port Gigabit Switch, sowie ein paar Meter Netzwerkkabel und 6x Unterputz-Dosen (2,95€ bei Reichelt)
+
 [[Kategorie:Projekt]]
