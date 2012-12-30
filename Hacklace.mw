@@ -316,6 +316,8 @@ Wie groß die Abweichung des Prozessortakts vom Nominalwert (4 MHz) ist, läßt 
 
 Diesen Korrekturfaktor kann man als SER_CLK_CORRECTION im File "config.h" eintragen. Nach dem Neucompilieren des Projekts und dem Flashen des Controllers, wird die serielle Schnittstelle nun mit einer ausreichend exakten Baudrate betrieben, so daß die Kommunikation einwandfrei funktioniert.
 
+Wer über einen Programmer verfügt, mit dem sich der RC-Oszillator kalibrieren läßt, kann alternativ auch diesen Weg beschreiten und das OSCAL-Register mit einem passenden Wert laden. Den Korrekturfaktur SER_CLK_CORRECTION setzt man in diesem Fall auf 1.000.
+
 === Elektrostatische Ladungen ===
 
 [[Datei:Hacklace_ESD_Kondensator.jpg|thumb|right|150px|Kondensator zwischen den Kontakten des Tasters]][[Datei:Hacklace_ESD_Kondensator2.jpg|thumb|right|150px|Kondensator zwischen Reset und GND]]
