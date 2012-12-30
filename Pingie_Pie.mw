@@ -121,11 +121,22 @@ Die Implementation auf der Blackbox besteht aus 2 Programmen:
 * ???
 * Profit!
 
-== Aufbauorte ==
+== Pingie Pie Großoffensive ==
+=== Aufbauorte ===
 
 * Das große LCD-Display wandert über die Tafel
 * Das bisherige Pingie Pie wandert in die E-Ecke
 * Eine Hälfte des Fahrzielanzeigers kommt ins FabLab
 * Die andere Hälfte des Fahrzielanzeigers kommt in die Werkstatt
+
+=== Plugins ===
+
+* Die Anzeigen sollen Plugins unterstützen
+** Flederrattie wünscht sich eine Anzeige, wie lange es bis zum nächsten Chaos-Event dauert
+** Zeitanzeige
+** Lustige Sprüche
+** Anzeige des Chats
+** Zufällige Quotes der RZL-ML
+** Esst mehr Eis/Popcorn/Zuckerwatte und drinkt mehr Slush-Anzeigen (inkl. Alarm oder sowas)
 
 [[Kategorie:Projekt]]
