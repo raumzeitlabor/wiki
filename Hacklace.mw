@@ -294,18 +294,6 @@ Damit deinem Hackerspace das ganze auch zu gute kommt, gibt es einen Rabatt bei 
 |8,00 pro Bausatz
 |}
 
-
-== Refinanzierung ==
-Die Progressbar zeigt die aktuelle Refinanzierung des Projektes an. Sobald die volle Summe erreicht ist, sind die restlichen Einnahmen Spende an das RaumZeitLabor.
-
-{{ProgressBar|424
-| text = Aktueller Refinanzierungsstatus
-| total = 1032
-| center = false
-| height = 5
-}}
-
-
 == Probleme & Lösungen ==
 
 === Serielles Interface ===
