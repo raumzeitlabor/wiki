@@ -55,6 +55,27 @@ Eine Lichtsteuerung für Haupt- und Nebenraum sollte für unter 500€ machbar s
 * DC-DC-Wandler von 24V auf 5V für das ControllerBoard, ca. 5 Euro
 * Einen µC, ein bisschen Holz für das Lichttableau, ein paar LEDs und Relaistreiber (z.B. ULN 2803A, UDN2981 )
 
+
+{| class="wikitable"
+|-----
+! Pos || Bezeichnung || Anmerkungen || Stück || E-Preis || G-Preis
+|-
+| 1 || G2R-1-SNI 12V DC || Relais || 23 (Hauptraum) + 6 (Nebenraum) = 29 || 3,50€ || 101,5€
+|-
+| 2 || P2RF-05-E || Relaissockel || 29 || 2,20€ || 63 €
+|-
+| 3 || Hensel KV 9440 || Gehäuse || 2 || 108€ || 216 €
+|-
+| 4 || Netzteil 24V || für Hutschine || 2 || 20€ || 40€
+|-
+| 5 || DC-DC-Wandler 24V -> 5V || || 2 || 5€ || 10€
+|-
+| 6 || Koppelrelais || für Lichtschalter || 12 || 5,5€ || 66€
+|-
+| 7 || Bauelemente || ICs, Platinenmaterial, Schieberegister, Relaistreiber || 1 || 40€ || 40€
+|-
+!colspan=5 |Gesamt|| 536,50€
+
 == Controllerboard ==
 
 * Atmel-Irgendwas auf Platine mit Relaistreibern und Verbindung zum Lichttableau (DaFo schlägt DMX vor wegen Leitungslänge und co).
