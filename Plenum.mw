@@ -61,7 +61,7 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 : Nach den eher ernüchternden Erfahrungen mit Plastik-WLAN-APs schlage ich vor, einen Enterprise AP (Ubiquiti UniFi Enterprise UAP) für den Nebenraum anzuschaffen. Der Shack hat sehr gute Erfahrungen damit gemacht, vor allem, weil das System gut skaliert und die Managementsoftware kostenlos ist. 2,4GHz mit 300mbps max kostet 80 Euro, Mixed Mode 2,4Ghz+5Ghz (300/450mbps) kostet 200 Euro. Der 3er Pack 2.4GHz kostet 134 Euro aus Polen + Versand 11 Euro. [http://dl.ubnt.com/datasheets/unifi/UniFi_AP_Datasheet.pdf Datenblatt] [http://wiki.ubnt.com/UniFi UniFi Software, auch für Debian] --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 17:08, 4. Jan. 2013 (CET)
 
 ; Netzwerk in den Tischen
-: Wir hatten in $irgendeinem Plenum mal drüber gesprochen, ich würde das gerne umsetzen. Es gibt dazu 3 Ideen, wovon ich mittlerweile die 3. Idee bevorzuge. Ich stelle alle 3 Varianten vor und möchte wissen, ob wir das umsetzen wollen. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 23:18, 4. Jan. 2013 (CET)
+: Wir hatten in $irgendeinem Plenum mal drüber gesprochen, ich würde das gerne umsetzen. Es gibt dazu 3 Ideen, wovon ich mittlerweile die 3. Idee bevorzuge. Ich stelle alle 3 Varianten vor und möchte wissen, ob wir das umsetzen wollen. Im gleichen Zuge bitte ich um Mittel für den Kauf von 30 Patchkabeln (30cm) für den Nebenraum sowie diverse andere Längen, je nachdem, ob wir uns für eine Netzwerk-Tischvariante entscheiden --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 23:18, 4. Jan. 2013 (CET)
 
 ;Weltherrschaft
 :Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
