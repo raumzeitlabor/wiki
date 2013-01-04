@@ -253,49 +253,49 @@ Wände sind gekennzeichnet mit Buchstaben A-M
 !colspan=2|Phasen-Planung
 |-
 |L01
-|Werkstatt Phase 1
+|Werkstatt Phase 1 (links)
 |-
 |L02
-|Werkstatt Phase 2
+|Werkstatt Phase 2 (links)
 |-
 |L03
-|Werkstatt Phase 3
+|Werkstatt Phase 3 (links)
 |-
 |L04
-|Werkstatt Phase 4
+|Werkstatt Phase 4 (rechts)
 |-
 |L05
-|Werkstatt Phase 5
+|Werkstatt Phase 5 (rechts)
 |-
 |L06
-|Werkstatt Phase 6
+|Werkstatt Phase 6 (rechts)
 |-
 |L07
-|Fablab Phase 1
+|Werkstatt Phase 7 (16A CEE Dose)
 |-
 |L08
-|Fablab Phase 2
+|Fablab Phase 1
 |-
 |L09
-|Fablab Phase 3
+|Fablab Phase 2
 |-
 |L10
-|Workshopraum Phase 1
+|Fablab Phase 3
 |-
 |L11
-|Workshopraum Phase 2
+|Workshopraum Phase 1
 |-
 |L12
-|Licht Werkstatt
+|Workshopraum Phase 2
 |-
 |L13
-|Licht Fablab
+|Licht Werkstatt
 |-
 |L14
-|Licht Workshopraum
+|Licht Fablab
 |-
 |L15
-|Reserve
+|Licht Workshopraum
 |-
 |L16
 |Reserve
@@ -304,6 +304,9 @@ Wände sind gekennzeichnet mit Buchstaben A-M
 |Reserve
 |-
 |L18
+|Reserve
+|-
+|L19
 |Reserve
 |-
 |ges.
