@@ -95,4 +95,19 @@ Kostenpunkt: 30 Euro pro Mini-Patch-Panel, paar Euro für Kabel, 24-Port Switch 
 * Großer Switch = Mehr Stromverbrauch, ob manuelle Abschaltung wirklich so gut klappt ist fraglich
 * Teurer als Idee 1, aber günstiger pro Port
 
+=== Idee 3 ===
+
+* Eine Doppeldose pro Tisch
+* ganz normale Kabel werden durch Kabelkanäle gezogen und mit RJ45-Kupplungen verbunden werden (Kosten: 1€ pro Stück)
+* Ein zusätzlicher 8-Port-Switch, um Portengpässe zu vermeiden
+* Ein 16-Port-Switch unter den Tisch
+* Gesmatkosten um die 120€
+
+==== Vorteile ====
+* 2 Ports pro Tisch
+* Mehr Ports über Miniswitch, der weggeräumt werden kann
+==== Nachteile ====
+
+* Weniger Ports als Idee 2
+* Kabel müssen sauber vor dem Auseinanderbauen getrennt werden
 [[Kategorie:Projekt]]
