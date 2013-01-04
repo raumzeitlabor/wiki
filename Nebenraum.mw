@@ -249,6 +249,67 @@ Wände sind gekennzeichnet mit Buchstaben A-M
 !110.1m
 |}
 
+{| class="wikitable"  valign = "top"
+!colspan=2|Phasen-Planung
+|-
+|L01
+|Werkstatt Phase 1
+|-
+|L02
+|Werkstatt Phase 2
+|-
+|L03
+|Werkstatt Phase 3
+|-
+|L04
+|Werkstatt Phase 4
+|-
+|L05
+|Werkstatt Phase 5
+|-
+|L06
+|Werkstatt Phase 6
+|-
+|L07
+|Fablab Phase 1
+|-
+|L08
+|Fablab Phase 2
+|-
+|L09
+|Fablab Phase 3
+|-
+|L10
+|Workshopraum Phase 1
+|-
+|L11
+|Workshopraum Phase 2
+|-
+|L12
+|Licht Werkstatt
+|-
+|L13
+|Licht Fablab
+|-
+|L14
+|Licht Workshopraum
+|-
+|L15
+|Reserve
+|-
+|L16
+|Reserve
+|-
+|L17
+|Reserve
+|-
+|L18
+|Reserve
+|-
+|ges.
+|29,1 Meter
+|}
+
 * Vorhanden:
 ** Kabelkanal: 6*2m NEU + diverse Reste
 ** Steckdosen: 21 Stück OPUS Schuko (560.430.02)
