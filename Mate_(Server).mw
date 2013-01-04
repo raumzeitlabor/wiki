@@ -116,6 +116,7 @@ Um eine VM zu monitoren:
 * Backups einrichten
 * USB-Hub überprüfen, der erscheint nicht bei lsusb
 * Automatisches Discovery von VMs in Zabbix?
+* Die 5. Platte hängt recht unbefestigt in Mate, ein Rahmen wie z.b. Akasa AK-HDA05 für 10 Euro muß angeschafft werden
 
 == Unterseiten ==
 <splist />
