@@ -139,10 +139,12 @@ Siehe auch: [[Lichtsteuerung]]
 
 === Strom ===
 
+==== Übersichtsplan ====
 [[Datei:Nebenraum_-_Elektro.png|600px]]
 
 Wände sind gekennzeichnet mit Buchstaben A-M
 
+==== Kabelkanalplanung ====
 {| class="wikitable"  valign = "top"
 !colspan=2|Kabelkanal-Planung
 |-
@@ -177,6 +179,7 @@ Wände sind gekennzeichnet mit Buchstaben A-M
 |29,1 Meter
 |}
 
+==== Kabellaufplan ====
 {| class="wikitable"  valign = "top"
 !colspan=2|Kabellaufplan||3x 1,5mm²||5x 1,5mm²
 |-
@@ -249,6 +252,7 @@ Wände sind gekennzeichnet mit Buchstaben A-M
 !110.1m
 |}
 
+==== Phasenplanung ====
 {| class="wikitable"  valign = "top"
 !colspan=2|Phasen-Planung
 |-
@@ -313,6 +317,7 @@ Wände sind gekennzeichnet mit Buchstaben A-M
 |29,1 Meter
 |}
 
+==== Bestellplanung ====
 * Vorhanden:
 ** Kabelkanal: 6*2m NEU + diverse Reste
 ** Steckdosen: 21 Stück OPUS Schuko (560.430.02)
