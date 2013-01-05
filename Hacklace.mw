@@ -81,6 +81,8 @@ Es gibt aufgrund der Hardwareverfügbarkeit 3 verschiedene Displaytypen in den B
 Das Display muss je nach Typ anders eingesetzt werden. Dies ist auch ein Konfigurationsparameter in der Firmware.
 
 # HDSP-5403 hp 008 L3 - Der schwarze Punkt an der Seite des Displays muss diagonal zum PIN 1 (viereckiges Pad) liegen. Von oben betrachtet wäre das die rechte untere Ecke.
+# TC07/TA07 - Bitte das Display wie gewohnt einsetzen. PIN1 des Prozessors (viereckiges Pad) an PIN 1 des Displays. Je nach Displaytyp (TC vs. TA) muss die passende Firmware genutzt werden.
+# LM57 - wie TC07 Display.
 
 ====Anleitung====
 Zur Erläuterung: Die Platinenoberseite ist die Seite ohne Leiterbahnen bzw. ohne Aufdruck. Diese Seite ist die sichtbare Vorderseite. Auf der Rückseite befinden sich die Kupferbahnen und bei der professionellen Platine der weiße Bestückungsdruck. Dies ist die Lötseite.
