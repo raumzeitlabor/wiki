@@ -316,6 +316,9 @@ Das Hacklace hat kein Gehäuse, das es gegen Umwelteinflüsse abschirmt. Wenn es
 
 Als erste Gegenmaßnahme sollte man metallische Gegenstände vom Hacklace fernhalten. Gegen elektrostatische Ladungen kann es helfen, einen kleinen Kondensator (z. B. 10 nF) zwischen den jeweiligen Pin und Masse (GND) zu schalten. Zwischen die Kontakte des Tasters paßt ein SMD-Kondensator der Bauform 1206. Für das Resetsignal wird ein SMD-Kondensator der Bauform 0805 zwischen Pin 5 und Pin 6 des ISP-Steckers gelötet.
 
+=== Zeilenumbrüche im Konfigurationsfile ===
+
+In einer früheren Firmware-Version konnte als Zeilenumbruch nur entweder <CR> (carriage return = chr(13)) oder <LF> (line feed = chr(10)) verwendet werden. Insbesondere unter Windows werden Zeilenumbrüche jedoch durch <CRLF>, also zwei Zeichen, repräsentiert. Dies führte dazu, daß nach Übertragung des Konfigurationsfiles nur die erste Message erreichbar war. Alle anderen wurden ignoriert. Mit der aktuellen Firmware können alle drei Varianten für einen Zeilenumbruch genutzt werden.
 
 == Fragen, Ideen etc. ==
 Diese Wikiseite dient dazu, die Fakten zum Hacklace zu präsentieren. Hier findest du Informationen über alles, was bereits realisiert worden ist. Für Dinge, die noch offen sind oder in der Zukunt liegen, wie z. B. Fragen, Ideen, Kommentare, Vorschläge, Wünsche steht dir die [[Diskussion:Hacklace|Diskussionsseite]] zur Verfügung. Dort kann alles eingetragen und besprochen werden, was noch nicht umgesetzt wurde.
