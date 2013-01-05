@@ -146,7 +146,7 @@ Das Textfile zur Konfiguration enthält deine eigenen Texte und Animationen. Es 
 Um ein irrtümliches Beschreiben zu Verhindern, muß vor dem Download eine Initialisierungssequenz geschickt werden. Dazu wird das Hacklace durch Senden eines Escape-Zeichens (chr(27)) zunächst zurückgesetzt. Um die Programmierung freizuschalten, müssen danach die beiden Großbuchstaben 'H' und 'L' folgen. Nun kannst du das Textfile senden. Nach dem Download empfiehlt es sich, nochmals ein Escape-Zeichen zu senden, damit das Hacklace verriegelt und gegen zufälliges Beschreiben geschützt wird.
 
 ===Format des Konfigurationsfiles===
-Eine Message ist entweder ein Text oder eine Animation. Die Messages können durch Tastendruck auf dem Hacklace weitergeschaltet werden. Jede Zeile des Konfigurationsfiles enthält genau eine Message. Eine Message beginnt immer mit einem Modus-Byte, danach folgt der Text bzw. die Daten der Animation und schließlich ein Zeilenumbruch. Ein Modus-Byte von 0 zeigt das Ende der Messageliste an.
+Eine Message ist entweder ein Text oder eine Animation. Die Messages können durch Tastendruck auf dem Hacklace weitergeschaltet werden. Jede Zeile des Konfigurationsfiles enthält genau eine Message. Eine Message beginnt immer mit einem Modus-Byte, danach folgt der Text bzw. die Daten der Animation und schließlich ein Zeilenumbruch. Ein Modus-Byte von 0 zeigt das Ende der Messageliste an. Das Modus-Byte muß als Hex-Byte übertragen werden (z. B. "$45,").
 
 Das Modus-Byte hat folgenden Aufbau:
 * Bit 7 gibt an, ob nur vorwärts (= 0) oder vor und zurück (= 1) gescrollt werden soll.
