@@ -26,6 +26,7 @@
 ** Ein Lichtkreis an der Decke bezeichnet eine 2-flammige Lampe (derzeit nur ein Leuchtmittel eingesetzt), ansonsten 1-flammig.
 ** Jede Deckenlampe lässt sich laut dem Lichtkreisplan schalten. Die Deckenleuchten (Lichtkreise 1-16) sind derzeit auf 3 Sektionen (Tafel, Beamer, Lager) zusammengeschlossen.
 ** Mehr Granularität -> bessere Anpassung an den jeweiligen Bedarf -> niedrigerer Stromverbrauch.
+* Im Nebenraum gibt es 3 Lichtkreise, einen pro Raum
 * Eine Deckenröhre benötigt 58 Watt. Das bedeutet 348 Watt für die Tafel- und Beamerwandsektion und 232 Watt für das Lager. In der Küche sind 2x36 Watt-Leuchten verbaut, in der E-Ecke/Ä-Ecke sind es wieder 58 Watt.
 * Nebenraum bisher unbekannt.
 * Alle Lichter sollen im Haupt+Nebenraum ausgeschalten werden können, wenn der letzte geht.
