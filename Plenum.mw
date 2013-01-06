@@ -10,6 +10,7 @@
 |time        = 
 |preis       = 
 }}
+
 ==Review & Preview==
 ===Nerviges===
 *Was mir aufgefallen ist, was herrenlos rumsteht
@@ -29,29 +30,6 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 
 ; Beschlüsse des letzten Plenums
 :Realitätsabgleich
-:Wurde ein Sparkonto bei der Sparkasse für Rücklagen eingerichtet?-[[Benutzer:Inte|Inte]] ([[Benutzer Diskussion:Inte|Diskussion]]) 11:20, 6. Jan. 2013 (CET)
-; Stimmrecht im Plenum
-:Ich glaube es besteht immer noch Irritation darüber ob Nichtmitglieder beim Plenum Stimmrecht haben, oder nicht. Lasst uns das einmal klären. --[[Benutzer:Blabber|Blabber]] ([[Benutzer Diskussion:Blabber|Diskussion]]) 14:07, 12. Dez. 2012 (CET)
-
-; Jail Umzug
-: Das Jail muss umgezogen werden. Entweder weiterhin bei der UUGRN (dann intern Umziehen) oder extern, dafür hätten wir gerne dafür eine VM für 10€ im Monat. Das UUGRN Jail hat einige Eigenheiten (BSD allgemein, Mail proxy und co) die wir gerne vermeiden würden. --[[Benutzer:Nicoduck|Nicoduck]] ([[Benutzer Diskussion:Nicoduck|Diskussion]]) 17:40, 13. Dez. 2012 (CET)
-
-; Tunneln über Schweden
-:  [[20121007_-_Plenum#Lizensierte_Auff.C3.BChrungen_von_Filmen_und_Serien|Letztens™]] wurde beschlossen, dass der Verein bereit ist, für ein schwedisches VPN zu zahlen. Da jetzt nicht ganz klar ist, ob das auch bedeutet, dass es umgesetzt werden muss (und das Netzwerk-Team sich aufgrund der alten, langsamen Internetverbindung eh [[20121104_-_Plenum#Beschl.C3.BCsse_des_letzten_Plenums|gegen einen möglichen Beschluss entschieden hat]]), möchte ich dass nun noch mal endgültig darüber abgestimmt wird, ob das RaumZeitLabor seinen Traffic über Schweden tunneln soll. --[[Benutzer:Silsha|silsha]] ([[Benutzer Diskussion:Silsha|Diskussion]]) 13:09, 27. Dez. 2012 (CET)
-:: Dran denken: IPv6 wird von Ipredator (noch) nicht unterstützt. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 02:30, 6. Jan. 2013 (CET)
-:: Ich werde nicht am Plenum teilnehmen können, möchte mich aber dennoch hierzu kurz äußern. Ich sehe hierdrin zwei Probleme: a) der Tunnel wird wie ein Freifahrtschein für Leute wirken, die saugen wollen, sowie b) wir werden zwangsläufig unsere IPv6 Connectivity abschalten müssen.--[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 12:47, 6. Jan. 2013 (CET)
-
-; Netzwerk-Tunnel
-: Da es schon mehrfach Diskussionen über Infrastruktur gab, die über externe Leute läuft, wollte ich mal darüber diskutieren, ob wir überhaupt noch tunneln müssen/wollen (da dies afaik™ nur zum Schutz der famefabrik gemacht wurde) - was docsteel entlasten würde - und ob wir unsere externen IPs bzw IP-Netze auf das RaumZeitLabor e.V.  eintragen können, was in Abmahnungs- oder sonstigen Rechtsfällen von bedeutung ist/sein kann.  --[[Benutzer:Slowpoke|slowpoke]] ([[Benutzer Diskussion:Slowpoke|Diskussion]]) 21:48, 1. Jan. 2013 (CET)
-
-;Provision für eingeworbene Spenden
-: Im Austausch mit anderen Spaces weltweit ist uns dieses Modell aufgefallen. Die Idee ist, dass man Mitgliedern, die sich aktiv um Spenden bemühen eine kleine Provision zahlt. Das können zum Beispiel 5% der Spendensumme sein. Das Konzept und die Details kann man ja auf dem Plenum besprechen und überlegen ob wir das wollen. [[Benutzer:Unicorn|Unicorn]] ([[Benutzer Diskussion:Unicorn|Diskussion]])
-
-;Lichtsteuerung
-:Die [[Lichtsteuerung|Lichtsteuerungsplanung]] nimmt konkrete Formen an. Es muß beschlossen werden, ob eine Lichtsteuerung für Haupt- und Nebenraum finanziert werden soll. Derzeitige, vorsichtige Kostenschätzung beläuft sich auf 536€, um auf Nummer Sicher zu gehen, plane ich mit 600€. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 07:34, 2. Jan. 2013 (CET)
-
-;Schneidplotter
-:Wollen wir den Mercedes unter den Schneidplotter zum Preis eines Smarts kaufen? Es geht um 1400€ für einen Summa T1010SL. Weiterführende Details auf der ML.
 
 ; WLAN-AP Nebenraum
 : Nach den eher ernüchternden Erfahrungen mit Plastik-WLAN-APs und der Tatsache, daß wir für den Nebenraum sowieso einen AP brauchen, schlage ich vor, einen Enterprise AP (Ubiquiti UniFi Enterprise UAP) für den Nebenraum anzuschaffen. Der Shack hat sehr gute Erfahrungen damit gemacht, vor allem, weil das System gut skaliert und die Managementsoftware kostenlos ist. 2,4GHz mit 300mbps max kostet 80 Euro, Mixed Mode 2,4Ghz+5Ghz (300/450mbps) kostet 200 Euro. Der 3er Pack 2.4GHz kostet:
@@ -63,12 +41,8 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 ; Netzwerk in den Tischen
 : Wir hatten in $irgendeinem Plenum mal drüber gesprochen, ich würde das gerne umsetzen. Es gibt dazu [[Tischsteckdosen#Netzwerk|3 Ideen]], wovon ich mittlerweile die 3. Idee bevorzuge. Ich stelle alle 3 Varianten vor und möchte wissen, ob wir das umsetzen wollen. Im gleichen Zuge bitte ich um Mittel für den Kauf von 30 Patchkabeln (30cm) für den Nebenraum sowie diverse andere Längen, je nachdem, ob wir uns für eine Netzwerk-Tischvariante entscheiden. Wenn auf diesem Plenum dafür entschieden wird, können wir die entsprechenden Netzwerkdosen gleich mit dem Elektro-Foo für den Nebenraum mitbestellen. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 23:18, 4. Jan. 2013 (CET)
 
-;Rücklagen für eventuelle Abmahnungen. :Falls die Überschüsse aus 2012 größer sind als die bisher vereinbarten Rücklagen (3x Monatsmiete, 10% freie Rücklagen) und nicht alles für die Renovierung des Nebenraums drauf geht, würde ich diese gerne noch für unsere Absicherung zurücklegen.-[[Benutzer:Inte|Inte]] ([[Benutzer Diskussion:Inte|Diskussion]]) 11:20, 6. Jan. 2013 (CET)
 ;Weltherrschaft
 :Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
-
-; Oszilloskope in der E-Ecke
-: Wir haben 6 Oszilloskope in der E-Ecke. Nachdem ich welche abgebaut habe und die jetzt wieder zurueckgebaut sind, moegen wir doch bitte beschliessen den Scheiss wegzuraeumen. 2 Digitale und 2 Analoge sollten ja eigentlich reichen... --[[Benutzer:Echox|echox]]
 
 == Protokolle vergangener Plenen ==
 
