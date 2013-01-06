@@ -21,6 +21,13 @@
 == Ario ==
 * MPD-Client für die grafische Oberfläche
 
+= Backend =
+Als Backend läuft ein [https://github.com/raumzeitlabor/mpd modifizierter MPD]:
+
+* Der ''consume'' Mode ist per default aktiviert und kann auch nicht deaktiviert werden.
+* ''stop'' wird auf ''pause'' umgeleitet.
+* ''clear'' wird ignoriert. Der MPD sendet aber dennoch ein ACK zurück (es sieht so aus, als hätten ein paar Clients Probleme wenn das ACK ausbleibt). Wundert euch also nicht, falls euer Client sagt die Playlist wäre gelöscht worden, dies aber gar nicht der Fall ist.
+
 = Hardware =
 Aktuell kommt ein AMD-irgendwas (Routinghardware) zum Einsatz (Leihgabe von Don). Die Soundausgabe erfolgt über einen integriert Soundkarte. Das Gerät kommt mit UTF-8 zurecht.
 
