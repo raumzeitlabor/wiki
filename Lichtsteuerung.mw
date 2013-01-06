@@ -82,7 +82,7 @@ Eine Lichtsteuerung für Haupt- und Nebenraum sollte für unter 500€ machbar s
 
 * Atmel-Irgendwas auf Platine mit Relaistreibern und Verbindung zum Lichttableau (DaFo schlägt DMX vor wegen Leitungslänge und co).
 * 11x 74AHC595 Schieberegister (serial in, parallel out) steuern die 10x ULN 2803A Treiber an.
-* Gehäuse http://www.phoenixcontact.com/global/pcb-connection/224_35923.htm
+* Gehäuse http://www.phoenixcontact.com/global/pcb-connection/224_35923.htm entweder OT U11 oder OT U22, geeignet für Doppelstockklemmen
 
 == Ausgangsstufe ==
 
