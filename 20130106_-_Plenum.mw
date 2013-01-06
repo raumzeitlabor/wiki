@@ -1,0 +1,129 @@
+Plenum vom 6. Januar 2013
+
+Anwesend: silsha, blabber, Unicorn, thinkJD, Madame Hutch, Alexander, Drahti, Inte, kite, slowpoke, d0n, JayJay, DaFo, echox, hog, eeemsi
+
+Leitung: [[Benutzer:Blabber|blabber]]<br>
+Protokoll: [[Benutzer:Silsha|silsha]]
+
+=== Beschlüsse des letzten Plenums ===
+==== Wurde ein Sparkonto bei der Sparkasse für Rücklagen eingerichtet? ====
+''von Inte''
+
+Nein, Hans-Jürgen will uns keins geben. Abrock hat bei der Postbank ein Tagesgeldkonto geklickt. Vorstand muss irgendwann mal noch zur Postbank.
+
+==== Mietvertrag ====
+''von blabber''
+
+Ist unterschrieben. Yay.
+
+=== Stimmrecht im Plenum ===
+''von blabber''
+
+Es besteht Unklarheit darüber, ob Nicht-Mitglieder im Plenum ein Stimmrecht haben. Blabber möchte das geklärt haben.
+
+Leute, die sich aktiv einbringen wollen, wird empohlen eine Mitgliedschaft anzuschließen. Allerdings wollen wir nicht darüber entscheiden, ob Mitglieder ein Stimmrecht haben sondern auf den gesunden Menschenverstand vertrauen.
+
+=== Jail Umzug ===
+''von nicoduck / NOC''
+
+Rabe zieht seinen Server um. Da dieser Server ein BSD ist, wollen wir das eh nicht und wir wollen uns $irgendwo ein vServer mieten. So können wir unsere Infrastruktur (Webseite, Wiki, herpderp) in Zukunft zeitnah selbst updaten.
+
+Es wird darüber abgestimmt, ob wir uns eine VM anmieten:
+* Dafür: Alle
+* Dagegen: Niemand
+* Enthaltung: Niemand
+
+=== Provision für eingeworbene Spenden ===
+''von Unicorn''
+
+Unicorn hat sich in Hamburg mit anderen Hackerspaces ausgetauscht. Einige fahren gut damit, Provisionen für aktivierte (Firmen-)Spenden zu verteilen.
+
+Inte fragt, ob es hier ein Problem mit der Gemeinnützigkeit gibt - blabber schreibt mal das Finanzamt an.
+
+Es wird nachgefragt, ob jemand was dagegen hat. Weiteres wird dann in der nächsten MV entschieden.<br>Niemand hat was dagegen.
+
+=== Lichtsteuerung ===
+''von Felicitus''
+
+Felicitus möchte eine Lichtsteuerung für rund 600€ anschaffen. Vorteil wäre z.B. automatisches Lichtabschalten beim shutdown.
+
+Unicorn hätte gerne eine Realisierungsabschätzung.<br>Scheint schon ordentlich dokumentiert zu sein und es mangelt nur noch am Geld.
+
+Es wird darüber abgestimmt, ob wir die Lichtsteuerung anschaffen:
+* Dafür: $Anwesende-2
+* Dagegen: 0
+* Enthaltung: 2
+
+=== Schneidplotter ===
+''von Unicorn''
+
+Unicorn hat eine Mail rumgeschickt.  700€ von den 1400€ sind schon durch Spenden zusammengekommen. Der Rest soll vom Verein bezahlt werden.
+
+Es wird darüber abgestimmt, ob wir den Rest zahlen:
+* Dafür: Alle
+* Dagegen: Niemand
+* Enthaltung: Auch niemand.
+
+=== WLAN-AP Nebenraum ===
+''von Felicitus''
+
+Felicitus möchte shackspace-erprobte WLAN-Infrastruktur einkaufen. Hat ganz viele Buzzwords in der Funktionsbeschreibung.
+
+140€ kostet ein ein Accesspoint (aus Polen :3).
+
+Skip. Felicitus erklärt es auf dem nächsten Plten Plenum ordentlich.
+
+=== Netzwerk in den Tischen ====
+''von Felicitus''
+
+Skip. Wird irgendwann vielleicht noch mal erklärt.
+
+=== Oszilloskope in der E-Ecke ===
+''von echox''
+
+Wir haben sechs Oszilloskope in der E-Ecke und das sind zu viele. Brauchen wir wirklich so viele? Echox hat mal zwei abgebaut und plötzlich waren sie wieder da.
+
+Abrock stellt klar, was wir für Geräte haben. Es hat wohl irgendwelche Gründe, warum die Geräte da sind.
+
+Abrock nimmt sein Gerät mit. Fabian seins vielleicht auch (wird angefragt).
+
+=== Tunneln über Schweden ===
+''von silsha''
+
+Es war nicht ganz klar ob die Bereitschaft, für einen Tunnel zu zahlen auch bedeutet, dass wir das tun werden. Daher möchte silsha darüber noch mal abgestimmt haben.
+
+Gegen einen Tunnel spricht, die Latenz. Außerdem könnte es als Freifahrtschein für BitTorrentler gelten.
+
+Es wird über DPI und ähnliches gesprochen (echox). Unicorn sieht das nicht als Lösung an, da es uns nicht vor Abmahnungen schützt.
+
+hog möchte lieber eien soziale Lösung (bei hohem Traffic einfach mal rumfragen, was los ist).
+
+thinkJD möchte Abmahnungen vermeiden und präferiert den Schwedentunnel.
+
+Es wird abgestimmt, ob wir einen externen („anonymen™“, Ausland) Tunnel mieten und nutzen werden:
+* Dafür: 10
+* Dagegen: 3
+* Enthaltung: 3
+
+
+Das NOC-Team™ kümmert sich drum.
+
+
+=== Netzwerk-Tunnel ===
+''''von slowpoke''''
+
+Skip. Hat sich erledigt.
+
+=== Rücklagen für eventuelle Abmahnungen ===
+''von Inte''
+
+Inte möchte Rücklagen für eventuelle Abmahnungen bilden. Hat sich durch den TunnTunnel mehr oder weniger sowieso erledigt.
+
+=== Weltherrschaft ===
+''vom Pinky, dem Pinky und dem Brain Brain Brain Brain''
+
+Yup.
+
+Plenum wurde um 17:57:21 beendet.
+
+[[Kategorie:Plenum]] [[Kategorie:Protokoll]]
