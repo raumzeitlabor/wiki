@@ -63,7 +63,7 @@ Gegen eine Direktverkabelung mit den Netzwerkdosen im Kabelkanal vor den Heizung
 * Netzwerkdosen meist schon belegt
 * Kabel werden vergessen und fliegen in der Gegend rum, Leute treten drauf -> Kabel kabudd
 
-=== Idee 1 ===
+=== Idee 1: ~116€ ===
 * Jeder der 6 Tische muß trennbar sein. Verbindung könnte via [http://www.neutrik.com/de/ethercon/ Neutrik Ethercon] passieren
 * Ein Tisch bekommt einen 8-Port Switch untermontiert
 * Jeder Tisch bekommt einen versenkten Ethernet-Port
@@ -80,7 +80,7 @@ Gesamtkosten nach obigem Plan: 78€ für die Neutrik-Verbinder und 20 Euro für
 * Nur ein Netzwerkport pro Tisch, mehr nur über Miniswitch
 * Mehr als 10 Euro pro Port
 
-=== Idee 2 ===
+=== Idee 2: ~230€ ===
 
 In 3 der 6 Tische kommen 8-Port Mini-Patch-Panel (Cat5, ca. 10 Euro pro Stück), die Kabel werden in einen 24-Port-Switch, der unter dem Tisch montiert wird, gesteckt. Der Switch wird über einen Schalter an der Tisch-Oberseite ein- oder ausgeschalten (Stromsparen und so). Die Kabel werden von jedem Tisch zum Switch gezogen.
 
@@ -95,7 +95,7 @@ Kostenpunkt: 30 Euro pro Mini-Patch-Panel, paar Euro für Kabel, 24-Port Switch 
 * Großer Switch = Mehr Stromverbrauch, ob manuelle Abschaltung wirklich so gut klappt ist fraglich
 * Teurer als Idee 1, aber günstiger pro Port
 
-=== Idee 3 ===
+=== Idee 3: ~120€ ===
 
 * Eine Doppeldose pro Tisch
 * ganz normale Kabel werden durch Kabelkanäle gezogen und mit RJ45-Kupplungen verbunden werden (Kosten: 1€ pro Stück)
