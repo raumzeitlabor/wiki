@@ -114,6 +114,7 @@ Kosten pro Ausgangsstufe: ca. 20€
 
 == Features ==
 * 32 Relais-Ausgänge inkl. Zustandsanzeige per LED
+* 16 Digitaleingänge für Lichtschalter o.ä.
 * RTC mit Batteriepuffer
 * I²C-Schnittstelle
 * DMX-Eingang mit Startaddressenkonfiguration via DIP-Switch
