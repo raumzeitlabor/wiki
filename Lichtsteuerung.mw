@@ -119,4 +119,7 @@ Kosten pro Ausgangsstufe: ca. 20€
 * I²C-Schnittstelle
 * DMX-Eingang mit Startaddressenkonfiguration via DIP-Switch
 
+=== Bauteile ===
+
+Herz der Lichtsteuerung ist ein [http://www.atmel.com/devices/ATXMEGA192A3.aspx AVR XMEGA 192A3 Microcontroller] mit 192k Flash, 50 I/O Pins, 2k EEPROM und 16kB RAM. Der Controller ist bewusst überdimensioniert, um für zukünftige Erweiterungen genügend Spielraum zu haben. Alle nicht-benötigten Pins werden herausgeführt.
 [[Kategorie:Projekt]] [[Kategorie:Infrastruktur]]
