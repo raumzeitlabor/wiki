@@ -110,4 +110,11 @@ Kosten pro Ausgangsstufe: ca. 20€
 
 * Günstiger Selbstbau unter http://orikson.piranho.de/pa/uDMX/ inkl Galvanischer Trennung
 
+= Aktuelle Version =
+
+== Features ==
+* 32 Relais-Ausgänge inkl. Zustandsanzeige per LED
+* RTC mit Batteriepuffer
+* I²C-Schnittstelle
+
 [[Kategorie:Projekt]] [[Kategorie:Infrastruktur]]
