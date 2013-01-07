@@ -118,6 +118,7 @@ Kosten pro Ausgangsstufe: ca. 20€
 * RTC mit Batteriepuffer
 * I²C-Schnittstelle
 * DMX-Eingang mit Startaddressenkonfiguration via DIP-Switch
+* 128kB EEPROM für Ein- und Ausschalterfassung
 
 === Bauteile ===
 
