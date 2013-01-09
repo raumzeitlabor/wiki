@@ -243,6 +243,10 @@ Struktur:
 | Marlin Firmware upgrade, Baudrate gefixt
 | echox
 |-
+| 2013-01-09
+| Den kaputten Mainboardlüfter "repariert" (ohne Gewehr). Hotend hat Propfen gebildet, unklar warum. Aufgeschraubt und Hotend bei 200°C leertropfen lassen. Vermutlich kein bündiger Abschluss von diesem neuen V2 Hotend-Profen (weiß) mit dem Hotend.
+| Felicitus
+|-
 |}
 
 == Andere Interessante $Dinge ==
