@@ -1,0 +1,24 @@
+{{ProjektInfoBox
+|name        = tiefpunkt.vm.rzl
+|status      = unstable
+|image       = 
+|description = VM von [[Benutzer:tiefpunkt|tiefpunkt]]
+|author      = [[NOC Team|NOC-Team]], [[Benutzer:tiefpunkt|tiefpunkt]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = tiefpunkt.vm.rzl
+|license     = 
+|download    = 
+}}
+
+== Zweck ==
+
+== Eckdaten ==
+
+* 256MB RAM
+* 1 CPU Core
+* 10GB HDD
+
+[[Kategorie:Infrastruktur]]
