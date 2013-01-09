@@ -25,39 +25,4 @@ Du erreichst diese VM über VNC, IP '''172.22.36.222''', Passwort '''label'''
 * 1 CPU Core
 * 20GB HDD
 
-== Bedienung ==
-
-Zum Eingewöhnen gibt es erstmal [http://blackbox.raumzeitlabor.de/
- ein paar bunte Bilder]. Leider kann man in diesem Wiki keine IPv6-URLs verlinken, sonst hätte ich das getan.
-
-Man gibt den Anfangs- und Endzeitpunkt des Intervalls ein, das man darstellen möchte und die Metrik. Bei manchen Metriken gibt es zusätzlich Tags, um z.B. verschiedene Sensoren unterscheiden zu können, z.B. sensor=olymp. Standardmäßig werden alle Werte zu einem Zeitpunkt aufsummiert (Aggregator: sum), man kann aber auch andere Aggregatoren verwenden oder die Auswahl auf einzelne Tags einschränken. 
-
-Metriken sind z.B.:
-
-{| class="wikitable" width="100%"
-! Metrik || Beschreibung || Tags || Tag-Werte
-|-
-|temperatur || Temperatursensoren der Heizungssteuerung || sensor || aetzecke, aussen, beamerplattform, getraenkelager, heizung_vorlauf, heizung_ruecklauf, olymp, tafel
-|-
-|electricity.power || Elektrische Leistung in Watt ||  || 
-|-
-|electricity.consumption || Energieverbrauch in Wattstunden seit dem Start des verantwortlichen Mikrocontrollers ||  || 
-|-
-|internet.download || Eingehender Traffic über die DSL-Leitung des RZL in kB/sec || ||
-|-
-|internet.upload || Ausgehender Traffic über die DSL-Leitung des RZL in kB/sec || ||
-|-
-|opentsdb.download || Eingehender Traffic über eth0 auf der VM in kB/sec || ||
-|-
-|opentsdb.upload || Ausgehender Traffic über eth0 auf der VM in kB/sec || ||
-|}
-
-Es gibt weitere ~260 Metriken, die von folgenden [http://opentsdb.net/tcollector.html tcollector]-Programmen stammen:
-
-* dfstat.py
-* ifstat.py
-* iostat.py
-* netstat.py
-* procstats.py
-
 [[Kategorie:Infrastruktur]]
