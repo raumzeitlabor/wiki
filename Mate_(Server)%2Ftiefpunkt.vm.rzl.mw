@@ -1,6 +1,6 @@
 {{ProjektInfoBox
 |name        = tiefpunkt.vm.rzl
-|status      = unstable
+|status      = beta
 |image       = 
 |description = VM von [[Benutzer:tiefpunkt|tiefpunkt]]
 |author      = [[NOC Team|NOC-Team]], [[Benutzer:tiefpunkt|tiefpunkt]]
@@ -14,6 +14,9 @@
 }}
 
 == Zweck ==
+=== Hausbus2 Central Node (Test)===
+* MQTT-Broker (mosquitto)
+* Hausbus2-Exporters für Übermittlung von Hausbus2-Sensor-Daten in z.Zt. OpenTSDB auf [[Mate (Server)/abrock.vm.rzl|abrock.vm.rzl]] und auf cosm.
 
 == Eckdaten ==
 
