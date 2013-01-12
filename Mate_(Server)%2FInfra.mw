@@ -30,7 +30,7 @@ Auf der Infra-VM wird '''systemd''' als Init-System eingesetzt, um das Entwickel
 Folgende Dienste laufen ''aktuell'' auf der VM:
 
 * PIN Sync
-* CUPS für das Sharing der [[Drucker]]
+* RaumZeitMPD IRC-Bot
 
 == CUPS ==
 * Bisher nur installiert, noch nicht konfiguriert
