@@ -17,7 +17,8 @@
 === Hausbus2 Central Node (Test)===
 * MQTT-Broker (mosquitto)
 * Hausbus2-Exporters für Übermittlung von Hausbus2-Sensor-Daten in z.Zt. OpenTSDB auf [[Mate (Server)/abrock.vm.rzl|abrock.vm.rzl]] und auf cosm.
-
+=== Sonstiges ===
+* Syncjob RZL-Wiki -> GitHub
 == Eckdaten ==
 
 * 256MB RAM
