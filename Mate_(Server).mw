@@ -41,7 +41,9 @@
 
 == Dienste ==
 Die Infrastruktur befindet sich noch im Aufbau.
-Aktuell können noch keine Mitglieder VMs erstellt werden. 
+Aktuell können noch keine Mitglieder VMs erstellt werden, da folgendes noch fehlt:
+
+* Backups
 
 == Neue Debian-VM ohne GUI, nur mittels shell installieren (serielle console) ==
 
