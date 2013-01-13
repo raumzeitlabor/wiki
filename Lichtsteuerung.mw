@@ -130,4 +130,7 @@ Herz der Lichtsteuerung ist ein Atmega 64-16 TQ mit 64k Flash, 53 I/O Pins, 2k E
 * https://github.com/schinken/dmx2rgb/blob/master/sw/dmx2rgb.c#L20
 * Schaltplan und Platinenlayot hübsch in einem Versionskontrollsystem verpacken
 * Prüfen, ob die Optokoppler für die Inputs richtig herum sind
+* Leiterbahndicken richtig festlegen
+* Schaltplan mit einem Bus bauen, evtl hilft das dem Autorouter
+* Nochmal prüfen, wieviel mA die Relais ziehen und ob die Treiber das schaffen (500mA max pro IC)
 [[Kategorie:Projekt]] [[Kategorie:Infrastruktur]]
