@@ -133,4 +133,5 @@ Herz der Lichtsteuerung ist ein Atmega 64-16 TQ mit 64k Flash, 53 I/O Pins, 2k E
 * Leiterbahndicken richtig festlegen
 * Schaltplan mit einem Bus bauen, evtl hilft das dem Autorouter
 * Nochmal prüfen, wieviel mA die Relais ziehen und ob die Treiber das schaffen (500mA max pro IC)
+* LED-Wannenstecker für Eingänge
 [[Kategorie:Projekt]] [[Kategorie:Infrastruktur]]
