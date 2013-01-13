@@ -42,7 +42,7 @@ Your public key has been saved in /home/tiefpunkt/wiki_deploy_key.pub.
 </pre>
 
 ==== 2. Deploy-Keypair im GitHub-Repo eintragen ====
-Im Repository unter "Settings -> Deploy Keys -> Add deploy" key den Public Key des Deploy-Keypairs hinterlegen.
+Im Repository unter "Settings &rarr; Deploy Keys &rarr; Add deploy" key den Public Key des Deploy-Keypairs hinterlegen.
 
 ==== 3. SSH-Config anpassen ====
 Zur <code>.ssh/config</code> hginzufügen:
