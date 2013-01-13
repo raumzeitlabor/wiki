@@ -61,11 +61,11 @@ Eine Lichtsteuerung für Haupt- und Nebenraum sollte für unter 500€ machbar s
 |-----
 ! Pos || Bezeichnung || Anmerkungen || Stück || E-Preis || G-Preis
 |-
-| 1 || G2R-1-SNI 12V DC || Relais || 23 (Hauptraum) + 6 (Nebenraum) = 29 || 3,50€ || 101,5€
+| 1 || G2R-1-SNDI 24V DC || Relais || 23 (Hauptraum) + 6 (Nebenraum) = 29 || 6,09€ || 176,69€
 |-
-| 2 || P2RF-05-E || Relaissockel || 29 || 2,20€ || 63 €
+| 2 || P2RF-05-E || Relaissockel || 29 || 3,10€ || 90 €
 |-
-| 3 || Hensel KV 9440 || Gehäuse || 2 || 108€ || 216 €
+| 3 || 4-reihiger Aufputzverteiler || Gehäuse || 3 || 60€ || 180 €
 |-
 | 4 || Netzteil 24V || für Hutschine || 2 || 20€ || 40€
 |-
@@ -75,7 +75,7 @@ Eine Lichtsteuerung für Haupt- und Nebenraum sollte für unter 500€ machbar s
 |-
 | 7 || Bauelemente || ICs, Platinenmaterial, Schieberegister, Relaistreiber || 1 || 40€ || 40€
 |-
-!colspan=5 |Gesamt|| 536,50€
+!colspan=5 |Gesamt|| 602,69€
 |}
 
 == Controllerboard ==
