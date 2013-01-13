@@ -69,6 +69,9 @@ Erstmal eine Produkt-/Link-Sammlung. Alles andere kommt später.
 ** Proprietär
 ** Misst Temperatur, Luftdruck, Luftfeuchtigkeit, CO2-Gehalt, Lärm
 ** iPhone/iPad-App (Android in Entwicklung)
+* Gasser [http://wiki.labocitoyen.fr/index.php?n=Hardware.Gasser]
+** RPi + Sensoren + Akku + 3G
+** Hackerspace in Paris
 
 ==== Wetter ====
 * Raspberry Pi + pywws [https://github.com/yfory/weather]
