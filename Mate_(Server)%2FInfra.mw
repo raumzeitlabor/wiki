@@ -22,7 +22,7 @@ Diese VM wird interne Dienste hosten.
 * CUPS
 * …
 
-Dienste, die in dieser VM laufen sollen, ''müssen'' rebootfest sein (sonst werden sie nicht installiert). Idealerweise sind sie bereits fertig als Debian-Paket gebundelt.
+Dienste, die in dieser VM laufen sollen, ''müssen'' rebootfest und als Debian Paket gebundelt sein (sonst werden sie nicht installiert).
 
 Auf der Infra-VM wird '''systemd''' als Init-System eingesetzt, um das Entwickeln und Managen der Systemsoftware zu vereinfachen.
 
@@ -33,9 +33,6 @@ Folgende Dienste laufen ''aktuell'' auf der VM:
 * PIN Sync
 * RaumZeitMPD IRC-Bot
 * BenutzerDB (noch nicht umgeleitet)
-
-== CUPS ==
-* Bisher nur installiert, noch nicht konfiguriert
 
 == TODO ==
 * Monitoring (z.B. pin-sync)
