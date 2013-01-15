@@ -314,7 +314,7 @@ make: *** [Hacklace.o] Error 1
 
 Sollte oben beschriebener Fehler auftreten hast du noch ein defektes iotn4313.h in deiner AVR Umgebung.
 
-Das gehört ersetzt. Siehe oben.
+Das gehört ersetzt. Siehe [[#Software|oben]].
 
 === Serielles Interface ===
 
