@@ -299,6 +299,23 @@ Damit deinem Hackerspace das ganze auch zugute kommt, gibt es einen Rabatt bei g
 
 == Probleme & Lösungen ==
 
+=== Compilen der Firmware geht ==
+Das kann einige Gründe haben.
+<pre>
+du@deinekiste:~/Hacklace$ make
+avr-gcc -g -Wall -Os -mmcu=attiny4313 -DF_CPU=4000000   -c -o Hacklace.o Hacklace.c
+Hacklace.c: In function ‘GoToSleep’:
+Hacklace.c:241:2: error: ‘GIFR’ undeclared (first use in this function)
+Hacklace.c:241:2: note: each undeclared identifier is reported only once for each function it appears in
+Hacklace.c:241:13: error: ‘PCIF2’ undeclared (first use in this function)
+Hacklace.c:243:14: error: ‘PCIE2’ undeclared (first use in this function)
+make: *** [Hacklace.o] Error 1 
+</pre>
+
+Sollte oben beschriebener Fehler auftreten hast du noch ein defektes iotn4313.h in deiner AVR Umgebung.
+
+Das gehört ersetzt. Siehe oben.
+
 === Serielles Interface ===
 
 Sollte bei dir die Kommunikation über das serielle Interface nicht richtig funktionieren, kann dies an einer zu großen Abweichung des Prozessortakts liegen. Der Mikrocontroller wird über den internen RC-Oszillator betrieben, von dem auch der Takt für die serielle Kommunikation abgeleitet wird. Nun sind RC-Oszillatoren leider nicht so präzise wie ein Quarz. Fertigungsbedingte Abweichungen in der Frequenz von bis zu 10 Prozent sind möglich. Ist die Abweichung zu groß, stimmt die Baudrate für die serielle Schnittstelle nicht mehr genau und die Kommunikation schlägt fehl.
