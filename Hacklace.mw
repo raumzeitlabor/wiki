@@ -299,7 +299,7 @@ Damit deinem Hackerspace das ganze auch zugute kommt, gibt es einen Rabatt bei g
 
 == Probleme & Lösungen ==
 
-=== Compilen der Firmware geht ==
+===Firmware compiliert nicht===
 Das kann einige Gründe haben.
 <pre>
 du@deinekiste:~/Hacklace$ make
