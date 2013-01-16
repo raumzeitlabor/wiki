@@ -62,6 +62,10 @@ Derzeit kein Mailversand von innerhalb des RZL möglich, ergo keine Monitoringma
 = Action Item =
 * Felicitus macht puppet auf vollmar-kiste und baut Backup mit Datengrab (sobald Rack gebaut ist) und auf die vollmar-kiste (nur configs)
 * Felicitus schaut sich wegen usb2serials mit usb serial nummer an
+** Die meisten usb2serials haben den pl2303 chipsatz, und meistens keine Serial geflasht. Manuell flashen geht nicht wirklich
+** FTDI-Chips können das, und können auch offiziell umprogrammiert werden. Nachteil: 10€ pro Stück mit Aussenbeschaltung und 
+** Alternative: FTDI-Ics und USB-Hub-ICs von Reichelt auf Platine bauen. Kostenpunkt um die 20 Euro + Arbeitszeit
+** Alternative-Alternative: http://www.ebay.de/itm/USB-2-0-auf-4x-Serial-Adapter-j863-/280952497537?pt=DE_Computing_Parallel_Seriell_PS_2&hash=item416a12e581#ht_1654wt_912 aber unklar welcher IC da drin ist
 * Else sagt AlexanderBrock Bescheid wegen Stromverbrauchszeugs.
 * Else guckt nochmal wegen unserem SSL-Foo
 * Else kümmert sich um Raumstatus (rebootfest machen)
