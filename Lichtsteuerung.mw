@@ -113,7 +113,7 @@ Kosten pro Ausgangsstufe: ca. 20€
 = Aktuelle Version =
 
 == Features ==
-* 32 Relais-Ausgänge inkl. Zustandsanzeige per LED
+* 32 Relais-Ausgänge (gesinkt). 500mA maximum pro 8 Kanäle (die von uns eingesetzten Relais ziehen 21.6mA bei 24V)
 * 16 isolierte Digitaleingänge für Lichtschalter o.ä. über Koppelrelais - 24V
 * RTC mit Batteriepuffer
 * I²C-Schnittstelle
