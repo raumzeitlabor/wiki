@@ -122,7 +122,23 @@ Kosten pro Ausgangsstufe: ca. 20€
 
 === Bauteile ===
 
-Herz der Lichtsteuerung ist ein Atmega 64-16 TQ mit 64k Flash, 53 I/O Pins, 2k EEPROM und 4kB RAM. Der Controller ist bewusst überdimensioniert, um für zukünftige Erweiterungen genügend Spielraum zu haben. Alle nicht-benötigten Pins werden auf eine Stiftleiste herausgeführt.
+Herz der Lichtsteuerung ist ein Atmega 64-16 TQ mit 64k Flash, 53 I/O Pins, 2k EEPROM und 4kB RAM. Der Controller ist bewusst überdimensioniert, um für zukünftige Erweiterungen genügend Spielraum zu haben.
+
+Über den DMX-Eingang sowie die Digitaleingänge wird der Schaltzustand der Ausgänge definiert. Da DMX permanent Daten schickt, würden die Digitaleingänge überschrieben werden, von daher gilt folgende Logik:
+
+* Ein Logikwechsel durch den Eingang bewirkt das togglen der betreffenden Ausgänge
+* Nur ein Logikwechsel auf dem DMX-Input setzt den entsprechende Ausgang. Wird derselbe Zustand erneut empfangen, so wird nichts geändert!
+
+Ein Atmega8 kümmert sich um das fortlaufende Senden von DMX-Daten, um weitere Lichtsteuerungen oder DMX-Endgeräte ansteuern zu können. Dieser ist über I²C an den Atmega64 angeschlossen.
+
+===== EEPROM-Konfiguration =====
+
+Die folgenden Konfigurationsdaten werden auf dem EEPROM des Atmega 64 abgelegt:
+
+* welcher Digitaleingang welche Ausgänge beeinflusst
+* ob die Eingänge tastend oder schaltend sind
+
+Die Konfigurationsdaten sollen über den RS232-Port verändert werden können.
 
 == To-Do ==
 * http://www.mikrocontroller.net/articles/Galvanische_Trennung
