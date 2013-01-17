@@ -8,3 +8,7 @@
 }}
 
 Netzwerkplatte für Backups via Bacula. Befindet sich temporär im Rack, später im kleinen Netzwerkrack im Nebenraum.
+
+== Serielle Konsole ==
+
+Die Anschlüsse der seriellen Konsole sind beschriftet (aus Hostseite, RXD und TXD nicht kreuzen!). 9600 8N1.
