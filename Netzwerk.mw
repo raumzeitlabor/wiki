@@ -67,7 +67,9 @@ Angekündigt wurden:
 |-----
 | 172.22.36.9 || cashpoint || RZL Cashpoint
 |-----
-| 172.22.36.'''10 - 110''' || ''reserved'' || Derzeit ungenutzt
+| 172.22.36.10 || datamonster || [[Datamonster]]
+|-----
+| 172.22.36.'''11 - 110''' || ''reserved'' || Derzeit ungenutzt
 |-----
 | 172.22.36.111 || heizung || [[Heizungssteuerung]]
 |-----
