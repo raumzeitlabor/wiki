@@ -117,7 +117,6 @@ Um eine VM zu monitoren:
 == TODO ==
 * Backups einrichten
 * Automatisches Discovery von VMs in Zabbix?
-* Die 5. Platte hängt recht unbefestigt in Mate, Felicitus hat Adapterwinkel und baut er demnächst ein
 * Die grub2-settings der VMs über Puppet deployen
 
 == Unterseiten ==
