@@ -1,0 +1,10 @@
+{{ProjektInfoBox
+|name        = Datamonster
+|status      = beta
+|image       = Hdd.jpg
+|description = Netzwerkplatte für Backups
+|platform    = $some_platform
+|author     = [[NOC Team]]
+}}
+
+Netzwerkplatte für Backups via Bacula. Befindet sich temporär im Rack, später im kleinen Netzwerkrack im Nebenraum.
