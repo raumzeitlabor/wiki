@@ -85,7 +85,7 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 |Luzide Träume
 |[[Benutzer:Silsha|silsha]]
 |Wie man Träume hackt.
-|[[Benutzer:Hax404|hax404]], steeph, [[Benutzer:TheTinyToon|TTT]], [[Benutzer:Cheatha|Cheatha]], [[Benutzer:Tiefpunkt|tiefpunkt]]
+|[[Benutzer:Hax404|hax404]], steeph, [[Benutzer:TheTinyToon|TTT]], [[Benutzer:Cheatha|Cheatha]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:nazco|nazco]]
 |-
 | 2011-10-31
 |tba
@@ -113,7 +113,7 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 |PHP: Serious Business
 |Felicitus
 |Warum PHP nicht mehr die Fricklersprache von gestern ist - ernsthafte Softwareentwicklung mit PHP, Doctrine2 und Symfony2
-|([[Benutzer:Rami|rami]]), [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Else|else]], [[Benutzer:eeemsi|eeemsi]], steeph, [[Benutzer:Cheatha|Cheatha]]
+|([[Benutzer:Rami|rami]]), [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Else|else]], [[Benutzer:eeemsi|eeemsi]], steeph, [[Benutzer:Cheatha|Cheatha]], [[Benutzer:nazco|nazco]]
 |-
 | 2012-02-24
 |tba
@@ -127,7 +127,7 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 |IEEE 802.11
 |Else
 |Wie WLAN grundsätzlich funktioniert. 
-| [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Blabber|blabber]], [[Benutzer:Hax404|hax404]], [[Benutzer:Rami|rami]]
+| [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Blabber|blabber]], [[Benutzer:Hax404|hax404]], [[Benutzer:Rami|rami]], [[Benutzer:nazco|nazco]]
 |-
 | 2012-07-23
 |tba
@@ -141,7 +141,7 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 |IEEE 802.1X & WPA Enterprise
 |[[Benutzer:nicoduck|nicoduck]]
 |Wie man LAN und WLAN für größere Installationen absichert
-|[[Benutzer:Hax404|hax404]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Rami|rami]]
+|[[Benutzer:Hax404|hax404]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Rami|rami]], [[Benutzer:nazco|nazco]]
 |-
 |
 | tba
@@ -169,21 +169,21 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 | Kryptographie (Vortragsreihe)
 | [[Benutzer:TheTinyToon|Lars Kumbier]]
 | Eine Übersicht über Kryptographie und wie sie geknackt wurde - vom Caesar-Chiffre bis zur Quantenkryptographie. Wird eine Vortragsreihe mit anschaulichen Beispielen. 
-| [[Benutzer:hax404|hax404]], [[Benutzer:Cheatha|Cheatha]]
+| [[Benutzer:hax404|hax404]], [[Benutzer:Cheatha|Cheatha]] , [[Benutzer:nazco|nazco]]
 |-
 | 2012-08-17
 | 
 | Hochverfügbarkeitssysteme unter Linux
 | [[Benutzer:TheTinyToon|Lars Kumbier]]
 | Linux eignet sich hervorragend zum Aufsetzen von Hochverfügbarkeitssystemen. Im Talk schauen wir uns die Theorie dahinter an, wie man SPOFs vermeidet und welche Software Linux dazu bereithält.
-| [[Benutzer:hax404|hax404]],
+| [[Benutzer:hax404|hax404]], [[Benutzer:nazco|nazco]]
 |-
 | 2012-09-21
 | 
 | Wegwerfserver mit Vagrant
 | [[Benutzer:TheTinyToon|Lars Kumbier]]
 | [http://www.vagrantup.com Vagrant] ist ein Set aus Scripten, das über Virtualbox und Puppet/Chef nach Rezepten lokale Server erstellt. Damit entfallen händisch erstellte virtuelle Entwicklungsmaschinen und auch Jahre nach einem Projekt hat man im Nu die Entwicklungsumgebung wiederhergestellt (beispielsweise bei einem Folgeprojekt). Vagrant untersützt auch das dynamische Erstellen kompletter Servernetzwerke.
-| [[Benutzer:Cheatha|Cheatha]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:hax404|hax404]],
+| [[Benutzer:Cheatha|Cheatha]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:hax404|hax404]], [[Benutzer:nazco|nazco]]
 |-
 | 2012-09-25
 | 
@@ -225,21 +225,21 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 | IP over DNS mit Iodine
 | [[Benutzer:Tiefpunkt|tiefpunkt]]
 | IP-Kommunikation getunnelt über DNS. Wie das funktioniert, warum man das überhaupt machen sollte, und wieso man dabei sogar Geld sparen kann.
-| 
+| [[Benutzer:nazco|nazco]]
 |-
 | 2012-12-17
 | (irgendein Dienstag)
 | MQTT - Message Queue für das Internet of Things
 | [[Benutzer:Tiefpunkt|tiefpunkt]]
 | Message Queues sind die Push-Benachritigungen der M2M-Kommunikation. MQTT ist ein Message-Queue-Protokoll, und eignet sich hervoragend für Sensornetzwerke und Heimautomation.
-| 
+| [[Benutzer:nazco|nazco]]
 |-
 | 2013-01-19
 | 
 | Android Development
 | [[Benutzer:Rami|rami]]
 | Einführung in die Entwicklung von Android-Apps. Überblick über das Entwicklungs-Ökosystem und Details je nach Interesse und Nachfrage 
-| 
+| [[Benutzer:nazco|nazco]]
 |}
 
 ==Vergangen==
