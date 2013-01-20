@@ -11,7 +11,7 @@ Bei jeglichen Fragen zum Netz bitte das [[NOC_Team]] ansprechen, auf keinen Fall
 {{AchtungKasten1|title=Keine Connectivity zwischen WLAN-Clients|msg=Aus bisher nicht bekannten Gründen können Nutzer des WLANs nicht gegenseitig kommunizieren. Vermutet wird ein Problem mit dem Switch. In Arbeit.<br/><br/><small>Möglicherweise ist Wireless Isolation aktiv? http://stackoverflow.com/questions/12491396/cant-see-another-computer-in-wifi</small> }}
 
 
-{{AchtungKasten1|title=Kein Mailversand auf Port 25 möglich|msg=Der Schwedentunnel blockt sämtliche Kommunikation auf Port 25. Nutze daher einen anderen Port für deinen Mailversand. }}
+{{AchtungKasten1|title=Kein Mailversand auf Port 25 möglich|msg=Der Schwedentunnel blockt sämtliche Kommunikation auf Port 25. Nutze daher einen anderen Port für deinen Mailversand, z.B. <pre>submission 587/tcp               # Submission [RFC4409]</pre>}}
 
 == Rack ==
 [[Datei:IMG_0336.JPG|Thumb|300px]]
