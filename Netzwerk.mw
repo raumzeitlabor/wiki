@@ -32,15 +32,17 @@ Wir nehmen als AS64636 teil mit 9 verschiedenen Peerings (zu jchome, ichdasich, 
 == WLAN ==
 Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir gerne auf Nachfrage mitgeteilt :)
 
-Folgende Access-Points sind im RZL vorhanden:
-* Netgear WNDR3800 (2.4 GHz und 5GHz simultan), "RZL-hardcore". Steht in der Regalwand am Tafelende. Läuft mit orgi FW, aufgrund von diverser Bugs derzeit aber inaktiv
-* D-Link DWL-1000AP+ (2.4 GHz, 802.11b), nicht in Betrieb, Standort: Regal Fensterseite, ganz rechts vor der Tafel.
+=== Aktive Access Points ===
+* Netgear WNDR3800 (2.4 GHz und 5GHz simultan), "raumzeitlabor5" sowie "raumzeitlabor24". Steht bei der Musikanlage. Läuft mit original Firmware.
 * Ubiquiti NanoStation2 Loco (2.4 GHz, 802.11b/g), in Betrieb, liegt auf dem Olymp, strahlt "RZL-hardcore" aus. Läuft mit orgi FW.
+
+=== Inaktive Access Points ===
+* D-Link DWL-1000AP+ (2.4 GHz, 802.11b), nicht in Betrieb, Standort: Regal Fensterseite, ganz rechts vor der Tafel.
 * Cheatha: HP $irgendwas (2.4 GHz, 802.11b/g) liegt in seiner Kiste, benötigt PoE.
 
-Angekündigt wurden:
-* Unicorn: D-Link DIR-635 (2.4 GHz, 802.11b/g/draft-n)
+=== Angekündigte APs ===
 
+* Unicorn: D-Link DIR-635 (2.4 GHz, 802.11b/g/draft-n)
 
 == Hosts ==
 
