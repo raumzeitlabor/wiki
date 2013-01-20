@@ -8,7 +8,7 @@ Bei jeglichen Fragen zum Netz bitte das [[NOC_Team]] ansprechen, auf keinen Fall
 {{AchtungKasten1|title=IPv6 Packet Loss|msg=Derzeit gibt es Packet Loss bei V6 und Paketen größer 1400 - um das bei dir lokal zu fixen nutze: <pre>ip link set mtu 1280 dev wlan0</pre>Dies muß nach jedem connect via passieren.}}
 
 
-{{AchtungKasten1|title=Keine Connectivity zwischen WLAN-Clients|msg=Aus bisher nicht bekannten Gründen können Nutzer des WLANs nicht gegenseitig kommunizieren. Vermutet wird ein Problem mit dem Switch. In Arbeit. }}
+{{AchtungKasten1|title=Keine Connectivity zwischen WLAN-Clients|msg=Aus bisher nicht bekannten Gründen können Nutzer des WLANs nicht gegenseitig kommunizieren. Vermutet wird ein Problem mit dem Switch. In Arbeit.<br/><br/><small>Möglicherweise ist Wireless Isolation aktiv? http://stackoverflow.com/questions/12491396/cant-see-another-computer-in-wifi</small> }}
 
 
 {{AchtungKasten1|title=Kein Mailversand auf Port 25 möglich|msg=Der Schwedentunnel blockt sämtliche Kommunikation auf Port 25. Nutze daher einen anderen Port für deinen Mailversand. }}
