@@ -4,6 +4,15 @@ Hier wird/ist die Netzwerkstruktur im Raum dokumentiert.
 == Ansprechpartner ==
 Bei jeglichen Fragen zum Netz bitte das [[NOC_Team]] ansprechen, auf keinen Fall selbst Änderungen an Router oder Verkabelung vornehmen und keine IP Adressen selber zuweisen!
 
+== Aktuelle Probleme ==
+{{AchtungKasten1|title=IPv6 Packet Loss|msg=Derzeit gibt es Packet Loss bei V6 und Paketen größer 1400 - um das bei dir lokal zu fixen nutze: <pre>ip link set mtu 1280 dev wlan0</pre>Dies muß nach jedem connect via passieren.}}
+
+
+{{AchtungKasten1|title=Keine Connectivity zwischen WLAN-Clients|msg=Aus bisher nicht bekannten Gründen können Nutzer des WLANs nicht gegenseitig kommunizieren. Vermutet wird ein Problem mit dem Switch. In Arbeit. }}
+
+
+{{AchtungKasten1|title=Kein Mailversand auf Port 25 möglich|msg=Der Schwedentunnel blockt sämtliche Kommunikation auf Port 25. Nutze daher einen anderen Port für deinen Mailversand. }}
+
 == Rack ==
 [[Datei:IMG_0336.JPG|Thumb|300px]]
 Das [[Rack]] befindet sich in der [[E-Ecke]] und enthält das Patchpanel, unseren Switch, unseren Router sowie diverse andere Hardware, z.B. für die Türsteuerung.
