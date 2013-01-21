@@ -1,6 +1,6 @@
 {{ProjektInfoBox
 |name        = Podcast
-|status      = beta
+|status      = stable
 |image       = 
 |description = Freies Wissen – Jetzt auch als Podcast
 |author      = [[Benutzer:Silsha|silsha]], [[Benutzer:Tiefpunkt|tiefpunkt]]
@@ -15,7 +15,7 @@
 
 Das RaumZeitLabor veröffentlicht schon seit geraumer Zeit die wöchentlichen Vortragsaufzeichnungen der [[Offene RaumZeitLaborierung|Offenen RaumZeitLaborierung]] auf seinem [https://youtube.com/raumzeitlabor YouTube-Kanal]. Diese Videos werden in Zukunft mithilfe des [http://github.com/tiefpunkt/youtube-fruitcaster Youtube-Fruitcasters] von [[Benutzer:Tiefpunkt|tiefpunkt]] und [[Benutzer:Silsha|silsha]] in 1080p auf einen Server kopiert und als Podcastfeed angeboten. Der Feed wird in Zukunft auch via iTunes abonnierbar sein.
 
-Der Feed ist aktuell [http://rzlcast.horo.li/feed.php hier] zu finden. (Aktuell weder vollständig noch aktuell.)
+Der Feed ist [http://feeds.feedburner.com/RaumzeitlaborPodcast hier] zu finden. Die Eintragung in iTunes läuft.
 
 == Kosten ==
 Zum Hosten wurde ein vServer bei webtropia.de angemietet. Die Kosten belaufen sich aktuell auf 8,99€ im Monat (es ist absehbar, dass bald mehr Speicherplatz benötigt wird) - wer das Projekt finanziell unterstützen möchte, kann sich bei [[Benutzer:Silsha|silsha]] melden.
