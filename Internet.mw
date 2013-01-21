@@ -1,11 +1,11 @@
 {{ProjektInfoBox
 |name        = Internet
-|status      = beta
+|status      = stable
 |image       = 
 |description = Internet für das RZL
 |author      = nicoduck, docsteel
 |username    = nicoduck
-|version     = 0.1
+|version     = 2.0
 |update      = 
 |platform    = 
 |license     = 
@@ -30,7 +30,7 @@ Noch ausführlichere Infos findet man auf der ML.
 
 ==Was geliefert wird==
 
-Der Anschluss wird vorerst mit (echtem) ISDN und ADSL2+ bis 16MBit/s geschaltet. Effektiv kommen etwa 12MBit/s down und 1MBit/s up durch. (http://www.speedtest.net/result/2337387738.png). Durch den VPN Tunnel kommen momentan leider nur 6 MBit/s down durch (''to be fixed'').
+Der Anschluss wird vorerst mit (echtem) ISDN und ADSL2+ bis 16MBit/s geschaltet. Effektiv kommen etwa 12MBit/s down und 1MBit/s up durch. (http://www.speedtest.net/result/2337387738.png).
 
 ==Verkabelung==
 <gallery>
