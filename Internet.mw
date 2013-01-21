@@ -18,7 +18,7 @@ Das RaumZeitLabor soll mit einer weiteren bleeding-edge Technologie ausgestattet
 ==Aktuelle Situation==
 Mittlerweile haben wir einen eigenen DSL Anschluss, der auch genutzt wird.
 
-Ausgehender Traffic wird über [[Benutzer:docsteel|docsteel]] getunnelt, sowohl über IPv4 als auch IPv6.
+Ausgehender IPv6 Traffic wird über [[Benutzer:docsteel|docsteel]] getunnelt. Ipv4 geht über einen Schwedentunnel, außer Verbindungen zu Port 25 (SMTP), die wiederum über [[Benutzer:docsteel|docsteel]] gehen.
 
 ==Status der Bestellung==
 Mittlweile wurde bei der Telekom ein Ansprechpartner gefunden, der sich der Sache annimmt. Die Telekom hat mittlerweile zwei neue Kupfer APLs (Hausanschluss) im Gebäude installiert. Die Inhouseverkabelung soll vorerst so bleiben wie sie ist, da sie wohl noch in Ordnung sein soll.
