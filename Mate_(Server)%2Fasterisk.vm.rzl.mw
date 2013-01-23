@@ -1,0 +1,25 @@
+{{ProjektInfoBox
+|name        = asterisk.vm.rzl
+|status      = unstable
+|image       = 
+|description = VM für [[Telefon|Telefonie]]
+|author      = [[NOC Team|NOC-Team]], [[Benutzer:nicoduck|nicoduck]], [[Benutzer:lutoma|lutoma]]
+|username    = 
+|version     = 
+|update      = 2013-01-23
+|platform    = 
+|hostname    = asterisk.vm.rzl
+|license     = 
+|download    = 
+}}
+
+== Zweck ==
+=== Telefonie ===
+Anbindung unserer Telefone (Cisco VoIP) an das POTS, Eventphone und co.
+== Eckdaten ==
+
+* 1024 RAM (wird nach Installation testweise auf 512MB herabgesetzt)
+* 1 CPU Core
+* 15GB HDD
+
+[[Kategorie:Infrastruktur]]
