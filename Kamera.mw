@@ -25,7 +25,7 @@ Aufnahme starten:
 
  gst-launch pulsesrc device="alsa_input.usb-Thomann_SC450USB-00-SC450USB.analog-mono" ! \
    audio/x-raw-int,rate=48000,channels=2,width=16 ! tee name=t_audio ! queue ! \
-   pulsesink t_audio. ! audioconvert ! vorbisenc ! oggmux ! filesink location=record.oga
+   pulsesink t_audio. ! audioconvert ! vorbisenc ! oggmux ! filesink location=record_$(date +%Y%m%d-%H%I).oga
 
 Anschließend kann man [[Datei:Rzl-video-sound.mp3]] abspielen (z.B. mit einem Smartphone) um später einfacher die Audio-/Video-Spur zu synchronisieren.
 
