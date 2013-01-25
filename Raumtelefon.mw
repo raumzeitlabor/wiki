@@ -25,4 +25,4 @@ Anrufer hört Wartemusik, Telefon klingelt im Raum. Außerdem wird auf der Ping-
 Wenn nach 50 Sekunden niemand ans Telefon geht, springt ein Anrufbeantworter an. Die Aufzeichnung geht per Mail an info@raumzeitlabor.de.
 
 == Ausgehende Anrufe ==
-Sind explizit möglich (Allerdings lässt sich mit dem Telefon momentan nicht wählen, da der SIP-Adapter kein Impulswahl unterstützt. Ein Fix dafür ist aber in der Mache. Quickfix: Mit Android DTMF-App die Töne erzeugen). Da die Kosten aber privat bezahlt werden, bitte ich darum, auf potentiell teure Telefonate zu verzichten. Die genauen Preise finden sich auf der [http://www.sipgate.de/trunking/tarife Sipgate-Seite].
+Sind explizit möglich (Allerdings lässt sich mit dem Telefon momentan nicht wählen, da der SIP-Adapter kein Impulswahl unterstützt. Ein Fix dafür ist aber in der Mache. Quickfix: Mit Android DTMF-App die Töne erzeugen). Für Festznetz gibt's eine Flatrate, Handynetzanrufe bezahlt der Verein und sollten daher möglichst kurz gehalten werden.
