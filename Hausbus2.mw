@@ -88,7 +88,7 @@ Angepeilte Milestones:
 
 Die oben erklärte HTTP-API habe ich in einer Go-Library (und Beispiel) umgesetzt: https://github.com/raumzeitlabor/hausbus2-go
 
-[[Benutzer:Tiefpunkt|tiefpunkt]] arbeitet an einer Implementierung des Hausbus2 in Python: https://github.com/raumzeitlabor/hausbus2-python
+Die Python-Implementierung des [[Hausbus3]] ist bis zu [https://github.com/raumzeitlabor/hausbus3-python/tree/v2.8 Version v2.8] kompatibel mit dem Hausbus2.
 
 == Sicherheit ==
 
@@ -102,36 +102,5 @@ Vorschlag:
 * Bisher gibt es keine Möglichkeit, auf "Events" zu lauschen. Das soll geändert werden.
 * Beispielsweise gibt es das Event "Raum wird geschlossen". Irgendein Hausbus2-Teilnehmer könnte auf dieses Event horchen und somit den Raumstatus setzen sowie das Licht ausschalten.
 * Events erfordern Multicasting, z.b. auf IP-Ebene.
-
-== Message Queues ==
-Das bisherige Konzept sieht ein Pull-Prinzip vor. Ein Teilnehmer, der über Events oder Sensorwerte benachrichtigt werden möchte, muss aktiv Geräte pollen, um den aktuellen Status zu erfahren, und somit eine eventuelle Änderung mitzubekommen.
-
-Nachteile:
-* Geräte müssen bekannt sein, nachträgliches Hinzufügen ist nur schwierig möglich.
-* Polling ist doof.
-
-Alternative: Eine Message Queue.
-
-Nach einigen Überlegungen wurde MQTT als Protokoll ausgewählt. Gründe für die Auswahl:
-* Lightweight
-* Leicht zu implementieren, Libraries für viele Sprachen
-* Last-Will-Funktion
-* Inaktive Devices bekommen Meldungen an sie, sofern gewünscht, vom Broker gecacht und später nachgereicht.
-* Authentifizierung, etc. möglich.
-
-Die Hausbus2 Python-Library unterstützt bereits MQTT.
-
-Wichtige Topics:
-* ''/device/<devicename>/system''<br>Systemdaten des Geräts, automatisch bereitgestellt durch die verwendete Library
-* ''/device/<devicename>/temperature''<br>Temperatur-Sensor-Daten, falls sie anfallen.
-* ''/monitor''<br>Topic für den Last Will,
-
-=== Angebundene Geräte ===
-==== [[Mate (Server)/tiefpunkt.vm.rzl|tiefpunkt.vm.rzl]] ====
-* Hostet den MQTT-Broker (mosquitto)
-* hausbus2-exporters. Exportieren Sensordaten zu aktuell Cosm und OpenTSDB
-==== [[Heizungssteuerung]] (heizung.rzl) ====
-* Temperatursensoren
-* Fensterstatus
 
 [[Kategorie:Infrastruktur]]
