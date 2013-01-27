@@ -1,0 +1,36 @@
+{{ProjektInfoBox
+|name        = Premium (Server)
+|status      = experimental
+|image       = RaumZeitLabor - Logo - Schwarz.svg
+|description = 
+|author      = [[NOC Team|NOC-Team]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = premium.rzl
+|license     = 
+|download    = 
+}}
+
+'''Premium''' ist ein Server, der in Zukunft das [[Jail|Jails]] ersetzen soll.
+
+==Technische Daten==
+{| class="wikitable"  valign = "top"
+|Produkt
+|[http://www.vollmar.net/virtual Vollmar Virtueller Server v3-50]
+|-
+|RAM
+|1024 MB RAM +2048 MB swap
+|-
+|HDDs
+|50 GB
+|}
+
+== geplante Dienste ==
+* Mailingliste
+* Blog
+* Wiki
+
+== Anbindung an internes Netz ==
+Die Anbindung erfolgt über einen Layer2-OpenVPN-Tunnel an die [[Firebox]]. Dort ist das Tunnelinterface an das Interface ''internal'' mit dem Internen Netz gebridged. Erreichbar ist Premium über 172.22.36.7 (IP des ehemaligen Datengrabs).
