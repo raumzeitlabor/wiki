@@ -1,0 +1,63 @@
+{{AchtungKasten1|title=Störung|msg=Durch den Ausfall von [[Mate (Server)|mate.rzl]] ist der Hausbus3 aktuell nicht vollständig verfügbar}}
+{{ProjektInfoBox
+|name        = Hausbus3
+|status      = experimental
+|image       = RaumZeitLabor - Logo - Schwarz.svg
+|description = 
+|author      = [[Benutzer:Tiefpunkt|tiefpunkt]]
+|username    = 
+|version     = v3.0.1
+|update      = 
+|platform    = 
+|hostname    = 
+|license     = 
+|download    = 
+}}
+Auf besonderen Wunsch wurde aus der kontinuierlichen Weiterentwicklung des [[Hausbus2]] nun der '''Hausbus3'''. Er setzt auf ähnlichen Konzepten auf, ergänzt aber viel sinnvolles noch dazu.
+
+Die Kommunikation auf dem Hausbus3 erfolgt via Message Queues, in diesem Falle MQTT. Zusätzlich ist es je nach Implementierung möglich, über HTTP und HTTPS mit kommunizieren, um auch ohne MQTT auf gewissen Dienste direkt zugreifen zu können.
+
+Vorschläge und Kritik am Konzept sind gerne gesehen.
+
+== Message Queues ==
+Der [[Hausbus2]] ein Pull-Prinzip vor. Ein Teilnehmer, der über Events oder Sensorwerte benachrichtigt werden möchte, muss aktiv Geräte pollen, um den aktuellen Status zu erfahren, und somit eine eventuelle Änderung mitzubekommen.
+
+Nachteile:
+* Geräte müssen bekannt sein, nachträgliches Hinzufügen ist nur schwierig möglich.
+* Polling ist doof.
+
+Alternative: Eine Message Queue.
+
+Nach einigen Überlegungen wurde MQTT als Protokoll ausgewählt. Gründe für die Auswahl:
+* Lightweight
+* Leicht zu implementieren, Libraries für viele Sprachen
+* Last-Will-Funktion
+* Inaktive Devices bekommen Meldungen an sie, sofern gewünscht, vom Broker gecacht und später nachgereicht.
+* Authentifizierung, etc. möglich.
+
+=== Topics ===
+* ''/device/<devicename>/system''<br>Systemdaten des Geräts, automatisch bereitgestellt durch die verwendete Library
+* ''/device/<devicename>/temperature''<br>Temperatur-Sensor-Daten, falls sie anfallen.
+* ''/monitor''<br>Topic für den Last Will,
+
+== HTTP/HTTPS ==
+HTTP und HTTPS Kommunikation funktionieren fast ähnlich des [[Hausbus2]]. WIrd sich aber noch ändern, und dann auch ausführlicher dokumentiert.
+
+== Angebundene Geräte ==
+=== [[Mate (Server)/tiefpunkt.vm.rzl|tiefpunkt.vm.rzl]] ===
+* Hostet den MQTT-Broker (mosquitto)
+* hausbus3-exporters. Exportieren Sensordaten zu aktuell Cosm und OpenTSDB
+
+=== [[Heizungssteuerung]] (heizung.rzl) ===
+* Temperatursensoren
+* Fensterstatus
+
+== Code ==
+Basis-Implementierung: [https://github.com/raumzeitlabor/hausbus3-python hausbus3-python]
+
+Endpunkte:
+* [https://github.com/raumzeitlabor/hausbus3-raumstatus hausbus3-raumstatus]: Transferiert den Raumstatus (Hausbus1) auf den Hausbus3. Tut noch nicht.
+* [https://github.com/raumzeitlabor/hausbus3-exporters hausbus3-exporters]: Exportiert auf dem Hausbus3 publizierte Sensorwerte zu Cosm und OpenTSDB.
+* [https://github.com/raumzeitlabor/heizungssteuerung heizungssteuerung]: Heizungssteuerung im Hauptraum. Durch die Nicht-Verfügbarkeit von tiefpunkt.vm.rzl aktuell nur in abgespeckter Version.
+
+[[Kategorie:Projekt]][[Kategorie:Infrastruktur]]
