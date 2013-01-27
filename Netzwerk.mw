@@ -69,7 +69,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.6 || [[blackbox]] || [[Blackbox]] Server
 |-----
-| 172.22.36.7 || premium || vServer bei Vollmar
+| 172.22.36.7 || [[Premium_(Server)|premium]] || vServer bei Vollmar
 |-----
 | 172.22.36.8 || chumby || RZL Chumby
 |-----
