@@ -31,6 +31,7 @@
 * Mailingliste
 * Blog
 * Wiki
+* Raumstatus
 
 == Anbindung an internes Netz ==
 Die Anbindung erfolgt über einen Layer2-OpenVPN-Tunnel an die [[Firebox]]. Dort ist das Tunnelinterface an das Interface ''internal'' mit dem Internen Netz gebridged. Erreichbar ist Premium über 172.22.36.7 (IP des ehemaligen Datengrabs).
