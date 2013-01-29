@@ -1,10 +1,12 @@
+== Eckdaten ==
+Die Trollcon 2013 findet am '''26. und 27. Oktober 2013''' im '''RaumZeitLabor''' statt.
+
 == Orgateam ==
 Die Kernorga besteht aus
 * [[Benutzer:Silsha|silsha]]
 * [[Benutzer:Blabber|blabber]]
 * [[Benutzer:Unicorn|Unicorn]]
 Jeder*in ist herzlich eingeladen, sich an der Organisation zu beteiligen.
-
 == Planung ==
 {{TaskListStart}}
 {{TaskListItem
@@ -19,6 +21,13 @@ Jeder*in ist herzlich eingeladen, sich an der Organisation zu beteiligen.
 | description = bis 01.03.2013
 | responsible = Orga™
 | status = waiting
+| last_changed = 
+}}
+{{TaskListItem
+| title = Räume anfragen/anmieten
+| description = bis 01.09.2013
+| responsible = Vorstand™
+| status =
 | last_changed = 
 }}
 {{TaskListItem
