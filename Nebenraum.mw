@@ -351,17 +351,17 @@ Wände sind gekennzeichnet mit Buchstaben A-M
 ** Idee wäre, einen IP54-Wandschrank zu nutzen.
 *** Problem: bei Staubschutz auch keine Kühlung
 
-* Kabelweg vom Rack E-Ecke bis zur Eingangstür Nebenraum: 15m
-* Kabelweg von Eingangstür bis zum Rack: 3m
-** Es muß also noch verlegt werden: ca. 40m Netzwerkkabel bis zum Netzwerkrack
+* Kabelweg vom Rack E-Ecke bis zum Zwischenteiler: je ca. 30m (insgesamt wurden 60m verlegt)
+* 4/8 Doppeldosen haben Kabel bekommen, dann war die Rolle leer. Nochmal 100m ordern und ich muß das nächste Mal sorgfältiger planen. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 05:20, 29. Jan. 2013 (CET)
 
 ** Kabelenden Nebenraum: 5735 und 5705
 ** Kabelenden Rack: 5734 und 5765
 
-** L01: 5775m - 5781m
-** L02: 5766m - 5774m
-** L07: 5795m - 5782m
-** L08: 15521m -15331m
+** L01: 5775m (Rack?) - 5781m (Dose?)
+** L02: 5766m (Rack?) - 5774m (Dose?)
+** L07: 5782m (Rack?) - 5795m (Dose?)
+** L08: 15521m (Rack?) -15331m (Dose?)
+** Todo: Kabelbinder mit Labelmöglichkeit beschriften und einbauen
 
 === Türen ===
 Um Platz zu sparen, würde ich den Einbau von Schiebetüren vorschlagen, die in die Trennwände eingelassen werden. Der finanzielle und Aufbauaufwand ist etwas höher als bei normalen Türen (~100€ für das Schienensystem gegenüber $geringer für Zargen), dafür spart man sich nicht unerheblich Platz. In meiner Wohnung habe ich eine bereits eingebaut und soweit keine Probleme damit gehabt (abgesehen von einem einmaligen Nachziehen der Laufräder). Außerdem sind Schiebetüren cool und spawnen gerne weitere Projekte (Star-Trek-Sound anyone?). --[[Benutzer:TheTinyToon|TTT]] 11:05, 7. Aug. 2012 (CEST)
