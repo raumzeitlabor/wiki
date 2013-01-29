@@ -5,11 +5,15 @@
 <div class="toccolours mw-collapsible mw-collapsed">
 '''Anleitung für deine lokale CUPS-Installation'''
 <div class="mw-collapsible-content">
+=== CUPS <= 1.5.3 (Debian)
 * Installiere CUPS
 * Gehe ins [https://localhost:631/admin Administrationsmenü]
 * Setze ein Häkchen bei "Show printers shared by other systems"
 * Bestätige mit der Schaltfläche "Change Settings"
 * Unter "Printers" sollte nun der Drucker auftauchen
+
+=== Aktuelle CUPS-Versionen (1.6) ===
+* ??? Research needed
 </div>
 </div>
 
