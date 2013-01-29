@@ -5,7 +5,7 @@
 <div class="toccolours mw-collapsible mw-collapsed">
 '''Anleitung für deine lokale CUPS-Installation'''
 <div class="mw-collapsible-content">
-=== CUPS <= 1.5.3 (Debian)
+=== CUPS <= 1.5.3 (Debian) ===
 * Installiere CUPS
 * Gehe ins [https://localhost:631/admin Administrationsmenü]
 * Setze ein Häkchen bei "Show printers shared by other systems"
