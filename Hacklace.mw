@@ -189,6 +189,8 @@ Wer die vorgefertigten Animationen im Flash durch eigene ersetzen will, muß ein
 
 Als Hilfsmittel zum Erstellen einer Animation kann diese [[Medium:Hacklace_Animationtemplate.bmp|Vorlage]] verwendet werden. Dabei handelt es sich um ein Graustufenbild, das eine Folge von 40 Frames mit je 5 x 8 Pixeln enthält. Mit einem Malprogramm läßt sich die Animation einfach in die Kästchen zeichnen. Die unterste (achte) Zeile bleibt unbenutzt. Eingeschaltete Pixel müssen schwarz (Farbcode 0), ausgeschaltete Pixel müssen weiß (Farbcode 255) gemalt werden. Spalten die Grauwerte enthalten werden später ignoriert. Zuletzt wird das Bild auf die benutzten Frames zugeschnitten, die nicht genutzten Frames werden gelöscht. Eine solche Bitmap läßt sich anschließend mit dem Skript "[[Medium:make_data.m|make_data.m]]" automatisch in ein C-Headerfile konvertieren. Dabei ist der Name des Bildes ohne Extension anzugeben, z. B. make_data('my_animation'). Zum Ausführen des Skripts benötigt man FreeMat, einen freien Matlab-Klon.
 
+Alternativ kann das ein Python-Skript [https://github.com/Don42/image2Hacklace] verwendet werden. Dieses nimmt nimmt als Argumente Grauwertbilder der Größe 5x7 Pixel und gibt standardmäßig die Animation im Format für die Config-Datei aus. Mit dem Parameter "-o source" gibt das Skript C Header, der mit dem Parameter "-f file.h" in die Datei "file.h" geschrieben werden kann. Zum ausführen wird Python 2.6 benötigt.
+
 ===Hacklace als serielles Display===
 Das Hacklace läßt sich auch als originelles Display in eigenen Projekten verwenden. Ein schnöder PC sieht z. B. viel cooler aus, wenn der Systemzustand über ein Hacklace angezeigt wird. Auch eine einfaches Zimmerthermometer wird durch eine Textanzeige per Hacklace deutlich aufgewertet.
 
