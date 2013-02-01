@@ -185,6 +185,9 @@ Hier nun ein Beispiel für ein Konfigurationsfile.
 Ein Default-Konfigurationsfile, mit dem sich der Ausgangszustand wieder herstellen läßt, befindet sich im Git-Repository [https://github.com/fabster/Hacklace].
 
 ===Animationen erstellen===
+
+'''Eine Animation erstellst du am einfachsten mit dem Hacklace-Animator: [https://github.com/Hacklace/Animator/wiki/Download https://github.com/Hacklace/Animator/wiki/Download]'''
+
 Wer die vorgefertigten Animationen im Flash durch eigene ersetzen will, muß eine Header-Datei erstellen, die die entsprechenden Daten als Byte-Array enthält. In "animations.h" wird dann ein #include-Befehl eingefügt, der diese Datei einbindet. Außerdem muß die Animation in die Liste der Animationen (animation[]) eingetragen werden. Die Position in dieser Liste legt fest, über welchen Buchstaben die Animation referenziert wird. Z. B. wird mit '~A' die erste Animation in der Liste aufgerufen (siehe [[Hacklace#Format des Konfigurationsfiles|Konfigurationsfile]]).
 
 Als Hilfsmittel zum Erstellen einer Animation kann diese [[Medium:Hacklace_Animationtemplate.bmp|Vorlage]] verwendet werden. Dabei handelt es sich um ein Graustufenbild, das eine Folge von 40 Frames mit je 5 x 8 Pixeln enthält. Mit einem Malprogramm läßt sich die Animation einfach in die Kästchen zeichnen. Die unterste (achte) Zeile bleibt unbenutzt. Eingeschaltete Pixel müssen schwarz (Farbcode 0), ausgeschaltete Pixel müssen weiß (Farbcode 255) gemalt werden. Spalten die Grauwerte enthalten werden später ignoriert. Zuletzt wird das Bild auf die benutzten Frames zugeschnitten, die nicht genutzten Frames werden gelöscht. Eine solche Bitmap läßt sich anschließend mit dem Skript "[[Medium:make_data.m|make_data.m]]" automatisch in ein C-Headerfile konvertieren. Dabei ist der Name des Bildes ohne Extension anzugeben, z. B. make_data('my_animation'). Zum Ausführen des Skripts benötigt man FreeMat, einen freien Matlab-Klon.
