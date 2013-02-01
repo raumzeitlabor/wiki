@@ -13,6 +13,10 @@
 |download    = 
 }}
 
+== Betrieb unter Linux ==
+
+Der Schneidplotter spricht HPGL, welches wiederum von InkCut (ein Schnittplugin für Inkscape) verwendet werden könnte. (zu verifizieren). Die Kompatibilitätsliste von InkCut listet einige Summa-Modelle auf (kein Hinweis auf USB, wohl nur via Serial?)
+
 == Zu lesen ==
 
 http://libregraphicsworld.org/blog/entry/vinyl-cutting-on-linux-the-real-deal
