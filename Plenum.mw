@@ -37,6 +37,7 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 ; Türbackup
 : Es ist jetzt schon mehrfach vorgekommen, daß der Pinpad-Mechanismus (aus welchen Gründen auch immer) nicht funktioniert hat. Wir brauchen eine Backuplösung (aka Schlüssel). --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 14:26, 25. Jan. 2013 (CET)
 :: Ein Schlüssel für die E-Eckentür hängt (inzwischen wieder) im Getränkelager über der Tür. --[[Benutzer:Hax404|Hax404]] ([[Benutzer Diskussion:Hax404|Diskussion]]) 13:53, 1. Feb. 2013 (CET)
+:: Solange der Pinpad-Controller ansprechbar ist (d.h. Strom vom Hausbus bekommt), kann die Tür geöffnet werden, AUSSER das EEPROM ist kaputt. In diesem Fall kann die Tür mit einer Generalpin geöffnet werden (beim Vorstand hinterlegt). Wenn der Pinpad-Controller tot sein sollte (das macht sich durch einen langen Piepton nach dem ersten Tastendruck bemerkbar), kann die Tür, wie von Hax angemerkt, mit dem Schlüssel aus dem Lager geöffnet werden.
 
 ; IRC Netiquette
 : Nervige Bots ohne Mehrwert (Informationen, Vereinsrelevante Dinge) spammen im IRC rum. Besitzer der Bots interessierts nicht - ich wäre dafür diese Bots zu bannen. Ein einfaches ignore ist imho keine Lösung, da genau wie im richtigen Leben ein wegsehen nicht hilft. --[[Benutzer:Muzy|Muzy]] ([[Benutzer Diskussion:Muzy|Diskussion]]) 19:06, 29. Jan. 2013 (CET)
