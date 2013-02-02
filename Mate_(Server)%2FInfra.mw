@@ -13,16 +13,7 @@
 |download    = 
 }}
 
-Diese VM wird interne Dienste hosten.
-
-* BenutzerDB
-* IRC Bots
-* Pingi-Pie Host
-* Stromverbrauch
-* CUPS
-* …
-
-Dienste, die in dieser VM laufen sollen, ''müssen'' rebootfest und als Debian Paket gebundelt sein (sonst werden sie nicht installiert).
+Diese VM hostet wichtige interne Dienste. Dienste, die in dieser VM laufen sollen, ''müssen'' rebootfest und als Debian Paket gebundelt sein (sonst werden sie nicht installiert).
 
 Auf der Infra-VM wird '''systemd''' als Init-System eingesetzt, um das Entwickeln und Managen der Systemsoftware zu vereinfachen.
 
