@@ -23,7 +23,7 @@ Du kannst dich unter https://raumzeitlabor.de/BenutzerDB/register registrieren.
 
 == Technik ==
 
-Die BenutzerDB basiert auf dem Webframework [http://perldancer.org/ Dancer] sowie Template::Toolkit und wird mittels Twiggy ausgeliefert. Twiggy lauscht auf <tt>127.0.0.1:3000</tt>; der Apache ist so konfiguriert, daß er mittels ProxyPass das ganze auf der normalen Blackbox abbildet. Die BenutzerDB liefert aus Sicherheitsgründen bei Fehlern/Bugs keinen Stracktrace zurück, sondern einen 500 (ohne jeglichen Inhalt -- to be fixed). Auf dem Server sind jedoch weitere Informationen unter <tt>/usr/share/benutzerdb/logs/production.log</tt> verfügbar.
+Die BenutzerDB basiert auf dem Webframework [http://perldancer.org/ Dancer] sowie Template::Toolkit und wird mittels Twiggy ausgeliefert. Twiggy lauscht auf <tt>127.0.0.1:3000</tt>; der Apache ist so konfiguriert, daß er mittels ProxyPass das ganze auf infra.rzl abbildet. Die BenutzerDB liefert aus Sicherheitsgründen bei Fehlern/Bugs keinen Stracktrace zurück, sondern einen 500 (ohne jeglichen Inhalt -- to be fixed). Auf dem Server sind jedoch weitere Informationen unter <tt>/usr/share/benutzerdb/logs/production.log</tt> verfügbar.
 
 Die BenutzerDB wurde ursprünglich von sECuRE geschrieben und wird nun von Else weiter betreut.
 
