@@ -52,14 +52,18 @@ Aktuell können noch keine Mitglieder VMs erstellt werden, da folgendes noch feh
 Vor der Installation neues, leeres Image anlegen (Images liegen unter '''/srv/vm'''):
 
 <pre>
-fallocate -l 40G /srv/vm/<vmname>.img
+export VMNAME=foobar
+</pre>
+
+<pre>
+fallocate -l 40G /srv/vm/$VMNAME.img
 </pre>
 
 Dann Netzinstallation starten:
 
 <pre>
-virt-install --connect qemu:///system --name=<vmname> --ram=<raminmb> --vcpus=1 \
---disk path=/srv/vm/<vmname>.img,format=raw,cache=none,bus=virtio --os-type linux \
+virt-install --connect qemu:///system --name=$VMNAME --ram=256 --vcpus=1 \
+--disk path=/srv/vm/$VMNAME.img,format=raw,cache=none,bus=virtio --os-type linux \
 --os-variant debianwheezy --network=bridge=br0,model=virtio --nographics \
 --location http://ftp.de.debian.org/debian/dists/wheezy/main/installer-amd64/ \
 --extra-args="console=tty0 console=ttyS0,115200n8" -v
