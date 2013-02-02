@@ -21,4 +21,7 @@ Eckdaten:
 * 30GB HDD
 * Apache2 fürs Frontend
 * Noch kein SSL
+
+Partkeepr nutzt [[Mate (Server)/DB|db.rzl]] als Datenbank. Man kann sich auf Partkeepr mit denselben Benutzerdaten wie auf der [[BenutzerDB]] einloggen, hierfür nutzen wir das von uns erweiterte Apache2 Plugin [https://github.com/raumzeitlabor/rzl-benutzerdb/tree/master/mod-auth-mysql-4.3.9 mod_auth_mysql].
+
 [[Kategorie:Infrastruktur]]
