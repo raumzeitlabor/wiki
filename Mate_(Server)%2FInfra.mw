@@ -32,7 +32,7 @@ Folgende Dienste laufen ''aktuell'' auf der VM:
 * Apache2
 * PIN Sync
 * RaumZeitMPD IRC-Bot
-* BenutzerDB (noch nicht umgeleitet)
+* BenutzerDB
 
 == TODO ==
 * Monitoring (z.B. pin-sync)
