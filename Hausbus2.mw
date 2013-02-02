@@ -4,7 +4,7 @@ Diese Seite dient dazu, den Nachfolger des Hausbus zu designen. Wer mithelfen m�
 * Wurde in Q3 2010 hauptsächlich von sECuRE gebastelt, nach Idee/Vorschlägen von Scytale und anderen
 * verwendet RS485 (etwas aufgebohrte serielle Schnittstelle) zur Kommunikation (2 Adern) in Patchkabeln, zwei Adern zur Stromversorgung
 * Busmaster kontrolliert, wer wann spricht und schickt das ganze via Ethernet an die Firebox
-* Firebox stellt eine Schnittstelle (HTTP) zur Verfügung um zu lesen und zu senden. Derzeit läuft auf der Blackbox z.B. der Pin-Validator, der vom Pinpad liest und zum Pinpad den Entsperr-Befehl sendet. Weiterhin läuft auf der Firebox das SSH-Aufschließ-Script.
+* Firebox stellt eine Schnittstelle (HTTP) zur Verfügung um zu lesen und zu senden. Derzeit läuft auf infra.rzl z.B. der Pin-Validator, der vom Pinpad liest und zum Pinpad den Entsperr-Befehl sendet. Weiterhin läuft auf der Firebox das SSH-Aufschließ-Script.
 * Teilnehmer sind Mikrocontroller, z.B. ATmega644p.
 * Derzeit existiert nur der Pinpad-Controller, angedacht sind Heizungssteuerung (in naher Zukunft), Temperatursensoren (Proof-of-concept vorhanden), Lichtsteuerung (Status unklar), evtl. Stromzähler (statt Flukso), evtl. Kassenterminal (?)
 
