@@ -15,7 +15,7 @@
 
 == Status ==
 
-Das Pinpad ist seit dem 23.11.2010 in Benutzung. Zum Öffnen der Tür hat jedes Mitglied eine persönliche PIN, die man mit ipv6 auf http://blackbox.raumzeitlabor.de/BenutzerDB/ und ohne ipv6 auf https://raumzeitlabor.de/BenutzerDB/ einsehen kann. Wer noch keine PIN hat, muss sich dort erst einen Benutzernamen anlegen und dann die dort angegebenen Admins kontaktieren.
+Das Pinpad ist seit dem 23.11.2010 in Benutzung. Zum Öffnen der Tür hat jedes Mitglied eine persönliche PIN, die man mit ipv6 auf http://infra.raumzeitlabor.de/BenutzerDB/ und ohne ipv6 auf https://raumzeitlabor.de/BenutzerDB/ einsehen kann. Wer noch keine PIN hat, muss sich dort erst einen Benutzernamen anlegen und dann die dort angegebenen Admins kontaktieren.
 
 Zum Abschließen des Raums gibt man die Pin 666, gefolgt von der Rautetaste ein.
 
@@ -28,7 +28,7 @@ Das Pinpad besteht aus mehreren Teilen:
 * Das Frontend hängt draußen vor der Tür. Es wird separat mit Strom versorgt und kommuniziert via RS232 mit dem Pinpad-Controller innen. Im Frontend steckt keine Logik, es ist nur Benutzerschnittstelle nach außen.
 * Der Pinpad-Controller befindet sich zusammen mit dem Hometec++ in einem Gehäuse (siehe rechts) oben auf dem Schrank direkt neben der Tür. Er nimmt am [[Hausbus]] teil und stellt dort den Türstatus zur Verfügung. Weiterhin steuert er den HomeTec++ an um die Tür zu entriegeln und verriegeln.
 * Der HomeTec++ ist eine Platine, welche die beiden Motoren im HomeTec-Türschloss steuert (die originale Elektronik fanden wir ungeeignet).
-* Auf der Blackbox läuft (noch) die Benutzerdatenbank. Der Pinpad-Controller broadcastet regelmäßig den CRC seines EEPROMs, in dem die PINs gespeichert sind, sodass man auch ohne funktionierenden Hausbus oder Datenbank den Raum öffnen kann. Wenn der CRC des Controllers von dem berechneten CRC auf Basis der Datenbank abweicht (z.B. wegen neuen oder ausgetretenen Mitgliedern), so werden die PINs neu synchronisiert. Zusätzlich gibt es noch eine hardcoded PIN, die dem Vorstand bekannt ist.
+* Auf infra.rzl läuft die Benutzerdatenbank. Der Pinpad-Controller broadcastet regelmäßig den CRC seines EEPROMs, in dem die PINs gespeichert sind, sodass man auch ohne funktionierenden Hausbus oder Datenbank den Raum öffnen kann. Wenn der CRC des Controllers von dem berechneten CRC auf Basis der Datenbank abweicht (z.B. wegen neuen oder ausgetretenen Mitgliedern), so werden die PINs neu synchronisiert. Zusätzlich gibt es noch eine hardcoded PIN, die dem Vorstand bekannt ist.
 
 Ein Video der Funktionalität (noch mit original HomeTec) sieht man auf http://www.youtube.com/watch?v=54flBqny6HU
 
