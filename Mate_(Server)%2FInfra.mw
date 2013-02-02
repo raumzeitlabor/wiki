@@ -26,7 +26,7 @@ Folgende Dienste laufen ''aktuell'' auf der VM:
 * BenutzerDB
 
 == TODO ==
-* Monitoring (z.B. pin-sync)
 * Firewalling
+* Mail Setup
 
 [[Kategorie:Infrastruktur]]
