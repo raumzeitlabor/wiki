@@ -20,6 +20,9 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 ; Beschlüsse des letzten Plenums
 :Realitätsabgleich
 
+; Trollcon 2013
+: Dieses Jahr findet die Trollcon 2013 wieder im RaumZeitLabor statt. Wer mithelfen möchte, ist herzlich eingeladen. (Oke, wa ales. Keine Abstimmung, nur Ankündigung – falls nicht noch jemanden was einfällt.) --[[Benutzer:Silsha|silsha]] ([[Benutzer Diskussion:Silsha|Diskussion]]) 16:09, 2. Feb. 2013 (CET)
+
 ; WLAN-AP Nebenraum
 : Nach den eher ernüchternden Erfahrungen mit Plastik-WLAN-APs und der Tatsache, daß wir für den Nebenraum sowieso einen AP brauchen, schlage ich vor, einen Enterprise AP (Ubiquiti UniFi Enterprise UAP) für den Nebenraum anzuschaffen. Der Shack hat sehr gute Erfahrungen damit gemacht, vor allem, weil das System gut skaliert und die Managementsoftware kostenlos ist. 2,4GHz mit 300mbps max kostet 80 Euro, Mixed Mode 2,4Ghz+5Ghz (300/450mbps) kostet 200 Euro. Der 3er Pack 2.4GHz kostet:
 :: [http://www.interprojekt.com.pl/ubiquiti-3pack-wifi-system-with-software-controller-p-1293.html 134 Euro aus Polen + Versand 11 Euro].
