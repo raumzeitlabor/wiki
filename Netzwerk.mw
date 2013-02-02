@@ -91,7 +91,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.116 || analogsprech || CISCO SPA112 Adapter für [[Raumtelefon]]
 |-----
-| 172.22.36.117 || vip1710 || [[VIP1710]] - MPD
+| 172.22.36.117 || mpd || [[MPD]]
 |-----
 | 172.22.36.118 || usbprint0 || ?
 |-----
