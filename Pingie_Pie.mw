@@ -1,3 +1,5 @@
+{{AchtungKasten1|title=Offline|msg=Durch die Abschaltung der [[Blackbox]] und in Absprache mit [[Benutzer:Felicitus|Felicitus]] wurde Pingie Pie temporär abgeschaltet.}}
+
 {{ProjektInfoBox
 |name        = Pingie Pie
 |status      = experimental
@@ -101,9 +103,9 @@ Die geplante Funktionsweise:
 
 Es soll ein Easteregg geben ;)
 
-=== Software (Blackbox) ===
+=== Software ===
 
-Die Implementation auf der Blackbox besteht aus 2 Programmen:
+Die Implementation besteht aus 2 Programmen:
 
 * Ein [https://github.com/raumzeitlabor/ping-plus-host/blob/master/pingplus.py Python-Script], welches mittels pyusb und libusb die USB-Mikrokontrollerfunktionen hostseitig anbietet und als CLI-Script implementiert ist
 * Ein kleiner [https://github.com/raumzeitlabor/ping-plus-host/blob/master/index.php Webservice], an welchen neue Zeilen aus dem IRC gepostet werden können
