@@ -26,6 +26,10 @@ Der Schneidplotter spricht HPGL, welches wiederum von InkCut (ein Schnittplugin 
 
 http://libregraphicsworld.org/blog/entry/vinyl-cutting-on-linux-the-real-deal
 
+== Serielle Schnittstelle ==
+
+* Es hängt ein usb2serial von [[Benutzer:Felicitus|Felicitus]] an dem Schneidplotter, der für tests verwendet werden kann. Falls er nicht mehr benötigt wird, bitte in meine Public-Kiste zurücklegen.
+
 == Verbrauchsmaterial ==
 
 === Tangentialmesser 60° ===
