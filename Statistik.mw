@@ -24,13 +24,43 @@ Hier werden Zustände des RZL protokolliert.
 | 26.11.2011 || 19:06 || 17,3°C
 |}
 
-== Stromverbrauch ==
+== Stromverbrauch 2013 ==
+
+Die Kilowattstunde kostet uns 0,22€.
+
+=== Hauptraum ===
+
+{| class="wikitable"
+|-
+! Datum !! Uhrzeit !! Stand !! Kosten !! Kosten pro Tag !! Kosten pro Monat !! Kosten seit der letzten Stromrechnung (30000kWh)
+|-
+| 03.02.2013 || 10:34 || 31014.54 || - || 6.76 || 223.20 || 223.20
+|-
+| 31.12.2012 || 13:37 || 30000.39 || - || - || - || -
+|-
+|}
+
+=== Nebenraum ===
+
+{| class="wikitable"
+|-
+! Datum !! Uhrzeit !! Stand !! Kosten !! Kosten pro Tag !! Kosten pro Monat !! Kosten seit der letzten Stromrechnung (182kWh)
+|-
+| 03.02.2013 || 10:34 || 276.9 || - || 0.63 || 20.72 || 20.72
+|-
+| 31.12.2012 || 13:37 || 182.7 || - || - || - || -
+|-
+|}
+
+== Stromverbrauch 2012 ==
 
 Die Kilowattstunde kostet uns 0,22€. Der Zählerstand im Nebenraum beträgt am 22.09.2012 um 01:41 Uhr genau 33,4kWh.
 
 {| class="wikitable"
 |-
 ! Datum !! Uhrzeit !! Stand !! Kosten !! Kosten pro Tag !! Kosten pro Monat !! Kosten seit der letzten Stromrechnung (21478kWh)
+|-
+| 31.12.2012 || 13:37 || 30000.39 || - || - || 192,64€ || 1874,84€
 |-
 | 01.10.2012 || 18:23 || 27373.14 || - || - || 144,10€ || 1296,93€
 |-
