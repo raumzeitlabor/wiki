@@ -254,6 +254,10 @@ Struktur:
 | 2013-01-18
 | Der Ultimaker hat jetzt Füße bekommen.
 | Felicitus
+|-
+| 2013-02-03
+| Das Ultimaker-Netzteil ist seit einer Woche kaputt, thinkJD hat neues bestellt und wir bekommen ein neues von Ultimaker. Ich habe verifiziert, daß das alte Netzteil wirklich kaputt ist -> so ist es auch. Bei einer Last von 500mA schaltet das alte Netzteil ab. Reparatur ist nicht drin, weil vergossenes Gehäuse. Habe den Verbinder abgeknipst und ans Labornetzteil gehängt -> Ultimaker braucht >3A im Idle ohne angeschlossene Motoren. Klingt nach einem Defekt.
+| Felicitus
 |}
 
 == Andere Interessante $Dinge ==
