@@ -1,23 +1,24 @@
-{{ProjektInfoBox
-|name        = Schneidplotter
-|status      = experimental
-|image       = SummaSign.jpg
-|description = SummaSign Pro T1010 SL
-|author      = 
+{{GeraetInfoBox
+|name        = SummaSign Pro T1010 SL
+|status      = working
+|image       = Plotter.jpg
+|description = Tangentialschneideplotter
+|owner       = Verein
 |username    = 
-|version     = 
-|update      = 
-|platform    = 
-|hostname    = 
-|license     = 
-|download    = 
+|financing   = Crowdfunding + Vereinsgeld
 }}
+
+== Betrieb unter Windows (Momentan empfohlen) ==
+
+: ''Wer keinen Windows-Rechner hat, kann auch das dafür zur Verfügung stehende Laptop (Sony VAIO, es steht Groß "Brother P-Touch SW" darauf) benutzen. Dort ist auch die nötige Software bereits installiert''.
+
+Vektorgrafik generieren (z.B. mit Inkscape, als .eps abspeichern) und diese in [http://www.summa.be/html_de/support/software.php Summa Winplot] öffnen. Plotter via USB anschließen. Plotten. <small>(Todo: Details zur Benutzung der Software).</small>
 
 == Betrieb unter Linux ==
 
 Der Schneidplotter spricht HPGL, welches wiederum von InkCut (ein Schnittplugin für Inkscape) verwendet werden könnte. (zu verifizieren). Die Kompatibilitätsliste von InkCut listet einige Summa-Modelle auf (kein Hinweis auf USB, wohl nur via Serial?)
 
-== Zu lesen ==
+=== Zu lesen ===
 
 http://libregraphicsworld.org/blog/entry/vinyl-cutting-on-linux-the-real-deal
 
