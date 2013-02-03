@@ -1,0 +1,157 @@
+Plenum vom 3. Februar 2013
+Anwesend: silsha, blabber, nicoduck, DaFo, hax404, muzy, don, fabster, EvilSadnes, Drahti, eeemsi, thinkJD, slowpoke
+
+Leitung: [[Benutzer:ThinkJD|thinkJD]]<br>
+Protokoll: [[Benutzer:silsha|silsha]]
+
+Beginn: 16:48
+
+== Protokoll ==
+=== Beschlüsse des letzten Plenums ===
+==== Schneidplotter ====
+''von Unicorn''
+
+Wurde gekauft. Steht im Raum.
+
+==== Oszilloskope in der E-Ecke ====
+''von echox''
+
+Eins wurde beseitigt.
+
+==== Tunneln über Schweden ====
+''von silsha''
+
+Läuft. Meistens.
+
+Irgendwann kommt auch IPv6 dazu, solange (ab demnächst™) bei Tunnelbroker - aktuell noch über docsteel.
+
+=== Trollcon 2013 ===
+''von silsha''
+
+Findet am 26. und 27. Oktober statt, am Dienstag ist das erste Orgameeting.
+
+Don ist immernoch gegen geschlossene Veranstaltungen. Wird auf dem Orgameeting noch mal thematisiert.
+
+=== WLAN-AP Nebenraum ===
+''von Felicitus''
+
+Nicoduck übernimmt. WLAN-Situation ist unzufriedenstellend. Kamen auf die Idee, die Accesspoints vom shackspace zu übernehmen. Sollen stabil sein und toll und so.
+
+System kann unendlich™ mit Accesspoints erweitert werden.
+
+Haben die Wahl zwischen drei Geräte, die nur 2,4GHz können oder einen 2,4Ghz+5GHz.
+
+Mögliche Preise:
+* 1x2,4GHz - 50€
+* 1x2,4+5GHz - 150€
+* 3x2,4GHz - 130€
+* 3x2,4+5GHz - 490€
+
+nicoduck schlägt vor 1x2,4+5GHz zu kaufen. Es wird abgestimmt:
+* Dafür: 11
+* Dagegen: 0
+* Enthaltung: 0
+
+Abrock prüft, ob das drin ist.
+Update: Alex sagt, ist drin. Wird gekauft. nicoduck kümmert sich.
+
+=== Netzwerk in den Tischen ===
+''von Felicitus''
+
+Nicoduck übernimmt. Gab mal ein Plenumspunkt, wurde nie umgesetzt. nico weiß nicht, welche Pläne Felicitus hat. Skip.
+
+=== Mehr Transparenz bei Projekten ===
+''von Else''
+
+Else abwesend. Skip.
+
+Doch nicht skip. Fabster möchte am Dienstag die Ergebnisse des Hacklaceverkaufs vorstellen. Nun doch skip.
+
+=== Türbackup ===
+''von Felicitus''
+
+Skip. Schlüssel hängt wie gehabt im Getränkelager. blabber forscht nach einer Generalpin (soll es geben, munkelt man). SKIP!
+
+=== Elektroherd ===
+''von DaFo''
+
+Unser aktueller Elektroherd macht Dinge, wenn man mehr als zwei Platten nutzt. Sollten einen neuen anschaffen. Was wollen wir?
+
+Herdplatten gehen nicht kaputt. $Dinge mit Glas gehen in Hackerspaces immer™ kaputt.
+
+Nico möchte an den Verstand der Leute appelieren. Man weißt ihn darauf hin, dass dieser nicht vorhanden ist.
+
+JD hätte gerne einen Induktionsherd.
+
+DaFo holt  Angebote ein. Wird auf dem nächsten Plenum besprochen.
+
+Slowpoke hätte gerne einen Ofen mit Pyrolyse. Ist wichtig und Fachjargon.
+
+=== Backwaren ===
+''von DaFo''
+
+In Phillipsburg gibt’s einen Laden, der uns Backwaren liefern könnte (nicht Tiefkühl). Mal anfragen, ob die uns beliefern würden?
+
+DaFo holt mal ein Angebot ein.
+
+=== Anschaffung einer Leiter ===
+''von Felicitus''
+
+Felicitus ist nicht hier. Aktuelle Leiter ist nicht dauerhaft im Labor.
+
+Soll 170€ kosten. Abstimmung, ob eine Leiter gekauft wird:
+* Dafür: 10
+* Dagen: 0
+* Enthaltung: 4
+
+Wird angeschafft, wenn Alex »Okeh« sagt.
+
+=== Anschaffung von Lötkolben ===
+''von Muzy''
+
+Haben bald einen Lötworkshop, da reichen die Lötkolben nicht aus. Muzy würde gerne einen 10er-Satz Lötkolben ordern. Preis zwischen 300-1500€ für 10 Sätze + Werkzeug.
+
+JD regt an, ob man das nicht finanzieren könnte.
+
+DaFo fragt mal $irgendwo, ob die nicht spenden wollen.
+
+Preise werden auf dem nächsten Plenum vorgestellt.
+
+=== IRC Netiquette ===
+''von Muzy''
+
+blabber hats Popcorn vergessen. Muzy ist böse auf blabber. nico sekundiert.
+
+Muzy nerven Bots. Ignore ist nicht so toll.
+
+echox hat Bauchweh dabei, regeln für den Channel festzulegen. Vielleicht nur ’ne Phase?
+
+eeemsi sagt, es ist eine Sache des Plenums, weil es alle Mitglieder angeht. Muss jetzt festgelegt werden, wie wir damit umgehen.
+
+blabber findet es schwer zu definieren, was Spaß ist und was nicht. Sieht das Problem an den Bots nicht. Richtlinien sind überflüssig.
+
+Muzy fasst zusammen: Hier geht’s nicht um eine Netiquette, sondern um das Bewusstsein zu schaffen, dass Leute gestört werden.
+
+Don stört es, dass die Bots nicht auf Befehle sondern auf $irgendwas reagieren.
+
+eeemsi merkt an, dass die Bots erst nerven, seitdem sich Leute beschweren.
+
+JD fragt nach einem Lösungsansatz. Er sieht keine Möglichkeit, das zu verhindern, außer mit den Leuten zu reden, die die Bots betreiben.
+
+Muzy ist zufrieden.
+
+=== FaZzZ0r ===
+
+Gibt nur zwei Schlüssel für den FaZzZ0r. Darf das Gerät noch weiter hier rumstehen?
+* Dafür: 11
+* Dagegen: 1
+* Enthaltung: 1
+
+=== Weltherrschaft ===
+''von blabber und thinkJD''
+Skip.
+
+Ende um 17:53
+
+[[Kategorie:Protokoll]]
+[[Kategorie:Plenum]]
