@@ -18,3 +18,7 @@
 
 * Dieser Teil ist besonders kritisch, sonst waren wir mal der Hackerspace mit der spannensten Mailingliste
 * Plattenplatz: derzeit 1.1GB
+
+== Offene Punkte ==
+
+* Eigentlich will man verschiedene Dienste unter verschiedenen Apache-Usern laufen lassen, damit potentielle Sicherheitslücken in einem PHP-Teil nicht andere Dinge beeinflussen. Dies ist aber nur sinnvoll möglich, wenn wir über Subdomains arbeiten, und hierfür fehlt uns ein Wildcardzertifikat, da ohne SSL das ganze ziemlich doof wäre.
