@@ -20,49 +20,6 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 ; Beschlüsse des letzten Plenums
 :Realitätsabgleich
 
-; Trollcon 2013
-: Dieses Jahr findet die Trollcon 2013 wieder im RaumZeitLabor statt. Wer mithelfen möchte, ist herzlich eingeladen. (Oke, wa ales. Keine Abstimmung, nur Ankündigung – falls nicht noch jemanden was einfällt.) --[[Benutzer:Silsha|silsha]] ([[Benutzer Diskussion:Silsha|Diskussion]]) 16:09, 2. Feb. 2013 (CET)
-
-; WLAN-AP Nebenraum
-: Nach den eher ernüchternden Erfahrungen mit Plastik-WLAN-APs und der Tatsache, daß wir für den Nebenraum sowieso einen AP brauchen, schlage ich vor, einen Enterprise AP (Ubiquiti UniFi Enterprise UAP) für den Nebenraum anzuschaffen. Der Shack hat sehr gute Erfahrungen damit gemacht, vor allem, weil das System gut skaliert und die Managementsoftware kostenlos ist. 2,4GHz mit 300mbps max kostet 80 Euro, Mixed Mode 2,4Ghz+5Ghz (300/450mbps) kostet 200 Euro. Der 3er Pack 2.4GHz kostet:
-:: [http://www.interprojekt.com.pl/ubiquiti-3pack-wifi-system-with-software-controller-p-1293.html 134 Euro aus Polen + Versand 11 Euro].
-:: [http://dl.ubnt.com/datasheets/unifi/UniFi_AP_Datasheet.pdf Datenblatt]
-:: [http://wiki.ubnt.com/UniFi UniFi Software, auch für Debian] --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 17:08, 4. Jan. 2013 (CET)
-:: Persönliche Meinung: Lieber 1x Mixed Mode kaufen, denn niemand wartet gerne und keiner stöpselt zum Film streamen nen LAN-Kabel ein. Beim gucken von nem Full-HD-Video vom Datengrab blockiert man das WLAN der anderen damit und merkt es nicht einmal, mit 5GHz ist das weniger Problematisch. [http://www.wiedemann-is.de/shop/product_info.php?refID=geiz2010&info=p486_3x-pack-ubiquiti-unifi-scalable-enterprise-wlan-access-point-uap-pro-2-4---5ghz.html gibt's auch im 3er Pack], aber der 3er-Pack ist wirklich im Moment unnötig, außer wir müssen viel Geld loswerden. Wir können auch den jetzigen AP in den Nebenraum stellen und den Super-Dupler-AP im Hauptraum nutzen. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 02:52, 6. Jan. 2013 (CET)
-:: Meine Meinung: Ich bin für homogenität im WLAN, vor allem im Anbetracht des Managementes der Ubiquity. Ich bin damit für mehr als einen AP, das verteilt die Last und wir können die Sendeleistung herunterschrauben. Die Theoretische Maximalbandbreite von 300Mbit/s liegt deutlich über der von FullHD Videos (die gerippt so um die 10Mbit/s haben, oft auch weniger). Fehler sollten mit einer Homogenen Umgebung direkt im Management sichtar sein und man würde sich das ständige rumhoppeln auf den APs sparen. Falls das mit den Filmen wrklich so dramatisch ist steht hier um Punkt drunter doch die Netzwerkdosenplanung auf den Tischen. Ob man jetzt ein HDMI und Audio kabel und noch ein Netzwerk mehr oder weniger anstöpselt ist imho nicht so wild. Das gestückel mit mehren WLAN APs hat schon auf der Trollcon gut funktioniert. Oh wait, hat es nicht :(  --[[Benutzer:Nicoduck|Nicoduck]] ([[Benutzer Diskussion:Nicoduck|Diskussion]]) 15:20, 12. Jan. 2013 (CET) 
-
-; Netzwerk in den Tischen
-: Wir hatten in $irgendeinem Plenum mal drüber gesprochen, ich würde das gerne umsetzen. Es gibt dazu [[Tischsteckdosen#Netzwerk|3 Ideen]], wovon ich mittlerweile die 3. Idee bevorzuge. Ich stelle alle 3 Varianten vor und möchte wissen, ob wir das umsetzen wollen. Im gleichen Zuge bitte ich um Mittel für den Kauf von 30 Patchkabeln (30cm) für den Nebenraum sowie diverse andere Längen, je nachdem, ob wir uns für eine Netzwerk-Tischvariante entscheiden. Wenn auf diesem Plenum dafür entschieden wird, können wir die entsprechenden Netzwerkdosen gleich mit dem Elektro-Foo für den Nebenraum mitbestellen. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 23:18, 4. Jan. 2013 (CET)
-
-; Mehr Transparenz bei Projekten
-: Im RZL wird Transparenz ja großgeschrieben. Leider habe ich nicht den Eindruck, dass wir hier bei diversen Projekten, die vom RZL (mit-)finanziert werden, unserem Anspruch gerecht werden. Konkret wünsche ich mir, dass Projekte, die $Geldmenge vom Verein bekommen um Spenden / Einnahmen zu generieren, proaktiv Berichte über den finanziellen Erfolg / Misserfolg abliefern sollten (und zwar nicht nur dem Kassenwart). Mir würden hier z.B. die MRMCD, das Hacklace oder der Congress einfallen. --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 16:30, 11. Jan. 2013 (CET)
-:: Dafür gibt es den Kassenwart und die Kassenprüfer. Frag doch nach Unterlagen-Einsicht beim Kassenwart. --[[Benutzer:Muzy|Muzy]] ([[Benutzer Diskussion:Muzy|Diskussion]]) 23:58, 1. Feb. 2013 (CET)
-
-; Türbackup
-: Es ist jetzt schon mehrfach vorgekommen, daß der Pinpad-Mechanismus (aus welchen Gründen auch immer) nicht funktioniert hat. Wir brauchen eine Backuplösung (aka Schlüssel). --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 14:26, 25. Jan. 2013 (CET)
-:: Ein Schlüssel für die E-Eckentür hängt (inzwischen wieder) im Getränkelager über der Tür. --[[Benutzer:Hax404|Hax404]] ([[Benutzer Diskussion:Hax404|Diskussion]]) 13:53, 1. Feb. 2013 (CET)
-:: Solange der Pinpad-Controller ansprechbar ist (d.h. Strom vom Hausbus bekommt), kann die Tür geöffnet werden, AUSSER das EEPROM ist kaputt. In diesem Fall kann die Tür mit einer Generalpin geöffnet werden (beim Vorstand hinterlegt). Wenn der Pinpad-Controller tot sein sollte (das macht sich durch einen langen Piepton nach dem ersten Tastendruck bemerkbar), kann die Tür, wie von Hax angemerkt, mit dem Schlüssel aus dem Lager geöffnet werden.
-:: Die Haupttür war bereits schonmal kaputt (irgendwas mit Türbolzen), ich präferiere da eigentlich noch nen Schlüsselbackup für die E-Ecken-Tür. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 15:56, 1. Feb. 2013 (CET)
-
-; IRC Netiquette
-: Nervige Bots ohne Mehrwert (Informationen, Vereinsrelevante Dinge) spammen im IRC rum. Besitzer der Bots interessierts nicht - ich wäre dafür diese Bots zu bannen. Ein einfaches ignore ist imho keine Lösung, da genau wie im richtigen Leben ein wegsehen nicht hilft. --[[Benutzer:Muzy|Muzy]] ([[Benutzer Diskussion:Muzy|Diskussion]]) 19:06, 29. Jan. 2013 (CET)
-:: netiquette regelt sich von selbst und kannst du eh nicht enforcen. waurm /ignore nicht hilft versteh ich auhc nicht, aber wie waers gleich mit #raumzeitlabor-popcorn ? also - im sinne von irc modi... ---- [[Benutzer:Echox|Echox]] ([[Benutzer Diskussion:Echox|Diskussion]]) 19:12, 29. Jan. 2013 (CET)
-::: Du schaust ja bei Problemen auch (hoffentlich) nicht einfach weg. Zumindest die Dokumentation inkl. Owner und Funktionen sollte im wiki erfolgen. Bots die auf Keywords wie "ach" doofe Sprüche triggern sollten rausgeworfen und gebannt werden. --[[Benutzer:Muzy|Muzy]] ([[Benutzer Diskussion:Muzy|Diskussion]]) 10:58, 1. Feb. 2013 (CET)
-:::: Der Anteil der Leute im Channel, der sich über die Bots beschwert, ist verschwindend gering (vielleicht 5 von 90). Merkste was? Genau, wegsehen hilft in diesem Fall eben doch. --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 12:49, 1. Feb. 2013 (CET)
-:::: Kein Wunder wenn von den 90 Leuten 20 inaktiv und weitere 20 Bots sind ;-) - auch wenn sich nur wenige Leute beschweren gehört dem Gehör verschafft. --[[Benutzer:Muzy|Muzy]] ([[Benutzer Diskussion:Muzy|Diskussion]]) 23:58, 1. Feb. 2013 (CET)
-
-; Anschaffung einer Leiter
-: Ich möchte eine Leiter für das RaumZeitLabor anschaffen, da die vorhandenen Leitern nicht bis auf Deckenhöhe reichen. Folgendes sind die Einsatzgebiete:
-: * Arbeiten an der Beamerplattform (derzeit wird eine Leiter auf die Konferenztische gestellt, wofür die Konferenztische nicht ausgelegt sind und sich dadurch schon verzogen haben)
-: * Arbeiten im Nebenraum (Elektrik und Montage Beamerplattform)
-: Kostenpunkt: um die 170 Euro.
-: Nicht-so-wirklich-Alternative: Leiter leihen (gibt Transportprobleme, wie schon bei den OSB-Platten, außerdem brauchen wir die über einen Zeitraum, wo sich eine Miete nicht lohnt (8€/Tag++)) --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 21:20, 27. Jan. 2013 (CET)
-: Mal auf der Mailingliste gefragt.
-* Meine Meinung: Wird sehr selten gebraucht, steht 99% der Zeit im Weg rum. [[Benutzer:Unicorn|Unicorn]] ([[Benutzer Diskussion:Unicorn|Diskussion]])
-
-; Anschaffung von Lötkolben
-: Wir haben irgendwann™ Lötworkshops und dafür brauchen wir Lötkolben. Da Lötstationen recht kostspielig sind, plädiere ich für günstige Lötkolben von Ersa die auch im Shackspace für die Lötworkshops gute Dienste tun: z.B. den ERSA MULTITIP 910BD für 30€. Passende Lötausstattung wie Lötkolbenhalter/Schwämmchen/Lötzinn/Zangen/Seitenschneider/Pinzette/etc. gibt es in Fernost für nochmal etwa 15€. Das wären 45€ pro Lötset - ich plädiere dafür für Workshops 8 Stück anzuschaffen. --[[Benutzer:Muzy|Muzy]] ([[Benutzer Diskussion:Muzy|Diskussion]]) 14:41, 2. Feb. 2013 (CET)
-
 ;Weltherrschaft
 :Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
 
