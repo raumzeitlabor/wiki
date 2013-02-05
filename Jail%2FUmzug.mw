@@ -36,6 +36,7 @@ Der Umzug muss bis Mitte März durch sein.
 == Backups ==
 
 * Bacula?
+** Laufen schon, bisher aber noch keine speziellen Anpassungen für automysqlbackup, baue ich noch (F)
 
 == Mailman ==
 
