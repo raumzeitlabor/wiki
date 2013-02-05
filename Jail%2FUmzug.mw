@@ -1,8 +1,13 @@
-== Anforderungen ==
+Der Umzug muss bis Mitte März durch sein.
 
-* Traffic: ??
-* Benötigter Plattenplatz: mindestens 14GB (soviel braucht das Jail derzeit, exklusive Datenbanken)
-* Benötigter RAM: mindestens 512MB, besser mehr
+== Gegebenheiten ==
+
+* CPUs 2
+* Arbeitsspeicher: 1024MB RAM / 2048MB Swap
+* HD 50GB RAID 10
+* Traffic 2000GB/Monat
+* max. 5 IPv4 IPs
+* /64 IPv6
 
 == Wiki ==
 
@@ -14,11 +19,30 @@
 * Plattenplatz: derzeit 200MB
 * Datenbank: ??
 
+== Postfix ==
+
+* Muss auch gemacht werden. Brauchen wir sowas wie Spamassassin?
+
+== DNS ==
+
+* wieder ein Hidden Primary Setup? Find ich eigentlich gut.
+* secondary weiterhin über Mitglieder
+
+== Backups ==
+
+* Bacula?
+
 == Mailman ==
 
-* Dieser Teil ist besonders kritisch, sonst waren wir mal der Hackerspace mit der spannensten Mailingliste
+* Dieser Teil ist besonders kritisch, sonst waren wir mal der Hackerspace mit der spannendsten Mailingliste
 * Plattenplatz: derzeit 1.1GB
+
+== Raumstatus ==
+
+* es läuft ein Tatsumataki Server, der die Statusupdates entgegen nimmt
+* der Webserver muss weiterhin WebDAV für status.raumzeitlabor.de anbieten (RRD Graphen werden da hochgeladen)
 
 == Offene Punkte ==
 
 * Eigentlich will man verschiedene Dienste unter verschiedenen Apache-Usern laufen lassen, damit potentielle Sicherheitslücken in einem PHP-Teil nicht andere Dinge beeinflussen. Dies ist aber nur sinnvoll möglich, wenn wir über Subdomains arbeiten, und hierfür fehlt uns ein Wildcardzertifikat, da ohne SSL das ganze ziemlich doof wäre.
+** Dafür. Hab bereits Extended Validation bei StartSSL beantragt und sollte bis zum Wochenende ein Wildcard Cert ausstellen können. --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 09:17, 5. Feb. 2013 (CET)
