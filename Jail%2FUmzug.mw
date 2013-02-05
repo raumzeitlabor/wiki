@@ -21,7 +21,12 @@ Der Umzug muss bis Mitte März durch sein.
 
 == Postfix ==
 
-* Muss auch gemacht werden. Brauchen wir sowas wie Spamassassin?
+* Muss auch gemacht werden.
+** Brauchen wir sowas wie Spamassassin?
+*** Tut nicht weh, kann man später noch relativ einfach nachziehen
+** Gibt's da mailboxen auf dem jail, oder nur Verteiler?
+** Brauchen wir imap?
+* smtp auth müsste sein, wegen Mailversand von .rzl-Infrastruktür
 
 == DNS ==
 
