@@ -14,7 +14,12 @@
 |preis       =
 }}
 
+
 = Frontends =
+Host: mpd.rzl<br/>
+Port: 6600<br/>
+Kein Passwort
+
 == ncmpcpp ==
 * Newcurses-MPD-Client in C++ geschrieben
 
