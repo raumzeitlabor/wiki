@@ -35,8 +35,6 @@ Der Umzug muss bis Mitte März durch sein.
 * wieder ein Hidden Primary Setup? Find ich eigentlich gut.
 * secondary weiterhin über Mitglieder
 
-Ich kann mich drun kümmern --[[Benutzer:Hax404|Hax404]] ([[Benutzer Diskussion:Hax404|Diskussion]]) 14:33, 5. Feb. 2013 (CET)
-
 == Backups ==
 
 * Bacula?
@@ -58,3 +56,4 @@ Ich kann mich drun kümmern --[[Benutzer:Hax404|Hax404]] ([[Benutzer Diskussion:
 * Eigentlich will man verschiedene Dienste unter verschiedenen Apache-Usern laufen lassen, damit potentielle Sicherheitslücken in einem PHP-Teil nicht andere Dinge beeinflussen. Dies ist aber nur sinnvoll möglich, wenn wir über Subdomains arbeiten, und hierfür fehlt uns ein Wildcardzertifikat, da ohne SSL das ganze ziemlich doof wäre.
 ** Dafür. Hab bereits "Verified Identity" bei StartSSL beantragt und sollte bis zum Wochenende ein Wildcard Cert ausstellen können. --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 09:17, 5. Feb. 2013 (CET)
 ** Es ist auch möglich das ganze über einen lokalen reverse Proxy zu leiten, der auf interne subdomains geht und nach außen den Kram in verzeichnissen (weiterhin) anbietet. Also, dass z.B. raumzeitlabor.de/bla auf bla.raumzeitlabor.de umgeleitet wird --[[Benutzer:Nicoduck|Nicoduck]] ([[Benutzer Diskussion:Nicoduck|Diskussion]]) 13:54, 5. Feb. 2013 (CET)
+*** Verstehe deinen Punkt nicht ganz, das machen wir doch schon (siehe BenutzerDB). --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 15:14, 5. Feb. 2013 (CET)
