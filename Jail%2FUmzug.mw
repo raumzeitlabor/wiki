@@ -59,6 +59,7 @@ Der Umzug muss bis Mitte März durch sein.
 == Raumstatus ==
 
 * es läuft ein Tatsumataki Server, der die Statusupdates entgegen nimmt
+** ist noch nicht pakettiert, ich kümmer mich drum --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 21:08, 6. Feb. 2013 (CET)
 * der Webserver muss weiterhin WebDAV für status.raumzeitlabor.de anbieten (RRD Graphen werden da hochgeladen)
 
 == Offene Punkte ==
