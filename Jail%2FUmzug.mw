@@ -30,6 +30,8 @@ Der Umzug muss bis Mitte März durch sein.
 * smtp auth müsste sein, wegen Mailversand von .rzl-Infrastruktür
 ** Können wir auch erstmal über ne iptables Regel raustunneln. --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 13:11, 5. Feb. 2013 (CET)
 
+* wiki@ sollte an netzwerk@ gehen
+
 == DNS ==
 
 * wieder ein Hidden Primary Setup? Find ich eigentlich gut.
