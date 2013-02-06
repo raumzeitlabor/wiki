@@ -63,6 +63,8 @@ Der Umzug muss bis Mitte März durch sein.
 
 == Offene Punkte ==
 * es gibt unter dem User "michael" 2 scripte, die mir nicht bekannt sind (./twitter.pl sowie status-ircbot-stream.pl). Prüfen, wozu die gehören
+** twitter.pl ist der Twitter Statusbot (@raumzeitstatus), ich kümmer mich ums pakettieren und installier ihr auf infra, falls gewünscht --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 21:06, 6. Feb. 2013 (CET)
+** status-ircbot-stream.pl ist der RaumZeitStatus IRC-Bot, ist auch noch nicht pakettiert. Kümmer ich mich drum. --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 21:06, 6. Feb. 2013 (CET)
 * Eigentlich will man verschiedene Dienste unter verschiedenen Apache-Usern laufen lassen, damit potentielle Sicherheitslücken in einem PHP-Teil nicht andere Dinge beeinflussen. Dies ist aber nur sinnvoll möglich, wenn wir über Subdomains arbeiten, und hierfür fehlt uns ein Wildcardzertifikat, da ohne SSL das ganze ziemlich doof wäre.
 ** Dafür. Hab bereits "Verified Identity" bei StartSSL beantragt und sollte bis zum Wochenende ein Wildcard Cert ausstellen können. --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 09:17, 5. Feb. 2013 (CET)
 ** Es ist auch möglich das ganze über einen lokalen reverse Proxy zu leiten, der auf interne subdomains geht und nach außen den Kram in verzeichnissen (weiterhin) anbietet. Also, dass z.B. raumzeitlabor.de/bla auf bla.raumzeitlabor.de umgeleitet wird --[[Benutzer:Nicoduck|Nicoduck]] ([[Benutzer Diskussion:Nicoduck|Diskussion]]) 13:54, 5. Feb. 2013 (CET)
