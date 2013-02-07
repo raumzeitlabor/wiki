@@ -1,5 +1,5 @@
  div#content, div#footer, html, #content, div.portal, #mw-head, #mw-panel, #p-navigation li a, #p-fnord li a, #p-tb li a, #p-cactions, #column-content, #firstHeading, #bodyContent, body img, #catlinks, #globalWrapper, #p-logo, .pBody ul, #searchform, body code {
-   background: #ff0090;
+   background: #E6007D;
    background-image: none;
    color: #000;
  }
@@ -14,7 +14,7 @@
  /* left-navigation */ #p-navigation ul li, #p-portlet2 ul li, #p-portlet3 ul li, #p-search ul li, #p-tb ul li, #p-fnord ul li {
    border-bottom-color: #000;
  }
- .catlinks { border-color: #ff0090; }
+ .catlinks { border-color: #E6007D; }
  
  body p, body ul, body code, td {
    color: #000;
@@ -55,7 +55,7 @@
  }
  
  html .thumbimage {
-   background-color: #ff0090;
+   background-color: #E6007D;
    border-style: none;
  }
  
@@ -76,22 +76,22 @@
  
  /* links: navi oben */
  #p-cactions li a { background: #ff090; }
- #p-cactions li.selected a { background: #ff0090; }
- #p-cactions li a:hover { background: #ff0090; }
- #p-cactions li a:active { background: #ff0090; }
+ #p-cactions li.selected a { background: #E6007D; }
+ #p-cactions li a:hover { background: #E6007D; }
+ #p-cactions li a:active { background: #E6007D; }
  
  /* search */
  input {
-   background-color: #ff0090;
+   background-color: #E6007D;
    color: #000;
    border: solid 1px;
  }
  
  div.NavHead {
-   background-color: #ff0090;
+   background-color: #E6007D;
  }
 
-#ca-nstab-main, #ca-nstab-main{
+#ca-nstab-main{
    background-image: none;
 }
  
