@@ -43,6 +43,8 @@ Die Videos der Kamera haben eine Framerate von 29.97 fps, aber eine Field-Anzahl
 
 Zur Aufbereitung der Audiospur empfliehlt sich die Datei durch [https://auphonic.com/ Auphonic] laufen zu lassen. Im Zweifelsfall schadet es dabei nicht, alle Filter einzuschalten.
 
+Bei den meisten Vorträgen, die den Beamer benutzt haben (abgedunkelter Raum), ist es sinnvoll, das Bild etwas aufzuhellen. In kdenlive kann man dazu den Effekt "Colour correction - Curves" zum Video hinzufügen und einen Punkt oberhalb der Normallinie anklicken (z.B. bei ca. 600x800).
+
 === Nötige Dateien ===
 
 # [[RZL_Introvideo]] (RZL-Introvideo, Full HD)
