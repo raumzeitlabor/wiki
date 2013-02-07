@@ -11,8 +11,11 @@
 
 #mw-panel div, #mw-head *, #content, #footer { background-image: none !important; }
 
-a { color: limegreen !important; }
-a.new { color: lightpink !important; }
+a {
+  color: black !important;
+  border-bottom: 0.2ex dashed black;
+}
+a.new { text-decoration: line-through !important; }
 
 .vectorTabs li, .vectorTabs li * {
   background-color: black !important;
