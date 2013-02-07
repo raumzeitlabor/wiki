@@ -13,7 +13,8 @@
 
 a {
   color: black !important;
-  border-bottom: 0.2ex dashed black;
+  border: 0ex dashed black;
+  border-bottom-with: 0.2ex;
 }
 a.new { text-decoration: line-through !important; }
 
