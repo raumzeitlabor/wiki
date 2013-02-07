@@ -4,11 +4,18 @@
 
 *, * * {
   background-color: #E6007D !important;
+  color: black !important;
   border-color: #E6007D !important;
   cursor: help !important;
 }
 
 #mw-panel div, #mw-head *, #content, #footer { background-image: none !important; }
+
+.vectorTabs li {
+  background-color: black !important;
+  color: #E6007D !important;
+  margin-right: 2px;
+}
 
 a { color: limegreen !important; }
 a.new { color: lightpink !important; }
