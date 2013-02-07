@@ -1,0 +1,134 @@
+NOC Meeting 07.02.2013:
+
+
+
+Der Umzug muss bis Mitte März durch sein.
+
+== Gegebenheiten ==
+
+* CPUs 2
+* Arbeitsspeicher: 1024MB RAM / 2048MB Swap
+* HD 50GB RAID 10
+* Traffic 2000GB/Monat
+* max. 5 IPv4 IPs
+* /64 IPv6
+
+== Wiki ==
+
+* Plattenplatz: derzeit 1.4GB
+* Datenbank: 127MB (SQL-Dump)
+* aktuell läuft Version 1.19.1
+* würde mich um den Umzug kümmern --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 20:39, 6. Feb. 2013 (CET)
+* Infos siehe [https://www.mediawiki.org/wiki/Manual:Moving_a_wiki hier]
+
+** Migration ist in Arbeit von Felicitus
+** Puppet-Configuration in mate:/etc/puppet/manifests/clients/premium.raumzeitlabor.de.pp
+
+* eigene Subdomain für Wiki -> wiki.raumzeitlabor.de
+** eigener User unter dem das Wiki läuft -> bessere abschottung der dienste -> mehr security
+
+Prüfen:
+* Alle Links müsen noch gehen
+* 301er Redirect
+* umzug soll bis kommende Woche fertig sein
+
+== Drupal ==
+
+* Plattenplatz: derzeit 200MB
+* Datenbank: 1.5GB
+
+* CiviCRM wird hauptsächlich zum Verschicken von Mailings genutzt (theoretisch auch für Kontaktverwaltung, aber …)
+* Mailfunktion aus CiviCRM soll langfristig in BenutzerDB überführt werden (mit thinkJD abgesprochen)
+* silsha arbeitet an Konvertierung von Blogbeiträgen zu Wordpress: nervt ihn ruhig, dass das möglichst bis Mitte März passiert
+** else tritt silsha, sonst meldet sich keiner
+
+== Postfix ==
+
+* Brauchen wir sowas wie Spamassassin? --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 13:11, 5. Feb. 2013 (CET)
+** Tut nicht weh, kann man später noch relativ einfach nachziehen
+** am einfachsten ist vermutlich amavisd
+* Gibt's da mailboxen auf dem jail, oder nur Verteiler?
+** ja
+*+ machen wir einfach über virtuelle user
+* Brauchen wir imap?
+** ja, wird gemacht über dovecot
+** Weiß nicht, ob sowas für den Vorstand praktisch wäre (Übergabe, alle Mails vorhanden) --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 10:34, 5. Feb. 2013 (CET)
+* smtp auth müsste sein, wegen Mailversand von .rzl-Infrastruktür
+** Können wir auch erstmal über ne iptables Regel raustunneln. --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 13:11, 5. Feb. 2013 (CET)
+
+* Alias für wiki@ an netzwerk@ gehen
+* würde ich mit mailman mitmachen, da das hand-in-hand geht --[[Benutzer:Nicoduck|Nicoduck]] ([[Benutzer Diskussion:Nicoduck|Diskussion]]) 16:00, 7. Feb. 2013 (CET)
+* Nico würde es gerne auf virtuelle User umstellen, die in einer MySQL-DB gespeichert sind
+** echox merkt an, daß keine Mails gehen, wenn MySQL mal down ist
+** werden in configfiles gespeichert
+* In der woche nach dem 15. hilft Feli Nico bei Postfix setup mit puppet
+
+== DNS ==
+
+
+* wieder ein Hidden Primary Setup? Find ich eigentlich gut.
+* secondary weiterhin über Mitglieder
+* bitte in dem Zusammenhang auch direkt die rzl.so Zone verwalten (Niko?)
+** kommt, wenn der Jail Umzug komplett fertig ist --[[Benutzer:Nicoduck|Nicoduck]] ([[Benutzer Diskussion:Nicoduck|Diskussion]]) 16:00, 7. Feb. 2013 (CET)
+
+: Ich kann mich drun kümmern --[[Benutzer:Hax404|Hax404]] ([[Benutzer Diskussion:Hax404|Diskussion]]) 14:33, 5. Feb. 2013 (CET)noch
+:: Hab dir die Zonefiles (.de und .org) schon rüberkopiert vom Jail, du findest sie in /root/rzl-zones --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 20:51, 6. Feb. 2013 (CET)
+
+* Aktueller Stand:
+** auf dem jail läuft ein hidden primary, alle Änderungen dort werden ausgeliefert
+** nico tritt jürgen für den umzug auf den rzl inxs account
+** Alle Änderungen an den Nameservern müssen bis zum Jail shutdown fertig sein
+* Es muß gemacht werden:
+** Jürgen muß sich bewegen und rabe muß sich bewegen
+** KK für raumzeitlabor.de und raumzeitlabor.orgnach inwx
+** nico trägt passwörter für wlan ap und inwx dort ein
+
+== Backups ==
+
+* Bacula?
+** Laufen schon, bisher aber noch keine speziellen Anpassungen für automysqlbackup, baue ich noch (F)
+
+== Mailman ==
+
+* Dieser Teil ist besonders kritisch, sonst waren wir mal der Hackerspace mit der spannendsten Mailingliste
+* Plattenplatz: derzeit 1.1GB
+* Ich würde mich darum kümmern --[[Benutzer:Nicoduck|Nicoduck]] ([[Benutzer Diskussion:Nicoduck|Diskussion]]) 13:52, 5. Feb. 2013 (CET)
+* Vorraussetzungen:
+** postfix muß gehen
+
+== SSL Zertifikat ==
+
+* else- hat einen StartSSL-Account für 59 USD geklickt, damit wir für Domains Zertifikate erzeugen können. Wartet auf einen Brief
+* else- erzeugt dann ei Wildcardzertifikat für raumzeitlabor.de
+
+== Raumstatus ==
+
+* es läuft ein Tatsumataki Server, der die Statusupdates entgegen nimmt
+** ist noch nicht pakettiert, ich kümmer mich drum --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 21:08, 6. Feb. 2013 (CET)
+* der Webserver muss weiterhin WebDAV für status.raumzeitlabor.de anbieten (RRD Graphen werden da hochgeladen)
+* status ircbot mit raumzeitchef zusammenlegen? ok.
+
+== status.raumzeitlabor.de ==
+* Liegen nur static files da drin
+* brauchen webdav dafür
+
+== Sync des Jails ==
+
+* Nico macht den initialen Sync und bringt die Daten mit
+* Wird eine VM oder so angelegt und die daten da reinkopiert
+* weitere syncs vom rzl aus
+* macht else-
+
+== Firebox+ Jail ==
+* Liegen fünfzilliarden Dateien, keiner weiß was es ist
+* bitte in zukunft vermeiden
+
+== Offene Punkte ==
+* es gibt unter dem User "michael" 2 scripte, die mir nicht bekannt sind (./twitter.pl sowie status-ircbot-stream.pl). Prüfen, wozu die gehören
+** twitter.pl ist der Twitter Statusbot (@raumzeitstatus), ich kümmer mich ums pakettieren und installier ihr auf infra, falls gewünscht --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 21:06, 6. Feb. 2013 (CET)
+** aktuell ist der Bot eh broken weil er den raumstatus von einem veralteten pfad zieht, der nicht mehr aktualisiert wird --[[Benutzer:Nicoduck|Nicoduck]] ([[Benutzer Diskussion:Nicoduck|Diskussion]]) 16:00, 7. Feb. 2013 (CET)
+**  status-ircbot-stream.pl ist der RaumZeitStatus IRC-Bot, ist auch noch nicht pakettiert. Kümmer ich mich drum. --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 21:06, 6. Feb. 2013 (CET)
+* Eigentlich will man verschiedene Dienste unter verschiedenen Apache-Usern laufen lassen, damit potentielle Sicherheitslücken in einem PHP-Teil nicht andere Dinge beeinflussen. Dies ist aber nur sinnvoll möglich, wenn wir über Subdomains arbeiten, und hierfür fehlt uns ein Wildcardzertifikat, da ohne SSL das ganze ziemlich doof wäre.
+** Dafür. Hab bereits "Verified Identity" bei StartSSL beantragt und sollte bis zum Wochenende ein Wildcard Cert ausstellen können. --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 09:17, 5. Feb. 2013 (CET)
+** Es ist auch möglich das ganze über einen lokalen reverse Proxy zu leiten, der auf interne subdomains geht und nach außen den Kram in verzeichnissen (weiterhin) anbietet. Also, dass z.B. raumzeitlabor.de/bla auf bla.raumzeitlabor.de umgeleitet wird --[[Benutzer:Nicoduck|Nicoduck]] ([[Benutzer Diskussion:Nicoduck|Diskussion]]) 13:54, 5. Feb. 2013 (CET)
+** Verstehe deinen Punkt nicht ganz, das machen wir doch schon (siehe BenutzerDB). --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 15:14, 5. Feb. 2013 (CET)
