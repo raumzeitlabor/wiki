@@ -2,14 +2,14 @@
 
 
 
-html, body, *, * * {
+*, * * {
   background-color: #E6007D !important;
   color: black !important;
   border-color: #E6007D !important;
   cursor: help !important;
 }
 
-#mw-panel div, #mw-head *, #content, #footer { background-image: none !important; }
+html, body, #mw-panel div, #mw-head *, #content, #footer { background-image: none !important; }
 
 a {
   color: black !important;
