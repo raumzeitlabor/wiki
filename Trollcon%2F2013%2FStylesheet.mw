@@ -15,8 +15,8 @@
 a {
   color: black !important;
   border: 0ex dashed black !important;
-  border-bottom-width: 0.5ex !important;
 }
+#content a { border-bottom-width: 0.5ex !important; }
 a.new { text-decoration: line-through !important; }
 
 .vectorTabs li, .vectorTabs li * {
