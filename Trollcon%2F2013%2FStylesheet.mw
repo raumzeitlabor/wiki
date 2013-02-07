@@ -8,7 +8,7 @@
 }
 
 
-#mw-panel *, #mw-head *, #mw-head {
+#mw-panel *, #mw-head *, #content {
   background-image: none !important;
 }
 
