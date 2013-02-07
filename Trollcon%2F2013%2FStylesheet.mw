@@ -16,7 +16,14 @@ a {
   color: black !important;
   border: 0ex dashed black !important;
 }
+
 #content a { border-bottom-width: 0.5ex !important; }
+
+#content a:hover {
+  text-decoration: none !important;
+  border-style: dotted !important;
+}
+
 a.new { text-decoration: line-through !important; }
 
 .vectorTabs li, .vectorTabs li * {
