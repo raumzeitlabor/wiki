@@ -9,6 +9,7 @@
 
 #mw-panel div, #mw-head *, #content, #footer { background-image: none !important; }
 
-
+* a { color: limegreen; }
+* a.new { color: lightpink; }
 
 /*</pre>*/
