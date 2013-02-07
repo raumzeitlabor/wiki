@@ -1,6 +1,6 @@
- div#content, div#footer, html, #content, div.portal, #mw-head, #p-navigation li a, #p-fnord li a, #p-tb li a, #p-cactions, #column-content, #firstHeading, #bodyContent, body img, #catlinks, #globalWrapper, #p-logo, .pBody ul, #searchform, body code {
+ div#content, div#footer, html, #content, div.portal, #mw-head, #mw-panel, #p-navigation li a, #p-fnord li a, #p-tb li a, #p-cactions, #column-content, #firstHeading, #bodyContent, body img, #catlinks, #globalWrapper, #p-logo, .pBody ul, #searchform, body code {
    background: #ff0090;
-background-image: none;
+   background-image: none;
    color: #000;
  }
  
@@ -90,6 +90,10 @@ background-image: none;
  div.NavHead {
    background-color: #ff0090;
  }
+
+#ca-nstab-main, #ca-nstab-main{
+   background-image: none;
+}
  
  table.gallery, table.gallery tbody tr td { background-color: black; border: 0; }
  table.toc, table.toc tbody tr td { background-color: black; border: 0; }
