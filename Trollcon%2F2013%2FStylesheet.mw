@@ -1,5 +1,5 @@
  div#content, div#footer, html, #content, #p-navigation li a, #p-fnord li a, #p-tb li a, #p-cactions, #column-content, #firstHeading, #bodyContent, body img, #catlinks, #globalWrapper, #p-logo, .pBody ul, #searchform, body code {
-   background: black;
+   background: #ff0090;
    color: #000;
  }
  
@@ -13,10 +13,10 @@
  /* left-navigation */ #p-navigation ul li, #p-portlet2 ul li, #p-portlet3 ul li, #p-search ul li, #p-tb ul li, #p-fnord ul li {
    border-bottom-color: #000;
  }
- .catlinks { border-color: #69b1fb; }
+ .catlinks { border-color: #ff0090; }
  
  body p, body ul, body code, td {
-   color: #69b1fb;
+   color: #000;
  }
  
  table tbody tr td {
@@ -48,7 +48,7 @@
  /* verdammtes thumbnail nervt, also workaround */
   div.thumbinner {
    background-color: black;
-   border-color: #69b1fb;
+   border-color: #000;
    border-style: solid;
    border-width: 1;
  }
@@ -65,7 +65,7 @@
  
  /* links */
  body a:link, #bodyContent a.external, #p-personal li a:link, #p-personal li a.new:link { color: #000; }
- body a:visited, #p-personal li a:visited, #p-personal li a.new:visited { color: #ff5656; }
+ body a:visited, #p-personal li a:visited, #p-personal li a.new:visited { color: #000; }
  body a:active, #p-personal li a:active, #p-personal li a.new:active { color: #ff0000; }
  body a, #bodyContent a.external, #p-personal li a, #p-personal li a.new { text-decoration: none;
           margin: -3px; padding: 0 3px; }
@@ -74,20 +74,20 @@
  #bodyContent a.external:hover { margin: -1px; padding: 0 15px 0 -2px; border: 1px solid #000; }
  
  /* links: navi oben */
- #p-cactions li a { background: #000; }
- #p-cactions li.selected a { background: #000; }
- #p-cactions li a:hover { background: #ff5656; }
- #p-cactions li a:active { background: #000; }
+ #p-cactions li a { background: #ff090; }
+ #p-cactions li.selected a { background: #ff0090; }
+ #p-cactions li a:hover { background: #ff0090; }
+ #p-cactions li a:active { background: #ff0090; }
  
  /* search */
  input {
-   background-color: black;
-   color: #69b1fb;
+   background-color: #ff0090;
+   color: #000;
    border: solid 1px;
  }
  
  div.NavHead {
-   background-color: black;
+   background-color: #ff0090;
  }
  
  table.gallery, table.gallery tbody tr td { background-color: black; border: 0; }
