@@ -67,7 +67,7 @@
  /* links */
  body a:link, #bodyContent a.external, #p-personal li a:link, #p-personal li a.new:link { color: #000; }
  body a:visited, #p-personal li a:visited, #p-personal li a.new:visited { color: #000; }
- body a:active, #p-personal li a:active, #p-personal li a.new:active { color: #ff0000; }
+ body a:active, #p-personal li a:active, #p-personal li a.new:active { color: #000; }
  body a, #bodyContent a.external, #p-personal li a, #p-personal li a.new { text-decoration: none;
           margin: -3px; padding: 0 3px; }
  body a:hover, #p-personal li a:hover, #p-personal li a.new:hover { margin: -3px; padding: 0 2px; border: 1px solid #000; }
@@ -75,7 +75,7 @@
  #bodyContent a.external:hover { margin: -1px; padding: 0 15px 0 -2px; border: 1px solid #000; }
  
  /* links: navi oben */
- #p-cactions li a { background: #ff090; }
+ #p-cactions li a { background: #E6007D; }
  #p-cactions li.selected a { background: #E6007D; }
  #p-cactions li a:hover { background: #E6007D; }
  #p-cactions li a:active { background: #E6007D; }
