@@ -7,16 +7,17 @@
   color: black !important;
   border-color: #E6007D !important;
   cursor: help !important;
+  font-family: "Comic Sans MS", fantasy, sans-serif;
 }
 
 #mw-panel div, #mw-head *, #content, #footer { background-image: none !important; }
 
-* * a {
+a {
   color: black !important;
   border: 0ex dashed black !important;
-  border-bottom-width: 0.2ex !important;
+  border-bottom-width: 0.5ex !important;
 }
-* a.new { text-decoration: line-through !important; }
+a.new { text-decoration: line-through !important; }
 
 .vectorTabs li, .vectorTabs li * {
   background-color: black !important;
