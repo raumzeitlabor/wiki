@@ -1,5 +1,6 @@
- div#content, div#footer, html, #content, #p-navigation li a, #p-fnord li a, #p-tb li a, #p-cactions, #column-content, #firstHeading, #bodyContent, body img, #catlinks, #globalWrapper, #p-logo, .pBody ul, #searchform, body code {
+ div#content, div#footer, html, #content, div.portal, #mw-head, #p-navigation li a, #p-fnord li a, #p-tb li a, #p-cactions, #column-content, #firstHeading, #bodyContent, body img, #catlinks, #globalWrapper, #p-logo, .pBody ul, #searchform, body code {
    background: #ff0090;
+background-image: none;
    color: #000;
  }
  
