@@ -7,7 +7,6 @@
   color: black !important;
   border-color: #E6007D !important;
   cursor: help !important;
-  font-family: "Comic Sans MS", fantasy, sans-serif;
 }
 
 #mw-panel div, #mw-head *, #content, #footer { background-image: none !important; }
