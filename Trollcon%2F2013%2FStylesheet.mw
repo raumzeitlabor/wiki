@@ -8,6 +8,7 @@
 }
 
 #mw-panel div, #mw-head *, #content, #footer { background-image: none !important; }
+#p-logo a { background-image: url("/w/images/a/ae/Rzl_logo_troll.png"); }
 
 
 
