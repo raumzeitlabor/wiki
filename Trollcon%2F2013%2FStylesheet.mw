@@ -5,6 +5,7 @@
 *, * * {
   background-color: #E6007D !important;
   border-color: #E6007D !important;
+  cursor: help !important;
 }
 
 #mw-panel div, #mw-head *, #content, #footer { background-image: none !important; }
