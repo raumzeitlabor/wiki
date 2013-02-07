@@ -14,7 +14,7 @@
 * * a {
   color: black !important;
   border: 0ex dashed black !important;
-  border-bottom-with: 0.2ex !important;
+  border-bottom-width: 0.2ex !important;
 }
 * a.new { text-decoration: line-through !important; }
 
