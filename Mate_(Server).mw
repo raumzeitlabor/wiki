@@ -1,4 +1,4 @@
-{{AchtungKasten1|title=Störung|msg=Aufgrund eines Kurzschlusses ist Mate zur Zeit defekt (genauer gesagt: der USB Controller von Mate ist hinüber). Zwischenzeitlich wurde allerdings bereits für Ersatzhardware gesorgt, sodass Mate wieder temporär in Betrieb ist.}}
+{{AchtungKasten1|title=Störung|msg=Aufgrund eines Kurzschlusses ist Mate zur Zeit defekt. Die Ersatzhardware macht derzeit auch Probleme, weswegen Mate aktuell nicht zur Verfügung steht.}}
 
 {{ProjektInfoBox
 |name        = Mate (Server)
