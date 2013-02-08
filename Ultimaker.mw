@@ -293,6 +293,13 @@ Es ist nicht so dass man damit garnicht drucken koennte. Ich bin mit http://log.
 Mit dem Rot hatte ich aber aehnliche Schwierigkeiten.
 |}
 
+== Troubleshooting ==
+
+* PLA bleibt hängen
+** Prüfen, ob die Temperatur beim Druck zu stark runtergeht und dadurch kein PLA mehr extrudiert werden kann
+** Prüfen, ob das PLA am Feeder durchrutscht. Ursache kann ein eingedrücktes Anpressstück sein (das Teil, welches gegen das PLA von hinten drückt)
+** Prüfen, ob die Düse verstopft ist
+
 == Ersatzteile ==
 
 Riemen: 2x 80 MXL und 4x 240MXL, Breite 6,3mm (relativ einfach über eBay zu bekommen)
