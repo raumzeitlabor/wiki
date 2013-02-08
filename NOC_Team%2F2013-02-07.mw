@@ -115,6 +115,10 @@ Prüfen:
 == Sync des Jails ==
 
 * Nico macht den initialen Sync und bringt die Daten mit
+<pre>
+rsync -avHWx --itemize-changes --delete --stats --bwlimit=200 root@rzl.uugrn.org:/ /target/rzl.uugrn.org/
+</pre>
+
 * Wird eine VM oder so angelegt und die daten da reinkopiert
 * weitere syncs vom rzl aus
 * macht else-
