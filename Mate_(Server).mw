@@ -51,19 +51,24 @@ Vor der Installation neues, leeres Image anlegen (Images liegen unter '''/srv/vm
 
 <pre>
 export VMNAME=foobar
+export VMSIZE=20G
+export VMMEM=256
+export VMOSTYPE=linux
+export VMOSVARIANT=debianwheezy
+export VMINSTALLER=ttp://ftp.de.debian.org/debian/dists/wheezy/main/installer-amd64/
 </pre>
 
 <pre>
-fallocate -l 40G /srv/vm/$VMNAME.img
+fallocate -l $VMSIZE /srv/vm/$VMNAME.img
 </pre>
 
 Dann Netzinstallation starten:
 
 <pre>
-virt-install --connect qemu:///system --name=$VMNAME --ram=256 --vcpus=1 \
---disk path=/srv/vm/$VMNAME.img,format=raw,cache=none,bus=virtio --os-type linux \
---os-variant debianwheezy --network=bridge=br0,model=virtio --nographics \
---location http://ftp.de.debian.org/debian/dists/wheezy/main/installer-amd64/ \
+virt-install --connect qemu:///system --name=$VMNAME --ram=$VMMEM --vcpus=1 \
+--disk path=/srv/vm/$VMNAME.img,format=raw,cache=none,bus=virtio --os-type $VMOSTYPE \
+--os-variant $VMOSVARIANT  --network=bridge=br0,model=virtio --nographics \
+--location $VMINSTALLER \
 --extra-args="console=tty0 console=ttyS0,115200n8" -v
 </pre>
 
