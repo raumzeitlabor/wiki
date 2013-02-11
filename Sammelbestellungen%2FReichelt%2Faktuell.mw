@@ -73,6 +73,8 @@ CRIMPZANGE FSH;1
 MWZ 214D;1
 74HC 595;10
 ICK SMD A5;5
+SDB 25,4 SW;1
+SDB 19,1 SW;1
 </pre>
 
 Bitte erst im Februar mitordern!
