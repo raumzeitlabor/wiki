@@ -1,5 +1,3 @@
-{{AchtungKasten1|title=Störung|msg=Aufgrund eines Kurzschlusses ist Mate zur Zeit defekt. Die Ersatzhardware macht derzeit auch Probleme, weswegen Mate aktuell nicht zur Verfügung steht.}}
-
 {{ProjektInfoBox
 |name        = Mate (Server)
 |status      = experimental
@@ -26,7 +24,7 @@
 |[http://www.cpu-world.com/CPUs/K10/AMD-Turion%20II%20Neo%20N40L%20-%20TEN40LGAV23GME.html AMD Turion II Neo N40L] 2x 1.5 GHz
 |-
 |RAM
-|2x 8GB Transcend DDR3 1333MHz PC3-10666 CL9 DIMM
+|1x 8GB Transcend DDR3 1333MHz PC3-10666 CL9 DIMM sowie 1x 4GB
 |-
 |HDDs
 |5x1TB (Hitachi HDS721010DLE630)<br/>RAID5 über alle Platten, 4TB nutzbar, LVM, Platten werden über smartd gemonitort und an netzwerk (ät) rzl dot de im Fehlerfalle geschickt
