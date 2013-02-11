@@ -55,7 +55,7 @@ export VMSIZE=20G
 export VMMEM=256
 export VMOSTYPE=linux
 export VMOSVARIANT=debianwheezy
-export VMINSTALLER=ttp://ftp.de.debian.org/debian/dists/wheezy/main/installer-amd64/
+export VMINSTALLER=http://ftp.de.debian.org/debian/dists/wheezy/main/installer-amd64/
 </pre>
 
 <pre>
