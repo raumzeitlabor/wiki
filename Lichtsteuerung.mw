@@ -153,4 +153,9 @@ Die Konfigurationsdaten sollen über den RS232-Port verändert werden können.
 * DMX Output für kaskadierung bzw Nutzung als DMX-Interface
 * Sockel für Raspberry Pi zum direkt-draufstecken
 * 120 Ohm Abschlusswiderstand für DMX Input
+
+== Siehe auch ==
+
+[https://github.com/raumzeitlabor/lichtsteuerung Github]
+
 [[Kategorie:Projekt]] [[Kategorie:Infrastruktur]]
