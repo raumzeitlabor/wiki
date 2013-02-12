@@ -132,6 +132,8 @@ Die Firmware für den Mikrocontroller wurde mit dem AVR-Studio 6.0 von Atmel (AV
 "C:\Programme\Atmel\Atmel Studio 6.0\extensions\Atmel\AVRGCC\3.4.0.65\AVRToolchain\avr\include\avr".
 Bevor man das Hacklace-Projekt compilieren kann, muß man das fehlerhafte Headerfile "iotn4313.h" in "iotn4313_buggy.h" umbenennen und die korrekte Version aus dem Repository an seine Stelle kopieren. Unter Linux ist der Pfad wahrscheinlich "/usr/lib/avr/include/avr/"
 
+Im [http://www.obdev.at/products/crosspack/ CrossPack for AVR® Development] für OS X ist der iotn4313.h Bug ab Version 2013-02-12 bereits gepatched.
+
 Wer das AVR-Studio 6.0 nicht verwenden möchte, sollte den AVR-GCC-Compiler so einstellen, daß er die Codegröße optimiert (Option -Os). Außerdem muß das Symbol F_CPU=4000000 definiert werden (Option -D), damit er weiß, daß der Controller mit 4 MHz läuft.
 
 ===Displayspeicher===
