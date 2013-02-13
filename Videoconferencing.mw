@@ -1,0 +1,24 @@
+Connecting Spaces with Video!
+== Software ==
+=== Server ===
+==== OpenMCU ====
+* Protokoll: H.323
+* OS: Windows & Linux
+* Sourcecode: http://www.h323plus.org/source/
+* Benötigte Pakete: H.323 Plus Core, PTLib, A/V Plugins Applications
+* Kompilieren: PTlib -> H.323 Plus Core	-> OpenMCU
+Man kann sich drauf verbinden. Mehr noch nicht getestet
+==== OpenVCS ====
+* Protokoll: SIP
+* OS: Windows only
+* Website: https://code.google.com/p/openvcs/
+Nicht getestet.
+=== Client ===
+==== H.323 ====
+* Ekiga
+* OpenPhone [http://www.opalvoip.org/]
+==== SIP ====
+* LinPhone
+* OpenPhone
+
+[[Kategorie:Projekt]]
