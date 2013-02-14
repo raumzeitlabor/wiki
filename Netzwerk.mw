@@ -7,10 +7,7 @@ Bei jeglichen Fragen zum Netz bitte das [[NOC_Team]] ansprechen, auf keinen Fall
 == Aktuelle Probleme ==
 {{AchtungKasten1|title=IPv6 Packet Loss|msg=Derzeit gibt es Packet Loss bei V6 und Paketen größer 1400 - um das bei dir lokal zu fixen nutze: <pre>ip link set mtu 1280 dev wlan0</pre>Dies muß nach jedem connect via passieren.}}
 
-{{AchtungKasten1|title=raumzeitlabor24 und raumzeitlabor5 inaktiv|msg=Die WLANs raumzeitlabor24 und raumzeitlabor5 sind vorrübergehend deaktiviert.}}
-
 {{AchtungKasten1|title=Keine Connectivity zwischen WLAN-Clients|msg=Aus bisher nicht bekannten Gründen können Nutzer des WLANs nicht gegenseitig kommunizieren. Vermutet wird ein Problem mit dem Switch. In Arbeit.<br/><br/><small>Möglicherweise ist Wireless Isolation aktiv? http://stackoverflow.com/questions/12491396/cant-see-another-computer-in-wifi</small><br/>Nach Restart des ubiquiti-APs und Abschalten des Netgears funzt es, ARP requests kommen wieder durch. Vielleicht auch http://ask.wireshark.org/questions/7277/arp-broadcast ansehen. }}
-
 
 == Rack ==
 [[Datei:IMG_0336.JPG|Thumb|300px]]
