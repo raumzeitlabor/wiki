@@ -20,7 +20,7 @@ entweder Node-Nicknamen oder Fingerprints entgegen. Letztere müssen
 optional, kann aber auch nicht schaden.
 
 Der Fingerprint ist in /var/lib/tor/fingerprint zu finden. Alternativ kann man 
-``tor --list-fingerprint`` auf der Kommandozeile eingeben, um den Fingerprint 
+<code>tor --list-fingerprint</code> auf der Kommandozeile eingeben, um den Fingerprint 
 herauszubekommen. arm (der Kommandozeilenkontroller für Tor) zeigt den 
 Fingerprint ebenfalls an.
 
