@@ -18,7 +18,7 @@ Erstmal eine Produkt-/Link-Sammlung. Alles andere kommt später.
 * FitBit
 * MyBasis
 
-==== Schlaf ====
+==== Schlaf ====http://www.picobay.com/projects/2009/05/web-based-water-metering-with-iobridge.html
 * zeo [http://www.myzeo.com/]
 
 === Your Stuff ===
@@ -52,9 +52,13 @@ Erstmal eine Produkt-/Link-Sammlung. Alles andere kommt später.
 * Fluksometer [https://www.flukso.net/]
 ** Erfahrung im RZL waren nicht so der Renner.
 
+* ioBridge [http://www.picobay.com/projects/2009/01/real-time-web-based-power-charting.html]
+* Not So Tiny Power [http://www.billporter.info/2010/12/19/not-so-tiny-power-meter/]
+
 ==== Wasserverbrauch ====
 * Teague Leagues DIY Arduino Water Meter [http://labs.teague.com/?p=722]
 ** Invasiv
+* Web Based Water Metering with ioBridge [http://www.picobay.com/projects/2009/05/web-based-water-metering-with-iobridge.html]
 * Wunsch: Etwas non-invasives. Bsp: Umdrehungen des Rades auf Wasserzähler messen.
 
 === Your Environment ===
