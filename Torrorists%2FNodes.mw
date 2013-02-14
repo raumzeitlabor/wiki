@@ -19,6 +19,11 @@ entweder Node-Nicknamen oder Fingerprints entgegen. Letztere müssen
 '''mit einem $ geprefixt werden'''. Die Angabe des eigenen Fingerprints/Nicknamen ist 
 optional, kann aber auch nicht schaden.
 
+Der Fingerprint ist in /var/lib/tor/fingerprint zu finden. Alternativ kann man 
+``tor --list-fingerprint`` auf der Kommandozeile eingeben, um den Fingerprint 
+herauszubekommen. arm (der Kommandozeilenkontroller für Tor) zeigt den 
+Fingerprint ebenfalls an.
+
 == Node List ==
 
 === sebi ===
