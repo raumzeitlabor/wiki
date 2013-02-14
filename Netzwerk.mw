@@ -28,10 +28,11 @@ Wir nehmen als AS64636 teil mit 9 verschiedenen Peerings (zu jchome, ichdasich, 
 Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir gerne auf Nachfrage mitgeteilt :)
 
 === Aktive Access Points ===
-* Netgear WNDR3800 (2.4 GHz und 5GHz simultan), "raumzeitlabor5" sowie "raumzeitlabor24". Steht bei der Musikanlage. Läuft mit original Firmware.
-* Ubiquiti NanoStation2 Loco (2.4 GHz, 802.11b/g), in Betrieb, liegt auf dem Olymp, strahlt "RZL-hardcore" aus. Läuft mit orgi FW.
+* UniFi Pro (2,4GHz und 5GHz simultan):  "raumzeitlabor5" sowie "raumzeitlabor24". Steht bei der Musikanlage. Läuft mit original Firmware. POE über LAN Port 5
 
 === Inaktive Access Points ===
+* Ubiquiti NanoStation2 Loco (2.4 GHz, 802.11b/g), nicht in Betrieb, wird WLAN AP Nebenraum, etc. Läuft mit original Firmware.
+* Netgear WNDR3800 (2.4 GHz und 5GHz simultan),
 * D-Link DWL-1000AP+ (2.4 GHz, 802.11b), nicht in Betrieb, Standort: Regal Fensterseite, ganz rechts vor der Tafel.
 * Cheatha: HP $irgendwas (2.4 GHz, 802.11b/g) liegt in seiner Kiste, benötigt PoE.
 
