@@ -22,7 +22,7 @@ optional, kann aber auch nicht schaden.
 Der Fingerprint ist in /var/lib/tor/fingerprint zu finden. arm (der 
 Kommandozeilenkontroller für Tor) zeigt den Fingerprint ebenfalls an.  
 Alternativ kann man den Nicknamen seiner Node auf 
-[[https://torstatus.blutmagie.de torstatus.blutmagie.de]] raussuchen und dort 
+[https://torstatus.blutmagie.de torstatus.blutmagie.de] raussuchen und dort 
 den Fingerprint entnehmen. Diese Seite zeigt auch unter dem Punkt "Family" die 
 Nodes an, die bereits in der Family mit dieser Node konfiguriert sind.
 
