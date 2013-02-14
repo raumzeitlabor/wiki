@@ -19,10 +19,12 @@ entweder Node-Nicknamen oder Fingerprints entgegen. Letztere müssen
 '''mit einem $ geprefixt werden'''. Die Angabe des eigenen Fingerprints/Nicknamen ist 
 optional, kann aber auch nicht schaden.
 
-Der Fingerprint ist in /var/lib/tor/fingerprint zu finden. Alternativ kann man 
-<code>tor --list-fingerprint</code> auf der Kommandozeile eingeben, um den Fingerprint 
-herauszubekommen. arm (der Kommandozeilenkontroller für Tor) zeigt den 
-Fingerprint ebenfalls an.
+Der Fingerprint ist in /var/lib/tor/fingerprint zu finden. arm (der 
+Kommandozeilenkontroller für Tor) zeigt den Fingerprint ebenfalls an.  
+Alternativ kann man den Nicknamen seiner Node auf 
+[[https://torstatus.blutmagie.de torstatus.blutmagie.de]] raussuchen und dort 
+den Fingerprint entnehmen. Diese Seite zeigt auch unter dem Punkt "Family" die 
+Nodes an, die bereits in der Family mit dieser Node konfiguriert sind.
 
 == Node List ==
 
