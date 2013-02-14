@@ -1,0 +1,85 @@
+{{ProjektInfoBox
+|name        = Torrorists
+|status      = beta
+|image       = Tor logo.png
+|description = Gemeinsam Tor Relays betreiben.
+|author      = [[User:Slowpoke|slowpoke]]
+|username    = |version     = Im Aufbau™
+|update      = |platform    = |hostname    =
+|license     = |download    = |bausatz     =
+|preis       =
+}}
+
+RaumZeitLaboranten (und vielleicht andere Interessierte) wollen gemeinsam Tor 
+Relays und später™ auch Exits betreiben. Dies erfordert etwas Organisation und 
+Aufwand, darum hat sich eine Gruppe gebildet, die dies als eigenständiges 
+Projekt aufbauen möchte.
+
+== Treffen ==
+
+Die Torrorists treffen sich derzeit Dienstags nach den Vorträgen der 
+[[Offene_RaumZeitLaborierung|Offenen RaumZeitLaborierung]] auf dem Olymp, um 
+über geplante Dinge zu diskutieren oder sich einfach nur auszutauschen. Auch 
+neue Interessierte sind gerne gesehen: wir erklären dir gerne, was Tor ist und 
+wie du helfen kannst.
+
+== Nodes ==
+
+Derzeit betreiben die meisten Torroristen_innen eigene Relays, die in einer 
+Family konfiguriert sind. Die Fingerprints sind unter [[Torrorists/Nodes]] zu 
+finden, und werden so aktuell wie möglich gehalten. Wir wollen in Zukunft auch 
+"offizielle" Relays betreiben, jedoch benötigt dies die Gründung eines Vereins.
+
+== Verein ==
+
+Da wir für gewisse Dinge, unter anderem den Betrieb von Exits, nicht persönlich 
+direkt angreifbar sein wollen (Hausdurchsuchungen o.ä.), wollen wir in 
+absehbarer Zeit einen Verein gründen. Dieser soll als offizieller Betreiber der 
+Nodes auftreten. Zur Gründung eines Vereins werden 7 natürliche Personen 
+benötigt, sowie eine Satzung, und vermutlich noch etwas an Papierkram. Mensch 
+müsste sich darüber informieren. Es wird gemunkelt, dass es im RZL Personen 
+geben soll, die schon mal einen Verein gegründet haben.
+
+== Projekte ==
+
+Das Tor Project benötigt viel mehr als nur mehr Nodes - auch Helfer aller Art 
+werden stets gesucht. Ob es sich um das Übersetzen von verschiedensten Texten, 
+Verfassen von Dokumentation, Fixen von Bugs oder das Programmieren neuer 
+Features dreht, irgendetwas kann jeder tun. Zu diesem Zweck planen wir 
+verschiedene Dinge, u.a.:
+
+=== Contribution Jams ===
+
+Ein Contribution Jam soll, ähnlich einem Code Jam, ein festgelegtes Treffen 
+sein, an dem Menschen gemeinsam versuchen, dem Tor Projekt zu helfen. Das ganze 
+soll mehr oder weniger organisiert sein, d.h. wir kümmern uns vorher um 
+mögliche Dinge, die getan werden können, überlegen, wie schwer oder leicht eine 
+Aufgabe ist (viel Arbeit wird uns da von den Tor Devs schon abgenommen), 
+bereiten Dinge vor und treten uns gegenseitig, damit Dinge vorwärts gehen.
+
+=== Tor Hoster List ===
+
+Wir wollen eine Liste von Hosts zusammenstellen, die Tor-freundlich sind. Es 
+gibt dort bereits Vorarbeit, zb 
+[https://trac.torproject.org/projects/tor/wiki/doc/GoodBadISPs], aber diese 
+sind meist recht unstrukturiert. Das Ziel soll sein, eine durchsuchbare Liste 
+von Hostern zu haben, die mensch auch nach verschiedenen Kriterien filtern kann 
+(zB Preis/Monat oder Land), damit mensch Empfehlungen aussprechen kann.
+
+=== Website ===
+
+Wir hätten auch gerne unsere eigene Website. Dafür ist eine Domain natürlich 
+erst mal von Vorteil. Diese kann auch erstmal auf diese Wikiseite umleiten.
+
+
+== Kommunikation == 
+
+Wir sind derzeit noch nicht über allzu viele Medien erreichbar, aber wir haben 
+einen IRC-Channel namens #torrorists im [https://hackint.eu hackint] (das ist 
+das selbe Netzwerk, auf dem sich auch #raumzeitlabor befindet). Wir kümmern uns 
+derzeit noch um eine Mailingliste und eventuell andere Kommunikationswege.
+
+Du kannst natürlich auch jederzeit jemanden von uns ansprechen. Folgende 
+Laboranten sind bereit, dir Rede und Antwort zu stehen:
+
+* [[User:Slowpoke|slowpoke]]
