@@ -15,7 +15,7 @@ Relays und später™ auch Exits betreiben. Dies erfordert etwas Organisation un
 Aufwand, darum hat sich eine Gruppe gebildet, die dies als eigenständiges 
 Projekt aufbauen möchte.
 
-== Treffen ==
+== [[Torrorists/Treffen|Treffen]] ==
 
 Die Torrorists treffen sich derzeit Dienstags nach den Vorträgen der 
 [[Offene_RaumZeitLaborierung|Offenen RaumZeitLaborierung]] auf dem Olymp, um 
@@ -23,7 +23,7 @@ Die Torrorists treffen sich derzeit Dienstags nach den Vorträgen der
 neue Interessierte sind gerne gesehen: wir erklären dir gerne, was Tor ist und 
 wie du helfen kannst.
 
-== Nodes ==
+== [[Torrorists/Nodes|Nodes]] ==
 
 Derzeit betreiben die meisten Torroristen_innen eigene Relays, die in einer 
 Family konfiguriert sind. Die Fingerprints sind unter [[Torrorists/Nodes]] zu 
@@ -57,7 +57,7 @@ mögliche Dinge, die getan werden können, überlegen, wie schwer oder leicht ei
 Aufgabe ist (viel Arbeit wird uns da von den Tor Devs schon abgenommen), 
 bereiten Dinge vor und treten uns gegenseitig, damit Dinge vorwärts gehen.
 
-=== Tor Hoster List ===
+=== [[Torrorists/Hoster|Tor Hoster List]] ===
 
 Wir wollen eine Liste von Hosts zusammenstellen, die Tor-freundlich sind. Es 
 gibt dort bereits Vorarbeit, zb 
