@@ -31,8 +31,8 @@ Nodes an, die bereits in der Family mit dieser Node konfiguriert sind.
 Dies ist die derzeitige Config-Line, die ihr in euren Nodes setzen möchtet (Vorsicht: lange Zeile ist lang):
 
 
-    #        | slowpoke - SlowpokeWell                 | sebi - sebitdotorg                      | hax404 - Bernd                          | tiefpunkt - lepremierpointbas           | eeemsi - identity                       | eeemsi - entity                         |silsha - Kuroneko                                                                                                                                                     
-    MyFamily $60D48F04F1EE0E22966DF0DAA8234329F5BF74AF,$12CCC11328055D9189F744D2DFED4DA9AA3FA484,$F867F38D806BAE52FC77BDFCF02B7D76DFB451ED,$0158AD024335D0089AC64850409A475A6A817DD0,$9D5D7BB3E276A890E46EF934EACB1756FA2F4D96,$4F8A730236EA559047CD312E7ABD9F04B008D123,$0770A13FDB928233827D38FDB2181CFAEABC3E5D
+    #        | slowpoke - SlowpokeWell                 | sebi - sebitdotorg                      | hax404 - Bernd                          | tiefpunkt - lepremierpointbas           | eeemsi - identity                       | eeemsi - entity                         |silsha - Kuroneko                        | silsha – Lucchini                                                                                                                                                     
+    MyFamily $60D48F04F1EE0E22966DF0DAA8234329F5BF74AF,$12CCC11328055D9189F744D2DFED4DA9AA3FA484,$F867F38D806BAE52FC77BDFCF02B7D76DFB451ED,$0158AD024335D0089AC64850409A475A6A817DD0,$9D5D7BB3E276A890E46EF934EACB1756FA2F4D96,$4F8A730236EA559047CD312E7ABD9F04B008D123,$0770A13FDB928233827D38FDB2181CFAEABC3E5D,$7A2BBC83A3F582BD16C77D3FD2EB44C559927260
 
 == Node List ==
 
