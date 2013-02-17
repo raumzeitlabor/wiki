@@ -73,13 +73,28 @@ Die Tor Hoster Liste befindet sich aktuell unter [[Torrorists/Hoster]].
 
 == Kommunikation == 
 
-Wir sind derzeit noch nicht über allzu viele Medien erreichbar, aber wir haben 
-einen IRC-Channel namens #torrorists im [https://hackint.eu hackint] (das ist 
-das selbe Netzwerk, auf dem sich auch #raumzeitlabor befindet). Wir kümmern uns 
-derzeit noch um eine Mailingliste und eventuell andere Kommunikationswege.
+=== IRC === 
 
-Du kannst natürlich auch jederzeit jemanden von uns ansprechen. Folgende 
-Laboranten sind bereit, dir Rede und Antwort zu stehen:
+Wir haben einen IRC-Channel namens #torrorists im [https://hackint.eu hackint] 
+(das ist das selbe Netzwerk, auf dem sich auch #raumzeitlabor befindet). Wenn 
+du keinen IRC Client hast, kannst du zB diesen
+[https://client00.chat.mibbit.com/?channel=%23torrorists&server=irc.hackint.eu Web Client]
+benutzen.
+
+Das hackint Netzwerk ist übrigens auch als Hidden Service innerhalb des 
+Tor-Netzwerks zu erreichen. 
+
+=== Mailingliste ===
+
+Für etwas längerfristige Kommunikation und Announces existiert eine offene 
+Mailingliste, die unter [https://lists.raumzeitlabor.de/listinfo/tor] zu finden 
+ist.
+
+=== Live und in Farbe ===
+
+Du kannst natürlich auch jederzeit jemanden von uns ansprechen, wenn du im 
+RaumZeitLabor bist. Folgende Laboranten sind bereit, dir Rede und Antwort zu 
+stehen:
 
 * [[User:Slowpoke|slowpoke]]
 * [[User:Sebi|Sebi]]
