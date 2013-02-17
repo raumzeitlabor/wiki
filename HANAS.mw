@@ -1,6 +1,7 @@
+{{AchtungKasten1|title=Obsolet|msg=Dieses Projekt ist obsolet. Die meisten Leute nutzen mittlerweile den HP N40L, der für eigentlich alles das kann, was an Anforderungen genügt. }}
 {{ProjektInfoBox
 |name        = HANAS (Hacker's NAS)
-|status      = experimental
+|status      = obsolete
 |image       = 
 |description = Eigenbau NAS mit Hack-Value
 |author      = docsteel, Inte
