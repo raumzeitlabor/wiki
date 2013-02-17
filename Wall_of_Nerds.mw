@@ -9,11 +9,11 @@
 |update      = 
 |platform    = Reality 1.0
 |license     = 
-|download    = [https://github.com/raumzeitlabor/wall-of-nerds github.com]
+|download    = [http://raumzeitlabor.github.com/steckbrief.js/ Generator]
 |bausatz     =
 |preis       =
 }}
-Die '''Wall of Nerds''' ist eine Wand mit Steckbriefen von RaumZeitLaboranten, und soll dazu dienen, unser Gesicht<->Nickname-Gedächtnis ein wenig zu unterstützen. Es ist entstanden aus einem [[Lightning Talks|Lightning Talk]] von [[Benutzer:Tiefpunkt|tiefpunkt]] ([[Media:Lightning Talk 20120124 - SocialFoo im RaumZeitLabor.pdf|Slides]]), und befindet sich derzeit in der Implementierungsphase. <del>Noch existiert die Wand nicht, aber es wird hart an einem Generator für Steckbriefe gearbeitet, während nach der perfekten Location für die Wall im Raum gesucht wird.</del> Über der Garderobe ist ein gutes Stück Platz geschaffen worden, wo ihr eure Steckbriefe aufhängen könnt.
+Die '''Wall of Nerds''' ist eine Wand mit Steckbriefen von RaumZeitLaboranten, und soll dazu dienen, unser Gesicht<->Nickname-Gedächtnis ein wenig zu unterstützen. Es ist entstanden aus einem [[Lightning Talks|Lightning Talk]] von [[Benutzer:Tiefpunkt|tiefpunkt]] ([[Media:Lightning Talk 20120124 - SocialFoo im RaumZeitLabor.pdf|Slides]]), und befindet sich derzeit in der Implementierungsphase. Über der Garderobe ist ein gutes Stück Platz geschaffen worden, wo ihr eure Steckbriefe aufhängen könnt.
 
 == Steckbriefe ==
 Es gibt keine Vorgaben für die Steckbriefe, außer die Größe: DIN A5, hochkant (210mmx148mm). Der Nerd von heute kann sich also kreativ austoben.
@@ -30,7 +30,9 @@ Ein paar Vorschläge für Contents:
 Um Interessen und Skills auf den Steckbrief zu packen, gibt es Badges. Es handelt sich dabei um kleine Grafiken, die man auf seinen Steckbrief packen kann, um damit anderen Leute zu zeigen, mit welchen Themen man sich auskennt oder gerne auskennen würde.
 
 === Generator ===
-Für die unter uns, die nicht so kreativ veranlagt sind, oder es sich einfach ein wenig einfacher machen wollen, baut [[Benutzer:TheTinyToon|TheTinyToon]] einen Generator, der mit Hilfe eines Templates und ein paar Eingaben einen wunderbaren Steckbrief generiert. [[Benutzer:Rami|rami]] hat dazu eine [https://github.com/raumzeitlabor/wall-of-nerds/blob/master/templates/template.svg provisorische Vorlage] für einen Steckbrief als SVG auf Grundlage der Diskussion in der Runde entworfen. [[Benutzer:PhyberApex|PhyberApex]] hat noch ein Generator auf der Vorlage von [[Benutzer:Rami|rami]] in Java geschrieben [https://github.com/downloads/raumzeitlabor/steckbrief/RZLSteckbrief.jar].
+Für die unter uns, die nicht so kreativ veranlagt sind, oder es sich einfach ein wenig einfacher machen wollen, hat [[Benutzer:Rami|rami]] eine [https://github.com/raumzeitlabor/wall-of-nerds/blob/master/templates/template.svg provisorische Vorlage] für einen Steckbrief als SVG gebaut. [[Benutzer:PhyberApex|PhyberApex]] hat noch ein Generator auf der Vorlage von [[Benutzer:Rami|rami]] in Java geschrieben [https://github.com/downloads/raumzeitlabor/steckbrief/RZLSteckbrief.jar].
+
+[[Benutzer:Tiefpunkt|tiefpunkt]] hat zusätzlich einen Generator in HTML5/JS gebaut: [http://raumzeitlabor.github.com/steckbrief.js/ steckbrief.js]
 
 === Tips ===
 Du hast ein DIN A5 PDF, willst es als ein DIN A4 ausdrucken? Konvertiere es hiermit:
