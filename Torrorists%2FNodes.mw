@@ -38,34 +38,34 @@ Dies ist die derzeitige Config-Line, die ihr in euren Nodes setzen möchtet (Vor
 
 === sebi ===
 
-* Nick: sebidotorg
-* Fingerprint: 12CCC11328055D9189F744D2DFED4DA9AA3FA484
+;sebidotorg
+:Fingerprint: 12CCC11328055D9189F744D2DFED4DA9AA3FA484
 
 === [[User:Slowpoke|slowpoke]] ===
 
-* Nick: SlowpokeWell
-* Fingerprint: 60D48F04F1EE0E22966DF0DAA8234329F5BF74AF
+;SlowpokeWell
+:Fingerprint: 60D48F04F1EE0E22966DF0DAA8234329F5BF74AF
 
 === [[User:Hax404|hax404]] ===
 
-* Nick: Bernd
-* Fingerprint: F867F38D806BAE52FC77BDFCF02B7D76DFB451ED
+;Bernd
+:Fingerprint: F867F38D806BAE52FC77BDFCF02B7D76DFB451ED
 
 === [[User:Tiefpunkt|tiefpunkt]] ===
 
-* Nick: lepremierpointbas 
-* Fingerprint 0158AD024335D0089AC64850409A475A6A817DD0
+;lepremierpointbas 
+:Fingerprint 0158AD024335D0089AC64850409A475A6A817DD0
 
 === [[User:eeemsi|eeemsi]] ===
 
-* Nick: entity
-* Fingerprint:  4F8A730236EA559047CD312E7ABD9F04B008D123
+;entity
+:Fingerprint:  4F8A730236EA559047CD312E7ABD9F04B008D123
 
-* Nick: identity
-* Fingerprint: 9D5D7BB3E276A890E46EF934EACB1756FA2F4D96
+;identity
+:Fingerprint: 9D5D7BB3E276A890E46EF934EACB1756FA2F4D96
 
 === [[User:silsha|silsha]] ===
-* Nick: Kuroneko
-* Fingerprint: 0770A13FDB928233827D38FDB2181CFAEABC3E5D
-* Nick: Lucchini
-* Fingerprint: 7A2BBC83A3F582BD16C77D3FD2EB44C559927260
+;Kuroneko
+:Fingerprint: 0770A13FDB928233827D38FDB2181CFAEABC3E5D
+;Lucchini
+:Fingerprint: 7A2BBC83A3F582BD16C77D3FD2EB44C559927260
