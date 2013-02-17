@@ -56,10 +56,13 @@ Dies ist die derzeitige Config-Line, die ihr in euren Nodes setzen möchtet (Vor
 === [[User:silsha|silsha]] ===
 ;Kuroneko
 :Fingerprint: 0770A13FDB928233827D38FDB2181CFAEABC3E5D
+:Hoster: Privatkundenanschluss (Telekom)
 ;Lucchini
 :Fingerprint: 7A2BBC83A3F582BD16C77D3FD2EB44C559927260
+:Hoster: Serverway.de
 ;Sanya
 :Fingerprint: 42FACDD8566382C19654F152F48196670F263228
+:Hoster: webtropia.com
 
 === [[User:Tiefpunkt|tiefpunkt]] ===
 ;lepremierpointbas 
