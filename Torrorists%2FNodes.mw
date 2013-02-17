@@ -37,33 +37,33 @@ Dies ist die derzeitige Config-Line, die ihr in euren Nodes setzen möchtet (Vor
 == Node List ==
 === [[User:eeemsi|eeemsi]] ===
 ;entity
-:Fingerprint:  4F8A730236EA559047CD312E7ABD9F04B008D123
+:Fingerprint: [http://torstatus.blutmagie.de/router_detail.php?FP=4F8A730236EA559047CD312E7ABD9F04B008D123 4F8A730236EA559047CD312E7ABD9F04B008D123]
 ;identity
-:Fingerprint: 9D5D7BB3E276A890E46EF934EACB1756FA2F4D96
+:Fingerprint: [http://torstatus.blutmagie.de/router_detail.php?FP=9D5D7BB3E276A890E46EF934EACB1756FA2F4D96 9D5D7BB3E276A890E46EF934EACB1756FA2F4D96]
 
 === [[User:Hax404|hax404]] ===
 ;Bernd
-:Fingerprint: F867F38D806BAE52FC77BDFCF02B7D76DFB451ED
+:Fingerprint: [http://torstatus.blutmagie.de/router_detail.php?FP=F867F38D806BAE52FC77BDFCF02B7D76DFB451ED F867F38D806BAE52FC77BDFCF02B7D76DFB451ED]
 
 === sebi ===
 ;sebidotorg
-:Fingerprint: 12CCC11328055D9189F744D2DFED4DA9AA3FA484
+:Fingerprint: [http://torstatus.blutmagie.de/router_detail.php?FP=12CCC11328055D9189F744D2DFED4DA9AA3FA484 12CCC11328055D9189F744D2DFED4DA9AA3FA484]
 
 === [[User:Slowpoke|slowpoke]] ===
 ;SlowpokeWell
-:Fingerprint: 60D48F04F1EE0E22966DF0DAA8234329F5BF74AF
+:Fingerprint: [http://torstatus.blutmagie.de/router_detail.php?FP=60D48F04F1EE0E22966DF0DAA8234329F5BF74AF 60D48F04F1EE0E22966DF0DAA8234329F5BF74AF]
 
 === [[User:silsha|silsha]] ===
 ;Kuroneko
-:Fingerprint: 0770A13FDB928233827D38FDB2181CFAEABC3E5D
-:Hoster: Privatkundenanschluss (Telekom)
+:Fingerprint: [http://torstatus.blutmagie.de/router_detail.php?FP=0770A13FDB928233827D38FDB2181CFAEABC3E5D 0770A13FDB928233827D38FDB2181CFAEABC3E5D]
+:Hoster: Telekom (Privatkundenanschluss)
 ;Lucchini
-:Fingerprint: 7A2BBC83A3F582BD16C77D3FD2EB44C559927260
+:Fingerprint: [http://torstatus.blutmagie.de/router_detail.php?FP=7A2BBC83A3F582BD16C77D3FD2EB44C559927260 7A2BBC83A3F582BD16C77D3FD2EB44C559927260]
 :Hoster: Serverway.de
 ;Sanya
-:Fingerprint: 42FACDD8566382C19654F152F48196670F263228
+:Fingerprint: [http://torstatus.blutmagie.de/router_detail.php?FP=42FACDD8566382C19654F152F48196670F263228 42FACDD8566382C19654F152F48196670F263228]
 :Hoster: webtropia.com
 
 === [[User:Tiefpunkt|tiefpunkt]] ===
 ;lepremierpointbas 
-:Fingerprint 0158AD024335D0089AC64850409A475A6A817DD0
+:Fingerprint [http://torstatus.blutmagie.de/router_detail.php?FP=0158AD024335D0089AC64850409A475A6A817DD0 0158AD024335D0089AC64850409A475A6A817DD0]
