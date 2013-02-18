@@ -13,9 +13,13 @@
 |download    = 
 }}
 
-== Zweck ==
-=== Jailbackup ===
+== Jailbackup ==
 Halten der Daten des alten Jails unter /oldjail
+
+Sync mit:
+<pre>
+rsync -avHWx --itemize-changes --delete --stats --bwlimit=200 root@rzl.uugrn.org:/ /oldjail
+</pre>
 == Eckdaten ==
 
 * 256 MB RAM
