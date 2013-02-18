@@ -144,9 +144,9 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.222 || [[Drucker#Labeldrucker]] || VM für die Labeldrucker-Software
 |-----
-| 172.22.36.236 || [[Mate_(Server)/bernd.vm.rzl || Mitglieder-VM (beta)
+| 172.22.36.236 || [[Mate_(Server)/bernd.vm.rzl]] || Mitglieder-VM (beta)
 |-----
-| 172.22.36.237 || ''reserved'' || Reserviert für Geräte
+| 172.22.36.237 || [[Mate_(Server)/jailbackup.vm.rzl]] || Jailbackup-VM
 |-----
 | 172.22.36.238 || ''reserved'' || Reserviert für Geräte
 |-----
