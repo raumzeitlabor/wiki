@@ -1,0 +1,25 @@
+{{ProjektInfoBox
+|name        = jailbackup.vm.rzl
+|status      = beta
+|image       = 
+|description = VM die die daten des alten Jails hält
+|author      = [[NOC Team|NOC-Team]]
+|username    = 
+|version     = 
+|update      = 2013-02-17
+|platform    = 
+|hostname    = jailbackup.vm.rzl
+|license     = 
+|download    = 
+}}
+
+== Zweck ==
+=== Jailbackup ===
+Halten der Daten des alten Jails unter /oldjail
+== Eckdaten ==
+
+* 256 MB RAM
+* 1 CPU Core
+* 30GB HDD
+
+[[Kategorie:Infrastruktur]]
