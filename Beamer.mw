@@ -51,6 +51,23 @@ auf dem KVM-Switch lässt sich das Beamer-Bild previewen.
 Der Beamer beherrscht Full-HD, dh 1920x1080, und vermutlich alle sinnvollen 
 Auflösungen daruner.
 
+Mögliche Auflösungen nach xrandr über HDMI (ermittelt an einem ThinkPad x220t mit passivem DP→HDMI-Adapter)
+<code>
+   1920x1080      60.0 +
+   1600x1200      60.0  
+   1680x1050      60.0  
+   1400x1050      60.0  
+   1280x1024      75.0     60.0  
+   1440x900       59.9  
+   1280x960       60.0  
+   1280x800       59.8  
+   1152x864       75.0  
+   1280x720       50.0     60.0  
+   1024x768       75.1     70.1     60.0  
+   800x600        72.2     75.0     60.3     56.2  
+   640x480        72.8     75.0     66.7     60.0  
+</code>
+
 ==== xrandr ====
 xrandr und vermutlich alle auf RandR basierende Tools haben, wohl in 
 Zusammenhang mit dem Switch, ein Problem, die maximale Auflösung korrekt zu 
