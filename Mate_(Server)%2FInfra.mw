@@ -24,6 +24,7 @@ Folgende Dienste laufen ''aktuell'' auf der VM:
 * PIN Sync
 * RaumZeitChef IRC-Bot
 * BenutzerDB
+* Mantis [http://infra.rzl/mantis]
 
 == TODO ==
 * Firewalling
