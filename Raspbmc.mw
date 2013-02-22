@@ -1,0 +1,16 @@
+{{ProjektInfoBox
+|name        = raspbmc
+|status      = testing
+|image       = 
+|description = Ein Raspberry Pi mit Raspbmc.
+|maintainer  = [[Benutzer:Else|Else]]
+|username    = 
+|hostname    = raspbmc.rzl
+|version     = 
+|update      = 2012-02-22
+|platform    = 
+|license     = 
+|download    = 
+|bausatz     =
+|preis       =
+}
