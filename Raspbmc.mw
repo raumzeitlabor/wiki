@@ -14,6 +14,7 @@
 |bausatz     =
 |preis       =
 }}
+[[Datei:Raspbmc-xbmcremote-qrcode.svg|200px|thumb|right]]
 
 Wir nutzen einen Raspberry Pi mit Raspbmc zum Abspielen von Videos. Wir haben ihn auf der Beamerplattform mittels HDMI direkt an den Port HDMI2 vom Beamer angeschlossen. Momentan läuft er durch (Verbrauch ca. 3W), eventuell können wir das mit einer Master-Slave Steckdose am Beamer vermeiden. Er kann direkt über unser [[Mate (Server)/Datengrab|Datengrab]] auf unsere Videosammlung zugreifen.
 
