@@ -21,7 +21,7 @@ Wir nutzen einen Raspberry Pi mit Raspbmc zum Abspielen von Videos. Wir haben ih
 Es gibt viele Möglichkeiten, den raspbmc fernzusteuern. Anbei sind einige Möglichkeiten.
 
 === Android ===
-* [https://play.google.com/store/apps/details?id=org.xbmc.android.remote&feature=search_result#?t=W251bGwsMSwyLDEsIm9yZy54Ym1jLmFuZHJvaWQucmVtb3RlIl0. XMBC Remote]
+* [https://play.google.com/store/apps/details?id=org.xbmc.android.remote&feature=search_result#?t=W251bGwsMSwyLDEsIm9yZy54Ym1jLmFuZHJvaWQucmVtb3RlIl0. XMBC Remote]. Scanne den QR Code auf der rechten Seite, um die Settings zu importieren.
 
 === Webinterface ===
 Als Fallback kannst du das Gerät auch über eine Weboberfläche fernsteuern. Du erreichst sie über [http://raspbmc.rzl:8080/ diesen Link].
