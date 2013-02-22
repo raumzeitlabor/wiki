@@ -1,10 +1,10 @@
 {{ProjektInfoBox
 |name        = raspbmc
 |status      = testing
-|image       = 
+|image       = IMG 20130222 201651.jpg
 |description = Ein Raspberry Pi mit Raspbmc.
+|author      = [[Benutzer:muzy|muzy]]
 |maintainer  = [[Benutzer:Else|Else]]
-|username    = 
 |hostname    = raspbmc.rzl
 |version     = 
 |update      = 2012-02-22
@@ -14,3 +14,14 @@
 |bausatz     =
 |preis       =
 }}
+
+Wir nutzen einen Raspberry Pi mit Raspbmc zum Abspielen von Videos. Wir haben ihn auf der Beamerplattform mittels HDMI direkt an den Port HDMI2 vom Beamer angeschlossen. Momentan läuft er durch (Verbrauch ca. 3W), eventuell können wir das mit einer Master-Slave Steckdose am Beamer vermeiden. Er kann direkt über unser [[Mate (Server)/Datengrab|Datengrab]] auf unsere Videosammlung zugreifen.
+
+== Apps ==
+Es gibt viele Möglichkeiten, den raspbmc fernzusteuern. Anbei sind einige Möglichkeiten.
+
+=== Android ===
+* [https://play.google.com/store/apps/details?id=org.xbmc.android.remote&feature=search_result#?t=W251bGwsMSwyLDEsIm9yZy54Ym1jLmFuZHJvaWQucmVtb3RlIl0. XMBC Remote]
+
+=== Webinterface ===
+Als Fallback kannst du das Gerät auch über eine Weboberfläche fernsteuern. Du erreichst sie über [http://raspbmc.rzl:8080/ diesen Link].
