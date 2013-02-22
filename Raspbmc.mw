@@ -1,6 +1,6 @@
 {{ProjektInfoBox
 |name        = raspbmc
-|status      = testing
+|status      = beta
 |image       = IMG 20130222 201651.jpg
 |description = Ein Raspberry Pi mit Raspbmc.
 |author      = [[Benutzer:muzy|muzy]]
