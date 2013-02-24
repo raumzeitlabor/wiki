@@ -35,6 +35,7 @@
 * Mailserver
 * Mailingliste
 * Raumstatus
+* DNS
 
 == Backup von premium ==
 
@@ -45,7 +46,7 @@ Die Daten von premium werden mittels [[Mate (Server)]] auf [[Datamonster]] gebac
 Platzhalter/Reminder, um die configs/effektive Nutzdaten von allen Maschinen off-site zu backuppen.
 
 == Anbindung an internes Netz ==
-Die Anbindung erfolgt über einen Layer2-OpenVPN-Tunnel an die [[Firebox]]. Dort ist das Tunnelinterface an das Interface ''internal'' mit dem Internen Netz gebridged. Erreichbar ist Premium über 172.22.36.7 (IP des ehemaligen Datengrabs).
+Die Anbindung erfolgt über einen Layer2-OpenVPN-Tunnel an die [[Firebox]]. Dort ist das Tunnelinterface an das Interface ''internal'' mit dem Internen Netz gebridged. Erreichbar ist Premium über 172.22.36.7 (IP des ehemaligen Datengrabs). IPv6 wurde für dieses Interface auf premium deaktiviert.
 
 
 [[Kategorie:Hardware]]
