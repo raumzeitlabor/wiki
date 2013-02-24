@@ -13,7 +13,7 @@
 |download    = 
 }}
 
-'''Premium''' ist ein Server, der in Zukunft das [[Jail|Jails]] ersetzen soll.
+'''Premium''' ist ein Server, der bis Ende Februar 2013 das [[Jail|Jails]] ersetzen wird. Es laufen bereits einige Dienste auf Premium. Premium hat volle IPv6 Konnektivität, d.h. alle Dienste, die auf ihm laufen, sind i.d.R. per IPv6 erreichbar (z.B. dieses Wiki).
 
 ==Technische Daten==
 {| class="wikitable"  valign = "top"
