@@ -71,9 +71,15 @@ Dies ist die derzeitige Config-Line, die ihr in euren Nodes setzen möchtet (Vor
 ;Kuroneko
 :Fingerprint: [http://torstatus.blutmagie.de/router_detail.php?FP=0770A13FDB928233827D38FDB2181CFAEABC3E5D 0770A13FDB928233827D38FDB2181CFAEABC3E5D]
 :Hoster: Telekom (Privatkundenanschluss)
+
+;Liru (liru.torrorists.de)
+:Fingerprint: [http://torstatus.blutmagie.de/router_detail.php?FP=F7C66C585A20A459AB7119ECA65A7C8FF896D901 0770A13FDB928233827D38FDB2181CFAEABC3E5D]
+:Hoster: Hetzner
+
 ;Lucchini
 :Fingerprint: [http://torstatus.blutmagie.de/router_detail.php?FP=7A2BBC83A3F582BD16C77D3FD2EB44C559927260 7A2BBC83A3F582BD16C77D3FD2EB44C559927260]
 :Hoster: Serverway.de
+
 ;Sanya
 :Fingerprint: [http://torstatus.blutmagie.de/router_detail.php?FP=42FACDD8566382C19654F152F48196670F263228 42FACDD8566382C19654F152F48196670F263228]
 :Hoster: webtropia.com
