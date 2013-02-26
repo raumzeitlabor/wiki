@@ -1,3 +1,92 @@
+{{ProjektInfoBox
+|name        = Wordpress
+|status      = experimental
+|image       = RaumZeitLabor - Logo - Schwarz.svg
+|description = 
+|author      = [[Benutzer:Tiefpunkt|tiefpunkt]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+Migration des RaumZeitLabor Blogs von Drupal auf Wordpress.
+
+== Projektplan ==
+{{TaskListStart}}
+{{TaskListItem
+| title = Blog Migrationstests
+| description = Test der Migration (Blog only)
+| responsible = [[Benutzer:Tiefpunkt|tiefpunkt]]
+| status = done
+| last_changed = 25. Feb. 2012
+}}
+{{TaskListItem
+| title = Final Drupal-Dump
+| description = Aktuellen DB+FS-Dump der Drupal-Installation ziehen
+| responsible = [[Benutzer:Nicoduck|nicoduck]]
+| status = done
+| last_changed = 25. Feb. 2012
+}}
+{{TaskListItem
+| title = Blog Migrationsphase 1
+| description = Automatische Migration von Blogposts, Seiten, und Benutzern
+| responsible = [[Benutzer:Tiefpunkt|tiefpunkt]]
+| status = done
+| last_changed = 25. Feb. 2012
+}}
+{{TaskListItem
+| title = Blog Migrationsphase 2
+| description = Manuelle Nacharbeiten, Kontrolle
+| responsible = [[Benutzer:Zwetschgo|Zwetschgo]],[[Benutzer:Tiefpunkt|tiefpunkt]]
+| status = inprogress
+| last_changed = 25. Feb. 2012
+}}
+{{TaskListItem
+| title = Kalender Evaluation
+| description = Evaluation verschiedener Kalender-/Eventmanagement-Plugins
+| responsible = [[Benutzer:Tiefpunkt|tiefpunkt]]
+| status = inprogress
+| last_changed = 26. Feb. 2012
+}}
+{{TaskListItem
+| title = Kalender Migrationstests
+| description = Versuch, Daten aus dem CiviCRM-Kalender auf die neue Plattform zu migrieren
+| responsible = [[Benutzer:Tiefpunkt|tiefpunkt]]
+| status = waiting
+| last_changed = 26. Feb. 2012
+}}
+{{TaskListItem
+| title = Kalender Migration Phase 1
+| description = Automatisierte Migration der Daten
+| responsible = [[Benutzer:Tiefpunkt|tiefpunkt]]
+| status = waiting
+| last_changed = 26. Feb. 2012
+}}
+{{TaskListItem
+| title = Kalender Migration Phase 2
+| description = Manuelle Nacharbeiten
+| responsible = [[Benutzer:Tiefpunkt|tiefpunkt]]
+| status = waiting
+| last_changed = 26. Feb. 2012
+}}
+{{TaskListItem
+| title = Neues Theme
+| description = Theme suchen/bauen
+| responsible = [[Benutzer:Lutoma|lutoma]]
+| status = unkown
+| last_changed = 26. Feb. 2012
+}}
+{{TaskListEnd}}
+
+== Installationstdetails ==
+=== Migration ===
+* Host: bernd.vm.rzl
+* Wordpress 3.5.1 DE-de
+* Plugins:
+  * Add-Linked-Images-to-Gallery
+
 == Wunschliste ==
 * Kalender
 ** Eventverwaltung
@@ -6,3 +95,4 @@
 ** Mit Teilnehmer-Liste
 ** Möglichkeit, dass Teilnehmer angeschrieben werden können
 ** Verbindung mit Kalender
+[[Kategorie:Projekt]]
