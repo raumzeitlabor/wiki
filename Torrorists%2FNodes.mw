@@ -5,17 +5,18 @@ derzeit auch zur Koordination der Family benutzt.
 == Warum Family? ==
 
 Tor Nodes, die potentiell von einer Person bzw. einer Organisation kontrolliert 
-werden, sind ein Risikofaktor. Deswegen geben die Operatoren_innen solcher 
-Nodes in der Configdatei eine Family an, mit der sie diese Nodes als eine 
-Family deklarieren. Damit können Nutzer_innen des Tornetzwerkes vermeiden, mehr 
-als eine Node aus einer Family in einem Circuit (einer Verbindung durch das 
-Tornetzwerk) zu verwenden, was ihre Anonymität einschränken könnte.
+werden, sind ein Risikofaktor. Deswegen geben die Operatoren_innen in der Configdatei
+eine Family an, mit der sie solche Nodes als zusammengehörig deklarieren. Damit
+können Nutzer_innen des Tornetzwerkes vermeiden, mehr als eine Node aus einer Family
+in einem Circuit (einer Verbindung durch das Tornetzwerk) zu verwenden, was ihre
+Anonymität einschränken könnte.
 
-Da unsere Nodes derzeit prinzipiell unabhängig sind, weil sie von einzelnen 
-Individuen betrieben werden, ist eine Family nicht zwingend notwendig. Wir 
-haben uns jedoch entschlossen, dies auf (freiwilliger Basis) trotzdem zu tun, 
-da es nicht schadet. Wir zeigen somit lediglich, dass diese Nodes 
-zusammengehören.
+Da unsere Nodes derzeit unabhängig voneinander sind, weil sie von den einzelnen 
+Mitgliedern betrieben werden, ist die Angabe einer Family nicht zwingend notwendig.
+Wir haben uns jedoch entschlossen, dies (auf freiwilliger Basis) trotzdem zu tun, 
+da wir uns untereinander kennen und theoretisch miteinander kooperieren könnten,
+um Verbindungen zu verfolgen. Natürlich tun wir dies nicht und wollen mit unserer
+Family hauptsächlich zeigen, dass all diese Nodes zu unserem Projekt gehören.
 
 == How To Config ==
 
