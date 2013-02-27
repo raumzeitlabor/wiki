@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = RaspberryPi DMX Adapter
 |status      = beta
-|image       = RaumZeitLabor - Logo - Schwarz.svg
+|image       = Rpi_dmx_board002.png
 |description = Alle offenen Aufgaben immer im Blick
 |author      = D-Structor
 |username    = 
@@ -10,4 +10,40 @@
 |platform    = 
 |license     = 
 |download    = Source:[[Datei:Dmx_adapter_rpi_source002.zip]] <br /> Eagle Board: [[Datei:Dmx_adapter_rpi_002.brd]] <br /> Eagle Schematic: [[Datei:Dmx_adapter_rpi_002.sch]]
+|preis       = 25€ pro Bausatz
+}}
+
+RasbperryPi [https://raspberrypi.org] sind in aller Munde. Als Medienserver, Lern-Rechner und auch Workstation-Ersatz verbreitet sich diese Plattform rasend schnell. 
+Mit dem RaspberryPi DMX Adapter wird dein Pi zur Kontrollstation für all deine DMX Endgeräte. Ob Scheinwerfer oder anderes Bühnenequipment - eine Ansteuerung die elegant, quelloffen und funktional ist. Das smarte Design und der günstige (Bausatz-) Preis lässt billige China-DMX-Adapter alt aussehen.
+
+== Teile-Liste (Reichelt Bestellnummer) ==
+''' Wenn du einen Bausatz kaufst, sind alle benötigten Bauteile direkt dabei. Kein Einkaufsstress für dich!'''
+
+ 1  SIM2-0505S SIL7 
+ 1  6N 137 
+ 1  SN 75176BP
+ 1  METALL 220
+ 1  SM 4,7/50RAD
+ 1  SM 10/16RAD
+ 1  PS 25/3G WS 
+ 3  METALL 10 
+ 1  METALL 10K 
+ 1  METALL 120
+ 1  X7R-2,5 100N
+ 1  20,0000-HC49U-S
+ 1  ATMEGA 8-16 DIP
+ 1  BL 2X13G8 2,54
+ 1  SL 2X50G 2,54
+ 1  BL 1X20W8 2,54 
+ 1  XLR 3KU-N
+
+Ohne Reichelt Bestellnummer:
+ 1  22pF Kondensator 2,5
+
+== Bausatzverfügbarkeit ==
+{{ProgressBar|0
+| text = Verfügbare Bausätze
+| total = 30
+| center = false
+| height = 5
 }}
