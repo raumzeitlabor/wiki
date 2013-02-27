@@ -1,0 +1,13 @@
+{{ProjektInfoBox
+|name        = RaspberryPi DMX Adapter
+|status      = beta
+|image       = RaumZeitLabor - Logo - Schwarz.svg
+|description = Alle offenen Aufgaben immer im Blick
+|author      = D-Structor
+|username    = 
+|version     = 0.0.1
+|update      = 
+|platform    = 
+|license     = 
+|download    = Source:[[Datei:Dmx_adapter_rpi_source002.zip]] <br /> Eagle Board: [[Datei:Dmx_adapter_rpi_002.brd]] <br /> Eagle Schematic: [[Datei:Dmx_adapter_rpi_002.sch]]
+}}
