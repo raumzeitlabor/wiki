@@ -1,0 +1,18 @@
+{{ProjektInfoBox
+|name        = MicroMoody
+|status      = beta
+|image       = MicromoodyV4.png
+|description = &ldquo;Liebling ich habe die Moodlamp geschrumpft!&rdquo;
+|author      = [[user:muzy|muzy]], [[user:hogdarog|hog]]
+|username    = 
+|version     = 0.4
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+|preis       = 4€ pro Bausatz
+}}
+
+Was ist klein, blinkt und brandneu im RaumZeitLabor? Die MicroMoody. Ein Bausatz der zum SMD-löten einläd und schnell Erfolge zeigt. 
+
+Ansteuerbar mit I²C kann die Moodlamp personalisiert und vielseitig eingesetzt werden.
