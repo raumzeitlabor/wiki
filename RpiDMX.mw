@@ -16,6 +16,9 @@
 RasbperryPi [https://raspberrypi.org] sind in aller Munde. Als Medienserver, Lern-Rechner und auch Workstation-Ersatz verbreitet sich diese Plattform rasend schnell. 
 Mit dem RaspberryPi DMX Adapter wird dein Pi zur Kontrollstation für all deine DMX Endgeräte. Ob Scheinwerfer oder anderes Bühnenequipment - eine Ansteuerung die elegant, quelloffen und funktional ist. Das smarte Design und der günstige (Bausatz-) Preis lässt billige China-DMX-Adapter alt aussehen.
 
+== Stand-Alone Variante ==
+Kein RaspberryPi zur Hand? Oder doch lieber die gewohnte CPU-Architektur? Kein Problem. Einfach einen seriellen Adapter anschließen. Diesen erhälst du beim [[Hacklace]] Projekt. 
+
 == Teile-Liste (Reichelt Bestellnummer) ==
 ''' Wenn du einen Bausatz kaufst, sind alle benötigten Bauteile direkt dabei. Kein Einkaufsstress für dich!'''
 
