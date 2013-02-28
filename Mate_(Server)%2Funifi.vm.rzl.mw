@@ -1,0 +1,26 @@
+{{ProjektInfoBox
+|name        = unifi.vm.rzl
+|status      = beta
+|image       = 
+|description = VM für die Verwaltung von ubiquiti unifi APs
+|author      = [[NOC Team|NOC-Team]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = unifi.vm.rzl
+|license     = 
+|download    = 
+}}
+
+== Zweck ==
+
+Konfiguration und Management der ubiquiti unifi APs. Bisher ist nur die Software installiert, der AP ist noch nicht an die Software gebunden und es gibt auch noch keine Zugangsdaten.
+
+== Eckdaten ==
+
+* 256MB RAM
+* 1 CPU Core
+* 20GB HDD
+
+[[Kategorie:Infrastruktur]]
