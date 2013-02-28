@@ -61,21 +61,21 @@ Migration des RaumZeitLabor Blogs von Drupal auf Wordpress.
 | title = Kalender Migrationstests
 | description = Versuch, Daten aus dem CiviCRM-Kalender auf die neue Plattform zu migrieren
 | responsible = [[Benutzer:Tiefpunkt|tiefpunkt]]
-| status = inprogress
+| status = done
 | last_changed = 27. Feb. 2012
 }}
 {{TaskListItem
 | title = Kalender Migration Phase 1
 | description = Automatisierte Migration der Daten
 | responsible = [[Benutzer:Tiefpunkt|tiefpunkt]]
-| status = waiting
+| status = done
 | last_changed = 26. Feb. 2012
 }}
 {{TaskListItem
 | title = Kalender Migration Phase 2
 | description = Manuelle Nacharbeiten
 | responsible = [[Benutzer:Tiefpunkt|tiefpunkt]]
-| status = waiting
+| status = inprogress
 | last_changed = 26. Feb. 2012
 }}
 {{TaskListItem
@@ -92,8 +92,10 @@ Migration des RaumZeitLabor Blogs von Drupal auf Wordpress.
 * Host: bernd.vm.rzl
 * Wordpress <del>3.5.1</del>3.4.2 DE-de
 * Plugins:
-  * Add-Linked-Images-to-Gallery
-  * Events Manager [http://wp-events-plugin.com/] - noch nicht installiert
+** Add-Linked-Images-to-Gallery
+** Events Manager [http://wp-events-plugin.com/]
+** WP FullCalendar [http://wordpress.org/extend/plugins/wp-fullcalendar/]
+
 
 == Wunschliste ==
 * Kalender
