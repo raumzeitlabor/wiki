@@ -15,7 +15,9 @@
 
 == Zweck ==
 
-Konfiguration und Management der ubiquiti unifi APs. Bisher ist nur die Software installiert, der AP ist noch nicht an die Software gebunden und es gibt auch noch keine Zugangsdaten.
+Konfiguration und Management der ubiquiti unifi APs. Bisher ist nur die Software installiert, der AP ist noch nicht an die Software gebunden und es gibt auch noch keine Zugangsdaten. Es wurde lediglich dafür gesorgt, daß das unifi-Softwarepackage installiert und sein JRE findet.
+
+Das Init-Script liegt in /etc/init.d/unifi
 
 == Eckdaten ==
 
