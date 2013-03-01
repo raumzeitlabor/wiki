@@ -47,8 +47,8 @@ Migration des RaumZeitLabor Blogs von Drupal auf Wordpress.
 | title = Blog Migrationsphase 2
 | description = Manuelle Nacharbeiten, Kontrolle
 | responsible = [[Benutzer:Zwetschgo|Zwetschgo]],[[Benutzer:Tiefpunkt|tiefpunkt]]
-| status = inprogress
-| last_changed = 1. Mär. 2012
+| status = done
+| last_changed = 2. Mär. 2012
 }}
 {{TaskListItem
 | title = Kalender Evaluation
