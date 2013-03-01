@@ -48,7 +48,7 @@ Migration des RaumZeitLabor Blogs von Drupal auf Wordpress.
 | description = Manuelle Nacharbeiten, Kontrolle
 | responsible = [[Benutzer:Zwetschgo|Zwetschgo]],[[Benutzer:Tiefpunkt|tiefpunkt]]
 | status = inprogress
-| last_changed = 26. Feb. 2012
+| last_changed = 1. Mär. 2012
 }}
 {{TaskListItem
 | title = Kalender Evaluation
@@ -82,15 +82,15 @@ Migration des RaumZeitLabor Blogs von Drupal auf Wordpress.
 | title = Go Live
 | description = Kopie auf [[Premium (Server)]]
 | responsible = [[NOC Team]]
-| status = unknown
+| status = done
 | last_changed = 28. Feb. 2012
 }}
 {{TaskListItem
 | title = Neues Theme
 | description = Theme suchen/bauen
-| responsible = [[Benutzer:Lutoma|lutoma]]
-| status = unkown
-| last_changed = 26. Feb. 2012
+| responsible = [[Benutzer:Lutoma|lutoma]], [[Benutzer:Tiefpunkt|tiefpunkt]]
+| status = inprogress
+| last_changed = 1. Mär. 2012
 }}
 {{TaskListEnd}}
 
@@ -103,6 +103,7 @@ Migration des RaumZeitLabor Blogs von Drupal auf Wordpress.
 ** Events Manager [http://wp-events-plugin.com/]
 ** WP FullCalendar [http://wordpress.org/extend/plugins/wp-fullcalendar/]
 ** Limit Login Attempts [http://devel.kostdoktorn.se/limit-login-attempts]
+** (MB) YouTube Widget [http://wordpress.org/extend/plugins/mb-youtube-videos/]
 
 
 == Wunschliste ==
