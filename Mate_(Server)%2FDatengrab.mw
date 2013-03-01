@@ -51,6 +51,10 @@ Derzeit befinden sich folgende Distributionen im [http://www.unix-ag.uni-kl.de/~
 
 '''Feedback zur Performance oder anderen Problemen bitte an das [[NOC Team]]'''
 
+=== User ===
+Folgende User wurden explizit auf dem System eingerichtet, um Dinge zu tun (Zweck bitte ergänzen):
+* abrock: ''ZWECK''
+
 == TODO ==
 * <strike>Monitoring einrichten</strike>
 * Firewalling
