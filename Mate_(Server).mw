@@ -129,6 +129,8 @@ Um eine VM zu monitoren:
 * Die grub2-settings der VMs über Puppet deployen
 
 == Unterseiten ==
+Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möchtest Du etwas auf den Systemen installiert haben, dann paketiere es bitte. Auf den Mitglieder-VMs kann alles so installiert werden, wie gewünscht.
+
 <splist />
 
 == Einzelnachweise ==
