@@ -51,6 +51,15 @@ Derzeit befinden sich folgende Distributionen im [http://www.unix-ag.uni-kl.de/~
 
 '''Feedback zur Performance oder anderen Problemen bitte an das [[NOC Team]]'''
 
+=== Jobs ===
+Folgende Jobs laufen derzeit auf dem Datengrab (Datei ''/etc/cron.d/datengrab''):
+<pre>
+# OS X und Windows Müll entfernen
+0 5 * * * nobody find /mnt/data \( -type d -and -name .DS_Store \) -or \( -type f -name Thumbs.db \) -print0 | xargs -0 rm -rf
+# mp3gain (alle Tracks gleich laut, autoclip, modify, preserve mtime, quiet)
+30 5 * * * nobody find /mnt/data -type f -name \*.mp3 -print0 | xargs -0 mp3gain -rkTpq
+</pre>
+
 === User ===
 Folgende User wurden explizit auf dem System eingerichtet, um Dinge zu tun (Zweck bitte ergänzen):
 * abrock: ''ZWECK''
