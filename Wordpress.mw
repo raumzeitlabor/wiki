@@ -97,7 +97,7 @@ Migration des RaumZeitLabor Blogs von Drupal auf Wordpress.
 == Installationstdetails ==
 === Migration ===
 * Host: bernd.vm.rzl
-* Wordpress 3.4.2 DE-de
+* Wordpress 3.5.1 DE-de
 * Plugins:
 ** Add-Linked-Images-to-Gallery [https://github.com/meintopf/add-linked-images-to-gallery/]
 ** Events Manager [http://wp-events-plugin.com/]
