@@ -106,6 +106,21 @@ Migration des RaumZeitLabor Blogs von Drupal auf Wordpress.
 ** (MB) YouTube Widget [http://wordpress.org/extend/plugins/mb-youtube-videos/]
 ** antispam-bee [http://wordpress.org/extend/plugins/antispam-bee/]
 
+== Modifikationen ==
+Wir entfernen die Wordpress Version aus den HTML Seiten, um automatisierte Angriffe zu erschweren:
+
+<pre>
+# wird in die functions.php des Themes eingebaut
+function vc_remove_wp_ver_css_js($src) {
+    if (strpos($src, 'ver='.get_bloginfo( 'version' )))
+        $src = add_query_arg('ver', 'bernd', $src );
+    return $src;
+}
+add_filter( 'style_loader_src', 'vc_remove_wp_ver_css_js', 9999 );
+add_filter( 'script_loader_src', 'vc_remove_wp_ver_css_js', 9999 );
+remove_action('wp_head', 'wp_generator');
+</pre>
+
 == Wunschliste ==
 * Kalender
 ** Eventverwaltung
