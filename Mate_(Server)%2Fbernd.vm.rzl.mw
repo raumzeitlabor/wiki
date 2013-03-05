@@ -1,3 +1,4 @@
+{{AchtungKasten1|title=He's dead, Jim!|msg=Die [[Wordpress]]-Migration ist mittlerweile abgeschlossen, und Bernd ist aus.}}
 {{ProjektInfoBox
 |name        = bernd.vm.rzl
 |status      = beta
@@ -12,6 +13,5 @@
 |license     = 
 |download    = 
 }}
-
 == Zweck ==
 Testinstallation der neuen, zukünftigen RaumZeitWebseite.
