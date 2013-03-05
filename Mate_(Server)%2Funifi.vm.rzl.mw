@@ -1,6 +1,6 @@
 {{ProjektInfoBox
 |name        = unifi.vm.rzl
-|status      = beta
+|status      = stable
 |image       = 
 |description = VM für die Verwaltung von ubiquiti unifi APs
 |author      = [[NOC Team|NOC-Team]]
@@ -10,13 +10,12 @@
 |platform    = 
 |hostname    = unifi.vm.rzl
 |license     = 
-|download    = 
+|download    = https://unifi.vm:8443/
 }}
 
 == Zweck ==
 
-Konfiguration und Management der ubiquiti unifi APs. Bisher ist nur die Software installiert, der AP ist noch nicht an die Software gebunden und es gibt auch noch keine Zugangsdaten. Es wurde lediglich dafür gesorgt, daß das unifi-Softwarepackage installiert und sein JRE findet.
-
+Konfiguration und Management der ubiquiti unifi APs. Der AP wurde hieran angebunden und wird über diese VM verwaltet. Zukünftige APs werden analog dazu an die VM gekoppelt.
 Das Init-Script liegt in /etc/init.d/unifi
 
 == Eckdaten ==
