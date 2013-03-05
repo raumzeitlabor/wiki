@@ -59,13 +59,13 @@ Wo liegt das interesse?
 ==== Vorteile ====
 
 * Größere Reichweite (100m Umkreis mit 100mW)
-* Niedrige Dämpfung im vergleich zu 5GHz
+* Niedrige Dämpfung im Vergleich zu 5GHz
 * Billigere Hardware 
 
 ==== Nachteile ====
 * Interferenzen da viele andere Anwender diese Frequenz auch nutzen (Babyfon, Bluetooth,etc.)
 * Viele Nutzer
-* Nur 3 überschneidungsfreie Frequenzen (Kanal 1, 7, 13)
+* Nur 4 überschneidungsfreie Frequenzen (Kanal 1, 5, 9, 13)
  
 === 5 GHz ===
 ----
