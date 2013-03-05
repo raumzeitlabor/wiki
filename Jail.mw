@@ -1,43 +1,7 @@
 == Aktueller Stand ==
+Der Webserver und andere Teile waren auf einem FreeBSD-Jail auf dem alten Vereinsserver von UUGRN gehostet. 
+Anlässlich der Umzuges von UUGRN-Diensten auf den neuen UUGRN-Vereinsserver wurde das RZL-Jail Ende Febrbaur 2013 auf eine eigene Infrastruktur portiert. Mehr dazu auf [[Jail/Umzug]].
 
-Das Jail wird derzeit von UUGRN gehostet und läuft auf FreeBSD. Da [[Benutzer:Rabe|rabe]] wohl auf eine neue HW-Infrastruktur umziehen will und keine 32-bit Jails mitnimmt, möchten wir unsere Internetpräsenz bei einem anderen Provider hosten. Mehr dazu auf [[Jail/Umzug]].
-
-;Ansprechpartner
-* User mit root Rechten:
-:[[Benutzer:Rabe|rabe]]
-:[[Benutzer:docsteel|docsteel]]
-:[[Benutzer:SEC|sECuRE]]
-:[[Benutzer:Felicitus|Felicitus]]
-:[[Benutzer:Inte|Inte]]
-:[[Benutzer:Blabber|blabber]]
-:[[Benutzer:nicoduck|nicoduck]]
-
-== Dienste ==
-*Apache
-*Bind
-*mailman
-*dovecot
-*sendmail
-*verschiedene Screens
-*perl ./twitter.pm (in einem Screen, raumstatus)
-*perl status-ircbot-stream.pl (auch im Screen, irc-bot)
-*RaumZeitStatus (in plack, ist via mod_proxy auf status.raumzeitlabor.de/api erreichbar)
-*/root/status-unreachable.pl (per cron, alle Minute, passt den türstatus an wenn er nicht erreichbar ist)
-*cronscript von der Webseite (alle 30 Minuten)
-
-==Datenbanken==
-*[[Drupal|rzl_drupal]]
-
-==htdocs==
-;/data/www/raumzeitlabor.de/htdocs/
-:''shop'' [https://raumzeitlabor.de/shop https://raumzeitlabor.de/shop]
-:''status.php'' Symlink zu ''/data/www/status.raumzeitlabor.de/htdocs/''
-:''w'' [https://raumzeitlabor.de/wiki https://raumzeitlabor.de/wiki]
-
-== Raumstatus ==
-
-Der Jail-Teil des Raumstatus ist eine Perl-Webapp basierend auf Tatsumaki. Sie läuft auf 127.0.0.1:5000 und der Apache arbeitet als Reverse-Proxy. 
-
-Siehe auch https://github.com/raumzeitlabor/raumzeitstatus/tree/master/server-jail
+Das letzte Backup von rzl.uugrn.org wird aufbewahrt und kann bei [[Benutzer:Rabe|Raphael Eiselstein]] <sup><small>[[Benutzer Diskussion:Rabe|talk]]</small></sup> angefragt werden.
 
 [[Kategorie:Projekt]]
