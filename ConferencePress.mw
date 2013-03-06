@@ -1,0 +1,28 @@
+{{ProjektInfoBox
+| status = experimental
+| author = [[Benutzer:Unicorn|unicorn]], [[Benutzer:Tiefpunkt|tiefpunkt]]
+| description = Konferenz-Management auf Wordpress-Basis
+}}
+Kann man die wichtigen Teile einer Konferenz in Wordpress abbilden? Let's find out.
+
+== Ticketverkauf ==
+Eine Konferenz brauch Tickets. Vorverkauf, und Verkauf an der Kasse.
+Plugins:
+* WP Deals [https://wordpress.org/extend/plugins/wp-deals/]
+** Eigentlich für Deals/Coupons
+** Ausdruck mit QR-Code
+** Kein Check der Codes möglich
+** Keine automatische Generierung der QR-Codes bzw dahinterliegenden Coupon Codes
+* CampTix Event Ticketing [https://wordpress.org/extend/plugins/camptix/]
+** Nur PayPal Support
+** Kein Ändern des Payment Status via UI
+** Kein Ticket-Print
+** Keine automatischen Ticketchecks
+* WP Event Ticketing [http://wordpress.org/extend/plugins/wpeventticketing/]
+
+== Schedule ==
+* Conference Schedule [http://wordpress.org/extend/plugins/conference-schedule/]
+** Last updated: März 2011
+* The Conference Plugin [The Conference Plugin   Top Quark]
+** Kostet $39
+* Wordcamp [http://plan.wordcamp.org/first-steps/web-presence/using-the-wordcamp-theme/]
