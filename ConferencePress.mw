@@ -13,6 +13,7 @@ Plugins:
 ** Ausdruck mit QR-Code
 ** Kein Check der Codes möglich
 ** Keine automatische Generierung der QR-Codes bzw dahinterliegenden Coupon Codes
+*** Bei manueller Generierung: Kein Rückschluss auf den eigentlichen Ticketkauf möglich
 * CampTix Event Ticketing [https://wordpress.org/extend/plugins/camptix/]
 ** Nur PayPal Support
 ** Kein Ändern des Payment Status via UI
