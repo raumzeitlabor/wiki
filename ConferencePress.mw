@@ -17,7 +17,8 @@ Plugins:
 *** Voucher werden nur generiert, wenn der Preis des Tickets != 0 ist. (0.01 funktioniert)
 ** Keine einfache Möglichkeit alle gültigen Ordercodes (Bezahlt) auszugeben. Sind aber in Datenbank.
 ** Bisher nur für Konferenzen mit maximal 2821109907456 Tickets (36^8). Reicht das?
-** Kein Check auf doppelt vergeben Codes (Es ist möglich einen Code von Deal1 auch bei Deal2 einzubauen. Ob der Random Generator bereits vergebene Ticketcodes ausschließt müsste man checken.
+** Kein Check auf doppelt vergeben Codes. Es ist möglich einen Code von Deal1 auch bei Deal2 einzubauen. Ob der Random Generator bereits vergebene Ticketcodes ausschließt müsste man checken.
+** "Speakertickets" können als "nicht verfügbar" gelabelt werden und trotzdem mittels manuellem Sale generiert werden.
 * CampTix Event Ticketing [https://wordpress.org/extend/plugins/camptix/]
 ** Nur PayPal Support
 ** Kein Ändern des Payment Status via UI
