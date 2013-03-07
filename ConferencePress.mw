@@ -14,8 +14,10 @@ Plugins:
 ** Kein Check der Codes möglich
 ** Keine automatische Generierung der QR-Codes bzw dahinterliegenden Coupon Codes
 *** Bei manueller Generierung: Kein Rückschluss auf den eigentlichen Ticketkauf möglich
+*** Voucher werden nur generiert, wenn der Preis des Tickets != 0 ist. (0.01 funktioniert)
 ** Keine einfache Möglichkeit alle gültigen Ordercodes (Bezahlt) auszugeben. Sind aber in Datenbank.
 ** Bisher nur für Konferenzen mit maximal 2821109907456 Tickets (36^8). Reicht das?
+** Kein Check auf doppelt vergeben Codes (Es ist möglich einen Code von Deal1 auch bei Deal2 einzubauen. Ob der Random Generator bereits vergebene Ticketcodes ausschließt müsste man checken.
 * CampTix Event Ticketing [https://wordpress.org/extend/plugins/camptix/]
 ** Nur PayPal Support
 ** Kein Ändern des Payment Status via UI
