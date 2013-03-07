@@ -15,6 +15,7 @@ Plugins:
 ** Keine automatische Generierung der QR-Codes bzw dahinterliegenden Coupon Codes
 *** Bei manueller Generierung: Kein Rückschluss auf den eigentlichen Ticketkauf möglich
 ** Keine einfache Möglichkeit alle gültigen Ordercodes (Bezahlt) auszugeben. Sind aber in Datenbank.
+** Bisher nur für Konferenzen mit maximal 2821109907456 Tickets (36^8). Reicht das?
 * CampTix Event Ticketing [https://wordpress.org/extend/plugins/camptix/]
 ** Nur PayPal Support
 ** Kein Ändern des Payment Status via UI
