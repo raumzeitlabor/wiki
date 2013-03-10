@@ -26,6 +26,18 @@ Der Schneidplotter spricht HPGL, welches wiederum von InkCut (ein Schnittplugin 
 
 http://libregraphicsworld.org/blog/entry/vinyl-cutting-on-linux-the-real-deal
 
+== Betrieb unter OSX ==
+
+* [http://mxcl.github.com/homebrew/ Homebrew] installieren 
+* Benötigte Pakete installieren ("brew install pygtk gtk pyserial librsvg")
+* [http://inkscape.org/download/?lang=de Inkscape] installieren
+* [http://xquartz.macosforge.org/trac XQuartz] installieren
+* [http://inkcut.sourceforge.net/ Inkcut] installieren
+* [http://www.ftdichip.com/FTDrivers.htm FTDI] Treiber installieren
+* LÄUFT
+
+Tut euch das nicht an, nehmt einfach Windows;)
+
 == Serielle Schnittstelle ==
 
 * Es hängt ein usb2serial von [[Benutzer:Felicitus|Felicitus]] an dem Schneidplotter, der für tests verwendet werden kann. Falls er nicht mehr benötigt wird, bitte in meine Public-Kiste zurücklegen.
@@ -36,6 +48,10 @@ http://libregraphicsworld.org/blog/entry/vinyl-cutting-on-linux-the-real-deal
 
 * Original (40€): http://www.plotterinsel.de/zubehoer-ersatzteile/fuer-summa/messer-messerhalter/332/original-summa-tangentialmesser-standard?c=2210
 * Kompatibel (20€): http://www.pafol.de/Summa-Tangentialmesser-36-1
+
+== Materialkosten ==
+
+
 == Bilder ==
 <gallery>
 SummaSign Bedienpanel.jpg|Bedienpanel
