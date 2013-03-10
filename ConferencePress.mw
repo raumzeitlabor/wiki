@@ -4,6 +4,7 @@
 | description = Konferenz-Management auf Wordpress-Basis
 }}
 Kann man die wichtigen Teile einer Konferenz in Wordpress abbilden? Let's find out.
+= Recherche =
 
 == Ticketverkauf ==
 Eine Konferenz brauch Tickets. Vorverkauf, und Verkauf an der Kasse.
@@ -42,3 +43,9 @@ Plugins:
 == Kommerz.Komplettpakete ==
 * Tickera [http://tickera.com/]
 ** 150$+
+
+= Entwicklung =
+
+== WP Deals Validator ==
+Ziel ist ein Wordpress-Plugin, dass gescannte/eingetippte Codes auf Gültigkeit prüft und in der Datenbank auf "redeemed" setzt.
+Dazu muss man WP Deals erweitern, dass es mit dem neuen Codestatus klarkommt.
