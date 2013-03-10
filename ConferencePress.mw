@@ -26,6 +26,7 @@ Plugins:
 ** Kein Ticket-Print
 ** Keine automatischen Ticketchecks
 * WP Event Ticketing [http://wordpress.org/extend/plugins/wpeventticketing/]
+** Wird nicht mehr entwickelt, der Nachfolger ist EventEspresso
 
 == Schedule ==
 * Conference Schedule [http://wordpress.org/extend/plugins/conference-schedule/]
