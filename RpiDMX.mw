@@ -35,13 +35,11 @@ Kein RaspberryPi zur Hand? Oder doch lieber die gewohnte CPU-Architektur? Kein P
  1  X7R-2,5 100N
  1  20,0000-HC49U-S
  1  ATMEGA 8-16 DIP
+ 1  KERKO 22P
  1  BL 2X13G8 2,54
  1  SL 2X50G 2,54
  1  BL 1X20W8 2,54 
  1  XLR 3KU-N
-
-Ohne Reichelt Bestellnummer:
- 1  22pF Kondensator 2,5
 
 == Bausatzverfügbarkeit ==
 {{ProgressBar|0
