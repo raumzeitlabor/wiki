@@ -92,7 +92,7 @@ Zur Erläuterung: Die Platinenoberseite ist die Seite ohne Leiterbahnen bzw. ohn
 
 Der Aufbau geschieht wie folgt:
 # Als erstes werden die beiden SMD-Widerstände (R2, R3) auf der Leiterbahnseite aufgelötet. Durch die große 1206-Bauform ist das nicht weiter schwierig. Zunächst ein Pad mit etwas Lötzinn belegen, dann das Bauteil mit der Pinzette an das Lötpad halten und mit dem Lötkolben festlöten. Wenn das Bauteil richtig sitzt, den zweiten Anschluß verlöten.
-# Die Drähte des "normalen" Widerstands (R1) im richtigen Abstand abbiegen, Widerstand auf die Platinenoberseite stecken und auf der Lötseite festlöten. Anschließend die überstehenden Drahtenden mit einem Seitenschneider abknipsen.
+# Die Drähte des "normalen" Widerstands (R1) im richtigen Abstand abbiegen, Widerstand auf die Platinenoberseite stecken und auf der Lötseite festlöten. Du kannst zum Biegen eine Biegelehre verwenden. Anschließend die überstehenden Drahtenden mit einem Seitenschneider abknipsen.
 # Mit dem Kondensator (C1) wird genauso verfahren.
 # Wer sich an den weißen Seiten des Displays stört, kann diese z. B. schwarz anmalen (Edding).
 # Als Vorbereitung für den nächsten Schritt ist es sinnvoll, die Beinchen des Prozessors mit einem entsprechenden Werkzeug genau auf den Abstand der Bohrlöcher auszurichten (siehe Foto). Außerdem empfiehlt es sich, die Pins des Displays mit wenig Lötzinn leicht zu verzinnen.
