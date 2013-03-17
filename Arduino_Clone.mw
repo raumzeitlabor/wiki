@@ -25,6 +25,7 @@ Arduinos sind toll zum Prototypen, und auch um sie fest in Projekte einbauen zu 
 ** Guter Plan. Ich will aber vorher noch prüfen, *wie* die den Atmel programmieren - ISP scheint's wohl nicht zu sein. --[[Benutzer:Felicitus|Felicitus]] 18:21, 7. Mai 2012 (CEST)
 *** Wen meinste mit "die"? Die Arduinos haben einen Bootloader der den STK500 emuliert, den du dann halt über USB <-> seriell ansteuerst.--[[Benutzer:Else|Else]] 17:14, 8. Mai 2012 (CEST)
 **** Die Atmel Chips sind jungfräulich. Wenn man einen Bootloader drauf bekommt, hat man gewonnen (einen Arduino).--[[Benutzer:Schachtelhalm|Schachtelhalm]] 11:42, 16. März 2013 (CET)
+***** Das ist schon klar, und dennoch nicht richtig: Dazu gehört auch, daß die Pins richtig angeordnet sind, um Shields einsetzen zu können. Ich tendiere übrigens derzeit zum Bestücken der aus China bestellten PCBs, insofern wird das Projekt von meiner Seite aus obsolet. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 11:44, 17. Mär. 2013 (CET)
 
 == Inspirationen ==
 * [https://metalab.at/wiki/Metaboard Metaboard]
