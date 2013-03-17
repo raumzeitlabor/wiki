@@ -61,9 +61,9 @@ Everything you need is readily available at the RaumZeitLabor. Ask a friendly ha
 
 ===Circuit Board===
 [[Datei:Hacklace_Platine.jpg|thumb|right|220px|Circuit board, etched manually and painted red]]
-The circuit board was designed to be easily etched. If you want to etch the circuit by yourself you will find the needed file [[Hacklace/en#Download|here]].
+The circuit board was designed to be easily etched. If you want to etch the circuit by yourself you will find the file [[Hacklace/en#Download|here]].
 
-After you etched the circuit you youst need two drilling diameters. Use a 1.2mm (0.047") diameter for the LED-matrix pins and the tactile-switch pins. Apart from those drill holes, the remaining drill holes should have a diameter of 0.9mm (0.035"). The pads on the upper left and upper right side are not part of the circuit and can be drilled to the diameter of the cable which acts as the holder for the necklace.
+After you etched the pcb you just need two drilling diameters. Use a 1.2mm (0.047") diameter for the LED-matrix pins and the tactile-switch pins. Apart from those drill holes, the remaining drill holes should have a diameter of 0.9mm (0.035"). The pads on the upper left and upper right side are not part of the circuit and can be drilled to the diameter of the cable which acts as the holder for the necklace.
 
 In case you do not have the equipment for etching circuit boards, you can buy a professionally manufactured circuit board [[Hacklace#Bezugsquellen|here]].
 
