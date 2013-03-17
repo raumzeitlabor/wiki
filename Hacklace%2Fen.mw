@@ -74,7 +74,7 @@ Due to shortages in hardware supply, there are 3 different display types. Depend
 
 # HDSP-5403 hp 008 L3 - The black dot on the side of the display has to be arranged diagonally to PIN 1 (rectangular pad). Seen from top, that's the bottom right edge.
 
-====Manual====
+====Instructions====
 
 Important: The top of the PCB is the side without traces and text! That's the side which is visible while waring. The traces and silkscreen are located on the back side. The back side is where you'll be soldering the components.
 
