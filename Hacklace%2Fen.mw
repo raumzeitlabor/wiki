@@ -127,14 +127,14 @@ If you're compiling manually using the avr-gcc toolchain, you should pass the co
 The hacklace uses 200 bytes of display memory. Each byte represents one column of the display. The hacklace uses a proportional font by default. As such, most characters have a width of 4 columns plus one empty column for spacing. Animations are composited of single frames, where each frame requires 5 bytes. The maximum animation size is 40 frames, so also text messages are limited to about 40 characters. 
 
 ===Configuration===
-You can store custom texts and animations via a serial interface. You'll need a 3.3 or 5V serial cable. Connect it to CON2 (Pin 1: GND, Pin 2: TxD, Pin 3: RxD). Serial configuration: 2400 Baud, 8 data bits, no parity, 1 stop bit).
+You can store custom texts and animations via a serial interface. You'll need a 3.3 or 5V serial cable. Connect it to CON2 (Pin 1: GND, Pin 2: TxD, Pin 3: RxD). Serial configuration: 2400 Baud, 8 data bits, no parity, 1 stop bit [8N1]).
 
 The text file configures your own texts or animations. You can edit it with any text editor. Make sure you're using an 8 bit ASCII encoding; UTF-8 is not supported. The maximum length of the configuration file is 256 bytes due to the microcontroller's eeprom memory.
 
 You need to send a specific init sequence to avoid programming by accident. Send the following sequence to your hacklace:
 
  Escape-Character (ASCII Code 27, resets the hacklace)
- Capital H, Capical L
+ Capital H, Capital L
 
 Now you can transfer the configuraion file. It is recommended to reset the hacklace again after you've transferred the file. This enables write protection.
 
