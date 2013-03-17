@@ -42,7 +42,7 @@ A hacklace is 5x7 dotmatrix display which is attached to a necklace. You can cre
 ==Usage==
 Using the hacklace is very easy, because there is just one button which triggers the actions.
 
-By pressing this button short time, the hacklace switches to the next text/animation. By pressing the button for a longer time, the hacklace goes into a deep sleep mode which consumes nearly no power. By pressing the button again, one awakes the hacklace from deep sleep.
+By pressing this button for a short period of time, the hacklace switches to the next text/animation. By pressing the button longer, the hacklace goes into a deep sleep mode which consumes nearly no power. By pressing the button again, the hacklace resumes from deep sleep.
 
 ==Prerequisites==
 Building the hacklace will help you learn to solder. If you already have soldering experience and the knowledge how to flash AVR mircocontrollers, it should be easy to build one. If you are not used to the tasks of soldering and flashing a microcontroller, we recommend to ask some RaumZeitLabor member to help you. This way you will gain the needed expertise!
