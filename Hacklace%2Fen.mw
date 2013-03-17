@@ -45,7 +45,7 @@ Using the hacklace is very easy, because there is just one button which triggers
 By pressing this button for a short period of time, the hacklace switches to the next text/animation. By pressing the button longer, the hacklace goes into a deep sleep mode which consumes nearly no power. By pressing the button again, the hacklace resumes from deep sleep.
 
 ==Prerequisites==
-Building the hacklace will help you learn to solder. If you already have soldering experience and the knowledge how to flash AVR mircocontrollers, it should be easy to build one. If you are not used to the tasks of soldering and flashing a microcontroller, we recommend to ask some RaumZeitLabor member to help you. This way you will gain the needed expertise!
+Building the hacklace will help you learn how to solder. If you already have soldering experience and knowledge how to flash AVR mircocontrollers, it should be easy for you to build one. If you are not used to the tasks of soldering and flashing a microcontroller, we recommend to ask some RaumZeitLabor member to help you. This way you will gain the needed expertise!
 
 ==Tools needed==
 To build a hacklace you'll need the following tools:
