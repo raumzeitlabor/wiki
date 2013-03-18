@@ -1,5 +1,5 @@
 {{ProjektInfoBox
-|name        = RaspberryPi DMX Adapter
+|name        = PiLight (Raspberry Pi DMX Adapter)
 |status      = beta
 |image       = PiLight_v1.0.png
 |description = Und dein RPi wird zur DMX-Schaltzentrale
@@ -13,8 +13,12 @@
 |preis       = 25€ pro Bausatz
 }}
 
-RasbperryPi [https://raspberrypi.org] sind in aller Munde. Als Medienserver, Lern-Rechner und auch Workstation-Ersatz verbreitet sich diese Plattform rasend schnell. 
+Rasbperry Pi [https://raspberrypi.org] sind in aller Munde. Als Medienserver, Lern-Rechner und auch Workstation-Ersatz verbreitet sich diese Plattform rasend schnell. 
 Mit dem RaspberryPi DMX Adapter wird dein Pi zur Kontrollstation für all deine DMX Endgeräte. Ob Scheinwerfer oder anderes Bühnenequipment - eine Ansteuerung die elegant, quelloffen und funktional ist. Das smarte Design und der günstige (Bausatz-) Preis lässt billige China-DMX-Adapter alt aussehen.
+
+Der DMX-Bus ist galvanisch getrennt. Die Pufferung der 512 Adressen des Universums im Mikrokontroller auf dem Board vermeidet Timingprobleme und sorgt dafür, dass es auch ohne aktiven Host hell bleibt.
+
+Als Protokoll zwischen PiLight und dem Host kommt derzeit eine (Teil-)Implementierung des [http://usbdmx.com/downloads/protocol.pdf Protokolls von usbdmx.com] zum Einsatz.
 
 == Stand-Alone Variante ==
 Kein RaspberryPi zur Hand? Oder doch lieber die gewohnte CPU-Architektur? Kein Problem. Einfach einen seriellen Adapter anschließen. Diesen erhälst du beim [[Hacklace]] Projekt. 
