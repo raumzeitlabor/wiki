@@ -1,0 +1,45 @@
+{{ProjektInfoBox
+|name        = Pixelart plotten
+|status      = experimental
+|image       = RaumZeitLabor - Logo - Schwarz.svg
+|description = Ein Guide, wie man Pixelart aus Bitmaps in Vektor umwandelt und diese dann plotten kann.
+|author      = Felicitus
+}}
+
+Dieses Tutorial zeigt, wie man Pixelart in Vektor umwandelt und diese dann plotten kann. Als Beispiel dient mir Max, der verrückte Hase aus Sam & Max: Hit the Road [http://www.youtube.com/watch?v=4yWnnk9fyJE VIDEO! ANGUCKEN!], eines der großartigsten Spiele der 90er Jahre.
+
+= Schritt 1: Bitmapdaten bereinigen =
+
+[[Image:Tutorial Pixelart Plotten - Max.png|thumb|right|Sprite in GIMP vorbereitet]]
+
+Um es möglichst einfach zu haben, sollte man die Bitmapdaten bereinigen:
+
+* Üblicherweise besitzt jedes Sprite eine Farbe, oft Pink, die im Spiel dann transparent dargestellt wird. Diese sollte man vor dem Umwandeln wirklich transparent machen
+* Das Bild sollte man in PNG abspeichern, damit die Transparenz mitgespeichert wird
+* Die meisten Grafikprogramme können die Palette reduzieren, damit kann man ähnliche Farben zusammenfassen und benötigt dann weniger Folien zum plotten.
+
+Jetzt exportiert man das Bild und schiebt es durch den Bitmap zu Vektor Konverter.
+
+== Alternative ==
+
+[[Image:Tutorial Pixelart Plotten - Max 3.png|thumb|right|Einzelne Farben als separate Layer inkl. Farbcodes]]
+
+Man kann auch jede Farbe als einzelnes File exportieren, somit hat man genau eine Datei pro Farbe und erspart sich das Gruppieren der Farben auf verschiedene Layer in Inkscape.
+
+Ich habe dies während des Schreibens dieses Tutorials auch gemacht, und in diesem Schritt die einzelnen Farben des Bildes auf die Farben der Folien angepasst.
+
+[http://www.orafol.com/gp/europe/de/support/farbkarten/oracal-751c-high-performance-cast Die Farbkarte] von Oracal sind einzelne DIVs, die man mit Firebug oder dem Chrome Inspektor anzeigen kann. Damit bekommt man die CSS-Deklaration und kann die Farbcodes in GIMP übernehmen.
+
+= Schritt 2: Bitmapdaten in Vektor umwandeln =
+
+[[Image:Tutorial Pixelart Plotten - Max 2.png|thumb|right|Man sieht deutlich, daß der verlinkte Konverter Pixel gleicher Farbe zusammenfasst]]
+
+Da die meiste Pixelart als Bitmap vorliegt, muß man diese zunächst in Vektor umwandeln. Es gibt allerlei Konverter (Google: "convert pixelart to vector"), allerdings sind die meisten mehr oder minder doof.
+
+Wichtig ist, daß der Konverter benachbarte Pixel gleicher Farbe als ein Liniensegment umwandelt. Die meisten Tools können das nicht, sondern wandeln einfach jeden Pixel in eine Box um. Das braucht dann ewig zum Plotten und sieht ggf nicht mehr schön aus.
+
+[http://www.drububu.com/tutorial/bitmaptovector.html Dieser Konverter] ist zwar etwas unüblich, da man ein Bild auf eine Website ziehen muß, aber er funktioniert und baut aus benachbarten gleichfarbigen Pixeln einen Pfad.
+
+= Schritt 3: Farben auf verschiedene Ebenen legen =
+
+Da jede Farbe einzeln geplottet werden muß, bietet es sich an, jede Farbe auf einen eigenen Layer zu schieben. Eventuell kann man hierbei einige sehr ähnliche Farben kombinieren, falls man das nicht wie unter "Schritt 1 - Alternative" beschrieben getan hat.
