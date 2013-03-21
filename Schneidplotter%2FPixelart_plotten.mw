@@ -43,3 +43,14 @@ Wichtig ist, daß der Konverter benachbarte Pixel gleicher Farbe als ein Liniens
 = Schritt 3: Farben auf verschiedene Ebenen legen =
 
 Da jede Farbe einzeln geplottet werden muß, bietet es sich an, jede Farbe auf einen eigenen Layer zu schieben. Eventuell kann man hierbei einige sehr ähnliche Farben kombinieren, falls man das nicht wie unter "Schritt 1 - Alternative" beschrieben getan hat.
+
+== Alternative ==
+
+Wenn man der Alternative in Schritt 1 gefolgt ist, so kann man diese relativ simpel in ein einzelnes SVG bekommen:
+
+# erstes Bild öffnen, auf Layer verschieben
+# zweite Layer anlegen und markieren
+# über "Importieren" die nächste Farbe importieren, diese landet auf dem selektierten Layer
+# der Import besteht aus den einzelnen Pfaden für die Farben sowie einer Umrandung, letztere kann zum Ausrichten verwendet werden
+# Gruppe auflösen und die Umrandung entfernen
+# goto 2
