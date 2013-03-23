@@ -17,10 +17,13 @@ Vektorgrafik generieren (z.B. mit Inkscape, als .eps abspeichern) und diese in [
 <span style='font-size: 15px; line-height: 1.5; font-weight: bold;'>Vor dem Plotten den eingestellten Messerdruck überprüfen! Wenn der Druck zu hoch eingestellt ist, kann der Plotter (oder zumindest das Messer) beschädigt werden</span>
 
 Ein normaler Druck für Folien ist im Bereich 50-70 Gramm.
+Klebefolien benötigen einen niedrigeren Druck (ca. 55 Gramm), Flexfolien einen etwas höheren (meist ca. 70g, variiert aber sehr stark). Die neuen Folien-Schilder haben ein Feld, wo der verwendete Druck eingetragen werden kann, sodass nicht jedes Mal neue Drucktests notwendig sind.
 
 == Betrieb unter Linux ==
 
-Der Schneidplotter spricht HPGL, welches wiederum von InkCut (ein Schnittplugin für Inkscape) verwendet werden könnte. (zu verifizieren). Die Kompatibilitätsliste von InkCut listet einige Summa-Modelle auf (kein Hinweis auf USB, wohl nur via Serial?)
+Der Schneidplotter spricht HPGL, welches wiederum von InkCut (ein Schnittplugin für Inkscape) verwendet werden kann.
+
+Wurde bereits von Jiska getestet. Tut soweit, allerdings werden manche Sachen leicht verzerrt im HPGL erstellt und dementsprechend verzerrt geplottet. Also auf jeden Fall die InkCut-Vorschau verwenden!
 
 === Zu lesen ===
 
@@ -50,6 +53,9 @@ Tut euch das nicht an, nehmt einfach Windows;)
 * Kompatibel (20€): http://www.pafol.de/Summa-Tangentialmesser-36-1
 
 == Materialkosten ==
+Je nach Sorte und Händler: Flexfolie ab ca. 7€/Meter, Flockfolie ab ca. 9€/Meter, Klebefolie sehr unterschiedlich.
+
+Die Folien sind mit Preisen in €/cm beschriftet. Die Preise orientieren sich an einem günstigen Brutto-Preis*3.
 
 
 == Bilder ==
@@ -58,3 +64,6 @@ SummaSign Bedienpanel.jpg|Bedienpanel
 SummaSign Anschluesse.jpg|Anschlüsse
 SummaSign Seriennummer.jpg|Seriennummer
 </gallery>
+
+== Einführung ==
+Bitte lasst euch in den Plotter einweisen, bevor ihr ihn verwendet. Allgemeine Informationen könnt ihr dem [[Medium:Workshop-naehrds-1.pdf‎|Vortrag zu der Workshopreihe]] entnehmen.
