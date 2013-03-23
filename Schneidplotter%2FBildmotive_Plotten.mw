@@ -1,0 +1,16 @@
+= Schritt 1: Motiv markieren =
+Je höher der Kontrast des Motivs zum Rest des Bildes ist, um so weniger Arbeit hat man.
+Mit dem Zauberstab das Motiv auswählen und mit shift+click und angepasstem Schwellenwert die fehlenden Teile mit auswählen. Wenn man aus versehen zu viel markiert, stg+z.
+
+= Schritt 2: Motiv freistellen =
+Auswahl invertieren, strg+x (es gibt sicher eine einfachere Methode, ich bin aber kein Gimp Profi)
+
+Figur nachbessern, ggf füllen. Kontrast auf 100 setzen um Graustufen zu vermeiden(Farben->Helligkeit/Kontrast)
+
+
+= Schritt 3: Vektorisierung =
+Figur komplett markieren, mit strg+c kopieren, in scribus mit strg+v einfügen, an Seitengröße anpassen.
+Vektorisierungsassistent mit shift+alt+b öffnen, nach einem Klick auf ok, wird die Vektorversion über die bestehende Figur gelegt.
+Vektorversion zur seite ziehen und vergleichen, wenn alles passt, bitmap Version löschen und die Datei als .eps abspeichern und in die Plottersoftware einfügen.
+
+Danach einfach die weiteren Schritte auf der Plotterseite befolgen.
