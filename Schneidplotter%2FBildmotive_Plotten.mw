@@ -10,7 +10,7 @@ Figur nachbessern, ggf füllen. Kontrast auf 100 setzen um Graustufen zu vermeid
 
 = Schritt 3: Vektorisierung =
 Figur komplett markieren, mit strg+c kopieren, in scribus mit strg+v einfügen, an Seitengröße anpassen.
-Vektorisierungsassistent mit shift+alt+b öffnen, nach einem Klick auf ok, wird die Vektorversion über die bestehende Figur gelegt.
+Vektorisierungsassistent mit shift+alt+b öffnen([http://inkscape.org/doc/tracing/tutorial-tracing.html weitere Hilfe]), nach einem Klick auf ok, wird die Vektorversion über die bestehende Figur gelegt.
 Vektorversion zur seite ziehen und vergleichen, wenn alles passt, bitmap Version löschen und die Datei als .eps abspeichern und in die Plottersoftware einfügen.
 
 Danach einfach die weiteren Schritte auf der Plotterseite befolgen.
