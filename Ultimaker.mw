@@ -25,7 +25,7 @@
 ** Pruefe mit der Auto-Home Funktion ob der Drucker korrekt kalibriert ist
 ** X und Y Achsen duerfen nicht anstossen
 ** Abstand vom Druckkopf zur Z-Achse sollte max 0,3mm betragen (je nach Slicer-Einstellung)
-** Bei einer Temperatur angemessenen Temperatur laesst sich Problemlos Material extrudieren (PLA: ~190 Grad)
+** Bei einer angemessenen Temperatur laesst sich Problemlos Material extrudieren (PLA: ~190 Grad)
 
 ===Nach dem Druck===
 * Hinterlasse ein ausgerichtetes Druckbett
