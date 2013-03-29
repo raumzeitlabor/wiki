@@ -1,8 +1,8 @@
 {{ProjektInfoBox
 |name        = Nebenraum
-|status      = experimental
+|status      = Beta
 |image       = 
-|description = Gedankensammlung zum Nebenraum
+|description = Nebenraum Dokumentation
 |author      = 
 |username    = 
 |version     =
@@ -14,9 +14,6 @@
 
 == Status ==
 
-* Anmietung ab 1. Oktober 2012 möglich
-* Gedanken sammeln zur Raumaufteilung sowie Pro und Kontrapunkte
-* '''Dringend:''' Über '''Schalldämmung''' an der Wand zum Hauptraum (siehe Diskussionsseite dieser page)
 {{TaskListStart}}
 {{TaskListItem
 | title = Anmietung
@@ -55,7 +52,14 @@
 }}
 {{TaskListItem
 | title = Strom
-| description = 
+| description = Kabel ziehen, Dosen verdrahten
+| responsible = 
+| status = done
+| last_changed = 
+}}
+{{TaskListItem
+| title = Strom
+| description = Sicherungskasten auflegen
 | responsible = 
 | status = waiting
 | last_changed = 
@@ -64,7 +68,7 @@
 | title = [[Nebenraum#Netzwerk|Netzwerk]]
 | description = 
 | responsible = 
-| status = waiting
+| status = done
 | last_changed = 
 }}
 {{TaskListItem
@@ -76,14 +80,14 @@
 }}
 {{TaskListItem
 | title = Tür zum Gang
-| description = Tür zum Gang fixen (Schließzylinder, Beschläge)
+| description = Tür zum Flur fixen oder versiegeln
 | responsible = 
 | status = unknown
 | last_changed = 
 }}
 {{TaskListItem
 | title = Tür zwischen den Räumen
-| description = Tür zwischen den Räumen fixen
+| description = Tür Hauptraum<->Nebenraum
 | responsible = 
 | status = unknown
 | last_changed = 
@@ -94,48 +98,34 @@
 
 * Der Nebenraum ist 51qm.
 * 6m Breit * 8,5m Tief * ca. 4 bis 4,5m hoch (Decke ist schräg)
-* An der Fensterfront befinden sich 2 Heizkörper?
-* Die Fensterfront besteht aus 4 Fensterreihen (2 zum öffnen, 2 fest) sowie 4 Oberlichter (2 zum öffnen, 2 fest)?
-* Die Decke ist auf ca. 4m abgehängt (Odenwalddecke)?
-* Ansonsten ist der Nebenraum leer
-* Es gibt einen Stromkasten mit Zähler/Sicherungen und Teppich.
-
-== Raumaufteilung ==
-;[[Datei:Nebenraum.pdf]]
-
-== Bautechnische Punkte ==
-
-=== Heizung ===
-
-* Räume ganz ohne Heizung sind im Winter quasi UNBARUCHBAR.
-* Heizung ist vorhanden. Der Werkstattbereich hat keine eigene Heizung.
-
-=== Tageslicht ===
-
-* Tageslicht spart Energie/Strom und somit Geld.
-* Das mit dem Tageslicht sehe ich gar nicht so kritisch. Kunstlicht bietet in Werkstätten meist eine viel bessere, vor allem definiertere, Lichtquelle.
+* An der Fensterfront befinden sich 2 Heizkörper
+* Die Fensterfront besteht aus 6 Fenstern (jeweils 2 zum öffnen, 2 fest) sowie 6 Oberlichter (2 zum öffnen, 2 fest)
+* Die Decke ist auf ca. 4,30m abgehängt
 
 === Licht ===
 
-* Lichtbänder sind drin. Auch einzeln schaltbar. Müssen ggf angepasst werden.
+Es waren mal 3 Reihen a 3 Kästen mit je 2 Röhren.
+Durch die Aufteilung in 3 Räume sind 2 Kästen weggefallen, weil dort die Trennwand eingebaut wurde.
 
 Siehe auch: [[Lichtsteuerung]]
+
 === Wände ===
 
-* Ständerkonstruktion Holz / Blech
-* Beplankung OSB / Gips
-* Isolation
+* Unterkonstruktion aus 10cm U-Blechen
+* Gefüllt mit Isover Ultimate Dämmstoff
+* Beplankt mit Rigipsplatten (einlagig)
+* verspachtelt, geschliffen, grundiert und gestrichen
 
 === Boden ===
 
 * Teppichboden wurde rausgerissen
 * aktuell graues Linolium
+* man müsste mal&trade; den Boden polieren
 
 === Decke / Wärme und Schalldämmung ===
 
-* Schalldämmung zum Hauptraum hin?
-* Trennwende und Decke Isolieren?
-* Vorhänge nähen?
+* Die abgehängte Decke muss auf jeden Fall noch komplettiert werden
+* im FabLab Raum ergibt sich schnell angenehme Wärme mit Heizung auf 3
 
 === Strom ===
 
@@ -144,215 +134,90 @@ Siehe auch: [[Lichtsteuerung]]
 
 Wände sind gekennzeichnet mit Buchstaben A-M
 
-==== Kabelkanalplanung ====
-{| class="wikitable"  valign = "top"
-!colspan=2|Kabelkanal-Planung
-|-
-|K01
-|Sicherungskasten->Decke (2,10m)
-|-
-|K02
-|Kabelkanal C-Wand (4,60m)
-|-
-|K03
-|Kabelkanal A-Wand (4,00m)
-|-
-|K04
-|Kabelkanal Decke->D-Wand (3,00m)
-|-
-|K05
-|Kabelkanal Decke->H-Wand (2,50m)
-|-
-|K06
-|Kabelkanal H-Wand (3,20m)
-|-
-|K07
-|Kabelkanal J-Wand (5,00m)
-|-
-|K08
-|Kabelkanal Decke->A-Wand (3,00m)
-|-
-|K09
-|Kabelkanal Decke->Netzwerkrack (1,30m)
-|-
-|ges.
-|29,1 Meter
-|}
-
-==== Kabellaufplan ====
-{| class="wikitable"  valign = "top"
-!colspan=2|Kabellaufplan||3x 1,5mm²||5x 1,5mm²
-|-
-|Steckdosen A-Wand
-|2,50m Decke + 1m Türüberquerung + 3,10m Überquerung Werkstatt + 1m Türüberquerung + 2,50m runter zum Kabelkanal + 1m im Kabelkanal + 10% Toleranz
-| 
-| 12.21m
-|-
-|Lichtschalter A-Wand
-|2,50m Decke + 1m Türüberquerung + 3,10m Überquerung Werkstatt + 1m Türüberquerung + 2,50m runter zum Kabelkanal + 1m im Kabelkanal + 10% Toleranz
-| 12.21m
-| 
-|-
-|Lichtkreis Fablab
-| 2,50m Decke + 1m Türüberquerung + 3,10m Überquerung Werkstatt + 1m Türüberquerung + 4m zur Lampe + 2m zur nächsten Lampe + 10% Toleranz
-| 
-| 14.96m
-|-
-|Steckdosen C-Wand
-|2,50m Decke + 2m J-Wand + 3.10m Überquerung Werkstatt + 1m Türüberquerung + 2,50m runter zum Kabelkanal 04 + 1m im Kabelkanal + 10% Toleranz
-|
-|13.31m
-|-
-|Lichtschalter Workshopraum (Kabelkanal 04)
-|2,50m Decke + 2m J-Wand + 3.10m Überquerung Werkstatt + 1m Türüberquerung + 2,50m runter zum Kabelkanal 04 + 1m im Kabelkanal + 10% Toleranz
-|13.31m
-|
-|-
-|Lichtkreis Workshopraum
-|2,50m Decke + 2m J-Wand + 3.10m Überquerung Werkstatt + 1m Türüberquerung + 2m D-Wand + je 2x 1.5m zu Lichtkreis + 10% Toleranz
-|
-|14.96m
-|-
-|Steckdosen H-Wand
-|2,50m Decke + 2m J-Wand + 3.10m Überquerung Werkstatt + 2,50m runter zum Kabelkanal + 1m im Kabelkanal + 10% Toleranz
-|
-|12.21m
-|-
-|Steckdosen J-Wand
-|2m im Kabelkanal ;)
-|
-|2m
-|-
-|Lichtschalter Werkstatt
-|2,50m Decke + 2m J-Wand + 3.10m Überquerung Werkstatt + 2,50m runter zum Kabelkanal + 1m im Kanbelkanal + 10% Toleranz
-| 12.21m
-| 
-|-
-|Lichtkreis Werkstatt
-|2,50m Decke + 5m J-Wand + 2m J-Wand + 10% Toleranz
-|
-|10.45m
-|-
-!colspan=2|gesamt
-!37.73m
-!80.1m
-|-
-|Verkabelung in den Kanälen
-|Kabelkanal A-Wand 4m + Kabelkanal C-Wand 4,60m + Kabelkanal H-Wand 3,20m + Kabelkanal J-Wand 5m
-| 18m
-|
-|-
-|Zusatzstrecke
-| Reserve (z.b. eigene Phase Fazzor)
-|30m
-|30m
-|-
-!colspan=2|gesamtgesamt
-!85.73m
-!110.1m
-|}
-
 ==== Phasenplanung ====
 {| class="wikitable"  valign = "top"
 !colspan=2|Phasen-Planung
 |-
 |L01
-|Werkstatt Phase 1 (links)
+|Werkstatt Phase 1 (Wand J)
 |-
 |L02
-|Werkstatt Phase 2 (links)
+|Werkstatt Phase 2 (Wand J)
 |-
 |L03
-|Werkstatt Phase 3 (links)
+|Werkstatt Phase 3 (Wand J)
 |-
 |L04
-|Werkstatt Phase 4 (rechts)
+|Werkstatt Phase 4 (Wand H)
 |-
 |L05
-|Werkstatt Phase 5 (rechts)
+|Werkstatt Phase 5 (Wand H)
 |-
 |L06
-|Werkstatt Phase 6 (rechts)
+|Werkstatt Phase 6 (Wand H)
 |-
 |L07
 |Werkstatt Phase 7 (16A CEE Dose)
 |-
 |L08
-|Fablab Phase 1
+|Werkstatt Steckdose Tür (Wand H)
 |-
 |L09
-|Fablab Phase 2
+|Fablab Phase 1 (Wand C)
 |-
 |L10
-|Fablab Phase 3
+|Fablab Phase 2 (Wand C)
 |-
 |L11
-|Workshopraum Phase 1
+|Fablab Phase 3 (Wand C)
 |-
 |L12
-|Workshopraum Phase 2
+|Fablab Phase 1 (Wand A)
 |-
 |L13
-|Licht Werkstatt
+|Fablab Phase 2 (Wand A)
 |-
 |L14
-|Licht Fablab
+|Fablab Phase 3 (Wand A)
 |-
 |L15
-|Licht Workshopraum
+|Fablab Steckdose Tür (Wand A)
 |-
 |L16
-|Reserve
+|Fablab Netzwerkrack Phase 1
 |-
 |L17
-|Reserve
+|Fablab Netzwerkrack Phase 2
 |-
 |L18
-|Reserve
+|Workshopraum Phase 1
 |-
 |L19
+|Workshopraum Phase 2
+|-
+|L20
+|Workshopraum Steckdose Tür
+|-
+|L21
+|Licht Werkstatt
+|-
+|L22
+|Licht Fablab
+|-
+|L23
+|Licht Workshopraum
+|-
+|L24
 |Reserve
 |-
-|ges.
-|29,1 Meter
+|…
+|Reserve
+|-
+|L48
+|Reserve
 |}
 
-==== Bestellplanung ====
-* Vorhanden:
-** Kabelkanal: 6*2m NEU + diverse Reste
-** Steckdosen: 21 Stück OPUS Schuko (560.430.02)
-** Rahmen: 15 Stück OPUS 2-fach (560.702.02), 7x Siemens Einzelrahmen 5GT2, 2x Opus Einzelrahmen
-** Schalter: 7 Stück OPUS 560.710 Wechel + 7 Wippen, 5 Stück Siemens 5TA2 156 + 6 Wippen
-** Kabel: diverse Reste
-** Einbaudosen für Kabelkanal 12 Doppelt + 1 Einzel
-** FI-Schutzschalter Gewiss GW94927S (FI-Schutzschalter 40A / 30mA / 4-polig)
-** 12 Abzweigdosen
-
-* Zu bestellen (insgesamt benötigt):
-** Kabelkanal: 18m (21.1m)
-** Kabel: 3x1,5mm, ca. 85m
-** Kabel: 5x2,5mm, ca. 120m
-** Steckdosen: 36 Stück (49 Stück), 10 3er-Rahmen, 10 4er-Rahmen
-** Datendose Cat6e: 9 Stück (0 Stück)
-** Taster 1fach: 4 Stück (0 Stück)
-** Geräteeinbaudose 2fach: 25 Stück (12 Stück), Geräteeinbaudose 1fach 8 Stück (0 Stück)
-** größerer Sicherungskasten: kommt von DaFo
-** 40m CAT5e oder CAT6
-
 === Netzwerk ===
-
-* Es wurde eine Netzwerkdoppelader in den Nebenraum verlegt, die an der Eingangstür rausfällt
-* Es soll im Nebenraum ein Zwischenverteiler aus folgenden Gründen installiert werden:
-** Alle Netzwerkdosen vom Nebenraum in das [[Rack]] zu verlegen ist sehr aufwendig, und der Kabelkanal zum Rack ist sehr voll. Bringt erhebliche Umbauarbeiten mit sich
-** Ein zweiter Switch muß sein, da der im Rack voll ist
-* Die Position des Zwischenverteilers ist fraglich:
-** Das vorhandene 19"-Rollrack ist nicht staubgeschützt, kann also nicht im Werkstattraum eingesetzt werden
-** Eine dauerhafte Lärmquelle im Workshopraum ist auch eher schlecht
-** Idee wäre, einen IP54-Wandschrank zu nutzen.
-*** Problem: bei Staubschutz auch keine Kühlung
-
-* Kabelweg vom Rack E-Ecke bis zum Zwischenteiler: je ca. 30m (insgesamt wurden 60m verlegt)
-* 4/8 Doppeldosen haben Kabel bekommen, dann war die Rolle leer. Nochmal 100m ordern und ich muß das nächste Mal sorgfältiger planen. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 05:20, 29. Jan. 2013 (CET)
 
 ** Kabelenden Nebenraum: 5735 und 5705
 ** Kabelenden Rack: 5734 und 5765
@@ -363,105 +228,5 @@ Wände sind gekennzeichnet mit Buchstaben A-M
 ** L08: 15521m (Rack?) -15331m (Dose?)
 
 * Bei Duplex-Leitungen ist die jeweils beschriftete Ader die niederwertige, d.h. bei dem Leitungspaar L1/L2 ist die Leitung mit der Beschriftung/Meterangabe L1, die unbeschriftete L2.
-
-=== Türen ===
-Um Platz zu sparen, würde ich den Einbau von Schiebetüren vorschlagen, die in die Trennwände eingelassen werden. Der finanzielle und Aufbauaufwand ist etwas höher als bei normalen Türen (~100€ für das Schienensystem gegenüber $geringer für Zargen), dafür spart man sich nicht unerheblich Platz. In meiner Wohnung habe ich eine bereits eingebaut und soweit keine Probleme damit gehabt (abgesehen von einem einmaligen Nachziehen der Laufräder). Außerdem sind Schiebetüren cool und spawnen gerne weitere Projekte (Star-Trek-Sound anyone?). --[[Benutzer:TheTinyToon|TTT]] 11:05, 7. Aug. 2012 (CEST)
-
-* Dafür! Ich spende dafür und kümmere mich um die Implementierung! --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 00:27, 10. Aug. 2012 (CEST)
-
-=== 2. Ebene ===
-
-* 2. Ebene erweitern vom Hauptraum u.u. bis in den Nebenraum?
-* 2. Ebene im Nebenraum? (Unter der 2. Ebene ist dann zu wenig Deckenhöhe für die Werkstatt, auf der 2. Ebene ist zu wenig Deckenhöhe zum Laufen)?
-* Wir müssten mal unter die Abhängung schauen, wieviel Platz da ist (evtl. Rohre oder sonstwas verlegt). -- [[Benutzer:TheTinyToon|TTT]]
-* Alternativ könnte oben ein Lager für Zeug errichtet werden, an das man nicht so oft ran muss. -- [[Benutzer:TheTinyToon|TTT]]
-* Die abgehängte Decke verringert evtl. die Heizkosten - hat da jemand Erfahrung? -- [[Benutzer:TheTinyToon|TTT]]
-
-== ToDo ==
-* Vorschläge sammeln für die Nebenraumaufteilung
-* Funktion der Tür zum Nebenraum wiederherstellen. Wurde sehr gut verschraubt. (oder neue Tür einbauen)
-* Türbeschlag besorgen für die Tür zum Nebenraum
-* Zylinder für die Tür im Nebenraum zum Gang besorgen
-* Fenster putzten
-* Wände streichen?
-* Boden "besichtigen"?
-* Heizungssteuerung erweitern? (Vor und Rücklauf ist der selbe Heizungsstrang wie im Hauptraum)?
-* Temp Sensoren erweitern?
-* Fenstersensoren erweitern?
-* Abstimmen oder so
-* Weltherrschaft
-
-* Putz-wand-schrank für Staubsauger, Besen und Leiter?
-== Baumaterialien / Baukosten ==
-* Trockenbau
-** Ständer CW-Profile 2-Raum 84m je meter 1,50Euro = 126Euro
-** Ständer CW-Profile 3-Raum je meter 1,50Euro = 
-** Ständer Holz 2-Raum   
-** Ständer Holz 3-Raum  
-** Beplankung 2-Raum 4m hoch * 8m lang * 2 Seiten * ca. 10euro pro qm = 640Euro
-** Beplankung 3-Raum 4m hoch * 11m lang * 2 Seiten * ca. 10euro pro qm = 880Euro
-** Schrauben & Dübel & CW-Kleinteile
-** Wand Isolation Glaswolle 60mm 2-Raum 32qm * 3,16qm = 101Euro
-** Wand Isolation Glaswolle 60mm 3-Raum 44qm * 3,16qm = 139Euro
-** Decke Isolation Glaswolle 120mm 51qm * 6,19qm = 316Euro
-* Netzwerk
-** Netzwerkdose 2-3 * 10 Euro 20-30Euro
-** Netzwerkkabel 2-Raum (2Dosen) ca. 60m je Doppel-Dose, 120m * 0,40 Euro je Meter = 48Euro
-** Netzwerkkabel 3-Raum (3Dosen) ca. 60m je Doppel-Dose, 180m * 0,40 Euro je Meter = 72Euro
-** alternativ: Patchfeld + Switch + 19" Gehäuse + Kabel. Wäre eventuell sinnvoll, Kabelkanal am Rack ist schon sehr voll --[[Benutzer:Nicoduck|Nicoduck]] ([[Benutzer Diskussion:Nicoduck|Diskussion]]) 23:28, 9. Aug. 2012 (CEST)
-* Hausbus/Heizung/Fenster geschätzt 100Euro
-** Kabel, Kabelkanal, Sensoren
-* Strom geschätzt 100Euro
-** Kabel, Steckdosen, 
-*Licht geschätzt 50Euro
-** Kabel, Lichtschalter
-* Türen 
-** 2-Raum eine Tür ca. 120euro 
-** 3-Raum 2-3 Türen ca. 240 bis 360euro
-** 2-Raum Zagenschaum ca. 10Euro
-** 3-Raum Zagenschaum ca. 20-30Euro
-* Farbe
-** Wand 2-Raum Gips 4m * 38m = 152qm bei 30euro/70qm = 60Euro
-** Wand 2-Raum Holz 4m * 19m = 76qm bei 30euro/70qm = 30Euro & 76qm*1,5*70ml/qm=8L*25Euro pro 2,5L=75Euro + 30=105Euro
-** Träger?
-** Abdeckplane
-
-
-Alle Preise sind Internetpreise ohne Fracht und der erst beste Händler.<br>
-Summe ca. (Größere Kosten sollten nicht fehlen):<br>
-2-Raum 1750€<br>
-3-Raum 2250€
-
-== Einrichtung ==
-* Regale
-* Tische
-* Stühle
-* Hocker
-* PC & Monitor
-* Bällchenbad
-
-== Helfer ==
-So sah es beim letzten mal aus:<br>
-[http://vimeo.com/14479447#at=0 Die Entstehung vom RaumZeitLabor im Zeitraffer] <br>
-Was spricht gegen einen weiteren Zeitraffer?
-Dafür haben viele fleißige Helfer/Hände lange gearbeitet.
-
-* [[Benutzer:nessi|nessi]]
-* [[Benutzer:hax404|hax404]]
-* [[Benutzer:Felicitus|Felicitus]]
-* [[Benutzer:Dashie|Dashie]]
-* [[Benutzer:Inte|Inte]]
-* [[Benutzer:Else|Else]]
-* [[Benutzer:ABrock|ABrock]]
-
-== Zu besorgen ==
-* '''Rollgerüst''' kaufen? / Leihen z.b. bei Uwe Werle Maler/Malerbedarf Viernheim
-** Kaufen eher nicht, sonst müssen wir das Ding irgendwo Lagern. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 17:46, 11. Nov. 2012 (CET)
-* Leitern lang
-
-== Bereits vorhanden ==
-
-* Forstner Bohrer
-* Bohrmaschine
 
 [[Kategorie:Projekt]]
