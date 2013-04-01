@@ -141,7 +141,6 @@ Die folgenden Konfigurationsdaten werden auf dem EEPROM des Atmega 64 abgelegt:
 Die Konfigurationsdaten sollen über den RS232-Port verändert werden können.
 
 == To-Do ==
-* http://www.conrad.de/ce/de/product/501837/Epcos-SMD-Drossel-fuer-Signal-und-Datenleitungen-SMD-DATENLEITUNGSDROSSEL-2X51UH-303-01-05-A/SHOP_AREA_17429&promotionareaSearchDetail=005
 * https://github.com/schinken/dmx2rgb/blob/master/sw/dmx2rgb.c#L20
 * Schaltplan und Platinenlayot hübsch in einem Versionskontrollsystem verpacken
 * Prüfen, ob die Optokoppler für die Inputs richtig herum sind
