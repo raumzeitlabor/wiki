@@ -1,0 +1,25 @@
+{{ProjektInfoBox
+|name        = muzy.vm.rzl
+|status      = 
+|image       = 
+|description = VM von muzy
+|author      = [[Benutzer:Muzy|muzy]], [[NOC Team|NOC-Team]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = muzy.vm.rzl
+|license     = 
+|download    = 
+}}
+
+== Zweck ==
+
+
+== Eckdaten ==
+
+* 512MB RAM
+* 1 CPU Core
+* 20GB HDD
+
+[[Kategorie:Infrastruktur]]
