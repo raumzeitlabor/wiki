@@ -1,3 +1,8 @@
+= Samstag (2013-04-04) =
+* Pinpad-Controller antwortete nicht mehr auf Ping
+* Powercyclen vom Controller brachte nix
+* Nach Busmasterreset gings wieder
+
 = Dienstag/Mittwoch (2011-02-08) =
 * Busmaster-Update (keine Link-Local-Adressen, sondern ULAs)
 * RS485-Kabel gelegt (Kabel zur Tür wiederverwendet), durchgemessen, angeschlossen
