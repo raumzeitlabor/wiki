@@ -5,14 +5,12 @@ Sammelbestellung für Bauteile der neusten Platinen Version 21 vom Facedancer
 * Kosten pro Bauteilsatz: ca. 28 Euro
 
 * Menge ist hier die Anzahl der kompletten Teile für eine Platine wie auf der Homepage des Projekts beschrieben.
-{|border=1
-!Wer
-!Menge
+{|class=wikitable
+!Wer !!Menge
 |-
-| docsteel
-|2
+| docsteel || 2
 |-
-| thinkJD
-|2
+| thinkJD ||2
 |-
+|tiefpunkt  || 1
 |}
