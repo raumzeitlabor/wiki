@@ -12,11 +12,6 @@
 |download    = 
 }}
 
-==Warmwasserboiler==
-[[Datei:Button.jpg|300px|thumb]]
-Um Strom zu sparen, wurde ein [http://raumzeitlabor.de/blog/der-warmwasser-panic-button Warmwasser-Panic-Button] unter der Spüle angebracht. Die daran angeschlossene Stromsparsteckdose vom Typ [[Ansmann AES3]] schaltet den Boiler automatisch ab, sobald das Wasser erhitzt ist und nur noch der Ruhestrom fließt.
-
-Zum Aktivieren den Button für drei Sekunden gedrückt halten.
 ==Neue Schrankbeschriftung==
 Die alten Etiketten der Küchenbeschriftung waren teils nicht lesbar. Die  Vorlagendatei [[Datei:Etiketten.tar.gz]] wurde für einen Brother P-Touch 2700 erstellt, Etikettenbreite 24mm und wird mit einer CSV-Datei gefüttert, in der die zu druckenden Texte stehen. Benötigt wird zusätzlich noch unsere [http://omkrets.se/typografi Hausschrift Miso]. Zur Zeit gibt es folgende Labels: [[Datei:Kueche Etiketten.csv]] [[Datei:Preisetiketten.tar]]
 
