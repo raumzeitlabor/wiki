@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = PiLight (Raspberry Pi DMX Adapter)
 |status      = beta
-|image       = PiLight_v1.0.png
+|image       = PiLight_v1.1.png
 |description = Und dein RPi wird zur DMX-Schaltzentrale
 |author      = D-Structor
 |username    = 
