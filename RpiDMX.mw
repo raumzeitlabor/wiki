@@ -9,7 +9,7 @@
 |update      = 
 |platform    = 
 |license     = 
-|download    = Source:[[Datei:Dmx_adapter_rpi_source002.zip]] <br /> Eagle Board: [[Datei:PiLight_v1.0.brd‎]] <br /> Eagle Schematic: [[Datei:PiLight_v1.0.sch]]
+|download    = Source:[[Datei:Dmx_adapter_rpi_source002.zip]] <br /> Eagle Board: [[Datei:PiLight_v1.1.brd‎]] <br /> Eagle Schematic: [[Datei:PiLight_v1.1.sch]]
 |preis       = 25€ pro Bausatz
 }}
 
@@ -21,7 +21,7 @@ Der DMX-Bus ist galvanisch getrennt. Die Pufferung der 512 Adressen des Universu
 Als Protokoll zwischen PiLight und dem Host kommt derzeit eine (Teil-)Implementierung des [http://usbdmx.com/downloads/protocol.pdf Protokolls von usbdmx.com] zum Einsatz.
 
 == Stand-Alone Variante ==
-Kein RaspberryPi zur Hand? Oder doch lieber die gewohnte CPU-Architektur? Kein Problem. Einfach einen seriellen Adapter anschließen. Diesen erhälst du beim [[Hacklace]] Projekt. 
+Kein RaspberryPi zur Hand? Oder doch lieber die gewohnte CPU-Architektur? Kein Problem. Einfach per USB einen seriellen Adapter anschließen. Diesen erhälst du beim [[Hacklace]] Projekt. Und wenn das nicht ausreicht, dann kannst du den ISP-Header auch nutzen um über SPI mit dem PiLight zu kommunizieren.
 
 == Teile-Liste (Reichelt Bestellnummer) ==
 ''' Wenn du einen Bausatz kaufst, sind alle benötigten Bauteile direkt dabei. Kein Einkaufsstress für dich!'''
