@@ -19,16 +19,16 @@ Zusätzlich kümmert sich diese losen Gruppierung um die Bereitstellung von toll
 
 ===Auf Lager===
 * [[Usbasp]]
-* [[V-USB Proto Board]]
 * [[ISP-Adapter]]
 * [[Hacklace]]
-
+* [[MicroMoody]]
 
 === Vergriffen ===
 * [[Moodlamp]]
+* [[V-USB Proto Board]]
 * [[TV-B-Gone]]
 * Laborboard<br>Als erstes Experminetierboard für Mikrocontrollerprojekte nutzen wir das Laborboard, das unser befreundeter Hackerspace Das Labor aus Bochum entwickelt hat. Es besteht aus einem Atmel ATmega32 mit ISP Programmierschnittstelle, 16Mhz Quarz, 4 Tastern, 8 freiprogrammierbaren LEDs und einem Spannungsversorgunsteil für die 5V.
-* [[MicroMoody]]
+
 
 === Mögliche zukünftige Bausätze ===
 * CMOY-Kopfhörer-Verstärker
