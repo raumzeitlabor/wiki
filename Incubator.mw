@@ -188,6 +188,15 @@ Zum Beispiel IRC, den Statusbot, Temperaturen, stündliche Bilder mit einer ange
 |touched = 26.09.2012
 |comment = 
 }}
+
+{{IncubatorProjectIdea
+|title   = Webcambot
+|descr   = Ein Roboter mit integrierter Webcam (und eventuell Bildschirm als Rückkanal), den man über ein Webinterface fernsteuern kann.
+|author  = [[Benutzer:Else|else]]
+|megusta = 
+|added   = 25.04.2013
+|touched = 25.04.2013
+}}
 |-
 
 <!-- Neue Einträge *über* diesem Kommentar einfügen. -->
