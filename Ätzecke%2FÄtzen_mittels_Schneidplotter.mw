@@ -1,0 +1,31 @@
+Dieser Artikel gibt eine Einführung, wie man mit Hilfe unseres [[Schneidplotter|Schneidpotters]] Platinen ätzen kann.
+
+= Warum? =
+
+Mit diesem Prozess kann man:
+
+* Kupferplatinen ohne Fotolack ätzen
+* Kupferplatinen ätzen, die nicht in den Belichter passen
+* Erheblich weniger Aufwand als die Belichtungsmethode
+* Ideal für Platinen, die z.b. ein Touch-Panel ergeben sollen (große Strukturen)
+
+Weniger geeignet ist dieser Prozess für:
+
+* Feine Strukturen (reguläre Leiterplatten, insbesondere SMD)
+
+= Wie? =
+
+Eigentlich ist der Prozess völlig trivial: Man plottet die Folie aus, entgittert sie, und klebt sie auf die gereinigte Kupferplatine. Überall dort, wo die Folie die Platine bedeckt, wird logischerweise nichts weggeätzt. Nach dem Ätzen wird die Folie entfernt und fertig ist die Platine.
+
+Bisher wurde nur die Oracal 751C Folie getestet. Sie hat scheinbar überhaupt nicht mit der Ätzlösung reagiert, was hervorragend ist. Außerdem lässt sie sich relativ leicht entgittern. Das Entfernen der Folie von der Platine ist etwas Arbeit.
+
+Die Ränder der Strukturen waren sehr scharf, wesentlich besser als man es vom Belichten her gewohnt ist.
+
+= Bilder =
+
+== Bilder ==
+<gallery>
+Schneidplotter Ätzen danach.jpg|Resultat nach dem Ätzen, mit der Folie noch drauf
+Schneidplotter Ätzen Folie entfernt.jpg|Folie entfernt
+Schneidplotter_Ätzen_Ergebnis.jpg|Verziertes Ergebnis
+</gallery>
