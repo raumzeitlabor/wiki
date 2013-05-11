@@ -8,6 +8,27 @@
 |financing   =
 }}
 
+== Allgemeines ==
+
+Der Plotter wird eigentlich von [http://www.ek-team.de/ ek-team.de] gebaut und nennt sich dann "VP 500 A3". Hier gibt es auch Windows-Treiber.
+
+== Betrieb ==
+
+Bisher konnten die Treiber weder unter Windows Vista noch unter Windows 7 32/64 bit installiert werden. Daher wurde die Ansteuerung über den Parallelport vorgenommen, was auch funktioniert.
+
+Der Plotter spricht HPGL, es könnte also sein, daß man den Plotter unter Linux ansteuern kann.
+
+== Bugfixes ==
+
+Der Endstop wird über einen Magnetsensor realisiert. Dieser hat nicht mehr richtig funktioniert - als Bugfix wurde der Magnet näher an den Sensor montiert. Das Bild unten zeigt, wo man das Signal des Sensors zu debuggingzwecken abgreifen kann.
+
 == Treiber ==
 
 * [http://www.ek-team.de/downloads_netz_besucher.html?PHPSESSID=4rqad3rotag5m9gjg8m8qc90c0 Vergleichbares Modell mit aktuellen Win-Treibern]
+
+== Gallery ==
+
+<gallery>
+File:CMS-P1-PLOTTER Unterseite Offen.jpg|Die geöffnete Unterseite des Plotters
+File:CMS-P1-PLOTTER Magnetsensor Datenpin.jpg|Der Datenpin des Magnetsensors kann an der rot markierten Position abgegriffen lesen. Kein Kontakt = high, Kontakt = low
+File:CMS-P1-PLOTTER Magnetsensor Unterlagscheibe.jpg|Der Permanentmagnet, hier schon durch eine Unterlagscheibe höhergelegt
