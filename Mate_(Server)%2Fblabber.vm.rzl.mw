@@ -32,4 +32,10 @@ Das Gopherhole ist über gopher://raumzeitlabor.de und gopher://gopher.raumzeitl
 * 1 CPU Core
 * 10GB HDD
 
+== Externe IPv4 Anbindung ==
+IPv4 wird über Premium weitergeleitet. Hierzu werden auf Premium eingehende IPv4 Verbindungen zu Port 70/tcp (gopher) doppelt geNATet (SNAT und DNAT) und über das bestehende [[firebox]] <-> premium VPN weitergeleitet. Antwortpakete werden über den gleichen Weg zurück geleitet (deswegem das zusätzliche SNAT, weil die Antwort sonst über die normale IPv4 Route raus gehen würde und damit an keine Firewall mit SPI vorbei kommen würde). 
+
+== Externe IPv6 Anbindung ==
+Ist direkt über das im RZL verfügbare AS erreichbar und entsprechend im DNS eingetragen.
+
 [[Kategorie:Infrastruktur]]
