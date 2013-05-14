@@ -44,7 +44,10 @@ Kein RaspberryPi zur Hand? Oder doch lieber die gewohnte CPU-Architektur? Kein P
  1  BL 2X13G8 2,54
  1  SL 2X50G 2,54
  1  BL 1X20W8 2,54 
+ 1  SL 1X40G 2,54
+ 1  JUMPER 2,54 BL
  1  XLR 3KU-N
+ 1  LED 3mm
 
 == Bausatzverfügbarkeit ==
 {{ProgressBar|0
