@@ -1,0 +1,31 @@
+= Einführung =
+
+Der Lichtsteuerungscontroller sorgt dafür, Schaltwünsche von Benutzern in Lichtzustände umzusetzen. Technisch: DMX-Input zu Relaisoutput.
+
+= Features =
+[[Image:Lichtsteuerung board top.png|thumb|right|Controllerplatine Oberseite]]
+[[Image:Lichtsteuerung board bottom.png|thumb|right|Controllerplatine Unterseite]]
+* DMX Ein- und Ausgang
+* Batteriegestützte Realtime Clock
+* 1024KB I²C EEPROM
+* 32 Ausgänge
+* 16 Eingänge
+* RS232
+
+= Kaskadierung =
+
+Lichtsteuerungscontroller können kaskadiert werden, da sie einen DMX-Ausgang besitzen. Haupt- und Nebenraum besitzen jeweils einen eigenen Lichtsteuerungscontroller.
+
+== Relais schalten und Verkabeln ==
+
+Am Relais liegt +24V an und wird nach GND durch den Relaistreiber durchgeschalten. Der maximale Strom pro Port beträgt 500mA.
+
+Die Versorgungsspannung der Relais sollte von den Klemmen X1 und X2 abgegriffen werden, da diese jeweils mit einer 200mA Polyfuse gesichert sind. Somit ist gewährleistet, daß der Relaistreiber nicht beschädigt wird.
+
+Reichen 500mA nicht aus, so darf man laut ULN2803-Datenblatt mehrere Ausgänge parallel schalten, dies wurde aber bisher nicht getestet.
+
+Die Ausgänge besitzen keine Freilaufdioden. Der Relaistreiber besitzt Dioden, allerdings sollte man Relais verwenden, die eine Freilaufdiode eingebaut haben.
+
+== Die Kraft der zwei Prozessoren ==
+
+Jeder Lichtsteuerungscontroller kann alle empfangenen DMX-Daten auch wieder weitergeben. Da DMX darauf basiert, daß die Schaltzustände dauerhaft wiederholt werden, gibt es hierzu einen eigenen Atmega8.
