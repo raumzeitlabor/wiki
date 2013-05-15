@@ -140,19 +140,6 @@ Die folgenden Konfigurationsdaten werden auf dem EEPROM des Atmega 64 abgelegt:
 
 Die Konfigurationsdaten sollen über den RS232-Port verändert werden können.
 
-== To-Do ==
-* I²C Header auf Platine für Display+Buttons
-* https://github.com/schinken/dmx2rgb/blob/master/sw/dmx2rgb.c#L20
-* Schaltplan und Platinenlayot hübsch in einem Versionskontrollsystem verpacken
-* Prüfen, ob die Optokoppler für die Inputs richtig herum sind
-* Leiterbahndicken richtig festlegen
-* Schaltplan mit einem Bus bauen, evtl hilft das dem Autorouter
-* LED-Wannenstecker für Eingänge
-* 0..10V Analogausgänge / Eingänge siehe http://www.epanorama.net/documents/lights/0to10v.html sowie http://www.soundlight.de/techtips/analog/analog.htm
-* DMX Output für kaskadierung bzw Nutzung als DMX-Interface
-* Sockel für Raspberry Pi zum direkt-draufstecken
-* 120 Ohm Abschlusswiderstand für DMX Input
-
 == Siehe auch ==
 
 [https://github.com/raumzeitlabor/lichtsteuerung Github]
