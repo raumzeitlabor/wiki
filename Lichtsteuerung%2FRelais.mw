@@ -1,0 +1,1 @@
+Die Lichtsteuerung verwendet Omron G2R-1-SNDI 24V <small>([http://www.omron.com/ecb/products/pdf/en-g2r.pdf PDF])</small> Relais. Diese haben eine Freilaufdiode und LED eingebaut und können im Fehlerfalle von Hand bedient werden. Als Sockel kommen Omron P2RF-05-E <small>([http://www.ia.omron.com/data_pdf/data_sheet/p2rf-__-s_dsheet_gwj132-e2-02-x.pdf PDF]) zum Einsatz.
