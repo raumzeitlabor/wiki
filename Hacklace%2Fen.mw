@@ -70,7 +70,9 @@ In case you do not have the equipment for etching circuit boards, you can buy a 
 ====Hint on the display====
 Due to shortages in hardware supply, there are 3 different display types. Depending on the type, the display has to be inserted differently. This is also a configuration parameter in the firmware.
 
-# HDSP-5403 hp 008 L3 - The black dot on the side of the display has to be arranged diagonally to PIN 1 (rectangular pad). Seen from top, that's the bottom right edge.
+# HDSP-5403 hp 008 L3 - The black dot on the side of the display has to be arranged diagonally to PIN 1 (rectangular pad). Seen from top, that's the bottom right edge. Note: Since 01/2013 this display type is obsolete and will no longer be delivered with our kits.
+# TC07 / TA07 - Pin 1 of the display (rectangular pad) is in the same row as pin 1 of the micro-controller (square pad). Depending on the display type (TA or TC) the corresponding firmware has to be flashed.
+# LM57 - Same as TC07 display. Pin 1 of the display has been manually marked with a felt tip marker.
 
 ====Instructions====
 
