@@ -22,6 +22,10 @@ Der Plotter spricht HPGL, es könnte also sein, daß man den Plotter unter Linux
 
 Der Endstop wird über einen Magnetsensor realisiert. Dieser hat nicht mehr richtig funktioniert - als Bugfix wurde der Magnet näher an den Sensor montiert. Das Bild unten zeigt, wo man das Signal des Sensors zu debuggingzwecken abgreifen kann.
 
+== HPGL ansehen ==
+
+Möchte man sich HPGL ansehen, so kann man dies mit Inkscape tun. Die Datei muß die Erweiterung ".plt" besitzen und kann dann geöffnet werden. Es ist zu beachten, daß nur die Pfade angezeigt werden, auf denen der Stift fährt.
+
 == Treiber ==
 
 * [http://www.ek-team.de/downloads_netz_besucher.html?PHPSESSID=4rqad3rotag5m9gjg8m8qc90c0 Vergleichbares Modell mit aktuellen Win-Treibern]
