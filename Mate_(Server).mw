@@ -119,6 +119,21 @@ Um eine VM zu monitoren:
 
 * Ändere in der Datei '''/etc/zabbix/zabbix_agentd.conf''' den Parameter "Server" auf "172.22.36.251" und den Parameter "Hostname" auf den hostnamen inkl. .rzl-Domain
 * Füge den Server in Zabbix hinzu (Configuration->Hosts->Create), linke die Templates Template_Linux sowie Template_Puppet_Agent
+
+== Bacula backups ==
+
+* Config-Änderungen auf mate:
+** in /etc/bacula/clients die jeweilige Config umkopieren und die Namen sowie das Director-Passwort ändern
+** die leeren files in /etc/bacula/clients/includes sowie excludes erzeugen
+** in /etc/bacula/bacula-dir.conf das neue config file includen
+** bacula neustarten
+** Das file /etc/puppet/templates/bacula-fd_conf.erb in die VM kopieren und die Variablen ersetzen
+
+* In der VM:
+** /etc/init.d/bacula-fd restart
+** prüfen, ob bacula-fd auf 0.0.0.0:9102 lauscht (bei Fehlern lauscht er nur auf localhost)
+
+Schließlich über bconsole, danach run den entsprechende Job auswählen und testweise laufen lassen.
 == TODO ==
 * Automatisches Discovery von VMs in Zabbix?
 
