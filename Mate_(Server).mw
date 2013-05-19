@@ -120,9 +120,7 @@ Um eine VM zu monitoren:
 * Ändere in der Datei '''/etc/zabbix/zabbix_agentd.conf''' den Parameter "Server" auf "172.22.36.251" und den Parameter "Hostname" auf den hostnamen inkl. .rzl-Domain
 * Füge den Server in Zabbix hinzu (Configuration->Hosts->Create), linke die Templates Template_Linux sowie Template_Puppet_Agent
 == TODO ==
-* Backups fertig einrichten
 * Automatisches Discovery von VMs in Zabbix?
-* Die grub2-settings der VMs über Puppet deployen
 
 == Unterseiten ==
 Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möchtest Du etwas auf den Systemen installiert haben, dann paketiere es bitte. Auf den Mitglieder-VMs kann alles so installiert werden, wie gewünscht.
