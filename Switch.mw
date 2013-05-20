@@ -10,5 +10,15 @@ Die Ports auf dem Switch sind wie folgt belegt:
 
 Im Rack liegt noch ein kleinerer Switch (Höhe Busmaster). Dieser hat kein Internet sondern nur das Netz zur Kommunikation mit dem [[NPM 2000|NPM]], da dieser bei Interferenzen im Netzwerk komische bis gar keine Dinge mehr tut. 
 
+= Management-Interface =
+
+Der Switch hat nur ein HTTP-Interface und keine CLI.
+
+<pre>
+ssh root@firebox -L 8080:10.23.42.2:80
+</pre>
+
+Dann mit einem kompatiblen Browser (am besten IE, Firefox macht ggf. Probleme, Chrome geht ggf. gar nicht)
+
 [[Kategorie:Hardware]]
 [[Kategorie:Infrastruktur]]
