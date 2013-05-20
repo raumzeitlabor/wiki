@@ -45,4 +45,28 @@ Jeder Lichtsteuerungscontroller kann alle empfangenen DMX-Daten auch wieder weit
 | status = done
 | last_changed = 
 }}
+{{TaskListItem
+| title = 24FC1024 I²C EEPROM
+| description = 
+| status = 
+| last_changed = 
+}}
+{{TaskListItem
+| title = Eingänge
+| description = 
+| status = 
+| last_changed = 
+}}
+{{TaskListItem
+| title = DMX IN
+| description = 
+| status = 
+| last_changed = 
+}}
+{{TaskListItem
+| title = DMX OUT
+| description = 
+| status = 
+| last_changed = 
+}}
 {{TaskListEnd}}
