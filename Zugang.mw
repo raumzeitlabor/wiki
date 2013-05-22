@@ -8,7 +8,18 @@ Sollte niemand im Raum sein ([http://status.raumzeitlabor.de Status]: <span styl
 == Raum ==
 Der Raum ist über ein Schließsystem gesichert, das wir selbst implementiert haben. Den Raum kannst du mittels persönlicher PIN öffnen.
 
-Bestimmte Personen können den Raum auch via SSH öffnen und schließen. (sollen wir eine Liste führen, wer das kann?)
+=== tuer.rzl.so ===
+Jedes Mitglied, welches seinen SSH Key in der [[BenutzerDB]] pflegt, kann die Tür via SSH öffnen.
+
+Hierzu muss man sich per SSH mit dem Benutzer "tuer" auf tuer.rzl.so:2322 verbinden und kann dann mit "open" und "close" die Tür steuern.
+
+Für eine .ssh/config würde das z.B. so aussehen:
+<pre>
+Host tuer
+HostName tuer.rzl.so
+User tuer
+Port 2322
+</pre>
 
 === Schlüsselliste Raum ===
 
