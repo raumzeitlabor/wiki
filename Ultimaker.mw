@@ -261,6 +261,10 @@ Struktur:
 | 2013-02-07
 | Der Defekt wird durch irgendeinen Kontakt im Heizelement verursacht. Ich habe eine Sicherung gebaut, die vor das Netzteil gehängt wird. Leider löst die verbaute 5A-Sicherung (flink) nicht aus, bevor das Netzteil selbst abschaltet. Das PLA bleibt beim Drucken mal wieder hängen, vielleicht ist der Druckkopf wieder verstopft.
 | Felicitus
+|-
+| 2013-04-26
+| Der Feeder wurde repariert - die Stellschraube zur Regulation des Anpressdruckes hatte sich durch das PLA gefressen und direkt auf das Kugellager gedruckt. Dies verhindert nun ein kleines Plättchen Aluminium zwischen Schraube und PLA.  Zusätzlich wurde hinter der Mutter im Inneren des PLA-Teils ein O-Ring montiert, welcher als Federung bei Schwankungen des Filamentdurchmessers fungierten soll. 
+| Vinci
 |}
 
 == Andere Interessante $Dinge ==
