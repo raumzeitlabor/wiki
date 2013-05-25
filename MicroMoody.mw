@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = MicroMoody
-|status      = beta
-|image       = MicromoodyV1.png
+|status      = stable
+|image       = MicromoodyV1.jpg
 |description = &ldquo;Liebling ich habe die Moodlamp geschrumpft!&rdquo;
 |author      = [[user:muzy|muzy]], [[user:hogdarog|hog]]
 |username    = 
@@ -13,6 +13,28 @@
 |preis       = 5€ pro Bausatz
 }}
 
-Was ist klein, blinkt und brandneu im RaumZeitLabor? Die MicroMoody. Ein Bausatz der zum SMD-löten einläd und schnell Erfolge zeigt. 
+MicroMoody ist deine geschrumpfte Moodlamp! Ansteuerbar über I2C bietet sie dir nicht nur eine helle RGB Lichtquelle sondern auch einen idealen Einstieg in das SMD-löten.
 
-Ansteuerbar mit I²C kann die Moodlamp personalisiert und vielseitig eingesetzt werden.
+Folgende Bauteile sollte dein Bausatz enthalten:
+
+* 1x Platine
+* 1x RGB-LED
+* 1x ATTiny85 SMD
+* 1x 10kΩ SMD (R1)
+* 3x 100Ω SMD (R2, R3, R4)
+* 1x 100nF SMD (C1)
+* 6pin ISP Header
+
+== Bauanleitung ==
+
+Zunächst alle SMD Bauteile auflöten. Den 100nF SMD Kondensator erkennt man an dem brauen Gehäuse. Beim löten des ATTiny empfiehlt sich zunächst die gegenüberliegenden Seiten anzulöten und entsprechend auszurichten. Hier ist dringend auf die Richtung zu achten, die richtige Position erkennt man an einem kleinen Kreis.
+
+Sind alle SMD Bauteile gelötet die RGB LED entsprechend des Positionsdruck von der weißen Seite einsetzen. Hier ist unbedingt eine Lötbrücke zwischen dem 6-Pin Header und der LED zu vermeiden.
+
+MicroMoody wird ohne Firmware geliefert. Diese kann selbst geflasht werden (erfahrene RaumZeitLaboranten helfen hier auch gerne).
+Die dazu benötigten Schritte sind:
+
+ $> git clone https://github.com/muzy/MicroMoody.git
+ $> cd MicroMoody
+ $> make
+ $> make program
