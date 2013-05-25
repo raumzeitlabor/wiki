@@ -38,3 +38,7 @@ Die dazu benötigten Schritte sind:
  $> cd MicroMoody
  $> make
  $> make program
+
+== MicroMoody in anderen Hackerspaces ==
+
+Im chaosdorf ist die MicroMoody des RaumZeitLabors bereits ein "must have"-Gadget. Viele Stunden Firmware-Entwicklung wurden dort bereits betrieben, danke dafür! Die exzellente Dokumentation findet sich [https://wiki.chaosdorf.de/MicroMoody im Chaosdorf Wiki].
