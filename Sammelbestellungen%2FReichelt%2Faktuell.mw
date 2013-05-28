@@ -24,3 +24,9 @@ PSK 254/4W;20
 PSS 254/4G;20
 PSK 254/5G;20
 </pre>
+
+Für WiFi-Antenne:
+
+<pre>
+UG 58;3
+</pre>
