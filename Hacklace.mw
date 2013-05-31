@@ -227,7 +227,7 @@ Um das Hacklace als serielles Display zu verwenden, sendet man die Initialisieru
 |[[Medium:Hacklace_Kingbright_TA.hex|.hex]]
 |CC-BY-NC-ND
 |-
-|Hex-File zum Flashen des Controllers (Display Kingbright TC07-11 und LM57 Displays) 
+|Hex-File zum Flashen des Controllers (Display Kingbright TC07-11, LM57 und mit "BS" Seitenaufdruck) 
 |[[Medium:Hacklace_Kingbright_TC.hex|.hex]]
 |CC-BY-NC-ND
 |-
