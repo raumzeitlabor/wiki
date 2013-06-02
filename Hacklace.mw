@@ -147,7 +147,19 @@ Das Textfile zur Konfiguration enthält deine eigenen Texte und Animationen. Es 
 
 Um ein irrtümliches Beschreiben zu Verhindern, muß vor dem Download eine Initialisierungssequenz geschickt werden. Dazu wird das Hacklace durch Senden eines Escape-Zeichens (chr(27)) zunächst zurückgesetzt. Um die Programmierung freizuschalten, müssen danach die beiden Großbuchstaben 'H' und 'L' folgen. Nun kannst du das Textfile senden. Nach dem Download empfiehlt es sich, nochmals ein Escape-Zeichen zu senden, damit das Hacklace verriegelt und gegen zufälliges Beschreiben geschützt wird.
 
-Mit dem [https://github.com/Hacklace/Animator/wiki/Download Hacklace-Animator] kannst du Animationen erstellen und das EEPROM deines Hacklaces flashen.
+Unter UNIX kann man die Kommandozeile nutzen, um das Hacklace zu konfigurieren.  Dazu öffnest du die serielle Schnittstelle und stellst die entsprechenden Parameter ein. Danach wird mit printf der eigentliche Datenstring an das Hacklace gesendet.
+
+<code>
+ # stty -F /dev/ttyUSB0 2400
+ # stty -F /dev/ttyUSB0
+ speed 2400 baud; line = 0;
+ kill = ^H; min = 100; time = 2;
+ -icrnl -imaxbel -opost -onlcr
+ -isig -icanon -echo
+ # printf '\eHL$40,^R^R^R\n$0C,$FF $7F $6B $6B $6B $7F $FF,\n$45,fertig\n$00,\e' > /dev/ttyUSB0
+</code>
+
+Ganz bequem und ohne Programmierkenntnisse geht das Konfigurieren mit dem [https://github.com/Hacklace/Animator/wiki/Download Hacklace-Animator]. Mit diesem Programm kannst du Animationen per Mausklick erstellen und das EEPROM deines Hacklaces flashen.
 
 ===Format des Konfigurationsfiles===
 Eine Message ist entweder ein Text oder eine Animation. Die Messages können durch Tastendruck auf dem Hacklace weitergeschaltet werden. Jede Zeile des Konfigurationsfiles enthält genau eine Message. Eine Message beginnt immer mit einem Modus-Byte, danach folgt der Text bzw. die Daten der Animation und schließlich ein Zeilenumbruch. Ein Modus-Byte von 0 zeigt das Ende der Messageliste an. Das Modus-Byte muß als Hex-Byte übertragen werden (z. B. "$45,").
