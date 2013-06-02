@@ -201,6 +201,20 @@ Das Hacklace läßt sich auch als originelles Display in eigenen Projekten verwe
 
 Um das Hacklace als serielles Display zu verwenden, sendet man die Initialisierungssequenz <ESC>, 'H', 'D'. Danach folgt das Modusbyte, welches unter [[Hacklace#Format des Konfigurationsfiles|"Format des Konfigurationsfiles"]] beschrieben ist. Nun kannst du beliebige ASCII-Zeichen senden, die vom Hacklace sofort als Laufschrift dargestellt werden. Ein Zeilenumbruch (<CR> oder <LF>) löscht das Display und du kannst eine neue Nachricht senden.
 
+Hier ein Beispiel für alle, die gerne mit der Kommandozeile unter UNIX arbeiten:
+
+<code>
+ # stty -F /dev/ttyUSB0 2400
+ # stty -F /dev/ttyUSB0
+ speed 2400 baud; line = 0;
+ kill = ^H; min = 100; time = 2;
+ -icrnl -imaxbel -opost -onlcr
+ -isig -icanon -echo
+ # printf '\eHDCHi World' > /dev/ttyUSB0
+</code>
+
+Durch '\eHD' wird der Display-Modus eingeschaltet. Das Modusbyte 'C' = chr(67) = 00100011 sorgt für einen Lauftext mit Geschwindigkeit 3 und einer Pause von 2 am Ende des Durchlaufs. Danach folgt der anzuzeigende Text 'Hi World'.
+
 ==Download==
 {| class="wikitable"  valign = "top"
 !Datei
