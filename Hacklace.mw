@@ -227,6 +227,12 @@ Hier ein Beispiel für alle, die gerne mit der Kommandozeile unter UNIX arbeiten
 
 Durch '\eHD' wird der Display-Modus eingeschaltet. Das Modusbyte 'C' = chr(67) = 00100011 sorgt für einen Lauftext mit Geschwindigkeit 3 und einer Pause von 2 am Ende des Durchlaufs. Danach folgt der anzuzeigende Text 'Hi World'.
 
+Außerdem besteht die Möglichkeit, eigene Pixelgrafiken auf das Display zu bringen. Durch Senden des Werts 255 (hexadezimal 0xFF) schaltet man in den "Raw-Modus". Die nun folgenden Bytes werden direkt in den Display-Buffer geschrieben. Durch Senden von 255 (0xFF) kann man den Raw-Modus wieder verlassen. Alle folgenden Daten werden dann wieder als ASCII-Zeichen interpretiert.
+
+<code>
+ # printf '\eHDCTest \0xFF\0x7F\0x01\0x02\0x04\0x08\0x10\0x20\0x40\0x7F\0xFF Ende\e'
+</code>
+
 ==Download==
 {| class="wikitable"  valign = "top"
 !Datei
