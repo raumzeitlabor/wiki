@@ -249,20 +249,8 @@ Durch '\eHD' wird der Display-Modus eingeschaltet. Das Modusbyte 'C' = chr(67) =
 |[[Medium:Hacklace_Assembly_Front_Side_Rev_B.pdf|.pdf]], [[Medium:Hacklace_Assembly_Copper_Side_Rev_B.pdf|.pdf]]
 |CC-BY-ND
 |-
-|Hex-File zum Flashen des Controllers (Display Kingbright TA07-11)
-|[[Medium:Hacklace_Kingbright_TA.hex|.hex]]
-|CC-BY-NC-ND
-|-
-|Hex-File zum Flashen des Controllers (Display Kingbright TC07-11, LM57 und mit "BS" Seitenaufdruck) 
-|[[Medium:Hacklace_Kingbright_TC.hex|.hex]]
-|CC-BY-NC-ND
-|-
-|Hex-File zum Flashen des Controllers (Display HDSP-5403)
-|[[Medium:Hacklace_HDSP5403.hex|.hex]]
-|CC-BY-NC-ND
-|-
-|Hex-File für das EEPROM
-|[[Medium:Hacklace_Rev_B.eep|.eep]]
+|Hex-Files zum Flashen des Controllers (Github)
+|[https://github.com/fabster/Hacklace/tree/master/Hexfiles]
 |CC-BY-NC-ND
 |-
 |Sourcecode (Github)
@@ -274,7 +262,13 @@ Durch '\eHD' wird der Display-Modus eingeschaltet. Das Modusbyte 'C' = chr(67) =
 |GPL
 |}
 
-Die aufgeführten Dateien stehen unter der jeweils angegebenen Creative-Commons-Lizenz bzw. der Hacklace-Animator unter GPL.
+Bei den Hexfiles gibt es zwei Varianten. Abhängig vom verwendeten Displaytyp muß das passende File ausgewählt werden.
+* Hacklace_Kingbright_TA.hex für "common anode"-Displays wie z. B. Kingbright TA07-11
+* Hacklace_Kingbright_TC.hex für "common cathode"-Displays wie z. B. Kingbright TC07-11, LM57 und mit "BS" Seitenaufdruck
+
+Das .eep-File dient zum Flashen des EEPROMS.
+
+Alle aufgeführten Dateien stehen unter der jeweils angegebenen Creative-Commons-Lizenz bzw. der Hacklace-Animator unter der GPL.
 
 ==Bilder==
 {| 
