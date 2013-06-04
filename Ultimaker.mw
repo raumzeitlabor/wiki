@@ -266,6 +266,11 @@ Struktur:
 | 2013-04-26
 | Der Feeder wurde repariert - die Stellschraube zur Regulation des Anpressdruckes hatte sich durch das PLA gefressen und direkt auf das Kugellager gedruckt. Dies verhindert nun ein kleines Plättchen Aluminium zwischen Schraube und PLA.  Zusätzlich wurde hinter der Mutter im Inneren des PLA-Teils ein O-Ring montiert, welcher als Federung bei Schwankungen des Filamentdurchmessers fungierten soll. 
 | Vinci
+|-
+| 2013-06-04
+| Die vier verschiedenen Federn des Betts durch vier gleiche Federn ersetzt und Bett neu kalibriert.
+| Die auf den Lüfter geklebte Postkarte entfernt. Der Lüfter ist etwas zu stark und kühlt den Nozzle runter, wenn er das erste Mal anspringt. Deshalb in Cura die Lüftergeschwindigkeit auf 8-12% einstellen.
+| zero_dtime
 |}
 
 == Andere Interessante $Dinge ==
