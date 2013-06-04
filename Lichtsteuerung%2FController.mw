@@ -54,7 +54,7 @@ Jeder Lichtsteuerungscontroller kann alle empfangenen DMX-Daten auch wieder weit
 {{TaskListItem
 | title = Eingänge
 | description = 
-| status = 
+| status = done
 | last_changed = 
 }}
 {{TaskListItem
