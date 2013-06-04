@@ -159,6 +159,12 @@ Unter UNIX kann man die Kommandozeile nutzen, um das Hacklace zu konfigurieren. 
  # printf '\eHL$40,^R^R^R\n$0C,$FF $7F $6B $6B $6B $7F $FF,\n$45,fertig\n$00,\e' > /dev/ttyUSB0
 </code>
 
+Mit folgendem Befehl erhältst du ein Terminal, welches zum interaktiven Debuggen nützlich ist.
+
+<code>
+ # screen /dev/ttyUSB0 2400
+</code>
+
 Ganz bequem und ohne Programmierkenntnisse geht das Konfigurieren mit dem [https://github.com/Hacklace/Animator/wiki/Download Hacklace-Animator]. Mit diesem Programm kannst du Animationen per Mausklick erstellen und das EEPROM deines Hacklaces flashen.
 
 ===Format des Konfigurationsfiles===
