@@ -36,4 +36,8 @@ UG 58;3
 = Else benötigt =
 <pre>
 74HC 4094;10
+AWG 28-26G 3M;1
+PFL 26;10
+WSL 26G;10
+BL 2X13G8 2,54;10
 </pre>
