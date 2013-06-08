@@ -13,6 +13,12 @@ Für die Lichtsteuerung:
 SNT MW-DR60-24;2
 </pre>
 
+Für die CISCO PoE-Switches, um die Telefone zu betreiben:
+
+<pre>
+FAN-ML 4020-12 S;5
+</pre>
+
 = Felicius benötigt =
 
 <pre>
