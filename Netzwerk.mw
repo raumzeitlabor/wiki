@@ -152,7 +152,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.238 || [[Mate_(Server)/unifi.vm.rzl]] || Ubiquiti Unifi Management VM
 |-----
-| 172.22.36.239 || [[Mate_(Server)/muzy.vm.rzl ||Mitglieder-VM muzy
+| 172.22.36.239 || [[Mate_(Server)/muzy.vm.rzl]] ||Mitglieder-VM muzy
 |-----
 | 172.22.36.240 || ''reserved'' || Reserviert für Geräte
 |-----
@@ -160,7 +160,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.242 || fon_pv || fonera nicoduck
 |-----
-| 172.22.36.243 || [[Mate_(Server)/lutoma.vm.rzl || Mitglieder-VM (beta)
+| 172.22.36.243 || [[Mate_(Server)/lutoma.vm.rzl]] || Mitglieder-VM (beta)
 |-----
 | 172.22.36.244 || ''reserved'' || Reserviert für Geräte
 |-----
