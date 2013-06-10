@@ -21,21 +21,10 @@ FAN-ML 4020-12 S;5
 
 = Felicius benötigt =
 
-<pre>
-IRLML 6344;10
-TSM 2311 SMD;10
-PSS 254/2G;20
-PSK 254/3W;40
-PSS 254/3G;40
-PSK 254/4W;25
-PSS 254/4G;25
-PSK 254/5G;20
-</pre>
-
 Für WiFi-Antenne:
 
 <pre>
-UG 58;3
+UG 58;2
 </pre>
 
 Für SolarWind2:
@@ -47,14 +36,8 @@ L-PISM 33µ;2
 IRLZ 34N;10
 VF 100/35 K-D8;5
 VF 220/35 K-F;5
-AKL 230-04;4
-AKL 230-03;4
-AKL 230-02;4
 DS 18S20;4
-ATMEGA 168A-AU;4
-WSL 6G;10
-1N 4001;10
-1N 4001 SMD;10
+ATMEGA 168A-AU;2
 </pre>
 
 = Else benötigt =
