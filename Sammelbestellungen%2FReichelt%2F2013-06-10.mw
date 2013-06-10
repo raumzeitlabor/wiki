@@ -1,0 +1,45 @@
+Bestellung unterwegs (moemoe)
+
+= Der Raum benötigte =
+
+<pre>
+LÖTZINN 1,0KG;1
+DURACELL 1X6LR61;10
+KONTAKT 334;1
+KONTAKT 361;1
+WSL 6G;10
+</pre>
+
+Für die Lichtsteuerung:
+
+<pre>
+SNT MW-DR60-24;2
+</pre>
+
+Für die CISCO PoE-Switches, um die Telefone zu betreiben:
+
+<pre>
+FAN-ML 4020-12 S;5
+</pre>
+
+= Felicius benötigte =
+
+Für WiFi-Antenne:
+
+<pre>
+UG 58;2
+LOGILINK WL0104;1
+</pre>
+
+Für SolarWind2:
+
+<pre>
+IR 2104S SMD;2
+UF 4007;10
+L-PISM 33µ;2
+IRLZ 34N;10
+VF 100/35 K-D8;5
+VF 220/35 K-F;5
+DS 18S20;4
+ATMEGA 168A-AU;2
+</pre>
