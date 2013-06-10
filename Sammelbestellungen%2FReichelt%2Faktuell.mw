@@ -1,4 +1,16 @@
-= Der Raum benötigt =
+= Else benötigt =
+<pre>
+74HC 4094;10
+AWG 28-26G 3M;1
+PFL 26;10
+WSL 26G;10
+BL 2X13G8 2,54;10
+</pre>
+
+
+= Bestellung unterwegs (moemoe) =
+
+== Der Raum benötigt ==
 
 <pre>
 LÖTZINN 1,0KG;1
@@ -20,7 +32,7 @@ Für die CISCO PoE-Switches, um die Telefone zu betreiben:
 FAN-ML 4020-12 S;5
 </pre>
 
-= Felicius benötigt =
+== Felicius benötigt ==
 
 Für WiFi-Antenne:
 
@@ -40,13 +52,4 @@ VF 100/35 K-D8;5
 VF 220/35 K-F;5
 DS 18S20;4
 ATMEGA 168A-AU;2
-</pre>
-
-= Else benötigt =
-<pre>
-74HC 4094;10
-AWG 28-26G 3M;1
-PFL 26;10
-WSL 26G;10
-BL 2X13G8 2,54;10
 </pre>
