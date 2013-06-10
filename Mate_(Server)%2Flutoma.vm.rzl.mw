@@ -1,0 +1,25 @@
+{{ProjektInfoBox
+|name        = lutoma.vm.rzl
+|status      = 
+|image       = 
+|description = VM von lutoma
+|author      = [[Benutzer:Lutoma|Lutoma]], [[NOC Team|NOC-Team]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = lutoma.vm.rzl
+|license     = 
+|download    = 
+}}
+
+== Zweck ==
++++ Vorsicht, Bilderbrett +++ Vorsicht, Bilderbrett +++ Vorsicht …
+
+== Eckdaten ==
+
+* 256MB RAM
+* 1 CPU Core
+* 20GB HDD
+
+[[Kategorie:Infrastruktur]]
