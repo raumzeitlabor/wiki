@@ -137,6 +137,8 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 | 172.22.36.202 || [[Mate_(Server)/Infra|Infra]] || Infra
 |-----
 | 172.22.36.203 || [[Mate_(Server)/DB|DB]] || DB
+------
+| 172.22.36.204 || [[Mate_(Server)/Asterisk|Asterisk]] || Asterisk (LXC-Test)
 |-----
 | 172.22.36.220 || [[Mate_(Server)/abrock.vm.rzl|abrock.vm.rzl]] || Mitglieder-VM (beta)
 |-----
