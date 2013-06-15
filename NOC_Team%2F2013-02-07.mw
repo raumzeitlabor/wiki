@@ -136,3 +136,5 @@ rsync -avHWx --itemize-changes --delete --stats --bwlimit=200 root@rzl.uugrn.org
 ** Dafür. Hab bereits "Verified Identity" bei StartSSL beantragt und sollte bis zum Wochenende ein Wildcard Cert ausstellen können. --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 09:17, 5. Feb. 2013 (CET)
 ** Es ist auch möglich das ganze über einen lokalen reverse Proxy zu leiten, der auf interne subdomains geht und nach außen den Kram in verzeichnissen (weiterhin) anbietet. Also, dass z.B. raumzeitlabor.de/bla auf bla.raumzeitlabor.de umgeleitet wird --[[Benutzer:Nicoduck|Nicoduck]] ([[Benutzer Diskussion:Nicoduck|Diskussion]]) 13:54, 5. Feb. 2013 (CET)
 ** Verstehe deinen Punkt nicht ganz, das machen wir doch schon (siehe BenutzerDB). --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 15:14, 5. Feb. 2013 (CET)
+
+[[Category:People]]
