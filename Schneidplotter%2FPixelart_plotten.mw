@@ -58,3 +58,6 @@ Wenn man der Alternative in Schritt 1 gefolgt ist, so kann man diese relativ sim
 = Schritt 4: Pfade kombinieren =
 
 Da wir jetzt einzelne Blöcke mit benachbarten Pixel haben, können wir es dem Plotter noch etwas einfacher machen und die Pfade gleicher Pixel kombinieren. Hierzu wählen wir einfach alle Pfade aus und wählen im Menü "Path" den Befehl "Combine".
+
+[[Category:Bibliothek]]
+[[Category:Fablab]]
