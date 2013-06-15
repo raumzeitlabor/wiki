@@ -24,3 +24,7 @@ Wenn nach 50 Sekunden niemand ans Telefon geht, springt ein Anrufbeantworter an.
 
 == Ausgehende Anrufe ==
 Sind explizit möglich (Allerdings lässt sich mit dem Telefon momentan nicht wählen, da der SIP-Adapter kein Impulswahl unterstützt. Ein Fix dafür ist aber in der Mache. Quickfix: Mit Android DTMF-App die Töne erzeugen). Für Festznetz gibt's eine Flatrate, Handynetzanrufe bezahlt der Verein und sollten daher möglichst kurz gehalten werden.
+
+
+[[Category:Infrastruktur]]
+[[Category:Hardware]]
