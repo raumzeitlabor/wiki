@@ -45,3 +45,5 @@ Wir verwenden acht Bit Schieberegister aber nur sieben Bit Treiber. Ich habe imm
 Grund: Es schaut im Code und auf der Platine übersichtlicher aus.
 
 Das Layout der Platine auf GutHub einchecken. (Macht das sinn oder gibt es eine bessere Lösung?)
+
+[[Category:Projekt]]
