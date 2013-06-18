@@ -1,3 +1,10 @@
+= Felicitus benötigt =
+
+<pre>
+DELOCK 65396;1
+DELOCK 65422;1
+</pre>
+
 = Else benötigt =
 <pre>
 74HC 4094;10
