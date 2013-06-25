@@ -31,6 +31,7 @@ DIES IST EIN PLATZHALTER FÜR EINEN VORSCHLAG, WELCHE PLATTEN WIR MÖCHTEN.
 
 Weiterer Hintergrund: Wir haben $damals 6 1TB-Platten bekommen, wodurch ein RAID5 mit 5 Platten aufgebaut wurde, 1 Platte als Spare. Vor einigen Wochen haben wir erneut 4 Platten bekommen. Insgesamt sind seit Februar 3 Platten gestorben, es verbleiben somit nur noch 2 Reserveplatten.
 
+Insgesamt benötigen wir entweder 3+1 oder 5+1 Platten wegen RAID5. 3 Stück sind bei >3TB pro Platte besser, da der N40L nicht von 3TB booten kann mangels GPT-Support. In dem Falle 3TB pro Platte wären das 6TB Nutzkapazität, bei 5 Platten 12TB. Mindestens  eine Platte muß als Spare vorgehalten werden.
 
 == Protokolle vergangener Plenen ==
 
