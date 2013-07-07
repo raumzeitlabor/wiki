@@ -23,6 +23,10 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 ;Weltherrschaft
 :Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
 
+=== Plenum verschieben bei Veranstaltungen ===
+
+Es ergibt überhauptgarkeinen Sinn, ein Plenum abzuhalten, wenn der Großteil der Leute auf einer Veranstaltung sind. Ich bitte um das verschieben des Plenums um eine Woche in solchen Fällen. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 13:46, 7. Jul. 2013 (CEST)
+
 === Anschaffung neuer Platten für Mate ===
 
 Uns sterben derzeit die Platten in Mate weg, jetzt schon die dritte innerhalb weniger Wochen. Dies scheint wohl in der schlechten Qualität dieses Plattentyps begründet [http://www.newegg.com/Product/Product.aspx?Item=22-145-533&SortField=0&SummaryType=0&Pagesize=10&PurchaseMark=&SelectedRating=-1&VideoOnlyMark=False&VendorMark=&IsFeedbackTab=true&Page=3#scrollFullInfo viele Reviews hier]. Wir können diese Platten nicht RMA'en, weil diese nicht in Deutschland gekauft wurden (Hitachi RMA-System sagt: Unknown Serial).
@@ -35,22 +39,6 @@ Weiterer Hintergrund: Wir haben $damals kostenlos 6 1TB-Platten bekommen, wodurc
 
 Insgesamt benötigen wir entweder 3+1 oder 5+1 Platten wegen RAID5. 3 Stück sind bei >3TB pro Platte besser, da der N40L nicht von 3TB booten kann mangels GPT-Support. In dem Falle 3TB pro Platte wären das 6TB Nutzkapazität, bei 5 Platten 12TB. Mindestens  eine Platte muß als Spare vorgehalten werden. Booten könnte man von einer SSD, docsteel hat ggf. noch eine, aber eine 64GB Crucial M4 ist mit um die 60€ relativ günstig zu haben.
 
-=== Anschaffung Transportwagen ===
-
-Ein Transportwagen wäre sinnvoll:
-
-* Für Transport von Matekisten aka weniger schleppen
-* Dinge durch die Gegend fahren auf Veranstaltungen
-* Sonstige Transportprobleme innerhalb des RZLs lösen
-
-Wichtig ist, daß der Transportwagen zusammenklappbar ist, sodaß man ihn auch auf Veranstaltungen mitnehmen kann. Konkret steht nähmlich die OHM2013 an, und es sind einige Meter Fußweg vom Parkplatz zum Gelände.
-
-Transportwägen (auch als Plattformwagen bekannt) gibt es günstige, $irgendwer meinte, der C3MA hätte einen guten gefunden. Ich gehe davon aus, daß der maximal 100€ kostet, daher würde ich gerne darüber abstimmen:
-
-* Ob ein Wagen angeschafft wird
-* und wer sich beim C3MA schlau macht
-
---[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 00:37, 26. Jun. 2013 (CEST)
 
 == Protokolle vergangener Plenen ==
 
