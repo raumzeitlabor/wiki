@@ -1,6 +1,6 @@
 =Allgemeines=
 
-'''Einige Drucker sind über den CUPS auf [[Mate (Server)/Infra]] geshared. Dies klappt aber leider derzeit nicht so wirklich gut, wer avahi/Zeroconf-wissen hat, bitte [[Benutzer:Felicitus|Felicitus]] ansprechen.'''
+'''Einige Drucker sind über den CUPS auf [[Mate (Server)/Infra]] geshared. Diese sollten bei euch erscheinen, wenn ihr gesharte Drucker aktiviert habt (s.u.).
 
 <div class="toccolours mw-collapsible mw-collapsed">
 '''Anleitung für deine lokale CUPS-Installation'''
