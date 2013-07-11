@@ -42,17 +42,18 @@ Als nächstes werden folgende Mitschnitte vorgeführt.
 !Dauer
 !Sprache
 |-
-| [http://events.ccc.de/congress/2012/Fahrplan/events/5095.en.html Privacy and the Car of the Future]
-| Christie Dudley
-| Privacy and the Car of the Future- Considerations for the Connected Vehicle
-| 01H00M00S
-| English
-|-
-| [http://events.ccc.de/congress/2012/Fahrplan/events/5244.en.html Security Nightmares]
-| Frank Rieger, Ron
-| Security Nightmares- Damit Sie auch morgen schlecht von Ihrem Computer träumen.
+| [http://events.ccc.de/congress/2012/Fahrplan/events/5198.en.html Fnord-Jahresrückblick]
+| Felix von Leitner, Frank Rieger
+| Fnord-Jahresrückblick- Diesmal mit noch mehr Eurozonen-Spaltung!
 | 01H00M00S
 | German
+| JayJay
+|-
+| [http://events.ccc.de/congress/2012/Fahrplan/events/5374.en.html Re-igniting the Crypto Wars on the Web]
+| Harry Halpin
+| Re-igniting the Crypto Wars on the Web
+| 01H00M00S
+| English
 |}
 
 === Noch nicht vorgeführte Vorträge ===
@@ -239,13 +240,6 @@ Als nächstes werden folgende Mitschnitte vorgeführt.
 | 01H00M00S
 | English
 |
-|-
-| [http://events.ccc.de/congress/2012/Fahrplan/events/5198.en.html Fnord-Jahresrückblick]
-| Felix von Leitner, Frank Rieger
-| Fnord-Jahresrückblick- Diesmal mit noch mehr Eurozonen-Spaltung!
-| 01H00M00S
-| German
-| JayJay
 |-
 | [http://events.ccc.de/congress/2012/Fahrplan/events/5226.en.html Further hacks on the Calypso platform]
 | Sylvain Munaut
@@ -499,13 +493,6 @@ Als nächstes werden folgende Mitschnitte vorgeführt.
 | German
 |
 |-
-| [http://events.ccc.de/congress/2012/Fahrplan/events/5374.en.html Re-igniting the Crypto Wars on the Web]
-| Harry Halpin
-| Re-igniting the Crypto Wars on the Web
-| 01H00M00S
-| English
-|
-|-
 | [http://events.ccc.de/congress/2012/Fahrplan/events/5138.en.html Romantic Hackers]
 | Anne Marggraf-Turley &amp; Prof. Richard Marggraf-Turley
 | Romantic Hackers- Keats, Wordsworth and Total Surveillance
@@ -734,6 +721,20 @@ Als nächstes werden folgende Mitschnitte vorgeführt.
 !Zusammenfassung
 !Dauer
 !Sprache
+|-
+| 27.06.2013
+| [http://events.ccc.de/congress/2012/Fahrplan/events/5095.en.html Privacy and the Car of the Future]
+| Christie Dudley
+| Privacy and the Car of the Future- Considerations for the Connected Vehicle
+| 01H00M00S
+| English
+|-
+| 27.06.2013
+| [http://events.ccc.de/congress/2012/Fahrplan/events/5244.en.html Security Nightmares]
+| Frank Rieger, Ron
+| Security Nightmares- Damit Sie auch morgen schlecht von Ihrem Computer träumen.
+| 01H00M00S
+| German
 |-
 | 13.06.2013
 | [http://events.ccc.de/congress/2012/Fahrplan/events/5308.en.html Open Source Schlüssel und Schlösser]
