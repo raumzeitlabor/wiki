@@ -68,7 +68,9 @@ Erstmal eine Produkt-/Link-Sammlung. Alles andere kommt später.
 * SmartCitizen [http://smartcitizen.me]
 ** Crowdfunding-Projekt des FabLab Barcelona
 ** Misst Luftqualität, Temperatur, Feuchtigkeit, Helligkeit, und Lärm
-** [[Benutzer:tiefpunkt|tiefpunkt]] wartet auf "Full Smart Citizen Kit"
+** [[Benutzer:tiefpunkt|tiefpunkt]] hat einen "Full Smart Citizen Kit"
+*** [http://test.smartcitizen.me/devices/view/202 Sensor-Website]
+*** Bisher noch keine Solarzelle
 * AirQualityEgg
 * NetAtmo [http://www.netatmo.com/]
 ** Proprietär
@@ -77,6 +79,8 @@ Erstmal eine Produkt-/Link-Sammlung. Alles andere kommt später.
 * Gasser [http://wiki.labocitoyen.fr/index.php?n=Hardware.Gasser]
 ** RPi + Sensoren + Akku + 3G
 ** Hackerspace in Paris
+* AirBoxLab [http://www.indiegogo.com/projects/airboxlab]
+* AirCasting [http://aircasting.org/]
 
 ==== Wetter ====
 * Raspberry Pi + pywws [https://github.com/yfory/weather]
