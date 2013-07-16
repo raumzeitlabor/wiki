@@ -72,6 +72,7 @@ Erstmal eine Produkt-/Link-Sammlung. Alles andere kommt später.
 *** [http://test.smartcitizen.me/devices/view/202 Sensor-Website]
 *** Bisher noch keine Solarzelle
 * AirQualityEgg
+** [http://www.youtube.com/watch?v=mmWSE9twUi0 Example Video]
 * NetAtmo [http://www.netatmo.com/]
 ** Proprietär
 ** Misst Temperatur, Luftdruck, Luftfeuchtigkeit, CO2-Gehalt, Lärm
@@ -81,11 +82,25 @@ Erstmal eine Produkt-/Link-Sammlung. Alles andere kommt später.
 ** Hackerspace in Paris
 * AirBoxLab [http://www.indiegogo.com/projects/airboxlab]
 * AirCasting [http://aircasting.org/]
+* Air Quality Balloons [http://www.instructables.com/id/Air-quality-balloons/?ALLSTEPS]
+* Public Lab Air Column Monitor [http://publiclab.org/wiki/air-column-monitor]
+* Public Lab Indoor Air Quality Monitoring [http://publiclab.org/wiki/roomba-indoor-air-quality-mapping]
 
 ==== Wetter ====
 * Raspberry Pi + pywws [https://github.com/yfory/weather]
 ** Online Wetterstation, aus Raspberry Pi und einer WH1080 Wetterstation (~110€)
 ** Demo: [http://yfory.cc/weather/]
+
+==== Wasserqualität ====
+* PolySensor [http://www.dil.iitb.ac.in/poly/index.htm]
+* Public Lab Water Quality Sensor [http://publiclab.org/wiki/water-quality-sensor]
+** More articles [http://www.pbs.org/idealab/2012/04/water-hackathon-aims-to-understand-brooklyns-water-pollution096] [http://dontflush.me/420]
+* SenEye [http://www.seneye.com/] (kommerziell)
+* "EC/TDS/PPM Meter On Limited Budget" [http://www.octiva.net/projects/ppm/]
+* Open Spa Monitor [http://openspamonitor.blogspot.de/]
+
+* Zusätzliche Infos:
+** Produktdemo von Atlas Scientific, mit Erklärungen zu einzelnen Measurements [http://www.youtube.com/watch?v=98AvnjOBbIQ]
 
 ==== Sonstiges ====
 * Strahlung
