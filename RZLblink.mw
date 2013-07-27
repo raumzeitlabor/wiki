@@ -1,0 +1,18 @@
+{{LanguageBox |msg=This page is available in English. Click [[RZLblink/en|here]] to visit the page.}}
+
+{{ProjektInfoBox
+|name        = RZLblink
+|status      = stable
+|image       = blinkv21a.jpg
+|description = Lass dir ein Licht aufgehen mit deinem DIY blink(1) derivat.
+|author      = [[user:muzy|muzy]]
+|username    = 
+|version     = 2.1a
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+|preis       = 8€ pro Bausatz
+}}
+
+RZLblink is deine Do-It-Yourself USB RGB LED und basiert auf dem blink(1) von ThingM[http://thingm.com]. Egal ob als bunte Lichtquelle oder Status-Notification, das RZLblink ist ein Highlight.
