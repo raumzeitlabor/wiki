@@ -16,3 +16,22 @@
 }}
 
 RZLblink is deine Do-It-Yourself USB RGB LED und basiert auf dem blink(1) von ThingM[http://thingm.com]. Egal ob als bunte Lichtquelle oder Status-Notification, das RZLblink ist ein Highlight.
+
+== Anleitung ==
+
+tbd
+
+
+== Software ==
+
+== F.A.Q. ==
+
+'''Das RZLblink leuchtet nur kurz auf wenn ich es an den USB Port stecke'''
+:''Das RZLblink merkt, wenn es an einen USB Port am PC gesteckt wird und wartet auf Kommandos. Bekommt es nur 5V Spannung und entdeckt keine USB Kommunikation blinkt es initial die Kombination "rot grün blau" durch.
+''
+'''Ich sehe das RZLblink nicht am USB Port aber es faded die Kombination "rot grün blau"'''
+:''Du hast wahrscheinlich R1 und R2 waagerecht statt senkrecht eingelötet. Schau bitte auf den Bauplan ob die Bauteile die richitge Orientierung haben.
+''
+'''Mein RZLblink funktioniert nicht'''
+:''Löte Lötstellen die nicht so schön aussehen einmal nach und teste mit einem Multimeter die einzelnen Verbindungen durch. Sollte alles valide aussehen und leiten, löte Kabel an die sechs Programmierpunkte und versuche die Firmware erneut zu flashen. Gern helfen wir dir dabei!
+''
