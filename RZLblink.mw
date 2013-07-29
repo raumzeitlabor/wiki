@@ -35,6 +35,14 @@ Bitte achte beim löten unbedingt auf die Bauteilposition. Alle Bauteile werden 
 
 == Software ==
 
+Das RZLblink ist mit der exzellenten Software von ThingM ([https://github.com/todbot/blink1/ Github Source]) vorgeflasht und hat eine eindeutige Seriennummer. Die Client Software für deinen PC findest du ebenfalls unter diesem Link.
+
+Für erste Tests unter Linux empfiehlt sich das blink1-tool. Gegebenenfalls muss man eine UDEV-Regel anpassen oder das Program als root-user ausführen.
+
+== Gehäuse ==
+
+operative vom [http://chaosdorf.de Chaosdorf] hat ein Gehäuse für den 3D Druck designed. Dies findet sich hier: [https://tinkercad.com/things/6Ee6jyoB2tE-rzlblink-deckel RZLblink Deckel] und [https://tinkercad.com/things/hDbEDJYCFHf-rzlblink-unterseite RZLblink Unterseite]
+
 == F.A.Q. ==
 
 '''Das RZLblink leuchtet nur kurz auf wenn ich es an den USB Port stecke'''
