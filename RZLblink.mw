@@ -28,8 +28,10 @@ Bitte achte beim löten unbedingt auf die Bauteilposition. Alle Bauteile werden 
 # Zunächst die Widerstände R1 und R2 senkrecht einlöten. Dazu benetzt du zunächst jeweils ein Pad mit etwas Lötzinn, nimmst mit einer Pinzette das Bauteil in deine nicht-primäre Hand und erwärmst mit das Lötzinn wieder. Nun schiebst du vorsichtig das Bauteil in das flüssige Lötzinn, hälst das Bauteil fest mit der Pinzette an der Seite und entfernst den Lötkolben sobald das Bauteil an der richtigen Stelle ist. Sobald das Lötzinn nicht mehr flüssig ist kannst du das Bauteil mit der Pinzette loslassen.
 # Das gleich mit den Kondensatoren C1 und C2 sowie mit dem Widerstand R3 und der Sicherung F1. Hier genauso verfahren wie mir R1 und R2
 # Nun lötest du die Widerstände R4,R5 und R6 genau wie die vorherigen Widerstände an. Achte dabei bitte genau darauf, wo du die Widerstände platzierst. Vertauscht du die Widerstände funktioniert dein RZLblink nicht oder hat eine verkürzte Lebensdauer.
+# Weiter geht es mit der Diode D1. Hier verzinnst du am besten das einzelne Lötpad und lötest, analog zu den Widerständen, das einzelne Beinchen fest. Dabei kannst du das Bauteil direkt richitg ausrichten. Genauso wird auch der Microcontroller aufgelötet. Achte auf die Orientierung; ein kleiner Punkt markiert Pin 1. Hier empfiehlt es sich zunächst diagonal liegende Beinchen anzulöten und danach den Rest
+# Zuletzt folgen die LED und der USB Stecker. Die LED darf nicht zu warm werden, daher diese bitte vorsichtiger löten. Etwas Flussmittel hilft hier, das Lötzinn unter die LED zu bekommen. 
+# Ist auch der USB Stecker angelötet, empfiehlt es sich hier mit einer Flachzange die seitlichen Beinchen zur Platine zu biegen um den Stecker mechanisch weiter zu fixieren.
 
-# tbd
 
 == Software ==
 
