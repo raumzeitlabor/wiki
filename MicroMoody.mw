@@ -39,6 +39,10 @@ Die dazu benötigten Schritte sind:
  $> make
  $> make program
 
+== Gehäuse ==
+
+operative vom [http://chaosdorf.de Chaosdorf] hat ein Gehäuse zum selber drucken gebaut. Dies findet ihr hier: [https://tinkercad.com/things/95oamJ6cvMw-micromoody-top MicroMoody Deckel] und [https://tinkercad.com/things/3rw4mUPhU2m-micromoody-bottom MicroMoody Unterseite]
+
 == MicroMoody in anderen Hackerspaces ==
 
 Im chaosdorf ist die MicroMoody des RaumZeitLabors bereits ein "must have"-Gadget. Viele Stunden Firmware-Entwicklung wurden dort bereits betrieben, danke dafür! Die exzellente Dokumentation findet sich [https://wiki.chaosdorf.de/MicroMoody im Chaosdorf Wiki].
