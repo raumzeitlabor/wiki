@@ -77,7 +77,7 @@ Für alle, die nicht so gerne selber ätzen, ist eine professionell gefertigte P
 ===Aufbau===
 
 ====Hinweis zum Display====
-Es gibt aufgrund der Hardwareverfügbarkeit 3 verschiedene Displaytypen in den Bausätzen.
+Es gibt aufgrund der Hardwareverfügbarkeit verschiedene Displaytypen in den Bausätzen.
 Das Display muss je nach Typ anders eingesetzt werden. Dies ist auch ein Konfigurationsparameter in der Firmware.
 
 # HDSP-5403 hp 008 L3 - Der schwarze Punkt an der Seite des Displays muss diagonal zum PIN 1 (viereckiges Pad) liegen. Von oben betrachtet wäre das die rechte untere Ecke. Hinweis: Seit 01/2013 werden keine Bausätze mehr mit diesem Display ausgeliefert.
