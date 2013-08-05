@@ -81,7 +81,7 @@ Es gibt aufgrund der Hardwareverfügbarkeit verschiedene Displaytypen in den Bau
 Das Display muss je nach Typ anders eingesetzt werden. Dies ist auch ein Konfigurationsparameter in der Firmware.
 
 # HDSP-5403 hp 008 L3 - Der schwarze Punkt an der Seite des Displays muss diagonal zum PIN 1 (viereckiges Pad) liegen. Von oben betrachtet wäre das die rechte untere Ecke. Hinweis: Seit 01/2013 werden keine Bausätze mehr mit diesem Display ausgeliefert.
-# TC07/TA07 - Bitte das Display wie gewohnt einsetzen. PIN1 des Prozessors (viereckiges Pad) an PIN 1 des Displays. Je nach Displaytyp (TC vs. TA) muss die passende Firmware genutzt werden.
+# TC07/TA07 - Das Display so einsetzen daß Pin 1 in das rechteckige Pad kommt. Je nach Displaytyp (TC vs. TA) muss die passende Firmware genutzt werden.
 # LM57 - wie TC07 Display.
 # BS - wie TC07 Display.
 
