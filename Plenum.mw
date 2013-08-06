@@ -23,9 +23,33 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 ;Weltherrschaft
 :Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
 
-=== Plenum verschieben bei Veranstaltungen ===
+=== Reflow-Ofen ===
 
-Es ergibt überhauptgarkeinen Sinn, ein Plenum abzuhalten, wenn der Großteil der Leute auf einer Veranstaltung sind. Ich bitte um das verschieben des Plenums um eine Woche in solchen Fällen. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 13:46, 7. Jul. 2013 (CEST)
+[[Benutzer:Felicitus|Felicitus]] arbeitet an einem Reflow-Ofen. Es ist zu klären, ob sich der Raum finanziell am Bau beteiligen kann.
+
+Der Reflow-Ofen unterstüzt Temperaturprofile und ist an [http://thomaspfeifer.net/backofen_smd_reflow.htm] angelehnt. Er wird ein LCD zur Informationsanzeige besitzen.
+
+Konkret geht es um folgende Anschaffungen:
+* Temperaturbeständiger Kleber (bereits gekauft, 14.95€)
+* Diverse Bauteile für die Steuerung (ca. 10€)
+* Platine fertigen lassen (ca. 10-15€)
+* Display und Inverter (bereits vorhanden, ca. 5€)
+
+Insgesamt geht es also um 45€. Der Ofen, das Solid-State-Relais und der Temperatursensor sind schon vorhanden. Muzy hat angekündigt, daß er den Ofen gerne bald für neue RZL-Projekte nutzen möchte.
+
+=== MAME-Cabinet ===
+
+[[Benutzer:Felicitus|Felicitus]] arbeitet an einem MAME-Cabinet. Die entsprechenden Joysticks und Buttons sowie ein Fernseher sind bereits vorhanden. Es geht hierbei primär um die Kosten für das Holz und Laufrollen, um das ganze Bewegbar zu gestalten:
+
+* MDF 2400x1200x19mm, 3 Platten, 90€, eventuell mehr wegen Versandkosten oder kauf im lokalen Baumarkt.
+* T-Molding, Farbe bisher unklar, ca. 30€
+* 4x Lenkrolle 125mm mit Bremse, ca. 20€
+
+Idee ist auch, einen Münzschlitz einzubauen, um Spielen gegen jede beliebige Münze zu ermöglichen (Forcierte Spenden!). Da das Cabinet Laufrollen besitzt, kann man es auf Events mitnehmen (vermutlich aber nur über den Lastenaufzug transportierbar).
+
+Wer Ideen zur Kostenreduzierung hat, möge sie mir bitte vor oder auf dem Plenum mitteilen.
+
+Ansonsten belaufen sich die Kosten auf ca. 150€.
 
 === Anschaffung neuer Platten für Mate ===
 
