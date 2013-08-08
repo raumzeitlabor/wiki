@@ -43,6 +43,9 @@ Für erste Tests unter Linux empfiehlt sich das blink1-tool. Gegebenenfalls muss
 
 operative vom [http://chaosdorf.de Chaosdorf] hat ein Gehäuse für den 3D Druck designed. Dies findet sich hier: [https://tinkercad.com/things/6Ee6jyoB2tE-rzlblink-deckel RZLblink Deckel] und [https://tinkercad.com/things/hDbEDJYCFHf-rzlblink-unterseite RZLblink Unterseite]
 
+echox hat alternativ eine geschlossene Version designed.
+Bilder und das OpenSCAD File finden sich hier: http://www.thingiverse.com/thing:129772
+
 == F.A.Q. ==
 
 '''Das RZLblink leuchtet nur kurz auf wenn ich es an den USB Port stecke'''
