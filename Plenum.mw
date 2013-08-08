@@ -51,6 +51,12 @@ Wer Ideen zur Kostenreduzierung hat, möge sie mir bitte vor oder auf dem Plenum
 
 Ansonsten belaufen sich die Kosten auf ca. 150€.
 
+=== RGB-LED-Strip Ansteuerung ===
+
+Der Raum besitzt 3 RGB-Strips. Ich ([[Benutzer:Felicitus|Felicitus]]) habe bereits eine rudimentäre Ansteuerung auf Arduino-Basis gebaut, die eignet sich aber maximal für Events, da nicht fernsteuerbar. Vor einiger Zeit habe ich schon ein DMX-RGB-Ansteuermodul auf Basis von [http://www.ulrichradig.de/home/index.php/avr/dmx-led-strip diesem Projekt] gebaut, die ich aber leider ausversehen geschrottet habe. Ich würde gerne 3 der Bausätze für den Raum kaufen, jeder Bausatz kostet 15€ (siehe auch http://shop.ulrichradig.de/Bausaetze/DMX-RGB-LED-Controller-Bausatz.html).
+
+Es geht also um 45€ plus 5€ Versand sowie um die Frage, wo wir diese Aufhängen.
+
 === Ofen ===
 
 Der Ofen geht solangsam kaputt (schließt nicht mehr ordentlich, Isolierung kaputt). Die Kochplatten verhalten sich auch merkwürdig. Besprechen, ob und gegen was wir den Ofen bald austauschen.
@@ -68,7 +74,6 @@ DIES IST EIN PLATZHALTER FÜR EINEN VORSCHLAG, WELCHE PLATTEN WIR MÖCHTEN.
 Weiterer Hintergrund: Wir haben $damals kostenlos 6 1TB-Platten bekommen, wodurch ein RAID5 mit 5 Platten aufgebaut wurde, 1 Platte als Spare. Vor einigen Wochen haben wir erneut 4 Platten bekommen. Insgesamt sind seit Februar 3 Platten gestorben, es verbleiben somit nur noch 2 Reserveplatten.
 
 Insgesamt benötigen wir entweder 3+1 oder 5+1 Platten wegen RAID5. 3 Stück sind bei >3TB pro Platte besser, da der N40L nicht von 3TB booten kann mangels GPT-Support. In dem Falle 3TB pro Platte wären das 6TB Nutzkapazität, bei 5 Platten 12TB. Mindestens  eine Platte muß als Spare vorgehalten werden. Booten könnte man von einer SSD, docsteel hat ggf. noch eine, aber eine 64GB Crucial M4 ist mit um die 60€ relativ günstig zu haben.
-
 
 == Protokolle vergangener Plenen ==
 
