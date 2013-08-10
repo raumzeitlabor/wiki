@@ -12,3 +12,8 @@ BD 237;4
 2W METALL 5,2;15
 2W METALL 6,8;15
 </pre>
+
+= Der Raum benötigt =
+<pre>
+SK M4;1
+</pre>
