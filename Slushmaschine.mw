@@ -78,7 +78,35 @@ Die eingesetzten Gummis sollte man von Zeit zu Zeit fetten (Sorry, noch keine Er
 * Die Maschine braucht recht lange zum Kühlen. Akzeptiert das.
 * Versucht diesen Prozess nicht mit Crushed Ice zu beschleunigen. Bringt nix, und macht im Zweifelsfall noch die Maschine kaputt.
 
-== Potentielle Modifikationen ==
+== Hacks ==
+=== Farbiges Licht ===
+Nachdem auf der Troopers 2013 der Deckel von "El Grande" kaputt gegangen ist (eigentlich nur die Befestigung des Deckels), in dem auch 2 Halogenlampen verbaut waren, war sie lange Zeit ohne Beleuchtung. Auf der OHM2013 hat sie 2 MicroMoodys verpasst bekommen. Dazu wurde die alte Stromversorgung der Halogenlampen genutzt, ein Gleichrichter mit Spannungswandler auf 5V angeschlossen, und daran dann die 2 MicroMoodys. Auf der Platine ist noch Platz für Erweiterungen, und die 5V können auch für andere Hacks gebraucht werden. Vielleicht wird das Board auch irgendwann noch sauber eingebaut in die Maschine.
+{|
+| [[Datei:Slush_led01.jpg|thumb|200px]]
+| [[Datei:Slush_led02.jpg|thumb|112px]]
+|}
+
+=== Temperaturanzeige ===
+Zusätzlich zu der Beleuchtung haben die 3 Kammern Temperatursensoren (DS18B20, wasserdicht) verpasst bekommen. Die Sensoren hingen an einem Arduino Clone, der die Temperatur zum einen auf einem umschaltbaren LED-Display angezeigt hat, und zudem über die USB-Schnittstelle ausgegeben hat. Der Arduino wurde dann an einen RaspberryPi angeschlossen, auf dem ein kleiner Python WebServer lief, der die aktuelle Temperatur aller 3 Kammern im Netz verfügbar gemacht hat. Den Sourcecode, sowohl zur Arduino Firmware, wie auch zum Python Script, gibt es auf GitHub [https://github.com/tiefpunkt/slushiesensor].
+
+{|
+| [[Datei:Slush_sensors01.jpg|thumb|200px]]
+| [[Datei:Slush_sensors02.jpg|thumb|200px]]
+| [[Datei:Slush_sensors03.jpg|thumb|200px]]
+| [[Datei:Slush_sensors04.jpg|thumb|101px]]
+|}
+
+[[Benutzer:Tiefpunkt|tiefpunkt]] hat den Aufbau nach der OHM2013 wieder mit nach Hause genommen. Eventuell wird das Setup demnächst dann aber fest installiert.
+
+==== Probleme ====
+* Befestigung der Sensoren. Die Sensoren sollen möglichst tief im Slush hängen, dürfen aber nicht in die Spirale geraten (einer ist dabei schon kaput gegangen). In einer Kammer ist hinten an der Spirale ein Ring, dahinter kann der Sensor bleiben. Bei den anderen beiden Kammern ist dieser Ring leider nicht vorhanden.
+* Befestigung des Displays.
+
+==== Feststellungen ====
+* Unser Sirup slusht im normalen Mischungsverhältnis (1l Sirup auf 5l Wasser) bei ca. -1,3°C.
+* Die Tschunk-Slush Mischung der ICMP-Leute slusht bei ca. -3.8°C
+
+=== Potentielle Modifikationen ===
 * Neue Grafiken in den Deckel
 * LED-Display in den Deckel (benötigt Gleichrichter, da fallen 12V~ raus)
 ** [[Benutzer:Felicitus|Felicitus]] hat CCFL-Röhren reingebaut (nicht-destruktiv), allerdings fehlt noch ein Gleichrichter.
