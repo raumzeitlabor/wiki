@@ -48,6 +48,12 @@ Platzhalter/Reminder, um die configs/effektive Nutzdaten von allen Maschinen off
 == Anbindung an internes Netz ==
 Die Anbindung erfolgt über einen Layer2-OpenVPN-Tunnel an die [[Firebox]]. Dort ist das Tunnelinterface an das Interface ''internal'' mit dem Internen Netz gebridged. Erreichbar ist Premium über 172.22.36.7 (IP des ehemaligen Datengrabs). IPv6 wurde für dieses Interface auf premium deaktiviert.
 
+== Mailaliase anlegen ==
+die sqlite DB dafür liegt in /etc/postfix.
+mit 'sqlite /etc/postfix/maildb.sqlite'öffnen, dann:
+
+INSERT INTO alias ( address, goto, domain ) VALUES ( 'aliasname@raumzeitlabor.de','ziel@domain.tld','raumzeitlabor.de');
+
 
 [[Kategorie:Hardware]]
 [[Kategorie:Infrastruktur]]
