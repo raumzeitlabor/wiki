@@ -57,3 +57,13 @@ Bilder und das OpenSCAD-File finden sich hier: http://www.thingiverse.com/thing:
 '''Mein RZLblink funktioniert nicht'''
 :''Löte Lötstellen die nicht so schön aussehen einmal nach und teste mit einem Multimeter die einzelnen Verbindungen durch. Sollte alles valide aussehen und leiten, löte Kabel an die sechs Programmierpunkte und versuche die Firmware erneut zu flashen. Gerne helfen wir dir dabei!
 ''
+
+== Beispiel Applikationen ==
+=== Gleitzeitampel ===
+Die Gleitzeitampel steckt im Bürorechner. Wird dieser morgens eingeschaltet, prüft das Programm, ob er heute zum ersten Mal eingeschaltet wurde. Ist dies der Fall, wird eine Timestamp in die Settings.ini geschrieben. Im Anschluss prüft das Programm alle 5 sec, ob die Sollzeit für diesen Tag erreicht ist und wechselt, falls ja, die Farbe auf Gelb. Man kann nun gehen, ohne Verlust zu machen. Außerdem kann man festlegen, wie viel Zeit man pro Tag gerne aufbauen möchte. Ist die Sollzeit + die Aufbauzeit erreicht, wechselt die Ampel auf grün.
+
+Die erste schmutzige aber getestete Version liegt auf [https://github.com/thinkJD/RZLblinkFlextimeCheck Github]. Feel free to improve.
+
+Binaries gibts [http://www.evernote.com/shard/s76/sh/32adcc5a-0b69-4b73-83d3-9337a32a7c5f/0b320d2dce0a0f842da14718dd00d36e hier].
+
+--[[Benutzer:ThinkJD|ThinkJD]] ([[Benutzer Diskussion:ThinkJD|Diskussion]]) 10:13, 15. Aug. 2013 (CEST)
