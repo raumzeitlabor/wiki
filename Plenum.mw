@@ -23,92 +23,9 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 ;Weltherrschaft
 :Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
 
-=== Workshopraumkaperaktion ===
+== Parteipolitische Veranstaltungen im RaumZeitLabor ==
 
-Herr Knapp nimmt sich das Recht raus, ohne Rückfrage zu entscheiden, daß der Workshopraum ab sofort bis zur mrmcd nicht benutzbar ist. Das Plenum soll darüber diskutieren.
-
-Aus Angst vor Mobbingaktionen anonym eingestellt.
-
-=== Kostenfreigaben Bausätze (muzy) ===
-
-Bitte die Kosten für die Bausätze (<520414D2.9040708@muszytowski.net> und <5203E32B.5030503@muszytowski.net>) nochmal kurz besprechen und die Kosten freigeben oder ablehnen. Danke! --[[Benutzer:Muzy|Muzy]] ([[Benutzer Diskussion:Muzy|Diskussion]]) 00:03, 9. Aug. 2013 (CEST)
-
-
-=== Reflow-Ofen ===
-
-[[Benutzer:Felicitus|Felicitus]] arbeitet an einem Reflow-Ofen. Es ist zu klären, ob sich der Raum finanziell am Bau beteiligen kann.
-
-Der Reflow-Ofen unterstüzt Temperaturprofile und ist an [http://thomaspfeifer.net/backofen_smd_reflow.htm] angelehnt. Er wird ein LCD zur Informationsanzeige besitzen.
-
-Konkret geht es um folgende Anschaffungen:
-* Temperaturbeständiger Kleber (bereits gekauft, 14.95€)
-* Diverse Bauteile für die Steuerung (ca. 10€)
-* Platine fertigen lassen (ca. 10-15€)
-* Display und Inverter (bereits vorhanden, ca. 5€)
-
-Insgesamt geht es also um 45€. Der Ofen, das Solid-State-Relais und der Temperatursensor sind schon vorhanden. Muzy hat angekündigt, daß er den Ofen gerne bald für neue RZL-Projekte nutzen möchte.
-
-=== MAME-Cabinet ===
-
-[[Benutzer:Felicitus|Felicitus]] arbeitet an einem MAME-Cabinet. Die entsprechenden Joysticks und Buttons sowie ein Fernseher sind bereits vorhanden. Es geht hierbei primär um die Kosten für das Holz und Laufrollen, um das ganze Bewegbar zu gestalten:
-
-* MDF 2400x1200x19mm, 3 Platten, 90€, eventuell mehr wegen Versandkosten oder kauf im lokalen Baumarkt.
-* T-Molding, Farbe bisher unklar, ca. 30€
-* 4x Lenkrolle 125mm mit Bremse, ca. 20€
-
-Idee ist auch, einen Münzschlitz einzubauen, um Spielen gegen jede beliebige Münze zu ermöglichen (Forcierte Spenden!). Da das Cabinet Laufrollen besitzt, kann man es auf Events mitnehmen (vermutlich aber nur über den Lastenaufzug transportierbar).
-
-Wer Ideen zur Kostenreduzierung hat, möge sie mir bitte vor oder auf dem Plenum mitteilen.
-
-Ansonsten belaufen sich die Kosten auf ca. 150€.
-
-=== RGB-LED-Strip Ansteuerung ===
-
-Der Raum besitzt 3 RGB-Strips. Ich ([[Benutzer:Felicitus|Felicitus]]) habe bereits eine rudimentäre Ansteuerung auf Arduino-Basis gebaut, die eignet sich aber maximal für Events, da nicht fernsteuerbar. Vor einiger Zeit habe ich schon ein DMX-RGB-Ansteuermodul auf Basis von [http://www.ulrichradig.de/home/index.php/avr/dmx-led-strip diesem Projekt] gebaut, die ich aber leider ausversehen geschrottet habe. Ich würde gerne 3 der Bausätze für den Raum kaufen, jeder Bausatz kostet 15€ (siehe auch http://shop.ulrichradig.de/Bausaetze/DMX-RGB-LED-Controller-Bausatz.html).
-
-Es geht also um 45€ plus 5€ Versand sowie um die Frage, wo wir diese Aufhängen.
-
-=== Ofen ===
-
-Der Ofen geht solangsam kaputt (schließt nicht mehr ordentlich, Isolierung kaputt). Die Kochplatten verhalten sich auch merkwürdig. Besprechen, ob und gegen was wir den Ofen bald austauschen.
-
-u.a. der hier wäre spannend, ist in der "Nähe" (Sinsheim/Heilbronn) abzuholen und läuft zeitnah nach dem Plenum aus: http://www.ebay.de/itm/AEG-Edelstahl-Backofen-Competence-5410E-mit-AEG-Ceranfeld-623M-MR-/190880715727?pt=Backhofen_Herd_Zubeh%C3%B6r&hash=item2c716093cf
-
-=== Anschaffung neuer Platten für Mate ===
-
-Uns sterben derzeit die Platten in Mate weg, jetzt schon die dritte innerhalb weniger Wochen. Dies scheint wohl in der schlechten Qualität dieses Plattentyps begründet [http://www.newegg.com/Product/Product.aspx?Item=22-145-533&SortField=0&SummaryType=0&Pagesize=10&PurchaseMark=&SelectedRating=-1&VideoOnlyMark=False&VendorMark=&IsFeedbackTab=true&Page=3#scrollFullInfo viele Reviews hier]. Wir können diese Platten nicht RMA'en, weil diese nicht in Deutschland gekauft wurden (Hitachi RMA-System sagt: Unknown Serial).
-
-* [http://wd.com/global/products/specs/?driveID=1087&language=3 WD30EFRX]: Betreibe ich in meinem N40l und habe bisher noch keine Probleme gehabt; Boote allerdings von einem USB-Stick --[[Benutzer:Hax404|Hax404]] ([[Benutzer Diskussion:Hax404|Diskussion]]) 13:25, 26. Jun. 2013 (CEST)
-
-DIES IST EIN PLATZHALTER FÜR EINEN VORSCHLAG, WELCHE PLATTEN WIR MÖCHTEN.
-
-Weiterer Hintergrund: Wir haben $damals kostenlos 6 1TB-Platten bekommen, wodurch ein RAID5 mit 5 Platten aufgebaut wurde, 1 Platte als Spare. Vor einigen Wochen haben wir erneut 4 Platten bekommen. Insgesamt sind seit Februar 3 Platten gestorben, es verbleiben somit nur noch 2 Reserveplatten.
-
-Insgesamt benötigen wir entweder 3+1 oder 5+1 Platten wegen RAID5. 3 Stück sind bei >3TB pro Platte besser, da der N40L nicht von 3TB booten kann mangels GPT-Support. In dem Falle 3TB pro Platte wären das 6TB Nutzkapazität, bei 5 Platten 12TB. Mindestens  eine Platte muß als Spare vorgehalten werden. Booten könnte man von einer SSD, docsteel hat ggf. noch eine, aber eine 64GB Crucial M4 ist mit um die 60€ relativ günstig zu haben.
-
-=== Ruecklagen ===
-Wir haben irgendwann[tm] beschlossen, dass wir Ruecklagen bilden.
-
-Es geht wenn ich mich richtig erinnere um 4500 Euro (~ 3 Monatsmieten Warm).
-
-Bisher ist das nicht passiert. 
-
-Ob das Geld auf einem extra Tagesgeldkonto liegt oder nicht und ob das organisatorisch schwierig ist steht fuer mich erstmal nicht in einem direkten Zusammenhang damit, ob wir Geld zurueck legen oder nicht :-)
-
-Vorschlag dazu:
-
-* Kurze Abstimmung ob wir 4.500 Euro zuruecklegen wollen.
-* Abstimmung ob wir einfach monatlich ab _jetzt_ 375 Euro "einfrieren", dann haben wir in einem Jahr die Ruecklagen gebildet.
-
---[[Benutzer:Echox|Echox]] ([[Benutzer Diskussion:Echox|Diskussion]]) 15:04, 10. Aug. 2013 (CEST)
-
-=== Quo vadis, Ponytime ===
-
-Meine Meinung zu den Sonntagabenden im RZL habe ich hier aufgeschrieben: http://nopaste.yamagi.org/?78720 Die Aussprache hat "aus Gründen" nicht stattgefunden. Ich möchte die Gelegenheit nutzen eure Meinung zu dem Thema zu hören. Ich habe da bisher widersprüchliche Signale als Reaktion erhalten. --[[Benutzer:Blabber|blabber]] ([[Benutzer Diskussion:Blabber|Diskussion]]) 19:23, 9. Aug. 2013 (CEST)
-
-=== Mitgliederversammlung ==
-
-Da die Letzte MV schon fast oder über ein Jahr her ist und die 6 Wochen Frist zur Ankündigung einghalten werden muss sollte es bald eine Ankündigung für die MV geben. --[[Benutzer:nazco|nazco]]
+Ich bitte um einen Realitätsabgleich bezüglich Parteipolitischer Veranstaltungen im RaumZeitLabor wie z.B. das Treffen der Jungen Piraten und die Cryptoparty der Piraten im RZL. Ich habe ein schlechtes Gefühl mit Parteipolitik im RaumZeitLabor, da dies nicht unseren Vereinszielen entspricht und unsere partei-unpolitische Haltung und Aussenwirkung gefährdet. --[[Benutzer:Muzy|Muzy]] ([[Benutzer Diskussion:Muzy|Diskussion]]) 20:20, 17. Aug. 2013 (CEST)
 
 == Protokolle vergangener Plenen ==
 
