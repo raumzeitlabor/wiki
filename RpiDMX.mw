@@ -49,6 +49,25 @@ Kein RaspberryPi zur Hand? Oder doch lieber die gewohnte CPU-Architektur? Kein P
  1  XLR 3KU-N
  1  LED 3mm
 
+== Bestücken ==
+Wie immer empfiehlt es sich, die kleinen Teile zu erst zu bestücken: 
+# Widerstände
+# Quarz
+# Einreihige Buchsenleiste
+# ICs
+# LED
+# Keramikkondensatoren
+# JST Stecker
+# Pinheader
+# Elektrolytkondensatoren
+# DC-DC Konverter
+# Zweireihige Buchsenleiste (auf der Unterseite!)
+
+Die Belegung des XLR-Steckers ist:
+ 1 Schwarz
+ 2 Brau
+ 3 Rot
+
 == Programmieren ==
  avrdude -pm8 -cavrusb500 -u -Uflash:w:dmx_adapter.hex:a -Ulfuse:w:0xee:m -Uhfuse:w:0xc9:m
 
