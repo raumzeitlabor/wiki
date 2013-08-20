@@ -9,7 +9,7 @@
 |update      = 
 |platform    = 
 |license     = 
-|download    = Source:[[Datei:Dmx_adapter_rpi_source002.zip]] <br /> Eagle Board: [[https://github.com/raumzeitlabor/PiLight/blob/master/hardware/PiLight.brd]] <br /> Eagle Schematic: [[https://github.com/raumzeitlabor/PiLight/blob/master/hardware/PiLight.sch]]
+|download    = Source:[[Datei:Dmx_adapter_rpi_source002.zip]] <br /> Eagle Board: [[https://github.com/raumzeitlabor/PiLight/raw/master/hardware/PiLight.brd]] <br /> Eagle Schematic: [[https://github.com/raumzeitlabor/PiLight/raw/master/hardware/PiLight.sch]]
 |preis       = 30€ pro Bausatz; 32,50€ mit USB->TTL Adapter
 }}
 
