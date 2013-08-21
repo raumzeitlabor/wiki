@@ -29,6 +29,9 @@ SK M4;1
 LITZE RT;2
 LITZE WS;2
 LITZE BL;2
+SOLDASORB 08;1
+SOLDASORB 15;1
+LÖTZINN 32-0,525;1
 </pre>
 
 Für Lichtsteuerung / DMX Umsetzung:
