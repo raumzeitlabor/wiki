@@ -58,6 +58,11 @@ Bilder und das OpenSCAD-File finden sich hier: http://www.thingiverse.com/thing:
 :''Löte Lötstellen die nicht so schön aussehen einmal nach und teste mit einem Multimeter die einzelnen Verbindungen durch. Sollte alles valide aussehen und leiten, löte Kabel an die sechs Programmierpunkte und versuche die Firmware erneut zu flashen. Gerne helfen wir dir dabei!
 ''
 
+== Teile-Liste ==
+ 1  ATtiny85
+ 1  USB-Stecker Print
+ 1  ...
+
 == Beispiel Applikationen ==
 === Gleitzeitampel ===
 Die Gleitzeitampel steckt im Bürorechner. Wird dieser morgens eingeschaltet, prüft das Programm, ob er heute zum ersten Mal eingeschaltet wurde. Ist dies der Fall, wird eine Timestamp in die Settings.ini geschrieben. Im Anschluss prüft das Programm alle 5 sec, ob die Sollzeit für diesen Tag erreicht ist und wechselt, falls ja, die Farbe auf Gelb. Man kann nun gehen, ohne Verlust zu machen. Außerdem kann man festlegen, wie viel Zeit man pro Tag gerne aufbauen möchte. Ist die Sollzeit + die Aufbauzeit erreicht, wechselt die Ampel auf grün.
