@@ -26,6 +26,9 @@ CLIP 9V;10
 = Der Raum benötigt =
 <pre>
 SK M4;1
+LITZE RT;2
+LITZE WS;2
+LITZE BL;2
 </pre>
 
 Für Lichtsteuerung / DMX Umsetzung:
