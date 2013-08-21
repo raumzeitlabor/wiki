@@ -34,3 +34,10 @@ Für Lichtsteuerung / DMX Umsetzung:
 RASPBERRY PI B;1
 TEK-BERRY BL;1
 </pre>
+
+Für Hacklace
+
+<pre>
+LITZE SW;10
+LITZE RT;10
+</pre>
