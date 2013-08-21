@@ -27,3 +27,10 @@ CLIP 9V;10
 <pre>
 SK M4;1
 </pre>
+
+Für Lichtsteuerung / DMX Umsetzung:
+
+<pre>
+RASPBERRY PI B;1
+TEK-BERRY BL;1
+</pre>
