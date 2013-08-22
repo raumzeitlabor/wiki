@@ -140,7 +140,7 @@ Erklärende Hinweise:
 
 === Übung 7: Eine Verbindung herstellen ===
 [[Datei:loetverbindung.jpg|miniatur|Zwei Bauteile mit Lötverbindung.]]
-'''Lernziel:''' Auf den Platinen ist es manchmal nötig eine Verbindung zwischen zwei Lötstellen herzustellen. Längere Lötverbindungen solltest Du vermeiden, bzw. sie durch eine ordentliche Drahtverbindung zusammenbringen. Ich habe auch schon längere Lötverindungen gesehen, sie sind oftmals aber nur Resultat von schlechtem Platinendesign.
+'''Lernziel:''' Auf den Platinen ist es manchmal nötig eine Verbindung zwischen zwei Lötstellen herzustellen. Längere Lötverbindungen solltest Du vermeiden, bzw. sie durch eine ordentliche Drahtverbindung zusammenbringen. Ich habe auch schon längere Lötverbindungen gesehen, sie sind oftmals aber nur Resultat von schlechtem Platinendesign.
 # Löte die Bauteile an der gewünschten Position fest.
 # Beginne an einem Bauteil, erhitze das Lötzinn an dieser Stelle solange bis es wieder flüssig wird. Gebe Lötzinn dazu und ziehe den Lötkolben unter gleichmäßiger Zugabe von Lötzinn bis zu der gewünschten Position. 
 # Achte darauf, dass auch an der Anschlussstelle das Lötzinn wieder flüssig wird und das Bauteil richtig umfließt. Ab jetzt sind beide Bauteile miteinander verbunden.
