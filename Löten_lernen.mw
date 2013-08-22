@@ -160,8 +160,9 @@ Erhitze mit dem Lötkolben immer zuerst die Drähte, bzw. die Kontaktstelle. Ers
 === Zuviel Hitze ===
 Manche Bauteile vertragen nicht viel Hitze. Schütze es mit meinem Kühlkörper vor der Zerstörung. Beispielsweise kannst Du eine Krokodilklemme - am besten aus Kupfer - zwischen Lötstelle und Bauteil klemmen. Sie leitet die Wärme ab.
 
-=== zu wenig Lötzinn ===
+=== Zu wenig Lötzinn ===
 Gerade bei Rasterplatinen solltest Du auf eine ausreichende Menge an Lötzinn achten. Wichtig ist nicht nur ein kleines "Häufchen" auf der Platine. Wenn Du sie richtig erhitzt hast, dann soll auch etwas Lötzinn in das Loch fließen und so die Ritzen schließen.
+
 === Litzen noch stabiler verbinden ===
 Wenn die Verbindung von zwei Litzen noch stabiler sein soll, dann kannst Du folgenden Trick von Moritz anwenden:
 
