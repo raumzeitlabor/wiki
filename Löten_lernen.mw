@@ -83,9 +83,9 @@ Erklärende Hinweise:
 * Immer erst die Bauteile erhitzen, dann das Lot zuführen! Dafür gibt es mehrere Gründe:
 ** Führst du das Lot zu früh auf den Lötkolben, so verdampft das Flussmittel und die Verbindung von Lot und Bauteilen wird nicht richtig hergestellt ("Kalte Lötstelle"). Das Flussmittel sorgt übrigens dafür, daß die Oxide an den Komponenten entfernt werden und es verringert die Oberflächenspannung. Weitere Informationen über Flussmittel erhältst du bei [http://de.wikipedia.org/wiki/Flussmittel_(L%C3%B6ten) Wikipedia].
 ** Sind die zu verbindenden Bauteile kalt, so wird keine ordentliche Verbindung hergestellt und unter Umständen kann dann kein Strom fließen.
-* Die Erhitzdauer der Komponenten, die du verbinden möchtest, ist Gefühls- und Erfahrungssache. Die richtige Zeit hängt von der Dicke der Materialien ab. Erhitzt du ein Bauteil zu lange, kann es den Hitzetod sterben, erhitzt du es zu kurz, kann die Verbindung nicht hergestellt werden.
-* Solche gekreutzen Verbindungen sind zur Übung recht geeignet, um die Festigkeit zu demonstrieren. Allerdings solltest du beachten:
-** Lötstellen sind nicht dafür gedacht, große mechanische Kräfte auszuhalten. Im Zweifelsfalle mußt du die mechanische Kraft anders abführen.
+* Die Erhitzdauer der Komponenten, die du verbinden möchtest, ist Gefühls- und Erfahrungssache. Die richtige Zeit hängt von dem Durchmesser der Materialien ab. Erhitzt du ein Bauteil zu lange, kann es den Hitzetod sterben, erhitzt du es zu kurz, kann die Verbindung nicht hergestellt werden.
+* Solche gekreuzten Verbindungen sind zur Übung recht geeignet, um die Festigkeit zu demonstrieren. Allerdings solltest du beachten:
+** Lötstellen sind nicht dafür gedacht, große mechanische Kräfte auszuhalten. Im Zweifelsfalle musst du die mechanische Kraft anders abführen.
 ** Gekreuzte Verbindungen sind nicht "die feine Art". Verwende, sofern möglich, parallele Verbindungen.
 
 === Übung 2: Zwei Drähte parallel miteinander verbinden ===
