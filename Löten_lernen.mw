@@ -73,7 +73,7 @@ Das richtige Lötzinn ist wichtig - denn es gibt sehr viele verschiedene Arten. 
 [[Datei:draehte-gekreuzt.jpg|miniatur|Gekreuzte Drähte zusammengelötet.]]
 '''Lernziel:''' Stelle Deine erste Lötstelle her.
 # Isoliere einen der Drähte an beiden Seiten ab, biege ihn zu einem Ring zusammen, die abisolierten Enden sollen sich dabei kreuzweise berühren.
-# Klemme den Draht mittels der helfenden Hand fest, so das Du bequem mit dem Lötkolben an die Kontaktstelle kommst. Die gekreuzten Kabel helfen dabei. 
+# Klemme den Draht mittels der helfenden Hand fest, so dass Du bequem mit dem Lötkolben an die Kontaktstelle kommst. Die gekreuzten Kabel helfen dabei. 
 # Erhitze mit dem Lötkolben die Lötstelle so, dass beide Drähte berührt werden. Normalerweise reichen 3-5 Sekunden aus. Jetzt führst Du das Lötzinn zu. Warte kurz – dann wird es flüssig. Schiebe nun soviel Lötzinn nach, bis die Menge des Lots ausreichend die gesamte Lötstelle zu umfließt. Entferne nun gleichzeitig Lötzinn und Lötkolben von der Lötstelle und lasse sie erkalten.
 # Ich habe Dich absichtlich einen Ring löten lassen. Warte bis die Lötstelle abgekühlt ist. Versuche jetzt die Lötstelle auseinanderzureißen. Wenn Du sauber gelötet hast wird Dir das nicht gelingen - so stabil ist eine ordentlich verlötete Verbindung! 
 
@@ -81,7 +81,7 @@ http://www.youtube.com/watch?v=LzO8SMubWsY
 
 Erklärende Hinweise:
 * Immer erst die Bauteile erhitzen, dann das Lot zuführen! Dafür gibt es mehrere Gründe:
-** Führst du das Lot zu früh auf den Lötkolben, so verdampft das Flussmittel und die Verbindung von Lot und Bauteilen wird nicht richtig hergestellt ("Kalte Lötstelle"). Das Flussmittel sorgt übrigens dafür, daß die Oxide an den Komponenten entfernt werden und es verringert die Oberflächenspannung. Weitere Informationen über Flussmittel erhälst du bei [http://de.wikipedia.org/wiki/Flussmittel_(L%C3%B6ten) Wikipedia].
+** Führst du das Lot zu früh auf den Lötkolben, so verdampft das Flussmittel und die Verbindung von Lot und Bauteilen wird nicht richtig hergestellt ("Kalte Lötstelle"). Das Flussmittel sorgt übrigens dafür, daß die Oxide an den Komponenten entfernt werden und es verringert die Oberflächenspannung. Weitere Informationen über Flussmittel erhältst du bei [http://de.wikipedia.org/wiki/Flussmittel_(L%C3%B6ten) Wikipedia].
 ** Sind die zu verbindenden Bauteile kalt, so wird keine ordentliche Verbindung hergestellt und unter Umständen kann dann kein Strom fließen.
 * Die Erhitzdauer der Komponenten, die du verbinden möchtest, ist Gefühls- und Erfahrungssache. Die richtige Zeit hängt von der Dicke der Materialien ab. Erhitzt du ein Bauteil zu lange, kann es den Hitzetod sterben, erhitzt du es zu kurz, kann die Verbindung nicht hergestellt werden.
 * Solche gekreutzen Verbindungen sind zur Übung recht geeignet, um die Festigkeit zu demonstrieren. Allerdings solltest du beachten:
