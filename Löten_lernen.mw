@@ -158,7 +158,8 @@ Ein weiterer Aspekt ist: die Verbindung ist mechanisch nicht stark belastbar, si
 === Lötzinn anstatt Drähte erhitzen ===
 Erhitze mit dem Lötkolben immer zuerst die Drähte, bzw. die Kontaktstelle. Erst jetzt solltest Du das Lötzinn hinzugeben, es schmilzt und umfließt die Lötstelle genau so wie es sein soll. Falsch ist es zuerst das Lötzinn mit dem Lötkolben zu schmelzen und dann an der Lötstelle zu verteilen, dies gibt meistens kalte Lötstellen.
 === Zuviel Hitze ===
-Manche Bauteile vertragen nicht viel Hitze. Schütze es mit meinem Kühlkörper vor der Zerstörung. Beispielsweise kannst Du eine Krokodilklemme - am Besten aus Kupfer - zwischen Lötstelle und Bauteil klemmen. Sie leitet die Wärme ab.
+Manche Bauteile vertragen nicht viel Hitze. Schütze es mit meinem Kühlkörper vor der Zerstörung. Beispielsweise kannst Du eine Krokodilklemme - am besten aus Kupfer - zwischen Lötstelle und Bauteil klemmen. Sie leitet die Wärme ab.
+
 === zu wenig Lötzinn ===
 Gerade bei Rasterplatinen solltest Du auf eine ausreichende Menge an Lötzinn achten. Wichtig ist nicht nur ein kleines "Häufchen" auf der Platine. Wenn Du sie richtig erhitzt hast, dann soll auch etwas Lötzinn in das Loch fließen und so die Ritzen schließen.
 === Litzen noch stabiler verbinden ===
