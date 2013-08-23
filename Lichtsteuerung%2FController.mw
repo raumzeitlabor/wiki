@@ -30,6 +30,10 @@ Die Ausgänge besitzen keine Freilaufdioden. Der Relaistreiber besitzt Dioden, a
 
 Jeder Lichtsteuerungscontroller kann alle empfangenen DMX-Daten auch wieder weitergeben. Da DMX darauf basiert, daß die Schaltzustände dauerhaft wiederholt werden, gibt es hierzu einen eigenen Atmega8.
 
+= Schaltzustände =
+
+Schaltzustände können über DMX mittels [http://en.wikipedia.org/wiki/RDM_(lighting) RDM] erfragt werden. Inwiefern das Probleme mit existierendem DMX-Equipment gibt, ist bisher unklar; laut Wikipedia soll dies aber keine Probleme verursachen.
+
 = Tests des Prototypboards =
 
 {{TaskListStart}}
