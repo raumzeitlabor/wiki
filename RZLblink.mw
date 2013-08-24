@@ -69,6 +69,13 @@ Bilder und das OpenSCAD-File finden sich hier: http://www.thingiverse.com/thing:
 
 * Firmware neu Flashen über SPI ... warum? Schließlich hat das RZL-Blink den doppelten Speicher von blink(1) (ATtiny85 statt ATtiny45) und einen USB-Anschluss. Da ist noch genug Platz für einen [https://github.com/Bluebie/micronucleus-t85 2KB USB-Bootloader]. Ich packe hier mal ein fertiges hex file hin, dann müsst ihr nicht selbst konfigurieren und den alten avr-gcc4.3.3 rauskramen, um es zu kompilieren. (Link kommt noch)
 
+== Bilder ==
+{|
+| [[Datei:RZLblink01.jpg|thumb|200px]]
+| [[Datei:RZLblink02.jpg|thumb|200px]]
+| [[Datei:RZLblink03.jpg|thumb|200px]]
+|}
+
 == Beispiel Applikationen ==
 === Gleitzeitampel ===
 Die Gleitzeitampel steckt im Bürorechner. Wird dieser morgens eingeschaltet, prüft das Programm, ob er heute zum ersten Mal eingeschaltet wurde. Ist dies der Fall, wird eine Timestamp in die Settings.ini geschrieben. Im Anschluss prüft das Programm alle 5 sec, ob die Sollzeit für diesen Tag erreicht ist und wechselt, falls ja, die Farbe auf Gelb. Man kann nun gehen, ohne Verlust zu machen. Außerdem kann man festlegen, wie viel Zeit man pro Tag gerne aufbauen möchte. Ist die Sollzeit + die Aufbauzeit erreicht, wechselt die Ampel auf grün.
