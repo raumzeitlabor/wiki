@@ -58,10 +58,26 @@ Bilder und das OpenSCAD-File finden sich hier: http://www.thingiverse.com/thing:
 :''Löte Lötstellen die nicht so schön aussehen einmal nach und teste mit einem Multimeter die einzelnen Verbindungen durch. Sollte alles valide aussehen und leiten, löte Kabel an die sechs Programmierpunkte und versuche die Firmware erneut zu flashen. Gerne helfen wir dir dabei!
 ''
 
-== Teile-Liste ==
- 1  ATtiny85
- 1  USB-Stecker Print
- 1  ...
+==Download==
+{| class="wikitable"  valign = "top"
+!Datei
+!Format
+!Lizenz
+|-
+|Schaltplan
+|[[Medium:SchaltplanRzlBlink.png|.png]]
+|CC-BY-ND
+|-
+|Bauteileliste
+|[[Medium:Parts.txt‎|.txt]]
+|CC0
+|-
+|Sourcecode (Github)
+|[https://github.com/todbot/blink1]
+|CC-BY-NC-SA
+|-
+|}
+
 
 == Firmware Mods ==
 * Man kann bis zu 12 Pattern (Zeit und Farbwert) im EEPROM von RZL-Blink ablegen. Diese Pattern können dann mit dem Befehl "p" abgespielt werden. Optional kann die Startposition als Parameter mitgegeben werden. Dann werden die vorher programmierten Pattern ab dieser Position abgespielt. Es sind 12 Pattern möglich. Dummerweise startet die Firmware nach dem 12. Pattern wieder bei 0 und nicht bei der vorher übergebenen Position. Bug oder Feature? Ich habe keine Ahnung, habe aber die zwei fehlenden Zeilen [https://github.com/thinkJD/blink1 hier] eingefügt.
