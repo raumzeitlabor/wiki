@@ -18,10 +18,10 @@ Der Stromzähler hängt an einem ATmega, der wiederum an der [[Mate (Server)/abr
 Aktuelle Up-/Download-Geschwindigkeit, sowie Latenz werden von der [[Firebox]] berechnet und hochgeladen. Bei Fragen:  [[Benutzer:Alexander Brock|Alexander Brock]] und [[Benutzer:Nicoduck|nicoduck]]
 
 == Raumstatus ==
-Der Raumstatus wird automatisch zu Cosm geschoben. Ein Skript holt sich regelmäßig den Status via API und läd ihn in unseren Cosm-Feed. Ansprechpartner: [[Benutzer:Tiefpunkt|tiefpunkt]] 
+Der Raumstatus wird automatisch zu Cosm geschoben. Ein [https://github.com/raumzeitlabor/status2xively Skript] holt sich regelmäßig den Status via API und läd ihn in unseren Cosm-Feed. Ansprechpartner: [[Benutzer:Tiefpunkt|tiefpunkt]] 
 
 == Mitgliederzahl/Kontostand ==
-Mitgliederzahl und Kontostand werden manuell über ein Webinterface aktualisiert. Bei Fragen: [[Benutzer:Alexander Brock|Alexander Brock]] und [[Benutzer:Tiefpunkt|tiefpunkt]]
+Mitgliederzahl und Kontostand werden manuell über ein [https://github.com/raumzeitlabor/status2xively Webinterface] aktualisiert. Bei Fragen: [[Benutzer:Alexander Brock|Alexander Brock]] und [[Benutzer:Tiefpunkt|tiefpunkt]]
 
 == InfoScreen ==
 Der [[InfoScreen]] generiert keine Daten für Cosm, er zeigt sie nur an. Bei Fragen: [[Benutzer:Blabber|blabber]] und [[Benutzer:Tiefpunkt|tiefpunkt]]
