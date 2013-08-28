@@ -162,19 +162,17 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.242 || fon_pv || fonera nicoduck
 |-----
-| 172.22.36.243 || ''reserved'' || Reserviert für Geräte
+| 172.22.36.243 || cis-phone-01 || Cisco VoIP Phone 01
 |-----
 | 172.22.36.244 || [[Mate_(Server)/lutoma.vm.rzl]] || Mitglieder-VM (beta)
-|-----
-| 172.22.36.244 || cis-phone-01 || Cisco VoIP Phone 01
 |-----
 | 172.22.36.245 || cis-phone-02 || Cisco VoIP Phone 02
 |-----
 | 172.22.36.246 || cis-phone-03 || Cisco VoIP Phone 03
 |-----
-| 172.22.36.247 || cis-phone-05 || Cisco VoIP Phone 04
+| 172.22.36.247 || cis-phone-04 || Cisco VoIP Phone 04
 |-----
-| 172.22.36.248 || cis-phone-04 || Cisco VoIP Phone 05
+| 172.22.36.248 || cis-phone-05 || Cisco VoIP Phone 05
 |-----
 | 172.22.36.249 || [[pokeduino]] || pokeduino.rzl
 |-----
