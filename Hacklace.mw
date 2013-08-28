@@ -6,7 +6,7 @@
 |status      = stable
 |image       = Hacklace_schwarz.jpg
 |description = Eine Halskette mit 5x7-Dot-Matrix-Led-Display
-|author      = [[user:fabster|fabster]], [[user:muzy|muzy]]
+|author      = [[user:fabster|fabster]]
 |username    = 
 |version     = Revision B
 |update      = 
@@ -298,7 +298,7 @@ Die benötigten Bauteile können bei Reichelt bzw. CSD-Electronics bestellt werd
 
 
 === Bausatz ===
-Als bequeme Alternative bieten wir einen Bausatz mit allen Teilen und einer professionell gefertigten Platine an. Der Bausatz kostet 10,- Euro und kann über [[Benutzer:Fabster|Fabster]] oder [[Benutzer:muzy|muzy]] erworben werden. Gerne helfen wir oder andere erfahrene Laboranten beim Löten, Zusammenbauen, Flashen und Programmieren.
+Als bequeme Alternative bieten wir einen Bausatz mit allen Teilen und einer professionell gefertigten Platine an. Der Bausatz kostet 10,- Euro und kann über [[Benutzer:Fabster|Fabster]] erworben werden. Gerne helfen wir oder andere erfahrene Laboranten beim Löten, Zusammenbauen, Flashen und Programmieren.
 
 {| 
 | [[Datei:Hacklace_Einzelteile.jpg|thumb|right|240px|Einzelteile]]
@@ -310,7 +310,7 @@ Als bequeme Alternative bieten wir einen Bausatz mit allen Teilen und einer prof
 |}
 
 === Batteriehalter ===
-Um das Hacklace am Gürtel zu tragen, bieten wir für 5,- € einen Batteriehalter inklusive drei Alkaline-Batterien an. Dieser lässt sich nicht nur bequem tragen, sondern erhöht auch die Laufzeit und Helligkeit deines Hacklaces. Erhältlich bei [[Benutzer:Fabster|Fabster]] oder [[Benutzer:muzy|muzy]].
+Um das Hacklace am Gürtel zu tragen, bieten wir für 5,- € einen Batteriehalter inklusive drei Alkaline-Batterien an. Dieser lässt sich nicht nur bequem tragen, sondern erhöht auch die Laufzeit und Helligkeit deines Hacklaces. Erhältlich bei [[Benutzer:Fabster|Fabster]].
 {| 
 | [[Datei:Hacklace_Battery_Pack_vorne.jpg|thumb|right|160px|Batteriehalter von vorne]]
 | [[Datei:Hacklace_Battery_Pack_hinten.jpg|thumb|right|140px|Versorgung mit 4,5 Volt über 3 Stück AAA-Zellen]]
@@ -319,10 +319,10 @@ Um das Hacklace am Gürtel zu tragen, bieten wir für 5,- € einen Batteriehalt
 |}
 
 === USB auf TTL Adapter ===
-Das Hacklace bietet eine serielle Schnittstelle zum aufspielen eigener Animationen. Einen USB auf TTL Adapter kannst du für 5€ bei [[Benutzer:Fabster|Fabster]] oder [[Benutzer:muzy|muzy]] kaufen. Dieser Adapter unterstützt sowohl 3,3V als auch 5V und ist somit universell einsetzbar: z.B. um auf die Rescue-Konsole von Routern zu kommen.
+Das Hacklace bietet eine serielle Schnittstelle zum aufspielen eigener Animationen. Einen USB auf TTL Adapter kannst du für 5€ bei [[Benutzer:Fabster|Fabster]] kaufen. Dieser Adapter unterstützt sowohl 3,3V als auch 5V und ist somit universell einsetzbar: z.B. um auf die Rescue-Konsole von Routern zu kommen.
 
 == Geld verdienen mit dem Hacklace ==
-Dein Hackerspace ist begeistert vom Hacklace? Du möchtest einen Hacklace-Workshop in deinem Hackerspace anbieten? Bestelle bei uns ([[Benutzer:Fabster|Fabster]] oder [[Benutzer:muzy|muzy]]) einfach die benötigte Anzahl von Bausätzen.
+Dein Hackerspace ist begeistert vom Hacklace? Du möchtest einen Hacklace-Workshop in deinem Hackerspace anbieten? Bestelle bei [[Benutzer:Fabster|Fabster]] einfach die benötigte Anzahl von Bausätzen.
 Damit deinem Hackerspace das ganze auch zugute kommt, gibt es einen Rabatt bei größeren Mengen.
 
 {| class="wikitable"  valign = "top"
