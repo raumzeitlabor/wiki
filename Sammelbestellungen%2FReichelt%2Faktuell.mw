@@ -28,31 +28,3 @@ ATMEGA 168A-PU;2
 AK 676-AA2;2
 H25PR200;4
 </pre>
-
-= Der Raum benötigt =
-<pre>
-SK M4;1
-LITZE RT;2
-LITZE WS;2
-LITZE BL;2
-LITZE OR;2
-LITZE GN;2
-SOLDASORB 15;1
-LÖTZINN 32-0,525;1
-HEIZUNG 2;1
-</pre>
-
-Für Lichtsteuerung / DMX Umsetzung:
-
-<pre>
-RASPBERRY PI B;1
-TEK-BERRY BL;1
-SN 75176BP;10
-</pre>
-
-Für Hacklace
-
-<pre>
-LITZE SW;10
-LITZE RT;10
-</pre>
