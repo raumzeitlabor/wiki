@@ -1,0 +1,38 @@
+{{ProjektInfoBox
+|name        = RaumDMX
+|status      = 
+|image       = 
+|description = Dokumentation des DMX-Setups im RaumZeitLabor
+|author      = [[Benutzer:Felicitus|Felicitus]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    =
+|license     = 
+|download    = 
+|bausatz     =
+|preis       =
+}}
+
+= Master =
+
+Der DMX-Master ist ein Raspberry Pi mit dem [[RpiDMX]]-Board. Dieses muß noch überarbeitet werden, sodaß es mit [http://en.wikipedia.org/wiki/RDM_(lighting) RDM] zurechtkommt. RDM ist wichtig, um den Status von der Lichtsteuerung zu erfragen.
+
+Der Raspberry Pi erhält eine Software, die über eine REST-API Schaltzustände setzen und erfragen kann. Die geplanten Apps für Mobiltelefone sprechen dann über die REST-API mit dem Raspberry Pi.
+
+= DMX-Splitter =
+
+Da bei DMX/RS485 keine Sterntopologie vorgesehen ist, werden DMX-Splitter benötigt. Es gibt bisher keinen günstigen Kauf-Splitter, der RDM unterstützt, insofern wird [[Benutzer:Felicitus|Felicitus]] einen entwickeln.
+
+= Slaves =
+
+== Lichtsteuerung / Steckdosensteuerung ==
+
+Die Lichtsteuerung sowie Steckdosensteuerung wird komplett über RDM bedient und benötigt daher keine DMX-Startadresse.
+
+== Olymp ==
+
+Im Olymp hängt ein [http://www.ulrichradig.de/home/index.php/avr/dmx-led-strip DMX-RGB-Strip Controller], welcher die drei RGB-Strips ansteuert.
+
+Die Adressen für Rot, Grün und Blau sind jeweils 0,1 und 2.
