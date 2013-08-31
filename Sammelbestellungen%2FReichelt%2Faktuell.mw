@@ -1,30 +1,12 @@
-= Felicitus benötigt =
+{| style="background: #FEEFB3; border: 1px solid #9F6000"
+|style="width: 40px"| [[Datei:64px-UnderCon icon.png|64px|Ich hab keine anderes Icon gefunden]]
+|'''Hinweis für Mitbesteller:''' Bitte den Warenkorb exportieren, damit er später leicht mit den anderen zusammengeführt werden kann.
+'''Hinweis für Besteller:''' Reichelt hat Probleme beim Importieren von großen Warenkörben. Du solltest die Bestellung daher in mehreren Schritten importieren. Weiterhin summiert Reichelt bei mehreren Zeilen der gleichen Artikel die jeweiligen Mengen nicht auf. Um dir das Leben zu vereinfachen, kannst Du [http://rcsvtool.labs.iodev.org dieses] Tool benutzen (Ansprechpartner: [[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]])).
+|}<br>
+
+== $besteller1 braucht ==
 
 <pre>
-PSS 254/3G;40
-µA 7815;2
-µA 7915;2
-BD 237;4
-IRFP 064N;5
-25W METALL 1,0;4
-FKS-HALTER 1;1
-FKS 30A;2
-FKS 2A;2
-KAPPE 1ZB03;4
-KAPPE 1ZC30;1
-TASTER 3ATL6;4
-TASTER 3FTL6;1
-SIM1-0505 SIL4;1
-AKL 055-02;2
-</pre>
-
-= echox benoetigt =
-<pre>
-2W METALL 5,6;15
-2W METALL 6,8;15
-CLIP 9V;10
-WK 709-5ML;1
-ATMEGA 168A-PU;2
-AK 676-AA2;2
-H25PR200;4
+NUMMER;ANZAHL
+NUMMER;ANZAHL
 </pre>
