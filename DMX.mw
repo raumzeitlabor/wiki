@@ -25,6 +25,9 @@ Der Raspberry Pi erhält eine Software, die über eine REST-API Schaltzustände 
 
 Da bei DMX/RS485 keine Sterntopologie vorgesehen ist, werden DMX-Splitter benötigt. Es gibt bisher keinen günstigen Kauf-Splitter, der RDM unterstützt, insofern wird [[Benutzer:Felicitus|Felicitus]] einen entwickeln.
 
+= Kabelbelegung =
+
+Wir folgen dem [http://en.wikipedia.org/wiki/DMX512#RJ-45_pinout DMX512-Standard für RJ45-Steckerbelegung]. 
 = Slaves =
 
 == Lichtsteuerung / Steckdosensteuerung ==
