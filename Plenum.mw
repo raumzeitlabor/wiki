@@ -26,15 +26,15 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 ; Anschaffung eines fertigen USB-RDM-DMX Interfaces
 : Da das PiLight kein bidirektionales RS485 kann und ich ehrlich gesagt auch keine Lust mehr habe, frickelige Dinge weiter zu zerfrickeln, möchte ich auf Raumkosten den [https://www.enttec.com/?main_menu=Products&pn=70304 DMXUSB Pro] von ENTTec kaufen. Das Device kann RDM, DMX und wird von [http://www.opendmx.net/index.php/Open_Lighting_Project Open Lightning Architecture] unterstützt. Das erspart jede Menge Nerven und Zeit (selbst wenn wir ein RDM-Interface selbst bauen, was vielleicht 20€ kostet, dann muß noch irgendwer die Software dazu schreiben, was Schätzungsweise mal 20+ Stunden dauert). Das Interface ist die Kommunikationsschnittstelle zwischen dem Netzwerk und alles, was an DMX angeschlossen werden kann, insbesondere Lichtsteuerung und die RGB-Strips im Olymp. Ich plane auch, die DMX-Spots von Timon darüber steuerbar zu machen. Kosten: [http://www.thomann.de/de/enttec_dmx_usb_pro_interface.htm 149€ bei Thomann].
 
-=== Anschaffung neuer Platten für Mate ===
+; Anschaffung neuer Platten für Mate 
 
-Uns sterben derzeit die Platten in Mate weg, jetzt schon die dritte innerhalb weniger Wochen. Dies scheint wohl in der schlechten Qualität dieses Plattentyps begründet [http://www.newegg.com/Product/Product.aspx?Item=22-145-533&SortField=0&SummaryType=0&Pagesize=10&PurchaseMark=&SelectedRating=-1&VideoOnlyMark=False&VendorMark=&IsFeedbackTab=true&Page=3#scrollFullInfo viele Reviews hier]. Wir können diese Platten nicht RMA'en, weil diese nicht in Deutschland gekauft wurden (Hitachi RMA-System sagt: Unknown Serial).
+: Uns sterben derzeit die Platten in Mate weg, jetzt schon die dritte innerhalb weniger Wochen. Dies scheint wohl in der schlechten Qualität dieses Plattentyps begründet [http://www.newegg.com/Product/Product.aspx?Item=22-145-533&SortField=0&SummaryType=0&Pagesize=10&PurchaseMark=&SelectedRating=-1&VideoOnlyMark=False&VendorMark=&IsFeedbackTab=true&Page=3#scrollFullInfo viele Reviews hier]. Wir können diese Platten nicht RMA'en, weil diese nicht in Deutschland gekauft wurden (Hitachi RMA-System sagt: Unknown Serial).
 
-Weiterer Hintergrund: Wir haben $damals kostenlos 6 1TB-Platten bekommen, wodurch ein RAID5 mit 5 Platten aufgebaut wurde, 1 Platte als Spare. Vor einigen Wochen haben wir erneut 4 Platten bekommen. Insgesamt sind seit Februar 3 Platten gestorben, es verbleiben somit nur noch 2 Reserveplatten.
+: Weiterer Hintergrund: Wir haben $damals kostenlos 6 1TB-Platten bekommen, wodurch ein RAID5 mit 5 Platten aufgebaut wurde, 1 Platte als Spare. Vor einigen Wochen haben wir erneut 4 Platten bekommen. Insgesamt sind seit Februar 3 Platten gestorben, es verbleiben somit nur noch 2 Reserveplatten.
 
-Insgesamt benötigen wir entweder 3+1 oder 5+1 Platten wegen RAID5. 3 Stück sind bei >3TB pro Platte besser, da der N40L nicht von 3TB booten kann mangels GPT-Support. In dem Falle 3TB pro Platte wären das 6TB Nutzkapazität, bei 5 Platten 12TB. Mindestens  eine Platte muß als Spare vorgehalten werden. Booten könnte man von einer SSD, docsteel hat ggf. noch eine, aber eine 64GB Crucial M4 ist mit um die 60€ relativ günstig zu haben.
+: Insgesamt benötigen wir entweder 3+1 oder 5+1 Platten wegen RAID5. 3 Stück sind bei >3TB pro Platte besser, da der N40L nicht von 3TB booten kann mangels GPT-Support. In dem Falle 3TB pro Platte wären das 6TB Nutzkapazität, bei 5 Platten 12TB. Mindestens  eine Platte muß als Spare vorgehalten werden. Booten könnte man von einer SSD, docsteel hat ggf. noch eine, aber eine 64GB Crucial M4 ist mit um die 60€ relativ günstig zu haben.
 
-'''Es geht um 4 Platten WD30EFRX zu je 120€, und ggf. eine 64GB Crucial M4 für 60€, wenn docsteel keine SSD mehr vorrätig hat.'''
+: '''Es geht um 4 Platten WD30EFRX zu je 120€, und ggf. eine 64GB Crucial M4 für 60€, wenn docsteel keine SSD mehr vorrätig hat.'''
 
 ;Weltherrschaft
 :Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
