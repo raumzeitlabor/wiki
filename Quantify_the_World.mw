@@ -32,8 +32,17 @@ Erstmal eine Produkt-/Link-Sammlung. Alles andere kommt später.
 ** Browser Tabs, Memory Usage, Prozesse, CPU Auslastung, Temperatur
 
 ==== Pflanzen ====
-* Koubachi WiFi Pflanzensensor [http://www.koubachi.com/features/sensor?locale=de]
-* Lässt sich sicher auch selber bauen (Nanode+2 Elektroden pro Pflanze?)
+* Kommerziell
+** Koubachi WiFi Pflanzensensor [http://www.koubachi.com/features/sensor?locale=de]
+** Parrot Flowerpower [http://www.parrot.com/flowerpower/en/]
+** Plant Link [http://myplantlink.com/]
+* DIY
+** Botanicalls [http://www.botanicalls.com/ Projekt] [https://www.sparkfun.com/products/10334 Kit bei SparkFun]
+** Garduino [http://makezine.com/projects/Garduino-Geek-Gardening/]
+** Chirp [http://wemakethings.net/2013/06/07/chirp-plant-watering-alarm/]
+** Ecoduino
+** Plant Moisture Monitor Kit [http://www.scifiville.com/?p=719] [http://www.maplin.co.uk/plant-moisture-monitor-kit-219974]
+** Garden Bot [http://gardenbot.org/]
 
 === Your Home ===
 * [http://32leav.es/?p=1152 Sense Lamp] Sensor Nodes in rooms
@@ -63,7 +72,12 @@ Erstmal eine Produkt-/Link-Sammlung. Alles andere kommt später.
 * Teague Leagues DIY Arduino Water Meter [http://labs.teague.com/?p=722]
 ** Invasiv
 * Web Based Water Metering with ioBridge [http://www.picobay.com/projects/2009/05/web-based-water-metering-with-iobridge.html]
-* Wunsch: Etwas non-invasives. Bsp: Umdrehungen des Rades auf Wasserzähler messen.
+
+* Reed Kontakte [https://www.flukso.net/content/water-and-gas-probes]
+** Alternative: Umdrehungen des Rades auf Wasserzähler messen.
+
+==== Gasverbauch ====
+* Reed Kontakte [https://www.flukso.net/content/water-and-gas-probes]
 
 === Your Environment ===
 * Buch von O'Reilly: [http://shop.oreilly.com/product/0636920021582.do Environmental Monitoring with Arduino]
@@ -103,7 +117,8 @@ Erstmal eine Produkt-/Link-Sammlung. Alles andere kommt später.
 * SenEye [http://www.seneye.com/] (kommerziell)
 * "EC/TDS/PPM Meter On Limited Budget" [http://www.octiva.net/projects/ppm/]
 * Open Spa Monitor [http://openspamonitor.blogspot.de/]
-
+* Flamingo [http://www.cmucreatelab.org/projects/Flamingo]
+* CATTFish [http://www.cmucreatelab.org/projects/CATTFish] [http://www.andrew.cmu.edu/user/schapiro/cmu/cattfish.html]
 * Zusätzliche Infos:
 ** Produktdemo von Atlas Scientific, mit Erklärungen zu einzelnen Measurements [http://www.youtube.com/watch?v=98AvnjOBbIQ]
 
