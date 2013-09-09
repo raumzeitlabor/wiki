@@ -139,6 +139,8 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 | 172.22.36.203 || [[Mate_(Server)/DB|DB]] || DB
 |------
 | 172.22.36.204 || [[Mate_(Server)/Asterisk|Asterisk]] || Asterisk (LXC-Test)
+|------
+| 172.22.36.205 || [[Mate_(Server)/yate.vm.rzl]] || VM für Telefonanlage
 |-----
 | 172.22.36.220 || [[Mate_(Server)/abrock.vm.rzl|abrock.vm.rzl]] || Mitglieder-VM (beta)
 |-----
@@ -146,7 +148,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.222 || [[Drucker#Labeldrucker]] || VM für die Labeldrucker-Software
 |-----
-| 172.22.36.223 || [[Mate_(Server)/yate.vm.rzl]] || Mitglieder-VM (beta)
+| 172.22.36.223 || [[Mate_(Server)/yate.vm.rzl]] || VM für Telefonanlage
 |-----
 | 172.22.36.224 || [[Mate_(Server)/blabber.vm.rzl]] || Mitglieder-VM (beta)
 |-----
