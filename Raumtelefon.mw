@@ -25,7 +25,7 @@ Aktuell klingeln nur die Telefone und der Anrufe hört ein langweiliges Freizeic
 Im moment auch nicht. Kommt wieder.
 
 == Ausgehende Anrufe ==
-Sind explizit möglich (Allerdings lässt sich mit dem schwarzen Telefon momentan nicht wählen, da der SIP-Adapter kein Impulswahl unterstützt. Ein Fix dafür ist aber in der Mache. Quickfix: Mit Android DTMF-App die Töne erzeugen). Alternativ und einfacher: Das graue Telefon neben dem schwarzen verwenden. Über SIP sind aktuell noch keine ausgehenden Telefonate möglich. Für Festznetz gibt's eine Flatrate, Handynetzanrufe bezahlt der Verein und sollten daher möglichst kurz gehalten werden.
+Sind explizit möglich (Allerdings lässt sich mit dem schwarzen Telefon momentan nicht wählen, da der SIP-Adapter kein Impulswahl unterstützt. Ein Fix dafür ist aber in der Mache. Quickfix: Mit Android DTMF-App die Töne erzeugen). Alternativ und einfacher: Das graue Telefon neben dem schwarzen verwenden. Noch einfacher: über die SIP Telefone anrufen. Für Festznetz gibt's eine Flatrate, Handynetzanrufe bezahlt der Verein und sollten daher möglichst kurz gehalten werden.
 
 
 [[Category:Infrastruktur]]
