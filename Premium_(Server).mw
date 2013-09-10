@@ -50,9 +50,11 @@ Die Anbindung erfolgt über einen Layer2-OpenVPN-Tunnel an die [[Firebox]]. Dort
 
 == Mailaliase anlegen ==
 die sqlite DB dafür liegt in /etc/postfix.
-mit 'sqlite /etc/postfix/maildb.sqlite'öffnen, dann:
+mit 'sqlite3 /etc/postfix/maildb.sqlite'öffnen, dann:
 
+<pre>
 INSERT INTO alias ( address, goto, domain ) VALUES ( 'aliasname@raumzeitlabor.de','ziel@domain.tld','raumzeitlabor.de');
+</pre>
 
 
 [[Kategorie:Hardware]]
