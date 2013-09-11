@@ -89,7 +89,10 @@ Das Display muss je nach Typ anders eingesetzt werden. Dies ist auch ein Konfigu
 Zur Erläuterung: Die Platinenoberseite ist die Seite ohne Leiterbahnen bzw. ohne Aufdruck. Diese Seite ist die sichtbare Vorderseite. Auf der Rückseite befinden sich die Kupferbahnen und bei der professionellen Platine der weiße Bestückungsdruck. Dies ist die Lötseite.
 [[Datei:Hacklace_Zusammenbau01.jpg|thumb|right|220px|SMD-Widerstände]]
 [[Datei:Hacklace_Zusammenbau02.jpg|thumb|right|220px|Widerstand und Kondensator]]
+[[Datei:Hacklace_lcd_eckiges_loetauge.JPG|thumb|right|220px|Punkt am LC-Display zum eckigen Lötauge ausrichten]]
 [[Datei:Hacklace_Zusammenbau03.jpg|thumb|right|220px|Abrichten der Prozessorpins]]
+[[Datei:Hacklace_lcd_pins_abschneiden.jpg|thumb|right|220px|Pins des LC-Displays müssen gekürzt werden]]
+[[Datei:Hacklace_prozessor_ausrichtung.JPG|thumb|right|220px|Prozessor mit Hilfe der Kerbe ausrichten]]
 
 Der Aufbau geschieht wie folgt:
 # Als erstes werden die beiden SMD-Widerstände (R2, R3) auf der Leiterbahnseite aufgelötet. Durch die große 1206-Bauform ist das nicht weiter schwierig. Zunächst ein Pad mit etwas Lötzinn belegen, dann das Bauteil mit der Pinzette an das Lötpad halten und mit dem Lötkolben festlöten. Wenn das Bauteil richtig sitzt, den zweiten Anschluß verlöten.
