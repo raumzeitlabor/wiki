@@ -64,13 +64,13 @@ Schaltzustände können über DMX mittels [http://en.wikipedia.org/wiki/RDM_(lig
 {{TaskListItem
 | title = DMX IN
 | description = 
-| status = 
+| status = done
 | last_changed = 
 }}
 {{TaskListItem
 | title = DMX OUT
 | description = 
-| status = 
+| status = done
 | last_changed = 
 }}
 {{TaskListEnd}}
