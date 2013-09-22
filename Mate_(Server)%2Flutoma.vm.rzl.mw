@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = lutoma.vm.rzl
-|status      = 
-|image       = 
+|status      = stable
+|image       = Bilderbrett.png
 |description = VM von lutoma
 |author      = [[Benutzer:Lutoma|Lutoma]], [[NOC Team|NOC-Team]]
 |username    = 
