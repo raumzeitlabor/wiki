@@ -10,3 +10,13 @@
 NUMMER;ANZAHL
 NUMMER;ANZAHL
 </pre>
+
+== Der Raum benötigt ==
+
+Für RGB-LED-Strips Olymp und RS485 Hub:
+<pre>
+SNT MW60-12
+SN 75176BP;10
+MKS-02 1,0N;10
+MKS-02 100N;10
+</pre>
