@@ -20,3 +20,9 @@ SN 75176BP;10
 MKS-02 1,0N;10
 MKS-02 100N;10
 </pre>
+
+Für Werkstatt Nebenraum:
+
+<pre>
+CEE-DOSE 4-16;1
+</pre>
