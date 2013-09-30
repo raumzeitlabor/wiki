@@ -19,7 +19,7 @@
 
 Auf der VM läuft ein ''inetutils-inetd'', der bei Verbindungen über Port 70 (gopher) einen ''[https://github.com/blabber/mgopherd mgopherd]'' Prozess startet. Der Inhalt des Gopherholes besteht aktuell aus einer statischen Gophermap, einem Phlog und einer Liste der anstehenden Veranstaltungen. Das Phlog wird aus dem RaumZeitLabor RSS Feed generiert, die Verstaltungen werden aus dem ical Feed generiert. Dazu stößt ein Cronjob jede Stunde die Skripts aus ''[https://github.com/blabber/rzlphlog rzlphlog]'' an.
 
-Das Gopherhole ist über gopher://raumzeitlabor.de und gopher://gopher.raumzeitlabor.org erreichbar.
+Das Gopherhole ist über gopher://raumzeitlabor.de, gopher://gopher.raumzeitlabor.org und aus dem Tornetzwerk über gopher://rzlmlg5lmt32ugob.onion/ erreichbar.
 
 === Ideen ===
 
