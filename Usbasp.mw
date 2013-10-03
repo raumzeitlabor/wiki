@@ -39,3 +39,5 @@ Die usbasp-Platine wurde vom Labor in Bochum layoutet, das Ursprungsdesign kommt
 * Hast du alles gelötet, kontrolliere die Platine optisch, ob nicht irgendwo ausversehen Lötbrücken geschaffen wurden.
 * Wenn du den usbasp fertig bestückt hast, muß der Atmel darauf ggf. noch programmiert werden. Neuere Bausätze haben den Atmel vorprogrammiert. Falls nicht: wende dich an jemanden, der bereits einen usbasp hat, um die Firmware zu flashen (auch im SVN zu finden).
 * Setze den Mikrokontroller ein und schaue, ob er erkannt wird.
+
+[[Kategorie:Wiki Cleanup/ToDo‏‎]]
