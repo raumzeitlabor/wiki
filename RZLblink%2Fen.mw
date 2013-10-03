@@ -1,0 +1,111 @@
+{{LanguageBox |msg=Diese Seite gibt es auch auf Deutsch: [[RZLblink|hier]]}}
+
+{{ProjektInfoBox
+|name        = RZLblink
+|status      = stable
+|image       = blinkv21a.jpg
+|description = Let there be light using your blink(1) derivative.
+|author      = [[user:hog|hog]] 
+|username    = 
+|version     = 2.1a
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+|preis       = (Price) 8€ per kit
+}}
+
+RZLblink is your Do-It-Yourself USB RGB LED and is based on the blink(1) found on ThingM[http://thingm.com]. Whether as a flashy Lightsource or as a display for status-notification: '''RZLblink is a Highlight!'''
+
+
+== Assembly ==
+
+Assembly of the RZLblink is rather easy! Follow the following steps and don't fear the Soldering iron. The only heat-sensitive components are the Microcontroller (packaged in antistatic bags) and the LED.
+
+While soldering please do watch out to properly position the components according to the illustration below. All components are placed horizontally, the resitors R1 and R2 being the only exception since they ''have'' to be soldered in vertically. 
+
+Bitte achte beim Löten unbedingt auf die Bauteilposition. Alle Bauteile werden waagerecht platziert, Ausnahme sind hier die Widerstände R1 und R2, die zwingend senkrecht gelötet werden müssen. Dazu auch folgende Vorher-Nachher Illustration der Bauteilposition:
+
+[[Datei:RZLblinkBauteilPosition.png|thumb|left|410px|Vorher-Nachher Illustration der Bauteilposition]]
+
+# Zunächst die Widerstände R1 und R2 senkrecht einlöten. Dazu benetzt du zunächst jeweils ein Pad mit etwas Lötzinn, nimmst mit einer Pinzette das Bauteil in deine nicht-primäre Hand und erwärmst das Lötzinn wieder. Nun schiebst du vorsichtig das Bauteil in das flüssige Lötzinn, hälst das Bauteil fest mit der Pinzette an der Seite und entfernst den Lötkolben sobald das Bauteil an der richtigen Stelle ist. Sobald das Lötzinn nicht mehr flüssig ist kannst du das Bauteil mit der Pinzette loslassen.
+# Das gleiche mit den Kondensatoren C1 und C2 sowie mit dem Widerstand R3 und der Sicherung F1. Hier genauso verfahren wie mir R1 und R2.
+# Nun lötest du die Widerstände R4, R5 und R6 genau wie die vorherigen Widerstände an. Achte dabei bitte genau darauf, wo du die Widerstände platzierst. Vertauschst du die Widerstände, funktioniert dein RZLblink nicht oder hat eine verkürzte Lebensdauer.
+# Weiter geht es mit der Diode D1. Hier verzinnst du am besten das einzelne Lötpad und lötest, analog zu den Widerständen, das einzelne Beinchen fest. Dabei kannst du das Bauteil direkt richtig ausrichten. Genauso wird auch der Microcontroller aufgelötet. Achte auf die Orientierung; ein kleiner Punkt markiert Pin 1. Hier empfiehlt es sich zunächst diagonal liegende Beinchen anzulöten und danach den Rest
+# Zuletzt folgen die LED und der USB-Stecker. Die LED darf nicht zu warm werden, daher diese bitte vorsichtiger löten. Etwas Flussmittel hilft hier, das Lötzinn unter die LED zu bekommen. 
+# Ist auch der USB-Stecker angelötet, empfiehlt es sich hier mit einer Flachzange die seitlichen Beinchen zur Platine zu biegen um den Stecker mechanisch weiter zu fixieren.
+
+
+
+== Software ==
+
+Das RZLblink ist mit der exzellenten Software von ThingM ([https://github.com/todbot/blink1/ Github Source]) vorgeflasht und hat eine eindeutige Seriennummer. Die Client-Software für deinen PC findest du ebenfalls unter diesem Link.
+
+Für erste Tests unter Linux empfiehlt sich das blink1-tool. Gegebenenfalls muss man eine UDEV-Regel anpassen oder das Program als root-user ausführen.
+
+== Gehäuse ==
+
+operative vom [http://chaosdorf.de Chaosdorf] hat ein Gehäuse für den 3D-Druck designed. Dies findet sich hier: [https://tinkercad.com/things/6Ee6jyoB2tE-rzlblink-deckel RZLblink Deckel] und [https://tinkercad.com/things/hDbEDJYCFHf-rzlblink-unterseite RZLblink Unterseite]
+
+echox hat alternativ eine geschlossene Version designed.
+Bilder und das OpenSCAD-File finden sich hier: http://www.thingiverse.com/thing:129772
+
+== F.A.Q. ==
+
+'''Das RZLblink leuchtet nur kurz, auf wenn ich es an den USB Port stecke'''
+:''Das RZLblink merkt, wenn es an einen USB-Port am PC gesteckt wird und wartet auf Kommandos. Bekommt es nur 5V-Spannung und entdeckt keine USB-Kommunikation blinkt es initial die Kombination "rot grün blau" durch.
+''
+'''Ich sehe das RZLblink nicht am USB-Port, aber es faded die Kombination "rot grün blau"'''
+:''Du hast wahrscheinlich R1 und R2 waagerecht statt senkrecht eingelötet. Schau bitte auf dem Bauplan, ob die Bauteile die richtige Orientierung haben.
+''
+'''Mein RZLblink funktioniert nicht'''
+:''Löte Lötstellen die nicht so schön aussehen einmal nach und teste mit einem Multimeter die einzelnen Verbindungen durch. Sollte alles valide aussehen und leiten, löte Kabel an die sechs Programmierpunkte und versuche die Firmware erneut zu flashen. Gerne helfen wir dir dabei!
+''
+
+==Download==
+{| class="wikitable"  valign = "top"
+!Datei
+!Format
+!Lizenz
+|-
+|Schaltplan
+|[[Medium:SchaltplanRzlBlink.png|.png]]
+|CC-BY-ND
+|-
+|Bauteileliste
+|[[Medium:Parts.txt?|.txt]]
+|CC0
+|-
+|Sourcecode (Github)
+|[https://github.com/todbot/blink1]
+|CC-BY-NC-SA
+|-
+|}
+
+
+== Firmware Mods ==
+* Man kann bis zu 12 Pattern (Zeit und Farbwert) im EEPROM von RZL-Blink ablegen. Diese Pattern können dann mit dem Befehl "p" abgespielt werden. Optional kann die Startposition als Parameter mitgegeben werden. Dann werden die vorher programmierten Pattern ab dieser Position abgespielt. Es sind 12 Pattern möglich. Dummerweise startet die Firmware nach dem 12. Pattern wieder bei 0 und nicht bei der vorher übergebenen Position. Bug oder Feature? Ich habe keine Ahnung, habe aber die zwei fehlenden Zeilen [https://github.com/thinkJD/blink1 hier] eingefügt.
+
+
+* Firmware neu Flashen über SPI ... warum? Schließlich hat das RZL-Blink den doppelten Speicher von blink(1) (ATtiny85 statt ATtiny45) und einen USB-Anschluss. Da ist noch genug Platz für einen [https://github.com/Bluebie/micronucleus-t85 2KB USB-Bootloader]. Ich packe hier mal ein fertiges hex file hin, dann müsst ihr nicht selbst konfigurieren und den alten avr-gcc4.3.3 rauskramen, um es zu kompilieren. (Link kommt noch)
+
+== Bilder ==
+{|
+| [[Datei:RZLblink01.jpg|thumb|200px]]
+| [[Datei:RZLblink02.jpg|thumb|200px]]
+| [[Datei:RZLblink03.jpg|thumb|200px]]
+|}
+
+== Beispiel Applikationen ==
+=== Gleitzeitampel ===
+Die Gleitzeitampel steckt im Bürorechner. Wird dieser morgens eingeschaltet, prüft das Programm, ob er heute zum ersten Mal eingeschaltet wurde. Ist dies der Fall, wird eine Timestamp in die Settings.ini geschrieben. Im Anschluss prüft das Programm alle 5 sec, ob die Sollzeit für diesen Tag erreicht ist und wechselt, falls ja, die Farbe auf Gelb. Man kann nun gehen, ohne Verlust zu machen. Außerdem kann man festlegen, wie viel Zeit man pro Tag gerne aufbauen möchte. Ist die Sollzeit + die Aufbauzeit erreicht, wechselt die Ampel auf grün.
+
+Die erste schmutzige aber getestete Version liegt auf [https://github.com/thinkJD/RZLblinkFlextimeCheck Github]. Feel free to improve.
+
+Binaries gibts [http://www.evernote.com/shard/s76/sh/32adcc5a-0b69-4b73-83d3-9337a32a7c5f/0b320d2dce0a0f842da14718dd00d36e hier].
+
+--[[Benutzer:ThinkJD|ThinkJD]] ([[Benutzer Diskussion:ThinkJD|Diskussion]]) 10:13, 15. Aug. 2013 (CEST)
+
+[[Kategorie:Raum-Kommerz-Labor]]
+[[Kategorie:Shop]]
+[[Kategorie:Projekt]]
