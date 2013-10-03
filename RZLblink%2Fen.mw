@@ -1,5 +1,7 @@
 {{LanguageBox |msg=Diese Seite gibt es auch auf Deutsch: [[RZLblink|hier]]}}
 
+'''Caution! This page is not yet fully translated! Parts may be misleading. 
+'''
 {{ProjektInfoBox
 |name        = RZLblink
 |status      = stable
@@ -24,13 +26,17 @@ Assembly of the RZLblink is rather easy! Follow the following steps and don't fe
 
 While soldering please do watch out to properly position the components according to the illustration below. All components are placed horizontally, the resitors R1 and R2 being the only exception since they ''have'' to be soldered in vertically. 
 
-Bitte achte beim Löten unbedingt auf die Bauteilposition. Alle Bauteile werden waagerecht platziert, Ausnahme sind hier die Widerstände R1 und R2, die zwingend senkrecht gelötet werden müssen. Dazu auch folgende Vorher-Nachher Illustration der Bauteilposition:
 
-[[Datei:RZLblinkBauteilPosition.png|thumb|410px|Vorher-Nachher Illustration der Bauteilposition]]
+[[Datei:RZLblinkBauteilPosition.png|thumb|410px|Before and after schematic for positioning the components]]
 
-# Zunächst die Widerstände R1 und R2 senkrecht einlöten. Dazu benetzt du zunächst jeweils ein Pad mit etwas Lötzinn, nimmst mit einer Pinzette das Bauteil in deine nicht-primäre Hand und erwärmst das Lötzinn wieder. Nun schiebst du vorsichtig das Bauteil in das flüssige Lötzinn, hälst das Bauteil fest mit der Pinzette an der Seite und entfernst den Lötkolben sobald das Bauteil an der richtigen Stelle ist. Sobald das Lötzinn nicht mehr flüssig ist kannst du das Bauteil mit der Pinzette loslassen.
-# Das gleiche mit den Kondensatoren C1 und C2 sowie mit dem Widerstand R3 und der Sicherung F1. Hier genauso verfahren wie mir R1 und R2.
-# Nun lötest du die Widerstände R4, R5 und R6 genau wie die vorherigen Widerstände an. Achte dabei bitte genau darauf, wo du die Widerstände platzierst. Vertauschst du die Widerstände, funktioniert dein RZLblink nicht oder hat eine verkürzte Lebensdauer.
+
+
+# First you solder in the resistors R1 and R2 vertically. To do so you first moisten a pad with a bi of solder. Then you pick up the component with a pair of pliers (hold them in your non-writing hand) and re-heat the solder. Now you carefully push the component into the liquid solder until it is in the correct position. Then you take the soldering iron away from the solder and wait for the solder to solidify while still holding it in position with your pliers. Once it has solidified, you can release the component. 
+# Repeat these steps for the capacitors C1 and C2 as well as the resistor R3 and fuse F1. 
+# Now solder in the resistors R4, R5 and R6 in similar fashion. Always be mindful where you place which one since mistaking one for another will cause your RZLblink to not work properly and might also shorten the components lifetime. 
+# Continue with diode D1. 
+
+
 # Weiter geht es mit der Diode D1. Hier verzinnst du am besten das einzelne Lötpad und lötest, analog zu den Widerständen, das einzelne Beinchen fest. Dabei kannst du das Bauteil direkt richtig ausrichten. Genauso wird auch der Microcontroller aufgelötet. Achte auf die Orientierung; ein kleiner Punkt markiert Pin 1. Hier empfiehlt es sich zunächst diagonal liegende Beinchen anzulöten und danach den Rest
 # Zuletzt folgen die LED und der USB-Stecker. Die LED darf nicht zu warm werden, daher diese bitte vorsichtiger löten. Etwas Flussmittel hilft hier, das Lötzinn unter die LED zu bekommen. 
 # Ist auch der USB-Stecker angelötet, empfiehlt es sich hier mit einer Flachzange die seitlichen Beinchen zur Platine zu biegen um den Stecker mechanisch weiter zu fixieren.
@@ -39,27 +45,31 @@ Bitte achte beim Löten unbedingt auf die Bauteilposition. Alle Bauteile werden 
 
 == Software ==
 
-Das RZLblink ist mit der exzellenten Software von ThingM ([https://github.com/todbot/blink1/ Github Source]) vorgeflasht und hat eine eindeutige Seriennummer. Die Client-Software für deinen PC findest du ebenfalls unter diesem Link.
+The RZLblink is already flashed with the fine Software from ThingM ([https://github.com/todbot/blink1/ Github Source]) and posesses a unique serial-id. The client-software for your PC can also be found following that [https://github.com/todbot/blink1/ link]. 
 
-Für erste Tests unter Linux empfiehlt sich das blink1-tool. Gegebenenfalls muss man eine UDEV-Regel anpassen oder das Program als root-user ausführen.
+For initial tests using linux the blink1-tool is recommended. Maybe a UDEV-Rule has to be configured appropriately or you could run the programm as root-user. 
 
-== Gehäuse ==
 
-operative vom [http://chaosdorf.de Chaosdorf] hat ein Gehäuse für den 3D-Druck designed. Dies findet sich hier: [https://tinkercad.com/things/6Ee6jyoB2tE-rzlblink-deckel RZLblink Deckel] und [https://tinkercad.com/things/hDbEDJYCFHf-rzlblink-unterseite RZLblink Unterseite]
+== Case ==
 
-echox hat alternativ eine geschlossene Version designed.
-Bilder und das OpenSCAD-File finden sich hier: http://www.thingiverse.com/thing:129772
+operative from the [https://wiki.chaosdorf.de/Chaosdorf Chaosdorf] has designed a Case for printing with a 3D-printer. It can be found here:
+
+* [https://tinkercad.com/things/6Ee6jyoB2tE-rzlblink-deckel RZLblink Lid]
+* [https://tinkercad.com/things/hDbEDJYCFHf-rzlblink-unterseite RZLblink Bottom shell]
+
+echox from [https://raumzeitlabor.de/ Raumzeitlabor] has designed a closed version: [http://www.thingiverse.com/thing:129772 Pictures and OpenSCAD-files]
+
 
 == F.A.Q. ==
 
-'''Das RZLblink leuchtet nur kurz, auf wenn ich es an den USB Port stecke'''
-:''Das RZLblink merkt, wenn es an einen USB-Port am PC gesteckt wird und wartet auf Kommandos. Bekommt es nur 5V-Spannung und entdeckt keine USB-Kommunikation blinkt es initial die Kombination "rot grün blau" durch.
+'''RZLblink only lights up briefly when i plug it into the USB-Port'''
+:''RZLblink notices when it is plugged into an USB-port of a PC and then waits for commands. If it only gets 5 Volt and no data-connectivity, it will only blink an initial code of "red green blue".
 ''
-'''Ich sehe das RZLblink nicht am USB-Port, aber es faded die Kombination "rot grün blau"'''
-:''Du hast wahrscheinlich R1 und R2 waagerecht statt senkrecht eingelötet. Schau bitte auf dem Bauplan, ob die Bauteile die richtige Orientierung haben.
+'''I cannot see the RZLblink at the USB port but it is fading the combination "red green blue".'''
+:''You probably soldered in R1 and R2 horizontally instead of vertically. Please refer to the schematic plan to see if they are inserted in the correct orientation. 
 ''
-'''Mein RZLblink funktioniert nicht'''
-:''Löte Lötstellen die nicht so schön aussehen einmal nach und teste mit einem Multimeter die einzelnen Verbindungen durch. Sollte alles valide aussehen und leiten, löte Kabel an die sechs Programmierpunkte und versuche die Firmware erneut zu flashen. Gerne helfen wir dir dabei!
+'''My RZLblink just doesn't work'''
+:''Re-solder any soldering spots that don't look flawless and test individual connections with a multimeter. If all is looking fit, solder wires to the six Programming-connectors and try flashing the firmware again. We're happy to be of assistance for you. 
 ''
 
 ==Download==
@@ -68,11 +78,11 @@ Bilder und das OpenSCAD-File finden sich hier: http://www.thingiverse.com/thing:
 !Format
 !Lizenz
 |-
-|Schaltplan
+|circuit-diagram
 |[[Medium:SchaltplanRzlBlink.png|.png]]
 |CC-BY-ND
 |-
-|Bauteileliste
+|list of parts
 |[[Medium:Parts.txt?|.txt]]
 |CC0
 |-
@@ -109,3 +119,4 @@ Binaries gibts [http://www.evernote.com/shard/s76/sh/32adcc5a-0b69-4b73-83d3-933
 [[Kategorie:Raum-Kommerz-Labor]]
 [[Kategorie:Shop]]
 [[Kategorie:Projekt]]
+[[Category:Wiki Cleanup/ToDo‏‎ ]]
