@@ -26,7 +26,7 @@ While soldering please do watch out to properly position the components accordin
 
 Bitte achte beim Löten unbedingt auf die Bauteilposition. Alle Bauteile werden waagerecht platziert, Ausnahme sind hier die Widerstände R1 und R2, die zwingend senkrecht gelötet werden müssen. Dazu auch folgende Vorher-Nachher Illustration der Bauteilposition:
 
-[[Datei:RZLblinkBauteilPosition.png|thumb|left|410px|Vorher-Nachher Illustration der Bauteilposition]]
+[[Datei:RZLblinkBauteilPosition.png|thumb|410px|Vorher-Nachher Illustration der Bauteilposition]]
 
 # Zunächst die Widerstände R1 und R2 senkrecht einlöten. Dazu benetzt du zunächst jeweils ein Pad mit etwas Lötzinn, nimmst mit einer Pinzette das Bauteil in deine nicht-primäre Hand und erwärmst das Lötzinn wieder. Nun schiebst du vorsichtig das Bauteil in das flüssige Lötzinn, hälst das Bauteil fest mit der Pinzette an der Seite und entfernst den Lötkolben sobald das Bauteil an der richtigen Stelle ist. Sobald das Lötzinn nicht mehr flüssig ist kannst du das Bauteil mit der Pinzette loslassen.
 # Das gleiche mit den Kondensatoren C1 und C2 sowie mit dem Widerstand R3 und der Sicherung F1. Hier genauso verfahren wie mir R1 und R2.
