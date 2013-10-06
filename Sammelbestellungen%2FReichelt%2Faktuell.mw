@@ -13,12 +13,16 @@ NUMMER;ANZAHL
 
 == Der Raum benötigt ==
 
-Für RGB-LED-Strips Olymp und RS485 Hub:
+Für RGB-LED-Strips Olymp, DMX und RS485 Hub:
 <pre>
 SNT MW60-12
 SN 75176BP;10
 MKS-02 1,0N;10
 MKS-02 100N;10
+XLR 5ST;2
+XLR 5KU;2
+XLR 3KU-N;5
+XLR 3ST-N;5
 </pre>
 
 Für Werkstatt Nebenraum:
