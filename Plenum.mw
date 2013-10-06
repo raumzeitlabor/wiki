@@ -20,54 +20,8 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 ; Beschlüsse des letzten Plenums
 :Realitätsabgleich
 
-; Anschaffung eines programmierbaren Labornetzteils
-: [[Benutzer:Felicitus|Felicitus]] möchte auf Raumkosten ein programmierbares Labornetzteil anschaffen (Rigol DP832, 0-30V, 0-30V, 0-5V). Kostenpunkt um die 300€ (z.B. [http://shop.meilhaus.de/Rigol+DP832.htm hier]). Grund dafür ist, daß die vorhandenen Labornetzteile nur sehr grob einstellbar sind und nur jeweils einen Kanal bieten. Außerdem bietet das Rigol fernsteuerbarkeit via USB (inklusive), RS232 und LAN (beides Softwareoption, insgesamt 90€, IMHO nicht unbedingt notwendig), Hi-Res-Software-Option (1mV / 1mA Auflösung / Einstellbarkeit anstatt 10mA/10mV, 69€, würde ich vorschlagen, die mitzuordern). Die 3 Kanäle sind komplett getrennt regel- und ein/ausschaltbar, und es gibt diverse Timerfunktionen. [http://www.rigolna.com/products/dc-power-supplies/dp800/dp832/ Homepage]] --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 23:03, 7. Sep. 2013 (CEST)
-
-; Anschaffung eines fertigen USB-RDM-DMX Interfaces
-: Da das PiLight kein bidirektionales RS485 kann und ich ehrlich gesagt auch keine Lust mehr habe, frickelige Dinge weiter zu zerfrickeln, möchte ich auf Raumkosten den [https://www.enttec.com/?main_menu=Products&pn=70304 DMXUSB Pro] von ENTTec kaufen. Das Device kann RDM, DMX und wird von [http://www.opendmx.net/index.php/Open_Lighting_Project Open Lightning Architecture] unterstützt. Das erspart jede Menge Nerven und Zeit (selbst wenn wir ein RDM-Interface selbst bauen, was vielleicht 20€ kostet, dann muß noch irgendwer die Software dazu schreiben, was Schätzungsweise mal 20+ Stunden dauert). Das Interface ist die Kommunikationsschnittstelle zwischen dem Netzwerk und alles, was an DMX angeschlossen werden kann, insbesondere Lichtsteuerung und die RGB-Strips im Olymp. Ich plane auch, die DMX-Spots von Timon darüber steuerbar zu machen. Kosten: [http://www.thomann.de/de/enttec_dmx_usb_pro_interface.htm 149€ bei Thomann]. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 14:36, 6. Okt. 2013 (CEST)
-
-; Anschaffung neuer Platten für Mate 
-
-: Uns sterben derzeit die Platten in Mate weg, jetzt schon die dritte innerhalb weniger Wochen. Dies scheint wohl in der schlechten Qualität dieses Plattentyps begründet [http://www.newegg.com/Product/Product.aspx?Item=22-145-533&SortField=0&SummaryType=0&Pagesize=10&PurchaseMark=&SelectedRating=-1&VideoOnlyMark=False&VendorMark=&IsFeedbackTab=true&Page=3#scrollFullInfo viele Reviews hier]. Wir können diese Platten nicht RMA'en, weil diese nicht in Deutschland gekauft wurden (Hitachi RMA-System sagt: Unknown Serial).
-
-: Weiterer Hintergrund: Wir haben $damals kostenlos 6 1TB-Platten bekommen, wodurch ein RAID5 mit 5 Platten aufgebaut wurde, 1 Platte als Spare. Vor einigen Wochen haben wir erneut 4 Platten bekommen. Insgesamt sind seit Februar 3 Platten gestorben, es verbleiben somit nur noch 2 Reserveplatten.
-
-: Insgesamt benötigen wir entweder 3+1 oder 5+1 Platten wegen RAID5. 3 Stück sind bei >3TB pro Platte besser, da der N40L nicht von 3TB booten kann mangels GPT-Support. In dem Falle 3TB pro Platte wären das 6TB Nutzkapazität, bei 5 Platten 12TB. Mindestens  eine Platte muß als Spare vorgehalten werden. Booten könnte man von einer SSD, docsteel hat ggf. noch eine, aber eine 64GB Crucial M4 ist mit um die 60€ relativ günstig zu haben.
-
-: '''Es geht um 4 Platten WD30EFRX zu je 120€, und ggf. eine 64GB Crucial M4 für 60€, wenn docsteel keine SSD mehr vorrätig hat.'''
-
-; Vorhänge
-: [[Benutzer:Felicitus|Felicitus]] hat bereits 5 Vorhänge umgenäht und mit Magneten versehen. Ein Vorhang fehlt. Mehr Vorhänge müssen für den Nebenraum gekauft werden. Wir benötigen einen Freiwilligen, der sich um die Vorhangsbeschaffung kümmert, nachdem sich auf der Liste niemand dazu bereit erklärt hat. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 14:30, 6. Okt. 2013 (CEST)
-
-; Regeln für Trollconraum-Entrümpelung
-
-: Es gab bereits mehrere Versuche fleissiger Raumzeitlaboranten, im Trollcon-Raum mal etwas Klarschiff zu machen. Dennoch ist der so voll wie eh und je. Nun ist zwei Wochen nach dem Plenum die nächste Trollcon und sofern man nicht die Besucher als Aufräumhelfer trollen möchte, sollte man sich was einfallen lassen. Daher folgende 2 Vorschläge zur Abstimmung:
-
-* '''Alles im Trollconraum, was keiner Person zuordenbar ist, ist entweder automatisch Spende für den Verein oder kann weggeschmissen werden'''
-* '''Das W&D aller Räume, die wir nutzen (Trollconraum, Raucherecke draussen, Platz vor Getränkelager etc. ) sollte künftig ein fester Bestandteil des W&D sein'''
-
-Bitte besprecht das auch, falls ich nicht da sein sollte. 
-
---[[Benutzer:Bfritz0815|Bfritz0815]] ([[Benutzer Diskussion:Bfritz0815|Diskussion]]) 17:10, 22. Sep. 2013 (CEST)
-
-
-
 ;Weltherrschaft
 :Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
-
-
-;zum Abschluss des Plenums:
-
-* Nach dem Plenum gehen bitte alle Anwesenden in den Trollconraum und nehmen alles mit, was irgendeiner Person zuordenbar ist. (bitte labeln nicht vergessen) Danke.
-* die Anwesenden bringen bitte die x Bierkästen weg. 
-* jemand (TM) kümmert sich bitte  um die Verschiffung der Mate-Leergut-Paletten (noch ne dritte besorgen)
-* angesichts von Schrott (alter Herd etc.) im Hauptraum und Sperrmüll im Trollconraum wäre es ggf. mal ne Idee, bei Kübler wegen orga einer Sperrmüll-Abholung anzufragen
-* auch interessant: wem gehört das Zeuch hinten im T-Raum denn jetzt wirklich und wie kriegen wir das weg? Mit Kübler reden? Zum anderen Sperrmüll dazu?
-* wie wäre es mit zurodnung konkreter Personen zu den Aufgaben, bis alles zugeordnet ist? (Sonst kriegen wir den Raum nie für die Trollcon leer und ausserdem kommt dann noch evtl. irgendwann kübler und verlangt extra-miete dafür oder so)
-
-(diese Vorschläge braucht niemand abstimmen, die sind hier nur um mal ein gewissene Bewusstsein für den Umfang zu schaffen)
-
---[[Benutzer:Bfritz0815|Bfritz0815]] ([[Benutzer Diskussion:Bfritz0815|Diskussion]]) 17:10, 22. Sep. 2013 (CEST)
 
 == Protokolle vergangener Plenen ==
 
