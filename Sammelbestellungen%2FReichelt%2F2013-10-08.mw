@@ -1,0 +1,53 @@
+
+== Der Raum benötigt ==
+
+Für RGB-LED-Strips Olymp, DMX und RS485 Hub:
+<pre>
+SNT MW60-12;1
+SN 75176BP;10
+MKS-02 1,0N;10
+MKS-02 100N;10
+XLR 5ST;2
+XLR 5KU;2
+XLR 3KU-N;5
+XLR 3ST-N;5
+</pre>
+
+Für Werkstatt Nebenraum:
+
+<pre>
+CEE-DOSE 4-16;1
+</pre>
+
+Für Ätzecke:
+
+<pre>
+ÄTZMITTEL 600G;2
+</pre>
+
+Für Mate:
+
+<pre>
+WD30EFRX;4
+</pre>
+
+== hax404 braucht ==
+
+<pre>
+TEK-BERRY SW;2
+</pre>
+
+== echox braucht ==
+
+<pre>
+PFL 20;10
+WSL 20G;6
+ATMEGA 32A-AU;4
+PSS 254/4G;20
+PSK 254/4W;20
+BEL 160X100-1;3
+16,0000-HC49-SMD;10
+TS 1117 CW50;6
+IRLR 110;4
+32,0000-HC18;4
+</pre>
