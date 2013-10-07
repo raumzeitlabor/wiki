@@ -23,7 +23,7 @@ In einem eBay-Wahn hat [[Benutzer:Tiefpunkt|tiefpunkt]] <del>einen</del> zwei Ba
 * [[Datei:CNC-Fräse - Motoren XY - Datasheet.pdf]]
 
 == Elektronik ==
-Next version: Arduino CNC Shield [http://blog.protoneer.co.nz/arduino-cnc-shield/] ??
+Next version: Arduino CNC Shield [http://blog.protoneer.co.nz/arduino-cnc-shield/] ?? TinyG [http://www.synthetos.com/] ??
 === CNC Electronics v0.1.1 ===
 * Arduino Uno (Kopfüber)
 * 3x Pololu A4983 Schrittmotortreiber
