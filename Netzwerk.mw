@@ -106,7 +106,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.124 || rzl-thinkpad || [[Public Terminals|Public Terminal]] Thinkpad X40
 |-----
-| 172.22.36.125 ||  || 
+| 172.22.36.125 || abrock-spike || Netbook von ABrock zum Luftfeuchtigkeitsmonitoring 
 |-----
 | 172.22.36.126 || applejack || Apple™ Mac Mini ([[Beamer]]-Mac)
 |-----
