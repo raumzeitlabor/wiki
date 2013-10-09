@@ -1,6 +1,6 @@
 {| class="wikitable"
 |-
-! Ding !! Preis [€]
+! Ding !! Preis pro Stück [€]
 |-
 | Ultraschall Abstandssensor || 3
 |-
@@ -18,15 +18,29 @@
 |-
 | Jumperwire male-male (~65 Stück) || 3
 |-
-| Hacklace || 10
+| Hacklace (bis 9 Stück)|| 10
+|-
+| Hacklace (ab 10 bis 19 Stück)|| 9
+|-
+| Hacklace (ab 20 bis 49 Stück)|| 8.5
+|-
+| Hacklace (ab 50 Stück)|| 8
 |-
 | USB-ASP || 6
 |-
 | USB2Serial || 5
 |-
-| ISP Adapter 10- auf 6-polig || 2
+| ISP Adapter 10- auf 6-polig || 1.5 
 |-
-| RZL Blink || ???
+| RZL Blink (bis 9 Stück) || 8
 |-
-| Micro-Moody || ???
+| RZL Blink (ab 10 bis 19 Stück) || 7.5
+|-
+| RZL Blink (ab 20 Stück) || 7
+|-
+| Micro-Moody (bis 9 Stück) || 5
+|-
+| Micro-Moody (ab 10 bis 19 Stück) || 4.5
+|-
+| Micro-Moody (ab 20 Stück) || 4
 |}
