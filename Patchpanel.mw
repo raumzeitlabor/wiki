@@ -11,5 +11,7 @@ Port 24: ist mit dem Flukso belegt.
 
 == Patchpanel 2 ==
 
+Ports 19 und 20 führen zum Kabelkanal bei der Snackbar (Dosennummer 119 und 120).
+
 Ports 21-24 führen in den Nebenraum zum [[Nebenraum/Netzwerkverteiler#Patchpanel|Patchpanel des Nebenraumes]]
 [[Kategorie:Hardware]]
