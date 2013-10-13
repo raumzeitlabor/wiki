@@ -18,7 +18,7 @@ Das RaumZeitLabor veröffentlicht schon seit geraumer Zeit die wöchentlichen Vo
 '''Eine Übersichtsseite aller Videos gibt es unter [http://podcast.raumzeitlabor.de podcast.raumzeitlabor.de]. Der Feed ist [http://feeds.feedburner.com/RaumzeitlaborPodcast hier] zu finden, der Eintrag im iTunes Store [https://itunes.apple.com/de/podcast/raumzeitlabor-podcast/id595143602?l=de hier].'''
 
 == Kosten ==
-Zum Hosten wurde ein vServer bei webtropia.de angemietet. Die Kosten belaufen sich aktuell auf 8,99€ im Monat (es ist absehbar, dass bald mehr Speicherplatz benötigt wird) - wer das Projekt finanziell unterstützen möchte, kann sich bei [[Benutzer:Silsha|silsha]] melden.
+Zum Hosten wurde ein vServer bei OVH angemietet. Die Kosten belaufen sich aktuell auf 20 im Monat. Die Kosten hierfür trägt der Verein, wie im [[20130505_-_Plenum#podcast.raumzeitlabor.de|Plenum]] beschlossen.
 
 == Youtube-Fruitcaster ==
 Der [http://github.com/tiefpunkt/youtube-fruitcaster Youtube-Fruitcasters] crawlt den RaumZeitLabor Youtube-Kanal mittels Youtube-API, und lädt die Videos dann von dort herunter. Darum brauch er recht viel Speicherplatz (deshalb auch ein eigener vServer, s.o.). Details dazu gibt es im [https://github.com/tiefpunkt/youtube-fruitcaster/blob/master/README.md README]. Wie so oft, gibt es da noch so Einiges zu optimieren, feel free to send pull requests.
