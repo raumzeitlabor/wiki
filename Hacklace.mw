@@ -349,7 +349,10 @@ Damit deinem Hackerspace das ganze auch zugute kommt, gibt es einen Rabatt bei g
 
 == Probleme & Lösungen ==
 
-===Firmware compiliert nicht===
+=== Fehlerdiagnose ===
+Es gibt ein [https://www.youtube.com/watch?v=tKu9sYu3xm8 Video], das dabei helfen kann einige Fehler, die beim Zusammenbau auftreten können, zu identifizieren.
+
+=== Firmware compiliert nicht ===
 Das kann einige Gründe haben.
 <pre>
 du@deinekiste:~/Hacklace$ make
