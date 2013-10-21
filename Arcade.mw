@@ -13,3 +13,13 @@ Das gesamte Gerät soll so weit wie möglich selbst gebaut werden, d.h. die Holz
 <LI>Userinterface: Controls, Bildschirm
 <LI>Technik: Ein robuster und ausreichend schneller Rechner
 <LI>Software: Auswahl einer geeigneten Bedienoberfläche, mit der alle notwendigen Funktionen über die Arcade-Controls erfolgen können (z.B. AGLAD: [http://www.arcadeinfo.de/showthread.php?16069-A-GNU-LINUX-ARCADE-DISTRIBUTION-0-92b])
+
+
+== Kontakt ==
+oko
+
+== bisherige Erkenntnisse ==
+2013-10-08 Da der Monitor in eine Tischplatte eingelassen werden soll, fällt die Verwendung eines TFT-Monitors aufgrund der üblichen Beschränkungen (Blickwinkelabhängigkeit, insbesondere von der Seite) eher aus. Ein funktionierender CRT ist für den Prototypenbau vorhanden
+2013-10-09 Die technische Basis für den Rechner wird ein altes Pentium 4-Board mit 2 GB RAM darstellen (plus optisches Laufwerk und eine SSD bzw. eine bootfähige CF-Karte)
+2013-10-15 Für die Arcade-Controls wurde ein Tastaturcontroller einer DELL USB-Tastatur "recycled", die benutzte Tastaturmatrix ausgemessen und ein Controls-Prototyp erstellt -> funktioniert soweit. Fragestellung: Eigenes Breakout-Board oder "fliegende Verkabelung"
+2013-10-21 Die Holz- und Glasarbeiten wurden bei zwei Schreinereien angefragt.
