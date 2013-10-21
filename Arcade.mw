@@ -19,7 +19,7 @@ Das gesamte Gerät soll so weit wie möglich selbst gebaut werden, d.h. die Holz
 oko
 
 == bisherige Erkenntnisse ==
-2013-10-08 Da der Monitor in eine Tischplatte eingelassen werden soll, fällt die Verwendung eines TFT-Monitors aufgrund der üblichen Beschränkungen (Blickwinkelabhängigkeit, insbesondere von der Seite) eher aus. Ein funktionierender CRT ist für den Prototypenbau vorhanden
-2013-10-09 Die technische Basis für den Rechner wird ein altes Pentium 4-Board mit 2 GB RAM darstellen (plus optisches Laufwerk und eine SSD bzw. eine bootfähige CF-Karte)
-2013-10-15 Für die Arcade-Controls wurde ein Tastaturcontroller einer DELL USB-Tastatur "recycled", die benutzte Tastaturmatrix ausgemessen und ein Controls-Prototyp erstellt -> funktioniert soweit. Fragestellung: Eigenes Breakout-Board oder "fliegende Verkabelung"
-2013-10-21 Die Holz- und Glasarbeiten wurden bei zwei Schreinereien angefragt.
+<LI>2013-10-08 Da der Monitor in eine Tischplatte eingelassen werden soll, fällt die Verwendung eines TFT-Monitors aufgrund der üblichen Beschränkungen (Blickwinkelabhängigkeit, insbesondere von der Seite) eher aus. Ein funktionierender CRT ist für den Prototypenbau vorhanden
+<LI>2013-10-09 Die technische Basis für den Rechner wird ein altes Pentium 4-Board mit 2 GB RAM darstellen (plus optisches Laufwerk und eine SSD bzw. eine bootfähige CF-Karte)
+<LI>2013-10-15 Für die Arcade-Controls wurde ein Tastaturcontroller einer DELL USB-Tastatur "recycled", die benutzte Tastaturmatrix ausgemessen und ein Controls-Prototyp erstellt -> funktioniert soweit. Fragestellung: Eigenes Breakout-Board oder "fliegende Verkabelung"
+<LI>2013-10-21 Die Holz- und Glasarbeiten wurden bei zwei Schreinereien angefragt.
