@@ -1,6 +1,9 @@
-/*<pre>*/
+/*
+{{#css:Trollcon/2013/Stylesheet}}
+== Vorschau ==
+Instant Preview!
 
-
+<pre>*/
 
 *, * * {
   background-color: #E6007D !important;
@@ -30,6 +33,5 @@ a.new { text-decoration: line-through !important; }
   color: #E6007D !important;
   margin-right: 2px !important;
 }
-
 
 /*</pre>*/
