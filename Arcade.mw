@@ -4,3 +4,12 @@
 Ein möglichst kostengünstiger, authentische aussehender (und funktionierender) Arcade-Automat in Form eines sog. Cocktail-Arcades. Auf Basis eines älteren PC soll ein komplett über Arcade-Controls steuerbarer Spielautomat entstehen - Die Herausforderung besteht dabei darin, das Projekt möglichst kostengünstig zu gestalten und so zu dokumentieren, dass es nachvollziehbar und nachbaubar ist.
 
 Das gesamte Gerät soll so weit wie möglich selbst gebaut werden, d.h. die Holz- und Glasarbeiten müssen ebenso organisiert werden, wie das Customizing des Betriebssystems. Kommerzielle Technik soll so sparsam wie möglich eingesetzt werden, alles, was selbst gebaut werden kann, sollte auch selbst hergestellt werden (z.B. Adapter zur Steuerung des PC über Arcade-Controls auf Basis eines alten Tastaturcontrollers vs. JPAC).
+
+
+== Teilbereiche ==
+<LI>Holzarbeiten: Herstellung des Gehäuses nach vorhandenen Plänen
+<LI>Glasarbeiten: Anfertigen der Deckglasscheibe nach vorhandenen Plänen
+<LI>Blecharbeiten: Anfertigen der Steuerkonsolen für die Arcade-Controls (evtl. aus Holz)
+<LI>Userinterface: Controls, Bildschirm
+<LI>Technik: Ein robuster und ausreichend schneller Rechner
+<LI>Software: Auswahl einer geeigneten Bedienoberfläche, mit der alle notwendigen Funktionen über die Arcade-Controls erfolgen können (z.B. AGLAD: [http://www.arcadeinfo.de/showthread.php?16069-A-GNU-LINUX-ARCADE-DISTRIBUTION-0-92b])
