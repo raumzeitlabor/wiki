@@ -39,3 +39,7 @@ Die Lichtsteuerung sowie Steckdosensteuerung wird komplett über RDM bedient und
 Im Olymp hängt ein [http://www.ulrichradig.de/home/index.php/avr/dmx-led-strip DMX-RGB-Strip Controller], welcher die drei RGB-Strips ansteuert.
 
 Die Adressen für Rot, Grün und Blau sind jeweils 0,1 und 2.
+
+== Spark ==
+
+spark.rzl ist ein Raspberry Pi, der Umsetzer zwischen Netzwerk und DMX spielt.
