@@ -15,3 +15,11 @@ MGM 16;5
 MGM 20;5
 RASPBERRY PI A;1
 </pre>
+
+== Der Raum braucht ==
+
+Verlängerung vom Rack zum USB-Hub hinter dem Rack:
+
+<pre>
+DIGITUS DA-70130;1
+</pre>
