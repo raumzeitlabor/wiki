@@ -46,7 +46,7 @@ Macht echox demnächst.
 
 Das [[NOC_Team]] hat in letzter Zeit Performanceprobleme auf [[Mate (Server)]]. Gründe dafür sind vielschichtig, aber im Prinzip ist es einfach: Zuviele Mitglieder-VMs sowie das Datengrab (was im Moment wegen Software-Crypto nur 10MB/s liefern kann). Mate läuft im Idle-Betrieb mit ca. 50-70% CPU-Belastung. 
 
-** Kostenpunkt: 400€ (Microserver G8), 120€ (16GB RAM), Xeon E3-1230 v2 CPU: 200€, Summe: 720€.
+Kostenpunkt: 400€ (Microserver G8), 120€ (16GB RAM), Xeon E3-1230 v2 CPU: 200€, Summe: 720€.
 
 Echox fragt, warum da so viele VMs laufen und wofür die gut sind.
 
