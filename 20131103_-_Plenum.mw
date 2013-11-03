@@ -1,0 +1,133 @@
+Plenum vom 3. November 2013<br>
+Anwesend: blabber, blabber, blabber, blabber, blabber, blabber, blabber, blabber, blabber, blabber, blabber
+Leitung: [[Benutzer:Alexander Brock|Alexander]]<br>
+Protokoll: [[Benutzer:Alexander Brock|Alexander]]
+
+Beginn: 17:13
+
+== Protokoll ==
+
+=== Realitätsabgleich ===
+==== Getränkeautomat ====
+Keine Neuigkeiten.
+
+
+; Beschlüsse des letzten Plenums
+:Realitätsabgleich
+
+=== Tagesgeldkonto ===
+
+ThinkJD schickt diese Woche das Formular für das Tagesgeldkonto ab.
+
+=== Anschaffung programmierbares Labornetzteil ===
+
+Programmierbares Labornetzteil kommt sobald es lieferbar ist. Felicitus erklärt dem Versender, dass wir nicht bezahlen bevor es lieferbar ist.
+
+=== Anschaffung eines fertigen USB-RDM-DMX Interfaces ===
+
+Wurde erledigt. Felicitus hat noch nicht damit gespielt, wird das aber demnächst tun.
+
+=== Anschaffung neuer Platten für Mate ===
+
+Wurde erledigt, sind eingebaut, werden demnächst auch benutzt.
+
+=== Vorhänge ===
+
+Bisher ist nichts passiert. Nathalie: Thomann verkauft Bühnenmolton, jemand müsste mal mit einem Bamberger darüber reden.
+
+=== Regeln für die Trollconraumentrümpelung ===
+
+Erfolg: Der Trollconraum enthält nichts mehr von uns. Garnichts.
+
+Trollconraum, Raucherecke, Platz vor Getränkelager soll dazu gehören. Bis jetzt hat niemand die Raucherecke gesäubert, Maik wird das gleich tun.
+
+=== Feinmengenwaage beschaffen ===
+
+Macht echox demnächst.
+
+== Ersatz bzw Erweiterung für Mate ==
+
+Das [[NOC_Team]] hat in letzter Zeit Performanceprobleme auf [[Mate (Server)]]. Gründe dafür sind vielschichtig, aber im Prinzip ist es einfach: Zuviele Mitglieder-VMs sowie das Datengrab (was im Moment wegen Software-Crypto nur 10MB/s liefern kann). Mate läuft im Idle-Betrieb mit ca. 50-70% CPU-Belastung. 
+
+** Kostenpunkt: 400€ (Microserver G8), 120€ (16GB RAM), Xeon E3-1230 v2 CPU: 200€, Summe: 720€.
+
+Echox fragt, warum da so viele VMs laufen und wofür die gut sind.
+
+Felicitus zählt Dienste auf.
+
+Das Datengrab ist langsam wegen Software-Krypto, die Xeon-CPUs haben Hardware-AES, das macht die Sache schnell.
+
+Abstimmung
+
+Dafür: 9
+Dagegen: 0
+Enthaltung: 2
+
+Wird gekauft.
+
+== Mehrfachsteckdosen ==
+
+Abstimmung:
+
+Dafür: 0
+Dagegen: 0
+Skip: 11
+
+== Fnordcordia ==
+
+Es muss geklärt werden, ob und zu welchen Konditionen die Fnordcordia Dinge des RZL verkauft.
+
+Echox meint, dass die Staffelpreise nicht beschlossen sind, die stammen von muzy, der die festgelegt hat.
+Echox findet gut, dass Fnordcordia für alles verantwortlich ist, und dass die Leute sich die ganze Mühe mit Versand etc. machen.
+
+ThinkJD findet die Diskussion lächerlich und findet cool, dass die das machen.
+Wenn es Probleme gibt kann man die klären, wenn sie auftreten.
+
+Abstimmung, ob Fnordcordia die Staffelpreise bekommt:
+
+Dafür: 11
+Dagegen: 0
+Enthaltung: 0
+
+== Dreh/Bohr/Fraessmaschine ==
+
+Echox erklärt, dass er die Werkstatt aufräumt, wenn da eine Drehmaschine steht.
+
+Fabian ist sauer, dass die Werkstatt nicht benutzbar ist.
+
+Echox und Fabian sind sich uneinig über Kausalketten.
+
+Thema wird auf nächstes Jahr vertagt.
+
+== Sprühätzanlage ==
+
+Die vorhandene Aetzanlage ist freundlich ausgedrueckt Schrott.
+Ich wuerde fuer den Verein gerne etwas in folgender Preiskategorie anschaffen:
+http://s248694076.e-shop.info/shop/article_HWE003/HWE-SA1_2S.html?sessid=9KoryHCJCTVztcnjf4AzIIXXk88UVTYZjuQztWReXdXoq6wTzqM4DCJADtye5IkE&shop_param=cid%3D3%26aid%3DHWE003%26
+
+Oder
+http://s248694076.e-shop.info/shop/article_HWE-WAG1/Bundle-Spr%C3%BCh%C3%A4tzen.html?sessid=H4NnUkkP8uJoLDWxQNP0NqzfFHMbDg0CFW3UB7ZmuqUrV8gZU0zw0vi96qPA6NbM&shop_param=cid%3D12%26aid%3DHWE-WAG1%26
+
+Abstimmung über den Kauf der zweiten Anlage:
+
+Dafür: 10
+Enthaltung: 1
+Dagegen: 0
+
+== Fabians Punkte ==
+
+* Wo ist der dritte Vorhang der rechten Fensterfront des Hauptraums?
+* Wie geht es mit dem Strom im Nebenraum raum? Dafo macht nächsten Dienstag die Verkabelung fertig und klärt das mit Robert.
+* Was ist mit Netzwerk im Nebenraum? Felicitus: Strom fehlt, sonst ist alles fertig: 4x Gigabit-Uplink in den Nebenraum.
+* Dashies RC-Auto steht im Weg, Benzin-Kanister sollte irgendwo anders hin, weil Benzin lagern nicht so toll ist. Alexander hat Dashie angequeriet.
+* Fabian will die vier Sessel und die Bunker-Bank weghaben (Müll).
+Dafür: 7, Enthaltung: 3
+* Felicitus ist kalt
+
+== Welstherrschaft ==
+
+Nimmt (geheime) Formen an.
+
+Plenum wurde um 18:23 beendet. 
+
+[[Kategorie:Plenum]] [[Kategorie:Protokoll]]
