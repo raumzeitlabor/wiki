@@ -160,8 +160,6 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.225 || [[Mate_(Server)/slowpoke.vm.rzl]] || Mitglieder-VM (beta)
 |-----
-| 172.22.36.235 || [[Mate_(Server)/cheata.vm.rzl]] || Mitglieder-VM (beta)
-|-----
 | 172.22.36.235 || [[Mate_(Server)/qrgo.vm.rzl]] || [[qrgo]] Mitglieder-VM für qrgo-Projekt von cheatha (beta)
 |-----
 | 172.22.36.236 || [[Mate_(Server)/bernd.vm.rzl]] || Mitglieder-VM
