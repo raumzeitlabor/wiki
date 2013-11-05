@@ -32,7 +32,9 @@ Die Kilowattstunde kostet uns 0,22€.
 
 {| class="wikitable"
 |-
-! Datum !! Uhrzeit !! Stand !! Kosten !! Kosten pro Tag !! Kosten pro Monat !! Kosten seit der letzten Stromrechnung (30000kWh)
+! Datum !! Uhrzeit !! Stand !! Kosten !! Kosten pro Tag !! Kosten pro Monat !! Kosten seit der letzten Stromrechnung (30000kWh) !! Prognose
+|-
+| 05.11.2013 || 21:42 || 37890.42 || - || -    || -      || 1735.80 || 2082.96
 |-
 | 07.08.2013 || 00:50 || 35492.23 || - || -    || -      || 1208.29
 |-
@@ -50,7 +52,9 @@ Die Kilowattstunde kostet uns 0,22€.
 
 {| class="wikitable"
 |-
-! Datum !! Uhrzeit !! Stand !! Kosten !! Kosten pro Tag !! Kosten pro Monat !! Kosten seit der letzten Stromrechnung (182kWh)
+! Datum !! Uhrzeit !! Stand !! Kosten !! Kosten pro Tag !! Kosten pro Monat !! Kosten seit der letzten Stromrechnung (182kWh) !! Prognose
+|-
+| 05.11.2013 || 21:42 || 1221.21 || - || -    || -      || 268.62 || 322.34
 |-
 | 07.08.2013 || 00:50 || 774.8.0 || - || -    || -      || 130.42
 |-
