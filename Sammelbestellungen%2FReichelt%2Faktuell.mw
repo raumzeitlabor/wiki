@@ -20,11 +20,13 @@ RASPBERRY PI A;1
 
 Verlängerung vom Rack zum USB-Hub hinter dem Rack:
 
-<pre>
-DIGITUS DA-70130;1
-</pre>
-
 Für 19"-Rack 3HE Einbaumodule
 <pre>
 ML-B 64W;10
+</pre>
+
+E-Ecke:
+
+<pre>
+SOLDASORB 25;1
 </pre>
