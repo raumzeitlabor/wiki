@@ -33,7 +33,7 @@
 |1x Onboard, 2x USB 2.0 hinten, 2x USB 3.0 hinten, 2x USB 2.0 vorne
 |-
 |Verbrauch
-|60W aktiv / 35W idle (Messung mit einem schlechten Messgerät)
+|60W Volllast / 31W idle (Messung mit einem schlechten Messgerät, jeweils ohne Platten)<br/>jede Platte: 4.1W aktiv, 3W idle (laut Datenblatt)<br/><b>Insgesamt Idle: 40W<br/>Insgesamt Volllast: 72.3W</b>
 |-
 |Virtualisierung
 |libvirt/KVM
