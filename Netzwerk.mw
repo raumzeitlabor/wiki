@@ -194,7 +194,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.251 || [[Mate (Server)/Monitoring]] || Mate/Monitoring
 |-----
-| 172.22.36.252 || ''reserved'' || Reserviert für Geräte
+| 172.22.36.252 || [[Mate (Server)]] || Mate [http://h17007.www1.hp.com/us/en/enterprise/servers/management/ilo/index.aspx#.UoEbpXXWGCg ILO Port]
 |-----
 | 172.22.36.253 || Administrativ belegt || Bei Fragen: Docsteel oder sECuRE
 |-----
