@@ -27,7 +27,7 @@
 |1x 8GB Kingston DDR3 ECC sowie 1x 4GB Original HP DDR3 ECC
 |-
 |HDDs
-|3x3TB (WD30EFRX)<br/>RAID5 über alle Platten, 6TB nutzbar, LVM, Platten werden über smartd gemonitort und an netzwerk (ät) rzl dot de im Fehlerfalle geschickt plus 1x 64GB SSD
+|3x3TB (WD30EFRX)<br/>RAID5 über alle Platten, 6TB nutzbar, LVM, Platten werden über smartd gemonitort und an netzwerk (ät) rzl dot de im Fehlerfalle geschickt<br/>1x 64GB SSD
 |-
 |USB
 |1x Onboard, 2x USB 2.0 hinten, 2x USB 3.0 hinten, 2x USB 2.0 vorne
@@ -38,7 +38,6 @@
 |Virtualisierung
 |libvirt/KVM
 |}
-
 
 ==Technische Daten==
 {| class="wikitable"  valign = "top"
