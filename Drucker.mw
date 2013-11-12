@@ -18,7 +18,12 @@
 </div>
 
 =Labeldrucker=
-'''BETA''': Die Labeldrucker sind über die Brother P-Touch Software ansprechbar, erreichbar über VNC auf 172.22.36.222 (Passwort "label"). Der initiale Connect dauert etwas (1-2 Minuten, unklar warum).
+{| style="background: #FEEFB3; border: 1px solid #9F6000"
+|style="width: 40px"| [[Datei:64px-UnderCon icon.png|64px|Ich hab keine anderes Icon gefunden]]
+|'''BETA''': Die Labeldrucker sind über die Brother P-Touch Software ansprechbar, erreichbar über VNC auf 172.22.36.222 bzw. Hostname "labelprint", Passwort "label". 
+|}<br>
+
+
 
 == Brother P-touch QL-500 ==
 [[Datei:Labeldrucker QL500.JPG|left|150px]]
