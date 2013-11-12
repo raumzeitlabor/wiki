@@ -26,6 +26,18 @@ befindlichen Geräte, protokollieren beides jeweils in einer RRD-Datei und
 laden anschließend einen [http://status.raumzeitlabor.de/status-1week.png generierten Graphen] sowie [http://status.raumzeitlabor.de/api/full.json full.json] und [http://status.raumzeitlabor.de/api/simple simple.txt]
 via WebDAV auf status.raumzeitlabor.de.
 
+== Debugging ==
+
+* Raumstatus auf ? oder orange? Auf der firebox folgendes starten:
+<pre>
+cd /root; screen -dmS status ./tuerstatusd.pl
+</pre>
+
+* Keine Mitglieder werden angezeigt?
+<pre>
+while true; do ./unifi-check.pl; sleep 10; done
+</pre>
+
 == Links ==
 
 === Für Nutzer ===
