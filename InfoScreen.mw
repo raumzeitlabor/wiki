@@ -36,9 +36,7 @@ Auf einem Raspberry Pi läuft ein Raspbian, dass beim Hochfahren einen Chromium 
 
   sudo apt-get install chromium x11-xserver-utils unclutter
 
-=== Konfiguration ===
-
-==== Autostart in X11 ====
+=== Autostart in X11 ===
 
   sudo nano /etc/rc.local
 
@@ -46,7 +44,7 @@ Folgende Zeile ganz am Ende einfügen:
 
   su -l pi -c startx
 
-==== Autostart Chromium Kiosk ====
+=== Autostart Chromium Kiosk ===
 
   sudo nano /etc/xdg/lxsession/LXDE/autostart
 
