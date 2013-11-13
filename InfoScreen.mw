@@ -5,7 +5,7 @@
 |description = Aktuelle Information über das RaumZeitLabor
 |author      = [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Blabber|blabber]]
 |username    = 
-|version     = v0.3
+|version     = v0.4
 |update      = 
 |platform    = 
 |preis       = 
@@ -23,7 +23,38 @@ Der InfoScreen steht auf dem Kühlschrank und zeigt einige interessante Informat
 * Twitterwall
 * Bilder aus [http://log.raumzeitlabor.de log.raumzeitlabor.de]
 
-Auf einem ThinClient ist ein SilTaz installiert, dass beim Hochfahren eine Browser öffnet und auf http://cosm.tiefpunkt.com/infoscreen/ navigiert. Da läuft der Infoscreen, eine Mischung aus PHP, HTML und JS, die aus Daten von Cosm, der VRN und Twitter eine kleine Seite produziert, die alle 30 Sekunden aktualisiert wird.
+== Technik ==
+
+Auf einem Raspberry Pi läuft ein Raspbian, dass beim Hochfahren einen Chromium im Kioskmodus öffnet und auf http://cosm.tiefpunkt.com/infoscreen/ navigiert. Da läuft der Infoscreen, eine Mischung aus PHP, HTML und JS, die aus Daten von Cosm, der VRN und Twitter eine kleine Seite produziert, die alle 30 Sekunden aktualisiert wird.
+
+== Konfiguration ==
+
+=== Software ===
+
+  sudo apt-get install chromium x11-xserver-utils unclutter
+
+=== Konfiguration ===
+
+==== Autostart in X11 ====
+
+  sudo nano /etc/rc.local
+
+Folgende Zeile ganz am Ende einfügen:
+
+  su -l pi -c startx
+
+==== Autostart Chromium Kiosk ====
+
+  sudo nano /etc/xdg/lxsession/LXDE/autostart
+
+xscreensaver und lxpanel entfernen. Folgende Zeilen ergänzen: 
+
+  @xset s off
+  @xset -dpms
+  @xset s noblank
+  @chromium --user-data-dir=/tmp --kiosk cosm.tiefpunkt.com/infoscreen/
+  @xmodmap -e "pointer = 1 10 9 8 7 6 5 4 3 2"
+
 
 [[Kategorie:Projekt]]
 [[Kategorie:Hardware]]
