@@ -21,8 +21,10 @@ An der linken Röhre ist ein Taster eingebaut, welcher durch die Pringlesdosen d
 
 == TODO ==
 * Von Arduino auf avr-gcc umbauen -> Interrupts und Stromsparmodus verwenden -> Batterie statt Stromstrippen
+* Mehr Sounds
 * Ultimativ wäre ein Umbau auf den Hausbus
 
+== Bilder ==
 [[Datei:IMG_0342.JPG|Thumb|400px]]
 [[Datei:IMG_0343.JPG|Thumb|400px]]
 
