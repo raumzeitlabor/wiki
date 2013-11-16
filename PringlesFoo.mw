@@ -15,8 +15,6 @@
 
 Wir haben ja eine tolle Pringles-Spenderröhre. Jetzt haben wir auch Sound!
 
-'''Achtung: Derzeit außer Betrieb. TODO: Umbau auf Hausbus'''
-
 == Wie funktioniert's? ==
 
 An der linken Röhre ist ein Taster eingebaut, welcher durch die Pringlesdosen dauerhaft gedrückt wird. Wird der Taster losgelassen, merkt das der verbaute ATmega328 und spielt auf die ersten Takte einer bekannten Melodie auf einem Piezobeeper.
