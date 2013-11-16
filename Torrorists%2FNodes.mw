@@ -43,10 +43,6 @@ Dies ist die derzeitige Config-Line, die ihr in euren Nodes setzen möchtet (Vor
     # --- >8 ---</pre><!-- <--- Textauswahlhilfe: erlaubt Auswahl nach unten statt nur nach rechts. -->
 
 == Node List ==
-=== [[User:Blabber|blabber]] ===
-;Nyu
-:Fingerprint: [http://torstatus.blutmagie.de/router_detail.php?FP=A252E766BC858B4D38C5C45383BB3374F37D4070 A252E766BC858B4D38C5C45383BB3374F37D4070]
-
 === [[User:eeemsi|eeemsi]] ===
 ;identity
 :Fingerprint: [http://torstatus.blutmagie.de/router_detail.php?FP=9D5D7BB3E276A890E46EF934EACB1756FA2F4D96 9D5D7BB3E276A890E46EF934EACB1756FA2F4D96]
