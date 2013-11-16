@@ -38,8 +38,8 @@ Nodes an, die bereits in der Family mit dieser Node konfiguriert sind.
 Dies ist die derzeitige Config-Line, die ihr in euren Nodes setzen möchtet (Vorsicht: lange Zeile ist lang):
 
 <pre style="overflow: auto;">
-    #        | slowpoke - SlowpokeWell                 | sebi - sebitdotorg                      | hax404 - zensiernix                     | hax404 - zensierniX                     | tiefpunkt - lepremierpointbas           | eeemsi - identity                       | blabber - Nyu                           | tiefpunkt - ledeuxiemepointbas
-    MyFamily $60D48F04F1EE0E22966DF0DAA8234329F5BF74AF,$12CCC11328055D9189F744D2DFED4DA9AA3FA484,$F867F38D806BAE52FC77BDFCF02B7D76DFB451ED,$B8B980E2684BB9966AF0A78ADD499BB6B4EF8552,$0158AD024335D0089AC64850409A475A6A817DD0,$9D5D7BB3E276A890E46EF934EACB1756FA2F4D96,$A252E766BC858B4D38C5C45383BB3374F37D4070,$F41CA13853AAC988EF2F1A378FB3C9F66CDEAFCA
+    #        | slowpoke - SlowpokeWell                 | sebi - sebitdotorg                      | hax404 - zensiernix                     | hax404 - zensierniX                     | tiefpunkt - lepremierpointbas           | eeemsi - identity                       | tiefpunkt - ledeuxiemepointbas
+    MyFamily $60D48F04F1EE0E22966DF0DAA8234329F5BF74AF,$12CCC11328055D9189F744D2DFED4DA9AA3FA484,$F867F38D806BAE52FC77BDFCF02B7D76DFB451ED,$B8B980E2684BB9966AF0A78ADD499BB6B4EF8552,$0158AD024335D0089AC64850409A475A6A817DD0,$9D5D7BB3E276A890E46EF934EACB1756FA2F4D96,$F41CA13853AAC988EF2F1A378FB3C9F66CDEAFCA
     # --- >8 ---</pre><!-- <--- Textauswahlhilfe: erlaubt Auswahl nach unten statt nur nach rechts. -->
 
 == Node List ==
