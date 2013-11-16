@@ -14,7 +14,27 @@
 |download    = 
 }}
 
-Ob der Raum gerade offen ist (sprich ob die Tür geöffnet ist) wird jede Minute ermittelt und im Web zur Verfügung gestellt. Somit sollte niemand vor verschlossener Tür stehen, wenn er Lust hat, spontan ins RaumZeitLabor zu kommen. Der Status kann entweder via Web, IRC oder via Widget auf deinem Mobiltelefon abgerufen werden.
+= Nutzung =
+
+Ob der Raum gerade offen ist (sprich ob die Tür geöffnet ist) wird jede Minute ermittelt und im Web zur Verfügung gestellt. Somit sollte niemand vor verschlossener Tür stehen, wenn er Lust hat, spontan ins RaumZeitLabor zu kommen. Der Status kann entweder via Web (auf http://www.raumzeitlabor.de (oben rechts)), IRC oder via Widget auf deinem Mobiltelefon abgerufen werden. 
+
+== IRC ==
+In den Räumen #oqlt und #raumzeitlabor (hackint) kann der Status via ''!!raum'' abgefragt werden. Zusätzlich können über '!weristda' die anwesenden RaumZeitLaboranten ausgegeben werden. Voraussetzung hierfür ist, dass diese in der [[BenutzerDB]] die MAC-Adressen ihrer Netzwerkadapter hinterlegt haben.
+Mit !stream wird der aktuell über den MPD abgespielte Musiktitel angezeigt.
+
+== Mobile Webapp ==
+http://status.raumzeitlabor.de/mobile.php (iPhone optimiert)
+
+Es gibt auch ein [https://market.android.com/details?id=org.raumzeitlabor.status Android-Widget].
+
+== Web 2.0 Zeugs ==
+Der Status wird auf der Webseite angezeigt: [http://status.raumzeitlabor.de/] (rechts oben). Ein Graph mit der Wochenstatistik ist unter [http://status.raumzeitlabor.de/status-1week.png] verfügbar. 
+
+Der Status wird auch auf [http://identi.ca/RaumZeitStatus Identi.ca] und auf [http://twitter.com/raumzeitstatus Twitter] veröffentlicht. Der Account lautet bei beiden Netzwerken RaumZeitStatus
+
+== RSS ==
+Identi.ca hat einen öffentlichen RSS-Feed über welchen der Status auch ohne Identi.ca Account abgefragt werden kann. Den Feed gibts unter [http://identi.ca/api/statuses/user_timeline/191025.rss http://identi.ca/api/statuses/user_timeline/191025.rss]
+
 
 = Funktionsweise =
 
@@ -38,17 +58,7 @@ cd /root; screen -dmS status ./tuerstatusd.pl
 while true; do ./unifi-check.pl; sleep 10; done
 </pre>
 
-== Links ==
-
-=== Für Nutzer ===
-* http://status.raumzeitlabor.de/<br>→ Website mit dem aktuellen Status
-* http://status.raumzeitlabor.de/status-1week.png<br>→ Graph des Status über die letzte Woche
-<!--* Hinter '''raumzeitstatus@jabber.ccc.de''' (Jabber) verbirgt sich ein Bot mit Raumstatus als Away-Status.
-* [http://identi.ca/raumzeitstatus raumzeitstatus] auf identi.ca informiert über den Raumstatus-->
-* [http://twitter.com/raumzeitstatus raumzeitstatus] auf twitter informiert über den Raumstatus
-* [https://market.android.com/details?id=org.raumzeitlabor.status Android-Widget]
-
-=== Für Entwickler (API) ===
+== Links für Entwickler (API) ==
 * http://status.raumzeitlabor.de/api/simple<br>→ Text-API, welche entweder "1", "0" oder "?" enthält
 * http://status.raumzeitlabor.de/api/full.json<br>→ JSON-API, welche ein JSON-Dokument enthält
 
