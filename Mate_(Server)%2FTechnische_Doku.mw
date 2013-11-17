@@ -93,3 +93,6 @@ Um eine VM zu monitoren:
 Schließlich über bconsole, danach run den entsprechende Job auswählen und testweise laufen lassen.
 == TODO ==
 * Automatisches Discovery von VMs in Zabbix?
+
+== Einzelnachweise ==
+<references />
