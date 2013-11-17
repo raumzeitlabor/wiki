@@ -39,3 +39,13 @@ Um uns die Arbeit zu erleichtern, verwenden wir puppet, um bestimmte Grundkonfig
 == Verfügbarkeit ==
 
 Wir bemühen uns, die VMs jederzeit verfügbar zu halten. Ab und zu kann nicht-erreichbarkeit der Fall sein, z.b. bei einem Server-Reboot. Sorge daher am besten dafür, daß deine Dienste beim VM-start automatisch mitgestartet werden.
+
+== Checkliste für das NOC-Team ==
+
+* VM erstellen, Namensschema <vmname>.vm.rzl
+* DNS-Eintrag auf der Firebox setzen
+* DHCP-Lease auf der Firebox eintragen
+* Puppet installieren
+* Zabbix-Agent konfigurieren
+* Bacula konfigurieren
+* Wiki-Seite für die neue VM erzeugen und $Mitglied dazu bringen, VM zu beschreiben
