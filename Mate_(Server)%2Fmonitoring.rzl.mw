@@ -1,0 +1,31 @@
+{{ProjektInfoBox
+|name        = Monitoring
+|status      = experimental
+|image       = 
+|description = Monitoring der internen Dienste
+|author      = [[NOC Team|NOC-Team]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = monitoring.rzl
+|license     = 
+|download    = 
+}}
+
+'''monitoring.rzl''' ist eine VM, auf der Monitoring mittels '''Zabbix''' läuft. Auf der VM läuft eine eigene MySQL-Instanz. 
+
+* Jede VM wird auf Wunsch gemonitort, Monitoring von Spezialdiensten nach Rücksprache
+* Read-Only-Zugriff auf Anfrage an das NOC-Team.
+
+* Zabbix-Login unter '''http://monitoring.raumzeitlabor.de/zabbix'''
+== Zu monitorende Dinge (aka Todo-Liste) ==
+
+* IPv6-Connectivity
+* IPv4-Connectivity
+* MTU 1500 mit V4/V6
+
+== Sonstiges ==
+* UMTS-Stick mit ner Prepaid-Sim-Karte wird von Felicitus gesponsort, damit das Monitoring anschlagen kann, wenn keine Connecitivity da ist
+
+[[Kategorie:Infrastruktur]]
