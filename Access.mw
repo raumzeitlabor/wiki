@@ -1,0 +1,89 @@
+{{LanguageBox |msg=Diese Seite gibt's auch auf Deutsch. [[Zugang|Hier klicken]] um dort hin zu gelangen.}}
+
+Just look up if someone is in the room online: [http://status.raumzeitlabor.de status.raumzeitlabor.de] . 
+If the [http://status.raumzeitlabor.de status] is <span style="background:#00ff00; font-variant:small-caps">green</span>, someone is in the room. Just call our phone (the [[Raumtelefon]]) and let us know so people don't vanish before you come in. On the phone you can also receive info on how to get here (unfortunately we are not the easiest to reach here). 
+
+As a Member ([[Verein#Mitglied_werden|Mitglied]]) you are free to use the room at any time. To do so you will receive a [[Pinpad|personal Pin-code]]. Because the door to the staircase cannot be opened via pin, you may require an additional key there. Upon leaving the room please check if there is still someone else in the room. The last member leaving is responsible for locking the door via pinpad (666). (Non-members are never allowed to be in the room without members being present due to insurance-regulations)
+
+If noone is in the room ([http://status.raumzeitlabor.de Status]: <span style="background:#ff0000; font-variant:small-caps">red</span>), you need to wait until a member comes in. Use the IRC channel to contact members about this. 
+
+
+== Room ==
+The room is secured by a locking system of our own making. You can open up the room using your personal PIN (as a member). 
+
+=== tuer.rzl.so ===
+
+Each member who entered their SH Key into the user Database ([[BenutzerDB]]) can open the door via SSH. To do so you need to connect to tuer.rzl.so:2322 with the user "tuer" via SSH. Then you can control the door with "open" and "close".
+
+Samle-SSH-config:
+
+<pre>
+Host tuer
+HostName tuer.rzl.so
+User tuer
+Port 2322
+</pre>
+
+=== Keylist ===
+
+== main room ==
+
+The second door can serve as emergency backup. There are three keys for it:
+
+#[[Benutzer:Alexander Brock|Abrock]]
+#Key-box
+#Key-box
+
+== Stairwell ==
+#[[Benutzer:Bert|Bert]]
+#[[Benutzer:Bfritz0815|BFritz0815]]
+#[[Benutzer:Dancingfo|DaFo]]
+#[[Benutzer:dj2mc|dj2mc]]
+#[[Benutzer:Docsteel|Docsteel]]
+#[[Benutzer:D0n|D0n]]
+#[[Benutzer:Eeemsi|Eeemsi]]
+#[[Benutzer:Timo A. Hummel|Felicitus]]
+#[[Benutzer:Hannes|Hannes]]
+#[[Benutzer:Hax404|hax404]]
+#[[Benutzer:Inte|Inte]]
+#[[Benutzer:Lutoma|Lutoma]]
+#[[Benutzer:Monika|Monika]] 
+#[[Benutzer:Nairolfo|Nairolfo]]
+#[[Benutzer:Nessi|Nessi]]
+#[[Benutzer:Nicoduck|nicoduck]]
+#[[Benutzer:Niklas|Niklas]]
+#[[Benutzer:Pennylane|pennylane]]
+#[[Benutzer:Rabe|Raphael Eiselstein]] 
+#[[Benutzer:Scytale|Scytale]]
+#[[Benutzer:sebi|sebi]]
+#[[Benutzer:SEC|sECuRE]]
+#[[Benutzer:sur5r|sur5r]]
+#[[Benutzer:TabascoEye|TabascoEye]]
+#[[Benutzer:thinkJD|thinkJD]]
+#[[Benutzer:Tiefpunkt|tiefpunkt]]
+#[[Benutzer:Trickster|Trickster]]
+#[[Benutzer:Unicorn|Unicorn]]
+#[[Benutzer:Zwetschgo|Zwetschgo]]
+
+
+=== Pedestrian-gate Boveristraße ===
+#[[Benutzer:Bfritz0815|BFritz0815]]
+#[[Benutzer:Eeemsi|Eeemsi]]
+#[[Benutzer:Timo A. Hummel|Felicitus]]
+#[[Benutzer:Hannes|Hannes]]
+#[[Benutzer:Inte|Inte]]
+#[[Benutzer:Lutoma|Lutoma]]
+#[[Benutzer:nazco|nazco]]
+#[[Benutzer:the_nihilant|the_nihilant]]
+#[[Benutzer:Unicorn|Unicorn]]
+#[[Benutzer:Zwetschgo|Zwetschgo]]
+
+=== Drink-storage ===
+[[Datei:Getraenkelager tuer.jpg|200px|thumb|right|Door to the drink-storage]] 
+It can be opened with your personal PIN-code. 
+
+== See also ==
+*[[Anfahrt/en]]
+
+[[Kategorie:RaumZeitLabor]]
+[[Kategorie:Öffentlichkeitsarbeit]]
