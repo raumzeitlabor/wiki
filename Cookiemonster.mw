@@ -13,23 +13,28 @@
 |download    = 
 }}
 
-cookiemonster ist der Backupserver, um die von Bacula angefertigten Backups abzulegen.
+cookiemonster ist der Backupserver, um die von Bacula angefertigten Backups abzulegen. Der Server wird über Wake-on-Lan vor den Backups hochgefahren und danach wieder herunter.
 
 ==Technische Daten==
 {| class="wikitable"  valign = "top"
 |Produkt
-|[http://www.shuttle.eu/_archive/older/de/ss51g.htm Shuttle XPC SS511G]
+|[http://h10010.www1.hp.com/wwpc/at/de/sm/WF06b/15351-15351-4237916-4237917-4237917-4248009-5163346.html?dnr=1 HP Proliant MicroServer N40L]
 |-
 |CPU
-|[http://ark.intel.com/products/27442/Intel-Pentium-4-Processor-2_60-GHz-512K-Cache-400-MHz-FSB Intel Pentium 4, 2.6GHz, Single Core] 
+|[http://www.cpu-world.com/CPUs/K10/AMD-Turion%20II%20Neo%20N40L%20-%20TEN40LGAV23GME.html AMD Turion II Neo N40L] 2x 1.5 GHz
 |-
 |RAM
-|1x 1GB sowie 1x 512MB DIMM-SDRAM
+|1x 8GB Transcend DDR3 1333MHz PC3-10666 CL9 DIMM sowie 1x 4GB
 |-
 |HDDs
-|3x1TB (Hitachi HUA721010KLA330)<br/>RAID5 über alle Platten, 2TB nutzbar, LVM, Platten werden über smartd gemonitort und an netzwerk (ät) rzl dot de im Fehlerfalle geschickt
+|4x1TB (Hitachi HDS721010DLE630)<br/>RAID5 über 3 Platten plus 1x Hot Spare, 2TB nutzbar, Platten werden über smartd gemonitort und an netzwerk (ät) rzl dot de im Fehlerfalle geschickt
+|-
+|USB
+|1x Onboard, 4x Front, 2x Hinten
+|-
+|Verbrauch
+|60W aktiv / 35W idle (Messung mit einem schlechten Messgerät)
+|-
+|Virtualisierung
+|libvirt/KVM
 |}
-
-== Hardware-Hacks ==
-
-Das Mainboard unterstützt kein SATA. Wir haben von DaFo 2 PATA->SATA Adapter bekommen. Das Mainboard erkennt die Platten zwar, kann aber nicht davon booten. Also wurde noch ein PATA-RAID-Controller (Promise Ultra133) verbaut, damit bootet das System. Maximale Geschwindigkeit ist ca. 50MB/s write.
