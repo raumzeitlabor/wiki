@@ -1,0 +1,27 @@
+{{ProjektInfoBox
+|name        = PartKeepr
+|status      = beta
+|image       = 
+|description = Die VM für PartKeepr
+|author      = [[NOC Team|NOC-Team]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = partkeepr.rzl
+|license     = 
+|download    = 
+}}
+
+'''partkeepr.rzl''' ist eine VM, auf der unsere interne Instanz von [[PartKeepr]] gehostet wird.
+
+Eckdaten:
+* 512MB RAM
+* 1 CPU Core
+* 30GB HDD
+* Apache2 fürs Frontend
+* Noch kein SSL
+
+Partkeepr nutzt [[Mate (Server)/DB|db.rzl]] als Datenbank. Man kann sich auf Partkeepr mit denselben Benutzerdaten wie auf der [[BenutzerDB]] einloggen, hierfür nutzen wir das von uns erweiterte Apache2 Plugin [https://github.com/raumzeitlabor/rzl-benutzerdb/tree/master/mod-auth-mysql-4.3.9 mod_auth_mysql].
+
+[[Kategorie:Infrastruktur]]
