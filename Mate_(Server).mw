@@ -53,11 +53,31 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 |128 MB 
 |8 GB
 |-
-| [[Mate (Server)/blabber.vm.rzl]] 
-|128 MB 
+| [[Mate (Server)/tiefpunkt.vm.rzl]] 
+|256 MB 
 |10 GB
 |-
 | [[Mate (Server)/db.rzl]] 
+|512 MB 
+|30 GB
+|-
+| [[Mate (Server)/yate.vm.rzl]] 
+|512 MB 
+|15 GB
+|-
+| [[Mate (Server)/datengrab.rzl]] 
+|256 MB 
+|2510 GB
+|-
+| [[Mate (Server)/lutoma.vm.rzl]] 
+|256 MB 
+|20 GB
+|-
+| [[Mate (Server)/labelprint.vm.rzl]] 
+|977 MB 
+|20 GB
+|-
+| [[Mate (Server)/infra.rzl]] 
 |512 MB 
 |30 GB
 |-
@@ -65,44 +85,24 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 |512 MB 
 |30 GB
 |-
-| [[Mate (Server)/labelprint.vm.rzl]] 
-|977 MB 
-|20 GB
-|-
-| [[Mate (Server)/unifi.vm.rzl]] 
-|750 MB 
-|20 GB
-|-
-| [[Mate (Server)/yate.vm.rzl]] 
-|512 MB 
-|15 GB
-|-
-| [[Mate (Server)/qrgo.vm.rzl]] 
-|256 MB 
-|10 GB
-|-
-| [[Mate (Server)/infra.rzl]] 
-|512 MB 
+| [[Mate (Server)/abrock.vm.rzl]] 
+|1000 MB 
 |30 GB
+|-
+| [[Mate (Server)/blabber.vm.rzl]] 
+|128 MB 
+|10 GB
 |-
 | [[Mate (Server)/monitoring.rzl]] 
 |750 MB 
 |40 GB
 |-
-| [[Mate (Server)/datengrab.rzl]] 
-|256 MB 
-|2510 GB
-|-
-| [[Mate (Server)/tiefpunkt.vm.rzl]] 
+| [[Mate (Server)/qrgo.vm.rzl]] 
 |256 MB 
 |10 GB
 |-
-| [[Mate (Server)/abrock.vm.rzl]] 
-|1000 MB 
-|30 GB
-|-
-| [[Mate (Server)/lutoma.vm.rzl]] 
-|256 MB 
+| [[Mate (Server)/unifi.vm.rzl]] 
+|750 MB 
 |20 GB
 |-
 | '''Gesamt'''
@@ -110,7 +110,7 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | '''2.7 TB / 5.3 TB (51.54% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2013-11-17 00:52:08
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2013-11-17 23:00:02
 
 == Unterseiten ==
 <splist />
