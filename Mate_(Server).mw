@@ -173,6 +173,10 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 ! Arbeitsspeicher
 ! Plattenplatz
 |-
+| [[Mate (Server)/slowpoke.vm.rzl]] 
+|128MB 
+|8 GB
+|-
 | [[Mate (Server)/blabber.vm.rzl]] 
 |128MB 
 |10 GB
@@ -180,6 +184,14 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | [[Mate (Server)/db.rzl]] 
 |512MB 
 |30 GB
+|-
+| [[Mate (Server)/partkeepr.rzl]] 
+|512MB 
+|30 GB
+|-
+| [[Mate (Server)/labelprint.vm.rzl]] 
+|977MB 
+|20 GB
 |-
 | [[Mate (Server)/unifi.vm.rzl]] 
 |750MB 
@@ -191,6 +203,10 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 |-
 | [[Mate (Server)/bernd.vm.rzl]] 
 |750MB 
+|10 GB
+|-
+| [[Mate (Server)/qrgo.vm.rzl]] 
+|256MB 
 |10 GB
 |-
 | [[Mate (Server)/infra.rzl]] 
@@ -218,11 +234,11 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 |20 GB
 |-
 | '''Gesamt'''
-| '''5682 MB / 12001 MB'''
-| '''2725 GB / 5.4TB'''
+| '''7555 MB / 12001 MB'''
+| '''2793 GB / 5.4TB'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2013-11-17 00:14:33
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2013-11-17 00:18:45
 
 == Einzelnachweise ==
 <references />
