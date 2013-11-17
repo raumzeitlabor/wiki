@@ -166,9 +166,75 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 
 <splist />
 
-== VMs ==
-
-test
+{|
+! VM
+! Arbeitsspeicher
+! Plattenplatz
+|-
+| [[Mate (Server)/slowpoke]] 
+|128MB 
+|8 GB
+|-
+| [[Mate (Server)/blabber.vm.rzl]] 
+|128MB 
+|10 GB
+|-
+| [[Mate (Server)/db.rzl]] 
+|512MB 
+|30 GB
+|-
+| [[Mate (Server)/labelprint]] 
+|1465MB 
+|20 GB
+|-
+| [[Mate (Server)/partkeepr]] 
+|512MB 
+|30 GB
+|-
+| [[Mate (Server)/unifi]] 
+|750MB 
+|20 GB
+|-
+| [[Mate (Server)/yate]] 
+|512MB 
+|15 GB
+|-
+| [[Mate (Server)/bernd.vm.rzl]] 
+|750MB 
+|10 GB
+|-
+| [[Mate (Server)/qrgo.vm]] 
+|256MB 
+|10 GB
+|-
+| [[Mate (Server)/infra]] 
+|512MB 
+|30 GB
+|-
+| [[Mate (Server)/datengrab.rzl]] 
+|256MB 
+|2510 GB
+|-
+| [[Mate (Server)/monitoring]] 
+|750MB 
+|40 GB
+|-
+| [[Mate (Server)/tiefpunkt]] 
+|256MB 
+|10 GB
+|-
+| [[Mate (Server)/abrock.vm.rzl]] 
+|1000MB 
+|30 GB
+|-
+| [[Mate (Server)/lutoma.vm.rzl]] 
+|256MB 
+|20 GB
+|-
+| '''Gesamt'''
+| '''8043 MB / 12001 MB'''
+| '''2793 GB / 5.4TB'''
+|}
 
 == Einzelnachweise ==
 <references />
