@@ -15,7 +15,7 @@
 
 '''Mate''' ist ein Server, der als Ersatz der [[Blackbox]] und [[Datengrab]] dient.
 
-==Technische Daten 2==
+==Technische Daten ==
 {| class="wikitable"  valign = "top"
 |Produkt
 |[http://www8.hp.com/de/de/products/proliant-servers/product-detail.html?oid=5379860#!tab=features HP Proliant MicroServer Gen8]
@@ -39,133 +39,9 @@
 |libvirt/KVM
 |}
 
-==Technische Daten==
-{| class="wikitable"  valign = "top"
-|Produkt
-|[http://h10010.www1.hp.com/wwpc/at/de/sm/WF06b/15351-15351-4237916-4237917-4237917-4248009-5163346.html?dnr=1 HP Proliant MicroServer N40L]
-|-
-|CPU
-|[http://www.cpu-world.com/CPUs/K10/AMD-Turion%20II%20Neo%20N40L%20-%20TEN40LGAV23GME.html AMD Turion II Neo N40L] 2x 1.5 GHz
-|-
-|RAM
-|1x 8GB Transcend DDR3 1333MHz PC3-10666 CL9 DIMM sowie 1x 4GB
-|-
-|HDDs
-|3x3TB (WD30EFRX)<br/>RAID5 über alle Platten, 6TB nutzbar, LVM, Platten werden über smartd gemonitort und an netzwerk (ät) rzl dot de im Fehlerfalle geschickt
-|-
-|USB
-|1x Onboard, 4x Front, 2x Hinten
-|-
-|Verbrauch
-|60W aktiv / 35W idle (Messung mit einem schlechten Messgerät)
-|-
-|Virtualisierung
-|libvirt/KVM
-|}
-
-== Dienste ==
-
-== Neue Debian-VM ohne GUI, nur mittels shell installieren (serielle console) ==
-
-Vor der Installation neues, leeres Image anlegen (Images liegen unter '''/srv/vm'''):
-
-<pre>
-export VMNAME=foobar
-export VMSIZE=20G
-export VMMEM=256
-export VMOSTYPE=linux
-export VMOSVARIANT=debianwheezy
-export VMINSTALLER=http://ftp.de.debian.org/debian/dists/wheezy/main/installer-amd64/
-</pre>
-
-<pre>
-fallocate -l $VMSIZE /srv/vm/$VMNAME.img
-</pre>
-
-Dann Netzinstallation starten:
-
-<pre>
-virt-install --connect qemu:///system --name=$VMNAME --ram=$VMMEM --vcpus=1 \
---disk path=/srv/vm/$VMNAME.img,format=raw,cache=none,bus=virtio --os-type $VMOSTYPE \
---os-variant $VMOSVARIANT  --network=bridge=br0,model=virtio --nographics \
---location $VMINSTALLER \
---extra-args="console=tty0 console=ttyS0,115200n8" -v
-</pre>
-
-== Besondere Einstellungen auf dem Hypervisor ==
-
-Die Default-Linux-Einstellungen (bzw die von Debian) sind etwas ungünstig für Performance. Folgendes sollte geändert werden:
-
-* '''Default-Scheduler von cfq auf deadline''' (Kernel-Parameter elevator=deadline <ref name="KER-PAR-01">[http://www.mjmwired.net/kernel/Documentation/kernel-parameters.txt#796 Dokumentation zum Kernel-Parameter elevator] </ref> in '''/etc/default/grub''' setzen, danach '''update-grub2''' ausführen)
-* '''Hugepages''' erlauben (in '''/etc/rc.local''') <ref name=KVM-TUN-01">[http://sheepdog.taobao.org/people/zituan/kvm_tuning.html#sec-1-2 KVM Memory Tuning]</ref>:
-** '''echo 1 > /sys/kernel/mm/transparent_hugepage/khugepaged/defrag'''
-** '''echo always > /sys/kernel/mm/transparent_hugepage/enabled'''
-** '''echo never > /sys/kernel/mm/transparent_hugepage/defrag'''
-* Prüfen, ob das Modul '''vhost_net''' geladen ist
-
-== Besondere Einstellungen auf den virtuellen Maschinen ==
-
-=== In der Config für die VM ===
-* Das '''Platten-Image''' muß '''raw''' und '''pre-allokiert''' sein. qcow2 und dynamische Allokierung ist wirklich langsam.
-* Der Modus des Festplatten-Controllers muß '''virtio''' sein (Achtung: Die Platten in den VMs sind dann '''vda, vdb etc''' anstatt '''sda, sdb etc''')
-* Das '''Plattenimage''' muß den '''Cache-Modus''' auf '''none''' gesetzt haben ('''<driver name='qemu' type='raw' cache='none'/>''')
-* Der Typ des '''Netzwerkinterfaces''' muß '''virtio''' sein ('''<model type='virtio'/>''')
-=== In der VM selbst ===
-* '''Default-Scheduler von cfq auf noop''' (Kernel-Parameter elevator=noop <ref name="KER-PAR-01">[http://www.mjmwired.net/kernel/Documentation/kernel-parameters.txt#796 Dokumentation zum Kernel-Parameter elevator] </ref> in '''/etc/default/grub''' setzen, danach '''update-grub2''' ausführen)
-* '''Tickless Kernel aktivieren''' (Kernel-Parameter nohz=on <ref name="KER-PAR-02">[http://www.mjmwired.net/kernel/Documentation/kernel-parameters.txt#1855 Dokumentation zum Kernel-Parameter nohz] </ref> in '''/etc/default/grub''' setzen, danach '''update-grub2''' ausführen)
-* Prüfen, ob die Module '''virtio-blk''' und '''virtio-net''' geladen sind
-* Serielle Konsole in '''/etc/inittab''' aktivieren: '''T0:23:respawn:/sbin/getty -L ttyS0 115200 vt102'''
-* Serielle Konsole zusätzlich zur normalen Konsole aktivieren (in '''/etc/default/grub'''), wenn man schon dabei ist, kann man auch grub serial beibringen: <pre>GRUB_TERMINAL=serial&#10;GRUB_SERIAL_COMMAND="serial --unit=0 --speed=115200 --word=8 --parity=no --stop=1"</pre> sowie <pre>console=ttyS0,115200n8 console=tty0</pre>
-
-Für die faulen Hunde, wie ich einer bin, hier nochmal der komplette GRUB_CMDLINE-Kram:
-
-<pre>
-GRUB_CMDLINE_LINUX_DEFAULT="elevator=noop nohz=on transparent_hugepage=always console=ttyS0,115200n8 console=tty0"
-</pre>
-
-<blink>'''DON'T FORGET THE MAGIC update-grub2'''</blink>
-
-== Puppet ==
- Um eine VM unter die Kontrolle von Puppet zu bekommen, ist folgendes zu erledigen:
-* '''mate.rzl''':/etc/puppet/manifests/nodes.pp: die Node eintragen
-* '''<neuevm>.rzl''':
-** Puppet installieren
-** Deamon Autostart in /etc/default/puppet aktivieren
-** puppet agent --test ausführen
-* '''mate.rzl''': <pre>#Liste der neuen Zertifikate:&#10;puppet cert list&#10;&#10;#Zertifikat signieren:&#10;puppet cert sign <neuevm.rzl></pre>
-* '''<neuevm.rzl>''': Nochmal puppet agent --test ausführen
-
-Wenn alles geklappt hat, so wird puppet zumindest mal alle fehlenden Pakete nachinstallieren.
-
-== Zabbix ==
-
-Um eine VM zu monitoren:
-
-* Ändere in der Datei '''/etc/zabbix/zabbix_agentd.conf''' den Parameter "Server" auf "172.22.36.251" und den Parameter "Hostname" auf den hostnamen inkl. .rzl-Domain
-* Füge den Server in Zabbix hinzu (Configuration->Hosts->Create), linke die Templates Template_Linux sowie Template_Puppet_Agent
-
-== Bacula backups ==
-
-* Config-Änderungen auf mate:
-** in /etc/bacula/clients die jeweilige Config umkopieren und die Namen sowie das Director-Passwort ändern
-** die leeren files in /etc/bacula/clients/includes sowie excludes erzeugen
-** in /etc/bacula/bacula-dir.conf das neue config file includen
-** bacula neustarten
-** Das file /etc/puppet/templates/bacula-fd_conf.erb in die VM kopieren und die Variablen ersetzen
-
-* In der VM:
-** /etc/init.d/bacula-fd restart
-** prüfen, ob bacula-fd auf 0.0.0.0:9102 lauscht (bei Fehlern lauscht er nur auf localhost)
-
-Schließlich über bconsole, danach run den entsprechende Job auswählen und testweise laufen lassen.
-== TODO ==
-* Automatisches Discovery von VMs in Zabbix?
 
 == Unterseiten ==
 Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möchtest Du etwas auf den Systemen installiert haben, dann paketiere es bitte. Auf den Mitglieder-VMs kann alles so installiert werden, wie gewünscht.
-
-<splist />
-
 
 == VMs ==
 {| class="wikitable"  valign = "top"
@@ -240,8 +116,8 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 
 Automatisch geupdatet von [[Benutzer:Matebot]] am: 2013-11-17 00:18:45
 
-== Einzelnachweise ==
-<references />
+== Unterseiten ==
+<splist />
 
 [[Kategorie:Hardware]]
 [[Kategorie:Infrastruktur]]
