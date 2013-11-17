@@ -168,8 +168,7 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 
 
 == VMs ==
-
-{|
+{| class="wikitable"  valign = "top"
 ! VM
 ! Arbeitsspeicher
 ! Plattenplatz
