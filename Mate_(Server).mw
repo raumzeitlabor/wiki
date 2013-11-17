@@ -167,7 +167,9 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 <splist />
 
 
-== VMs =={| class="wikitable"  valign = "top"
+== VMs ==
+
+{|
 ! VM
 ! Arbeitsspeicher
 ! Plattenplatz
