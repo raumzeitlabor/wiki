@@ -1,0 +1,41 @@
+{{ProjektInfoBox
+|name        = Mitglieder-VMs
+|status      = beta
+|image       = RaumZeitLabor - Logo - Schwarz.svg
+|description = 
+|author      = [[NOC Team|NOC-Team]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = 
+|license     = 
+|download    = 
+}}
+
+Wenn du für ein Projekt eine virtuelle Maschine benötigst, stellen wir dir gerne eine zur Verfügung!
+
+Wende dich einfach an das [[NOC Team]] oder ein NOC-Mitglied mit folgenden Daten:
+
+* Benötigter Arbeitsspeicher
+* Benötigter Festplattenplatz
+* SSH-Pubkey
+* Zweck der VM
+
+Wir legen dir dann eine VM an. Die meisten VMs verwenden Debian Stable oder Testing, wir empfehlen dir, eine der beiden Distributionen zu verwenden, denn damit kennen wir uns am besten aus und können dir bei Problemen helfen. Die Installation übernimmt das NOC-Team, sobald es installiert ist, bekommst du vollen Root-Zugriff.
+
+== Monitoring ==
+
+Das [[NOC Team]] monitort deine VM via [[Mate (Server)/monitoring.rzl|Zabbix]] auf Parameter wie verbrauchten Plattenplatz, RAM-Auslastung, CPU-Auslastung. Im Problemfalle können wir so helfen.
+
+== Backups ==
+
+Wir verwenden Bacula, um Backups von den VMs anzufertigen. Wenn du also einmal ein File gelöscht hast, können wir dir das wiederherstellen. Bitte stoppe den Prozess "bacula-fd" nicht.
+
+== Automatisches Konfigurationsmanagement ==
+
+Um uns die Arbeit zu erleichtern, verwenden wir puppet, um bestimmte Grundkonfigurationen wie Kernel-Parameter, Bacula-Konfiguration und SSH-Keys auf die VMs zu verteilen. Bitte stoppe den puppet-Agent nicht.
+
+== Verfügbarkeit ==
+
+Wir bemühen uns, die VMs jederzeit verfügbar zu halten. Ab und zu kann nicht-erreichbarkeit der Fall sein, z.b. bei einem Server-Reboot. Sorge daher am besten dafür, daß deine Dienste beim VM-start automatisch mitgestartet werden.
