@@ -20,7 +20,7 @@ Wir haben ja eine tolle Pringles-Spenderröhre. Jetzt haben wir auch Sound!
 An der linken Röhre ist ein Taster eingebaut, welcher durch die Pringlesdosen dauerhaft gedrückt wird. Wird der Taster losgelassen, merkt das der verbaute ATmega328 und spielt auf die ersten Takte einer bekannten Melodie auf einem Piezobeeper.
 
 == TODO ==
-* Von Arduino auf avr-gcc umbauen -> Interrupts und Stromsparmodus verwenden -> Batterie statt Stromstrippen
+* <del>Von Arduino auf avr-gcc umbauen -> Interrupts und</del> Stromsparmodus verwenden -> Batterie statt Stromstrippen
 * Mehr Sounds
 * Ultimativ wäre ein Umbau auf den Hausbus
 
