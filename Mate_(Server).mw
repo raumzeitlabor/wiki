@@ -44,73 +44,63 @@
 Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möchtest Du etwas auf den Systemen installiert haben, dann paketiere es bitte. Auf den Mitglieder-VMs kann alles so installiert werden, wie gewünscht.
 
 == VMs ==
-{| class="wikitable"  valign = "top"
+{| class="wikitable"  valign="top"
 ! VM
+
 ! Arbeitsspeicher
+
 ! Plattenplatz
+
 |-
-| [[Mate (Server)/slowpoke.vm.rzl]] 
-|128 MB 
-|8 GB
-|-
-| [[Mate (Server)/tiefpunkt.vm.rzl]] 
-|256 MB 
-|10 GB
-|-
-| [[Mate (Server)/db.rzl]] 
-|512 MB 
-|30 GB
-|-
-| [[Mate (Server)/yate.vm.rzl]] 
-|512 MB 
-|15 GB
-|-
-| [[Mate (Server)/datengrab.rzl]] 
-|256 MB 
-|2510 GB
-|-
-| [[Mate (Server)/lutoma.vm.rzl]] 
-|256 MB 
-|20 GB
-|-
-| [[Mate (Server)/labelprint.vm.rzl]] 
-|977 MB 
-|20 GB
-|-
-| [[Mate (Server)/infra.rzl]] 
-|512 MB 
-|30 GB
-|-
-| [[Mate (Server)/partkeepr.rzl]] 
-|512 MB 
-|30 GB
-|-
-| [[Mate (Server)/abrock.vm.rzl]] 
-|1000 MB 
-|30 GB
-|-
-| [[Mate (Server)/blabber.vm.rzl]] 
-|128 MB 
-|10 GB
-|-
-| [[Mate (Server)/monitoring.rzl]] 
-|750 MB 
-|40 GB
-|-
-| [[Mate (Server)/qrgo.vm.rzl]] 
-|256 MB 
-|10 GB
-|-
-| [[Mate (Server)/unifi.vm.rzl]] 
-|750 MB 
-|20 GB
-|-
+
+| [[Mate (Server)/abrock.vm.rzl]]
+| 1000 MB
+| 30 GB
+| [[Mate (Server)/blabber.vm.rzl]]
+| 128 MB
+| 10 GB
+| [[Mate (Server)/datengrab.rzl]]
+| 256 MB
+| 2510 GB
+| [[Mate (Server)/db.rzl]]
+| 512 MB
+| 30 GB
+| [[Mate (Server)/infra.rzl]]
+| 512 MB
+| 30 GB
+| [[Mate (Server)/labelprint.vm.rzl]]
+| 977 MB
+| 20 GB
+| [[Mate (Server)/lutoma.vm.rzl]]
+| 256 MB
+| 20 GB
+| [[Mate (Server)/monitoring.rzl]]
+| 750 MB
+| 40 GB
+| [[Mate (Server)/partkeepr.rzl]]
+| 512 MB
+| 30 GB
+| [[Mate (Server)/qrgo.vm.rzl]]
+| 256 MB
+| 10 GB
+| [[Mate (Server)/slowpoke.vm.rzl]]
+| 128 MB
+| 8 GB
+| [[Mate (Server)/tiefpunkt.vm.rzl]]
+| 256 MB
+| 10 GB
+| [[Mate (Server)/unifi.vm.rzl]]
+| 750 MB
+| 20 GB
+| [[Mate (Server)/yate.vm.rzl]]
+| 512 MB
+| 15 GB
 | '''Gesamt'''
 | '''6805 MB / 12001 MB (56.7% belegt)'''
 | '''2.7 TB / 5.3 TB (51.54% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2013-11-18 23:00:01
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2013-11-19 22:53:24
 
 == Unterseiten ==
 <splist />
