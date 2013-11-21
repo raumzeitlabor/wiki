@@ -13,11 +13,11 @@
 
 [[Bild:PringlesSound.jpg|right|thumb]]
 
-Wir haben ja eine tolle Pringles-Spenderröhre. Jetzt haben wir auch Sound!
+Wir haben ja so tolle Pringles-Spenderröhren. Jetzt haben wir auch Sound!
 
 == Wie funktioniert's? ==
 
-An der linken Röhre ist ein Taster eingebaut, welcher durch die Pringlesdosen dauerhaft gedrückt wird. Wird der Taster losgelassen, merkt das der verbaute ATmega328 und spielt auf die ersten Takte einer bekannten Melodie auf einem Piezobeeper.
+An beiden Röhren sind Mikroschalter eingebaut, welche durch die Pringlesdosen dauerhaft gedrückt werden. Wird einer der Taster entlastet, merkt das der verbaute ATmega328 und spielt einen Sound auf einem Piezosummer.
 
 Den Sourcecode findet ihr hier: https://github.com/raumzeitlabor/pringlesfoo_mk2
 
