@@ -19,6 +19,8 @@ Wir haben ja eine tolle Pringles-Spenderröhre. Jetzt haben wir auch Sound!
 
 An der linken Röhre ist ein Taster eingebaut, welcher durch die Pringlesdosen dauerhaft gedrückt wird. Wird der Taster losgelassen, merkt das der verbaute ATmega328 und spielt auf die ersten Takte einer bekannten Melodie auf einem Piezobeeper.
 
+Den Sourcecode findet ihr hier: https://github.com/raumzeitlabor/pringlesfoo_mk2
+
 == TODO ==
 * <del>Von Arduino auf avr-gcc umbauen -> Interrupts und</del> Stromsparmodus verwenden -> Batterie statt Stromstrippen
 * Mehr Sounds
