@@ -22,8 +22,6 @@ An der linken Röhre ist ein Taster eingebaut, welcher durch die Pringlesdosen d
 Den Sourcecode findet ihr hier: https://github.com/raumzeitlabor/pringlesfoo_mk2
 
 == TODO ==
-* <del>Von Arduino auf avr-gcc umbauen -> Interrupts und</del> Stromsparmodus verwenden -> Batterie statt Stromstrippen
-* Mehr Sounds
 * Ultimativ wäre ein Umbau auf den Hausbus
 
 == Bilder ==
