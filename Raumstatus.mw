@@ -48,7 +48,7 @@ via WebDAV auf status.raumzeitlabor.de.
 
 == Debugging ==
 
-* Raumstatus auf ? oder orange? Auf der firebox folgendes starten:
+* Raumstatus auf ? oder orange? Auf der firebox folgendes starten (oder in dem infra-screen abschießen und neu starten):
 <pre>
 cd /root; screen -dmS status ./tuerstatusd.pl
 </pre>
