@@ -114,7 +114,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.126 || applejack || Apple™ Mac Mini ([[Beamer]]-Mac)
 |-----
-| 172.22.36.127 || infoscreen || [[InfoScreen]] auf dem Kühlschrank
+| 172.22.36.127 || [[InfoScreen|infoscreen]] || [[InfoScreen]] auf dem Kühlschrank
 |-----
 | 172.22.36.128 || ''reserved'' || Reserviert für Infrastruktur
 |-----
