@@ -28,7 +28,7 @@ Auf der Lichtsteuerung kommt deshalb [http://bitlash.net/ bitlash] zum Einsatz, 
 setDeviceName("description");
 </pre>
 
-Setzt den Namen der Lichtsteuerung. Maximal 32 Zeichen ASCII. Kann über RDM gesetzt und abgefragt werden (DEVICE_LABEL). Beispiel:
+Setzt den Namen der Lichtsteuerung. Maximal 32 Zeichen ASCII. Wird im EEPROM abgespeichert. Kann über RDM gesetzt und abgefragt werden (DEVICE_LABEL). Beispiel:
 
 <pre>
 setDeviceName("Lichtsteuerung Hauptraum");
@@ -66,7 +66,7 @@ print getDMXStartAddress();
 setDMXStartAddress(number);
 </pre>
 
-Setzt die DMX-Startaddresse. Beispiel:
+Setzt die DMX-Startaddresse. Wird im EEPROM abgespeichert. Beispiel:
 
 <pre>
 setDMXStartAddress(32);
@@ -91,7 +91,7 @@ print getRDMUID();
 setOutputName(number, "Description");
 </pre>
 
-Gibt dem Ausgang mit <code>number</code> eine Beschreibung, maximal 32 Zeichen, nur ASCII. Die Beschreibung kann über RDM abgefragt werden. Beispiel:
+Gibt dem Ausgang mit <code>number</code> eine Beschreibung, maximal 32 Zeichen, nur ASCII. Wird im EEPROM abgespeichert. Die Beschreibung kann über RDM abgefragt werden. Beispiel:
 
 <pre>
 setOutputName(1, "Lichtkreis 1 (Lager)");
@@ -157,7 +157,7 @@ print getOutputState(1);
 setInputName(number, "Description");
 </pre>
 
-Gibt dem Eingang mit <code>number</code> eine Beschreibung, maximal 32 Zeichen, nur ASCII. Beispiel:
+Gibt dem Eingang mit <code>number</code> eine Beschreibung, maximal 32 Zeichen, nur ASCII. Wird im EEPROM abgespeichert. Beispiel:
 
 <pre>
 setInputName(1, "Lichtschalter Tuer Lager");
@@ -182,7 +182,7 @@ print getInputName(1);
 setInputMode(number, mode);
 </pre>
 
-Setzt den Modus des Eingangs. Folgende Modis sind definiert:
+Setzt den Modus des Eingangs. Wird im EEPROM abgespeichert. Folgende Modis sind definiert:
 
 <pre>
 MODE_TOGGLE: Wechselschalter
