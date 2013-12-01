@@ -110,6 +110,47 @@ print getOutputName(1);
 > Lichtkreis 1 (Lager)
 </pre>
 
+=== setOutputState ===
+<pre>
+setOutputState(number, state);
+</pre>
+
+Setzt den Ausgang <code>number</code> auf den Zustand 0 (aus) oder 1 (an). Beispiel:
+
+<pre>
+setOutputState(10, 1);
+</pre>
+
+=== getOutputState ===
+<pre>
+getOutputState(number);
+</pre>
+
+Gibt den Zustand des Ausgangs <code>number</code> zurück.
+
+Beispiel:
+
+<pre>
+print getOutputState(10);
+> 1
+</pre>
+
+=== toggleOutputState ===
+<pre>
+toggleOutputState(number);
+</pre>
+
+Toggelt den Zustand des Ausgangs <code>number</code>.
+
+Beispiel:
+<pre>
+toggleOutputState(1);
+print getOutputState(1);
+> 1
+toggleOutputState(1);
+print getOutputState(1);
+> 0
+</pre>
 === setInputName ===
 
 <pre>
@@ -201,4 +242,32 @@ listInputs();
 > #4: Lichtschalter Tuer (Kueche) [MODE_TOGGLE]
 > ...
 > #16: Nicht belegt [MODE_TOGGLE]
+</pre>
+
+=== anyOutputOn ===
+
+<pre>
+anyOutputOn (number[,number,...]);
+</pre>
+
+Gibt zurück, ob ein Eingang in der Range eingeschalten ist. Beispiel:
+
+<pre>
+anyOutputOn(1,2,3,4,5,6);
+> 0
+</pre>
+
+=== onInput ===
+
+<pre>
+function onInputN {}
+</pre>
+
+Wird aufgerufen, wenn sich der logische Zustand des Eingangs ändert. Bei einem Taster ist dies analog zu einem kurzen Tasterdruck. Der Zustand wird mit arg(1) abgerufen. N wird dabei durch den entsprechenden Eingang ersetzt.
+
+Beispiel: Prüft, ob einer der Lichtkreise der Tafel an ist. Wenn ja, schalte alle Lichtkreise der Tafel aus. Wenn nein, schalte alle Lichtkreise der Tafel an.
+
+<pre>
+function onInput1 { z=anyOutputOn(5,6,7,11,12,13); setOutputState(5, !z); setOutputState(6, !z);
+setOutputState(7, !z); setOutputState(11, !z); setOutputState(12, !z); setOutputState(13, !z);}
 </pre>
