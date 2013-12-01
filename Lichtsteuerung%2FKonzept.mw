@@ -1,0 +1,204 @@
+== Einführung ==
+
+Die Lichtsteuerung verwendet [[wikipedia:DMX512|DMX]], um die Schaltzustände zu übertragen. Dies ermöglicht es, auch andere Peripherie wie z.b. [[wikipedia:Stage_lighting_instrument#PAR_lights|PAR-Spots]] anzusteuern. DMX sendet kontinuierlich die Werte für alle 512 Kanäle.
+
+== Schaltzustände ==
+
+In regulären DMX-Setups gibt es nur einen Controller, der alle angeschlossenen Geräte steuert. Im Falle der Lichtsteuerung gibt es da aber ein Problem: Was ist, wenn jemand einen Lichtschalter betätigt? Wie bekommt der Controller den Schaltzustand mit?
+
+Wir verwenden [[wikipedia:RDM_(lighting)|RDM]], um dieses Problem zu umgehen. Mittels RDM können Daten von RDM-fähigen Geräten abgerufen werden.
+
+Wird ein Schaltzustand von der Lichtsteuerung verändert, z.b. durch einen Taster, so wird dieser Kanal zukünftig von der Lichtsteuerung ignoriert.
+
+Der Controller frägt den Schaltzustand aktiv mittels DEFAULT_SLOT_VALUE ab, um den aktuellen Wert des Kanals zu erhalten. Die Slotnummern sind 0-31, analog zu den Ausgängen der Lichtsteuerung.
+
+Erst wenn der empfangene Wert über DMX mit dem internen Wert der Lichtsteuerung übereinstimmt, wird der Kanal nicht mehr ignoriert.
+
+Hierdurch ist sichergestellt, daß die Lichtsteuerung autark funktioniert, auch wenn der Controller defekt ist.
+
+== Firmware ==
+
+Die Firmware ist generisch gehalten, sodaß die selbe Firmware für Haupt- und Nebenraum eingesetzt werden kann. Die Konfigurationsdaten werden im EEPROM vorgehalten.
+
+Auf der Lichtsteuerung kommt deshalb [http://bitlash.net/ bitlash] zum Einsatz, welches rudimentäres Scripting ermöglicht. Folgende Funktionen stehen zur Verfügung:
+
+=== setDeviceName ===
+
+<pre>
+setDeviceName("description");
+</pre>
+
+Setzt den Namen der Lichtsteuerung. Maximal 32 Zeichen ASCII. Kann über RDM gesetzt und abgefragt werden (DEVICE_LABEL). Beispiel:
+
+<pre>
+setDeviceName("Lichtsteuerung Hauptraum");
+</pre>
+
+=== getDeviceName ===
+
+<pre>
+getDeviceName();
+</pre>
+
+Liefert den Namen der Lichtsteuerung. Beispiel:
+
+<pre>
+print getDeviceName();
+> Lichtsteuerung Hauptraum
+</pre>
+
+=== getDMXStartAddress ===
+
+<pre>
+getDMXStartAddress();
+</pre>
+
+Liefert die konfigurierte DMX Startaddresse zurück. Kann über RDM gesetzt und abgefragt werden (DMX_START_ADDRESS). Beispiel:
+
+<pre>
+print getDMXStartAddress();
+> 32
+</pre>
+
+=== setDMXStartAddress ===
+
+<pre>
+setDMXStartAddress(number);
+</pre>
+
+Setzt die DMX-Startaddresse. Beispiel:
+
+<pre>
+setDMXStartAddress(32);
+</pre>
+
+=== getRDMUID ===
+
+<pre>
+getRDMUID();
+</pre>
+
+Liefert die RDM UID zurück. Beispiel:
+
+<pre>
+print getRDMUID();
+&gt; 1f13:abde1000
+</pre>
+
+=== setOutputName ===
+
+<pre>
+setOutputName(number, "Description");
+</pre>
+
+Gibt dem Ausgang mit <code>number</code> eine Beschreibung, maximal 32 Zeichen, nur ASCII. Die Beschreibung kann über RDM abgefragt werden. Beispiel:
+
+<pre>
+setOutputName(1, "Lichtkreis 1 (Lager)");
+</pre>
+
+=== getOutputName ===
+
+<pre>
+getOutputName(number);
+</pre>
+
+Liefert den Namen eines Ausgangs zurück. Beispiel:
+
+<pre>
+print getOutputName(1);
+> Lichtkreis 1 (Lager)
+</pre>
+
+=== setInputName ===
+
+<pre>
+setInputName(number, "Description");
+</pre>
+
+Gibt dem Eingang mit <code>number</code> eine Beschreibung, maximal 32 Zeichen, nur ASCII. Beispiel:
+
+<pre>
+setInputName(1, "Lichtschalter Tuer Lager");
+</pre>
+
+=== getInputName ===
+
+<pre>
+getInputName(number);
+</pre>
+
+Gibt den Namen des Eingangs zurück. Beispiel:
+
+<pre>
+print getInputName(1);
+> Lichtschalter Tuer Lager
+</pre>
+
+=== setInputMode ===
+
+<pre>
+setInputMode(number, mode);
+</pre>
+
+Setzt den Modus des Eingangs. Folgende Modis sind definiert:
+
+<pre>
+MODE_TOGGLE: Wechselschalter
+MODE_MOMENTARY: Taster
+</pre>
+
+Beispiel:
+<pre>
+setInputMode(1, "MODE_MOMENTARY");
+</pre>
+
+=== getInputMode ===
+
+<pre>
+getInputMode(number);
+</pre>
+
+Liefert den Modus des Eingangs.
+
+Beispiel:
+
+<pre>
+print getInputMode(1);
+> MODE_MOMENTARY
+</pre>
+
+=== listOutputs ===
+
+<pre>
+listOutputs();
+</pre>
+
+Gibt alle Ausgänge inklusive der Namen auf dem Terminal zurück. Beispiel:
+
+<pre>
+listOutputs();
+> #1: Lichtkreis 1 (Lager)
+> #2: Lichtkreis 2 (Lager)
+> #3: Lichtkreis 3 (Lager)
+> ...
+> #32: Nicht belegt
+</pre>
+
+=== listInputs ===
+
+<pre>
+listInputs();
+</pre>
+
+Gibt alle Ausgänge inklusive der Namen und des Modus auf dem Terminal zurück. Beispiel:
+
+<pre>
+listInputs();
+> #1: Lichtschalter Tuer (Lager) [MODE_TOGGLE]
+> #2: Lichtschalter Tuer (Beamer) [MODE_TOGGLE]
+> #3: Lichtschalter Tuer (Tafel) [MODE_TOGGLE]
+> #4: Lichtschalter Tuer (Kueche) [MODE_TOGGLE]
+> ...
+> #16: Nicht belegt [MODE_TOGGLE]
+</pre>
