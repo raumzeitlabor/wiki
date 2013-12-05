@@ -34,6 +34,38 @@ Jeder Lichtsteuerungsclient kann alle empfangenen DMX-Daten auch wieder weiterge
 
 Schaltzustände können über DMX mittels [http://en.wikipedia.org/wiki/RDM_(lighting) RDM] erfragt werden. Inwiefern das Probleme mit existierendem DMX-Equipment gibt, ist bisher unklar; laut Wikipedia soll dies aber keine Probleme verursachen.
 
+= EEPROM Memory Map (Atmega64, 2K) =
+
+{| class="wikitable"
+|-----
+!Adresse!!Länge (Bytes)!!Inhalt
+|-
+|0x0000||1||Signatur 1 von DMXSerial2
+|-
+|0x0001||1||Signatur 2 von DMXSerial2
+|-
+|0x0002||2||DMX-Startaddresse
+|-
+|0x0004||32||Gerätebezeichnung
+|-
+|0x0024||6||Geräte-UID
+|-
+|0x002A||2006||Reserviert für bitlash-Funktionen
+|}
+
+= EEPROM Memory Map (I2C, 1MB) =
+
+{| class="wikitable"
+|-----
+!Adresse!!Länge (Bytes)!!Inhalt
+|-
+|0x0000||1024||Namen der Ausgänge (32x32 Zeichen)
+|-
+|0x0400||512||Namen der Eingänge (16x32 Zeichen)
+|-
+|0x0600||16||Modus der Eingänge
+|}
+
 = Tests des Prototypboards =
 
 {{TaskListStart}}
