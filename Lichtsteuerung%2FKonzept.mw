@@ -4,7 +4,7 @@ Die Lichtsteuerung verwendet [[wikipedia:DMX512|DMX]], um die Schaltzustände zu
 
 == Schaltzustände ==
 
-In regulären DMX-Setups gibt es nur einen Controller, der alle angeschlossenen Geräte steuert. Im Falle der Lichtsteuerung gibt es da aber ein Problem: Was ist, wenn jemand einen Lichtschalter betätigt? Wie bekommt der Controller den Schaltzustand mit?
+In regulären DMX-Setups gibt es nur einen [[Lichtsteuerung/Controller]], der alle angeschlossenen Geräte steuert. Im Falle der Lichtsteuerung gibt es da aber ein Problem: Was ist, wenn jemand einen Lichtschalter betätigt? Wie bekommt der Controller den Schaltzustand mit?
 
 Wir verwenden [[wikipedia:RDM_(lighting)|RDM]], um dieses Problem zu umgehen. Mittels RDM können Daten von RDM-fähigen Geräten abgerufen werden.
 
