@@ -67,13 +67,13 @@ Schaltzustände können über DMX mittels [http://en.wikipedia.org/wiki/RDM_(lig
 |}
 
 
-== Firmware ==
+= Firmware =
 
 Die Firmware ist generisch gehalten, sodaß die selbe Firmware für Haupt- und Nebenraum eingesetzt werden kann. Die Konfigurationsdaten werden im EEPROM vorgehalten.
 
 Auf der Lichtsteuerung kommt deshalb [http://bitlash.net/ bitlash] zum Einsatz, welches rudimentäres Scripting ermöglicht. Folgende Funktionen stehen zur Verfügung:
 
-=== setDeviceName ===
+== setDeviceName ==
 
 <pre>
 setDeviceName("description");
@@ -85,7 +85,7 @@ Setzt den Namen der Lichtsteuerung. Maximal 32 Zeichen ASCII. Wird im EEPROM abg
 setDeviceName("Lichtsteuerung Hauptraum");
 </pre>
 
-=== getDeviceName ===
+== getDeviceName ==
 
 <pre>
 getDeviceName();
@@ -98,7 +98,7 @@ print getDeviceName();
 > Lichtsteuerung Hauptraum
 </pre>
 
-=== getDMXStartAddress ===
+== getDMXStartAddress ==
 
 <pre>
 getDMXStartAddress();
@@ -111,7 +111,7 @@ print getDMXStartAddress();
 > 32
 </pre>
 
-=== setDMXStartAddress ===
+== setDMXStartAddress ==
 
 <pre>
 setDMXStartAddress(number);
@@ -123,7 +123,7 @@ Setzt die DMX-Startaddresse. Wird im EEPROM abgespeichert. Beispiel:
 setDMXStartAddress(32);
 </pre>
 
-=== getRDMUID ===
+== getRDMUID ==
 
 <pre>
 getRDMUID();
@@ -136,7 +136,7 @@ print getRDMUID();
 &gt; 1f13:abde1000
 </pre>
 
-=== setOutputName ===
+== setOutputName ==
 
 <pre>
 setOutputName(number, "Description");
@@ -148,7 +148,7 @@ Gibt dem Ausgang mit <code>number</code> eine Beschreibung, maximal 32 Zeichen, 
 setOutputName(1, "Lichtkreis 1 (Lager)");
 </pre>
 
-=== getOutputName ===
+== getOutputName ==
 
 <pre>
 getOutputName(number);
@@ -161,7 +161,7 @@ print getOutputName(1);
 > Lichtkreis 1 (Lager)
 </pre>
 
-=== setOutputState ===
+== setOutputState ==
 <pre>
 setOutputState(number, state);
 </pre>
@@ -172,7 +172,7 @@ Setzt den Ausgang <code>number</code> auf den Zustand 0 (aus) oder 1 (an). Beisp
 setOutputState(10, 1);
 </pre>
 
-=== getOutputState ===
+== getOutputState ==
 <pre>
 getOutputState(number);
 </pre>
@@ -186,7 +186,7 @@ print getOutputState(10);
 > 1
 </pre>
 
-=== toggleOutputState ===
+== toggleOutputState ==
 <pre>
 toggleOutputState(number);
 </pre>
@@ -202,7 +202,7 @@ toggleOutputState(1);
 print getOutputState(1);
 > 0
 </pre>
-=== setInputName ===
+== setInputName ==
 
 <pre>
 setInputName(number, "Description");
@@ -214,7 +214,7 @@ Gibt dem Eingang mit <code>number</code> eine Beschreibung, maximal 32 Zeichen, 
 setInputName(1, "Lichtschalter Tuer Lager");
 </pre>
 
-=== getInputName ===
+== getInputName ==
 
 <pre>
 getInputName(number);
@@ -227,7 +227,7 @@ print getInputName(1);
 > Lichtschalter Tuer Lager
 </pre>
 
-=== setInputMode ===
+== setInputMode ==
 
 <pre>
 setInputMode(number, mode);
@@ -245,7 +245,7 @@ Beispiel:
 setInputMode(1, "MODE_MOMENTARY");
 </pre>
 
-=== getInputMode ===
+== getInputMode ==
 
 <pre>
 getInputMode(number);
@@ -260,7 +260,7 @@ print getInputMode(1);
 > MODE_MOMENTARY
 </pre>
 
-=== listOutputs ===
+== listOutputs ==
 
 <pre>
 listOutputs();
@@ -277,7 +277,7 @@ listOutputs();
 > #32: Nicht belegt
 </pre>
 
-=== listInputs ===
+== listInputs ==
 
 <pre>
 listInputs();
@@ -295,7 +295,7 @@ listInputs();
 > #16: Nicht belegt [MODE_TOGGLE]
 </pre>
 
-=== anyOutputOn ===
+== anyOutputOn ==
 
 <pre>
 anyOutputOn (number[,number,...]);
@@ -308,7 +308,7 @@ anyOutputOn(1,2,3,4,5,6);
 > 0
 </pre>
 
-=== onInput ===
+== onInput ==
 
 <pre>
 function onInputN {}
