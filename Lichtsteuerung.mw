@@ -14,7 +14,8 @@
 
 = Komponenten =
 
-Eine Lichtsteuerung besteht aus einem [[Lichtsteuerung/Controller|Lichtsteuerungscontroller]], [[Lichtsteuerung/Relais|Relais]] zum Schalten der Verbraucher, [[Lichtsteuerung/Koppelrelais|Koppelrelais]] zum Auswerten der Schalter sowie einem oder mehreren [[Lichtsteuerung/Hutschinengehäuse|Hutschinengehäusen]].
+Eine Lichtsteuerung besteht aus einem [[Lichtsteuerung/Controller|Lichtsteuerungscontroller]], 
+ein oder mehrere [[Lichtsteuerung/Client|Clients]], [[Lichtsteuerung/Relais|Relais]] zum Schalten der Verbraucher, [[Lichtsteuerung/Koppelrelais|Koppelrelais]] zum Auswerten der Schalter sowie einem oder mehreren [[Lichtsteuerung/Hutschinengehäuse|Hutschinengehäusen]].
 
 = Unterseiten =
 
