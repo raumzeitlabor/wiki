@@ -2,6 +2,6 @@ Der Lichtsteuerungscontroller übernimmt die Steuerungsaufgaben aller am DMX-Bus
 
 == Technik ==
 
-Der Controller besteht aus einem [[spark.rzl|Raspberry Pi (spark.rzl)]] sowie einem [http://www.enttec.com/?main_menu=Products&pn=70304 ENTTEC DMX USB Pro]]. Der DMX USB Pro besitzt die Firmware-Version 2.4, und unterstützt damit RDM. Als Steuerungssoftware kommt [http://www.opendmx.net/index.php/Open_Lighting_Project OLA] zum Einsatz.
+Der Controller besteht aus einem [[spark.rzl|Raspberry Pi (spark.rzl)]] sowie einem [http://www.enttec.com/?main_menu=Products&pn=70304 ENTTEC DMX USB Pro]. Der DMX USB Pro besitzt die Firmware-Version 2.4, und unterstützt damit RDM. Als Steuerungssoftware kommt [http://www.opendmx.net/index.php/Open_Lighting_Project OLA] zum Einsatz.
 
 Auf [[Mate_(Server)/infra.rzl|infra.rzl]] läuft ein REST-fähiges Web-Frontend, welches via RabbitMQ mit [[spark.rzl]] kommuniziert. Somit bleibt die CPU-Belastung auf [[spark.rzl]] durch HTTP-Requests gering.
