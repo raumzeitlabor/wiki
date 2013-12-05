@@ -66,6 +66,263 @@ Schaltzustände können über DMX mittels [http://en.wikipedia.org/wiki/RDM_(lig
 |0x0600||16||Modus der Eingänge
 |}
 
+
+== Firmware ==
+
+Die Firmware ist generisch gehalten, sodaß die selbe Firmware für Haupt- und Nebenraum eingesetzt werden kann. Die Konfigurationsdaten werden im EEPROM vorgehalten.
+
+Auf der Lichtsteuerung kommt deshalb [http://bitlash.net/ bitlash] zum Einsatz, welches rudimentäres Scripting ermöglicht. Folgende Funktionen stehen zur Verfügung:
+
+=== setDeviceName ===
+
+<pre>
+setDeviceName("description");
+</pre>
+
+Setzt den Namen der Lichtsteuerung. Maximal 32 Zeichen ASCII. Wird im EEPROM abgespeichert. Kann über RDM gesetzt und abgefragt werden (DEVICE_LABEL). Beispiel:
+
+<pre>
+setDeviceName("Lichtsteuerung Hauptraum");
+</pre>
+
+=== getDeviceName ===
+
+<pre>
+getDeviceName();
+</pre>
+
+Liefert den Namen der Lichtsteuerung. Beispiel:
+
+<pre>
+print getDeviceName();
+> Lichtsteuerung Hauptraum
+</pre>
+
+=== getDMXStartAddress ===
+
+<pre>
+getDMXStartAddress();
+</pre>
+
+Liefert die konfigurierte DMX Startaddresse zurück. Kann über RDM gesetzt und abgefragt werden (DMX_START_ADDRESS). Beispiel:
+
+<pre>
+print getDMXStartAddress();
+> 32
+</pre>
+
+=== setDMXStartAddress ===
+
+<pre>
+setDMXStartAddress(number);
+</pre>
+
+Setzt die DMX-Startaddresse. Wird im EEPROM abgespeichert. Beispiel:
+
+<pre>
+setDMXStartAddress(32);
+</pre>
+
+=== getRDMUID ===
+
+<pre>
+getRDMUID();
+</pre>
+
+Liefert die RDM UID zurück. Beispiel:
+
+<pre>
+print getRDMUID();
+&gt; 1f13:abde1000
+</pre>
+
+=== setOutputName ===
+
+<pre>
+setOutputName(number, "Description");
+</pre>
+
+Gibt dem Ausgang mit <code>number</code> eine Beschreibung, maximal 32 Zeichen, nur ASCII. Wird im EEPROM abgespeichert. Die Beschreibung kann über RDM abgefragt werden. Beispiel:
+
+<pre>
+setOutputName(1, "Lichtkreis 1 (Lager)");
+</pre>
+
+=== getOutputName ===
+
+<pre>
+getOutputName(number);
+</pre>
+
+Liefert den Namen eines Ausgangs zurück. Beispiel:
+
+<pre>
+print getOutputName(1);
+> Lichtkreis 1 (Lager)
+</pre>
+
+=== setOutputState ===
+<pre>
+setOutputState(number, state);
+</pre>
+
+Setzt den Ausgang <code>number</code> auf den Zustand 0 (aus) oder 1 (an). Beispiel:
+
+<pre>
+setOutputState(10, 1);
+</pre>
+
+=== getOutputState ===
+<pre>
+getOutputState(number);
+</pre>
+
+Gibt den Zustand des Ausgangs <code>number</code> zurück.
+
+Beispiel:
+
+<pre>
+print getOutputState(10);
+> 1
+</pre>
+
+=== toggleOutputState ===
+<pre>
+toggleOutputState(number);
+</pre>
+
+Toggelt den Zustand des Ausgangs <code>number</code>.
+
+Beispiel:
+<pre>
+toggleOutputState(1);
+print getOutputState(1);
+> 1
+toggleOutputState(1);
+print getOutputState(1);
+> 0
+</pre>
+=== setInputName ===
+
+<pre>
+setInputName(number, "Description");
+</pre>
+
+Gibt dem Eingang mit <code>number</code> eine Beschreibung, maximal 32 Zeichen, nur ASCII. Wird im EEPROM abgespeichert. Beispiel:
+
+<pre>
+setInputName(1, "Lichtschalter Tuer Lager");
+</pre>
+
+=== getInputName ===
+
+<pre>
+getInputName(number);
+</pre>
+
+Gibt den Namen des Eingangs zurück. Beispiel:
+
+<pre>
+print getInputName(1);
+> Lichtschalter Tuer Lager
+</pre>
+
+=== setInputMode ===
+
+<pre>
+setInputMode(number, mode);
+</pre>
+
+Setzt den Modus des Eingangs. Wird im EEPROM abgespeichert. Folgende Modis sind definiert:
+
+<pre>
+MODE_TOGGLE: Wechselschalter
+MODE_MOMENTARY: Taster
+</pre>
+
+Beispiel:
+<pre>
+setInputMode(1, "MODE_MOMENTARY");
+</pre>
+
+=== getInputMode ===
+
+<pre>
+getInputMode(number);
+</pre>
+
+Liefert den Modus des Eingangs.
+
+Beispiel:
+
+<pre>
+print getInputMode(1);
+> MODE_MOMENTARY
+</pre>
+
+=== listOutputs ===
+
+<pre>
+listOutputs();
+</pre>
+
+Gibt alle Ausgänge inklusive der Namen auf dem Terminal zurück. Beispiel:
+
+<pre>
+listOutputs();
+> #1: Lichtkreis 1 (Lager)
+> #2: Lichtkreis 2 (Lager)
+> #3: Lichtkreis 3 (Lager)
+> ...
+> #32: Nicht belegt
+</pre>
+
+=== listInputs ===
+
+<pre>
+listInputs();
+</pre>
+
+Gibt alle Ausgänge inklusive der Namen und des Modus auf dem Terminal zurück. Beispiel:
+
+<pre>
+listInputs();
+> #1: Lichtschalter Tuer (Lager) [MODE_TOGGLE]
+> #2: Lichtschalter Tuer (Beamer) [MODE_TOGGLE]
+> #3: Lichtschalter Tuer (Tafel) [MODE_TOGGLE]
+> #4: Lichtschalter Tuer (Kueche) [MODE_TOGGLE]
+> ...
+> #16: Nicht belegt [MODE_TOGGLE]
+</pre>
+
+=== anyOutputOn ===
+
+<pre>
+anyOutputOn (number[,number,...]);
+</pre>
+
+Gibt zurück, ob ein Eingang in der Range eingeschalten ist. Beispiel:
+
+<pre>
+anyOutputOn(1,2,3,4,5,6);
+> 0
+</pre>
+
+=== onInput ===
+
+<pre>
+function onInputN {}
+</pre>
+
+Wird aufgerufen, wenn sich der logische Zustand des Eingangs ändert. Bei einem Taster ist dies analog zu einem kurzen Tasterdruck. Der Zustand wird mit arg(1) abgerufen. N wird dabei durch den entsprechenden Eingang ersetzt.
+
+Beispiel: Prüft, ob einer der Lichtkreise der Tafel an ist. Wenn ja, schalte alle Lichtkreise der Tafel aus. Wenn nein, schalte alle Lichtkreise der Tafel an.
+
+<pre>
+function onInput1 { z=anyOutputOn(5,6,7,11,12,13); setOutputState(5, !z); setOutputState(6, !z);
+setOutputState(7, !z); setOutputState(11, !z); setOutputState(12, !z); setOutputState(13, !z);}
+</pre>
+
 = Tests des Prototypboards =
 
 {{TaskListStart}}
