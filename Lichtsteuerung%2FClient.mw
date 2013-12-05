@@ -1,10 +1,10 @@
 = Einführung =
 
-Der Lichtsteuerungscontroller sorgt dafür, Schaltwünsche von Benutzern in Lichtzustände umzusetzen. Technisch: DMX-Input zu Relaisoutput.
+Der Lichtsteuerungsclient sorgt dafür, Schaltwünsche von Benutzern in Lichtzustände umzusetzen. Technisch: DMX-Input zu Relaisoutput.
 
 = Features =
-[[Image:Lichtsteuerung board top.png|thumb|right|Controllerplatine Oberseite]]
-[[Image:Lichtsteuerung board bottom.png|thumb|right|Controllerplatine Unterseite]]
+[[Image:Lichtsteuerung board top.png|thumb|right|Clientplatine Oberseite]]
+[[Image:Lichtsteuerung board bottom.png|thumb|right|Clientplatine Unterseite]]
 * DMX Ein- und Ausgang
 * Batteriegestützte Realtime Clock
 * 1024KB I²C EEPROM
@@ -14,7 +14,7 @@ Der Lichtsteuerungscontroller sorgt dafür, Schaltwünsche von Benutzern in Lich
 
 = Kaskadierung =
 
-Lichtsteuerungscontroller können kaskadiert werden, da sie einen DMX-Ausgang besitzen. Haupt- und Nebenraum besitzen jeweils einen eigenen Lichtsteuerungscontroller.
+Lichtsteuerungsclients können kaskadiert werden, da sie einen DMX-Ausgang besitzen. Haupt- und Nebenraum besitzen jeweils einen eigenen Lichtsteuerungsclient.
 
 = Relais schalten und Verkabeln =
 
@@ -28,7 +28,7 @@ Die Ausgänge besitzen keine Freilaufdioden. Der Relaistreiber besitzt Dioden, a
 
 = Die Kraft der zwei Prozessoren =
 
-Jeder Lichtsteuerungscontroller kann alle empfangenen DMX-Daten auch wieder weitergeben. Da DMX darauf basiert, daß die Schaltzustände dauerhaft wiederholt werden, gibt es hierzu einen eigenen Atmega8.
+Jeder Lichtsteuerungsclient kann alle empfangenen DMX-Daten auch wieder weitergeben. Da DMX darauf basiert, daß die Schaltzustände dauerhaft wiederholt werden, gibt es hierzu einen eigenen Atmega8.
 
 = Schaltzustände =
 
