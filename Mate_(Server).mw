@@ -16,7 +16,7 @@
 '''Mate''' ist ein Server, der als Ersatz der [[Blackbox]] und [[Datengrab]] dient.
 
 ==Technische Daten ==
-{| class="wikitable"  valign = "top"
+{| class="wikitable va-top"
 |Produkt
 |[http://www8.hp.com/de/de/products/proliant-servers/product-detail.html?oid=5379860#!tab=features HP Proliant MicroServer Gen8]
 |-
