@@ -113,15 +113,7 @@ print getDMXStartAddress();
 
 == setDMXStartAddress ==
 
-<pre>
-setDMXStartAddress(number);
-</pre>
-
-Setzt die DMX-Startaddresse. Wird im EEPROM abgespeichert. Beispiel:
-
-<pre>
-setDMXStartAddress(32);
-</pre>
+Obsolet; DMX-Startaddresse wird nur über RDM gesetzt.
 
 == getRDMUID ==
 
