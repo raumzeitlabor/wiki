@@ -46,13 +46,9 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 == VMs ==
 {| class="wikitable"  valign="top"
 ! VM
-
 ! Arbeitsspeicher
-
 ! Plattenplatz
-
 |-
-
 | [[Mate (Server)/abrock.vm.rzl]]
 | 1000 MB
 | 30 GB
@@ -114,7 +110,7 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | '''3.1 TB / 5.3 TB (58.94% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2013-12-17 00:00:03
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2013-12-17 16:15:14
 
 == Unterseiten ==
 <splist />
