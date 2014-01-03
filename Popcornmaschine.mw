@@ -49,6 +49,16 @@ Die Einweihung der Maschine hat gezeigt, dass der Topf tatsächlich unheimlich s
 # Nicht vergessen auch die Auffangschale zu reinigen.
 # Auch die Seitenwände und die Tür werden mit der Zeit fettig, Maschine kann ruhig mal ausgewischt werden.
 
+
+== Modifikation ==
+
+Alexander baut in die Popcornmaschine eine vernünftige Heizungs-Regelung ein, hier der Plan:
+
+* Ein Temperatursensor misst die Temperatur des Topfes. Der Temperatursensor hat ein Stahlflex-ummanteltes Kabel, ein passendes Rohr existiert ebenfalls. Fehlt noch ein Mikrofonstecker. Der Temperatursensor liefert eine Spannung von etwa 6,4mV, wenn er auf 200°C erhitzt wird, sollte mit Operationsverstärkern Faktor 1000 verstärkt werden.
+* Mit einem Solid-State-Relais ([http://www.fotek.com.hk/solid/SSR-1.htm FOTEK SSR-25 DA, 3-32V DC, 24-380 VAC]) wird die Heizung ein- und ausgeschalten.
+* Mit einem Stromwandler wird gemessen, ob der Bimetallschalter im Topf abgeschaltet hat, also ob kein Strom fließt, obwohl das SSR an ist. Typ ist "338 293-00 LTE 0907", vermutlich [http://www.lte.com.tw/lte_c.s.type.html dieser], hat ~4,7 Ohm, also mal mit 200 Ohm Lastwiderstand testen.
+* Primärziel: uC-Firmware bauen, die über serielle Schnittstelle protokollieren bei welcher Temperatur der Bimetallschalter abschaltet.
+
 [[Kategorie:Projekt]]
 [[Category:Raum-Kirmes-Labor]]
 [[Category:Hardware]]
