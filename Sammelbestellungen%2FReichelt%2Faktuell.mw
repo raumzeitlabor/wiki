@@ -54,6 +54,13 @@ KAPPE 1ZC06;1
 KAPPE 1ZB09;4
 </pre>
 
+Für Modding OHM-LED-Strip:
+
+<pre>
+TPLINK TL-WR702N;1
+SNT RS 50 5;1
+</pre>
+
 == hax404 braucht ==
 <pre>
 BE LXS 150/400;1
