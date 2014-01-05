@@ -80,3 +80,10 @@ LED RGB-5 KLAR;2
 LED RGB-5 DIFFUS;2
 MAXXTRO 103720;1
 </pre>
+
+== DaFo braucht ebenso ==
+<pre>
+BNC 7043-IEC;2
+ML 2212-200RT;2
+ML 2212-200SW;2
+</pre>
