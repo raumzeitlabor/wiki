@@ -3,7 +3,7 @@
 |status      = experimental
 |image       = 
 |description = 
-|author      = [[Benutzer:Hax404|hax404]], [[Benutzer:Muzy|muzy]], [[Benutzer:Nazco|nazco]], [[Benutzer:TheTinyToon|TTT]], [[Benutzer:Dakunier|Dakunier]], [[Benutzer:Slowpoke|slowpoke]]
+|author      = [[Benutzer:Nazco|nazco]]
 |username    = 
 |version     = 
 |update      = 
@@ -12,21 +12,28 @@
 |download    = 
 }}
 
+== Firmware ==
 
-Dies wird unsere Projektseite für Freifunk.
+Aktuell arbeitete ich ([[Benutzer:Nazco|nazco]]) an einer Firmware falls Ihr Interesse an einem Freifunk im Rhein Neckar Kreis habt kontaktiert mich bitte.
+Stand 06-01-2014:
+ * Meshing funktionier (BATMAN Protokoll)
+ * Gateway läuft auch (ich warte nur noch auf ein Software Release)
+ * IP Vergabe ist geplant
+ * Wizzard zur Ersteinrichtung fehlt auf Grund von zu schlechter Doku und keinem Ansprechpartnern bei anderen FF Gruppen
+ * Website (Warte ich noch auf Rückmeldungen von anderen FF Gruppen)
 
 == Ressourcen ==
 * [http://interprojekt.pl interprojekt.pl] polnischer Shop mit allerlei WLAN Hardware (Boards, Steckkarten, Antennen, etc.). Verschickt auch nach DE.
 
 == Generelles ==
 
-* FreiFunk Mannheim ist tot
+* Freifunk Mannheim ist tot
 
 Es exisitiert bereitschaft, aber zuviel legal-foo™
 
 FF Rheinland sehr aktiv, grosse hotspots in duesseldorf
 * Standardhardware (TPlink wr841nd)
-* eigene firmware
+* eigene Firmware
 
 Stoererhaftung Loesung:
 VPN ueber Schweden (5€/mo)
