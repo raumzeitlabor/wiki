@@ -34,6 +34,9 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 ; Anschaffung Vakuum-Pumpe für SMD-Pick and Place
 : Ich würde gerne eine Vakuum-Pumpe für manuelles Pick'n'Place anschaffen. Es gibt eine Vakuum-Pumpe für ca. 46€ von AOYUE (AOYUE 932). Diese benötigt zwar etwas Nacharbeit (entweder Fußschalter und Magnetventil oder größeres Loch am Plazierstift), aber preislich ist es mit Abstand das günstigste, was man sich in dem Bereich anschaffen kann - alle anderen Produkte kosten weit über 200€. [http://www.youtube.com/watch?v=DjpvpYQPezo Videoreview hier]. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 01:20, 16. Dez. 2013 (CET)
 
+; Anschaffung Widerstandsdekade
+: Desöfteren kommt es vor, daß man bei elektronischen Schaltungen Widerstände "durchtesten" muß, um den optimalen Wert zu finden. Dazu gibt es sogenannte Widerstandsdekaden, die normalerweise relativ teuer sind - Gerry Sweeny hat aber eine Low-Cost-Variante für ca. 19USD gebaut (1 Ohm bis 10 MOhm). Das gibt es auch für Kondensatoren (100pF bis 10µF). Ich würde den Kauf von 2 Widerstandsdekaden sowie einer Kondensatordekade vorschlagen, insgesamt 70 USD. Da die Sachen aus UK kommen, sollte kein Zoll anfallen, also insgesamt ca. 51€. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 03:21, 8. Jan. 2014 (CET)
+
 ; Anschaffung Entlötstation
 : Kauf einer Entlötstation mit 100W Lötkolben und 100W Entlötkolben.
 : Die Station hat eine eingebaute Vac-Pumpe.
