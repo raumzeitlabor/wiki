@@ -171,11 +171,11 @@ Mittlerer Treiber Zeile
 
 Ansonsten:
 <pre>
-10:32 < Felicitus> so als faustregel: alles Ã¼ber 100mA ist tÃ¶dlich fÃ¼r den
-                   treiber-ic
-10:33 < Felicitus> das ist Ã¼brigens ein FP2800a
+10:32 < Felicitus> so als faustregel: alles über 100mA ist tödlich für den treiber-ic
+10:33 < Felicitus> das ist übrigens ein FP2800a
 10:33 < Felicitus> naja ok, 370mA
 </pre>
+
 == Unterseiten ==
 <splist />
 
