@@ -139,7 +139,43 @@ flip dot board
 pin 1+64 gnd
 pin 2+63 +24V
 
+===Unsortierte Kommentare aus dem IRC===
+<pre>
+Quelle: Feli https://www.dropbox.com/s/ij2nptm7kq6h1mp/RevEngineering.txt
 
+Braun - Enable Lines
+Grün - B0+B1
+Rot - A0-A2
+Weiß - Data
+
+
+
+0 -> 1-7
+1 -> 8-15
+2 -> 16-21
+3 -> 22-28
+
+
+
+2F -> Spalte 9
+2D -> Spalte 11
+2E -> Spalte 10
+
+
+E0 -> Spalten
+E1 -> Zeilen
+
+Rechter Treiber Spalte
+Mittlerer Treiber Zeile
+</pre>
+
+Ansonsten:
+<pre>
+10:32 < Felicitus> so als faustregel: alles Ã¼ber 100mA ist tÃ¶dlich fÃ¼r den
+                   treiber-ic
+10:33 < Felicitus> das ist Ã¼brigens ein FP2800a
+10:33 < Felicitus> naja ok, 370mA
+</pre>
 == Unterseiten ==
 <splist />
 
