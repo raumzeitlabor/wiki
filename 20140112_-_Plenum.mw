@@ -1,0 +1,167 @@
+{{#addscript:snow}}
+
+Anwesende: muzy, xandy, inte, ingo, jayjay, drahti, dafo, else, monika,don,blabber,abrock,nicoduck,steeph
+Beginn: 16:07
+=Beschlüsse des letzten Plenums - Realitätsabgleich=
+
+==Getränkeautomat==
+Keine Neuigkeiten.
+
+==Anschaffung programmierbares Labornetzteil==
+Ist da, läuft
+
+==Vorhänge==
+Es gibt mehr magnete.
+Nebenraumvorhänge: Keine Änderung.
+Alex will sich dem schwarzen Stoff annehmen.
+
+==Feinmengenwaage beschaffen==
+Status unklar. Nico hat mal was gehört. Waage ist da und nicht gut. Soll wohl doch eine bessere beschafft werden.
+
+==Sprühätzanlage==
+Keine Updates. Echox wollte sich kümmern. Nichts neues
+
+==Anschaffung Stromequipment==
+Ist da, funktioniert. Steht auf Tardis 1.
+
+==Vereinshaftpflicht==
+Keine Updates. Alter Vorstand meint, der neue Vorstand soll sich drum kümmern. Dieser macht das dann.
+
+==Anschaffung Lego-Mindstorms EV3 Zubehör==
+Zwei Mindstorms Kästen wurden geliefert. 4 Zusatz-Sets auch. Ein Probe-Aufbewahrungsbox ist da. 5 Notebooks von der KSB AG gespendet. Restliches Zubehör folgt im Januar.
+
+==Einschub zwecks MV==
+Mitgliederversammlung findet im März statt, weil das Finanzamt will, dass die MV das Geschäftsjahr (=Kalenderjahr) abschließt.
+Auf dieser MV finden keine Vorstandswahlen statt, es wird lediglich der Bericht des Vorstands vorgelegt und abgesegnet.
+2015 findet die MV dann im Frühjahr statt.
+
+==Weihnachtsfeier oder Jahresendzeitfest oder so==
+Wurde durchgeführt.
+
+==Nebenraumstatus==
+DaFo: ist in Arbeit. 
+
+Nico möchte einen CO2-Löscher kaufen. 
+
+Abstimmung:
+
+'''Dafür''': Alle
+'''Dagegen''': Niemand
+'''Neutral''': Niemand
+
+Aktuelle Feuerlöscher sind ab 12/2014 nicht mehr geprüft. Es müsste neu geprüft werden. 
+
+==Transportkisten für Veranstaltungen==
+Alexander hat eine Kiste mit Rollen für den Elektrokram gebaut. Sind ponifiziert und bis auf kleinere Congressschäden noch benuztbar. Wird gefixt.
+
+=Plenumspunkte heute=
+==Anschaffung Zubehör zum Lötpaste dispensen==
+Wir haben ein [[Dosiergerät VSE215A|Dosiergerät]], welches sich gut dafür eignen würde, Lötpaste auf PCBs aufzubringen. Ein Kompressor ist ja vorhanden, allerdings fehlen da noch einige Dinge:
+* Dosieradapter für 3cc-Spritzen
+* Passende Kartuschen
+* Passende Kolben für die Kartuschen
+* Diverse Dosiernadeln
+Insgesamt geht es um ca. 50€ . --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 01:20, 16. Dez. 2013 (CET)
+Dafür: Alle -1
+Dagegen: 0
+Enthaltung: 1
+
+==Anschaffung Vakuum-Pumpe für SMD-Pick and Place==
+Felicitus würde gerne eine Vakuum-Pumpe für manuelles Pick'n'Place anschaffen. Es gibt eine Vakuum-Pumpe für ca. 46€ von AOYUE (AOYUE 932). Diese benötigt zwar etwas Nacharbeit (entweder Fußschalter und Magnetventil oder größeres Loch am Plazierstift), aber preislich ist es mit Abstand das günstigste, was man sich in dem Bereich anschaffen kann - alle anderen Produkte kosten weit über 200€. [http://www.youtube.com/watch?v=DjpvpYQPezo Videoreview hier]. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 01:20, 16. Dez. 2013 (CET)
+Dafür: Alle -1
+Dagegen: 0
+Enthaltung: 1
+
+==Anschaffung Widerstandsdekade==
+Desöfteren kommt es vor, daß man bei elektronischen Schaltungen Widerstände "durchtesten" muß, um den optimalen Wert zu finden. Dazu gibt es sogenannte Widerstandsdekaden, die normalerweise relativ teuer sind - Gerry Sweeny hat aber eine Low-Cost-Variante für ca. 19USD gebaut (1 Ohm bis 10 MOhm) ([http://gerrysweeney.com/wp-content/uploads/wppa/130.jpg?ver=1 Bild hier]). Das gibt es auch für Kondensatoren (100pF bis 10µF). Felicitus würde den Kauf von 2 Widerstandsdekaden sowie einer Kondensatordekade vorschlagen, insgesamt 70 USD. Da die Sachen aus UK kommen, sollte kein Zoll anfallen, also insgesamt ca. 51€. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 03:21, 8. Jan. 2014 (CET)
+Dafür: Alle 
+Dagegen: 0
+Enthaltung: 0
+
+==Anschaffung Entlötstation==
+Kauf einer Entlötstation mit 100W Lötkolben und 100W Entlötkolben.
+Die Station hat eine eingebaute Vac-Pumpe.
+Auslöten von Steckverbinden und Elkos auf Mainboards etc. ohne langen Braten der Lötstellen.
+Reichelt: Station LF-8800 Preis ca. 290€ ( aktuell ca 270€ )
+Ersatzspitzen und diverses Verbrauchsmaterial zur Station
+: --[[Benutzer:DancingFo|DancingFo]]
+:: Eventuell noch SMD-Lötpinzette '''[http://www.reichelt.de/XYTRONIC-Ersatzspitzen-u-Zubehoer/KOLBEN-TWZ-100/3/index.html?&ACTION=3&LA=3&ARTICLE=89366&GROUPID=4670 KOLBEN TWZ 100]''' dazu? Kostet im Moment 59,95€, passt angeblich zur LF-8800 --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 01:56, 1. Jan. 2014 (CET)
+
+Es wird über 400€ abgestimmt, um noch etwas puffer für das zubehör zu haben:
+
+Dafür: alle-1
+Dagegen: keine
+Enthaltung: 1
+
+==Multimeter-Kalibrator==
+Wir haben ja so einige Multimeter, von denen die wenigsten noch innerhalb ihrer Spezifikationen sein dürften. Mit dem DMMCheck Plus kann man die Multimeter selbst kalibrieren.
+Kostenpunkt: 92,90USD (inkl. Shipping+Gehäuse, wird auch ca. auf 90€ hinauslaufen, wenn man Zoll berücksichtigt)
+
+mehrere so: Kann man unsere billigen überhaupt kalibrieren?
+
+Vorschlag von muzy: Batterie nehmen, unser tolles fluke daran anschließen, billiges multimeter daran anschließen und das billige so lange nachkalibrieren, bis es das gleiche wie das tolle anzeigt;
+
+skip, Feli soll das im nächsten Plenum mal erörtern.
+
+==Nebenkostenabrechnung==
+Wir haben von unserem Vermieter (Robert Mutlu) eine  Nebenkostenabrechnung erhalten. Die ist grob falsch und ich rechne das  vor. --[[Benutzer:Alexander Brock|Alexander Brock]] ([[Benutzer  Diskussion:Alexander Brock|Diskussion]]) 16:58, 7. Jan. 2014 (CET)
+
+Wir hatten bis September (also 9 Monate) 115m² dafür 3,90€ Miete und 2,10€ Nebenkosten (exkl. MwSt.). Pauschale Abfallkosten 15€ p.M. und Getränkelager 30€ p.M.
+
+115*(3,9+2,1)+15+30 = 735€ = 6615 (9 Monate)
+
+Ab Oktober 178m² dafür je 3,90€ Miete und 2,10€ Nebenkosten, gleiche Pauschalen, Getränkelager wird nicht ausgewiesen.
+
+178*(3,9+2,1)+15+30 = 1113€ (mit Getränkelager)
+
+178*(3,9+2,1)+15 = 1083€ (ohne Getränkelager) = 3249 (3 Monate)
+
+Summe = 9864€ Miete für 2012 inkl. Nebenkosten ohne MwSt.
+
+Stromkosten wurden monatlich vorausgezahlt (und abgelesen) - Alex hat immer auf 50€ gerundet (kaufmännisch).
+
+Überwiesen wurden 13400€ (Strom, Miete, Nebenkosten, Mehrwertsteuer).
+
+Geteilt durch 1.19 = 11260,50€ = Betrag ohne MwSt. -> Das macht 1396,50€ Guthaben.
+
+Gesamt für 2012 Nebenkosten = 1396,50€ (Freiwillige Vorauszahlung) + 3294,9€ (Vorausszahlung lt. Vertrag) = 4691.4€
+
+Nun zur Nebenkostenabrechnung:
+
+Wir sollen zahlen: Wärme bis 31.9. HR = 1178,27€ (exkl. MwSt) (= 131€ im Monat)
+
+Wärme ab 1.10. NR =  221,07€ (exkl. MwSt) (nur Nebenraum)
+
+Wärme ab 1.10. HR = 651.83€ (exkl. MwST) (nur Hauptraum)
+
+Strom 1822.25€ (Alex glaubt dieses nachgeprüft zu haben) (exkl. MwSt.)  (wurde ende des jahres abgestellt, deswegen weniger)
+
+==> 3873.42€ (exkl. MwSt)
+
+Müssten zurückbekommen: 817,98€ (exkl. MwSt)
+
+Laut Rechnung möchte Robert Mutlu eine Nachzahlung von 1856,90€ (inkl. MwSt)
+
+Nun kommen die Sachen, über die sich Alex nicht im klaren ist:
+    
+Laut Robert wurden 2313€ vorausgezahlt. Das stimmt nicht mit unserer Nebenkostensumme (4691,4€) überein. 
+
+Die teilweise korrekte Rechnung ist falsch, da Vorauszahlung falsch. Gesamtkosten = Gesamtkosten Wärme - Vorauszahlung.
+
+Fehler Nummer 1: Seine ausgewiesene Vorauszahlung stimmt nicht mit Vertrag überein (zu gering angesetzt). Was wir gezahlt haben stimmt auch nicht überein (wir haben mehr gezahlt wegen Stromkosten). Insgesamt bekommen wir eigentlich Geld wieder statt was nachzuzahlen.
+
+Fehler Nummer 2: Aufschlüsselung der Heizkosten. Gesamtkosten durch 528m² geteilt und damit Kosten pro m² gerechnet. Diese wurden uns in Rechnung gestellt. Gesamt-Quadratmeter wurden von Minol mit 826€ gerechnet. Seite 5 und Seite 7 wiedersprechen sind bzgl. Nutzfläche. Lt. Sachverständigen ist die Rechnung nicht nachvollziehbar. 
+
+Fragestellung: wird das Minometer bei Ablesungen resettet? 
+
+Feststellung: Zählernummern stimmen.
+
+ACTIONS: Alex und Nicoduck kümmert sich drum und senden das an Robert. Rechnung wird nicht bezahlt.
+
+
+Plenum 18:00 zuende
+;Weltherrschaft
+:Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
+
+
+[[Kategorie:Plenum]] [[Kategorie:Protokoll]]
