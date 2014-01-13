@@ -315,6 +315,12 @@ function onInput1 { z=anyOutputOn(5,6,7,11,12,13); setOutputState(5, !z); setOut
 setOutputState(7, !z); setOutputState(11, !z); setOutputState(12, !z); setOutputState(13, !z);}
 </pre>
 
+Kurzform:
+
+<pre>
+function onInput1 { z=aoo(5,6,7,11,12,13); sos(5, !z); sos(6, !z);sos(7, !z); sos(11, !z); sos(12, !z); sos(13, !z);}
+</pre>
+
 = Tests des Prototypboards =
 
 {{TaskListStart}}
