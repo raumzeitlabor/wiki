@@ -1,0 +1,37 @@
+{| style="background: #FEEFB3; border: 1px solid #9F6000"
+|style="width: 40px"| [[Datei:64px-UnderCon icon.png|64px|Ich hab keine anderes Icon gefunden]]
+|'''Hinweis für Mitbesteller:''' Bitte den Warenkorb exportieren, damit er später leicht mit den anderen zusammengeführt werden kann.
+'''Hinweis für Besteller:''' Reichelt hat Probleme beim Importieren von großen Warenkörben. Du solltest die Bestellung daher in mehreren Schritten importieren. Weiterhin summiert Reichelt bei mehreren Zeilen der gleichen Artikel die jeweiligen Mengen nicht auf. Um dir das Leben zu vereinfachen, kannst Du [http://rcsvtool.labs.iodev.org dieses] Tool benutzen (Ansprechpartner: [[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]])).
+|}<br>
+
+
+== RaumZeitLabor Beschluss Plenum 12/01/14 ==
+<pre>
+
+STATION LF-8800;1
+KOLBEN TWZ 100;1
+SPITZE D15;1
+SPITZE D10;1
+ERSATZ XY 29;2
+ERSATZ XY 76-141;2
+SPITZE LF 5,0;2
+SPITZE LF 3,2;2
+SPITZE LF 0,8;2
+SPITZE TW 5;1
+SPITZE TW 10;1
+SPITZE TW 15;1
+SPITZE TW 20;1
+
+</pre>
+
+== steeph braucht ==
+
+<pre>
+HALTER 2XAAK;1
+</pre>
+
+== DaFo braucht ==
+
+<pre>
+SM6T 30CA SMD;10
+</pre>
