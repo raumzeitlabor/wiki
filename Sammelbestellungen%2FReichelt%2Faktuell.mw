@@ -4,25 +4,6 @@
 |}<br>
 
 
-== RaumZeitLabor Beschluss Plenum 12/01/14 ==
-<pre>
-
-STATION LF-8800;1
-KOLBEN TWZ 100;1
-SPITZE D15;1
-SPITZE D10;1
-ERSATZ XY 29;2
-ERSATZ XY 76-141;2
-SPITZE LF 5,0;2
-SPITZE LF 3,2;2
-SPITZE LF 0,8;2
-SPITZE TW 5;1
-SPITZE TW 10;1
-SPITZE TW 15;1
-SPITZE TW 20;1
-
-</pre>
-
 == Felicitus braucht ==
 
 <pre>
@@ -44,16 +25,4 @@ UNIMEC 15502;4
 UNIMEC 16270;4
 BOPLA BS 803;1
 BOPLA BS 800 GE;1
-</pre>
-
-== steeph braucht ==
-
-<pre>
-HALTER 2XAAK;1
-</pre>
-
-== DaFo braucht ==
-
-<pre>
-SM6T 30CA SMD;10
 </pre>
