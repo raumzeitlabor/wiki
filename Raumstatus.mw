@@ -48,33 +48,9 @@ via WebDAV auf status.raumzeitlabor.de.
 
 == Debugging ==
 
-* Raumstatus auf ? oder orange? Auf der firebox folgendes starten (oder in dem infra-screen abschießen und neu starten):
-<pre>
-cd /root; screen -dmS status ./tuerstatusd.pl
-</pre>
+Es gibt jetzt ein init-script /etc/init.d/tuerstatusd, welches den Türstatus startet oder stoppt.
 
-Die Ausgabe vom tuerstatusd.pl sollte folgendermaßen aussehen:
-
-<pre>
-11/25/2013 01:32:32 AM - requested status
-11/25/2013 01:32:32 AM - got data
-11/25/2013 01:32:32 AM - payload = $VAR1 = 'SRAW ';
-11/25/2013 01:32:32 AM - raw status bytes = 0, 0, 2, 0
-11/25/2013 01:32:32 AM - got data
-11/25/2013 01:32:32 AM - payload = $VAR1 = 'STAT lock';
-11/25/2013 01:32:32 AM - received status: lock
-11/25/2013 01:32:32 AM - new status: 0
-11/25/2013 01:32:32 AM - pushing to jail
-11/25/2013 01:32:32 AM - updating in rrd
-11/25/2013 01:32:32 AM - got data
-11/25/2013 01:32:32 AM - payload = $VAR1 = "X \x{84}\x{cf}Y";
-11/25/2013 01:32:33 AM - reply from server: $VAR1 = '{"update":"ok"}';
-</pre>
-
-* Keine Mitglieder werden angezeigt?
-<pre>
-while true; do ./unifi-check.pl; sleep 10; done
-</pre>
+Die anwesenden Mitglieder werden über das Script unifi-check.pl geparst, welches 1x pro Minute per cron gestartet wird.
 
 == Links für Entwickler (API) ==
 * http://status.raumzeitlabor.de/api/simple<br>→ Text-API, welche entweder "1", "0" oder "?" enthält
