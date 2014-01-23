@@ -14,7 +14,7 @@
 
 = Openscad Tutorial =
 
-Auf Basis der Einführung von thinkjd http://www.youtube.com/watch?v=v1_h0gADm5E findet ihr hier ein Projekt für den Einstieg in openscad. Wenn ihr es durchgearbeitet habt seid ihr fit im Umgang mit openscad. Basis ist ein kleiner Geist. Ihr findet ihn unter: http://www.thingiverse.com/thing:27287 Wenn ihr ihn mit unserem Ultimaker druckt oder beim rumprobieren Veränderungen durchführt, dann posted das dort unter "I made a derivate" oder "I made a thing", dann hat jeder was davon.
+Auf Basis der Einführung von thinkjd http://www.youtube.com/watch?v=v1_h0gADm5E findet ihr hier ein Projekt für den Einstieg in openscad. Wenn ihr es durchgearbeitet habt, seid ihr fit im Umgang mit openscad. Basis ist ein kleiner Geist. Ihr findet ihn unter: http://www.thingiverse.com/thing:27287 Wenn ihr ihn mit unserem Ultimaker druckt oder beim rumprobieren Veränderungen durchführt, dann posted das dort unter "I made a derivate" oder "I made a thing", dann hat jeder was davon.
 
 Der Geist ist skalierbar und änderbar. Du kannst Dir also Deinen Wunschgeist zusammenbauen. Achtung wenn Du den Geist später mit dem 3D-Drucker drucken möchtest musst Du auf ein paar Stellen aufpassen. Beispielsweise ist die Oberkante des lachenden Mundes (s.u.) eine horizontale Linie. Wenn diese Strecke zu groß wird, dann "sackt" sie durch.
 
@@ -81,7 +81,7 @@ Der Kopf besteht aus zwei Elementen, dem Körper (einem Zylinder) und der Halbku
  }
 </code>
 
-== Modularisierung / Paramterisierung ==
+== Modularisierung / Parametrisierung ==
 Da wir den Geist skalierbar machen wollen, packen wir ihn nun noch in ein Modul und vergeben anstatt fester Werte Variablen.
 [[Datei:Ghost-T04.png|miniatur]]
 <code>
@@ -169,7 +169,7 @@ Die Nase soll ebenfalls skalierbar sein. Höhe und Größe möchten wir einstell
 
 * Wir erstellen ein 2D Polygon als Dreieck.
 * Wir extrudieren das Dreieck
-* Wir rotieren und positioneren es an der richtigen Stelle und ziehen es wirder von unserem Geist ab
+* Wir rotieren und positionieren es an der richtigen Stelle und ziehen es wieder von unserem Geist ab
 
 [[Datei:Ghost-T06.png|miniatur]]
 <code>
@@ -228,7 +228,7 @@ Die Nase soll ebenfalls skalierbar sein. Höhe und Größe möchten wir einstell
 
 = Der Mund = 
 
-Beim Mund wollen wir neben Größe und Position auch noch bestimmen ob wir einen fröhlichen, einen traurigen oder einen erchreckten Geist haben. Dazu bauen wir nicht nur einen Mund sondern gleich drei Münder und entscheiden dann anhand eines Parameters welcher von diesen Mündern angezeigt werden soll.
+Beim Mund wollen wir neben Größe und Position auch noch bestimmen, ob wir einen fröhlichen, einen traurigen oder einen erschreckten Geist haben. Dazu bauen wir nicht nur einen Mund sondern gleich drei Münder und entscheiden dann anhand eines Parameters welcher von diesen Mündern angezeigt werden soll.
 
 Der erschreckte Ausdruck ist einfach ein gedrehter und verschobener Zylinder, der wieder von unserem Kopf abgezogen wird. Beim Lachen wird vorher oben mittels eines Kubus die obere Hälfte abgeschnitten, beim traurigen Mund unten.
 
