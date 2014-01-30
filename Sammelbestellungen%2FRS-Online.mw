@@ -1,13 +1,7 @@
 
-= Im Warenkorb =
+= Format =
 
 <pre>
-660-4841,1,feli,INA170EA/250G4
-534-3150,1,feli,LM4140BCM-1.0/NOPB
-709-2867,1,feli,THS4521ID
-391-292,50,feli,Keramikkondensator 1µF 16V
-723-6023,25,feli,Keramikkondensator 10µF 10V
-679-0951,50,feli,Widerstand SMD 0·125W 1% 182K
-679-1581,50,feli,Widerstand SMD 0·125W 1% 5M6
-708-6890,5,feli,Widerstand 0805 0·125W 374k 0·1%
+Bestell-Nummer,Anzahl,Name,Beschreibung
 </pre>
+Name ist im Optimalfall dein eigener Name/Nick, so dass dieser als "Kostenstelle" für eine einfachere Zuordnung auf der Rechnung auftaucht.
