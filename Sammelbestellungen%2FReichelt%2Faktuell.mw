@@ -17,3 +17,11 @@ RASPBERRY PI A;1
 BOPLA BS 803;1
 BOPLA BS 800 GE;1
 </pre>
+
+== Der Raum braucht ==
+
+Mehr kurze Netzwerkkabel für Switchverkabelung Nebenraum
+
+<pre>
+PATCH-C6 025GR;20
+</pre>
