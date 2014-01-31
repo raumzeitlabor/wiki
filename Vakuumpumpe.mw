@@ -1,0 +1,23 @@
+{{projektInfoBox
+| name = Vakuumpumpe
+| description = Für manuelles Pick'n'Place
+| image = 
+| status = beta
+| username = Felicitus
+| download = 
+}}
+
+Wir haben eine Vakuumpumpe vom Typ Aoyue 932 und ein Vakuumventil mit Fußschalter.
+
+== Aufbau ==
+
+* Jeweils ein Kaltgerätekabel in die Vakuumpumpe sowie in das Netzteil für das Ventil stecken
+* Den Ventilschlauch mit "OUT" beschriftet in den Schlauch zum Handteil stecken
+* Den anderen Ventilschlauch zur Vakuumpumpe verbinden
+* Den Fußschalter anschließen
+
+== Bedienung ==
+Straightforward:
+
+* Wird der Fußschalter betätigt, zieht das Handteil an
+* Wird der Fußschalter losgelassen, fällt der Druck im Handteil ab
