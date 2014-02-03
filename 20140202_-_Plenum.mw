@@ -1,0 +1,288 @@
+Anwesend:
+Muzy, PCopfer, blabber, jiska, docsteel,  okz0r, drahti, don, britz, slowpoke, dafo, brainfreeze, jayjay, unicorn, nico, abrock, tabascoeye, flederrattie
+Plenum beginnt um 16:45
+=Beschlüsse des letzten Plenums - Realitätsabgleich=
+
+==Getränkeautomat==
+Keine Neuigkeiten.
+
+==Vorhänge==
+Der fehlende wurde gefunden. Versteckt unter Malerplane, in einem Karton. Hide & seek +++
+
+Alexander näht hoffentlich am Dienstag.
+
+==Feinmengenwaage beschaffen==
+Ist da
+
+==Sprühätzanlage==
+Nico bestellt.
+
+==Vereinshaftpflicht==
+Lief bisher auf 55 Mitglieder. Wurde jetzt auf 100 Mitglieder, kostet nun 160€ statt 140€ pro Jahr. Die Versicherung deckt Schäden an Computern Dritter durch Computerkriminalität ab.
+
+==Anschaffung Lego-Mindstorms EV3 Zubehör==
+Nico beschafft die fehlenden Sachen
+
+==Nebenraumstatus==
+Hat strom.
+
+==CO2 Löscher==
+Plan steht noch, gibt aber neue Infos, kommt unten.
+
+==Transportkisten für Veranstaltungen==
+Stehen aktuell noch im Weg, sind aber leer. Kommen dann ins neue Lager.
+
+==Anschaffung Zubehör zum Lötpaste dispensen==
+Rechnung wird heute bezahlt, funktioniert wohl.
+
+==Anschaffung Vakuum-Pumpe für SMD-Pick and Place==
+Feli hat sie schon gemodded (Magnetschalter für Luftzug an/aus), es existiert ein Fußschalter mit Magnetventil von Dafo.
+youtube-Video für Demonstration auf ML
+
+==Anschaffung Widerstandsdekade==
+Ist da. Funktionsweise ist unter [http://en.wikipedia.org/wiki/Resistor#Resistance_decade_boxes] beschrieben. Feli erklärt es aber auch auf Nachfrage.
+
+==Anschaffung Entlötstation==
+Ist bestellt und nicht direkt lieferbar. wir warten drauf. Wurde inzwischen verschickt.
+
+==Multimeter-Kalibrator==
+Wir haben ja so einige Multimeter, von denen die wenigsten noch innerhalb ihrer Spezifikationen sein dürften. Mit dem DMMCheck Plus kann man die Multimeter selbst kalibrieren. Kostenpunkt: 92,90USD (inkl. Shipping+Gehäuse, wird auch ca. auf 90€ hinauslaufen, wenn man Zoll berücksichtigt)
+mehrere so: Kann man unsere billigen überhaupt kalibrieren?
+Vorschlag von muzy: Batterie nehmen, unser tolles fluke daran anschließen, billiges multimeter daran anschließen und das billige so lange nachkalibrieren, bis es das gleiche wie das tolle anzeigt;
+skip, Feli soll das im nächsten Plenum mal erörtern.
+
+Wird wieder geskipped weil Feli nicht da.
+Alex hat Präzisionswiderstände für Popcornmaschine gekauft, Tischmultimeter zeigt den Widerstandswert auf 0.1% genau an.
+-> Vergleichsmessungen mit gutem Multimeter laut Alex hinreichend gut.
+
+==Nebenkostenabrechnung==
+Der Vorstand war bei Mutlu.
+Nachrechnung. Ergebnis plausibel :)
+Vermutlich werden wir Geld zurück bekommen.
+
+=Aktuelle Themen=
+==Feuerlöscher==
+Bisher: 2 C02-Löscher, Brandklasse B.
+Pulverlöscher haben wir entsorgt weil sie alles kaputt machen.
+AB-Feuerlöscher wäre für Holz in der Werkstatt gut.
+ABF gegen Fettband in Küche wäre toll. ("Fire stop Spray") - kommt in komischer Dose, deshalb ggf. + Beschriftungsschild.
+Nico hat bei Metro im Prospekt / Amazon / ... Angebote gesehen. Er schaut wo es am günstigen ist.
+
+==Fluchtwege==
+Unsere Türen in E-Ecke und Nebenraum wären Fluchtwege, die nicht nutzbar sind.
+Not-/Gefahrenfunktionsteil (Panikschlösser). Kostet bei Abus 62€: verriegelt sich automatisch wieder wenn Tür zu, man kann also nichts vergessen. Türgriff kann Tür aber öffnen. Nico möchte davon 2 Stück holen für Nebenraum+Werkstatt.
+
+Reperatur der Werkstatttür -> Mutlu fragen, ob er das übernimmt!
+Vorher: Um die Tür herum aufräumen.
+
+-> Nico holt erstmal NUR FÜR DIE E-ECKE! ein Panikschloss. TabascoEye sagt, dass das Sinn macht, weil dort schon öfter das Abschließen vergessen wurde.
+
+==Aufstockung Textilbestand==
+--Alexander Brock
+Auf dem 30C3 wurden ziemlich viele T-Shirts und Hoodies  bedruckt und bestickt, entsprechend niedrig ist der Stand, einige Größen  sind garnicht mehr da. Ich würde gerne auffüllen und Hoodies dauerhaft  mit ins Programm nehmen, außerdem Kindergrößen und Übergrößen. Beides  gibt es normalerweise nicht vom Veranstalter, wird daher bei uns oft  gefragt.. 
+Es existiert ein Excel-Sheet.
+Alex bekommt viel Rabatt. Vorschlag: In Zukunft wenn Rabattstufen / Verstandkostenfreiheit erreicht wird nachbestellen bzw. vor Veranstaltungen.
+ 
+'''Konsens''': Es wird bestellt. Nicht mehr jedes Mal extra abstimmen.
+ 
+==Beschaffung Küchenmixer (2,4 KW) zur Beschleunigung der Slushproduktion ==
+Unicorn übernimmt.
+Bringt eh nix.
+'''Abstimmung''': Alle-1 sind dagegen
+
+==Anschaffung eines weiteren Plastikdruckers==
+von Unicorn
+Nach mehreren Millionen Jahre Evolution ist es der Menschheit  endlich gelungen weißes, flaches PVC in standardisierter Größe zu  produzieren. Lasst uns das feiern und dieses weißes PVC gleich wieder  bunt machen! Ich habe mir mal den Markt angeschaut und schlage vor einen  Datacard SP25 Plus Kartendrucker zu kaufen. Anschaffungspreis als  Starterbundle: ~650-700 €. Dieser Drucker ist nicht nur geeignet Karten  zu färben (Thermosublimation) sondern kann auch sogenannte TRW-Zonen  löschen und neu beschreiben. Falls wir zufällig mal Karten finden, bei  denen wichtige Informationen in einem wiederbeschreibbaren Feld  untergebracht sind...  Da der Drucker bestimmte Dinge nicht kann (Schmuckfarben,  Hologramme) recherchiere ich bis zum Plenum noch Alternativen über die  dann kurz gesprochen werden kann.
+
+Unicorn fehlen noch Infos. Kosten bleiben voraussichtlich unter 2k€.
+Magicard Rio Pro / Authentis-Nachbau hätte er gerne. Ob das das selbe Gerät ist fragt Unicorn nochmal nach. Dann wäre er 1.5k€, kann Schmuckfarben, Holocode, Wenden.
+Holocode: Hersteller gibt einem RFID-Dongle für eine Bilddatei, die man ihm gegeben hat. Anti-Fraud :(
+Ist auch nicht wirklich Hologramm, sondern eine Folie, die stellenweise milchig gemacht wird.
+
+Alternative: Hit Fargo.
+Der größere kann Floureszenz - leuchtet unter Schwarzlicht.
+Aber Magicard ist günstiger und kann mehr.
+
+Meistens kommen ca. 500 Karten mit.
+Druck pro Karte kostet ca. 17ct, Karte kostet ca. 15-20ct im Einkauf. -> Druckkosten/Karte etwa 50ct.
+
+Alex: "computergesteuertes Gerät"
+
+'''Abstimmung''': Bis zu 2k€ ausgeben für Kartendrucker?
+Dafür: Alle -2
+Dagegen: 0
+Enthaltung: 2
+
+==Anschaffung eines HiCo/LoCo-Magnetkartenschreibers== 
+von Unicorn
+Sinnvolle Ergänzung zu einem Kartendrucker und recht günstig (Chinamodell MSR-605 für so ~150€).
+Backups. Als Ergänzung zum Drucker.
+
+Außerdem: Das neue Pinpad hat einen Magnetkartenleser!
+
+Sehr seriöser Händler.
+20 Magnetkarten kommen mit.
+Software kann auch Windows 7.
+
+'''Abstimmung''': 150$ ausgeben?
+Dafür: Alle-1
+Dagegen: 1
+
+==RFID-Kartenschreiber==
+TODO: Jan aus Bamberg fragen, welches Modell man möchte.
+Schöne Geräte, die Magnetkarte und alle RFID-Systeme können, gibt es wohl eher nicht.
+
+Weitere Vorschläge: Prägemaschine etc.?
+
+==Produktion von Schablonen für die Husqvarna Stickrahmen==
+--Alexander Brock
+Bei der Brother-Maschine und bei den beiden neuen Rahmen für  die Husqvarna sind praktische halbtransparente Schablonen, mit denen man  leicht die Textilien ausrichten kann. Bei dem 360x200 und dem 120x120  Rahmen fehlen die, dafür würde ich gerne welche auf 0,3mm Folie drucken  und mit 0,07mm dicker Schutzfolie versiegeln lassen. Das kostet für den  großen Rahmen 12€+MwSt, für den kleinen weiß ich es nicht. Bei der  Gelegenheit würde ich gleich Ersatz für die neuen Rahmen mitproduzieren  (falls da mal eine Schablone verlorengeht), kostet insgesamt unter  40€+MwSt. 
+
+Es gibt Rahmen für die es keine Schablonen gibt.
+Es werden Schablonen übrig bleiben, die wir verkaufen können.
+
+'''Abstimmung''':
+Dafür: alle-1
+Enthaltung: 1
+
+==Stickmaschine==
+von Alex
+
+Pro: 15 Farben, einfacher in großem Maßstab sticken. Baseball-Cap-Rahmen.
+
+Contra: Industrieller Maßstab - ist eher um den Verein zu finanzieren, nicht weil es cooler Kram ist. Stickmaschine haben wir ja schon.
+
+Platzproblem? Husqvarna z.B. unter den Tisch mit der großen Maschine stellen.
+
+Nico würde die Maschine in GB abholen, wenn günstig genug.
+
+Kosten inkl. MwSt.: ~5k€.
+
+'''Abstimmung''':
+Dagegen: 0
+Enthaltung: 9
+Dafür: 8
+
+
+==Küchenmaschine==
+von Brainfreeze
+Wir haben keine gescheiten Rührgeräte in der Küche und bei der  Gelegenheit könnte man gleich was gescheites anschaffen, was auch noch  etwas mehr kann. Gibt da was ganz gescheites von Bosch für so um die  100€. 
+
+Gerade abgelehnt: Etwas nur für Slushproduktion.
+Aber: Rührgerätkombo jetzt. Gibt auch noch Zusätze wie Mixerdinge usw.
+
+Dafo: Wir schafften es 1 Maschine durch mechanischen Verschleiß und 2 durch runterwerfen kaputt zu machen.
+Muzy: Handmixer gehen hier ebenfalls kaputt, quasi dauerkaputt. Wir brauchen etwas, das mixen kann!
+Dafo: Robustere Maschine, Kenwood z.B.?
+Don: Mixen und Sahne schlagen, Teig rühren, etc. sollte sie können.
+
+Wir suchen für das nächste Plenum eine bessere Küchenmaschine raus. Wird zwar teurer, fällt dann aber nicht so schnell auseinander und kann mehr.
+-> Abstimmung nächsten Monat
+
+==Erweitertes/neues Getränkelager==
+von Nico
+Das aktuelle Getränkelager ist eng, klein und meistens voll.  Regelmäßig Kästen von Paletten runter und irgendwann wieder  zu stapeln  ist auf Dauer nervig. Dazu stehen im Raum an einigen Stellen  Transportkisten ohne sinnvolle bleibe. Am Ende vom Flur ist Platz für  ein weiteres oder neues Lager, welches  Platz für komplette  hätte. Die  Pläne dazu und das Angebot dafür Stelle  am Sonntag vor. Was mit dem   Lager  passiert,  dann geklärt werden.
+
+Aktuelles Getränkelager ist voll und schlecht zu befüllen.
+Am Ende des Flurs hier ist noch ein "Raum" frei. 4x8m, dort steht etwas Gerümpel.
+Man müsste den Raum abtrennen mit Wand und einer Tür, die so breit ist, dass man Paletten direkt reinfahren kann.
+
+Das aktuelle Getränkelager kostet 30€/Monat. Könnte man dann nutzen für Transportkisten, T-Shirts, usw.
+Türbreite: 1m! Rolltor wäre cool, ist aber zu teuer.
+
+Miete neuer Raum: 50-80€. Wände usw. bekommen wir von Mutlu gespendet. Wir müssen das dann aber bauen.
+
+Dagegen: 0
+Enthaltung: 1
+Dafür: alle-1
+
+Unten in der Halle stehen immer Ameisen und 1-2 Paletten. Wir haben die Pin für diese Halle! Auch für Paketabholung usw.
+Problem ist der Zugang zum Lastenaufzug.
+
+==Drehmaschine==
+von ThinkJD
+Keine Werkstatt ist komplett ohne eine Drehmaschine. Ich dachte an etwas aus dem unteren Drittel dieses Links.  Dass das keine CNC Maschinen sind ist mir bewusst, brauchen wir auch  nicht. Die Einarbeitungszeit ist zu hoch, ebenso die Gefahr sich zu  verletzen oder etwas kaputt zu machen.
+
+skip weil ThinkJD nicht da ist.
+
+Pcopfer: Vorsicht! Anderswo werden 2 Jahre Ausbildung verlangt, bevor man damit umgehen darf. Da wirken sehr große Kräfte.
+-> Nächstes Mal ausführlich diskutieren.
+
+==MRMCD e.V. Mitgliedschaft==
+Keine Mitgliedsgebühren etc., aber sinnvoll wegen Steuer.
+
+C3MA ist da Mitglied. Idee wäre, selber Mitglied zu werden wegen Mitspracherecht.
+
+wir lassen das. Man kann notfalls auch später Mitglied werden wenn nötig.
+
+==Mitgliedschaft freie Werkstätten==
+Die mit den grausamen Flyern.
+Kostet 15€/Jahr.
+Wollen wir diese Mitgliedschaft behalten oder kündigen?
+
+Blabber: Wir sind Mitglied, haben aber eigentlich nichts damit zu tun. Bisher kamen Menschen über die Werkstätten-Seite zu uns die dann Fernseher etc. repariert haben wollten. Auch die Broschüren decken sich nicht direkt mit unseren Tätigkeiten.
+-> Wir ziehen damit vorallem Menschen an, die nichts mit unseren typischen Zwecken zu tun haben.
+Vorteile wären: umsonst zu anderen offenen Werkstätten fahren usw.?
+
+Alex schlägt vor: andere Hackerspaces werden auch Mitglied, dann fahren wir Hackerspaces umsonst besuchen.
+Wir könnten zum shackspace und backspace umsonst fahren! :D
+
+Wie funktioniert das Prozedere mit der Fahrtkostenabrechnung? Haben wir das nötig?
+Stört uns die Mitgliedschaft?
+
+'''Abstimmung''': Mitgliedschaft behalten?
+Dafür: 1
+Enthaltung: 7
+Dagegen (für den Austritt): 9
+
+Der Vorstand kündigt die Mitgliedschaft.
+
+==Folie==
+Unicorn hat das Folienlager sortiert. Fehlende Folien kosten rund 430€. Verbrauchsmaterial. Wer braucht noch?
+
+'''Abstimmung''': Dafür: alle
+
+==Stickgarn==
+Standardfarben werden nachbestellt.
+
+==Switche==
+von docsteel
+Switches in E-Ecke sind zu laut.
+Lüfterlose Switches kosten pro Switch 1.5k-2k€, wir bräuchten davon 2 Stück.
+Gehörschutz ist billiger. Wir haben welchen.
+Lüfter lassen sich nicht gegen andere austauschen.
+Rack dämmen meh wegen Hitze.
+-> Konsens: So viel Geld möchten wir nicht ausgeben.
+Das NOC Team macht sich mal Gedanken zur Rackdämmung, etc.
+
+
+Der Switch im Nebenraum wurde unautorisiert von einem Unbekannten ausgetauscht.
+Rackmuttern wurden als Kontermuttern verwendet, falsche Schrauben.
+Der jetzt verbaute Switch ist KAPUTT!
+Der alte Switch war fertig konfiguriert und gehörte docsteel. docsteel möchte seinen Switch zurück. In das Rack passt aufgrund der Tiefe kein großer Switch.
+
+Solange der Switch fehlt wird es kein Netz im Nebenraum geben.
+
+Anonyme Meldungen zum Verbleib des Switches nimmt das NOC Team entgegen.
+
+==Küchensauberkeit==
+Es ist dreckig. Immernoch, bzw dauernd. Es wird zur Spülmaschinenbenutzung aufgefordert.
+Halb volle Spülmaschinen lassen sich super mit dem herumstehenden Geschirr füllen.
+Laboranten werden angehalten das Geschirr nach der Benutzung zeitnah in die Spülmaschine zu räumen und die Prioritätenliste nicht spontan nach dem Essen zum Nachteil der Sauberkeit zu ändern.
+Die allgemeine Wahrnehmung ist, dass dreckige Küchen und schlafende Laboranten kongruent ist.
+
+==Allgemeine Beischlafungssituation==
+Wir sind weder Wohn- noch Schlafzimmer. Jiska kennt aus anderen Vereinen, dass als Gegenleistung aufgeräumt wird. Dazu gehören auch Dinge, die nicht von einem selbst verursacht werden.
+Es ist unhaltbar, dass es so unsauber ist. "was geht wenn man besonders faul ist: das schlimmste mal anlösen und wenn man umweltfreund ist kann man auch 'ne halbe Maschine laufen lassen"
+$Person wäscht nur einmal im Jahr ab und möchte dafür mehr Teller haben.
+
+Konsens und Grundlage: Nach einem Event ist unmittelbar aufzuräumen. 
+
+Alex überbäckt gerne mit Käse, weil er dann währenddessen Töpfe spülen kann <3
+
+
+==Weltherrschaft==
+Der Pinky, der Pinky und der Brain Brain Brain Brain …
+
+Es ist 18:23. Das Plenum schließt.
+[[Kategorie:Plenum]] [[Kategorie:Protokoll]]
