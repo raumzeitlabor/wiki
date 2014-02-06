@@ -12,7 +12,7 @@ Der Raum ist über ein Schließsystem gesichert, das wir selbst implementiert ha
 
 === Pin ===
 {{AchtungKasten1 |title=Defekt! |msg=
-Die Pin Eingabe ist derzeit defekt. Es funktioniert nur noch die Masterpin, welche dir der Vorstand auf Anfrage geben kann. SSH funktioniert weiterhin.
+Die Pin Eingabe am Hauptraum ist derzeit defekt (genauer: die Validierung). Es funktioniert nur noch die Masterpin, welche dir der Vorstand auf Anfrage geben kann. SSH funktioniert weiterhin.
 }}
 Deine persönliche Pin wird dir in der [[BenutzerDB]] zugewiesen, nachdem der Vorstand deinen Mitgliedsantrag bearbeitet hat. Die Pin muss nach der eingabe mit der Raute-Taste (#) quittiert werden.
 
