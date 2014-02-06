@@ -302,53 +302,7 @@ Wer das Hacklace in Aktion sehen möchte, findet ein cooles Video auf YouTube[ht
 Die benötigten Bauteile können bei Reichelt bzw. CSD-Electronics bestellt werden. Ein Auflistung mit Bestellnummer findet sich [[Medium:Hacklace_Bauteileliste.pdf|hier]].
 
 === Bausatz ===
-Als bequeme Alternative gibt es einen Bausatz mit allen Teilen und einer professionell gefertigten Platine. Der Bausatz ist bei diesen Anbietern erhältlich:
-
-* RaumZeitLabor für 10 €
-* [https://fnordcordia.eu/electric-thingies/1/hacklace-classic Fnordcordia (Deutschland) für 11 €]
-* [http://www.hackerspaceshop.com/electronics/hacklace.html Hackerspace Shop (Österreich) für 15 €]
-
-{| 
-| [[Datei:Hacklace_Einzelteile.jpg|thumb|right|240px|Einzelteile]]
-| [[Datei:Hacklace_Platine_schwarz.jpg|thumb|right|120px|Professionell gefertigte Platine]]
-|-
-| [[Datei:Hacklace_Bausatz.jpg|thumb|right|240px|Bausatz]]
-| [[Datei:Hacklace_schwarz.jpg|thumb|right|240px|Fertig aufgebautes Hacklace]]
-|-
-|}
-
-=== Batteriehalter ===
-Um das Hacklace am Gürtel zu tragen, gibt es für 5 € einen Batteriehalter inklusive drei Alkaline-Batterien. Dieser lässt sich nicht nur bequem tragen, sondern erhöht auch die Laufzeit und Helligkeit deines Hacklaces.
-{| 
-| [[Datei:Hacklace_Battery_Pack_vorne.jpg|thumb|right|160px|Batteriehalter von vorne]]
-| [[Datei:Hacklace_Battery_Pack_hinten.jpg|thumb|right|140px|Versorgung mit 4,5 Volt über 3 Stück AAA-Zellen]]
-| [[Datei:Hacklace_Battery_Pack_schräg.jpg|thumb|right|120px|Der Abstand der Anschlußdrähte ist auf das Hacklace abgestimmt.]]
-| [[Datei:Hacklace_Battery_Pack_Gürtel.jpg|thumb|right|185px|Bequem am Gürtel zu tragen]]
-|}
-
-=== USB auf TTL Adapter ===
-Das Hacklace bietet eine serielle Schnittstelle, um eigene Animationen aufzuspielen. Zum Anschluß an den PC benötigt man einen USB auf TTL Adapter. Das RaumZeitLabor hat entsprechende Adapter für 5 € im Angebot. Der Adapter unterstützt sowohl 3,3 V als auch 5 V und ist somit universell einsetzbar: z. B. um auf die Rescue-Konsole von Routern zu kommen.
-
-== Geld verdienen mit dem Hacklace ==
-Dein Hackerspace ist begeistert vom Hacklace? Du möchtest einen Hacklace-Workshop in deinem Hackerspace anbieten? Bestelle beim RaumZeitLabor einfach die benötigte Anzahl von Bausätzen.
-Damit deinem Hackerspace das ganze auch zugute kommt, gibt es einen Rabatt bei größeren Mengen.
-
-{| class="wikitable"  valign = "top"
-!Anzahl
-!Preis
-|-
-|align="right"| 0 -  9 Stück	
-|10,00 pro Bausatz
-|-
-|align="right"| 10 - 19 Stück
-|9,00 pro Bausatz
-|-
-|align="right"| 20 - 49 Stück	 
-|8,50 pro Bausatz
-|-
-|align="right"|  ab 50 Stück	 
-|8,00 pro Bausatz
-|}
+Die Produktion von Hacklace-Bausätzen wurde im Februar 2014 eingestellt.
 
 == Probleme & Lösungen ==
 
