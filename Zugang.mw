@@ -8,12 +8,18 @@ Als [[Verein#Mitglied_werden|Mitglied]] steht es dir frei, den Raum jederzeit zu
 Sollte niemand im Raum sein ([http://status.raumzeitlabor.de Status]: <span style="background:#ff0000; font-variant:small-caps">rot</span>), so musst du warten, bis ein Mitglied vorbeischaut. Hierbei hilft auch unser IRC-Kanal, um sich mit Mitgliedern abzusprechen.
 
 == Raum ==
-Der Raum ist über ein Schließsystem gesichert, das wir selbst implementiert haben. Den Raum kannst du mittels persönlicher PIN öffnen.
+Der Raum ist über ein Schließsystem gesichert, das wir selbst implementiert haben. Den Raum kannst du mittels persönlicher PIN oder SSH öffnen.
+
+=== Pin ===
+{{AchtungKasten1 |title=Defekt! |msg=
+Die Pin Eingabe ist derzeit defekt. Es funktioniert nur noch die Masterpin, welche dir der Vorstand auf Anfrage geben kann. SSH funktioniert weiterhin.
+}}
+Deine persönliche Pin wird dir in der [[BenutzerDB]] zugewiesen, nachdem der Vorstand deinen Mitgliedsantrag bearbeitet hat. Die Pin muss nach der eingabe mit der Raute-Taste (#) quittiert werden.
 
 === tuer.rzl.so ===
 Jedes Mitglied, welches seinen SSH Key in der [[BenutzerDB]] pflegt, kann die Tür via SSH öffnen.
 
-Hierzu muss man sich per SSH mit dem Benutzer "tuer" auf tuer.rzl.so:2322 verbinden und kann dann mit "open" und "close" die Tür steuern.
+Hierzu muss man sich per SSH mit dem Benutzer "tuer" auf tuer.rzl.so:2322 verbinden und kann dann mit "open" und "close" die Tür steuern. Das Raum WLAN kann auch vor der Tür noch empfangen werden, um diese zu öffnen.
 
 Für eine .ssh/config würde das z.B. so aussehen:
 <pre>
@@ -22,6 +28,10 @@ HostName tuer.rzl.so
 User tuer
 Port 2322
 </pre>
+
+== Getränkelager ==
+[[Datei:Getraenkelager tuer.jpg|200px|thumb|right|Tür des Getränkelagers]] 
+Kann mit der normalen persönlichen Tür-PIN geöffnet werden.
 
 == Schlüsselliste ==
 
@@ -68,6 +78,7 @@ Als Notfallbackup gibt es noch unsere zweite Tür. Der Schließzylinder dieser T
 
 
 === Fußgängertor Boveristraße ===
+Das Tor wurde ausgebaut, aktuell sind die ausgegebenen Schlüssel nutzlos.
 #[[Benutzer:Bfritz0815|BFritz0815]]
 #[[Benutzer:Eeemsi|Eeemsi]]
 #[[Benutzer:Timo A. Hummel|Felicitus]]
@@ -81,9 +92,6 @@ Als Notfallbackup gibt es noch unsere zweite Tür. Der Schließzylinder dieser T
 #[[Benutzer:Rami|Rami]]
 #[[Benutzer:Talynrae|talynrae]]
 
-=== Getränkelager ===
-[[Datei:Getraenkelager tuer.jpg|200px|thumb|right|Tür des Getränkelagers]] 
-Kann mit der normalen persönlichen Tür-PIN geöffnet werden.
 
 == Siehe auch ==
 *[[Anfahrt]]
