@@ -75,15 +75,10 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 
 
 : Es wird folgende Anschaffung zur Abstimmung gegeben:
-: Variante 1:
-* 2x Cisco SG500-28
-* 1x Cisco SG500-28P für Telefone, WLAN AP, etc.
-* Vorteile: lüfterlos, deutlich stromsparender als die momentan verbauten Switche, Reduzierung der benötigten Switchanzahl um einen. Gleichzeitig Ersatz für den defekten Switch im Nebenraum.
-* Gesamtpreis Variante 1: 1.626,12€
-: Variante 2:
-* 2x Cisco SG500-28 und der momentan verbaute PoE Switch für Telefone und WLAN bleibt erhalten.
-* Nachteil: weniger Stromeinsparungen, höhere Betriebskosten als Variante 1.
-* Gesamtpreis Variante 2: 937,10€ --[[Benutzer:Docsteel|Docsteel]] ([[Benutzer Diskussion:Docsteel|Diskussion]]) 21:15, 8. Feb. 2014 (CET)
+* 1x Cisco SG500-28
+* 2x Cisco SG500-28P mit PoE für Telefone, WLAN AP, etc.
+* Vorteile: der nicht PoE Switch ist lüfterlos, deutlich stromsparender als die momentan verbauten Switche, die Switches gehören dem RZL und nicht Privatpersonen.
+* Gesamtpreis ca.: 1.850€ --[[Benutzer:Docsteel|Docsteel]] ([[Benutzer Diskussion:Docsteel|Diskussion]]) 21:15, 8. Feb. 2014 (CET)
 
 
 ; Anschaffung WLAN-AP
