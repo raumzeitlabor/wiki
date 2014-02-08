@@ -77,7 +77,7 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 : Es wird folgende Anschaffung zur Abstimmung gegeben:
 * 1x Cisco SG500-28
 * 2x Cisco SG500-28P mit PoE für Telefone, WLAN AP, etc.
-* Vorteile: der nicht PoE Switch ist lüfterlos, deutlich stromsparender als die momentan verbauten Switche, die Switches gehören dem RZL und nicht Privatpersonen.
+* Vorteile: der nicht PoE Switch ist lüfterlos, deutlich stromsparender (derzeit bis zu 675W lt. Datenblatt; neu gesamt: 59,5W Hauptraum, 35,9W Nebenraum) als die momentan verbauten Switche, die Switches gehören dem RZL und nicht Privatpersonen.
 * Gesamtpreis ca.: 1.850€ --[[Benutzer:Docsteel|Docsteel]] ([[Benutzer Diskussion:Docsteel|Diskussion]]) 21:15, 8. Feb. 2014 (CET)
 
 
