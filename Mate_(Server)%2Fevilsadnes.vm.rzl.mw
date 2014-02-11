@@ -1,0 +1,25 @@
+{{ProjektInfoBox
+|name        = evilsadnes.vm.rzl
+|status      = stable
+|image       = Bilderbrett.png
+|description = VM von evilsadnes
+|author      = [[Benutzer:Evilsadnes|evilsadnes]], [[NOC Team|NOC-Team]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = evilsadnes.vm.rzl
+|license     = 
+|download    = 
+}}
+
+== Zweck ==
+* Lernzwecke
+
+== Eckdaten ==
+
+* 256MB RAM
+* 1 CPU Core
+* 20GB HDD
+
+[[Kategorie:Infrastruktur]]
