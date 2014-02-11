@@ -5,7 +5,7 @@ Hier wird/ist die Netzwerkstruktur im Raum dokumentiert.
 Bei jeglichen Fragen zum Netz bitte das [[NOC_Team]] ansprechen, auf keinen Fall selbst Änderungen an Router oder Verkabelung vornehmen und keine IP Adressen selber zuweisen!
 
 == Aktuelle Probleme ==
-{{AchtungKasten1|title=IPv6 Packet Loss|msg=Derzeit gibt es Packet Loss bei V6 und Paketen größer 1400 - um das bei dir lokal zu fixen nutze: <pre>ip link set mtu 1280 dev wlan0</pre>Dies muß nach jedem connect via passieren.}}
+Derzeit keine Probleme bekannt. Bitte Probleme an das [[NOC_Team]] melden.
 
 == Rack ==
 [[Datei:IMG_0336.JPG|Thumb|300px]]
