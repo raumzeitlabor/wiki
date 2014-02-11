@@ -62,13 +62,13 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 * Andere Marken gleich erheblich teurer, meist ohne Software
 : --[[Benutzer:Wiiilmaa|Wiiilmaa]] ([[Benutzer Diskussion:Wiiilmaa|Diskussion]]) 15:38, 5. Feb. 2014 (CET)
 :Ist wohl das selbe Modell wie das, was Alexander schon vorschlug. Kosten inkl. MwSt. rund 5k€, ggf. etwas weniger wenn wir den Transport selbst übernehmen.--[[Benutzer:Jiska|Jiska]] ([[Benutzer Diskussion:Jiska|Diskussion]]) 13:20, 6. Feb. 2014 (CET)
-
+:Das ist dasselbe Modell wie jenes, welches Alexander schon vorschlug. Ich habe wie geschrieben noch nichts bessers und nicht mal etwas auch nur grob vergleichbares zu dem Preis gefunden. --[[Benutzer:Wiiilmaa|Wiiilmaa]] ([[Benutzer Diskussion:Wiiilmaa|Diskussion]]) 23:44, 10. Feb. 2014 (CET)
 
 ; Anschaffung Strickmaschine
 : Die Münchner hatten auf dem Congress eine Strickmaschine dabei (also Wolle stricken, nicht Sticken). Sie haben dafür eine alte Brother-Maschine modifiziert, sodass sie statt der 500 fest einprogrammierten Motive nun beliebige Motive stricken kann, die man ihr mit Monochrom-Bitmaps füttert.
 : Mehr Infos gibt es unter https://twitter.com/AYABApparat sowie Software zu der Platine von den Münchnern auf https://bitbucket.org/chris007de/ayab-apparat/wiki/Home .
 : Kosten für eine Brother KH-910 bzw. KH-930 variieren stark, weil es diese Geräte nur noch gebraucht gibt. Mit Unterbett, der Modifizierung und etwas Wolle rund 1k€. --[[Benutzer:Jiska|Jiska]] ([[Benutzer Diskussion:Jiska|Diskussion]]) 13:24, 6. Feb. 2014 (CET)
-
+: Soweit ich weiß, hat die Strickmaschine KH-910 keine fest einprogrammierten Muster, sondern wird mit Lochkarten gesteuert. Die Münchner Lösung ersetzt diese Steuerung durch einen Arduino. Die KH-930 arbeitet schon digital, ist aber meist deutlich teurer. Hier gibt es schon mehrere Projekte. --[[Benutzer:Wiiilmaa|Wiiilmaa]] ([[Benutzer Diskussion:Wiiilmaa|Diskussion]]) 10:40, 11. Feb. 2014 (CET)
 
 ; Anschaffung Switch für Nebenraum
 : Nachdem der teure Gigabit-Cisco-Switch im Nebenraum geklaut und durch einen defekten ersetzt wurde (WTF?!) und der alte Switch bisher nicht wieder aufgetaucht ist, ist eine Neuanschaffung oder Sachspende nötig. Wir haben zwar Netzwerkhardware im RZL rumstehen, das sind aber keine Switches! Ohne Switch kein Internet im Nebenraum. TODO: docsteel erklärt euch, welche Modelle es gibt und was die können und kosten. --[[Benutzer:Jiska|Jiska]] ([[Benutzer Diskussion:Jiska|Diskussion]]) 13:29, 6. Feb. 2014 (CET)
@@ -84,7 +84,7 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 ; Anschaffung WLAN-AP
 : Zur besseren Versorgung aller Laboranten mit WLAN würde ein weiterer AP Sinn machen. Wohl nicht so sehr wegen der räumlichen Abdeckung, sondern um mehrere Kanäle nutzen zu können usw., damit mehr Laboranten parallel im WLAN sein können ohne Chaos.
 
-* Anschaffung: 5GHz WLAN AP: 189,90€ --[[Benutzer:Docsteel|Docsteel]] ([[Benutzer Diskussion:Docsteel|Diskussion]]) 23:18, 8. Feb. 2014 (CET)
+* Anschaffung: 5GHz WLAN AP: 189,90€ --[[Benut910zer:Docsteel|Docsteel]] ([[Benutzer Diskussion:Docsteel|Diskussion]]) 23:18, 8. Feb. 2014 (CET)
 
 
 ; Anschaffung Bällebad
@@ -103,7 +103,7 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 * (Achtung: Noch nicht durchdacht, benötigt ggf. Änderungen): Bei Investitionen, die > 20% des RZL-Guthabens ausmachen, muß eine repräsentative Mehrheit der Mitglieder (nicht Plenumsteilnehmer) dafür stimmen.
 : Wie genau die Entscheidung bei >20% des RZL-Guthabens aussieht, sollte noch diskutiert werden. Ziel ist es, große Ausgaben auch in großer Runde zu entscheiden. Mir geht es _nicht_ darum, irgendjemandem den Spaß zu verderben, sondern um einen sinnvolleren Umgang mit dem RaumZeitLabor-Guthaben zu ermöglichen. Früher ging das auch ohne solche Regelungen, weil bis dato solche enormen Ausgaben bisher nicht auf Plenen nicht bzw nur in begründeten Ausnahmefällen getätigt wurden.
 : --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 13:42, 5. Feb. 2014 (CET)
-
+: Wenn das Plenum bei Investitionen > 20% nicht mehr entscheidungsfähig ist, muss für diesen Fall ein neues Organ des Vereins geschaffen werden. Wie soll dieses Aussehen? (Online Abstimmung, Briefwahl, Liquid Democracy-Tools?) Was ist eine Repräsentative Mehrheit? Eine Mehrheit innerhalb einer repräsentativen Gruppe? Wie wird festgelegt was Repräsentativ ist (Anteil an Pony / Superhelden / Stick / Hardware / Software / Studenten / Arbeitssuchende / Angestellte / Selbstständige / Junge / Alte)? Eine repräsentative Gruppe gibt es immer: die Gesamtheit. Die ist aber nicht immer handhabbar. Bisherige Lösung mit "Die Personen auf dem Plenum" vergleichbar mt "Die Personen, die es interessiert und bereit sind sich minimal einzubringen" scheint ein gangbarer Weg zu sein. Auch Delegation wäre überlegenswert, was allerdings die Diskussion und vor Ort abwertet, da hier eigentlich nur vorgefertigte Meinungen eingebracht werden können. Wenn es vorher angekündigt und auf der Mailingliste diskutiert wurde, könnte dies aber auch ein Weg sein, Entscheidungen auf eine größere Basis zu stellen. (Alles nur Diskussionsgrundlage...) --[[Benutzer:Wiiilmaa|Wiiilmaa]] ([[Benutzer Diskussion:Wiiilmaa|Diskussion]]) 00:15, 11. Feb. 2014 (CET)
 
 ; Unklarheit über Plenumsprocedere
 : Es scheint derzeit Unklarheit über das Plenumsprocedere zu geben, insbesondere nach einem merkwürdig formulierten Plenumsprotokoll vom Dezember 2013.
@@ -113,7 +113,7 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 * Anträge, die Aufgrund von nicht-Anwesenheit oder nicht-Entscheidbarkeit übersprungen werden, müssen vom Antragsteller erneut auf die Wikiseite des kommenden Plenums eingetragen werden
 * Der Plenumsleiter hat dafür Sorge zu tragen, daß das Procedere eingehalten wird. Wird festgestellt, daß ein Versäumnis vorliegt, so muß das Versäumnis korrigiert und beim nächsten Plenum erneut zur Abstimmung eingereicht werden
 : --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 13:57, 5. Feb. 2014 (CET)
-
+: Wenn sich 100% der Mitglieder treffen und der einstimmigen Meinung sind, dass eine Ausgabe ohne Plenum getätigt werden sollte, sollte dies noch möglich sein. Da das eher unwahrscheinlich ist, sollte es eine Möglichkeit dies zu tun geben und Regeln für diese Möglichkeit geben. --[[Benutzer:Wiiilmaa|Wiiilmaa]] ([[Benutzer Diskussion:Wiiilmaa|Diskussion]]) 23:57, 10. Feb. 2014 (CET)
 
 ;Weltherrschaft
 :Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
