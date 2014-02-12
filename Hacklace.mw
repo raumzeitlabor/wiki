@@ -208,7 +208,7 @@ Hier nun ein Beispiel für ein Konfigurationsfile.
  $00,
 </code>
 
-Ein Default-Konfigurationsfile, mit dem sich der Ausgangszustand wieder herstellen läßt, befindet sich im Git-Repository [https://github.com/fabster/Hacklace].
+Ein Default-Konfigurationsfile, mit dem sich der Ausgangszustand wieder herstellen läßt, befindet sich im Git-Repository [https://github.com/fabster/Hacklace-classic/].
 
 ===Animationen erstellen===
 
@@ -268,11 +268,11 @@ Außerdem besteht die Möglichkeit, eigene Pixelgrafiken auf das Display zu brin
 |CC-BY-ND
 |-
 |Hex-Files zum Flashen des Controllers (Github)
-|[https://github.com/fabster/Hacklace/tree/master/Hexfiles]
+|[https://github.com/fabster/Hacklace-classic/tree/master/Hexfiles]
 |CC-BY-NC-ND
 |-
 |Sourcecode (Github)
-|[https://github.com/fabster/Hacklace]
+|[https://github.com/fabster/Hacklace-classic]
 |CC-BY-NC-SA
 |-
 |Hacklace Animator
