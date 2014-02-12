@@ -60,6 +60,8 @@ Schaltzustände können über DMX mittels [http://en.wikipedia.org/wiki/RDM_(lig
 |0x0400||512||Namen der Eingänge (16x32 Zeichen)
 |-
 |0x0600||16||Modus der Eingänge
+|-
+|0x0610||32||Private-Flag für die Ausgänge
 |}
 
 
@@ -202,6 +204,22 @@ Gibt dem Eingang mit <code>number</code> eine Beschreibung, maximal 32 Zeichen, 
 setInputName(1, "Lichtschalter Tuer Lager");
 </pre>
 
+
+== setPrivateFlag ==
+
+<pre>
+setPrivateFlag(port,private)
+</pre>
+
+Setzt das "private" flag für einen Ausgang. "private" bedeutet, daß der Port nicht für den Endbenutzer sichtbar sein soll - dies ist für Ports nützlich, die eine Sonderfunktion haben, z.b. ein Warnsignal, welches vor einem Shutdown des Nebenraumes warnt.
+
+Beispiel:
+
+<pre>
+setPrivateFlag(1,1);
+</pre>
+
+Dies setzt den Ausgang 1 auf "private".
 == getInputName ==
 
 <pre>
@@ -335,7 +353,7 @@ function onInput1 { z=aoo(5,6,7,11,12,13); sos(5, !z); sos(6, !z);sos(7, !z); so
 {{TaskListItem
 | title = 24FC1024 I²C EEPROM
 | description = 
-| status = 
+| status = done
 | last_changed = 
 }}
 {{TaskListItem
