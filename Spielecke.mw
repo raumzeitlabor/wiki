@@ -295,8 +295,11 @@ Wir haben 5 Controller.
 |}
 
 === Wii === 
-Wir haben eine gemoddete Wii, auf der auch Custom-Software läuft.
-Eine Fernbedienung liegt daneben.
+Wir haben eine gemoddete Wii, auf der auch Custom-Software läuft. Eine Fernbedienung liegt daneben.
+
+'''Zu beachten:'''
+
+* Die Konsole hat aufgrund der Modifizierungen Probleme mit dem Auswerfen von Disks. Daher musst du sie in der Regel per Software auswerfen (geht im Homebrew Channel).
 {| class="wikitable"  valign = "top"
 ! Bild
 ! Titel
