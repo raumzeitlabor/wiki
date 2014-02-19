@@ -1,6 +1,6 @@
 = Einführung =
 
-Der Lichtsteuerungsclient sorgt dafür, Schaltwünsche von Benutzern in Lichtzustände umzusetzen. Technisch: DMX-Input zu Relaisoutput.
+Der Lichtsteuerungsclient sorgt dafür, Schaltwünsche von Benutzern in Lichtzustände umzusetzen. Technisch: DMX- oder Benutzerinput zu Relaisoutput.
 
 = Features =
 [[Image:Lichtsteuerung board top.png|thumb|right|Clientplatine Oberseite]]
