@@ -14,7 +14,7 @@ Der Lichtsteuerungsclient sorgt dafür, Schaltwünsche von Benutzern in Lichtzus
 
 = Kaskadierung =
 
-Lichtsteuerungsclients können kaskadiert werden, da sie einen DMX-Ausgang besitzen. Haupt- und Nebenraum besitzen jeweils einen eigenen Lichtsteuerungsclient.
+Entgegen des ursprünglichen Plans besitzt der aktuelle Lichtsteuerungsclient nur noch einen Ein/Ausgang, der im Halbduplexmodus genutzt wird. Kaskadierung wird über RS485-Hubs gelöst.
 
 = Relais schalten und Verkabeln =
 
