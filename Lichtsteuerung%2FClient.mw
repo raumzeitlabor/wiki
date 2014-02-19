@@ -5,7 +5,7 @@ Der Lichtsteuerungsclient sorgt dafür, Schaltwünsche von Benutzern in Lichtzus
 = Features =
 [[Image:Lichtsteuerung board top.png|thumb|right|Clientplatine Oberseite]]
 [[Image:Lichtsteuerung board bottom.png|thumb|right|Clientplatine Unterseite]]
-* DMX Ein- und Ausgang
+* DMX/RDM Ein- und Ausgang
 * Batteriegestützte Realtime Clock
 * 1024KB I²C EEPROM
 * 32 Ausgänge
