@@ -88,10 +88,9 @@ echox from [https://raumzeitlabor.de/ Raumzeitlabor] has designed a closed versi
 |-
 |Sourcecode (Github)
 |[https://github.com/todbot/blink1]
-|CC-BY-NC-SA
+|CC-BY-SA
 |-
 |}
-
 
 == Firmware Mods ==
 * Man kann bis zu 12 Pattern (Zeit und Farbwert) im EEPROM von RZL-Blink ablegen. Diese Pattern können dann mit dem Befehl "p" abgespielt werden. Optional kann die Startposition als Parameter mitgegeben werden. Dann werden die vorher programmierten Pattern ab dieser Position abgespielt. Es sind 12 Pattern möglich. Dummerweise startet die Firmware nach dem 12. Pattern wieder bei 0 und nicht bei der vorher übergebenen Position. Bug oder Feature? Ich habe keine Ahnung, habe aber die zwei fehlenden Zeilen [https://github.com/thinkJD/blink1 hier] eingefügt.
