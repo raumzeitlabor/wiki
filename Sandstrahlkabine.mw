@@ -1,0 +1,68 @@
+{{ProjektInfoBox
+|name        = Sandstrahlkabine
+|status      = stable
+|image       = Applications-utilities.png
+|description = 
+|author      = [[Benutzer:oko|oko]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
+Nach der Inbetriebnahme der Stromversorgung in der Werkstatt ist die Sandstrahlkabine nutzbar.
+
+== Allgemeines ==
+'''Technische Daten:'''
+* Innenmaße der Kabine : Breite 580 x Tiefe 480 mm 
+* Höhe: 350 mm hinten / 295 mm vorne (entspricht 90 Liter Volumen) 
+* Außenmaße der Kabine : Breite 590 x Tiefe 485 x Höhe 490 mm (ohne DL-Anschluß und Lichtschalter) 
+* Gesamtabmessungen : Breite 660 x Tiefe 500 x Höhe 490 mm (mit DL-Anschluß und Lichtschalter) 
+* Auffangbehälter 100 mm tief 
+* für ca. 4,5 kg Strahlgut 
+* mit fest montiertem Ansaugrohr und Ablassöffnung 
+* Luftbedarf : min. 150 Liter / min 5cfm 
+* Arbeitsdruck: ca. 5,5 bar 80psi 
+* zulässiger Druck: 7 bar 100 psi 
+* Luftanschluß: 1/4"IG 
+* Transparenter Deckel mit separatem Sichtfenster und umlaufender Dichtung 48x38 cm mit 2 Drehverschlüssen 48x38 cm 
+
+== Vorsichtsmaßnahmen bei der Benutzung ==
+Die Sandstrahlkabine funktioniert, weist aber ein paar Schwächen auf, die mit Sicherheit dem günstigen Preis und damit der "günstigen" Qualität geschuldet sind. Das wirkt sich insbesondere auf die Dichtigkeit der Kabine aus, d.h. es entweicht feinster Staub (sowohl Strahlgut als auch abgetragener Lack, Rost oder sonstwas) in die Raumluft.
+
+'''Bei Benutzung der Sandstrahlkabine sollstest du immer einen Mundschutz tragen, zudem sind Dir die Mitlaborenten extrem dankbar, wenn Du die Werkstatt-Tür geschlossen hältst und evtl. die Flurtüre leicht öffnest.'''
+
+Durch das Funktionsprinzip (mit Druckluft wird Strahlgut mit hoher Geschwindigkeit durch eine Düse auf das Werkstück geschleudert wird) bläht sich der Deckel nach oben, hierdurch tritt Staub aus der Kabine aus. Die verbaute Dichtung ist innerhalb weniger Minuten "gesättigt" und hält keinen Staub mehr auf. Als "Zwischenlösung" kannst Du sämtliche Fugen und Ritzen mit Paketband abdichten - das reduziert die Menge des austretenden Staubes deutlich.
+
+Bei Gelegenheit(tm) sollten die Dichtungen optimiert/ersetzt, und ein zusätzlicher Drehverschluß an der Vorderseite der Scheibe installiert werden.
+
+Die Sandstrahlkabine hat einen Anschluß für einen Staubsauger, um im Inneren der Kabine einen leichten Unterdruck zu produzieren. Leider ist unser Staubsauger zu kraftvoll für die Kabine - hier sollte demnächst mal ein einfacher, regelbarer Staubsauger beschafft werden.
+
+Das Strahlgut wird links unten angesaugt, verteilt sich jedoch mit der Zeit auf dem gesamten Kabinenboden. Zwischendurch solltest Du mit der Strahlpistole eine Umverteilung des Strahlgutes vornehmen (aber nicht so doll)!
+
+== Bedienung ==
+* Druckluftschlauch-Verbindung zwischen dem Kompressor und der Sandstrahlkabine herstellen
+* Beleuchtung anschließen, anschalten
+* Kompressor starten und warten, bis optimaler Druck erreicht ist (~5,5 bar) 
+* Werkstück(e) einlegen
+* Zustand der Strahlpistole, des Strahlgutes und der Handschuhe prüfen (Düse noch o.k.? homogenes "Pulver? dicht?)
+* Sandstrahlkabine abdichten (Verschlüsse schließen, Fugen abkleben)
+* Mundschutz aufsetzen, Werkstatt-Tür schließen, etv. Flurtüre öffnen
+* an einer unauffälligen Stelle des Werkstücks testen.
+
+== Verschleißteile, Verbrauchsmittel ==
+* Bei der Kabine liegen Folien zum Schutz der Plexiglasscheibe, diese sind irgendwann(tm) blind und müssen ausgetauscht werden. 
+* Die Strahldüse an der Strahlkabine ist ebenfalls ein Verschleißteil, das irgendwann(tm) ausgetauscht werden muß.
+* Das Strahlgut vermischt sich mit dem "Abfall". Irgendwann(tm) muß das Strahlgut gereinigt/gefiltert bzw. ersetzt werden.
+
+== Einsatzmöglichkeiten ==
+* Entlacken/Entrosten von Metallteilen (erfolgreich eingesetzt)
+* Mattieren von LEDs (erfolgreich getestet)
+* Mattieren von Glasoberflächen (nicht getestet)
+
+== Weitere Infos ==
+Vor der Benutzung der Sandstrahlkabine solltest du Dich mit der Bedienung des Kompressors[http://wiki.raumzeitlabor.de/wiki/Kompressor] vertraut machen.
+
+[[Category:Werkstatt]]
