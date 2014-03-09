@@ -60,7 +60,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.3 || printer0 || [[Drucker#Samsung_SCX-5530FN|Laserdrucker (Samsung SCX-5530FN)]] 
 |-----
-| 172.22.36.4 || wlanap-ß1 || WLAN AP 2,4+5 GHz
+| 172.22.36.4 || wlanap-01 || WLAN AP 2,4+5 GHz
 |-----
 | 172.22.36.5 || wlanap-02 || WLAN AP 2,4+5 GHz
 |-----
@@ -68,7 +68,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.7 || [[Premium_(Server)|premium]] || vServer bei Vollmar
 |-----
-| 172.22.36.8 || chumby || RZL Chumby
+| 172.22.36.8 || ''reserved'' || Reserviert für Infrastruktur
 |-----
 | 172.22.36.9 || cashpoint || RZL Cashpoint
 |-----
