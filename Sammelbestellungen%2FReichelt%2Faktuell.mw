@@ -4,27 +4,6 @@
 |}<br>
 
 
-== Felicitus braucht ==
-
-<pre>
-MBF 12;5
-MBF 16;5
-MBF 20;5
-MGM 12;5
-MGM 16;5
-MGM 20;5
-PSS 254/3W;20
-PSS 254/4W;20
-PSS 254/2W;20
-SILBER 1,0MM;1
-RASPBERRY PI B;1
-BB 4 RT;10
-BB 4 SW;10
-FS-P 4,75;50
-FS-P 6,35;50
-HEBW 21;10
-</pre>
-
 == Der Raum braucht ==
 
 Mehr kurze Netzwerkkabel für Switchverkabelung Nebenraum
