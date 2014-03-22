@@ -22,8 +22,34 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 
 == aktuelle Themen ==
 
-;Weltherrschaft
-:Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
+===Octoprint===
+Siehe dazu auch Mail auf der Liste ace0b7f147f478e20034f6b47c97044a@echox.de ([RaumZeitLabor] Anschaffungen fuer Octoprint):
+
+<pre>
+Moin,
+
+auf der Troopers war auch Gina Häußge und wir hatten die Gelegenheit uns mal Octoprint anzusehen.
+
+Octoprint ist ein Printserver fuer 3D Drucker http://octoprint.org/.
+
+Damit gibt es eine schoene Historie der Druckjobs und man fummelt nicht ewig auf der SD Karte rum,
+man kann direkt Befehle an den Drucker schicken,
+es gibt ein Terminal das mir sagt, was das Geraet gerade macht uuuuund:
+eine schoene Live Webcam View die mir optional am Ende vom Druck ein Timelapse Video vom Druck schickt :-)
+
+Aus dem Grund wuerde ich Octoprint gerne bei uns aufsetzen.
+
+Als Hardware sollte da ein RaspberryPi hin.
+Ich wuerde dann auch gerne testen ob Fabies Ulticam ohne Probleme laeuft.
+Sollte das nicht klappen wuerde ich gerne noch eine RaspberryPi Cam dazu kaufen.
+</pre>
+Kosten:
+* RaspberryPi - 35 Euro
+* 32 Gig SD Speicherkarte ~ 18 Euro
+* (Falls notwendig: RaspberryPi Cam ~ 28 Euro)
+
+===Weltherrschaft===
+Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
 
 == Protokolle vergangener Plenen ==
 
