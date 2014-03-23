@@ -147,6 +147,14 @@ In den Bausätzen sind keine Schrittmotorsteuerungen enthalten. Mögliche Altern
 * Im FabLab München aus 5mm MDF gelasert und zusammengebaut (siehe [[#2012-10-29|Bilder]])
 * Schrittmotor und dazugehörige Gewindestange sind vermutlich um wenige Millimeter zueinander verschoben, needs fixing.
 * Kupplung fehlt noch, dann ist die Z-Achse fertig.
+|-
+| 2014-03-22
+|
+* Z-Achse zum ersten Mal in Betrieb genommen
+* Kabel an alle Motoren verlegt und angeschlossen
+* Motortreiber auf ~0,5A kalibriert, da noch keine Kühlkörper auf den Treibern
+* Erste Fahrten mit allen 3 Motoren
+* CNC-Malen mit angeklebtem Marker
 |}
 
 == Bilder ==
