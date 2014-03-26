@@ -50,7 +50,7 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 ! Plattenplatz
 |-
 | [[Mate (Server)/abrock.vm.rzl]]
-| 1000 MB
+| 0 MB
 | 30 GB
 |-
 | [[Mate (Server)/blabber.vm.rzl]]
@@ -106,15 +106,15 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 20 GB
 |-
 | [[Mate (Server)/yate.vm.rzl]]
-| 512 MB
+| 0 MB
 | 15 GB
 |-
 | '''Gesamt'''
-| '''7829 MB / 12001 MB (65.24% belegt)'''
+| '''6317 MB / 12001 MB (52.64% belegt)'''
 | '''3.1 TB / 5.3 TB (59.31% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2014-03-24 00:00:03
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2014-03-27 00:01:04
 
 == Unterseiten ==
 <splist />
