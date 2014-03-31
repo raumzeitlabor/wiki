@@ -1,0 +1,22 @@
+== Vorhandenes Monitoring ==
+
+=== Netzwerk ===
+* [[Mate (Server)/monitoring.rzl]] - [http://monitoring.raumzeitlabor.de/zabbix zabbix Login]
+* [[Mate_(Server)/lutoma.vm.rzl]]
+
+
+=== Verbrauchsmaterial ===
+* [[Stromverbrauch#Monitoring|Strom]] per [[Flukso]]
+
+
+== Monitoring TODO ==
+* [[Mate_(Server)/db.rzl]]
+* [[Kassensystem]]?
+* [[Hausbus2]]?
+
+
+=== sonstiges ===
+* [[Spezial:Suche/Monitoring|Wikiseiten mit Stichwort "Monitoring"]]
+
+[[Kategorie:Infrastruktur]]
+[[Kategorie:Monitoring]]
