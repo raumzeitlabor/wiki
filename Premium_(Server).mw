@@ -1,6 +1,6 @@
 {{ProjektInfoBox
 |name        = Premium (Server)
-|status      = experimental
+|status      = stable
 |image       = RaumZeitLabor - Logo - Schwarz.svg
 |description = 
 |author      = [[NOC Team|NOC-Team]]
@@ -13,7 +13,7 @@
 |download    = 
 }}
 
-'''Premium''' ist ein Server, der bis Ende Februar 2013 das [[Jail|Jails]] ersetzen wird. Es laufen bereits einige Dienste auf Premium. Premium hat volle IPv6 Konnektivität, d.h. alle Dienste, die auf ihm laufen, sind i.d.R. per IPv6 erreichbar (z.B. dieses Wiki).
+'''Premium''' ist derServer, der seit ende Februar 2013 das [[Jail|Jails]] ersetzt und fast alle öffentlich zugreifbare RZL Infrastruktur hostet. Premium hat volle IPv6 Konnektivität, d.h. alle Dienste, die auf ihm laufen, sind i.d.R. per IPv6 erreichbar (z.B. dieses Wiki).
 
 ==Technische Daten==
 {| class="wikitable"  valign = "top"
@@ -27,15 +27,15 @@
 |50 GB
 |}
 
-== geplante Dienste ==
+== laufende Dienste ==
 * Blog
-
-== bereits umgezogenene Dienste ==
 * Wiki
 * Mailserver
 * Mailingliste
 * Raumstatus
-* DNS
+* DNS master
+* Jabber
+* Redirects für Dienste, die auf [[Mate (Server)]] laufen und deswegen nicht extern per IPv4 direkt zugreifbar sind
 
 == Backup von premium ==
 
