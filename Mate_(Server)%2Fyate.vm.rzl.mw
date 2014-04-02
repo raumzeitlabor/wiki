@@ -16,7 +16,7 @@
 === Zweck ===
 Anbindung unserer [[Telefon|Telefone]] (Cisco VoIP) an das POTS, Eventphone und co.
 == Setup==
-In der VM ist ein Yate für SIP und ein LCR (linux call router) für die ISDN <-> SIP Übersetzung. Der LCR kommuniziert über ein durch KVM weitergeleitetes USB-ISDN Interface mit der Außenwelt.
+In der VM ist ein Yate für SIP. Der LCR für ISDN läuft mittlerweile direkt auf der [[Firebox]], da USB Weiterleitung in VMs nicht für Echtzeitanwendungen geeignet ist.
 == Eckdaten ==
 
 * 512 RAM
