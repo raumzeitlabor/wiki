@@ -7,12 +7,13 @@ Die ASG (Astaro Security Gateway) ist unser derzeitiger Router. Die Aufgaben sin
 * DNS, DHCP, radvd, firewall
 * Zugang ins dn42
 * Internetauslastung und Latenz monitoren und auf cosm hochladen
+* ISDN Routing incl SIP Gateway
 
 == Hardware ==
 
 * Intel(R) CPU
-* 512 MB RAM
-* 8 Ethernet-Ports
+* 2 GB RAM
+* 8 Giabit-Ethernet-Ports
 * 19"-Gehäuse, 1HE
 * Linux
 
@@ -22,6 +23,7 @@ Die ASG (Astaro Security Gateway) ist unser derzeitiger Router. Die Aufgaben sin
 ;radvd: radvd
 ;VPNs: openvpn
 ;Firewall: iptables
+;LCR: linux call router für die ISDN <-> SIP Übersetzung. Der LCR kommuniziert über ein USB-ISDN Interface mit der Außenwelt und per SIP mit dem [[Mate_(Server)/yate.vm.rzl|yate]] SIP Server.
 ;Scripte: eingenes, wohldokumentiertes, Zeug
 
 == Adminstuff ==
