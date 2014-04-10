@@ -34,7 +34,44 @@ Auf einem Raspberry Pi läuft ein Raspbian, dass beim Hochfahren einen Chromium 
 
 === Software ===
 
-  sudo apt-get install chromium x11-xserver-utils unclutter
+  sudo apt-get install chromium x11-xserver-utils unclutter lighttpd php5-cgi git
+
+  sudo nano /etc/lighttpd/lighttpd.conf
+
+Folgende Zeile im Abschnitt server.modules hinzufügen:
+
+  "mod_fastcgi",
+
+Folgende Zeilen ans Ende der Datei einfügen:
+
+  fastcgi.server = ( ".php" => (( 
+                    "bin-path" => "/usr/bin/php-cgi",
+                    "socket" => "/tmp/php.sock" 
+                )))
+
+Und die Zeile
+
+  server.document-root        = "/var/www"
+
+durch 
+
+  server.document-root        = "/var/www/infoscreen"
+
+ersetzen.
+
+=== Installation der Infoscreen Software ===
+Folgende Zeilen ausführen:
+
+  sudo -u www-data -i git clone https://github.com/raumzeitlabor/infoscreen.git /var/www/infoscreen
+  sudo -u www-data -i cd /var/www/infoscreen && git submodule update --init --recursive
+
+
+=== Update Repository bei Restart ===
+  sudo /etc/local.rc
+
+Folgende Zeile am Ende einfügen:
+
+  sudo -u www-data -i git --git-dir=/var/www/infoscreen/.git pull
 
 === Autostart in X11 ===
 
