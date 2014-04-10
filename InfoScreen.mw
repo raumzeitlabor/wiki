@@ -71,7 +71,7 @@ Folgende Zeilen ausführen:
 
 Folgende Zeile am Ende einfügen:
 
-  sudo -u www-data -i git --git-dir=/var/www/infoscreen/.git pull
+  cd /var/www/infoscreen && sudo -u www-data git pull
 
 === Autostart in X11 ===
 
