@@ -48,6 +48,20 @@ Kosten:
 * 32 Gig SD Speicherkarte ~ 18 Euro
 * (Falls notwendig: RaspberryPi Cam ~ 28 Euro)
 
+===Stromverbrauchsmessung===
+
+''von Else''
+
+ELV bietet momentan günstige bi-direktionale [http://www.amazon.de/dp/B00BS5HEU0/ Funksteckdosen] (868MHz) an, die gleichzeitig auch den Stromverbrauch messen. Das Protokoll ist bereits reverse-engineered und in Software gegossen.
+
+Ich schlage vor, dass wir uns 10 Stück anschaffen, die im Raum verteilen und uns eine Software zum Verwalten schreiben. Einen passenden Mikrocontroller würde ich basteln.
+
+Kosten:
+* 10x Funksteckdose [http://www.amazon.de/dp/B00BS5HEU0/ PCA301] je 19,95€
+* Versandkosten 1€
+
+Also insgesamt 201€.
+
 ===Weltherrschaft===
 Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
 
