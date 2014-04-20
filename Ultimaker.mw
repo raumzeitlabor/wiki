@@ -271,6 +271,10 @@ Struktur:
 | 2013-06-04
 | Die vier verschiedenen Federn des Betts durch vier gleiche Federn ersetzt und Bett neu kalibriert. Die auf den Lüfter geklebte Postkarte entfernt. Der Lüfter ist etwas zu stark und kühlt den Nozzle runter, wenn er das erste Mal anspringt. Deshalb in Cura die Lüftergeschwindigkeit auf 8-12% einstellen.
 | zero_dtime
+|-
+| 2014-04-20
+| Baudrate auf 38400 gesetzt.
+| echox
 |}
 
 == Andere Interessante $Dinge ==
