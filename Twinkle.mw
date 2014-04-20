@@ -13,7 +13,7 @@
 
 Twinkle ist eine einfache ATtiny2313 Schaltung, die auf 7 Pins ein SoftPWM Signal erzeugt. Damit werden 7 LED Kabel, die mit Hilfe von ABrocks Magnetautos an der Decke entlanggeführt wurden, angesteuert.
 
-Der Sourcecode ist unter https://github.com/raumzeitlabor/pringlesfoo_mk2 zu finden.
+Der Sourcecode ist unter https://github.com/blabber/twinkle zu finden.
 
 [[Datei:Twinkle-1.jpg|Thumb|400px]]
 
