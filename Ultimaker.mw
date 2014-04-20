@@ -95,6 +95,16 @@ Struktur:
 
 </pre>
 
+== Octoprint ==
+
+Octoprint laeuft auf dem Raspi neben dem Drucker.
+Folgende Netzwerkkonfiguration ist im Moment angelegt:
+<pre>
+Mac: b8:27:eb:cf:a4:77
+IP: 172.22.36.110
+DNS: ultimaker.rzl
+</pre>
+
 == Hints ==
 * Sind Lücken im Ausdruck vorhanden, muß die Retraction Speed erhöht oder die generelle Geschwindigkeit verringert werden.
 * Die Bodenplatte muß Plan ausgerichtet sein, der Abstand zwischen Druckkopf und Bodenplatte sollte ungefähr die Dicke eines Blatt Papier sein. Bewährt haben sich auch die Shackspace-Aufkleber. Wenn der Druckkopf den Aufkleber leicht mitzieht, dann ist der Abstand OK.
