@@ -128,7 +128,9 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.135 || mpd2.rzl/iona.rzl || MPD auf dem Olymp (das Netbook im Regal).
 |-----
-| 172.22.36.'''136 - 199''' || ''reserviert'' || Ungenutzt
+| 172.22.36.136 || logcam.rzl || WIFI SD
+|-----
+| 172.22.36.'''137 - 199''' || ''reserviert'' || Ungenutzt
 |-----
 | 172.22.36.'''200 - 235''' || ''IP-Netz für VMs'' || IP-Adressen für die virtuellen Maschinen auf [[Mate (Server)]]
 |-----
