@@ -74,7 +74,9 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.13 || n36l || N36l von else (temp)
 |-----
-| 172.22.36.'''14 - 109''' || ''reserved'' || Derzeit ungenutzt
+| 172.22.36.'''14 - 189''' || ''reserved'' || Derzeit ungenutzt
+|-----
+| 172.22.36.109 || r929 || [[Benutzer:nicoduck|nicoduck]]
 |-----
 | 172.22.36.110 || ultimaker || [[Ultimaker#Octoprint|Ultimaker]]
 |-----
