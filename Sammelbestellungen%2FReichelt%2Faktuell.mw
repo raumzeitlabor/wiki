@@ -22,3 +22,12 @@ T 250A GE;3
 T 250A GN;3
 T 250A SW;3
 </pre>
+
+== Alexander braucht ==
+
+Für den Laser:
+
+<pre>
+SVK 5;5
+PSG 5;5
+</pre>
