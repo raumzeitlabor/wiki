@@ -24,7 +24,7 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 
 ===Stromverbrauchsmessung===
 
-''von Else''
+<strike>''von Else''
 
 ELV bietet momentan günstige bi-direktionale [http://www.amazon.de/dp/B00BS5HEU0/ Funksteckdosen] (868MHz) an, die gleichzeitig auch den Stromverbrauch messen. Das Protokoll ist bereits reverse-engineered und in Software gegossen.
 
@@ -34,7 +34,9 @@ Kosten:
 * 10x Funksteckdose [http://www.amazon.de/dp/B00BS5HEU0/ PCA301] je 19,95€
 * Versandkosten 1€
 
-Also insgesamt 201€.
+Also insgesamt 201€.</strike>
+
+Momentan nicht lieferbar.
 
 === iPad für das Guthabensystem ===
 Um das Guthabensystem optimal darstellen zu können brauchen wir ein neues Tablet, das ein wenig mehr Leistung hat. Auf dem aktuellen Tablet läuft Android 2.3, welches für die neuen bleeding-edge Webtechnologien, die das System verwendet, nicht mehr geeignet ist.
