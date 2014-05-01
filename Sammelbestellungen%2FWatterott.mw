@@ -11,3 +11,10 @@
 * 1x Kohlenmonoxid Sensor MQ-7 (SEN-09403)
 * 1x Breakout Board für die Gassensoren (BOB-08891)
 * 1x Arduino Leonardo (mit Steckverbindern) (A000057)
+
+=== Alexander ===
+
+Für den Laser:
+<pre>
+3x http://www.watterott.com/de/DRV8824-Stepper-Motor-Driver-Carrier-Low-Current
+</pre>
