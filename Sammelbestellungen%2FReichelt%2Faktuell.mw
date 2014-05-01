@@ -27,6 +27,8 @@ HEBL 25;5
 V 5801B;5
 IRLZ 34N;5
 RAD FC 1.000/10;5
+SL 2X40G 2,54;5
+SL 2X20G SMD2,00;2
 </pre>
 
 == Alexander braucht ==
