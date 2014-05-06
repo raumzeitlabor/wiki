@@ -6,58 +6,6 @@
 
 == Der Raum braucht ==
 
-Mehr kurze Netzwerkkabel für Switchverkabelung Nebenraum
-
 <pre>
-PATCH-C6 025GR;20
-</pre>
-
-== echox braucht ==
-<pre>
-L-1206F 2,2µ;15
-L-11PHC 2,2M;3
-T 250R RT;3
-T 250A WS;3
-T 250A GE;3
-T 250A GN;3
-T 250A SW;3
-HEBL 21;5
-HEBL 25;5
-µA 78S05;5
-V 5801B;5
-IRLZ 34N;5
-RAD FC 1.000/10;5
-SL 2X40G 2,54;5
-SL 2X20G SMD2,00;2
-</pre>
-
-== Alexander braucht ==
-
-Für den Laser:
-
-<pre>
-SVK 5;5
-PSG 5;5
-</pre>
-
-== steeph braucht ==
-
-<pre>
-AK 669-1,8;1
-AK 669-0,3;1
-AVK 119Q-15;2
-NKSK 200 SW;2
-DVD+R4,7 INT25;1
-CD-SCHUTZ 50WS;1
-PATCHKABEL 5 GN;1
-</pre>
-
-== rami braucht ==
-<pre>
-SNT 1000 12V 2,5;1
-SUMMER TDB 12;1
-DURACELL 1X6LR61;1
-CLIP 9V;1
-NS 15;1
-C3005C;1
+wasauchimmer;9001
 </pre>
