@@ -72,9 +72,9 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.12 || [[cookiemonster]] || Cookiemonster (Backup-Server)
 |-----
-| 172.22.36.13 || n36l || N36l von else (temp)
+| 172.22.36.13 || ''reserved'' || Reserviert für Infrastruktur
 |-----
-| 172.22.36.'''14 - 189''' || ''reserved'' || Derzeit ungenutzt
+| 172.22.36.'''14 - 108''' || ''reserved'' || Derzeit ungenutzt
 |-----
 | 172.22.36.109 || r929 || [[Benutzer:nicoduck|nicoduck]]
 |-----
@@ -94,23 +94,23 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.117 || mpd || [[MPD]]
 |-----
-| 172.22.36.118 || usbprint0 || ?
+| 172.22.36.118 || stream || Steam/Streaming Rechner am Beamer
 |-----
 | 172.22.36.119 || liteshow || [[InFocus LiteShow II]]
 |-----
-| 172.22.36.120 || bottom || bottom.uurgn.org von rabe ([https://wiki.uugrn.org/UUGRN:Server/bottom Details im UUGRN Wiki])
+| 172.22.36.120 || ''reserved'' || Reserviert für Geräte
 |-----
-| 172.22.36.121 || electr0ll || [[Public Terminals|Public Terminal]] PC E-Ecke I
+| 172.22.36.121 || ''reserved'' ||  Reserviert für Geräte
 |-----
-| 172.22.36.122 || eeckpc || [[Public Terminals|Public Terminal]] PC E-Ecke II
+| 172.22.36.122 || ''reserved'' ||  Reserviert für Geräte
 |-----
-| 172.22.36.123 || imurks || [[Public Terminals|Public Terminal]] Apple iMac
+| 172.22.36.123 || ''reserved'' ||  Reserviert für Geräte
 |-----
-| 172.22.36.124 || rzl-thinkpad || [[Public Terminals|Public Terminal]] Thinkpad X40
+| 172.22.36.124 || ''reserved'' ||  Reserviert für Geräte
 |-----
 | 172.22.36.125 || abrock-spike || Netbook von ABrock zum Luftfeuchtigkeitsmonitoring 
 |-----
-| 172.22.36.126 || applejack || Apple™ Mac Mini ([[Beamer]]-Mac)
+| 172.22.36.126 || ''reserved'' || Reserviert für Geräte
 |-----
 | 172.22.36.127 || [[InfoScreen|infoscreen]] || [[InfoScreen]] auf dem Kühlschrank
 |-----
@@ -200,7 +200,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.240 || ''reserved'' || Reserviert für Geräte
 |-----
-| 172.22.36.241 || wndr3800 || WNDR3800 (neuer WLAN AP)
+| 172.22.36.241 || ''reserved'' || Reserviert für Geräte
 |-----
 | 172.22.36.242 || fon_pv || fonera nicoduck
 |-----
@@ -224,7 +224,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.252 || [[Mate (Server)]] || Mate [http://h17007.www1.hp.com/us/en/enterprise/servers/management/ilo/index.aspx#.UoEbpXXWGCg ILO Port]
 |-----
-| 172.22.36.253 || Administrativ belegt || Bei Fragen: Docsteel oder sECuRE
+| 172.22.36.253 || SSH-Türöffner || Bei Fragen: Docsteel oder NOC-Team
 |-----
 | 172.22.36.254 || ''reserved'' || Reserviert für Geräte
 |-----
