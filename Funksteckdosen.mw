@@ -1,0 +1,43 @@
+{{ProjektInfoBox
+|name        = Funksteckdosen
+|status      = beta
+|image       = rfm12b-nano.jpg
+|description = Funksteckdosen + Steuerung im RZL
+|author      = [[user:Else|Else]]
+|username    = 
+|download    = [http://github.com/raumzeitlabor/rzl-pca301 github]
+|update      = 
+|platform    = 
+}}
+
+Wir haben im RZL einige Funksteckdosen mit bidirektionalem Rückkanal verbaut. Die Steckdosen namens [[Media:Pca301.jpg|PCA301]] können gelegentlich bei [http://www.elv.de/funkschaltsteckdose-fuer-energiekostenmonitor-pca-301.html ELV] zum Stückpreis von 20€ erworben werden, wenn sie nicht gerade ausverkauft sind, und werden über RFM12 auf 868 MHz angesprochen. Da das Funkprotokoll bereits von Leuten aus dem FHEM Umfeld reverse-engineered wurde (siehe [http://forum.fhem.de/index.php?topic=11648.0 Faden]) und es bereits einen fertigen [http://sourceforge.net/p/fhem/code/HEAD/tree/trunk/fhem/contrib/arduino/36_PCA301-pcaSerial.zip Arduino Sketch] gibt, ist der Aufwand der Ansteuerung vergleichsweise gering.
+
+== Hardware ==
+
+Zur Ansteuerung der Steckdosen nutzen wir einen zusammengefrickelten Arduino Nano mit RFM12B Modul (von Pollin). Die Verkabelung ist genau wie beim [http://jeelabs.net/attachments/download/331/jlpcb-128.pdf Jeenode] und total trivial (abgesehen vom Rastermaß beim Funkmodul, siehe Steckbriefbild rechts). Der Arduino liegt im Rack und ist direkt an Mate per USB angeschlossen. Die Reichweite ist mehr als ausreichend (bis in den Nebenraum).
+
+== Software ==
+
+Auf dem Arduino nutzen wir den fertigen Arduino Sketch mit minimalen Änderungen (bzgl. Basisfrequenz). Der Sketch ist in der Lage, Steckdosen anzulernen. Die serielle Schnittstelle des Arduinos wird mittels "serial device passthrough" an die Infra VM durchgereicht. Hierfür nutzen wir eine udev Rule, die auf die Serial des FTDIs matched und ihm auf Mate immer das gleiche Device zuweist.
+
+Auf der Infra VM nutzen wir [http://fhem.de FHEM], einer kleinen Software für Heimautomatisierung. FHEM kann unter http://infra.rzl:8083/fhem innerhalb des RZLs erreicht werden und ist von außen nicht erreichbar. Zusätzlich zu dem Standard-Webinterface kann man auf Port 8084 ein Webinterface für mobile Endgeräte aufrufen. Für Androidnutzer empfiehlt sich die Installation der [http://andfhem.klass.li/ andFHEM] App, die dann entsprechend [[Media:Rzl-fhem-config.png|konfiguriert]] werden muss.
+
+FHEM ist auf der Infra-VM als Debian Paket installiert und von systemd verwaltet (.service File liegt im Repository).
+
+== Setup ==
+
+Momentan sind sechs Steckdosen an folgenden Plätzen verbaut:
+
+* '''drucker''': Drucker direkt neben Tardis, inkl. Tardislampe
+* '''pringles''': Mehrfachsteckdose an der Pringles-Bong (u.a. die LEDs an der Decke)
+* '''infoscreen''': Infoscreen RPi + Bildschirm + Ladegerät Kassentablet
+* '''telekom''': das beleuchtete Telekomlogo
+* '''music''': der MPD inkl. Bausteine
+* '''blinklampe''': die ursprüngliche Pingiepie-Blinklampe
+
+== Die Zukunft ==
+
+''(danke, hax404)''
+
+* noch mehr Funksteckdosen!
+* mehr Automatisierung durch Anbindung der Steckdosen an MQTT
