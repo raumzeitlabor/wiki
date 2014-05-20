@@ -10,7 +10,7 @@
 |platform    = 
 }}
 
-Wir haben im RZL einige Funksteckdosen mit bidirektionalem Rückkanal verbaut. Die Steckdosen namens [[Media:Pca301.jpg|PCA301]] können gelegentlich bei [http://www.elv.de/funkschaltsteckdose-fuer-energiekostenmonitor-pca-301.html ELV] zum Stückpreis von 20€ erworben werden, wenn sie nicht gerade ausverkauft sind, und werden über RFM12 auf 868 MHz angesprochen. Da das Funkprotokoll bereits von Leuten aus dem FHEM Umfeld reverse-engineered wurde (siehe [http://forum.fhem.de/index.php?topic=11648.0 Faden]) und es bereits einen fertigen [http://sourceforge.net/p/fhem/code/HEAD/tree/trunk/fhem/contrib/arduino/36_PCA301-pcaSerial.zip Arduino Sketch] gibt, ist der Aufwand der Ansteuerung vergleichsweise gering.
+Wir haben im RZL einige Funksteckdosen mit bidirektionalem Rückkanal verbaut, die neben ihres Zustandes auch den aktuellen Stromverbrauch zurückliefern. Die Steckdosen namens [[Media:Pca301.jpg|PCA301]] können gelegentlich bei [http://www.elv.de/funkschaltsteckdose-fuer-energiekostenmonitor-pca-301.html ELV] zum Stückpreis von 20€ erworben werden, wenn sie nicht gerade ausverkauft sind, und werden über RFM12 auf 868 MHz angesprochen. Da das Funkprotokoll bereits von Leuten aus dem FHEM Umfeld reverse-engineered wurde (siehe [http://forum.fhem.de/index.php?topic=11648.0 Faden]) und es bereits einen fertigen [http://sourceforge.net/p/fhem/code/HEAD/tree/trunk/fhem/contrib/arduino/36_PCA301-pcaSerial.zip Arduino Sketch] gibt, ist der Aufwand der Ansteuerung vergleichsweise gering.
 
 == Hardware ==
 
@@ -41,3 +41,4 @@ Momentan sind sechs Steckdosen an folgenden Plätzen verbaut:
 
 * noch mehr Funksteckdosen!
 * mehr Automatisierung durch Anbindung der Steckdosen an MQTT
+* Stromverbrauch der Geräte in $DB zwecks Statistiken schreiben
