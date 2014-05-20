@@ -74,7 +74,9 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.13 || ''reserved'' || Reserviert für Infrastruktur
 |-----
-| 172.22.36.'''14 - 108''' || ''reserved'' || Derzeit ungenutzt
+| 172.22.36.14 || fritzbox || Fritzbox (ISDN<->SIP Ersatz)
+|-----
+| 172.22.36.'''15 - 108''' || ''reserved'' || Derzeit ungenutzt
 |-----
 | 172.22.36.109 || r929 || [[Benutzer:nicoduck|nicoduck]]
 |-----
