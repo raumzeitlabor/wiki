@@ -1,6 +1,7 @@
 derp
 
 == Zonen ==
+=== 1.2.3.4.zone ===
 {| class="wikitable"  valign="top"
 ! Record owner
 ! TTL
@@ -10,8 +11,8 @@ derp
 ! Beschreibung
 |-
 |-
-|colspan="5"| Gesamt
-| 1337
+|colspan="5"| '''Gesamt'''
+| '''1337''' 
 |}
 
-Automatisch geupdatet von [[Benutzer:Fireboxbot]] am: 2014-05-24 02:41:48
+Automatisch geupdatet von [[Benutzer:Fireboxbot]] am: 2014-05-24 02:42:44
