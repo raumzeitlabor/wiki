@@ -35,9 +35,8 @@ Nach einigen Überlegungen wurde MQTT als Protokoll ausgewählt. Gründe für di
 * Authentifizierung, etc. möglich.
 
 === Topics ===
-* ''/device/<devicename>/system''<br>Systemdaten des Geräts, automatisch bereitgestellt durch die verwendete Library
-* ''/device/<devicename>/temperature''<br>Temperatur-Sensor-Daten, falls sie anfallen.
-* ''/monitor''<br>Topic für den Last Will,
+==== [[fnordcredit]] ====
+* ''/service/fnordcredit/transactions'' - Alle fnordcredit Transaktionen
 
 == HTTP/HTTPS ==
 HTTP und HTTPS Kommunikation funktionieren fast ähnlich des [[Hausbus2]]. WIrd sich aber noch ändern, und dann auch ausführlicher dokumentiert.
