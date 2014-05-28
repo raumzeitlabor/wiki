@@ -37,6 +37,7 @@ Nach einigen Überlegungen wurde MQTT als Protokoll ausgewählt. Gründe für di
 === Topics ===
 ==== [[fnordcredit]] ====
 * ''/service/fnordcredit/transactions'' - Alle fnordcredit Transaktionen
+* ''/service/status/presence'' - Laboranten im Space (retained)
 
 == HTTP/HTTPS ==
 HTTP und HTTPS Kommunikation funktionieren fast ähnlich des [[Hausbus2]]. WIrd sich aber noch ändern, und dann auch ausführlicher dokumentiert.
