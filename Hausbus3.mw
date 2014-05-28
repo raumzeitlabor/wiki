@@ -41,6 +41,8 @@ Nach einigen Überlegungen wurde MQTT als Protokoll ausgewählt. Gründe für di
 ** ''status''
 *** ''presence'' - Laboranten im Space (retained)
 
+Beispiel zum subscriben auf der Kommandozeile (offizieller Client): <code>mosquitto_sub -h infra.rzl -t /service/status/presence</code>
+
 == HTTP/HTTPS ==
 HTTP und HTTPS Kommunikation funktionieren fast ähnlich des [[Hausbus2]]. WIrd sich aber noch ändern, und dann auch ausführlicher dokumentiert.
 
