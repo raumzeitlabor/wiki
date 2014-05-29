@@ -35,9 +35,8 @@ Nach einigen Überlegungen wurde MQTT als Protokoll ausgewählt. Gründe für di
 * Authentifizierung, etc. möglich.
 
 === Topics ===
-==== [[fnordcredit]] ====
 * ''service''
-** ''fnordcredit''
+** ''[[fnordcredit]]''
 *** ''transactions'' - Alle fnordcredit Transaktionen
 ** ''status''
 *** ''presence'' - Laboranten im Space (retained)
