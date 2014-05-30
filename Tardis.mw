@@ -24,15 +24,152 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 
 '''Das Nutzungsrecht für eine Schublade kostet 10€ (Als Spende – Keine Rückerstattung!). Leute, die für die Schrankanlage gespendet haben, erhalten den Spendenwert in Schubladen.'''
 
-<br />
-<div style="font-size: 30px">[https://docs.google.com/spreadsheet/ccc?key=0Ail4XBAEXPtQdGpLQXozU3VZOXNKMFdqYWN1S0pRd0E Planungsdokument (Google Docs)]</div>
 
 === Tardis1 ===
 
 * im Hauptraum
 * 17 Schubladen hoch, 6 Schubladen breit. 
 * mit Beleuchtung
-* sollte für Mitglieder-Schubladen vorbehalten bleiben. Dann muss man nicht immer suchen. 
+* Im Heptadezimalsystem nummeriert
+
+{| class="wikitable"
+|0x00<br>Laborant: Alexander
+|0x10<br>leer
+|0x20<br>leer
+|0x30<br>Laborant: slowpoke
+|0x40<br>Laborant: slowpoke
+|0x50<br>Laborant: Inte
+|0x60<br>leer
+|-
+|0x01<br>Laborant: Alexander
+|0x11<br>Laborant: blabber
+|0x21<br>Laborant: drahti?
+|0x31<br>Laborant: slowpoke
+|0x41<br>Laborant: slowpoke
+|0x51<br>Laborant: Inte (leer)
+|0x61<br>leer
+|-
+|0x02<br>Laborant: Alexander
+|0x12<br>Laborant: sebi
+|0x22<br>Laborant: drahti
+|0x32<br>Laborant: evil_sadness
+|0x42<br>Laborant: slowpoke
+|0x52<br>Laborant: Inte
+|0x62<br>leer
+|-
+|0x03<br>Laborant: echox
+|0x13<br>Laborant: nicoduck
+|0x23<br>Laborant: drahti
+|0x33<br>Laborant: hog
+|0x43<br>Laborant: yocky96
+|0x53<br>Laborant: Inte
+|0x63<br>leer
+|-
+|0x04<br>Laborant: echox
+|0x14<br>Laborant: nicoduck
+|0x24<br>Elektro-Bauteilkästen
+|0x34<br>Gehäuse
+|0x44<br>Kleber
+|0x54<br>Laborant: Inte
+|0x64<br>Team R.E.T.R.O
+|-
+|0x0B<br>Laborant: echox
+|0x15<br>Laborant: hax404
+|0x25<br>Laborant: hax404
+|0x35<br>Elektro-Bauteile
+|0x45<br>Laborant: cheatha
+|0x55<br>Laborant: d0n
+|0x65<br>Laborant: d0n
+|-
+|0x05<br>Laborant: thinkJD
+|0x16<br>Laborant: thinkJD
+|0x26<br>Elektro-Bauteilkästen
+|0x36<br>E-Bauteile/Strom
+|0x46<br>Laborant: Kristian
+|0x56<br>Laborant: Felicitus
+|0x66<br>Laborant: danny
+|-
+|0x06<br>Laborant: Dashie
+|0x17<br>Diverses und Lüfter
+|0x27<br>Elektro-Bauteilkästen
+|0x37<br>Elektro-Bauteile (lose)
+|0x47<br>Laborant: zwetschgo
+|0x57<br>Laborant: Felicitus
+|0x67<br>Laborant: whilo
+|-
+|0x07<br>Laborant: Dashie (schwergängig!)
+|0x18<br>Laborant: Felicitus
+|0x28<br>Elektro-Bauteilkästen
+|0x38<br>Kabel
+|0x48<br>Laborant: hexelena
+|0x58<br>Laborant: Felicitus
+|0x68<br>Laborant: steeph
+|-
+|0x08<br>Laborant: lutoma
+|0x19<br>Notebooks
+|0x29<br>Bauteile / Mikroständer
+|0x39<br>Kabel
+|0x49<br>Laborant: Kisl
+|0x59<br>Felicitus
+|0x69<br>steeph
+|-
+|0x09<br>Laborant: lutoma
+|0x1A<br>ABS / Staubsaugerzubehör
+|0x2A<br>PC-Netzteile / Bausätze
+|0x3A<br>Laborant: else
+|0x4A<br>Laborant: muckel
+|0x5A<br>Laborant: Felicitus
+|0x6A<br>Laborant: Freestate
+|-
+|0x0A<br>Batterien / Kreidespray
+|0x1B<br>Platinenmaterial
+|0x2B<br>Bauteilkästen
+|0x3B<br>Laborant: talynrae
+|0x4B<br>Laborant: muckel
+|0x5B<br>Laborant: DaFo
+|0x6B<br>Laborant: Jiska
+|-
+|0x0C<br>Druckverschlussbeutel
+|0x1C<br>Defekte Disketten
+|0x2C<br>Malerzeug
+|0x3C<br>Bauteile
+|0x4C<br>Laborant: tabascoeye
+|0x5C<br>Laborant: Dafo
+|0x6C<br>Laborant: Jiska
+|-
+|0x0D<br>Elektroinstallation
+|0x1D<br>Luftpolstertaschen (leer)
+|0x2D<br>Bauteile
+|0x3D<br>Laborant: BFritz
+|0x4D<br>Laborant: tabascoeye
+|0x5D<br>Laborant: DaFo
+|0x6D<br>Laborant: rami
+|-
+|0x0E<br>Steckernetzteile
+|0x1E<br>Lichtsteuerung
+|0x2E<br>Infrastruktur/NOC
+|0x3E<br>Dübel und Schrauben
+|0x4E<br>Laborant: doozer
+|0x5E<br>Laborant: kite
+|0x6E<br>Laborant: rami
+|-
+|0x0F<br>USB-Netzteile / E-Zigaretten
+|0x1F<br>Resr
+|0x2F<br>Druckerzubehör / Laminiergerät
+|0x3F<br>Infrastruktur / Festplatten
+|0x4F<br>Laborant: mxf
+|0x5F<br>leer
+|0x6F<br>leer
+|-
+|0x0G<br>Elektroinstallation
+|0x1G<br>Netzwerkkabel
+|0x2G<br>Schubladeninnenteile
+|0x3G<br>Schubladeninnenteile
+|0x4G<br>Laborant: mxf
+|0x5G<br>leer
+|0x6G<br>defekt
+|-
+|}
 
 === Tardis2 ===
 
@@ -42,6 +179,94 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 * die Schubladen mit Klebeband-Stücken vorne drauf müssen noch ausgewaschen werden
 * sollte für Projekte und Fablab-Material vorbehalten bleiben
 
+{| class="wikitable"
+|0x70<br>leer
+|0x80<br>leer
+|0x90<br>leer
+|0xA0<br>leer
+|-
+|0x71<br>leer
+|0x81<br>leer
+|0x91<br>leer
+|0xA1<br>leer
+|-
+|0x72<br>leer
+|0x82<br>leer
+|0x92<br>leer
+|0xA1<br>leer
+|-
+|0x73<br>Netzteil
+|0x83<br>leer
+|0x93<br>leer
+|0xA3<br>leer
+|-
+|0x74<br>leer
+|0x84<br>leer
+|0x94<br>leer
+|0xA4<br>leer
+|-
+|0x75<br>E-Bauteile
+|0x85<br>Bausätze BS0001
+|0x95<br>Bausätze BS0005
+|0xA5<br>Bausätze BS0009
+|-
+|0x76<br>Stempel
+|0x86<br>Bausätze BS0002
+|0x96<br>Bausätze BS0006
+|0xA6<br>Bausätze BS0010
+|-
+|0x77<br>Magnetkartenleser/-schreiber
+|0x68<br>Bausätze BS0003
+|0x97<br>Bausätze BS0007
+|0xA7<br>Bausätze BS0011
+|-
+|0x78<br>Laborant: zero_dtime
+|0x88<br>Bausätze BS0004
+|0x98<br>Bausätze BS0008
+|0xA8<br>Bausätze BS0012
+|-
+|0x79<br>Elektroinstallation
+|0x89<br>Kartendrucker
+|0x99<br>19" Harware / Dafo / Felicitus
+|0xA9<br>Torrorists
+|-
+|0x7A<br>Kabel / KVM-Switches
+|0x8A<br>leer
+|0x9A<br>Winkel / Haken / Mech. Bauteile
+|0xAA<br>Schneidplotter
+|-
+|0x7B<br>Adapter
+|0x8B<br>Fnordcordia
+|0x9B<br>Lochbohrer
+|0xAB<br>Ultimaker
+|-
+|0x7C<br>Türschließer
+|0x8C<br>leer
+|0x9C<br>MRMCD
+|0xAC<br>Ultimaker
+|-
+|0x7D<br>leer
+|0x8D<br>leer
+|0x9D<br>Stickbedarf
+|0xAD<br>Stoffkrams
+|-
+|0x7E<br>Laborant: naddie
+|0x8E<br>leer
+|0x9E<br>Stickbedarf
+|0xAE<br>Stickbeispiele
+|-
+|0x7F<br>leer
+|0x8F<br>leer
+|0x9F<br>Stoff (?)
+|0xAF<br>Stickzubehör
+|-
+|0x7G<br>leer
+|0x8G<br>leer
+|0x9G<br>Folie (?)
+|0xAG<br>Schubladenteile
+|-
+|}
+
 === Tardis3 ===
 
 * in Planung
@@ -49,30 +274,3 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 * die Maße würden passen
 * müsste nur jemand (TM) die Platten dazu bersorgen
 * nur für Werkzeug und kleinere Werkstatt-Materialien (Schrauben etc.) vorgesehen
-
-
-
-== Inhalts-Kategorien ==
-Vorschlag:
-* Werkzeug (Feinmechanik)
-* Werkzeug (Grob)
-* Werkzeug (Elektro)
-* Material (in Partkeepr)
-* Projekte (RZL)
-* Material (nicht in Partkeepr) (muss dann natürlich nochmal separat auf den Schubladen beschriftet werden. z.B. ''Netzteile, diverse'')
-* Privat-Schubladen von Personen (auch hier: separat beschriften mit dem Nick)
-
-
-: Ich würde vorschlagen, daß alles, was einen festen Platz hat und kein Verbrauchsmaterial ist (z.b. Werkzeug), nicht im PartKeepr eingetragen werden sollte. Alles andere, was verbaut werden kann, sollte erfasst werden, ggf. auch Elektroinstallationszeugs. Dann kann man auch von zuhause aus gucken, was da ist. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 23:53, 9. Okt. 2012 (CEST)
-:: Grüble doch gerade noch darüber - wenn man Werkzeug in PartKeepr erfasst, kann man in der DB suchen, wo das zeugs ist. Man muß es ja nicht unbedingt auslagern/einlagern. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 01:52, 10. Okt. 2012 (CEST)
-
-=== Ideen ===
-* die Fächer mit farbigen markern (und oder Symbolen?) versehen, um zwischen Inhalts-Kategorien zu unterscheiden.
-* Man könnte Farben für die Oberkategorien benutzen (Rot=Tools; Blau= Material; Gelb=Privat; Kein Grün, wegen R/G-Blinden) und Muster für die Unterkategorien:
-** Hammer=Grobmechanik-Tools
-** Blitz=Elektro-Tools
-** Pinzette=Feinmechanik-Tools
-** Lupe(?)=Partkeepr-Material
-** Zahnrad=Sonstiges Material
-** Vorhängeschloss=Personen-eigene Schublade
-** Zirkel und Steine (Farbe = rot)=Projekt-bezogenes Fach
