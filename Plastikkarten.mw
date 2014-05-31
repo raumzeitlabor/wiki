@@ -13,3 +13,5 @@ Mit dem Embosser kann man wie bei Kreditkarten Text in eine Karte einprägen. Be
 == Magnetstreifen ==
 
 Wir haben einen MSR605-Magnetkartenleser/schreiber, mit dem man Magnetstreifen lesen und schreiben kann. Die offizielle Windows-Software findet man [http://www.carddevicestore.com/files/msr605_cd.rar hier], [[Benutzer:Rami|rami]] hat eine simple [https://github.com/raphaelm/msrtool Linux-Software] geschrieben.
+
+[[Kategorie:Gerät]]
