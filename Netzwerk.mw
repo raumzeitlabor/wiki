@@ -102,7 +102,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.120 || nopfbook || Notebook jiska
 |-----
-| 172.22.36.121 || ''reserved'' ||  Reserviert für Geräte
+| 172.22.36.121 || openelec ||  RasPi TabascoEye
 |-----
 | 172.22.36.122 || ''reserved'' ||  Reserviert für Geräte
 |-----
