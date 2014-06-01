@@ -1,0 +1,26 @@
+{{ProjektInfoBox
+|name        = icinga.vm.rzl
+|status      = beta
+|image       = 
+|description = VM für das Monitoring via icinga2
+|author      = [[NOC Team|NOC-Team]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = icinga.vm.rzl
+|license     = 
+|download    = https://icinga.vm.rzl/
+}}
+
+== Zweck ==
+
+Monitoring der Server und Infrastruktur mittels Icinga2
+
+== Eckdaten ==
+
+* 256MB RAM
+* 1 CPU Core
+* 20GB HDD
+
+[[Kategorie:Infrastruktur]]
