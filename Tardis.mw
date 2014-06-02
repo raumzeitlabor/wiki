@@ -158,15 +158,15 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x2F<br>Druckerzubehör / Laminiergerät
 |0x3F<br>Infrastruktur / Festplatten
 |0x4F<br>Laborant: mxf
-|0x5F<br>leer
-|0x6F<br>leer
+|0x5F<br>Laborant: Unicorn
+|0x6F<br>Laborant: Unicorn
 |-
 |0x0G<br>Elektroinstallation
 |0x1G<br>Netzwerkkabel
 |0x2G<br>Schubladeninnenteile
 |0x3G<br>Schubladeninnenteile
 |0x4G<br>Laborant: mxf
-|0x5G<br>leer
+|0x5G<br>Laborant: Unicorn
 |0x6G<br>defekt
 |-
 |}
