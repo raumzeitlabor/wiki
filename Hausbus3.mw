@@ -40,7 +40,7 @@ Nach einigen Überlegungen wurde MQTT als Protokoll ausgewählt. Gründe für di
 *** ''transactions'' - Alle fnordcredit Transaktionen
 ** ''status''
 *** ''presence'' - Laboranten im Space (retained)
-** ''plug'
+** ''plug''
 *** ''$plugname'' - die jeweilige [[Funksteckdosen#Setup|Steckdose]]
 **** ''state'' - der aktuelle Zustand (retained)
 **** ''power'' - aktueller Stromverbrauch in W
