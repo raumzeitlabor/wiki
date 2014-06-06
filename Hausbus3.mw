@@ -40,6 +40,12 @@ Nach einigen Überlegungen wurde MQTT als Protokoll ausgewählt. Gründe für di
 *** ''transactions'' - Alle fnordcredit Transaktionen
 ** ''status''
 *** ''presence'' - Laboranten im Space (retained)
+** ''plug'
+*** ''$plugname'' - die jeweilige [[Funksteckdosen#Setup|Steckdose]]
+**** ''state'' - der aktuelle Zustand (retained)
+**** ''power'' - aktueller Stromverbrauch in W
+**** ''consumption''
+**** ''consumptionTotal''
 
 Beispiel zum subscriben auf der Kommandozeile (offizieller Client): <code>mosquitto_sub -h infra.rzl -t /service/status/presence</code>
 
