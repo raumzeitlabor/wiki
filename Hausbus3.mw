@@ -34,7 +34,7 @@ Nach einigen Überlegungen wurde MQTT als Protokoll ausgewählt. Gründe für di
 * Inaktive Devices bekommen Meldungen an sie, sofern gewünscht, vom Broker gecacht und später nachgereicht.
 * Authentifizierung, etc. möglich.
 
-=== Topics ===
+== Topics ==
 * ''service''
 ** ''[[fnordcredit]]''
 *** ''transactions'' - Alle fnordcredit Transaktionen
