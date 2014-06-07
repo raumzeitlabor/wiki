@@ -24,6 +24,10 @@ Auf der Infra VM nutzen wir [http://fhem.de FHEM], einer kleinen Software für H
 
 FHEM ist auf der Infra-VM als Debian Paket installiert und von systemd verwaltet (.service File liegt im Repository).
 
+=== Anbindung an [[Hausbus3]] ===
+
+Der Status der Steckdosen wird durch FHEM automatisch auf unseren MQTT Broker gepusht. Das ist momentan noch ein wenig hemdsärmelig über die FHEM Config [https://github.com/raumzeitlabor/rzl-pca301/commit/80526041962bc2179b87c1062270dcb94945a6d1 gelöst], tut aber erstmal seinen Zweck. Der Stromverbrauch der Steckdosen wird alle X Sekunden aktualisiert, der Zustand wird lediglich bei Veränderungen aktualisiert und ist retained. Momentan gibt es keine Möglichkeit, über MQTT Befehle an die Steckdosen zu senden. Hierfür wäre die Entwicklung eines eigenen MQTT Moduls für FHEM sinnvoll (gibts interessanterweise noch nicht).
+
 == Setup ==
 
 Momentan sind sechs Steckdosen an folgenden Plätzen verbaut:
