@@ -93,6 +93,10 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 256 MB
 | 20 GB
 |-
+| [[Mate (Server)/monitoring.rzl]]
+| 750 MB
+| 40 GB
+|-
 | [[Mate (Server)/partkeepr.rzl]]
 | 512 MB
 | 30 GB
@@ -122,11 +126,11 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 15 GB
 |-
 | '''Gesamt'''
-| '''8853 MB / 12001 MB (73.77% belegt)'''
-| '''3.2 TB / 5.3 TB (59.87% belegt)'''
+| '''9603 MB / 12001 MB (80.02% belegt)'''
+| '''3.2 TB / 5.3 TB (60.61% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2014-06-05 00:00:04
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2014-06-08 00:00:04
 
 == Unterseiten ==
 <splist />
