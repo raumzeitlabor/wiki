@@ -47,6 +47,6 @@ Vorschläge für weitere Standorte:
 
 ''(danke, hax404)''
 
-* noch mehr Funksteckdosen!
-* mehr Automatisierung durch Anbindung der Steckdosen an MQTT
+* <strike>noch mehr Funksteckdosen!</strike> Es sind fünf weitere Steckdosen auf dem Weg.
+* <strike>mehr Automatisierung durch Anbindung der Steckdosen an MQTT</strike> r/o erledigt, r/w tbd
 * Stromverbrauch der Geräte in $DB zwecks Statistiken schreiben
