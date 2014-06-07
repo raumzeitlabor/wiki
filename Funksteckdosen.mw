@@ -44,6 +44,13 @@ Vorschläge für weitere Standorte:
 * ''openelec'': der RPi mit OpenELEC auf unserer Beamerplattform
 * …
 
+== Automatisierung ==
+
+Wir können in FHEM Schedules definieren. Mit MQTT Modul (wäre zu schreiben) könnte man auch auf beliebige Events reagieren. Es folgt eine Liste von Vorschlägen (bitte erweitern):
+
+* alle Geräte abschalten, wenn Raum zu ist
+* wenn Raum offen und Sonne untergegangen, die LEDs an der Decke und Moodlamps einschalten 
+
 == Die Zukunft ==
 
 ''(danke, hax404)''
