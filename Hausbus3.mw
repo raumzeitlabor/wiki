@@ -35,6 +35,8 @@ Nach einigen Überlegungen wurde MQTT als Protokoll ausgewählt. Gründe für di
 * Authentifizierung, etc. möglich.
 
 == Topics ==
+Es folgt eine Liste von Topics, die momentan auf dem Broker gepublished werden.
+
 * ''service''
 ** ''[[fnordcredit]]''
 *** ''transactions'' - Alle fnordcredit Transaktionen
