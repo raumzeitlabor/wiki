@@ -32,16 +32,21 @@ Der Status der Steckdosen wird durch FHEM automatisch auf unseren MQTT Broker ge
 
 Momentan sind sechs Steckdosen an folgenden Plätzen verbaut:
 
-* '''drucker''': Drucker direkt neben Tardis, inkl. Tardislampe
-* '''pringles''': Mehrfachsteckdose an der Pringles-Bong (u.a. die LEDs an der Decke)
-* '''infoscreen''': Infoscreen RPi + Bildschirm + Ladegerät Kassentablet
-* '''telekom''': das beleuchtete Telekomlogo
-* '''music''': der MPD inkl. Bausteine
-* '''blinklampe''': die ursprüngliche Pingiepie-Blinklampe
+* Hauptraum
+** '''drucker''': Drucker direkt neben Tardis, inkl. Tardislampe
+** '''pringles''': Mehrfachsteckdose an der Pringles-Bong (u.a. die LEDs an der Decke)
+** '''infoscreen''': Infoscreen RPi + Bildschirm + Ladegerät Kassentablet
+** '''telekom''': das beleuchtete Telekomlogo
+** '''music''': der MPD inkl. Bausteine
+** '''blinklampe''': die ursprüngliche Pingiepie-Blinklampe
+** '''pinkelampe''': die pinke Neon(?)röhre an der Snackbar
+
+* Olymp
+** '''konsolen''': der Hauptstecker für die Konsolen
 
 Vorschläge für weitere Standorte:
 
-* ''openelec'': der RPi mit OpenELEC auf unserer Beamerplattform
+* <strike>'''openelec''': der RPi mit OpenELEC auf unserer Beamerplattform</strike> verbraucht eh fast nix
 * …
 
 == Automatisierung ==
