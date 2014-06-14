@@ -65,6 +65,10 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 512 MB
 | 20 GB
 |-
+| [[Mate (Server)/datengrab.rzl]]
+| 512 MB
+| 2910 GB
+|-
 | [[Mate (Server)/db.rzl]]
 | 512 MB
 | 30 GB
@@ -126,11 +130,11 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 15 GB
 |-
 | '''Gesamt'''
-| '''9347 MB / 12001 MB (77.89% belegt)'''
-| '''0.4 TB / 5.3 TB (7.09% belegt)'''
+| '''9859 MB / 12001 MB (82.15% belegt)'''
+| '''3.2 TB / 5.3 TB (60.98% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2014-06-14 00:00:02
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2014-06-15 00:00:05
 
 == Unterseiten ==
 <splist />
