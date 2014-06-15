@@ -63,9 +63,19 @@ HTTP und HTTPS Kommunikation funktionieren fast ähnlich des [[Hausbus2]]. WIrd 
 * Temperatursensoren
 * Fensterstatus
 
+== Broker ==
+
 === [[Mate (server)/infra.rzl|infra.rzl]] ===
 * auf infra.rzl läuft ein MQTT Broker für alle zentralen Dienste
 * eventuell sollte man den mit tiefpunkts bridgen (oder ersetzen)
+
+=== premium.rzl ===
+* unsere externe VM. '''Bridge''' auf infra.rzl (keep-alive 10 Sekunden, automatischer Reconnect)
+* bridged den gesamten Tree (#) mit QoS Level 2
+* lauscht nur auf internem loopback
+
+=== [[Mate (Server)/tiefpunkt.vm.rzl|tiefpunkt.vm.rzl]] ===
+* siehe ''Angebundene Geräte''
 
 == Code ==
 Basis-Implementierung: [https://github.com/raumzeitlabor/hausbus3-python hausbus3-python]
