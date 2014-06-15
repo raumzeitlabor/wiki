@@ -29,16 +29,13 @@
 ** Bei einer angemessenen Temperatur laesst sich Problemlos Material extrudieren (PLA: ~190 Grad)
 
 ===Nach dem Druck===
-* Hinterlasse ein ausgerichtetes Druckbett
 * Hinterlasse ein bezogenes Druckbett
 ** Acrylglas: Alle stellen sind mit Tape bezogen
 ** Heated Bed: Kapton Tape ist ohne Lufteinschluesse aufgezogen
 * Entferne das benutzte Fillament vollstaendig aus dem Drucker (Rolle + Bowden Tube)
 * Raeume die Werkzeuge an ihren Platz
-** Bit Satz neben den Drucker oder in die E-Ecken Schublade
+** Bit Satz neben den Drucker
 ** Tastwerkzeug an den Magnet vom Drucker
-** Fillament in den Hängeschrank über dem Drucker
-* Wenn du die Ulticam aus gemacht hast: Wieder einstoepseln
 
 ==3D-CAD Software==
 ===OpenSCAD===
