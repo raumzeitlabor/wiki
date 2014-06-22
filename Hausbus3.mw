@@ -74,14 +74,14 @@ HTTP und HTTPS Kommunikation funktionieren fast ähnlich des [[Hausbus2]]. WIrd 
 
 == Angebundene Geräte ==
 
-=== [[Mate (Server)/tiefpunkt.vm.rzl|tiefpunkt.vm.rzl]] ===
+==== [[Mate (Server)/tiefpunkt.vm.rzl|tiefpunkt.vm.rzl]] ====
 
 * Hostet den MQTT-Broker (mosquitto)
 * hausbus3-exporters. Exportieren Sensordaten zu aktuell Cosm und OpenTSDB
 
 ''(keine Gewährleistung, ob das noch aktuell ist)''
 
-=== [[Heizungssteuerung]] (heizung.rzl) ===
+==== [[Heizungssteuerung]] (heizung.rzl) ====
 
 * Temperatursensoren
 * Fensterstatus
