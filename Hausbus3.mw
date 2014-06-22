@@ -19,7 +19,7 @@ Die Kommunikation auf dem Hausbus3 erfolgt via Message Queues, in diesem Falle M
 
 Vorschläge und Kritik am Konzept sind gerne gesehen.
 
-== Message Queues ==
+== Überlegungen ==
 Der [[Hausbus2]] sieht ein Pull-Prinzip vor. Ein Teilnehmer, der über Events oder Sensorwerte benachrichtigt werden möchte, muss aktiv Geräte pollen, um den aktuellen Status zu erfahren, und somit eine eventuelle Änderung mitzubekommen.
 
 Nachteile:
