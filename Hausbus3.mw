@@ -35,6 +35,18 @@ Nach einigen Überlegungen wurde MQTT als Protokoll ausgewählt. Gründe für di
 * bei (Re-)Connect können neue Geräte über das letzte Event informiert werden
 * Authentifizierung, ACLs etc. möglich.
 
+== Low-Cost Devices ==
+
+''Es folgen einige Überlegungen, wie man Arduinos etc. günstig an den Broker anbinden kann.''
+
+Leider eignet sich MQTT eher schlecht für kostengünstige Endgeräte wie z.B. einfache Mikrocontroller. Da man nicht unbedingt für jeden Sender einen Raspberry Pi o.ä. verschwenden möchte, stellt sich die Frage nach einer günstigen Anbindung an unseren Broker, die keinen Ethernet bzw. TCP Stack benötigt.
+
+Kabelgebundene Busse wie z.B. CAN oder RS485 haben zwar hohe Reichweiten, allerdings ist der Aufwand für die Verlegung des Kabels relativ hoch, da wir auf jedenfall möglichst an jeder Stelle im Raum Geräte anbinden können möchten, und Abzweigungen nicht einfach möglich sind.
+
+Es bietet sich daher eine Funkübertragung an. Als sehr günstig stellen sich die NRF24L01 Funkmodule auf 2.4Ghz Basis heraus (ca. 1-2€ pro Modul). Die Reichweite soll unter normalen Bedingungen bis zu 30M betragen, es gibt allerdings auch eine Funkmodulversion mit rausgeführter Antenne, die eine deutlich höhere Reichweiten erreicht (leicht teurer, aber auch nicht mehr als 3-4€). Libraries für Atmel, Arduino und Linux (Raspberry Pi) gibt es bereits.
+
+Man könnte ein NRF24L01 Shield für den Raspberry Pi o.ä. entwerfen, der dann wieder die empfangenen Datenpakete auf den MQTT Broker ausleitet. Hierzu würde dann auch noch ein einfaches Protokoll benötigt.
+
 == Topics ==
 
 Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (Server)/infra.rzl|infra.rzl]] zu verbinden. Es folgt eine Liste von Topics, die momentan auf dem Broker gepublished werden.
