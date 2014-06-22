@@ -1,3 +1,4 @@
+{{AchtungKasten1 |title= Projekt eingestellt |msg=Diese Informationen sind zum Teil leider nicht mehr aktuell, da der [[Hausbus]] so nicht mehr existiert und an [[Hausbus3]] gearbeitet wird. Momentan wird der Raumstatus über den Kontakt in der Tür von einem Spark Core (Arduino mit WLAN) ausgelesen, und an den MQTT Broker gepusht. Dies ist allerdings nur eine temporäre Lösung. Unsere Statuswebseite funktioniert bereits, die Android App allerdings noch nicht.}}
 {{ProjektInfoBox
 |name        = Raumstatus
 |status      = stable
