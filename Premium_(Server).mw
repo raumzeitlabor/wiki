@@ -33,6 +33,7 @@
 * Mailserver
 * Mailingliste
 * Raumstatus
+* Pastebin
 * DNS master
 * Jabber
 * Redirects für Dienste, die auf [[Mate (Server)]] laufen und deswegen nicht extern per IPv4 direkt zugreifbar sind
