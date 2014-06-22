@@ -88,18 +88,18 @@ HTTP und HTTPS Kommunikation funktionieren fast ähnlich des [[Hausbus2]]. WIrd 
 
 == Broker ==
 
-=== [[Mate (Server)/infra.rzl|infra.rzl]] ===
+==== [[Mate (Server)/infra.rzl|infra.rzl]] ====
 
 * auf infra.rzl läuft ein MQTT Broker für alle zentralen Dienste
 * '''TODO:''' eventuell zusätzlich noch mit tiefpunkts bridgen (oder ersetzen)
 
-=== premium.rzl ===
+==== premium.rzl ====
 
 * unsere externe VM. '''Bridge''' auf infra.rzl (keep-alive 10 Sekunden, automatischer Reconnect)
 * bridged den gesamten Tree (#) mit QoS Level 2, ''read-only''
 * lauscht nur auf internem loopback
 
-=== [[Mate (Server)/tiefpunkt.vm.rzl|tiefpunkt.vm.rzl]] ===
+==== [[Mate (Server)/tiefpunkt.vm.rzl|tiefpunkt.vm.rzl]] ====
 * siehe ''Angebundene Geräte''
 
 == Code ==
