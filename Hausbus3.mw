@@ -3,7 +3,8 @@
 |status      = experimental
 |image       = RaumZeitLabor - Logo - Schwarz.svg
 |description = 
-|author      = [[Benutzer:Tiefpunkt|tiefpunkt]]
+|author      = [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Else|else]]
+|maintainer  = [[Benutzer:Else|else]]
 |username    = 
 |version     = v3.0.1
 |update      = 
@@ -19,23 +20,24 @@ Die Kommunikation auf dem Hausbus3 erfolgt via Message Queues, in diesem Falle M
 Vorschläge und Kritik am Konzept sind gerne gesehen.
 
 == Message Queues ==
-Der [[Hausbus2]] ein Pull-Prinzip vor. Ein Teilnehmer, der über Events oder Sensorwerte benachrichtigt werden möchte, muss aktiv Geräte pollen, um den aktuellen Status zu erfahren, und somit eine eventuelle Änderung mitzubekommen.
+Der [[Hausbus2]] sieht ein Pull-Prinzip vor. Ein Teilnehmer, der über Events oder Sensorwerte benachrichtigt werden möchte, muss aktiv Geräte pollen, um den aktuellen Status zu erfahren, und somit eine eventuelle Änderung mitzubekommen.
 
 Nachteile:
 * Geräte müssen bekannt sein, nachträgliches Hinzufügen ist nur schwierig möglich.
 * Polling ist doof.
 
-Alternative: Eine Message Queue.
+Alternative: Messages werden von den Endgeräten an einen Server gepusht. Hierfür eignet sich z.B. Pubsub Protokoll.
 
 Nach einigen Überlegungen wurde MQTT als Protokoll ausgewählt. Gründe für die Auswahl:
-* Lightweight
+* Lightweight, läuft z.B. auch auf Arduinos
 * Leicht zu implementieren, Libraries für viele Sprachen
-* Last-Will-Funktion
-* Inaktive Devices bekommen Meldungen an sie, sofern gewünscht, vom Broker gecacht und später nachgereicht.
-* Authentifizierung, etc. möglich.
+* Last-Will-Funktion (was passiert wenn Endgerät Verbindung verliert)
+* bei (Re-)Connect können neue Geräte über das letzte Event informiert werden
+* Authentifizierung, ACLs etc. möglich.
 
 == Topics ==
-Es folgt eine Liste von Topics, die momentan auf dem Broker gepublished werden.
+
+Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (Server)/infra.rzl|infra.rzl]] zu verbinden. Es folgt eine Liste von Topics, die momentan auf dem Broker gepublished werden.
 
 * ''service''
 ** ''[[fnordcredit]]''
@@ -49,27 +51,38 @@ Es folgt eine Liste von Topics, die momentan auf dem Broker gepublished werden.
 **** ''consumption''
 **** ''consumptionTotal''
 
-Beispiel zum subscriben auf der Kommandozeile (offizieller Client): <code>mosquitto_sub -h infra.rzl -t /service/status/presence</code>
+
+Beispiel zum Subscriben auf der Kommandozeile (offizieller Client): <code>mosquitto_sub -h infra.rzl -t /service/status/presence</code>
 
 == HTTP/HTTPS ==
+
 HTTP und HTTPS Kommunikation funktionieren fast ähnlich des [[Hausbus2]]. WIrd sich aber noch ändern, und dann auch ausführlicher dokumentiert.
 
+''(keine Gewährleistung, ob das noch aktuell ist)''
+
 == Angebundene Geräte ==
+
 === [[Mate (Server)/tiefpunkt.vm.rzl|tiefpunkt.vm.rzl]] ===
+
 * Hostet den MQTT-Broker (mosquitto)
 * hausbus3-exporters. Exportieren Sensordaten zu aktuell Cosm und OpenTSDB
 
+''(keine Gewährleistung, ob das noch aktuell ist)''
+
 === [[Heizungssteuerung]] (heizung.rzl) ===
+
 * Temperatursensoren
 * Fensterstatus
 
 == Broker ==
 
-=== [[Mate (server)/infra.rzl|infra.rzl]] ===
+=== [[Mate (Server)/infra.rzl|infra.rzl]] ===
+
 * auf infra.rzl läuft ein MQTT Broker für alle zentralen Dienste
-* eventuell sollte man den mit tiefpunkts bridgen (oder ersetzen)
+* '''TODO:''' eventuell zusätzlich noch mit tiefpunkts bridgen (oder ersetzen)
 
 === premium.rzl ===
+
 * unsere externe VM. '''Bridge''' auf infra.rzl (keep-alive 10 Sekunden, automatischer Reconnect)
 * bridged den gesamten Tree (#) mit QoS Level 2, ''read-only''
 * lauscht nur auf internem loopback
