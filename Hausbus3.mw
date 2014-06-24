@@ -56,6 +56,7 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 *** ''transactions'' - Alle fnordcredit Transaktionen
 ** ''status''
 *** ''presence'' - Laboranten im Space (retained)
+*** ''devices'' - Anzahl Geräte im WLAN (retained)
 ** ''plug''
 *** ''$plugname'' - die jeweilige [[Funksteckdosen#Setup|Steckdose]]
 **** ''state'' - der aktuelle Zustand (retained)
