@@ -55,7 +55,7 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 ** ''[[fnordcredit]]''
 *** ''transactions'' - Alle fnordcredit Transaktionen
 ** ''status''
-*** ''presence'' - Laboranten im Space (retained)
+*** ''presence'' - Laboranten im Space (retained, '''blacklisted''')
 *** ''devices'' - Anzahl Geräte im WLAN (retained)
 ** ''plug''
 *** ''$plugname'' - die jeweilige [[Funksteckdosen#Setup|Steckdose]]
@@ -65,7 +65,26 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 **** ''consumptionTotal''
 
 
-Beispiel zum Subscriben auf der Kommandozeile (offizieller Client): <code>mosquitto_sub -h infra.rzl -t /service/status/presence</code>
+Beispiel zum Subscriben auf der Kommandozeile (offizieller Client):
+
+<pre>mosquitto_sub -h infra.rzl -t /service/status/presence</pre>
+
+=== XKeyScore ===
+
+[[Benutzer:Else|Else]] hat ein kleines [https://github.com/raumzeitlabor/rzl-xkeyscore Perlscript] geschrieben, was sich auf das Topics '#' (alle Topics) subscribed und die Daten in unsere MySQL auf db.rzl schiebt, sodass wir später beliebige Statistiken bauen können. Bestimmte Topics können hiervon ausgeschlossen werden (bitte schicke einen Pullrequest). Momentan ist das insbesondere der Anwesenheitsstatus. Hier ein Beispiel, wie Du die Daten auslesen kannst:
+
+<pre>1 % mysql --user=xkeyscore-ro --host=db.rzl --password=iedeijuophae6el4xeiniphac9ohqui4 xkeyscore
+[...]
+mysql> select * from messages order by `when` desc limit 1;
++-----+--------------------------------+---------+------+---------------------+--------+
+| id  | topic                          | payload | qos  | when                | retain |
++-----+--------------------------------+---------+------+---------------------+--------+
+| 421 | /service/plug/pinkelampe/power | 0       |    0 | 2014-06-29 17:13:52 |      0 |
++-----+--------------------------------+---------+------+---------------------+--------+
+1 row in set (0.00 sec)
+
+mysql> Bye
+</pre>
 
 == HTTP/HTTPS ==
 
