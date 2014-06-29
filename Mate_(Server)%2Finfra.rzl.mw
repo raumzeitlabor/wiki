@@ -29,6 +29,10 @@ Folgende Dienste laufen ''aktuell'' auf der VM:
 * FHEM
 * Raumzeitstatus: Presence
 
+== Trivia ==
+
+* Über infra.rzl werden unsere Funksteckdosen angesteuert. Hierfür bekommt infra von mate das USB RFM12 Device durchgereicht. Zieht man dieses während des Betriebs ab, so muss infra ''vollständig'' heruntergefahren und wieder gestartet werden (Hintergrund: der qemu-kvm Prozess muss neugestartet werden.)
+
 == TODO ==
 * Firewalling
 
