@@ -51,22 +51,119 @@ Man könnte ein NRF24L01 Shield für den Raspberry Pi o.ä. entwerfen, der dann 
 
 Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (Server)/infra.rzl|infra.rzl]] zu verbinden. Es folgt eine Liste von Topics, die momentan auf dem Broker gepublished werden.
 
-* ''service''
-** ''[[fnordcredit]]''
-*** ''transactions'' - Alle fnordcredit Transaktionen
-** ''mpd''
-*** ''state'' - ''"pause"'', ''"play"'' oder ''"stop"'' (retained)
-*** ''song'' - der aktuelle gespielte Track (bei state="stop" leer, retained)
-** ''status''
-*** ''presence'' - Laboranten im Space (retained, '''blacklisted''')
-*** ''devices'' - Anzahl Geräte im WLAN (retained)
-** ''plug''
-*** ''$plugname'' - die jeweilige [[Funksteckdosen#Setup|Steckdose]]
-**** ''state'' - der aktuelle Zustand (retained)
-**** ''power'' - aktueller Stromverbrauch in W
-**** ''consumption''
-**** ''consumptionTotal''
+''Legende: F=freigegeben, r=retained, q=QoS, b=blacklisted''
 
+{| class="wikitable"
+! style="font-weight: bold;" | Topic
+! style="font-weight: bold;" | F
+! style="font-weight: bold;" | R
+! style="font-weight: bold;" | Q
+! style="font-weight: bold;" | B
+! style="font-weight: bold;" | Format
+! style="font-weight: bold;" | Thing
+! style="font-weight: bold;" | Source
+! style="font-weight: bold;" | Kommentare
+! style="font-weight: bold;" | Kontakt
+|-
+| /service/fnordcredit/transactions
+| X
+| 
+| 0
+| X
+| application/json
+| [[Fnordcredit]]
+| [[InfoScreen]]
+| User, Delta
+| [[Benutzer:silsha|silsha]]
+|-
+| /service/mpd/song
+| X
+| 
+| 0
+| 
+| application/json
+| [[MPD]]
+| [[Mate (Server)/infra.rzl|infra.rzl]]
+| aktueller Track; leeres Objekt, wenn momentan nichts abgespielt wird
+| [[Benutzer:Else|else]]
+|-
+| /service/mpd/state
+| 
+| X
+| 0
+| 
+| application/json
+| [[MPD]]
+| [[Mate (Server)/infra.rzl|infra.rzl]]
+| Zustand des MPDs. "play", "pause", "stop
+| [[Benutzer:Else|else]]
+|-
+| /service/status/presence
+| X
+| X
+| 0
+| X
+| application/json
+| [[Raumstatus|Tür]]
+| [[Mate (Server)/infra.rzl|infra.rzl]]
+| Identifizierte Laboranten
+| [[Benutzer:Else|else]]
+|-
+| /service/status/devices
+| X
+| 
+| 0
+| 
+| application/json
+| [[Mate (Server)/unifi.vm.rzl|WLAN]]
+| [[Mate (Server)/infra.rzl|infra.rzl]]
+| Anzahl Geräte im WLAN
+| [[Benutzer:Else|else]]
+|-
+| /service/plug/$plugname/state
+| X
+| X
+| 0
+| 
+| application/json
+| [[Funksteckdosen|Steckdose]]
+| [[Mate (Server)/infra.rzl|infra.rzl]]
+| Zustand der Steckdosen
+| [[Benutzer:Else|else]]
+|-
+| /service/plug/$plugname/power
+| X
+| 
+| 0
+| 
+| application/json
+| [[Funksteckdosen|Steckdose]]
+| [[Mate (Server)/infra.rzl|infra.rzl]]
+| aktueller Stromverbrauch
+| [[Benutzer:Else|else]]
+|-
+| /service/plug/$plugname/consumption
+| X
+| 
+| 0
+| 
+| application/json
+| [[Funksteckdosen|Steckdose]]
+| [[Mate (Server)/infra.rzl|infra.rzl]]
+| ''?''
+| [[Benutzer:Else|else]]
+|-
+| /service/plug/$plugname/consumptionTotal
+| X
+| 
+| 0
+| 
+| application/json
+| [[Funksteckdosen|Steckdose]]
+| [[Mate (Server)/infra.rzl|infra.rzl]]
+| ''?''
+| [[Benutzer:Else|else]]
+|}
 
 Beispiel zum Subscriben auf der Kommandozeile (offizieller Client):
 
