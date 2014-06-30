@@ -1,0 +1,27 @@
+{{ProjektInfoBox
+|name        = Cachdesk
+|status      = beta
+|image       = Cashdesk.jpg
+|description = Aktuelle Information über das RaumZeitLabor
+|author      = [[Benutzer:Silsha|silsha]]
+|username    = 
+|version     = v0.1
+|update      = 
+|platform    = 
+|preis       = 
+|license     = 
+|download    = https://github.com/raumzeitlabor/fnordcredit
+}}
+
+== Beschreibung ==
+Der Cashdesk ist das digitale Guthabensystem des RZL. Du kannst dir einen Account erstellen, in dem du ganz nach unten scrollst und auf die '''+'''-Schaltfläche tippst.
+
+Der Cashdesk steht im Süßigkeitenregal.
+
+== Technik ==
+
+Auf einem Odys Uno X10 Android Tablet wird die Webseite [http://cashdesk.rzl:8000 cashdesk.rzl:8000] angezeigt. Diese basiert auf der [https://github.com/raumzeitlabor/fnordcredit fnordcredit] und wird irgendwo auf einer VM bei uns gehostet. '''(Wo? Bitte ergänzen!)'''
+
+[[Kategorie:Projekt]]
+[[Kategorie:Hardware]]
+[[Kategorie:Wiki_Cleanup/ToDo]]
