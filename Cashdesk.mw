@@ -20,7 +20,7 @@ Der Cashdesk steht im Süßigkeitenregal.
 
 == Technik ==
 
-Auf einem Odys Uno X10 Android Tablet wird die Webseite [http://cashdesk.rzl:8000 cashdesk.rzl:8000] angezeigt. Diese basiert auf der [https://github.com/raumzeitlabor/fnordcredit fnordcredit] und wird irgendwo auf einer VM bei uns gehostet. '''(Wo? Bitte ergänzen!)'''
+Auf einem Odys Uno X10 Android Tablet wird die Webseite [http://cashdesk.rzl:8000 cashdesk.rzl:8000] angezeigt. Diese basiert auf der [https://github.com/raumzeitlabor/fnordcredit fnordcredit] und wird auf der [[Mate (Server)/cashdesk.rzl¦cashdesk.rzl]] VM bei uns gehostet.
 
 [[Kategorie:Projekt]]
 [[Kategorie:Hardware]]
