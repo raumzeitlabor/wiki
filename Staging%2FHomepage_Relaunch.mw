@@ -1,0 +1,40 @@
+{{ProjektInfoBox
+|name        = Homepage Relaunch™ v3
+|status      = staging
+|image       = Super-hp.gif
+|description = Eine Überarbeitung unserer Homepage
+|author      = Else
+|username    = 
+|version     = 0.1337
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
+Bei Interesse mitzuhelfen, melde dich bei [[Benutzer:Else|Else]]. Vorschläge bitte [[Diskussion:Staging/Homepage Relaunch|hier]].
+
+== Ausgangssituation ==
+
+Momentan nutzen wir ein Wordpress, dessen ältere Inhalte tiefpunkt damals von Joomla konvertiert hatte. Die Wordpress-Version ist nicht die neuste, weil wir Debian Pakete nutzen und die automatischen Updates abgeschaltet haben. Manuelles Updaten der Plugins ist jedoch zeitaufwendig, und niemand machts.
+
+Inhaltlich nutzen wir das Wordpress eigentlich nur für die Blogbeiträge, Kommentare und den Kalender. Zusätzlich gibts noch ein paar statische Webseiten. Wordpress ist eigentlich ziemlich nervig.
+
+== Vorschlag ==
+
+Wir migrieren erneut, und diesmal nutzen wir einen Static Blog Generator, der aus Textdateien entsprechende HTML Seiten generiert. Das hat den Vorteil, dass wir keinerlei dynamische Skripts für die Seite benötigen. Für die Kommentare nutzen wir ein selbstgehostetes Kommentarsystem ähnlich [http://disqus.com disqus] (z.B. [http://posativ.org/isso/ isso]). Für den Kalender hingegen laden wir die Events über Javascript aus statischen JSON Dateien, die entsprechend geändert werden.
+
+Die gesamte Homepage verwalten wir in einem git Repository. Wenn jemand einen Blogbeitrag schreiben möchte, muss er nichts anderes tun als das Repository zu klonen, eine entsprechende Datei anzulegen, und diese zu commiten und zu pushen. Über einen Webhook wird die Webseite dann neu generiert. Das ist alles eigentlich nix neues, und es gibt da schon entsprechende Workflows für.
+
+=== Kalender ===
+
+Der Kalender ist nichts anderes als eine statische Webseite mit entsprechendem Javascript. Jeder Monat des Jahres bekommt eine eigene JSON Datei, z.B. 2014-07.json. Zusätzlich gibt es noch jahresunabhängige Dateien für jeden Monat, z.B. 1337-07.json. Dann kann man entweder vor jeden Commit diese Dateien "kompilieren", sodass am Ende eine Datei rausfällt, oder man lässt es einfach so und macht für den Monat zwei (auf den Monat dieses Jahres sowie dem generischen Monat). Das Javascript auf der statischen Kalenderseite lädt die die jeweilige(n) Datei(en) für die jeweilige Monatansicht.
+
+=== Design ===
+
+Irgendwas simples, was ein bißchen seriöser als das jetzige aussieht. Am besten any-device.
+
+
+== Aufgaben ==
+
+''tbd''
