@@ -16,7 +16,7 @@ Bei Interesse mitzuhelfen, melde dich bei [[Benutzer:Else|Else]]. Vorschläge bi
 
 == Ausgangssituation ==
 
-Momentan nutzen wir ein Wordpress, dessen ältere Inhalte tiefpunkt damals von Joomla konvertiert hatte. Die Wordpress-Version ist nicht die neuste, weil wir Debian Pakete nutzen und die automatischen Updates abgeschaltet haben. Manuelles Updaten der Plugins ist jedoch zeitaufwendig, und niemand machts.
+Momentan nutzen wir ein Wordpress, dessen ältere Inhalte tiefpunkt damals von Drupal konvertiert hatte. Die Wordpress-Version ist nicht die neuste, weil wir Debian Pakete nutzen und die automatischen Updates abgeschaltet haben. Manuelles Updaten der Plugins ist jedoch zeitaufwendig, und niemand machts.
 
 Inhaltlich nutzen wir das Wordpress eigentlich nur für die Blogbeiträge, Kommentare und den Kalender. Zusätzlich gibts noch ein paar statische Webseiten. Wordpress ist eigentlich ziemlich nervig.
 
