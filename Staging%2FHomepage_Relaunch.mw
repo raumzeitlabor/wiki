@@ -30,6 +30,8 @@ Die gesamte Homepage verwalten wir in einem git Repository. Wenn jemand einen Bl
 
 Der Kalender ist nichts anderes als eine statische Webseite mit entsprechendem Javascript. Jeder Monat des Jahres bekommt eine eigene JSON Datei, z.B. 2014-07.json. Zusätzlich gibt es noch jahresunabhängige Dateien für jeden Monat, z.B. 1337-07.json. Dann kann man entweder vor jeden Commit diese Dateien "kompilieren", sodass am Ende eine Datei rausfällt, oder man lässt es einfach so und macht für den Monat zwei (auf den Monat dieses Jahres sowie dem generischen Monat). Das Javascript auf der statischen Kalenderseite lädt die die jeweilige(n) Datei(en) für die jeweilige Monatansicht.
 
+Eine andere Möglichkeit wäre ein CalDAV mit entsprechendem Backup.
+
 === Design ===
 
 Irgendwas simples, was ein bißchen seriöser als das jetzige aussieht. Am besten Mobile first (und responsive web).
