@@ -194,12 +194,6 @@ mysql> select * from messages order by `when` desc limit 1;
 mysql> Bye
 </pre>
 
-== HTTP/HTTPS ==
-
-HTTP und HTTPS Kommunikation funktionieren fast ähnlich des [[Hausbus2]]. WIrd sich aber noch ändern, und dann auch ausführlicher dokumentiert.
-
-''(keine Gewährleistung, ob das noch aktuell ist)''
-
 == Angebundene Geräte ==
 
 ==== [[Mate (Server)/tiefpunkt.vm.rzl|tiefpunkt.vm.rzl]] ====
