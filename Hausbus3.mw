@@ -41,6 +41,14 @@ Nach einigen Überlegungen wurde MQTT als Protokoll ausgewählt. Gründe für di
 
 Leider eignet sich MQTT eher schlecht für kostengünstige Endgeräte wie z.B. einfache Mikrocontroller. Da man nicht unbedingt für jeden Sender einen Raspberry Pi o.ä. verschwenden möchte, stellt sich die Frage nach einer günstigen Anbindung an unseren Broker, die keinen Ethernet bzw. TCP Stack benötigt.
 
+=== Spannungsversorgung ===
+
+Für Low-Cost Devices möchte man eigentlich irgendwas cooleres als ein Steckernetzteil zur Spannungsversorgung. Zum Einen belegt jedes Netzteil eine Steckdose, zum anderen ist es auch schlichtweg ineffizient. [[Benutzer:DancingFo|DancingFo]] und [[Benutzer:Else|Else]] überlegen, eine 24V Spannungsversorgung durch unsere Räume zu ziehen, die von einem Hutschienennetzteil (wie z.B. dem [https://secure.reichelt.de/Schaltnetzteile-fuer-Hut-Schiene/SNT-MW-DR60-24/3/index.html?&ACTION=3&LA=2&ARTICLE=85231&GROUPID=4961&artnr=SNT+MW-DR60-24 SNT MW-DR60-24]) versorgt wird. Da die Leitungslänge recht groß sein wird (und damit auch der Spannungsabfall), nimmt man vermutlich besser 24V.
+
+Nachteil von 24V ist, dass die Arduinos nicht mehr direkt an der Strippe betrieben werden können. Es gibt aber einstellbare Spannungswandler für wenig Geld (siehe z.B. [http://www.electrodragon.com/product/lm2596s-adj-dc-dc-small-tiny-adjustable-step-down-module-3-40vin-1-5-35vout/ LM2596S]) mit bis zu 3A, die man entweder zentral je Raum installiert, oder an jedem Arduino (auf einer Basisplatine).
+
+=== Kommunikation ===
+
 Kabelgebundene Busse wie z.B. CAN oder RS485 haben zwar hohe Reichweiten, allerdings ist der Aufwand für die Verlegung des Kabels relativ hoch, da wir auf jedenfall möglichst an jeder Stelle im Raum Geräte anbinden können möchten, und Abzweigungen nicht einfach möglich sind.
 
 Es bietet sich daher eine Funkübertragung an. Als sehr günstig stellen sich die NRF24L01 Funkmodule auf 2.4Ghz Basis heraus (ca. 1-2€ pro Modul). Die Reichweite soll unter normalen Bedingungen bis zu 30M betragen, es gibt allerdings auch eine Funkmodulversion mit rausgeführter Antenne, die eine deutlich höhere Reichweiten erreicht (leicht teurer, aber auch nicht mehr als 3-4€). Libraries für Atmel, Arduino und Linux (Raspberry Pi) gibt es bereits.
