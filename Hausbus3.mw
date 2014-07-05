@@ -49,7 +49,7 @@ Nachteil von 24V ist, dass die Arduinos nicht mehr direkt an der Strippe betrieb
 
 === Kommunikation ===
 
-Kabelgebundene Busse wie z.B. CAN oder RS485 haben zwar hohe Reichweiten, allerdings ist der Aufwand für die Verlegung des Kabels relativ hoch, da wir auf jedenfall möglichst an jeder Stelle im Raum Geräte anbinden können möchten, und Abzweigungen nicht einfach möglich sind.
+Kabelgebundene Busse wie z.B. CAN oder RS485 haben zwar hohe Reichweiten, allerdings ist der Aufwand für die Verlegung des Kabels relativ hoch, da wir auf jedenfall möglichst an jeder Stelle im Raum Geräte anbinden können möchten. Unabhängig davon sind Abzweigungen nicht so einfach möglich, bzw. nur sehr kurz an der Hauptleitung.
 
 Es bietet sich daher eine Funkübertragung an. Als sehr günstig stellen sich die NRF24L01 Funkmodule auf 2.4Ghz Basis heraus (ca. 1-2€ pro Modul). Die Reichweite soll unter normalen Bedingungen bis zu 30M betragen, es gibt allerdings auch eine Funkmodulversion mit rausgeführter Antenne, die eine deutlich höhere Reichweiten erreicht (leicht teurer, aber auch nicht mehr als 3-4€). Libraries für Atmel, Arduino und Linux (Raspberry Pi) gibt es bereits.
 
