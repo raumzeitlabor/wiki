@@ -177,7 +177,7 @@ Beispiel zum Subscriben auf der Kommandozeile (offizieller Client):
 
 <pre>mosquitto_sub -h infra.rzl -t /service/status/presence</pre>
 
-=== XKeyScore ===
+== XKeyScore ==
 
 [[Benutzer:Else|Else]] hat ein kleines [https://github.com/raumzeitlabor/rzl-xkeyscore Perlscript] geschrieben, was sich auf das Topics '#' (alle Topics) subscribed und die Daten in unsere MySQL auf db.rzl schiebt, sodass wir später beliebige Statistiken bauen können. Bestimmte Topics können hiervon ausgeschlossen werden (bitte schicke einen Pullrequest). Momentan ist das insbesondere der Anwesenheitsstatus. Hier ein Beispiel, wie Du die Daten auslesen kannst:
 
