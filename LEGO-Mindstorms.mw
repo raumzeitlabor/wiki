@@ -63,32 +63,34 @@ Nach Abschluß des Agenda Diploms wollen wir im Rahmen von Workshops weiter mit 
 
 == Demoablauf mit Aufgabenstellungen für das Agenda Diplom 2014 ==
 
-Einführung Motoren
+=== Einführung Motoren ===
 1. Aufgabe: Geradeaus fahren lassen
+
 2. Aufgabe: Geradeaus, dann 90° Drehung und 1x im Kreis/Rechteck fahren (Motordrehung 1.06 Umdrehungen)
 
-Einführung Schleifen und Helligkeitssensor
+=== Einführung Schleifen und Helligkeitssensor ===
+
 3. Aufgabe: Fahren bis zur Tischkante und dann stoppen.
 
-Transfer: Entfernungssensor
+=== Transfer: Entfernungssensor ===
 4. Aufgabe: Fahre auf ein Hindernis zu und stoppe rechtzeitig
 
 5. Aufgabe: Öffne die Schere und schließe sie wieder (Ausgangsstatus prüfen und nicht zu weit öffnen, sonst sind die Ketten blockiert Merkwert: Angabe in Sekunden beim schließen der Schere, sonst Endlosschleife)
 
 6. Aufgabe: Öffne die Schere, fahre auf einen Gegenstand zu und greife ihn (Berührungssensor einsetzen) und zurückfahren
 
-irgendwo zwischen 6 und 7 Pause.
+=== irgendwo zwischen 6 und 7 Pause ===
 
-Transfer: Suchen, finden, greifen
+=== Transfer: Suchen, finden, greifen ===
 7. Aufgabe: Der Gegenstand steht nicht direkt davor und soll mit dem Entfernungssensor gesucht werden, anschließend Schere öffnen, darau zufahren und greifen.
 
 Frage: Was kann man mit dem Gegenstand machen, wenn man ihn gegriffen hat?
 
-Zusatzaufgaben:
+=== Zusatzaufgaben ===
 
-Linie folgen
-Sprachausgabe und Sounds
-Steuere den Roboter mit der Fernbedienung
-Folge dem Beacon oder bringe den Gegenstand zum Beacon
+* Linie folgen
+* Sprachausgabe und Sounds
+* Steuere den Roboter mit der Fernbedienung
+* Folge dem Beacon oder bringe den Gegenstand zum Beacon
 
 - rotes Klebeband mitbringen
