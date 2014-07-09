@@ -15,17 +15,6 @@ SMD HC 4050;4
 KLEMME 6005 RT;1
 </pre>
 
-== Yocky braucht ==
-<pre>
-HALTER 2XAAKA;2
-TASTER 3301D;1
-CQY 99;8
-PN 2222A;4
-2N 3906;2
-CST 8,00;2
-ATTINY 85-20 PU;2
-</pre>
-
 == else braucht ==
 <pre>
 CR 2450;10
