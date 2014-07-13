@@ -1,4 +1,8 @@
+{{AchtungKasten1|title=He's dead, Jim!|msg=Das [[Internet]] wird aktuell (2014-07-13) von einer Easybox erzeugt.}}
+
 Der Speedportrouter im Rack stellt aktuell die DSL Verbindung her. Die [[ASG]] ist daran per LAN Angeschlossen und verteilt das Netz im RZL.
 Der Speedportrouter ist nur als vorübergehende Lösung gedacht und wird $bald durch ein reines DSL Modem ersetzt. der PPPoE Daemon soll dann auf der ASG laufen.
 
+[[Kategorie:Archäologie]]
 [[Kategorie:Hardware]]
+[[Kategorie:Infrastruktur]]
