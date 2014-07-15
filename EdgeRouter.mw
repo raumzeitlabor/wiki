@@ -1,64 +1,33 @@
-{{AchtungKasten1 |title=Veraltet|msg=Diese Wikiseite wurde leider schon länger nicht mehr gepflegt und ist nicht aktuell. Jemand vom [[NOC Team]] wird sich sicher bald™™™ drum kümmern.}}
+Der EdgeRouter Pro von Ubiquitiy ist unser derzeitiger Router. Die Aufgaben sind:
 
-Die ASG (Astaro Security Gateway) ist unser derzeitiger Router. Die Aufgaben sind:
-
-* IPv4-Internet bereitstellen (getunnelt über Schweden)
+* IPv4-Internet bereitstellen (getunnelt über docsteel)
 * IPv6-Internet bereitstellen (getunnelt über docsteel)
-* Türstatus ermitteln und auf status.raumzeitlabor.de laden, dafür auch Hausbusmaster sein
-* Via [[NPM 2000|NPM]] Switch ein-/ausschalten (und damit Rundumleuchten für den [[Ping]])
-* DNS, DHCP, radvd, firewall
+* DHCP, radvd, firewall
 * Zugang ins dn42
-* Internetauslastung und Latenz monitoren und auf cosm hochladen
-* ISDN Routing incl SIP Gateway
 
 == Hardware ==
 
-* Intel(R) CPU
-* 2 GB RAM
+* Dual-Core 1 GHz, MIPS64 with Hardware Acceleration
+* 2 GB DDR3 RAM
+* 4GB Flash
 * 8 Giabit-Ethernet-Ports
+* 2 SFP Ports
 * 19"-Gehäuse, 1HE
 * Linux
 
 == Software ==
-;DHCP: isc-dhcp-server
-;DNS: bind9 (master für .rzl und 36.22.172.in-addr.arpa und 37.22.172.in-addr.arpa)
-;radvd: radvd
-;VPNs: openvpn
-;Firewall: iptables
-;LCR: linux call router für die ISDN <-> SIP Übersetzung. Der LCR kommuniziert über ein USB-ISDN Interface mit der Außenwelt und per SIP mit dem [[Mate_(Server)/yate.vm.rzl|yate]] SIP Server.
-;Scripte: eingenes, wohldokumentiertes, Zeug
+EdgeOS von Ubiquity
 
 == Adminstuff ==
-=== Scripte ===
-$Dinge funktionieren noch nicht per init script, sondern in einem screen.
+* Login Nur per SSH und Key auf der 172.22.36.1
+* Login: Nur das [[NOC_Team]]
+* Dokumentation zu der CLI findet man hier: http://wiki.ubnt.com/EdgeMAX_Wiki
+* Keys für OpenVPN, etc. liegen in /config/auth
+* die aktuelle Boot-Config liegt immer in /config/config.boot
+* Alle eigenen Dateien NUR in /config ablegen, da Sie hier ein Firmware Update überleben.
 
-Nach einem Reboot sollte folgendes ausgeführt werden (bitte in einem und nicht pro Dienst einen eigenen):
-''(Ist der Code Block unten gemeint?)''
-
-Nach einem reboot müssen die beiden auskommentierten Zeilen in /root/start-tuerstatus.sh ausgeführt werden (/tmp/rrd erstellen und n paar default dateien da hin schieben).
-
-<code><pre>
-/root/start-hausbus.sh
-/root/start-tuerstatus.sh
-/root/start-npmd.sh
-while [ 1 ]; do sh /root/raumstatus-meta.sh; sleep 30; done
-cd /root/internetmeter; ./main
-</pre></code>
-
-Initscripte kommen $bald™.
-
-=== Serielle Schnittstelle ===
-
-Die ASG hat eine serielle Schnittstelle: Wird aber nich genutzt aktuell.
-
-=== Busmaster-Reset ===
-
-<pre>
-curl -d 0 -X PUT http://localhost:5000/port/2
-curl -d 1 -X PUT http://localhost:5000/port/2
-</pre>
-
-=== NPM Reset ===
-Falls der npmd abstürzt und keine Verbindung mehr zum [[NPM 2000|NPM]] bekommt: hingehen, NPM ausschalten (hinten Links), wieder einschalten, nochmal versuchen. Am [[NPM 2000|NPM]] hängt neben dem [[Hausbus|Busmaster]] auch der [[Switch|Hauptswitch]]. [[Netzwerk]] ist dann also auch kurz komplett weg.
+== Anpassungen ==
+* Iptables werden derzeit noch aus /config/iptables.rules geladen beim booten.
+** TODO: Firewall Rules in die EdgeRouter Config migrieren.
 
 [[Kategorie:Hardware]]
