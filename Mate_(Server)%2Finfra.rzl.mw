@@ -28,6 +28,7 @@ Folgende Dienste laufen ''aktuell'' auf der VM:
 * MQTT
 * FHEM
 * Raumzeitstatus: Presence
+* Node-Red [http://infra.rzl:1880/]
 
 == Trivia ==
 
