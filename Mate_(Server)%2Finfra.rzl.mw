@@ -23,10 +23,10 @@ Folgende Dienste laufen ''aktuell'' auf der VM:
 * Apache2
 * PIN Sync
 * RaumZeitChef IRC-Bot
-* BenutzerDB
+* BenutzerDB [http://infra.rzl/BenutzerDB/]
 * Mantis [http://infra.rzl/mantis]
 * MQTT
-* FHEM
+* FHEM [http://infra.rzl:8083]
 * Raumzeitstatus: Presence
 * Node-Red [http://infra.rzl:1880/]
 
