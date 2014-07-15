@@ -224,6 +224,12 @@ mysql> Bye
 ==== [[Mate (Server)/tiefpunkt.vm.rzl|tiefpunkt.vm.rzl]] ====
 * siehe ''Angebundene Geräte''
 
+== Regelframework ==
+
+Wir sind noch auf der Suche nach einem geeigneten Regelframework (ähnlich IFFT). Momentan experimentieren wir mit [http://nodered.org Node-Red], einem Daemon mit Webinterface vom IBM. Dieser kann [http://infra.rzl:1880/ hier] erreicht werden, und tut momentan folgendes:
+
+* Veröffentlichung des Raumstatus auf @raumzeitstatus
+
 == Code ==
 Basis-Implementierung: [https://github.com/raumzeitlabor/hausbus3-python hausbus3-python]
 
