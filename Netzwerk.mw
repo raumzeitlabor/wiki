@@ -66,7 +66,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.9 || cashpoint || RZL Cashpoint
 |-----
-| 172.22.36.10 || datamonster || [[Datamonster]]
+| 172.22.36.10 || ''reserved'' || Reserviert für Infrastruktur
 |-----
 | 172.22.36.11 || [[raspbmc]] || RPi mit Raspbmc
 |-----
