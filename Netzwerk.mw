@@ -233,5 +233,10 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 | 172.22.37.'''10 - 110''' || '''dhcp''' || DHCP-Range (unfiltered)
 |}
 
+== Vorgehensweisen ==
+=== Host hinzufügen/entfernen ===
+* Eintrag Tabelle oben drüber; Gibts eine Wikiseite?
+* (r)DNS-Zonen gibts auf [[Mate_(Server)/Infra|Infra]] unter /var/lib/bind/
+* statisches DHCP gibts auf der [[firebox]]
 
 [[Kategorie:Infrastruktur]]
