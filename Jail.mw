@@ -1,3 +1,5 @@
+{{Archäologie}}
+
 == Aktueller Stand ==
 Der Webserver und andere Teile waren auf einem FreeBSD-Jail auf dem alten Vereinsserver von UUGRN gehostet. 
 Anlässlich der Umzuges von UUGRN-Diensten auf den neuen UUGRN-Vereinsserver wurde das RZL-Jail Ende Febrbaur 2013 auf eine eigene Infrastruktur portiert. Mehr dazu auf [[Jail/Umzug]].
