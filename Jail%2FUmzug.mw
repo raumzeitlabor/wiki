@@ -1,3 +1,5 @@
+{{Archäologie}}
+
 Der Umzug muss bis Mitte März durch sein.
 
 == Gegebenheiten ==
@@ -78,6 +80,6 @@ Der Umzug muss bis Mitte März durch sein.
 ** Es ist auch möglich das ganze über einen lokalen reverse Proxy zu leiten, der auf interne subdomains geht und nach außen den Kram in verzeichnissen (weiterhin) anbietet. Also, dass z.B. raumzeitlabor.de/bla auf bla.raumzeitlabor.de umgeleitet wird --[[Benutzer:Nicoduck|Nicoduck]] ([[Benutzer Diskussion:Nicoduck|Diskussion]]) 13:54, 5. Feb. 2013 (CET)
 *** Verstehe deinen Punkt nicht ganz, das machen wir doch schon (siehe BenutzerDB). --[[Benutzer:Else|Else]] ([[Benutzer Diskussion:Else|Diskussion]]) 15:14, 5. Feb. 2013 (CET)
 
-[[Kategorie:Archäologie]]
+
 [[Kategorie:Infrastruktur]]
 [[Kategorie:Projekt]]
