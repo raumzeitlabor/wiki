@@ -1,4 +1,4 @@
-{{AchtungKasten1|title=He's dead, Jim!|msg=Die [[Wordpress]]-Migration ist mittlerweile abgeschlossen, und Bernd ist aus.}}
+{{Archäologie}}
 {{ProjektInfoBox
 |name        = bernd.vm.rzl
 |status      = beta
@@ -15,5 +15,3 @@
 }}
 == Zweck ==
 Testinstallation der neuen, zukünftigen RaumZeitWebseite.
-
-[[Category:Archäologie]]
