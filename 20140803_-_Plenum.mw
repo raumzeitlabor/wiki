@@ -1,0 +1,118 @@
+RZL Plenum 03.08.2014
+
+Leitung: tabascoeye
+Protokoll: alle via chaos pad
+
+Anwesend: jiska, Abrock, silsha, unicorn, flederrattie, xAndy, blinckyblue, Cheatha, TabascoEye, Dafo, docsteel, don, thinkJD, else, nicoduck, Ingo, blabber, Kathrin
+== Realitätsabgleich ==
+=== Stickmaschine ===
+''von RaumZeitLabor e.V.''
+Sie ist nicht da. Sie hätte letzte Woche Freitag geliefert werden sollen (25. Juli). Wurde sie nicht. Wurde angeblich Dienstag verschickt.
+Unicorn wird, falls die Maschine nicht kommt, das Geld wirksam zurückverlangen.
+Stratum0 hat uns angeboten für 120€ (inkl. Versand) ihre Stickmaschine zu mieten.
+ABrock hat die Woche durchgestickt, daher brauchen wir die Maschine nicht mehr so lange für die MRMCD, sollte also problemlos klappen, ohne dass wir noch Verrenkungen machen müssen.
+== Aktuell ==
+===FrOSCon===
+Wir sind neben dem Getränkestand, mit etwas mehr Platz als beim letzten Mal. Diesmal ohne Transporter.
+Wer? – TabascoEye, Naddie, ABrock, jiska, docsteel, blabber, unicorn
+TODO: Zeitnah besprechen was wir machen.
+
+- TabascoEye nimmt den Laser mit.
+- Jiska die Stickmaschine.
+- ABrock nimmt den Plotter mit.
+
+Blabber frägt nach, ob wir wieder einen Transporter gestellt bekommen.
+=== Finanzübersicht ===
+{
+|-
+|Giro:
+|             9.375,53 €
+|-
+|Kasse:
+|          ~825,00 €
+|-
+|Payback:
+|       ~270,00 €
+|-
+|
+|-
+|Rücklage:
+|    5.000,00 €
+|-
+|HackRF:
+|      ~350,00 €
+|-
+|Strichliste:
+|   ~100,00 €
+|-
+|                    
+|----------------------------
+|-
+|                     
+|4750,53 €
+|-}
+                     theoretisch verfügbar
+                     
+Das Vereinskonto wird demnächst™ auf ein Geschäftskonto umgestellt, da die Sparkasse keine kostenlosen Konten mehr für Vereine bereitstellen möchte (4€ pro Monat; 15ct pro Buchung). SUPER ANGEBOT FÜR VEREINE!
+Girokonto bei der Volksbank ist in Arbeit. Benötigen noch Unterlagen, die beim Vereinsregister angefordert wurden. Dauert nach Unicorn 3 Tage wenn man alle Unterlagen hat. Nicoduck fragt nach, ob wir dort auch ein Tagesgeldkonto bekommen (ist bei Sparkasse nicht möglich).
+Problem: Bis Ende September kündigen ist schwierig, falls jemand noch was überweisen will. Es wird noch mal mit dem Sparkassen-Bankberater gesprochen, ob er da nicht doch was drehen kann. SEPA ist viel Aufwand.
+So hoch ist der Betrag an die Sparkasse nicht, weil wir von 80 Mitgliedern auf einmal einen Einzug machen, was nur eine Transaktion ist.
+TODO dann: SEPA neu machen, Amazon, Flattr etc. umtragen. Dafür das Sparkassen-Konto ggf. etwas verlängern.
+Wöchentliche Updates, wie der Stand ist.
+Konsens: Wir wechseln zur Volksbank, weil wir keine Gebühren zahlen wollen.
+=== Nassschleifmaschine ===
+''von Don''
+Haki hat vor einiger Zeit Schleifmaschinen rausgesucht. Ein Modell für 520€ (bei Amazon) stand auf der Mailingliste. Don hätte gerne eine solche Maschine, damit die Messer wieder scharf werden.
+JD fragt, was man damit alles schleifen kann. Antwort: Alles™!
+Es wird über den Lagerort diskutiert.
+Abstimmung, ob wir das Gerät kaufen wollen:
+* Dafür: Alle-2
+* Dagegen: 0
+* Enthaltung: ~(Alle-2)
+(Alle = Mehr als 2)
+== Pickset ==
+''von else''
+hamma schon. Schlösser auch. Liegt alles in der Kiste „Schlösser“. Funktioniert übrigens, wir haben gerade die Pizza mit Geld aus der mit dem Pickset geöffneten Kasse bezahlt.
+=== Bauteile ===
+''von else''
+else möchte Elektrobauteile vorhalten, um nicht ständig bei Reichelt bestellen zu müssen. Insbesondere CPUs. Der Verein sollte ein Grundset an Bauteile vorhalten.
+Konsens: Wir wollen über ein 500€ Budget abstimmen.
+Abstimmung: Wollen wir 500€ für ein noch zu erstellendes Grundset budgetieren?
+* Dafür: Alle-1
+* Dagen: 0
+* Enthaltung: 1
+==Werkbank für Werkstatt==
+''von Dafo und Alexander''
+Dafo, Alex und Docsteel ist ein Licht aufgegangen. Es gibt in der Werkstatt keine Werkbank. Das wollen sie ändern. Und zwar aus hochwertigem Material! 500€ würde eine einfache Variante kosten.
+Bis zum nächsten Plenum wird eine Kostenübersicht für den Ausbau der Werkstatt aufgestellt.
+==Größere Investitionen  ==
+''von Dafo''
+Geldtransaktionen sollten nachvollziehbar sein, dass wir im Problemfall mehr Möglichkeiten bekommen unsere Mittel zurückzubekommen. Vor allem bei größeren Bestellungen bitte vorher schauen, was am sichersten ist.
+==Stativ für USB-Mikroskop==
+''von Dafo''
+Abstimmung, ob das Stativ für 56€ gekauft wird:
+*Dafür: Alle-2
+*Enthaltungen: 2
+*Dagegen: 0
+==Verantwortung bei Projekten==
+''von Alexander, Dafo und docsteel''
+Es geht um größere Projekte, bei denen größere Finanzmittel des RZL und KnowHow von einzelnen Laboranten einfliessen.
+Es sollten mindestens 2 Laboranten mit ausreichendem (gleichem) Wissenstand des Projektes vorhanden sein. Mindestanspruch sollte eine ausreichende Dokumention in Code und Wiki sein, so dass Dritte die Arbeit übernehmen können.
+==Garnsortiment Sulky==
+''von Alexander''
+- Anschaffung ist skipped bis nächstes Plenum
+- Alex stellt das Ganze kurz vor und erläutert die Probleme mit dem akutellen Garn-Set
+- Cheatha fragt eine alternative Quelle für Beschaffung an
+Ideen:
+- Rarity verkaufen, sobald die neue Stickmaschine da ist (könnte so 300-400€ bringen)
+- Madeira Garne verkaufen sobald die neuen angeschafft wären (nochmal so 200-300€)
+==Budgetverwendung==
+''von else''
+lange Diskussion
+==Weltherrschaft==
+''von Pinky und Brain''
+Wird weiter im Geheimen dran gearbeitet.
+Plenum Ende um 19:27
+
+
+[[Kategorie:Plenum]] [[Kategorie:Protokoll]]
