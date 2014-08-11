@@ -16,7 +16,7 @@ html, body, #mw-panel div, #mw-head *, #content, #footer { background-image: non
 
 a {
   color: #FCFFFF !important;
-  border: 0ex dotted #1B5DA7 !important;
+  border: 0ex dotted #FCFFFF !important;
 }
 
 #content a { border-bottom-width: 0.5ex !important; }
