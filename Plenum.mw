@@ -22,6 +22,44 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 
 == aktuelle Themen ==
 
+=== Stuhlkissen/Stühle ===
+Ich habe mir die IKEA Stuhlkissen für zu Hause gekauft und eines hier im RZL ausprobiert. Die sind für die Sitzfläche zu klein und zu hoch.
+Also entweder besorgen wir andere Sitzkissen oder wir überlegen uns andere Alternativen.
+Vom Stuhl Typ2 (die im Nebenraum) haben wir 18 Stück. An die große Tafel im Hauptraum passen bei kleinster Auslastung 14 Stühle.
+Wir könnten also die Typ1 aus dem Hauptraum in Workshop, FabLab und Werkstatt nutzen und den Rest gestapelt vorhalten.
+
+=== Werkstattwagen === 
+Ich würde gerne für die Werkstatt einen Werkstattwagen kaufen. Auf der ML wurde schon diskutiert, ob die Werkzeuge von Mannesmann so brauchbar sind oder nicht, ich habe noch eine alternative im gleichen Preissegment gefunden.
+Das sind sicher alles keine Profiwerkzeuge, mir geht es auch erstmal mehr um Masse statt Klasse. Wir benötigen sicher nicht von allem ein Profitool.
+
+* Alternativvorschlag1: http://www.amazon.de/Mannesmann-M28270-Werkstattwagen-best%C3%BCckt-Werkzeugen/dp/B000K2LLP6/ref=sr_1_1?ie=UTF8&qid=1407777258&sr=8-1&keywords=werkstattwagen+komplett
+* Alternativvorschlag2: http://www.amazon.de/Vigor-V2379-Werkstattwagen-Schubladen-2K-Weichschaum-Einlagen/dp/B006VD7STQ/ref=pd_sim_sbs_diy_13?ie=UTF8&refRID=007PXHEW4E1SDZPSTP0S
+* Alternativvorschlag3: http://www.amazon.de/Werkstattwagen-1121Teile-7Schubladen-Werkzeugwagen-Rollwagen/dp/B0088ALR8S/ref=pd_sim_sbs_diy_3?ie=UTF8&refRID=007PXHEW4E1SDZPSTP0S
+
+=== Switch Nebenraum ===
+Ich würde hier einen ES-24-500W von Ubiquiti networks vorschalgen.
+Das Ding hat 24 Ports, was mit der Größe des verbauten patchpanels im Nebenraum übereinstimmt, hat POE und kann bis zu 500W über das POE verteilen.
+Alternativ ginge imho auch der eins kleinere ES-24-250W der "nur" 250W über POE kann, aber sonst baugleich ist.
+
+==> der kleine kostet wohl 399$ (minus Rabatt über Docsteel) ==> ca 300€
+
+=== CNC Fräse ===
+Mir ist der Status von Tiefpunkts Fräse nicht bekannt und er meinte auch mal, dass man damit nicht allzu hartes Zeug fräsen können wird, unter anderem, weil die Z-Achse und der Motor schwach sind und nur ein Dremel verbaut ist.
+Deshalb würde ich gerne einen CNC Bausatz kaufen, der da etwas besser aufgestellt ist und vollständig open source und open hardware ist.
+Da bietet sich die Shapeoko2 an.
+Um auch gleich der Z-Achse ausreichend "bumms" (Fachausdruck) zu verleihen würde ich gleich noch das Upgrade-Kit dazubestellen.
+
+* Info: http://www.shapeoko.com/
+* Fräse: http://shop.shapeoko.com/collections/frontpage/products/shapeoko-2 (das International Full Kit kostet 699$)
+* Upgrade: http://shop.shapeoko.com/collections/frontpage/products/shapeoko-2-acme-upgrade-1
+(nochmal 65$)
+
+==> ca 650-700€
+
+Wenn man damit dann mal erfahrung gesammelt hat, kann man auch darüber nachdenken, einen "fetteren Dremel" dazuzukaufen oder aber eine "echte Spindel" d.h. eine mit synamischer Drehzahl, anbauen.
+
+Das Ding kann auch Aluminuim fräsen: https://www.youtube.com/watch?v=Jm6ZZP0Z5wk
+
 === Weltherrschaft ===
 Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
 
