@@ -23,12 +23,18 @@ Diese Sektion bezeichnet Themen für das nächste Plenum. Bitte Themen eintragen
 == aktuelle Themen ==
 
 === Stuhlkissen/Stühle ===
+
+von Fabian
+
 Ich habe mir die IKEA Stuhlkissen für zu Hause gekauft und eines hier im RZL ausprobiert. Die sind für die Sitzfläche zu klein und zu hoch.
 Also entweder besorgen wir andere Sitzkissen oder wir überlegen uns andere Alternativen.
 Vom Stuhl Typ2 (die im Nebenraum) haben wir 18 Stück. An die große Tafel im Hauptraum passen bei kleinster Auslastung 14 Stühle.
 Wir könnten also die Typ1 aus dem Hauptraum in Workshop, FabLab und Werkstatt nutzen und den Rest gestapelt vorhalten.
 
 === Werkstattwagen === 
+
+von Fabian
+
 Ich würde gerne für die Werkstatt einen Werkstattwagen kaufen. Auf der ML wurde schon diskutiert, ob die Werkzeuge von Mannesmann so brauchbar sind oder nicht, ich habe noch eine alternative im gleichen Preissegment gefunden.
 Das sind sicher alles keine Profiwerkzeuge, mir geht es auch erstmal mehr um Masse statt Klasse. Wir benötigen sicher nicht von allem ein Profitool.
 
@@ -37,6 +43,9 @@ Das sind sicher alles keine Profiwerkzeuge, mir geht es auch erstmal mehr um Mas
 * Alternativvorschlag3: http://www.amazon.de/Werkstattwagen-1121Teile-7Schubladen-Werkzeugwagen-Rollwagen/dp/B0088ALR8S/ref=pd_sim_sbs_diy_3?ie=UTF8&refRID=007PXHEW4E1SDZPSTP0S&tag=raumzeitlabor-21
 
 === Switch Nebenraum ===
+
+von Fabian
+
 Ich würde hier einen ES-24-500W von Ubiquiti networks vorschalgen.
 Das Ding hat 24 Ports, was mit der Größe des verbauten patchpanels im Nebenraum übereinstimmt, hat POE und kann bis zu 500W über das POE verteilen.
 Alternativ ginge imho auch der eins kleinere ES-24-250W der "nur" 250W über POE kann, aber sonst baugleich ist.
@@ -44,6 +53,9 @@ Alternativ ginge imho auch der eins kleinere ES-24-250W der "nur" 250W über POE
 ==> der kleine kostet wohl 399$ (minus Rabatt über Docsteel) ==> ca 300€
 
 === CNC Fräse ===
+
+von Fabian
+
 Mir ist der Status von Tiefpunkts Fräse nicht bekannt und er meinte auch mal, dass man damit nicht allzu hartes Zeug fräsen können wird, unter anderem, weil die Z-Achse und der Motor schwach sind und nur ein Dremel verbaut ist.
 Deshalb würde ich gerne einen CNC Bausatz kaufen, der da etwas besser aufgestellt ist und vollständig open source und open hardware ist.
 Da bietet sich die Shapeoko2 an.
@@ -56,9 +68,23 @@ Um auch gleich der Z-Achse ausreichend "bumms" (Fachausdruck) zu verleihen würd
 
 ==> ca 650-700€
 
-Wenn man damit dann mal erfahrung gesammelt hat, kann man auch darüber nachdenken, einen "fetteren Dremel" dazuzukaufen oder aber eine "echte Spindel" d.h. eine mit synamischer Drehzahl, anbauen.
+Wenn man damit dann mal Erfahrung gesammelt hat, kann man auch darüber nachdenken, einen "fetteren Dremel" dazuzukaufen oder aber eine "echte Spindel" d.h. eine mit dynamischer Drehzahl, anbauen.
 
 Das Ding kann auch Aluminuim fräsen: https://www.youtube.com/watch?v=Jm6ZZP0Z5wk
+
+
+=== Garnsortiment Sulky ===
+
+Wir haben im Moment ein Sortiment Madeira Rayon No. 40 (Viskose). Es sind 120 Farben auf 1km Spulen. Ich habe regelmäßig das Problem, dass das Garn reißt bzw. bei Sprüngen nicht richtig abgeschnitten wird, dass das Garn hakt wenn es ziemlich leer ist und dass die Farbauswahl zu grob gestuft ist, wenn ich verschiedene Abstufungen einer Farbe brauche.
+
+Es gibt von Madeira zwar mehr als 120 Farben, aber nur auf 5km-Spulen, die ~10€ pro Spule kosten. Alternativ gibt es von Gunold [http://www.gunold.de/Produkte/Obergarne/103 Sulky 40], davon gibt es 335 Farben in 1km-Konen. Ich habe davon 19 Farben für insgesamt ~50€ aus dem Krautfanding für Stickzubehör gekauft und mit zwei verschiedenen Motiven (42k und 24k Stiche) getestet. Alle Sprungstiche wurden sauber abgeschnitten und auf die Unterseite gezogen, das Garn ist kein einziges mal gerissen, außerdem haken die Konen nicht beim Abspulen.
+
+Ich würde gerne einmal das gesamte Farbsortiment bestellen, Kostenpunkt: 761,82€ (2,27€/Spule) incl. Holzständer ähnlich dem Folienlager. Das ist pro Farbe günstiger als die Madeira-Garnbox, außerdem sind einzelne Sulky-Konen günstiger als einzelne Madeira-Spulen (2,66€ vs. 5,10€).
+
+Die inzwischen gelieferte große Stickmaschine funktioniert ebenfalls besser mit Konen als mit Spulen.
+
+--[[Benutzer:Alexander Brock|Alexander Brock]] ([[Benutzer Diskussion:Alexander Brock|Diskussion]]) 15:25, 14. Aug. 2014 (CEST)
+
 
 === Weltherrschaft ===
 Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
