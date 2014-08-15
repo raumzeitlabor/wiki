@@ -93,6 +93,10 @@ xscreensaver und lxpanel entfernen. Folgende Zeilen ergänzen:
   @chromium --user-data-dir=/tmp --kiosk cosm.tiefpunkt.com/infoscreen/
   @xmodmap -e "pointer = 1 10 9 8 7 6 5 4 3 2"
 
+=== Entferne Desktop-Icons ===
+Die Desktop-Icons stören nur, man hat ja keine Maus um sie wegzuklicken. Weg damit:
+
+  rm ~pi/Desktop/*.desktop
 
 [[Kategorie:Projekt]]
 [[Kategorie:Hardware]]
