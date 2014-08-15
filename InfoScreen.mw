@@ -149,6 +149,16 @@ Nun machen wir die Datei ausführbar und nehmen sie in den Startprozess mit auf:
 
 (Anleitung via [http://www.recantha.co.uk/blog/?p=799]. Danke!)
 
+=== Ändern des Desktophintergrunds ===
+Nachdem wir so ein tolles Bootlogo haben und auch alle Desktopicons versteckt sind, können wir auch den Desktophintergrund auf unser Bootlogo ändern. In der Datei 
+  ~pi/.config/pcmanfm/LXDE/pcmanfm.conf
+gibt es folgenden Wert:
+  wallpaper=/etc/alternatives/desktop-background
+
+Dies ersetzen wir durch
+  wallpaper=/etc/splash.png
+
+Fertig. Nun wird beim Bootvorgang ausschließlich das RZL-Logo zu sehen sein!
 
 [[Kategorie:Projekt]]
 [[Kategorie:Hardware]]
