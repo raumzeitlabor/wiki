@@ -169,7 +169,10 @@ Fertig. Nun wird beim Bootvorgang ausschließlich das RZL-Logo zu sehen sein!
 
 === Automatischer Update-check ===
 
-Wenn wir am InfoScreen entwickeln, wollen wir ihn nicht dauernd neu starten um eventuelle Änderungen zu sehen. Harte Reboots (abziehen der Stromversorgung im laufenden Betrieb) können zudem das Dateisystem beschädigen. Also wollen wir minütlich prüfen, ob neue Änderungen auf Github bereitstehen und in diesem Fall das Repository pullen sowie den Browsertab neustarten. Das alles machen die beiden Scripte check.sh und refresh.sh. Ersteres ruft Letzteres im Falle von Änderungen auf um den Browsertab neuzuladen.  Während man entwickelt sind kürzere Prüfzeiten von zB nur einer Minute zu emfehlen. Dafür ergänzt man in der crontab des Nutzers root eine Zeile. Wir öffnen zuerst den Crontab von root:
+Wenn wir am InfoScreen entwickeln, wollen wir ihn nicht dauernd neu starten um eventuelle Änderungen zu sehen. Harte Reboots (abziehen der Stromversorgung im laufenden Betrieb) können zudem das Dateisystem beschädigen. Also wollen wir minütlich prüfen, ob neue Änderungen auf Github bereitstehen und in diesem Fall das Repository pullen sowie den Browsertab neustarten. Das alles machen die beiden Scripte check.sh und refresh.sh. Ersteres ruft Letzteres im Falle von Änderungen auf um den Browsertab neuzuladen.  Während man entwickelt sind kürzere Prüfzeiten von zB nur einer Minute zu emfehlen. Dafür ergänzt man in der crontab des Nutzers root eine Zeile. Wir installieren zuerst das xdotool, mit dem wir den Browser zum aktualisieren der Seite bringen:
+  apt-get install xdotool
+
+Dann öffnen wir den Crontab von root:
 
   sudo crontab -e
 
