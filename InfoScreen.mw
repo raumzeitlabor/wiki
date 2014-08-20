@@ -74,7 +74,7 @@ Folgende Zeilen ausführen:
 
 
 === Update Repository bei Restart ===
-  sudo /etc/local.rc
+  sudo nano /etc/local.rc
 
 Folgende Zeile am Ende einfügen:
 
