@@ -108,7 +108,7 @@ Die Desktop-Icons stören nur, man hat ja keine Maus um sie wegzuklicken. Weg da
 === Ändern des Boot-Screens ===
 Wenn der InfoScreen startet, soll ein hübsches Bild angezeigt werden, welches unter /etc/splash.png liegt. Die aktuelle Version habe ich [https://wiki.raumzeitlabor.de/wiki/Datei:Splash.png hier verlinkt]. Dafür installierien wir uns zuerst fbi:
 
-  apt-get install fbi
+  sudo apt-get install fbi
 
 Dann erstellen wir die Datei /etc/init.d/asplashscreen mit folgendem Inhalt:
 
@@ -151,8 +151,8 @@ Dann erstellen wir die Datei /etc/init.d/asplashscreen mit folgendem Inhalt:
   esac
 
 Nun machen wir die Datei ausführbar und nehmen sie in den Startprozess mit auf:
-  chmod a+x /etc/init.d/asplashscreen
-  insserv /etc/init.d/asplashscreen
+  sudo chmod a+x /etc/init.d/asplashscreen
+  sudo insserv /etc/init.d/asplashscreen
 
 (Anleitung via [http://www.recantha.co.uk/blog/?p=799]. Danke!)
 
