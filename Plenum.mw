@@ -95,6 +95,12 @@ von [[Benutzer:Felicitus]]
 
 Desöfteren möchte man feststellen, wo es warm ist und wo kalt. Typische Szenarien: Hitze entweicht irgendwo (Fensterisolation), eine Schaltung wird zu warm und man möchte feststellen, wo der ganze Strom läuft etc. Bisher waren Wärmebildkameras unglaublich teuer. Es gibt im Moment einen Kickstarter, bei dem man für 250$ eine Wärmebildkamera bekommt: https://www.kickstarter.com/projects/1075169276/hemaimager-accessible-thermal-imaging-for-smart-de?ref=ksr_staff
 
+=== Signalgenerator ===
+
+von [[Benutzer:Felicitus]]
+
+wir haben derzeit keinen Signalgenerator im RZL. Ich schlage daher den Kauf des Signalgenerators Siglent SDG1020 vor, Kostenpunkt 269€. Review [https://www.youtube.com/watch?v=JTf7ac670O8 hier], Kaufoption [http://www.ebay.de/itm/Siglent-SDG1020-Signal-Generator-Function-Arbitrary-Waveform-Generator-20MHz-/261556340984?pt=Mess_Pr%C3%BCftechnik&hash=item3ce5f908f8 hier]. Kann bis 20MHz, Sinus, Square, Puls, Ramp, Noise sowie Arbitrary Waveforms, AM, FM und weitere. Hat auch noch gleich einen Frequenzzähler eingebaut. 
+
 === Weltherrschaft ===
 Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
 
