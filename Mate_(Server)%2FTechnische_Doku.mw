@@ -94,6 +94,8 @@ Schließlich über bconsole, danach run den entsprechende Job auswählen und tes
 
 == Bacula restores ==
 
+'''Achtung: Die Anleitung ist nicht optimal. Idealerweise bootet man ein Recovery Image, damit man keine neue VM aufsetzen muß, sondern diese direkt Recovern kann.'''
+
 Um eine komplette VM wiederherzustellen ohne vorhandenes Disk-Image:
 
 * Alte VM-Konfiguration sichern! (wegen allen Einstellungen/MAC-Adresse etc)
