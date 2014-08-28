@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = Rarity
 |status      = beta
-|image       = Erstes muster.jpg
+|image       = Rarity.jpg
 |description = Eine awesome Textilveredelungsmöglichkeit
 |author      = Inte, Unicorn
 |location    = [[Fablab]]
@@ -14,22 +14,48 @@
 |download    = 
 }}
 
-Wir haben eine Stickmaschine des Typs Brother Inno-vis 90E. Bei einem Besuch im [http://shackspace.de shackspace] wurde sie '''Rarity''' getauft. Für Mitglieder kosten 1000 Stiche 20 Cent.
+Wir haben eine Stickmaschine des Typs SH-15TS-FEIYA. Sie wurde '''Rarity''' getauft, da wir über 4 Monate hinweg nur sehr selten Antworten auf die Frage bekommen haben, wann die bereits bezahlte Maschine bei uns eintrifft. Für Mitglieder kosten 1000 Stiche 20 Cent.
 
 == Historie ==
 
-Es gab die Idee bestickte Textilien mit dem RaumZeitLogo zu bestellen. Nachdem wir herausfanden, was die Bestickung von Textilien kostet, haben [[Benutzer:Inte | Inte]] und [[Benutzer:Unicorn | Unicorn]] beschlossen eine Stickmaschine zu kaufen und selbst zu sticken.
+Es gab die Idee bestickte Textilien mit dem RaumZeitLogo zu bestellen. Nachdem wir herausfanden, was die Bestickung von Textilien kostet, haben [[Benutzer:Inte | Inte]] und [[Benutzer:Unicorn | Unicorn]] beschlossen eine kleine Stickmaschine zu kaufen und selbst zu sticken.
+
+Die Wahl fiel damals auf eine Brother inno-vis 90E mit USB-Anschluss (Wechseldatenträger). Diese Maschine wird demnächst verkauft.
 
 == Technische Details ==
 
-Die Wahl fiel auf eine Brother inno-vis 90E mit USB-Anschluss (Wechseldatenträger). Zur Benutzung muss man einfach nur Stickdatein auf der Maschine ablegen (*.pes, *.dst). '''Man kann nicht einfach Bilder auf die Maschine laden und sticken!'''
+Zur Benutzung muss man einfach nur Stickdatein auf einem USB-Stick ablegen (*.dst), den in die Maschine stecken und das Motiv in den internen Speicher der Maschine laden. '''Man kann nicht einfach Bilder auf die Maschine laden und sticken!'''
 
 == Hardware ==
 
-[[Datei:Embroidery-hoop.jpg|border|thumb|Rahmen  (links oben) in der Maschine]]
-Für die Maschine liegen vier Rahmen in drei verschiedenen Größen vor. Zwei 10×10 cm Rahmen, ein 17×10 cm Rahmen und ein 4×4 cm Rahmen.
+Für die Maschine liegen 13 Rahmen in 7 verschiedenenen Typen vor:
 
-Der 4×4 cm Rahmen eignet sich besonders für Stellen, an welchen keine ausreichend große Fläche Textil eingespannt werden kann (z.B. Hemdkragen). Beim 17×10 cm Rahmen ist zu beachten, dass es 3 verschiedene Steckpositionen gibt. Die Maschine markiert auf dem Vorschaubild, auf welche Position sie gesteckt werden muss.
+{| class="wikitable td-top"
+!Anzahl
+!Typ
+|-
+|2
+|Rundrahmen 9cm
+|-
+|2
+|Rundrahmen 12cm
+|-
+|2
+|Rundrahmen 15cm
+|-
+|2
+|Rundrahmen 23cm
+|-
+|2
+|Quadratischer Rahmen 30cm x 30cm
+|-
+|1
+|Riesenrahmen 56cm x 38cm
+|-
+|2
+|Kappenrahmen
+|-
+|}
 
 == Software ==
 
@@ -124,13 +150,8 @@ So schaut das Muster später auf dem Laborkittel aus.
 Da die Maschine recht kostenintensiv war und durch Fehlbedienung recht schnell in einen nicht mehr sehr wertvollen Zustand verwandelt werden kann, ist die Benutzung erst nach Einweisung möglich.
 
 Folgende Benutzer können die Maschine benutzen und können auch eine Einführung für neue Nutzer geben:
-* [[Benutzer:Inte | Inte]]
-* [[Benutzer:Cosima | Cosima]]
-* [[Benutzer:Unicorn | Unicorn]]
-* [[Benutzer:bluegene | bluegene]]
-* [[Benutzer:thinkJD|thinkJD]]
-* [[Benutzer:Blabber|blabber]]
-* [[Benutzer:Dashie|dashie]]
+* [[Benutzer:Alexander Brock|Alexander]]
+* [[Benutzer:jiska|jiska]]
 
 == Galerie ==
 
@@ -144,8 +165,10 @@ Folgende Benutzer können die Maschine benutzen und können auch eine Einführun
 |}
 
 == Garnbestand ==
- [[Rarity/Garnbestand]]
-Der Garn- und Zubehörstand kann mit kompetentem Service und großer Auswahl beim Mannheimer NähCenter[http://www.senci-kurzwaren.de] in P7, 2-3 aufgestockt werden.
+
+Siehe [[Stickzubehör]]
+
+
 [[Category:Activities]]
 [[Category:Textiles]]
 [[Kategorie:Projekt]]
