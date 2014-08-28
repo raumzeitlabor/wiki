@@ -164,27 +164,6 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 | Wie funktioniert das mit dem Lötzinn und Lötkolben
 | [[Benutzer:DreamFlasher|DreamFlasher]], [[Benutzer:hax404|hax404]], [[Benutzer:Cheatha|Cheatha]]
 |-
-| 2012-08-16
-| 
-| Kryptographie (Vortragsreihe)
-| [[Benutzer:TheTinyToon|Lars Kumbier]]
-| Eine Übersicht über Kryptographie und wie sie geknackt wurde - vom Caesar-Chiffre bis zur Quantenkryptographie. Wird eine Vortragsreihe mit anschaulichen Beispielen. 
-| [[Benutzer:hax404|hax404]], [[Benutzer:Cheatha|Cheatha]] , [[Benutzer:nazco|nazco]]
-|-
-| 2012-08-17
-| 
-| Hochverfügbarkeitssysteme unter Linux
-| [[Benutzer:TheTinyToon|Lars Kumbier]]
-| Linux eignet sich hervorragend zum Aufsetzen von Hochverfügbarkeitssystemen. Im Talk schauen wir uns die Theorie dahinter an, wie man SPOFs vermeidet und welche Software Linux dazu bereithält.
-| [[Benutzer:hax404|hax404]], [[Benutzer:nazco|nazco]]
-|-
-| 2012-09-21
-| 
-| Wegwerfserver mit Vagrant
-| [[Benutzer:TheTinyToon|Lars Kumbier]]
-| [http://www.vagrantup.com Vagrant] ist ein Set aus Scripten, das über Virtualbox und Puppet/Chef nach Rezepten lokale Server erstellt. Damit entfallen händisch erstellte virtuelle Entwicklungsmaschinen und auch Jahre nach einem Projekt hat man im Nu die Entwicklungsumgebung wiederhergestellt (beispielsweise bei einem Folgeprojekt). Vagrant untersützt auch das dynamische Erstellen kompletter Servernetzwerke.
-| [[Benutzer:Cheatha|Cheatha]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:hax404|hax404]], [[Benutzer:nazco|nazco]], [[Benutzer:Overdrive|overdrive]]
-|-
 | 2012-09-25
 | 
 | Fotografiekurs
