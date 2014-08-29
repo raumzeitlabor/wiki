@@ -125,6 +125,7 @@ Messages {
 * Bacula-fd auf dem Client neu starten
 * Restore mittels folgendem Snippet starten: <pre>restore where=/ client=<name, z.b. infra.rzl> replace=always all</pre> Danach die Option "5" drücken und entsprechenden Client auswählen. Beim folgenden Prompt einfach "done" eintippen und den Job starten
 * grub2-config neu generieren, da sich die UUIDs geändert haben. update-grub2 unter Debian
+* in /etc/fstab die neuen UUIDs eintragen
 * VM runterfahren
 * Alte VM-config umkopieren
 * VM starten
