@@ -57,80 +57,20 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 750 MB
 | 10 GB
 |-
-| [[Mate (Server)/blabber.vm.rzl]]
-| 128 MB
-| 10 GB
-|-
-| [[Mate (Server)/cashdesk.rzl]]
-| 512 MB
-| 20 GB
-|-
-| [[Mate (Server)/datengrab.rzl]]
-| 512 MB
-| 2910 GB
-|-
-| [[Mate (Server)/db.rzl]]
-| 512 MB
-| 30 GB
-|-
-| [[Mate (Server)/evilsadnes.vm.rzl]]
-| 256 MB
-| 20 GB
-|-
-| [[Mate (Server)/freeswitch.vm.rzl]]
-| 256 MB
-| 20 GB
-|-
-| [[Mate (Server)/icinga.vm.rzl]]
-| 256 MB
-| 20 GB
-|-
 | [[Mate (Server)/infra.rzl]]
 | 1024 MB
-| 30 GB
-|-
-| [[Mate (Server)/lutoma.vm.rzl]]
-| 256 MB
-| 20 GB
-|-
-| [[Mate (Server)/monitoring.rzl]]
-| 750 MB
 | 40 GB
 |-
-| [[Mate (Server)/partkeepr.rzl]]
-| 512 MB
-| 30 GB
-|-
-| [[Mate (Server)/qrgo.vm.rzl]]
-| 256 MB
-| 10 GB
-|-
-| [[Mate (Server)/rami.vm.rzl]]
-| 256 MB
-| 20 GB
-|-
-| [[Mate (Server)/slowpoke.vm.rzl]]
-| 128 MB
-| 8 GB
-|-
-| [[Mate (Server)/tiefpunkt.vm.rzl]]
-| 256 MB
-| 10 GB
-|-
 | [[Mate (Server)/unifi.vm.rzl]]
-| 750 MB
+| 1024 MB
 | 20 GB
-|-
-| [[Mate (Server)/yate.vm.rzl]]
-| 512 MB
-| 15 GB
 |-
 | '''Gesamt'''
-| '''8882 MB / 12001 MB (74.01% belegt)'''
-| '''3.2 TB / 5.3 TB (60.61% belegt)'''
+| '''3798 MB / 12001 MB (31.65% belegt)'''
+| '''0.1 TB / 5.3 TB (1.85% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2014-08-03 22:40:31
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2014-08-30 00:00:01
 
 == Unterseiten ==
 <splist />
