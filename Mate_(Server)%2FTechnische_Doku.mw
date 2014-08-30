@@ -41,8 +41,9 @@ Die Default-Linux-Einstellungen (bzw die von Debian) sind etwas ungünstig für 
 === In der Config für die VM ===
 * Das '''Platten-Image''' muß '''raw''' und '''pre-allokiert''' sein. qcow2 und dynamische Allokierung ist wirklich langsam.
 * Der Modus des Festplatten-Controllers muß '''virtio''' sein (Achtung: Die Platten in den VMs sind dann '''vda, vdb etc''' anstatt '''sda, sdb etc''')
-* Das '''Plattenimage''' muß den '''Cache-Modus''' auf '''none''' gesetzt haben ('''<driver name='qemu' type='raw' cache='none'/>''')
+* Das '''Plattenimage''' muß den '''Cache-Modus''' auf '''writeback''' gesetzt haben ('''<driver name='qemu' type='raw' cache='writeback'/>''')
 * Der Typ des '''Netzwerkinterfaces''' muß '''virtio''' sein ('''<model type='virtio'/>''')
+
 === In der VM selbst ===
 * '''Default-Scheduler von cfq auf noop''' (Kernel-Parameter elevator=noop <ref name="KER-PAR-01">[http://www.mjmwired.net/kernel/Documentation/kernel-parameters.txt#796 Dokumentation zum Kernel-Parameter elevator] </ref> in '''/etc/default/grub''' setzen, danach '''update-grub2''' ausführen)
 * '''Tickless Kernel aktivieren''' (Kernel-Parameter nohz=on <ref name="KER-PAR-02">[http://www.mjmwired.net/kernel/Documentation/kernel-parameters.txt#1855 Dokumentation zum Kernel-Parameter nohz] </ref> in '''/etc/default/grub''' setzen, danach '''update-grub2''' ausführen)
