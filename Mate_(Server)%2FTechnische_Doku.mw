@@ -19,7 +19,7 @@ Dann Netzinstallation starten:
 
 <pre>
 virt-install --connect qemu:///system --name=$VMNAME --ram=$VMMEM --vcpus=1 \
---disk path=/srv/vm/$VMNAME.img,format=raw,cache=none,bus=virtio --os-type $VMOSTYPE \
+--disk path=/srv/vm/$VMNAME.img,format=raw,cache=writeback,bus=virtio --os-type $VMOSTYPE \
 --os-variant $VMOSVARIANT  --network=bridge=br0,model=virtio --nographics \
 --location $VMINSTALLER \
 --extra-args="console=tty0 console=ttyS0,115200n8" -v
