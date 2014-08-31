@@ -6,7 +6,7 @@ Derzeitiger Türschlossöffnerstatus ist mehr als unbefriedigend. Derzeitiger St
 
 Bei unseren derzeitigen Hometecs ist fast alles an Hardware, was da drin war, ausgebaut worden. Die Ansteuerung ist daher ein wenig komplizierter und erfordert einen entsprechenden Controller.
 
-Im Backspace wurde stattdessen einfach ein fertiges Hometec genommen, und einen Pin an die Taster zum auf- und zuschließen angeklemmt. Vorteil davon ist, dass kaum Modifikationen am Hometec gemacht werden müssen, und die Ansteuerung mehr oder weniger entfällt. Es muss nur noch ein Pin geschaltet werden. Die restliche Hardware ist auch einfach austauschbar, da Standard.
+Im Backspace wurde stattdessen einfach ein fertiges Hometec genommen, und einen Pin an die Taster zum auf- und zuschließen angeklemmt. Vorteil davon ist, dass kaum Modifikationen am Hometec gemacht werden müssen, und die Ansteuerung mehr oder weniger entfällt. Es muss nur noch ein Pin geschaltet werden. Die restliche Hardware ist auch einfach austauschbar, da Standard. Der Backspace hat das übrigens auch alles [https://www.hackerspace-bamberg.de/Spaceportal vorbildlich] dokumentiert.
 
 Folgende Hardware ist hierfür notwendig:
 
