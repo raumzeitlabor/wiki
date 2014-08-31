@@ -1,0 +1,26 @@
+Derzeitiger Türschlossöffnerstatus ist mehr als unbefriedigend. Derzeitiger Stand vom Neubau ist leider unbekannt. Hier ein Vorschlag für eine funktionierende Türsteuerung, die sich in anderen Spaces bewährt hat.
+
+'''[[Diskussion:Staging/Türschloss|Kommentare]] erwünscht'''
+
+=== Hardware ===
+
+Bei unseren derzeitigen Hometecs ist fast alles an Hardware, was da drin war, ausgebaut worden. Die Ansteuerung ist daher ein wenig komplizierter und erfordert einen entsprechenden Controller.
+
+Im Backspace wurde stattdessen einfach ein fertiges Hometec genommen, und ein Relais an die Taster zum auf- und zuschließen angeklemmt. Vorteil davon ist, dass kaum Modifikationen am Hometec gemacht werden müssen, und die Ansteuerung mehr oder weniger entfällt. Es muss nur noch ein Relais geschaltet werden. Die restliche Hardware ist auch einfach austauschbar, da Standard.
+
+Folgende Hardware ist hierfür notwendig:
+
+* Raspberry Pi + SD Karte
+* [http://www.exp-tech.de/Shields/PiFace-Digital-Raspberry-Pi-Extension-Board.html PiFace Relais Board] für RPi oder USB-Relais Board
+* ABUS HomeTec CFA 1000 Comfort, alternativ ELV Keymatic
+* ein ordentliches Pinpad
+
+Nachteil ist natürlich die neuerliche Anschaffung eines Hometecs. Allerdings denke ich, dass die Situation nun schon zu lange Zeit so ist, wie sie derzeit ist.
+
+Kostenpunkt: ca. 200-250€
+
+Aufwand: gering
+
+=== Software ===
+
+Die Software würde über die bisherige Schnittstelle der Datenbank den Pinabgleich machen und nur noch das Relais schalten.
