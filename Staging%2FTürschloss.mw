@@ -11,7 +11,7 @@ Im Backspace wurde stattdessen einfach ein fertiges Hometec genommen, und einen 
 Folgende Hardware ist hierfür notwendig:
 
 * Raspberry Pi + SD Karte
-* <strike> [http://www.exp-tech.de/Shields/PiFace-Digital-Raspberry-Pi-Extension-Board.html PiFace Relais Board] für RPi oder USB-Relais Board</strike> nicht notwendig
+* <strike> [http://www.exp-tech.de/Shields/PiFace-Digital-Raspberry-Pi-Extension-Board.html PiFace Relais Board] für RPi oder USB-Relais Board</strike> nicht notwendig, da 3.3V Pegel
 * ABUS HomeTec CFA 1000 Comfort, alternativ ELV Keymatic
 * ein ordentliches Pinpad
 
