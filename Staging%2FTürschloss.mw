@@ -6,12 +6,12 @@ Derzeitiger Türschlossöffnerstatus ist mehr als unbefriedigend. Derzeitiger St
 
 Bei unseren derzeitigen Hometecs ist fast alles an Hardware, was da drin war, ausgebaut worden. Die Ansteuerung ist daher ein wenig komplizierter und erfordert einen entsprechenden Controller.
 
-Im Backspace wurde stattdessen einfach ein fertiges Hometec genommen, und ein Relais an die Taster zum auf- und zuschließen angeklemmt. Vorteil davon ist, dass kaum Modifikationen am Hometec gemacht werden müssen, und die Ansteuerung mehr oder weniger entfällt. Es muss nur noch ein Relais geschaltet werden. Die restliche Hardware ist auch einfach austauschbar, da Standard.
+Im Backspace wurde stattdessen einfach ein fertiges Hometec genommen, und einen Pin an die Taster zum auf- und zuschließen angeklemmt. Vorteil davon ist, dass kaum Modifikationen am Hometec gemacht werden müssen, und die Ansteuerung mehr oder weniger entfällt. Es muss nur noch ein Pin geschaltet werden. Die restliche Hardware ist auch einfach austauschbar, da Standard.
 
 Folgende Hardware ist hierfür notwendig:
 
 * Raspberry Pi + SD Karte
-* [http://www.exp-tech.de/Shields/PiFace-Digital-Raspberry-Pi-Extension-Board.html PiFace Relais Board] für RPi oder USB-Relais Board
+* <strike> [http://www.exp-tech.de/Shields/PiFace-Digital-Raspberry-Pi-Extension-Board.html PiFace Relais Board] für RPi oder USB-Relais Board</strike> nicht notwendig
 * ABUS HomeTec CFA 1000 Comfort, alternativ ELV Keymatic
 * ein ordentliches Pinpad
 
