@@ -222,7 +222,7 @@ von [[Benutzer:Else]]
 
 === USV ===
 
-Bei dem Stromausfall am Freitag sind uns 2 Platten in Mate gestorben. Resultat: Datengrab vermutlich komplett weg und erheblicher Recovery-Aufwand der VMs. Mit einer USV kann das in Zukunft vermieden werden.
+Bei dem Stromausfall am Freitag sind uns 2 Platten in Mate gestorben. Resultat: Datengrab vermutlich komplett weg und erheblicher Recovery-Aufwand der VMs. Es hätte auch genausogut die Platten in dem Backupserver auch treffen können. Mit einer USV kann das in Zukunft vermieden werden, diese schützt auch vor Überspannung.
 
 Kostenpunkt für eine [http://geizhals.at/de/apc-smart-ups-750va-rm-2u-lcd-smt750rmi2u-a633845.html APC 19" USV]: ca. 330€. Folgekosten ca. alle 3 Jahre: Batteriepack für ca. 50€.
 
