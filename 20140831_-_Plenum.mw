@@ -1,15 +1,314 @@
-{{EventInfoBox
-|name        = Plenum
-|status      = stable
-|image       = 
-|description = Neuigkeiten und Diskussionen
-|author      =
-|username    = 
-|rhythm      = monatlich
-|day         = Erster Sonntag im Monat nach dem [[Wipe & Defrag]]
-|time        = 
-|preis       = 
-}}
+Vorgezogenes September-Plenum 2014
+
+Leitung: tabascoeye Protokoll: alle via chaos pad (Anarchie!!1)
+
+Anwesend: viele slowpokes
+Alexander, brainfreeze, Dafo, talynrae, Felicitus, Ingo, naddie, Slowpoke, felicitus, jiska, docsteel, nazco, Tabascoeye
+
+= Protokoll =
+
+== Beschlüsse des letzten Plenums ==
+
+=== Realitätsabgleich ===
+
+==== Froscon ====
+
+Fand wie beschlossen statt. War eher so meh.
+
+Leute noch weirder als sonst. 
+
+Der Laser hat 75 Euro verdient. (vgl. vor zwei Jahren: 750€)
+
+Der Textilbetrieb hat 485€ eingenommen, davon gehen noch Spritkosten ab (~90€).
+
+Wir sind vom Konzept "Aussteller auf der Froscon" nicht mehr so richtig überzeugt.
+
+Nächstes Jahr nochmal stark überlegen.
+
+==== FInanzübersicht ====
+
+Bank will Geld für Konto, aber zu super™ Konditionen. Wir wollen da weg. Mehr ist nicht (bisher) bekannt. Ein Termin soll vereinbart werden, mehr hat sich nicht getan. 
+
+Fabian redet mit Nico nochmal drüber.
+
+Wir haben ~7000€ zum ausgeben.
+ 
+==== Naßschleifmaschine ====
+
+Wurde gekauft und in Betrieb genommen von El Messer-Meister.
+
+==== Bauteile ====
+
+500€ Budget wurden blockiert. Bisher kein Update. Sinnvolle Bauteile sammeln dauert auch seine Zeit…
+
+==== Werkbank für Werkstatt ====
+
+Dafo ist noch etwa 2 Monate außer Gefecht, dauert also noch.
+
+
+
+== Aktuelle Themen ==
+
+=== Stromausfall ===
+
+Stromausfall hat zwei Platten zerlegt. VMs sind recovered (yay NOC!), datengrab ist  komplett weg (ausser es tauchen noch privat-backups auf).
+
+Erneuter Hinweis: das datengrab ist ein GRAB. Nichts darauf ist sicher. Nicht für backups benutzen.
+
+=== Lichtsteuerung ===
+
+Feli hat mit mxf weiter dran gebastelt. Soll jetzt mit einem RasPi integriert werden, der dann mit an der FheM Installation hängen kann über die wir jetzt auch die Funksteckdosen fahren.
+
+
+
+== Themen des letzten Plenums, die verschoben wurden ==
+
+=== Testballon Selbstkosten ===
+
+Das letzte Plenum hat nichts beschlossen.
+
+Status: alles beruht sowieso auf Vertrauensbasis. Wir könnten generell auf Spendenbasis umstellen (so wie bereits bei einigen Geräten üblich, zB Laser).
+
+Jiska: Pay-What-You-Want könnte zu mehr Nutzung der Maschinen führen.
+
+brainfreeze & docsteel: kann man immer noch zurücknehmen, so bis Ende des Jahres.
+
+Anfang des Jahres ist wieder MV. Da ist dann grosse Finanzübersicht (auch wegen Congresseinnahmen), dann sehen wir weiter.
+
+Ist beschlossen. (Konsens)
+
+=== Stuhlkissen/Stühle ===
+
+Typ 2 Stühle aus dem Nebenraum in den Hauptraum
+
+The Great Switcheroo will be done. (Konsens)
+
+=== Schrauben-"Nubsis" auf Tisch nerven ===
+
+(Einwurf von Ingo)
+
+Ingo ersetzt die Schrauben durch flache, da vorerst die Hoffnung, die Tische zu ersetzen gering ist. (Keine Einwände)
+
+=== Werkstattwagen === 
+
+Fabian: "Die Zahl auf dem Infoscreen sagt, dass wir einkaufen können."
+
+brainfreeze: Bei händler kaufen ist eh besser, weil im Zweifel/wenn was kaputt ist jemensch zum direkt beschweren existiert.
+
+Fabian: Budget festlegen, dann weitersehen.
+
+1000€ wird in den Raum gestellt. Das reicht für alles plus extra.
+
+Keine Gegenstimmen. Beschlossen.
+
+Dafo kümmert sich.
+
+=== Switch Nebenraum ===
+
+ES-24-250W von Ubiquiti networks
+
+der kleine kostet wohl 399$ (minus Rabatt über Docsteel) ca 300€
+
+Könnte zu gross für das Rack sein.
+
+Fronttür vom Rack auflassen ist eher doof (staub etc).
+
+docsteel: Switch muss VLAN können (aus guten Gründen, NOC fragen).
+
+ingo bestellt pizza. \o/
+
+jiska: einfach mal grosszügig Budget (reminder: wir haben Geld) festlegen und irgendwas™ kaufen, was passt und unsere Anforderung erfüllt, bevor wir noch ein Plenum warten müssen.
+
+fabian stellt 400-500€ in den Raum.
+
+Feli geht eben das Rack ausmessen. Sollte reinpassen. Diskussion hat sich erledigt, wir könn(t)en den Ubiquiti kaufen.
+
+Niemensch ist gegen das Budget. Beschlossen, NOC kümmert sich.
+
+rami kommt rein und stellt anhand seiner nassen Klamotten fest, dass es regnet.
+
+=== Garnsortiment Sulky ===
+
+Wir wollen die kleine Stickmaschine sowie das alte Garnsortiment sowieso verkaufen, was den Einkaufspreis für das neue Garn abfedern sollte.
+
+Fabian: Unter diesem Gesichtspunkt ist der Preis verschmerzbar.
+
+Beschlossen wird:
+- Sticksortiment Sulky, 335 Farben auf 1Km Konen mit Holzsständern wird gekauft. Abrock kümmert sich.
+- Stickmaschine + altes Garn wird verkauft. Erstmal mit FOR SALE schild auf den MRMCDs versuchen, dann ebay kleinanzeigen. Jiska kümmert sich.
+
+Einwurf von Feli: Telefone funktionieren wieder. Danke NOC!
+
+=== Lösung Zugang zum RZL ===
+
+Feli: "Alles sehr suboptimal."
+
+Fabian: Es gibt eine fast fertige Ersatzlösung (alle Teile sind da). Das ist die langfristige Lösung.
+
+Fabian gibt einen kurzen technischen Überblick über das bisherige bzw derzeitige Setup. 
+
+<insert techno-babble here>
+
+Feli sagt danke für Einsatz, $Menschen schliessen sich an.
+
+Das Plenum reitet tote Pferde (hohoho professionelle Schliesssysteme).
+
+docsteel bittet um gute documentation für die neue Lösung, speziell über Abhängigkeiten.
+
+'''"Paketiert und dokumentiert eure Software!!1!!1!1"'''
+
+Team RETRO klebt einen Atari an die Tür.
+
+wir schweifen ab…
+
+=== CNC Fräse ===
+
+Fabian: Seit Anbeginn der Zeit™ steht ein Dings in der Werkstatt, auf dem Tiefpunkt steht. Status unbekannt, aber CNC-Fräsen sind cool. Wir wollen eine. Es gibt hackbare Open Hardware + Software (Shapeoko) mit grosser Community (Foren, Thingiverse-Analog, etc). Kann nicht nur Holz, etc etc etc.
+
+tl;dr: Ist cool.
+
+Feli: Komplett selbst bauen lohnt sich sowieso nicht.
+
+Abrock hat die Werkstatt aufgeräumt. Dort ist Platz dafür.
+
+Das Plenum reisst Flachwitze.
+
+Ingo sagt Hurra.
+
+Das Plenum beschliesst einen "flexiblen" Tausender. (Konsens)
+
+TabascoEye kümmert sich um Anschaffung und verschlungenes Verschiffen aus USA (via Farr Express).
+
+=== Wärmebildkamera ===
+
+Fabian: Kickstarter-Elektrogeräte aus den USA kommen nicht an, weil Zoll keinen Spass versteht (kein CE). Alternative ist ein iPhone-only-Dings. Ein ablehnendes Raunen geht durch das Plenum.
+
+Wird vertagt.
+
+=== Signalgenerator ===
+
+Wird gekauft (Konsens). Feli kümmert sich.
+
+=== HackRF Zubehör ===
+
+DaFo möchte Zubehör für das HacRF kaufen.
+
+Technisch gesehen hatten wir 300€ Budget für das HacRF beschlossen, dafür aber 0€ bezahlt.
+
+Zitat: Auch wäre etwas Zubehör ( Adapter, Kabel, Dämpfungsglieder etc. ) toll.
+
+Es steht ja die UKW Tagung an, und ich würde schauen ob die Anennen dort zu kaufen sind und auch das Zubehör.  
+
+Ein Budget von ca. 300€ max. würde ich anpeilen.
+
+Das Plenum beschliesst obiges Budget. (Konsens)
+
+Für Zubehör und Transportkiste
+
+Dafo kümmert sich.
+
+=== Abzugshaube Küche ===
+
+Dieses Modell
+http://www.ebay.de/itm//251584274303
+wird durch DaFo gekauft.  Ist gekauft!
+
+'''17:12 PIZZAPAUSE'''
+
+Bestellt bei Pizzeria Sicilia, über pizza.de. Lieferzeit ca. 1h. Qulität gut.
+
+Prädikat: besonders lecker (++++++Top Pizzadienst++++++ Gerne wieder) 4.5/5
+
+Zuviel Zwiebeln ES GIBT NICHT ZUVIELE ZWIEBELN!!1111+1
+
+Wenn viele Zwiebeln, dann auf Zwiebelkuchen!
+
+Alles Zwiebelhafte muss angezwiebelt werden!
+
+=== Gaffer Tape ===
+
+TabascoEye kauft mal Tesafilm und Tape bei Amazon, weil er proletenhafter Prime Kunde ist. Leider nicht im Abo.
+
+=== Räumt euern Scheiß weg. ===
+
+Im Nebenraum finden derzeit FrOSCon und MRMCD Vorbereitungen statt. Das Zeug ist nach den Veranstaltungen wieder verschwunden.
+
+Die generelle Sauberkeitssituation sollte aber weiterhin in den Köpfen aller Mitglieder vorhanden sein.
+
+Es wird das Gefühl geäußert, dass es sich schon sehr verbessert hat (v.a. Konferenztisch)
+
+Mehr Kommunikation wagen.
+
+=== USV ===
+
+Bei dem Stromausfall am Freitag sind uns 2 Platten in Mate gestorben. Resultat: Datengrab vermutlich komplett weg und erheblicher Recovery-Aufwand der VMs. Es hätte auch genausogut die Platten in dem Backupserver auch treffen können. Mit einer USV kann das in Zukunft vermieden werden, diese schützt auch vor Überspannung.
+Kostenpunkt für eine [http://geizhals.at/de/apc-smart-ups-750va-rm-2u-lcd-smt750rmi2u-a633845.html APC 19" USV]: ca. 330€. Folgekosten ca. alle 3 Jahre: Batteriepack für ca. 50€.
+
+Plenum beschliesst: 400€ Budget. Das NOC kümmert sich. (Konsens)
+
+=== Feier zum fünfjährigen Bestehen des RZL ===
+
+Planung etc.
+
+Das Plenum (ver)plant. (alsop.bmp)
+
+Letzter bekannter Stand war, dass die Trollcon ein 1-Tag-Event werden sollte und wir die Feier einfach am Tag davor/danach(?) machen. Unklar, ob das noch alle Beteiligten so sehen.
+
+Trollcon-Tweet:
+
+Nur noch wenige Trollcon-Tickets übrig! Schicke heute ein Fax an 
+
+Unklare Feierei ist unklar.
+
+=== Sonstiges===
+
+- Neuinstallation Stick-Laptops
+
+Abrock hat noch echte Windows7 Lizenzen.
+
+"Man müsste mal"
+
+Nach dem Agenda Diplom könnte man auch einen der Mindstorms Laptops abzweigen und als performanten Stick/Plot/Laser-Laptop zu verwenden.
+
+Docsteel schlägt PXE Boot für das Ding vor. NOC kümmert sich.
+
+- Aneignung Nebenraum
+
+Ingo rechnet.....oder versucht es zumindest.
+
+Nico wird sich kümmern
+
+Fabian: ein zumindest grobes Nutzungskonzept sollte da sein, bevor über eine Anmietung weiter diskutiert werden sollte.
+
+- (Frucht)fliegen im Raum
+
+Mehr Putzen wagen. Und Schwämme regelmässig entsorgen. Und Müll rausbringen.
+
+- Milben, etc. in dem Eck-Sofa, Entsorgung desselben! Das Eck-Sofa wird entsorgt
+
+Fabian hat zufälligerweise™ bald ein altes Sofa übrig. Fabian hat verloren.
+
+brainfreeze kümmert sich zeitnah um fachgerechte Säuberungsmittel, um den Olymp mal richtig zu säubern.
+
+=== Ist das RZL nach diesem Plenum jetzt arm? ===
+
+Wir wollen 3250€ ausgeben.
+
+Fazit: Nein. Wir haben immer noch zuviel Geld. :3
+
+=== Weltherrschaft ===
+
+Wir brauchen mehr Mitglieder!!1!!1
+
+Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
+
+
+
+
+
+= Vorherige Seite =
+
+
 
 == Themen für das nächste Plenum ==
 
@@ -255,3 +554,4 @@ Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
 
 [[Kategorie:Veranstaltung]]
 [[Kategorie:Plenum| ]]
+[[Kategorie:Protokoll]]
