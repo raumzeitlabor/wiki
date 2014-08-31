@@ -71,7 +71,7 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 |Network Security I
 |[[Benutzer:Docsteel|Docsteel]]
 |Grundlagen Network Security, IDS/IPS, DPI, Audit
-|[[Benutzer:bluegene|simon]], [[Benutzer:Blabber|blabber]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Nessi|nessi]], [[Benutzer:Dj2mc|dj2mc]], [[Benutzer:Hax404|hax404]], [[Benutzer:nazco|nazco]],[[Benutzer:Felicitus|Felicitus]], [[Benutzer:Rami|rami]], [[Benutzer:fabfrank|fabfrank]], [[Benutzer:PhyberApex|PhyberApex]], [[Benutzer:eeemsi|eeemsi]], [[Benutzer:nicoduck|nicoduck]], [[Benutzer:Cheatha|Cheatha]]
+|[[Benutzer:bluegene|simon]], [[Benutzer:Blabber|blabber]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Nessi|nessi]], [[Benutzer:Dj2mc|dj2mc]], [[Benutzer:Hax404|hax404]], [[Benutzer:nazco|nazco]],[[Benutzer:Felicitus|Felicitus]], [[Benutzer:Rami|rami]], [[Benutzer:fabfrank|fabfrank]], [[Benutzer:PhyberApex|PhyberApex]], [[Benutzer:eeemsi|eeemsi]], [[Benutzer:nicoduck|nicoduck]], [[Benutzer:Cheatha|Cheatha]], [[Benutzer:lutoma|lutoma]]
 |-
 | 2011-10-31
 |tba
@@ -120,14 +120,14 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 |SPDY
 |Else
 |Vorstellung des SPDY Protokolls
-| [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Blabber|blabber]], [[Benutzer:Hax404|hax404]], [[Benutzer:eeemsi|eeemsi]], [[Benutzer:Rami|rami]]
+| [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Blabber|blabber]], [[Benutzer:Hax404|hax404]], [[Benutzer:eeemsi|eeemsi]], [[Benutzer:Rami|rami]], [[Benutzer:lutoma|lutoma]]
 |-
 | 2012-02-24
 |tba
 |IEEE 802.11
 |Else
 |Wie WLAN grundsätzlich funktioniert. 
-| [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Blabber|blabber]], [[Benutzer:Hax404|hax404]], [[Benutzer:Rami|rami]], [[Benutzer:nazco|nazco]]
+| [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Blabber|blabber]], [[Benutzer:Hax404|hax404]], [[Benutzer:Rami|rami]], [[Benutzer:nazco|nazco]], [[Benutzer:lutoma|lutoma]]
 |-
 | 2012-07-23
 |tba
@@ -141,7 +141,7 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 |IEEE 802.1X & WPA Enterprise
 |[[Benutzer:nicoduck|nicoduck]]
 |Wie man LAN und WLAN für größere Installationen absichert
-|[[Benutzer:Hax404|hax404]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Rami|rami]], [[Benutzer:nazco|nazco]]
+|[[Benutzer:Hax404|hax404]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Rami|rami]], [[Benutzer:nazco|nazco]], [[Benutzer:lutoma|lutoma]]
 |-
 |
 | tba
@@ -155,7 +155,7 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 | DJ-Workshop
 | [[Benutzer:TabascoEye|TabascoEye]]
 | 
-| [[Benutzer:DreamFlasher|DreamFlasher]], [[Benutzer:Hax404|hax404]], [[Benutzer:eeemsi|eeemsi]], [[Benutzer:Tiefpunkt|tiefpunkt]]
+| [[Benutzer:DreamFlasher|DreamFlasher]], [[Benutzer:Hax404|hax404]], [[Benutzer:eeemsi|eeemsi]], [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:lutoma|lutoma]]
 |-
 |
 |
@@ -169,7 +169,7 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 | Fotografiekurs
 | [[Benutzer:Cheatha|Cheatha]]
 | Mehrteiliger Workshop, der sich mit Themen wie Grundlagen, Technik, fotografisches Sehen und Bildgestaltung auseinandersetzt. Bitte eigene Digitalkamera mitbringen! (Handyknipse mit 0,x Megapixel reicht.) Disclaimer: Ich bin kein ausgebildeter Fotograf.
-| [[Benutzer:Tiefpunkt|tiefpunkt]], steeph, [[Benutzer:hax404|hax404]], [[Benutzer:Rami|rami]], [[Benutzer:JoKnopp|JoKnopp]],
+| [[Benutzer:Tiefpunkt|tiefpunkt]], steeph, [[Benutzer:hax404|hax404]], [[Benutzer:Rami|rami]], [[Benutzer:JoKnopp|JoKnopp]], [[Benutzer:lutoma|lutoma]]
 |-
 | 2012-09-25
 | 
@@ -183,14 +183,14 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 | IP over DNS mit Iodine
 | [[Benutzer:Tiefpunkt|tiefpunkt]]
 | IP-Kommunikation getunnelt über DNS. Wie das funktioniert, warum man das überhaupt machen sollte, und wieso man dabei sogar Geld sparen kann.
-| [[Benutzer:nazco|nazco]]
+| [[Benutzer:nazco|nazco]], [[Benutzer:lutoma|lutoma]]
 |-
 | 2012-12-17
 | (irgendein Dienstag)
 | MQTT - Message Queue für das Internet of Things
 | [[Benutzer:Tiefpunkt|tiefpunkt]]
 | Message Queues sind die Push-Benachritigungen der M2M-Kommunikation. MQTT ist ein Message-Queue-Protokoll, und eignet sich hervoragend für Sensornetzwerke und Heimautomation.
-| [[Benutzer:nazco|nazco]]
+| [[Benutzer:nazco|nazco]], [[Benutzer:lutoma|lutoma]]
 |-
 | 2013-01-19
 | 
