@@ -1,0 +1,80 @@
+{{ProjektInfoBox
+|name        = Pinpad
+|status      = stable
+|image       = Pinpadv1_front.jpg
+|imagesize   = 150
+|description = Zugang zum RZL
+|author      = [[Benutzer:SEC|sECuRE]], [[Benutzer:Alexander_Brock|AlexanderB]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
+== Status ==
+
+Das Pinpad ist seit dem 23.11.2010 in Benutzung. Zum Öffnen der Tür hat jedes Mitglied eine persönliche PIN, die man mit ipv6 auf http://infra.raumzeitlabor.de/BenutzerDB/ und ohne ipv6 auf https://raumzeitlabor.de/BenutzerDB/ einsehen kann. Wer noch keine PIN hat, muss sich dort erst einen Benutzernamen anlegen und dann die dort angegebenen Admins kontaktieren.
+
+Zum Abschließen des Raums gibt man die Pin 666, gefolgt von der Rautetaste ein.
+
+In Arbeit ist derzeit das [[Pinpad/Frontendv2]].
+
+== Überblick ==
+[[Datei:PinpadControllerundHometecpp.jpeg|200px|thumb|right|Pinpad-Controller und Hometec++ im Gehäuse]]
+Das Pinpad besteht aus mehreren Teilen:
+
+* Das Frontend hängt draußen vor der Tür. Es wird separat mit Strom versorgt und kommuniziert via RS232 mit dem Pinpad-Controller innen. Im Frontend steckt keine Logik, es ist nur Benutzerschnittstelle nach außen.
+* Der Pinpad-Controller befindet sich zusammen mit dem Hometec++ in einem Gehäuse (siehe rechts) oben auf dem Schrank direkt neben der Tür. Er nimmt am [[Hausbus]] teil und stellt dort den Türstatus zur Verfügung. Weiterhin steuert er den HomeTec++ an um die Tür zu entriegeln und verriegeln.
+* Der HomeTec++ ist eine Platine, welche die beiden Motoren im HomeTec-Türschloss steuert (die originale Elektronik fanden wir ungeeignet).
+* Auf infra.rzl läuft die Benutzerdatenbank. Der Pinpad-Controller broadcastet regelmäßig den CRC seines EEPROMs, in dem die PINs gespeichert sind, sodass man auch ohne funktionierenden Hausbus oder Datenbank den Raum öffnen kann. Wenn der CRC des Controllers von dem berechneten CRC auf Basis der Datenbank abweicht (z.B. wegen neuen oder ausgetretenen Mitgliedern), so werden die PINs neu synchronisiert. Zusätzlich gibt es noch eine hardcoded PIN, die dem Vorstand bekannt ist.
+
+Ein Video der Funktionalität (noch mit original HomeTec) sieht man auf http://www.youtube.com/watch?v=54flBqny6HU
+
+== Details ==
+
+=== Frontend ===
+
+[[Datei:Pinpadv1_front.jpg|200px|thumb|right|Frontend v1]]
+
+Die Firmware befindet sich auf https://github.com/raumzeitlabor/pinpad/tree/master/firmware-aussen
+
+Derzeit kommunizieren wir via RS232 zwischen Frontend und Pinpad-Controller. Aufgrund besserer Stabilität wird das im [[Pinpad/Frontendv2]] aber via RS485 gelöst werden. Es gibt Befehle für Tastendrücke (Frontend → Controller), die verschiedenen LEDs und Piepscodes (Controller → Frontend) und ein simples Ping/Pong-Protokoll, welches beide Seiten nutzen können, um sicherzustellen, dass die Kommunikation noch funktioniert.
+
+=== Pinpad-Controller ===
+
+[[Datei:Pinpadcontroller.jpg|200px|thumb|right|Pinpad-Controller]]
+
+Die Firmware befindet sich auf https://github.com/raumzeitlabor/hausbus/tree/master/firmware-pinpad
+
+Der Pinpad-Controller kann drei Taster in der Tür auslesen:
+* Ein Taster ist im Türrahmen befestigt und wird geschlossen, wenn jemand die Tür abschließt.
+* Zwei Taster sind im Schloss, je einer für abgeschlossen und offen.
+
+Ein Magnetsensor ist oben am Türrahmen befestigt und wird von einem Magneten geschlossen, wenn die Tür zu ist, unabhängig vom Zustand des Schlosses. Dieser Magnetsensor wird noch nicht ausgelesen.
+
+Der Pinpad-Controller stellt den Sensorstatus auf dem Hausbus zur Verfügung (kann abgefragt werden, schickt aber auch selbstständig bei Änderungen ein entsprechendes Paket). Der Türstatus-Daemon schickt den Status dann zum RZL-Jail und zeichnet ihn in der Datenbank auf.
+
+Weiterhin kommuniziert er mit dem HomeTec++ um die Öffnen- und Schließ-Befehle umzusetzen. Dabei schließt er solange auf bzw. zu bis die Sensoren vermelden, dass offen bzw. zu ist.
+
+Im Pinpad-Controller befindet sich eine fest eingespeicherte PIN. Diese sollte man aber nicht benutzen, sondern stattdessen die Benutzer-PINs. Die fest eingespeicherte wird noch funktionieren, solange die Synchronisation der Benutzer-DB auf den Pinpad-Controller-EEPROM noch nicht läuft.
+
+=== HomeTec++ ===
+[[Datei:Hometecpp.jpg|100px|thumb|right|HomeTec++]]
+
+Schaltplan, Layout, Firmware befinden sich auf https://github.com/raumzeitlabor/pinpad/tree/master/hometecpp
+
+Das HomeTec++ kommuniziert via PWM (zwei Leitungen, die jeweils über die Pulsweite einen Zustand empfangen bzw. senden) mit dem Pinpad-Controller, da wir keine seriellen Schnittstellen mehr frei hatten.
+
+=== BenutzerDB-validator ===
+
+'''veraltet''' Die Software befindet sich auf https://github.com/raumzeitlabor/rzl-benutzerdb/tree/master/pin-validator
+
+=== BenutzerDB-pinrevoker ===
+
+Die Software befindet sich auf https://github.com/raumzeitlabor/rzl-benutzerdb/blob/master/BenutzerDB/script/raumzeitbenutzerdb-pinrevoker
+
+== Fotos ==
+Mehr Fotos gibts bei [https://secure.flickr.com/photos/42103461@N08/sets/72157627555278372/ Flickr]
+[[Kategorie:Projekt]]
