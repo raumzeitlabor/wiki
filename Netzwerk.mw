@@ -242,7 +242,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 | 172.22.37.'''10 - 110''' || '''dhcp''' || DHCP-Range (unfiltered)
 |}
 
-=== Management-Netz 10.23.42.0/24 ===
+=== 10.23.42.0/24 (Management-Netz) ===
 
 {| class="wikitable" width="100%"
 |-----
