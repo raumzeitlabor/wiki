@@ -19,5 +19,6 @@
 {| class="wikitable" width="100%"
 |-----
 ! Port || VLAN-ID || Beschreibung
+|-----
 | 0/22 || 2342 || [[Netzwerk#10.23.42.0.2F24|Management-Netz]]
 |}
