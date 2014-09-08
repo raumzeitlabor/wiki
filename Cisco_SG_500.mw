@@ -1,0 +1,44 @@
+{{ProjektInfoBox
+|name        = Cisco SG 500
+|status      = stable
+|image       = 
+|description = Unser Switch-Stack im Hauptraum
+|author      = [[Benutzer:Felicitus|Felicitus]]
+|maintainer  = 
+|hostname    = 10.23.42.2
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+|bausatz     =
+|preis       =
+}}
+
+Der Switch-Stack im Hauptraum besteht aus einem 28-Port Cisco SG 500-28 sowie einem 28-Port Cisco SG 500-28P (PoE). Beide Switches sind als Stack konfiguriert.
+
+
+== Stack IDs ==
+
+{| class="wikitable" width="100%"
+|-----
+! Stack ID || Switch
+|-----
+| 1 || Cisco SG 500-28
+|-----
+| 2 || Cisco SG 500-28P
+|}
+
+== Port VLANs ==
+{| class="wikitable" width="100%"
+|-----
+! Port || VLAN-ID || Beschreibung
+|-----
+| 1/1/11 || 110 || Famefabrik, geht zur [[Firebox]]
+|-----
+| 1/1/24 || 2342 || [[Netzwerk#10.23.42.0.2F24|Management-Netz]]
+|-----
+| 2/1/13 || allow 110 || WLAN-AP Hauptraum
+|-----
+| 2/1/23 || allow 110 || WLAN-AP Nebenraum
+|}
