@@ -1,0 +1,24 @@
+Diese Seite beschreibt den neuen Pinpad-Controller, basierend auf einem Raspberry Pi und einer eigenen Platine von AlexanderB. Dieser Controller kommt bisher nur im Getränkelager zum Einsatz, soll aber auch im eigentlichen Raum eingesetzt werden.
+
+= Partitionstabelle der SD-Card =
+
+ Disk /dev/sdb: 4011 MB, 4011851776 bytes
+ 4 heads, 32 sectors/track, 61216 cylinders, total 7835648 sectors
+ Units = sectors of 1 * 512 = 512 bytes
+ Sector size (logical/physical): 512 bytes / 512 bytes
+ I/O size (minimum/optimal): 512 bytes / 512 bytes
+ Disk identifier: 0x000ee283
+ 
+    Device Boot      Start         End      Blocks   Id  System
+ /dev/sdb1            2048      155647       76800    c  W95 FAT32 (LBA)
+ /dev/sdb2          155648      974847      409600   83  Linux
+ /dev/sdb3          974848     1794047      409600   83  Linux
+ /dev/sdb4         1794048     1998847      102400    c  W95 FAT32 (LBA)
+
+Die erste Partition ist für den Bootloader + Kernel.
+
+Die zweite Partition ist das Root-Dateisystem.
+
+Die dritte Partition ist reserviert für remote-upgrades des Root-Dateisystems, derzeit aber ungenutzt.
+
+Die vierte Partition ist für persistente Daten (Benutzer-PINs).
