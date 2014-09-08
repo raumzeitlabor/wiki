@@ -242,6 +242,19 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 | 172.22.37.'''10 - 110''' || '''dhcp''' || DHCP-Range (unfiltered)
 |}
 
+=== Management-Netz 10.23.42.0/24 ===
+
+{| class="wikitable" width="100%"
+|-----
+! IP-Adresse || Hostname || Beschreibung
+|-----
+| 10.23.42.1 || [[firebox]] || Router
+|-----
+| 10.23.42.2 || [[Cisco SG 500]] || Switch-Stack im Hauptraum
+|-----
+| 10.23.42.3 || [[EdgeSwitch PoE 24]] || Switch im Nebenraum
+|}
+
 == Vorgehensweisen ==
 === Host hinzufügen/entfernen ===
 * Eintrag Tabelle oben drüber; Gibts eine Wikiseite?
