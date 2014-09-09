@@ -1,9 +1,13 @@
 *Hersteller: APC
-*TYP: SmartUPS 750
-*Anbindung RS232: Blackbox
-*Versorgung kommend: Steckdose über Sicherung F06
-*Versorgung gehend: Blackbox
-*Akkus getauscht: 29.01.2011
+*TYP: SmartUPS 750RMI2U
+*Anbindung RS232: nicht angeschlossen
+*Versorgung kommend: Steckdose über Sicherung XXX ('''TODO''')
+*Versorgung gehend
+** Port 1: Gruppe 1: cookiemonster
+** Port 2: Gruppe 1: mate
+** Port 3: firebox
+*USB angeschlossen an: mate
+*Akkus getauscht: noch nie
 
 
 [[Kategorie:Hardware]]
