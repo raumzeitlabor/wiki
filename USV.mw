@@ -15,16 +15,65 @@
 |preis       =
 }}
 
-*Hersteller: APC
-*TYP: SmartUPS 750RMI2U
-*Anbindung RS232: nicht angeschlossen
-*Versorgung kommend: Steckdose über Sicherung XXX ('''TODO''')
-*Versorgung gehend
-** Port 1: Gruppe 1: cookiemonster
-** Port 2: Gruppe 1: mate
-** Port 3: firebox
-*USB angeschlossen an: mate
-*Akkus getauscht: noch nie
+Die USV puffert die [[Firebox]], [[Mate (Server)]] sowie [[Cookiemonster]]. Im Falle eines Stromausfalles werden die Server kontrolliert heruntergefahren.
 
+== Konfiguration ==
+{| class="wikitable" width="100%"
+| Herunterfahren von mate und cookiemonster
+||
+* Batteriestand kleiner 30% -oder-
+* Restlaufzeit kleiner 15 Minuten
+|-----
+| apcupsd || Master auf mate, slave auf cookiemonster
+|-----
+| Hersteller || APC
+|-----
+| TYP || SmartUPS 750RMI2U
+|-----
+| Anbindung RS232 || nicht angeschlossen
+|-----
+| Versorgung kommend || Steckdose über Sicherung XXX ('''TODO''')
+|-----
+| Versorgung gehend ||
+* Port 1: Gruppe 1: cookiemonster
+* Port 2: Gruppe 1: mate
+* Port 3: firebox
+|-----
+| USB angeschlossen an || mate
+|-----
+| Akkus getauscht || noch nie
+|-----
+|}
 
+== Verwaltung ==
+* Anzeige der Statistiken auf Mate über das binary "apcaccess". Beispielausgabe:
+<pre>APC      : 001,027,0672
+DATE     : 2014-09-09 22:53:22 +0200  
+HOSTNAME : mate
+VERSION  : 3.14.10 (13 September 2011) debian
+UPSNAME  : rzl-main
+CABLE    : USB Cable
+DRIVER   : USB UPS Driver
+UPSMODE  : Stand Alone
+STARTTIME: 2014-09-09 22:53:20 +0200  
+MODEL    : Smart-UPS 750 
+STATUS   : ONLINE 
+BCHARGE  : 100.0 Percent
+TIMELEFT :  80.0 Minutes
+MBATTCHG : 5 Percent
+MINTIMEL : 3 Minutes
+MAXTIME  : 0 Seconds
+ALARMDEL : No alarm
+BATTV    : 27.3 Volts
+NUMXFERS : 0
+TONBATT  : 0 seconds
+CUMONBATT: 0 seconds
+XOFFBATT : N/A
+STATFLAG : 0x07000008 Status Flag
+MANDATE  : 2014-02-11
+SERIALNO : AS1407131366  
+NOMBATTV :  24.0 Volts
+FIRMWARE : UPS 08.8 / ID=18
+END APC  : 2014-09-09 22:53:22 +0200  
+</pre>
 [[Kategorie:Hardware]]
