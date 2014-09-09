@@ -27,7 +27,7 @@ cookiemonster ist der Backupserver, um die von Bacula angefertigten Backups abzu
 |1x 8GB Transcend DDR3 1333MHz PC3-10666 CL9 DIMM sowie 1x 4GB
 |-
 |HDDs
-|4x1TB (Hitachi HDS721010DLE630)<br/>RAID5 über 3 Platten plus 1x Hot Spare, 2TB nutzbar, Platten werden über smartd gemonitort und an netzwerk (ät) rzl dot de im Fehlerfalle geschickt
+|2x3TB (WDC WD30EFRX)<br/>RAID1 über 2 Platten, 3TB nutzbar, Platten werden über smartd gemonitort und an netzwerk (ät) rzl dot de im Fehlerfalle geschickt
 |-
 |USB
 |1x Onboard, 4x Front, 2x Hinten
