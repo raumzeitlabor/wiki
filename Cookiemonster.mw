@@ -13,7 +13,7 @@
 |download    = 
 }}
 
-cookiemonster ist der Backupserver, um die von Bacula angefertigten Backups abzulegen. <strike>Der Server wird über Wake-on-Lan vor den Backups hochgefahren und danach wieder herunter.</strike>
+cookiemonster ist der Backupserver, um die von Bacula angefertigten Backups abzulegen. Er wird über unsere [[USV]] geschützt.
 
 ==Technische Daten==
 {| class="wikitable"  valign = "top"
