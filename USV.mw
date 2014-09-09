@@ -17,6 +17,10 @@
 
 Die USV puffert die [[Firebox]], [[Mate (Server)]] sowie [[Cookiemonster]]. Im Falle eines Stromausfalles werden die Server kontrolliert heruntergefahren.
 
+== TODO ==
+* Den nicht-PoE-Switch an die USV anschließen, damit Cookiemonster und Mate über Netzwerk kommunizieren können
+* Klären, ob der DSL-Router auch an die USV soll
+
 == Konfiguration ==
 {| class="wikitable" width="100%"
 | Herunterfahren von mate und cookiemonster
