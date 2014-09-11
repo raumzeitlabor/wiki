@@ -192,12 +192,12 @@
 == Sonstiges ==
 === Frequenzgenerator 1 ===
 {{RowInfoBox
-|bild          = Frequenzgenerator_1_Front.JPG
-|hersteller    = Eigenbau
+|bild          = 
+|hersteller    = Siglent
 |typ           = 
-|beschreibung  = bis 2 MHz, verschiedene Wellenformen
-|doku          = 
-|besitzer    = [[Benutzer:Felicitus|Felicitus]]
+|beschreibung  = bis 25 MHz, verschiedene Wellenformen
+|doku          = Frequenzgenerator
+|besitzer    = 
 |status        = OK
 }}
 
