@@ -1,0 +1,27 @@
+{{ProjektInfoBox
+|name        = Shapeoko 2
+|status      = experimental
+|image       = 
+|description = CNC-Fräse
+|author      = 
+|maintainer  = Alle die es Nutzen
+|hostname    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+|bausatz     =
+|preis       = 
+}}
+
+== Fräsbare Materialien ==
+
+=== PE-HD ===
+
+Polyethylen High-Density, siehe [https://www.youtube.com/watch?v=T1pkyLY8Qvs Verarbeitungsbeispiel]. [http://www.s-polytec.de/pe-platten-schwarz_pe-platte-schwarz-20mm-auf-mass.html Bezugsquelle]
+
+== Mögliche Modifikationen ==
+
+* [http://www.amazon.de/Makita-RT0700CX2J-Oberfr%C3%A4se-und-Trimmer/dp/B00CKYCG8S/ref=sr_1_1?ie=UTF8&qid=1410477948&sr=8-1&keywords=makita+fr%C3%A4se Makita Frässpindel] (ca. 200€) mit [https://www.youtube.com/watch?v=T1pkyLY8Qvs Halterung]
+* [https://www.youtube.com/watch?v=4zrKHVaICbE Dust Boot] aus PEHD für die Makita Fräse
