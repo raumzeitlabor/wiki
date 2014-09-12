@@ -53,6 +53,18 @@ Kosten ca. 20-50€ Ebay.
 
 Nazco bringt freundlicherweise einen mit. DANKE!!! :)
 
+=== Bass, Bass, wir brauchen Bass ===
+
+von [[User:slowpoke|wasgehtnpoke]]
+
+Problem: Unser gesamtes Audio-Video-Setup ist, gelinde gesagt, Grütze. Die Boxen sind alle halb (oder ganz) zerstört, weil $Derp*inas nicht mit Klinkensteckern umgehen können, die Anlage ist generell eher so meh, beim HDMI-Splitter ist es nichtdetermistisch, ob er funktioniert, und von den 5 $GERÄTEN, die im Regal stehen (Verstärker, DVD, CD, Tape, Tuner), fangen 4 Staub, und nehmen Platz weg. Das Board, wo mal der MPD drauf lief (bzw es ''theoretisch'' immer noch tut), ist dafür auch eigentlich eher suboptimal, und der Besitzer (don) will das Ding meines Wissens nach auch irgendwann mal wieder anderweitig verwenden. Die Kabelpeitsche ist im derzeitigen Zustand auch kacke, und sollte mal dringend ent-geraffelt werden.
+
+Lösung: Um alles oben genannte zusammen und für immer zu erschlagen, könnten wir uns mal einen sinnvollen All-In-One A/V-Receiver samt gescheiten Boxen besorgen. Einige andere Hackerspaces (muCCC, Backspace) haben verschiedene Geräte von Onkyo, und sind damit wohl recht zufrieden. Kanditat wäre u.a. der [http://www.onkyousa.com/Products/model.php?m=TX-NR929&class=Receiver&source=prodClass TX-NR929], zu haben für etwa einen Tausender. Das Teil hat alles, was wir brauchen, und alles, was sonst so geil ist: HDMI, VGA, Ethernet, Bluetooth, USB, 4k-Ready, es läuft wohl ein Linux im Hintergrund (Hackvalue!), das Teil hat mindestens eine [https://github.com/miracle2k/onkyo-eiscp offene API] zum Ansteuern, RS-232, etcetcetc., aber seht selbst auf der verlinkten Produktseite. Alternativ gibt es auch noch günstigere Modelle, die natürlich weniger porno sind, aber immer noch ganz gut. Mindestkriterium ist VGA (haben nicht alle Modelle), HDMI, Ethernet, und evtl. Bluetooth.
+
+Für Boxen sollten wir mindestens nochmal einen Tausender einplanen - eher mehr. Aber hier können wir zur Not auch erstmal mit 2 Boxen + Subwoofer anfangen, und mehr kaufen, wenn Geld übrig ist (nach dem Congress, zB.). Konkrete Vorschläge habe ich noch nicht rausgesucht, werde ich aber noch nachreichen. Evtl. haben einige unserer Audiophilen da auch gute Vorschläge.
+
+Seid ihr down?
+
 === Weltherrschaft ===
 Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
 
