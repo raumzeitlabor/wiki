@@ -15,6 +15,11 @@
 |preis       = 
 }}
 
+== Toolchains ==
+
+=== SVG und MakerCAM ===
+
+* [http://www.shapeoko.com/wiki/index.php/MakerCAM#MakerCAM_outputs_too_many_decimals NICHT empfohlen], da MakerCAM mit Inches arbeitet und bei der Konvertierung in metrische Einheiten unheimlich lange Zahlen generiert, die den GCODE kaputtspielen.
 == Fräsbare Materialien ==
 
 === PE-HD ===
