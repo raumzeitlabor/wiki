@@ -59,7 +59,7 @@ Man könnte ein NRF24L01 Shield für den Raspberry Pi o.ä. entwerfen, der dann 
 
 Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (Server)/infra.rzl|infra.rzl]] zu verbinden. Es folgt eine Liste von Topics, die momentan auf dem Broker gepublished werden.
 
-''Legende: F=freigegeben, r=retained, q=QoS, b=blacklisted''
+''Legende: F=freigegeben, r=retained, q=QoS, b=blacklisted (Änderungen werden nicht gespeichert)''
 
 {| class="wikitable"
 ! style="font-weight: bold;" | Topic
