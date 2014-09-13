@@ -106,10 +106,21 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 | Zustand des MPDs. "play", "pause", "stop
 | [[Benutzer:Else|else]]
 |-
-| /service/status/presence
+| /service/status
 | X
 | X
 | 0
+| X
+| application/json
+| [[Raumstatus|Tür]]
+| [[Pinpad]]
+| Status der Tür (bzw. des Schlosses)
+| [[Benutzer:Else|else]]
+|-
+| /service/status/presence
+| X
+| X
+| 1
 | X
 | application/json
 | [[Raumstatus|Tür]]
