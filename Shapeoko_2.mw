@@ -15,11 +15,88 @@
 |preis       = 
 }}
 
+Nach Abstimmung im Septemberplenum hat das RaumzeitLabor eine CNC Fräse vom Typ "Shapeoko 2" von [http://inventables.com Inventables] gekauft.
+
+== Doku & Links ==
+
+* http://docs.shapeoko.com/ -- Manual und viel Info des Herstellers
+
+== Ausstattung ==
+
+Wir haben:
+* den Bausatz für eine Shapeoko2 Standard
+* Ein [https://www.inventables.com/technologies/waste-board-with-threaded-inserts Wasteboard mit Schraubeinsätzen zum Befestigen von Werkstücken]
+* Einen [https://www.inventables.com/technologies/clamp-set Satz Klemmen zur Befestigung] (mehr können dann gefräst werden)
+* Einen [https://www.inventables.com/technologies/knob-with-crank Drehknopf zur manuelles Bewegen der Z-Achse]
+* Eine [https://www.inventables.com/technologies/quiet-cut-spindle 300Watt Quiet Cut Spindle] als Ersatz für den China-Dremel mit allem benötigten Zubehör
+* Zwei [https://www.inventables.com/technologies/drag-chain Drag Chains] fürs Kabelmanagement
+* Einen [https://www.inventables.com/technologies/e-stop-button NOT-AUS Taster] (könnten noch mehr werden)
+* Eine [https://www.inventables.com/technologies/er11-a-collets-nuts-and-wrenches zusätzliche Halterung] für andere Fräser Durchmesser
+* Ein [https://www.inventables.com/technologies/solid-carbide-1f-engraving V-Bit Fräser] für sehr feine Arbeiten (hint: Platinen)
+* 8 [https://www.inventables.com/technologies/microswitch Mikrotaster] als Homing und Endstopps, damit die Maschine weiß, wo sie endet
+* Und einen [https://www.inventables.com/technologies/tinyg-cnc-controller TinyG CNC Controller] der Endstopps kann und deutlich mehr kann als ein g-shield ([https://www.synthetos.com/project/tinyg/ noch mehr info])
+
+Durch den TinyG Controller können wir die 300W Spindel im G-Code Speed controllen und an/ab-schalten!
+
+Der Arbeitsbereich sind ungefähr 30*30*6cm
+
 == Toolchains ==
 
-=== SVG und MakerCAM ===
+Es gibt Toolchains wie Sand am Meer sowohl Freeware und/oder OpenSource als auch im hochpreisigen Bezahlsegment.
+Ein noch zu haltender und hier zu verlinkender Vortrag im RZL soll einen Überblick geben. (--[[Benutzer:TabascoEye|TabascoEye]] ([[Benutzer Diskussion:TabascoEye|Diskussion]]) 12:01, 16. Sep. 2014 (CEST))
 
-* [http://www.shapeoko.com/wiki/index.php/MakerCAM#MakerCAM_outputs_too_many_decimals NICHT empfohlen], da MakerCAM mit Inches arbeitet und bei der Konvertierung in metrische Einheiten unheimlich lange Zahlen generiert, die den GCODE kaputtspielen. (Stand 12.09.2014)
+=== 2.5D vs. 3D ===
+
+Man spricht bei einer CNC Fräse von 2.5D, wenn man eine 2D Vektordatei fräst und sich der dreidimensionale Teil auf die Tiefe beschränkt. D.h. Die 2D Vektorlinien werden "extrudiert" zu einem 3D Modell ==> 2.5D
+In diesem Fall muss der Fräser nur die vektoren abfahren und sich auf der Z-Achse nur schrittweise nach unten bewegen, um nach und nach Material abzutragen.
+
+Bei einem echten 3D Job dagegen wird das Werkstück in verschiedenen Richtungen überfahren und der Fräskopf muss dabei die Konturen auf der Z-Achse nachfahren. D.h. er hebt und senkt sich (je nach Modell) während er eine Fläche abträgt.
+
+Bei 2.5D benötigt man kein 3D Modell und kein Tool zum bearbeiten von 3D Modellen (CAD tools wie OpenSCAD oder blender). Es genügt ein 2D Vektor Programm wie Illustrator oder Inkscape oder MakerCAM
+
+=== CAD -> CAM -> G-Code sender -> Controller ===
+
+Ähnlich wie beim 3D Druck ist der Weg zum Fräsen in folgende Schritte eingeteilt:
+* Modell erstellen
+* Modell in Schichten zerlegen (G-Code)
+* G-Code an Controller senden
+* Controller steuert Fräse bzw. 3D Drucker nach G-Code instruktionen
+
+Für jeden dieser Schritte gibt es eigene, meist unabhängige Tools. Eine Ausnahme ist [http://www.easel.com/ Easel], ein Webbasiertes Tool von Inventables (der Hersteller der Shapeoko) das gerade in entwicklung ist und alle Schritte in einem Tool vereinen will. Durch den Kauf der Shapeoko2 haben wir einen Beta Zugang zu Easel.
+
+==== CAD ====
+
+* Inkscape
+* OpenSCAD
+* SketchUp
+* SolidWorks
+* Blender
+
+==> SVG oder STL
+
+t.b.d.
+
+==== CAM ====
+
+* MeshCAM (http://shop.shapeoko.com/products/meshcam-3d-cam-software)
+* FreeMill
+* MakerCAM
+** Hinweise MakerCAM: 
+** bei SVG import auf dpi achten! Inkscape: 90dpi, Illustrator: 72dpi
+** im Metric mode (mm statt inch) erstellt es sehr viele Nachkommastellen im GCode => bereinigen mit Tools oder per Hand (awk/sed). Evtl. kann TinyG auch mit dem G-Code umgehen und/oder MakerCAM bekommt bugfix [http://www.shapeoko.com/wiki/index.php/MakerCAM#MakerCAM_outputs_too_many_decimals siehe auch hier]
+
+==== G-Code Sender ====
+
+* [https://github.com/synthetos/tgFX tgFX] ist die plattformunabhängige (Java) Software für den TinyG Controller [https://github.com/synthetos/tgFX/wiki siehe auch deren Wiki]
+* [https://github.com/synthetos/TinyG/wiki/Chilipeppr Chilipeppr] ist eine WebGL basierte Software zum G-code senden und live visualisieren [http://chilipeppr.com/tinyg siehe demo]
+
+TabascoEye möchte eine offline Version von Chilipeppr bauen als fusion/fork von OctoPrint und Chilipeppr.
+
+==== Controller ====
+
+* Arduino + G-shield
+* TinyG
+* Rechner/Pi mit LinuxCNC
 
 == Fräsbare Materialien ==
 
@@ -27,15 +104,21 @@
 
 Polyethylen High-Density, siehe [https://www.youtube.com/watch?v=T1pkyLY8Qvs Verarbeitungsbeispiel]. [http://www.s-polytec.de/pe-platten-schwarz_pe-platte-schwarz-20mm-auf-mass.html Bezugsquelle]
 
-== Mögliche Modifikationen ==
+== Geplante Modifikationen ==
 
+* Gehäuse mit Beleuchtung, Absaugung, Tragegriffen und Flightcase-Schutz-Ecken ([http://www.youtube.com/watch?v=i2UO1xZoSzc etwa so aber besser bzw. RaumzeitLaborierter])
+* Webcam (mit Verbindung zu Chilipeppr bzw. Octoprint)
+* Schutzleisten für die Makerslides ([http://shop.shapeoko.com/products/shapeoko-side-shields Kaufversion hier])
+
+== Mögliche weitere Modifikationen ==
+
+* ACME upgrade für Z-Achse: http://shop.shapeoko.com/products/shapeoko-2-acme-upgrade-1
+* NEMA-23 Motoren für alle Achsen [http://shop.shapeoko.com/products/shapeoko-2-nema-23-z-axis-motor-mount Z-Achse] [https://www.inventables.com/projects/nema-23-shapeoko-2-upgrade-parts-list X/Y-Achse]
+* [https://www.inventables.com/projects/1000mm-x-1000mm-shapeoko-upgrade-kit Vergrößerung auf 1000*1000mm]
 * [http://www.amazon.de/Makita-RT0700CX2J-Oberfr%C3%A4se-und-Trimmer/dp/B00CKYCG8S/ref=sr_1_1?ie=UTF8&qid=1410477948&sr=8-1&keywords=makita+fr%C3%A4se Makita Frässpindel] (ca. 200€) mit [https://www.youtube.com/watch?v=T1pkyLY8Qvs Halterung]
 * [https://www.youtube.com/watch?v=4zrKHVaICbE Dust Boot] aus PEHD für die Makita Fräse
-* Notaus-Taster
-* [https://www.youtube.com/watch?v=PDE5sTNcERU Gehäuse für die Elektronik mit Lüfter]
-* [https://www.youtube.com/watch?v=kcdAnUnX59s Bessere Baseplate]
-* Geschwindigkeit der Spindel regeln?
-* Endstops
+* Einfache Selbstbau-direkt-Absaugung http://www.emagu.de/absaugung.htm
+* [https://www.youtube.com/watch?v=PDE5sTNcERU Gehäuse für die Elektronik mit Lüfter] => muss für TinyG anders dimensioniert werden, Lüfter ist dabei.
 
 [[Kategorie:Projekt]]
 [[Category:Hardware]]
