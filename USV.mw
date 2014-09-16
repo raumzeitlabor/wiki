@@ -17,7 +17,7 @@
 
 Die USV puffert die [[Firebox]], [[Mate (Server)]], [[Cookiemonster]], die beiden Switches sowie die DSL-Router. Im Falle eines Stromausfalles werden die Server kontrolliert heruntergefahren.
 
-Die untere Steckdosenleiste (Nummer 3) ist an die USV angeschlossen. Das interne und externe Netz läuft weiter, wenn ein Stromausfall auftritt.
+Die untere Steckdosenleiste (Nummer 3) ist an die USV angeschlossen. Das interne und externe Netz läuft weiter, wenn ein Stromausfall auftritt. Die derzeitige Gesamtleistung der angeschlossenen Verbraucher beträgt '''125W'''.
 
 == Konfiguration ==
 {| class="wikitable" width="100%"
