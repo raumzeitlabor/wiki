@@ -51,6 +51,8 @@ Solltet ihr später nochmals diese Konfiguration durchlaufen wollen, so könnt i
   sudo raspi-config
 starten
 
+Nach dem Neustart sollte der Raspberry den Desktop anzeigen. Alle weiteren Schritte werden wir über die Konsole erledigen, sodass wir Maus und Tastatur abziehen können.
+
 == Konfiguration ==
 === Korrekte Auflösung einstellen ===
 Aktuell wird der InfoScreen an einem Monitor mit einer Auflösung von 1920x1200 Pixeln betrieben. Um das korrekt einzustellen muss die Datei /boot/config.txt um folgende Punkte ergänzt werden:
