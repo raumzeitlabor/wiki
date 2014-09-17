@@ -63,8 +63,14 @@ Aktuell wird der InfoScreen an einem Monitor mit einer Auflösung von 1920x1200 
 Andere Monitore und/oder andere Auflösungen brauchen andere Einstellungen!
 
 === Software ===
+Zuerst aktualisieren wir die Paketquellen und das System: 
+  sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
+
+Dann können wir die benötigte Software installieren:
 
   sudo apt-get install chromium x11-xserver-utils unclutter lighttpd php5-cgi git
+
+Nun passen wir die Konfiguration des Webservers an
 
   sudo nano /etc/lighttpd/lighttpd.conf
 
