@@ -39,7 +39,7 @@ Wir nehmen das neueste Raspbian-Installationsimage und starten unseren Pi. Beim 
 # '''Internationalisation Options''':
 ## '''Change Locale''': Wir selektieren ''de_DE.UTF-8 UTF-8''
 ## '''Change Timezone''': Eure Zeitzone, vermutlich ''Europe/Berlin''
-## '''Change Keyboard Layout''': Wenn du deine Tastatur nicht findest, dann solltest du mal "Generic 105-key (Intl) PC" bzw ''Generische PC-Tastatur mit 105 Tasten'' auswählen.
+## '''Change Keyboard Layout''': Wenn du deine Tastatur nicht findest, dann solltest du mal "Generic 105-key (Intl) PC" bzw ''Generische PC-Tastatur mit 105 Tasten'' auswählen. Anschließend das passende Tastaturlayout.
 # '''Enable Camera''': Nicht notwendig
 # '''Add to Rastrack''': Kann man machen, wenn man möchte
 # '''Overclock''': Nicht notwendig
