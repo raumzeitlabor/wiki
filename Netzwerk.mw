@@ -42,13 +42,13 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 * NTP-Server: 172.22.36.1
 * DHCP-Server: 172.22.36.1
 
-=== 2a01:4f8:120:4ff5::/64 ===
+=== 2001:4dd0:fd3f::/64 ===
 
 {| class="wikitable" width="100%"
 |-----
 ! IP-Adresse || Hostname || Beschreibung
 |-----
-| 2a01:4f8:120:4ff5:ba27:ebff:fe50:fafc || pinpad-main || Pinpad Haupttür
+| 2001:4dd0:fd3f:0:ba27:ebff:fe50:fafc || pinpad-main || Pinpad Haupttür
 |}
 
 === 172.22.36.0/23 ===
