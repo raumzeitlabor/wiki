@@ -14,6 +14,14 @@ Das [[Rack]] befindet sich in der [[E-Ecke]] und enthält das Patchpanel, unsere
 == Uplink ==
 Wir haben mittlerweile eine eigene Leitung. Mehr dazu gibt es unter [[Internet]].
 
+=== IPv4 ===
+
+Geht derzeit **direkt** raus über die Deutsche Telekom.
+
+=== IPv6 ===
+
+Ging früher über docsteel, wegen MTU Problemen jetzt aber über sixxs.net (Account von else). Wir announcen 2001:4dd0:fd3f::/64. Noch schöner wäre HE.net mit BGP Routing, allerdings benötigt man hierzu einen statischen IPv4 Endpoint.
+
 == Sicherheit ==
 Wenn du im Netzwerk (mit oder ohne Kabel) hängst, ist dein Computer im dn42.net und via IPv6 öffentlich (!) erreichbar.
 
