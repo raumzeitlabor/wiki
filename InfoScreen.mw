@@ -126,7 +126,7 @@ xscreensaver und lxpanel entfernen. Folgende Zeilen ergänzen:
   @xset s off
   @xset -dpms
   @xset s noblank
-  @chromium --user-data-dir=/tmp --kiosk cosm.tiefpunkt.com/infoscreen/
+  @chromium --user-data-dir=/tmp --kiosk localhost
   @xmodmap -e "pointer = 1 10 9 8 7 6 5 4 3 2"
 
 === Entferne Desktop-Icons ===
