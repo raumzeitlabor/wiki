@@ -22,6 +22,15 @@ Geht derzeit **direkt** raus über die Deutsche Telekom.
 
 Ging früher über docsteel, wegen MTU Problemen jetzt aber über sixxs.net (Account von else). Wir announcen 2001:4dd0:fd3f::/64. Noch schöner wäre HE.net mit BGP Routing, allerdings benötigt man hierzu einen statischen IPv4 Endpoint.
 
+'''Alle Geräte im RaumZeitLabor sind bei aktiviertem IPv6 direkt aus dem Internet erreichbar und bekommen einen festen Hostnamen'''
+* z.B. ipv6-00000a1196fffe3eb30c.nutzer.raumzeitlabor.org
+
+IPv6 reverse DNS läuft über premium.raumzeitlabor (eigener DNS).
+
+* Reverse Delegation ist in sixxs.net gepflegt (Else)
+* wird über [http://all-knowing-dns.zekjur.net/ all-knowing-dns] abgewickelt (läuft auf eigener IPv6, ipv6-rdns.raumzeitlabor.de)
+* Zone für rDNS ist ipv6-*.nutzer.raumzeitlabor.org
+
 == Sicherheit ==
 Wenn du im Netzwerk (mit oder ohne Kabel) hängst, ist dein Computer im dn42.net und via IPv6 öffentlich (!) erreichbar.
 
