@@ -1,7 +1,7 @@
 Der EdgeRouter Pro von Ubiquitiy ist unser derzeitiger Router. Die Aufgaben sind:
 
-* IPv4-Internet bereitstellen (getunnelt über docsteel)
-* IPv6-Internet bereitstellen (getunnelt über docsteel)
+* IPv4-Internet bereitstellen
+* IPv6-Internet bereitstellen (getunnelt über sixxs.net, Ansprechpartner Else)
 * DHCP, radvd, firewall
 * Zugang ins dn42
 
@@ -29,5 +29,7 @@ EdgeOS von Ubiquity
 == Anpassungen ==
 * Iptables werden derzeit noch aus /config/iptables.rules geladen beim booten.
 ** TODO: Firewall Rules in die EdgeRouter Config migrieren.
+* aiccu ist manuell installiert zwecks IPv6 Tunnel
+* bind9 ging ''nicht'' (random Crashes), daher DNS auf mate.rzl
 
 [[Kategorie:Hardware]]
