@@ -98,6 +98,10 @@ TabascoEye möchte eine offline Version von Chilipeppr bauen als fusion/fork von
 * TinyG
 * Rechner/Pi mit LinuxCNC
 
+==== Simulation ====
+
+Vor dem Fräsen sollte man den erzeugten G-Code und somit den Fräsvorgang zu simulieren. Hierzu gibt es zahlreiche Software, unter anderem auch [http://openscam.org/ OpenSCAM].
+
 == Fräsbare Materialien ==
 
 === PE-HD ===
