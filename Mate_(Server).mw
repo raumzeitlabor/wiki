@@ -77,6 +77,10 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 256 MB
 | 20 GB
 |-
+| [[Mate (Server)/freeswitch.vm.rzl]]
+| 256 MB
+| 20 GB
+|-
 | [[Mate (Server)/icinga.vm.rzl]]
 | 256 MB
 | 20 GB
@@ -122,11 +126,11 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 15 GB
 |-
 | '''Gesamt'''
-| '''8626 MB / 12001 MB (71.88% belegt)'''
-| '''3 TB / 5.3 TB (56.91% belegt)'''
+| '''8882 MB / 12001 MB (74.01% belegt)'''
+| '''3 TB / 5.3 TB (57.28% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2014-09-10 00:00:01
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2014-09-30 00:00:03
 
 == Unterseiten ==
 <splist />
