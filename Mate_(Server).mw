@@ -86,7 +86,7 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 20 GB
 |-
 | [[Mate (Server)/infra.rzl]]
-| 1024 MB
+| 2048 MB
 | 40 GB
 |-
 | [[Mate (Server)/lutoma.vm.rzl]]
@@ -126,11 +126,11 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 15 GB
 |-
 | '''Gesamt'''
-| '''8882 MB / 12001 MB (74.01% belegt)'''
+| '''9906 MB / 12001 MB (82.54% belegt)'''
 | '''3 TB / 5.3 TB (57.28% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2014-09-30 00:00:03
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2014-10-05 00:00:03
 
 == Unterseiten ==
 <splist />
