@@ -1,0 +1,159 @@
+*Anwesenheitsliste:
+Ingo, Alex, JayJay, DaFo, Else, Nazco, Nico, Brainfreeze, kite, Cheatha, Oko
+Plenum beginnt um 16:30
+
+'''Alte Themen/Realitätsabgleich:'''
+     
+
+*  Stuhlkissen/Stühle 
+Wurden getauscht
+ 
+*'''  Schrauben-"Nubsis" auf Tisch nerven '''
+Wurde an einem Tisch ausprobiert.
+Ist toll, wollen wir überall.
+Ingo bestellt eine Palette Schrauben.
+
+*Einwurf Stühle
+Else merkt an, dass es nicht schön ist wenn irgendwelche Räume mit irgendwelchen Sachen vollgestellt werden, weil das den Raum abwertet. Warum steht ein Stapel Stühle in der Werkstatt? Wäre schön wenn nicht komplette Räume einfach unbenutzbar gemacht werden
+
+Die Stühle standen im Hauptraum vor der Beamerwand und mussten für den Maus Türöffnertag schnell™ da weg. Bitte wieder zurückräumen.
+
+*Werkstattwagen 
+Wurde angeschafft, ist vorhanden und sogar noch vollständig.
+Ist total cool das Ding. Bitte Werkzeug '''<u>immer</u>''' schön zurücklegen.
+
+*Switch Nebenraum 
+Wurde angeschafft und verbaut. Versorgt den Nebenraum mit Netzwerk.
+
+
+*Garnsortiment Sulky 
+
+Wurde angeschafft. Im alten Getränkelager stehen die Kartons, die wir noch so lange aufbewahren, bis wir eine bessere Verpackung für den Transport des Garns haben. Idee: Ein rollbarer Schrank.
+
+*  Lösung Zugang zum RZL 
+
+Die Lösung vom Getränkelager wurde an die Tür zum Hauptraum gebaut. Funktioniert bis jetzt sehr gut.
+
+*  CNC Fräse 
+
+Ist da, hat 1.456,12€ gekostet und Fabian einige Nerven beim Zoll gekostet. Danke an Fabian dafür!
+
+*
+*  Signalgenerator 
+Ist da, funktioniert.
+
+*  HackRF Zubehör 
+DaFo baut gerade mit oko zusammen am neuen Getränkelager. Danke dafür! Wird nachgetragen. 
+*  Abzugshaube Küche 
+Dieses Modell [http://www.ebay.de/itm//251584274303] wird durch DaFo gekauft.  Ist gekauft! Ist eingebaut! Es fehlen immer noch die Filter!
+
+*  Gaffer Tape 
+Ist da.
+*  Räumt euern Scheiß weg. 
+Never ending Story... Fablab sieht sehr voll aus. Jemand müsste mal…
+
+Werkstatt ist keine Abstellkammer.
+
+*  USV 
+Ist eingebaut und angeschlossen. Shutdownscripte funktionieren. Setup ist dokumentiert!
+Danke ans NOC.
+
+*  Feier zum fünfjährigen Bestehen des RZL 
+Hat sich auf der Mailingliste etwas verlaufen.
+Irgendwann machen wir eine Party.
+
+* Neuinstallation Stick-Laptops 
+Stand unklar, auf dem Pxe Bootserver finden sich neue Daten.
+Am Laser hängt derzeit das 1-er Mindstorms Laptop.
+
+* Aneignung Nebenraum 
+Ist bereits vermietet.
+Ingo meint, dass die direkten Nachbarn eine Medienagentur ist, die mit dem Raum unzufrieden sind. Sie sind anscheinend umgezogen und der Raum wieder frei.
+Anscheinend waren Nachbarn auch mal im Raum gewesen. Leider fanden derzeit sehr laute Arbeiten in der Werkstatt statt. Ob Armir derzeit Musik gemacht hat ist unklar.
+Nico fragt bei Mutlu nach ob der Raum zur Vermietung steht und ob wir eventuell einen kleinen Rabatt bekommen :)
+Irgendwer(tm) macht eine Wiki Seite zur Planung der Einrichtung. Ob wieder 1,2 oder 3 Räume daraus werden.
+
+Während der Planung soll die obere Ebene auch überarbeitet werden, dass der Platz wieder besser genutzt werden kann.
+
+* (Frucht)fliegen im Raum 
+Mehr Putzen wagen. Und Schwämme regelmässig entsorgen. Und Müll rausbringen. 
+Wurde alles getestet, hilft alles super.
+
+* Milben, etc. in dem Eck-Sofa, Entsorgung desselben! Beide Sofa_*xixchrk (außer dem Ledersofa) werden entsorgt. 
+Ist noch nicht entsorgt weil es nicht heruntergebracht wurde. Wird nach dem Plenum erledigt.
+
+*Heutige Themen
+
+*Nebenkostennachzahlung
+Alex weist darauf hin, dass bis 31.12.2014 die Nebenkostenabrechnung von 2013 kommen muss.immer
+Er hat etwas gerechnet und vermutet, dass wir zwischen 1000 und 2000 € Nachzahlnen müssen.
+Wir sollten entsprechend Rücklagen bilden.
+Die hohe Grundlast (Strom) sollte weiter analysiert werden. Feli hatte da einige Stromkreise durchgemessen, der genaue Stand ist aber unklar.
+2012 wurden mehr Nebenkosten überwiesen als vorgesehen, was 2013 nicht mehr getan wurde.
+Es wird darauf hingewiesen, dass es dafür die 5000€ Rücklagen gibt.
+
+*  Waschtrockner 
+Trockner verbraucht viel Strom.
+Die Kombigeräte machen die Sachen nicht 100% trocken sondern nur fast. Man muss die Sachen danach trotzdem kurz aufhängen, bis sie komplett Trocken sind.
+Idealer wäre es, wenn das einschalten der Waschmaschine aktiv kommuniziert wird. 
+Sinnvoll wäre es die Waschmaschine entweder so zu triggern, dass sie fertig ist wenn wieder jemand hier ist, oder andere Benachrichtigungen erzeugt werden, sobald sie fertig ist.
+
+Plenum ist dafúr, mehr Benachrichtigungen zu versuchen. Es wird ein Arduino und ein Ethernetmodul bestellt. Brainfreeze kümmert sich darum.
+
+*
+*Kühlschrank
+Vermutlich braucht einer der Kühlschränke viel zu viel Energie. Sinnvoll: Drei alte Kühlschränke ausmustern, zwei neue, energieeffiziente Geräte anschaffen. Ein Getränkekühlschrank und eine Kühl-Gefrier-Kombination sollten unseren Bedarf abbilden.
+
+Unterbrechung für Pizza.
+
+*  Bäh 
+'''Vorschlag''' von silsha:  Das metalab macht einen täglichen Mini-W&D. Dort gehen alle Lichter  um 21 Uhr in Alarmmodus (der ganze Raum leuchtet Rot auf für 10  Minuten) und es wird 10 Minuten aufgeräumt (Müll weggebracht, Küche  geputzt, Spülmaschine aus- und eingeräumt). (slowestpoke hat sich über die Umsetzung schon Gedanken gemacht.)
+Es wird der Vorschlag von silsha und slowpoke getestet.
+
+*  Overlock-Maschine 
+Gibt eine Dauerleihgabe, vorerst also nicht Notwendig.
+
+*  Pizzastein 
+Ist noch nicht da.
+*  Bass, Bass, wir brauchen Bass 
+
+Cheatha stimmt der grundsätzlichen Situation zu. Er ist dafür, nach dem Congress ein brauchbares Speakerpult anzuschaffen. An dem Pult wären die Ausgänge der Kabelpeitsche fest eingebaut, eine Steuerung für den Beamer und eventuell eine Aufnahmesteuerung für die Kamera angebaut. Damit könnten die Vorträge einfacher durchgeführt und aufgezeichnet werden.
+Das wird zwar etwas teurer, aber dafür auch besser benutzbar als das aktuelle Bastelsetup. In dem Zuge kann dann auch ein passender Receiver angeschafft werden, sofern er notwendig ist. Eventuell reicht auch etwas kleineres oder es wird etwas größeres Angeschafft.
+
+Cheatha macht sich dazu gedanken und wird im neuen Jahr Möglichkeiten vorstelen.
+Das Thema wird bis dahin Vertagt. 
+
+
+*  Einheitliches Behältersortiment 
+Nico weißt darauf hin, dass wegkommende Behälter doof sind.
+Alex ist dafür Dosen zu kaufen, die niemand mitnehmen möchte. Entweder weil sie direkt schon hässlich sind oder entsprechend bearbeitet sind.
+Else schlägt Dosen in RZL-Logo Form vor.
+Die Ikea Dosen sind billig genug, um den Schwund zu verkraften.
+Es werden neue gekauft. Nico kümmert sich drum.
+
+*  Rückbau Getränkelager 
+
+Das Schließsystem wurde am Hauptraum installiert. Wir bauen die Steuerung auch für die weiteren Räume (Lager 1, Lager 2), damit wir genug Erfahrungen sammeln und notfalls Dinge untereinander tauschen können.
+
+Es werden neue Steuerungen gebaut. Wichtig: Alle Schließsysteme sollten gleich sein. Es gibt den Vorschlag, auf Summer umzusteigen.
+
+Abgestimmt werden über 350€ für 3 Schließsysteme.
+Alle sind dafür.
+
+Die Einrichtung des Lagers soll noch geplant werden.
+DaFo schlägt vor die Metallregale unter der Projektionsfläche im Hauptraum in das Lager zu stellen und dafür kleine Schranke an den Platz zu stellen. Würde deutlich aufgeräumter aussehen.
+
+Oko und DaFo kommen herein und vermelden, dass das neue Getränkelager fertig ist. Es wird besichtigt und mit leeren Kisten gefüllt.
+Das Plenum ist für den rollbaren Kleiderständer zu kaufen. Der Rest wird dann nach Planung und bei Bedarf abgestimmt.
+
+*  Anschaffung Tauchsäge 
+ Festool Tauchsäge TS 55 REBQ-Plus-FS, ca. 500€ 
+ Parallelanschlag FS-PA, ca. 150€ 
+ ggf. weiteres Zubehör und Sägeblätter (z.B. für Alu und Kunststoffe) 
+
+Insgesamt geht es um etwa 800€.
+Alle sind dafür. DaFo kümmert sich um die Anschaffung.
+Else fragt ob Taucherbrillen benötigt werden? Ingo möchte Arme und Finger schonen und hätte dann gerne eine Einführung.
+
+
+Das Plenum schließt um 18:30
