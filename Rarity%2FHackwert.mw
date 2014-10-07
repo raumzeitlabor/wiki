@@ -1,0 +1,50 @@
+=== Steckerbeschriftung ===
+
+* LED = Fehler-LED an der Vorderseite der Maschine
+* H = Hauptspindel-Lichtschranke
+* G = Garnverbrauchszähler 
+* N = Nadelwahl-Spindeltrimmer
+
+=== Spannungen am Spindeltrimmer für die Nadelwahl:===
+
+Aufsteigend gemessen:
+
+<pre>
+Minimum: 0.230
+ 1 0.282
+ 2 0.435
+ 3 0.608
+ 4 0.781
+ 5 0.946
+ 6 1.109
+ 7 1.274
+ 8 1.438
+ 9 1.602
+10 1.765
+11 1.921
+12 2.085
+13 2.258
+14 2.421
+15 2.586
+Maximum: 2.664
+</pre>
+
+Absteigend gemessen:
+
+<pre>
+14 2.424
+13 2.610
+12 2.087
+11 1.922
+10 1.768
+ 9 1.604
+ 8 1.440
+ 7 1.275
+ 6 1.112
+ 5 0.948
+ 4 0.784
+ 3 0.611
+ 2 0.438
+ 1 0.282
+Minimum: 0.229
+</pre>
