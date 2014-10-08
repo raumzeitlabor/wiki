@@ -30,8 +30,60 @@ Im Projekt wurde auch eine kleine Schaltung zur Erkennung von Umblätterfehlern 
 
 Der auf der Maker Faire in Hannover gezeigte Prototyp enthielt noch keine Scanzeile.
 
-* 
-
-
-
 * [http://linearbookscanner.org/designs/maqadat/ Mäqädat Projekt Hannover (2014)]
+
+== Anfängliche Überlegungen ==
+
+=== Digitale Kamera statt Scanzeile ===
+
+In einer ersten Designstudie wurde untersucht, ob die Scanzeile durch eine digitale Kamera ersetzt werden kann. Allerdings ergeben die Bilder eine nur mäßige Auflösung (220 dpi) und es traten erhebliche technische Probleme auf (Weißabgleich, Entfernung Kamera - Buch (Fokussierung), Umgang mit verschieden großen Büchern, Parametrisierung der Kamera, Reflexionen durch die notwendige Beleuchtung, etc.). Auf dieser Grundlage wurde der Entwurf verworfen.
+
+== Prototyp RZL 0.1 ==
+
+=== Scanzeile ===
+
+Als nächsten Schritt haben wir den Entwickler der ersten beiden Prototypen (Dany Qumsiyeh) kontaktiert. Von ihm kam der Tipp, einen Canon CanoScan LiDE 210 zu verwenden. Die folgende Anleitung hat er geliefert:
+
+==== Ausbau aus einem Canon CanoScan LiDE 210 ====
+
+The LiDE is a very simple scanner, and you only need to retrieve three parts: the scanbar, the circuit board, and the wide ribbon cable that connects them.
+
+To remove the glass platen, first pry off the two strips of plastic that are glued along the long edges of the glass, then you can lift it up.
+
+To remove the center track, there are three screws in front and three screws in back, hidden under adhesive covers.
+
+To remove the ribbon cable, you have to peel it off of the bottom of the scanner. The ribbon cable is fragile and this is the most difficult part. Try not to bend it at a sharp angle, and be very careful at the point where the ribbon cable is folded over.
+
+The scanbar and the circuit board should come out easily. Just try not to touch the front of the scanbar where the lenses are.
+
+The Canon driver probably won't work after taking it apart, but SANE should work if you just hook up those three parts. When you first start to scan, the sensor needs to calibrate against a white surface, so to test it I would put it beneath the glass with a piece of paper on top.
+
+==== Ergebnisse ====
+
+Die Scanzeile ließ sich gemäß dieser Anleitung einwandfrei ausbauen, allerdings scheint das Folienkabel dabei einen Schlag abbekommen zu haben. Die Scanzeile ließ sich unter SANE ansprechen und scannte auch $irgendwas, allerdings mit variablem Streifenmuster.
+
+Auch ein Austausch des Folienkabels durch ein aufgelötetes Flachbandkabel konnte das Problem trotz sorgfältiger Arbeitsweise und Qualitätskontrolle nicht lösen.
+
+==== Nächste Schritte ====
+
+* Suche nach einen anderen 10-poligen Folienkabel als Ersatz
+* Kürzen des defekten Folienkabels
+* Kontaktieren von Dany mit konkreter Fehlerbeschreibung
+
+=== Korpus ===
+
+* dünne MDF-Platte, Schlitz per Hand zugesägt
+* 60°-Winkel vom Schreiner
+* Reisefön als Pustefix
+
+=== Steuerung ===
+
+* PCDuino oder Raspberry Pi (B+)
+
+=== Schlitten/Buchbewegung ===
+
+* Zunächst manuell, später mit LEGO Mindstorms bzw. per 3D-Drucker gedrucktem Rahmen oder ausgelaserten Holzstücken (Ingo mag helfen:-)
+
+=== Zeitplan ===
+
+* Funktionsfähiger Prototyp bis Weihnachten 2014
