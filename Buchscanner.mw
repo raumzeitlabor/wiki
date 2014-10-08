@@ -2,7 +2,7 @@
 |name        = Buchscanner
 |status      = experimental
 |image       = bild_folgt.jpg
-|description = LEGO Mindstorms Workshops im Rahmen des Agenda Diploms 2014 und darüber hinaus
+|description = Linearer Buchscanner zum automatischen Scannen von Büchern bis zu einem Format von A4 (pro Einzelseite)
 |author      = [[user:oko|oko]],[[user:milhouse|milhouse]],[[Benutzer:christian|christian]]
 |username    = 
 |version     = 0.1
