@@ -1,0 +1,37 @@
+== Allgemeines ==
+
+Das Scannen von Büchern ist eine leider immer noch notwendige Tätigkeit mit hohem manuellem Aufwand (Zeit, Arbeit). Ziel des Projektes ist es, diesen Aufwand durch Automatisierung zu reduzieren.
+
+Es wurden im Vorfeld verschiedene Scannertypen untersucht, bei einer intensiven Analyse der Stärken und Schwächen hat sich das Projekt dazu entschieden einen linearen Buchscanner nach Vorbild der frühen Entwürfe eines ehemaligen Google-Mitarbeiters zu bauen.
+
+== Ähnliche Projekte ==
+
+[http://linearbookscanner.org/designs/ Übersicht]
+
+=== "Google"-Entwürfe von Dany Qumsiyeh ===
+
+Die ersten beiden Entwürfe (Prototype 1 und Prototype 2) basieren auf einer sehr aufwändigen Metallkonstruktion. Zum Umblättern wurde ein kombiniertes Über-/Unterdrucksystem genutzt, das durch einen Staubsauger angetrieben wurde. Als Scanzeile wurde ein Canon CanoScan LiDE 210 verwendet.
+
+* [http://linearbookscanner.org/designs/p1/ Prototype 1 (2012)]
+* [http://linearbookscanner.org/designs/p2/ Prototype 2 (2012)]
+
+=== Michigan Entwürfe ===
+
+Als universitäres Projekt haben auf Grundlage der "Google"-Entwürfe zwei studentische Teams unterschiedliche Prototypen gebaut, diese wurden aus Kunststoff gefertigt und verwenden im Grunde dieselbe Technik wie die ursprünglichen Entwürfe.
+
+* [http://linearbookscanner.org/designs/m1/ Michigan Prototype 1 (2013)]
+* [http://linearbookscanner.org/designs/m2/ Michigan Prototype 1 (2014)]
+
+=== Mäqädat Projekt Hannover ===
+
+Im Unterschied zu den bisherigen Entwürfen besteht der Scanner aus Hannover aus einfachen Materialien (Holz) und nutzt kein kombiniertes Über-/Unterdrucksystem, sondern bläst von hinten Luft an die Buchseiten, um diese vom restlichen Buch zu trennen ([https://en.wikipedia.org/wiki/Coand%C4%83_effect Coandă effect]). Das Projektteam hat diesen Entwurf bisher erfolgreich anhand von Magazinen (Heise Hardware Hacks) getestet, allerdings reicht der Luftstrom (Reisefön) derzeit nicht aus, um dicke Buchseiten umzublättern.
+
+Im Projekt wurde auch eine kleine Schaltung zur Erkennung von Umblätterfehlern (zuviele/zuwenige Seiten) gebaut, die sehr interessant aussieht. 
+
+Der auf der Maker Faire in Hannover gezeigte Prototyp enthielt noch keine Scanzeile.
+
+* 
+
+
+
+* [http://linearbookscanner.org/designs/maqadat/ Mäqädat Projekt Hannover (2014)]
