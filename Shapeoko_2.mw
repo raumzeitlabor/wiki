@@ -34,7 +34,9 @@ Wir haben:
 * Eine [https://www.inventables.com/technologies/er11-a-collets-nuts-and-wrenches zusätzliche Halterung] für andere Fräser Durchmesser
 * Ein [https://www.inventables.com/technologies/solid-carbide-1f-engraving V-Bit Fräser] für sehr feine Arbeiten (hint: Platinen)
 * 8 [https://www.inventables.com/technologies/microswitch Mikrotaster] als Homing und Endstopps, damit die Maschine weiß, wo sie endet
-* Und einen [https://www.inventables.com/technologies/tinyg-cnc-controller TinyG CNC Controller] der Endstopps kann und deutlich mehr kann als ein g-shield ([https://www.synthetos.com/project/tinyg/ noch mehr info])
+* einen [https://www.inventables.com/technologies/tinyg-cnc-controller TinyG CNC Controller] der Endstopps kann und deutlich mehr kann als ein g-shield ([https://www.synthetos.com/project/tinyg/ noch mehr info])
+* Das [http://shop.shapeoko.com/collections/frontpage/products/shapeoko-2-acme-upgrade-1 ACME Z-Achsen upgrade]
+* Die [http://shop.shapeoko.com/collections/frontpage/products/shapeoko-side-shields Side shields zum Schutz der Achsen vor Dreck]
 
 Durch den TinyG Controller können wir die 300W Spindel im G-Code Speed controllen und an/ab-schalten!
 
