@@ -5,3 +5,15 @@
 <pre>
 RASPBERRY PI B+;1
 </pre>
+
+== steeph braucht ==
+
+<pre>
+MPR 20,0;3
+ISOBAND 19 GE;1
+ISOBAND 19 RT;2
+ISOBAND 19 SW;5
+ISOBAND 19 WS;2
+AD 8400 AR-10;2
+2N 3904;10
+</pre>
