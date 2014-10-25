@@ -1,15 +1,7 @@
-{| style="background: #FEEFB3; border: 1px solid #9F6000"
-|style="width: 40px"| [[Datei:64px-UnderCon icon.png|64px|Ich hab keine anderes Icon gefunden]]
-|'''Hinweis für Mitbesteller:''' Bitte den Warenkorb exportieren, damit er später leicht mit den anderen zusammengeführt werden kann.
-|}<br>
-{| style="background: #FEEFB3; border: 1px solid #9F6000"
-|style="width: 40px"| [[Datei:64px-UnderCon icon.png|64px|Ich hab keine anderes Icon gefunden]]
-|'''Hinweis für Besteller:''' Bitte die Seite umkopieren (siehe [[Sammelbestellungen/Reichelt]]) und mit der [[Sammelbestellungen/Reichelt/Vorlage]] ersetzen.
-|}<br>
+= Reichelt Sammelbestellung =
 
-== $besteller1 braucht ==
+== nazco braucht ==
 
 <pre>
-NUMMER;ANZAHL
-NUMMER;ANZAHL
+RASPBERRY PI+;1
 </pre>
