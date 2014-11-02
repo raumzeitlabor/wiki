@@ -115,6 +115,8 @@ DNS: ultimaker.rzl
 == Hints ==
 * Firmware flashen mit:
       avrdude -v -p atmega2560 -b 115200 -c stk500v2 -P /dev/ttyACM0 -U flash:w:foo.hex
+* Um die Steps per E messen zu koennen sollte Cold Extrusion aktiviert werden:
+      GCode: M302
 
 == Wartung ==
 
