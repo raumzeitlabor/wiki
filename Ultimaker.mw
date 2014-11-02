@@ -60,7 +60,10 @@ Auf der Seite http://www.willit3dprint.com/ kann ein fertig designtes Objekt im 
 Die Seite eignet sich, durch den gut funktionierenden Viewer, sehr gut, um schnell ein Modell von Thingiverse etwas genauer zu begutachten.
 
 === Meshlab ===
-[http://meshlab.sourceforge.net/ Meshlab] kann 3D-Modelle importieren und verändern. So ist es zum Beispiel möglich fertige .stl Dateien nachträglich zu verändern. Das kann nützlich sein um Support hinzuzufügen, einen Durchmesser an einem Loch zu ändern oder ein Modell, das nicht überall geschlossen ist, zu reparieren.
+[http://meshlab.sourceforge.net/ Meshlab] kann 3D-Modelle importieren und verändern. 
+So ist es zum Beispiel möglich fertige .stl Dateien nachträglich zu verändern.
+
+Das kann nützlich sein um Support hinzuzufügen, einen Durchmesser an einem Loch zu ändern oder ein Modell, das nicht überall geschlossen ist, zu reparieren.
 
 == Slicer ==
 Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerdem müssen wichtige Parameter wie  Temperaturen, Supportstrukturen, Geschwindigkeiten etc. eingestellt werden. Ein Slicer wandelt das 3D Modell vom STL-File in ein zweidimensionales Schichtenmodell um.
