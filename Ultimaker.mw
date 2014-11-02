@@ -148,8 +148,9 @@ DNS: ultimaker.rzl
 == Troubleshooting ==
 
 * PLA bleibt hängen
-** Prüfen, ob die Temperatur beim Druck zu stark runtergeht und dadurch kein PLA mehr extrudiert werden kann
-** Prüfen, ob das PLA am Feeder durchrutscht. Ursache kann ein eingedrücktes Anpressstück sein (das Teil, welches gegen das PLA von hinten drückt)
+** Prüfen, ob die Temperatur beim Druck zu stark absinkt und dadurch kein PLA mehr extrudiert werden kann
+** Stimmen die Steps-per-E Slicer Einstellungen?
+** Prüfen, ob das PLA am Feeder durchrutscht
 ** Prüfen, ob die Düse verstopft ist
 
 == Ersatzteile ==
