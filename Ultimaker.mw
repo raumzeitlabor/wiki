@@ -113,7 +113,6 @@ DNS: ultimaker.rzl
 </pre>
 
 == Hints ==
-* Eine Schichtdicke von 0,2 mm hat sich bewährt. Größere Schichtdicken eventuell möglich, dazu muss allerdings wesentlich mehr Material extrudiert werden.
 * Firmware flashen mit:
       avrdude -v -p atmega2560 -b 115200 -c stk500v2 -P /dev/ttyACM0 -U flash:w:foo.hex
 
