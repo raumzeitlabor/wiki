@@ -20,12 +20,12 @@
 * Achte darauf, dass das Heated Bed nicht angesteuert wird, wenn es nicht montiert ist
 *'''Wenn was schief geht (z.B.: Material steckt fest) und kein Ansprechpartner da ist: Mail an die Liste'''
 *'''Wenn der Drucker absehbar fuer laengere Zeit nicht zu benutzen ist: Mail an die Liste'''
-*'''Vermerke langfristige Aenderungen am Aufbau im Changelog.'''
+*'''Vermerke langfristige Aenderungen am Aufbau hier im Wiki und schicke eine Info Mail an die Liste :-).'''
 
 * Nicht ohne Kalibrierung drucken!
 ** Pruefe mit der Auto-Home Funktion ob der Drucker korrekt kalibriert ist
 ** X und Y Achsen duerfen nicht anstossen
-** Abstand vom Druckkopf zur Z-Achse sollte max 0,3mm betragen (je nach Slicer-Einstellung)
+** Abstand vom Druckkopf zur Z-Achse sollte 0,3mm betragen.
 ** Bei einer angemessenen Temperatur laesst sich Problemlos Material extrudieren (PLA: ~190 Grad)
 
 ===Nach dem Druck===
