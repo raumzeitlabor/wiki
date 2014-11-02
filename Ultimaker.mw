@@ -82,8 +82,8 @@ Die dabei entstanden Druckanweisungen werden in G-Code Dateien gespeichert.
 ** Printing Temperature: PLA: ~ 205C
 ** Fill Density: 30% reichen normalerweise aus
 ** Initial Layer Thickness: 0.2mm. Genauso muss aber auch das Bett kalibriert sein.
-**''' Machine Settings: E-Steps per 1mm filament: 415 Steps per E
-'''
+**''' Machine Settings: E-Steps per 1mm filament: 415 Steps per E'''
+** Expert Settings: Fan Cooling: 8% / 15%
 
 === Slic3r===
 * Homepage: [http://slic3r.org/ http://slic3r.org/]
