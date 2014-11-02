@@ -143,25 +143,6 @@ DNS: ultimaker.rzl
 | 1.5.6 JJ/SW/EdB
 |}
 
-=== Druck ===
-
-{| class="wikitable"
-! Typ
-! Wert
-|-
-| Filament
-| 415 steps per E
-|-
-| Temperatur PLA
-| 200°C - 220°C 
-|-
-|Nozzle Size
-| 0.4mm
-|-
-|Layer Height:
-| 0.2mm (oder 0.1mm je nach Kalibrierung)
-|}
-
 == Changelog ==
 
 {| class="wikitable"
