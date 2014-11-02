@@ -79,6 +79,7 @@ Die dabei entstanden Druckanweisungen werden in G-Code Dateien gespeichert.
 ==== Cura Settings ====
 * Cura laeuft weitestgehend mit den Standardeinstellungen.
 ** Print Speed: '''Maximal''' 120 mm/s
+** Printing Temperature: PLA: ~ 205C
 ** Fill Density: 30% reichen normalerweise aus
 ** Initial Layer Thickness: 0.2mm. Genauso muss aber auch das Bett kalibriert sein.
 **''' Machine Settings: E-Steps per 1mm filament: 415 Steps per E
