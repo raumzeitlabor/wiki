@@ -137,10 +137,13 @@ DNS: ultimaker.rzl
 |-
 | Firmware-Version
 | Marlin GIT mit [http://daid.mine.nu/~daid/marlin_build/index.php?build=1&baudrate=115200&maxFeedX=250&maxFeedY=250&maxFeedZ=5&maxFeedE=45&maxAccelX=9000&maxAccelY=9000&maxAccelZ=300&maxAccelE=10000&homeFeedrateX=50&homeFeedrateY=50&homeFeedrateZ=4&maxXlength=205&maxYlength=205&maxZlength=200&enablePID=1&PID_Kp=22.2&PID_Ki=1.08&PID_Kd=114&enablePIDextrusion=1&PID_Kc=1&extrudeMinTemp=190&maxTemp=275&tempHysteresis=3&tempResidencyTime=10&tempAD595gain=1.0&tempAD595offset=0.0&fastPwmFan=1&boardType=7&arduino=4&heater0=100&heater1=-1&heater2=-1&heaterbed=1&endstopPullups=1&endstopInvert=1&enableLow=1&invertX=1&invertZ=1&stepsX=78.7402&stepsY=78.7402&stepsZ=533.333333333&stepsE=865.888&ultiController=1&sdSupport=1 dieser Konfiguration]
-| Firmware Version [http://marlinbuilder.robotfuzz.com/ Firmware Builder]
+[http://marlinbuilder.robotfuzz.com/ Neuer Firmware Builder]
 |-
 | Mainboard-Revision
 | 1.5.6 JJ/SW/EdB
+|-
+| Baud Rate
+| 38400
 |}
 
 == Changelog ==
