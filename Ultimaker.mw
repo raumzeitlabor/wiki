@@ -66,29 +66,26 @@ So ist es zum Beispiel möglich fertige .stl Dateien nachträglich zu verändern
 Das kann nützlich sein um Support hinzuzufügen, einen Durchmesser an einem Loch zu ändern oder ein Modell, das nicht überall geschlossen ist, zu reparieren.
 
 == Slicer ==
-Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerdem müssen wichtige Parameter wie  Temperaturen, Supportstrukturen, Geschwindigkeiten etc. eingestellt werden. Ein Slicer wandelt das 3D Modell vom STL-File in ein zweidimensionales Schichtenmodell um.
+Vor dem Druck muss das erstellte Modell in Schichten geschnitten werden. Außerdem müssen wichtige Parameter wie Temperaturen, Supportstrukturen, Geschwindigkeiten etc. eingestellt werden.
+
+Ein Slicer wandelt das 3D Modell vom STL-File in ein zweidimensionales Schichtenmodell um.
 
 Die dabei entstanden Druckanweisungen werden in G-Code Dateien gespeichert.
 
-Folgende Slicer sind brauchbar:
-
 === Cura ===
-* Website: http://daid.github.com/Cura/
-* Unter OSX muss der User zur Gruppe weel gehören, sonst kann Cura nicht auf den Port zugreifen.
-* Cura läuft auch unter FreeBSD, wenn man das vorkompilierte pypy aus dem Cura Verzeichnis löscht. Das Slicen wird dann durch Python durchgeführt. Das ist deutlich langsamer, aber es geht.
+* Website: [https://www.ultimaker.com/pages/support/manuals https://www.ultimaker.com/pages/support/manuals]
+* Offizieller Ultimaker Slicer
 
-==== Cura Profile ====
-* Eine Version die bei der 20mm Testbox gar nicht so schlechte Ergebnisse brachte: [[Datei:Profil pla magenta 140712.ini]]
-* Neue Version mit einigen Verbesserungen. Das Material wird beim neu positionieren des Extruders ein stück zurückgezogen, um die Bildung von Fäden zu vermeiden. Funktioniert sehr gut mit dem Transparent-Blauen PLA. [[Datei:Cura_Profile_Feli-test-2012-07-20.ini]]
-* [[Ultimaker/Testreihen|Testreihen]] inklusive Configs mit [http://www.thingiverse.com/thing:24238 dieser Pyramide]
-* In Cura in den Standard-Mode gehen und bei Distance (mm) 2.0 eingeben sowie "Extra Length on Start" 0.1mm. Dies bedeutet, daß nach einer Retraction zusätzlich 0.1mm Material gedrückt wird. [[Benutzer:Felicitus|Felicitus]] hat ohne die zusätzliche Retraction sehr schlechte, mit der zusätzlichen Retraction brilliante Ergebnisse erzielt.
+==== Cura Settings ====
+* Cura laeuft weitestgehend mit den Standardeinstellungen.
+** Print Speed: '''Maximal''' 120 mm/s
+** Fill Density: 30% reichen normalerweise aus
+** Initial Layer Thickness: 0.2mm. Genauso muss aber auch das Bett kalibriert sein.
+**''' Machine Settings: E-Steps per 1mm filament: 415 Steps per E
+'''
 
 === Slic3r===
-* Wesentlich schneller als Cura http://slic3r.org/
-* Einige nützliche optionen mehr. Zum Beispiel das kurze absenken der Z-Achse beim neu positionieren des Extruders.
-
-==== Slic3r Profile ====
-* Brauchbare Profildatei. Liefert im Moment schlechtere Ergebnisse als Cura. [[Datei:Slicer_Profile_Slic3r.ini]]
+* Homepage: [http://slic3r.org/ http://slic3r.org/]
 
 == Drucker SD-Karte ==
 
