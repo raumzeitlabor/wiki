@@ -91,12 +91,12 @@ Alexander fragt bei Schinken nach, was ein Flightcase in der passenden Größe k
 
 === Stickmaschinenhack ===
 
-Ich würde gerne die Stickmaschine hacken:
+ABrock würde gerne die Stickmaschine hacken:
 * Stichcounter
 * Stichcounter pro Nadelposition
 * Rücksetzbarer Stichcounter pro Nadel
 * Exakte Garnverbrauchsmessung
-Ich brauche dafür einen Pi, eine SD-Karte, einen Haufen Stecker, ein paar Atmels, Streifenrasterplatine und Kleinkram, sollte <= 100€ kosten.
+ABrock braucht dafür einen Pi, eine SD-Karte, einen Haufen Stecker, ein paar Atmels, Streifenrasterplatine und Kleinkram, sollte <= 100€ kosten.
 Konsens: Wird gemacht.
 
 === Lasernotebook===
