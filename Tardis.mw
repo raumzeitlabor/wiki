@@ -34,7 +34,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 {| class="wikitable"
 |0x00<br>Laborant: Alexander
 |0x10<br>leer
-|0x20<br>leer
+|0x20<br>Laborant: Dr. Ahti
 |0x30<br>Laborant: slowpoke
 |0x40<br>Laborant: slowpoke
 |0x50<br>Laborant: Inte
@@ -42,7 +42,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |-
 |0x01<br>Laborant: Alexander
 |0x11<br>Laborant: blabber
-|0x21<br>Laborant: drahti?
+|0x21<br>Laborant: Dr. Ahti
 |0x31<br>Laborant: slowpoke
 |0x41<br>Laborant: slowpoke
 |0x51<br>Laborant: Inte (leer)
