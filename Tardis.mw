@@ -192,16 +192,16 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x72<br>leer
 |0x82<br>leer
 |0x92<br>leer
-|0xA1<br>leer
+|0xA2<br>Kinder-Farben
 |-
 |0x73<br>Netzteil
-|0x83<br>leer
-|0x93<br>leer
-|0xA3<br>leer
+|0x83<br>Holz-Lager
+|0x93<br>Holz-Reste
+|0xA3<br>Pinsel & Farben
 |-
 |0x74<br>Walsonde
-|0x84<br>leer
-|0x94<br>leer
+|0x84<br>Holzponies
+|0x94<br>Holzponies
 |0xA4<br>leer
 |-
 |0x75<br>E-Bauteile
@@ -250,12 +250,12 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0xAD<br>Stoffkrams
 |-
 |0x7E<br>Laborant: naddie
-|0x8E<br>leer
+|0x8E<br>Stickrahmen
 |0x9E<br>Stickbedarf
 |0xAE<br>Stickbeispiele
 |-
 |0x7F<br>leer
-|0x8F<br>leer
+|0x8F<br>Stickrahmen
 |0x9F<br>Stoff (?)
 |0xAF<br>Stickzubehör
 |-
