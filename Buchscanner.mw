@@ -116,3 +116,14 @@ Laut Canon Homepage dauert ein A4 Farbscan in 300dpi 10 Sekunden.
 === Zeitplan ===
 
 * Funktionsfähiger Prototyp bis Weihnachten 2014
+
+=== Update 11.11.2014 ===
+
+* Der Kompressor ist eine zuverlässige und regelbare Luftquelle
+* Grunddesign ist o.k, vermutlich ist der Ausfädelschlitz zu breit (beim Umblättern werden viele Seiten eingezogen)
+* Beim einziehen der Seite stößt das Buch an die Oberkante des hinteren Korpusteils, prüfen ob Flächen parallel sind
+
+Todos für nächste Woche:
+
+* Bau eines Schlittens mit dem Metallbausatz
+* Optimierung Luftführung und Korpus allgemein
