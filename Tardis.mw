@@ -162,8 +162,8 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |-
 |0x0G<br>Elektroinstallation
 |0x1G<br>Netzwerkkabel
-|0x2G<br>Schubladeninnenteile
-|0x3G<br>Schubladeninnenteile
+|0x2G<br>'''free'''
+|0x3G<br>'''free'''
 |0x4G<br>Laborant: mxf
 |0x5G<br>Laborant: Unicorn
 |0x6G<br>defekt
@@ -262,6 +262,6 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x7G<br>'''free'''
 |0x8G<br>'''free'''
 |0x9G<br>Folie (?)
-|0xAG<br>Schubladenteile
+|0xAG<br>Schubladenteile (kunststoff+Schrauben; die Blechteile sind im Textillager)
 |-
 |}
