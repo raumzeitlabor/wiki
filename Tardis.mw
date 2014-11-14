@@ -179,19 +179,19 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 * sollte für Projekte und Fablab-Material vorbehalten bleiben
 
 {| class="wikitable"
-|0x70<br>leer
-|0x80<br>leer
-|0x90<br>leer
-|0xA0<br>leer
+|0x70<br>'''free'''
+|0x80<br>'''free'''
+|0x90<br>'''free'''
+|0xA0<br>'''free'''
 |-
-|0x71<br>leer
-|0x81<br>leer
-|0x91<br>leer
-|0xA1<br>leer
+|0x71<br>'''free'''
+|0x81<br>'''free'''
+|0x91<br>'''free'''
+|0xA1<br>'''free'''
 |-
-|0x72<br>leer
-|0x82<br>leer
-|0x92<br>leer
+|0x72<br>'''free'''
+|0x82<br>'''free'''
+|0x92<br>'''free'''
 |0xA2<br>Kinder-Farben
 |-
 |0x73<br>Netzteil
@@ -240,11 +240,11 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0xAB<br>Ultimaker
 |-
 |0x7C<br>Türschließer
-|0x8C<br>leer
+|0x8C<br>'''free'''
 |0x9C<br>MRMCD
 |0xAC<br>Ultimaker
 |-
-|0x7D<br>leer
+|0x7D<br>'''free'''
 |0x8D<br>Agenda Diplom
 |0x9D<br>Stickbedarf
 |0xAD<br>Stoffkrams
@@ -254,13 +254,13 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x9E<br>Stickbedarf
 |0xAE<br>Stickbeispiele
 |-
-|0x7F<br>leer
+|0x7F<br>'''free'''
 |0x8F<br>Stickrahmen
 |0x9F<br>Stoff (?)
 |0xAF<br>Stickzubehör
 |-
-|0x7G<br>leer
-|0x8G<br>leer
+|0x7G<br>'''free'''
+|0x8G<br>'''free'''
 |0x9G<br>Folie (?)
 |0xAG<br>Schubladenteile
 |-
