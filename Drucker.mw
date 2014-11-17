@@ -25,19 +25,6 @@
 
 
 
-== Brother P-touch QL-500 ==
-[[Datei:Labeldrucker QL500.JPG|left|150px]]
-{|
-|
-* Angeschlossen an [[Mate (Server)]]
-* Freigegeben über [http://mate.rzl:631/printers/Brother_QL-500 http://mate.rzl:631/printers/Brother_QL-500]
-* '''Vor dem Druck einschalten und danach wieder ausschalten!'''
-* Du kannst diesen Drucker zwar über die Linux-Software [http://www.glabels.org glabels] ansteuern, allerdings wird die Benutzung der Brother P-Touch-Software unter Windows empfohlen.
-* Verbrauchsmaterial befindet sich in Schublade 0x2f
-* Dauerleihgabe von [[Benutzer:Felicitus|Felicitus]]
-* Serial E68680-H0G279521 (nur die Stellen nach dem Bindestrich für Download benötigt)
-|}
-
 == Brother P-Touch 2430PC ==
 [[Datei:Brother P-Touch 2430PC.jpg|left|75px]]
 {|
