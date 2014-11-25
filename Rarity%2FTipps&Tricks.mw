@@ -9,3 +9,7 @@ Stelle sicher, dass der Oberfaden richtig durch die Maschine läuft.
 
 Bei mir lag das Problem im Abwickeln des Fadens vonder Spule. Bei den 4000m Spulen kommt es im Bereich der "Wendepunkte" oft zu Problemen.
 Spannt sich der Faden zwischen Spule und der oberen Fadenführung (Höchste Stelle der Maschine), kurz den Faden greifen und über den kleinen Widerstand nach oben ziehen. Macht man das schnell genug, spart man sich einige Einfädelarbeit.
+
+=== Die Maschine zeigt den USB-Stick zwar an aber keine Inhalte obwohl der Stick mit FAT 32 formatiert ist ===
+
+Die ID der Partition muss "W95 FAT32" (in fdisk: b) sein.
