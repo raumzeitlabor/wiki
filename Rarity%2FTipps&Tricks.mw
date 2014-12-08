@@ -13,3 +13,7 @@ Spannt sich der Faden zwischen Spule und der oberen Fadenführung (Höchste Stel
 === Die Maschine zeigt den USB-Stick zwar an aber keine Inhalte obwohl der Stick mit FAT 32 formatiert ist ===
 
 Die ID der Partition muss "W95 FAT32" (in fdisk: b) sein.
+
+== Weblinks ==
+
+[http://www.stickerei.cc/index.php/geetex-blog/blog/entry/stickerei/stickerei-und-stickmaschinen stickerei.cc]
