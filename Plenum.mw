@@ -59,6 +59,32 @@ Ich bin mit der Recherche noch lange nicht durch, dokumentiere aber schonmal die
 
 --[[Benutzer:Alexander Brock|Alexander Brock]] ([[Benutzer Diskussion:Alexander Brock|Diskussion]]) 18:56, 5. Jan. 2015 (CET)
 
+=== Teile für CNC-Fräse und Lichtsteuerung ===
+<pre>
+in diesem Jahr baut [[Benutzer:Felicitus|Felicitus]] an der Lichtsteuerung und CNC-Fräse weiter.
+Dazu braucht er folgende Teile:
+
+2x Raspberry Pi inkl. Gehäuse+Netzteil für je 54,95€, um den
+DMX/RDM-Entwicklungsaufwand zu umgehen und die Lichtsteuerung direkt
+via Seriell zu schalten [1]
+
+10m Schleppkettenkabel, Meterpreis 4,12€ [2]. Das ist für
+Schleppketten geeignet, wie wir sie für unseren Kabelschlepp an der
+CNC-Fräse brauchen.
+
+D-Sub-37 Stecker/Buchse für Verbindung von CNC-Fräse mit Elektronik.
+Stecker/Buchse mit Lötkelch von Harting mit 7,5A Kontaktbelastbarkeit,
+je ca. 10€ [3] [4]
+
+[1]
+http://www.pollin.de/shop/dt/ODc4NzkyOTk-/Bausaetze_Module/Entwicklerboards/Raspberry_Pi_Hutschienen_Set.html
+[2]
+http://www.conrad.de/ce/de/product/608133/?insert=88&insertNoDeeplink&productname=Schleppkettenleitung-OeLFLEX-CHAIN-808-CP-5-G-075-mm-Grau-LappKabel-1027762-Meterware
+[3]
+http://www.conrad.de/ce/de/product/742454/D-SUB-Stiftleiste-180-Polzahl-37-Loetkelch-Harting-09-67-037-5615-1-St?ref=searchDetail
+[4]
+http://www.conrad.de/ce/de/product/742521/D-SUB-Buchsenleiste-180-Polzahl-37-Loetkelch-Harting-09-67-037-4715-1-St?ref=searchDetail
+</pre>
 === Weltherrschaft ===
 Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
 
