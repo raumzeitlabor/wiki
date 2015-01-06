@@ -1,3 +1,34 @@
+== Mechanische Verbesserungen ==
+
+=== Höhe der Rahmen ===
+
+Problem: Die Rahmen drücken die Textilien auf die Stichplatte, das führt zu Verzug.
+
+Lösungsansatz 1: Weiße Plastik-Laser-Teile sorgen dafür, dass die Rahmen 2mm höher liegen.
+
+Problem: Die Höhe des Rahmens über der Stichplatte ist abhängig von der Y-Position des Rahmens.
+
+Lösungsansatz 2: Die weißen Plastikteile durch keilförmige Aluminiumteile ersetzen.
+
+* Bei ganz nach vorne gefahrenem normalen Rechteckrahmen sind es mit den weißen Plastikteilen 4.44mm.
+* Bei fast ganz nach hinten gefahrenem Rahmen (300mm) etwa -1.78mm.
+* Differenz: 6.22mm.
+* Winkel: 1.18776°
+* Länge des benötigten Keils: 135mm (incl. absichtlichem Übermaß)
+* Höhendifferenz des benötigten Keils: 2.8mm.
+
+Messungen mit dem ganz großen Rahmen:
+* Bei fast ganz nach hinten gefahrenem Rahmen: -6.09mm
+* Bei ganz nach vorne gefahrenem Rahmen (355.8mm): 3.81mm
+* Differenz: 9.9mm
+* Winkel: 1.5938°
+* Höhendifferenz des benötigten Keils: 3.8mm.
+
+
+
+
+== Anbindung an die Cloud[tm] ==
+
 === Steckerbeschriftung ===
 
 * LED = Fehler-LED an der Vorderseite der Maschine
