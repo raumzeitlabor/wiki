@@ -13,78 +13,7 @@
 
 == Themen für das nächste Plenum ==
 
-=== Schwund im Konsolenregal ===
 
-von [[User:Slowpoke|slowpoke]] & [[User:Brainfreeze|Brainfreeze]]
-
-Wie vielleicht einige schon mitgekriegt haben, scheint im Konsolenregal hin und wieder Zeug zu verschwinden. Manchmal mag das sicher Verpeilung sein - einiges ist auch nach einer Weile wieder aufgetaucht, manches mögen die Eigentümer*innen auch einfach wieder mitgenommen haben - aber einiges fehlt jetzt auch schon länger und ist vermutlich einfach weg (ich vermisse zB seit einer ganzen Weile meine Wii, ich dachte aber bisher, das sei ein unglücklicher Einzelfall gewesen). Es liegen zB seit einer Weile nur noch 3 GameCube-Controller oben (wir hatten mal mindestens 4), einige Spiele scheinen auch weg zu sein, und von dem Kram, den Zwetschgo vor kurzem abgeholt hat, fehlen 2 PS2-Controller.
-
-Erstmal: ich will keine Vorwürfe in den Raum stellen - besonders keine schwerwiegenden wie Diebstahl. Wir werden zeitnah eine gründliche Inventur machen und Besitzverhältnisse von möglichst allem Zeug oben klären, bevor wir weitersehen. Ausserdem erwarten wir, dass der Raum zu allererst Mal 70€ dafür ausgibt, um Zwetschgo [http://www.amazon.de/Playstation-Controller-Dual-Shock-schwarz/dp/B0000541B2/ref=sr_1_2?ie=UTF8&qid=1420192602&sr=8-2&keywords=playstation+2+controller%7Cneue&tag=raumzeitlabor-21 2 neue Controller] zu kaufen.
-
-=== Töte mich! ===
-
-von [[User:Kühlschrank|Kühlschrank]]
-
-
-Der Mitgliederkühlschrank macht ekelhafte Geräusche (siehe [[Datei:Kuehlschrank.mp4]], mit Kopfhörern hörbar) und wir hatten uns eigentlich schonmal darum bemüht, einen neuen anzuschaffen. Was ist daraus geworden? Langsam könnte es ernst werden.
-
-=== CCCamp 2015 ===
-
-von [[User:DancingFo|DancingFo]]
-
-Es steht dieses Jahr wieder das Camp an. Diesmal nicht in Finowfurt sondern in der Ziegelei Mildenberg.
-
-Es wäre eine tolle Sache wenn wir gemeinsam mit anderen Gruppen ( Stratum0,Chaoswelle,NG-UAVP etc.) ein Village aufmachen.
-Dadurch ergibt sich die Möglichkeit einer Zentralen Organisation und die Beschaffung von Infrastruktur. Zentralverpflegung mit Frühstück/Mittag/Abendessen wäre dann auch möglich.
-Auch die Anmietung von Gemeinschaftszelten etc. ist machbar.
-
-Das dies nicht zum Nulltarif machbar ist sollte jedem klar sein.
-Die angepeilten Kosten nach groben überschlagen dürften sich p.P auf 100€ belaufen. Wenn einzelne Vereine dann z.B. die Zeltmiete übernehmen die im prinzip eh angefallen wäre kann der Preis sicher gehalten werden.
-Features wie Duschcontainer wären da bestimmt auch machbar wenn sich genügend Mitspieler finden.
-Das die Planung nicht erst 4 Wochen vorher passieren kann sollte auch klar sein.
-
-
-=== Neuer Laser ===
-
-Bei unserem aktuellen Laser ist bei 4mm Pappel-Sperrholz Schluss, die maximale Bearbeitungsfläche ist 38x23cm².
-
-Ich hätte gerne einen Laser mit einer Bearbeitungsfläche von mindestens 60x90cm² und ~150-200W, um auch dickeres (8mm) und härteres Holz (Kiefer o.ä.) lasern zu können.
-
-Eine Möglichkeit wäre dieser Laser:
-[http://www.wklaser.com/pro_191.aspx LC6090]. Der [http://www.hackpittsburgh.org/ Makerspace HackPittsburgh] [http://www.hackpittsburgh.org/wiki/index.php?title=Laser_Cutter hat so einen], und hat dafür wohl 7k$ ausgegeben.
-Ich habe den Hersteller angeschrieben und nach Preisen für das Modell und den nächstgrößeren ([http://www.wklaser.com/pro_192.aspx LC1390S], 130x90cm² Bearbeitungsfläche) gefragt:
-LC1390S kostet 9k8$ + 200$ Versand, LC6090 kostet 3k$ + 150$ Versand. LC1390S bekommen wir wohl leider nicht durch die Eingangs-Tür, d.h. dann wäre auch eine neue Tür fällig.
-
-Ich bin mit der Recherche noch lange nicht durch, dokumentiere aber schonmal die Resultate hier, wenn ihr auch recherchiert tragt das bitte ebenfalls hier ein.
-
---[[Benutzer:Alexander Brock|Alexander Brock]] ([[Benutzer Diskussion:Alexander Brock|Diskussion]]) 18:56, 5. Jan. 2015 (CET)
-
-=== Teile für CNC-Fräse und Lichtsteuerung ===
-<pre>
-in diesem Jahr baut [[Benutzer:Felicitus|Felicitus]] an der Lichtsteuerung und CNC-Fräse weiter.
-Dazu braucht er folgende Teile:
-
-2x Raspberry Pi inkl. Gehäuse+Netzteil für je 54,95€, um den
-DMX/RDM-Entwicklungsaufwand zu umgehen und die Lichtsteuerung direkt
-via Seriell zu schalten [1]
-
-10m Schleppkettenkabel, Meterpreis 4,12€ [2]. Das ist für
-Schleppketten geeignet, wie wir sie für unseren Kabelschlepp an der
-CNC-Fräse brauchen.
-
-D-Sub-37 Stecker/Buchse für Verbindung von CNC-Fräse mit Elektronik.
-Stecker/Buchse mit Lötkelch von Harting mit 7,5A Kontaktbelastbarkeit,
-je ca. 10€ [3] [4]
-
-[1]
-http://www.pollin.de/shop/dt/ODc4NzkyOTk-/Bausaetze_Module/Entwicklerboards/Raspberry_Pi_Hutschienen_Set.html
-[2]
-http://www.conrad.de/ce/de/product/608133/?insert=88&insertNoDeeplink&productname=Schleppkettenleitung-OeLFLEX-CHAIN-808-CP-5-G-075-mm-Grau-LappKabel-1027762-Meterware
-[3]
-http://www.conrad.de/ce/de/product/742454/D-SUB-Stiftleiste-180-Polzahl-37-Loetkelch-Harting-09-67-037-5615-1-St?ref=searchDetail
-[4]
-http://www.conrad.de/ce/de/product/742521/D-SUB-Buchsenleiste-180-Polzahl-37-Loetkelch-Harting-09-67-037-4715-1-St?ref=searchDetail
-</pre>
 === Weltherrschaft ===
 Der Pinky, der Pinky und der Brain Brain Brain Brain &hellip;
 
