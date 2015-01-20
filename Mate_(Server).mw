@@ -49,10 +49,6 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 ! Arbeitsspeicher
 ! Plattenplatz
 |-
-| [[Mate (Server)/bernd.vm.rzl]]
-| 750 MB
-| 10 GB
-|-
 | [[Mate (Server)/blabber.vm.rzl]]
 | 128 MB
 | 10 GB
@@ -69,16 +65,8 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 512 MB
 | 30 GB
 |-
-| [[Mate (Server)/evilsadnes.vm.rzl]]
-| 256 MB
-| 20 GB
-|-
 | [[Mate (Server)/freeswitch.vm.rzl]]
-| 256 MB
-| 20 GB
-|-
-| [[Mate (Server)/icinga.vm.rzl]]
-| 256 MB
+| 368 MB
 | 20 GB
 |-
 | [[Mate (Server)/infra.rzl]]
@@ -88,10 +76,6 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | [[Mate (Server)/lutoma.vm.rzl]]
 | 256 MB
 | 20 GB
-|-
-| [[Mate (Server)/monitoring.rzl]]
-| 750 MB
-| 40 GB
 |-
 | [[Mate (Server)/partkeepr.rzl]]
 | 512 MB
@@ -118,11 +102,11 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 20 GB
 |-
 | '''Gesamt'''
-| '''8394 MB / 12001 MB (69.94% belegt)'''
-| '''3 TB / 5.3 TB (56.44% belegt)'''
+| '''6494 MB / 12001 MB (54.11% belegt)'''
+| '''2.9 TB / 5.3 TB (54.78% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2014-12-08 00:00:04
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2015-01-21 00:00:01
 
 == Unterseiten ==
 <splist />
