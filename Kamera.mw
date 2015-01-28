@@ -50,7 +50,7 @@ Einmalig muss man die Font installieren:
  tar xf ~/Downloads/RZL_Vorlage-2012-08-28.tar.bz2 -C ~/.fonts miso.otf
  fc-cache -fv
 
-(Die Schriftart stammt von http://www.fontex.org/download/Miso.otf)
+(Die Schriftart stammt von http://martennettelbladt.se/miso/)
 
 [[Category:Hardware]]
 [[Category:Procedures]]
