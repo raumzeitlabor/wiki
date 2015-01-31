@@ -35,7 +35,7 @@ Um einen Blogeintrag anzulegen gehst Du wie folgt vor:
 
 Wir benutzen einen CalDAV Server zur Verwaltung unserer Termine. Um selber Events anzulegen benötigt ihr einen Kalenderclient der Caldav unterstützt ([https://fruux.com/supported-devices/ hier eine Liste.])
 
-Den read-only-Feed des Kalenders erhaltet ihr hier: https://p.fruux.com/c/a3298259302/81bae0fb-601c-47ee-ba92-460866466d90.ics
+Den read-only-Feed des Kalenders erhaltet ihr hier: [https://new.raumzeitlabor.de/events/ical/]
 
 Die Logindaten zum Caldav-Server erhältst du von einem beliebigen Laboranten, der es schon kennt.
 
