@@ -314,13 +314,18 @@ anyOutputOn(1,2,3,4,5,6);
 > 0
 </pre>
 
-== onInput ==
+== onInputOn, onInputOff==
 
 <pre>
+function onInputNOff {}
+function onInputNOn {}
 function onInputN {}
 </pre>
 
-Wird aufgerufen, wenn sich der logische Zustand des Eingangs ändert. Bei einem Taster ist dies analog zu einem kurzen Tasterdruck. Der Zustand wird mit arg(1) abgerufen. N wird dabei durch den entsprechenden Eingang ersetzt.
+onInputN wird aufgerufen, wenn sich der logische Zustand des Eingangs ändert. Bei einem Taster ist dies analog zu einem kurzen Tasterdruck. N wird dabei durch den entsprechenden Eingang ersetzt.
+
+onInputNOff wird aufgerufen, wenn sich der logische Zustand des Eingangs auf 0 ändert.
+onInputNOn wird aufgerufen, wenn sich der logische Zustand des Eingangs auf 1 ändert.
 
 Beispiel: Prüft, ob einer der Lichtkreise der Tafel an ist. Wenn ja, schalte alle Lichtkreise der Tafel aus. Wenn nein, schalte alle Lichtkreise der Tafel an.
 
