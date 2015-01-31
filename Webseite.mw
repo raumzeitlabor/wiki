@@ -1,0 +1,74 @@
+{{ProjektInfoBox
+|name        = Webseite
+|status      = stable
+|image       = 
+|description = Die neue Webseite des Vereins.
+|author      = [[Benutzer:Else|else]], [[Benutzer:Silsha|fux]]
+|username    = 
+|version     = 1.0
+|update      = 
+|platform    = World Wide Web
+|license     = 
+|download    = http://github.com/raumzeitlabor/rzl-homepage
+}}
+
+[[Benutzer:Else|else]] hat in den vergangenen acht Jahren an einer neuen Webseite geschraubt. Nun ist sie fertig. \o/
+
+= Anleitungen =
+
+Generell würden wir dich bitten, Änderungen nicht direkt auf das Original Repository zu pushen, sondern immer einen Pull Request zu stellen. Hierzu musst Du das Repository erstmal in deinen Github Account forken. [https://github.com/raumzeitlabor/rzl-homepage/fork].
+
+Alle Änderungen werden von Travis CI im Hintergrund getestet. Für jeden Pullrequest votet Travis dann, ob deine Änderungen gut oder böse ist. Nur gute Änderungen werden akzeptiert.
+
+== Blogeinträge ==
+
+Um einen Blogeintrag anzulegen gehst Du wie folgt vor:
+
+# Erstelle eine neue Datei im Verzeichnis app/_posts mit dem Dateinamen JAHR-MONAT-TAG-title-bindestrich-foo-bar.md
+# Schreibe deinen Blogeintrag und benutze hierfür die Markdown Syntax. http://daringfireball.net/projects/markdown/syntax
+# Checke die neu erstelle Datei ein: git add app/_posts/….md
+# optional: Checke dazugehörige Dateien mit ein (z.B. Bilder). Achte darauf, dass diese möglichst < 512 KB sind.
+# Erstelle einen neuen Commit mit einer möglichst aussagekräftigenden Commitmessage (Englisch bevorzugt) und pushe sie in dein geklontes Repository.
+# Stelle einen Pull Request und bitte jemanden, diesen zu reviewen und freizuschalten. [https://github.com/else/rzl-homepage/compare/]
+
+== Events ==
+
+Wir benutzen einen CalDAV Server zur Verwaltung unserer Termine. Um selber Events anzulegen benötigt ihr einen Kalenderclient der Caldav unterstützt ([https://fruux.com/supported-devices/ hier eine Liste.])
+
+Den read-only-Feed des Kalenders erhaltet ihr hier: https://p.fruux.com/c/a3298259302/81bae0fb-601c-47ee-ba92-460866466d90.ics
+
+Die Logindaten zum Caldav-Server erhältst du von einem beliebigen Laboranten, der es schon kennt.
+
+Der neue Kalendereintrag muss einen Titel, ein Start- und Enddatum, einen Ort (bitte nur die zertifizierten Orte™ aus der Liste unten verwenden) und eine Beschreibung haben.
+
+=== Zertifizierte Orte™ ===
+* Hauptraum
+* Workshopraum
+* Werkstatt
+* Fablab
+* E-Ecke
+* Küche
+* Olymp
+
+Falls mehrere Orte von einem Event benötigt werden, die Orte bitte mit Komma trennen. Das BLOC-Team behält sich vor, Verstöße rigorus zu Verfolgen und zur Anzeige zu bringen.
+
+== Einzelseiten ==
+Einzelseiten werden im Ordner /app/[SEITENNAME]/ angelegt.
+Die Seiten müssen entweder als HTML (index.html) oder als Markdown (index.md) angelegt werden. Bei einfachen, textlastigen Seiten ist Markdown fast immer zu bevorzugen.
+
+# Erstelle einen neuen Ordner im Verzeichnis app/
+# Erstelle eine neue Datei im Verzeichnis app/[SEITENNAME] namens index.html oder index.md (s. oben)
+# Checke die neu erstelle Datei ein: git add app/[SEITENNAME]/
+# optional: Checke dazugehörige Dateien mit ein (z.B. Bilder). Achte darauf, dass diese möglichst < 512 KB sind.
+# Erstelle einen neuen Commit mit einer möglichst aussagekräftigenden Commitmessage (Englisch bevorzugt) und pushe sie in dein geklontes Repository.
+# Stelle einen Pull Request und bitte jemanden, diesen zu reviewen und freizuschalten. [https://github.com/else/rzl-homepage/compare/]
+
+== Disclaimer ==
+
+Das BLOC-Team behält sich vor, dreckige Commits rigorus zu Verfolgen und zur Anzeige zu bringen. Hierzu zählen insbesondere:
+
+# direktes pushen auf den master Branch
+# nichtssagende Commitmessages
+# große Dateien einchecken
+# Build brechen
+# push --force
