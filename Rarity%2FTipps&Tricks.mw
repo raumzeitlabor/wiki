@@ -7,7 +7,7 @@ Stelle sicher, dass der Oberfaden richtig durch die Maschine läuft.
 
 === Oberfaden reißt ständig ===
 
-Bei mir lag das Problem im Abwickeln des Fadens vonder Spule. Bei den 4000m Spulen kommt es im Bereich der "Wendepunkte" oft zu Problemen.
+Bei mir lag das Problem im Abwickeln des Fadens von der Spule. Bei den 4000m Spulen kommt es im Bereich der "Wendepunkte" oft zu Problemen.
 Spannt sich der Faden zwischen Spule und der oberen Fadenführung (Höchste Stelle der Maschine), kurz den Faden greifen und über den kleinen Widerstand nach oben ziehen. Macht man das schnell genug, spart man sich einige Einfädelarbeit.
 
 === Die Maschine zeigt den USB-Stick zwar an aber keine Inhalte obwohl der Stick mit FAT 32 formatiert ist ===
@@ -16,7 +16,14 @@ Die ID der Partition muss "W95 FAT32" (in fdisk: b) sein.
 
 === Mein T-Shirt (oder sonstiger Stretch-Stoff) wellt sich bei Füllstichen / viel Verzug ===
 
-Für weniger Verzug zuerst Bügelvlies 1860B aufbügeln, dann Vlies 1995 auflegen, alles zusammen in den Rahmen spannen und die Oberfadenspannung auf 70g einstellen.
+Für weniger Verzug zuerst Bügelvlies 1860B aufbügeln, dann Vlies 1980 oder 1995 auflegen, alles zusammen in den Rahmen spannen und die Oberfadenspannung auf 70g einstellen.
+
+Für Premium-Stickqualität:
+* die Kontur des Motivs aus Nadelfilz auslasern
+* die Kontur auf das Textil sticken
+* das Nadelfilz auflegen und mit Klebeband temporär fixieren
+* mit einem groben Zickzackstich (1 Stich/mm) Nadelfilz feststicken, dabei stückweise das Klebeband entfernen
+* Rest des Motivs sticken
 
 === Die Maschine verliert Stiche, mitten im Motiv ist plötzlich alles verschoben ===
 
