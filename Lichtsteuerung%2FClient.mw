@@ -55,15 +55,17 @@ Schaltzustände können über DMX mittels [http://en.wikipedia.org/wiki/RDM_(lig
 |-----
 !Adresse!!Länge (Bytes)!!Inhalt
 |-
-|0x0000||1024||Namen der Ausgänge (32x32 Zeichen)
+|0x00000||1024||Namen der Ausgänge (32x32 Zeichen)
 |-
-|0x0400||512||Namen der Eingänge (16x32 Zeichen)
+|0x00400||512||Namen der Eingänge (16x32 Zeichen)
 |-
-|0x0600||16||Modus der Eingänge
+|0x00600||16||Modus der Eingänge
 |-
-|0x0610||32||Private-Flag für die Ausgänge
-|}
+|0x00610||32||Private-Flag für die Ausgänge
+|-
+|0xF000||4096||Backup des Arduino-EEPROMS
 
+|}
 
 = Firmware =
 
