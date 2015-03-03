@@ -15,11 +15,11 @@
 
 Über die BenutzerDB kann jeder seine persönliche PIN, MAC-Adressen und andere Dienste im RZL verwalten und nutzen. Sie ist als Debian Paket installiert (<tt>raumzeitbenutzerdb</tt>).
 
-Die BenutzerDB ist via https://raumzeitlabor.de/BenutzerDB/ erreichbar.
+Die BenutzerDB ist via https://benutzerdb.raumzeitlabor.de/BenutzerDB/ erreichbar.
 
 == Registrieren ==
 
-Du kannst dich unter https://raumzeitlabor.de/BenutzerDB/register registrieren.
+Du kannst dich unter https://benutzerdb.raumzeitlabor.de/BenutzerDB/register registrieren.
 
 == Technik ==
 
