@@ -1,0 +1,32 @@
+{{ProjektInfoBox
+|name        = iOS App
+|status      = beta
+|image       = Rzlapp.png
+|description = Steuere das RaumZeitLabor vom iPhone aus
+|author      = silsha
+|username    = silsha
+|version     = 1.0
+|update      = 
+|platform    = iOS 8.0+
+|license     = MIT
+|download    = [http://github.com/silsha/raumzeitlabor-ios Github]
+}}
+
+Um einen Grund zu haben mir iOS-Entwicklung anzuschauen, habe ich mich in den letzten Wochen an einer iOS-App für das RaumZeitLabor versucht.<br>
+Inzwischen ist sie soweit, dass man sie nutzen kann. Ich warte aktuell auf das Review von Apple.
+
+== Funktionen ==
+* Dashboard
+** Kontostand, Temperatur, Mitgliederanzahl abfragen
+** Anwesende Laboranten abfragen
+* Lichtsteuerung
+** Funksteckdosen an- und abschalten
+* Fnordcredit
+** Kontostand abfragen
+** Letzte Transaktionen abfragen
+** Produkt scannen und automatisch vom Guthaben abziehen
+** Guthaben manuell hinzufügen oder abziehen
+* Events
+
+== Betatest ==
+Ich dich als Betatester eintragen zu können, benötige ich eine Mailadresse, die du von deinem iPhone aus empfangen kannst. Sende sie mir an [mailto:hallo@silsha.me hallo@silsha.me].
