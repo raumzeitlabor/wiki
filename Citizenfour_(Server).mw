@@ -1,0 +1,46 @@
+{{ProjektInfoBox
+|name        = Citizenfour (Server)
+|status      = stable
+|image       = RaumZeitLabor - Logo - Schwarz.svg
+|description = Rootserver bei Hetzner
+|author      = [[NOC Team|NOC-Team]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = citizenfour.raumzeitlabor.de
+|license     = 
+|download    = 
+}}
+
+'''Premium''' ist unser Rootserver, der [[Premium (Server)|Premium]], den OVH Rootserver und die Trollcon VM ersetzt. Er wurde Anfang März 2015 bei Hetzner angeschafft und besitzt eine IPv4 sowie ein /64. Citizenfour hat volle IPv6 Konnektivität, d.h. alle Dienste, die auf ihm laufen, sind i.d.R. per IPv6 erreichbar (z.B. dieses Wiki).
+
+==Technische Daten==
+{| class="wikitable"  valign = "top"
+|Produkt
+|Hetzner SB29
+|-
+|Rechenzentrum
+|RZ16
+|-
+|CPU
+|Intel i7-3770 CPU @ 3.40GHz (Quadcore mit HT)
+|-
+|RAM
+|16GB RAM
+|-
+|HDDs
+|2x 3TB (RAID1, LVM, ext4)
+|-
+|Kosten
+|29€ mtl.
+|}
+
+== laufende Dienste ==
+aktuell
+* Homepage
+* Wiki
+* RZL Videos
+
+[[Kategorie:Hardware]]
+[[Kategorie:Infrastruktur]]
