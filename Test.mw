@@ -1,1 +1,5 @@
 <h1>̷̴̐خ ̷̴̐</h1>
+
+<graphviz border='frame' format='png' caption='Graph for example no. 1'>
+digraph example1 {Hello->World}
+</graphviz>
