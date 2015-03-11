@@ -46,7 +46,7 @@ aktuell
 
 Es läuft ein Reverse-Proxy der für alle HTTP/HTTPS Requests genutzt wird und diese an die Container weiterreicht. Der Reverse-Proxy spricht auch SPDY/3.1 (HTTP2 yet to come).
 
-<graphviz example2 format='png'>
+<graphviz format='png'>
 digraph {
 reverse-proxy -> rzl-homepage;
 reverse-proxy -> mediawiki-web;
