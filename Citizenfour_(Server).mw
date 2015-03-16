@@ -13,7 +13,7 @@
 |download    = 
 }}
 
-'''Premium''' ist unser Rootserver, der [[Premium (Server)|Premium]], den OVH Rootserver und die Trollcon VM ersetzt. Er wurde Anfang März 2015 bei Hetzner angeschafft und besitzt eine IPv4 sowie ein /64. Citizenfour hat volle IPv6 Konnektivität, d.h. alle Dienste, die auf ihm laufen, sind i.d.R. per IPv6 erreichbar (z.B. dieses Wiki).
+'''Citizenfour''' ist unser Rootserver, der [[Premium (Server)|Premium]], den OVH Rootserver und die Trollcon VM ersetzt. Er wurde Anfang März 2015 bei Hetzner angeschafft und besitzt eine IPv4 sowie ein /64. Citizenfour hat volle IPv6 Konnektivität, d.h. alle Dienste, die auf ihm laufen, sind i.d.R. per IPv6 erreichbar (z.B. dieses Wiki).
 
 ==Technische Daten==
 {| class="wikitable"  valign = "top"
@@ -40,7 +40,15 @@
 aktuell
 * Homepage
 * Wiki
+
+'''TODO'''
 * RZL Videos
+* Mailserver
+* Mailingliste
+* Jabber
+* DNS
+* OpenVPN
+* Munin
 
 === Reverse Proxy ===
 
