@@ -1,0 +1,5 @@
+Der Behringer Composer Pro ist ein 2-kanaliger Kompressor, der per Default auf dem Master Insert des Pultes liegt.
+
+== Wichtige Infos ==
+
+Der Composer braucht nicht in Betrieb zu sein, um ein Audiosignal durchzulassen - ist er aus, sorgt ein Relais dafür, daß alles, was in den Composer reingeht, unverändert wieder rauskommt. Sprich: Composer aus - trotzdem Signal auf dem Master! Daher nicht wundern!
