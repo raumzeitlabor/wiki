@@ -1,0 +1,71 @@
+{{ProjektInfoBox
+|name        = KrachBummLabor
+|status      = obsolete
+|image       = 
+|description = 
+|author      = [[Benutzer:Felicitus|Felicitus]], [[Benutzer:Tiefpunkt|tiefpunkt]] und weitere (bitte tragt euch ein)
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
+Das KrachBummLabor war ein kleines Musikstudio innerhalb vom RaumZeitLabor.
+
+Bisher ist folgendes an Hardware vorhanden (Bedienhinweise sind hinter den Links hinterlegt):
+
+== Einschaltprozedur ==
+
+Einfach die Steckdosenleiste, die von unten unter den rechten Tisch geschraubt ist, anschalten. Das war's auch schon.
+
+== Lautstärke regeln ==
+
+Nutze dafür den "Studio"-Regler auf der rechten Seite des Pultes. Bitte '''nicht''' die Lautstärke an den Lautsprechern selbst ändern.
+
+== Audio-Equipment ==
+* [[Podcast-Labor/Tascam M-2600|Tascam M-2600]] 32-Kanal Mischpult
+* ESI nEar 05 Monitorlautsprecher
+* Sennheiser e822 S
+* Sony MDR-V700 DJ-Kopfhörer (leider am zerfallen, nach 7 Jahren Einsatz aber auch kein Wunder)
+* [[Podcast-Labor/Behringer Ultrapatch|Behringer Ultrapatch Pro PX 2000]] 48-Kanal Patchbay
+* [[Podcast-Labor/Behringer Composer Pro|Behringer Composer Pro MDX200]] 2-Kanal Expander/Compressor/Limiter
+* [[Podcast-Labor/Behringer Virtualizer Pro|Behringer Virtualizer Pro DSP2024P]] Multieffektgerät
+
+== MIDI-Equipment ==
+* M-Audio KeyStation 61es
+* [[KrachBummLabor/Roland RS-70 Synthesizer|Roland RS-70 Synthesizer]]
+
+== Sonstiges ==
+* Genug Audio-Kabel, um 3-5 Mann an die Decke zu fesseln (passiert dann, wenn jemand mit Getränken in der Nähe des Equipments hantiert, siehe unten)
+
+== Regeln und Handhabung ==
+
+Teilweise ist Audio-Hardware etwas empfindlich. Wenn ihr euch nicht sicher seid, was bei bestimmten Aktionen passieren kann (z.b. bei Aktivierung der +48V Phantomspeisung), fragt einfach [[Benutzer:Timo A. Hummel|mich]]. Bestimmte Informationen zu einelznen Geräten findet Ihr auf der Geräte-Seite.
+
+Da verschiedene Leute die Hardware nutzen, solltet ihr euch die Reglerpositionen des Pultes notieren, falls ihr nicht an einem Abend fertig werdet. Im Handbuch gibt es dazu die Grafik eines Channel-Strips, da müsste man mal das ganze als Kopiervorlage umbasteln, damit man da einfach die Einstellungen markieren kann.
+
+'''Regeln zur Benutzung der Hardware:'''
+
+* Keine Getränke in der Nähe (sprich: <1m) des Equipments
+* Keine Getränke in der Nähe (sprich: <1m) des Equipments
+* Keine Speisen in der Nähe (sprich: <1m) des Equipments
+* Geht so pfleglich um, als ob die Geräte euch gehören würden. Ggf. noch etwas pfleglicher.
+* Achtet darauf, daß keine Flüssigkeiten, Krümel, Speisen und anderes auf die Geräte gelangen. Gerade beim Mischpult ist es sehr ärgerlich, wenn ein Krümel in den Faderweg gerät, denn so ein Fader auszutauschen ist ganz schön viel Arbeit und Ersatzteile sind teuer.
+
+== Zukunft ==
+
+* In naher Zukunft bringe ich noch einen Rechner mit, der dann mit 4 M-Audio Delta 1010LT-Karten bestückt wird (ist die preisgünstigste Lösung, um einen Rechner mit 32 Analogen I/Os auszustatten - pro Karte ca. 110-130 Eur NEU). Wenn jemand eine andere Lösung kennt oder sogar eine 24-Kanal Recordingkarte (z.b. MoTU o.ä.) hat, immer her damit!
+* Mehr Effektgeräte wären toll. Ich persönlich plane, nach den I/O-Karten ein Boss VF-1 und ein Lexicon MPX-500 zu organisieren.
+* Wer wissen möchte, was man mit dem Equipment so alles anstellen kann, für den kann ich gerne einen Workshop anbieten.
+* In ferner Zukunft wäre natürlich ein Raum-im-Raum mit akustischer Optimierung nützlich, weil unser Raum schon ganz schön hallt. Das hängt aber stark davon ab, wie sehr das Equipment auch genutzt wird.
+
+== Defekte ==
+
+Derzeit keine bekannt.
+
+== Unterseiten ==
+<splist />
+
+[[Kategorie:Projekt]]
