@@ -1,1 +1,89 @@
-#WEITERLEITUNG [[KrachBummLabor/old]]
+{{ProjektInfoBox
+|name        = KrachBummLabor (Mk II)
+|status      = beta
+|image       = 
+|description = Digitale und Analoge Klangerzeugung
+|author      = [[Benutzer:slowpoke|slowpoke]], jede*r Interessierte
+|maintainer  = [[Benutzer:slowpoke|slowpoke]]
+|user        =
+|owner       =
+|location    = Auf dem Olymp, in der Ecke über der Küche
+|version     = 
+|update      = 
+|platform    = 
+|hostname    =
+|license     = 
+|download    = 
+|bausatz     =
+|preis       =
+}}
+
+Das '''KrachBummLabor (Mk II)''' bietet Interessierten die Möglichkeit, sich mit digitaler und analoger Klangerzeugung zu beschäftigen. Zu diesem Zweck sind dort diverse Gerätschaften und Instrumente verbaut.
+
+== History ==
+
+Das erste KrachBummLabor (welie mehrere ches wir jetzt als ''Mk I'' bezeichnen) wurde seinerzeit von [[Benutzer:Felicitus|Felicitus]] und [[Benutzer:Tiefpunkt|Tiefpunkt]] aufgebaut. Die alte Wikiseite ist als [[KrachBummLabor/Mk I]] erhalten.
+
+== Equipment ==
+
+Dem KrachBummLabor stehen diverse Instrumente, Geräte, und Verbindungselemente zur Verfügung:
+
+* analoges 16-Kanal Mischpult (Soundcraft Spirit 4²), bereitgestellt von Yoshi's Bruder
+* analoger Modularsynth, made by [[Benutzer:Felicitus|Felicitus]]
+* kleines MIDI-Keyboard
+* ein Atari 1040 STFM mit Bildschirm, Festplatte und Software (s.u.) zum Aufnehmen, Abspielen, Sequencen und Bearbeiten von MIDI
+* eine E-Gitarre (Dauerleihgabe von [https://twitter.com/junaimnetz @junaimnetz])
+* ein Epiphone Thunderbird E-Bass plus 20W Verstärker mit Effekten (gehört [[Benutzer:slowpoke|slowpoke]], bitte nur nach Einweisung verwenden)
+* diverse Kabel
+
+Desweiteren existiert im RaumZeitLabor weiteres Equipment, dass für das KrachBummLabor interessant ist, aber nicht fest dort verbaut ist. Das meiste davon ist in der [[Elektroecke|E-Ecke]] zu finden:
+
+* diverse digitale und analoge [[Elektroecke/Geräte#Messtechnik|Oszilloskope]]
+* ein 2-Kanal arbiträrer [[Frequenzgenerator|Funktionsgenerator]]
+
+== Benutzung ==
+
+Das KrachBummLabor kann und darf grundsätzlich von jeder befähigten und interessierten Person benutzt werden, es gibt dabei nur ein paar wenige Dinge zu beachten. Am besten lässt du dir aber eine kurze Einweisung geben, dazu fragst du einfach eine der Personen, die oben in der ProjektInfoBox als Author*innen gelistet sind. Alternativ kannst du natürlich auch im IRC-Channel oder auf der Mailingliste fragen, ob dir irgendwer mal ins KrachBummLabor einweist.
+
+Ansonsten sind deiner Fantasie natürlich nur technische Grenzen gesetzt. Achte aber bitte auf folgende Dinge:
+
+=== Einschalten ===
+
+Derzeit hängt das KrachBummLabor noch an mehreren Steckdosen, die eingeschaltet werden müssen. Das wird sich in naher Zukunft noch ändern. Derzeit muss die Steckdosenleiste rechts neben dem Mischpult sowie die, die unter dem Tisch montiert ist, angeschaltet werden. Achte dabei darauf, dass die Aktivbox rechts auf dem Tisch ausgeschaltet bzw komplett runtergedreht ist. Der Modularsynth wird mit dem grossen roten Sicherheitsschalter an der linken Seite angeschaltet.
+
+=== Handhabung ===
+
+* Bitte iss nicht in der Nähe des KrachBummLabors, besonders nichts krümmeliges. 
+* Sei vorsichtig mit Getränken, und stell keine Tassen oder Trinkflaschen - schon gar keine offenen - auf den Tisch, den Synth, oder sonstwohin.
+* Behandle das Equipment sorgsam. Einiges davon ist teuer und/oder unersetzbar.
+* Geh anderen Menschen im Raum nicht auf die Nerven. Benutze wenn nötig Kopfhörer, das Mischpult hat einen entsprechenden Ausgang rechts unten.
+
+=== Modularsynth ===
+
+Der Modularsynth kann mit den Kabeln in der Kiste und am Regal nach Lust und Laune gepatcht werden. Kaputt machen kannst du rein technisch eigentlich nichts, sei aber trotzdem vorsichtig damit. Bitte bau wieder ab, was du aufgebaut hast, damit die nächste Person nicht erst ab- bzw umpatchen muss, um den Synth zu verwenden.
+
+=== Mischpult ===
+
+Das 16-Kanal Mischpult mag auf den ersten Blick etwas kompliziert sein, ist aber prinzipiell recht einfach zu bedienen. Wenn du nicht weisst, wie das geht, lass es dir am besten von einer der Person, die oben in der ProjektInfoBox gelistet sind, erklären.
+
+=== Atari STFM ===
+
+Dieses hochmoderne™ Gerät aus den 80ern war der erste Heimcomputer mit eingebautem MIDI, und gilt bis heute als einer der besten MIDI-Sequencer, die existieren. Da das [[Team R.E.T.R.O.]] zufälligerweise™ eine metrische Scheissetonne davon rumstehen hat, haben wir einen davon samt Originalfestplatte mit sagenhaften 30MB Speicher im KrachBummLabor verbaut. Unter anderem läuft auf diesem eine authentische Kopie von Steinberg Cubase (Version 3.10), mit dem MIDI-Sequenzen aufgenommen, abgespielt, und bearbeitet werden können. Weitere Software und Hardwaremods werden folgen.
+
+=== Instrumente ===
+
+Wie oben gelistet steht dem KrachBummLabor neben dem Modularsynth derzeit eine E-Gitarre und ein E-Bass plus Verstärker zur Verfügung. Letztere sind bitte nur nach Rücksprache mit [[Benutzer:slowpoke|slowpoke]] zu verwenden. Räumt sie nach Benutzung bitte wieder so weg, wie ihr sie vorgefunden habt.
+
+=== Ausschalten ===
+
+Prinzipiell wie das Einschalten, nur rückwärts. Achte bitte darauf, die Aktivbox runterzudrehen und auszuschalten, bevor du den Strom abstellst.
+
+== Weitere Pläne ==
+
+=== ASM-2 Board ===
+
+Es existiert ein Synth-Board von Elby, dass noch fertig bestückt und mit einem Patchpanel versehen werden muss. Dieses soll in ein Eurorack eingebaut werden, damit es später in ein 19"-Rack montiert werden kann (s.u.). Auf dem Board befinden sich unter anderem zwei VCOs, ein Rauschegenerator, zwei VCAs, zwei ADSRs, sowie zwei VCFs und ein LFO.
+
+=== Mobiles KrachBummLabor ===
+
+Für die etwas fernere Zukunft soll eine fahrbare 19"-Rackbox (so um die 20U) organisiert werden, in die mehrere Euroracks mit Synthmodulen, ein 19"-Rackmischpult, Schubladen für Kabel, und weiteres Zubehör eingebaut werden sollen. So kann das KrachBummLabor auch mit auf Veranstaltungen (zB die GPN oder den Congress) mitgenommen werden, um dort <strike>Leuten auf den Keks zu gehen</strike> Musik zu machen.
