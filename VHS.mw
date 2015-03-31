@@ -29,6 +29,7 @@ Hier ist eine Auflistung von Anwendungsfällen, die das Setup abdecken soll.
 * Streaming von $SMARTPHONE oder anderem Mobildevice auf den Beamer.
 * Webinterface, das Streams (zB YouTube-Videos, lokale Musik des Anwenders) entgegennimmt bzw diverse Streaming-Services (Soundcloud, Youtube, Spotify, …) abspielt
 * Pult hat Schublade mit Adaptern, damit nur HDMI, VGA, Composite verlegt werden müssen
+* Abspielen vom MPD
 
 === Stufe 2 ===
 * Aufnahme soll direkt auf dem [[Datengrab]] abgelegt werden.
