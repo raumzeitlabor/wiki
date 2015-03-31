@@ -14,4 +14,132 @@
 |preis       = Viel Geld
 }}
 
-Das Video- und HeimkinoSystem, in Planung. Am 2015-01-20 gab es ein erstes Planungstreffen, hier gehts zum [https://pads.ccc.de/4IRyVm9HHR Pad].
+= Was?  Warum? =
+Das aktuelle Audio/Video Setup im Raum hat den Status [http://de.wikipedia.org/wiki/Fubar foobar] und ist ein Paradebeispiel für »das ist historisch gewachsen«. Wir wollen es in mehreren Schritten ersetzen und mal komplett neu durchdenken. Dabei wollen wir drauf achten, dass schon die ersten Schritte sinnvoll mit dem idealen Setup im letzten Schritt harmoniert.
+
+Zuerst haben wir uns Anwendugsfälle erdachte, die wir abdecken wollen. Diese teilen wir dann in mehrere Ausbaustufen ein, die schrittweise (wenn Geld und Zeit da ist) realisiert werden.
+
+Wichtige Komponenten: Ein bewegliches Speakerpult, ein Anschlusspanel für Zuschauer im Tisch, Schwerlastregal fliegt raus
+
+== Anwendungsfälle ==
+
+Hier ist eine Auflistung von Anwendungsfällen, die das Setup abdecken soll. (Geplante Ausbaustufe in Klammer)
+
+* Streaming von $SMARTPHONE oder anderem Mobildevice auf den Beamer.
+* Einfaches Aufnehmen von Videos mit Steuerung von Kamera, Mikros, und Aufnahme am Speakerpult (→es muss keine Person anwesend sein, die Ahnung vom Video-Setup hat).
+* Aufnahme soll direkt ins Netz gestreamt werden können.
+* Aufnahme soll direkt auf dem [[Datengrab]] abgelegt werden.
+* Aufnahme soll nach dem Vortrag direkt hochgeladen werden können.
+* Aufnahme produziert getrennte Streams für Monitor, Mikrofone, Kamera
+* Beamerbild (und Sound!) soll als eigener Stream abgegriffen werden können
+** Bild HDMI, Ton HDMI
+** Bild VGA, Ton Klinke
+** Bild HDMI, Ton Klinke (zB bei Laptops, die nur DVI out haben)
+* Webinterface, das Streams (zB YouTube-Videos, lokale Musik des Anwenders) entgegennimmt bzw diverse Streaming-Services (Soundcloud, Youtube, Spotify, …) abspielt
+* Mikrofon zum Herumgeben für bessere Aufnahme von Fragen und Kommentaren (Speaker*innen vergessen immer, diese zu wiederholen).
+* One-Click-Aufnahme: Kamera stellt sich automatisch ein, Licht wird passend abgedunkelt, Mikrofone nehmen auf
+* Aufnahme wird gestartet, gestoppt, Nutzer kann Name, Titel eingeben, Intro/Outro wird angefügt und hochgeladen
+* Pult hat Schublade mit Adaptern, damit nur HDMI, VGA, Composite verlegt werden müssen
+* Kamera steuerbar über Webinterface
+* Ein Telefon-Gespräch soll über die Anlage zu hören sein und zum Vortrag aufgezeichnet werden.
+* Ein Vortrag mit Sound-Einspielungen soll nachgemischt werden, damit man die Sprache gut versteht und von den Einspielern das wichtige nicht verloren geht.
+* Jemand möchte einen Wetterbericht präsentieren und muss dazu vor einer animierten Karte stehen --> Greenwall
+* Für einen Vortrag soll eine Demo über einen Amiga Video-Connector auf dem Beamer ausgegeben sowie sauber aufgezeichnet werden.
+
+== Komponenten ==
+Diese Teile müssen zusammengefrickelt werden.
+
+=== Verarbeitung/Schnittstellen ===
+* AV-Receiver
+* Kamerasteuerung
+* Schnittstellen zu Internet, Ein- und Ausgabe
+
+=== Eingabe ===
+
+==== Devices ====
+* Apple TV
+* Chromecast
+* Bluray Player
+* $(Intel Wireless Display Device)
+* Raspberry Pi mit OpenELEC/Mopidy
+* MPD
+* Dokumentenkamera am Pult (Webcam?)
+
+==== Schnittstellen ====
+* Pult
+** HDMI
+** VGA
+** Scart (für Konsolen!)
+** HDMI-Adapter von Mini-Displayport, Displayport
+** Klinke
+* Zuschauerpanel
+** HDMI
+** VGA
+** Klinke
+* VNC/Stream
+
+==== Videoaufnahme ====
+* Kamera Decke
+* Dokumentenkamera oder Webcam am Pult
+
+==== Audioaufnahme ====
+* Mikrofone
+** Funkmikros
+*** Publikum
+*** Speaker
+** 2x Ansteckmikro Speaker
+** Pultmikro
+* Klinke
+** Pult, Panel
+
+=== Ausgabe ===
+Hier fallen die einzelnen Komponenten wieder raus
+
+* Boxen (mehr, aber kleiner) in verschiedenen »Zonen«:
+** Hauptraum frontal (Vortrag)
+** Hauptraum seitlich (Grundbeschallung)
+** Küche
+** E-Ecke
+** Olymp
+** Workshopraum
+* Beamer
+** Hauptraum
+** Workshopraum
+** Olymp
+* Vorschaumonitor Speaker
+* Datengrab
+* Streaming
+
+==== Summe HDMI ====
+* Eingabe: 
+* Ausgabe: 
+
+=== Mobiliar ===
+* Pult
+** rollbar
+** Schubladen für Adapter
+** Bedienfeld für Kamerasteuerung, Licht, Autoupload
+** Vorschaumonitor für Kamera
+* Schrank statt Regal
+* Anschlusspanel im Konferenztisch (»Zuschauerpanel«)
+* Greenscreen
+
+=== Steuerung ===
+* Konsole Speaker
+* Alternativ: nur Webkonsole
+
+== Ausbaustufen ==
+Eventuell können wir uns das perfekte Setup nicht sofort leisten. In diesem Fall haben wir mehrere Ausbaustufen, die nacheinander beschafft werden. Diese sollen zueinander kompatibel sein, sodass wir nicht nach kurzer Zeit Geräte wieder rauswerfen oder tiefgreifende Veränderungen vornehmen müssen, um die nächste Stufe zu realisieren. So müsste der zentrale Receiver z.B. bereits in der ersten Stufe gekauft werden und hätte dann vermutlich viel zu viele Ein-/Ausgänge. In späteren Stufen würden diese aber nach und nach befüllt, sodass nicht für die nächste Stufe wieder ein neuer Receiver oder gar eine Splitter-/Umschaltlösung, die wieder alles verkompliziert, angeschafft werden muss.
+
+
+=== Stufe 1 ===
+
+=== Stufe 2 ===
+
+=== Stufe 3 ===
+
+
+= Weitere Ressourcen, Anmerkungen und Notizen =
+
+* http://www.de.onkyo.com/de/a-v-receiver-305.html
+* Python-API für Onkyo-Geräte: https://github.com/miracle2k/onkyo-eiscp
