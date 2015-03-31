@@ -25,24 +25,21 @@ Wichtige Komponenten: Ein bewegliches Speakerpult, ein Anschlusspanel für Zusch
 
 Hier ist eine Auflistung von Anwendungsfällen, die das Setup abdecken soll. (Geplante Ausbaustufe in Klammer)
 
+=== Stufe 1 ===
 * Streaming von $SMARTPHONE oder anderem Mobildevice auf den Beamer. (1)
+* Webinterface, das Streams (zB YouTube-Videos, lokale Musik des Anwenders) entgegennimmt bzw diverse Streaming-Services (Soundcloud, Youtube, Spotify, …) abspielt (1)
+* Pult hat Schublade mit Adaptern, damit nur HDMI, VGA, Composite verlegt werden müssen (1)
+
+=== Stufe 2 ===
+* Aufnahme soll direkt auf dem [[Datengrab]] abgelegt werden. (2)
+* Für einen Vortrag soll eine Demo über einen Amiga Video-Connector auf dem Beamer ausgegeben sowie sauber aufgezeichnet werden. (2)
+
+=== Stufe 3 ===
 * Einfaches Aufnehmen von Videos mit Steuerung von Kamera, Mikros, und Aufnahme am Speakerpult (→es muss keine Person anwesend sein, die Ahnung vom Video-Setup hat). (3)
 * Aufnahme soll direkt ins Netz gestreamt werden können. (3)
-* Aufnahme soll direkt auf dem [[Datengrab]] abgelegt werden. (2)
-* Aufnahme produziert getrennte Streams für Monitor, Mikrofone, Kamera (1,2,3)
-* Beamerbild (und Sound!) am Pult soll als eigener Stream abgegriffen werden können (1,2)
-** Bild HDMI, Ton HDMI
-** Bild VGA, Ton Klinke
-** Bild HDMI, Ton Klinke (zB bei Laptops, die nur DVI out haben)
-* Webinterface, das Streams (zB YouTube-Videos, lokale Musik des Anwenders) entgegennimmt bzw diverse Streaming-Services (Soundcloud, Youtube, Spotify, …) abspielt (1)
-* Mikrofon zum Herumgeben für bessere Aufnahme von Fragen und Kommentaren (Speaker*innen vergessen immer, diese zu wiederholen). (2,3)
 * One-Click-Aufnahme: Kamera stellt sich automatisch ein, Licht wird passend abgedunkelt, Mikrofone nehmen auf (3)
 * Aufnahme soll nach dem Vortrag direkt hochgeladen werden können: Aufnahme wird gestartet, gestoppt, Nutzer kann Name, Titel eingeben, Intro/Outro wird angefügt und hochgeladen (3)
-* Pult hat Schublade mit Adaptern, damit nur HDMI, VGA, Composite verlegt werden müssen (1)
 * Kamera steuerbar über Webinterface (3)
-* Ein Telefon-Gespräch soll über die Anlage zu hören sein und zum Vortrag aufgezeichnet werden. (4)
-* Jemand möchte einen Wetterbericht präsentieren und muss dazu vor einer animierten Karte stehen --> Greenwall (4)
-* Für einen Vortrag soll eine Demo über einen Amiga Video-Connector auf dem Beamer ausgegeben sowie sauber aufgezeichnet werden. (2)
 
 == Komponenten ==
 Diese Teile müssen zusammengefrickelt werden.
