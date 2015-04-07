@@ -30,6 +30,7 @@ Hier ist eine Auflistung von Anwendungsfällen, die das Setup abdecken soll.
 * Webinterface, das Streams (zB YouTube-Videos, lokale Musik des Anwenders) entgegennimmt bzw diverse Streaming-Services (Soundcloud, Youtube, Spotify, …) abspielt
 * Pult hat Schublade mit Adaptern, damit nur HDMI, VGA, Composite verlegt werden müssen
 * Abspielen vom MPD
+* Zentrales Interfaces, um Ein-/Ausgabe an nur einer Stelle umzuschalten
 
 === Stufe 2 ===
 * Aufnahme soll direkt auf dem [[Datengrab]] abgelegt werden.
