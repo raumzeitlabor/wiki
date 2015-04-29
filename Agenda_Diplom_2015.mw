@@ -35,3 +35,51 @@ Nachdem wir in einer Brainstormingphase mehrere verschiedene Bausätze diskutier
 Etwas genauer beschrieben ist das eine gelaserte Holzkiste mit einem Arduino, einer kleinen Schaltung und einem Servo, der die Kiste verschließen kann. Der ganze Aufbau läuft mit ein paar Batterien, hat eine Klopfkombination gespeichert, mit der die Kiste geöffnet werden kann.
 
 [Bilder und detaillierte technische Beschreibung folgen]
+
+==Planung==
+
+* Phase Prototypenbau: Bis Ende April, Ziel: Präsentation im Mai-Plenum
+* Phase Veranstaltungsvorbereitung: Feinplanung der fünf Termine
+* Phase Durchführung der Veranstaltungen
+
+=== Prototypenbau ===
+
+* Design der Schatzkiste
+* Auswahl der technischen Komponenten
+* Aufbau einer Schaltung (Breadboard) und Planung der "Produktion"
+* Beginn der Beschaffung von Komponenten (mit langen Lieferzeiten)
+
+=== Veranstaltungsvorbereitung ===
+
+Machen wir wie letztes Jahr eine "Elterngruppe"?
+
+Fertigen wir an den drei Tischen im Hauptraum schrittweise oder fertigen wir in Themenstationen:
+* Holzkorpus
+* Aufbau der Schaltung
+* Montage
+* Programmierung
+* Fehlersuche/Reparaturen
+
+Machen wir einen Probelauf mit RZL-Kindern:-)?
+
+Machen wir ein Kickoff zur Durchsprache der Planung mit Hands-on des Bausatzes?
+
+=== Durchführung der Veranstaltungen ===
+
+Aufgrund der Komplexität des diesjährigen Projektes sollten pro Tisch 2 Betreuer bzw. pro Themenstation 1-2 Betreuer anwesend sein, d.h. in Summe pro Termin sind jeweils 6-7 Betreuer erforderlich.
+
+Das Catering sollten wir so wie in den letzten Jahren machen, allerdings wäre es gut, wenn sich bereits in der Planung jeweils jemand um den Einkauf für das Catering kümmern könnte (bitte ein (c) hinter den Namen in der folgenden Liste machen):
+
+Betreuer Termin 1: Ingo, oko, mokofreak
+
+Betreuer Termin 2: Ingo, oko, mokofreak
+
+Betreuer Termin 3: Ingo
+
+Betreuer Termin 4: Ingo, oko, mokofreak
+
+Betreuer Termin 5: Ingo, oko, mokofreak
+
+=== Sonstiges ===
+
+Ein weiteres Lötprojekt wurde für das Agenda Diplom vorbereitet, allerdings war das (im fertigen Zustand) recht nervig, weil der einzige Zweck der Schaltung darin bestand, unerträgliche Quitschtöne zu produzieren (RZL-quitsch(tm)). Evtl. greifen wir diesen Bausatz zu einem späteren Zeitpunkt wieder auf (nein, das ist keine Drohung).
