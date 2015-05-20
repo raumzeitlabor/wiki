@@ -399,8 +399,11 @@ Nachdem euer Modell fertig ist, könnt ihr die einzelnen Bauteile als PDF export
 
 [[Datei:Lasercutter Autodesk 123D PdfExport.png|400px]]
 
+===Lasercutter wird als Maus erkannt===
+Beim Gravieren/Lasern im Raster-Modus kann es vorkommen, dass der Lasercutter mitten im Laservorgang von Windows als Maus erkannt wird. Der Mauszeiger am Rechner spielt dann verrückt und nach kurzer Zeit stoppt der Laservorgang. Folgende Änderung in der Registry verhindert das:
 
-
+ [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\sermouse] 
+ "start"=dword:00000004
 
 == Siehe auch ==
 [[Lasercutter/Luftfilter]]
