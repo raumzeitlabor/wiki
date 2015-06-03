@@ -27,21 +27,21 @@ Vorbereitungen notwendig.
 Wir duplizieren zunächst die Ebene, auf der die Füllfläche der Wolken liegen, diese werden später mit weißem Baumwollstoff dargestellt.
 Die Ebene schieben wir ganz nach oben, wählen alle Objekte der Ebene, entfernen die Flächenfüllung und fügen eine knallrote Konturlinie hinzu.
 
-[[File:kissenbezug-mit-apllikationen-wolken-kontur.png]]
+[[File:kissenbezug-mit-apllikationen-wolken-kontur.png|Wolken-Kontur]]
 
 Wir vereinfachen die auszustickende Konturlinie, indem wir z.B. Knoten löschen oder kleine Inseln zu größeren Objekten verbinden (<Ctrl>+).
 Dabei müssen wir lediglich darauf achten, dass keine Teilobjekte in dem Bereich anderer Füllflächen landen, in diesem Fall Körper oder Gesicht.
 
-[[File:kissenbezug-mit-apllikationen-wolken-kontur-vereinfacht.png]]
+[[File:kissenbezug-mit-apllikationen-wolken-kontur-vereinfacht.png|Wolken-Kontur vereinfacht]]
 
 Der nächste Schritt ist dann, die Ebene mit den Körper- und Gesichts-Füllflächen zu duplizieren, das Duplikat ganz nach oben zu bringen
 und wieder die Flächenfüllung durch eine Konturlinie zu ersetzen, z.B. knallgelb zur Unterscheidung von der bereits vorhandenen Kontur der Wolken.
 
-[[File:kissenbezug-mit-apllikationen-koerper-kontur.png]]
+[[File:kissenbezug-mit-apllikationen-koerper-kontur.png|Körper- / Gesichts-Kontur]]
 
 Auch bei diesen Flächen vereinfachen wir, insbesondere löschen wir die Spitzen der Mähne und fügen angrenzende Flächen zu größeren Flächen zusammen.
 
-[[File:kissenbezug-mit-apllikationen-koerper-kontur-vereinfacht.png]]
+[[File:kissenbezug-mit-apllikationen-koerper-kontur-vereinfacht.png|Körper- / Gesichts-Kontur vereinfacht]]
 
 Je nach Wahl der Applikations- und Trägerstoffe kann es passieren,
 dass sich der Träger verzieht oder die Applikationen ausfransen
@@ -52,13 +52,13 @@ auswählen und mit Hilfe von "Path -> Dynamic Offset" um etwa 2mm vergrößern.
 Dabei muss man darauf achten, dass Ränder trotzdem von den angrenzenden Satinstichen
 verdeckt werden.
 
-[[File:kissenbezug-mit-apllikationen-final2.png]]
+[[File:kissenbezug-mit-apllikationen-final2.png|Körper- / Gesichts-Kontur hinreichend vergrößert]]
 
 Damit kommen wir auch schon zu dem letzten Schritt, der in Inkscape durchgeführt wird:
 Die Ebenen mit den Füllflächen, die nicht gestickt sondern als Applikation aufgebracht werden sollen,
 ausblenden und die Datei als WMF-Datei speichern.
 Wenn WMF-Export nicht funktioniert liegt das wahrscheinlich an einer veralteten Inkscape-Installation,
-die aktuelle Version bekommt man auf der [Inkscape-Download-Seite](https://inkscape.org/en/download/)
+die aktuelle Version bekommt man auf der [https://inkscape.org/en/download/ Inkscape-Download-Seite]
 
 Alle weiteren Schritte werden in PE-Design durchgeführt.
 Die WMF-Datei wird über "Muster Importieren -> von Vektorbild" in PE-Design importiert.
@@ -77,26 +77,26 @@ Dann schalten wir von der soliden Ansicht auf die Stichansicht (F9)
 und überprüfen alle Teile auf Stellen, an denen viel zu viele Stiche
 auf eine Stelle konzentriert werden, z.B. so:
 
-[[File:kissenbezug-mit-apllikationen-satin-schlecht.png]]
+[[File:kissenbezug-mit-apllikationen-satin-schlecht.png|Schlechter Satin-Stich, zu viele Stiche auf einer Stelle]]
 
 Mit dem Knoten-Editor (Wählen -> Punkt wählen) spielen wir so lange an den Punkten herum,
 bis die Stiche halbwegs gleichmäßig verteilt sind:
 
-[[File:kissenbezug-mit-apllikationen-satin-gut.png]]
+[[File:kissenbezug-mit-apllikationen-satin-gut.png|Besserer Satin-Stich, Stiche gleichmäßig verteilt]]
 
 Wenn eine Fläche keine signifikante Krümmung aufweist kann man auch die Stichrichtung
 auf konstant setzen, z.B. bei der blauen Fläche in der Mitte:
 
-[[File:kissenbezug-mit-apllikationen-satin-variabel-vs-konstant.png]]
+[[File:kissenbezug-mit-apllikationen-satin-variabel-vs-konstant.png|Variable (oben) vs. konstante (unten) Stich-Richtung]]
 
 Bei ausgeprägten Spitzen hilft es in der Regel, die Spitze nicht ganz so dünn auslaufen zu lassen:
 
-[[File:kissenbezug-mit-apllikationen-satin-spitze-reparieren.png]]
+[[File:kissenbezug-mit-apllikationen-satin-spitze-reparieren.png|Dünne Spitze (links) vs. dicke Spitze (rechts)]]
 
 Wenn das Ende eines Satin-Stiches (orange) später unter einem anderen Stich (blau) verschwindet
 kann man hemmungslos korrigieren und dabei die Form ändern, sieht man später ja sowieso nicht.
 
-[[File:kissenbezug-mit-apllikationen-satin-reparieren-verstecken.png]]
+[[File:kissenbezug-mit-apllikationen-satin-reparieren-verstecken.png|Schlechter Satinstich (links) vs. guter Satinstich (rechts), der am Ende unter nachfolgenden Stichen versteckt wird]]
 
 Jetzt kann man natürlich noch jede Menge weitere Optimierungen vornehmen, aber das ist eine
 andere Geschichte und soll ein andermal erzählt werden.
@@ -109,12 +109,12 @@ und kopieren es damit auf die Maschine.
 Erstmal wird der ganze Stoff gewaschen, um zu vermeiden dass er später beim Waschen nochmal schrumpft.
 Dann muss gebügelt werden, dabei muss man (zumindest im RZL) darauf achten, dass man nicht erfriert.
 
-[[File:kissenbezug-mit-apllikationen-buegeln-1.jpg]]
+[[File:kissenbezug-mit-apllikationen-buegeln-1.jpg|Trägerstoff wird gebügelt]]
 
 Da wir einen Bezug für ein 80x80cm²-Kissen herstellen wollen zeichnen wir auf die linke Seite des Stoffes
 mit Schneiderkreide ein 80x160cm²-Rechteck an und schneiden es mit etwa 5cm Nahtzugabe aus.
 
-[[File:kissenbezug-mit-apllikationen-schnitt.jpg]]
+[[File:kissenbezug-mit-apllikationen-schnitt.jpg|Ausgeschnittener Trägerstoff]]
 
 Möglicherweise verzieht sich der Stoff während dem Besticken.
 Um zu vermeiden, dass man am Ende die Stiche sieht mit denen die Applikationsstoffe festgenäht werden
@@ -129,7 +129,7 @@ Um das Motiv aussticken zu können schrauben wir die Rahmenhalterungen an die ä
 bügeln den Grundstoff und die Applikationsstoffe und bügeln ein Stickvlies (1860B) auf die Rückseite
 des Grundstoffes auf.
 
-[[File:kissenbezug-mit-apllikationen-buegeln-2.jpg]]
+[[File:kissenbezug-mit-apllikationen-buegeln-2.jpg|Stickvlies wird aufgebügelt]]
 
 Der Grundstoff wird zusammen mit einem weiteren nicht-klebenden Vlies in den großen Rahmen eingespannt
 und der Rahmen in die Rahmenhalterung eingespannt.
@@ -138,7 +138,7 @@ und der überstehende Rest mit einer kleinen Stoffschere abgeschnitten.
 Dabei sollte man vermeiden, viel Kraft auf den Stoff auszuüben,
 ansonsten kann sich der Grundstoff verziehen oder wellen.
 
-[[File:kissenbezug-mit-apllikationen-wolke-ausschneiden.jpg]]
+[[File:kissenbezug-mit-apllikationen-wolke-ausschneiden.jpg|Wolken-Kontur wird ausgeschnitten]]
 
 Ich habe beim ersten Versuch nur die äußere Kontur der Wolke ausgeschnitten
 und zwei Lagen weißen Stoff für die Wolke benutzt.
@@ -148,8 +148,36 @@ weicher wird es wenn man nur eine Lage nimmt und tatsächlich entlang aller Kont
 Wenn die erste Kontur ausgeschnitten ist wird ein großzügiges Stück blauer Stoff ausgeschnitten,
 gebügelt und auf den Trägerstoff aufgelegt.
 
-[[File:kissenbezug-mit-apllikationen-blau-aufgelegt.jpg]]
+[[File:kissenbezug-mit-apllikationen-blau-aufgelegt.jpg|Stoff für Körper-Kontur auf Trägerstoff aufgelegt]]
 
 Auch hier wird wieder die Kontur gestickt und die Reste ausgeschnitten.
 
-[[File:kissenbezug-mit-apllikationen-blau-ausgeschnitten.jpg]]
+[[File:kissenbezug-mit-apllikationen-blau-ausgeschnitten.jpg|Körper-Kontur gestickt und ausgeschnitte]]
+
+Jetzt können wir die Stickmaschine wieder auf vollautomatisch stellen und den Rest des Motivs aussticken.
+In der Zwischenzeit üben wir mit der Husqvarna das nähen perfekt gerader Nähte an Stoffresten.
+
+[[File:kissenbezug-mit-apllikationen-naehen-ueben.jpg|Nähübungen]]
+
+Klappt schonmal super.
+
+Nachdem das Motiv ausgestickt ist müssen wir es auf dem Rahmen entfernen, 
+die Rahmenabdrücke glattbügeln, das Stickvlies abziehen
+und das ganze zu einem Kopfkissenbezug zusammennähen.
+Für den letzten Schritt siehe [http://www.youtube.com/watch?v=7bxVcbXa6NQ diese Anleitung].
+
+Das fertig gestickte Motiv sieht dann ungefähr so aus:
+
+[[File:kissenbezug-mit-apllikationen-fertig-gestickt.jpg|Fertig gesticktes Motiv]]
+
+Alle verwendeten Garne sind nachleuchtend und es wurden alle verfügbaren nachleuchtenden Garne verwendet,
+leider leuchten alle diese Garne sehr grünlich, die unterschiedlichen Farben sind eher ein Artefakt
+des automatischen Weißabgleichs:
+
+[[File:kissenbezug-mit-apllikationen-nachleuchtend.jpg|Fertig gesticktes Motiv im Dunkeln]]
+
+Alle relevanten Dateien findet ihr [in dieser ZIP-Datei](https://wiki.raumzeitlabor.de/images/a/a0/Stickdateien.zip).
+
+Es bleibt die Frage, wie man möglichst ohne Handarbeit von einer beliebigen
+SVG-Datei zu einer geeigneten kommt, aber das ist eine andere Geschichte
+und soll ein andermal erzählt werden.
