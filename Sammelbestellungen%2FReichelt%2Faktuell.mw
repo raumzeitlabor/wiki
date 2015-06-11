@@ -25,3 +25,7 @@ SDB 25,4 SW;1
 <pre>
 LAN WL-AK-RSRK-1;4
 </pre>
+ == Smokehead (Hugo) braucht ==
+<pre>
+10 X Schieberegister 74HCH595 im DIL16 Gehäuse 0,36€ pro Stück
+</pre>
