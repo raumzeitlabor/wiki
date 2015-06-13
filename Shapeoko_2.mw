@@ -120,6 +120,21 @@ Polyethylen High-Density, siehe [https://www.youtube.com/watch?v=T1pkyLY8Qvs Ver
 * Gehäuse mit Beleuchtung, Absaugung, Tragegriffen und Flightcase-Schutz-Ecken ([http://www.youtube.com/watch?v=i2UO1xZoSzc etwa so aber besser bzw. RaumzeitLaborierter])
 * Webcam (mit Verbindung zu Chilipeppr bzw. Octoprint)
 
+== Verkabelungsinformationen ==
+
+Die Schleppkettenkabel vom Typ ÖLFLEX® CHAIN 808 CP 5 G 0.75 mm² sind für die Schrittmotoren folgendermaßen verkabelt (Adernnummern sind auf die einzelnen Litzen aufgedruckt):
+
+{|
+|-
+| 1 || Rot
+|-
+| 2 || Blau
+|-
+| 3 || Grün
+|-
+| 4 || Schwarz
+|}
+
 == Mögliche weitere Modifikationen ==
 
 * NEMA-23 Motoren für alle Achsen [http://shop.shapeoko.com/products/shapeoko-2-nema-23-z-axis-motor-mount Z-Achse] [https://www.inventables.com/projects/nema-23-shapeoko-2-upgrade-parts-list X/Y-Achse]
