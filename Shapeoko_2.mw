@@ -135,6 +135,85 @@ Die Schleppkettenkabel vom Typ ÖLFLEX® CHAIN 808 CP 5 G 0.75 mm² sind für di
 | 4 || Schwarz
 |}
 
+Der D-Sub-Stecker ist wie folgt belegt:
+
+{|
+|-
+| 1 || Stepper 1 A1
+|-
+| 2 || Stepper 1 A2
+|-
+| 3 || Stepper 2 A1
+|-
+| 4 || Stepper 2 A2
+|-
+| 5 || Stepper 3 A1
+|-
+| 6 || Stepper 3 A2
+|-
+| 7 || X Endstop Max
+|-
+| 8 || Y Endstop Max
+|-
+| 9 || Z Endstop Max
+|-
+| 10 || 
+|-
+| 11 || 
+|-
+| 12 || 
+|-
+| 13 || 
+|-
+| 14 ||
+|-
+| 15 || 
+|-
+| 16 ||
+|-
+| 17 || 
+|-
+| 18 ||
+|-
+| 19 || Spindle V-
+|-
+| 20 || Stepper 1 B1
+|-
+| 21 || Stepper 1 B2
+|-
+| 22 || Stepper 2 B1
+|-
+| 23 || Stepper 2 B2
+|-
+| 24 || Stepper 3 B1
+|-
+| 25 || Stepper 3 B2
+|-
+| 26 || X Endstop Min
+|-
+| 27 || Y Endstop Min
+|-
+| 28 || Z Endstop Min
+|-
+| 29 || 
+|-
+| 30 ||
+|-
+| 31 || 
+|-
+| 32 || 
+|-
+| 33 || 
+|-
+| 34 || 
+|-
+| 35 || 
+|-
+| 36 || 
+|-
+| 37 || Spindle V+
+|}
+
 == Mögliche weitere Modifikationen ==
 
 * NEMA-23 Motoren für alle Achsen [http://shop.shapeoko.com/products/shapeoko-2-nema-23-z-axis-motor-mount Z-Achse] [https://www.inventables.com/projects/nema-23-shapeoko-2-upgrade-parts-list X/Y-Achse]
