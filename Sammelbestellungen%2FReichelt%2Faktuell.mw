@@ -2,37 +2,14 @@
 |style="width: 40px"| [[Datei:64px-UnderCon icon.png|64px|Ich hab keine anderes Icon gefunden]]
 |'''Hinweis für Mitbesteller:''' Bitte den Warenkorb exportieren, damit er später leicht mit den anderen zusammengeführt werden kann.
 |}<br>
+{| style="background: #FEEFB3; border: 1px solid #9F6000"
+|style="width: 40px"| [[Datei:64px-UnderCon icon.png|64px|Ich hab keine anderes Icon gefunden]]
+|'''Hinweis für Besteller:''' Bitte die Seite umkopieren (siehe [[Sammelbestellungen/Reichelt]]) und mit der [[Sammelbestellungen/Reichelt/Vorlage]] ersetzen.
+|}<br>
 
-== Der Raum braucht ==
+== $besteller1 braucht ==
 
-Verbrauchsmaterial E-Ecke / Erdung ESD-Arbeitsmatte / Netzteil Fräse
 <pre>
-STANNOL X32-10I;2
-ESD SK 10 BL;1
-SDB 2,4 SW;1
-SDB 1,2 SW;1
-SDB 3,2 SW;1
-SDB 1,6 SW;1
-SDB 4,8 SW;1
-SDB 9,5 SW;1
-SDB 12,7 SW;1
-SDB 6,4 SW;1
-SDB 19,1 SW;1
-SDB 25,4 SW;1
-PL 126001;5
-CRIMPZANGE FSH;1
-SORTIMENT 1042;1
-CRIMPZANGE AEH;1
-MW SP-100-24;1
-</pre>
-
-== Cheatha braucht ==
-<pre>
-LAN WL-AK-RSRK-1;4
-</pre>
-
-
-== Smokehead (Hugo) braucht ==
-<pre>
-74HC 595;10
+NUMMER;ANZAHL
+NUMMER;ANZAHL
 </pre>
