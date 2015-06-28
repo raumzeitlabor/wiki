@@ -126,13 +126,26 @@ Die Schleppkettenkabel vom Typ ÖLFLEX® CHAIN 808 CP 5 G 0.75 mm² sind für di
 
 {|
 |-
-| 1 || Rot
+| 1 || Rot || B1 / B+
 |-
-| 2 || Blau
+| 2 || Blau || B2 / B-
 |-
-| 3 || Grün
+| 3 || Grün || A1 / A-
 |-
-| 4 || Schwarz
+| 4 || Schwarz || A2 / A+
+|}
+
+Ausnahme: Der X-Stepper ist folgendermaßen belegt (Verpeilung?)
+
+{|
+|-
+| 1 || Grün || A1
+|-
+| 2 || Rot || B1
+|-
+| 3 || Schwarz || A2
+|-
+| 4 || Blau || B2
 |}
 
 Achtung: Bei dem linken Stepper der Y-Achse ist Grün und Schwarz vertauscht, siehe [http://docs.shapeoko.com/electronics.html die Shapeoko2-Dokumentation].
