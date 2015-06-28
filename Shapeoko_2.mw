@@ -135,6 +135,8 @@ Die Schleppkettenkabel vom Typ ÖLFLEX® CHAIN 808 CP 5 G 0.75 mm² sind für di
 | 4 || Schwarz
 |}
 
+Achtung: Bei dem linken Stepper der Y-Achse ist Grün und Schwarz vertauscht, siehe [http://docs.shapeoko.com/electronics.html die Shapeoko2-Dokumentation].
+
 Der D-Sub-Stecker ist wie folgt belegt:
 
 {|
