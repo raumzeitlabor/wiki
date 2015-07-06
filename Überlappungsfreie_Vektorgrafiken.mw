@@ -1,0 +1,161 @@
+[[File:ueberlappungsfreie-vektorgraphiken-vektor.png]]
+
+Ich benutze regelmäßg Vektorgraphiken, um mit Hilfe von
+[https://wiki.raumzeitlabor.de/wiki/Schneidplotter Schneidplotter],
+[https://wiki.raumzeitlabor.de/wiki/Lasercutter Laser] oder
+[https://wiki.raumzeitlabor.de/wiki/Rarity Stickmaschine]
+Ideen zu realisieren.
+Leider kommen alle drei nicht mit allen SVG-Features klar.
+Deshalb habe ich in der Vergangenheit immer wieder viel Zeit darauf verwendet,
+Vektographiken für die jeweiligen Geräte aufzubereiten.
+Irgendwann wurde mir das zu langweilig, also habe ich angefangen neue Features
+in [https://inkscape.org/en/ Inkscape] einzubauen, um möglichst viel Handarbeit
+zu automatisieren.
+
+<!--more-->
+
+=== Eigenschaften der Vektorgraphik ===
+
+Zunächst einige praktische Features und Tricks, man betrache z.B.
+die äußere Konturlinie des Flügels:
+
+[[File:ueberlappungsfreie-vektorgraphiken-fluegel-final.png]]
+
+Ich habe mir zuerst überlegt, dass der innere Teil folgende Form haben soll:
+
+[[File:ueberlappungsfreie-vektorgraphiken-fluegel-flaeche.png]]
+
+Das Problem dabei ist, dass man für diese Form die Kontrollpunkte benachparter
+[https://de.wikipedia.org/wiki/B%C3%A9zierkurve Bezier-Segmente] (rot markiert)
+so nahe zusammensetzen muss, dass die zugehörige Konturlinie so aussieht:
+
+[[File:ueberlappungsfreie-vektorgraphiken-fluegel-realitaet.png]]
+
+Hier sind die Spitzen viel zu lang und sehen viel zu sehr nach Dreiecken aus.
+Also habe ich den Pfad mit vier weiteren Punkten zu einem geschlossenen
+Pfad ergänzt:
+
+[[File:ueberlappungsfreie-vektorgraphiken-fluegel-rahmen.png]]
+
+Von diesem Pfad habe ich einen Klon erzeugt. Im Gegensatz zu einem Duplikat
+wird ein Klon ebenfalls geändert, wenn das Original geändert wird.
+Den Klon habe ich benutzt, um die Konturlinie zu
+[https://de.wikipedia.org/wiki/Clipping_%28Computergrafik%29 clippen],
+sodass nurnoch der Teil sichtbar ist, der im Inneren des Rahmens ist,
+ungeachtet der Konturlinie. Dadurch wird die Stärke der Konturlinie
+halbiert; das gleicht man aus, indem man die unterliegende Konturlinie
+doppelt so dick macht:
+
+[[File:ueberlappungsfreie-vektorgraphiken-fluegel-klon-geclippt.png]]
+
+(Mit einem Klon von sich selbst geclippter Pfad, rot gestrichelt die
+unterliegende Konturlinie.)
+
+Jetzt stört noch der Rahmen, außerdem sollen die Enden spitz auslaufen.
+Dazu habe ich den Pfad gruppiert und die Gruppe mit einem weiteren Pfad
+geclippt, der beides auf einmal für mich erledigt:
+
+[[File:ueberlappungsfreie-vektorgraphiken-fluegel-doppelt-geclippt.png]]
+
+=== Konturen in Flächen umwandeln ===
+
+Wenn daraus mal eine überlappungsfreie Vektorgraphik werden soll, muss die Konturlinie
+in eine Fläche umgewandelt werden. Wenn man allerdings "Path->Stroke to Path" auf
+Gruppen anwendet, passiert in Inkscape 0.91 überhaupt nichts.
+Deshalb habe ich die Funktion so angepasst, dass Gruppen rekursiv abgearbeitet werden.
+Außerdem werden jetzt Objekte dupliziert, die sowohl eine Konturlinie als auch
+eine Flächenfüllung haben, sodass die Vektorgraphik optisch unverändert bleibt. 
+
+In diesem Fall führt aber auch das nicht direkt zum gewünschten Ergebnis sondern dazu:
+
+[[File:ueberlappungsfreie-vektorgraphiken-fluegel-kontur-falsch-umgewandelt.png]]
+
+Das Problem hier ist, dass der Pfad mit einem Klon von sich selbst geclippt ist.
+Wenn der Pfad in eine Fläche umgewandelt wird ändert sich auch der Clipping-Pfad;
+in diesem Fall so, dass der Clip keine Auswirkung mehr hat.
+
+=== Klone durch Duplikate ersetzen ===
+
+Um das zu vermeiden muss man erstmal die Klone durch Duplikate ersetzen
+(Edit->Clone->Unlink Clone); das funktioniert in Inkscape 0.91 allerdings
+auch nicht rekursiv. Ich habe deshalb die Funktion "Edit->Clone->Unlink Clones recursively"
+geschrieben, die die ausgewählten Gruppen rekursiv abarbeitet und alle relevanten
+Klone durch Duplikate ersetzt. Danach können dann alle Konturlinien in Flächen
+umgewandelt werden.
+
+Wenn die Vektorgraphik Objekte wie Sterne, Ellipsen oder Pfad-Effekte enthält,
+sollte man diese mit "Path->Object to Path" in Konturen umwandeln.
+
+=== Clips durch Schnitte ersetzen ===
+
+Der nächste Schritt war dann immer folgender:
+Von Hand jeden geclippten Pfad durch eine Version ersetzen, die mit dem Clipping-Pfad
+geschnitten ist (Path->Intersection).
+Bei geclippten Gruppen mit vielen Teil-Objekten war das immer nervig, weil ich
+immer aufpassen musste, dass ich ein Duplikat des Clipping-Pfades übrig hatte
+solange es noch Objekte gab, die damit geschnitten werden mussten.
+Also habe ich mal wieder eine Funktion dafür geschrieben (Object->Clip->Intersect).
+
+=== Überlappungen entfernen ===
+
+Der letzte Schritt war dann, den obersten Pfad auszuwählen und mit Hilfe von
+"Path->Difference" von allen Pfaden darunter abzuziehen, sodass der oberste Pfad
+keine Überlappung mehr mit anderen Pfaden hat.
+Das Spiel musste ich dann mit dem zweit-obersten Pfad wiederholen etc.
+Bild 1 hat 88 Objekte auf 16 Ebenen, da macht das von Hand überhaupt keinen Spaß mehr,
+also musste eine Funktion her.
+
+"Path->Remove Overlap" schreibt zunächst alle (indirekt) ausgewählten Objekte
+in eine Liste und sortiert diese nach Z-Index, sodass das oberste Objekt als
+erstes in der Liste steht. Dann werden die obersten beiden Objekte dupliziert.
+Das oberste Objekt wird vom zweiten abgezogen und die Duplikate werden 
+vereinigt. Diese Vereinigung ist dann gerade die Vereinigung aller bislang
+abgehandelten Objekte.
+Dann wird der Rest der Liste abgearbeitet:
+Zuerst wird das aktuelle Objekt dupliziert, dann die Vereinigung aller bislang
+abgehandelten Objekte von dem aktuellen Objekt abgezogen und zuletzt das Duplikat
+zu der Vereinigung hinzugefügt.
+
+Das Ergebnis sieht dann ungefähr so aus:
+
+[[File:ueberlappungsfreie-vektorgraphiken-vektor-final.png]]
+
+=== Überflüssige Teile entfernen ===
+
+Es verbleibt ein Probleme, das leider immernoch von Hand behandelt werden muss.
+Durch Rundungsfehler entstehen teilweise überflüssige Knoten,
+die vor dem Lasern oder Plotten entfernt werden müssen, sonst wird an den
+falschen Stellen herumgelasert oder -geschnitten.
+An der Mähne werden zum Beispiel viele Knoten erzeugt, die zu dem
+hellblauen Teil gehören:
+
+[[File:ueberlappungsfreie-vektorgraphiken-maehne-ueberfluessige-knoten.png]]
+
+Die einfachste Möglichkeit, die überflüssigen Knoten loszuwerden, ist aktuell folgende:
+* Zuerst den Pfad auswählen, der die überflüssigen Knoten enthält.
+* Diesen dann mit "Path->Break apart" in seine Teil-Pfade zerlegen.
+* "Shift" gedrückt halten und alle Objekte abwählen, die erhalten bleiben sollen
+* Den Rest der Auswahl löschen
+
+=== Zusammenfassung ===
+
+Und damit kommen wir auch schon zum Ende des Prozesses. Zusammenfassung:
+
+* Rekursiv Klone durch Duplikate ersetzen (Edit->Clone->Unlink Clones recursively)
+* Objekte durch Pfade ersetzen
+* Rekursiv Konturlinien durch Flächen ersetzen (Path->Stroke to Path)
+* Alle Objekte mit allen zugehörigen Clipping-Pfaden schneiden (Object->Clip->Intersect)
+* Überlappungsfreiheit herstellen (Path->Remove Overlap)
+
+Der Code liegt im Moment in
+[https://code.launchpad.net/~inkscape+alexander/inkscape/flatten meinem Inkscape-Zweig]
+und wartet darauf, in das Projekt gemergt zu werden. Bis dahin könnt ihr ihn
+folgendermaßen herunterladen:
+<pre>
+    bzr branch lp:~inkscape+alexander/inkscape/flatten
+</pre>
+Danach könnt ihr den Code [http://wiki.inkscape.org/wiki/index.php/Compiling_Inkscape kompilieren und installieren]
+
+Das Problem mit den winzigen Teil-Pfaden könnte man auch (halb-)automatisch lösen, aber das ist eine andere Geschichte und soll ein andermal erzählt werden.
+
+[[Kategorie:Anleitung]]
