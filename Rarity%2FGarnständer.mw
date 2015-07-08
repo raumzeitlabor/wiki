@@ -1,0 +1,75 @@
+
+Von den viel benutzten Garnen haben wir inzwischen einige auf 5km-Spulen, aber bisher keine gute Lagermöglichkeit.
+Deshalb habe ich einen Garnständer für große Spulen gebaut, hier ist eine Anleitung dazu.
+
+Die Idee ist einfach:
+
+* In eine Holzplatte 42cm x 70cm x 28mm werden in regelmäßigen Abständen 12mm-Löcher im 45°-Winkel gebohrt.
+* Die Holzplatte bekommt oben zwei Befestigungsbohrungen zur Aufhängung an der Wand.
+* Die Holzplatte wird angefast und angemalt.
+* In die Löcher werden runde Holzstäbe eingepresst.
+
+Die Ausführung erfordert einfache, endlichdimensionale Geometrie und mittleres handwerkliches Geschick.
+Zunächst brauchen wir die Maße der großen Garnspule:
+
+* Durchmesser Plastikteil unten: 75mm
+* Höhe: 109mm
+* Durchmesser Bohrung: 23mm
+* Tiefe der Bohrung: 105mm
+
+Das reicht für den Plan völlig aus, wenn jemand aus irgendwelchen Gründen noch mehr Maße braucht,
+in der SVG-Datei stimmen sie alle:
+
+[[File:grosse-garnspule.png|300px]]
+
+[[:File:grosse-garnspule.svg]]
+
+Der zweite Schritt ist es, von der Garnspulenzeichnung zwei Klone anzulegen, diese um 45° zu drehen
+und so den minimalen Abstand in vertikaler Richtung zu ermitteln:
+
+[[File:wand.png|300px]]
+
+[[:File:wand.svg]]
+
+Das sind 117mm, zur Sicherheit runden wir auf 120mm auf, das kostet uns nämlich keine Reihe.
+Außerdem legen wir hier fest, dass das Loch 3cm tief sein soll (hellblauer Streifen),
+daraus ergibt sich eine Länge von 17cm für die Holzstäbe.
+
+Dann legen wir die Aufteilung in horizontaler Richtung fest:
+
+[[File:aufteilung.png|300px]]
+
+[[:File:aufteilung.svg]]
+
+Dazu legen wir Kreise an, die wir gleichmäßig auf die verfügbare Breite verteilen.
+Es ergibt sich ein horizontaler Abstand von 82,5mm.
+
+Mit einem Holzbohrer ein 45° schräges Loch in eine Holzplatte zu bohren ist ohne Zwangsführung
+unmöglich, deshalb fertigen wir zunächst eine Bohrschablone.
+Dazu nehmen wir ein 40x40 Vierkantholz und spannen es um 45° gedreht in den Schraubstock,
+danach bohren wir die Löcher im genannten Rastermaß vor:
+
+[[File:garnstaender-schablone-bohren.jpg|300px]]
+
+Diese Bohrschablone können wir dann mit Schraubzwingen an der Trägerplatte des Garnständers befestigen
+und die Löcher alle parallel und mit der richtigen Tiefe bohren:
+
+[[File:garnstaender-schablone-benutzen.jpg|300px]]
+
+Wenn der Bohrer zu lang ist so dass man in Gefahr läuft durch die Platte durchzubohren
+kann man sich damit behelfen, ein Loch durch ein kleine Stück Vierkantholz zu bohren
+und das Stück dann als Distanzstück zu benutzen.
+
+Dann braucht man nur noch zwei Befestigungslöcher für die Aufhängung an der Wand,
+wer mag kann mit einer Oberfräse oder Feile die Kanten anfasen.
+
+Der letzte Schritt ist es, den Garnständer nach Herzenslust anzumalen,
+die Stäbe abzulängen, anzufasen und mit einem Schonhammer einzusetzen,
+wenn man beim Bohren nicht zu viel herumwackelt braucht man auch keinen Leim,
+die sitzen so schon fest.
+
+Und so sieht das am Ende aus:
+
+[[File:garnstaender-ergebnis.jpg|300px]]
+
+[[Kategorie:Anleitung]]
