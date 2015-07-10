@@ -32,6 +32,20 @@ und so den minimalen Abstand in vertikaler Richtung zu ermitteln:
 [[:File:wand.svg]]
 
 Das sind 117mm, zur Sicherheit runden wir auf 120mm auf, das kostet uns nämlich keine Reihe.
+
+Zur Sicherheit rechnen wir nach und kommen auf etwa 106,1mm, passt also.
+<!--
+<math>
+\begin{align}
+\cos(\pi/4) &= \frac{d_{\text{Spule}}}{d_{\text{Raster}}}\\
+\sqrt{\frac 12} &= \frac{d_{\text{Spule}}}{d_{\text{Raster}}}\\
+\Leftrightarrow d_{\text{Raster}} &= d_{\text{Spule}} \sqrt 2
+\end{align}
+</math>
+-->
+
+[[File:garnstaender-trigonometrie.png]]
+
 Außerdem legen wir hier fest, dass das Loch 3cm tief sein soll (hellblauer Streifen),
 daraus ergibt sich eine Länge von 17cm für die Holzstäbe.
 
