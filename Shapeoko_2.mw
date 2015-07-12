@@ -124,7 +124,7 @@ Polyethylen High-Density, siehe [https://www.youtube.com/watch?v=T1pkyLY8Qvs Ver
 
 Die Schleppkettenkabel vom Typ ÖLFLEX® CHAIN 808 CP 5 G 0.75 mm² sind für die Schrittmotoren folgendermaßen verkabelt (Adernnummern sind auf die einzelnen Litzen aufgedruckt):
 
-{|
+{|class=wikitable
 |-
 | 1 || Rot || B1 / B+
 |-
@@ -137,7 +137,7 @@ Die Schleppkettenkabel vom Typ ÖLFLEX® CHAIN 808 CP 5 G 0.75 mm² sind für di
 
 Ausnahme: Der X-Stepper ist folgendermaßen belegt (Verpeilung?)
 
-{|
+{|class=wikitable
 |-
 | 1 || Grün || A1
 |-
@@ -152,81 +152,25 @@ Achtung: Bei dem linken Stepper der Y-Achse ist Grün und Schwarz vertauscht, si
 
 Der D-Sub-Stecker ist wie folgt belegt:
 
-{|
+{|class=wikitable
+! Nummer auf Stecker || Signal || Kabelfarbe
 |-
-| 1 || Stepper 1 A1
+| 1 || GND || braun
 |-
-| 2 || Stepper 1 A2
+| 2 || X Endstop Min || weiß
 |-
-| 3 || Stepper 2 A1
+| 3 || X Endstop Max || grau
 |-
-| 4 || Stepper 2 A2
+| 4 || Y Endstop Min || gelb
 |-
-| 5 || Stepper 3 A1
+| 5 || Y Endstop Max || grün
 |-
-| 6 || Stepper 3 A2
+| 6 || Z Endstop Max || rosa
 |-
-| 7 || X Endstop Max
+| 7 || frei ||
 |-
-| 8 || Y Endstop Max
-|-
-| 9 || Z Endstop Max
-|-
-| 10 || 
-|-
-| 11 || 
-|-
-| 12 || 
-|-
-| 13 || 
-|-
-| 14 ||
-|-
-| 15 || 
-|-
-| 16 ||
-|-
-| 17 || 
-|-
-| 18 ||
-|-
-| 19 || Spindle V-
-|-
-| 20 || Stepper 1 B1
-|-
-| 21 || Stepper 1 B2
-|-
-| 22 || Stepper 2 B1
-|-
-| 23 || Stepper 2 B2
-|-
-| 24 || Stepper 3 B1
-|-
-| 25 || Stepper 3 B2
-|-
-| 26 || X Endstop Min
-|-
-| 27 || Y Endstop Min
-|-
-| 28 || Z Endstop Min
-|-
-| 29 || 
-|-
-| 30 ||
-|-
-| 31 || 
-|-
-| 32 || 
-|-
-| 33 || 
-|-
-| 34 || 
-|-
-| 35 || 
-|-
-| 36 || 
-|-
-| 37 || Spindle V+
+| 8 || frei ||
+
 |}
 
 == Mögliche weitere Modifikationen ==
