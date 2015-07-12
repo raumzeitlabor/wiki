@@ -150,12 +150,12 @@ Ausnahme: Der X-Stepper ist folgendermaßen belegt (Verpeilung?)
 
 Achtung: Bei dem linken Stepper der Y-Achse ist Grün und Schwarz vertauscht, siehe [http://docs.shapeoko.com/electronics.html die Shapeoko2-Dokumentation].
 
-Der D-Sub-Stecker ist wie folgt belegt:
+Der Sensorstecker ist wie folgt belegt:
 
 {|class=wikitable
-! Nummer auf Stecker || Signal || Kabelfarbe
+! Nummer auf Stecker || Signal || Kabelfarbe || Bild
 |-
-| 1 || GND || braun
+| 1 || GND || braun || rowspan=8|[[Datei:Cnc-lumberg-stecker.png]] Buchse Rückansicht
 |-
 | 2 || X Endstop Min || weiß
 |-
