@@ -10,11 +10,22 @@
 und bei der jeder fragt: "Was'n das??".
 __TOC__
 
-== Überschrift 1 ==
+== Ziel ==
+Es wird eine Vorrichtung gesucht, mit der ermittelt werden kann bei welcher Luftfeuchtigkeit
+ein Salz so viel Feuchte aufnimmt, dass es seine kristalline Struktur verliert. 
 
-== Überschrift 2 ==
+== Unser Ansatz ==
+Zunächst wird ein Lufbefeuchter (im Bild in der Mitte zu sehen) wird eingeschaltet, bis ein
+im Programm hinterlegter Startwert der Luftfeuchtigkeit erreicht ist.<br>
+Es wird nun kontinuierlich die Luftfeuchtigkeit gemessen und es wird gemessen, ob das Salz schon
+zerlaufen ist (siehe unten). <br>
+Nach einer gewissen Zeit wird dann die Luftfeuchte um einen Parametrierbaren Wert erhöht und
+die Messung läuft auf dem höheren Feuchtigkeitsniveau weiter.
 
-===Unterpunkt 2.1 ===
+== Messung des Deliqueszenzpunktes ==
+Hinter dieser Messung steht die Überlegung, dass ein Medium, in dem sich das zunächst kristalline
+Salz befindet, eine andere Leitfähigkeit bekommt, wenn das Salz in Lösung geht. Diese Leitfähigkeit
+äussert sich in einem geänderten Widerstand, der vergleichsweise leicht zu messen ist.
 
 [[Kategorie:Projekt]]
 [[Category:Hardware]]
