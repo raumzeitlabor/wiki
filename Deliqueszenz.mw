@@ -29,6 +29,9 @@ Salz befindet, eine andere Leitfähigkeit bekommt, wenn das Salz in Lösung geht
 
 == Schalten des Befeuchters ==
 [[Datei:Deliqueszenz Relais Ausschnitt 500.png|400px|thumb|Foto Relais]]
+Diese Schaltung ist ein wenig Umfangreich geraten, da ich nur ein 6Volt Relais zur Hand hatte und mit 12Volt Versorgungsspannung das Relais schalte, das seinerseits mit 24Volt arbeitet.<br>
+Es wird daher die Versorgungsspannung mit einem Spannungsregler auf 6 Volt gebracht und dann mit dem Relais, die 24 Volt geschaltet. Der Schalttrigger kommt vom Arduino, hat also nur 5 Volt und wenige mA, weswegen ein Transistor diesen Schaltimpuls verstärken muss.<br>
+Ein genauer Schaltplan folgt noch.
 
 == Ausgabe der Ergebnisse ==
 
