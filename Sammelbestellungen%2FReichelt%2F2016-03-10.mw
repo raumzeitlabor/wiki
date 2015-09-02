@@ -1,0 +1,32 @@
+{| style="background: #FEEFB3; border: 1px solid #9F6000"
+|style="width: 40px"| [[Datei:64px-UnderCon icon.png|64px|Ich hab keine anderes Icon gefunden]]
+|'''Hinweis für Mitbesteller:''' Bitte den Warenkorb exportieren, damit er später leicht mit den anderen zusammengeführt werden kann.
+|}<br>
+{| style="background: #FEEFB3; border: 1px solid #9F6000"
+|style="width: 40px"| [[Datei:64px-UnderCon icon.png|64px|Ich hab keine anderes Icon gefunden]]
+|'''Hinweis für Besteller:''' Bitte die Seite umkopieren (siehe [[Sammelbestellungen/Reichelt]]) und mit der [[Sammelbestellungen/Reichelt/Vorlage]] ersetzen.
+|}<br>
+
+== steeph braucht ==
+
+<pre>
+T 217;35
+HEBL 21;20
+ISOBAND 25 SW;3
+ISOBAND 19 SW;5
+</pre>
+
+== Timm braucht ==
+
+<pre>
+NUMMER;ANZAHL
+NUMMER;ANZAHL
+</pre>
+
+== $besteller1 braucht ==
+
+<pre>
+CY 22-2 150P;2
+METALL 1,69K;2
+STYROFLEX 220P;8
+</pre>
