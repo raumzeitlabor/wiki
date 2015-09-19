@@ -8,9 +8,17 @@
 |}<br>
 
 == RaumZeitLabor braucht ==
-<pre>
+
 Für den Infoscreen:
+<pre>
 AK HDMI-DVI 1,0;1
+</pre>
+
+Für die Lichtsteuerung:
+
+<pre>
+D-SUB ST 09FB;4
+D-SUB BU 09FB;4
 </pre>
 
 == steeph braucht ==
