@@ -11,12 +11,13 @@ Sollte niemand im Raum sein ([http://status.raumzeitlabor.de Status]: <span styl
 Der Raum ist über ein Schließsystem gesichert, das wir selbst implementiert haben. Den Raum kannst du mittels persönlicher PIN oder SSH öffnen.
 
 === Pin ===
-{{AchtungKasten1 |title=Defekt! |msg=
-Die Pin Eingabe am Hauptraum ist derzeit defekt (genauer: die Validierung). Es funktioniert nur noch die Masterpin, welche dir der Vorstand auf Anfrage geben kann. SSH funktioniert weiterhin.
-}}
 Deine persönliche Pin wird dir in der [[BenutzerDB]] zugewiesen, nachdem der Vorstand deinen Mitgliedsantrag bearbeitet hat. Die Pin muss nach der eingabe mit der Raute-Taste (#) quittiert werden.
 
 === tuer.rzl.so ===
+{{AchtungKasten1 |title=Defekt! |msg=
+Die Türöffnung per SSH ist derzeit defekt. Es funktioniert nur die persönliche PIN.
+}}
+
 Jedes Mitglied, welches seinen SSH Key in der [[BenutzerDB]] pflegt, kann die Tür via SSH öffnen.
 
 Hierzu muss man sich per SSH mit dem Benutzer "tuer" auf tuer.rzl.so:2322 verbinden und kann dann mit "open" und "close" die Tür steuern. Das Raum WLAN kann auch vor der Tür noch empfangen werden, um diese zu öffnen.
@@ -31,7 +32,7 @@ Port 2322
 
 == Getränkelager ==
 [[Datei:Getraenkelager tuer.jpg|200px|thumb|right|Tür des Getränkelagers]] 
-Kann mit der normalen persönlichen Tür-PIN geöffnet werden.
+Kann mit dem im Raum befindlichen Schlüssel geöffnet werden.
 
 == Schlüsselliste ==
 
