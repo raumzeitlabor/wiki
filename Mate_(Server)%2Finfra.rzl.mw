@@ -20,11 +20,11 @@ Auf der Infra-VM wird '''systemd''' als Init-System eingesetzt, um das Entwickel
 == Dienste ==
 Folgende Dienste laufen ''aktuell'' auf der VM:
 
-* Apache2
-* PIN Sync
+* [[Mate (Server)/infra.rzl/Apache2|Apache2]]
+** Authentifizierung gegen BenutzerDB
+
 * RaumZeitChef IRC-Bot
 * BenutzerDB [http://infra.rzl/BenutzerDB/]
-* Mantis [http://infra.rzl/mantis]
 * MQTT
 * FHEM [http://infra.rzl:8083]
 * Raumzeitstatus: Presence
