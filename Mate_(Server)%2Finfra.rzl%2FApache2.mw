@@ -1,0 +1,2 @@
+Um die Passwörter der BenutzerDB auch in Partkeepr nutzen zu können (via Basic-Auth),
+wird ein [https://github.com/raumzeitlabor/rzl-benutzerdb/tree/master/apache-authenticator|/ mod_perl Authentication Modul]  dazu benutzt.
