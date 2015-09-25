@@ -1,3 +1,3 @@
 == Software ==
 * [https://github.com/raumzeitlabor/rzl-benutzerdb/tree/master/apache-authenticator|/ mod_perl Authentication Modul]
-** authentifiziert BenutzerDB user via Basic-Auth an zB. [[Partkeepr]]
+** authentifiziert BenutzerDB user via Basic-Auth an zB. [[PartKeepr]]
