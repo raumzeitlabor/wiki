@@ -1,0 +1,446 @@
+== Stickmotive Erstellen ==
+
+[[File:stickmotiv-erstellen-vektor.png]]
+
+Hier eine kurze Anleitung, wie man aus einer
+[https://de.wikipedia.org/wiki/Scalable_Vector_Graphics SVG-Datei]
+ein Stickmotiv macht.
+
+Zunächst macht man aus der
+[https://de.wikipedia.org/wiki/Vektorgrafik Vektorgraphik] eine
+[[Überlappungsfreie Vektorgrafiken|überlappungsfreie Vektorgrafik]],
+die sieht dann so aus:
+
+[[File:stickmotiv-erstellen-vektor-kein-ueberlapp.png]]
+
+Hier sieht man einen Nebeneffekt des Prozesses; wegen dem
+[https://de.wikipedia.org/wiki/Antialiasing_%28Computergrafik%29 Antialiasing]
+des [https://inkscape.org/en/ Inkscape]-Renderers
+([http://cairographics.org/ Cairo])
+schimmert an allen Objektkanten der weiße Hintergrund durch.
+Am Körper sieht man schön die Konturen der Flächen, aus denen die Vektorgraphik
+zusammengesetzt ist.
+
+
+
+=== Pfade in Zusammenhangskomponenten zerlegen ===
+
+Jetzt muss man auf eine Eigenart von PE-Design eingehen:
+Pfade dürfen nicht aus mehreren Teil-Pfaden zusammengesetzt sein;
+jedenfalls will PE-Design dann immer nur den ersten sticken.
+In diesem Motiv sind folgende Teile betroffen:
+
+* Alle Füllflächen in Flügeln, Mähne und Schweif bestehen aus einigen großen und hunderten winzigen Objekten. Die winzigen Objekte müssen gelöscht werden, weil PE-Design höchstwahrscheinlich irgendeins dieser überflüssigen Objekte als wichtigstes Objekt auffasst und den Rest ignoriert.
+* Der weiße Teil des offenen Auges besteht aus einem großen und zwei winzigen Objekten, benötigt wird nur der große Teil.
+* Der türkisfarbene große Teil des offenen Auges besteht aus 9 Flächen, von denen nur die drei großen relevant sind.
+* Die lange schwarze Linie des geschlossenen Auges besteht aus 12 Flächen, benötigt werden nur die beiden großen, die durch einen Teil der Mähne getrennt sind. Der hellblaue Teil darunter besteht aus zwei Teilen.
+* Die Kontur des Gesichts rechts neben dem geschlossenen Auge besteht aus zwei Teilen. Man kann sich überlegen, den oberen Teil einfach wegzulassen, weil er wegen der Zugkompensation später fast vollständig verdeckt wird.
+* Der rechte Vorderhuf verdeckt den linken Flügels dergestalt, dass sowohl Kontur als auch Füllfläche in zwei [https://de.wikipedia.org/wiki/Zusammenh%C3%A4ngender_Raum Zusammenhangskomponenten] zerfallen.
+* Die 9 Zacken der Schweif-Kontur bestehen aus 8 Teilpfaden, links oben hängen zwei Zacken zusammen. Man kann diese trennen, indem man an dem Verbindungsstück mit Hilfe von "Path->Difference" ein kleines Stück herausschneidet.
+* Die Füllfläche des linken Hinterbeins wird vom linken Vorderbein, das sich auf dem Boden abstützt, in zwei Teilpfade aufgeteilt.
+* Die Kontur des linken Vorderbeins wird von Schweif und rechtem Hinterbein in zwei Teile unterteilt.
+* Die Kontur der Mähne am Hals wird vom rechten Flügel in zwei Teil geteilt.
+
+Alle diese Pfade müssen mit "Path->Break Apart" in die Einzelteile zerlegt werden.
+Danach kann man einfach Shift gedrückt halten und die relevanten Teile durch
+Klicken abwählen. In der Auswahl verbleiben die winzigen Teile, die man dann löschen kann.
+
+Dann wählt man angrenzende Füllflächen (keine Konturen!) gleicher Farbe und
+fügt sie mit "Path->Union" zusammen, danach sieht die Graphik so aus:
+
+[[File:stickmotiv-erstellen-vektor-zerlegt.png]]
+
+Das könnte man einerseits in PE-Design importieren und sticken, andererseits kann man
+aber auch noch ein bischen Mühe investieren und das Motiv optimieren.
+
+=== Konturen für Plattstiche optimieren ===
+
+Man kann die Konturen der Mähne unmodifiziert in PE-Design importieren und als
+Flächenfüllung Satin
+([https://de.wikipedia.org/wiki/Plattstich Plattstich]) mit variabler Stichrichtung auswählen.
+Dann bekommt man aber Probleme an den Spitzen, selbst mit eingeschalteter Option
+"Halbstich":
+
+[[File:stickmotiv-erstellen-plattstich-spitze-schlecht-vorlage.png]]
+
+Am äußeren Rand der Spitze sinkt die Stichdichte von den eingestellten 5 Stichen
+pro Millimeter auf etwa 2,5 Stiche pro Millimeter während am inneren Rand bis zu
+6,6 Stiche pro Millimeter erreicht werden. Deshalb deckt die Stickerei außen nicht
+gut. Innen gibt es ggf. Probleme mit Fadenriss, weil die Stiche zu dicht sitzen
+und das Garn aufgerieben wird.
+
+Ausgestickt sieht das beispielsweise so aus:
+
+[[File:stickmotiv-erstellen-plattstich-spitze-schlecht.jpg)
+
+Folgende Variante ist schöner, bereitet weniger Probleme beim Sticken und erzeugt
+weniger Verzug. Nebenbei wird als Verstärkung aufgelegtes Nadelfilz besser
+verdeckt.
+
+[[File:stickmotiv-erstellen-plattstich-spitze-gut.jpg)
+
+Man kann in PE-Design nicht direkt einstellen, dass Spitzen so ausgestickt werden.
+Deshalb zerlegen wir das Objekt in zwei Teile. Die unterschiedlichen Farben dienen
+lediglich der besseren Visualisierung, in der Praxis ändert man nichts an den
+Farben.
+
+[[File:stickmotiv-erstellen-plattstich-spitze-gut-vorlage.png]]
+
+Zuerst wird der blaue, untere Teil gestickt. Die ersten paar Stiche einer Fläche sind
+manchmal etwas
+locker, deshalb setzen wir den Einstiegspunkt an die Stelle (1), so dass die ersten
+Stiche später von den Plattstichen verdeckt werden. Als Ausstiegspunkt wählen wir
+die Spitze ganz links (2). Als Einstiegspunkt der grünen Fläche wählen wir den
+Ausstiegspunkt der ersten Fläche (2), den Ausstieg setzen wir an das rechte Ende (3).
+Danach kann man bei der ersten Fläche die Option "Sprungstich abschneiden"
+durch Klick auf die Schere oben in der Stickreihenfolge deaktivieren, sodass die
+Maschine ohne Unterbrechung weiterstickt. Das spart Zeit und
+senkt das Risiko, beim Abschneiden den Faden zu verlieren oder aufzureiben.
+
+Es stellt sich die Frage, wie man die spitzen Konturen am einfachsten zerlegt.
+Eine Möglichkeit ist folgende:
+
+[[File:stickmotiv-erstellen-plattstich-spitze-zerlegen.png]]
+
+* Zuerst den Pfad auswählen und mit "Object->Group" in eine eigene Gruppe legen, das vereinfacht es später, die Reihenfolge korrekt einzustellen.
+* Dann mit einem Doppelklick auf den Pfad in den Kontext der Gruppe wechseln.
+* Mit Hilfe des Knotenwerkzeuges (F2) die beiden grün markierten Knoten auswählen:
+* Mit "Break path at selected nodes" in der Node-Toolbar den Pfad an den beiden gewählten Knoten auftrennen.
+* Mit "Path->Break apart" den aufgetrennten Pfad in zwei Objekte zerlegen.
+* Beide Objekte einzeln auswählen und mit "Path->Union" die Pfade schließen.
+
+Jetzt stehen die Einzelteile in irgendeiner Reihenfolge in der SVG-Datei, wir
+müssen sie zum Sticken aber in folgende Reihenfolge bringen:
+
+[[File:stickmotiv-erstellen-plattstich-maehne-zerlegt.png]]
+
+Das erreichen wir indem wir zuerst Objekt 1 auswählen, mit der Taste "Pos1" an
+die oberste Position innerhalb der Gruppe bringen und dieses Vorgehen dann mit den
+Objekten 2, 3 etc. wiederholen. Das ändert nichts an der Darstellung, sorgt
+aber dafür dass Objekt 1 in der Gruppe ganz unten steht. Man kann sich das anschauen
+indem man es anders färbt und verschiebt, es verschwindet dann unter den anderen
+Einzelteilen.
+Da die Einzelteile der Mähnenkontur in einer eigenen Gruppe sind, ändert sich die
+Reihenfolge relativ zu allen anderen Objekten nicht; das ist wichtig, damit später
+die Füllflächen vor den zugehörigen Konturen, das Ohr nach der Mähne etc.
+gestickt werden.
+
+
+
+=== Reihenfolge der Steppflächen festlegen ===
+
+Bei den großen hellblauen Flächen in Mähne und Schweif bietet es sich ebenfalls an,
+die Reihenfolge so einzustellen dass ohne Abschneiden gestickt werden kann.
+Eine Möglichkeit ist folgende Reihenfolge:
+
+[[File:stickmotiv-erstellen-steppfuellung-reihenfolge.png]]
+
+Die Abstände zwischen den Zacken sind mit etwa 12mm zu lang für einfache Sprünge,
+also legen wir mit dem Bézier-Werkzeug (Shift-6 oder b) kurze Verbindungsstücke an:
+
+[[File:stickmotiv-erstellen-steppfuellung-zwischenstuecke.png]]
+
+Diese sind nur zur besseren Visualisierung rot, vor dem Export müssen sie
+als Konturfarbe das Hellblau der Flächen bekommen, ansonsten erzeugt PE-Design
+unnötige Farbwechsel.
+
+Am Ende muss man dann wieder wie bei den Einzelteilen der Mähnenkontur alles in
+die richtige Reihenfolge bringen.
+
+Wenn man die Stichrichtung in den Füllflächen der Flügel in jeder Feder einzeln
+festlegen will, dann muss man die Fläche genau wie die Kontur der Mähne in
+Einzelteile zerlegen und in die gewünschte Reihenfolge bringen:
+
+[[File:stickmotiv-erstellen-fluegel-flaeche-zerlegt.png]]
+
+
+
+=== Aneinandergrenzende Steppflächen durch Plattstiche optisch trennen ===
+
+Der dunkle Teil des
+[http://mlp.wikia.com/wiki/Cutie_marks Cutiemarks]
+wird genau wie die angrenzende Körperfläche mit
+einer Steppfläche gefüllt. Um diese Flächen schön zu trennen, fügen wir einen
+Plattstich ein. Dazu duplizieren wir die dunkelblaue Fläche, entfernen die
+Flächenfüllung und fügen eine 1mm dicke rote Konturlinie ein:
+
+[[File:stickmotiv-erstellen-cutiemark-kontur.png]]
+
+Dann wählen wir die grün markierten Knoten aus und entfernen die unerwünschte
+Kontur mit "Delete segment between two non-endpoint nodes" in der Node-Toolbar.
+Wir erhalten dann den Teil der Kontur, der das Cutiemark vom Rest des Körpers
+trennt:
+
+[[File:stickmotiv-erstellen-cutiemark-kontur2.png]]
+
+Als Konturfarbe wählen wir hier die dunkelblaue Füllfarbe des Cutiemarks.
+
+Bei der großen weißen Spiegelung im Auge und dem blauen Fleck rechts neben de
+Cutiemark ist das einfacher, hier können wir dem Objekt direkt eine 1mm breite
+Konturlinie in der Farbe des Objektes geben:
+
+[[File:stickmotiv-erstellen-cutiemark-auge.png]]
+
+(Die Konturen sind nur für die Visualisierung rot)
+
+
+
+=== Import in PE-Design ===
+
+Jetzt kann das Motiv in PE-Design importiert werden. Dazu wird es aus Inkscape mit
+"File->Save as" als
+[https://de.wikipedia.org/wiki/Windows_Metafile Windows Metafile (WMF)]) gespeichert
+und in PE-Design mit "Startseite->Muster importieren->von Vektorbild" importiert.
+PE-Design stürzt bei Motiven mit vielen Punkten gerne mal ab, deshalb ist es wichtig,
+die Datei regelmäßig zu speichern.
+
+Der erste Schritt danach ist, das Motiv mit "Rechtsklick->Gruppierung aufheben"
+zu zerlegen, um die Einzelteile anwählen zu können.
+
+Das importierte Motiv sieht dann unter Umständen so aus:
+
+[[File:stickmotiv-erstellen-pe-design-erster-import.png]]
+
+Hier fehlt der größte Teil der Körper-Füllung, warum weiß niemand.
+Eine Möglichkeit zur Reparatur ist folgende:
+
+* Die fehlenden Teile in eine neue Inkscape-Instanz kopieren und als WMF speichern.
+* Die WMF-Datei in PE-Design importieren.
+* Neu eingefügte Objekte an die richtige Stelle schieben und ggf. skalieren. Dazu ist die "Solide Ansicht" am praktischsten, weil sie am exaktesten die Vektorgraphik zeigt, die dem Stickmotiv zugrundeliegt.
+* Neu eingefügte Teile in der Stickreihenfolge richtig einsortieren.
+
+Das Motiv hat jetzt 199 Flächen verteilt auf 46 Farbwechsel und 86.785 Stiche,
+ist aber noch lange nicht fertig ausgearbeitet.
+
+
+
+=== Doppelte Flächen idenifizieren ===
+
+Erstmal sehen wir uns die Stichsimulation an (Ansicht->Stichsimulator), um doppelt
+gestickte Flächen zu finden. In diesem Motiv war eine, PE-Design wollte unter das
+offene Auge eine Steppfläche in Körper-Farbe legen:
+
+[[File:stickmotiv-erstellen-doppelte-fuellflaeche.png]]
+
+Die doppelten Flächen löschen wir, indem wir sie in der Stickreihenfolge anklicken,
+"Rechtsklick->Objekte wählen" und die Entfernen-Taste drücken.
+Damit sparen wir 1.691 Stiche und sind bei 85.094 Stichen.
+
+
+
+=== Überflüssige Löcher entfernen ===
+
+An vielen Stellen verdecken dünne Objekte (<12mm), die mit Plattstichen realisiert
+werden, darunterliegende Steppflächen. PE-Design will in diesem Fall ein Loch in der
+Steppfläche lassen. Das kann aber dazu führen, dass später Ränder sichtbar werden,
+z.B. wenn der Plattstich lange nach der Steppfläche gestickt wird und der Stoff
+in der Zwischenzeit leicht verzogen ist.
+
+Ein Beispiel für so ein Loch ist der Mond im Cutiemark:
+
+[[File:stickmotiv-erstellen-cutiemark-mond-flaeche.png]]
+
+Das Loch kann man entfernen indem man in der Stickreihenfolge das zugehörige
+"Loch-Objekt" findet, "Rechtsklick->Objekte wählen" benutzt und die Entfernen-
+Taste drückt. Da dann nicht mehr aufwendig um das Loch herumgestickt werden muss,
+spart das sogar noch Stiche und die Steppfläche sieht ausgestickt normalerweise
+gleichmäßiger aus.
+
+Mit der selben Methode kann man die merkwürdigen winzigen Objekte entfernen,
+die teilweise in der Stickreihenfolge auftauchen:
+
+[[File:stickmotiv-erstellen-pe-design-winziges-objekt.png]]
+
+
+
+=== Steppflächen vereinfachen ===
+
+Die Idee, unter Plattstichen die Steppfläche nicht zu entfernen, kann man auch
+auf Flächen anwenden, die nur an ihren Rändern überlappen.
+Dazu wählt man über "Startseite->Wählen->Punkt wählen" das Punkt-Werkzeug aus,
+klickt auf die zu bearbeitende Fläche und löscht an Spitzen Punkte:
+
+[[File:stickmotiv-erstellen-spitzen-loeschen.png]]
+
+* Grün: Punkte, die man einfach löschen kann.
+* Pink: Blaues Teilobjekt, das vom linken Flügel stammt, kann man löschen weil es eigentlich zu klein ist.
+* Rot: Punkte, die man löschen kann nachdem man das kleine Objekt im Flügel gelöscht hat.
+
+Das nächste Problem ist, dass PE-Design nicht verstanden hat, dass die 1mm breiten
+Konturlinien als Plattstich und nicht als Stepplinie realisiert werden sollen.
+Deshalb wählen wir nacheinander die beiden Konturlinien am Cutiemark,
+und die Kontur am Auge, die wir vorhin angelegt haben, und ändern den Randnahtstich
+unter "Attribute" von "Geradstich" auf "Zickzackstich" mit etwa 1,5 Millimeter
+Stärke.
+
+[[File:stickmotiv-erstellen-stepplinie-plattstich.png]]
+
+Damit sind wir bei 84.909 Stichen.
+
+
+
+=== Konturen als Plattstich realisieren ===
+
+Im Moment werden alle Flächen mit Steppflächen gefüllt; das wollen wir ändern.
+Dazu wählen wir in der Ansicht der Stickfolge links alle Kontur-Objekte aus.
+Am einfachsten geht das, wenn man Strg gedrückt hält und auf die Objekte klickt.
+
+In den Stickattributen rechts stellen wir die Dichte auf 5, die Richtung auf "variabel"
+und die Zugkompensation auf 0,6mm. Wenn die Konturen enge Kurven enthalten kann man
+die Option "Halbstich" anwählen, um die Stiche im Inneren der Kurve besser zu verteilen.
+Wenn es keine engen Kurven gibt, hat die Option keine Auswirkung.
+
+
+
+=== Variable Plattstiche bändigen ===
+
+Die variable Richtung erzielt nicht immer sinnvolle Ergebnisse, z.B. hier:
+
+[[File:stickmotiv-erstellen-variabler-plattstich-problem.png]]
+
+Mit der Husqvarna kann man das überhaupt nicht sticken, da reißt der Faden.
+[Rarity](https://wiki.raumzeitlabor.de/wiki/Rarity) kann das zwar sticken, aber es
+sieht nicht gut aus.
+
+In diesem Fall kann man das Problem beheben indem man die Stichrichtung wieder
+konstant einstellt und den Winkel von Hand vorgibt:
+
+[[File:stickmotiv-erstellen-variabler-plattstich-loesung.png]]
+
+Wenn die Fläche eine Kurve macht geht das nicht, z.B. bei dem oberen türkisfarbenen
+Bogen der Iris:
+
+[[File:stickmotiv-erstellen-auge-plattstich-problem.jpg)
+
+Das bekommt man aber normalerweise sehr schnell in den Griff indem man ein bischen
+an den Kontrollpunkten nahe der Problemstelle herumspielt.
+
+In der realistischen Vorschau fällt auf, dass die Kontur der Füllfläche um das Auge
+herum noch nicht vereinfacht wurde. Diese Kontur wird durch das "Loch-Objekt" ganz
+unten in der Stickreihenfolge definiert. Dieses Objekt kann man auswählen indem man
+es in der Stickreihenfolge anklickt, "Rechtsklick->Objekte wählen" benutzt und dann
+das Werkzeug "Punkt wählen" auswählt.
+
+Die rot markierten Punkte können weg:
+
+[[File:stickmotiv-erstellen-konturen-auge-vereinfachen.png]]
+
+Man sieht auch schön, dass man den linken unteren Teil des weißen Bogens nach dem
+Sticken nicht sieht, also löschen wir die grün markierten Punkte:
+
+[[File:stickmotiv-erstellen-auge-plattstich-problem2.jpg)
+
+=== Stoßstellen der Plattstiche optimieren ===
+
+Es gibt bei den Konturen viele Stellen, an denen verschiedene Plattstich-Flächen
+aufeinandertreffen, z.B. am Schweif:
+
+[[File:stickmotiv-erstellen-plattstich-kontakt-schlecht.png]]
+
+An diesen Stellen bietet es sich an, den Plattstich anders auslaufen zu lassen,
+um zu vermeiden dass der obere Teil (in diesem Fall rechts) die Fäden des unteren
+Teils (links) zur Seite zieht, so dass der Stoff darunter sichtbar wird.
+Dazu legt man neben dem Knoten, der am weitesten rechts oben ist einen weiteren
+an (rot markiert), das sorgt für einen anderen Verlauf:
+
+[[File:stickmotiv-erstellen-plattstich-kontakt-gut.png]]
+
+Jetzt ragt die linke Fläche zwar relativ weit in die rechte Fläche hinein; aber in
+der realistischen Vorschau wird klar, dass das kein Problem ist, weil dieser Teil
+beim Sticken durch den rechten Teil verdeckt wird:
+
+[[File:stickmotiv-erstellen-plattstich-kontakt-vorschau.png]]
+
+=== Stichrichtung der Steppflächen einstellen ===
+
+Standardmäßig wählt PE-Design als Winkel für die Stepplinien der Steppfläche
+72° relativ zur Horizontalen. Das ändern wir aus zwei Gründen:
+Erstens ist es besser wenn die Stiche angrenzender Flächen an möglichst wenigen
+Stellen senkrecht oder fast senkrecht aufeinandertreffen.
+Dadurch vermeidet man, dass die später gestickte Fläche an den vorher gestickten
+Fäden zieht und Löcher im Motiv entstehen, durch die man den Trägerstoff sieht.
+Zweitens sieht es einfach besser aus.
+
+Bei dem vorliegenden Motiv sind die Flächen in Mähne, Schweif und Flügeln in
+hinreichend kleine Teile zerlegt; dadurch kann die Stichrichtung schön der
+kanonischen Richtung im Motiv folgen. Zur besseren Übersicht habe ich die
+kanonische Richtung mit roten Liniensegmenten eingezeichnet:
+
+[[File:stickmotiv-erstellen-stichrichtungen-einstellen.png]]
+
+Wenn man mit dem Knotenwerkzeug (F2) genau zwei Knoten wählt, wird unten in der
+Statusleiste der Winkel relativ zur Horizontalen angezeigt. Diesen Wert runden wir,
+addieren 90° und stellen das als Stichrichtung für die zugehörige Fläche ein,
+das sieht dann z.B. so aus:
+
+[[File:stickmotiv-erstellen-stichrichtung-fluegel.jpg)
+
+=== Ein- und Ausstiegspunkte optimieren ===
+
+Jetzt müssen wir noch die Ein- und Ausstiegspunkte der Steppflächen anpassen und
+das automatische Abschneiden der Sprungfäden an den richtigen Stellen deaktivieren.
+Als Beispiel dienen hier die Steppflächen im Flügel:
+
+[[File:stickmotiv-erstellen-ein-ausstiegspunkte-fluegel.png]]
+
+Als erstes wird die kleine Fläche links unten gestickt, danach die Fläche direkt
+darüber etc. bis zur vierten Fläche oben im Flügel.
+Der Einstiegspunkt der ersten Fläche ist bei (1), der Ausstiegspunkt bei (2).
+Der Einstiegspunkt der zweiten Fläche ist bei (2), der Ausstiegspunkt bei (3)
+und so weiter, bis zum Ausstiegspunkt der vierten Fläche (5).
+Links in der Stickfolgenansicht ist neben den ersten drei Flächen jeweils keine
+Schere, d.h. nach diesen Flächen wird nicht abgeschnitten.
+
+Wenn man das konsequent an allen Stellen macht, an denen gleichfarbige Flächen
+nacheinander gestickt werden, kann man die Anzahl der Abschneidevorgänge von 190
+auf 73 reduzieren.
+
+=== Unterleger konfigurieren ===
+
+Um den Stoff vor dem Aussticken der großen Füllflächen ordentlich am Stickvlies
+zu befestigen, aktivieren wir in den Stickattributen die Option "Unternähen"
+und stellen die Dichte auf "dicht".
+PE-Design legt dann vor der eigentlichen Fläche grobe Zeilen senkrecht zur
+Stichrichtung an, den sogenannten Unterleger:
+
+[[File:stickmotiv-erstellen-unterleger.png]]
+
+
+
+=== Motiv skalieren ===
+
+Damit sind wir bei 95k Stichen, ein bischen viel für einen ersten Test. Deshalb
+skalieren wir das Motiv auf etwa 70% der Originalbreite. Leider hat PE-Design
+eine Heuristik eingebaut, die das Herunterskalieren verhindert, wenn das Motiv zu
+filigran ist. Diese Heuristik bestraft offenbar sehr nah zusammenliegende Punkte,
+z.B. die rot markierten Punkte hier: 
+
+[[File:stickmotiv-erstellen-ueberfluessige-knoten.png]]
+
+(Die dunkelblauen Linien sind etwa 4mm breit.)
+
+Also gehen wir einmal alle Flächen durch und Löschen von Hand überflüssige Punkte.
+Habe ich schon erwähnt, dass man regelmäßig speichern soll, weil PE-Design bei so
+vielen Knoten gerne mal abstürzt? Hätte mir hier zwei Stunden Arbeit gespart.
+
+Das ursprüngliche Problem hätte man auf zwei Arten vermeiden können:
+
+* Das Motiv vor dem Importieren kleiner skalieren. Größer skalieren kann man es später problemlos.
+* Die überflüssigen Knoten vor dem Importieren (automatisch) löschen. Daran wird gearbeitet.
+* Wenn Boolesche Operationen in Inkscape bis auf Maschinengenauigkeit exakt arbeiten würden wäre das Problem gar nicht erst aufgetreten. An den Operationen wird gearbeitet.
+
+Nachdem die Knoten nicht mehr zu dicht sitzen, kann man das Motiv herunterskalieren.
+Nach jeder Skalierung muss man allerdings nochmal alle Steppstiche mit variabler
+Richtung kontrollieren; insbesondere beim Verkleinern neigt PE-Design dazu, wieder
+die Enden zu versauen:
+
+[[File:stickmotiv-erstellen-variabler-plattstich-problem.png]]
+
+Jetzt hat das Stickmotiv nur noch 65k Stiche und wir können einen ersten Test wagen.
+Dazu exportieren wir das Motiv mit "Datei->Export" als DST-Datei.
+Diese speichern wir auf einem USB-Stick mit FAT32-Dateisystem.
+Wenn die Stickmaschine diesen dann als leer anzeigt, liegt das ggf. daran, dass die
+ID der Partition nicht "W95 FAT32" (in fdisk: b) ist.
+
+Jetzt können wir das Motiv aussticken, aber das ist eine andere Geschichte und soll
+ein andermal erzählt werden.
