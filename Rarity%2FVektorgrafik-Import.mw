@@ -71,13 +71,13 @@ und das Garn aufgerieben wird.
 
 Ausgestickt sieht das beispielsweise so aus:
 
-[[File:stickmotiv-erstellen-plattstich-spitze-schlecht.jpg)
+[[File:stickmotiv-erstellen-plattstich-spitze-schlecht.jpg]]
 
 Folgende Variante ist schöner, bereitet weniger Probleme beim Sticken und erzeugt
 weniger Verzug. Nebenbei wird als Verstärkung aufgelegtes Nadelfilz besser
 verdeckt.
 
-[[File:stickmotiv-erstellen-plattstich-spitze-gut.jpg)
+[[File:stickmotiv-erstellen-plattstich-spitze-gut.jpg]]
 
 Man kann in PE-Design nicht direkt einstellen, dass Spitzen so ausgestickt werden.
 Deshalb zerlegen wir das Objekt in zwei Teile. Die unterschiedlichen Farben dienen
@@ -310,7 +310,7 @@ konstant einstellt und den Winkel von Hand vorgibt:
 Wenn die Fläche eine Kurve macht geht das nicht, z.B. bei dem oberen türkisfarbenen
 Bogen der Iris:
 
-[[File:stickmotiv-erstellen-auge-plattstich-problem.jpg)
+[[File:stickmotiv-erstellen-auge-plattstich-problem.jpg]]
 
 Das bekommt man aber normalerweise sehr schnell in den Griff indem man ein bischen
 an den Kontrollpunkten nahe der Problemstelle herumspielt.
@@ -328,7 +328,7 @@ Die rot markierten Punkte können weg:
 Man sieht auch schön, dass man den linken unteren Teil des weißen Bogens nach dem
 Sticken nicht sieht, also löschen wir die grün markierten Punkte:
 
-[[File:stickmotiv-erstellen-auge-plattstich-problem2.jpg)
+[[File:stickmotiv-erstellen-auge-plattstich-problem2.jpg]]
 
 === Stoßstellen der Plattstiche optimieren ===
 
@@ -373,7 +373,7 @@ Statusleiste der Winkel relativ zur Horizontalen angezeigt. Diesen Wert runden w
 addieren 90° und stellen das als Stichrichtung für die zugehörige Fläche ein,
 das sieht dann z.B. so aus:
 
-[[File:stickmotiv-erstellen-stichrichtung-fluegel.jpg)
+[[File:stickmotiv-erstellen-stichrichtung-fluegel.jpg]]
 
 === Ein- und Ausstiegspunkte optimieren ===
 
