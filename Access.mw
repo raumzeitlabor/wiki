@@ -21,7 +21,7 @@ Samle-SSH-config:
 Host tuer
 HostName tuer.rzl.so
 User tuer
-Port 2322
+Port 2323
 </pre>
 
 == Keylist ==
