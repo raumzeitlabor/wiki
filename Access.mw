@@ -20,7 +20,6 @@ Samle-SSH-config:
 <pre>
 Host tuer
 HostName tuer.rzl.so
-User tuer
 Port 2323
 </pre>
 
