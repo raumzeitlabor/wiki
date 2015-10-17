@@ -28,7 +28,7 @@ Für eine .ssh/config würde das z.B. so aussehen:
 <pre>
 Host tuer
 HostName tuer.rzl.so
-Port 2322
+Port 2323
 </pre>
 
 == Getränkelager ==
