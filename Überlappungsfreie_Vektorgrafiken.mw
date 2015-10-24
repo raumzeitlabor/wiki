@@ -83,6 +83,12 @@ geschrieben, die die ausgewählten Gruppen rekursiv abarbeitet und alle relevant
 Klone durch Duplikate ersetzt. Danach können dann alle Konturlinien in Flächen
 umgewandelt werden.
 
+Dabei kann es passieren, dass Objekte plötzlich eine sichtbare Kontur bekommen:
+
+[[File:applikationen-lasern-unset-stroke-problem.gif]]
+
+Das liegt in diesem Fall daran, dass das Objekt (die weiße Füllung des Ohrs) als Kontur "unset" hat, also die Kontur der Vorfahren im SVG-Baum erbt. Man kann dann entweder die unerwünschte Kontur von Hand löschen oder schon bei der Erstellung des Stickmotivs die Kontur auf "none" setzen.
+
 Wenn die Vektorgraphik Objekte wie Sterne, Ellipsen oder Pfad-Effekte enthält,
 sollte man diese mit "Path->Object to Path" in Konturen umwandeln.
 
