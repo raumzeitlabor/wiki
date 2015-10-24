@@ -22,7 +22,36 @@ Die mit grünen Ellipsen markierten Punkt entfernen wir mit der Funktion "Delete
 
 [[File:applikationen-lasern-farben-trennen-pfad-trennen.png]]
 
+Danach trennen wir die beiden Einzelteile des Pfades mit ''<Ctrl><Shift><k>'' in zwei einzelne Pfade auf, sonst kommt PE-Design nicht klar. Außerdem färben wir die Pfade wieder so wie wir sie am Ende haben wollen:
 
+[[File:applikationen-lasern-farben-trennen-resultat.png]]
+
+Die neuen Linien wandeln wir in Flächen und und entfernen die neuen Überlappungen, die wir dadurch eingeführt haben, so dass wir wieder eine überlappungsfreie Vektorgrafik haben.
+
+Wir wollen nur die Konturen, die Augen und das Cutiemark sticken, also optimieren wir erstmal nur diese Teile für den Import in PE-Design, siehe [[Rarity/Vektorgrafik-Import]], Abschnitte 1-4.
+
+Wir brauchen später die Flächen, die als Applikationen realisiert werden sollen einzeln, also legen wir für jede Farbe neue Ebene über allen anderen Ebenen an.
+Danach klicken wir ein Objekt einer Applikationsfläche an und über ''Rechtsklick->Select Same->Fill Colour'' alle weitere Objekte der selben Farbe.
+Diese schieben wir mit ''Rechtsklick->Move to layer...'' auf die zugehörige Ebene.
+
+Zur besseren Unterscheidung geben wir den Einzelteilen eine rote Konturlinie:
+
+[[File:applikationen-lasern-applikation-kontur-1.png]]
+
+Das sind definitiv zu viele Einzelteile, Konturen innerhalb des Körpers muss man nicht aussparen, das komplette Auge und Cutiemark muss man nicht aussparen etc.
+Mehrfaches Anwenden der Kombination ''<Ctrl><Shift><k>'' (Pfade in Einzelteile zerlegen) und ''<Ctrl><+>'' (Vereinigung) reduziert die Anzahl der Teile und entfernt Löcher wie z.B. das Auge:
+
+[[File:applikationen-lasern-applikation-kontur-union.png]]
+
+Die restlichen Überflüssigen Teile entfernen wir, indem wir von Hand die zusätzlich notwendige Fläche zeichnen, hier grün dargestellt:
+
+[[File:applikationen-lasern-applikation-kontur-reparieren.png]]
+
+Mit ''<Ctrl><+>'' (Vereinigung) fügen wir die Teile zusammen:
+
+[[File:applikationen-lasern-applikation-kontur-repariert.png]]
+
+Die weiße Fläche ist insgesamt zu groß für den Laser, also wird sie in zwei Einzelteile zerlegt.
 
 [[Kategorie:Textiles]]
 [[Kategorie:Anleitung]]
