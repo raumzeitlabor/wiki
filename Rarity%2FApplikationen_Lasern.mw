@@ -12,6 +12,17 @@ Und wir wollen alle drei Haarfarben und den Körper mit unterschiedlichen Applik
 
 Dazu machen wir aus der Vektorgrafik erstmal eine [[Überlappungsfreie Vektorgrafiken|überlappungsfreie Vektorgrafik]].
 
+Die einzelnen Farben im Schweif sollen als einzelne Applikationen realisiert werden, also brauchen wir Kurven entlang der Trennlinien. Dazu duplizieren wir die grünen Objekte und wählen als Kontur zunächst eine Kontrastfarbe:
+
+[[File:applikationen-lasern-farben-trennen.png]]
+
+Die Dicke der Konturlinie ist Motivabhängig, hier sind es 3mm. Je dünner umso höher ist am Ende die Wahrscheinlichkeit, dass der Applikationsstoff nicht richtig festgestickt wird, weil sich der Stoff vorher im Stickvorgang verzogen hat.
+
+Die mit grünen Ellipsen markierten Punkt entfernen wir mit der Funktion "Delete segment between non-endpoint nodes":
+
+[[File:applikationen-lasern-farben-trennen-pfad-trennen.png]]
+
+
 
 [[Kategorie:Textiles]]
 [[Kategorie:Anleitung]]
