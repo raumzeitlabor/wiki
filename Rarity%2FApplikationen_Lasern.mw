@@ -76,5 +76,12 @@ Die Trennlinien zwischen den grünen Teilen der Mäne und den rosa/blauen Teilen
 
 [[File:applikationen-lasern-applikation-alle-konturen-vergroessert.png]]
 
+Jetzt können wir für jede Applikationsfarbe die zugehörigen Flächen in eine neue Datei kopieren und so anordnen, dass sie in einem Durchgang gelasert werden können, d.h. in einem Rechteck von 38,5cm x 23cm.
+Hier exemplarisch für blau:
+
+[[File:applikationen-lasern-blau-lasern.png]]
+
+Vor dem Lasern muss man noch die Füllung entfernen und für die Kontur eine Farbe nehmen, bei der alle drei Farbwerte (rot, grün, blau) entweder auf 0 oder auf 255 stehen.
+
 [[Kategorie:Textiles]]
 [[Kategorie:Anleitung]]
