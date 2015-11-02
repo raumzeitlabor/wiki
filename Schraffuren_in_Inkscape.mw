@@ -1,0 +1,62 @@
+In dieser Anleitung geht es darum, beliebige Flächen durch Schraffuren hervorzuheben, die der Kontur der Fläche ähnlich sind. Solche Schraffuren kann man dann lasern oder sticken.
+
+Als Vorlage dient dieses Motiv:
+
+[[File:schraffuren-vorlage.png]]
+
+Wir wollen die Haare durch Schraffuren darstellen. Wir führen das exemplarisch an der blauen Strähne links unten durch. Zur besseren Übersicht sind alle anderen Teile ausgeblendet:
+
+[[File:schraffuren-einzelteil.png]]
+
+Wir wollen als Schraffurlinien Pfad-Interpolationen benutzen, dazu brauchen wir zwei Pfade, die das Objekt möglichst gut darstellen.
+Deshalb wählen wir die rot eingekreisten Punkte des Pfades aus und benutzen die Funktion ''Delete segment between two non-endpoint nodes'':
+
+[[File:schraffuren-punkte-loeschen.png]]
+
+Danach sollte das so aussehen:
+
+[[File:schraffuren-punkte-geloescht.png]]
+
+Jetzt machen wir aus diesem einzelnen Objekt zwei, indem wir den Pfad aufspalten (''Path->Break Apart'' oder ''<Ctrl>+<Shift>+<k>'')
+
+Das sieht schon so aus, als könnten wir durch Interpolation zwischen diesen beiden Linien eine schöne Schraffur bekommen.
+Das Problem ist, dass Pfade eine Richtung haben, in der sie "durchlaufen" werden. Diese beiden Pfade werden aktuell in entgegengesetzter Richtung durchlaufen, wenn man zwischen diesen interpoliert bekommt man so ein Ergebnis:
+
+[[File:schraffuren-falsche-richtung.png]]
+
+Das lässt sich aber leicht beheben, indem wir die Richtung eines Pfades mit ''Path->Reverse'' umdrehen.
+
+Ein weiteres Problem ist, dass die eigentliche Fläche am unteren rechten Ende konvex ist, deshalb müssen wir die beiden Konturlinien ein bischen verlängern:
+
+[[File:schraffuren-erweitert.png]]
+
+Jetzt müssen wir uns überlegen, wie viele Schraffur-Linien wir brauchen bzw. erstmal welchen Abstand diese haben sollen.
+Dafür messen wir erstmal den Abstand der beiden Linien.
+Je nach Anwendung kann es wichtiger sein, dass ein minimaler, maximaler oder mittlerer Abstand der Schraffurlinien eingehalten wird,
+dann muss man jeweils den maximalen, minimalen oder mittleren Abstand der beiden Konturlinien messen.
+
+Um den Abstand der Konturlinien zu messen benutzen wir das Bezier-Kurven-Werkzeug (''<Shift>+<F6>''). Wir klicken auf die eine Linie, ziehen den Cursor zur anderen Linie und lesen in der Leiste unten den Abstand ab:
+
+[[File:schraffuren-abstand-messen.png]]
+
+Das sind bei uns 23mm und wir hätten gerne einen Abstand von 1mm zwischen zwei Konturlinien, also brauchen wir 22 Interpolationsschritte.
+
+Wir wählen also die beiden Pfade aus und rufen dann das Interpolationswerkzeug mit ''Extensions->Generate from Path->Interpolate'' auf:
+
+[[File:schraffuren-interpolation.png]]
+
+Hier wählen wir als Exponent 0, 22 Interpolationsschritte und als Interpolationsmethode 2.
+Das Ergebnis sollte dann etwa so aussehen:
+
+[[File:schraffuren-interpoliert.png]]
+
+Jetzt müssen wir noch die überlangen Linien abschneiden.
+Dazu wählen wir alle Schraffurlinien aus (ohne die beiden dickeren Konturlinien) und fügen sie mit ''Path->Combine'' (''<Ctrl>+<k>'') zu einem einzigen Pfad zusammen.
+Dann duplizieren wir die Fläche und sorgen dafür, dass sie über der Schraffur liegt:
+
+[[File:schraffuren-schneiden.png]]
+
+Jetzt wählen wir Schraffur und Fläche aus und zerschneiden die Schraffur mit ''Path->Cut Path'' entlang der Begrenzung der Fläche.
+Dadurch bekommen wir einzelne Pfad-Stücke innerhalb und außerhalb der Fläche und können die Teile außerhalb der Fläche einfach löschen:
+
+[[File:schraffuren-geschnitten.png]]
