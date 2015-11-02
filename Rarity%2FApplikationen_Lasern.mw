@@ -64,7 +64,7 @@ Mach betrachte etwa das folgende Beispiel, bei dem das schwarze P skaliert wurde
 
 [[File:applikationen-lasern-applikation-alle-konturen.png]]
 
-Deshalb benutzen wir Path->Outset.
+Deshalb benutzen wir ''Path->Outset''.
 Mit dieser Methode lassen sich Flächen so vergrößern wie wir das brauchen:
 
 [[File:applikationen-lasern-applikation-richtige-skalierung.png]]
