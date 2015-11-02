@@ -1,6 +1,6 @@
 {| class="wikitable"
 |-
-! Page currently under Construction --[[Benutzer:Alexander Brock|Alexander Brock]] ([[Benutzer Diskussion:Alexander Brock|Diskussion]]) 01:42, 2. Nov. 2015 (CET)
+! Page currently under Construction --[[Benutzer:Alexander Brock|Alexander Brock]] ([[Benutzer Diskussion:Alexander Brock|Diskussion]]) 19:00, 2. Nov. 2015 (CET)
 |-
 |}
 
@@ -66,6 +66,25 @@ Jetzt wählen wir Schraffur und Fläche aus und zerschneiden die Schraffur mit '
 Dadurch bekommen wir einzelne Pfad-Stücke innerhalb und außerhalb der Fläche und können die Teile außerhalb der Fläche einfach löschen:
 
 [[File:schraffuren-geschnitten.png]]
+
+Das waren die Grundlagen, jetzt kommen noch ein paar Tipps und Tricks für diverse Situationen.
+Ein Problem ist, dass manche Flächen am Anfang oder Ende enger werden, z.B. am Schweif:
+
+[[File:schraffuren-zu-eng.png]]
+
+Eine Möglichkeit ist es, an dem Ende eine der Konturlinien so zu ändern, dass die Breite des Objektes ungefähr gleich bleibt, so wie die rot markierte Linie:
+
+[[File:schraffuren-zu-eng-loesung-1.png]]
+
+Nach dem Interpolieren sieht das dann so aus:
+
+[[File:schraffuren-zu-eng-loesung-2.png]]
+
+jetzt schneiden wir die Schraffur mit dem Objekt und prompt ist die Modifikation völlig unauffällig geworden:
+
+[[File:schraffuren-zu-eng-loesung-3.png]]
+
+
 
 [[Kategorie:Textiles]]
 [[Kategorie:Anleitung]]
