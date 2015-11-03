@@ -113,7 +113,26 @@ Das Problem mit dem bisherigen Ansatz der Interpolation zweier Pfade ist, dass d
 
 [[File:schraffuren-feder-problem.png]]
 
+Deshalb zeichnen wir erstmal eine Linie (rot) mitten in die Feder, die der Kontur folgt und drehen den Pfad, den wir wiederholen wollen (schwarz) genau hochkant:
 
+[[File:schraffuren-feder-loesung-1.png]]
+
+Wir benutzen den Effekt ''Pattern Along Path''.
+Dazu wählen wir zuerst den schwarzen Pfad ausund kopieren ihn mit ''<Ctrl><c>'' in die Zwischenablage.
+Dann wählen wir den roten Pfad aus und wechseln mit ''Path->Path Effects'' zu den Effekten.
+Dort wählen wir ''Add path effect'' (das blaue + Symbol).
+Aus der Liste der Pfadeffekte wählen wir ''Pattern Along Path'' und bestätigen mit dem ''Add''-Button.
+Als Musterquelle (''Pattern Source'') wählen wir ''Link to path on clipboard'' (der Button ganz rechts) und bei ''Pattern copies'': ''Repeated'', dann sieht das so aus:
+
+[[File:schraffuren-feder-loesung-2.png]]
+
+Gegebenenfalls muss man noch den Parameter ''Spacing'' ändern, um den Abstand der Kopien anzupassen.
+
+Jetzt kann man an dem schwarzen Pfad Änderungen vornehmen, die dann automatisch in den Pfad-Effekt übernommen werden.
+Außerdem kann man den Pfad ändern, entlang dessen die Kopien angelegt werden.
+Wenn man mit dem Ergebnis zufrieden ist kann man mit ''Path->Object to Path'' den Pfadeffekt in einen einzelnen Pfad umwandeln, danach kann man wie gewohnt mit ''Cut Path'' den Pfad an zuschneiden:
+
+[[File:schraffuren-feder-ergebnis.png]]
 
 [[Kategorie:Textiles]]
 [[Kategorie:Anleitung]]
