@@ -1,6 +1,6 @@
 {| class="wikitable"
 |-
-! Page currently under Construction --[[Benutzer:Alexander Brock|Alexander Brock]] ([[Benutzer Diskussion:Alexander Brock|Diskussion]]) 19:00, 2. Nov. 2015 (CET)
+! Page currently under Construction --[[Benutzer:Alexander Brock|Alexander Brock]] ([[Benutzer Diskussion:Alexander Brock|Diskussion]]) 01:22, 3. Nov. 2015 (CET)
 |-
 |}
 
@@ -84,7 +84,28 @@ jetzt schneiden wir die Schraffur mit dem Objekt und prompt ist die Modifikation
 
 [[File:schraffuren-zu-eng-loesung-3.png]]
 
+Das gleiche Problem tritt an der Mähne auf, nur etwas extremer.
+Man kann dann versuchen, adurch Skalieren und Verschieben einer der beiden Konturlinien (in unserem Fall die Längere, Obere), eine zweite Kontur zu erzeugen, die fast konstanten Abstand zu der ersten Konturlinie hat.
+Ungefähr so wie hier rot markiert:
 
+[[File:schraffuren-falsche-kontur.png]]
+
+Das Problem ist hier aber, dass die längere der beiden Konturlinien am unteren rechten Ende fast genau auf die zweite, kleinere Konturlinie zeigt, so dass sich hier die interpolierten Pfade überdecken.
+Das führt beim Lasern dazu, dass oft über die selbe Stelle gelasert wird so dass das Material zerschnitten anstatt graviert wird, beim Sticken gibt es ggf. ein Garnknäul oder es reißt.
+
+[[File:schraffuren-falsche-kontur-problem.png]]
+
+Eine Lösung wäre z.B., die längere Konturlinie rechts unten anders auslaufen zu lassen, so dass sie nicht mehr auf die kürzere Konturlinie zeigt:
+
+[[File:schraffuren-falsche-kontur-loesung.png]]
+
+Das Ergebnis sieht dann so aus:
+
+[[File:schraffuren-falsche-kontur-loesung2.png]]
+
+Insgesamt sieht das inzwischen schon ganz nett aus:
+
+TODO: Bild
 
 [[Kategorie:Textiles]]
 [[Kategorie:Anleitung]]
