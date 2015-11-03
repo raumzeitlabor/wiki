@@ -107,5 +107,13 @@ Insgesamt sieht das inzwischen schon ganz nett aus:
 
 TODO: Bild
 
+Jetzt wollen wir noch die Federn schraffiert darstellen.
+Dabei orientieren wir uns grob an natürlichen [https://de.wikipedia.org/wiki/Konturfeder Konturfedern].
+Das Problem mit dem bisherigen Ansatz der Interpolation zweier Pfade ist, dass die Feder hier gekrümmt ist und die interpolierten Pfade der Krümmung nicht folgen:
+
+[[File:schraffuren-feder-problem.png]]
+
+
+
 [[Kategorie:Textiles]]
 [[Kategorie:Anleitung]]
