@@ -1,6 +1,6 @@
 {| class="wikitable"
 |-
-! Page currently under Construction --[[Benutzer:Alexander Brock|Alexander Brock]] ([[Benutzer Diskussion:Alexander Brock|Diskussion]]) 01:22, 3. Nov. 2015 (CET)
+! Page currently under Construction --[[Benutzer:Alexander Brock|Alexander Brock]] ([[Benutzer Diskussion:Alexander Brock|Diskussion]]) 22:06, 4. Nov. 2015 (CET)
 |-
 |}
 
@@ -133,6 +133,26 @@ Außerdem kann man den Pfad ändern, entlang dessen die Kopien angelegt werden.
 Wenn man mit dem Ergebnis zufrieden ist kann man mit ''Path->Object to Path'' den Pfadeffekt in einen einzelnen Pfad umwandeln, danach kann man wie gewohnt mit ''Cut Path'' den Pfad an zuschneiden:
 
 [[File:schraffuren-feder-ergebnis.png]]
+
+Das ist jetzt bereit für den Laser.
+Wenn die Schraffuren gestickt werden sollen müssen wir noch ein bischen Arbeit investieren, um uns später die Angelegenheit in PE-Design möglichst einfach zu machen.
+Das Problem ist, dass PE-Design mit den vielen einzelnen Strichen nicht gut zurecht kommen, also machen wir daraus möglichst wenige lange Pfade.
+
+Zunächst wählen wir auf einer Seite des Pfades immer zwei Endpunkte aus, dann zwei nicht etc., hier rot markiert:
+
+[[File:schraffuren-feder-maeander-1.png]]
+
+Zwischen diesen Paaren von Endpunkten erzeugen wir mit der Funktion ''Join selected endnodes with a new segment'' Verbindungslinien.
+
+Dann wählen wir auf der gegenüberliegenden Seite wieder zwei Endpunkte aus, dann zwei nicht, etc. nur um einen Endpunkt versetzt und verbinden sie mit neuen Segmenten:
+
+[[File:schraffuren-feder-maeander-2.png]]
+
+Das machen wir entlang der kompletten Schraffur.
+Am Ende wählen wir alle verbleibenden offenen Endpunkte bis auf den "ganz am Anfang" und dem "ganz am Ende" und verbinden die offenen Endpunkte paarweise, das sollte dann so aussehen:
+
+[[File:schraffuren-feder-maeander.png]]
+
 
 [[Kategorie:Textiles]]
 [[Kategorie:Anleitung]]
