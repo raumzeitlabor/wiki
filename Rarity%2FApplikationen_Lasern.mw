@@ -1,6 +1,6 @@
 {| class="wikitable"
 |-
-! Page currently under Construction --[[Benutzer:Alexander Brock|Alexander Brock]] ([[Benutzer Diskussion:Alexander Brock|Diskussion]]) 15:07, 24. Okt. 2015 (CEST)
+! Page currently under Construction --[[Benutzer:Alexander Brock|Alexander Brock]] ([[Benutzer Diskussion:Alexander Brock|Diskussion]]) 23:35, 4. Nov. 2015 (CET)
 |-
 |}
 
@@ -82,6 +82,21 @@ Hier exemplarisch für blau:
 [[File:applikationen-lasern-blau-lasern.png]]
 
 Vor dem Lasern muss man noch die Füllung entfernen und für die Kontur eine Farbe nehmen, bei der alle drei Farbwerte (rot, grün, blau) entweder auf 0 oder auf 255 stehen.
+
+Wer will kann Teile des Motivs [[Schraffuren in Inkscape|von Hand schraffieren]], dieser Schritt ist aber optional.
+
+Um zu verhindern, dass PE-Design beim Import die Schraffuren wieder in einen Haufen Einzelteile zerlegt um die Überlappungen zu entfernen bringen wir die Schraffur-Pfade auf eine Ebene oberhalb der sonstigen Stickflächen.
+Danach exportieren wir das Motiv als .wmf und importieren es wie gewohnt in PE-Design.
+
+Wenn ein Schraffur-Pfad doch nicht oberhalb der anderen Stickflächen ist wird er von PE-Design ggf. zerschnitten, man erkennt das leicht daran, dass viel zu viele Scheren im Motiv sichtbar sind und links zu viele Objekte sind:
+
+[[File:applikationen-lasern-schraffur-zerteilt.png]]
+
+Wenn die Schraffur dann auf die richtige Ebene bringt und neu importiert sieht das so aus:
+
+[[File:applikationen-lasern-schraffur-am-stueck.png]]
+
+Bei diesem Motiv hat das über 100 Einzelteile gespart, die man sonst in der weiteren Verarbeitung von Hand hätte anpassen müssen, wobei man leicht etwas übersieht oder vergisst.
 
 [[Kategorie:Textiles]]
 [[Kategorie:Anleitung]]
