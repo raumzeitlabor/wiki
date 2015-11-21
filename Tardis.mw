@@ -181,7 +181,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 {| class="wikitable"
 |0x70<br>'''free'''
 |0x80<br>'''free'''
-|0x90<br>[[Benutzer:Alexander_Brock|Alexander]]
+|0x90<br>[[Benutzer:Alexander_Brock|Abrock]]
 |0xA0<br>[[Benutzer:Deramon|Laborant: deramon]]
 |-
 |0x71<br>'''free''' Elektroteile '''(TOCLEAN)'''
@@ -230,7 +230,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0xA9<br>Türöffner-Tag(ehem Torrorists)
 |-
 |0x7A<br>Kabel / KVM-Switches, PS2, Kaltgeräte Verlängerung
-|0x8A<br>SDR / HackRF (wer oder was ist das?) fast leer, umschichten?
+|0x8A<br>SDR / HackRF (wer oder was ist das?) fast leer, umschichten?; [https://github.com/mossmann/hackrf/wiki/HackRF-One Software defined Radio] Gehört dem Raum. Auf keinen Fall entsorgen. Evtl. umschichten.--[[Benutzer:Hax404|Hax404]] ([[Benutzer Diskussion:Hax404|Diskussion]]) 23:01, 21. Nov. 2015 (CET)
 |0x9A<br>Winkel / Haken / Mech. Bauteile
 |0xAA<br>Schneidplotter
 |-
