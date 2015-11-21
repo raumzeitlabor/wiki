@@ -209,7 +209,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x95<br>Bausätze BS0005
 |0xA5<br>Bausätze BS0009
 |-
-|0x76<br>Stempel
+|0x76<br>Stempel und Settop-Box
 |0x86<br>Bausätze BS0002
 |0x96<br>Bausätze BS0006
 |0xA6<br>Bausätze BS0010
@@ -227,20 +227,20 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x79<br>Elektroinstallation
 |0x89<br>Kartendrucker
 |0x99<br>19" Harware / Dafo / Felicitus
-|0xA9<br>Torrorists
+|0xA9<br>Türöffner-Tag(ehem Torrorists)
 |-
-|0x7A<br>Kabel / KVM-Switches
-|0x8A<br>SDR / HackRF
+|0x7A<br>Kabel / KVM-Switches, PS2, Kaltgeräte Verlängerung
+|0x8A<br>SDR / HackRF (wer oder was ist das?) fast leer, umschichten?
 |0x9A<br>Winkel / Haken / Mech. Bauteile
 |0xAA<br>Schneidplotter
 |-
 |0x7B<br>Adapter
 |0x8B<br>Fnordcordia
 |0x9B<br>Lochbohrer
-|0xAB<br>Ultimaker
+|0xAB<br>Ultimaker (PLA)
 |-
 |0x7C<br>Türschließer
-|0x8C<br>'''free'''
+|0x8C<br>'''free''' '''(TOCLEAN)'''
 |0x9C<br>MRMCD
 |0xAC<br>Ultimaker
 |-
@@ -249,19 +249,19 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x9D<br>Stickbedarf
 |0xAD<br>Stoffkrams
 |-
-|0x7E<br>Laborant: naddie
+|0x7E<br>[[Benutzerin:Naddie|Laborant: naddie]]
 |0x8E<br>Stickrahmen
-|0x9E<br>Stickbedarf
-|0xAE<br>Stickbeispiele
+|0x9E<br>Stickbeispiele
+|0xAE<br>StickProtect, Untergarn, Nadeln (Husqvarna)
 |-
-|0x7F<br>'''free'''
+|0x7F<br>Textilmaterial
 |0x8F<br>Stickrahmen
-|0x9F<br>Stoff (?)
-|0xAF<br>Stickzubehör
+|0x9F<br>Stickvlies
+|0xAF<br>Textil: Solvied, Thermofix
 |-
-|0x7G<br>'''free'''
-|0x8G<br>Aufnäher Trägerstoffe
-|0x9G<br>Folie (?)
-|0xAG<br>Schubladenteile (kunststoff+Schrauben; die Blechteile sind im Textillager)
+|0x7G<br>Textilmaterial
+|0x8G<br>Aufnäher Trägerstoffe Felty, Inhalt: Filz (Textilverarbeitung)
+|0x9G<br>Stoff '''(TOCLEAN)'''
+|0xAG<br>Schubladenteile (kunststoff+Schrauben)
 |-
 |}
