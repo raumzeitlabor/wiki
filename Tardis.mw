@@ -195,14 +195,14 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0xA2<br>Kinder-Farben
 |-
 |0x73<br>Netzteil
-|0x83<br>Holz-Lager (Frage: <ref>Auslagern in Werkstatt?</ref>)
-|0x93<br>Holz-Reste
+|0x83<br>Holz-Lager (Frage: Auslagern in Werkstatt?)
+|0x93<br>Holz-Reste '''(TOCLEAN)'''
 |0xA3<br>Pinsel & Farben
 |-
-|0x74<br>Walsonde
-|0x84<br>Holzponies
-|0x94<br>Holzponies
-|0xA4<br>leer
+|0x74<br>keine Beschriftung, Textilkram (Walsonde?)
+|0x84<br>Holzponies (Mobilee, TüröffnerTag, public)
+|0x94<br>Holzponies (Mobilee, TüröffnerTag, public) join with 84?
+|0xA4<br>Fräse
 |-
 |0x75<br>E-Bauteile
 |0x85<br>Bausätze BS0001
