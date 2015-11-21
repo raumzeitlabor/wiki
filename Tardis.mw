@@ -139,9 +139,9 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x0D<br>Elektroinstallation
 |0x1D<br>Luftpolstertaschen (leer)
 |0x2D<br>Bauteile
-|0x3D<br>Laborant: BFritz
-|0x4D<br>Laborant: tabascoeye
-|0x5D<br>Laborant: DaFo
+|0x3D<br>[[Benutzer:Bfritz0815|Laborant: BFritz]]
+|0x4D<br>[[Benutzer:TabascoEye|Laborant: tabascoeye]]
+|0x5D<br>[[Benutzer:Dancingfo|Laborant: DaFo]]
 |0x6D<br>Laborant: rami
 |-
 |0x0E<br>Steckernetzteile
@@ -181,16 +181,16 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 {| class="wikitable"
 |0x70<br>'''free'''
 |0x80<br>'''free'''
-|0x90<br>'''free'''
-|0xA0<br>Laborant: deramon
+|0x90<br>[[Benutzer:Alexander_Brock|Abrock]]
+|0xA0<br>[[Benutzer:Deramon|Laborant: deramon]]
 |-
-|0x71<br>'''free'''
-|0x81<br>Laborant: s1lvester
-|0x91<br>'''free'''
-|0xA1<br>'''free'''
+|0x71<br>'''free''' Elektroteile '''(TOCLEAN)'''
+|0x81<br>[[Benutzer:S1lvester|Laborant: s1lvester]]
+|0x91<br>Glasfasermatten
+|0xA1<br>'''free''' diverse Farben '''(TOCLEAN)'''
 |-
 |0x72<br>Laborant:Hugo
-|0x82<br>'''free'''
+|0x82<br>[[Benutzer:Wiiilmaa|Laborant Jens Wilmer]]
 |0x92<br>Glasfasermatten
 |0xA2<br>Kinder-Farben
 |-
