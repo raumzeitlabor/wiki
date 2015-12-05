@@ -173,6 +173,8 @@ Der TinyG Controller stellt ein serielles Interface zur Verfügung. Prinzipiell 
 
 Unter https://synthetos.github.io/ gibt es aktuelle Firmware und eine flash-Anleitung für den TinyG. Am 05.12.2015 wurde die Version 440.20 aus dem master-branch installiert. Die Firmware selbst wird ist zunächst über eine Reihe von Variablen konfiguriert. Auf der seriellen Konsole erhält man mittels '''$$''' alle definierten Variablen. Auf der Unterseite [[Shapeoko2/tinyg_settings]] ist eine aktuelle Config inklusive der konfigurierten Endstops dokumentiert.
 
+Aktuell (05.12.2015) ist ein normales x/y/z-Koordinatensystem konfiguriert, d. h. 0/0/0 ist links unten und die Spindel ist komplett am Anschlag ausgefahren. Von hier aus kann nun in positiver x/y-Richtung und negativer z-Richtung gearbeitet werden.
+
 == Mögliche weitere Modifikationen ==
 
 * NEMA-23 Motoren für alle Achsen [http://shop.shapeoko.com/products/shapeoko-2-nema-23-z-axis-motor-mount Z-Achse] [https://www.inventables.com/projects/nema-23-shapeoko-2-upgrade-parts-list X/Y-Achse]
