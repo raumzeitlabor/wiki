@@ -174,7 +174,7 @@ Der Sensorstecker ist wie folgt belegt:
 
 Der TinyG Controller stellt ein serielles Interface zur Verfügung. Prinzipiell ist das Protokoll frei wählbar. Per default laufen 115200 Baud 8N1 mit Hardware-Flow-Control. Auf dem Terminal erhält man mit '''$h''' das help menue.
 
-=== Firmware ===
+=== Firmware & Config ===
 
 Unter https://synthetos.github.io/ gibt es aktuelle Firmware und eine flash-Anleitung für den TinyG. Am 05.12.2015 wurde die Version 440.20 aus dem master-branch installiert. Die Firmware selbst wird ist zunächst über eine Reihe von Variablen konfiguriert. Auf der seriellen Konsole erhält man mittels '''$$''' alle definierten Variablen. Auf der Unterseite [[Shapeoko2/tinyg_settings]] ist eine aktuelle Config inklusive der konfigurierten Endstops dokumentiert.
 
