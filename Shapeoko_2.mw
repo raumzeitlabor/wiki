@@ -112,11 +112,6 @@ Vor dem Fräsen sollte man den erzeugten G-Code und somit den Fräsvorgang zu si
 
 Polyethylen High-Density, siehe [https://www.youtube.com/watch?v=T1pkyLY8Qvs Verarbeitungsbeispiel]. [http://www.s-polytec.de/pe-platten-schwarz_pe-platte-schwarz-20mm-auf-mass.html Bezugsquelle]
 
-== Geplante Modifikationen ==
-
-* Gehäuse mit Beleuchtung, Absaugung, Tragegriffen und Flightcase-Schutz-Ecken ([http://www.youtube.com/watch?v=i2UO1xZoSzc etwa so aber besser bzw. RaumzeitLaborierter])
-* Webcam (mit Verbindung zu Chilipeppr bzw. Octoprint)
-
 == Verkabelungsinformationen ==
 
 Die Schleppkettenkabel vom Typ ÖLFLEX® CHAIN 808 CP 5 G 0.75 mm² sind für die Schrittmotoren folgendermaßen verkabelt (Adernnummern sind auf die einzelnen Litzen aufgedruckt):
