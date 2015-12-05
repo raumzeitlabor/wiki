@@ -21,11 +21,6 @@ Nach Abstimmung im Septemberplenum 2014 hat das RaumzeitLabor eine CNC Fräse vo
 
 * http://docs.shapeoko.com/ -- Manual und viel Info des Herstellers
 
-== TODO ==
-
-* Die Elektronik steckbar machen. Dazu muß noch entsprechendes Kabel sowie ein Stecker mit hoher Kontaktbelastbarkeit gekauft werden.
-* Die Kabelschlepps ordentlich montieren
-
 == Ausstattung ==
 
 Wir haben:
@@ -90,7 +85,9 @@ t.b.d.
 * MakerCAM
 ** Hinweise MakerCAM: 
 ** bei SVG import auf dpi achten! Inkscape: 90dpi, Illustrator: 72dpi
-** im Metric mode (mm statt inch) erstellt es sehr viele Nachkommastellen im GCode => bereinigen mit Tools oder per Hand (awk/sed). Evtl. kann TinyG auch mit dem G-Code umgehen und/oder MakerCAM bekommt bugfix [http://www.shapeoko.com/wiki/index.php/MakerCAM#MakerCAM_outputs_too_many_decimals siehe auch hier]
+** im Metric mode (mm statt inch) erstellt es sehr viele Nachkommastellen im GCode => bereinigen mit Tools oder per Hand (awk/sed). Evtl. kann TinyG auch mit dem 
+G-Code umgehen und/oder MakerCAM bekommt bugfix [http://www.shapeoko.com/wiki/index.php/MakerCAM#MakerCAM_outputs_too_many_decimals siehe auch hier]
+* Oder einfach pycam (pyhton skript, dassein .STL in gcode umsetzt)
 
 ==== G-Code Sender ====
 
@@ -172,6 +169,15 @@ Der Sensorstecker ist wie folgt belegt:
 | 8 || frei || blau
 
 |}
+
+== TinyG ==
+
+Der TinyG Controller stellt ein serielles Interface zur Verfügung. Prinzipiell ist das Protokoll frei wählbar. Per default laufen 115200 Baud 8N1 mit Hardware-Flow-Control. Auf dem Terminal erhält man mit "$h" das help menue.
+
+=== Firmware ===
+
+Unter https://synthetos.github.io/ gibt es aktuelle Firmware und eine flash-Anleitung für den TinyG. Am 05.12.2015 wurde die Version 440.20 aus dem master-branch installiert.
+
 
 == Mögliche weitere Modifikationen ==
 
