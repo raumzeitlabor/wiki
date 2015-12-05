@@ -40,7 +40,7 @@
 [2pm] m2 power management         2 [0=disabled,1=always on,2=in cycle,3=when moving]
 [3ma] m3 map to axis              2 [0=X,1=Y,2=Z...]
 [3sa] m3 step angle               1.800 deg
-[3tr] m3 travel per revolution    1.2500 mm
+[3tr] m3 travel per revolution    2.0000 mm
 [3mi] m3 microsteps               4 [1,2,4,8]
 [3po] m3 polarity                 0 [0=normal,1=reverse]
 [3pm] m3 power management         2 [0=disabled,1=always on,2=in cycle,3=when moving]
@@ -58,22 +58,22 @@
 [xjm] x jerk maximum           5000 mm/min^3 * 1 million
 [xjh] x jerk homing           10000 mm/min^3 * 1 million
 [xjd] x junction deviation        0.0100 mm (larger is faster)
-[xsn] x switch min                2 [0=off,1=homing,2=limit,3=limit+homing]
-[xsx] x switch max                3 [0=off,1=homing,2=limit,3=limit+homing]
+[xsn] x switch min                3 [0=off,1=homing,2=limit,3=limit+homing]
+[xsx] x switch max                2 [0=off,1=homing,2=limit,3=limit+homing]
 [xsv] x search velocity        3000 mm/min
 [xlv] x latch velocity          100 mm/min
 [xlb] x latch backoff            20.000 mm
 [xzb] x zero backoff              3.000 mm
 [yam] y axis mode                 1 [standard]
-[yvm] y velocity maximum      16000 mm/min
-[yfr] y feedrate maximum      16000 mm/min
+[yvm] y velocity maximum      10000 mm/min
+[yfr] y feedrate maximum      10000 mm/min
 [ytn] y travel minimum            0.000 mm
 [ytm] y travel maximum          275.000 mm
 [yjm] y jerk maximum           5000 mm/min^3 * 1 million
 [yjh] y jerk homing           10000 mm/min^3 * 1 million
 [yjd] y junction deviation        0.0100 mm (larger is faster)
-[ysn] y switch min                2 [0=off,1=homing,2=limit,3=limit+homing]
-[ysx] y switch max                3 [0=off,1=homing,2=limit,3=limit+homing]
+[ysn] y switch min                3 [0=off,1=homing,2=limit,3=limit+homing]
+[ysx] y switch max                2 [0=off,1=homing,2=limit,3=limit+homing]
 [ysv] y search velocity        3000 mm/min
 [ylv] y latch velocity          100 mm/min
 [ylb] y latch backoff            20.000 mm
@@ -81,8 +81,8 @@
 [zam] z axis mode                 1 [standard]
 [zvm] z velocity maximum        800 mm/min
 [zfr] z feedrate maximum        800 mm/min
-[ztn] z travel minimum            0.000 mm
-[ztm] z travel maximum           65.000 mm
+[ztn] z travel minimum          -65.000 mm
+[ztm] z travel maximum            0.000 mm
 [zjm] z jerk maximum             50 mm/min^3 * 1 million
 [zjh] z jerk homing            1000 mm/min^3 * 1 million
 [zjd] z junction deviation        0.0100 mm (larger is faster)
@@ -187,5 +187,4 @@
 [g30a] g30 a position             0.000 deg
 [g30b] g30 b position             0.000 deg
 [g30c] g30 c position             0.000 deg
-
 </pre>
