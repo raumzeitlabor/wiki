@@ -1,5 +1,4 @@
 <pre>
-
 [fb]  firmware build            440.20
 [fv]  firmware version            0.97
 [hp]  hardware platform           1.00
@@ -7,7 +6,7 @@
 [id]  TinyG ID                    3X3566-JL2
 [ja]  junction acceleration 2000000 mm
 [ct]  chordal tolerance           0.0100 mm
-[sl]  soft limit enable           0
+[sl]  soft limit enable           1
 [st]  switch type                 1 [0=NO,1=NC]
 [mt]  motor idle timeout          2.00 Sec
 [ej]  enable json mode            0 [0=text,1=JSON]
@@ -55,11 +54,11 @@
 [xvm] x velocity maximum      16000 mm/min
 [xfr] x feedrate maximum      16000 mm/min
 [xtn] x travel minimum            0.000 mm
-[xtm] x travel maximum          220.000 mm
+[xtm] x travel maximum          260.000 mm
 [xjm] x jerk maximum           5000 mm/min^3 * 1 million
 [xjh] x jerk homing           10000 mm/min^3 * 1 million
 [xjd] x junction deviation        0.0100 mm (larger is faster)
-[xsn] x switch min                3 [0=off,1=homing,2=limit,3=limit+homing]
+[xsn] x switch min                2 [0=off,1=homing,2=limit,3=limit+homing]
 [xsx] x switch max                3 [0=off,1=homing,2=limit,3=limit+homing]
 [xsv] x search velocity        3000 mm/min
 [xlv] x latch velocity          100 mm/min
@@ -69,11 +68,11 @@
 [yvm] y velocity maximum      16000 mm/min
 [yfr] y feedrate maximum      16000 mm/min
 [ytn] y travel minimum            0.000 mm
-[ytm] y travel maximum          220.000 mm
+[ytm] y travel maximum          275.000 mm
 [yjm] y jerk maximum           5000 mm/min^3 * 1 million
 [yjh] y jerk homing           10000 mm/min^3 * 1 million
 [yjd] y junction deviation        0.0100 mm (larger is faster)
-[ysn] y switch min                3 [0=off,1=homing,2=limit,3=limit+homing]
+[ysn] y switch min                2 [0=off,1=homing,2=limit,3=limit+homing]
 [ysx] y switch max                3 [0=off,1=homing,2=limit,3=limit+homing]
 [ysv] y search velocity        3000 mm/min
 [ylv] y latch velocity          100 mm/min
@@ -83,7 +82,7 @@
 [zvm] z velocity maximum        800 mm/min
 [zfr] z feedrate maximum        800 mm/min
 [ztn] z travel minimum            0.000 mm
-[ztm] z travel maximum          100.000 mm
+[ztm] z travel maximum           65.000 mm
 [zjm] z jerk maximum             50 mm/min^3 * 1 million
 [zjh] z jerk homing            1000 mm/min^3 * 1 million
 [zjd] z junction deviation        0.0100 mm (larger is faster)
