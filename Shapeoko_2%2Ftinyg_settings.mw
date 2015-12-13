@@ -51,8 +51,8 @@
 [4po] m4 polarity                 1 [0=normal,1=reverse]
 [4pm] m4 power management         0 [0=disabled,1=always on,2=in cycle,3=when moving]
 [xam] x axis mode                 1 [standard]
-[xvm] x velocity maximum      16000 mm/min
-[xfr] x feedrate maximum      16000 mm/min
+[xvm] x velocity maximum       8000 mm/min
+[xfr] x feedrate maximum       8000 mm/min
 [xtn] x travel minimum            0.000 mm
 [xtm] x travel maximum          260.000 mm
 [xjm] x jerk maximum           5000 mm/min^3 * 1 million
@@ -65,8 +65,8 @@
 [xlb] x latch backoff            20.000 mm
 [xzb] x zero backoff              3.000 mm
 [yam] y axis mode                 1 [standard]
-[yvm] y velocity maximum      10000 mm/min
-[yfr] y feedrate maximum      10000 mm/min
+[yvm] y velocity maximum       8000 mm/min
+[yfr] y feedrate maximum       8000 mm/min
 [ytn] y travel minimum            0.000 mm
 [ytm] y travel maximum          275.000 mm
 [yjm] y jerk maximum           5000 mm/min^3 * 1 million
