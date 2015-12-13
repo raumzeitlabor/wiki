@@ -139,8 +139,8 @@
 [g54a] g54 a offset               0.000 deg
 [g54b] g54 b offset               0.000 deg
 [g54c] g54 c offset               0.000 deg
-[g55x] g55 x offset             145.000 mm
-[g55y] g55 y offset             160.000 mm
+[g55x] g55 x offset               0.000 mm
+[g55y] g55 y offset               0.000 mm
 [g55z] g55 z offset               0.000 mm
 [g55a] g55 a offset               0.000 deg
 [g55b] g55 b offset               0.000 deg
