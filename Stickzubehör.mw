@@ -31,65 +31,65 @@ Wenn wir genau eine kleine und beliebig viele (meistens nur eine) große Konen e
 {| class="wikitable"
 ! !! 1 !! 2 !! 3 !! 4 !! 5 !! 6 !! 7 !! 8 !! 9 !! 10 !! 11 !! 12
 |-
-|<strong>1</strong>||1222 || 1289 || 1145 || <span style="background-color:#080">12</span><span style="background-color:#ff0">49</span> || 1201 || 1134 || 1291 || 1172 || 1284 || 1283 || 1197 || 1199
+|<strong>A</strong>||1222 || 1289 || 1145 || <span style="background-color:#080">12</span><span style="background-color:#ff0">49</span> || 1201 || 1134 || 1291 || 1172 || 1284 || 1283 || 1197 || 1199
 |-
-|<strong>2</strong>||1200 || 1042 || 1293 || 1728 || 0572 || 1242 || 1226 || 1561 || 1254 || 1296 || <span style="background-color:#080">12</span><span style="background-color:#ff0">35</span> || 1301
+|<strong>B</strong>||1200 || 1042 || 1293 || 1728 || 0572 || 1242 || 1226 || 1561 || 1254 || 1296 || <span style="background-color:#080">12</span><span style="background-color:#ff0">35</span> || 1301
 |-
-|<strong>3</strong>||1302 || 1112 || 1299 || 1297 || 1298 || 1195 || 1122 || 1194 || 1032 || 1213 || 1304 || 1111
+|<strong>C</strong>||1302 || 1112 || 1299 || 1297 || 1298 || 1195 || 1122 || 1194 || 1032 || 1213 || 1304 || 1111
 |-
-|<strong>4</strong>||1031 || 1193 || 1033 || 1080 || 1255 || 1300 || 1192 || 1308 || 0607 || 1309 || 0534 || 0670
+|<strong>D</strong>||1031 || 1193 || 1033 || 1080 || 1255 || 1300 || 1192 || 1308 || 0607 || 1309 || 0534 || 0670
 |-
-|<strong>5</strong>||1189 || 1036 || 1264 || 1214 || 1247 || <span style="background-color:#ff0">1186</span> || 1215 || 1183 || 1068 || 1113 || 1120 || 1064
+|<strong>E</strong>||1189 || 1036 || 1264 || 1214 || 1247 || <span style="background-color:#ff0">1186</span> || 1215 || 1183 || 1068 || 1113 || 1120 || 1064
 |-
-|<strong>6</strong>||1015 || 1121 || 1225 || 1115 || 1148 || 1108 || 1224 || 1256 || 1515 || 1109 || 1511 || <span style="background-color:#ff0">1231</span>
+|<strong>F</strong>||1015 || 1121 || 1225 || 1115 || 1148 || 1108 || 1224 || 1256 || 1515 || 1109 || 1511 || <span style="background-color:#ff0">1231</span>
 |-
-|<strong>7</strong>||<span style="background-color:#ff0">1191</span> || 1307 || 1034 || 1119 || 1190 || 1310 || <span style="background-color:#ff0">1533</span> || 1188 || 1257 || 1081 || 1558 || 1181
+|<strong>G</strong>||<span style="background-color:#ff0">1191</span> || 1307 || 1034 || 1119 || 1190 || 1310 || <span style="background-color:#ff0">1533</span> || 1188 || 1257 || 1081 || 1558 || 1181
 |-
-|<strong>8</strong>||1117 || 1154 || 1303 || 1020 || 1016 || 1259 || 1019 || 0619 || 1258 || 1017 || 1071 || 1082
+|<strong>H</strong>||1117 || 1154 || 1303 || 1020 || 1016 || 1259 || 1019 || 0619 || 1258 || 1017 || 1071 || 1082
 |-
-|<strong>9</strong>||0520 || 0836 || <span style="background-color:#ff0">1127</span> || 0622 || 1070 || 0868 || 1367 || <span style="background-color:#ff0">1065</span> || 1238 || 1168 || <span style="background-color:#080">1314</span> || 1315
+|<strong>J</strong>||0520 || 0836 || <span style="background-color:#ff0">1127</span> || 0622 || 1070 || 0868 || 1367 || <span style="background-color:#ff0">1065</span> || 1238 || 1168 || <span style="background-color:#080">1314</span> || 1315
 |-
-|<strong>10</strong>||<span style="background-color:#ff0">1078</span> || 1184 || 1246 || 1317 || <span style="background-color:#ff0">1037</span> || <span style="background-color:#080">1393</span> || 1319 || 1147 || 1039 || 0561 || 1401 || 1263
-|-
-! !! 1 !! 2 !! 3 !! 4 !! 5 !! 6 !! 7 !! 8 !! 9 !! 10 !! 11 !! 12
-|-
-|<strong>1</strong>||1366 || 1321 || 1270 || 0610 || 1229 || 1508 || 1211 || 1228 || 1156 || 1173 || 1209 || 1104
-|-
-|<strong>2</strong>||1322 || 1332 || 1282 || 1177 || 0630 || 1212 || 1272 || 1271 || 1273 || 1210 || 1086 || 1063
-|-
-|<strong>3</strong>||1331 || 1100 || 1047 || 1276 || <span style="background-color:#080">15</span><span style="background-color:#ff0">10</span> || 1274 || 1049 || 1279 || 1280 || 1101 || 1278 || 1718
-|-
-|<strong>4</strong>||1277 || <span style="background-color:#ff0">1051</span> || 0569 || 0570 || 1079 || 1232 || 1174 || 1077 || 1275 || 1207 || 1287 || 0580
-|-
-|<strong>5</strong>||1046 || 0525 || 1286 || 0640 || 0571 || 1503 || 1281 || 1230 || 1517 || 1208 || 0538 || 1536
-|-
-|<strong>6</strong>||1103 || 1609 || 1176 || 1175 || <span style="background-color:#080">1351</span> || <span style="background-color:#ff0">1001</span> || <span style="background-color:#ff0">1002</span> || 1288 || 1045 || 0817 || 1204 || 1205
-|-
-|<strong>7</strong>||1720 || 1305 || <span style="background-color:#ff0">1285</span> || 1513 || 1090 || <span style="background-color:#ff0">1206</span> || 1096 || 1251 || <span style="background-color:#ff0">1250</span> || 1162 || 1233 || 1171
-|-
-|<strong>8</strong>||1095 || 1094 || 1252 || <span style="background-color:#080">1534<span style="background-color:#080"></span> || <span style="background-color:#080">1290</span> || <span style="background-color:#080">0861</span> || <span style="background-color:#080">1253</span> || <span style="background-color:#080">05</span><span style="background-color:#ff0">26</span> || <span style="background-color:#080">1535</span> || 1143 || 1198 || <span style="background-color:#080">0643</span>
-|-
-|<strong>9</strong>||1202 || 1294 || 0505 || <span style="background-color:#080">15</span><span style="background-color:#ff0">98</span> || 1043 || 1044 || 1182 || <span style="background-color:#ff0">0524</span> || 1234 || 1352 || <span style="background-color:#080">10</span><span style="background-color:#ff0">05</span> || 1151
-|-
-|<strong>10</strong>||1203 || 1223 || 1074 || 1165 || 1711 || 1030 || 1292 || 1028 || 1029 || <span style="background-color:#080">11</span><span style="background-color:#ff0">96</span> || <span style="background-color:#ff0">1076</span> || 1248
+|<strong>K</strong>||<span style="background-color:#ff0">1078</span> || 1184 || 1246 || 1317 || <span style="background-color:#ff0">1037</span> || <span style="background-color:#080">1393</span> || 1319 || 1147 || 1039 || 0561 || 1401 || 1263
 |-
 ! !! 1 !! 2 !! 3 !! 4 !! 5 !! 6 !! 7 !! 8 !! 9 !! 10 !! 11 !! 12
 |-
-|<strong>1</strong>||1169 || 1311 || 1035 || 1312 || 1022 || 1067 || <span style="background-color:#ff0">1061</span> || 1066 || 1135 || 1167 || 1023 || <span style="background-color:#ff0">1261</span>
+|<strong>A</strong>||1366 || 1321 || 1270 || 0610 || 1229 || 1508 || 1211 || 1228 || 1156 || 1173 || 1209 || 1104
 |-
-|<strong>2</strong>||0542 || 1187 || <span style="background-color:#080">1124</span> || 0502 || 1083 || 1333 || 1159 || 1262 || 1334 || 1549 || 1260 || <span style="background-color:#ff0">1243</span>
+|<strong>B</strong>||1322 || 1332 || 1282 || 1177 || 0630 || 1212 || 1272 || 1271 || 1273 || 1210 || 1086 || 1063
 |-
-|<strong>3</strong>||1244 || 1227 || 1245 || 1185 || 1024 || 1137 || 1025 || <span style="background-color:#ff0">0567</span> || 0523 || 0562 || 1313 || 1126
+|<strong>C</strong>||1331 || 1100 || 1047 || 1276 || <span style="background-color:#080">15</span><span style="background-color:#ff0">10</span> || 1274 || 1049 || 1279 || 1280 || 1101 || 1278 || 1718
 |-
-|<strong>4</strong>||0521 || 1056 || 1320 || 0568 || 1158 || 1239 || 1021 || 0677 || 0621 || 1216 || 1237 || 1217
+|<strong>D</strong>||1277 || <span style="background-color:#ff0">1051</span> || 0569 || 0570 || 1079 || 1232 || 1174 || 1077 || 1275 || 1207 || 1287 || 0580
 |-
-|<strong>5</strong>||1054 || 0508 || 1149 || 1128 || 1055 || 0688 || 1389 || 1269 || 1180 || 1265 || 1266 || 1179
+|<strong>E</strong>||1046 || 0525 || 1286 || 0640 || 0571 || 1503 || 1281 || 1230 || 1517 || 1208 || 0538 || 1536
 |-
-|<strong>6</strong>||1170 || 1267 || 0535 || 1058 || 0614 || 1057 || 1129 || 1130 || 1059 || 1323 || 1324 || 1131
+|<strong>F</strong>||1103 || 1609 || 1176 || 1175 || <span style="background-color:#080">1351</span> || <span style="background-color:#ff0">1001</span> || <span style="background-color:#ff0">1002</span> || 1288 || 1045 || 0817 || 1204 || 1205
 |-
-|<strong>7</strong>|| 1085 || 1218 || 1325 || 1268 || 1236 || 1329 || 1330 || 1011 || <span style="background-color:#ff0">1306</span> || 1465 || 501 || 1327
+|<strong>G</strong>||1720 || 1305 || <span style="background-color:#ff0">1285</span> || 1513 || 1090 || <span style="background-color:#ff0">1206</span> || 1096 || 1251 || <span style="background-color:#ff0">1250</span> || 1162 || 1233 || 1171
 |-
-|<strong>8</strong>|| 1219 || 1040 || 1041 || 1166 || 1220 || 1328 || 1721 || 1295 || 1306 || <span style="background-color:#080">1240</span> || 1241 || 1326
+|<strong>H</strong>||1095 || 1094 || 1252 || <span style="background-color:#080">1534<span style="background-color:#080"></span> || <span style="background-color:#080">1290</span> || <span style="background-color:#080">0861</span> || <span style="background-color:#080">1253</span> || <span style="background-color:#080">05</span><span style="background-color:#ff0">26</span> || <span style="background-color:#080">1535</span> || 1143 || 1198 || <span style="background-color:#080">0643</span>
+|-
+|<strong>J</strong>||1202 || 1294 || 0505 || <span style="background-color:#080">15</span><span style="background-color:#ff0">98</span> || 1043 || 1044 || 1182 || <span style="background-color:#ff0">0524</span> || 1234 || 1352 || <span style="background-color:#080">10</span><span style="background-color:#ff0">05</span> || 1151
+|-
+|<strong>K</strong>||1203 || 1223 || 1074 || 1165 || 1711 || 1030 || 1292 || 1028 || 1029 || <span style="background-color:#080">11</span><span style="background-color:#ff0">96</span> || <span style="background-color:#ff0">1076</span> || 1248
+|-
+! !! 1 !! 2 !! 3 !! 4 !! 5 !! 6 !! 7 !! 8 !! 9 !! 10 !! 11 !! 12
+|-
+|<strong>A</strong>||1169 || 1311 || 1035 || 1312 || 1022 || 1067 || <span style="background-color:#ff0">1061</span> || 1066 || 1135 || 1167 || 1023 || <span style="background-color:#ff0">1261</span>
+|-
+|<strong>B</strong>||0542 || 1187 || <span style="background-color:#080">1124</span> || 0502 || 1083 || 1333 || 1159 || 1262 || 1334 || 1549 || 1260 || <span style="background-color:#ff0">1243</span>
+|-
+|<strong>C</strong>||1244 || 1227 || 1245 || 1185 || 1024 || 1137 || 1025 || <span style="background-color:#ff0">0567</span> || 0523 || 0562 || 1313 || 1126
+|-
+|<strong>D</strong>||0521 || 1056 || 1320 || 0568 || 1158 || 1239 || 1021 || 0677 || 0621 || 1216 || 1237 || 1217
+|-
+|<strong>E</strong>||1054 || 0508 || 1149 || 1128 || 1055 || 0688 || 1389 || 1269 || 1180 || 1265 || 1266 || 1179
+|-
+|<strong>F</strong>||1170 || 1267 || 0535 || 1058 || 0614 || 1057 || 1129 || 1130 || 1059 || 1323 || 1324 || 1131
+|-
+|<strong>G</strong>|| 1085 || 1218 || 1325 || 1268 || 1236 || 1329 || 1330 || 1011 || <span style="background-color:#ff0">1306</span> || 1465 || 501 || 1327
+|-
+|<strong>H</strong>|| 1219 || 1040 || 1041 || 1166 || 1220 || 1328 || 1721 || 1295 || 1306 || <span style="background-color:#080">1240</span> || 1241 || 1326
 |-
 |}
 
