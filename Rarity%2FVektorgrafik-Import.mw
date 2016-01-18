@@ -270,7 +270,7 @@ Das nächste Problem ist, dass PE-Design nicht verstanden hat, dass die 1mm brei
 Konturlinien als Plattstich und nicht als Stepplinie realisiert werden sollen.
 Deshalb wählen wir nacheinander die beiden Konturlinien am Cutiemark,
 und die Kontur am Auge, die wir vorhin angelegt haben, und ändern den Randnahtstich
-unter "Attribute" von "Geradstich" auf "Zickzackstich" mit etwa 1,5 Millimeter
+unter "Attribute" von "Geradstich" auf "Zickzackstich" mit etwa 1,8 Millimeter
 Stärke.
 
 [[File:stickmotiv-erstellen-stepplinie-plattstich.png]]
@@ -299,7 +299,7 @@ Die variable Richtung erzielt nicht immer sinnvolle Ergebnisse, z.B. hier:
 [[File:stickmotiv-erstellen-variabler-plattstich-problem.png]]
 
 Mit der Husqvarna kann man das überhaupt nicht sticken, da reißt der Faden.
-[Rarity](https://wiki.raumzeitlabor.de/wiki/Rarity) kann das zwar sticken, aber es
+[[Rarity]] kann das zwar sticken, aber es
 sieht nicht gut aus.
 
 In diesem Fall kann man das Problem beheben indem man die Stichrichtung wieder
