@@ -43,7 +43,8 @@
 [[Image:Brother MFC-9840CDW.jpg|left|100px]]
 {|
 |
-* Netzwerkdrucker ('''IP: 172.22.36.132''' / Hostname: '''guttenberg''')
+* '''Aktuell nicht in Betrieb'''
+* Netzwerkdrucker (IP: '''172.22.36.132''' / Hostname: '''guttenberg''')
 * '''Farblaser'''
 * Freigegeben über [http://mate.rzl:631/printers/Brother_MFC-9840CDW http://mate.rzl:631/printers/Brother_MFC-9840CDW]
 *Scannt per FTP aufs Datengrab in den Ordner scans
@@ -54,6 +55,15 @@
 *[[Benutzer:Felicitus|Felicitus]] hat den Trommelzähler im Dezember 2012 wie vorgeschlagen zurückgesetzt.
 </div>
 </div>
+|}
+
+==Xerox WorkCentre 7328==
+[[Image:Xerox_WorkCentre_7328.jpeg|left|100px]]
+{|
+|
+* Netzwerkdrucker (IP: '''172.22.36.''' / Hostname: '''Annette''')
+* '''Farblaser DIN-A3'''
+<br /><br />
 |}
 
 == Konica Minolta Magicolor 2300W ==
