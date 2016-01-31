@@ -163,9 +163,9 @@ Der Sensorstecker ist wie folgt belegt:
 
 |}
 
-== TinyG ==
+== Aktuell verbauter Controller: TinyG ==
 
-Der TinyG Controller stellt ein serielles Interface zur Verfügung. Prinzipiell ist das Protokoll frei wählbar. Per default laufen 115200 Baud 8N1 mit Hardware-Flow-Control. Auf dem Terminal erhält man mit '''$h''' das help menue.
+Der TinyG Controller stellt ein serielles Interface zur Verfügung. Prinzipiell ist das Protokoll frei wählbar. Per default laufen 115200 Baud 8N1 mit Hardware-Flow-Control. Verbindet man sich auf dieses Interface z.B. mit ```minicom -d /dev/ttyUSB0 -c on``` erhält man mit '''$h''' das help menue. Grundsätzlich spricht der TinyG entweder ascii oder json. Der Parser kann explizit oder implizit (Command beginnt mit geschweifter Klammer) zwischen den Modi hin und her switchen.
 
 === Firmware & Config ===
 
