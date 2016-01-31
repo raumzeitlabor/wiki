@@ -91,10 +91,8 @@ G-Code umgehen und/oder MakerCAM bekommt bugfix [http://www.shapeoko.com/wiki/in
 
 ==== G-Code Sender ====
 
-* [https://github.com/synthetos/tgFX tgFX] ist die plattformunabhängige (Java) Software für den TinyG Controller [https://github.com/synthetos/tgFX/wiki siehe auch deren Wiki]
-* [https://github.com/synthetos/TinyG/wiki/Chilipeppr Chilipeppr] ist eine WebGL basierte Software zum G-code senden und live visualisieren [http://chilipeppr.com/tinyg siehe demo]
-
-TabascoEye möchte eine offline Version von Chilipeppr bauen als fusion/fork von OctoPrint und Chilipeppr.
+* [https://github.com/synthetos/tgFX tgFX] ist die plattformunabhängige (Java) Software für den TinyG Controller [https://github.com/synthetos/tgFX/wiki siehe auch deren Wiki] '''Wird nicht mehr weiter entwickelt.'''
+* [https://github.com/synthetos/TinyG/wiki/Chilipeppr Chilipeppr] ist eine WebGL basierte Software zum G-code senden und live visualisieren [http://chilipeppr.com/tinyg siehe demo] '''Wird noch aktiv weiter entwickelt'''
 
 ==== Controller ====
 
