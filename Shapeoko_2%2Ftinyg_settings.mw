@@ -17,8 +17,8 @@
 [sv]  status report verbosity     1 [0=off,1=filtered,2=verbose]
 [si]  status interval           250 ms
 [ec]  expand LF to CRLF on TX     0 [0=off,1=on]
-[ee]  enable echo                 0 [0=off,1=on]
-[ex]  enable flow control         1 [0=off,1=XON/XOFF, 2=RTS/CTS]
+[ee]  enable echo                 1 [0=off,1=on]
+[ex]  enable flow control         2 [0=off,1=XON/XOFF, 2=RTS/CTS]
 [baud] USB baud rate              5 [1=9600,2=19200,3=38400,4=57600,5=115200,6=230400]
 [net] network mode                0 [0=master]
 [gpl] default gcode plane         0 [0=G17,1=G18,2=G19]
@@ -31,17 +31,17 @@
 [1tr] m1 travel per revolution   40.0000 mm
 [1mi] m1 microsteps               8 [1,2,4,8]
 [1po] m1 polarity                 0 [0=normal,1=reverse]
-[1pm] m1 power management         2 [0=disabled,1=always on,2=in cycle,3=when moving]
+[1pm] m1 power management         1 [0=disabled,1=always on,2=in cycle,3=when moving]
 [2ma] m2 map to axis              1 [0=X,1=Y,2=Z...]
 [2sa] m2 step angle               1.800 deg
 [2tr] m2 travel per revolution   40.0000 mm
 [2mi] m2 microsteps               8 [1,2,4,8]
 [2po] m2 polarity                 0 [0=normal,1=reverse]
-[2pm] m2 power management         2 [0=disabled,1=always on,2=in cycle,3=when moving]
+[2pm] m2 power management         1 [0=disabled,1=always on,2=in cycle,3=when moving]
 [3ma] m3 map to axis              2 [0=X,1=Y,2=Z...]
 [3sa] m3 step angle               1.800 deg
-[3tr] m3 travel per revolution    2.0000 mm
-[3mi] m3 microsteps               4 [1,2,4,8]
+[3tr] m3 travel per revolution    2.1170 mm
+[3mi] m3 microsteps               8 [1,2,4,8]
 [3po] m3 polarity                 0 [0=normal,1=reverse]
 [3pm] m3 power management         2 [0=disabled,1=always on,2=in cycle,3=when moving]
 [4ma] m4 map to axis              3 [0=X,1=Y,2=Z...]
@@ -81,7 +81,7 @@
 [zam] z axis mode                 1 [standard]
 [zvm] z velocity maximum        800 mm/min
 [zfr] z feedrate maximum        800 mm/min
-[ztn] z travel minimum          -65.000 mm
+[ztn] z travel minimum         -100.000 mm
 [ztm] z travel maximum            0.000 mm
 [zjm] z jerk maximum             50 mm/min^3 * 1 million
 [zjh] z jerk homing            1000 mm/min^3 * 1 million
@@ -123,9 +123,9 @@
 [cjm] c jerk maximum             20 deg/min^3 * 1 million
 [cjd] c junction deviation        0.0100 deg (larger is faster)
 [cra] c radius value              1.0000 deg
-[p1frq] pwm frequency              5000 Hz
+[p1frq] pwm frequency              2500 Hz
 [p1csl] pwm cw speed lo               0 RPM
-[p1csh] pwm cw speed hi           10000 RPM
+[p1csh] pwm cw speed hi           12000 RPM
 [p1cpl] pwm cw phase lo           0.000 [0..1]
 [p1cph] pwm cw phase hi           1.000 [0..1]
 [p1wsl] pwm ccw speed lo           1000 RPM
@@ -139,12 +139,12 @@
 [g54a] g54 a offset               0.000 deg
 [g54b] g54 b offset               0.000 deg
 [g54c] g54 c offset               0.000 deg
-[g55x] g55 x offset               0.000 mm
-[g55y] g55 y offset               0.000 mm
-[g55z] g55 z offset               0.000 mm
+[g55x] g55 x offset               7.122 mm
+[g55y] g55 y offset              39.409 mm
+[g55z] g55 z offset             -56.000 mm
 [g55a] g55 a offset               0.000 deg
 [g55b] g55 b offset               0.000 deg
-[g55c] g55 c offset               0.000 deg
+[g55c] g55 c offset               6.000 deg
 [g56x] g56 x offset               0.000 mm
 [g56y] g56 y offset               0.000 mm
 [g56z] g56 z offset               0.000 mm
@@ -187,4 +187,5 @@
 [g30a] g30 a position             0.000 deg
 [g30b] g30 b position             0.000 deg
 [g30c] g30 c position             0.000 deg
+tinyg [mm] ok> 
 </pre>
