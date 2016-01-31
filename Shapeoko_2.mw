@@ -165,11 +165,17 @@ Der Sensorstecker ist wie folgt belegt:
 
 == Aktuell verbauter Controller: TinyG ==
 
-Der TinyG Controller stellt ein serielles Interface zur Verfügung. Prinzipiell ist das Protokoll frei wählbar. Per default laufen 115200 Baud 8N1 mit Hardware-Flow-Control. Verbindet man sich auf dieses Interface z.B. mit ```minicom -d /dev/ttyUSB0 -c on``` erhält man mit '''$h''' das help menue. Grundsätzlich spricht der TinyG entweder ascii oder json. Der Parser kann explizit oder implizit (Command beginnt mit geschweifter Klammer) zwischen den Modi hin und her switchen.
+Der TinyG Controller stellt ein serielles Interface zur Verfügung. Prinzipiell ist das Protokoll frei wählbar. Per default laufen 115200 Baud 8N1 mit Hardware-Flow-Control. Verbindet man sich auf dieses Interface z.B. mit '''minicom -d /dev/ttyUSB0 -c on''' erhält man mit '''$h''' das help menue. Grundsätzlich spricht der TinyG entweder ascii oder json. Der Parser kann explizit oder implizit (Command beginnt mit geschweifter Klammer) zwischen den Modi hin und her switchen.
 
 === Firmware & Config ===
 
-Unter https://synthetos.github.io/ gibt es aktuelle Firmware und eine flash-Anleitung für den TinyG. Am 05.12.2015 wurde die Version 440.20 aus dem master-branch installiert. Die Firmware selbst wird ist zunächst über eine Reihe von Variablen konfiguriert. Auf der seriellen Konsole erhält man mittels '''$$''' alle definierten Variablen. Auf der Unterseite [[Shapeoko2/tinyg_settings]] ist eine aktuelle Config inklusive der konfigurierten Endstops dokumentiert.
+Unter https://synthetos.github.io/ gibt es aktuelle Firmware und eine flash-Anleitung für den TinyG. Am 05.12.2015 wurde die Version 440.20 aus dem master-branch installiert. Die Firmware selbst wird ist zunächst über eine Reihe von Variablen konfiguriert. Auf der seriellen Konsole erhält man mittels '''$$''' alle definierten Variablen. 
+
+Auf der Unterseite [[Shapeoko2/tinyg_settings]] ist eine aktuelle Config inklusive der konfigurierten Endstops dokumentiert.
+
+==== Z-Achse ====
+
+Weil unsere Maschine bereits das ACME-Z-Achsen-Upgrade eingebaut hat passt die standard-config von tinyG nicht. Auf dieser Seite [http://www.shapeoko.com/wiki/index.php/Zaxis_ACME#Updating_Software im shapeoko-wiki] wird gezeigt wie die Steppings berechnet werden.
 
 Aktuell (05.12.2015) ist ein normales x/y/z-Koordinatensystem konfiguriert, d. h. 0/0/0 ist links unten und die Spindel ist komplett am Anschlag ausgefahren. Von hier aus kann nun in positiver x/y-Richtung und negativer z-Richtung gearbeitet werden.
 
