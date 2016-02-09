@@ -86,9 +86,9 @@ t.b.d.
 * MakerCAM
 ** Hinweise MakerCAM: 
 ** bei SVG import auf dpi achten! Inkscape: 90dpi, Illustrator: 72dpi
-** im Metric mode (mm statt inch) erstellt es sehr viele Nachkommastellen im GCode => bereinigen mit Tools oder per Hand (awk/sed). Evtl. kann TinyG auch mit dem 
-G-Code umgehen und/oder MakerCAM bekommt bugfix [http://www.shapeoko.com/wiki/index.php/MakerCAM#MakerCAM_outputs_too_many_decimals siehe auch hier]
-* Oder einfach pycam (pyhton skript, dassein .STL in gcode umsetzt)
+** im Metric mode (mm statt inch) erstellt es sehr viele Nachkommastellen im GCode => bereinigen mit Tools oder per Hand (awk/sed). Evtl. kann TinyG auch mit dem G-Code umgehen und/oder MakerCAM bekommt bugfix [http://www.shapeoko.com/wiki/index.php/MakerCAM#MakerCAM_outputs_too_many_decimals siehe auch hier]
+
+* pycam
 
 ==== G-Code Sender ====
 
