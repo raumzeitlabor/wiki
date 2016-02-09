@@ -57,7 +57,7 @@ Bei einem echten 3D Job dagegen wird das Werkstück in verschiedenen Richtungen 
 
 Bei 2.5D benötigt man kein 3D Modell und kein Tool zum bearbeiten von 3D Modellen (CAD tools wie OpenSCAD oder blender). Es genügt ein 2D Vektor Programm wie Illustrator oder Inkscape oder MakerCAM
 
-=== CAD -> CAM -> G-Code sender -> Controller ===
+=== CAD -> CAM -> -> Simulator -> G-Code sender -> Controller ===
 
 Ähnlich wie beim 3D Druck ist der Weg zum Fräsen in folgende Schritte eingeteilt:
 * Modell erstellen
@@ -65,45 +65,9 @@ Bei 2.5D benötigt man kein 3D Modell und kein Tool zum bearbeiten von 3D Modell
 * G-Code an Controller senden
 * Controller steuert Fräse bzw. 3D Drucker nach G-Code instruktionen
 
-Für jeden dieser Schritte gibt es eigene, meist unabhängige Tools. Eine Ausnahme ist [http://www.easel.com/ Easel], ein Webbasiertes Tool von Inventables (der Hersteller der Shapeoko) das gerade in entwicklung ist und alle Schritte in einem Tool vereinen will. Durch den Kauf der Shapeoko2 haben wir einen Beta Zugang zu Easel.
+Für jeden dieser Schritte gibt es eigene, meist unabhängige Tools. Eine Ausnahme ist [http://www.easel.com/ Easel], ein Webbasiertes Tool von Inventables (der Hersteller der Shapeoko) das gerade in entwicklung ist und alle Schritte in einem Tool vereinen will. Durch den Kauf der Shapeoko2 haben wir einen Beta Zugang zu Easel - wobei derzeit nicht klar ist ob der noch funktioniert.
 
-==== CAD ====
-
-* Inkscape
-* OpenSCAD
-* SketchUp
-* SolidWorks
-* Blender
-
-==> SVG oder STL
-
-t.b.d.
-
-==== CAM ====
-
-* MeshCAM (http://shop.shapeoko.com/products/meshcam-3d-cam-software)
-* FreeMill
-* MakerCAM
-** Hinweise MakerCAM: 
-** bei SVG import auf dpi achten! Inkscape: 90dpi, Illustrator: 72dpi
-** im Metric mode (mm statt inch) erstellt es sehr viele Nachkommastellen im GCode => bereinigen mit Tools oder per Hand (awk/sed). Evtl. kann TinyG auch mit dem G-Code umgehen und/oder MakerCAM bekommt bugfix [http://www.shapeoko.com/wiki/index.php/MakerCAM#MakerCAM_outputs_too_many_decimals siehe auch hier]
-
-* pycam
-
-==== G-Code Sender ====
-
-* [https://github.com/synthetos/tgFX tgFX] ist die plattformunabhängige (Java) Software für den TinyG Controller [https://github.com/synthetos/tgFX/wiki siehe auch deren Wiki] '''Wird nicht mehr weiter entwickelt.'''
-* [https://github.com/synthetos/TinyG/wiki/Chilipeppr Chilipeppr] ist eine WebGL basierte Software zum G-code senden und live visualisieren [http://chilipeppr.com/tinyg siehe demo] '''Wird noch aktiv weiter entwickelt'''
-
-==== Controller ====
-
-* Arduino + G-shield
-* TinyG
-* Rechner/Pi mit LinuxCNC
-
-==== Simulation ====
-
-Vor dem Fräsen sollte man den erzeugten G-Code und somit den Fräsvorgang zu simulieren. Hierzu gibt es zahlreiche Software, unter anderem auch [http://openscam.org/ OpenSCAM].
+Einen guten Überblick über Toolchains und den gesamten Workflow gibt [http://www.shapeoko.com/wiki/index.php/Workflow diese Wikiseite auf shapeoko.com].
 
 == Fräsbare Materialien ==
 
