@@ -42,7 +42,10 @@ SDH 2,4 SW;10
 
 == hax404 braucht ==
 <pre>
-16,0000-HC49U-S;5
+BUELA 300 K RT;3
+BIL 20 RT;3
+BIL 20 SW;3
+BUELA 300 K SW;3
 </pre>
 
 == Felicitus möchte ==
