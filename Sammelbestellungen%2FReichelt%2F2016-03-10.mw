@@ -47,7 +47,9 @@ SDH 2,4 SW;10
 BUELA 300 K RT;3
 BIL 20 RT;3
 BIL 20 SW;3
+BIL 20 GE;3
 BUELA 300 K SW;3
+BUELA 300 K GE;3
 </pre>
 
 == Felicitus möchte ==
