@@ -1,0 +1,22 @@
+{{ProjektInfoBox
+|name        = HackRF
+|status      = stable
+|image       = 
+|description = Das HackRF ist ein Software defined Radio, mit dem es möglich ist, im Bereich 1 MHz bis 6 GHz zu senden/empfangen.
+|author      = 
+|username    = 
+|maintainer  =
+|owner       = RaumZeitLabor
+|location    = [[Tardis#Tardis2|Tardis2 0x8A]]
+|version     = 
+|update      = 
+|platform    = 
+|hostname    =
+|license     = 
+|download    = https://github.com/mossmann/hackrf/wiki/HackRF-One
+|bausatz     =
+|preis       =
+}}
+
+
+[[Kategorie:Projekt]]
