@@ -1,0 +1,43 @@
+Laborant: [[Benutzer:urvogel|urvogel]]
+
+Verbrauchte Materialien:
+* 8g Natriumhydroxid
+* 40g Nateriumpersulfat
+* etwas Spiritus, Isopropanol und Aceton
+* Wattepads
+
+Mitgebrachte Materialien:
+* 3 einseitig photobeschichtete Platinen (2x Reichelt FHPCU 150X100, 1x unbekannt)
+
+Erkenntnisse:
+* Eine mit Photolack beschichtete Platine sieht bei schummrigem Licht wie blankes Kupfer aus.
+* 2,5 Minuten Belichtungszeit sind zu kurz. Mit 10 Minuten habe ich ein gutes Ergebnis bekommen.
+* 2g Natriumhydroxid scheinen näherungsweise ein halber Teelöffel zu sein; mit der vorhandenen Waage ist das leider kaum abzuwiegen.
+* Der Entwickler muss wirklich ganz frisch sein: nächstes mal vielleicht erst alle Platinen belichten (lieber großzügig überbelichten), dann den Entwickler ansetzen und die Platinen direkt nacheinander entwickeln.
+* Wenn die Leiterbahnen beim Ätzen schweinchenrosa werden, sind sie noch nicht fertig geätzt.  Wenn man die Farbe des Platinenmaterials deutlich durch sieht, sind sie fertig geätzt.
+* Das Entfernen des Photolacks geht mit Aceton schneller, aber Spiritus eignet sich auch.
+
+== Ablauf ==
+
+Alle Entwicklungs-/Ätzschritte habe ich in meiner Plastikschale (Reichelt ENTWICKLUNGSSET) unter ständiger Bewegung der Platine durchgeführt.
+
+=== 1. Versuch ===
+Ich habe die Entwicklerlösung angesetzt, dann die Platine (Reichelt FHPCU 150X100) nach Anleitung 2,5 Minuten belichtet und in das Entwicklerbad gegeben. Da nach einer Minute nichts zuerkennen war, habe ich die Platine noch eine Minute im Bad gelassen und dann herausgenommen und abgespült. Da ich mir mit der Dosierung ziemlich unsicher war (2g ist geschätzt die Messungenauigkeit der Waage), habe ich die Menge Natriumhydroxid auf etwa das 2,5fache erhöht und die Platine dann erneut entwickelt. Der Photolack wurde vom Entwickler sofort großflächig entfernt. Ich habe die Platine noch etwas im Bad gelassen, um auch den Rest der Lackschicht zu entfernen; die Platine hat jetzt eine blanke Kupferschicht und kann für andere Zwecke benutzt werden.
+
+=== 2. Versuch ===
+Ich habe eine neue Entwicklerlösung angesetzt, die Platine (unbekannter Typ) für 2 Minuten belichtet und für 2 Minuten in das Entwicklerbad gegeben. Auch diesmal war auf den ersten Blick keine Veränderung zu erkennen, aber beim Abwaschen ist mir aufgefallen, dass sich die Pinpositionen ganz leicht abgezeichnet haben. Deshalb habe ich die Platine wieder in das Entwicklerbad zurückgegeben. Nach und nach haben sich ziemlich langsam die Strukturen der Platine abgezeichnet. Als die letzten Leiterbahnen erkennbar waren, waren die zuerst sichtbaren Strukturen aber schon völlig überentwickelt. Die Platine ist unbrauchbar.
+
+=== 3. Versuch ===
+Diesmal habe ich die Platine (Reichelt FHPCU 150X100) für 10 Minuten belichtet und das Entwicklerbad vom letzten Versuch benutzt. Da keine Veränderung erkennbar war, habe ich das Entwicklerbad gegen ein neu angesetztes ausgetauscht. Sofort waren die Strukturen der Platine deutlich sichtbar; nach weniger als einer Minute sah die Platine vollständig entwickelt aus, und ich habe sie abgespült. Zu einer langen Seite hin waren die Strukturen weniger ausgeprägt und zu einer Ecke an dieser Seite hin unscharf und verwaschen. Ich vermute, dass an dieser Ecke beim Belichten die Folie nicht plan auflag.
+
+Ich habe eine Ätzlösung mit 50ml Leitungswasser, 50ml kochendem Wasser und 20mg Natriumpersulfat angesetzt, in die vorgewärmte Schale gegeben und die Platine hineingelegt. Nach einigen Minuten sah die Platine fertig geätzt aus, und ich habe sie herausgenommen und abgespült. Beim Blick gegen das Licht habe ich aber gesehen, dass die Kupferschicht noch intakt war, daher habe ich sie warm abgespült und wieder in das Ätzbad gegeben. Zu diesem Zeitpunkt war die Temperatur auf ca. 27 °C abgefallen. Deshalb habe ich ein wenig kochendes Wasser dazugegeben und, als das keinen sichtbaren Erfolg hatte, weitere Ätzlösung mit 30ml Leitungswasser, 50ml kochendem Wasser und 20mg Natriumpersulfat angesetzt und dazugegeben. Die Temperatur betrug anschließend ca. 33 °C. Nach einer halben Stunde sah die Platine fertig geätzt aus, und ich habe sie herausgenommen und abgespült.
+
+Zum Entfernen des Photolacks habe ich an unterschiedlichen Stellen der Platine Ethanol, Isopropanol und Aceton ausprobiert.
+* Isopropanol funktioniert nicht
+* Ethanol löst den Lack in ca. 10s
+* Aceton löst den Lack in ca. 3s
+Ethanol braucht zwar länger als Aceton, aber da es zu einem genauso guten Ergebnis führt und ungefährlicher ist, werde ich es in Zukunft benutzen.
+
+Anschließend habe ich die kaum benutzte Ätzlösung in eine der dafür vorgesehenen Flaschen gefüllt und mit Namen und Datum versehen.
+
+[[Kategorie:Ätzecke]]
