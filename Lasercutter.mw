@@ -106,6 +106,49 @@ Bisher ist es noch nicht gelungen diese Farbinformationen mittels SVG oder PDF v
 
 *Ein Featurewunsch für die Software wäre das Lasern von "unten nach oben". Das soll laut Rowmark das Ergebniss deutlich verbessern, weil weniger Material an den gerade gelaserten Stellen hängenbleibt.
 
+
+== Entlüftung ==
+
+Die Laser-Abluf funktioniert mit einem RadialLüfter, der auf einer "luftdichten" Box aus OSB Platten sitzt. In dieser Box befindet sich ein Aktivkohlefilter von CarbonActive. Auf dem Lüfter ist ein abgesägter Trichter aufgeklebt, der den Luftstrom von "der Filter hat keine Zeit zu reinigen" auf "bester Kompromiss zwischen Filterleistung und Rauch in der Laserkammer" reduzieren soll.
+
+Die Box ist so gebaut, dass der Lüfter am oberen Stutzen des Filters "saugt" und der Schlauch, der zum/vom laser führt endet unten in der Box. Die Abluft strömt um den Filter herum und wird hindurchgezogen.
+
+Problem 1: Die Abluft wird nach dem Filtern wieder in den Raum geblasen. Wenn der Filter gute Arbeit leistet, ist das kein Problem. Allerdings sollte, vorallem bei Längeren Laservorgängen, das Fenster geöffnet werden.
+Problem 2: Je mehr der Laser benutzt wird, desto schneller setzt sich der Filter zu.
+
+Ist der Filter zu zu, gibt es zwei Möglichkeiten:
+
+=== Kurzfristige Abhilfe durch Reinigen des Filters ===
+
+1) Lüfter nach oben von der Box abziehen (ist nur sanft eingesteckt)
+2) alle 4 Verschlüsse der Box lösen
+3) Deckel vorsichtig nach oben abziehen
+4) Filter nach oben herausnehmen
+5) Das Virfilterfließ mit einem Staubsauger absaugen
+(Dabei am besten dickere Handschuhe tragen, weil es ordentlich elektrostatische Entladungen gibt wenn man mit dem Plastikrohr des Saugers auf dem Filterfließ rumrutscht *bbrrzzztt*)
+6) Korrekten Sitze des Vlies prüfen
+7) Filter wieder einsetzen (Korrekten Sitz auf dem Ständer in der Box prüfen)
+8) Deckel wieder aufsetzen
+9) Alle 4 Verschlüsse schließen
+10) Lüfter wieder so aufsetzen, dass die Manschette halb Box, halb Filter bedeckt und das Gummi möglichst nicht (noch mehr) beschädigt wird
+
+=== Austausch des Filters ===
+
+Ansonsten bleibt nur der Kauf eines frischen Filters für 100€. Der Filter ist ein HomeLine 500ZL mit 125mm-Anschluss:
+http://www.head-shop.de/tree/4051/CarbonActive-Aktivkohlefilter/article/10634/CarbonActive-HomeLine-Standard-500ZL-Aktivkohlefilter-500m%C2%B3h---125mm.xhtml
+
+1) Lüfter nach oben von der Box abziehen (ist nur sanft eingesteckt)
+2) alle 4 Verschlüsse der Box lösen
+3) Deckel vorsichtig nach oben abziehen
+4) Filter nach oben herausnehmen
+5) Das Vorfilterfließ mit einem Staubsauger absaugen, vom alten Filter abziehen und über den neuen Filter ziehen oder ein neues Filfervlies über den neuen Filter ziehen
+6) Korrekten Sitze des Vlies prüfen
+7) Neuen Filter einsetzen (Korrekten Sitz auf dem Ständer in der Box prüfen)
+8) Deckel wieder aufsetzen
+9) Alle 4 Verschlüsse schließen
+10) Lüfter wieder so aufsetzen, dass die Manschette halb Box, halb Filter bedeckt und das Gummi möglichst nicht (noch mehr) beschädigt wird
+
+
 == Materialwissenschaft ==
 
 * '''KEIN Metall'''!
