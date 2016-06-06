@@ -96,7 +96,8 @@ Dazu legt man die Linien in einem Vektorprogramm mit den folgenden RGB-Farben an
 
 ==== Transport von Vektordateien mit mehreren Layern ====
 
-Bisher ist es noch nicht gelungen diese Farbinformationen mittels SVG oder PDF von einem Rechner zu einem anderen zu bringen, so dass die Layer erhalten blieben. Auf Rechnern auf denen RetinaEngrave nicht installiert ist, kann man aber ein XPS erzeugen, mit dem RetinaEngrave umgehen kann
+Bisher ist es noch nicht gelungen diese Farbinformationen mittels SVG oder PDF von einem Rechner zu einem anderen zu bringen, so dass die Layer erhalten blieben. Auf Rechnern auf denen RetinaEngrave nicht installiert ist, kann man aber ein XPS erzeugen, mit dem RetinaEngrave umgehen kann.
+Außerdem kann RetinaEngrave ein komplettes Projekt mit allen Einstellungen als ".set" speichern. Diese Datei kann man im Prinzip transferieren und am anderen Rechner in RE einfach auf "go" drücken.
 
 == Raster Mode ==
 
