@@ -28,9 +28,13 @@ Der InfoScreen steht auf dem Kühlschrank und zeigt einige interessante Informat
 
 == Technik ==
 
+{{Metakasten|kopf_param=Legacy|haupt_param=Dieser Abschnitt ist nicht mehr aktuell. Raspbian & Chromium werden nicht mehr enutzt und auch der Infoscreen selbst ist ein anderer.}}
+
 Auf einem Raspberry Pi läuft ein Raspbian, dass beim Hochfahren einen Chromium im Kioskmodus öffnet und auf http://cosm.tiefpunkt.com/infoscreen/ navigiert. Da läuft der Infoscreen, eine Mischung aus PHP, HTML und JS, die aus Daten von Cosm, der VRN und Twitter eine kleine Seite produziert, die alle 30 Sekunden aktualisiert wird.
 
 == Installation ==
+{{Metakasten|kopf_param=Legacy|haupt_param=Dieser Abschnitt ist nicht mehr aktuell.}}
+
 Wir nehmen das neueste Raspbian-Installationsimage und starten unseren Pi. Beim ersten Start erscheint die raspi-config, bei der wir folgendes aktivieren:
 
 # '''Expand Filesystem''': ja
