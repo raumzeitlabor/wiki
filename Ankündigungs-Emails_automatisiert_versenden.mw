@@ -1,0 +1,127 @@
+{{ProjektInfoBox
+|name        = Ankündigungs-Emails
+|status      = stable
+|image       = 
+|description = regelmäßige Emails sollen automatisiert versendet werden
+|author      = 
+|username    = hax404
+|maintainer  =
+|owner       =
+|location    =
+|version     = 
+|update      = 
+|platform    = 
+|hostname    =
+|license     = 
+|download    = 
+|bausatz     =
+|preis       =
+}}
+
+Jeden Sonntag um 13:37Uhr geht eine Email über die Mailingliste, in der die offene RaumZeitLaborierung am nächsten Dienstag angekündigt wird. Dieses Projekt baut auf der Arbeit von [[Benutzer:Tiefpunkt|Tiefpunkt]]  und [[Benutzer:ThinkJD|ThinkJD]] auf. Die Anforderungen an so einen Vorgang sind:
+* Automatisierbarkeit
+* Planbarkeit
+* Signatur vom Verfasser (optional)
+
+== Email mit PGP/MIME-Signatur verfassen ==
+Dem Author ist es bisher nicht gelungen, eine Email manuell mit einer gültigen PGP/MIME-Signatur zu signieren. Daher verfasst er die automatisch zu versendende Email an sich selbst mit einem normalen PGP/MIME-fähigem Emailprogramm wie z.B. mutt. Anschließend speichert empfangene Roh-Email an einem bekannten Ort ab. Nun können alle nichtbenötigten Header entfernt, bzw. zur allgemeinen Erheiterung welche hinzugefügt werden.
+
+<pre>
+From: Georg Haas <sender@example.com>
+To: RaumZeitLabor <destination@example.com>
+Subject: Lightning Talks am Dienstag - Call for Participation
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="CEUtFxTsmBsHRLs3"
+Content-Disposition: inline
+Status: RO
+Content-Length: 1628
+Lines: 47
+
+
+--CEUtFxTsmBsHRLs3
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Sehr geehrter Mitlaborant oder Gast,
+
+es ist schon wieder Sonntag und das bedeutet, =FCbermorgen findet die
+beliebte offene RaumZeitLaborierung statt.
+
+Wenn du ein tolles Projekt starten willst und Mitstreiter suchst,
+wenn du etwas wei=DFt, was andere interessieren k=F6nnte oder
+wenn du eine tolle Geschichte zu erz=E4hlen hast, dann melde dich bei
+mir und ich k=FCndige dein Thema an.
+
+Trau dich, es macht mehr Spa=DF als du vielleicht denkst!
+
+Dein Mitlaborant
+hax404
+
+
+--CEUtFxTsmBsHRLs3
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBAgAGBQJXVxiqAAoJELLQZa1NbgyBs3EP/jDsHApKudSBEmUeBgNm50W8
+yjRQ1FEhxg1CCSMN0ULQObTj5haQhaQduTjZv6RfNJ1rTDmq1+2+LOmAahlXM8Ta
+NbiclIrEKGB80hIFBhnka0QDqQBjtc9myd6CL5ksztU7tsn3xC4ZHrG9eNkm0nt0
+ufNmLuQg9jIG0d72bbz7xGpXqjaDty7DXdH9ZXe4V09EPrrkmynlq0lsyhnHxNSA
+il+tCq8GPkGjSenBGBtQV985aWfTQ0ihzAChWRgbvVpk34b/mMx1rJXKnWt2B5BD
+z7jz0TxO5qTiiaGm5ycsTUYho6KCZT1m6VydJOEAJBeqfXh5S0Xt3mY0aWE4IoYP
+DAY3xejhg3pX1w7F+Z6bkzYuGfsGXYA+tWD4OoDyt4IgVkr0CFRcpkQZQDT8wpS3
+UDLPe/pwv1YFK7Gl0thoKY8O5Na88zQ5dxh5yZFBtcB78rtKPJ1gUIeZSQsYlit5
+eUh7jHGVLzfN3VGympXsNPDukhWjwM+WgS8VwGBoTobBRi0itnSYrvOktCOfkJGZ
+4zFOUrO1hceC0Y6JJvrgnO04ragtiCxvx9yWZUX00P2qxL9AdAbJLaWgNkomX4EJ
+5WkWTOtcjwnbagjW8YlNUB41PQ1BwD/hLfgcR8vRU9vTWtasR69RF5uulmjSGiIR
+ByWOmSFawgtlM4W6vars
+=JSI5
+-----END PGP SIGNATURE-----
+
+--CEUtFxTsmBsHRLs3--
+
+</pre>
+Die hier gezeigten Header reichen für eine valide Email aus. Absender und Empfänger müssen in der Regel noch angepasst werden. Der ''Date:''-Header wird beim Senden automatisch ergänzt und auf den richtigen Zeitpunkt gestellt. Am Nachrichtentext auf keinen Fall was ändern. Danach wäre die Signatur nicht mehr gültig.
+
+== Email automatisiert senden ==
+Die Email kann mittels Cronjob oder systemd.timer abgesendet werden. Zum Senden wird sendmail verwendet, welches mit dem lokal installierten postfix zusammenarbeitet und Roh-Emails annimmt:
+ sendmail -i -t < /etc/postfix/labormailmimesigned.txt
+Der Parameter ''-i'' sorgt dafür, dass sendmail die komplette Datei von stdin einliest und verabeitet. Durch den Parameter ''-t'' holt sich sendmail alle zum Versandt relevanten Informationen aus der übergebenen Eingabe. Es ist also nicht notwendig, Betreff und Emfänger über die Komandozeile anzugeben. Weiterhin fügt sendmail den ''Date:''-Header hinzu, falls dieser fehlt.
+
+=== systemd.timer ===
+systemd.service-File:
+<pre>
+[Unit]
+Description=Send Labormail every Sunday at 13:37
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c "/usr/sbin/sendmail -i -t < /etc/postfix/labormailmimesigned.txt"
+
+[Install]
+WantedBy=multi-user.target
+</pre>
+Systemd kommt nicht mit Eingabeumleitungen zurecht, weshalb hier die Bash verwendet wird.
+
+systemd.timer-File:
+<pre>
+[Unit]
+Description=Send Labormail every Sunday at 13:37
+
+[Timer]
+OnCalendar=Sun 13:37
+
+[Install]
+WantedBy=timers.target
+</pre>
+
+Anschließend ein <code>systemctl daemon-reload</code> und den Timer mit <code>systemctl enable labormail.timer</code> aktivieren und <code>systemctl start labormail.timer</code> starten. Ein <code>systemctl list-timers</code> informiert darüber, wann der Timer als nächstes aktiv wird.
+
+Es lohnt sich allgemein, das Ganze vorher mit eigenen Postfächern zu testen.
+
+[[Kategorie:Infrastruktur]]
+[[Kategorie:Projekt]]
