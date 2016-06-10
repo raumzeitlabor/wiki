@@ -1,10 +1,10 @@
 {{ProjektInfoBox
-|name        = Ankündigungs-Emails
+|name        = 
 |status      = stable
 |image       = 
 |description = regelmäßige Emails sollen automatisiert versendet werden
-|author      = 
-|username    = hax404
+|author      = [[Benutzer:hax404|hax404]]
+|username    = 
 |maintainer  =
 |owner       =
 |location    =
