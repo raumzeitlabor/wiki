@@ -57,6 +57,8 @@ Bei einem echten 3D Job dagegen wird das Werkstück in verschiedenen Richtungen 
 
 Bei 2.5D benötigt man kein 3D Modell und kein Tool zum bearbeiten von 3D Modellen (CAD tools wie OpenSCAD oder blender). Es genügt ein 2D Vektor Programm wie Illustrator oder Inkscape oder MakerCAM
 
+Wahrscheinlich bestes (und erschwinglichstes) plattform-übergreifendes CAM-Tool ist CamBam. silvester hat einen Key für die Pro-Version. Einfach kontaktieren.
+
 === CAD -> CAM -> -> Simulator -> G-Code sender -> Controller ===
 
 Ähnlich wie beim 3D Druck ist der Weg zum Fräsen in folgende Schritte eingeteilt:
