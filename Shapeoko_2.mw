@@ -46,13 +46,13 @@ Der Arbeitsbereich beträgt ungefähr 30*30*6cm
 == Toolchains ==
 
 Es gibt Toolchains wie Sand am Meer sowohl Freeware und/oder OpenSource als auch im hochpreisigen Bezahlsegment.
-Ein noch zu haltender und hier zu verlinkender Vortrag im RZL soll einen Überblick geben. (--[[Benutzer:TabascoEye|TabascoEye]] ([[Benutzer Diskussion:TabascoEye|Diskussion]]) 12:01, 16. Sep. 2014 (CEST))
+Ein noch zu haltender und hier zu verlinkender Vortrag im RZL soll einen Überblick geben. (--[[Benutzer:TabascoEye|TabascoEye]] ( 1[[Benutzer Diskussion:TabascoEye|Diskussion]])2:01, 16. Sep. 2014 (CEST))
 
 === 2.5D vs. 3D ===
 
 Man spricht bei einer CNC Fräse von 2.5D, wenn man eine 2D Vektordatei fräst und sich der dreidimensionale Teil auf die Tiefe beschränkt. D.h. Die 2D Vektorlinien werden "extrudiert" zu einem 3D Modell ==> 2.5D, In diesem Fall muss der Fräser nur die Vektoren abfahren und sich auf der Z-Achse nur schrittweise nach unten bewegen, um nach und nach Material ab zutragen. Bei einem echten 3D Job dagegen wird das Werkstück in verschiedenen Richtungen überfahren und der Fräskopf muss dabei die Konturen auf der Z-Achse Nachfahren. D.h. er hebt und senkt sich (je nach Modell) während er eine Fläche ab trägt.
 
-Bei 2.5D benötigt man kein 3D Modell und kein Tool zum bearbeiten von 3D Modellen (3D-CAD oder andere modeling tools wie bspw. "blender"). Es genügt ein 2D Vektorgrafik-Programm wie Illustrator, Inkscape oder MakerCAM.
+Für 2.5D benötigt man kein 3D Modell und kein Tool zum bearbeiten von 3D Modellen (3D-CAD oder andere modeling tools wie bspw. "blender"). Es genügt ein 2D Vektorgrafik-Programm wie Illustrator, Inkscape oder MakerCAM. Bei den reinen Vektor-Grafik-Editoren sind dabei meist Plugins zur Beschreibung der Tiefe und zum Exportieren von gCode notwendig.
 
 === CAD -> CAM -> Gcode -> Simulator -> G-Code-Sender -> Controller (Fräse) ===
 
@@ -62,7 +62,7 @@ Bei 2.5D benötigt man kein 3D Modell und kein Tool zum bearbeiten von 3D Modell
 * G-Code an Controller senden
 * Controller steuert Fräse bzw. 3D Drucker nach G-Code-Instruktionen
 
-Für jeden dieser Schritte gibt es eigene, meist unabhängige Tools. Eine Ausnahme ist [http://www.easel.com/ Easel], ein Webbasiertes Tool von Inventables (der Hersteller der Shapeoko) das gerade in entwicklung ist und alle Schritte in einem Tool vereinen will. Durch den Kauf der Shapeoko2 haben wir einen Beta Zugang zu Easel - wobei derzeit nicht klar ist ob der noch funktioniert.
+Für jeden dieser Schritte gibt es eigene, meist unabhängige Tools. Eine Ausnahme ist [http://www.easel.com/ Easel], ein Webbasiertes Tool von Inventables (der Hersteller der Shapeoko) das gerade in entwicklung ist und alle Schritte in einem Tool vereinen will. Durch den Kauf der Shapeoko2 haben wir einen Beta Zugang zu Easel. Siehe hier 
 
 Einen guten Überblick über Toolchains und den gesamten Workflow gibt [http://www.shapeoko.com/wiki/index.php/Workflow diese Wikiseite auf shapeoko.com].
 
