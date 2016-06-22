@@ -1,10 +1,10 @@
 {{ProjektInfoBox
 |name        = Shapeoko 2
-|status      = experimental
+|status      = beta
 |image       = 
 |description = CNC-Fräse
 |author      = 
-|maintainer  = Alle die es Nutzen
+|maintainer  = Maker
 |hostname    = 
 |version     = 
 |update      = 
@@ -41,7 +41,7 @@ Wir haben:
 
 Durch den TinyG Controller können wir die 300W Spindel im G-Code Speed controllen und an/ab-schalten!
 
-Der Arbeitsbereich sind ungefähr 30*30*6cm
+Der Arbeitsbereich beträgt ungefähr 30*30*6cm
 
 == Toolchains ==
 
@@ -50,22 +50,17 @@ Ein noch zu haltender und hier zu verlinkender Vortrag im RZL soll einen Überbl
 
 === 2.5D vs. 3D ===
 
-Man spricht bei einer CNC Fräse von 2.5D, wenn man eine 2D Vektordatei fräst und sich der dreidimensionale Teil auf die Tiefe beschränkt. D.h. Die 2D Vektorlinien werden "extrudiert" zu einem 3D Modell ==> 2.5D
-In diesem Fall muss der Fräser nur die vektoren abfahren und sich auf der Z-Achse nur schrittweise nach unten bewegen, um nach und nach Material abzutragen.
+Man spricht bei einer CNC Fräse von 2.5D, wenn man eine 2D Vektordatei fräst und sich der dreidimensionale Teil auf die Tiefe beschränkt. D.h. Die 2D Vektorlinien werden "extrudiert" zu einem 3D Modell ==> 2.5D, In diesem Fall muss der Fräser nur die Vektoren abfahren und sich auf der Z-Achse nur schrittweise nach unten bewegen, um nach und nach Material ab zutragen. Bei einem echten 3D Job dagegen wird das Werkstück in verschiedenen Richtungen überfahren und der Fräskopf muss dabei die Konturen auf der Z-Achse Nachfahren. D.h. er hebt und senkt sich (je nach Modell) während er eine Fläche ab trägt.
 
-Bei einem echten 3D Job dagegen wird das Werkstück in verschiedenen Richtungen überfahren und der Fräskopf muss dabei die Konturen auf der Z-Achse nachfahren. D.h. er hebt und senkt sich (je nach Modell) während er eine Fläche abträgt.
+Bei 2.5D benötigt man kein 3D Modell und kein Tool zum bearbeiten von 3D Modellen (3D-CAD oder andere modeling tools wie bspw. "blender"). Es genügt ein 2D Vektorgrafik-Programm wie Illustrator, Inkscape oder MakerCAM.
 
-Bei 2.5D benötigt man kein 3D Modell und kein Tool zum bearbeiten von 3D Modellen (CAD tools wie OpenSCAD oder blender). Es genügt ein 2D Vektor Programm wie Illustrator oder Inkscape oder MakerCAM
-
-Wahrscheinlich bestes (und erschwinglichstes) plattform-übergreifendes 3D-CAM-Tool ist CamBam. silvester hat einen Key für die Pro-Version. Einfach kontaktieren.
-
-=== CAD -> CAM -> -> Simulator -> G-Code sender -> Controller ===
+=== CAD -> CAM -> Gcode -> Simulator -> G-Code-Sender -> Controller (Fräse) ===
 
 Ähnlich wie beim 3D Druck ist der Weg zum Fräsen in folgende Schritte eingeteilt:
 * Modell erstellen
 * Modell in Schichten zerlegen (G-Code)
 * G-Code an Controller senden
-* Controller steuert Fräse bzw. 3D Drucker nach G-Code instruktionen
+* Controller steuert Fräse bzw. 3D Drucker nach G-Code-Instruktionen
 
 Für jeden dieser Schritte gibt es eigene, meist unabhängige Tools. Eine Ausnahme ist [http://www.easel.com/ Easel], ein Webbasiertes Tool von Inventables (der Hersteller der Shapeoko) das gerade in entwicklung ist und alle Schritte in einem Tool vereinen will. Durch den Kauf der Shapeoko2 haben wir einen Beta Zugang zu Easel - wobei derzeit nicht klar ist ob der noch funktioniert.
 
