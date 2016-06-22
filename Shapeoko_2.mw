@@ -76,6 +76,10 @@ Polyethylen High-Density, siehe [https://www.youtube.com/watch?v=T1pkyLY8Qvs Ver
 
 Einfach zu verarbeiten. Die Fräse schafft hier locker 1mm Zustellung beim Schruppen. X/Y-Vorschub bis 600mm/min. Z-Vorschub maximal 300mm/min. (Das ganze mit einer "3mm 2-Flute Endmill")
 
+=== Aluminium ===
+
+Auf unserer Maschine der Absolute Endgegner.
+
 == Aktuell verbauter Controller: TinyG ==
 
 Der TinyG Controller stellt ein serielles Interface zur Verfügung. Prinzipiell ist das Protokoll frei wählbar. Per default laufen 115200 Baud 8N1 mit Hardware-Flow-Control. Verbindet man sich auf dieses Interface z.B. mit '''minicom -d /dev/ttyUSB0 -c on''' erhält man mit '''$h''' das help menue. Grundsätzlich spricht der TinyG entweder ascii oder json. Der Parser kann explizit oder implizit (Command beginnt mit geschweifter Klammer) zwischen den Modi hin und her switchen.
