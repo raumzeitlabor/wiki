@@ -54,7 +54,7 @@ Man spricht bei einer CNC Fräse von 2.5D, wenn man eine 2D Vektordatei fräst u
 
 Für 2.5D benötigt man kein 3D Modell und kein Tool zum bearbeiten von 3D Modellen (3D-CAD oder andere modeling tools wie bspw. "blender"). Es genügt ein 2D Vektorgrafik-Programm wie Illustrator, Inkscape oder MakerCAM. Bei den reinen Vektor-Grafik-Editoren sind dabei meist Plugins zur Beschreibung der Tiefe und zum Exportieren von gCode notwendig.
 
-=== CAD -> CAM -> Gcode -> Simulator -> G-Code-Sender -> Controller (Fräse) ===
+=== CAD -> CAM -> (Post-Prozessor) -> Gcode -> Simulator -> G-Code-Sender -> Controller -> Aktoren ===
 
 Ähnlich wie beim 3D Druck ist der Weg zum Fräsen in folgende Schritte eingeteilt:
 * Modell erstellen
