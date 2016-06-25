@@ -38,6 +38,7 @@ Wir haben:
 * einen [https://www.inventables.com/technologies/tinyg-cnc-controller TinyG CNC Controller] der Endstopps kann und deutlich mehr kann als ein g-shield ([https://www.synthetos.com/project/tinyg/ noch mehr info])
 * Das [http://shop.shapeoko.com/collections/frontpage/products/shapeoko-2-acme-upgrade-1 ACME Z-Achsen upgrade]
 * Die [http://shop.shapeoko.com/collections/frontpage/products/shapeoko-side-shields Side shields zum Schutz der Achsen vor Dreck]
+* Zwei Spannzangen zur Aufnahme von Fräsern mit 3 und 6mm Schaftdurchmesser.
 
 Durch den TinyG Controller können wir die 300W Spindel im G-Code Speed controllen und an/ab-schalten!
 
