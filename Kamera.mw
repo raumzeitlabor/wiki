@@ -25,18 +25,6 @@ Aufnahme starten:
 
 == Bearbeitung ==
 
-Die Videos der Kamera haben eine Framerate von 29.97 fps, aber eine Field-Anzahl von 59, obwohl sie nicht interlaced sind. Das verwirrt alte Versionen von kdenlive, daher re-encodierte eins früher vor der Weiterverarbeitung:
-
- ffmpeg -threads 0 -i IMAG0001.MP4 -target ntsc-dvd -sameq -s hd1080 IMAG0001_recoded.mpg
-
-Oder für den ffmpeg-Nachfolger avconv (mit Deinterlacing):
-
- ffmpeg -threads 0 -i 00000.MTS -target ntsc-dvd -qscale 0 -deinterlace -s hd1080 00000.mpg
-
-Bei den meisten Vorträgen, die den Beamer benutzt haben (abgedunkelter Raum), ist es sinnvoll, das Bild etwas aufzuhellen. In kdenlive kann man dazu den Effekt "Colour correction - Curves" zum Video hinzufügen und einen Punkt oberhalb der Normallinie anklicken (z.B. bei ca. 600x800).
-
-Zur Aufbereitung der Audiospur empfliehlt sich die Datei durch [https://auphonic.com/ Auphonic] laufen zu lassen. Im Zweifelsfall schadet es dabei nicht, alle Filter einzuschalten.
-
 === Nötige Dateien ===
 
 # [[RZL_Introvideo]] (RZL-Introvideo, Full HD)
@@ -51,6 +39,25 @@ Einmalig muss man die Font installieren:
  fc-cache -fv
 
 (Die Schriftart stammt von http://martennettelbladt.se/miso/)
+
+=== Video-Bearbeitung mit Kdenlive ===
+
+Beim Öffnen der Kdenlive-Projekt-Datei besteht die Möglichkeit, den korrekten Pfad der Introdatei und des Logos der cc-Lizenz zu lokalisieren. Dazu einfach im automatisch aufpoppenden Fenster ("Clip Problems") auf "Search recursively" klicken und das Verzeichnis auswählen.
+
+Das Intro besteht aus zwei Title Clips und einem Videoteil. Der zweite Title Clip enthält Vortragsspezifische angaben. Zum Bearbeiten dieser empfielt sich ein Doppelklick auf das Vorschaubild in der Clip-Liste (links oben). Nach dem Anpassen des Vortragstitels, des Namens des Vortragenden und des Datums das Fenster mit OK schließen, erneut öffnen und die Textelemente einzeln nacheinander zentrieren. Dazu Textelement anklicken, dann rechts auf die Schaltfläche mit dem Icon mit den zwei horizontalen blauen Pfeilen mit der vertikalen roten Linie in der Mitte klicken. Dann wieder mit OK anwenden.
+
+Die Video- und Audioaufzeichnungen können per Drag & Drop in die Clip-Liste hinzugefügt werden. Danach können sie in die Zeitleiste (unterer Teil von Kdenlive) hinzugefügt, dort beschnitten, positioniert und weiter bearbeitet werden. Synchronisieren der Audiospur nicht vergessen.
+
+Fade-Effekte für Ton und Bild können am einfachsten über das Kontextmenü des entsprechenden Clips in der Zeitleiste hinzugefügt werden: Rechtsklick -> Add Effect -> Fade -> Fade in/Fade out
+
+Bei den meisten Vorträgen, die den Beamer benutzt haben (abgedunkelter Raum), ist es sinnvoll, das Bild etwas aufzuhellen. In kdenlive kann man dazu den Effekt "Colour correction - Curves" zum Video hinzufügen und einen Punkt oberhalb der Normallinie anklicken (z.B. bei ca. 600x800).
+
+=== Audio-Nachbearbeitung mit Auphonic ===
+
+Zur Aufbereitung der Audiospur empfliehlt sich die Datei durch [https://auphonic.com/ Auphonic] laufen zu lassen. Im Zweifelsfall schadet es dabei nicht, alle Filter einzuschalten.
+
+Man kann auch die fertige Video-Datei (bis 16 GB) durch Auphinic audioverbessern lassen. Im Auphonic-Konto des RZL (Username "rzl") gibt es dafür das Preset "Vortrag (Fertiges Video)". Dabei können auf der Bearbeitungsseite der Auphonic-Produktion Tags für YouTube vergeben werden und das Video wird automatisch im YouTube-Kanal des RZL veröffentlicht.
+
 
 [[Category:Hardware]]
 [[Category:Procedures]]
