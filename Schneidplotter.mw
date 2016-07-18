@@ -27,6 +27,8 @@ Hint: T-Shirt-Motive müssen vor dem Plotten gespiegelt werden, um richtig herum
 Ein normaler Druck für Folien ist im Bereich 50-70 Gramm.
 Klebefolien benötigen einen niedrigeren Druck (ca. 55 Gramm), Flexfolien einen etwas höheren (meist ca. 70g, variiert aber sehr stark). Die neuen Folien-Schilder haben ein Feld, wo der verwendete Druck eingetragen werden kann, sodass nicht jedes Mal neue Drucktests notwendig sind.
 
+Es reicht leider nicht, ein Windows in einer VirtualBox VM zu verwenden - der Plotter wird dort leider nicht erkannt, trotz USB Passthrough - unklar warum. --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 03:32, 18. Jul. 2016 (CEST)
+
 == Betrieb unter Linux ==
 
 Der Schneidplotter spricht HPGL, welches wiederum von InkCut (ein Schnittplugin für Inkscape) verwendet werden kann.
