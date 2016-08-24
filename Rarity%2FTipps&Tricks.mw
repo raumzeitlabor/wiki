@@ -77,6 +77,15 @@ Dann wird das Stitchbild deutlich besser:
 
 [[File:unterfaden-nicht-sichtbar.jpg]]
 
+=== Die Maschine verliert nach so ziemlich jedem Abschneidevorgang den Faden beim Anschließenden Startvorgang ===
+
+Siehe [[#Ich habe die Fadenspannung sehr niedrig und die Unterfadenspannung schon fast zu hoch eingestellt und trotzdem wird Unterfaden auf die Oberseite gezogen|oben]], wieder kann das Problem durch richtige Einstellung der Federn behoben werden, nur dass sie dieses Mal ganz nach oben gestellt werden müssen (und damit überhaupt keinen Einfluss mehr haben).
+
+=== Die Maschine bleibt bei jedem Abschneidevorgang stecken und zeigt merkwürdige Fehler, z.B. "Main Motor Overtime", Hauptspindel lässt sich nicht mehr von Hand drehen ===
+
+Eine Erklärung ist, dass sich die Befestigungs-Schrauben des Umlaufgreifers gelockert haben und an der Messer-Mechanik genau dann hängen bleiben wenn diese in der Position entgegengesetzt der Normalposition ist. Lösung ist dann, die Schrauben festzuziehen. Danach muss die Einstellung des Umlaufgreifers überprüft werden, dieser kann durch die Blockade verstellt sein.
+
+Die Blockade der Hauptspindel erklärt auch den Fehler "Main Motor Overtime", das bedeutet dass die Maschine versucht hat den Motor zu drehen aber es hat zu lange gedauert bis die Drehung beendet wurde und der Versuch wurde nach Zeitüberschreitung abgebrochen.
 
 == Weblinks ==
 
