@@ -24,6 +24,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 
 '''Das Nutzungsrecht für eine Schublade kostet 10€ (keine Rückerstattung!). Leute, die für die Schrankanlage gespendet haben, erhalten den Spendenwert in Schubladen.'''
 
+
 === Tardis1 ===
 
 * im Hauptraum
@@ -56,7 +57,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x52<br>Laborant: Inte
 |0x62<br>Laborant: docsteel
 |-
-|0x03<br>Laborant: echox
+|0x03<br>Laborant: Luftpolsterfolie(groß)
 |0x13<br>Laborant: nicoduck
 |0x23<br>Laborant: drahti
 |0x33<br>Laborant: hog
@@ -64,7 +65,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x53<br>Laborant: Inte
 |0x63<br>Laborant: docsteel
 |-
-|0x04<br>Laborant: echox
+|0x04<br>Laborant: leer
 |0x14<br>Laborant: nicoduck
 |0x24<br>Laborant: nicoduck
 |0x34<br>Gehäuse
@@ -92,11 +93,11 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x17<br>Diverses und Lüfter
 |0x27<br>Elektro-Bauteilkästen
 |0x37<br>Elektro-Bauteile (lose)
-|0x47<br>Laborant: zwetschgo
+|0x47<br>Laborant: Ingo
 |0x57<br>Laborant: Felicitus
 |0x67<br>Laborant: whilo
 |-
-|0x08<br>Laborant: lutoma
+|0x08<br>Laborant: Luftpolsterfolie(klein)
 |0x18<br>Laborant: Felicitus
 |0x28<br>Elektro-Bauteilkästen
 |0x38<br>Kabel
@@ -130,7 +131,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |-
 |0x0C<br>Druckverschlussbeutel
 |0x1C<br>Laborant: urvogel
-|0x2C<br>Malerzeug
+|0x2C<br>Malerbedarf
 |0x3C<br>Bauteile
 |0x4C<br>Laborant: tabascoeye
 |0x5C<br>Laborant: Dafo
@@ -152,8 +153,8 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x5E<br>Laborant: kite
 |0x6E<br>Laborant: rami
 |-
-|0x0F<br>USB-Netzteile / E-Zigaretten
-|0x1F<br>Resr
+|0x0F<br>leer
+|0x1F<br>leer
 |0x2F<br>Druckerzubehör / Laminiergerät
 |0x3F<br>Infrastruktur / Festplatten
 |0x4F<br>Laborant: mxf
@@ -180,7 +181,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 
 {| class="wikitable"
 |0x70<br>[[Namensschilder]]
-|0x80<br>'''free'''
+|0x80<br> Bauteile
 |0x90<br>[[Benutzer:Alexander_Brock|Alexander]]
 |0xA0<br>[[Benutzer:Deramon|Laborant: deramon]]
 |-
@@ -217,17 +218,17 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x77<br>Magnetkartenleser/-schreiber
 |0x68<br>Bausätze BS0003
 |0x97<br>Bausätze BS0007
-|0xA7<br>Bausätze BS0011
+|0xA7<br>Laborant: echox
 |-
 |0x78<br>Laborant: zero_dtime
 |0x88<br>Bausätze BS0004
 |0x98<br>Bausätze BS0008
-|0xA8<br>Bausätze BS0012
+|0xA8<br>Laborant: echox
 |-
 |0x79<br>Elektroinstallation
 |0x89<br>Kartendrucker
 |0x99<br>19" Harware / Dafo / Felicitus
-|0xA9<br>Türöffner-Tag(ehem Torrorists)
+|0xA9<br>Laborant: echox
 |-
 |0x7A<br>Kabel / KVM-Switches, PS2, Kaltgeräte Verlängerung
 |0x8A<br>SDR / [[HackRF]]
@@ -236,18 +237,18 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |-
 |0x7B<br>Adapter
 |0x8B<br>Fnordcordia
-|0x9B<br>Lochbohrer
+|0x9B<br>Maus Türöffner
 |0xAB<br>Ultimaker (PLA)
 |-
 |0x7C<br>Türschließer
 |0x8C<br>[[Benutzerin:aeus|Laborant: aeus]]
 |0x9C<br>MRMCD
-|0xAC<br>Ultimaker
+|0xAC<br>Laborant: Sebastiaan
 |-
 |0x7D<br>Plankins
 |0x8D<br>Agenda Diplom
 |0x9D<br>Stickbedarf
-|0xAD<br>Stoffkrams
+|0xAD<br>Sticken
 |-
 |0x7E<br>[[Benutzerin:Naddie|Laborant: naddie]]
 |0x8E<br>Stickrahmen
@@ -265,3 +266,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0xAG<br>Schubladenteile (kunststoff+Schrauben)
 |-
 |}
+
+[[ tardis_nutzer | Mitglieder mit mind. einem eigenen TARDIS-Fach]]
+
+Stand: 28.8.16
