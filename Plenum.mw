@@ -62,6 +62,44 @@ Kostenpunkt: ~8800€ + 450€ Versand + ggf. Drehvorrichtung zum Lasern von rot
 
 --[[Benutzer:Alexander Brock|Alexander Brock]] ([[Benutzer Diskussion:Alexander Brock|Diskussion]]) 01:26, 28. Sep. 2016 (CEST)
 
+=== VHS Stufe 1 ===
+
+Hallo zusammen,
+seit gestern ist es wieder möglich den Beamer (zumindest über HDMI) zu benutzen. Damit ist es wieder möglich Vorträge zu halten[0] und ich werde (vermutlich nächsten Dienstag) den aktuellen Stand zum Projekt VHS[1] vorstellen können. Die Planung ist so weit vorangeschritten, dass zumindest der Wiedergabeteil realisiert werden kann und voll kompatibel zu den weiteren Ausbaustufen sein wird.
+
+Da das Wiki aktuell nicht funktioniert [2] kann ich folgenden Plenumsantrag leider nicht direkt einstellen:
+
+* HDMI-Extender: 38,99€ (Bereits gekauft und gestern installiert)
+* 20m Netwerkkabel: 8,99€ (Bereits gekauft und gestern installiert)
+
+* ATEN VS0801H HDMI Switch 8-fach: ~100€
+* verschiedene HDMI-Kabel: ~30€
+* mehrere Bodenleisten für Kabel: ~40€ (Inkludiert die Stromzuführ für die Tische)
+* Onkyo TX-NR646 AV-Receiver: ~450€
+* VGA-HDMI Converter: ~35€
+* Composite-HDMI Converter: ~45€
+* HDMI-Extender: 40€
+* 10m CAT6a Netwerkkabel: ~12€
+========
+min. Summe: ~799,98€
+
+Mit einem Puffer für Preisschwankungen würde ich somit gerne 850€ beantragen. Damit haben wir dann eine gute Basis für weitere Ausbaustufen und ein sauberes Setup, das ohne Kabelgewuschtel die Wiedergabe über HDMI, VGA, Composite, Bluetooth, AirPlay, DLNA, MPD, Spotify, Chromecast, usw ermöglicht.
+
+Optional wäre ein neuer Beamer, der aktuelle im Hauptraum macht auf Videoaufnahmen zwar fancy Regenbogeneffekte, aber nicht jeder steht da drauf. Außerdem verlor er in den letzten Jahren doch ziemlich an Leuchtkraft, was man zwar durch eine neue Lampe lösen könnte, aber… Regenbogen. Lösung hierfür wäre zB ein LCD- statt DLP-Beamer, der Hauptraumbeamer kann dann den im Nebenraum ablösen. Hier hab ich allerdings noch nicht wirklich ein konkretes Produkt ausgesucht, da der Beamer prinzipiell ja funktioniert. Das wäre was für Stufe 2.
+
+Ich werde am Plenum nicht vor Ort sein können, fände es aber schön, wenn der Antrag trotzdem behandelt wird. Sollte es Fragen geben, bitte einfach vorab hier über die Mailingliste.
+
+Schöne Grüße,
+Cheatha
+
+[0] Suche im RZL-Wiki nach »Vorträgen«
+[1] Suche im RZL-Wiki nach der Projektseite
+[2] Mit Safari gar nicht, trotz Löschung des HSTS-Caches, in Chrome kurz nach dem löschen des Caches, dann plötzlich nur noch ERR_EMPTY-RESPONSE
+
+-- 
+Connect now! http://me.cheatha.de
+--[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 14:57, 28. Sep. 2016 (CEST)
+
 [[Kategorie:Veranstaltung]]
 [[Kategorie:Plenum| ]]
 [[Kategorie:Protokoll]]
