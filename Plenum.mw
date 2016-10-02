@@ -11,89 +11,23 @@
 |preis       = 
 }}
 
-== Themen für das nächste Plenum ==
+= Themen für das nächste Plenum =
 
-=== Realitätsabgleich ===
-* Es wurde mehrfach dieses Jahr in Plenen erwähnt, dass die Wau Holland Stiftung nach Geld für den Laser gefragt werden soll. Ist das geschehen? --[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 01:44, 28. Sep. 2016 (CEST)
-** 22.2.2016 angeschrieben und nie eine Antwort bekommen
+== Realitätsabgleich ==
+===== Was mir aufgefallen ist, was herrenlos rumsteht =====
+===== Was ich seit dem letzten Plenum im Space gemacht hab =====
+===== Was ich bis zum nächsten Plenum im Space vorhabe =====
+===== Was mich im Space geärgert hat =====
+===== Was mich im Space erfreut hat =====
+===== Was mir aufgefallen ist, was im Space kaputt ist =====
+===== Was ich gerne lernen würde =====
+===== Was im Space getan werden müsste (+Tickets anlegen) =====
+=== Anschaffungen aus dem letzten Plenum ===
+* Ramen Nudeln
+* Laser
+* VHS Projekt
 
-=== Neuanschaffung Overlock-Maschine ===
-
-Bitte aufs nächste Plenum vertagen, ich kam noch nicht dazu die Mail an die Liste zu tippen --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 23:20, 3. Aug. 2016 (CEST)
-
-Es wurde festgestellt, daß die vorhandene Overlock-Maschine von Medium defekt ist und wohl auch vorher ziemlich bescheiden war. Da Ingo, meine eine und andere Laboranten gerne eine Overlock-Maschine nutzen möchten, schlage ich vor, eine ordentliche (tm) zu kaufen.
-
-Eine Overlock-Maschine vernäht mit bis zu 4 Fäden und schneidet Stoff ab, was z.b. bei fast jedem Kleidungsstück zu sehen ist.
-
-Ein ordentliches Gerät schweizer Manufaktur ist die Elna 664 Pro (Kostenpunkt: 689€) --[[Benutzer:Felicitus|Felicitus]] ([[Benutzer Diskussion:Felicitus|Diskussion]]) 12:25, 27. Jul. 2016 (CEST)
-
-=== Ramen/Instantnudeln ===
-
-Ich würde gerne das Angebot der Snackbar um Ramen/Instantnudeln erweitern. Als ersten Testkauf, um zu sehen, ob sich das überhaupt verkauft, würde ich vorschlagen 30 Pack Yum Yum für <15 € zu besorgen und für 1€/Pack in die Snackbar zu stellen. --[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 09:52, 21. Sep. 2016 (CEST)
-
-=== Neuer Laser ===
-
-Wir denken ja schon länger relativ laut über einen neuen Laser nach.
-Aus folgenden Gründen würde das verstärkt Sinn ergeben:
-
-* Der FaZzZ0r darf dejure nicht in D betrieben werden ohne Laser-Ausbildung (und selbst dann vermutlich nicht, im Fablab gibt es spiegelnde Oberflächen).
-* Der Arbeitsbereich schränkt uns stark ein (37x23cm, Höhe < 10cm)
-* Die Leistung der Röhre ist gering und mit angeblich 40W vermutlich übertrieben angegeben
-* Die Arbeitssicherheit und Verarbeitung des Geräts lässt stark zu wünschen übrig (Fabian hat sich 4 mal an verschiedenen Stellen 230V abgeholt)
-
-Ich würde deshalb einen 80Watt Laser mit 90x60cm Bearbeitungsfläche
-vorschlagen, der von einem deutschen Hersteller kommt und für
-Laserklasse 1 zertifiziert ist, nämlich [http://www.ebay.de/itm/122072903386 diesen hier]:
-
-Das Gerät würde anstelle des FaZzZ0r ins fablab kommen. Dazu muss noch
-einer der kleinen Tische neben dem FaZzZ0r weg. (150cm breit)
-
-Der FaZzZ0r würde weiterhin als Reiselaser zu Veranstaltungen
-mitgenommen werden.
-Wenn wir einen neuen haben, könnten wir den FaZzZ0r auch mal längere
-Zeit außer Betrieb halten und ihn noch "reisefertiger" machen.
-
-Kostenpunkt: ~8800€ + 450€ Versand + ggf. Drehvorrichtung zum Lasern von rotationssymmetrischen Objekten wie Gläsern, Flaschen und (eingeschränkt) Tassen.
-
---[[Benutzer:Alexander Brock|Alexander Brock]] ([[Benutzer Diskussion:Alexander Brock|Diskussion]]) 01:26, 28. Sep. 2016 (CEST)
-
-=== VHS Stufe 1 ===
-
-Hallo zusammen,
-seit gestern ist es wieder möglich den Beamer (zumindest über HDMI) zu benutzen. Damit ist es wieder möglich Vorträge zu halten[0] und ich werde (vermutlich nächsten Dienstag) den aktuellen Stand zum Projekt VHS[1] vorstellen können. Die Planung ist so weit vorangeschritten, dass zumindest der Wiedergabeteil realisiert werden kann und voll kompatibel zu den weiteren Ausbaustufen sein wird.
-
-Da das Wiki aktuell nicht funktioniert [2] kann ich folgenden Plenumsantrag leider nicht direkt einstellen:
-
-* HDMI-Extender: 38,99€ (Bereits gekauft und gestern installiert)
-* 20m Netwerkkabel: 8,99€ (Bereits gekauft und gestern installiert)
-
-* ATEN VS0801H HDMI Switch 8-fach: ~100€
-* verschiedene HDMI-Kabel: ~30€
-* mehrere Bodenleisten für Kabel: ~40€ (Inkludiert die Stromzuführ für die Tische)
-* Onkyo TX-NR646 AV-Receiver: ~450€
-* VGA-HDMI Converter: ~35€
-* Composite-HDMI Converter: ~45€
-* HDMI-Extender: 40€
-* 10m CAT6a Netwerkkabel: ~12€
-
-min. Summe: ~799,98€
-
-Mit einem Puffer für Preisschwankungen würde ich somit gerne 850€ beantragen. Damit haben wir dann eine gute Basis für weitere Ausbaustufen und ein sauberes Setup, das ohne Kabelgewuschtel die Wiedergabe über HDMI, VGA, Composite, Bluetooth, AirPlay, DLNA, MPD, Spotify, Chromecast, usw ermöglicht.
-
-Optional wäre ein neuer Beamer, der aktuelle im Hauptraum macht auf Videoaufnahmen zwar fancy Regenbogeneffekte, aber nicht jeder steht da drauf. Außerdem verlor er in den letzten Jahren doch ziemlich an Leuchtkraft, was man zwar durch eine neue Lampe lösen könnte, aber… Regenbogen. Lösung hierfür wäre zB ein LCD- statt DLP-Beamer, der Hauptraumbeamer kann dann den im Nebenraum ablösen. Hier hab ich allerdings noch nicht wirklich ein konkretes Produkt ausgesucht, da der Beamer prinzipiell ja funktioniert. Das wäre was für Stufe 2.
-
-Ich werde am Plenum nicht vor Ort sein können, fände es aber schön, wenn der Antrag trotzdem behandelt wird. Sollte es Fragen geben, bitte einfach vorab hier über die Mailingliste.
-
-Schöne Grüße,
-Cheatha
-
-[0] Suche im RZL-Wiki nach »Vorträgen«
-[1] Suche im RZL-Wiki nach der Projektseite
-[2] Mit Safari gar nicht, trotz Löschung des HSTS-Caches, in Chrome kurz nach dem löschen des Caches, dann plötzlich nur noch ERR_EMPTY-RESPONSE
-
--- 
-Connect now! http://me.cheatha.de
---[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 14:57, 28. Sep. 2016 (CEST)
+== Neuanschaffungen ==
 
 [[Kategorie:Veranstaltung]]
 [[Kategorie:Plenum| ]]
