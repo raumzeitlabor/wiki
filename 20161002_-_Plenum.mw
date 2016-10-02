@@ -1,0 +1,90 @@
+== Vorspann ==
+RZL Plenum 02.10.2016
+anwesend: 10 Menschen
+
+== Realitätsabgleich ==
+* Drehstühle: keine da, kein dafo da, pending
+* Wau Holland Stiftung: 22.2.2016 angeschrieben und nie eine Antwort bekommen
+
+== Neuanschaffung Overlock-Maschine ==
+* Gibt eine, funktioniert
+* keiner der Anwesenden hat einen Punkt für eine neue Maschine
+
+== Ramen/Instantnudeln ==
+* machen wir
+
+== Neuer Laser ==
+* Geld genug wäre da (~12.000€ aktuell verfügbar)
+* Diverse Laboranten wollten zusätzlich zum Laser spenden. Bitte tut dies.
+* Abluft: $Geld für Rohr und Luft->Draußen sollte mitbeantragt werden (Vorschlag: 200€)
+* Antrag über 10.600 € für Laser (inklusive Abluft, Autofocus, Drehtisch, Versand)
+** 6 dafür 4 Enthaltungen => angenommen
+* Ingo schlägt vor Laser-Authentifizierung mit Nutzerlog einzuführen gegen Missbrauch
+* alternativ: Laserpatenschaft: eine Person, die sich für den Laser verantwortlich fühlt
+* Problem: müsste jemand machen
+* Lasern wird nur nach Einweisung erlaubt, erstmal Authentifizierung über ab Werk eingebauten Schlüsselschalter
+* abrock kümmert sich um Laserkauf
+
+== Neuanschaffung Overlock-Maschine addendum ==
+* Ingo merkt an, dass die aktuelle nicht gut ist, aber es ist ihm vorerst egal
+
+*Plenumsunterbrechung Pizza*
+
+== VHS Stufe 1 ==
+* neues Setup geil geil geil
+* alles -> HDMI -> Beamer
+* Antrag über 850 €
+** HDMI-Extender: 38,99€ (Bereits gekauft und gestern installiert)
+** 20m Netwerkkabel: 8,99€ (Bereits gekauft und gestern installiert)
+** ATEN VS0801H HDMI Switch 8-fach: ~100€
+** verschiedene HDMI-Kabel: ~30€
+** mehrere Bodenleisten für Kabel: ~40€ (Inkludiert die Stromzuführ für die Tische)
+** Onkyo TX-NR646 AV-Receiver: ~450€
+** VGA-HDMI Converter: ~35€
+** Composite-HDMI Converter: ~45€
+** HDMI-Extender: 40€
+** 10m CAT6a Netwerkkabel: ~12€
+** Puffer
+* dagegen: 0, enthaltung: 0 => Antrag angenommen
+* Cheatha soll machen
+
+== Neuer Laser addendum ==
+* abrock denkt laut über Lasererweiterungen wie automatische Kühlungseinschaltung mit Nachlauf nach
+
+
+== Sonstiges ==
+* Die Bamberger haben ein hübsches System bei den Plenen:
+**  Was mir aufgefallen ist, was herrenlos rumsteht
+**  Was ich seit dem letzten Plenum im Space gemacht hab
+**  Was ich bis zum nächsten Plenum im Space vorhabe
+**  Was mich im Space geärgert hat
+**  Was mich im Space erfreut hat
+**  Was mir aufgefallen ist, was im Space kaputt ist
+**  Was ich gerne lernen würde
+**  Was im Space getan werden müsste (+Tickets anlegen)
+
+Das Konzept finden wir schick und wir könnten es mal ausprobieren
+
+
+* Diskussion um Infrastruktur und Zugriffe bzw. NOC Team. Es wäre schön, wenn interessierte Mitglieder, die helfen wollen, das auch könnten (PIN pad, Homepage, VMs, Wiki, Kalender, ...)
+* Es wäre auch cooler, wenn Magie wie "sollte wieder gehen" genauer erklärt werden, (v.a. Pinpad)
+* Leute, die Dinge auf infra fixen wollen, bekommen keinen access.
+
+* Vorschlag: Infrastruktur fixing WE planen
+** bestehende Infrastruktur erfassen und erklären/dokumentieren
+** Zugänge erfassen und weitere verteilen
+** Workshop zum fixen der services:
+*** Pinpad (ausfallsicher, notfall-foo)
+*** Status (inklusive anwesenheit per MAC)
+*** Ping+Anzeige
+*** Statistiken für Infoscreen (Xively etc)
+*** Lichtsteuerung
+*** Funksteckdosen
+*** Wiki+Homepage SSL/HSTS
+*** strichliste.org vs. fnordcredit
+
+
+== Abspann ==
+Plenum geschlossen 17:00
+
+[[Kategorie:Plenum]] [[Kategorie:Protokoll]]
