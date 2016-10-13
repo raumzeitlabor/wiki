@@ -1,91 +1,40 @@
-== Mittlere Reihe ==
+== Bücher ==
 {| class="wikitable"
 !Autor
 !Titel
 !Verlag, Erscheinungsort und -jahr
 !gehört
 |-
-|Jörg Digulla, Alfred Ebert, Andreas Fecke, Horst Timm
-|Das Go-Spiel. Eine Einführg in das asiatische Brettspiel
-|Hebsacker, Hamburg 2005
-|RaumZeitLabor
-|-
-|Stefan Krappitz
-|Troll culture. A comprehensive guide
-|Stuttgart 2012
-|RaumZeitLabor
-|-
-|Randal L. Schwartz, Tom Phoenix
-|Learning Perl
-|O'Reilly, Sebastopol 2001
-|-
-|Alex Martelli, David Ascher
-|Python Cookbook. Recipes from the Python Community
-|O'Reilly, Sebastopol 2002
-|-
-|Jean Pütz (Hrsg.)
-|Einführung in die Elektronik. Das Buch zur gleichnamigen Fernsehreihe
-|Verlagsgesellschaft Schulfernsehen, Köln 1971
-|-
-|Maik Schmidt
-|Arduino. Ein schneller Einstieg in die Microcontroller-Entwicklung
-|dpunkt, Heidelberg 2012
-|-
-|Maik Schmidt
-|Raspberry Pi. Einstieg, Optimierung, Projekte
-|dpunkt, Heidelberg 2013
+|Dietmar Benda
+|Das große Handbuch Fehlersuche in elektronischen Schaltungen
+|Franzis, Poing 2008
 |-
 |Siegfried Bösch, Martin Mewes, Wolfgang Oberthür, Hans-Jobst Siedler
 |Elektronik II. Bauelemente. Arbeitsblätter
 |Richard Pflaum, München 1988
 |-
-|Jochen Kronjäger, Karl Kehrle, Günter Wahl, Harald Chmela
-|Das große Hochspannungs- und Hochfrequenz-Experimentier-Handbuch
-|Franzis, Poing 2005
-|-
-|Helmut W. Pesch
-|Elbisch. Lern- und Übungsbuch der Elben-Sprachen von J. R. R. Tolkien
-|Bastei Lübbe, Bergisch Gladbach 2004
+|Frank B. Brokken
+|C++ Annotations Version 7.2.1
+|''(in 2 Aktenordnern)''
 |BFritz0815
 |-
-|Judy Tatchell, Bill Bennett
-|Mikrocomputer. Wie sie funktionieren – was sie können
-|Otto Maier, Ravensburg/Vogel, Würzburg 1982
-|Raphael Becker
+|Jörg Digulla, Alfred Ebert, Andreas Fecke, Horst Timm
+|Das Go-Spiel. Eine Einführg in das asiatische Brettspiel
+|Hebsacker, Hamburg 2005
+|RaumZeitLabor
 |-
-|Corinne Stockley, Lisa Watts
-|Computer von A–Z. Ein Bildwörterbuch
-|Otto Maier, Ravensburg/Vogel, Würzburg 1983
-|Raphael Becker
+|Tam Hanna
+|Microsoft KINECT. Programmierung des Sensorsystems
+|dpunkt, Heidelberg 2013
 |-
-|Ellen Siever und die Mitarbeiter von O'Reilly & Associates
-|Linux in a nutshell
-|O'Reilly, Köln 1999
-|Nairolfo
+|Martin Hecht
+|Das große Commodore 64-Buch
+|Data Becker, Düsseldorf 1992
 |-
-|
-|T-Shirt Design 2
-|Feierabend Unique Books, Köln 2011
-|-
-|Daniel Love
-|Are you dreaming? Exploring lucid dreams. A comprehensive guide
-|Enchanted Loom, 2013
-|steeph
-|-
-|Mojang
-|Minecraft. Das Schaltkreis-Handbuch. Die hohe Redstone-Schule
-|Schneiderbuch Egmont, Köln 2014
-|BFritz0815
-|-
-|Mojang
-|Minecraft. Das Konstruktions-Handbuch. Bauen mt Blöcken
-|Schneiderbuch Egmont, Köln 2014
-|BFritz0815
-|-
-|Mojang
-|Minecraft. Das Einsteiger-Handbuch. Aller Anfang ist ein Block
-|Schneiderbuch Egmont, Köln 2014
-|BFritz0815
+|Mathias Hein, Michael Reisner
+|IPv6. Das Migrationsbuch
+|Franzis, Poing 2003
+|DaFo
 |-
 |Thomas Kamps
 |Der Weg zum eigenen RC-Jet-Modell
@@ -97,44 +46,82 @@
 |Technik und Handwerk, Baden-Baden 1999
 |BFritz0815
 |-
-|Frank B. Brokken
-|C++ Annotations Version 7.2.1
-|''(in 2 Aktenordnern)''
+|Stefan Krappitz
+|Troll culture. A comprehensive guide
+|Stuttgart 2012
+|RaumZeitLabor
+|-
+|Jochen Kronjäger, Karl Kehrle, Günter Wahl, Harald Chmela
+|Das große Hochspannungs- und Hochfrequenz-Experimentier-Handbuch
+|Franzis, Poing 2005
+|-
+|Daniel Love
+|Are you dreaming? Exploring lucid dreams. A comprehensive guide
+|Enchanted Loom, 2013
+|steeph
+|-
+|Alex Martelli, David Ascher
+|Python Cookbook. Recipes from the Python Community
+|O'Reilly, Sebastopol 2002
+|-
+|Mojang
+|Minecraft. Das Einsteiger-Handbuch. Aller Anfang ist ein Block
+|Schneiderbuch Egmont, Köln 2014
 |BFritz0815
-|}
-
-== Obere Reihe ==
-
-{| class="wikitable"
-!Autor
-!Titel
-!Verlag, Erscheinungsort und -jahr
-!gehört
 |-
-|Martin Hecht
-|Das große Commodore 64-Buch
-|Data Becker, Düsseldorf 1992
+|Mojang
+|Minecraft. Das Konstruktions-Handbuch. Bauen mt Blöcken
+|Schneiderbuch Egmont, Köln 2014
+|BFritz0815
 |-
-|Tam Hanna
-|Microsoft KINECT. Programmierung des Sensorsystems
-|dpunkt, Heidelberg 2013
+|Mojang
+|Minecraft. Das Schaltkreis-Handbuch. Die hohe Redstone-Schule
+|Schneiderbuch Egmont, Köln 2014
+|BFritz0815
 |-
-|Dietmar Benda
-|Das große Handbuch Fehlersuche in elektronischen Schaltungen
-|Franzis, Poing 2008
+|Helmut W. Pesch
+|Elbisch. Lern- und Übungsbuch der Elben-Sprachen von J. R. R. Tolkien
+|Bastei Lübbe, Bergisch Gladbach 2004
+|BFritz0815
+|-
+|Jean Pütz (Hrsg.)
+|Einführung in die Elektronik. Das Buch zur gleichnamigen Fernsehreihe
+|Verlagsgesellschaft Schulfernsehen, Köln 1971
 |-
 |Hal Renko, Sam Edwards
 |Packende Spiele für Ihren Commodore 64
 |Birkhäuser, Basel 1985
 |-
+|Maik Schmidt
+|Arduino. Ein schneller Einstieg in die Microcontroller-Entwicklung
+|dpunkt, Heidelberg 2012
+|-
+|Maik Schmidt
+|Raspberry Pi. Einstieg, Optimierung, Projekte
+|dpunkt, Heidelberg 2013
+|-
+|Randal L. Schwartz, Tom Phoenix
+|Learning Perl
+|O'Reilly, Sebastopol 2001
+|-
 |Marc André Selig
 |Linux. Debian, Red Hat, Slackware, S.u.S.E.
 |Wilhelm Heine, München 1999
 |-
-|Mathias Hein, Michael Reisner
-|IPv6. Das Migrationsbuch
-|Franzis, Poing 2003
-|DaFo
+|Ellen Siever und die Mitarbeiter von O'Reilly & Associates
+|Linux in a nutshell
+|O'Reilly, Köln 1999
+|Nairolfo
+|-
+|Corinne Stockley, Lisa Watts
+|Computer von A–Z. Ein Bildwörterbuch
+|Otto Maier, Ravensburg/Vogel, Würzburg 1983
+|Raphael Becker
+|-
+|Judy Tatchell, Bill Bennett
+|Mikrocomputer. Wie sie funktionieren – was sie können
+|Otto Maier, Ravensburg/Vogel, Würzburg 1982
+|Raphael Becker
 |-
 |Hubert Zitt
 |ISDN & DSL für PC und Telefon
@@ -144,6 +131,10 @@
 |Kaffee
 |garant, Renningen 2008
 |BFritz0815
+|-
+|
+|T-Shirt Design 2
+|Feierabend Unique Books, Köln 2011
 |}
 ''…Fortsetzung folgt…''
 
