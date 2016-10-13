@@ -4,22 +4,22 @@
 !Titel
 !Verlag, Erscheinungsort und -jahr
 !gehört
-|-
+|- style="background-color:#f9d9d9;"
 |Scott Adams
 |Dilbert: Ich liebe meinen Job
 |Achterbahn, Kiel 2003
 |
-|-
+|- style="background-color:#f9d9d9;"
 |Tom Archer, Andrew Whitechapel
 |Inside C#. Objektorientiertes Programmieren mit C# und dem .NET-Framework. 2., stark erweiterte Auflage
 |Microsoft Press Deutschland, Unterschleißheim 2002
 |Mathias Koch
-|-
+|- style="background-color:#f9f9d9;"
 |Aristoteles
 |Nikomachische Ethik. Übersetzung und Nachwort von Franz Dirlmeier. Anmerkungen von Ernst A. Schmidt
 |Reclam, Ditzingen 2004
 |
-|-
+|- style="background-color:#f9f9d9;"
 |Dietmar Benda
 |Das große Handbuch Fehlersuche in elektronischen Schaltungen
 |Franzis, Poing 2008
@@ -29,7 +29,7 @@
 |Elektronik II. Bauelemente. Arbeitsblätter
 |Richard Pflaum, München 1988
 |
-|-
+|- style="background-color:#f9f9d9;"
 |Frank B. Brokken
 |C++ Annotations Version 7.2.1
 |''(in 2 Aktenordnern)''
@@ -39,7 +39,7 @@
 |Das Go-Spiel. Eine Einführg in das asiatische Brettspiel
 |Hebsacker, Hamburg 2005
 |RaumZeitLabor
-|-
+|- style="background-color:#f9d9d9;"
 |Karl Eilebrecht, Gernot Starke
 |Patterns kompakt. Entwurfsmuster für effektive Sofware-Entwicklung
 |Spektrum Akademischer Verlag, Heidelberg 2010
@@ -49,32 +49,32 @@
 |Was macht Ponys glücklich? Ein Ratgeber für Kinder
 |Gong, Ismaning 2009
 |
-|-
+|- style="background-color:#f9f9d9;"
 |V. M. Gluschkow
 |Einführung in die technische Kybernetik. Band 1
 |Verlag Dokumentation, München-Pullach und Berlin 1970
 |
-|-
+|- style="background-color:#f9f9d9;"
 |V. M. Gluschkow
 |Einführung in die technische Kybernetik. Band 2
 |Verlag Dokumentation, München-Pullach und Berlin 1970
 |
-|-
+|- style="background-color:#f9d9d9;"
 |Tam Hanna
 |Microsoft KINECT. Programmierung des Sensorsystems
 |dpunkt, Heidelberg 2013
 |
-|-
+|- style="background-color:#f9f9d9;"
 |Marijn Haverbeke
 |Eloquent JavaScript. A Modern Introduction to Programming
 |no starch press
 |''Spiralbindung''
-|-
+|- style="background-color:#f9d9d9;"
 |Martin Hecht
 |Das große Commodore 64-Buch
 |Data Becker, Düsseldorf 1992
 |
-|-
+|- style="background-color:#f9d9d9;"
 |Mathias Hein, Michael Reisner
 |IPv6. Das Migrationsbuch
 |Franzis, Poing 2003
@@ -84,17 +84,17 @@
 |Gödel, Escher, Bach. Ein Endloses Geflochtenes Band
 |Klett-Cotta, München 1999
 |
-|-
+|- style="background-color:#f9d9d9;"
 |Klaus-J. Holzapfel (Hrsg.)
 |Kürschners Volkshandbuch Deutscher Bundestag. 17. Wahlperiode 2009–2013
 |Neue Darmstädter Verlagsanstalt, Rheinbreitbach 2010
 |
-|-
+|- style="background-color:#f9f9d9;"
 |intel
 |Embedded Microcontrollers. MCS(R) 48/51/96 Microcontroller Family
 |1994
 |
-|-
+|- style="background-color:#f9d9d9;"
 |Michael Kain
 |Selenium. Web-Applikationen automatisiert testen
 |Open Source, München 2008
@@ -109,12 +109,12 @@
 |Modellstrahltriebwerke
 |Technik und Handwerk, Baden-Baden 1999
 |Bfritz0815
-|-
+|- style="background-color:#f9d9d9;"
 |Philip Kiefer
 |Tastenkombinationen für Windows & Office. Alle wichtigen Funktionen
 |Markt+Technik, Burgthann 2015
 |Bfritz0815
-|-
+|- style="background-color:#f9d9d9;"
 |Michael Kolberg
 |Tastenkürzel für Windows & Office. De wichtigsten Funktionen im schnellen Zugriff
 |Markt+Technik, München 2013
@@ -129,22 +129,22 @@
 |Das große Hochspannungs- und Hochfrequenz-Experimentier-Handbuch
 |Franzis, Poing 2005
 |
-|-
+|- style="background-color:#f9d9d9;"
 |Marco Kuhrmann, Jens Calam´e, Erika Horn
 |Verteilte Systeme mit .NET Remoting. Grundlagen – Konzepte – Praxis
 |Elsevier, München 2004
 |Mathias Koch
-|-
+|- style="background-color:#f9d9d9;"
 |Christopher Kunz, Stefan Esser, Peter Prochaska
 |PHP-Sicherheit
 |dpunkt, Heidelberg 2008
 |''Spiralbindung''
-|-
+|- style="background-color:#f9d9d9;"
 |Susanne Linn, Frank Sobolewski
 |So arbeitet der Deutsche Bundestag. Organisation und Arbeitsweise. Die Gesetzgebung des Bundes
 |Neue Darmstädter Verlagsanstalt, Rheinbreitbach 2010
 |
-|-
+|- style="background-color:#f9d9d9;"
 |Klaus Lipinski (Hrsg.)
 |mitp-Lexikon Netzwerk-Technik. Fünf Bände: Verkabelung, LAN-Technologien, WAN-Technologien, TCP-IP/Netzwerkprotokolle, Mobilkommunikation
 |MITP, Bonn 2001
@@ -159,7 +159,7 @@
 |Alles über Super-Nintendo-Spiele. Technik, Tips & Facts
 |Falken, Niedernhausen/Ts 1992
 |
-|-
+|- style="background-color:#f9d9d9;"
 |Alex Martelli
 |Python in a Nutshell. A Desktop Quick Reference
 |O'Reilly, Sebastopol 2003
@@ -169,7 +169,7 @@
 |Python Cookbook. Recipes from the Python Community
 |O'Reilly, Sebastopol 2002
 |
-|-
+|- style="background-color:#f9d9d9;"
 |Yukihiro Matsumoto
 |Ruby in a Nutshell. A Desktop Quick Reference
 |O'Reilly, Sebastopol 2002
@@ -194,12 +194,12 @@
 |Elbisch. Lern- und Übungsbuch der Elben-Sprachen von J. R. R. Tolkien
 |Bastei Lübbe, Bergisch Gladbach 2004
 |Bfritz0815
-|-
+|- style="background-color:#f9d9d9;"
 |Charles Petzold
 |Windows-Programmierung mit C#. Windows-Programmierung auf der .NET-Plattform
 |Microsoft Press Deutschland, Unterschleißheim 2002
 |Mathias Koch
-|-
+|- style="background-color:#f9f9d9;"
 |Peter Prinz, Ulla Kirch-Prinz
 |C für PCs. Einführung und professionelle Anwendung. 3., vollständig überarbeitete Auflage
 |mitp, Bonn 2002
@@ -209,7 +209,7 @@
 |Einführung in die Elektronik. Das Buch zur gleichnamigen Fernsehreihe
 |Verlagsgesellschaft Schulfernsehen, Köln 1971
 |
-|-
+|- style="background-color:#f9d9d9;"
 |Hal Renko, Sam Edwards
 |Packende Spiele für Ihren Commodore 64
 |Birkhäuser, Basel 1985
@@ -229,12 +229,12 @@
 |Learning Perl
 |O'Reilly, Sebastopol 2001
 |
-|-
+|- style="background-color:#f9d9d9;"
 |Richard Seidl, Manfred Baumgartner, Thomas Bucsics
 |Basiswissen Testautomatisierung. Konzepte, Methoden und Techniken
 |dpunkt, Heidelberg 2012
 |echomirage
-|-
+|- style="background-color:#f9d9d9;"
 |Marc André Selig
 |Linux. Debian, Red Hat, Slackware, S.u.S.E.
 |Wilhelm Heine, München 1999
@@ -249,7 +249,7 @@
 |Computer von A–Z. Ein Bildwörterbuch
 |Otto Maier, Ravensburg/Vogel, Würzburg 1983
 |Raphael Becker
-|-
+|- style="background-color:#f9d9d9;"
 |Jason E. Sweat
 |php|architect's Guide to PHP Design Patterns
 |Marco Tabini & Associates, Toronto 2005
@@ -259,57 +259,57 @@
 |Mikrocomputer. Wie sie funktionieren – was sie können
 |Otto Maier, Ravensburg/Vogel, Würzburg 1982
 |Raphael Becker
-|-
+|- style="background-color:#f9d9d9;"
 |Johan Vromans
 |Perl kurz & gut
 |O'Reilly, Köln 2003
 |Simon Elsbrock
-|-
+|- style="background-color:#f9d9d9;"
 |Jan Wischnewski, Natalie Simons, Archiv Lingen Verlag
 |Lust auf Landhausküche. Plätzchen & Pralinen
 |Helmut Lingen, Köln 2015
 |Bfritz0815
-|-
+|- style="background-color:#f9d9d9;"
 |Jan Wischnewski, Photocuisine.de; Stockfood; Archiv Lingen Verlag
 |Lust auf Landhausküche. Wintergemüse
 |Helmut Lingen, Köln 2015
 |Bfritz0815
-|-
+|- style="background-color:#f9f9d9;"
 |Randy Jay Yarger, George Reese, Tim King
 |MySQL & mSQL. Eine Datenbank für kleine und mittelgroße Unternehmen & Web Sites
 |O'Reilly, Köln 2000
 |echomirage
-|-
+|- style="background-color:#f9d9d9;"
 |Hubert Zitt
 |ISDN & DSL für PC und Telefon
 |Markt+Technik, München 2005
 |
-|-
+|- style="background-color:#f9d9d9;"
 |
 |Der Deutsche Bundestag. Wie parlamentarische Demokratie funktioniert
 |Deutscher Bundestag, Berlin 2009
 |
-|-
+|- style="background-color:#f9d9d9;"
 |
 |Gesetzgebung. Von der Idee zum Gesetz
 |Deutscher Bundestag, Berlin 2009
 |
-|-
+|- style="background-color:#f9d9d9;"
 |
 |Petitionen. Von der Bitte zum Bürgerrecht
 |Deutscher Bundestag, Berlin 2007
 |
-|-
+|- style="background-color:#f9d9d9;"
 |
 |Wahlen. Grundpfeiler der Demokratie
 |Deutscher Bundestag, Berlin 2009
 |
-|-
+|- style="background-color:#f9d9d9;"
 |
 |Die Geschäftsordnung des Deutschen Bundestages
 |Neue Darmstädter Verlagsanstalt, Rheinbreitbach 2008
 |
-|-
+|- style="background-color:#f9d9d9;"
 |
 |Kaffee
 |garant, Renningen 2008
@@ -319,12 +319,12 @@
 |My Little Pony Rätselblock
 |Schwager & Steinlein, Köln 2014
 |(Bfritz0815) public / RaumZeitLabor instructed
-|-
+|- style="background-color:#f9d9d9;"
 |
 |RTKernel 4.0 Addendum
 |On Time Informatik GmbH
 |''Spiralbindung''
-|-
+|- style="background-color:#f9d9d9;"
 |
 |RTKernel 4.0 Benutzerhandbuch
 |On Time Informatik GmbH
