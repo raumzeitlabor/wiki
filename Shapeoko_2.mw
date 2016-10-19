@@ -1,6 +1,6 @@
 {{ProjektInfoBox
 |name        = Shapeoko 2
-|status      = beta
+|status      = alpha
 |image       = 
 |description = CNC-Fräse
 |author      = 
@@ -21,6 +21,8 @@ Nach Abstimmung im Septemberplenum 2014 hat das RaumzeitLabor eine CNC Fräse vo
 
 * http://docs.shapeoko.com/ -- Manual und viel Info des Herstellers
 * http://www.shapeoko.com/wiki/index.php/Endmills -- Gute Wiki-Seite, die die Unterschiede zwischen verschiedenen Fräser-Typen und Materialien erläutert.
+* https://github.com/synthetos/TinyG/wiki/ -- Wiki des Controllers
+* https://github.com/synthetos/g2/wiki/ -- "g2Core" - Next Generation Grbl-Controller von Synthetos. Basiert auf ARM-Prozessoren und soll ermöglicht features die mit den 8-bit Prozessoren des Arduino UNO und des TinyG nicht möglich sind. Im wesentlichen also ein ARM (bspw. Arduino DUE) und ein bisschen Logik an den Pinouts. Für unseren Einsatzzweck ist das bereits vorhandene gShield-v5b ausreichend. Hierfür ist allerdings komplettes Neu-Verkabeln der Controllerbox notwendig.
 
 == Ausstattung ==
 
@@ -63,8 +65,6 @@ Für 2.5D benötigt man kein 3D Modell und kein Tool zum bearbeiten von 3D Model
 * G-Code an Controller senden
 * Controller steuert Fräse bzw. 3D Drucker nach G-Code-Instruktionen
 
-Für jeden dieser Schritte gibt es eigene, meist unabhängige Tools. Eine Ausnahme ist [http://www.easel.com/ Easel], ein Webbasiertes Tool von Inventables (der Hersteller der Shapeoko) das gerade in entwicklung ist und alle Schritte in einem Tool vereinen will. Durch den Kauf der Shapeoko2 haben wir einen Beta Zugang zu Easel. Siehe hier 
-
 Einen guten Überblick über Toolchains und den gesamten Workflow gibt [http://www.shapeoko.com/wiki/index.php/Workflow diese Wikiseite auf shapeoko.com].
 
 == Fräsbare Materialien ==
@@ -79,7 +79,7 @@ Einfach zu verarbeiten. Die Fräse schafft hier locker 1mm Zustellung beim Schru
 
 === Aluminium ===
 
-Auf unserer Maschine der Absolute Endgegner.
+Auf unserer Maschine der absolute Endgegner.
 
 == Aktuell verbauter Controller: TinyG ==
 
@@ -95,7 +95,7 @@ Auf der Unterseite [[Shapeoko_2/tinyg_settings]] ist eine aktuelle Config inklus
 
 Weil unsere Maschine bereits das ACME-Z-Achsen-Upgrade eingebaut hat passt die standard-config von tinyG nicht. Auf dieser Seite [http://www.shapeoko.com/wiki/index.php/Zaxis_ACME#Updating_Software im shapeoko-wiki] wird gezeigt wie die Steppings berechnet werden.
 
-Aktuell (05.12.2015) ist ein normales x/y/z-Koordinatensystem konfiguriert, d. h. 0/0/0 ist links unten und die Spindel ist komplett am Anschlag ausgefahren. Von hier aus kann nun in positiver x/y-Richtung und negativer z-Richtung gearbeitet werden.
+Aktuell (05.12.2015) ist ein normales x/y/z-Koordinatensystem konfiguriert, d. h. 0/0/0 ist links unten und die Spindel ist komplett am Anschlag ausgefahren. Von hier aus kann nun in positiver x/y-Richtung und negativer z-Richtung gearbeitet werden. Das sollte auch so bleiben, weil Standard, weil isso.
 
 == Informationen zur Hardware ==
 
