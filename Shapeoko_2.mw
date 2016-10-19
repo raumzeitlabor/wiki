@@ -24,10 +24,9 @@ Nach Abstimmung im Septemberplenum 2014 hat das RaumzeitLabor eine CNC Fräse vo
 * https://github.com/synthetos/TinyG/wiki/ -- Wiki des Controllers
 * https://github.com/synthetos/g2/wiki/ -- "g2Core" - Next Generation Grbl-Controller von Synthetos.
 
-== Toolchains ==
+== Workflow ==
 
-Es gibt Toolchains wie Sand am Meer sowohl Freeware und/oder OpenSource als auch im hochpreisigen Bezahlsegment.
-Ein noch zu haltender und hier zu verlinkender Vortrag im RZL soll einen Überblick geben. (--[[Benutzer:TabascoEye|TabascoEye]] ( 1[[Benutzer Diskussion:TabascoEye|Diskussion]])2:01, 16. Sep. 2014 (CEST))
+Leider ist zerspanendes Arbeiten nicht so gutmütig und Einsteiger-freundlich wie 3d-Drucken. Wir wirken ja mit zerstörerischer Kraft auf das Werkstück ein und bei Fehlern geht also schnell mal was kaputt - bestenfalls das Werkstück, schlimmstenfalls Körperteile. Es lohnt sich also zunächst einige Zeit in Planung ('''zweimal Messen, einmal Schneiden!''') und Anlesen von Basiswissen zu investieren. Ein guter Einstiegspunkt ist hier: http://www.shapeoko.com/wiki/index.php/Main_Page#Overview
 
 === 2.5D vs. 3D ===
 
@@ -44,6 +43,11 @@ Für 2.5D benötigt man kein 3D Modell und kein Tool zum bearbeiten von 3D Model
 * Controller steuert Fräse bzw. 3D Drucker nach G-Code-Instruktionen
 
 Einen guten Überblick über Toolchains und den gesamten Workflow gibt [http://www.shapeoko.com/wiki/index.php/Workflow diese Wikiseite auf shapeoko.com].
+
+== Toolchains ==
+
+Es gibt Toolchains wie Sand am Meer sowohl Freeware und/oder OpenSource als auch im hochpreisigen Bezahlsegment.
+Ein noch zu haltender und hier zu verlinkender Vortrag im RZL soll einen Überblick geben. (--[[Benutzer:TabascoEye|TabascoEye]] ( 1[[Benutzer Diskussion:TabascoEye|Diskussion]])2:01, 16. Sep. 2014 (CEST))
 
 == Fräsbare Materialien ==
 
