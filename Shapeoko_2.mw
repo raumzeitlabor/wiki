@@ -213,7 +213,7 @@ Der Sensorstecker ist wie folgt belegt:
 |-
 | 6 || Z Endstop Max || rosa
 |-
-| 7 || frei || lila
+| 7 || Z Min (Probe) || lila
 |-
 | 8 || frei || blau
 
