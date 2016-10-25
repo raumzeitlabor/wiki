@@ -205,7 +205,7 @@ Der Sensorstecker ist wie folgt belegt:
 |-
 | 2 || X Endstop Min || weiß
 |-
-| 3 || X Endstop Max || schwarz
+| 3 || X Endstop Max || grau
 |-
 | 4 || Y Endstop Min || gelb
 |-
@@ -213,7 +213,7 @@ Der Sensorstecker ist wie folgt belegt:
 |-
 | 6 || Z Endstop Max || rosa
 |-
-| 7 || Z Min (Probe) || lila
+| 7 || Z Min (Probe) || violett
 |-
 | 8 || frei || blau
 
