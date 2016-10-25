@@ -233,6 +233,8 @@ Der Sensorstecker ist wie folgt belegt:
 
 * Z-Probing für nicht elektrisch-leitende Werkstücke
 
+* 3d-Probing (3-axis-edge-finding)
+
 * Gehäuse bauen
 ** Rundecken wie bei Flightcases
 ** Beleuchtung mit Wasserdichtem LED Band
