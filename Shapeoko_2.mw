@@ -55,7 +55,17 @@ Wie immer bei Software leider auch ein sehr inkonstantes Feld. [http://www.shape
 
 In diesem Kapitel sind alle Anwender aufgerufen ihre (aktuelle) Toolchain zu dokumentieren. Was funktioniert, was nicht? Welche Versionen werden eingesetzt? Bitte Datum nicht vergessen! Ggf. muss auch das Controller-target angegeben werden!
 
-* 10/2016 [silvester]
+* 06/2016 3D [silvester]
+** Usecase: 3D-Fräsen aus Vollmaterial (Dachlatte und Acryl)
+** Controller-target: TinyG v0.95
+** CAD: OpenSCAD 2015.03
+** CAM: CamBam v.0.9.8p
+** Simulation: CamBam + Chilipeppr
+** Machining: [http://chilipeppr.com/tinyg Chilipeppr.com/tinyg] + Serial-Port-JSON-Server.
+** Status: funktioniert.
+** Probleme: Siehe: generelle Probleme mit TinyG
+
+* 10/2016 2D-PCB [silvester]
 ** Usecase: PCB-Fräsen (isolation routing. Garavieren, Bohren, Ausschneiden)
 ** Controller-target: TinyG v0.95
 ** CAD: KiCAD v4.0.4 (Layout wird als Gerber-File exportiert)
