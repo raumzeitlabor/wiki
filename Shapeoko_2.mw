@@ -231,6 +231,8 @@ Der Sensorstecker ist wie folgt belegt:
 
 * Hardware-Controls (Taster für Feed-Hold, Resume-Cycle und Jogging)
 
+* Z-Probing für nicht elektrisch-leitende Werkstücke
+
 * Gehäuse bauen
 ** Rundecken wie bei Flightcases
 ** Beleuchtung mit Wasserdichtem LED Band
