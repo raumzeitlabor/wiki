@@ -51,6 +51,21 @@ Ein noch zu haltender und hier zu verlinkender Vortrag im RZL soll einen Überbl
 
 Wie immer bei Software leider auch ein sehr inkonstantes Feld. [http://www.shapeoko.com/wiki/index.php/Software Hier] ist ein guter Einstiegspunkt um sich für die Plattform der Wahl einen Überblick zu verschaffen. Letzten Endes hilft eigentlich nur ausprobieren womit man gut zurecht kommt.
 
+==== User-Toolchains ====
+
+In diesem Kapitel sind alle Anwender aufgerufen ihre (aktuelle) Toolchain zu dokumentieren. Was funktioniert, was nicht? Welche Versionen werden eingesetzt? Bitte Datum nicht vergessen! Ggf. muss auch das Controller-target angegeben werden!
+
+* 10/2016 [silvester]
+** Usecase: PCB-Fräsen (isolation routing. Garavieren, Bohren, Ausschneiden)
+** Controller-target: TinyG v0.95
+** CAD: KiCAD v4.0.4 (Layout wird als Gerber-File exportiert)
+** CAM: Flatcam v8.5 (3 aufeinanderfolgende Jobs: 1. Gravieren, 2. Bohren, 3. Outlines fräsen), Export zu Gcode
+** Machining: 
+*** 1. [http://chilipeppr.com/tinyg Chilipeppr.com/tinyg] + Serial-Port-JSON-Server. Damit dann zunächst auto-leveling, dann Übernahme des Höhenprofils in den Gcode
+*** 2. Fräsen mit [https://github.com/cheton/cnc Dieser Software]. Reason: Die Kombi Serial-Port-JSON-Server + Chilipeppr ist zu flaky.
+** Status: funktioniert.
+** Probleme: Aufwändig. Much hassle. No funs. Siehe auch: generelle Probleme mit TinyG
+
 == Fräsbare Materialien ==
 
 === PE-HD ===
