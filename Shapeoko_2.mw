@@ -20,9 +20,14 @@ Nach Abstimmung im Septemberplenum 2014 hat das RaumzeitLabor eine CNC Fräse vo
 == Doku & Links ==
 
 * http://docs.shapeoko.com/ -- Manual und viel Info des Herstellers
-* http://www.shapeoko.com/wiki/index.php/Endmills -- Gute Wiki-Seite, die die Unterschiede zwischen verschiedenen Fräser-Typen und Materialien erläutert.
-* https://github.com/synthetos/TinyG/wiki/ -- Wiki des Controllers
-* https://github.com/synthetos/g2/wiki/ -- "g2Core" - Next Generation Grbl-Controller von Synthetos.
+** http://www.shapeoko.com/wiki/index.php/Endmills -- Gute Wiki-Seite, die die Unterschiede zwischen verschiedenen Fräser-Typen und Materialien erläutert.
+* http://www.cnccookbook.com/ -- Be a better CNC'er
+* https://github.com/synthetos/ -- Github-Repo der Controller-Hardware. Relevante Repos bzw. deren Wikis sind:
+** https://github.com/synthetos/tinyg/wiki
+** https://github.com/synthetos/g2/wiki
+** https://github.com/synthetos/grblShield/wiki
+* https://github.com/grbl/grbl/wiki -- Grbl Wiki und Firmware
+** https://github.com/grbl/grbl/wiki -- Development-Version grbl
 
 == Workflow ==
 
