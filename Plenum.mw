@@ -25,23 +25,8 @@ Viel Resonanz kam nicht bei mir an, das muss aber nichts heißen - genau gesagt 
 --[[Benutzer:S1lvester|S1lvester]] ([[Benutzer Diskussion:S1lvester|Diskussion]]) 19:24, 2. Nov. 2016 (CET)
 
 == RFC RZL-Docker-Host ==
-Die Diskussion im NOC-Team hat wohl gezeigt: Docker ist doof fürs NOC, wir machen Ansible. Gut und Schön aber: "Mal eben nen Service hochziehen" (Infoscreen usw.) der keinen relevanten State braucht - bzw. seinen state auf einen zentralen, vom NOC verwalteten, DB-Host bzw. Object-Storage speichert ist einfach mit docker wesentlich einfacher für eine Organisation wie einen Hackerspace wo vielleicht nicht jeder Root auf den Servern ist und wir ja offensichtlich nicht für jeden Member ne vm machen können (Meine Anfrage für ne VM ist seit Januar pending).
 
-Also folgender Vorschlag:
-# Das NOC betreibt eine VM als dockerhost (beispielsweise RancherOS oder CoreOS) (Hostnahme "rzlocker")
-# Es gibt ein zentrales github-Repo von dem der rzlocker seine dockerfiles pulled, baut und deployed.
-# Dort liegt ein Template-File das verwendet werden muss
-# $member forkt das Repo baut aus dem Template sein Dockerfile zusammen, mach einen PR.
-# PR wird nach review gemerged --> goto 2.
-
-** Q: Aber dann haben wir immer noch alte Baseimages ohne security-fixes!!!
-** A: Wir legen im Template fest, dass nur official-base-images mit release-tag verwendet werden dürfen. Die werden jeweils kurzfristig vom distibution-team selbst geupdated (s. https://hub.docker.com/explore/). durch das Flag `--pull` zieht sich der docker-prozess beim bauen des containers jeweils ein akutelles base-image. Jetzt noch ein systemd-service, der um 03:00 alle kontainer neu baut - fertig.
-
-** Q: Und nach sechs Monaten haben wir 1000 docker-container laufen von denen niemand weiß was sie tun...
-** A: Durch unser github-repo sieht jeder, jederzeit was läuft. Unser PR-Template enthält ferner Dinge wie "was tut es und warum" und "welche Ports braucht es und warum"
-
-** Q: Jetzt weiß zwar jeder was läuft und warum und die base ist atkuell aber trotzdem wird da ein Zoo wachsen.
-** A: Wir könnten einfach(tm) ein Verfallsdatum für die Container definieren. À la: Service läuft einmal täglich und checkt: Letzte Änderung am dockerfile ist älter als $monate? --> Nachricht an Maintainer: "Mach was damit oder ich schmeiß das Ding in $tagen weg!!"
+Hier Stand ein Beitrag zum Thema Docker usw. Angemerkt wurde, dass das so ein Thema besser auf der ML oder im NOC diskutiert werden sollte. Wahrscheinlich besser so. Den Orginal-Text gibts zum Nachlesen hier: [[20161102 - RFC-Docker]]
 
 --[[Benutzer:S1lvester|S1lvester]] ([[Benutzer Diskussion:S1lvester|Diskussion]]) 19:24, 2. Nov. 2016 (CET)
 
