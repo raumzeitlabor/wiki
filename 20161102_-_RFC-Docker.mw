@@ -1,5 +1,4 @@
 Die Diskussion im NOC-Team hat wohl gezeigt: Docker ist doof fürs NOC, wir machen Ansible. Gut und Schön aber: "Mal eben nen Service hochziehen" (Infoscreen usw.) der keinen relevanten State braucht - bzw. seinen state auf einen zentralen, vom NOC verwalteten, DB-Host bzw. Object-Storage speichert ist einfach mit docker wesentlich einfacher für eine Organisation wie einen Hackerspace wo vielleicht nicht jeder Root auf den Servern ist und wir ja offensichtlich nicht für jeden Member ne vm machen können (Meine Anfrage für ne VM ist seit Januar pending)
-       --Grade mal auf die NOC ML geschaut: da gibt es keine Anfrage bezüglich einer VM. --[[Benutzer:Docsteel|Docsteel]] ([[Benutzer Diskussion:Docsteel|Diskussion]]) 23:50, 2. Nov. 2016 (CET)
 
 Also folgender Vorschlag:
 # Das NOC betreibt eine VM als dockerhost (beispielsweise RancherOS oder CoreOS) (Hostnahme "rzlocker")
