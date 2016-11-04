@@ -1,0 +1,25 @@
+{{ProjektInfoBox
+|name        = s1lvester.vm.rzl
+|status      = stable
+|image       = 
+|description = VM von s1lvester
+|author      = [[Benutzer:s1lvester|s1lvester]], [[NOC Team|NOC-Team]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = s1lvester.vm.rzl
+|license     = 
+|download    = 
+}}
+
+== Zweck ==
+* TODO
+
+== Eckdaten ==
+
+* 256MB RAM
+* 1 CPU Core
+* 20GB HDD
+
+[[Kategorie:Infrastruktur]]
