@@ -200,7 +200,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.216 || ''reserviert für VMs'' || Ungenutzt
 |-----
-| 172.22.36.217 || ''reserviert für VMs'' || Ungenutzt
+| 172.22.36.217 || [[Mate_(Server)/s1lvester.vm.rzl]] || Mitglieder-VM (s1lvester)
 |-----
 | 172.22.36.218 || [[Mate_(Server)/rami.vm.rzl]] || Mitglieder-VM (rami)
 |-----
