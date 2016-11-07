@@ -71,7 +71,7 @@ In diesem Kapitel sind alle Anwender aufgerufen ihre (aktuelle) Toolchain zu dok
 ** Simulation: CamBam + Chilipeppr
 ** Machining: [http://chilipeppr.com/tinyg Chilipeppr.com/tinyg] + Serial-Port-JSON-Server.
 ** Status: funktioniert.
-** Probleme: Siehe: generelle Probleme mit TinyG
+** Probleme: Siehe generelle Probleme mit TinyG
 
 * 10/2016 2D-PCB [silvester]
 ** Usecase: PCB-Fräsen (isolation routing. Garavieren, Bohren, Ausschneiden)
@@ -80,10 +80,9 @@ In diesem Kapitel sind alle Anwender aufgerufen ihre (aktuelle) Toolchain zu dok
 ** CAM: Flatcam v8.5 (3 aufeinanderfolgende Jobs: 1. Gravieren, 2. Bohren, 3. Outlines fräsen), Export zu Gcode
 ** Simulation: Fuck no! We're doin' it live!
 ** Machining: 
-*** 1. [http://chilipeppr.com/tinyg Chilipeppr.com/tinyg] + Serial-Port-JSON-Server. Damit dann zunächst auto-leveling, dann Übernahme des Höhenprofils in den Gcode
-*** 2. Fräsen mit [https://github.com/cheton/cnc Dieser Software]. Reason: Die Kombi Serial-Port-JSON-Server + Chilipeppr ist zu flaky.
+*** 1. [http://chilipeppr.com/tinyg Chilipeppr.com/tinyg] + Serial-Port-JSON-Server. Damit dann zunächst auto-leveling, dann Übernahme des Höhenprofils in den Gcode.
 ** Status: funktioniert.
-** Probleme: Aufwändig. Much hassle. No funs. Siehe auch: generelle Probleme mit TinyG
+** Probleme: Aufwändig. Much hassle. Siehe auch: generelle Probleme mit TinyG
 
 == Fräsbare Materialien ==
 
