@@ -1,8 +1,10 @@
 = TinyG Config Dump =
 
-== Date: 2016-10-25 ==
+== Date: 2016-11-08 ==
 
 <pre>
+
+$$
 [fb]  firmware build            440.20
 [fv]  firmware version            0.97
 [hp]  hardware platform           0.00
@@ -143,9 +145,9 @@
 [g54a] g54 a offset               0.000 deg
 [g54b] g54 b offset               0.000 deg
 [g54c] g54 c offset               0.000 deg
-[g55x] g55 x offset               0.000 mm
-[g55y] g55 y offset               0.000 mm
-[g55z] g55 z offset               0.000 mm
+[g55x] g55 x offset              55.000 mm
+[g55y] g55 y offset             125.000 mm
+[g55z] g55 z offset             -50.000 mm
 [g55a] g55 a offset               0.000 deg
 [g55b] g55 b offset               0.000 deg
 [g55c] g55 c offset               0.000 deg
