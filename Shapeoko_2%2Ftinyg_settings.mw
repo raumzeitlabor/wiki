@@ -57,33 +57,33 @@ $$
 [4po] m4 polarity                 0 [0=normal,1=reverse]
 [4pm] m4 power management         0 [0=disabled,1=always on,2=in cycle,3=when moving]
 [xam] x axis mode                 1 [standard]
-[xvm] x velocity maximum       8000 mm/min
+[xvm] x velocity maximum       4000 mm/min
 [xfr] x feedrate maximum       8000 mm/min
 [xtn] x travel minimum            0.000 mm
 [xtm] x travel maximum          260.000 mm
-[xjm] x jerk maximum           5000 mm/min^3 * 1 million
-[xjh] x jerk homing           10000 mm/min^3 * 1 million
+[xjm] x jerk maximum           2000 mm/min^3 * 1 million
+[xjh] x jerk homing            2000 mm/min^3 * 1 million
 [xjd] x junction deviation        0.0100 mm (larger is faster)
 [xsn] x switch min                3 [0=off,1=homing,2=limit,3=limit+homing]
 [xsx] x switch max                2 [0=off,1=homing,2=limit,3=limit+homing]
-[xsv] x search velocity        1500 mm/min
-[xlv] x latch velocity          100 mm/min
+[xsv] x search velocity        1000 mm/min
+[xlv] x latch velocity           50 mm/min
 [xlb] x latch backoff            20.000 mm
-[xzb] x zero backoff              5.000 mm
+[xzb] x zero backoff              2.000 mm
 [yam] y axis mode                 1 [standard]
-[yvm] y velocity maximum       8000 mm/min
+[yvm] y velocity maximum       4000 mm/min
 [yfr] y feedrate maximum       8000 mm/min
 [ytn] y travel minimum            0.000 mm
 [ytm] y travel maximum          275.000 mm
-[yjm] y jerk maximum           5000 mm/min^3 * 1 million
-[yjh] y jerk homing           10000 mm/min^3 * 1 million
+[yjm] y jerk maximum           2000 mm/min^3 * 1 million
+[yjh] y jerk homing            2000 mm/min^3 * 1 million
 [yjd] y junction deviation        0.0100 mm (larger is faster)
 [ysn] y switch min                3 [0=off,1=homing,2=limit,3=limit+homing]
 [ysx] y switch max                2 [0=off,1=homing,2=limit,3=limit+homing]
-[ysv] y search velocity        1500 mm/min
-[ylv] y latch velocity          100 mm/min
+[ysv] y search velocity        1000 mm/min
+[ylv] y latch velocity           50 mm/min
 [ylb] y latch backoff            20.000 mm
-[yzb] y zero backoff              5.000 mm
+[yzb] y zero backoff              2.000 mm
 [zam] z axis mode                 1 [standard]
 [zvm] z velocity maximum        800 mm/min
 [zfr] z feedrate maximum        800 mm/min
@@ -95,9 +95,9 @@ $$
 [zsn] z switch min                0 [0=off,1=homing,2=limit,3=limit+homing]
 [zsx] z switch max                1 [0=off,1=homing,2=limit,3=limit+homing]
 [zsv] z search velocity        1000 mm/min
-[zlv] z latch velocity          100 mm/min
+[zlv] z latch velocity           50 mm/min
 [zlb] z latch backoff            20.000 mm
-[zzb] z zero backoff              5.000 mm
+[zzb] z zero backoff              2.000 mm
 [aam] a axis mode                 3 [radius]
 [avm] a velocity maximum      25920 deg/min
 [afr] a feedrate maximum      12960 deg/min
@@ -145,9 +145,9 @@ $$
 [g54a] g54 a offset               0.000 deg
 [g54b] g54 b offset               0.000 deg
 [g54c] g54 c offset               0.000 deg
-[g55x] g55 x offset              55.000 mm
-[g55y] g55 y offset             125.000 mm
-[g55z] g55 z offset             -50.000 mm
+[g55x] g55 x offset               0.000 mm
+[g55y] g55 y offset               0.000 mm
+[g55z] g55 z offset               0.000 mm
 [g55a] g55 a offset               0.000 deg
 [g55b] g55 b offset               0.000 deg
 [g55c] g55 c offset               0.000 deg
