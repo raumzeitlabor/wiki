@@ -34,11 +34,13 @@ Hier Stand ein Beitrag zum Thema Docker usw. Angemerkt wurde, dass das so ein Th
 ===== Was mir aufgefallen ist, was herrenlos rumsteht =====
 ===== Was ich seit dem letzten Plenum im Space gemacht hab =====
 ===== Was ich bis zum nächsten Plenum im Space vorhabe =====
-ESP8266 auf DMX Konstruktion. Habe 1 Strobo und 2 LED PARs mit DMX übrig. Plan:
-1. An den gleichen Stromkreis wie Twinkle anschließen
-2. OpenHAB-Anbindung oder eigene REST-Api
-3. ...
-4. Profit (bzw. farbiges Licht)
+
+    ESP8266 auf DMX Konstruktion. Habe 1 Strobo und 2 LED PARs mit DMX übrig. Plan:
+    1. An den gleichen Stromkreis wie Twinkle anschließen
+    2. OpenHAB-Anbindung oder eigene REST-Api
+    3. ...
+    4. Profit (bzw. farbiges Licht)
+    --[[Benutzer:S1lvester|S1lvester]] ([[Benutzer Diskussion:S1lvester|Diskussion]]) 14:23, 8. Jan. 2017 (CET)
 
 ===== Was mich im Space geärgert hat =====
 
