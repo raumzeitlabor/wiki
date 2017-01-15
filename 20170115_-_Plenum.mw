@@ -1,0 +1,123 @@
+== Vorspann ==
+RZL Plenum 15.01.2017
+
+anwesend: ~8 Menschen
+
+= Realitätsabgleich =
+
+== RFC Überweisung --> Cashdesk-Guthaben ==
+Folgende Mail ging am 10.10.2016 über die Mailingliste:
+    da Bargeld und im Allgemeinen und Münzgeld im Besonderen nervt hätte ich gerne ein Protokoll für Banküberweisung --> CashDesk-Guthaben.
+    Nach erster Konsultation mit dem Vorschlag wurden folgende Punkte angemerkt:
+    1. Besteht Bedarf?
+    2. Um auch etwaig ungerade Beträge zu ermöglichen sollte die Portierung auf strichliste.org abgeschlossen werden.
+    3. Wir einigen uns auf einen Verwendungszweck
+    4. Wie geht die Aufladung vonstatten?
+Viel Resonanz kam nicht bei mir an, das muss aber nichts heißen - genau gesagt kam gar keine Resonanz :-) Also: Plenum.
+
+--[[Benutzer:S1lvester|S1lvester]] ([[Benutzer Diskussion:S1lvester|Diskussion]]) 19:24, 2. Nov. 2016 (CET)
+
+Fabian erläutert:
+Silvester hat vorgeschlagen Cashdesk-Guthaben durch Überweisung aufzuladen.
+Strichliste.org wird gerade neu geschrieben, Portierung ist im Moment eine schlechte Idee.
+Don redet mal mit Schinken.
+
+Es gibt aktuell nichts zu entscheiden.
+
+Fabian: Idee ist nett, an der Umsetzung muss noch gearbeitet werden.
+
+Konsens: Wird vertagt.
+
+== RFC RZL-Docker-Host ==
+
+Hier Stand ein Beitrag zum Thema Docker usw. Angemerkt wurde, dass das so ein Thema besser auf der ML oder im NOC diskutiert werden sollte. Wahrscheinlich besser so. Den Orginal-Text gibts zum Nachlesen hier: [[20161102 - RFC-Docker]]
+
+--[[Benutzer:S1lvester|S1lvester]] ([[Benutzer Diskussion:S1lvester|Diskussion]]) 19:24, 2. Nov. 2016 (CET)
+
+Sehr, sehr altes Thema.
+
+Neues Thema: Wer ist das Netzwerkteam? Was ist der Stand?
+
+== Ramen Nudeln ==
+
+Wurde besorgt und gegessen, habe vor neue zu besorgen --[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 16:44, 3. Nov. 2016 (CET)
+
+Ramen Nudeln sind da.
+
+== Laser ==
+
+Status: Steht beim deutschen Händler, Wabentisch fehlt, dieser kommt mit nächster Lieferung. Wann diese nächste Lieferung sein wird wurde nachgefragt (11.01.2017), Antwort steht aus (15.01.2017).
+
+== VHS Projekt ==
+Onkyo wurde besorgt und aufgestellt, läuft. --[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 16:44, 3. Nov. 2016 (CET)
+
+Don: Funktioniert ganz gut, einfach anstecken und funktioniert. Chromecast nicht ausprobiert.
+
+= Hausmeister-Themen =
+
+== Was mir aufgefallen ist, was herrenlos rumsteht ==
+== Was ich seit dem letzten Plenum im Space gemacht hab ==
+== Was ich bis zum nächsten Plenum im Space vorhabe ==
+
+    ESP8266 auf DMX Konstruktion. Habe 1 Strobo und 2 LED PARs mit DMX übrig. Plan:
+    1. An den gleichen Stromkreis wie Twinkle anschließen
+    2. OpenHAB-Anbindung oder eigene REST-Api
+    3. ...
+    4. Profit (bzw. farbiges Licht)
+    --[[Benutzer:S1lvester|S1lvester]] ([[Benutzer Diskussion:S1lvester|Diskussion]]) 14:23, 8. Jan. 2017 (CET)
+
+Konsens: Mehr Blingbling wäre total geil.
+
+== Was mich im Space geärgert hat ==
+Die Elektro Ecke war ziehmlich durcheinander und zugemüllt. [[Benutzer:Riker2k|Riker2k]] ([[Benutzer Diskussion:Riker2k|Diskussion]])
+
+Don: Das ist ein regelmäßiges Problem, überall im RZL.
+
+Der Vorstand kümmert sich um die Sub-Problematik "erlebnisorientierte Jugendliche".
+
+Präventiver Aufruf an die Mitglieder: Minderjährige Kinderlein von der Benutzung gefährlicher Geräte abhalten, insbesondere Sägen.
+
+== Was mich im Space erfreut hat ==
+== Was mir aufgefallen ist, was im Space kaputt ist ==
+Interaktive liste: ([https://github.com/raumzeitlabor/rzl-tuwat/issues?q=is:issue+is:open+label:Repair rzl-tuwat/issues?q=is:issue+is:open+label:Repair]) --[[Benutzer:S1lvester|S1lvester]] ([[Benutzer Diskussion:S1lvester|Diskussion]]) 19:35, 2. Nov. 2016 (CET)
+
+API-Endpunkte wurden vom Netzwerkteam teilweise bearbeitet.
+
+== Was ich gerne lernen würde ==
+== Was im Space getan werden müsste (+Tickets anlegen) ==
+
+= Neuanschaffungen =
+
+== ESR Meter ==
+
+ESR Meter zum Messen von ELKOS (z.B. https://www.conrad.de/de/komponententester-digital-extech-lcr200-kalibriert-nach-werksstandard-cat-i-anzeige-counts-20000-103781.html für 252 Euro mit LCR noch dazu oder)
+
+Wurde nicht auf der ML diskutiert, wird auf das nächste Plenum vertagt.
+
+== Spontane Punkte: ==
+
+* "Benutzerhandbuch RZL" für Neumitglieder sollte mal ausgegraben und aktualisiert werden.
+
+Nathalie:
+* Mehr duchstarten als letztes Jahr: Mehr Vorträge, Exkursionen, Workshops, geilen Scheiß, Blingbling etc.
+* Plant mit Dafo Fressveranstaltungen. Fressveranstaltungen sind ein Exportschlager des RZL und finden demnächst in Bamberg statt.
+
+Evilsadness (via Don):
+* Mehr Nörd am Hörd wagen!
+
+Fabian:
+* Die VHS-Leute müssten mal einen Vorschlag für eine gescheite Video-Kamera machen.
+
+Don:
+* Videos auf media.ccc.de schieben. Don kümmert sich.
+* Spacenight findet semi-regelmäßig statt, insbesondere wenn es live übertragene Raketenstarts gibt.
+
+Brainfreeze:
+* Beamer wird alt, VHS hat Pläne für neuen Beamer.
+* Küche müsste mal renoviert werden.
+
+Plenum schließt 18:25 Uhr.
+
+[[Kategorie:Veranstaltung]]
+[[Kategorie:Plenum| ]]
+[[Kategorie:Protokoll]]
