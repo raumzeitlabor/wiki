@@ -12,23 +12,6 @@
 }}
 
 = Themen für das nächste Plenum =
-== RFC Überweisung --> Cashdesk-Guthaben ==
-Folgende Mail ging am 10.10. über die Mailingliste:
-    da Bargeld und im Allgemeinen und Münzgeld im Besonderen nervt hätte ich gerne ein Protokoll für Banküberweisung --> CashDesk-Guthaben.
-    Nach erster Konsultation mit dem Vorschlag wurden folgende Punkte angemerkt:
-    1. Besteht Bedarf?
-    2. Um auch etwaig ungerade Beträge zu ermöglichen sollte die Portierung auf strichliste.org abgeschlossen werden.
-    3. Wir einigen uns auf einen Verwendungszweck
-    4. Wie geht die Aufladung vonstatten?
-Viel Resonanz kam nicht bei mir an, das muss aber nichts heißen - genau gesagt kam gar keine Resonanz :-) Also: Plenum.
-
---[[Benutzer:S1lvester|S1lvester]] ([[Benutzer Diskussion:S1lvester|Diskussion]]) 19:24, 2. Nov. 2016 (CET)
-
-== RFC RZL-Docker-Host ==
-
-Hier Stand ein Beitrag zum Thema Docker usw. Angemerkt wurde, dass das so ein Thema besser auf der ML oder im NOC diskutiert werden sollte. Wahrscheinlich besser so. Den Orginal-Text gibts zum Nachlesen hier: [[20161102 - RFC-Docker]]
-
---[[Benutzer:S1lvester|S1lvester]] ([[Benutzer Diskussion:S1lvester|Diskussion]]) 19:24, 2. Nov. 2016 (CET)
 
 == Realitätsabgleich ==
 ===== Was mir aufgefallen ist, was herrenlos rumsteht =====
@@ -43,8 +26,6 @@ Hier Stand ein Beitrag zum Thema Docker usw. Angemerkt wurde, dass das so ein Th
     --[[Benutzer:S1lvester|S1lvester]] ([[Benutzer Diskussion:S1lvester|Diskussion]]) 14:23, 8. Jan. 2017 (CET)
 
 ===== Was mich im Space geärgert hat =====
-Die Elektro Ecke war ziehmlich durcheinander und zugemüllt. [[Benutzer:Riker2k|Riker2k]] ([[Benutzer Diskussion:Riker2k|Diskussion]])
-
 ===== Was mich im Space erfreut hat =====
 ===== Was mir aufgefallen ist, was im Space kaputt ist =====
 Interaktive liste: ([https://github.com/raumzeitlabor/rzl-tuwat/issues?q=is:issue+is:open+label:Repair rzl-tuwat/issues?q=is:issue+is:open+label:Repair]) --[[Benutzer:S1lvester|S1lvester]] ([[Benutzer Diskussion:S1lvester|Diskussion]]) 19:35, 2. Nov. 2016 (CET)
@@ -52,14 +33,14 @@ Interaktive liste: ([https://github.com/raumzeitlabor/rzl-tuwat/issues?q=is:issu
 ===== Was ich gerne lernen würde =====
 ===== Was im Space getan werden müsste (+Tickets anlegen) =====
 === Anschaffungen aus dem letzten Plenum ===
-* Ramen Nudeln
-** Wurde besorgt und gegessen, habe vor neue zu besorgen --[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 16:44, 3. Nov. 2016 (CET)
-* Laser
-* VHS Projekt
-** Onkyo wurde besorgt und aufgestellt, läuft. --[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 16:44, 3. Nov. 2016 (CET)
 
 == Neuanschaffungen ==
-* ESR Meter zum Messen von ELKOS (z.B. https://www.conrad.de/de/komponententester-digital-extech-lcr200-kalibriert-nach-werksstandard-cat-i-anzeige-counts-20000-103781.html für 252 Euro mit LCR noch dazu oder )
+
+=== ESR-Meter ===
+
+ESR Meter zum Messen von ELKOS (z.B. https://www.conrad.de/de/komponententester-digital-extech-lcr200-kalibriert-nach-werksstandard-cat-i-anzeige-counts-20000-103781.html für 252 Euro mit LCR noch dazu oder https://www.elv.de/esr-messgeraet-esr-1-inkl-messleitungen-komplettbausatz.html Bausatz für 50€)
+
+
 [[Kategorie:Veranstaltung]]
 [[Kategorie:Plenum| ]]
 [[Kategorie:Protokoll]]
