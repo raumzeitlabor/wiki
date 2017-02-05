@@ -1,0 +1,16 @@
+{{ProjektInfoBox
+|name        = Ranlvor
+|status      = experimental
+|image       = 
+|description = VM für MPD
+|author      = [[Benutzer:Ranlvor|Ranlvor]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = ranlvor.vm.rzl
+|license     = 
+|download    = 
+}}
+
+Diese VM möchte in MPD werden. Sie soll den Audiostrom des MPD via HTTP auf den Onkyo streamen. Außerdem soll sie auf Knopfdruck den Onkyo in MPD-Modus versetzen (Funksteckdose an, Onkyo an, Onkyo streamt Audio vom MPD, MPD spielt Musik)
