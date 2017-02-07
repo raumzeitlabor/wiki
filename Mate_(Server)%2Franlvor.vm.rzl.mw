@@ -15,7 +15,7 @@
 
 Diese VM spielt MPD für unseren Onkyo. Außerdem hat diese VM ein Webinterface für den MPD und ein Webinterface mit dem der Onkyo in MPD-Modus versetzt werden kann und die Lautstärke des Onkyo gesteuert werden kann.
 
-Dienste, die die VM anbietet:
+== Dienste, die die VM anbietet ==
 * MPD 
 ** MP3-Audiostream (Port 8000).
 ** Musik kommt aus dem [[Mate_(Server)/Datengrab|Datengrab]] 
@@ -26,3 +26,9 @@ Dienste, die die VM anbietet:
 * [https://github.com/owagner/onkyo2mqtt onkyo2mqtt]-Bridge
 ** Statusinformationen des onkyos auf MQTT
 ** MQTT-Befehle an den onkyo
+
+== Howto Musik ==
+# Auf [http://mpd.rzl mpd.rzl] nachgucken, ob alles bereit ist, wenn nicht auf „fix it!“ klicken
+# mit einem mpd-client auf mpd.rzl oder mit einem Browser auf [http://mpd.rzl/mpd/ mpd.rzl/mpd/] Musik auswählen
+# ???
+# Profit
