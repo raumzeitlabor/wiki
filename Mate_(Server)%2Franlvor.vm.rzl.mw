@@ -13,4 +13,16 @@
 |download    = 
 }}
 
-Diese VM möchte in MPD werden. Sie soll den Audiostrom des MPD via HTTP auf den Onkyo streamen. Außerdem soll sie auf Knopfdruck den Onkyo in MPD-Modus versetzen (Funksteckdose an, Onkyo an, Onkyo streamt Audio vom MPD, MPD spielt Musik)
+Diese VM spielt MPD für unseren Onkyo. Außerdem hat diese VM ein Webinterface für den MPD und ein Webinterface mit dem der Onkyo in MPD-Modus versetzt werden kann und die Lautstärke des Onkyo gesteuert werden kann.
+
+Dienste, die die VM anbietet:
+* MPD 
+** MP3-Audiostream (Port 8000).
+** Musik kommt aus dem [[Mate_(Server)/Datengrab|Datengrab]] 
+* Webinterfaces
+** Onkyo in MPD-Modus setzen
+** Onkyo-Lautstärke
+** MPD-Webinterface
+* [https://github.com/owagner/onkyo2mqtt onkyo2mqtt]-Bridge
+** Statusinformationen des onkyos auf MQTT
+** MQTT-Befehle an den onkyo
