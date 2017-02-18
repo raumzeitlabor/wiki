@@ -70,6 +70,16 @@ In diesem Kapitel sind alle Anwender aufgerufen ihre (aktuelle) Toolchain zu dok
 ** Status: funktioniert.
 ** Probleme: Siehe generelle Probleme mit TinyG
 
+* 02/2017 2D-PCB [silvester]
+** Usecase: PCB-Fräsen (isolation routing. Garavieren, Bohren, Ausschneiden)
+** Controller-target: TinyG v0.95
+** CAD: KiCAD v4.0.4 (Layout wird als Gerber-File exportiert)
+** CAM: pcb2gcode.py
+** Simulation: Fuck no! We're doin' it live!
+** Machining: http://chilipeppr.com/tinyg
+** Status: funktioniert.
+** Probleme: eigentlich keine. pcb2gcode funktioniert erstaunlich gut. [https://github.com/s1lvester/mydotfiles/blob/master/millproject HIER] gibts das verwendete profile für pcb2gcode
+
 * 10/2016 2D-PCB [silvester]
 ** Usecase: PCB-Fräsen (isolation routing. Garavieren, Bohren, Ausschneiden)
 ** Controller-target: TinyG v0.95
