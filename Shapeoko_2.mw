@@ -56,6 +56,11 @@ Ein noch zu haltender und hier zu verlinkender Vortrag im RZL soll einen Überbl
 
 Wie immer bei Software leider auch ein sehr inkonstantes Feld. [http://www.shapeoko.com/wiki/index.php/Software Hier] ist ein guter Einstiegspunkt um sich für die Plattform der Wahl einen Überblick zu verschaffen. Letzten Endes hilft eigentlich nur ausprobieren womit man gut zurecht kommt.
 
+==== Connect to Fräse ====
+
+Um eineige Probleme mit dem "tinyG + chillipeppr.com/tinyg Setup" anzugehen bietet es sich an die Fräse nicht über rzl-hardcore anzusprechen ;-). Statdessen hat die Fräse ihr eigenes wifi (rzl-fraese) mit identischem Passwort wie rzl-hardcore. Im Unterbau der Fräse steht hierzu ein AP. Auf dem Laptop neben der Fräse läuft der serial-port-json-server.
+Wer jetzt nur noch Bahnhof versteht, sei auf das TinyG-Kapitel dieses Artikels verwiesen. 
+
 ==== User-Toolchains ====
 
 In diesem Kapitel sind alle Anwender aufgerufen ihre (aktuelle) Toolchain zu dokumentieren. Was funktioniert, was nicht? Welche Versionen werden eingesetzt? Bitte Datum nicht vergessen! Ggf. muss auch das Controller-target angegeben werden!
