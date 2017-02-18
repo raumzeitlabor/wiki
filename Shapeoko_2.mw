@@ -29,9 +29,6 @@ Nach Abstimmung im Septemberplenum 2014 hat das RaumzeitLabor eine CNC Fräse vo
 * https://github.com/grbl/grbl/wiki -- Grbl Wiki und Firmware
 ** https://github.com/grbl/grbl/wiki -- Development-Version grbl
 
-
-Bearbeitbare Fläche: 260x275x70mm
-
 == Workflow ==
 
 Leider ist zerspanendes Arbeiten nicht so gutmütig und Einsteiger-freundlich wie 3d-Drucken. Wir wirken ja mit zerstörerischer Kraft auf das Werkstück ein und bei Fehlern geht also schnell mal was kaputt - bestenfalls das Werkstück, schlimmstenfalls Körperteile. Es lohnt sich also zunächst einige Zeit in Planung ('''zweimal Messen, einmal Schneiden!''') und Anlesen von Basiswissen zu investieren. Ein guter Einstiegspunkt ist [http://www.shapeoko.com/wiki/index.php/Main_Page#Overview diese Wikiseite im Shapeoko-Wiki].
