@@ -34,16 +34,16 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 
 {| class="wikitable"
 |0x00<br>[[Benutzer:Alexander_Brock|Alexander]]
-|0x10<br>Laborant: Lordeis
-|0x20<br>Laborant: Dr. Ahti
+|0x10<br>[[Benutzer:Lordeis|Laborant: Lordeis]]
+|0x20<br>Laborant: Dr. Ahti ([[Benutzer:Drahti|Laborant: Drahti]]?)
 |0x30<br>[[Benutzer:Slowpoke|Laborant: slowpoke]]
 |0x40<br>[[Benutzer:Slowpoke|Laborant: slowpoke]]
 |0x50<br>[[Benutzer:Inte|Laborant: Inte]]
-|0x60<br>Laborant: oko
+|0x60<br>[[Benutzer:oko|Laborant: oko]]
 |-
 |0x01<br>[[Benutzer:Alexander_Brock|Alexander]]
 |0x11<br>[[Benutzer:Blabber|Laborat: blabber]]
-|0x21<br>Laborant: Dr. Ahti
+|0x21<br>Laborant: Dr. Ahti ([[Benutzer:Drahti|Laborant: Drahti]]?)
 |0x31<br>[[Benutzer:Slowpoke|Laborant: slowpoke]]
 |0x41<br>[[Benutzer:Slowpoke|Laborant: slowpoke]]
 |0x51<br>[[Benutzer:Inte|Laborant: Inte]] (leer)
@@ -58,9 +58,9 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x62<br>[[Benutzer:Docsteel|Laborant: docsteel]]
 |-
 |0x03<br>Luftpolsterfolie (groß)
-|0x13<br>L[[Benutzer:Nicoduck|Laborant: nicoduck]]
+|0x13<br>[[Benutzer:Nicoduck|Laborant: nicoduck]]
 |0x23<br>[[Benutzer:Drahti|Laborant: Drahti]]
-|0x33<br>Laborant: hog
+|0x33<br>[[Benutzer:hog|Laborant: hog]]
 |0x43<br>[[Benutzer:Yocky96|Laborant: yocky96]]
 |0x53<br>[[Benutzer:Inte|Laborant: Inte]]
 |0x63<br>[[Benutzer:Docsteel|Laborant: docsteel]]
@@ -78,14 +78,14 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x25<br>[[Benutzer:Hax404|Laborant: hax404]]
 |0x35<br>Elektro-Bauteile
 |0x45<br>[[Benutzer:Cheatha|Laborant: cheatha]]
-|0x55<br>Laborant: d0n
-|0x65<br>Laborant: d0n
+|0x55<br>[[Benutzer:don|Laborant: d0n]]
+|0x65<br>[[Benutzer:don|Laborant: d0n]]
 |-
 |0x06<br>[[Benutzer:Dashie|Laborant: Dashie]]
 |0x16<br>[[Benutzer:ThinkJD|Laborant: thinkJD]]
 |0x26<br>Elektro-Bauteilkästen
 |0x36<br>E-Bauteile/Strom
-|0x46<br>Laborant: Kristian
+|0x46<br>[[Benutzer:Kristian|Laborant: Kristian]]
 |0x56<br>[[Benutzer:Felicitus|Laborant: Felicia]]
 |0x66<br>[[Benutzer:Danny|laborant: danny]]
 |-
@@ -93,15 +93,15 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x17<br>Diverses und Lüfter
 |0x27<br>Elektro-Bauteilkästen
 |0x37<br>Elektro-Bauteile (lose)
-|0x47<br>Laborant: Ingo
+|0x47<br>[[Benutzer:Ingo|Laborant: Ingo]]
 |0x57<br>[[Benutzer:Felicitus|Laborant: Felicia]]
-|0x67<br>Laborant: whilo
+|0x67<br>[[Benutzer:whilo|Laborant: whilo]]
 |-
 |0x08<br>Luftpolsterfolie (klein)
 |0x18<br>[[Benutzer:Felicitus|Laborant: Felicia]]
 |0x28<br>Elektro-Bauteilkästen
 |0x38<br>Kabel
-|0x48<br>Laborant: hexelena
+|0x48<br>[[Benutzer:hexelena|Laborant: hexelena]]
 |0x58<br>[[Benutzer:Felicitus|Laborant: Felicia]]
 |0x68<br>[[Benutzer:Steeph|Laborant: Steeph]]
 |-
@@ -116,16 +116,16 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x0A<br>Batterien / Kreidespray
 |0x1A<br>ABS / Staubsaugerzubehör
 |0x2A<br>PC-Netzteile / Bausätze
-|0x3A<br>Laborant: else
-|0x4A<br>Laborant: muckel
+|0x3A<br>[[Benutzer:else|Laborant: else]]
+|0x4A<br>[[Benutzer:muckel|Laborant: muckel]]
 |0x5A<br>[[Benutzer:Felicitus|Laborant: Felicia]]
 |0x6A<br>[[Benutzer:Freestate|Laborant: Freestate]]
 |-
-|0x0B<br>Laborant: echox
+|0x0B<br>[[Benutzer:echox|Laborant: echox]]
 |0x1B<br>Platinenmaterial
 |0x2B<br>Bauteilkästen
 |0x3B<br>[[Benutzer:Talynrae|Laborant: talynrae]]
-|0x4B<br>Laborant: muckel
+|0x4B<br>[[Benutzer:muckel|Laborant: muckel]]
 |0x5B<br>[[Benutzer:Dancingfo|Laborant: DaFo]]
 |0x6B<br>[[Benutzer:Jiska|Laborant: Jiska]]
 |-
@@ -133,7 +133,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x1C<br>[[Benutzer:Urvogel|Laborant: urvogel]]
 |0x2C<br>Malerbedarf
 |0x3C<br>Bauteile
-|0x4C<br>Laborant: tabascoeye
+|0x4C<br>[[Benutzer:TabascoEye|Laborant: Tabascoeye]]
 |0x5C<br>[[Benutzer:Dancingfo|Laborant: DaFo]]
 |0x6C<br>[[Benutzer:Jiska|Laborant: Jiska]]
 |-
@@ -150,7 +150,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x2E<br>Infrastruktur/NOC
 |0x3E<br>Dübel und Schrauben
 |0x4E<br>[[Benutzer:Doozer|Laborant: Doozer]]
-|0x5E<br>Laborant: kite
+|0x5E<br>[[Benutzer:kite|Laborant: kite]]
 |0x6E<br>[[Benutzer:Rami|Laborant: rami]]
 |-
 |0x0F<br>'''leer'''
@@ -164,7 +164,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x0G<br>Elektroinstallation
 |0x1G<br>'''leer''' (mov to box in schrank bei Eingang)
 |0x2G<br>'''leer'''
-|0x3G<br>Laborant: Anna
+|0x3G<br>[[Benutzer:Anna|Laborant: Anna]]
 |0x4G<br>[[Benutzer:Mxf|Laborant: mxf]]
 |0x5G<br>[[Benutzer:Unicorn|Laborant: Unicorn]]
 |0x6G<br>[[Benutzer:Tempelgogo|Laborant: tempelgogo]]
@@ -190,7 +190,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x91<br>Glasfasermatten
 |0xA1<br>Stoffe (aus 9G)
 |-
-|0x72<br>Laborant:Hugo
+|0x72<br>[[Benutzer:Hugo|Laborant:Hugo]]
 |0x82<br>[[Benutzer:Wiiilmaa|Laborant: Jens Wilmer]]
 |0x92<br>Farben (aus A1) plus [[Benutzer:Dancingfo|DaFos]] Blechwerkzeug, Trollcon-Reste
 |0xA2<br>Kinder-Farben
@@ -218,9 +218,9 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x77<br>Magnetkartenleser/-schreiber
 |0x68<br>Bausätze BS0003
 |0x97<br>Bausätze BS0007
-|0xA7<br>Laborant: echox
+|0xA7<br>[[Benutzer:echox|Laborant: echox]]
 |-
-|0x78<br>Laborant: zero_dtime
+|0x78<br>[[Benutzer:ingo|Laborant: zero_dtime]]
 |0x88<br>Bausätze BS0004
 |0x98<br>Bausätze BS0008
 |0xA8<br>Laborant: echox
@@ -228,7 +228,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x79<br>Elektroinstallation
 |0x89<br>Kartendrucker
 |0x99<br>19" Harware / [[Benutzer:Dancingfo|Laborant: DaFo]] / Felicia
-|0xA9<br>Laborant: echox
+|0xA9<br>[[Benutzer:echox|Laborant: echox]]
 |-
 |0x7A<br>Kabel / KVM-Switches, PS2, Kaltgeräte Verlängerung
 |0x8A<br>SDR / [[HackRF]]
@@ -262,7 +262,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |-
 |0x7G<br>Textilmaterial
 |0x8G<br>Aufnäher Trägerstoffe Felty, Inhalt: Filz (Textilverarbeitung)
-|0x9G<br>Laborant: Captain Toad
+|0x9G<br>[[Benutzer:captain_toad|Laborant: Captain Toad]]
 |0xAG<br>Schubladenteile (kunststoff+Schrauben)
 |-
 |}
