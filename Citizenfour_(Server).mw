@@ -69,6 +69,19 @@ IP-Addressbereich: '''2a01:4f8:161:9025::/64'''
 |-
 |}
 
+IP-Konfiguration für VMs:
+{| class="wikitable"  valign = "top"
+|IP-Address
+|2a01:4f8:161:9025:<vm-number>::<arbitrary number>
+|-
+|Gateway
+|2a01:4f8:161:9025::2
+|-
+|Netmask
+|65
+|-
+|}
+
 === IPv4 ===
 IP-Addresse: '''5.9.77.39'''
 {| class="wikitable"  valign = "top"
