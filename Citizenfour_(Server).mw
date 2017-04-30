@@ -52,14 +52,81 @@ aktuell
 
 === Reverse Proxy ===
 
-Es läuft ein Reverse-Proxy der für alle HTTP/HTTPS Requests genutzt wird und diese an die Container weiterreicht. Der Reverse-Proxy spricht auch SPDY/3.1 (HTTP2 yet to come).
+Es läuft ein HA-Proxy als IPv4-NAT für HTTP(S). Dieser kann für Backends, die kein SSL oder kein IPv6 können das auch passend Terminieren damit alle Backends via IPv6 und SSL erreichbar sind. Außerdem kann er auf Wunsch selbstständig HTTP-Redirects von einer Domain auf eine andere machen und HTTP -> HTTPS-Redirects.
 
-<graphviz format='png'>
-digraph {
-reverse-proxy -> rzl-homepage;
-reverse-proxy -> mediawiki-web;
-}
-</graphviz>
+== Netzwerk ==
+=== IPv6 ===
+IP-Addressbereich: '''2a01:4f8:161:9025::/64'''
+{| class="wikitable"  valign = "top"
+!Netzbereich
+!Verwendung
+|-
+|2a01:4f8:161:9025:1337::/80
+|docker
+|-
+|2a01:4f8:161:9025::/65
+|KVM-VMs
+|-
+|}
 
+=== IPv4 ===
+IP-Addresse: '''5.9.77.39'''
+{| class="wikitable"  valign = "top"
+!Netzbereich
+!Verwendung
+|-
+|172.17.0.0/16
+|docker
+|-
+|192.168.123.0/24
+|KVM-VMs
+|-
+|}
+
+Port-Mappings:
+{| class="wikitable"  valign = "top"
+!externer Port
+!interner Port
+!interne IP
+!VM
+|-
+|443
+|443
+|192.168.123.10
+|proxy
+|-
+|80
+|80
+|192.168.123.10
+|proxy
+|-
+|}
+=== interne IP-Vergabe ===
+{| class="wikitable"  valign = "top"
+!IPv4
+!IPv6
+!VM
+|-
+|192.168.123.10
+|
+|proxy
+|-
+|172.17.0.2
+|
+|raumzeitlabor/nginx-proxy
+|-
+|172.17.0.3
+|
+|raumzeitlabor/rzl-homepage-docker
+|-
+|172.17.0.4
+|
+|raumzeitlabor/mysql-docker
+|-
+|172.17.0.5
+|
+|raumzeitlabor/mediawiki-docker
+|-
+|}
 [[Kategorie:Hardware]]
 [[Kategorie:Infrastruktur]]
