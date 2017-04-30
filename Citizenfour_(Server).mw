@@ -148,5 +148,10 @@ Falls du den Server rebootet hast und bemerkst, dass der Docker nicht rebootfest
 <code>
 docker start a7f35a54a870; docker start 4b5254424853; docker start 5f7c99507988; docker start 9255e89bf9ed
 </code>
+
+Die Startreihenfolge der Docker-Container ist wichtig, da Docker die IPv4-Addressen beim Start der Container fortlaufend vergibt und verschiedene Configurationsdateien genau diese IP-Addressen fest eingetragen haben.
+
+Sollte ein Docker-Container nicht mehr benötigt werden, rate ich dazu diesen trotzdem zu starten und erst wenn alle anderen Docker-Container laufen zu beenden, damit die korrekte Zuweisung der IPv4-Addressen gewährleistet ist.
+
 [[Kategorie:Hardware]]
 [[Kategorie:Infrastruktur]]
