@@ -128,5 +128,12 @@ Port-Mappings:
 |raumzeitlabor/mediawiki-docker
 |-
 |}
+
+== Oh shit, Oh shit, Oh shit ==
+Falls du den Server rebootet hast und bemerkst, dass der Docker nicht rebootfest ist: Folgendes magische Kommando bootet den Docker ordnungsgemäß.
+
+<code>
+docker start a7f35a54a870; docker start 4b5254424853; docker start 5f7c99507988; docker start 9255e89bf9ed
+</code>
 [[Kategorie:Hardware]]
 [[Kategorie:Infrastruktur]]
