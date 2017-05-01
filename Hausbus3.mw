@@ -182,6 +182,17 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 | [[Mate (Server)/infra.rzl|infra.rzl]]
 | ''?''
 | [[Benutzer:Else|else]]
+|-
+| /service/ping/displayText
+| 
+| 
+| 0
+| 
+| application/json
+| [[Pingie Pie|Ping+]]
+| egal
+| ''Die Payload wird als Text auf dem Display angezeigt. In Node Red konfiguriert. Beispiel: <code>mosquitto_pub -h infra.rzl -t /service/ping/displayText -m "hallo =^.^="</code>''
+| [[Benutzer:Felicitus|Drachenkatze]]
 |}
 
 Beispiel zum Subscriben auf der Kommandozeile (offizieller Client):
