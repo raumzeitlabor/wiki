@@ -204,6 +204,17 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 | egal
 | ''Schaltet die Rundleuchte an und nach 2 Sekunden wieder aus. Beispiel: <code>mosquitto_pub -h infra.rzl -t /service/ping/rundumleuchte -m ""</code>''
 | [[Benutzer:Felicitus|Drachenkatze]]
+|-
+| stat/sonoff/POWER
+| 
+| 
+| 0
+| 
+| application/json
+| [[Pingie Pie|Ping+]]
+| egal
+| ''Enthält den Zustand des Grobhandtasters. Beispiel: <code>mosquitto_sub -h infra.rzl -t stat/sonoff/POWER </code>''
+| [[Benutzer:Felicitus|Drachenkatze]]
 |}
 
 Beispiel zum Subscriben auf der Kommandozeile (offizieller Client):
