@@ -1,0 +1,24 @@
+{{ProjektInfoBox
+|name        = Kunterbunt
+|status      = beta
+|image       = 
+|description = Die VM für Grafana und Graphite
+|author      = [[Benutzer:Felicitus|Felicia]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = kunterbunt.rzl
+|license     = 
+|download    = 
+}}
+
+== Eckdaten ==
+* 768MB RAM
+* 1 CPU Core
+* 20GB HDD
+
+== Zweck ==
+Daten speichern und bunte Bilder machen
+
+[[Kategorie:Infrastruktur]]
