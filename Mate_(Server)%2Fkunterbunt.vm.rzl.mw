@@ -8,7 +8,7 @@
 |version     = 
 |update      = 
 |platform    = 
-|hostname    = kunterbunt.rzl
+|hostname    = kunterbunt.vm.rzl
 |license     = 
 |download    = 
 }}
@@ -19,6 +19,6 @@
 * 20GB HDD
 
 == Zweck ==
-Daten speichern und bunte Bilder machen
+Daten speichern und bunte Bilder machen. Hat ein Webinterface auf [http://kunterbunt.vm.rzl/ http://kunterbunt.vm.rzl/].
 
 [[Kategorie:Infrastruktur]]
