@@ -215,6 +215,17 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 | egal
 | ''Enthält den Zustand des Grobhandtasters. Beispiel: <code>mosquitto_sub -h infra.rzl -t stat/sonoff/POWER </code>''
 | [[Benutzer:Felicitus|Drachenkatze]]
+|-
+| /service/heizung/temp/$sensor
+| 
+| X
+| 0
+| 
+| xx.x in °C
+| [[Heizungssteuerung]]
+| [[Mate (Server)/infra.rzl|infra.rzl]]
+| Fragt via node-red Minütlich die REST-API von heizung.rzl ab und pusht MQTT
+| [[Benutzer:Ranlvor|Ranlvor]]
 |}
 
 Beispiel zum Subscriben auf der Kommandozeile (offizieller Client):
