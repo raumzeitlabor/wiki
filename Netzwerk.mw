@@ -174,7 +174,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.203 || [[Mate_(Server)/DB|DB]] || DB
 |------
-| 172.22.36.204 || [[Mate_(Server)/Asterisk|Asterisk]] || Asterisk (LXC-Test)
+| 172.22.36.204 || [[Mate_(Server)/freeswitch.vm.rzl|Mate_(Server)/freeswitch.vm.rzl]] || Freeswitch
 |------
 | 172.22.36.205 || [[Mate_(Server)/yate.vm.rzl]] || VM für Telefonanlage
 |------
