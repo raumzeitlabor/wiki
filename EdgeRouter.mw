@@ -1,7 +1,7 @@
 Der EdgeRouter Pro von Ubiquitiy ist unser derzeitiger Router. Die Aufgaben sind:
 
 * IPv4-Internet bereitstellen
-* IPv6-Internet bereitstellen (getunnelt über sixxs.net, Ansprechpartner Else)
+* IPv6-Internet bereitstellen (getunnelt über Freifunk Rhein Neckar)
 * DHCP, radvd, firewall
 * Zugang ins dn42
 
