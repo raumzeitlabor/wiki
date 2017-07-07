@@ -25,8 +25,12 @@ Daten speichern und bunte Bilder machen. Hat ein Webinterface auf [http://kunter
 
 == Datenherkunft ==
 
-Die meisten Daten kommen aus MQTT und werden mittels `mqtt2graphite` in Graphite zur Verfügung gestellt und können somit auch in Grafana verwendet werden.
+Die meisten Daten kommen aus MQTT und werden mittels <code>mqtt2graphite</code> in Graphite zur Verfügung gestellt und können somit auch in Grafana verwendet werden.
 
-Derzeit läuft `mqtt2graphite` in einem Screen und muß bei jedem Reboot neu gestartet werden - dies ist zu fixen, in dem eine Systemd unit erzeugt wird.
+Derzeit läuft <code>mqtt2graphite</code> in einem Screen und muß bei jedem Reboot neu gestartet werden - dies ist zu fixen, in dem eine Systemd unit erzeugt wird.
 
-Die Konfigurationsdatei zu `mqtt2graphite` liegt in /root/mqtt2graphite/config.
+Die Konfigurationsdatei zu <code>mqtt2graphite</code> liegt in <code>/root/mqtt2graphite/config</code>.
+
+== MQTT Topics abfragen ==
+
+Mittels <code>mosquitto_sub -h infra.rzl -t '#' -v</code> können alle MQTT-Topics abgefragt werden.
