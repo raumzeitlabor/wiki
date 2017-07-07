@@ -22,3 +22,11 @@
 Daten speichern und bunte Bilder machen. Hat ein Webinterface auf [http://kunterbunt.vm.rzl/ http://kunterbunt.vm.rzl/].
 
 [[Kategorie:Infrastruktur]]
+
+== Datenherkunft ==
+
+Die meisten Daten kommen aus MQTT und werden mittels `mqtt2graphite` in Graphite zur Verfügung gestellt und können somit auch in Grafana verwendet werden.
+
+Derzeit läuft `mqtt2graphite` in einem Screen und muß bei jedem Reboot neu gestartet werden - dies ist zu fixen, in dem eine Systemd unit erzeugt wird.
+
+Die Konfigurationsdatei zu `mqtt2graphite` liegt in /root/mqtt2graphite/config.
