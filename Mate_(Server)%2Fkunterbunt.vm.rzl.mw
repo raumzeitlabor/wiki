@@ -25,7 +25,7 @@ Daten speichern und bunte Bilder machen. Hat ein Webinterface auf [http://kunter
 
 == Datenherkunft ==
 
-Die meisten Daten kommen aus MQTT und werden mittels <code>mqtt2graphite</code> in Graphite zur Verfügung gestellt und können somit auch in Grafana verwendet werden.
+Die meisten Daten kommen aus MQTT und werden mittels <code>[https://github.com/raumzeitlabor/mqtt2graphite mqtt2graphite]</code> in Graphite zur Verfügung gestellt und können somit auch in Grafana verwendet werden.
 
 Derzeit läuft <code>mqtt2graphite</code> in einem Screen und muß bei jedem Reboot neu gestartet werden - dies ist zu fixen, in dem eine Systemd unit erzeugt wird.
 
