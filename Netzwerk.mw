@@ -47,7 +47,6 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 ** Liegt auf der Beamerplattform und im Nebenraum.
 ** Läuft mit original Firmware.
 ** POE über LAN Port 9 am Patchfeld(kommt auf der Plattform auf Port 10 raus, Label sind vertauscht) und Nebenraum Uplink 4.
-** Gastnetzwerk "famefabrik-tonstudio"
 
 == Hosts ==
 
