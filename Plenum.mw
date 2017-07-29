@@ -57,6 +57,17 @@ Der Beamer im Nebenraum ist eher nicht so geil™. Wollen wir vielleicht einen n
 Projekt VHS sagt, dass die, die aktuell auf dem Markt verfügbar sind, eher nicht so geil™ sind und wir eventuell auf die nächste Generation Beamer warten wollten.--[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 15:49, 29. Jul. 2017 (CEST)
 
 === Switches für die Tische ===
+Es gibt verschiedene Situationen, in denen WLAN nicht genug ist. (Atheros-Chipsatz fuckt rum, Hardwareprojekt hat kein WLAN, mal schnell $viel übertragen, etc, etc).
+
+Es gibt wenige Netzwerkdosen in den Kabelkanälen, und auf manchen von denen liegen überraschende Dinge (ISDN und ähnliches) und generell ist es unbequem sich immer ein Kabel legen zu müssen, wenn man mal kurz Netzwerk haben will. 
+
+Daher möchte man vielleicht Switches auf den Tischen haben um seinen Laptop direkt anschließen zu können.
+
+Vorgeschlagen wurden 3 Netgear GS108GE für insgesammt 90 €.
+
+https://www.amazon.de/Netgear-GS108GE-Unmanaged-Daten%C3%BCbertragung-Metallgeh%C3%A4use/dp/B000092RRM/
+--[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 17:20, 29. Jul. 2017 (CEST)
+
 === S20 WLAN-Dosen ===
 Da wir aktuell mehr zu schaltende Geräte als Funkdosen haben möchte ich
 hiermit 2 Sonoff S20 WLAN-Dosen beantragen. Um Unflashen
