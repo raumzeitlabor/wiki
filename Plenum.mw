@@ -15,31 +15,12 @@
 
 == Realitätsabgleich ==
 ===== Was mir aufgefallen ist, was herrenlos rumsteht =====
-Schrott, E-Schrott, ẞeiber-Schrott, Glas-Abfall, volle Müllsäcke, Leergutsäcke.
 
 ===== Was ich seit dem letzten Plenum im Space gemacht hab =====
-
-Umbau der Arbeitsfläche an der Snackbar zur Theke:
-
-  Herzlich willkommen im neuen RaumZeitLabor,
-  
-  dort links hat man den direkten Blick rein in den Hauptraum. Keine Schränke und kein Müll blockieren den Blick vorbei an unserer neuen Theke,
-  die genügend Platz für die Essensausgabe auf Events liefert. Darauf stehen aktuell ein paar grüne Küchenpflanzen, von denen ich sehr hoffe,
-  dass ihr alle mit ans regelmäßige Bewässern denkt. Auf der linken Seite befindet sich das Regal mit Flyern, Stickern
-  und sonstigem Werbematerial. Links hinter der Ecke ist der Snackschrank und der Getränkekühlschrank.
-  Dieser steht an einem neuen Ort als früher. Dort, wo meistens keine Menschengruppen rumstehen und sich unterhalten.
-  So wird sich weniger im Weg gestanden. Generell bietet das neue RaumZeitLabor ein offenes Klima, vorallem durch die frei stehende Küche
-  und deutlich mehr Platz im Hauptraum. Wir hoffen, dass ihr euch hier mindestens genau so wohl fühlt, wie im alten RaumZeitLabor.
-
-Konkret wurde der Kühlschrank und die Snackbar zu Tardis 1 hingeschoben. Das Regal am Eingang wurde entfernt. Die Rückseite der Schränke der Theke wurden mit Holzplatten bedeckt. Es wurden [https://wiki.raumzeitlabor.de/wiki/K%C3%BCchenpflanzen Küchenpflanzen] angeschafft.
-
---[[Benutzer:Uwap|Uwap]] ([[Benutzer Diskussion:Uwap|Diskussion]]) 01:04, 6. Aug. 2017 (CEST)
 
 ===== Was ich bis zum nächsten Plenum im Space vorhabe =====
 
 ===== Was mich im Space geärgert hat =====
-
-Wie oft in Zusammenhang mit Switches auf Tischen das Wort „merkbefreit“ gefallen ist. Es geht um Infrastruktur und Hardware, das hat nichts mit dem Verstand von Menschen zu tun.
 
 ===== Was mich im Space erfreut hat =====
 
@@ -49,81 +30,11 @@ Wie oft in Zusammenhang mit Switches auf Tischen das Wort „merkbefreit“ gefa
 
 ===== Was im Space getan werden müsste (+Tickets anlegen) =====
 
-Entsorgung von Sperrmüll --[[Benutzer:Uwap|Uwap]] ([[Benutzer Diskussion:Uwap|Diskussion]]) 00:17, 6. Aug. 2017 (CEST)
-
 === Anschaffungen aus dem letzten Plenum ===
 
 == Neuanschaffungen/Ausgaben ==
 
-=== Beamerbirne alter Beamer ===
-
-Die Birne des aktuellen Beamers wird als „reaching end of its useful live“ gemeldet. Das sollte man ändern. --[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 15:31, 11. Jul. 2017 (CEST)
-
-=== Neuer Beamer ===
-Der Beamer im Nebenraum ist eher nicht so geil™. Wollen wir vielleicht einen neuen für den Hauptraum und den aktuellen Hauptraumbeamer in den Nebenraum hängen?
-
-Projekt VHS sagt, dass die, die aktuell auf dem Markt verfügbar sind, eher nicht so geil™ sind und wir eventuell auf die nächste Generation Beamer warten wollten.--[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 15:49, 29. Jul. 2017 (CEST)
-
-=== Switches für die Tische ===
-Es gibt verschiedene Situationen, in denen WLAN nicht genug ist. (Atheros-Chipsatz fuckt rum, Hardwareprojekt hat kein WLAN, mal schnell $viel übertragen, etc, etc).
-
-Es gibt wenige Netzwerkdosen in den Kabelkanälen, und auf manchen von denen liegen überraschende Dinge (ISDN und ähnliches) und generell ist es unbequem sich immer ein Kabel legen zu müssen, wenn man mal kurz Netzwerk haben will. 
-
-Daher möchte man vielleicht Switches auf den Tischen haben um seinen Laptop direkt anschließen zu können.
-
-Vorgeschlagen wurden 3 Netgear GS108GE für insgesammt 90 €.
-
-https://www.amazon.de/Netgear-GS108GE-Unmanaged-Daten%C3%BCbertragung-Metallgeh%C3%A4use/dp/B000092RRM/
---[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 17:20, 29. Jul. 2017 (CEST)
-
-=== Sonoff S20 WLAN-Dosen ===
-Da wir aktuell mehr zu schaltende Geräte als Funkdosen haben möchte ich
-hiermit 2 Sonoff S20 WLAN-Dosen beantragen. Um Unflashen
-und Anbindung an OpenHAB und node-red würde ich mich auch kümmern,
-sobald die Dosen da sind. Ich würde auch erstmal nur 2 bestellen,
-falls diese sich als weniger zuverlässig als erwartet herausstellen.
-
-Zur Auswahl stehen aktuell die Optionen direkt in China bestellen 2 Dosen <30€ und in Europa bestellen 2 Dosen <60€.
-
-Der Chaos Darmstadt hatte ihre Dosen bei
-Aliexpress bestellt und bisher mit der Strategie „jedes Mitglied kauft
-sich höchstens 2 auf einmal“ keine Probleme mit dem Zoll.
-
-Verschiedene Mitglieder des RaumZeitLabors berichten über Probleme mit dem Zoll in Verbindung mit fehlenden CE-Zeichen im Allgemeinen und den S20 WLAN-Dosen im speziellen und raten daher von einer Bestellung in China ab.
-
---[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 03:22, 9. Jul. 2017 (CEST)
---[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 15:28, 11. Jul. 2017 (CEST)
-
-=== Ein ordentliches Verkaufsregal für die Snackbar ===
-
-    moin,
-    
-    für die Snackbar möchte ich ein ordentliches Verkaufsregal, wo man die
-    einzelnen Regalbretter auch kippen kann, um einen besseren Blick auf die
-    höher liegenden Snacks zu bekommen.
-    
-    Gruß
-    uwap
-
---[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 00:41, 31. Jul. 2017 (CEST)
-
 == Sonstiges ==
-
-=== Zustand Hochregallager ===
-
-Das Hochregallager ist mittlerweile als Ort von toten Projekten bekannt. Aber gerade tote Projekte sollten meiner Meinung nach eher ausgemistet werden. Schon im November 2011 wurde das Thema im [https://github.com/raumzeitlabor/rzl-tuwat/issues/31 Tuwat diskutiert]. Der Vorschlag der dort ganz gut ankam war: Das Hochregallager wird nicht als Endlager genutzt. Es dürfen zwar längerfristig Dinge gelagert werden, aber längerfristig beinhaltet vorallem eine Frist. Dafür sollte auf jedem "Owner Only", "Public", etc. Aufkleber eine Frist drauf stehen, bis wann es im Lager verweilen darf.
---[[Benutzer:Uwap|Uwap]] ([[Benutzer Diskussion:Uwap|Diskussion]]) 00:17, 6. Aug. 2017 (CEST)
-
-=== Entsorgung von Sperrmüll ===
-
-Wie wird Sperrmüll eigentlich entsorgt? Es gibt mehrere Holzplatten und kleine Tische die meiner Meinung nach entsorgt werden müssen. --[[Benutzer:Uwap|Uwap]] ([[Benutzer Diskussion:Uwap|Diskussion]]) 00:17, 6. Aug. 2017 (CEST)
-
-=== Status und weiteres Vorgehen neuer Laser  ===
-
-Laser-Lieferung war nicht nur unvollständig, sondern auch ein schlechteres aber falsch gelabeltes Gerät zum selben Preis. (Siehe Mailingliste)
-Pad für Anschreiben: https://pads.ccc.de/385340534
-Oder wollen wir gleich einen Anwalt beauftragen?
-Diskussion: Wie werden wir mit dem Laserlieferanten weiter verfahren?
 
 [[Kategorie:Veranstaltung]]
 [[Kategorie:Plenum| ]]
