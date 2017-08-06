@@ -1,0 +1,144 @@
+= Themen für das nächste Plenum =
+
+== Realitätsabgleich ==
+===== Was mir aufgefallen ist, was herrenlos rumsteht =====
+Schrott, E-Schrott, ẞeiber-Schrott, Glas-Abfall, volle Müllsäcke, Leergutsäcke.
+
+===== Was ich seit dem letzten Plenum im Space gemacht hab =====
+
+Umbau der Arbeitsfläche an der Snackbar zur Theke:
+
+  Herzlich willkommen im neuen RaumZeitLabor,
+  
+  dort links hat man den direkten Blick rein in den Hauptraum. Keine Schränke und kein Müll blockieren den Blick vorbei an unserer neuen Theke,
+  die genügend Platz für die Essensausgabe auf Events liefert. Darauf stehen aktuell ein paar grüne Küchenpflanzen, von denen ich sehr hoffe,
+  dass ihr alle mit ans regelmäßige Bewässern denkt. Auf der linken Seite befindet sich das Regal mit Flyern, Stickern
+  und sonstigem Werbematerial. Links hinter der Ecke ist der Snackschrank und der Getränkekühlschrank.
+  Dieser steht an einem neuen Ort als früher. Dort, wo meistens keine Menschengruppen rumstehen und sich unterhalten.
+  So wird sich weniger im Weg gestanden. Generell bietet das neue RaumZeitLabor ein offenes Klima, vorallem durch die frei stehende Küche
+  und deutlich mehr Platz im Hauptraum. Wir hoffen, dass ihr euch hier mindestens genau so wohl fühlt, wie im alten RaumZeitLabor.
+
+Konkret wurde der Kühlschrank und die Snackbar zu Tardis 1 hingeschoben. Das Regal am Eingang wurde entfernt. Die Rückseite der Schränke der Theke wurden mit Holzplatten bedeckt. Es wurden [https://wiki.raumzeitlabor.de/wiki/K%C3%BCchenpflanzen Küchenpflanzen] angeschafft.
+
+===== Was mich im Space geärgert hat =====
+
+Wie oft in Zusammenhang mit Switches auf Tischen das Wort „merkbefreit“ gefallen ist. Es geht um Infrastruktur und Hardware, das hat nichts mit dem Verstand von Menschen zu tun.
+
+
+== Neuanschaffungen/Ausgaben ==
+=== Beamerbirne alter Beamer ===
+
+Die Birne des aktuellen Beamers wird als „reaching end of its useful live“ gemeldet. Das sollte man ändern.
+
+tabascoeye empfield nicht nur das Leuchtmittel sondern die komplette Lampeneinheit zu kaufen. Schätzt 100-150€ für Einheit, ab 30€ für das Leuchtmittel selbst
+
+Ranlvor kümmert sich.
+
+=== Neuer Beamer ===
+Der Beamer im Nebenraum ist eher nicht so geil™. Wollen wir vielleicht einen neuen für den Hauptraum und den aktuellen Hauptraumbeamer in den Nebenraum hängen?
+
+Projekt VHS sagt, dass die, die aktuell auf dem Markt verfügbar sind, eher nicht so geil™ sind und wir eventuell auf die nächste Generation Beamer warten wollten.
+Das Plenum sieht keinen akuten Handlungsbedarf
+
+=== Switches für die Tische ===
+Es gibt verschiedene Situationen, in denen WLAN nicht genug ist. (Atheros-Chipsatz fuckt rum, Hardwareprojekt hat kein WLAN, mal schnell $viel übertragen, etc, etc).
+
+Es gibt wenige Netzwerkdosen in den Kabelkanälen, und auf manchen von denen liegen überraschende Dinge (ISDN und ähnliches) und generell ist es unbequem sich immer ein Kabel legen zu müssen, wenn man mal kurz Netzwerk haben will. 
+
+Daher möchte man vielleicht Switches auf den Tischen haben um seinen Laptop direkt anschließen zu können.
+
+Vorgeschlagen wurden 3 Netgear GS108GE für insgesammt 90 €.
+
+https://www.amazon.de/Netgear-GS108GE-Unmanaged-Daten%C3%BCbertragung-Metallgeh%C3%A4use/dp/B000092RRM/
+
+Plenum korrigiert zu 4 Switchen (weil bald 4 Tische)
+
+Plenum schlägt Netgear GS108E-300PES 8-Port WeB Managed (Plus) Gigabit Switch (ProSAFE, bis 2000 MBit/s, Plug-and-Play & konfigurierbar, VLAN, QoS/DoS) silber https://www.amazon.de/Netgear-GS108E-300PES-Managed-Gigabit-konfigurierbar/dp/B00MYYTP3S vor und weist auf den Affiliate-Link hin.
+
+Ranlvor stellt einen Finanzantrag über 160 € über 4 GS108E-300PES
+13 dafür, keine Enhaltungen, keine Gegenstimmen
+
+uwap kümmert sich.
+
+=== Sonoff S20 WLAN-Dosen ===
+Da wir aktuell mehr zu schaltende Geräte als Funkdosen haben möchte ich
+hiermit 2 Sonoff S20 WLAN-Dosen beantragen. Um Unflashen
+und Anbindung an OpenHAB und node-red würde ich mich auch kümmern,
+sobald die Dosen da sind. Ich würde auch erstmal nur 2 bestellen,
+falls diese sich als weniger zuverlässig als erwartet herausstellen.
+
+Zur Auswahl stehen aktuell die Optionen direkt in China bestellen 2 Dosen <30€ und in Europa bestellen 2 Dosen <60€.
+
+Der Chaos Darmstadt hatte ihre Dosen bei
+Aliexpress bestellt und bisher mit der Strategie „jedes Mitglied kauft
+sich höchstens 2 auf einmal“ keine Probleme mit dem Zoll.
+
+Verschiedene Mitglieder des RaumZeitLabors berichten über Probleme mit dem Zoll in Verbindung mit fehlenden CE-Zeichen im Allgemeinen und den S20 WLAN-Dosen im speziellen und raten daher von einer Bestellung in China ab.
+
+Ranlvor beantragt bis zu 60€ für bis zu 2 Sonoff S20 Dosen
+keine Enthaltunen oder Gegenstimmen
+
+Das Plenum schlägt http://www.ebay.de/itm/Sonoff-S20-WIFI-Smart-Steckdose-App-Fernbedienung-Home-Socket-fit-Amazon-Alexa-/172793901288?hash=item283b51b0e8:g:O9UAAOSwEBxZbGJc vor
+
+=== Ein ordentliches Verkaufsregal für die Snackbar ===
+
+    moin,
+    
+    für die Snackbar möchte ich ein ordentliches Verkaufsregal, wo man die
+    einzelnen Regalbretter auch kippen kann, um einen besseren Blick auf die
+    höher liegenden Snacks zu bekommen.
+    
+    Gruß
+    uwap
+
+Das Plenum schlägt vor eines der vielen vorhandenen Regale umzubauen.
+
+Sollte das nicht klappen kommt der Punkt auf's nächste Plenum
+
+Eine Kasse soll irgendwie verschlossen (nicht leicht pickbar) und fest montiert werden.
+
+== Sonstiges ==
+
+=== Zustand Hochregallager ===
+Das Hochregallager ist mittlerweile als Ort von toten Projekten bekannt. Aber gerade tote Projekte sollten meiner Meinung nach eher ausgemistet werden. Schon im November 2011 wurde das Thema im [https://github.com/raumzeitlabor/rzl-tuwat/issues/31 Tuwat diskutiert]. Der Vorschlag der dort ganz gut ankam war: Das Hochregallager wird nicht als Endlager genutzt. Es dürfen zwar längerfristig Dinge gelagert werden, aber längerfristig beinhaltet vorallem eine Frist. Dafür sollte auf jedem "Owner Only", "Public", etc. Aufkleber eine Frist drauf stehen, bis wann es im Lager verweilen darf.
+
+Mail auf die ML, dass die Leute ihr Zeug labeln sollen, was nicht in 2 Plena gelabelt ist wird ins Getränkelager gepackt, bzw ins Lost and Found übergeben
+
+=== Entsorgung von Sperrmüll ===
+Wie wird Sperrmüll eigentlich entsorgt? Es gibt mehrere Holzplatten und kleine Tische die meiner Meinung nach entsorgt werden müssen.
+
+Es gibt einen Holzcontainer und uwap schreibt Mutlu an und fragt nach, ob der genutzt werden darf oder nicht und wie Sortenrein das sein muss.
+
+=== Status und weiteres Vorgehen neuer Laser  ===
+Laser-Lieferung war nicht nur unvollständig, sondern auch ein schlechteres aber falsch gelabeltes Gerät zum selben Preis. (Siehe Mailingliste)
+Pad für Anschreiben: https://pads.ccc.de/385340534
+Oder wollen wir gleich einen Anwalt beauftragen?
+Diskussion: Wie werden wir mit dem Laserlieferanten weiter verfahren?
+
+Beim Laser nichts neues. Anwaltliche Frist ist gesetzt und abgelaufen. Vorstand postet Updates auf die Mailingliste.
+
+Siehe ML: <f43d2ccc-03d8-10cb-50db-ae1e8b37773c@gmx.de>
+
+== Küche ==
+Es sollte wieder Küchen-Planungstreffen geben.
+
+Es wird ein fugenloser, leicht reinigbarer Boden gewünscht.
+
+Brainfreeze kümmert sich darum ein Planungstreffen zu orgainisieren (inkl. Mail auf die Mailingliste)
+
+== Waschmaschine/Waschtrockner ==
+Waschtrockner kostet ~450 € (es gibt ein Modell, was sich in unsere Küche einbauen lässt)
+
+Altgerätemitnahme kostet ~40 €.
+
+Das Plenum beschließt 500 € für einen Waschtrockner inklusive Abholung der alten Waschmsachine.
+
+Brainfreeze und Vorstand kümmern sich.
+
+== Abschluss des Plenums ==
+Haltet mehr Vorträge, tut coole Dinge, etc, etc.
+
+
+[[Kategorie:Veranstaltung]]
+[[Kategorie:Plenum| ]]
+[[Kategorie:Protokoll]]
