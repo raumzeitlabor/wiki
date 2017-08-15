@@ -13,6 +13,19 @@ Spannt sich der Faden zwischen Spule und der oberen Fadenführung (Höchste Stel
 === Die Maschine zeigt den USB-Stick zwar an aber keine Inhalte obwohl der Stick mit FAT 32 formatiert ist ===
 
 Die ID der Partition muss "W95 FAT32" (in fdisk: b) sein.
+Wenn fdisk das nicht anbietet ist ggf. eine ungeeignete Partitionstabelle auf dem Stick.
+
+Die wird man unter Linux mit dem guten alten Holzhammer los:
+<pre>dd if=/dev/zero of=/dev/sdX bs=1M count=1</pre>
+wobei sdX der USB-Stick ist.
+
+Danach kann man cfdisk benutzen um eine neue Partitionstabelle anzulegen:
+
+<pre>cfdisk /dev/sdX</pre>
+
+Hier "dos" auswählen, danach eine neue primäre Partition anlegen, den Typ auf "b W95 FAT32" setzen, Schreiben nicht vergessen und Dateisystem anlegen:
+
+<pre>mkfs.vfat /dev/sdc1</pre>
 
 === Mein T-Shirt (oder sonstiger Stretch-Stoff) wellt sich bei Füllstichen / viel Verzug ===
 
