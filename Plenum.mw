@@ -33,14 +33,14 @@
 ===== Beschlüsse aus dem letzten Plenum =====
 * Beamerbirne alter Beamer
 ** Beamer zerlegt um festzustellen, wie schwer das Leuchtmittel zu tauschen ist
-** Leuchtmittel bestellt. Lieferung vorraussichtlich 17.08.2017, Einbau vorraussichtlich 22.08.2017 oder später
+** Leuchtmittel bestellt, geliefert und eingebaut
 * Switches für die Tische
 ** Bisher wurden 3 von 4 switches bestellt (weil nur für Amazon Prime Kunden und nur 3 pro Kunde o.O)
 ** liegen in $Memberschublade
 * Sonoff S20 WLAN-Dosen
 ** 2 Stück Bestellt für 33,98 €
 ** einer hängt jetzt am !ping -a, hat Firmware, die per MQTT eine AN-Zeit in ms bekommt und so lange pingt. Weiß noch nicht, ob der an's OpenHAB soll.
-** der andere liegt in $Memberschublade, hat Firmware die per MQTT on/off kann. Muss noch an's OpenHAB angebunden werden.
+** der andere hängt am Fliegenbratgerät und kann per OpenHAB gestuert werden
 * Ein ordentliches Verkaufsregal für die Snackbar
 ** Das Ivarregal erlaubt auch ein Anschrägen der Bretter
 ** Wir haben jetzt ein Ivarregal als Verkaufsregal und sind damit glücklich
