@@ -71,7 +71,7 @@ Schaltzustände können über DMX mittels [http://en.wikipedia.org/wiki/RDM_(lig
 
 Die Firmware ist generisch gehalten, sodaß die selbe Firmware für Haupt- und Nebenraum eingesetzt werden kann. Die Konfigurationsdaten werden im EEPROM vorgehalten.
 
-Auf der Lichtsteuerung kommt deshalb [http://bitlash.net/ bitlash] zum Einsatz, welches rudimentäres Scripting ermöglicht. Folgende Funktionen stehen zur Verfügung:
+Auf der Lichtsteuerung kommt deshalb [http://bitlash.net/ bitlash] zum Einsatz, welches rudimentäres Scripting ermöglicht. Folgende Funktionen stehen zur Verfügung und können zum Beispiel über die serielle Schnittstelle oder vom PI aus ausgeführt werden:
 
 == setDeviceName ==
 
