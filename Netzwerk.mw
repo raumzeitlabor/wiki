@@ -288,7 +288,7 @@ Management-Netzwerk für Switches und Access Points.
 == Vorgehensweisen ==
 === Host hinzufügen/entfernen ===
 * Eintrag Tabelle oben drüber; Gibts eine Wikiseite?
-* (r)DNS-Zonen gibts auf [[Mate_(Server)/Infra|Infra]] unter /var/lib/bind/
+* (r)DNS-Zonen gibts auf [[Mate_(Server)|Mate]] unter /var/lib/bind/
 * statisches DHCP gibts auf der [[firebox]]
 
 [[Kategorie:Infrastruktur]]
