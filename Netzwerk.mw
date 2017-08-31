@@ -131,11 +131,11 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.121 || openelec ||  RasPi TabascoEye
 |-----
-| 172.22.36.122 || ''reserved'' ||  Reserviert für Geräte
+| 172.22.36.122 || esper-alarm ||  Sonoff mit esper-Firmware für den !ping -a
 |-----
 | 172.22.36.123 || dance-master-5k ||  AVR Onkyo TX-NR646
 |-----
-| 172.22.36.124 || ''reserved'' ||  Reserviert für Geräte
+| 172.22.36.124 ||esper-fliegenbrat ||  Sonoff mit esper-Firmware für das Fliegenbratgerät
 |-----
 | 172.22.36.125 || abrock-spike || Netbook von ABrock zum Luftfeuchtigkeitsmonitoring 
 |-----
