@@ -139,11 +139,11 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.125 || abrock-spike || Netbook von ABrock zum Luftfeuchtigkeitsmonitoring 
 |-----
-| 172.22.36.126 || ''reserved'' || Reserviert für Geräte
+| 172.22.36.126 || Chromecast || Chromecast. Hängt an einem HDMI-Eingang des Dancemaster 5k
 |-----
 | 172.22.36.127 || [[InfoScreen|infoscreen]] || [[InfoScreen]] auf dem Kühlschrank
 |-----
-| 172.22.36.128 || ''reserved'' || Reserviert für Infrastruktur
+| 172.22.36.128 || Leechbox || MacMini als Apple-Update-Cache
 |-----
 | 172.22.36.129 || fazz0r || RaspberryPI im FaZzZ0r
 |-----
