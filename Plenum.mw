@@ -18,6 +18,7 @@
 
 ===== Was ich seit dem letzten Plenum im Space gemacht hab =====
 * node-red umgebaut: Beleuchtung geht jetzt wenn der Raum auf ist beim Sonnenuntergang an, nicht mehr wenn der Raum öffnet. --[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 17:14, 25. Aug. 2017 (CEST)
+* mir die alten 868 MHz-Dosen nochmal angeschaut. Infoscreendose ging nicht mehr, geht jetzt nach Powercycle. OpenHAB nimmt jetzt Energierückmeldung der Dosen entgegen und stellt sie via MQTT und Webinterface zur Verfügung. --[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 00:17, 1. Sep. 2017 (CEST)
 
 ===== Was ich bis zum nächsten Plenum im Space vorhabe =====
 
