@@ -203,7 +203,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x74<br>'''leer'''
 |0x84<br>Holzponies (Mobilee, TüröffnerTag, public)
 |0x94<br>Holzponies (Mobilee, TüröffnerTag, public) join with 84?
-|0xA4<br>Fräse
+|0xA4<br>'''leer'''
 |-
 |0x75<br>E-Bauteile
 |0x85<br>Bausätze BS0001
@@ -238,7 +238,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x7B<br>Adapter
 |0x8B<br>Fnordcordia
 |0x9B<br>Maus Türöffner
-|0xAB<br>Ultimaker (PLA)
+|0xAB<br>Ultimaker (PLA), CNC-Fräse Teile
 |-
 |0x7C<br>Türschließer
 |0x8C<br>[[Benutzerin:aeus|Laborant: aeus]]
