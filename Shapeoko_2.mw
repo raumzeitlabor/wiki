@@ -65,6 +65,13 @@ Wer jetzt nur noch Bahnhof versteht, sei auf das TinyG-Kapitel dieses Artikels v
 
 In diesem Kapitel sind alle Anwender aufgerufen ihre (aktuelle) Toolchain zu dokumentieren. Was funktioniert, was nicht? Welche Versionen werden eingesetzt? Bitte Datum nicht vergessen! Ggf. muss auch das Controller-target angegeben werden!
 
+* 09/2017 2D Kontur, Aluminium
+** Usecase: 3mm Alu-Fräsen für MendelMax2
+** CAD: Autodesk Fusion 360 (derzeit auf Mindstorms Laptop 3 installiert)
+** CAM: Autodes Fusion 360
+** Machining: CNCjs (derzeit auf Mindstorms Laptop 3 installiert)
+** Status: funktioniert
+
 * 06/2016 3D [silvester]
 ** Usecase: 3D-Fräsen aus Vollmaterial (Dachlatte und Acryl)
 ** Controller-target: TinyG v0.95
