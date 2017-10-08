@@ -108,7 +108,9 @@ Einfach zu verarbeiten. Die Fräse schafft hier locker 1mm Zustellung beim Schru
 
 === Aluminium ===
 
-Auf unserer Maschine der absolute Endgegner.
+Auf unserer Maschine der absolute Endgegner. Bisher getestet:
+
+Aluminiumblech 3mm aus dem Bauhaus sowie AlMg4,5Mn. 3mm Fräser, Vorschub 100mm/min, mehrere Passes mit jeweils 0,25mm Tiefe, Eintauchgeschwindigkeit 10mm/min. Dauert ewig, aber geht. Problem ist die mangelnde Steifigkeit unserer Shapeoko. Entsprechende Fräser hat Feli, einfach fragen.
 
 == Aktuell verbauter Controller: TinyG ==
 
