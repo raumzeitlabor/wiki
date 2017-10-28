@@ -28,9 +28,10 @@
 * '''Vor dem Druck einschalten und danach wieder ausschalten!'''
 * Verbrauchsmaterial befindet sich, sofern vorrätig, in Schublade 0x2f
 * Gehört dem RaumZeitLabor
-* Du kannst diesen Drucker zwar über die Linux-Software [http://apz.fi/blabel/ B-Label] ansteuern, allerdings wird die Benutzung der Brother P-Touch-Software unter Windows empfohlen.
-* Serial um die Software von der Webseite runterzuladen: H0G279521
-* Bei drohendem Etikettenaufbrauch bitte Nachschub besorgen oder Info an die Mailingliste
+* Du kannst diesen Drucker über die Linux-Software [http://apz.fi/blabel/ B-Label] (GUI, nicht komfortabel) oder [https://mockmoon-cybernetics.ch/computer/p-touch2430pc/ ptouch-print] (CLI) ansteuern.
+* Die Benutzung der Brother P-Touch-Software unter Windows wird empfohlen.
+** Serial um die Software von der Webseite runterzuladen: H0G279521
+* Bei drohendem Labelbandaufbrauch bitte Nachschub besorgen oder Info an die Mailingliste
 |}
 
 == Brother P-Touch 2730 ==
