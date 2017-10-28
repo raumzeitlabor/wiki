@@ -155,7 +155,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |-
 |0x0F<br>'''leer'''
 |0x1F<br>'''leer'''
-|0x2F<br>Druckerzubehör / Laminiergerät
+|0x2F<br>Druckerzubehör (ausgenommen Labeldrucker) / Laminiergerät
 |0x3F<br>Infrastruktur / Festplatten
 |0x4F<br>[[Benutzer:Mxf|Laborant: mxf]]
 |0x5F<br>[[Benutzer:Unicorn|Laborant: Unicorn]]
@@ -163,7 +163,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |-
 |0x0G<br>Elektroinstallation
 |0x1G<br>'''leer''' (mov to box in schrank bei Eingang)
-|0x2G<br>'''leer'''
+|0x2G<br>Labeldrucker, Etikettendrucker und Zubehör
 |0x3G<br>[[Benutzer:Anna|Laborant: Anna]]
 |0x4G<br>[[Benutzer:Mxf|Laborant: mxf]]
 |0x5G<br>[[Benutzer:Unicorn|Laborant: Unicorn]]
