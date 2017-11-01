@@ -226,6 +226,116 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 | [[Mate (Server)/infra.rzl|infra.rzl]]
 | Fragt via node-red Minütlich die REST-API von heizung.rzl ab und pusht MQTT
 | [[Benutzer:Ranlvor|Ranlvor]]
+|-
+| /service/esper/afba40/socket/set
+| 
+| 
+| 0
+| 
+| 0 oder 1
+| [[Funksteckdosen]]
+| 
+| command topic des Fliegenbratgeräts
+| [[Benutzer:Ranlvor|Ranlvor]]
+|-
+| /service/esper/afba40/socket
+| 
+| X
+| 0
+| 
+| 0 oder 1
+| [[Funksteckdosen]]
+| 
+| state topic des Fliegenbratgeräts
+| [[Benutzer:Ranlvor|Ranlvor]]
+|-
+| /service/esper/afba45/pulse/pulse
+| 
+| 
+| 0
+| 
+| ASCII An-Zeit in ms
+| [[Funksteckdosen]]
+| 
+| command topic des Alarms
+| [[Benutzer:Ranlvor|Ranlvor]]
+|-
+| /service/esper/afba45/pulse/triggered
+| 
+| 
+| 0
+| 
+| ASCII An-Zeit in ms
+| [[Funksteckdosen]]
+| 
+| feedback topic des Alarms
+| [[Benutzer:Ranlvor|Ranlvor]]
+|-
+| /service/onkyo/#
+| 
+| 
+| 0
+| 
+| 
+| [[VHS]]
+| [[Mate (Server)/ranlvor.vm.rzl|ranlvor.vm.rzl]]
+| [https://github.com/owagner/onkyo2mqtt Onkyo-MQTT-Bridge]
+| [[Benutzer:Ranlvor|Ranlvor]]
+|-
+| /service/onkyo/status/#
+| 
+| X
+| 0
+| 
+| (mostly) application/json
+| [[VHS]]
+| [[Mate (Server)/ranlvor.vm.rzl|ranlvor.vm.rzl]]
+| Statusinformationen des Onkyos
+| [[Benutzer:Ranlvor|Ranlvor]]
+|-
+| /service/openhab/out/$item/state
+| 
+| X
+| 0
+| 
+| ON or OFF
+| [[Funksteckdosen]]
+| [[Mate (Server)/infra.rzl|infra.rzl]]
+| Statusmeldungen des OpenHAB (An/Aus/Stromverbrauch)
+| [[Benutzer:Ranlvor|Ranlvor]]
+|-
+| /service/openhab/in/$item/command
+| 
+| 
+| 0
+| 
+| ON or OFF
+| [[Funksteckdosen]]
+| [[Mate (Server)/infra.rzl|infra.rzl]]
+| Kommandos an das OpenHAB
+| [[Benutzer:Ranlvor|Ranlvor]]
+|-
+| /artnet/push
+| 
+| 
+| 0
+| 
+| green, purple, red, yellow or cycle-random
+|
+| [[Mate (Server)/s1lvester.vm.rzl|s1lvester.vm.rzl]]
+| Kommandos an die DMX-Lampen auf [[Tardis#Tardis1|Tardis 1]]
+| [[Benutzer:S1lvester|S1lvester]]
+|-
+| /artnet/state
+| 
+| X
+| 0
+| 
+| green, purple, red, yellow or cycle-random
+|
+| [[Mate (Server)/s1lvester.vm.rzl|s1lvester.vm.rzl]]
+| Status der DMX-Lampen auf [[Tardis#Tardis1|Tardis 1]]
+| [[Benutzer:S1lvester|S1lvester]]
 |}
 
 Beispiel zum Subscriben auf der Kommandozeile (offizieller Client):
