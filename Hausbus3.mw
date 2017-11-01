@@ -336,6 +336,17 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 | [[Mate (Server)/s1lvester.vm.rzl|s1lvester.vm.rzl]]
 | Status der DMX-Lampen auf [[Tardis#Tardis1|Tardis 1]]
 | [[Benutzer:S1lvester|S1lvester]]
+|-
+| /heartbeat
+| 
+| 
+| 0
+| 
+| (leer)
+| [[Funksteckdosen]]
+| [[Mate (Server)/infra.rzl|infra.rzl]]
+| Minütliche leere Nachricht als Watchdog-Reset für die WLAN-[[Funksteckdosen]]
+| [[Benutzer:Ranlvor|Ranlvor]]
 |}
 
 Beispiel zum Subscriben auf der Kommandozeile (offizieller Client):
