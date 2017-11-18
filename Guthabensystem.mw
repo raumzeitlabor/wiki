@@ -1,8 +1,14 @@
 Damit du nicht bei jedem Kauf Kleingeld parat haben mußt, gibt es im RaumZeitLabor ein Guthabensystem.
 
-Die Nutzung des Systems ist sehr einfach:
+Aktuell wird dafür die Software "[https://github.com/hackerspace-bootstrap/strichliste Strichliste]" verwendet. Die Nutzung des Systems ist sehr einfach:
 
-Zuerst eröffnest Du dir ein Konto. Dazu kannst Du dir entweder die Liste ausdrucken, oder eine schon ausgedruckte Liste aus dem Ordner in der Küche nehmen, dass Du sie wieder findest, schreibst Du deinen Namen in '''die rechte obere Ecke''' und heftest sie alphabetisch sortiert in den Ordner ab. 
+Die Webseite ist auf dem Tablet, das in der Snackbar steht dauerhaft aufgerufen. Sollte sie das einmal nicht sein, findest du sie unter http://cashdesk.rzl:8081. Zuerst eröffnest Du dir ein Konto, indem du auf das ⊞-Symbol am Ende der Liste der Active Users tippst und einen Name eingibst. Ab jetzt kannst du Geld auf das Konto einzahlen und von ihm abbuchen. Dazu tippst du einfach in der Liste auf deinen Name und danach auf den Betrag, den du aufladen oder abbuchen möchtest.
+
+== Papierlisten (legacy) ==
+
+Früher wurden die Guthabenkonten auf Papier geführt. Wenige Laboranten tun das auch heute noch/wieder. Der Ordner mit den Strichlisten steht auf dem Kühlschrank.
+
+Um dir ein Konto zu eröffnen, kannst du entweder die Liste ausdrucken, oder eine schon ausgedruckte Liste aus dem Ordner in der Küche nehmen. Damit du sie wieder findest, schreibst du deinen Namen in '''die rechte obere Ecke''' und heftest sie alphabetisch sortiert in den Ordner ab. 
 
 [[Datei:Guthabenliste_NichtAusgefuellt.jpg]]
 
