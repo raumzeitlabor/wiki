@@ -12,20 +12,16 @@
 |download    = 
 }}
 
-=Xerox WorkCentre 7328=
-[[Image:Xerox_WorkCentre_7328.jpeg|left|100px]]
-{|
-|
-* Netzwerkdrucker (IP: '''172.22.36.133''' / Hostname: '''Annette''')
+* Xerox WorkCentre 7328
+* Netzwerkdrucker (IP: '''172.22.36.133''' / Hostname: '''annette.rzl''')
 * [http://annette.rzl/ Webinterface] über das sich PDFs drucken lassen.
 * Farblaser
 * DIN A3 / DIN A4
 * Kann Dinge scannen und aufs [[datengrab]] laden.
 * Lässt sich als <code>http://172.22.36.133/ipp/</code>, Treiber <code>Xerox WorkCentre 7328 Foomatic/Postscript</code> in CUPS hinzufügen.
 * Sollte mit laufendem Avahi und auf Apple-Geräten einfach funktionieren™.
-<br /><br />
-|}
 
+<br />
 __TOC__
 
 = Andere Drucker =
