@@ -1,25 +1,22 @@
-=Allgemeines=
+=Xerox WorkCentre 7328=
+[[Image:Xerox_WorkCentre_7328.jpeg|left|100px]]
+{|
+|
+* Netzwerkdrucker (IP: '''172.22.36.133''' / Hostname: '''Annette''')
+* [http://annette.rzl/ Webinterface] über das sich PDFs drucken lassen.
+* Farblaser
+* DIN A3 / DIN A4
+* Kann Dinge scannen und aufs [[datengrab]] laden
+* Lässt sich als <code>http://172.22.36.133/ipp/</code> in CUPS hinzufügen.
+* Sollte mit laufendem Avahi und auf Apple-Geräten einfach funktionieren™.
+<br /><br />
+|}
 
-'''Einige Drucker sind über den CUPS auf [[Mate (Server)/Infra]] geshared. Diese sollten bei euch erscheinen, wenn ihr gesharte Drucker aktiviert habt (s.u.).
+= Andere Drucker =
+''Einige Drucker sind über den CUPS auf [[Mate (Server)/Infra]] geshared. Diese sollten bei euch erscheinen, wenn ihr gesharte Drucker aktiviert habt.''
 
-<div class="toccolours mw-collapsible mw-collapsed">
-'''Anleitung für deine lokale CUPS-Installation'''
-<div class="mw-collapsible-content">
-=== CUPS <= 1.5.3 (Debian) ===
-* Installiere CUPS
-* Gehe ins [https://localhost:631/admin Administrationsmenü]
-* Setze ein Häkchen bei "Show printers shared by other systems"
-* Bestätige mit der Schaltfläche "Change Settings"
-* Unter "Printers" sollte nun der Drucker auftauchen
-
-=== Aktuelle CUPS-Versionen (1.6) ===
-* ??? Research needed
-</div>
-</div>
-
-=Labeldrucker=
-
-== Brother P-Touch 2430PC ==
+==Labeldrucker==
+=== Brother P-Touch 2430PC ===
 [[Datei:Brother P-Touch 2430PC.jpg|left|75px]]
 {|
 |
@@ -34,14 +31,14 @@
 * Bei drohendem Labelbandaufbrauch bitte Nachschub besorgen oder Info an die Mailingliste
 |}
 
-== Dymo LabelWriter 450 ==
+=== Dymo LabelWriter 450 ===
 * Thermodrucker, max. Breite 56 mm
 * Dauerleihgabe von steeph
 * Befindet sich in Tardis 1 in 0x2G
 * Bei drohendem Etikettenaufbrauch bitte Nachschub besorgen oder Info an die Mailingliste
 
-=Laserdrucker=
-==Brother MFC-9840CDW==
+==Laserdrucker==
+===Brother MFC-9840CDW===
 [[Image:Brother MFC-9840CDW.jpg|left|100px]]
 {|
 |
@@ -59,38 +56,30 @@
 </div>
 |}
 
-==Xerox WorkCentre 7328==
-[[Image:Xerox_WorkCentre_7328.jpeg|left|100px]]
-{|
-|
-* Netzwerkdrucker (IP: '''172.22.36.133''' / Hostname: '''Annette''')
-* '''Farblaser DIN-A3'''
-<br /><br />
-|}
 
-== Konica Minolta Magicolor 2300W ==
+=== Konica Minolta Magicolor 2300W ===
 Farb-Laserdrucker, Dauerleihgabe von [[Benutzer:Unicorn|Unicorn]]
 
 * Derzeit nicht über Netzwerk erreichbar, USB only
 * Kosten pro Seite: 0,15€, Spende erwünscht
 
-=== Treiber ===
+==== Treiber ====
 * Bei Konica Minolta nur für Windows verfügbar
 * OpenSource-Linux-Treiber http://sourceforge.net/projects/m2300w/
 ** Install first, plug in later :)
 
-=== Defekte ===
+==== Defekte ====
 * Verursacht Papierstau
 * Laut Unicorn auf Grund eines verschmutzten Sensors
 
-== Kyocera FS-3700+ ==
+=== Kyocera FS-3700+ ===
 
 Von [[Benutzer:Unicorn|Unicorn]]. Hat LAN, Seriell, Centronics Parallel.
 
-= Plastikkartendrucker =
+== Plastikkartendrucker ==
 siehe [[Plastikkarten]]
 
-= 3D-Drucker =
+== 3D-Drucker ==
 siehe [[Ultimaker]]
 
 [[Kategorie:Infrastruktur]]
