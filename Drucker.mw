@@ -1,3 +1,17 @@
+{{ProjektInfoBox
+|name        = Drucker
+|status      = stable
+|image       = Xerox_WorkCentre_7328.jpeg
+|description = Ein Drucker. Er druckt und scannt Dinge in A4 und A3.
+|author      = 
+|username    = 
+|version     = 3.0
+|update      = 
+|platform    = Xerox WorkCentre 7328
+|license     = 
+|download    = 
+}}
+
 =Xerox WorkCentre 7328=
 [[Image:Xerox_WorkCentre_7328.jpeg|left|100px]]
 {|
@@ -6,11 +20,13 @@
 * [http://annette.rzl/ Webinterface] über das sich PDFs drucken lassen.
 * Farblaser
 * DIN A3 / DIN A4
-* Kann Dinge scannen und aufs [[datengrab]] laden
-* Lässt sich als <code>http://172.22.36.133/ipp/</code> in CUPS hinzufügen.
+* Kann Dinge scannen und aufs [[datengrab]] laden.
+* Lässt sich als <code>http://172.22.36.133/ipp/</code>, Treiber <code>Xerox WorkCentre 7328 Foomatic/Postscript</code> in CUPS hinzufügen.
 * Sollte mit laufendem Avahi und auf Apple-Geräten einfach funktionieren™.
 <br /><br />
 |}
+
+__TOC__
 
 = Andere Drucker =
 ''Einige Drucker sind über den CUPS auf [[Mate (Server)/Infra]] geshared. Diese sollten bei euch erscheinen, wenn ihr gesharte Drucker aktiviert habt.''
