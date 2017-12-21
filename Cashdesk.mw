@@ -10,22 +10,21 @@
 |platform    = 
 |preis       = 
 |license     = 
-|download    = https://github.com/raumzeitlabor/fnordcredit
+|download    = https://github.com/hackerspace-bootstrap/strichliste
 }}
 
-== Beschreibung ==
-Der Cashdesk ist das digitale Guthabensystem des RZL. Du kannst dir einen Account erstellen, in dem du ganz nach unten scrollst und auf die '''+'''-Schaltfläche tippst.
+Damit du nicht bei jedem Kauf Kleingeld parat haben mußt, gibt es im RaumZeitLabor ein Guthabensystem.
 
-Der Cashdesk steht im Süßigkeitenregal.
+Aktuell wird dafür die Software "[https://github.com/hackerspace-bootstrap/strichliste Strichliste]" verwendet. Die Nutzung des Systems ist sehr einfach:
 
-== Technik ==
-
-Auf einem Odys Uno X10 Android Tablet wird die Webseite [http://cashdesk.rzl:8081 cashdesk.rzl:8081] angezeigt. Diese basiert auf der [https://github.com/raumzeitlabor/fnordcredit fnordcredit] und wird auf der [[Mate (Server)/cashdesk.rzl|cashdesk.rzl]] VM bei uns gehostet.
-
-== Backupstrategie ==
-
-''bitte ausführen, silsha''
+Die Webseite ist auf dem Tablet, das in der Snackbar steht dauerhaft aufgerufen. Sollte sie das einmal nicht sein, findest du sie unter http://cashdesk.rzl. Zuerst eröffnest Du dir ein Konto, indem du auf das ⊞-Symbol am Ende der Liste der Active Users tippst und einen Name eingibst. Ab jetzt kannst du Geld auf das Konto einzahlen und von ihm abbuchen. Dazu tippst du einfach in der Liste auf deinen Name und danach auf den Betrag, den du aufladen oder abbuchen möchtest.
 
 [[Kategorie:Projekt]]
 [[Kategorie:Hardware]]
-[[Kategorie:Wiki_Cleanup/ToDo]]
+[[Category:Procedures]]
+[[Category:Verein]]
+[Kategorie:Organisation]
+[[Kategorie:Projekt]]
+[[Kategorie:shopping]]
+[[Kategorie:Raum-Kommerz-Labor]]
+[[Kategorie:Finanzen]]
