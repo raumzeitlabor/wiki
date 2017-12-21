@@ -1,99 +1,32 @@
-{{LanguageBox |msg=This page is available in English. Click [[Access|here]] to visit the page.}}
-
 Einfach unter [http://status.raumzeitlabor.de status.raumzeitlabor.de] nachsehen ob jemand da ist. Wenn der
-Status <span style="background:#00ff00; font-variant:small-caps">grün</span> ist, sollte jemand im Raum sein. Ruf einfach das [[Raumtelefon]] des RaumZeitLabor an und sag Bescheid, dass man nicht abhauen soll und du vorbeikommst. Über das Telefon können wir dir auch Hinweise geben, wie du uns finden kannst - wir sind leider nicht ganz so einfach zu finden.
+Status <span style="background:#00ff00; font-variant:small-caps">grün</span> ist, sollte jemand im Raum sein. Ruf einfach das [[Raumtelefon]] des RaumZeitLabor an und sag Bescheid, dass man nicht abhauen soll und du vorbeikommst. Über das Telefon können wir dir auch Hinweise geben, wie du uns [[Anfahrt|finden]] kannst - wir sind leider nicht ganz so einfach zu finden.
 
-Als [[Verein#Mitglied_werden|Mitglied]] steht es dir frei, den Raum jederzeit zu nutzen. Hierzu benötigst du eine [[Pinpad|persönliche Pin]]. Da das Treppenhaus nicht über eine PIN geöffnet werden kann, benötigst du im Zweifelsfalle auch einen Schlüssel, mit dem du das Treppenhaus öffnen kannst. Bitte achte beim Gehen darauf, ob noch Mitglieder anwesend sind. Das letzte Mitglied, welches den Raum verlässt, ist für das Abschließen des Raumes verantwortlich (Nicht-Mitglieder dürfen aufgrund der Versicherungsbedingungen nicht alleine im Raum bleiben).
+Als [[Verein#Mitglied_werden|Mitglied]] steht es dir frei, den Raum jederzeit zu nutzen. Hierzu benötigst du eine [[Pinpad|persönliche Pin]]. Bitte achte beim Gehen darauf, ob noch Mitglieder anwesend sind. Das letzte Mitglied, welches den Raum verlässt, ist für das Abschließen des Raumes verantwortlich (Nicht-Mitglieder dürfen aufgrund der Versicherungsbedingungen nicht alleine im Raum bleiben).
 
-Sollte niemand im Raum sein ([http://status.raumzeitlabor.de Status]: <span style="background:#ff0000; font-variant:small-caps">rot</span>), so musst du warten, bis ein Mitglied vorbeischaut. Hierbei hilft auch unser IRC-Kanal, um sich mit Mitgliedern abzusprechen.
+Sollte niemand im Raum sein ([http://status.raumzeitlabor.de Status]: <span style="background:#ff0000; font-variant:small-caps">rot</span>), so musst du warten, bis ein Mitglied vorbeischaut. Hierbei hilft auch unser [[IRC|IRC-Kanal]], um sich mit Mitgliedern abzusprechen.
 
 == Raum ==
-Der Raum ist über ein Schließsystem gesichert, das wir selbst implementiert haben. Den Raum kannst du mittels persönlicher PIN oder SSH öffnen.
+Der Raum ist über ein Schließsystem gesichert, das wir selbst implementiert haben. Den Raum kannst du mittels persönlicher PIN öffnen.
 
 === Pin ===
 Deine persönliche Pin wird dir in der [[BenutzerDB]] zugewiesen, nachdem der Vorstand deinen Mitgliedsantrag bearbeitet hat. Die Pin muss nach der eingabe mit der Raute-Taste (#) quittiert werden.
 
-=== tuer.rzl.so ===
-Jedes Mitglied, welches seinen SSH Key in der [[BenutzerDB]] pflegt, kann die Tür via SSH öffnen.
+== Getränke- & Sticklager ==
+[[Datei:Getraenkelager tuer.jpg|200px|thumb|right|Tür des Sticklagers]] 
+Können mit den im Raum befindlichen Schlüsseln geöffnet werden.
 
-Hierzu muss man sich per SSH mit irgendeinem Nutzer auf tuer.rzl.so:2323 (IPv6 only) verbinden und kann dann mit "open" und "close" die Tür steuern. Das Raum WLAN kann auch vor der Tür noch empfangen werden, um diese zu öffnen.
+== Fallback ==
+=== Notfall-Pin ===
+Falls die Pin-Synchronisation kaputt ist, hat der Vorstand noch eine feste Notfall-Pin, die immer funktionieren sollte™.
 
-Beispiel:
-
-<pre>
-ssh tuer.rzl.so -p2323 open
-</pre>
-
-Für eine .ssh/config würde das z.B. so aussehen:
-<pre>
-Host tuer
-HostName tuer.rzl.so
-Port 2323
-</pre>
-
-== Getränkelager ==
-[[Datei:Getraenkelager tuer.jpg|200px|thumb|right|Tür des Getränkelagers]] 
-Kann mit dem im Raum befindlichen Schlüssel geöffnet werden.
-
-== Schlüsselliste ==
-
-=== Raum ===
-Der Vorstand hat Schlüssel um den Hauptraum bzw die E-Ecke zu öffnen.
+=== Schlüssel ===
+Der Vorstand hat Schlüssel um den Hauptraum bzw. die E-Ecke zu öffnen, falls das Schließsystem nicht funktioniert.
 
 Als Notfallbackup gibt es noch unsere zweite Tür. Der Schließzylinder dieser Tür wurde im Herbst 2011 getauscht. Für diesen existieren momentan drei Schlüssel, die wie folgt verteilt sind: 
 
 #Vorstand?
 #Schlüsselkasten
 #Schlüsselkasten
-
-=== Treppenhaus ===
-#[[Benutzer:Bert|Bert]]
-#[[Benutzer:Bfritz0815|BFritz0815]]
-#[[Benutzer:Dancingfo|DaFo]]
-#[[Benutzer:dj2mc|dj2mc]]
-#[[Benutzer:Docsteel|Docsteel]]
-#[[Benutzer:D0n|D0n]]
-#[[Benutzer:Eeemsi|Eeemsi]]
-#[[Benutzer:Timo A. Hummel|Felicitus]]
-#[[Benutzer:Hannes|Hannes]]
-#[[Benutzer:Hax404|hax404]]
-#[[Benutzer:Inte|Inte]]
-#[[Benutzer:Lutoma|Lutoma]]
-#[[Benutzer:Monika|Monika]] 
-#[[Benutzer:Nairolfo|Nairolfo]]
-#[[Benutzer:Nessi|Nessi]]
-#[[Benutzer:Nicoduck|nicoduck]]
-#[[Benutzer:Niklas|Niklas]]
-#[[Benutzer:Pennylane|pennylane]]
-#[[Benutzer:Rabe|Raphael Eiselstein]] 
-#[[Benutzer:Scytale|Scytale]]
-#[[Benutzer:sebi|sebi]]
-#[[Benutzer:SEC|sECuRE]]
-#[[Benutzer:sur5r|sur5r]]
-#[[Benutzer:TabascoEye|TabascoEye]]
-#[[Benutzer:Talynrae|talynrae]]
-#[[Benutzer:thinkJD|thinkJD]]
-#[[Benutzer:Tiefpunkt|tiefpunkt]]
-#[[Benutzer:Trickster|Trickster]]
-#[[Benutzer:Unicorn|Unicorn]]
-#[[Benutzer:Zwetschgo|Zwetschgo]]
-
-
-
-=== Fußgängertor Boveristraße ===
-Das Tor wurde ausgebaut, aktuell sind die ausgegebenen Schlüssel nutzlos.
-#[[Benutzer:Bfritz0815|BFritz0815]]
-#[[Benutzer:Eeemsi|Eeemsi]]
-#[[Benutzer:Timo A. Hummel|Felicitus]]
-#[[Benutzer:Hannes|Hannes]]
-#[[Benutzer:Inte|Inte]]
-#[[Benutzer:Lutoma|Lutoma]]
-#[[Benutzer:nazco|nazco]]
-#[[Benutzer:the_nihilant|the_nihilant]]
-#[[Benutzer:Unicorn|Unicorn]]
-#[[Benutzer:Zwetschgo|Zwetschgo]]
-#[[Benutzer:Rami|Rami]]
-#[[Benutzer:Talynrae|talynrae]]
 
 
 == Siehe auch ==
