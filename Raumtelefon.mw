@@ -16,16 +16,8 @@ Wir haben einen Telekom-ISDN-Anschluss mit 3 Nummern. Momentan hängen mehrere T
 
 <div style="font-size: 40px; margin: 30px 0;">0621 / 76 23 1370</div>
 
-== Eingehende Anrufe ==
-<strike>Anrufer hört Wartemusik, Telefon klingelt im Raum. Außerdem wird auf der Ping-Anzeige die Nummer des Anrufers (oder ggf. ein Name) angezeigt.</strike>
-Aktuell klingeln nur die Telefone und der Anrufe hört ein langweiliges Freizeichen
-
-=== Anrufbeantworter ===
-<strike>Wenn nach 50 Sekunden niemand ans Telefon geht, springt ein Anrufbeantworter an. Die Aufzeichnung geht per Mail an info@raumzeitlabor.de.</strike>
-Im moment auch nicht. Kommt wieder.
-
 == Ausgehende Anrufe ==
-Sind explizit möglich (Allerdings lässt sich mit dem schwarzen Telefon momentan nicht wählen, da der SIP-Adapter kein Impulswahl unterstützt. Ein Fix dafür ist aber in der Mache. Quickfix: Mit Android DTMF-App die Töne erzeugen). Alternativ und einfacher: Das graue Telefon neben dem schwarzen verwenden. Noch einfacher: über die SIP Telefone anrufen. Für Festznetz gibt's eine Flatrate, Handynetzanrufe bezahlt der Verein und sollten daher möglichst kurz gehalten werden.
+Sind explizit möglich. Für Festznetz gibt's eine Flatrate, Handynetzanrufe bezahlt der Verein und sollten daher möglichst kurz gehalten werden.
 
 
 [[Category:Infrastruktur]]
