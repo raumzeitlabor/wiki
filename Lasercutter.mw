@@ -469,6 +469,12 @@ Beim Gravieren/Lasern im Raster-Modus kann es vorkommen, dass der Lasercutter mi
  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\sermouse] 
  "start"=dword:00000004
 
+===Buffer Underrun===
+Wenn die CPU des Rechners zu lange (im Rastermodus abhängig von eingestellter Lasergeschwindigkeit einige Sekunden bis einige Minuten) ausgelastet ist, stoppt der Laser, ohne den Auftrag abzubrechen. Um ihn wieder starten zu können reicht es, die USB-Verbindung für wenige Sekunden zu unterbrechen und den Auftrag zu stoppen, nachdem die Verbindung wieder aufgebaut wurde. Vor dem Gravieren großer oder hochauflösender Motive oder auf wichtige Untergründe mit dem langsamen Laserlaptop empfielt es sich daher, vorher sicherzustellen, dass keine CPU-intensiven Prozesse laufen. Der Windows-Update-Dienst muss ggf. für den Zeitraum des Graviervorgangs deaktiviert (nicht nur gestoppt) werden.
+
+===Dithering===
+Bilder können direkt in RetinaEngrave gedithert werden, sollten für optimale Ergebnisse aber vorbereitet werden (korrekte Auflösung, sehr geringer Dynamikumfang). Je schneller gelasert wird, desto matschiger wird das Bild und desto mehr verringert sich der ohnehin schon geringe mögliche Dynamikumfang. Geschwindigkeiten über 20 sind wenig sinnvoll. Test mit Ausschnitten und verschiedenen Einstellungen (Power und Speed) auf Wegwerf-Material mit den selben Material-Eigenschaften, wie das Endprodukt, sind empfehlenswert.
+
 == Siehe auch ==
 [[Lasercutter/Luftfilter]]
 
