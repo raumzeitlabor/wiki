@@ -36,6 +36,48 @@
 * Schrank für den Rednerpult
 
 == Neuanschaffungen/Ausgaben ==
+=== Sonoff S20 Dosen ===
+wieder das alte Thema: wir haben mehr Geräte, die wir schalten wollen,
+als wir schaltbare Dosen haben.
+
+Beispiele, wo das nervig ist:
+* Wenn man drucken will muss man die Dose „Rechner Olymp“ einschalten
+* Wenn man das LED-Licht am Olymp schalten will muss man von Hand den Stecker in die Steckdose stecken/aus der Dose ziehen
+
+Da die beiden Sonoff S20-Dosen, die wir vor ein paar Monaten angeschafft
+haben, bisher sehr zuverlässig arbeiten würden das tuwat [3] und ich
+vorschlagen mehr davon zu bestellen.
+
+Die günstigste* S20-Dose auf Amazon [1] ist derzeit bei 11,24 €
+inklusive Versand. Allerdings lassen die 17 Tage Versandzeit auf
+grenzüberschreitenden Versand schließen und Zollprobleme sind nicht
+auszuschließen.
+
+Die günstigste* S20-Dose mit Amazon Prime [2] ist derzeit bei 17,99 €
+inklusive Versand (wenn wir 2 oder mehr davon nehmen).
+
+Das Plenum möge entscheiden
+# wollen wir weitere S20-Dosen?
+# wollen wir „so günstig wie möglich“ oder „so günstig wie möglich mit <3 Tagen Versand“?
+# wie S20-Dosen viele wollen wir?
+und entsprechend finanzielle Mittel beschließen.
+
+Ich würde mich wieder um bestellen, flashen, ins Netzwerk einbinden kümmern.
+
+Gruß
+
+--[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 00:06, 8. Feb. 2018 (CET)
+
+[1]
+https://www.amazon.de/Telefon-Kabellose-Fernbedienung-Steckdose-Sonoff/dp/B077QGNBWQ/ref=sr_1_7?ie=UTF8&qid=1518043196&sr=8-7&keywords=Sonoff+S20
+
+[2]
+https://www.amazon.de/HEANTTV-intelligente-ventilator-Telefonsteuerung-steckdosen/dp/B0716PJHBB/ref=sr_1_3?ie=UTF8&qid=1518043196&sr=8-3&keywords=Sonoff+S20
+
+[3] https://github.com/raumzeitlabor/rzl-tuwat/issues/171
+
+[*]die ich finden konnte
+
 == Sonstiges ==
 
 [[Kategorie:Veranstaltung]]
