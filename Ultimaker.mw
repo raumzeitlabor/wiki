@@ -1,8 +1,8 @@
 {{ProjektInfoBox
 |name        = Ultimaker
-|status      = beta
+|status      = broken
 |image       = Ultimaker.jpg
-|description = Unser (erster) 3D-Drucker
+|description = Unser erster 3D-Drucker, derzeit durch den [[Ultimak3r]] ersetzt.
 |author      = 
 |location    = [[Fablab]]
 |username    = 
