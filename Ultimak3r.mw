@@ -1,0 +1,69 @@
+{{ProjektInfoBox
+|name        = Ultimak3r
+|status      = stable
+|image       = 
+|description = Der aktuell funktionierende 3D-Drucker des RaumZeitLabors.
+|author      = 
+|location    = [[Fablab]]
+|username    = 
+|version     = 3.0
+|update      = 
+|platform    = [https://ultimaker.com/en/products/ultimaker-3 Ultimak3r]
+|license     = 
+|download    = 
+}}
+
+== Anleitung zum 3D-Druck ==
+
+'''Nicht ohne Einweisung drucken!'''
+
+=== vor dem Druck ===
+
+==== Modelle zum Druck finden ====
+
+Du brauchst zum Drucken eine STL-Datei.
+
+* [https://www.thingiverse.com/ Thingiverse]
+
+==== Drucker vorbereiten ====
+
+Drucker über den Kippschalter an der Rückseite rechts unten einschalten. Mit dem Wählrad auf "Print" gehen und auswählen.
+
+Dann kann über das Netzwerk gedruckt werden, vorzugsweise mit der 3D-Drucksoftware Cura. Diese ist für die gängigen Linux-Distributionen in den Repositories enthalten, für Windows oder macOS kann man sie [https://ultimaker.com/en/products/ultimaker-cura-software von der Ultimaker-Herstellerseite herunterladen].
+
+==== Druckeinstellungen ====
+
+Wir drucken in der Regel mit PLA.
+
+TODO: Druckeinstellungen in Cura.
+
+==== Filament einlegen/wechseln ====
+
+Hauptmenü: Über den Drehschalter "Material/Printcore" → Material 1/2 auswählen → Change. Der Drucker schiebt automatisch das Filament zurück.
+
+Wichtig: Beim nicht mehr genutzten Filament bitte das Ende durch das entsprechende Loch auf der Rolle fädeln. Ansonsten können Knoten entstehen und das Filament wird nicht mehr richtig eingezogen!
+
+TODO: Bild vom Loch einfügen
+
+=== Drucken ===
+
+In Cura einfach auf Drucken drücken, dann druckt es über das Netzwerk. Die Warteschlange und auch Webcam-Bilder kannst Du auf http://ultimaker.rzl anzeigen.
+
+== Kosten ==
+
+Das derzeitig genutzte PLA-Filament von Extrudr und kostet 35€/1100g = 0.031€/g. Stromkosten sind ca. 0.29€/kWh, der Ultimak3r braucht ca. 300W/h beim Druck und ein Druck dauert ca. 0.2-0.4h/g. Oft dauert es 24h á 10W Standby, bis jemand sein Resultat abholt. Durchschnittliches Druckvolumen sind 20g/Druck. Sprich: 20g drucken kostet 0.29€/kWh*(0.3kW*20g*0.4h/g+0,24kWh) = 0.7656€/g => 0.038€/g.
+
+Zusammengerechnet: 0.038€/g+0.031€/g = 0.07€/g. Rechnen wir die Abnutzung des Druckers und etwaige Defekte mit ein, sind 0.10€/g Druckmasse unserer Meinung nach angemessen. Cura zeigt vor dem Druck die Menge des verwendeten Filaments an, bitte auf 0.10€ runden und in die Spendenbox einwerfen, bevor Du druckst.
+
+== Bezugsquellen für Filament ==
+
+Wenn Dir unsere Filament-Farben nicht ausreichen oder Du mit einem anderen Material drucken möchtest, kannst Du Dir u.A. bei folgenden Anbietern Filament bestellen:
+
+* [http://extrudr.eu/ Extrudr]
+* [http://www.hiendl-kunststofftechnik.de/ Hiendl]
+* [http://colorfabb.com/ Colorfabb]
+* [http://innofil3d.com/ Innofil]
+* [https://www.multec.de/ Multec]
+* [https://www.germanreprap.com/ German RepRap]
+* [http://www.faberdashery.co.uk/ Faberdashery]
+* [http://www.filafarm.de/collections/filament Filafarm]
