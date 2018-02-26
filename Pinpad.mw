@@ -1,18 +1,18 @@
 {{ProjektInfoBox
-|name        = pinpad-main v2
-|status      = stable
+|name        = pinpad-main
+|status      = beta
 |image       = 
 |description = Pinpad an der Haupttür
-|author      = sECuRE, [[Benutzer:Abrock|Abrock]], [[Benutzer:Else|Else]], [[Benutzer:Mxf|mxf]]
+|author      = sECuRE, [[Benutzer:Alexander_Brock|Abrock]], Else, [[Benutzer:Mxf|mxf]], [[Benutzer:Helix|Helix]]
 |maintainer  = 
 |hostname    = 172.22.36.15, pinpad-main.rzl
-|version     = 
+|version     = 2.1
 |update      = 
-|platform    = 
+|platform    = Raspberry Pi 1B, Abus Hometec
 |license     = 
 |download    = [http://github.com/raumzeitlabor/pinpad-controller Pinpad Controller], [http://github.com/raumzeitlabor/pinpad Pinpad Frontend]
-|bausatz     =
-|preis       =
+|bausatz     = 
+|preis       = Unbezahlbar
 }}
 
 == Architektur ==
@@ -87,7 +87,3 @@ Hier eine Liste der Sensoren, die an den RPi angeschlossen sind.
 |-
 | Controller meldet "new checksum" (Pins) bei Start || initial checksum ist nicht initialisiert || - || ist normal und kein Problem
 |}
-
-== TODO ==
-
-* RPi Watchdog aktivieren und mit systemd aufziehen
