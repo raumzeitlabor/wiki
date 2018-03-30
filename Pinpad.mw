@@ -86,4 +86,6 @@ Hier eine Liste der Sensoren, die an den RPi angeschlossen sind.
 | Pinpad prellt || noch nicht festgestellt || noch nicht festgestellt || Pinpad resetten
 |-
 | Controller meldet "new checksum" (Pins) bei Start || initial checksum ist nicht initialisiert || - || ist normal und kein Problem
+|-
+| Pinpad Piepst || Pins nicht syncronisiert || TürPi hat sich aufgehängt || prüfen, ob 172.22.36.15 pingt. Falls nicht, Powercyclen
 |}
