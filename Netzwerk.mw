@@ -87,7 +87,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.7 || [[Premium_(Server)|premium]] || vServer bei Vollmar
 |-----
-| 172.22.36.8 || ''reserved'' || Reserviert für Infrastruktur
+| 172.22.36.8 ||  || IKEA TRÅDFRI Gateway
 |-----
 | 172.22.36.9 || cashpoint || RZL Cashpoint
 |-----
