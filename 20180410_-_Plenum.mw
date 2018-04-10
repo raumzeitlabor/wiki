@@ -1,0 +1,125 @@
+Beginn: 19:20
+Anwesende: ~30
+
+= Themen für das nächste Plenum =
+
+== Realitätsabgleich ==
+===== Was mir aufgefallen ist, was herrenlos rumsteht =====
+
+===== Was ich seit dem letzten Plenum im Space gemacht hab =====
+
+===== Was ich bis zum nächsten Plenum im Space vorhabe =====
+
+===== Was mich im Space geärgert hat =====
+
+===== Was mich im Space erfreut hat =====
+
+===== Was ich gerne lernen würde =====
+
+===== Was im Space getan werden müsste (+Tickets anlegen) =====
+
+===== Beschlüsse aus dem letzten Plenum =====
+* Ultimaker 3
+** ist da, ist geil
+* Küche
+** da, aber immernoch keine Küchenbenutzung
+* Schrank für den Rednerpult
+** ist da, funktioniert
+* Sonoff S20 Dosen
+** sind da, Firmware tut nicht, weitere Arbeit nötig
+
+== Neuanschaffungen/Ausgaben ==
+
+=== Neuer Projektor ===
+
+([[Benutzer:Helix|Helix]] möchte öfters Vorträge machen und der jetzige ist sehr dunkel)
+
+Vorschläge:
+* [http://www.guenstiger.de/Produkt/Epson/EB_5530U.html Epson EB-5530U] für ca. 2k€
+* [https://www.heise.de/preisvergleich/sony-vpl-phz10-a1570847.html Sony VPL-PHZ10] für ca. 3k€, dafür mit 4x so langer Lampenlebensdauer (da Laser)
+
+Cheatha meinte, man sollte möglichst keinen DLP-Beamer nutzen und der Digitalprojektor sollte an die Automatisierungen anklemmbar sein. Das ist bei beiden Modellen der Fall, HDBaseT ist ebenfalls vorhanden.
+
+--[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 15:33, 25. Mär. 2018 (CEST)
+
+Wir hätten gerne 4K und HDR, aber viel viel viel zu teuer, wenn man leuchtstark will.
+
+Das Plenum diskutiert Leinwände/Wandfarben.
+
+uwap beantragt eine Verschiebung des Punktes auf das nächste Plenum
+11 dafür
+3 dagegen
+6 enthaltung
+=> Punkt auf nächstes Plenum verschoben
+
+=== Neue Unterlagen und Abstandshalter für die Textilpresse ===
+
+Die alte Unterlage der Textilpresse ist mit irgendwelchem Zeug verklebt, das bei Hitze weich wird und die Textilien versaut. Ich würde daher gerne eine neue Unterlage und eine neue Trennmatte bestellen:
+
+* [https://www.colormatch.org/Silikon-Matte?source=2&refertype=5&referid=2564 Trennmatte 28,79€ incl. Versand]
+* [https://www.amazon.de/dp/B00YEHWRCY/?tag=raumzeitlabor-21 Unterlage 19,99€ incl. Versand]
+
+Außerdem würde ich gerne das zermatschte Gewinde durch Aluminium-Abstandshalter ersetzen damit wir wieder den Anpressdruck an die Anwendung und das Textil anpassen können, dafür möchte ich Aluminiumrohr kaufen:
+
+* [https://www.ebay.de/itm/322014181704 Alurohr 80x5, 500mm 16,82€ incl. Versand]
+
+Gesamtkosten: 65,60€ --[[Benutzer:Alexander Brock|Alexander Brock]] ([[Benutzer Diskussion:Alexander Brock|Diskussion]]) 20:58, 18. Mär. 2018 (CET)
+
+Abstimmung 66 € reparatur Textilienpresse
+einstimmig dafür => angenommen
+
+== Sonstiges ==
+=== Küchenabluft ===
+Dafo hätte gerne eine Abluftanlage für die Küche
+
+Optionen „wohin mit der Luft“:
+* Abluft nach draußen (Suboptimal im Winter wegen Heizung)
+* Umluft => Aktivkohlefilter
+
+Optionen Abzug:
+* Gastroabzugshause
+* „zu Hause“-Modell
+
+Dafo schätzt 1.000 € für Umluft/Aktivkohle, Gastrovariante (keine professionelle Lösung, eher selbstgebaut), draußen-Abluft mit Kreuzstrom-Wärmetauscher wäre viel teurer.
+
+Dafo schätzt 250 €/Jahr Kosten für Aktivkohle, 30 €/Jahr für Fettabscheidefließ
+
+Marry: Haushaltslösung reicht für uns nicht.
+
+Silvester sieht bei Gastromodell Probleme, wenn Fettrinnen nicht regelmäßig gereinigt werden.
+
+uwap fragt, wohin der Filter kommt und wie groß er ist
+
+blabber: Abstimmmung 1.000€ Budget für Küchenabluft
+dafür: rest >3
+dagegen: 0
+enthaltung: ~3
+
+=> angenommen
+
+=== Kostenerstattungen ===
+urvogel hat Dinge zum ätzen, fräsen, bohren gekauft und möchte 140,90 € erstattet haben.
+
+4 Enthaltungen, rest dafür.
+
+=== Hinweis zur Ätzecke ===
+Becken ist nicht ganz dicht, bitte ersetzen vor nächster Nutzung
+
+=== Cashdesk ===
+auf http://cashdesk.rzl:8000/ läuft die neue Testinstallation für das neue Fnordcredit, gerne testen und Feedback an uwap geben.
+
+Achtung, ist eine Testinstallation, die irgendwann gelöscht wird, also bitte alle Produktivbuchungen parallel auch auf der Stichliste buchen.
+
+=== Laser ===
+Laser wurde freigegeben zum „selbst zu Ende bauen“. Elektrik wurde angeguckt. Erste Kabel wurden getauscht. Steckverbindungen repariert. Alle Aderendhülen müssen neu gequetscht werden. Notaus muss überarbeitet werden. Nur noch einige Arbeitsstunden und die Elektrik ist testbreit, ob der Laser dann funktionieren wird wissen wir noch nicht.
+
+Nächster Schritt: Bamberger einladen und fragen, was die so in Sachen Access Control & Abrechnung an ihrem Laser geschraubt haben.
+
+Anwalt leuchtet nicht mehr, Staatsanwaltschaft hat Verfahren eingestellt. Wir wollen das nicht mehr weiter verfolgen, weil die Erfolgsaussichten gering sind.
+
+== Weltherrschaft ==
+An der Weltherrschaft wird im Geheimen weitergerarbeitet.
+
+20:27 Plenum schließt.
+
+[[Kategorie:Plenum]] [[Kategorie:Protokoll]]
