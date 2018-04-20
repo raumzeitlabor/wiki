@@ -1,8 +1,9 @@
 == Einleitung ==
 
+Wir freuen uns, dass du dich entschieden hast
+Mitglied im RaumZeitLabor zu werden! 
 Dieses Handbuch erklärt dir, wie du dich erfolgreich im 
-RaumZeitLabor einbringen kannst. Zunächst freuen wir uns, dass du 
-Mitglied im RaumZeitLabor (geworden) bist! 
+RaumZeitLabor einbringen kannst. 
 
 In einem Hackerspace finden sich viele verschiedene Menschen ein, 
 und das macht einen großen Teil des Charmes aus. Zum 
@@ -15,16 +16,16 @@ Alles Wissenswerte erfährst du in den folgenden Abschnitten.
 
 == Zugang zum RaumZeitLabor ==
 
-Als Mitglied erhältst du eine PIN, mit der du die Tür zum 
+Als volljähriges Mitglied erhältst du eine PIN, mit der du die Tür zum 
 RaumZeitLabor aufschließen kannst. Melde dich dazu – möglichst 
 mit deinem echten Namen, um dem Vorstand die Zuordnung zu 
 erleichtern – in der [https://benutzerdb.raumzeitlabor.de/BenutzerDB/register||BenutzerDB]
-an. Danach kannst Du den Vorstand bitten, dir eine PIN 
+an. Danach kannst du den Vorstand per Mail an vorstand@raumzeitlabor.de bitten, dir eine PIN 
 zuzuteilen. Hierzu benötigen sie deinen Benutzernamen.
 
 == Wöchentliches Treffen ==
 
-Die meisten Laboranten triffst du Dienstag abends an. Jede Woche 
+Die meisten Laboranten triffst du dienstagabends an. Jede Woche 
 treffen wir uns zur Offenen RaumZeitLaborierung. Zu dieser 
 Veranstaltung sind Interessierte ganz besonders eingeladen, da 
 sie immer gut besucht und interessant ist. 
@@ -42,22 +43,25 @@ ist ein öffentliches Treffen von Mitgliedern (und denen die es
 werden wollen), auf dem wir aktuelle Themen besprechen und 
 kleinere Entscheidungen treffen können. Die zu besprechenden 
 Punkte sammeln wir im Wiki auf der Seite [[Plenum]]
-. Wenn Du Ideen hast, wie wir das Zusammenleben im Verein 
+. Wenn du Ideen hast, wie wir das Zusammenleben im Verein 
 verbessern können, oder dir Dinge aufgefallen sind, die dir nicht 
-gepasst haben, trage diese einfach auf der Seite ein. Auf dem l
+gepasst haben, trage diese einfach auf der Seite ein. Auf dem
 Plenum ist dann die Gelegenheit, in Ruhe darüber zu reden, und 
-Verbesserungen vorzuschlagen. Auch entscheiden wir auf dem Plenum 
-über kleinere Anschaffungen. 
+Verbesserungen oder Alternativen vorzuschlagen. 
+Auch entscheiden wir auf dem Plenum 
+über Anschaffungen. Falls du anregen möchtest, 
+bestimmte Dinge für den Raum zu kaufen, – beispielsweise Maschinen – bitten wir 
+zusätzlich zum Eintrag auf der Wikiseite um eine Diskussion zwei Wochen vorher auf der Mailingliste.
 
 “Wo gehobelt wird fallen Späne” – so natürlich auch bei uns. 
 Deswegen treffen wir uns vor dem Plenum, um den Raum auf 
-Vordermann zu bringen [[Wipe & Defrag]] üblicherweise gegen 14 bis 15 Uhr. Jeder schnappt sich einen 
+Vordermann zu bringen [[Wipe & Defrag]] üblicherweise gegen 13 Uhr. Jeder schnappt sich einen 
 Besen, Kehrblech, Staubsauger oder Wischmob und gibt sein Bestes. 
 Natürlich möchten wir niemanden zwingen, zum Putzen auftauchen – 
-wenn Du allerdings häufig da bist, würden wir uns wünschen, dass 
-Du uns auch bei diesen eher unliebsamen Aufgaben unterstützt. Das 
+wenn du allerdings häufiger da bist, würden wir uns wünschen, dass 
+du uns auch bei diesen eher unliebsamen Aufgaben unterstützt. Das 
 Ganze hat übrigens auch Vorteile: erstens gibt es kostenlose 
-Verpflegung in Form von Pizza, und zweitens bekommst Du mit, wann 
+Verpflegung in Form von Pizza, und zweitens bekommst du mit, wann 
 das Plenum beginnt – den genauen Termin kündigen wir nämlich 
 üblicherweise nicht an.
 
@@ -65,9 +69,9 @@ das Plenum beginnt – den genauen Termin kündigen wir nämlich
 
 Das RaumZeitLabor besitzt einen eigenen Internetanschluss. Dieser 
 steht jedem zur Verfügung – entweder per WLAN (den Key bekommst 
-Du auf Anfrage), oder per LAN über unsere Netzwerkssteckdosen, 
+du auf Anfrage), oder per LAN über unsere Netzwerkssteckdosen, 
 welche überall im Raum verteilt sind. Bitte halte im Hinterkopf, 
-dass Du dir den Internetanschluss mit anderen Laboranten teilst 
+dass du dir den Internetanschluss mit anderen Laboranten teilst 
 und benutze ihn dementsprechend rücksichtsvoll. 
 
 Da es in Deutschland leider immer noch das bisher rechtlich 
@@ -89,7 +93,7 @@ generelle Mitteilungen zu allen möglichen Themen. Auch kann es
 schon einmal hoch her gehen; sei aber unbesorgt, in der Regel 
 verstehen wir uns alle sehr gut. 
 
-Zusätzlich zur “Haupt”-Mailingliste gibt es auch noch “info”. 
+Zusätzlich zur “Haupt”-Mailingliste gibt es auch noch “info@”. 
 Diese wird als Kontaktadresse auf unseren Seiten verwendet, damit 
 Anfragen möglichst schnell von den entsprechenden Leuten 
 beantwortet werden können (möglicherweise also auch von dir!).
@@ -111,7 +115,7 @@ besten SSL.
 Im IRC kannst du herausfinden, ob das RaumZeitLabor gerade offen 
 ist, indem du den Befehl !raum schickst. Du kannst die 
 Rundumleuchte im Raum aktivieren um die Anwesenden auf deine 
-Nachrichten im IRC hinzuweisen, indem du !ping schickst. Wenn Du 
+Nachrichten im IRC hinzuweisen, indem du !ping schickst. Wenn du 
 hinter !ping noch eine Nachricht hängst, so wird diese auf dem 
 LCD-Display über der Tafel im Raum angezeigt. 
 
@@ -127,28 +131,36 @@ Für Versionskontrolle verwenden wir überwiegend git und hosten unsere git-repo
 unter der Adresse https://github.com/raumzeitlabor. Du kannst ein 
 neues Repository anlegen, indem du dich an einen der 
 Administratoren auf github wendest, derzeit sind das u.a. 
-tiefpunkt, Felicitus und Else.
+TabascoEye, Felicitus und blabber.
 
 == Das ist kaputt! / Ich will was machen! / Unser Space soll schöner werden! ==
 
-Falls dir etwas auffällt, das Reperatur, Verbesserung oder Pflege 
+Falls dir etwas auffällt, das Verbesserung oder Pflege 
 benötigt findest du unter https://github.com/raumzeitlabor/rzl-tuwat/issues eine Liste bekannter Issues und die Möglichkeit neue zu 
 eröffnen. Du bist herzlich eingeladen dich an den Diskussionen und vor allem an der Lösung der Probleme zu beteiligen. Ein Blick 
 in die "closed issues" lohnt ebenfalls, denn möglicherweise gab es das Problem schon einmal und du kannst auf der Diskussion / 
 dem Wissen anderer Laborantinnen und Laboranten aufbauen.
 
-== Vorträge ==
+Falls dir etwas kaputt gegangen sein sollte oder falls dir etwas aufgefallen ist, das reparaturbedürftig ist, schreibe bitte eine Mail auf unsere
+Mailingliste. Nur so kann sich zeitnah um eine Reparatur oder eine Neuanschaffung gekümmert werden.
 
-Wir laden dich herzlich dazu ein, einen Vortrag zu halten. Ein 
-wichtiges Konzept im RaumZeitLabor ist Lernen durch Lehren. Ganz 
+== Vorträge / Workshops / Exkursionen ==
+
+Wir laden dich herzlich dazu ein, einen Vortrag zu halten (oder einen Vortragenden einzuladen).
+Ein wichtiges Konzept im RaumZeitLabor ist Lernen durch Lehren. Ganz 
 egal wozu du etwas erzählen möchtest, es interessiert mit 
-Sicherheit irgendwen. Auch wenn du denkst, dass dein Thema doch 
+Sicherheit einige andere Laboranten. Auch wenn du denkst, dass dein Thema doch 
 nicht der Rede wert sei, täuscht das in aller Regel. Was für dich 
 klar ist, ist vielen neu. Daher: Halte einen Vortrag! 
+Wenn du magst, zeichnen wir diesen auf und packen ihn auf unsere YouTube-Seite https://www.youtube.com/user/raumzeitlabor
 
 Eine gute Gelegenheit für Vorträge in lockerer Runde ist 
-Dienstags bei der offenen RaumZeitLaborierung. Wende dich an 
-thinkJD (Jan-Daniel), der das dienstägliche Programm verwaltet.
+dienstags bei der offenen RaumZeitLaborierung. Wende dich an 
+hax404, der das dienstägliche Programm verwaltet und eine Ankündigungsmail verschickt.
+
+Auch über die Organisation von Workshops oder Exkursionen zu spannenden Ausflugszielen freuen wir uns natürlich sehr.
+Falls du hierfür Anschaffungen tätigen willst oder Geld für Eintritte benötigst, kannst du das Ganze auf dem Plenum besprechen.
+Im Blog findest du einige Berichte der letzten Exkursionen als Anregung.
 
 == Blog ==
 
