@@ -1,0 +1,612 @@
+<!--
+Verzeichnis von Verarbeitungstätigkeiten
+vim: tw=80:colorcolumn=+0:foldmethod=marker
+-->
+
+== Verantwortliche Stelle ==
+
+; Adresse
+: RaumZeitLabor e.V.
+: Boveristraße 22-24
+: 68309 Mannheim
+
+; E-Mail
+: vorstand@raumzeitlabor.de
+
+; Vorstand
+: Tobias Rehbein (Vorsitzender)
+: Nathalie Groll (Stelvertreter)
+: Fabian Koch (Kassenwart)
+
+== Verarbeitungstätigkeiten ==
+
+<!-- {{{ Mitgliederverwaltung -->
+=== Mitgliederverwaltung ===
+
+==== Ansprechpartner ====
+
+Vorstand
+
+==== Datum der Einführung ====
+
+nicht dokumentiert
+
+==== Zweck der Verarbeitung ====
+
+Zweck der Datenerhebung, -verarbeitung und -nutzung sind die allgemeinen
+Notwendigkeiten der Mitgliederverwaltung.
+
+* Dokumentation der Mitglieder des Vereins
+* Dokumentation der Mitgliedsbeiträge
+* Einzug der Mitgliedsbeiträge
+* Kontaktdaten für die Kommunikation des Vereins mit den Mitgliedern
+
+Die Mitgliederverwaltung erfolgt sowohl in Papierform (z.B. Mitgliedsanträge)
+als auch digital unter Verwendung der Software JVerein.
+
+==== Kategorie betroffene Personen ====
+
+Mitglieder des RaumZeitLabor e.V.
+
+==== Kategorie von personenbezogenen Daten ====
+
+* Name und Vorname
+* Adresse
+* Mailadresse
+* Geburtsdatum
+* Nickname
+* Bankverbindung
+* Eintritts- und Austrittsdatum
+
+==== Kategorien von Empfängern ====
+
+===== Intern =====
+
+Vorstand
+
+===== Extern =====
+
+Keine
+
+==== Drittlandstransfer ====
+
+Keine
+
+==== Löschfristen ====
+
+6 Jahre nach Austritt des Mitglieds
+
+==== Technische/organisatorische Maßnahmen ====
+
+Die Unterlagen in Papierform werden in einem abgeschlossenen Aktenschrank
+aufbewahrt, für den nur der Vorstand im Besitz des Schlüssels. Nach Ablauf der
+Löschfrist, werden die Papierunterlagen geshreddert.
+
+Die Verarbeitung der Daten in JVerein erfolgt auf den privaten Rechnern der
+Vorstandsmitglieder. Der Zugriff auf die Rechner ist passwortgeschützt.
+
+Ein verschlüsseltes Backup der JVerein Datenbank wird in einem privaten
+Repository auf git.raumzeitlabor.de abgelegt.
+<!-- }}} Mitgliederverwaltung -->
+
+<!-- {{{ Buchhaltung -->
+=== Buchhaltung ===
+
+==== Ansprechpartner ====
+
+Kassenwart
+
+==== Datum der Einführung ====
+
+nicht dokumentiert
+
+==== Zweck der Verarbeitung ====
+
+Zweck der Datenerhebung, -verarbeitung und -nutzung ist die Rückerstattung von
+Auslagen und die Dokumentation dieser Rückerstattungen im buchhalterischen
+Sinne.
+
+Der Verein erstattet Personen, die für den Verein Auslagen getätigt haben, diese
+Auslagen zurück. Zu diesem Zweck gibt es vorgefertigte Rückerstattungsformulare.
+Rückerstattungen müssen buchhalterisch erfasst und dokumentiert werden.
+
+Die Buchungsbelege werden in Papierform gesammelt und digital in der Software
+JVerein dokumentiert.
+
+==== Kategorie betroffene Personen ====
+
+Personen die Auslagen für den RaumZeitLabor e.V. tätigen
+
+==== Kategorie von personenbezogenen Daten ====
+
+* Name und Vorname
+* Nickname
+* Bankverbindung
+* Höhe und Art der Auslage
+
+==== Kategorien von Empfängern ====
+
+===== Intern =====
+
+* Vorstand
+* Kassenprüfer
+
+===== Extern =====
+
+* Finanzamt
+
+==== Drittlandstransfer ====
+
+Keine
+
+==== Löschfristen ====
+
+10 Jahre
+
+==== Technische/organisatorische Maßnahmen ====
+
+Die Unterlagen in Papierform werden in einem abgeschlossenen Aktenschrank
+aufbewahrt, für den nur der Vorstand im Besitz des Schlüssels. Nach Ablauf der
+Löschfrist, werden die Papierunterlagen geshreddert.
+
+Die Verarbeitung der Daten in JVerein erfolgt auf den privaten Rechnern der
+Vorstandsmitglieder. Der Zugriff auf die Rechner ist passwortgeschützt.
+
+Ein verschlüsseltes Backup der JVerein Datenbank wird in einem privaten
+Repository auf git.raumzeitlabor.de abgelegt.
+<!-- }}} Buchhaltung -->
+
+<!-- {{{ Mailingliste -->
+=== Mailingliste ===
+
+==== Ansprechpartner ====
+
+Netzwerkteam (netzwerk@raumzeitlabor.de)
+
+==== Datum der Einführung ====
+
+nicht dokumentiert
+
+==== Zweck der Verarbeitung ====
+
+Zweck der Datenerhebung, -verarbeitung und -nutzung ist das Betreiben von
+Mailinglisten für die Vereinskommunikation.
+
+Das zentrale Kommunikationsmedium des Vereins ist die Mailingliste
+raumzeitlabor@. Die Mitgliedschaft in dieser Mailingliste ist nicht an die
+Mitgliedschaft im Verein gebunden.
+
+Für Teilteams und zu besonderen Zwecken, existieren weitere Mailinglisten, deren
+Regeln für die Mitgliedschaft teils restriktiver sind.
+
+Als Mailinglistensoftware wird Mailman verwendet.
+
+==== Kategorie betroffene Personen ====
+
+* Mailinglistenmitglieder
+* Personen, die Mails an Mailinglisten senden
+
+==== Kategorie von personenbezogenen Daten ====
+
+* Mailinglistenmitglieder
+** Name
+** Nick
+** Mailadresse
+** Passwort (wird hier explizit erwähnt, da Mailman Passwörter im Klartext ablegt)
+
+
+* Personen, die Mails an Mailinglisten senden
+** In den Mails und Mailheadern (Datum, Uhrzeit, Mailadresse, ...) enthaltene Informationen
+
+==== Kategorien von Empfängern ====
+
+===== Intern =====
+
+* Mailinglistenadministratoren
+* Serveradministratoren
+
+===== Extern =====
+
+* Mailinglistenabonnenten
+
+An Mailinglisten gesendete E-Mails, werden an alle Abonnenten der Mailingliste
+weitergeleitet. Außerdem werden die Mails in einem Mailinglistenarchiv abgelegt,
+auf das die Abonnenten der Mailingliste Zugriff haben.
+
+==== Drittlandstransfer ====
+
+Keine. Ausnahme sind Mailinglistenabonnenten, die in einem Drittland wohnen.
+
+==== Löschfristen ====
+
+Keine
+
+==== Technische/organisatorische Maßnahmen ====
+
+Der Zugriff auf den Server ist beschränkt und nur per SSH möglich. Der Server
+wird durch gängige Sicherheitsmechanismen (Firewall) geschützt und durch das
+Netzwerkteam auf einem aktuellen Stand gehalten.
+
+Der Zugriff auf die Mailinglistenadministration ist passwortgeschützt.
+<!-- }}} Mailingliste -->
+
+<!-- {{{ BenutzerDB -->
+=== BenutzerDB ===
+
+==== Ansprechpartner ====
+
+Vorstand
+
+==== Datum der Einführung ====
+
+nicht dokumentiert
+
+==== Zweck der Verarbeitung ====
+
+Zweck der Datenerhebung, -verarbeitung und -nutzung ist das Ermöglichen des
+Raumzugangs für die Mitglieder des RaumZeitLabor e.V..
+
+Der Zugang zum Raum wird mittels den in der BenutzerDB hinterlegten Daten
+autorisiert:
+
+* PIN
+* ssh-Key (optional)
+
+Um dem Vorstand die Zuordnung von BenutzerDB Einträgen zu Mitgliedern zu
+ermöglichen, wird, zusätzlich zu einem frei wählbaren Pseudonym, der Klarname
+des Nutzers in der BenutzerDB hinterlegt.
+
+Auf freiwilliger Basis, können Nutzer ihre MAC Adresse in der BenutzerDB
+hinterlegen um Informationen über ihre Anwesenheit im Raum zu veröffentlichen.
+Diese Funktion kann auch von Nichtmitgliedern genutzt werden, die sich einen
+BenutzerDB Account anlegen.
+
+Es besteht keine Verpflichtung für Mitglieder die BenutzerDB zu nutzen.
+
+Bei der Software, die für die BenutzerDB verwendet wird, handelt es sich um eine
+vereinsinterne Eigenentwicklung.
+
+==== Kategorie betroffene Personen ====
+
+* Personen, die sich einen BenutzerDB Account anlegen.
+
+==== Kategorie von personenbezogenen Daten ====
+
+* Name und Vorname
+* Nickname
+* MAC Adresse (freiwillig)
+
+==== Kategorien von Empfängern ====
+
+===== Intern =====
+
+* Serveradministratoren
+* BenutzerDB Administratoren (Vorstand)
+
+===== Extern =====
+* Konsumenten der RaumZeitLabor Status API (https://status.raumzeitlabor.de/api/full.json), falls eine MAC Addresse hinterlegt wurde
+
+==== Drittlandstransfer ====
+
+Keine. Der Zugriff auf die RaumZeitLabor Status API ist geographish aber nicht
+eingeschränkt.
+
+==== Löschfristen ====
+
+Keine
+
+==== Technische/organisatorische Maßnahmen ====
+
+Der Zugriff auf den Server ist beschränkt und nur per SSH möglich. Der Server
+wird durch gängige Sicherheitsmechanismen (Firewall) geschützt und durch das
+Netzwerkteam auf einem aktuellen Stand gehalten.
+
+Der administrative Zugriff auf die BenutzerDB ist accountgebunden und
+passwortgeschützt.
+<!-- }}} BenutzerDB -->
+
+<!-- {{{ Website -->
+=== BenutzerDB ===
+
+==== Ansprechpartner ====
+
+Netzwerkteam (netzwerk@raumzeitlabor.de)
+
+==== Datum der Einführung ====
+
+nicht dokumentiert
+
+==== Zweck der Verarbeitung ====
+
+Zweck der Datenerhebung, -verarbeitung und -nutzung ist der Betrieb und Wartung
+einer Website für den RaumZeitLabor e.V.
+
+Im Rahmen des Wartung der Website, können Serverlogs anfallen. Diese Logs werden
+ausschließlich zur Analyse von Fehlern und Problemen und zur Sicherstellung des
+Betriebs der Website geführt.
+
+==== Kategorie betroffene Personen ====
+
+* Nutzer der Website (*.raumzeitlabor.de)
+
+==== Kategorie von personenbezogenen Daten ====
+
+* IP-Adresse des Aufrufers
+* Zeitpunkt des Aufrufs
+* Aufgerufene Seite
+* Verwendeter Browser
+
+==== Kategorien von Empfängern ====
+
+===== Intern =====
+
+Serveradministratoren
+
+===== Extern =====
+
+Keine
+
+==== Drittlandstransfer ====
+
+Keine
+
+==== Löschfristen ====
+
+* In der Regel werden keine Logs angelegt und nur bei Bedarf im Rahmen der Wartung aktiviert
+* Logs die im Rahmen der Wartung angelegt wurden, werden gelöscht, sobald sie nicht mehr benötigt werden, spätestens aber nach 7 Tagen
+
+==== Technische/organisatorische Maßnahmen ====
+
+Der Zugriff auf den Server ist beschränkt und nur per SSH möglich. Der Server
+wird durch gängige Sicherheitsmechanismen (Firewall) geschützt und durch das
+Netzwerkteam auf einem aktuellen Stand gehalten.
+<!-- }}} Website -->
+
+<!-- {{{ Wiki -->
+=== Wiki ===
+
+==== Ansprechpartner ====
+
+Netzwerkteam (netzwerk@raumzeitlabor.de)
+
+==== Datum der Einführung ====
+
+nicht dokumentiert
+
+==== Zweck der Verarbeitung ====
+
+Zweck der Datenerhebung, -verarbeitung und -nutzung ist der Betrieb eines Wikis.
+
+Um Vandalismus vorzubeugen und Änderungen nachvollziehen zu können, ist eine
+Bearbeitung des Wikis nur mit einem Benutzerkonto möglich.
+
+Als Wiki wird MediaWiki verwendet.
+
+==== Kategorie betroffene Personen ====
+
+* Bearbeiter des Wikis
+
+==== Kategorie von personenbezogenen Daten ====
+
+* Name
+* Nickname
+* Vorgenommene Änderungen (inkl. Datum und Uhrzeit an dem die Änderung vorgenommen wurde)
+
+==== Kategorien von Empfängern ====
+
+===== Intern =====
+
+* Serveradministratoren
+* Wikiadministratoren
+
+===== Extern =====
+
+* Nutzer des Wikis
+
+Der Nickname und die Informationen zu vorgenommenen Änderungen können von allen
+Nutzern des Wikis eingesehen werden.
+
+==== Drittlandstransfer ====
+
+Keine. Der Zugriff auf das Wiki ist allerdings nicht geographisch eingeschränkt.
+
+==== Löschfristen ====
+
+Keine
+
+==== Technische/organisatorische Maßnahmen ====
+
+Der Zugriff auf den Server ist beschränkt und nur per SSH möglich. Der Server
+wird durch gängige Sicherheitsmechanismen (Firewall) geschützt und durch das
+Netzwerkteam auf einem aktuellen Stand gehalten.
+
+Administrativer Zugriff auf das Wiki ist accountgebunden und passwortgeschützt.
+<!-- }}} Wiki -->
+
+<!-- {{{ Agenda Aktion Anmeldung -->
+=== Agenda Aktion Anmeldung ===
+
+==== Ansprechpartner ====
+
+Nachwuchsevents Team (nachwuchs-events@raumzeitlabor.de)
+
+==== Datum der Einführung ====
+
+nicht dokumentiert
+
+==== Zweck der Verarbeitung ====
+
+Zweck der Datenerhebung, -verarbeitung und -nutzung ist die Dokumentation von
+Interessenten und Teilnehmern zur Agenda Aktion.
+
+Um die Agenda Aktion Termine effizient zu organisieren müssen die Teilnehmer für
+die einzelnen Termine erfasst und Wartelisten geführt werden.
+
+==== Kategorie betroffene Personen ====
+
+* Agenda Aktion Teilnehmer (und solche die es werden wollen)
+
+==== Kategorie von personenbezogenen Daten ====
+
+* Name und Vorname
+* Mailadresse
+* Alter
+
+==== Kategorien von Empfängern ====
+
+===== Intern =====
+
+Agenda Aktion Team
+
+===== Extern =====
+
+Keine
+
+==== Drittlandstransfer ====
+
+Keine
+
+==== Löschfristen ====
+
+Nach Durchführung des letzten Agenda Aktion Termins des Jahres
+
+==== Technische/organisatorische Maßnahmen ====
+
+Der Zugriff auf den Server ist beschränkt und nur per SSH möglich. Der Server
+wird durch gängige Sicherheitsmechanismen (Firewall) geschützt und durch das
+Netzwerkteam auf einem aktuellen Stand gehalten.
+<!-- }}} Agenda Aktion Anmeldung -->
+
+<!-- {{{ GitLab -->
+=== GitLab ===
+
+==== Ansprechpartner ====
+
+Netzwerkteam
+
+==== Datum der Einführung ====
+
+nicht dokumentiert
+
+==== Zweck der Verarbeitung ====
+
+Zweck der Datenerhebung, -verarbeitung und -nutzung ist der Betrieb einer
+GitLab Instanz.
+
+==== Kategorie betroffene Personen ====
+
+* Nutzer der GitLab Instanz
+
+==== Kategorie von personenbezogenen Daten ====
+
+* Name
+* Nickname
+* Inhalt der Repositories
+
+==== Kategorien von Empfängern ====
+
+===== Intern =====
+
+* Serveradministratoren
+* GitLab Administratoren
+
+===== Extern =====
+
+* Nutzer der GitLab Instanz
+
+Öffentliche Repositories sind von allen Nutzern (auch unangemeldet) einsehbar.
+
+==== Drittlandstransfer ====
+
+Keine. Der Zugriff auf die GitLab Instanz ist allerdings nicht geographisch
+eingeschränkt.
+
+==== Löschfristen ====
+
+Keine
+
+==== Technische/organisatorische Maßnahmen ====
+
+Der Zugriff auf den Server ist beschränkt und nur per SSH möglich. Der Server
+wird durch gängige Sicherheitsmechanismen (Firewall) geschützt und durch das
+Netzwerkteam auf einem aktuellen Stand gehalten.
+
+Administrativer Zugriff auf das Wiki ist accountgebunden und passwortgeschützt.
+<!-- }}} GitLab -->
+
+<!-- {{{ Strichliste -->
+=== Strichliste ===
+
+==== Ansprechpartner ====
+
+Vorstand
+
+==== Datum der Einführung ====
+
+nicht dokumentiert
+
+==== Zweck der Verarbeitung ====
+
+Zweck der Datenerhebung, -verarbeitung und -nutzung ist die Führung einer
+digitalen Strichliste.
+
+Im RaumZeitLabor können Snacks, Getränke und andere Dinge erworben werden. Dazu
+existiert eine Raumkasse. Wer nicht immer passend in der Raumkasse bezahlen will
+kann sich freiwillig einen Account in der digitalen Strichliste anlegen.
+
+==== Kategorie betroffene Personen ====
+
+===== Intern =====
+
+* Nutzer der Strichliste
+
+===== Extern =====
+
+* Nutzer der Strichliste
+
+==== Kategorie von personenbezogenen Daten ====
+
+* Nickname
+* Stand des Guthabens
+* Vorgenommene Transaktionen
+
+==== Kategorien von Empfängern ====
+
+* Anwesende Personen im Raum
+
+Die Strichliste ist im RaumZeitLabor für alle anwesenden Personen einsehbar.
+
+==== Drittlandstransfer ====
+
+Keine
+
+==== Löschfristen ====
+
+Keine
+
+==== Technische/organisatorische Maßnahmen ====
+
+Keine
+<!-- }}} Strichliste -->
+
+<!-- Kopiervorlage
+=== Name der Tätigkeit ===
+
+==== Ansprechpartner ====
+
+==== Datum der Einführung ====
+
+==== Zweck der Verarbeitung ====
+
+==== Kategorie betroffene Personen ====
+
+==== Kategorie von personenbezogenen Daten ====
+
+==== Kategorien von Empfängern ====
+
+==== Drittlandstransfer ====
+
+==== Löschfristen ====
+
+==== Technische/organisatorische Maßnahmen ====
+-->
