@@ -101,12 +101,16 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 256 MB
 | 20 GB
 |-
+| [[Mate (Server)/unifi.vm.rzl]]
+| 750 MB
+| 20 GB
+|-
 | '''Gesamt'''
-| '''8408 MB / 12001 MB (70.06% belegt)'''
-| '''2.9 TB / 5.3 TB (55.37% belegt)'''
+| '''9158 MB / 12001 MB (76.31% belegt)'''
+| '''2.9 TB / 5.3 TB (55.74% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2018-05-16 00:00:02
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2018-05-18 00:00:02
 
 == Unterseiten ==
 <splist />
