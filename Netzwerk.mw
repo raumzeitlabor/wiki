@@ -284,6 +284,8 @@ Management-Netzwerk für Switches und Access Points.
 |-----
 ! VLAN-ID || Beschreibung
 |-----
+| 42 || IOT
+|-----
 | 110 || Famefabrik
 |-----
 | 2342 || [[Netzwerk#10.23.42.0.2F24|Management-Netz]]
