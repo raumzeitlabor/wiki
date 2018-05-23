@@ -34,7 +34,7 @@ Der Switch-Stack im Hauptraum besteht aus einem 28-Port Cisco SG 500-28 sowie ei
 |-----
 ! Port || VLAN-ID || Beschreibung
 |-----
-| 1/1/11 || 110 || Famefabrik, geht zur [[Firebox]]
+| 1/1/11 ||  || Famefabrik, geht zur [[Firebox]]
 |-----
 | 1/1/12 || allow 42,2342 || ????
 |-----
