@@ -1,7 +1,4 @@
-<!--
-Verzeichnis von Verarbeitungstätigkeiten
-vim: tw=80:colorcolumn=+0:foldmethod=marker
--->
+Letzte Änderung: 24. Mai 2018
 
 == Verantwortliche Stelle ==
 
@@ -20,7 +17,6 @@ vim: tw=80:colorcolumn=+0:foldmethod=marker
 
 == Verarbeitungstätigkeiten ==
 
-<!-- {{{ Mitgliederverwaltung -->
 === Mitgliederverwaltung ===
 
 ==== Ansprechpartner ====
@@ -87,9 +83,7 @@ Vorstandsmitglieder. Der Zugriff auf die Rechner ist passwortgeschützt.
 
 Ein verschlüsseltes Backup der JVerein Datenbank wird in einem privaten
 Repository auf git.raumzeitlabor.de abgelegt.
-<!-- }}} Mitgliederverwaltung -->
 
-<!-- {{{ Buchhaltung -->
 === Buchhaltung ===
 
 ==== Ansprechpartner ====
@@ -154,9 +148,7 @@ Vorstandsmitglieder. Der Zugriff auf die Rechner ist passwortgeschützt.
 
 Ein verschlüsseltes Backup der JVerein Datenbank wird in einem privaten
 Repository auf git.raumzeitlabor.de abgelegt.
-<!-- }}} Buchhaltung -->
 
-<!-- {{{ Mailingliste -->
 === Mailingliste ===
 
 ==== Ansprechpartner ====
@@ -228,9 +220,7 @@ wird durch gängige Sicherheitsmechanismen (Firewall) geschützt und durch das
 Netzwerkteam auf einem aktuellen Stand gehalten.
 
 Der Zugriff auf die Mailinglistenadministration ist passwortgeschützt.
-<!-- }}} Mailingliste -->
 
-<!-- {{{ BenutzerDB -->
 === BenutzerDB ===
 
 ==== Ansprechpartner ====
@@ -303,9 +293,7 @@ Netzwerkteam auf einem aktuellen Stand gehalten.
 
 Der administrative Zugriff auf die BenutzerDB ist accountgebunden und
 passwortgeschützt.
-<!-- }}} BenutzerDB -->
 
-<!-- {{{ Website -->
 === Website ===
 
 ==== Ansprechpartner ====
@@ -360,9 +348,6 @@ Keine
 Der Zugriff auf den Server ist beschränkt und nur per SSH möglich. Der Server
 wird durch gängige Sicherheitsmechanismen (Firewall) geschützt und durch das
 Netzwerkteam auf einem aktuellen Stand gehalten.
-<!-- }}} Website -->
-
-<!-- {{{ Wiki -->
 
 === Wiki ===
 
@@ -422,9 +407,7 @@ wird durch gängige Sicherheitsmechanismen (Firewall) geschützt und durch das
 Netzwerkteam auf einem aktuellen Stand gehalten.
 
 Administrativer Zugriff auf das Wiki ist accountgebunden und passwortgeschützt.
-<!-- }}} Wiki -->
 
-<!-- {{{ Agenda Aktion Anmeldung -->
 === Agenda Aktion Anmeldung ===
 
 ==== Ansprechpartner ====
@@ -476,9 +459,7 @@ Nach Durchführung des letzten Agenda Aktion Termins des Jahres
 Der Zugriff auf den Server ist beschränkt und nur per SSH möglich. Der Server
 wird durch gängige Sicherheitsmechanismen (Firewall) geschützt und durch das
 Netzwerkteam auf einem aktuellen Stand gehalten.
-<!-- }}} Agenda Aktion Anmeldung -->
 
-<!-- {{{ GitLab -->
 === GitLab ===
 
 ==== Ansprechpartner ====
@@ -533,9 +514,7 @@ wird durch gängige Sicherheitsmechanismen (Firewall) geschützt und durch das
 Netzwerkteam auf einem aktuellen Stand gehalten.
 
 Administrativer Zugriff auf das Wiki ist accountgebunden und passwortgeschützt.
-<!-- }}} GitLab -->
 
-<!-- {{{ Strichliste -->
 === Strichliste ===
 
 ==== Ansprechpartner ====
@@ -588,7 +567,6 @@ Keine
 ==== Technische/organisatorische Maßnahmen ====
 
 Keine
-<!-- }}} Strichliste -->
 
 <!-- Kopiervorlage
 === Name der Tätigkeit ===
@@ -611,3 +589,5 @@ Keine
 
 ==== Technische/organisatorische Maßnahmen ====
 -->
+
+[[Kategorie:Verein]] [[Kategorie:Datenschutz]]
