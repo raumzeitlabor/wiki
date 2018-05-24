@@ -1,0 +1,401 @@
+''Letzte Änderung: 24. Mai 2018''
+
+Die nachfolgende Datenschutzerklärung bezieht sich auf Angebote des
+RaumZeitLabor e.V. und die Datenverarbeitung im Rahmen einer Mitgliedschaft im
+RaumZeitLabor e.V..
+
+Als Verein der sich durchaus selber kritisch mit dem Datenschutz im digitalen
+und physischen Raum auseinandersetzt, nehmen wir den Schutz der Daten unserer
+Mitglieder und anderer Personen die unsere Angebote nutzen sehr ernst. Welche
+Daten wir erheben und wofür wir sie nutzen, kannst du in dieser
+Datenschutzerklärung nachvollziehen.
+
+Bei Fragen oder Unklarheiten, sprich bitte den Vorstand an.
+
+== Verantwortliche Stelle ==
+
+Die für die Erhebung, Verarbeitung und Nutzung personenbezogener Daten ist die
+folgende Steller:
+
+; Adresse
+: RaumZeitLabor e.V.
+: Boveristraße 22-24
+: 68309 Mannheim
+
+; E-Mail
+: vorstand@raumzeitlabor.de
+
+; Vorstand
+: Tobias Rehbein (Vorsitzender)
+: Nathalie Groll (Stelvertreter)
+: Fabian Koch (Kassenwart)
+
+== Übersicht der erhobenen personenbezogenen Daten und ihrer Nutzung ==
+
+=== Mitgliederverwaltung ===
+
+Wenn du Mitglied im RaumZeitLabor e.V. füllst du einen Mitgliedsantrag aus und
+wir legen einen Datensatz in unserer Vereinsverwaltung für dich an. In diesem
+Datensatz sind folgende personenbezogenen Daten erfasst:
+
+* Name und Vorname
+* Adresse
+* Mailadresse
+* Geburtsdatum
+* Nickname
+* Bankverbindung
+* Eintritts- und Austrittsdatum
+
+Diese Daten werden vom Vorstand verwendet, um den Überblick über die aktiven
+Mitglieder des Vereins zu behalten, die geleisteten Mitgliedsbeiträge zu
+dokumentieren oder einzuziehen. Die erfassten Kommunikationsdaten, erlauben es
+dem Zustand direkt mit dir in Kontakt zu treten, falls das mal nötig sein
+sollte.
+
+Diese Daten werden ausschließlich vom Vorstand verwendet und nicht an Dritte
+weitergegeben.
+
+Deine Mitgliedschaft im RaumZeitLabor e.V. stellt ein
+vertragliches Verhältnis dar, was auch die Rechtsgrundlage für die Erfassung,
+Verarbeitung und Nutzung der personenbezogenen Daten ist.
+
+6 Jahre nachdem du aus dem Verein ausgetreten bist, werden die Datensätze aus
+der Vereinsverwaltung gelöscht und die dein Mitgliedsantrag geshreddert.
+
+=== Buchhaltung ===
+
+Falls du Einkäufe für das RaumZeitLabor tätigst, erstattet der RaumZeitLabor
+e.V. in der Regel deine Auslagen. Dazu verwendest du das entsprechende Formular,
+auf dem folgende personenbezogenen Daten erhoben werden:
+
+* Name und Vorname
+* Nickname
+* Bankverbindung
+* Höhe und Art der Auslage
+
+Diese Daten werden vom Vorstand, insbesondere vom Kassenwart, verwendet, um die
+getätigten Rückzahlungen buchhalterisch zu erfassen und zu dokumentieren. Im
+Rahmen einer Kassenprüfung, werden diese Daten dem Kassenprüfer vorgelegt. Es
+ist nicht ausgeschlossen, dass wir diese Daten im Rahmen einer Steuerprüfung
+auch mal dem Finanzamt vorlegen müssen. Ansonsten werden diese Daten nicht an
+Dritte weitergegeben.
+
+Die Rechtsgrundlage für die Erhebung, Verarbeitung und Nutzung dieser
+personenbezogenen Daten ist eine rechtliche Verpflichtung des Vereins.
+
+Nach 10 Jahren, werden die Datensätze aus der Buchhaltung gelöscht und die
+Erstattungsformulare geshreddert.
+
+=== Mailingliste ===
+
+Der Verein betreibt mehrere Mailinglisten, um die Kommunikation innerhalb des
+Vereins und einzelner Teilteams innerhalb des Vereins zu ermöglichen. Das
+zentrale Kommunikationsmedium des Vereins ist dabei die Mailingliste
+raumzeitlabor@raumzeitlabor.de. Als Verein der sich Offenheit groß auf die Fahne
+geschrieben hat, ist die Mitgliedschaft in dieser Mailingliste nicht an eine
+Vereinsmitgliedschaft gebunden. Andere Mailinglisten können andere Regeln haben.
+
+Falls du dich als Mitglied in einer Mailingliste einträgst, erheben wir folgende
+Daten:
+
+* Name
+* Nick
+* Mailadresse
+* Passwort (Beachte bitte, dass unsere Mailinglistensoftware Passwörter im Klartext speichert)
+
+Diese Daten werden von unserer Mailinglistensoftware verwendet, um unsere
+Mailinglisten zu realisieren. Die Daten werden nicht an Dritte weitergeleitet,
+können aber von Server- und Mailinglistenadministratoren eingesehen werden.
+
+Falls du Mails an eine Mailingliste sendest, wird die Mail inklusive der
+enthaltenen Headerinformationen (Datum, Uhrzeit, Mailadresse, ...) an alle
+Abonnenten der Mailingliste weitergeleitet und in einem Mailinglistenarchiv
+abgelegt, das von allen Mailinglistenmitgliedern eingesehen werden kann.
+
+Wenn du dich für eine Mitgliedschaft in einer Mailingliste entscheidest, stellt
+das deine Einwilligung zur Erhebung, Verarbeitung und Nutzung der
+personenbezogen Daten dar.
+
+=== BenutzerDB ===
+
+Wenn du Mitglied im RaumZeitLabor e.V. bist und die Möglichkeit haben willst den
+Raum selbsständig zu öffnen, benötigst du einen Account in der BenutzerDB, damit
+der Vorstand dir eine PIN zuweisen kann. Optional kannst du dann auch deinen ssh
+Key hinterlegen um die Tür per ssh öffnen und abschliessen zu können.
+
+Folgende personenbezogenen Daten werden erhoben, wenn du dir einen Account in
+der BenutzerDB anlegst:
+
+* Nickname
+* Name (damit der Vorstand den BenutzerDB Account einem Mitglied zuordnen kann)
+
+Diese Daten werden nur vereinsintern verwendet um den Zugang von Mitgliedern zum
+Raum zu autorisieren und technisch zu realisieren. BenutzerDB Administratoren
+und Serveradministratoren haben Zugriff auf diese Daten.
+
+Personen, die sich einen BenutzerDB Account anlegen, können auf freiwilliger
+Basis die MAC Addressen ihrer Endgeräte in der BenutzerDB abzulegen um
+Informationen über ihre Anwesenheit zu veröffentlichen. Falls du MAC Adressen
+hinterlegst, können Konsumenten der RaumZeitLabor Status API
+(https://status.raumzeitlabor.de/api/full.json) deinen Nickname und deine
+Anwesenheit im RaumZeitLabor einsehen.
+
+Wenn du dir einen Account in der BenutzerDB entscheidest, stellt das deine
+Einwilligung zur Erhebung, Verarbeitung und Nutzung der personenbezogen Daten
+dar.
+
+=== Website ===
+
+Der RaumZeitLabor e.V. betreibt einige unter *.raumzeitlabor.de und
+*.raumzeitlabor.org über das Internet erreichbare Dienste, insbesondere unsere
+Homepage und unser Wiki.
+
+Im Rahmen des Betriebs dieser Services, fallen folgende Daten an:
+
+* IP-Adresse des Aufrufers
+* Zeitpunkt des Aufrufs
+* Aufgerufene Seite
+* Verwendeter Browser
+
+Diese Daten können im Rahmen der Wartung unserer Services kurzfristig
+protokolliert werden. Diese Protokolle werden gelöscht, sobald sie nicht mehr
+für die Wartung der Dienste benötigt werden, spätestens aber nach 7 Tagen.
+
+Hoster bei denen unsere Services gehosted sind und Rechenzentren in denen unsere
+Server stehen, können diese Daten ebenfalls sehen und protokollieren. Wir haben
+entsprechende Auftragsverarbeitungsverträge abgeschlossen, um einen sachgemäßen
+Umgang mit diesen Daten sicherzustellen.
+
+Wenn du unsere über das Internet angebotenen Dienste in Anspruch nimmst, stellt
+das deine Einwilligung zur Erhebung, Verarbeitung und Nutzung dieser
+personenbezogenen Daten dar.
+
+==== Cookies ====
+
+Zur Realisierung unserer Webangebote, verwenden wir teilweise Cookies. Cookies
+sind kleine Textdateien, die dein Browser für uns auf deinem Rechner speichert.
+
+In der Regel werden so genannte Session-Cookies verwendet, die am Ende einer
+Sitzung automatisch wieder gelöscht werden. Andere Cookies bleiben gespeichert,
+bis du sie löschst. Das sind dann Cookies die es uns ermöglichen dich
+wiederzuerkennen. Solche Cookies werden zum Beispiel verwendet, um dich über
+mehrere Sitzungen hinweg angemeldet zu lassen.
+
+==== Eingebundene Fremdkomponenten ====
+
+===== Youtube =====
+
+Gelegentlich binden wir auf unseren Seiten Videos ein, die von der
+Videoplattform Youtube gehosted werden. Beim Einbinden dieser Videos verwenden
+wir den erweiterten Datenschutzmodus. Falls du eine Seite aufrufst, auf der wir
+ein Youtube Video eingebunden haben, wird Youtube über deinen Aufruf des Inhalts
+in Kenntnis gesetzt. Die Datenschutzerklärung von Youtube findest du hier:
+https://policies.google.com/privacy?hl=de&gl=de
+
+===== Tumblr =====
+
+Gelegentlich binden wir auf unseren Seiten Bilder ein, die auf tumblr gehosted
+werden. Falls du eine Seite aufrufst, auf der wir einen auf tumblr gehosteten
+Inhalt eingebunden haben, wird tumblr über deinen Aufruf des Inhalts in Kenntnis
+gesetzt. Die Datenschutzerklärung von tumblr findest du hier:
+https://www.tumblr.com/privacy/de
+
+===== Amazon Affiliate Links =====
+
+Gelegentlich linken wir auf Produkte, die auf der Onlineshoppingplattform Amazon
+zum Kauf angeboten werden. Dabei verwenden wir Affiliatelinks, wodurch ein Teil
+des Kaufpreises an den RaumZeitLabor e.V. fließt. Falls du diesen Links folgst,
+wird Amazon über deine Beziehung zum RaumZeitLabor in Kenntnis gesetzt. Die
+Datenschutzerklärung von Amazon findest du hier:
+https://www.amazon.de/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=201909010
+
+===== Github =====
+
+Wir linken gerne mal auf Code, der auf GitHub gehosted ist und eventuell binden
+wir auch mal Codeschnippsel via gist.github.com ein. Wenn du einem Link der auf
+GitHub verweist folgst oder eine Seite aufrufst, auf der ein gist eingebunden
+ist, wird GitHub darüber in Kenntnis gesetzt. Die Datenschutzerklärung von
+GitHub findest du hier:
+https://help.github.com/articles/github-privacy-statement/
+
+===== OpenStreetMap =====
+
+Wir binden gelegentlich Karten die vom OpenStreetMap Projekt zur Verfügung
+gestellt werden ein. Wenn du eine Seite aufrufst, auf der eine entsprechende
+Karte  eingebunden ist, wird OpenStreetMap darüber in Kenntnis gesetzt. Die
+Datenschutzerklärung von OpenStreetMap findest du hier:
+https://wiki.openstreetmap.org/wiki/Privacy_Policy
+
+=== Wiki ===
+
+Zur Dokumentation von verschiedenen Aspekten des Vereinsleben und Projekten
+verwenden wir ein Wiki, auf das jeder lesenden Zugriff hat. Um Änderungen am
+Wiki vorzunehmen, benötigst du einen Account. Wenn du einen Account anlegst,
+werden dabei folgende personenbezogenen Daten erhoben:
+
+* Name
+* Nickname
+* Von dir vorgenommene Änderungen (inkl. Datum und Uhrzeit an dem dei Änderung vorgenommen wurde)
+
+Mit diesen Daten ist es möglich die Änderungen die am Wiki vorgenommen werden
+nachvollziehen und Vandalismus vorbeugen. Dein Nickname und die von dir
+vorgenommenen Änderungen sind von allen Nutzern des Wikis einsehbar. Der
+vollständige Datensatz kann von Wiki- und Serveradministratoren eingesehen, wird
+aber nicht an Dritte weitergegeben.
+
+Wenn du dir einen Account im Wiki erstellst, stellt das deine Einwilligung zur
+Erhebung, Verarbeitung und Nutzung der personenbezogen Daten dar.
+
+=== Agenda Aktion Anmeldung ===
+
+Um die Veranstaltungen die im Rahmen der Agenda Aktion für Kinder vom
+RaumZeitLabor e.V. organisiert werden effizient organisieren zu können, haben
+Eltern die Möglichkeit ihre Kinder vorab anzumelden. Dabei werden folgende
+personenbezogene Daten erhoben:
+
+* Name und Vorname
+* Mailadresse
+* Alter
+
+Die Daten werden nur intern zur Organisation der Agenda Aktion Veranstaltungen
+verwendet und nicht an Dritte weitergeben.
+
+Die Anmeldung zur Agenda Aktion stellt deine Einwilligung zur
+Erhebung, Verarbeitung und Nutzung der personenbezogen Daten dar.
+
+Die erhobenen Daten werden spätestens nach der Durchführung der letzten Agenda
+Aktion Veranstaltung des Jahres gelöscht. 
+
+=== GitLab ===
+
+Das RaumZeitLabor e.V. betreibt eine GitLab Instanz zur Ablage von Quellcode und
+anderen versionierten Dokumenten. Öffentliche Repositories können von allen
+Besuchern der GitLab Instanz eingesehen werden. Um ein Repository anzulegen,
+benötigst du einen Account. Beim Anlegen eines Accounts werden folgende Daten
+erhoben:
+
+* Name
+* Nickname
+* Inhalt der Repositories
+
+Öffentliche Repositories können von allen Besuchern der GitLab Instanz
+eingesehen werden. Private Repositories können von Benutzern denen du
+entsprechende Rechte einräumst und von GitLab- und
+Serveradministratoren eingesehen werden
+
+Das Anlegen eines GitLab Accounts stellt deine Einwilligung zur Erhebung,
+Verarbeitung und Nutzung der personenbezogen Daten dar.
+
+=== Strichliste ===
+
+Du hast im RaumZeitLabor die Möglichkeit Getränke, Snacks und andere Dinge zu
+erwerben. Wenn du keine Lust hast immer den abgezählten Betrag in die Raumkasse
+zu werfen, hast du die Möglichkeit die digitale Strichliste zu verwenden. Falls
+du sie verwendest, werden folgende personenbezogenen Daten erhoben:
+
+* Nickname
+* Stand des Guthabens
+* Vorgenommene Transaktionen
+
+Die Strichliste ist für alle Personen die sich im RaumZeitLabor befinden
+einsehbar.
+
+Die Verwendung der digitalen Strichliste stellt deine Einwilligung zur Erhebung,
+Verarbeitung und Nutzung der personenbezogen Daten dar.
+
+== Datensicherheit ==
+
+Unterlagen in Papierform, werden in einem abgeschlossenen Aktenschrank im
+RaumZeitLabor aufbewahrt. Unterlagen, die nicht mehr benötigt werden, werden
+geshreddert.
+
+Administrativer Zugriff auf Server ist nur per SSH, mit Authentifizierung über
+SSH Keys, möglich. Die Server sind durch gängige Sicherheitsmechanismes (z.B.
+Firewall) geschützt und werden vom Netzwerkteam auf dem aktuellen Stand
+gehalten.
+
+Unser öffentlich zugänglicher Server steht im Rechenzentrum eines Hosters, mit
+dem wir einen entsprechenden Auftragsverarbeitungsvertrag abgeschlossen haben.
+
+== Deine Rechte ==
+
+Wenn wir personenbezogene Daten die dich betreffen verarbeiten, stehen dir die
+im Folgenden aufegzählten Rechte zu. Möchtest du diese Rechte wahrnehmen, wende
+dich bitte an den Vorstand des RaumZeitLabor e.V.
+
+=== Recht auf Bestätigung ===
+
+Du hast das Recht eine Bestätigung darüber zu verlangen, ob der RaumZeitLabor
+e.V. dich betreffende personenbezogene Daten verarbeitet.
+
+=== Recht auf Auskunft ===
+
+Du hast das Recht eine Auskunft über die Daten, die der RaumZeitLabor e.V. über
+dich erhoben hat anzufordern.
+
+=== Recht auf Berichtigung ===
+
+Du hast das Recht die Richtigstellung dich betreffender personenbezogener Daten,
+die falsch erfasst oder veraltet sind, zu verlangen.
+
+=== Recht auf Löschung (Recht auf Vergessen werden) ===
+
+Du hast das Recht die Löschung dich betreffender personenbezogener Daten zu
+verlangen. Dafür benötigen wir einen Identitätsnachweis von dir. Daten die von
+rechtlichen Aufbewahrungsfristen betroffen sind, sind von diesem Recht
+ausgenommen. Sollte eine Löschung nicht sinnvoll durchführbar sein, werden die
+Daten anonymisiert und der Personenbezug somit aufgehoben.
+
+=== Recht auf Datenübertragbarkeit ===
+
+Du hast das Recht, die über dich erhobenen Daten in einem gängigen,
+strukturierten und maschinenlesbaren Format zu erhalten und darfst diese Daten
+ohne Einschränkungen nutzen, um sie beispielsweise einem anderen Verein zu
+übertragen.
+
+=== Recht auf Widerspruch ===
+
+Du hast das Recht Widerspruch gegen die Verarbeitung personenbezogener Daten
+einzulegen, sofern keine rechtlichen oder sonstige schutzwürdigen Gründe dagegen
+sprechen.
+
+=== Automatisierte Entscheidungen im Einzelfall und Profiling ===
+
+Du hast das Recht, dass du nicht einer Entscheidung unterworfen wirst, die
+ausschließlich aufgrund automatisierter Verarbeitung oder Profiling getroffen
+wird.
+
+Der RaumZeitLabor e.V. trifft keine automatisierten Entscheidungen und wendet
+kein Profiling an.
+
+=== Recht auf Widerruf ===
+
+Du hast das Recht deine Einwilligung zur Erhebung, Vearbeitung und Nutzung
+deiner personenbezogenen Daten, auch in einzelnen Bereichen, zu widerrufen. Zum
+Beispiel kannst du deine Mitgliedschaft in einer Mailingliste jederzeit über das
+Webinterface beenden. Wenn du dir unsicher bist, wie du deine Einwilligung
+widerrufen kannst, wende dich an den Vorstand. 
+
+=== Beschwerderecht bei einer Aufsichtsbehörde ===
+
+Du hast das Recht dich bei einer Aufsichtsbehörde zu beschweren, wenn du der
+Ansicht bist, dass die Verarbeitung der dich betreffenden personenbezogenen
+Daten rechtswidrig ist.
+
+== Aktualisierung der Datenschutzerklärung ==
+
+Wir sind bemüht diese Datenschutzerklärung immer auf dem aktuellen Stand zu
+halten. Inhaltliche Änderungen an dieser Datenschutzerklärung sind daher nicht
+ausgeschlossen.
+
+Größere inhaltliche Änderungen werden wir über unsere
+raumzeitlabor@raumzeitlabor.de Mailingliste kommunizieren. Insbesondere dann,
+wenn wir neue personenbezogene Daten erheben, verarbeiten, nutzen oder an Dritte
+weitergeben.
+
+Kleinere Anpassungen wie Korrekturen an der Rechtschreibung oder
+Umstrukturierungen ohne inhaltliche Änderungen, werden wir nicht aktiv
+kommunizieren, aber ihr könnt alle Änderungen in der Änderungshistorie dieser
+Seite nachvollziehen.
+
+[[Kategorie:Verein]] [[Kategorie:Datenschutz]]
