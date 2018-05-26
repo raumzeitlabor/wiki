@@ -94,7 +94,7 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 20 GB
 |-
 | [[Mate (Server)/ranlvor.vm.rzl]]
-| 128 MB
+| 256 MB
 | 10 GB
 |-
 | [[Mate (Server)/s1lvester.vm.rzl]]
@@ -106,11 +106,11 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 20 GB
 |-
 | '''Gesamt'''
-| '''9158 MB / 12001 MB (76.31% belegt)'''
+| '''9286 MB / 12001 MB (77.38% belegt)'''
 | '''2.9 TB / 5.3 TB (55.74% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2018-05-18 00:00:02
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2018-05-27 00:00:02
 
 == Unterseiten ==
 <splist />
