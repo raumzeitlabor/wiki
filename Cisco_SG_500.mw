@@ -38,7 +38,7 @@ Der Switch-Stack im Hauptraum besteht aus einem 28-Port Cisco SG 500-28 sowie ei
 |-----
 | 1/1/12 || allow 42,2342 || ????
 |-----
-| 1/1/12 || allow 42 || [[Mate_(Server)|Mate]] LAN1
+| 1/1/15 || allow 42 || [[Mate_(Server)|Mate]] LAN1
 |-----
 | 1/1/24 || 2342 || [[Netzwerk#10.23.42.0.2F24|Management-Netz]]
 |-----
