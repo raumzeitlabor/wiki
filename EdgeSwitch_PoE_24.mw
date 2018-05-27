@@ -20,7 +20,5 @@
 |-----
 ! Port || VLAN-ID || Beschreibung
 |-----
-| 0/22 || 2342 || [[Netzwerk#10.23.42.0.2F24|Management-Netz]]
-|-----
-| 0/24 || 1,110,2342 || Uplink
+| 0/24 || 1, allow 2342 || Uplink
 |}
