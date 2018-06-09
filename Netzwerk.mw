@@ -97,7 +97,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.12 || [[cookiemonster]] || Cookiemonster (Backup-Server)
 |-----
-| 172.22.36.13 || ''reserved'' || Reserviert für Infrastruktur
+| 172.22.36.13 || beamer || Beamer
 |-----
 | 172.22.36.14 || fritzbox || Fritzbox (ISDN<->SIP Ersatz)
 |-----
