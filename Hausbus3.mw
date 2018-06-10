@@ -380,6 +380,39 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 | [[Mate (Server)/ranlvor.vm.rzl|ranlvor.vm.rzl]]
 | printing, pausing, paused, resuming, pre_print, post_print, wait_cleanup, booting, idle, error, maintenance or unreachable
 | [[Benutzer:Ranlvor|Ranlvor]]
+|-
+| /service/beamer/state
+| 
+| X
+| 0
+| 
+| Plain Text
+| Beamer
+| [[Mate (Server)/ranlvor.vm.rzl|ranlvor.vm.rzl]]
+| START_UP, unknown, START_UP_LAMP, POWER_ON, COOLING, COOLING2 or STANDBY
+| [[Benutzer:Ranlvor|Ranlvor]]
+|-
+| /service/beamer/command
+| 
+| 
+| 0
+| 
+| Plain Text
+| Beamer
+| [[Mate (Server)/ranlvor.vm.rzl|ranlvor.vm.rzl]]
+| ON, 1, OFF or 0
+| [[Benutzer:Ranlvor|Ranlvor]]
+|-
+| /service/beamer/error
+| 
+| 
+| 0
+| 
+| Plain Text
+| Beamer
+| [[Mate (Server)/ranlvor.vm.rzl|ranlvor.vm.rzl]]
+| Human readable error message for misuse of /service/beamer/command
+| [[Benutzer:Ranlvor|Ranlvor]]
 |}
 
 Beispiel zum Subscriben auf der Kommandozeile (offizieller Client):
