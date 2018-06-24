@@ -389,7 +389,7 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 | Plain Text
 | Beamer
 | [[Mate (Server)/ranlvor.vm.rzl|ranlvor.vm.rzl]]
-| START_UP, unknown, START_UP_LAMP, POWER_ON, COOLING, COOLING2 or STANDBY
+| START_UP, unknown, START_UP_LAMP, POWER_ON, COOLING, COOLING2, STANDBY or offline
 | [[Benutzer:Ranlvor|Ranlvor]]
 |-
 | /service/beamer/command
