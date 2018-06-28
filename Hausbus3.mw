@@ -414,7 +414,7 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 | Human readable error message for misuse of /service/beamer/command
 | [[Benutzer:Ranlvor|Ranlvor]]
 |-
-| /service/openhab/out/$item/state
+| /service/heimautomatisierung
 | 
 | X
 | 0
