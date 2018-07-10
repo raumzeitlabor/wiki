@@ -117,6 +117,17 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 | Befehl an den MPD: next, prev, play, pause or toggle
 | 
 |-
+| /service/mpd/error
+| 
+| 
+| 0
+| 
+| Plain Text
+| [[MPD]]
+| [[Mate (Server)/ranlvor.vm.rzl|ranlvor.vm.rzl]]
+| Human readable error message for misuse of /service/mpd/command
+| [[Benutzer:Ranlvor|Ranlvor]]
+|-
 | /service/status
 | X
 | X
