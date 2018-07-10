@@ -91,9 +91,9 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 | 
 | application/json
 | [[MPD]]
-| [[Mate (Server)/infra.rzl|infra.rzl]]
+| [[Mate (Server)/ranlvor.vm.rzl|ranlvor.vm.rzl]]
 | aktueller Track; leeres Objekt, wenn momentan nichts abgespielt wird
-| [[Benutzer:Else|else]]
+| 
 |-
 | /service/mpd/state
 | 
@@ -102,9 +102,20 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 | 
 | application/json
 | [[MPD]]
-| [[Mate (Server)/infra.rzl|infra.rzl]]
-| Zustand des MPDs. "play", "pause", "stop
-| [[Benutzer:Else|else]]
+| [[Mate (Server)/ranlvor.vm.rzl|ranlvor.vm.rzl]]
+| Zustand des MPDs. "play", "pause", "stop", "offline"
+| 
+|-
+| /service/mpd/command
+| 
+| 
+| 0
+| 
+| plain text
+| [[MPD]]
+| [[Mate (Server)/ranlvor.vm.rzl|ranlvor.vm.rzl]]
+| Befehl an den MPD: next, prev, play, pause or toggle
+| 
 |-
 | /service/status
 | X
