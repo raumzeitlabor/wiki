@@ -103,7 +103,7 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 | application/json
 | [[MPD]]
 | [[Mate (Server)/ranlvor.vm.rzl|ranlvor.vm.rzl]]
-| Zustand des MPDs. "play", "pause", "stop", "offline"
+| Zustand des MPDs. play, pause, stop, offline
 | 
 |-
 | /service/mpd/command
