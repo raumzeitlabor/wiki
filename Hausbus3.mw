@@ -446,6 +446,17 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 | [[Mate (Server)/infra.rzl|infra.rzl]]
 | Heimautomatisierungsstatus (normal ON bei Raum auf, OFF bei Raum zu, aber mit 10 Sekunden Verzögerung und Dämpfung bei schnell öffnendem/schließenden Raum)
 | [[Benutzer:Ranlvor|Ranlvor]]
+|-
+| /service/nebenraum-power
+| 
+| X
+| 0
+| 
+| ON or OFF
+| 
+| [[Mate (Server)/ranlvor.vm.rzl|ranlvor.vm.rzl]]
+| Gibt an ob [[EdgeSwitch_PoE_24]] pingt und damit ob der Strom im Nebenraum freigeschaltet ist
+| [[Benutzer:Ranlvor|Ranlvor]]
 |}
 
 Beispiel zum Subscriben auf der Kommandozeile (offizieller Client):
