@@ -1,7 +1,8 @@
 == Howto Backen ==
 # Linker Dreh-Knopf: Modus auswählen (Temperatur blinkt jetzt)
 # Rechter Dreh-Knopf: Temperatur auswählen, mit schwarzem, mittleren Knopf bestätigen (Zeit blinkt jetzt)
-# Rechter Dreh-Knopf: Backzeit auswählen (0:00 heißt unendlich lange), mit mittleren Knopf bestätigen
+# (optional) Rechter Dreh-Knopf: Backzeit auswählen, mit mittleren Knopf bestätigen
+# mit mittleren Knopf nochmal bestätigen
 
 * Ofen heizt jetzt vor (Text: PRE im Display)
 * wenn Ofen 1x piepst: Vorheizen abgeschlossen, Backzeit zählt ab diesem Moment (Text: Restzeit/Verstrichene Zeit im Display)
