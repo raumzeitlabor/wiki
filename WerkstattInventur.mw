@@ -1,12 +1,13 @@
-== Inventur der Werkstatt ==
+'''Inventur der Werkstatt''': Hier sollen alle Vorhanden Werkzeuge / Maschinen aus der Werkstatt aufgelistet werden. Somit kann besser abgeschätzt werden, was noch eingekauft werden soll.
 
-Hier sollen alle Vorhanden Werkzeuge / Maschinen aus der Werkstatt aufgelistet werden.
-Somit kann besser abgeschätzt werden was noch eingekauft werden soll.
-
+/*
+|-
+|
+|?
+|?
+*/
 
 == Werkzeuge ==
-
-
 
 ===Elektrowerkzeuge===
 
@@ -44,6 +45,38 @@ Somit kann besser abgeschätzt werden was noch eingekauft werden soll.
 |Festool FS-SYS/2 Zubehör-Set
 |?
 |?
+|-
+|not dremel
+|DaFo
+|?
+|-
+|Deltaschleifer
+|DaFo
+|?
+|-
+|Heißklebepistolenmunition / Heißklebestift
+|?
+|?
+|-
+|Deltaschleifer, Bosch, grün
+|?
+|?
+|-
+|Stichsäge
+|?
+|?
+|-
+|MAC Allister trennschleifer
+|DaFo
+|?
+|-
+|Proxxon Tischkreissäge KS 230
+|?
+|?
+|-
+|Bosch Akku-Heißklebepistole PKP 3,6 LI
+|Oko
+|?
 |}
 
 ====Verbrauchsmittel====
@@ -79,14 +112,22 @@ Somit kann besser abgeschätzt werden was noch eingekauft werden soll.
 |?
 |?
 |-
+|vernünftiger Schraubstock / Schlosserschraubstock
+|?
+|?
+|-
 |Blauer Schraubstock am Werkzeugwagen
+|?
+|?
+|-
+|Blauer Schraubstock auf einem Brett
 |?
 |?
 |}
 
 ===Sonstige Verbrauchsmittel für Handwerkzeuge===
 
-===Verschiedenes===
+==Sonstiges==
 
 {| class="wikitable" valign="top"
 !Ding
@@ -102,5 +143,4 @@ Somit kann besser abgeschätzt werden was noch eingekauft werden soll.
 |?
 |}
 
-== LOG ==
-16.10.2018 Seite Angelegt
+[[Kategorie:Werkstatt]]
