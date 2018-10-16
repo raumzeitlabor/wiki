@@ -4,7 +4,16 @@ Hier sollen alle Vorhanden Werkzeuge / Maschinen aus der Werkstatt aufgelistet w
 Somit kann besser abgeschätzt werden was noch eingekauft werden soll.
 
 
-
+== Werkzeuge ==
+{| class="wikitable"  valign = "top"
+!Ding
+!Eigentümer
+!Zustand
+|-
+|Kreissäge
+|RZL
+|OK
+|}
 
 
 == LOG ==
