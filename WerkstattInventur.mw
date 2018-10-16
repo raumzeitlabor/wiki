@@ -14,147 +14,193 @@
 ====Maschinen====
 
 {| class="wikitable" valign="top"
-!Ding
+!Typ
+!Was
 !Eigentümer
 !Zustand
 |-
-|Kleine (Platinen-)Kreissäge
+|Proxxon KS 230
+|Tischkreissäge auf einem Brett, für Platinen
+|(nicht gelabelt)
+|?
+|-
+|Proxxon KS 230
+|Tischkreissäge (verpackt)
 |?
 |?
 |-
+|Parkside PDKS 120 A1
 |Dekupiersäge
-|?
+|(nicht gelabelt)
 |?
 |-
+|Herkules H-DS 400
 |Bandschleifer
-|?
+|Feli (public)
 |?
 |-
+|Proxxon BFW 40/E
 |Standbohrmaschine
-|?
-|?
-|-
-|Makita
-|?
+|(nicht gelabelt)
 |?
 |-
-|Festo Tauchsäge TS55REBQ-Plus: Geiles Werkzeug
-|?
-|?
-|-
-|Festool FS-SYS/2 Zubehör-Set
-|?
+|Makita BHP435
+|Akkubohrmaschine im Koffer, mit 4 Akkus und Ladegerät
+|RZL
 |?
 |-
+|Festool TS 55 REBQ-Plus
+|Tauchsäge (geiles Werkzeug)
+|(nicht gelabelt)
+|?
+|-
+|Festool FS-SYS/2
+|Zubehör-Set für Tauchsäge
+|(nicht gelabelt)
+|?
+|-
+|Festool FS 1400/2
+|Profil für Tauchsäge
+|(nicht gelabelt)
+|?
+|-
+|Festool
+|Führungsschienen für Tauchsäge
+|(nicht gelabelt)
+|?
+|-
+|?
 |not dremel
 |DaFo
 |?
 |-
+|?
 |Deltaschleifer
 |DaFo
 |?
 |-
+|?
 |Heißklebepistolenmunition / Heißklebestift
 |?
 |?
 |-
+|?
 |Deltaschleifer, Bosch, grün
 |?
 |?
 |-
+|?
 |Stichsäge
 |?
 |?
 |-
-|MAC Allister trennschleifer
+|MAC Allister
+|Trennschleifer
 |DaFo
 |?
 |-
-|Proxxon Tischkreissäge KS 230
-|?
-|?
-|-
-|Bosch Akku-Heißklebepistole PKP 3,6 LI
+|Bosch
+|Akku-Heißklebepistole PKP 3,6 LI
 |Oko
 |?
 |-
-|Premier: Elektrische Farb-Sprühpistole
+|Premier
+|Elektrische Farb-Sprühpistole
 |slowpoke
 |?
 |-
-|Steinel 4307 Heatgun
+|Steinel 4307
+|Heatgun
 |?
 |?
 |-
+|?
 |Elektrotacker
 |Timon / D-Structor
 |?
 |-
+|?
 |2x Proxxon Gradschleifer
 |?
 |?
 |-
-|Steinel Gluefix Heißklebepistole
+|Steinel Gluefix
+|Heißklebepistole
 |public (ehem. DaFo)
 |?
 |-
-|Trovex Elektrische Farbspritzpistole
+|Trovex
+|Elektrische Farbspritzpistole
 |?
 |?
 |-
-|Proxxon BFW 36 Netzteil
+|Proxxon BFW 36
+|Netzteil
 |?
 |?
 |-
+|?
 |Dremel
 |?
 |?
 |-
-|Alpha-Tools KS 205 Kapp- und Gehrungssäge mit Zubehör
+|Alpha-Tools KS 205
+|Kapp- und Gehrungssäge mit Zubehör
 |?
 |?
 |-
-|Ryobi Tasche für Akkuwerkzeuge
+|Ryobi
+|Tasche für Akkuwerkzeuge
 |Feli (?)
 |?
 |-
-|Ryobi Akkuschrauber RCD1802
+|Ryobi
+|Akkuschrauber RCD1802
 |Feli (?)
 |?
 |-
-|Ryobi Akku-Stichsäge R18JS
+|Ryobi?
+|Akku-Stichsäge R18JS
 |Feli (?)
 |?
 |-
-|Ryobi Akku-Trennschleifer R18AG
+|Ryobi
+|Akku-Trennschleifer R18AG
 |Feli (?)
 |?
 |-
-|Ryobi Akku-Staubsauger CHV182
+|Ryobi?
+|Akku-Staubsauger CHV182
 |Feli (?)
 |?
 |-
-|Ryobi Akku-Leuchte R18ALF
+|Ryobi?
+|Akku-Leuchte R18ALF
 |Feli (?)
 |?
 |-
-|Ryobi Akku RB18L15
+|Ryobi?
+|Akku RB18L15
 |Feli (?)
 |?
 |-
-|Ryobi Akku RB18L40
+|Ryobi?
+|Akku RB18L40
 |Feli (?)
 |?
 |-
-|Ryobi Akku-Ladegerät BCL14181H
+|Ryobi?
+|Akku-Ladegerät BCL14181H
 |Feli (?)
 |?
 |-
+|?
 |Diverser Kleinkram in der Ryobi-Tasche (Griff, Trennscheiben, Bedienungsanleitung)
 |Feli (?)
 |?
 |-
-|Wisent Laser-Entfernungsmessgerät 40m
+|Wisent
+|Laser-Entfernungsmessgerät 40m
 |Feli (?)
 |?
 |}
@@ -194,7 +240,7 @@
 !Eigentümer
 !Zustand
 |-
-|Werkzeugwagen
+|Werkzeugwagen mit verschiedenem Werkzeug
 |?
 |?
 |-
@@ -202,15 +248,15 @@
 |?
 |?
 |-
-|vernünftiger Schraubstock / Schlosserschraubstock
+|vernünftiger Schraubstock / Schlosserschraubstock (grün)
+|?
+|in Einzelteilen
+|-
+|Heuer-Schraubstock (blau) auf einem Brett
 |?
 |?
 |-
-|Blauer Schraubstock am Werkzeugwagen
-|?
-|?
-|-
-|Blauer Schraubstock auf einem Brett
+|kleiner Schraubstock (blau) am Werkzeugwagen
 |?
 |?
 |}
@@ -228,11 +274,19 @@
 |?
 |?
 |-
+|große Klappleiter
+|?
+|?
+|-
 |Schwarzer Standventilator
 |?
 |?
 |-
 |Weißer Helm / Hardhat
+|Oki
+|?
+|-
+|ARTON metal 1000 Gehörschutz (gelb)
 |Oki
 |?
 |-
