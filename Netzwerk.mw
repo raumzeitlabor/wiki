@@ -286,6 +286,8 @@ Management-Netzwerk für Switches und Access Points.
 |-----
 | 42 || IOT
 |-----
+| 666 || Uplink
+|-----
 | 2342 || [[Netzwerk#10.23.42.0.2F24|Management-Netz]]
 |}
 
