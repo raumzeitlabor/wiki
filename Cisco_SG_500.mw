@@ -44,6 +44,10 @@ Der Switch-Stack im Hauptraum besteht aus einem 28-Port Cisco SG 500-28 sowie ei
 |-----
 | 2/1/13 || allow 42,2342 || WLAN-AP Hauptraum
 |-----
+| 2/1/21 || 666 || [[Firebox]] eth6
+|-----
+| 2/1/22 || 666 || Telekom-Hybrid-Router
+|-----
 | 2/1/23 || allow 42,2342 || WLAN-AP Nebenraum
 |-----
 | 2/1/24 || allow 2342 || [[EdgeSwitch_PoE_24|Switch Nebenraum]]
