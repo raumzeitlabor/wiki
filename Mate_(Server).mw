@@ -101,16 +101,20 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 256 MB
 | 20 GB
 |-
+| [[Mate (Server)/slowpoke.vm.rzl]]
+| 512 MB
+| 20 GB
+|-
 | [[Mate (Server)/unifi.vm.rzl]]
 | 750 MB
 | 20 GB
 |-
 | '''Gesamt'''
-| '''9286 MB / 12001 MB (77.38% belegt)'''
-| '''2.9 TB / 5.3 TB (55.74% belegt)'''
+| '''9798 MB / 12001 MB (81.64% belegt)'''
+| '''3 TB / 5.3 TB (56.11% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2018-05-27 00:00:02
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2018-11-11 16:24:42
 
 == Unterseiten ==
 <splist />
