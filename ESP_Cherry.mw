@@ -1,0 +1,27 @@
+{{ProjektInfoBox
+|name        = ESP Cherry
+|status      = stable
+|image       = ESP-Cerry.jpg
+|description = ESP, 4 Taster, 4 LEDs
+|author      = [[user:ranlvor|ranlvor]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = https://github.com/Ranlvor/ESP-Cherry
+}}
+
+Ein kleines Projekt zum Thema „wie kriege ich 4 Tasten an die Heimautomatisierung“. Besteht aus einem Wemos D1 Mini mit 4 Cherry-Tastern und 4 LEDs.
+
+== Tastenbelegung ==
+* On: Spaceautomatisierung an: Macht ein paar Geräte an (Infoscreen, Boiler, etc.), gleiche Aktion, die auch das Aufschließen der Raumtür auslößt.
+* Abort: Hat nur eine Funktion, wenn der Knopf leuchtet. Allgemeiner Abbrechen-Knopf. Bricht beim öffnen/schließen des Raumes die On/Off-Sequenz ab, Bricht den Stackenblocken/Cyberalarm ab, etc.
+* Off: Spaceautomatisierung aus: Schaltet alle Spaceautomatisierungs-Geräte aus, passiert auch beim Absperren des Raumes automatisch
+* Deko: Manuelle Umschaltung für die normalerweise Sonnenuntergangsgesteuerte Dekobeleuchtung. Nützlich im Winter, wenn alles öde und grau aussieht und man auch Tagsüber mehr bunt haben möchte
+
+== MQTT-Interface ==
+//Todo
+
+== Konfiguration ==
+//Todo
