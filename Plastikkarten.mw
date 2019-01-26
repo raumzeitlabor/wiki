@@ -7,7 +7,7 @@ Kann TRW-Thermostreifen beschreiben. Kann Karten doppelseitig beschreiben (Duple
 
 TRW Streifen beschreibt man, indem man das Farbband aus dem Drucker entfernt. Beim drucken meldet der Drucker das fehlende Farbband und mit "retry" schaltet er dann in den Thermo Modus um.
 
-Netzteil: Meanwell 24V 3,75A 90W "GS90A24" (Hint: Bei den Laptop Netzteilen?)
+Netzteil: Meanwell 24V 3,75A 90W "GS90A24" (Hint: Bei den Laptop Netzteilen? Bonushint: Der Drucker reagiert empfindlich auf Spannungsabfall und produziert mit einem zu schwachen Ersatz-Netzteil diverse nicht-offensichtliche Fehler.)
 
 Ansprechpartner: Unicorn, rami. [u.a. TabascoEye hat Treiber und Software auch installiert]
 
