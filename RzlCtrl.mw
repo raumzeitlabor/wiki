@@ -1,0 +1,73 @@
+{{ProjektInfoBox
+|name        = rzlCtrl
+|status      = experimental
+|image       = RaumZeitLabor - Logo - Schwarz.svg
+|description = I/O Hardware für den [[Hausbus3]]
+|author      = [[Benutzer:Spike|spike]]
+|maintainer  = [[Benutzer:Spike|spike]]
+|username    = 
+|version     = v0.0.1
+|update      = 
+|platform    = 
+|hostname    = 
+|license     = 
+|download    = 
+}}
+
+
+
+Im RZL gibt es diverse $Dinge die an den Hausbus3 angebunden ist bzw werden soll. Ausserdem erfordert das [[Neben3raum_(Werkstatt)|Wachstum]] zusätzliche Hardware.
+Als kontinuierlichen Weiterentwicklung soll daher eine Platine erstellt werden welche als Eierlegende Wollmilchsau möglichst vielen Ansprüchen gerecht wird.
+
+Vorschläge, Kritik und Helfer sind gerne gesehen. 
+
+
+== Aufbau ==
+Ein Atmega64 als zentraler Controller und ein ESP zur MQTT anbindung.
+Der Atmega64 soll unabhängig (lokal) vom ESP funktionieren.
+
+
+== Versorgung ==
+* 24V
+
+
+== I/O Anschlüsse ==
+
+=== 8 Digitale Ein/Ausgänge ===
+* 24V Output, Kurzschlussfest, max 1,9A Pro Kanal
+* 24V Eingang
+
+
+=== H-Bridge für Motor ===
+
+
+=== 485 BUS ===
+
+
+=== Dali ===
+Zum ansteuern von EVGs, insbesondere im [[Neben3raum_(Werkstatt)|Neben3raum]]
+* Galvanisch getrennt
+
+
+=== S0 ===
+Stichwort: Smartmeter
+* Galvanisch getrennt
+* Zeit zwischen 2 Datenpunkten?
+
+
+=== 125Khz RFID Leser ===
+
+
+=== 1-Wire Temperatursensor ===
+
+
+=== Display ===
+
+
+=== Keypad ===
+
+
+
+[[Kategorie:Projekt]]
+[[Kategorie:Hardware]]
+[[Kategorie:Infrastruktur]]
