@@ -52,10 +52,10 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x02<br>[[Benutzer:Alexander_Brock|Alexander]]
 |0x12<br>[[Benutzer:Sebi|Laborant: sebi]]
 |0x22<br>[[Benutzer:Drahti|Laborant: Drahti]]
-|0x32<br>[[Benutzer:EvilSadnes|Laborant: evil_sadness]]
+|0x32<br>leer
 |0x42<br>[[Benutzer:Slowpoke|Laborant: slowpoke]]
 |0x52<br>[[Benutzer:Inte|Laborant: Inte]]
-|0x62<br>[[Benutzer:Docsteel|Laborant: docsteel]]
+|0x62<br>leer
 |-
 |0x03<br>Luftpolsterfolie (groß)
 |0x13<br>[[Benutzer:Nicoduck|Laborant: nicoduck]]
@@ -63,7 +63,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x33<br>[[Benutzer:Ozi|Laborant: Ozi]]
 |0x43<br>[[Benutzer:Yocky96|Laborant: yocky96]]
 |0x53<br>[[Benutzer:Inte|Laborant: Inte]]
-|0x63<br>[[Benutzer:Docsteel|Laborant: docsteel]]
+|0x63<br>leer
 |-
 |0x04<br>[[Benutzer:jay|Laborant: jay]]
 |0x14<br>[[Benutzer:Nicoduck|Laborant: nicoduck]]
@@ -76,7 +76,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x05<br>[[Benutzer:ThinkJD|Laborant: thinkJD]]
 |0x15<br>[[Benutzer:Hax404|Laborant: hax404]]
 |0x25<br>[[Benutzer:Hax404|Laborant: hax404]]
-|0x35<br>Elektro-Bauteile
+|0x35<br>leer
 |0x45<br>[[Benutzer:Cheatha|Laborant: cheatha]]
 |0x55<br>[[Benutzer:don|Laborant: d0n]]
 |0x65<br>[[Benutzer:don|Laborant: d0n]]
@@ -97,7 +97,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x57<br>[[Benutzer:Felicitus|Laborant: Felicia]]
 |0x67<br>[[Benutzer:whilo|Laborant: whilo]]
 |-
-|0x08<br>Luftpolsterfolie (klein)
+|0x08<br>[[Benutzer:lutoma|Laborant:lutoma]
 |0x18<br>[[Benutzer:Felicitus|Laborant: Felicia]]
 |0x28<br>Elektro-Bauteilkästen
 |0x38<br>Kabel
@@ -186,7 +186,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0xA0<br>[[Benutzer:Deramon|Laborant: deramon]]
 |-
 |0x71<br>[[Benutzer:Echo mirage|Laborant: echo_mirage]]
-|0x81<br> Blinkin Rockets - Agenda-Diplom
+|0x81<br> leer
 |0x91<br>Glasfasermatten
 |0xA1<br>Stoffe (aus 9G)
 |-
@@ -197,10 +197,10 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |-
 |0x73<br>Netzteil
 |0x83<br>[[Benutzer:Pitchbent|Laborant:pitchbent]]
-|0x93<br>'''leer'''
+|0x93<br>Holzreste
 |0xA3<br>Pinsel & Farben
 |-
-|0x74<br>'''leer'''
+|0x74<br>Brandschutzspray
 |0x84<br>Holzponies (Mobilee, TüröffnerTag, public)
 |0x94<br>Holzponies (Mobilee, TüröffnerTag, public) join with 84?
 |0xA4<br>DevCoffee
@@ -241,11 +241,11 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0xAB<br>Ultimaker (PLA), CNC-Fräse Teile
 |-
 |0x7C<br>Türschließer
-|0x8C<br>[[Benutzerin:aeus|Laborant: aeus]]
+|0x8C<br>MRMCD
 |0x9C<br>MRMCD
 |0xAC<br>[[Benutzerin:Ralf|Laborant: Ralf]]
 |-
-|0x7D<br>Plankins
+|0x7D<br>Plan C/Agenda Diplom
 |0x8D<br>Agenda Diplom
 |0x9D<br>Stickbedarf
 |0xAD<br>Sticken
