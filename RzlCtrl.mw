@@ -21,15 +21,22 @@ Als kontinuierlichen Weiterentwicklung soll daher eine Platine erstellt werden w
 
 Vorschläge, Kritik und Helfer sind gerne gesehen. 
 
+== Eierlegende Wollmilchsau ==
+* Türsteuerung
+** Pinpad aussen mit RS485 nach innen
+** Pin Prüfung / Motor Ansteuerung / Sensoren innen
+* Lichtsteuerung
+* "Zugangskontrolle" für Laser (Nein, es kommt nicht an jede Maschine so ein teil)
+
 
 == Aufbau ==
 Ein Atmega64 als zentraler Controller und ein ESP zur MQTT anbindung.
-Der Atmega64 soll unabhängig (lokal) vom ESP funktionieren.
+Der Atmega64 soll alle Funktionen Unabhängig vom ESP (offline) erledigen können.
 
 
 == Versorgung ==
 * 24V
-
+* 5V+ für Motor
 
 == I/O Anschlüsse ==
 
@@ -39,14 +46,21 @@ Der Atmega64 soll unabhängig (lokal) vom ESP funktionieren.
 
 
 === H-Bridge für Motor ===
+6A, 5-25V, unkaputtbar (laut Hersteller)
 
 
 === 485 BUS ===
+192008N1
+* Protokoll
+ z.B.: <SOH>Version<RS>Ziel-Adresse<STX>$data<ETX>16Bit CRC<EOT>
+ Oder: Klartext zwischen Pinpad und Tür (kiss :-)
 
 
 === Dali ===
 Zum ansteuern von EVGs, insbesondere im [[Neben3raum_(Werkstatt)|Neben3raum]]
 * Galvanisch getrennt
+* Reicht für 30 EVGs
+* Die EVGs müssen vorher mit einer individuellen Adresse versehen werden
 
 
 === S0 ===
@@ -56,15 +70,38 @@ Stichwort: Smartmeter
 
 
 === 125Khz RFID Leser ===
+Nur für die simplen "Serial Number" Tags
 
 
 === 1-Wire Temperatursensor ===
+* Wenn Ausserhalb der Platine gemessen werden soll können weitere Sensoren auf den RS485 Bus geschaltet werden.
 
 
 === Display ===
+Irgendwas zwischen 1X8 und 2x16
 
 
 === Keypad ===
+4x4 Matrix
+
+
+== Gehäuse ==
+Zur Diskusion stehen:
+* Bopla regelocard
+* Irgendwas für Hutschiene
+
+
+== Software ==
+Die für den AVR schreibt [[Benutzer:Spike|spike]], für den ESP werden noch freiwillige gesucht.
+
+
+=== Struktur ===
+* ESP Übersetzt zwischen RS232 (AVR) udn WLAN (MQTT/https)
+** RS232 Protokoll ist noch festzulegen
+** soll regelmässig die Pins von der UserDB per https hohlen und zum AVR schicken
+* AVR kümmert sich die I/Os
+** offline PIN Kontrolle und Türsteuerung
+
 
 
 
