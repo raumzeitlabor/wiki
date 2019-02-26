@@ -117,6 +117,26 @@ Das Krachbummlabor zieht zurück an die andere Seite des Olymps über dem E-Labo
 
 --[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 20:40, 24. Feb. 2019 (CET)
 
+=== Linienlaser für neuen Laser ===
+
+Ich würde gerne dem neuen Laser 2 Linienlaser verpassen um Werkstücke leichter ausrichten zu können. Dafür brauche ich 2 Linienlaser, Kabel, eine 5V-Quelle, Schrauben Muttern Unterlegscheiben und ggf. einen Arduino zum dimmen.
+
+Ich habe ein bischen recherchiert und folgendes Lasermodul
+herausgesucht:
+
+https://www.laserfuchs.de/de/linienlaser/lfl635-5-69x2090-f250
+
+Es gibt billigere Laser, die haben dann aber 650nm anstelle von 635nm was schlechter sichtbar ist und der Fokusabstand ist mit >=1m vs. 25cm
+weniger günstig.
+
+Kosten: 
+2x Linienlaser 40€
+Kleinkram maximal 40€
+
+Insgesamt maximal 80€
+
+--[[Benutzer:Alexander Brock|Alexander Brock]] ([[Benutzer Diskussion:Alexander Brock|Diskussion]]) 02:38, 26. Feb. 2019 (CET)
+
 == Sonstiges ==
 
 [[Kategorie:Veranstaltung]]
