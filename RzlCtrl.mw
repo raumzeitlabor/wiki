@@ -92,14 +92,14 @@ Zur Diskusion stehen:
 
 
 == Software ==
-Die für den AVR schreibt [[Benutzer:Spike|spike]], den ESP8266 übernimmt [[Benutzer:Borax|borax]].
+Die für den AVR schreibt [[Benutzer:Spike|spike]], für den ESP werden noch freiwillige gesucht.
 
 
 === Struktur ===
 bisherige Überlegungen:
 * ESP Übersetzt zwischen RS232 (AVR) udn WLAN (MQTT/https)
 ** RS232 Protokoll ist noch festzulegen
-** soll regelmässig die Pins von der UserDB per https hohlen und zum AVR schicken (https, bisher hat die Schnittstelle von der userDB nur http, [[Benutzer:ranlvor|ranlvor]] wird sie auf https upgraden)
+** soll regelmässig die Pins von der UserDB per https hohlen und zum AVR schicken (https, bisher hat die Schnittstelle von der userDB nur http, ranlvor wird sie auf https upgraden)
 ** ESP hat fixe topics die er abonniert und neue Ereignisse immer an den AVR weiterleitet
 ** ESP sendet topics entsprechend der Daten die er vom AVR bekommt. Die komplette Logik befindet sich im AVR, der ESP leitet stumpf durch
 
