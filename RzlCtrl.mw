@@ -100,13 +100,15 @@ bisherige Überlegungen:
 * ESP Übersetzt zwischen RS232 (AVR) udn WLAN (MQTT/https)
 ** RS232 Protokoll ist noch festzulegen
 ** soll regelmässig die Pins von der UserDB per https hohlen und zum AVR schicken (https, bisher hat die Schnittstelle von der userDB nur http, [[Benutzer:ranlvor|ranlvor]] wird sie auf https upgraden)
-** ESP hat fixe topics die er abonniert und neue Ereignisse immer an den AVR weiterleitet
+** ESP hat fixe topics (to be defined) die er abonniert und neue Ereignisse immer an den AVR weiterleitet
 ** ESP sendet topics entsprechend der Daten die er vom AVR bekommt. Die komplette Logik befindet sich im AVR, der ESP leitet stumpf durch
 
-* AVR kümmert sich die I/Os
+* AVR kümmert sich um die I/Os
 ** offline PIN Kontrolle und Türsteuerung
 
-
+=== Kommunikation zwischen ESP und AVR ===
+Die Kommunikation läuft über Seriell direkt auf der Platine. Die Geschwindigkeit wurde erstmal auf 115200 BAUD festgelegt (kein tieferer Grund). Zeitlich ist das ganze nicht weiter kritisch.
+Auf der Platine ist eine Reset-LEitung vorgesehen mit der es dem AVR möglich ist, den ESP im Falle von Problemen zurückzusetzen (quasi wie ein Watchdog). Aus diesem Grund sollte der ESP regelmäßig Heartbeat Botschaften an den AVR senden. Am besten könnte man in diesen Botschaften ein paar Informationen an den AVR weitergeben, so wie WiFi status, MQTT Status usw. Das ist bisher aber noch nicht definiert.
 
 
 [[Kategorie:Projekt]]
