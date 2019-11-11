@@ -1,19 +1,19 @@
 {{ProjektInfoBox
 |name        = Fnordcredit
-|status      = beta
+|status      = stable
 |image       = 
 |description = Digitales Guthabensystem
-|author      = [[Benutzer:Silsha|silsha]]
+|author      = [[Benutzer:uwap|uwap]]
 |username    = 
-|version     = v1.0
-|update      = 
-|platform    = 
+|version     = v2.2.1
+|update      = 2019-10-06
+|platform    = JavaScript
 |preis       = 
 |license     = MIT
-|download    = https://github.com/silsha/fnordcredit
+|download    = https://github.com/fnordcredit/fnordcredit
 }}
 
-'''Fnordcredit''' ist die Software, die das digitale Guthabensystem im RaumZeitLabor bereitstellt. Es wurde von [[Benutzer:Silsha|silsha]] entwickelt und ist über den Touchscreen an der Snackbar bedienbar.
+'''Fnordcredit''' ist die Software, die das digitale Guthabensystem im RaumZeitLabor bereitstellt. Es wurde von [[Benutzer:Silsha|silsha]] entwickelt und ist über den Touchscreen an der Snackbar bedienbar. Derzeit kümmert sich [[Benutzer:uwap|uwap]] darum.
 
 == Benutzung ==
 === Account erstellen ===
