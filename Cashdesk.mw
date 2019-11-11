@@ -1,8 +1,8 @@
 {{ProjektInfoBox
-|name        = Cachdesk
-|status      = beta
+|name        = Cashdesk
+|status      = obsolete
 |image       = Cashdesk.jpg
-|description = Aktuelle Information über das RaumZeitLabor
+|description = Wurde von [[Fnordcredit]] ersetzt.
 |author      = [[Benutzer:Silsha|silsha]]
 |username    = 
 |version     = v0.1
@@ -18,13 +18,3 @@ Damit du nicht bei jedem Kauf Kleingeld parat haben mußt, gibt es im RaumZeitLa
 Aktuell wird dafür die Software "[https://github.com/hackerspace-bootstrap/strichliste Strichliste]" verwendet. Die Nutzung des Systems ist sehr einfach:
 
 Die Webseite ist auf dem Tablet, das in der Snackbar steht dauerhaft aufgerufen. Sollte sie das einmal nicht sein, findest du sie unter http://cashdesk.rzl. Zuerst eröffnest Du dir ein Konto, indem du auf das ⊞-Symbol am Ende der Liste der Active Users tippst und einen Name eingibst. Ab jetzt kannst du Geld auf das Konto einzahlen und von ihm abbuchen. Dazu tippst du einfach in der Liste auf deinen Name und danach auf den Betrag, den du aufladen oder abbuchen möchtest.
-
-[[Kategorie:Projekt]]
-[[Kategorie:Hardware]]
-[[Category:Procedures]]
-[[Category:Verein]]
-[Kategorie:Organisation]
-[[Kategorie:Projekt]]
-[[Kategorie:shopping]]
-[[Kategorie:Raum-Kommerz-Labor]]
-[[Kategorie:Finanzen]]
