@@ -5,11 +5,16 @@ Kümmert sich um die Dokumentation von Projekten, Veranstaltungen etc.
 * [[Benutzer:Helix|Helix]]
 
 == Aufgaben ==
-* Projekte im Wiki dokumentieren
+
 * Refactoring des Wikis
-* Erstellung von Dokumentation zum RZL
+** Dinge, die getan werden müssen, finden sich z.B. in [[Hack_the_Wiki_2.0]] oder [[TODO]]
+* Projekte im Wiki dokumentieren
 * Reden mit Leuten, was sie gerade tun
 * Leute animieren, ihre Projekte im Wiki zu dokumentieren
+* Erstellung von Dokumentation zum RZL
+
+=== Tipps zum Refactoring ===
+* Viele Sachen sind doppelt und dreifach vorhanden. Mit <nowiki>#REDIRECT [[Seitenname]]</nowiki> kann man die umleiten.
 
 == nächstes Treffen ==
 TBD
