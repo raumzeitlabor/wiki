@@ -1,6 +1,6 @@
 {{ProjektInfoBox
 |name        = Raumtelefon
-|status      = beta
+|status      = broken
 |image       = Raumtelefon.jpg
 |description = Das Raumtelefon.
 |author      = [[Benutzer:Lutoma|lutoma]] [[Benutzer:nicoduck|nicoduck]]
@@ -23,6 +23,8 @@ Sind explizit möglich. Für Festznetz gibt's eine Flatrate, Handynetzanrufe bez
 
 Ausgehende Anrufe übers Eventphone-VPN gehen auch.
 
+== Eingehende Anrufe ==
+Funktionieren manchmal nicht. Am anderen Ende könnte jemand sein oder auch nicht. Das könnte mal jemand™.
 
 == Verteilte Telefone ==
 
