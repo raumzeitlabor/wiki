@@ -13,8 +13,24 @@ Kümmert sich um die Dokumentation von Projekten, Veranstaltungen etc.
 * Leute animieren, ihre Projekte im Wiki zu dokumentieren
 * Erstellung von Dokumentation zum RZL
 
+=== Projekte, bei denen man mal nachfragen könnte ===
+{|
+!Projekt
+!möglicher Ansprechpartner
+|-
+|[[PRON (LED-Wall)]]
+|TabascoEye
+|-
+|}
+
 === Tipps zum Refactoring ===
 * Viele Sachen sind doppelt und dreifach vorhanden. Mit <nowiki>#REDIRECT [[Seitenname]]</nowiki> kann man die umleiten.
+
+=== Ideen zum Refactoring ===
+* Namespace für Projekte anlegen
+* Automatisches Einsortieren von Projekten in eine übersichtliche Tabelle
+** kleines Bild, Projektstatus, Projektname, Menschen die mitarbeiten
+** könnte man automatisch aus der Projektbox generieren?
 
 == nächstes Treffen ==
 TBD
