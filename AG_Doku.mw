@@ -25,6 +25,7 @@ Kümmert sich um die Dokumentation von Projekten, Veranstaltungen etc.
 
 === Tipps zum Refactoring ===
 * Viele Sachen sind doppelt und dreifach vorhanden. Mit <nowiki>#REDIRECT [[Seitenname]]</nowiki> kann man die umleiten.
+* Man kann sich über eine [[:Spezial:Zufällige_Seite|Zufällige_Seite]] anzeigen lassen und diese dann einfach mal bearbeiten!
 
 === Ideen zum Refactoring ===
 * Namespace für Projekte anlegen
