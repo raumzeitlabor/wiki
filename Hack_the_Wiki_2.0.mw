@@ -4,12 +4,12 @@
 |status      = beta
 |image       = 
 |imagesize   = 
-|description = Wartung von $this
-|author      = [[Benutzer:Felicitus|Felicitus]], [[Benutzer:Tiefpunkt|tiefpunkt]] und $du
+|description = Wartung des Wikis, welches an dieser Stelle angezeigt werden sollte
+|author      = [[AG Doku]] und du!
 |username    = 
-|version     = 
-|update      = 
-|platform    = 
+|version     = 3.0
+|update      = 2019-11-12
+|platform    = Mediawiki
 |license     = 
 |download    = 
 }}
