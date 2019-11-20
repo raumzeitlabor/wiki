@@ -73,10 +73,6 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 3072 MB
 | 40 GB
 |-
-| [[Mate (Server)/kadser]]
-| 768 MB
-| 6 GB
-|-
 | [[Mate (Server)/kunterbunt.vm.rzl]]
 | 768 MB
 | 20 GB
@@ -110,11 +106,11 @@ Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möcht
 | 20 GB
 |-
 | '''Gesamt'''
-| '''9566 MB / 12001 MB (79.71% belegt)'''
-| '''2.9 TB / 5.3 TB (55.85% belegt)'''
+| '''8798 MB / 12001 MB (73.31% belegt)'''
+| '''2.9 TB / 5.3 TB (55.74% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2019-11-20 00:00:02
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2019-11-21 00:00:02
 
 == Unterseiten ==
 <splist />
