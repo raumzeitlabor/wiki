@@ -1,6 +1,6 @@
 {{ProjektInfoBox
 |name        = qrgo.vm.rzl
-|status      = experimental
+|status      = stable
 |image       = 
 |description = VM für [[QRGO]]
 |author      = cheatha
