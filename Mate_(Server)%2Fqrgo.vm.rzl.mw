@@ -3,10 +3,10 @@
 |status      = experimental
 |image       = 
 |description = VM für [[QRGO]]
-|author      = [[Benutzer:cheatha|cheatha]]
-|username    = 
+|author      = cheatha
+|username    = cheatha
 |version     = 
-|update      = 2013-11-03
+|update      = 2019-11-30
 |platform    = 
 |hostname    = qrgo.vm.rzl
 |license     = 
@@ -15,6 +15,9 @@
 
 === Zweck ===
 URL-Shortener [https://yourls.org/ Yourls] für [[QRGO]]-Projekt. Er übersetzt die URLs der im Raumverteilten QR-Codes in Wiki-URLs.
+
+=== Ablauf ===
+Möchtest du einen Admin-Account um selbst Kurz-URLs erstellen zu können? Dann melde dich bei den Admins dieses Dienstes.
 
 == Setup==
 In der VM läuft ein Webserver, eine MySQL-Datenbank sowie der URL-Shortner Yourls.
