@@ -14,7 +14,8 @@
 }}
 
 === Zweck ===
-URL-Shortener Yourls für [[QRGO]]-Projekt. Er übersetzt die URLs der im Raumverteilten QR-Codes in Wiki-URLs
+URL-Shortener [https://yourls.org/ Yourls] für [[QRGO]]-Projekt. Er übersetzt die URLs der im Raumverteilten QR-Codes in Wiki-URLs.
+
 == Setup==
 In der VM läuft ein Webserver, eine MySQL-Datenbank sowie der URL-Shortner Yourls.
 == Eckdaten ==
