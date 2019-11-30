@@ -18,6 +18,7 @@ URL-Shortener [https://yourls.org/ Yourls] für [[QRGO]]-Projekt. Er übersetzt 
 
 === Ablauf ===
 Möchtest du einen Admin-Account um selbst Kurz-URLs erstellen zu können? Dann melde dich bei den Admins dieses Dienstes.
+*TODO*: Einen kleinen Webdienst anlegen, der es aus dem internen Netz erreichbar ist und über die [[http://yourls.org/#API YOURLS-API]] es ohne Anmeldung ermöglichst URLs zu kürzen, die fortlaufend nummerniert werden
 
 == Setup==
 In der VM läuft ein Webserver, eine MySQL-Datenbank sowie der URL-Shortner Yourls.
