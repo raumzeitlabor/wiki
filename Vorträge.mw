@@ -55,7 +55,7 @@ Ein Referent wurde zu einem Themenwunsch gefunden oder es werden Interessenten f
 Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend Interessenten da sind, wird ein Datum gesetzt, wann der Vortrag gehalten wird.
 
 {| class="wikitable sortable td-top"
-!Geplant seit
+!Angeboten seit
 !Datum
 !Titel
 !Referent
@@ -67,6 +67,13 @@ Wer einen Vortrag halten möchte trägt sich hier bitte ein - sobald genügend I
 | Arduino-Programmierung
 | [[Benutzer:Steeph|steeph]]
 | Zielgruppe: Anfänger. Je nach Wunsch und Kenntnisstand: Vorstellung der Plattform und "Arduino-kompatibler" Boards, Arduino-IDE, Alternativen/Programmieren ohne IDE, Arduino und Python. Gerne im Workshop-Format
+| 
+|-
+| 2019-12
+| -
+| Backup-Lösungen unter Linux
+| [[Benutzer:Steeph|steeph]]
+| Zielgruppe: Anfänger. "Kein Backup, kein Mitleid!" Aber ich gebe gerne eine Hilfestellung, indem ich ein paar rsync-Scripte, rdiff-backup und ein paar GUI-Tools vorstelle.
 | 
 |}
 
