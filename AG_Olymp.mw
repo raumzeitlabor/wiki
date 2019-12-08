@@ -4,6 +4,15 @@ Diese Arbeitsgruppe betreut den [[Olymp]].
 * [[Benutzer:Helix|Helix]]
 * [[Benutzer:ner0|ner0]]
 
+== ToDo ==
+* Befestigung auf den Stahlträgern
+** kleben ist nicht dauerhaft genug
+* Strom neben die LEDs legen
+** ca. 3A pro Meter – Leiterquerschnitt muss krass werden
+
+== Done ==
+* LEDs funktionieren mittlerweile mit [https://github.com/Makuna/NeoPixelBus NeoPixelBus]
+
 == nächstes Treffen ==
 Am Sonntag, den 17.11.2019 soll besprochen werden, wie die LEDs angeschlossen werden und wie das weitere Vorgehen ist.
 
