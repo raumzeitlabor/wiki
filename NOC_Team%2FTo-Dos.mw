@@ -41,3 +41,9 @@ Zukunft: Redundanz? Idee: KVM over 2 Nodes mit GlusterFS. Keinen DAU-kompatiblen
 == UserDB ==
 
 Redundanter Punkt. Vielleicht realisieren wir in NOC-Kommunikation etwas und führen das dann zusammen.
+
+== Mailserver ==
+
+=== Spamfilter ===
+
+Überarbeitung und Erweiterung. Wir bekommen keine Viagramails, aber einiges an Werbung. *Erst* Spamfilter, *dann* Unterpunkt Blocklisten ;-)
