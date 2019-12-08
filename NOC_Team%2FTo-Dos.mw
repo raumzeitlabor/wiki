@@ -21,6 +21,38 @@ Gespräch mit Spike am Dienstag 10.12.19 -Lordeis
 Zukunft ab 01.01.2020? Kübler Glasfaser?<br />
 Fürs erste wenn möglich über das /56 Netz dass am Telekom Router anliegt. -Lordeis
 
+=== Switches ===
+Inventur aller Switche und Firmware Stand prüfen 
+
+==== Cisco Stack E Werkstatt ====
+Update von Cisco verfügbar: '''1.4.11.02'''<br />
+Diskussion ob Update durchgeführt werden soll? -Lordeis
+
+=== Router ===
+==== Ubiquity ====
+Auseinandersortieren der Netzwerkverbindungen.<br />
+Reverse Engineering und Dokumentieren der Konfiguration.
+IPv6 Konfiguration.
+
+==== Speedport (Telekom) ====
+Reverse Engineering und Dokumentieren der Konfiguration.
+IPv6 Konfiguration.
+
+=== WIFI Access Points ===
+==== Ubiquity ====
+Reverse Engineering und Dokumentieren der Konfiguration.<br />
+Auseinadersortieren der SSIDs:
+                              Prüfen ob alle SSIDs nötig sind.                              
+                              Diskutieren ob Band Steering Sinvoll Wäre.
+                              Prüfen ob Layer 3 Roaming Sinnig ist.
+
+Prüfung ob ein zusätzlicher Unify AP für die Werkstatt sinn macht.<br />
+Auslagern des RZL IOT WLAN auf anderen AP.
+
+==== IOT Accesspoint ====
+Extra AP verwenden da Performance Probleme.<br />
+Ich habe noch einen Lancom Rumliegen den ich Spenden würde? -Lordeis
+
 == Hypervisor ==
 
 === RAM ===
