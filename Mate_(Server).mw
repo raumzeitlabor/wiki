@@ -43,6 +43,77 @@
 == Unterseiten ==
 Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möchtest Du etwas auf den Systemen installiert haben, dann paketiere es bitte. Auf den Mitglieder-VMs kann alles so installiert werden, wie gewünscht.
 
+== reboot ==
+(stand 12-2019)
+
+Rebootfest gibt an, ob die Dienste innerhalb der VM nach einem Reboot der VM von alleine sauber hoch kommen. Rebootfest sagt nicht zwingend, dass die VM einen Reboot von Mate sauber übersteht.
+
+{| class="wikitable"  valign="top"
+! VM
+! Rebootfest
+! Anmerkungen
+|-
+| [[Mate (Server)/0xb4dc0d3d.vm.rzl]]
+| unbekannt
+| 
+|-
+| [[Mate (Server)/abrock.vm.rzl]]
+| unbekannt
+| verliert beim Host-Reboot vermutlich das USB-Device zum Stromzähler
+|-
+| [[Mate (Server)/cashdesk.rzl]]
+| ja
+| 
+|-
+| [[Mate (Server)/datengrab.rzl]]
+| nein
+| 
+|-
+| [[Mate (Server)/db.rzl]]
+| unbekannt
+| 
+|-
+| [[Mate (Server)/freeswitch.vm.rzl]]
+| nein
+| verliert VLAN-Config und damit Doppel-NAT-freien Internet-Uplink
+|-
+| [[Mate (Server)/infra.rzl]]
+| ja
+| verliert beim Host-Reboot vermutlich das USB-Device zu den [[Funksteckdosen]]
+|-
+| [[Mate (Server)/kunterbunt.vm.rzl]]
+| nein
+| MQTT -> Graphite-Bridge muss manuell gestartet werden
+|-
+| [[Mate (Server)/lutoma.vm.rzl]]
+| unbekannt
+| 
+|-
+| [[Mate (Server)/partkeepr.rzl]]
+| unbekannt
+| 
+|-
+| [[Mate (Server)/qrgo.vm.rzl]]
+| unbekannt
+| 
+|-
+| [[Mate (Server)/rami.vm.rzl]]
+| unbekannt
+| 
+|-
+| [[Mate (Server)/ranlvor.vm.rzl]]
+| ja
+| 
+|-
+| [[Mate (Server)/s1lvester.vm.rzl]]
+| unbekannt
+| 
+|-
+| [[Mate (Server)/unifi.vm.rzl]]
+| unbekannt
+| 
+|}
+
 == VMs ==
 {| class="wikitable"  valign="top"
 ! VM
