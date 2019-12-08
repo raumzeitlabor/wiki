@@ -20,6 +20,10 @@ Welche Möglichkeiten zum Update gibt es?
 
 Aktuelles To-Do: Dokumentation Hardwaremöglichkeiten - [[Benutzer:0xb4dc0d3d|0xb4dc0d3d]]
 
+=== Rechtekonzept ===
+
+User sollten ihre VMs durchstarten können. Geht Hand in Hand mit dem Gedanken, nicht mehr überall als root zu springen und alles als root zu tun, stattdessen Nutzung sudo und mittelfristig ggf. Anbindung an [[#UserDB|UserDB]].
+
 === Serverhardware ===
 
 Zukunft: Redundanz? Idee: KVM over 2 Nodes mit GlusterFS. Keinen DAU-kompatiblen Kram wie oVirt, wir sollten bei KVM bleiben.
