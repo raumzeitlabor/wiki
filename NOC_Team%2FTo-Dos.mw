@@ -30,6 +30,10 @@ Person mit Hut: [[Benutzer:0xb4dc0d3d|0xb4dc0d3d]]
 
 Prüfen, was noch aktiv ist, und nach einer geordneten(!) Inventarisierung Mitglieder bei Bedarf anschreiben. Im Zweifelsfall Downtime und einen Zeitraum X auf Reaktion warten.
 
+=== VM-Struktur ===
+
+Ordnung schaffen: Sind Dinge(tm) produktiv, sollten diese auf dedizierte VMs, gutes Beispiel hier: [[cashdesk.rzl]] (leider auch gutes Beispiel für undoumentierte VM).
+
 === Serverhardware ===
 
 Zukunft: Redundanz? Idee: KVM over 2 Nodes mit GlusterFS. Keinen DAU-kompatiblen Kram wie oVirt, wir sollten bei KVM bleiben.
