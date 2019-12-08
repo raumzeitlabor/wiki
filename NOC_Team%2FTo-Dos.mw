@@ -1,0 +1,25 @@
+== Internetleitung ==
+
+=== Inventur ===
+
+Welche Leitungen haben wir, welche Möglichkeiten zum Upgrade gibt es?
+
+=== Freifunk + IPv6 ===
+
+Zukunft ab 01.01.2020? Kübler Glasfaser?
+
+== Hypervisor ==
+
+=== RAM ===
+
+Welche Möglichkeiten zum Update gibt es?
+
+Aktuelles To-Do: Dokumentation Hardwaremöglichkeiten - [[Benutzer:0xb4dc0d3d|0xb4dc0d3d]]
+
+=== Serverhardware ===
+
+Zukunft: Redundanz? Idee: KVM over 2 Nodes mit GlusterFS. Keinen DAU-kompatiblen Kram wie oVirt, wir sollten bei KVM bleiben.
+
+== UserDB ==
+
+Redundanter Punkt. Vielleicht realisieren wir in NOC-Kommunikation etwas und führen das dann zusammen.
