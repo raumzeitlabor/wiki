@@ -77,6 +77,8 @@ Prüfen, was noch aktiv ist, und nach einer geordneten(!) Inventarisierung Mitgl
 
 Ordnung schaffen: Sind Dinge(tm) produktiv, sollten diese auf dedizierte VMs, gutes Beispiel hier: [[cashdesk.rzl]] (leider auch gutes Beispiel für undoumentierte VM).
 
+Kommentar Ranlvor: cashdesk ist ein schlechtes Beispiel, da das eigentlich mal eine MemberVM war und neben cashdesk auch den Infoscreen hosted.
+
 === Serverhardware ===
 
 Zukunft: Redundanz? Idee: KVM over 2 Nodes mit GlusterFS. Keinen DAU-kompatiblen Kram wie oVirt, wir sollten bei KVM bleiben.
