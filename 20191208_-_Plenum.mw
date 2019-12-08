@@ -1,0 +1,130 @@
+Anwesend: 17
+Beginn: gegen 14:30
+
+== Einleitung ==
+* Seit 1/2 Jahr kein Plenum mehr
+
+* Langsam wieder mehr Schwung:
+** Küchenabluft läuft wieder
+** Olymp läuft wieder
+** Holzwerkstatt läuft
+** Team Retro: Projekt NeoGeo begonnen
+
+* Zuständigkeiten:
+** 2 Neue Leute für NOC gefunden
+** Andere Stellen?
+
+== Meta-Plenum ==
+* Vorschlag: Plenum alternieren, nicht jeden ersten Sonntag
+* Verschiedene Menschen melden sich zu Wort, dass sie am ersten Sonntag nie Zeit haben, aber am z.B. zweiten/dritten/vierten
+* Gegenmeinung: kompliziertes System sorgt für weniger Plenumsteilname
+* Dienstag für Plenum? Eher Nein, weil es neue Leute abschrecken könnte
+* Vorschlag: Doodle für besten Termin
+* Vorschlag: Halbes Jahr ohne Plenum -> wir hatten keine Punkte für ein Plenum -> Plenum nur nach Bedarf?
+* Plenum war ja ursprünglich gedacht als Vereins-Statusupdate. Ist also auch ohne explizite Punkte sinnvoll
+
+* Antrag: „Wer ist dafür, dass wir das mit dem Doodle machen, einmalig, zum testen?“
+** Dafür: ungefähr 6, Enthaltungen: wurden nicht gezählt, Dagegen: wurden nicht gezählt, Antrag angenommen
+
+* Diskussion zum Thema „Plenum nur alle 2 Monate“
+** Vorschlag: Monatliches Plenum, jedes 3. Plenum „großes Plenum“ für Leute, denen monatlich zu oft ist
+
+* Großes spekulieren, warum wir so lange kein Plenum hatten. Antwort: Wir wissen es nicht
+
+== Congress ==
+* Assembly mit 15 Sitzplätzen ist angemeldet. Wer ist da? Wer hat Bock? Was wollen wir machen? Was nehmen wir mit? Läuft was im RZL für Daheimgebliebene?
+* Congress everywhere: Ankündigen wäre Sinnvoll um neue anzuziehen, aber dann müsste auch jemand da sein und sich kümmern.
+** 3 Freiwillige melden sich
+* Andreas hat noch Platz für 1 Person + Sperrgepäck
+** mehr Leute mit Platz melden sich
+* Spike&Marry wollen wohl was mit Bausätzen machen -> Lötkoffer einpacken
+* Laser einpacken? Eher nope, weil Tabascoeye keinen Bock hat sich alleine kümmern
+** 3 Freiwillige melden sich
+** letztes Jahr schlechte Lage -> eher kein Bedarf an Laser/Schneidplotter / keine gute Stelle um den Laser stabil aufzubauen
+** Längere Diskussion Laser ja/nein
+** Fazit: Die Leute, die zum Congress fahren, sollen sich zusammensetzen und abklären, was gemacht wird.
+
+== „Hausmeisterthemen“ - Stühle ==
+* Urteil zu den Testkäufen:  „beide hart scheiße“
+* Meinungen über die aktuellen Stühle sind gemischt (ok / scheiße)
+* Idee: Sitzkissen kaufen (siehe [https://wiki.raumzeitlabor.de/wiki/20190303_-_Plenum#St.C3.BChle_und_Kissen | März-Plenum])
+* Lose Sitzkissen bringen nix, weil die auf dem Boden landen und dann irgendwann verschwinden
+* Wir haben vor einiger Zeit 50 von den aktuellen Hauptraumstühlen verschenkt. Die Beschenkten brauchen diese nicht in dieser Anzahl, daher nehmen wir Anfang nächsten Jahres 25 von den Stühlen zurück. Die sind zwar nicht geil, aber gratis und robust.
+
+== Pläne 2020 ==
+* Projekte „neue Werkstat“ & Neustrukturierung Nebenräume soll weiter gehen
+** Laserabluft (aber erst wenn es wieder wärmer wird)
+* Projekt „Küchenabluft“ soll weiter gehen (wenn es wieder wärmer wird)
+* NOC:
+** Debian oldoldstable -> oldstable/stable?
+** Projekt „mehr RAM für mehr VM-Kapazität“
+*** Tabascoeye: Auf Mailingliste schreiben, wenn das keiner im Keller hat Kassenwart fragen und einfach kaufen
+** Vielleicht Nutzerrechte auf Hypervisor für mehr VM-Selfservice
+** Doku! vervollständigen, aktuallisieren
+** Netzwerk-Altlasten aufräumen
+** IPv6 wird vorraussichtlich 1. Januar mit dem Ende von Freifunk Rhein Neckar kaputt gehen -> sollte man mal fixen
+** Vielleicht mal Monitoring?
+** Man merkt an, dass es taktisch unklug ist wichtige Dienste (z.B. cashdesk) in MemberVMs zu betreiben
+* Projekt „Wiki aufräumen“
+** Mehr Templates, mehr Kategorien, mehr Reviews
+** Templates aufräumen
+* eine Person macht Map & Fnordcredit (Cashdesk) -> wer Bock auf JavaScript hat kann sich gerne bei uwap melden
+
+== Zersplitterte Kommunikation ==
+* IRC, Discord, Mailingliste, Essens-Mailingliste, RocketChat ([https://chat.raumzeitlabor.org/ chat.raumzeitlabor.org]), Threema, etc, etc, alles sehr fragmentiert
+* IRC ist tot -> schlecht für die Außenwahrnehmung, wenn niemand auf Anfragen antwortet
+* Vorschlag: IRC „dicht machen“
+* mehr interne Kommunikation benötigt
+* Diskussion zum Thema was der beste Chat ist
+* AG Kommunikation gründen?
+
+== forsetzung Pläne 2020 ==
+* Webseite/Blog: etwas eingeschlafen
+
+* Eventideen:
+** andere Hackerspaces besuchen fahren / mehr Aktionen mit benachbarten Spaces
+** mal wieder Game Jam
+** Spackaton: Hackaton für Shitty-Projekte
+** RZL Samstag Nacht (like RTL Samstag Nacht): 10-Minuten-Vortragsabend
+
+* Küche:
+** Beschriftungen aktuallisieren
+** Schubladen neu justieren
+** quadratische Tische durch 2. von den weißen Auszieh-Tischen ersetzen
+
+== Heizlüfter ==
+* im Winter zu kalt im Raum, gerade bei Nachtabsenkung und Wochenendabsenkung
+* mit Kübler reden über das Heizprogramm?
+* längere Diskussionen
+* Vorschlag: ein Heizlüfter kaufen, im Nebenram anketten
+* 11 Dafür, (Rest der Abstimmung wurde nicht durchgeführt)
+
+== Kartendrucker: Druckkopf ==
+* Druckkopf am Kartendrucker defekt, macht Streifen, neuer kostet 400€. Ist schon der 2. Druckkopf des Geräts
+* der 2. Druckkopf aus dem Jahre 2014 hat damals 452.50 € gekostet, neuer Drucker würde ca. 1.500-2.000 € kosten, gebraucht ist schwierig
+* Antrag: neuer Druckkopf
+* >3 Dafür, Antrag angenommen
+
+== C&C-Fräse ==
+* urvogel überlegt einen Rechner für die C&C-Fräse aufzusetzen und möchte wissen, ob das noch Sinn macht oder andere Leute eh gerade neue C&C-Fräse am anschaffen sind
+* Alle, die gerade planen eine C&C-Fräse zu kaufen mögen sich auf der Mailingliste melden
+
+== Realitätsabgleich ==
+===== Beschlüsse aus dem letzten Plenum =====
+* Beleuchtung Olymp —> Status-Update
+** Ansteuerung geht jetzt
+** Todo: Stromverteilung, Befestigung, Über Dinge wie „das ist aber viel Strom“ nachdenken
+** Helix kümmert sich, Hilfe wird gerne gesehen
+* PC zum Arbeiten in der Krachbumm-Ecke —> Status-Update
+** auf Eis bis Olympumbau fertig-ish
+
+An der Weltherrschaft wird weiter im Stillen gearbeitet.
+Ende: 16:15
+
+
+
+
+
+[[Kategorie:Veranstaltung]]
+[[Kategorie:Plenum| ]]
+[[Kategorie:Protokoll]]
