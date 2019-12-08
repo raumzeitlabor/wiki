@@ -38,6 +38,8 @@ IPv6 Konfiguration.
 Reverse Engineering und Dokumentieren der Konfiguration.
 IPv6 Konfiguration.
 
+Kommentar Ranlvor: Sollte ziemlich Standard sein, nur eventuell ein paar Regeln drin, die versuchen sollen Telefonie-Traffic auf DSL zu zwingen (weil das weniger schlecht tut als via LTE).
+
 === WIFI Access Points ===
 ==== Ubiquity ====
 Reverse Engineering und Dokumentieren der Konfiguration.<br />
