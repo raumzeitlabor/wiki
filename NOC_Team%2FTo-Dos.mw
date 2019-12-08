@@ -3,14 +3,21 @@
 === Inventur Internetleitung ===
 
 Welche Leitungen haben wir, welche Möglichkeiten zum Upgrade gibt es?
+Aktuelle Leitung: Telekom Hybrid 50Mbit
+                  16 Mbit DSL
+                  Rest geht über im Router verbaute Sim Karte (Nur mit Telekom Router Kompatibel)
+
+Geimeinsame klärung mit der Spedition erstrebenswert.
 
 === Holzwerkstatt ===
 
-Braucht das Netzwerk? V.a. braucht das Netzwerk langfristig?
+Braucht das Netzwerk? V.a. braucht das Netzwerk langfristig?<br />
+Gespräch mit Spike am Dienstag 10.12.19
 
 === Freifunk + IPv6 ===
 
-Zukunft ab 01.01.2020? Kübler Glasfaser?
+Zukunft ab 01.01.2020? Kübler Glasfaser?<br />
+Fürs erste wenn möglich über das /56 Netz dass am Telekom Router anliegt.
 
 == Hypervisor ==
 
