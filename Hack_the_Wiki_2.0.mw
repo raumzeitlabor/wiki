@@ -16,6 +16,7 @@
 
 Vor langer, langer Zeit gab es mal ein Event im RZL mit dem Namen [[Hack the Wiki]]. Ziel war es, dieses Wiki ein bisschen auf Vordermann zu bringen. Allerdings gibts hier immer wieder was zu tun, darum sammeln wir hier alles das, was hier so gemacht werden sollte, und was es sonst noch für tolle Wiki-Ideen gibt
 
+Gelöschte Seiten findet man auf: [[Spezial:Logbuch/delete]]
 
 == ToDo ==
 === Dauerhaft ===
@@ -26,51 +27,11 @@ Vor langer, langer Zeit gab es mal ein Event im RZL mit dem Namen [[Hack the Wik
 === Einmalig ===
 * Zusammenführen von [[Finanzen]] und [[Finanzierung]] (schaut bitte der Vorstand/Kassenwart da vorher nochmal drüber, damit die Daten stimmen? Danke --[[Benutzer:Bfritz0815|Bfritz0815]] ([[Benutzer Diskussion:Bfritz0815|Diskussion]]) 20:43, 16. Nov. 2013 (CET) )
 * Grafiken (Tabellen) auf [[Elektroinstallation]]
-* Wichtige Seiten ins Englische übersetzen
-** Große Projekte
-** Infrastrukturkrams...
-** Alles, was auch für andere Hackerspaces interessant sein könnte...
 * Sprechende Namen fuer Bilder (Kein IMG_####.jpg o.ae.)
 * Besseres Template fuer [[Spielecke]] fuer mehr Uebersicht
-* Best practices
 * [[:Kategorie:Wiki Cleanup/ToDo]]
 * Bessere Bezeichnung für [[Vorlage:Warnung]], der Name deutet nicht darauf hin, dass es sich um ein Template nur für Projekte handelt.
-* <strike>Ausfüllen von [[Guthabensystem]]</strike>--[[Benutzer:ThinkJD|ThinkJD]] 18:29, 8. Feb. 2012 (CET)
 * Zusammenführen und Aktualisieren von [[Elektrik]] und [[Elektroinstallation]]
-* Zusammenführenung von [[Kasse]] und [[Kassensystem]] (bitte erst, wenn das Kassensystem nicht mehr im Experimental-Stauts ist --[[Benutzer:Bfritz0815|Bfritz0815]] ([[Benutzer Diskussion:Bfritz0815|Diskussion]]) 20:43, 16. Nov. 2013 (CET))
-* Alle Wiki-Seiten zu Projekten durchgehen, jeweils den Status aktualisieren und ggf. beschreiben.
-
-== gelöschte Seiten ==
-[[Hangout]]
-[[Werbemittel]]
---[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 22:01, 8. Dez. 2019 (CET)
-
-== Wishlist ==
-=== Proposals ===
-* Standard Lizenz von CC BY-SA auf CC BY-NC-SA
-** Hätte zur Folge, dass niemand, der irgendwie kommerziell handelt (auch durch Werbung auf der eigenen Seite) nichts mehr vom Wiki übernehmen darf. => Potentiell weniger Werbung. --[[Benutzer:Silsha|silsha]] 23:25, 13. Mär. 2012 (CET)
-** Wir sind mittlerweile eh bei BY-NC. Und CC ist ja keine exclusive Lizenz. Heißt, dass wenn jemand irgendetwas kommerziell verwenden will, so darf er/sie das nach Absprache mit dem Urheber. --[[Benutzer:Tiefpunkt|Tiefpunkt]] 13:16, 14. Mär. 2012 (CET)
-** Kommando zurück, die Lizenzgrafik ist falsch :-/ Ich sehe trotzdem keine Einschränkung im NC. --[[Benutzer:Tiefpunkt|Tiefpunkt]] 13:18, 14. Mär. 2012 (CET)
-* Startseite überarbeiten:
-** Kontaktbox
-** Übersicht der letzten Blogbeiträge
-** Übersicht über aktuelle Termine (Feed?)
-* Navigation überarbeiten
-** Hauptwikiseiten: Projekte, Vorträge, ...
-* Gibts ne Möglichkeit, die X neusten Projekte auf die Startseite zu kriegen? Ich finde dieses Template gefrickel ziemlich nervig, ehrlich gesagt. Wie macht das Wikipedia? --[[Benutzer:Else|Else]] 16:07, 14. Mär. 2012 (CET)
-
-
-=== Do we really have to ===
-
-* Neue Kategorie: Knowledge Base (Infos unabhängig von Projekten), siehe NNEV. (Dazu gibt's schon die Kategorie Bibliothek --[[Benutzer:Bfritz0815|Bfritz0815]] ([[Benutzer Diskussion:Bfritz0815|Diskussion]]) 20:43, 16. Nov. 2013 (CET))
-* Aktualisierung von [[Spenden]] (bitte in der Diskussionsseite oder hier hinterlegen, was da nicht aktuell ist --[[Benutzer:Bfritz0815|Bfritz0815]] ([[Benutzer Diskussion:Bfritz0815|Diskussion]]) 20:43, 16. Nov. 2013 (CET))
-:: Ich denke die Einleitung dürfte gemeint sein. Die Kontodaten könnten auch mal auf IBAN geändert werden. --[[Benutzer:Steeph|Steeph]] ([[Benutzer Diskussion:Steeph|Diskussion]]) 20:55, 12. Nov. 2017 (CET)
-
-=== Useful Plugins ===
-* CAPTCHA bei Registrierung
-** Könnte gegen den ganzen Spam, der mittlerweile hier ankommt, helfen...
-* Polyglot
-** Mehrsprachigkeit
 
 [[Kategorie:Projekt]]
 [[Kategorie:Jemand_müsste_mal]]
