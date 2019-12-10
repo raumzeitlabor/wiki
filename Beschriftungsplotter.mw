@@ -1,6 +1,6 @@
 {{GeraetInfoBox
 |name        = CMS-P1-PLOTTER
-|status      = working
+|status      = obsolete
 |image       = CMS-P1-PLOTTER.jpg
 |description = Flachbettplotter
 |owner       = Verein
@@ -17,6 +17,8 @@ Der Plotter wird eigentlich von [http://www.ek-team.de/ ek-team.de] gebaut und n
 Bisher konnten die Treiber weder unter Windows Vista noch unter Windows 7 32/64 bit installiert werden. Daher wurde die Ansteuerung über den Parallelport vorgenommen, was auch funktioniert.
 
 Der Plotter spricht HPGL, es könnte also sein, daß man den Plotter unter Linux ansteuern kann.
+
+Aktuell: Der Plotter ist eingelagert im Getränkelager, obere Ebene.
 
 == Bugfixes ==
 
