@@ -78,35 +78,38 @@
 </span>
 |}
 | width="33%" |
-{| cellpadding="0" cellspacing="0" style="border-collapse:collapse;font-size:110%;text-align:left" width="95%"
-! style="border:2px solid #dfdfdf; background-color:#ddeeff;padding:3px;text-align:center;" | Bereiche
+{| cellpadding="0" cellspacing="0" style="border-collapse:collapse;font-size:110%;text-align:left;border:2px solid #dfdfdf;background-color:#f8f8ff;" width="95%"
+! style="border:2px solid #dfdfdf; background-color:#ddeeff;padding:3px;text-align:center;" colspan="2" | Bereiche
 |- 
-| style="border:2px solid #dfdfdf;background-color:#f8f8ff;padding:8px" |
-
-[[Datei:Kueche-icon.png|left|40px|link=Küche|caption]]'''[[Küche]]'''<br/>Kochen, Backen, glücklich sein
+| style="padding:8px 0 0 8px;vertical-align:top;" | [[Datei:Kueche-icon.png|40px|link=Küche]]
+| style="padding-top:8px;vertical-align:top;" | '''[[Küche]]'''<br/>Kochen, Backen, glücklich sein
 <span style="font-size:85%">
 * [[Nerd am Herd]]
 * [[Rezepte]]
 </span>
-
-[[Datei:Oscilloscope.svg|left|40px|link=Elektroecke|caption]]'''[[Elektroecke]]'''<br/>
+|-
+| style="padding:8px 0 0 8px;vertical-align:top;" | [[Datei:Oscilloscope.svg|40px|link=Elektroecke]]
+| style="padding-top:8px;vertical-align:top;" | '''[[Elektroecke]]'''<br/>
 <span style="font-size:85%">
 * [[Elektroecke/Geräte|Geräte (Lötstationen, Oszilloskope, …)]]
 * [[PartKeepr]]
 </span>
-
-[[Datei:Applications-science.png|left|40px|link=Ätzecke|caption]]'''[[Ätzecke]]'''<br/>Platinen ätzen
+|-
+| style="padding:8px 0 0 8px;vertical-align:top;" | [[Datei:Applications-science.png|40px|link=Ätzecke]]
+| style="padding-top:8px;vertical-align:top;" | '''[[Ätzecke]]'''<br/>Platinen ätzen
 <span style="font-size:85%">
 * [[Belichter]]
 </span>
-
-[[Datei:Olymp.png|left|40px|link=Olymp|caption]]'''[[Olymp]]'''<br/>Chillen und entspannen
+|-
+| style="padding:8px 0 0 8px;vertical-align:top;" | [[Datei:Olymp.png|40px|link=Olymp]]
+| style="padding-top:8px;vertical-align:top;" | '''[[Olymp]]'''<br/>Chillen und entspannen
 <span style="font-size:85%">
 * [[Spielecke]]
 * [[KrachBummLabor]]
 </span>
-
-[[Datei:Gnome-preferences-desktop-theme.svg|left|40px|link=Fablab|caption]]'''[[Fablab]]'''<br/>Stoffe, Plastik, Karten
+|-
+| style="padding:8px 0 0 8px;vertical-align:top;" | [[Datei:Gnome-preferences-desktop-theme.svg|40px|link=Fablab]]
+| style="padding-top:8px;vertical-align:top;" | '''[[Fablab]]'''<br/>Stoffe, Plastik, Karten
 <span style="font-size:85%">
 * [[Rarity|Stickmaschine (Rarity)]]
 * [[Schneidplotter]] und [[Shirtpresse]]
@@ -116,22 +119,23 @@
 * [[Ultimaker|Alter 3D-Drucker (Ultimaker 1)]]
 * [[Plastikkarten]]
 </span>
-
-[[Datei:Applications-utilities.png|left|40px|link=Werkstatt|caption]]'''[[Werkstatt|Holzwerkstatt]]'''<br/>
+|-
+| style="padding:8px 0 0 8px;vertical-align:top;" | [[Datei:Applications-utilities.png|40px|link=Werkstatt]]
+| style="padding-top:8px;vertical-align:top;" | '''[[Werkstatt|Holzwerkstatt]]'''<br/>
 <span style="font-size:85%">
 * [[Shapeoko 2|CNC-Fräse (Shapeoko 2)]]
 * [[Neben3raum (Werkstatt)|Neben-Neben-Nebenraum (neue Werkstatt)]]
 * [[WerkstattInventur|Inventur]]
 * [[Kompressor]]
 </span>
-
-[[Datei:Gnome-emblem-package.svg|left|40px|link=Storage|caption]]'''[[Storage]]'''<br/>
+|-
+| style="padding:8px 0 0 8px;vertical-align:top;" | [[Datei:Gnome-emblem-package.svg|40px|link=Storage]]
+| style="padding:8px 0 8px 0;vertical-align:top;" | '''[[Storage]]'''<br/>
 <span style="font-size:85%">
 * [[Tardis]]
 * [[Hochregal]]
 * [[Getränkelager]]
 </span>
-
 |}
 
 |}
