@@ -13,23 +13,40 @@
 |-
 | style="border:2px solid #dfdfdf;background-color:#f8f8ff;padding:8px" |
 [[Datei:Rzl_logo.png|left|40px|link=Das RaumZeitLabor|caption]]'''[[Das RaumZeitLabor]]'''<br />
-<span style="font-size:85%">Das RaumZeitLabor erklärt sich</span>
+<span style="font-size:85%">Das RaumZeitLabor erklärt sich
+* [[Handbuch]]
+</span>
 
-[[Datei:Go-next.png|left|40px|link=Anfahrt|caption]]'''[[Anfahrt]]''' / '''[[Zugang]]'''<br/>
-<span style="font-size:85%">Wie komme ich hin? Wie komme ich rein?</span>
+[[Datei:Go-next.png|left|40px|link=Anfahrt|caption]]'''[[Anfahrt]]''' und '''[[Zugang]]'''<br/>
+<span style="font-size:85%">
+* [[Anfahrt|Wie komme ich hin?]] <!--([[Anfahrt/en|en]])-->
+* [[Zugang|Wie komme ich rein?]]
+* [http://raumzeitlabor.de/kontakt/anfahrt Interaktive Karte]
+* [https://status.raumzeitlabor.de/ Raumstatus]
+</span>
 <!--
 [[Datei:Icon_Bilder.png|left|40px|link=Zugang|caption]]'''[[Bilder]]'''<br/>
 <span style="font-size:85%">Aktuelle Bilder vom RZL</span>
 -->
 
+[[Datei:Rzl_logo.png|left|40px|link=Das RaumZeitLabor|caption]]'''[[:Kategorie:Veranstaltung|Veranstaltungen]]'''<br />
+<span style="font-size:85%">
+* [[Offene RaumZeitLaborierung]]
+* [[Vorträge|Vorträge und Workshops]]
+* [[Exkursion|Exkursionen]]
+* [[Wipe & Defrag]] und [[Plenum]]
+* [[Season Kickoff Frenzy]]
+* [[Spieleabend]]
+* [[Mario Kart Turnier]]
+</span>
+
 [[Datei:Preferences-desktop-launch-feedback.png|left|40px|link=IRC|caption]]'''[[Mailingliste]] / [[IRC]]'''<br/>
-<span style="font-size:85%">Informationen zu unserer Mailingliste und unserem IRC-Kanal</span>
+<span style="font-size:85%">Kontaktmöglichkeiten</span>
 
 [[Datei:Rzl_logo.png|left|40px|link=Verein|caption]]'''[[Verein]]'''<br/>
-<span style="font-size:85%">Der Trägerverein des RaumZeitLabors</span>
-
-[[Datei:Applications-science.png|left|40px|link=:Kategorie:Arbeitsgruppe|caption]]'''[[:Kategorie:Arbeitsgruppe|Arbeitsgruppen]]'''<br/>
-<span style="font-size:85%">AGs, in denen sich unsere Mitglieder zusammenfinden, um $Dinge zu tun.</span>
+<span style="font-size:85%">Der Trägerverein des RaumZeitLabors
+* [[Spenden]] <!--([[Spenden/en|en]])-->
+</span>
 
 |}
 | width="33%" |
@@ -45,12 +62,6 @@
 * [[:Kategorie:Projekt#Soziales|Soziales]]
 </span>
 
-[[Datei:Rzl_logo.png|left|40px|link=Das RaumZeitLabor|caption]]'''[[:Kategorie:Veranstaltung|Veranstaltungen]]'''<br />
-<span style="font-size:85%">Veranstaltungen</span>
-
-[[Datei:Rzl_logo.png|left|40px|link=Das RaumZeitLabor|caption]]'''[[Vorträge|Vorträge und Workshops]]'''<br />
-<span style="font-size:85%">Knowledge Transfer</span>
-
 [[Datei:Rzl_logo.png|left|40px|link=Geräte|caption]]'''[[:Kategorie:Gerät|Infrastruktur im Raum]]'''<br />
 <span style="font-size:85%">
 * [[Beamer]], [[Beschallung]], ([[Beschriftungsplotter]]), [[Bibliothek]], ([[Buttonmaschinen]]), [[Drucker]], [[Eismaschine]], [[Fnordcredit]], [[InfoScreen]], [[Laminiergerät]], [[Ping]], [[Pingie Pie]], [[Pinpad]], [[Popcornmaschine]], ([[PringlesFoo]]), [[RzlCtrl]], [[Slushmaschine]], ([[Spendenterminal]]), [[Staubsauger]], [[Telefon]]
@@ -65,16 +76,30 @@
 * [[Statusbot]]
 </span>
 
-[[Datei:Rzl_logo.png|left|40px|link=Das RaumZeitLabor|caption]]'''[[:Kategorie:Protokoll|Protokolle]]'''<br />
-<span style="font-size:85%">Protokolle der Vereinssitzungen</span>
-
 [[Datei:Rzl_logo.png|left|40px|link=:Kategorie:Öffentlichkeitsarbeit|caption]]'''[[:Kategorie:Öffentlichkeitsarbeit|Öffentlichkeitsarbeit]]'''<br/>
-<span style="font-size:85%">Seiten zum Thema "Öffentlichkeitsarbeit"</span>
+<span style="font-size:85%">Seiten zum Thema "Öffentlichkeitsarbeit"
+* [[Bewährte Verfahren]]
+* [[Leitfaden für Anrufe]]
+* [[Webseite]]
+* [[Online-Accounts]]
+* [[Presse]]
+* [[Pressemitteilung]]
+* [[Jugendförderung]]
+* [[Agenda Aktion 2019]]
+* [[RZLblink]]
+</span>
 
 [[Datei:Rzl_logo.png|left|40px|link=:Kategorie:Öffentlichkeitsarbeit|caption]]'''[[:Kategorie:Anleitung|Anleitungen]]'''<br/>
 <span style="font-size:85%">
 * [[Löten lernen]]
 * [[Openscad Tutorial]]
+</span>
+
+[[Datei:Rzl_logo.png|left|40px|link=:Kategorie:Intern|caption]]'''Interna'''<br/>
+<span style="font-size:85%">
+* [[:Kategorie:Arbeitsgruppe|Arbeitsgruppen]]
+* [[:Kategorie:Protokoll|Protokolle]]
+* [[Müll]]
 </span>
 |}
 | width="33%" |
@@ -113,17 +138,17 @@
 <span style="font-size:85%">
 * [[Rarity|Stickmaschine (Rarity)]]
 * [[Schneidplotter]] und [[Shirtpresse]]
-* Neuer Lasercutter
 * [[Lasercutter|Alter Lasercutter (FaZzZ0r)]]
-* [[Ultimak3r|Neuer 3D-Drucker (Ultimaker 3)]]
-* [[Ultimaker|Alter 3D-Drucker (Ultimaker 1)]]
+* Neuer Lasercutter
+* [[Ultimak3r|Ultimaker 3]]
+* [[Ultimaker|Ultimaker 1]]
 * [[Plastikkarten]]
 </span>
 |-
 | style="padding:8px 0 0 8px;vertical-align:top;" | [[Datei:Applications-utilities.png|40px|link=Werkstatt]]
 | style="padding-top:8px;vertical-align:top;" | '''[[Werkstatt|Holzwerkstatt]]'''<br/>
 <span style="font-size:85%">
-* [[Shapeoko 2|CNC-Fräse (Shapeoko 2)]]
+* [[Shapeoko 2|CNC-Fräse]]
 * [[Neben3raum (Werkstatt)|Neben-Neben-Nebenraum (neue Werkstatt)]]
 * [[WerkstattInventur|Inventur]]
 * [[Kompressor]]
