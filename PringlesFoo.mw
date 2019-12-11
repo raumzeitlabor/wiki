@@ -1,6 +1,7 @@
 {{ProjektInfoBox
 |name        = PringlesSound
-|status      = obsolete
+|status      = in storage
+|custom status = abgebaut
 |image       = pringles.jpg
 |description = Wenn jemand eine Pringles-Dose entnimmt, wird ein Sound gespielt
 |author      = [[Benutzer:Felicitus|Felicitus]], [[Benutzer:Blabber|blabber]]
