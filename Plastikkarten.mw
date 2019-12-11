@@ -3,7 +3,8 @@ Wir haben einige Geräte, die dazu benutzt werden können, um weiße Plastikkart
 == Kartendrucker==
 {{GeraetInfoBox
 |name          = Kartendrucker
-|status        = 
+|status        = broken
+|custom status = Druckkopf defekt
 |image         = 
 |manufacturer  = [http://www.authentys.de/ Authentys]
 |model         = Plus DUO
