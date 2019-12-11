@@ -1,9 +1,16 @@
 {{Korrekter Titel|Der satanarchäolügenialkohöllische Wunschpunsch}}
-{{projektInfoBox
-| name = Slushi
-| description = Magie aus Wasser, Alkohol und Zucker
-| status = beta
-| image = slushmaschine.jpg
+{{GeraetInfoBox
+|name          = Slushi
+|status        = beta
+|image         = slushmaschine.jpg
+|manufacturer  = 
+|model         = 
+|description   = Magie aus Wasser, Alkohol und Zucker
+|documentation = 
+|owner         = 
+|username      = 
+|financing     = 
+|location      = 
 }}
 [[Benutzer:Unicorn|Unicorn]] und [[Benutzer:Tiefpunkt|tiefpunkt]] haben 2 Slush-Maschinen gekauft, und sie ins RaumZeitLabor gestellt. Sobald sie über Spenden abbezahlt sind, gehören sie dem RaumZeitLabor (evtl. verkaufen wir eine vorher wieder).
 
@@ -140,5 +147,3 @@ Zusätzlich zu der Beleuchtung haben die 3 Kammern Temperatursensoren (DS18B20, 
 [[Category:Raum-Kirmes-Labor]]
 [[Category:Procedures]]
 [[Category:Rezepte]]
-[[Kategorie:Projekt]]
-[[Kategorie:Gerät]]
