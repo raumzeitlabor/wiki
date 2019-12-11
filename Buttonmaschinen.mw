@@ -1,10 +1,13 @@
-{{ProjektInfoBox
-| status = beta
-| image = IMG_3989.resized.JPG
-| description = Selbstgemachte Buttons!
-| author = [[Benutzer:tiefpunkt|tiefpunkt]]
-| preis = 1€ pro Button
-| owner = Verein
+{{GeraetInfoBox
+|name        = Buttonmaschinen
+|status      = beta
+|image       = IMG_3989.resized.JPG
+|description = Selbstgemachte Buttons! (Mindestpreis: 1€ pro Button)
+|author      = [[Benutzer:tiefpunkt|tiefpunkt]]
+|location    = 
+|owner       = Verein
+|username    = 
+|financing   = 
 }}
 Das RaumZeitLabor besitzt zwei Buttonmaschinen. Es handelt sich um eine Badgematic Typ 900, für 25mm Buttons sowie ein Modell für 59mm Buttons.
 
@@ -110,8 +113,6 @@ Nun ist euer Motiv geschnitten
 Das restliche Verfahren ist genau wie bei der 25mm Presse, nur mit größeren Materialien. Schaut euch die Bilder oben an.
 Die Transferleistung, die größeren Teile (Rückseite, Nadel, Frontdeckel und Schutzfolie) zu benutzen überlasse ich dem Leser.
 
-[[Kategorie:Projekt]]
 [[Category:Hardware]]
 [[Category:Raum-Kirmes-Labor]]
 [[Category:Raum-Kommerz-Labor]]
-[[Kategorie:Gerät]]
