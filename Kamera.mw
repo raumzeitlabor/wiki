@@ -1,3 +1,16 @@
+{{GeraetInfoBox
+|name          = Kamera
+|status        = 
+|image         = 
+|manufacturer  = Toshiba
+|model         = Camileo X200 FullHD
+|description   = 
+|documentation = 
+|owner         = 
+|username      = 
+|financing     = 
+|location      = 
+}}
 [[Image:Kameraposition_ideal.jpg|thumb|Ideale Kameraposition|200px|right|Ideale Kameraposition]]
 [[Image:Testbild.jpg|thumb|Testbild|200px|right|Testbild]]
 Das RaumZeitLabor besitzt eine Toshiba Camileo X200 FullHD-Kamera zum Aufzeichnen von Vorträgen. Sollte sich in der Vortragsaufzeichnungskiste im Regal an der Fensterwand (auch) eine andere Kamera befinden, ist diese wahrscheinlich aufgrund ihrer Bildqualität und Zuverlässigkeit der Raumkamera vorzuziehen. Aufgrund der Entfernung zwischen Kamera und Vortragenden und weil in Kamera eingebaute Mikrofone vergleichsweile wenig gute Qualität bieten, werden Audiospuren seperat aufgezeichnet.
@@ -59,8 +72,6 @@ Zur Aufbereitung der Audiospur empfliehlt sich die Datei durch [https://auphonic
 
 Man kann auch die fertige Video-Datei (bis 16 GB) durch Auphinic audioverbessern lassen. Im Auphonic-Konto des RZL (Username "rzl") gibt es dafür das Preset "Vortrag (Fertiges Video)". Dabei können auf der Bearbeitungsseite der Auphonic-Produktion Tags für YouTube vergeben werden und das Video wird automatisch im YouTube-Kanal des RZL veröffentlicht.
 
-
-[[Category:Hardware]]
 [[Category:Procedures]]
 [[Category:Vortrag]]
 [[Category:Veranstaltung]]
