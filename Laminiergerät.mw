@@ -1,17 +1,15 @@
-{{ProjektInfoBox
-|name        = Laminiergerät
-|status      = stable
-|image       = 
-|description = Laminiere Dinge!
-|author      =
-|username    = 
-|version     = 
-|update      = 
-|platform    = 
-|license     = 
-|download    = 
+{{GeraetInfoBox
+|name          = Laminiergerät
+|status        = working
+|image         = 
+|model         = 
+|description   = Laminiere Dinge!
+|documentation = 
+|location      = 
+|owner         = 
+|username      = 
+|financing     = 
 }}
-
 Falls du etwas ausgedrucktes oder so für die Ewigkeit™ schützen musst, existiert im RZL ein Laminiergerät. Es ist derzeit in [[Tardis|Schublade 0x2F]] ("Druckerzubehör") verstaut.
 
 = Benutzung =
@@ -29,4 +27,3 @@ Falls du etwas ausgedrucktes oder so für die Ewigkeit™ schützen musst, exist
 
 [[Category:Hardware]]
 [[Category:Procedures]]
-[[Kategorie:Gerät]]
