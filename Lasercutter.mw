@@ -1,10 +1,15 @@
-{{projektInfoBox
-| name = FaZzZ0r
-| description = It's a laser cutter! It cuts lasers!
-| image = FaZzZ0rSigint.jpg
-| status = beta
-| username = TabascoEye
-| location = [[Fablab]]
+{{GeraetInfoBox
+|name          = FaZzZ0r
+|status        = beta
+|image         = FaZzZ0rSigint.jpg
+|manufacturer  = Full Spectrum Laser
+|model         = 40W CO2 Deluxe Hobby Laser
+|description   = It's a laser cutter! It cuts lasers!
+|documentation = 
+|location      = [[Fablab]]
+|owner         = 
+|username      = TabascoEye
+|financing     = 
 }}
 [[Benutzer:TabascoEye|TabascoEye]]s Laser Cutter steht im RaumZeitLabor. Es handelt sich dabei um einen "40W CO2 Deluxe Hobby Laser" der Firma "Full Spectrum Laser".
 
@@ -478,6 +483,4 @@ Bilder können direkt in RetinaEngrave gedithert werden, sollten für optimale E
 == Siehe auch ==
 [[Lasercutter/Luftfilter]]
 
-[[Kategorie:Projekt]]
 [[Category:Hardware]]
-[[Kategorie:Gerät]]
