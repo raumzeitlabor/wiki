@@ -1,13 +1,16 @@
-{{projektInfoBox
-| name = Vakuumpumpe
-| description = Für manuelles Pick'n'Place
-| image = 
-| status = beta
-| username = Felicitus
-| owner = RaumZeitLabor
-| download = 
+{{GeraetInfoBox
+|name          = Vakuumpumpe
+|status        = beta
+|image         = 
+|manufacturer  = 
+|model         = 
+|description   = Für manuelles Pick'n'Place
+|documentation = 
+|owner         = RaumZeitLabor
+|username      = Felicitus
+|financing     = 
+|location      = 
 }}
-
 Wir haben eine Vakuumpumpe vom Typ Aoyue 932 und ein Vakuumventil mit Fußschalter.
 
 
@@ -24,5 +27,3 @@ Straightforward:
 
 * Wird der Fußschalter betätigt, zieht das Handteil an
 * Wird der Fußschalter losgelassen, fällt der Druck im Handteil ab
-
-[[Kategorie:Gerät]]
