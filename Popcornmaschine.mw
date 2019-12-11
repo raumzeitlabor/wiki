@@ -1,17 +1,17 @@
-{{ProjektInfoBox
-|name        = Popcornmaschine
-|status      = stable
-|image       = Popcornmaschine.jpg
-|description = Leckeres Popcorn zum Selbermachen
+{{GeraetInfoBox
+|name          = Popcornmaschine
+|status        = working
+|image         = Popcornmaschine.jpg
+|manufacturer  = 
+|model         = 
+|description   = Leckeres Popcorn zum Selbermachen
 |author      = [[Benutzer:Blabber|blabber]]
-|username    = 
-|version     = 
-|update      = 
-|platform    = 
-|license     = 
-|download    = 
+|documentation = 
+|location      = 
+|owner         = 
+|username      = 
+|financing     = 
 }}
-
 Wenn auf der Mailingliste oder im IRC mal wieder die Trolle los sind oder man einfach mal so Lust auf Popcorn hat, unsere Popcornmaschine sorgt für den passenden Snack.
 
 == Nutzungsbedingungen ==
@@ -60,8 +60,6 @@ Alexander baut in die Popcornmaschine eine vernünftige Heizungs-Regelung ein, h
 * Mit einem Stromwandler wird gemessen, ob der Bimetallschalter im Topf abgeschaltet hat, also ob kein Strom fließt, obwohl das SSR an ist. Typ ist "338 293-00 LTE 0907", vermutlich [http://www.lte.com.tw/lte_c.s.type.html dieser], hat ~4,7 Ohm, also mal mit 200 Ohm Lastwiderstand testen.
 * Primärziel: uC-Firmware bauen, über serielle Schnittstelle protokollieren bei welcher Temperatur der Bimetallschalter abschaltet.
 
-[[Kategorie:Projekt]]
 [[Category:Raum-Kirmes-Labor]]
 [[Category:Hardware]]
 [[Category:Procedures]]
-[[Kategorie:Gerät]]
