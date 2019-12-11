@@ -1,7 +1,13 @@
-{{projektInfoBox
-| name = Eismaschine
-| description = Softeismaschine
-| status = Beta
+{{GeraetInfoBox
+|name        = Eismaschine
+|status      = beta
+|image       = 
+|model       = 
+|description = Softeismaschine
+|location    = 
+|owner       = 
+|username    = 
+|financing   = 
 }}
 Der MuCCC hat uns seine Eismaschine geliehen. Sie ist ein bisschen kaputt und freut sich auch sonst über witzige Upgrades und Features.
 
@@ -37,10 +43,3 @@ Hack the Machine!!!1!
 **Gehäuse neu Pulverlackieren lassen, auch hier DaFo kennt jemand der jemand kennt...
 
 *Abnahme und eventuelle Prüfung ob die Maschine sich nicht als Weltherrschaftsmaschine eignet
-
-
-
-
-
-[[Kategorie:Projekt]]
-[[Kategorie:Gerät]]
