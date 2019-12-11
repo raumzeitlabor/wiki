@@ -1,16 +1,13 @@
-{{ProjektInfoBox
+{{GeraetInfoBox
 |name        = Beamer
 |status      = beta
 |image       = Beamer-04.jpg
 |description = Ein spezieller Projektor, der Bilder aus einem visuellen Ausgabegerät für ein Publikum in   vergrößerter Form an eine Leinwand projiziert.
 |author      = [[Benutzer:thinkJD|thinkJD]] [[Benutzer:hax404|hax404]] [[User:slowpoke|slowpoke]]
+|location    = 
+|owner       = 
 |username    = 
-|version     = 
-|update      = 
-|platform    = 
-|license     = 
-|video      = 
-|download    = 
+|financing   = 
 }}
 Der Beamer befindet sich auf der Plattform unter der Decke.
 Es handelt sich um einen Acer H7531D DLP-Projektor, der im Dezember 2012 vom 
@@ -107,6 +104,3 @@ herausfinden. Hast du dies getan, ergänze es am besten hier.
 == Pläne für die Zukunft ==
 Derzeit keine. Wenn du eine gute Idee hast, fühle dich frei sie hier zu 
 dokumentieren.
-
-[[Kategorie:Projekt]]
-[[Kategorie:Gerät]]
