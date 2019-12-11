@@ -435,3 +435,5 @@ Zum Schluss einfach noch einige Varianten des Geistes.
  translate([50,0,0])
  ghost(6,12,1,1.5,3.5,12,2,7.5,3,3,2);
 </code>
+
+[[Kategorie:Anleitung]]
