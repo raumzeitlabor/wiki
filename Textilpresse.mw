@@ -1,19 +1,37 @@
-{{ProjektInfoBox
-|name        = Textilpresse
-|status      = stable
-|image       = 
-|description = Folien/Shirtpresse zum bekleben von T-Shirts
-|author      = 
-|username    = 
-|version     = 0.1337
-|update      = 
-|platform    = 
-|license     = 
-|download    = 
+{{GeraetInfoBox
+|name          = Textilpresse
+|status        = working
+|image         = Shirtpresse.jpg
+|manufacturer  = 
+|model         = Ricoo T 338
+|description   = T-Shirt-Transferpresse zum Bedrucken von Textilien mit Flex-/Flockfolie
+|documentation = 
+|owner         = 
+|username      = 
+|financing     = 
+|location      = 
 }}
-
-== Intro ==
+Unsere T-Shirtpresse zur stylischen Veredelung beliebiger Textilien steht ab sofort im [[Fablab]] zur Verfügung. 
 
 Wir haben eine Ricoo T 338 Textilpresse mit der man Textilien noch cooler machen kann. Die zugehörigen [[Folien]] können mit dem [[Lasercutter | FazZz0r]] oder noch einfacher mit dem [[Schneidplotter]] geschnitten werden.
 
-[[Category:Hardware]]
+== Ansprechpartner ==
+
+Zur erstmaligen Einweisung wende sich der interessierte Raumzeitlaborant oder Gast an
+
+* [[Benutzer:Flederrattie|Flederrattie]]
+* [[Benutzer:TabascoEye|TabascoEye]]
+* [[Benutzer:Unicorn|Unicorn]]
+* [[Benutzer:jiska|jiska]]
+* [[Benutzer:rami|rami]]
+
+Grundlegende Informationen könnt ihr auch dem [[Medium:Workshop-naehrds-1.pdf‎|Vortrag zu der Workshopreihe]] entnehmen.
+
+Selbstversuche sind aufgrund des ''massiv hohen Schwierigkeitgrades''(tm) natürlich auch möglich. Die Folien können zwar theoretisch auch per Schere, X-Acto-Knife oder Bohrer ausgeschnitten werden, aber Dank unseres [[Plotter|Harry Plotters]] oder [[Lasercutter|Fazzors]] lassen sich beliebig komplexe Muster entwerfen. Beachtet hierbei, dass sich Linien, die dünner als 1-2mm sind, je nach Folie, Stoff und Dehnung beim Waschen wieder lösen könnten.
+
+== Folienbestellung ==
+
+Da die Folien einen Mindestbestellwert von 100€ haben und es hohe Mengenrabatte gibt, sollten [[Sammelbestellungen/Folien|Sammelbestellungen]] durchgeführt werden.
+
+[[Category:Raum-Kommerz-Labor]]
+[[Category:Activities]]
