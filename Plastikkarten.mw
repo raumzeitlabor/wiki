@@ -1,7 +1,19 @@
 Wir haben einige Geräte, die dazu benutzt werden können, um weiße Plastikkarten zu individualisieren.
 
-== Kartendrucker [http://www.authentys.de/ Authentys] Plus DUO==
-
+== Kartendrucker==
+{{GeraetInfoBox
+|name          = Kartendrucker
+|status        = 
+|image         = 
+|manufacturer  = [http://www.authentys.de/ Authentys]
+|model         = Plus DUO
+|description   = kann TRW-Thermostreifen beschreiben und Karten doppelseitig beschreiben (Duplex)
+|documentation = 
+|location      = 
+|owner         = 
+|username      = 
+|financing     = 
+}}
 OEM-Version des Ultramagicard Enduro+, daher findet man den Treiber bei [http://www.ultramagicard.com/ Magicard]
 Kann TRW-Thermostreifen beschreiben. Kann Karten doppelseitig beschreiben (Duplex).
 
@@ -10,13 +22,40 @@ TRW Streifen beschreibt man, indem man das Farbband aus dem Drucker entfernt. Be
 Netzteil: Meanwell 24V 3,75A 90W "GS90A24" (Hint: Bei den Laptop Netzteilen? Bonushint: Der Drucker reagiert empfindlich auf Spannungsabfall und produziert mit einem zu schwachen Ersatz-Netzteil diverse nicht-offensichtliche Fehler.)
 
 Ansprechpartner: Unicorn, rami. [u.a. TabascoEye hat Treiber und Software auch installiert]
+<div style="clear: both"></div>
 
 == Embosser ==
-
+{{GeraetInfoBox
+|name          = Embosser
+|status        = working
+|image         = 
+|manufacturer  = 
+|model         = 
+|description   = kann Text in eine Karte einprägen (wie bei Kreditkarten)
+|documentation = 
+|location      = 
+|owner         = 
+|username      = 
+|financing     = 
+}}
 Mit dem Embosser kann man wie bei Kreditkarten Text in eine Karte einprägen. Bedienung ist ziemlich einfach.
+<div style="clear: both"></div>
 
 == Magnetstreifen ==
-
+{{GeraetInfoBox
+|name          = Magnetkartenleser/-schreiber
+|status        = 
+|image         = 
+|manufacturer  = 
+|model         = MSR605
+|description   = kann Magnetstreifen lesen und schreiben
+|documentation = [http://www.carddevicestore.com/files/msr605_cd.rar Offizielle Windows-Software]<br/>[https://github.com/raphaelm/msrtool Linux-Software] von [[Benutzer:Rami|rami]]
+|location      = 
+|owner         = 
+|username      = 
+|financing     = 
+}}
 Wir haben einen MSR605-Magnetkartenleser/schreiber, mit dem man Magnetstreifen lesen und schreiben kann. Die offizielle Windows-Software findet man [http://www.carddevicestore.com/files/msr605_cd.rar hier], [[Benutzer:Rami|rami]] hat eine simple [https://github.com/raphaelm/msrtool Linux-Software] geschrieben.
+<div style="clear: both"></div>
 
-[[Kategorie:Gerät]]
+[[Kategorie:Fablab]]
