@@ -28,5 +28,4 @@ Um den WLAN-AP in ein fremdes Netz zu bekommen muß man leider das LAN-Kabel her
 == Technik ==
 Im Gehäuse steckt ein 5V/10A Netzteil sowie ein TI Launchpad mit einem LM4F120H5QR Controller, der die Tastenzustände sowie den Drehpoti abfragt und via RS232 an den loc controller schickt.
 
-[[Kategorie:Gerät]]
 [[Kategorie:Hardware]]
