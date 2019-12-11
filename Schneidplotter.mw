@@ -1,15 +1,16 @@
 {{GeraetInfoBox
-|name        = SummaSign Pro T1010 SL
-|status      = working
-|image       = Plotter.jpg
-|description = Tangentialschneideplotter
-|owner       = Verein
-|username    = 
-|financing   = Crowdfunding + Vereinsgeld
-|location    = [[Fablab]]
+|name          = Schneidplotter
+|status        = working
+|image         = Plotter.jpg
+|manufacturer  = 
+|model         = SummaSign Pro T1010 SL
+|description   = Tangentialschneideplotter
+|documentation = 
+|owner         = Verein
+|username      = 
+|financing     = Crowdfunding + Vereinsgeld
+|location      = [[Fablab]]
 }}
-
-
 == Folien ==
 
 Die Folien sind unter [[Folien]] gelistet.
@@ -79,4 +80,3 @@ Bitte lasst euch in den Plotter einweisen, bevor ihr ihn verwendet. Allgemeine I
 [[Category:Hardware]]
 [[Category:Activities]]
 [[Category:Textiles]]
-[[Kategorie:Gerät]]
