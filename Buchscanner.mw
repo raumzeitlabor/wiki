@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = Buchscanner
 |status      = experimental
-|image       = bild_folgt.jpg
+|image       = 
 |description = Linearer Buchscanner zum automatischen Scannen von Büchern bis zu einem Format von A4 (pro Einzelseite)
 |author      = [[user:oko|oko]],[[user:Milhouse|Milhouse]],[[Benutzer:christian|christian]]
 |username    = 
