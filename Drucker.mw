@@ -1,17 +1,15 @@
-{{ProjektInfoBox
+{{GeraetInfoBox
 |name        = Drucker
-|status      = stable
+|status      = working
 |image       = Xerox_WorkCentre_7328.jpeg
-|description = Ein Drucker. Er druckt und scannt Dinge in A4 und A3.
-|author      = 
-|username    = 
+|model       = Xerox WorkCentre 7328
 |version     = 3.0
-|update      = 
-|platform    = Xerox WorkCentre 7328
-|license     = 
-|download    = 
+|description = Ein Drucker. Er druckt und scannt Dinge in A4 und A3.
+|location    = 
+|owner       = 
+|username    = 
+|financing   = 
 }}
-
 * Xerox WorkCentre 7328
 * Netzwerkdrucker (IP: '''172.22.36.133''' / Hostname: '''annette.rzl''')
 * [http://annette.rzl/ Webinterface] über das sich PDFs drucken lassen.
@@ -95,4 +93,3 @@ siehe [[Plastikkarten]]
 siehe [[Ultimaker]]
 
 [[Kategorie:Infrastruktur]]
-[[Kategorie:Gerät]]
