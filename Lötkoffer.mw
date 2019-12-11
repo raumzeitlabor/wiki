@@ -1,12 +1,18 @@
-{{ProjektInfoBox
-|name        = Lötkoffer
-|status      = stable
-|image       = loetkoffer.jpg
-|description = Mobile Lötarbeitsplätze
-|version     = 1.0
-|update      = 14.11.2013
+{{GeraetInfoBox
+|name          = Lötkoffer
+|status        = working
+|image         = loetkoffer.jpg
+|manufacturer  = 
+|model         = 
+|description   = Mobile Lötarbeitsplätze
+|documentation = 
+|location      = 
+|owner         = 
+|username      = 
+|financing     = 
+|version       = 1.0
+|update        = 14.11.2013
 }}
-
 = Beschreibung =
 
 Unsere Lötkoffer, die übrigens vom oqlt e.V. gesponsort wurden, beinhalten jeweils einmal alles, was man für einen Lötarbeitsplatz benötigt. Sie sind primär für die Verwendung bei Workshops und zum Mitreisen gedacht.
@@ -32,6 +38,3 @@ Unsere Lötkoffer, die übrigens vom oqlt e.V. gesponsort wurden, beinhalten jew
 * Kupferschwamm
 * Multimeter mit Messspitzen
 * Biegelehre
-
-[[Kategorie:Projekt]]
-[[Kategorie:Gerät]]
