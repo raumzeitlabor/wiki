@@ -1,20 +1,16 @@
-{{ProjektInfoBox
-|name        = Shapeoko 2
-|status      = beta
-|image       = 
-|description = CNC-Fräse
-|author      = 
-|maintainer  = all makers
-|hostname    = 
-|version     = 
-|update      = 
-|platform    = 
-|license     = 
-|download    = 
-|bausatz     =
-|preis       = 
+{{GeraetInfoBox
+|name          = Shapeoko 2
+|status        = beta
+|image         = 
+|manufacturer  = 
+|model         = Shapeoko 2
+|description   = CNC-Fräse
+|documentation = 
+|owner         = 
+|username      = 
+|financing     = 
+|location      = 
 }}
-
 Nach Abstimmung im Septemberplenum 2014 hat das RaumzeitLabor eine CNC Fräse vom Typ "Shapeoko 2" von [http://inventables.com Inventables] gekauft.
 
 == Doku & Links ==
@@ -278,6 +274,4 @@ Der Sensorstecker ist wie folgt belegt:
 ** [https://www.inventables.com/projects/1000mm-x-1000mm-shapeoko-upgrade-kit Vergrößerung auf 1000*1000mm]
 ** [http://www.amazon.de/Makita-RT0700CX2J-Oberfr%C3%A4se-und-Trimmer/dp/B00CKYCG8S/ref=sr_1_1?ie=UTF8&qid=1410477948&sr=8-1&keywords=makita+fr%C3%A4se Makita Frässpindel] (ca. 200€) mit [https://www.youtube.com/watch?v=T1pkyLY8Qvs Halterung]
 
-[[Kategorie:Projekt]]
 [[Category:Hardware]]
-[[Kategorie:Gerät]]
