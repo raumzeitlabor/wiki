@@ -1,17 +1,18 @@
-{{ProjektInfoBox
-|name        = Raumtelefon
-|status      = broken
-|image       = Raumtelefon.jpg
-|description = Das Raumtelefon.
-|author      = [[Benutzer:Lutoma|lutoma]] [[Benutzer:nicoduck|nicoduck]]
-|username    = 
+{{GeraetInfoBox
+|name          = Raumtelefon
+|status        = broken
+|image         = Raumtelefon.jpg
+|manufacturer  = 
+|model         = 
+|description   = Das Raumtelefon
+|documentation = 
+|author        = [[Benutzer:Lutoma|lutoma]] [[Benutzer:nicoduck|nicoduck]]
 |version     = 2.0
-|update      = 
-|platform    = ISDN/POTS/lcr/yate/SIP
-|license     = 
-|download    = 
+|owner         = 
+|username      = 
+|financing     = 
+|location      = 
 }}
-
 Wir haben einen Telekom-Anschluss mit 3 Nummern. Momentan hängen daran mehrere Telefone via SIP, sie sind erreichbar unter:
 
 <div style="font-size: 30px; margin: 20px 0;">0621 / 76 23 1370</div>
@@ -74,5 +75,4 @@ Hinweise:
 * Das Telefon besitzt einen Ethernet-Passthrough, allerdings nur dann, wenn es auch eingeschaltet ist
 
 [[Category:Infrastruktur]]
-[[Kategorie:Gerät]]
 [[Category:Hardware]]
