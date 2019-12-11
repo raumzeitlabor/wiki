@@ -1,18 +1,16 @@
-{{ProjektInfoBox
-|name        = Ultimaker
-|status      = broken
-|image       = Ultimaker.jpg
-|description = Unser erster 3D-Drucker, derzeit durch den [[Ultimak3r]] ersetzt.
-|author      = 
-|location    = [[Fablab]]
-|username    = 
-|version     = 
-|update      = 
-|platform    = 
-|license     = 
-|download    = 
+{{GeraetInfoBox
+|name          = Ultimaker
+|status        = broken
+|image         = Ultimaker.jpg
+|manufacturer  = 
+|model         = 
+|description   = Unser erster 3D-Drucker, derzeit durch den [[Ultimak3r]] ersetzt.
+|documentation = 
+|owner         = 
+|username      = 
+|financing     = 
+|location      = [[Fablab]]
 }}
-
 ==Regeln im Umgang mit dem Drucker==
 
 ===Allgemein===
@@ -175,4 +173,3 @@ Datei:heated_bed.jpg|Aktuelles Setup mit "Heated Bed"
 <references />
 
 [[Category:Hardware]]
-[[Kategorie:Gerät]]
