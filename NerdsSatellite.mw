@@ -1,3 +1,22 @@
+{{ProjektInfoBox
+|name        = 
+|status      = 
+|image       = 
+|description = 
+|author      = 
+|username    = 
+|maintainer  = 
+|owner       = 
+|location    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = 
+|license     = 
+|download    = 
+|bausatz     = 
+|preis       = 
+}}
 == Worum gehts? ==
 System, welches sich bei mitteleuropäischen Wetterbedingungen ein ganzes Jahr eigenständig mit Energie(reserven) versorgt und dabei gleichzeitig zu mindest bei ausreichenden Energiereserven via UMTS im Internet erreichbar ist oder sich zB per twitter regelmäßig meldet. Praktische Anwendung: zB moderner Geo-Cache.
 
