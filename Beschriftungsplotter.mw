@@ -1,13 +1,17 @@
 {{GeraetInfoBox
-|name        = CMS-P1-PLOTTER
-|status      = eingelagert
-|image       = CMS-P1-PLOTTER.jpg
-|description = Flachbettplotter
-|owner       = Verein
-|username    = 
-|financing   =
+|name          = CMS-P1-PLOTTER
+|status        = in storage
+|custom status = eingelagert
+|image         = CMS-P1-PLOTTER.jpg
+|manufacturer  = 
+|model         = 
+|description   = Flachbettplotter
+|documentation = 
+|owner         = Verein
+|username      = 
+|financing     = 
+|location      = 
 }}
-
 == Allgemeines ==
 
 Der Plotter wird eigentlich von [http://www.ek-team.de/ ek-team.de] gebaut und nennt sich dann "VP 500 A3". Hier gibt es auch Windows-Treiber.
@@ -40,4 +44,3 @@ File:CMS-P1-PLOTTER Magnetsensor Datenpin.jpg|Der Datenpin des Magnetsensors kan
 File:CMS-P1-PLOTTER Magnetsensor Unterlagscheibe.jpg|Der Permanentmagnet, hier schon durch eine Unterlagscheibe höhergelegt
 </gallery>
 [[Category:Hardware]]
-[[Kategorie:Gerät]]
