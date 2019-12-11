@@ -1,18 +1,16 @@
-{{ProjektInfoBox
-|name        = Ultimak3r
-|status      = stable
-|image       = 
-|description = Der aktuell funktionierende 3D-Drucker des RaumZeitLabors.
-|author      = 
-|location    = [[Fablab]]
-|username    = 
-|version     = 3.0
-|update      = 
-|platform    = [https://ultimaker.com/en/products/ultimaker-3 Ultimak3r]
-|license     = 
-|download    = 
+{{GeraetInfoBox
+|name          = Ultimak3r
+|status        = working
+|image         = 
+|manufacturer  = 
+|model         = [https://ultimaker.com/en/products/ultimaker-3 Ultimaker 3]
+|description   = Der aktuell funktionierende 3D-Drucker des RaumZeitLabors.
+|documentation = 
+|owner         = 
+|username      = 
+|financing     = 
+|location      = [[Fablab]]
 }}
-
 == Anleitung zum 3D-Druck ==
 
 '''Nicht ohne Einweisung drucken!'''
@@ -75,5 +73,4 @@ Wenn Dir unsere Filament-Farben nicht ausreichen oder Du mit einem anderen Mater
 * [http://www.filafarm.de/collections/filament Filafarm]
 
 [[Kategorie:Anleitung]]
-[[Kategorie:Gerät]]
 [[Kategorie:Hardware]]
