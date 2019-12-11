@@ -1,17 +1,16 @@
-{{ProjektInfoBox
-|name        = Kompressor
-|status      = stable
-|image       = Applications-utilities.png
-|description = 
-|author      = [[Benutzer:oko|oko]]
-|username    = 
-|version     = 
-|update      = 
-|platform    = 
-|license     = 
-|download    = 
+{{GeraetInfoBox
+|name          = Kompressor
+|status        = working
+|image         = Applications-utilities.png
+|model         = Gieb Kompressor 600/150-11-stehend 2-Zylinder 3,0kW / 400V
+|description   = 
+|author        = [[Benutzer:oko|oko]]
+|documentation = 
+|location      = 
+|owner         = 
+|username      = 
+|financing     = 
 }}
-
 Nach der Inbetriebnahme der Stromversorgung in der [[Werkstatt]] ist der Kompressor nutzbar.
 
 == Allgemeines ==
@@ -55,4 +54,3 @@ Vor Inbetriebnahme solltest Du also diese Schraube handfest eindrehen, sonst ent
 ...
 
 [[Category:Werkstatt]]
-[[Kategorie:Gerät]]
