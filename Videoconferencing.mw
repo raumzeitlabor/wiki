@@ -1,4 +1,22 @@
-Connecting Spaces with Video!
+{{ProjektInfoBox
+|name        = 
+|status      = 
+|image       = 
+|description = Connecting Spaces with Video!
+|author      = 
+|username    = 
+|maintainer  = 
+|owner       = 
+|location    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = 
+|license     = 
+|download    = 
+|bausatz     = 
+|preis       = 
+}}
 == Software ==
 === Server ===
 ==== OpenMCU ====
@@ -20,5 +38,3 @@ Nicht getestet.
 ==== SIP ====
 * LinPhone
 * OpenPhone
-
-[[Kategorie:Projekt]]
