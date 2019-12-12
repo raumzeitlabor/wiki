@@ -3,6 +3,7 @@
 |status      = experimental
 |image       = RaumZeitLabor - Logo - Schwarz.svg
 |description = 
+|category    = Infrastruktur
 |author      = 
 |username    = 
 |version     = 
@@ -37,5 +38,3 @@ Auf der [[Firebox]] läuft ein Daemon (tuerstatusd.pl), der die HTTP-API des Hau
 == Geplant ==
 *Status in den drei IRC-Channels im Topic
 *Status im IRC-Channel automatisch posten
-
-[[Kategorie:Projekt]]
