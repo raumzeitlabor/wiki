@@ -3,6 +3,7 @@
 |status      = stable
 |image       = loeten-lernen.jpg
 |description = Löten lernen für Anfänger. Wenn Du noch nie einen Lötkolben in der Hand gehabt hast, dann bist Du hier richtig.
+|category    = Elektronik
 |author      = Kristian
 |username    = Kristian
 |version     = 1.0.3
@@ -194,6 +195,6 @@ In der Elektronikecke hängt die ERSA Lötfibel, die sehr gute Informationen zum
 * Beipackzettel als GIMP-Datei .xcf: [[Medium:Beipackzettel-workshop-loeten-lernen.xcf]] 
 * Beipackzettel 9fach zum Ausdrucken als .odf: [[Medium:Beipackzettel-loeten-lernen.odt]]
 
-[[Kategorie:Projekt]]
 [[Category:Workshop]]
 [[Category:Bibliothek]]
+[[Kategorie:Anleitung]]
