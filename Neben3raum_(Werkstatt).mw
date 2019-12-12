@@ -1,6 +1,7 @@
 {{ProjektInfoBox
 |name        = Werkstatt 3xNeu
 |description = Die Werkstätten sollen reorganisiert werden.
+|category    = Infrastruktur
 |version     = 0.333333b
 }}
 ==Zweck dieser Seite==
