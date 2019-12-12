@@ -3,6 +3,8 @@
 |status      = obsolete
 |image       = 
 |description = Kapazitiver Sensor mit Audio- und Blinkausgabe
+|category    = Hardware
+|subcategory = Licht & Sound
 |author      = [[Benutzer:Felicitus|Felicitus]]
 |username    = 
 |version     = 
@@ -29,6 +31,3 @@ Pin-Belegungen:
 * Messen, wie lange der frisch aufgeladene 9V-Block hält. Vermutlich nuckelt die kapazitive Messung soviel Strom, daß der Akku relativ schnell leer ist. Netzteil scheidet wegen unserer Stromrechnung aus.
 * Die Alustreifen dauerhaft verbinden - nur wie?
 * Projektplattform auf Atmega8 umziehen
-
-[[Kategorie:Projekt]]
-[[Kategorie:Licht & Sound]]
