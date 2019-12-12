@@ -5,6 +5,8 @@
 |image       = Status-maemo-widget.png
 |imagesize   = 90
 |description = RZL offen?
+|category    = Infrastruktur
+|subcategory = obsolet
 |author      = [[Benutzer:SEC|sECuRE]]
 |username    = 
 |version     = 
@@ -82,7 +84,7 @@ Die anwesenden Mitglieder werden über das Script unifi-check.pl geparst, welche
    `ipv6_reachable` tinyint(1) NOT NULL,
    `hostname` text,
     PRIMARY KEY  (`ip`)
- ) ENGINE=MyISAM DEFAULT CHARSET=latin1
+ ) ENGINE=MyISAM DEFAULT CHARSET=utf8
 
 * davconfig.pm und sqlconfig.pm befüllen
 * Etherrape anschließen
@@ -114,7 +116,4 @@ Auf dem Patchpanel ist der Kontakt an Blau-weiß/Blau (aufgelegt auf Pin 4-5) an
 * [[User:Rami|rami]] (XMPP-Bot)
 * Danke an alle Tester/Nutzer!
 
-
-[[Kategorie:Infrastruktur]]
 [[Kategorie:Öffentlichkeitsarbeit]]
-[[Kategorie:Projekt]]
