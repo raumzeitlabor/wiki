@@ -3,6 +3,8 @@
 |status      = experimental
 |image       = Pronwall01.jpg
 |description = Fette LED-Action
+|category    = Hardware
+|subcategory = Licht & Sound
 |author      = tabascoeye, the_nihilant, bluegene, tiefpunkt, toxios, Unicorn, [[Benutzer:thinkJD|thinkJD]]
 |username    = 
 |version     = 0.1
@@ -111,6 +113,3 @@ Die NXP LPCXpresso boards, welche als Master und als PanelController zum Einsatz
 * http://bertjwregeer.com/Project/LEDWall.html
 * http://www.neophob.com/2010/12/seeedstudio-rainbowduino-carnival-2010/
 * http://www.instructables.com/id/Lampduino-an-8x8-RGB-Floor-Lamp/
-
-[[Kategorie:Projekt]]
-[[Kategorie:Licht & Sound]]
