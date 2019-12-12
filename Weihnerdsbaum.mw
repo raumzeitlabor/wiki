@@ -3,6 +3,8 @@
 |status      = stable
 |image       = RZL_Baum.jpg
 |description = Weihnachtsbastelei für Nerds
+|category    = Hardware
+|subcategory = Licht & Sound
 |author      = Kristian
 |username    = Kristian
 |version     = 1.0
@@ -34,6 +36,3 @@ Wie man mit Papier, Schere, Kleber, ein paar LEDs, einem Widerstand und einer Ba
 *Schaltplan: [[Medium:Ctree-01-schaltplan.pdf]]
 *Vorlage zum Ausschneiden der Bauteile: [[Medium:Ctree-02-schablone.tif]]
 *gezeichnete 3D-Ansicht: [[Medium:Ctree-03-ansicht.tiff]]
-
-[[Kategorie:Projekt]]
-[[Kategorie:Licht & Sound]]
