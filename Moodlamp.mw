@@ -3,6 +3,8 @@
 |status      = beta
 |image       = Moodlamp01.jpg
 |description = Lecker-bunte Farblaterne
+|category    = Hardware
+|subcategory = Licht & Sound
 |author      = TabascoEye
 |username    = 
 |version     = 1.5
@@ -181,5 +183,3 @@ Angepasst auf Moodlamp v2.0 mit neuer Fernbedienung. Fernbedienungsfunktionen ab
 ** Video-Eingang an Atmel
 ** Durchschnittsfarbe des Videobildes ausrechnen
 ** Moodlamp-Farbe setzen
-
-[[Kategorie:Licht & Sound]]
