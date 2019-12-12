@@ -7,6 +7,7 @@ Das Projekt "Hacklace" wurde eingestellt. Diese Seite dient nur als Referenz.}}
 |status      = stable
 |image       = Hacklace_schwarz.jpg
 |description = Eine Halskette mit 5x7-Dot-Matrix-Led-Display
+|category    = Elektronik
 |author      = [[user:fabster|fabster]],[[user:muzy|muzy]]
 |username    = 
 |version     = Revision B
@@ -401,7 +402,5 @@ Diese Wikiseite dient dazu, die Fakten zum Hacklace zu präsentieren. Hier finde
 ==Credits==
 Hacklace wurde inspiriert durch das Projekt "TinyMatrix" von TigerUp [https://sites.google.com/site/tinymatrix/]. Da wir jedoch unsere eigenen Vorstellungen umsetzen wollten, ist Hacklace bezüglich Hard- und Software eine komplette Neuentwicklung.
 
-
-[[Kategorie:Projekt]]
 [[Category:Raum-Kommerz-Labor]]
 [[Category:Shop]]
