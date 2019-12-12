@@ -3,12 +3,9 @@
 |status      = Beta
 |image       = 
 |description = Nebenraum Dokumentation
+|category    = Infrastruktur
 |author      = 
 |username    = 
-|version     =
-|update      = 
-|platform    = 
-|license     = 
 |download    = 
 }}
 
@@ -228,5 +225,3 @@ Wände sind gekennzeichnet mit Buchstaben A-M
 ** L08: 15521m (Rack?) -15331m (Dose?)
 
 * Bei Duplex-Leitungen ist die jeweils beschriftete Ader die niederwertige, d.h. bei dem Leitungspaar L1/L2 ist die Leitung mit der Beschriftung/Meterangabe L1, die unbeschriftete L2.
-
-[[Kategorie:Projekt]]
