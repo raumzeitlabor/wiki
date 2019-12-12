@@ -49,9 +49,23 @@
 | style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Mailingliste]] / [[IRC]]'''<br/>Kontaktmöglichkeiten
 |-
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=Verein]]
-| style="padding:8px 8px 8px 4px;vertical-align:top;" | '''[[Verein]]'''<br/>Der Trägerverein des RaumZeitLabors
+| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Verein]]'''<br/>Der Trägerverein des RaumZeitLabors
 <span style="font-size:85%">
 * [[Spenden]] <!--([[Spenden/en|en]])-->
+</span>
+|-
+| style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=:Kategorie:Intern]]
+| style="padding:8px 8px 8px 4px;vertical-align:top;" | '''Internes'''
+<span style="font-size:85%">
+* [[Leitfaden für Anrufe]]
+* [[Stackenblocken]]
+* [[Lost+Found]]
+* [[Müll|Müll entsorgen]]
+* [[:Kategorie:Arbeitsgruppe|Arbeitsgruppen]]
+* [[:Kategorie:Öffentlichkeitsarbeit|Öffentlichkeitsarbeit]]
+* [https://github.com/raumzeitlabor/rzl-tuwat/issues To-Do-Liste (tuwat)]
+* [https://benutzerdb.raumzeitlabor.de/BenutzerDB/ BenutzerDB-Login]
+* [[:Kategorie:Protokoll|Protokolle]]
 </span>
 |}
 | width="33%" |
@@ -119,12 +133,11 @@
 {| cellpadding="0" cellspacing="0" style="border-collapse:collapse;font-size:110%;text-align:left;border:2px solid #dfdfdf;background-color:#f8f8ff;" width="95%"
 ! style="border:2px solid #dfdfdf; background-color:#ddeeff;padding:3px;text-align:center;" colspan="2" | Infrastruktur und Projekte
 |-
-| style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=Kategorie:Projekt]]
-| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[:Kategorie:Projekt|Alle Projekte]]'''
+| style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=:Kategorie:Anleitung]]
+| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[:Kategorie:Anleitung|Anleitungen]]'''
 <span style="font-size:85%">
-* [[:Kategorie:Projekt#Software|Software]]
-* [[:Kategorie:Projekt#Infrastruktur|Infrastruktur]]
-* [[:Kategorie:Projekt#Soziales|Soziales]]
+* [[Löten lernen]] (→ [[RZLblink]])
+* [[Openscad Tutorial]]
 </span>
 |-
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=:Kategorie:Infrastruktur]]
@@ -137,6 +150,7 @@
 * [[ESP Cherry]]
 * [[Infoscreen]]
 * [[Ping]] und [[Pingie Pie]]
+* [[Namensschilder]]
 * [[Wall of Nerds]]
 * [[Bibliothek]]
 </span>
@@ -147,6 +161,7 @@
 * [[Drucker]]
 * [[Drucker#Labeldrucker|Labeldrucker]]
 * [[Laminiergerät]]
+* [[Lötkoffer]]
 * [[Buttonmaschinen]]
 * [[Eismaschine]], [[Popcornmaschine]] und [[Slushmaschine]]
 * [[Staubsauger]]
@@ -162,39 +177,12 @@
 * [[Statusbot]]
 </span>
 |-
-| style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=:Kategorie:Öffentlichkeitsarbeit]]
-| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[:Kategorie:Öffentlichkeitsarbeit|Öffentlichkeitsarbeit]]'''
+| style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=Kategorie:Projekt]]
+| style="padding:8px 8px 8px 4px;vertical-align:top;" | '''[[:Kategorie:Projekt|Alle Projekte]]'''
 <span style="font-size:85%">
-* [[Bewährte Verfahren]]
-* [[Leitfaden für Anrufe]]
-* [[Webseite]]
-* [[Online-Accounts]]
-* [[Presse]]
-* [[Pressemitteilung]]
-* [[Jugendförderung]]
-* [[Namensschilder]]
-* [[Lötkoffer]]
-* [[Agenda Aktion 2019]]
-* [[RZLblink]]
-</span>
-|-
-| style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=:Kategorie:Anleitung]]
-| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[:Kategorie:Anleitung|Anleitungen]]'''
-<span style="font-size:85%">
-* [[Löten lernen]]
-* [[Openscad Tutorial]]
-</span>
-|-
-| style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=:Kategorie:Intern]]
-| style="padding:8px 8px 8px 4px;vertical-align:top;" | '''Internes'''
-<span style="font-size:85%">
-* [https://github.com/raumzeitlabor/rzl-tuwat/issues To-Do-Liste (tuwat)]
-* [[:Kategorie:Arbeitsgruppe|Arbeitsgruppen]]
-* [[:Kategorie:Protokoll|Protokolle]]
-* [https://benutzerdb.raumzeitlabor.de/BenutzerDB/ BenutzerDB-Login]
-* [[Stackenblocken]]
-* [[Lost+Found]]
-* [[Müll|Müll entsorgen]]
+* [[:Kategorie:Projekt#Software|Software]]
+* [[:Kategorie:Projekt#Infrastruktur|Infrastruktur]]
+* [[:Kategorie:Projekt#Soziales|Soziales]]
 </span>
 |}
 |}
