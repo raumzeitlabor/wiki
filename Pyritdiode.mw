@@ -3,16 +3,12 @@
 |status      = 
 |image       = 
 |description = 
+|category    = Elektronik
 |author      = 
-|username    = 
 |maintainer  = 
 |owner       = 
+|username    = 
 |location    = 
-|version     = 
-|update      = 
-|platform    = 
-|hostname    = 
-|license     = 
 |download    = 
 |bausatz     = 
 |preis       = 
@@ -32,6 +28,3 @@ Der Plan war passend zum Vortrag von Alex "Dioden und Transistoren" diese Pyritd
 [[Datei:Pyritdiodediode.JPG|thumb|center|500px]]
 6. Kombidarstellung Eingang und Ausgang  (Bild Oldschool nix USB bla)
 [[Datei:Pyritdiodemix.JPG|thumb|center|500px]]
-
-
-[[Kategorie:Projekt]]
