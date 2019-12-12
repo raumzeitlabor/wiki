@@ -3,6 +3,7 @@
 |status      = experimental
 |image       = atmel-foo.jpg
 |description = Programmier- und Debugbox für ATMega8 und andere Atmel-ISP-Mikrokontroller
+|category    = Elektronik
 |author      = [[Benutzer:Nessi|Nessi]], [[Benutzer:Felicitus|Felicitus]]
 |username    = 
 |version     = 
@@ -68,5 +69,3 @@ Pin 1 und 2 sind belegt. Wir wissen im Moment nicht, wo Plus und Minus ist. Werd
 1x Textool-Sockel 28 Pol (Reichelt TEX 28) 4,95
 
 Steckverbindung vom Mainboard zu Platine mit IC-Sockel?
-
-[[Kategorie:Projekt]]
