@@ -3,6 +3,7 @@
 |status      = experimental
 |image       = RaumZeitLabor - Logo - Schwarz.svg
 |description = 
+|category    = Infrastruktur
 |author      = [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Else|else]]
 |maintainer  = [[Benutzer:Else|else]]
 |username    = 
@@ -533,4 +534,4 @@ Endpunkte:
 
 * Soundserver, der auf Events reagiert. Es gibt bereits einen simplen [https://github.com/raumzeitlabor/rzl-krachbumms Soundserver], der allerdings nur über HTTP funktioniert. Gewünscht wäre eine modifizierte Version, die sich auf den gesamten /service Tree subscribed (Topic: /service/#) und bei Events auf unserem Datengrab in einem bestimmten Verzeichnis schaut, ob es für das Topic eine gleichnamige Sounddatei gibt, die dann abgespielt wird. Neue Sounds könnte man dann einfach registrieren in dem man Dateien auf dem Datengrab ablegt.
 
-[[Kategorie:Projekt]][[Kategorie:Infrastruktur]]
+[[Kategorie:Infrastruktur]]
