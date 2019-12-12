@@ -3,6 +3,7 @@
 |status      = experimental
 |image       = 
 |description = A 32 button input board with V-USB
+|category    = Elektronik
 |author      = [[Benutzer:Felicitus|Felicitus]]
 |version     = 0.1
 |download    = https://github.com/timoahummel/eagle/tree/master/MAMEInput
