@@ -3,6 +3,8 @@
 |status      = obsolete
 |image       = RaumZeitLabor - Logo - Schwarz.svg
 |description = Temperatur-Sensor im Raum
+|category    = Infrastruktur
+|subcategory = obsolet
 |author      = [[Benutzer:Tiefpunkt|tiefpunkt]]
 |username    = 
 |version     = v0.01 Alpha
@@ -37,5 +39,3 @@ Derzeit postet der RaumTemperaturLaborSensor seine Temperatur in tiefpunkts Raum
 * Kalibrierung der Sensoren
 * Ersetzen des Netbooks durch irgendein stromsparenderes, kleineres, schöneres, blinkend glitzernders $ding
 * Temperatur und den [[Raumstatus]] verheiraten
-
-[[Kategorie:Projekt]]
