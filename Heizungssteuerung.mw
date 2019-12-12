@@ -3,6 +3,7 @@
 |status      = experimental
 |image       = Sensor_steller.jpg
 |description = 
+|category    = Infrastruktur
 |author      = [[Benutzer:Alexander Brock|Alexander Brock]], [[Benutzer:Nessi|Nessi]]
 |version     = 0.1
 |download    = https://github.com/raumzeitlabor/heizungssteuerung
@@ -53,4 +54,4 @@ Die Sensoren sind an eine Platine mit einem Atmega644-20PU angeschlossen, dieser
 
 Der Stromverbrauch der aktuellen Installation soll gemessen werden. Die Messung wurde am 28.04.12 um 20:07 gestartet. Die Messung wurde am 29.4.2012 um 19:10 gestoppt. Der Zählerstand betrug 0.14kWh, das ergibt einen mittleren Verbrauch von 6W. Die zweite Messung wurde am 30.04.12 um 00:32 gestartet und am 03.06.2012 1:45 gestoppt. Der Zählerstand betrug 4,87kWh, das ergibt einen mittleren Verbrauch von 6,42W.
 
-[[Kategorie:Projekt]][[Kategorie:Infrastruktur]]
+[[Kategorie:Infrastruktur]]
