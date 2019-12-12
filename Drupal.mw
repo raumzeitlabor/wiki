@@ -5,6 +5,8 @@
 |status      = stable
 |image       = RaumZeitLabor - Logo - Schwarz.svg
 |description = 
+|category    = Infrastruktur
+|subcategory = obsolet
 |author      = 
 |username    = Inte
 |version     = 
@@ -139,5 +141,3 @@ See the system requirements page for more information.</pre>
 
 ==Siehe auch==
 *[[CiviCRM]]
-
-[[Kategorie:Projekt]]
