@@ -3,6 +3,7 @@
 |status      = unknown
 |image       = 
 |description = stabilisierte 5V-Spannungsversorgung mittels Batterien/Akkus
+|category    = Elektronik
 |author      = Inte
 |username    = Inte
 |version     = 
@@ -164,5 +165,3 @@ Der '''Konnektor''' ist eine stabilisierte 5V-Spannungsversorgung (Imax=600mA) m
 *[http://forums.adafruit.com/viewtopic.php?f=15&t=11827 Adafruit Forums - 4AA efficiency]
 *[[Kicad]]
 *[https://secure.wikimedia.org/wikipedia/de/wiki/NiMH-Akkumulator_mit_geringer_Selbstentladung NiMH-Akkumulator mit geringer Selbstentladung]
-
-[[Kategorie:Projekt]]
