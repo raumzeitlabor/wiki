@@ -3,6 +3,7 @@
 |status      = stable
 |image       = Tvbgone01.jpg
 |description = 
+|category    = Elektronik
 |author      = TabascoEye
 |username    = TabascoEye
 |version     = 0.5
@@ -77,5 +78,3 @@ Die folgende Aufzeichnung wurde uns aus einer Elektroapotheke zugespielt:
 <html><video src="https://wiki.raumzeitlabor.de/images/8/83/TVaus_1_1000.ogv" controls="controls" height="352" width="352">
 This wiki does not support the HTML5-Awesomeness.
 </video></html>
-
-[[Kategorie:Projekt]][[Kategorie: KleinProzessorZüchter]]
