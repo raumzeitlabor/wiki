@@ -7,6 +7,7 @@ The project "Hacklace" is no longer maintained. This site is for reference only.
 |status      = stable
 |image       = Hacklace_schwarz.jpg
 |description = A necklace with a 5x7 dotmatrix display
+|category    = Elektronik
 |author      = [[user:fabster|fabster]], [[user:muzy|muzy]]
 |username    = 
 |version     = Revision B
@@ -254,7 +255,5 @@ You can purchase a kit for 10€ at RaumZeitLabor - please contact [[Benutzer:mu
 ==Credits==
 Hacklace was inspired by the "TinyMatrix" project from TigerUp [https://sites.google.com/site/tinymatrix/]. 
 
-
-[[Kategorie:Projekt]]
 [[Category:Raum-Kommerz-Labor]]
 [[Category:Shop]]
