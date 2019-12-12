@@ -1,6 +1,7 @@
 {{ProjektInfoBox
 | name = USB Switch
 | description = Ein geschalteter USB-Port
+ |category = Elektronik
 | author = [[Benutzer:Tiefpunkt|tiefpunkt]]
 | status = experimental
 | download = [https://github.com/tiefpunkt/usbswitch GitHub]
@@ -38,5 +39,3 @@ Auf Breadboard, ATtiny25, USB und einer LED. Firmware http://eeegadgets.blogspot
 
 * Alternativ könnte man 2 2-fach-Wechselrelais (z.b. Reichelt FTR-B4CA 4,5V - je 1,25€) nutzen, um sämtliche Verbindungen zum Device zu trennen. Ist vermutlich die saubere Alternative, da auch die Datenleitungen gekappt werden und somit der gleiche Effekt auftritt, wie als wenn man das Device manuell aus- und einstöpselt. Wird nur die 5V-Leitung gekappt, könnte das ggf. side effects haben, je nach Device.
 ** Da der USB-Switch eh nur normale Stromverbraucher schalten soll, keine Devices, die auch die Datenleitungen benötigen, ist das erstmal nicht so tragisch.
-
-[[Kategorie:Projekt]]
