@@ -1,21 +1,17 @@
-{{ProjektInfoBox
-|name        = Werkzeugwagen
-|status      = stable
-|image       = wzw2.jpg
-|description = Schokolade
-|author      = 
-|maintainer  = Alle die es Nutzen
-|hostname    = 
-|version     = 
-|update      = 
-|platform    = 
-|license     = 
-|download    = 
-|bausatz     =
-|preis       = 890€
+{{GeraetInfoBox
+|name          = Werkzeugwagen
+|status        = working
+|image         = wzw2.jpg
+|manufacturer  = 
+|model         = 
+|description   = Der Werkzeugwagen steht irgendwo im RZL, sollte aber in der Werkstatt verräumt sein.
+|documentation = 
+|owner         = 
+|username      = 
+|financing     = 
+|location      = 
+|preis         = 890€
 }}
-
-Der Werkzeugwagen steht irgendwo im RZL, sollte aber in der Werkstatt verräumt sein.
 
 == Beschreibung des Herstellers==
 
