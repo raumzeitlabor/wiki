@@ -3,6 +3,8 @@
 |status      = stable
 |image       = twinkle.jpg
 |description = Bunte Lichter illuminieren die Decke an der Beamerseite des Raumes
+|category    = Elektronik
+|subcategory = Licht & Sound
 |author      = [[Benutzer:Blabber|blabber]]
 |username    = 
 |version     = 1.0
@@ -20,5 +22,3 @@ Der Sourcecode und Schaltplan liegen unter https://github.com/raumzeitlabor/twin
 [[Datei:Twinkle-2.jpg|Thumb|400px]]
 
 [[Datei:Twinkle-3.jpg|Thumb|400px]]
-
-[[Kategorie:Projekt]]
