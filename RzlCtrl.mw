@@ -3,6 +3,7 @@
 |status      = experimental
 |image       = RaumZeitLabor - Logo - Schwarz.svg
 |description = I/O Hardware für den [[Hausbus3]]
+|category    = Infrastruktur
 |author      = [[Benutzer:Spike|spike]]
 |maintainer  = [[Benutzer:Spike|spike]]
 |username    = 
@@ -110,7 +111,5 @@ bisherige Überlegungen:
 Die Kommunikation läuft über Seriell direkt auf der Platine. Die Geschwindigkeit wurde erstmal auf 115200 BAUD festgelegt (kein tieferer Grund). Zeitlich ist das ganze nicht weiter kritisch.
 Auf der Platine ist eine Reset-LEitung vorgesehen mit der es dem AVR möglich ist, den ESP im Falle von Problemen zurückzusetzen (quasi wie ein Watchdog). Aus diesem Grund sollte der ESP regelmäßig Heartbeat Botschaften an den AVR senden. Am besten könnte man in diesen Botschaften ein paar Informationen an den AVR weitergeben, so wie WiFi status, MQTT Status usw. Das ist bisher aber noch nicht definiert.
 
-
-[[Kategorie:Projekt]]
 [[Kategorie:Hardware]]
 [[Kategorie:Infrastruktur]]
