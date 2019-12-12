@@ -3,6 +3,7 @@
 |status      = experimental
 |image       = Lichtsteuerungsclient.jpg
 |description = Deckenlichtschalter goes digital!
+|category    = Infrastruktur
 |author      = [[Benutzer:Felicitus|Felicitus]], [[Benutzer:Dancingfo|DancingFo]]
 |username    = 
 |version     =
@@ -23,4 +24,4 @@ Wir verwenden RDM, um die Zustände bidirektional über einen DMX512/RS485-Bus z
 
 <splist/>
 
-[[Kategorie:Projekt]] [[Kategorie:Infrastruktur]]
+[[Kategorie:Infrastruktur]]
