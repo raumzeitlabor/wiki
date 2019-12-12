@@ -4,7 +4,8 @@
 |status      = obsolete
 |image       = 
 |description = Eigenbau NAS mit Hack-Value
-|category    = Netzwerk
+|category    = Infrastruktur
+|subcategory = obsolet
 |author      = docsteel, Inte
 |username    = 
 |version     = 0.1
@@ -61,7 +62,6 @@ Hier machen wir erstmal eine Liste auf was das HANAS können sollte, unabhängig
 *eSATA
 *ca. 60€
 Interessanter Artikel über [http://blog.hani-ibrahim.de/de/ndas-als-netzwerkspeicher-im-heimnetzwerk.html NDAS als Netzwerkspeicher im Heimnetzwerk] vom 12. April 2009.
-[[Kategorie:Projekt]]
 
 ===[http://geizhals.at/deutschland/a306828.html Intel SS4200]===
 * PC-basierte NAS von Intel, 1 GBit-LAN, 512MB RAM, 1.6GHz Celeron, 4 HDD Bays), 4x USB Host, 2x eSATA, HW-Raid?
