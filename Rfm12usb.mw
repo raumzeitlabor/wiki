@@ -3,6 +3,8 @@
 |status      = experimental
 |image       = 
 |description = USB-Adapter für RFM12 auf Lochraster
+|category    = Hardware
+|subcategory = Licht & Sound
 |author      = tiefpunkt
 |username    = 
 |version     = 0.1
@@ -33,5 +35,3 @@ Unsere [[Moodlamp]] hat einen Funkchip, einen RFM12. Damit wir damit auch vom Re
 * Demo-Application vom Labor erkennt das Device auch
 * Tatsächliche Funktion noch unbekannt, da keine Gegenstelle verfügbar
 ** Code für Moodlamp geschrieben, der einfache Pakete über RFM12-Chip versendet und Status über UART ausgibt. Leider kommt keine Kommunikation zustande, egal in welche Richtung. Lade das ganze Coding jetzt mal hoch, vielleicht mag sich ja mal wer mit beschäftigen --> https://github.com/tiefpunkt/rfm12usb
-
-[[Kategorie:Licht & Sound]]
