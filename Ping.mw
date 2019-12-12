@@ -3,6 +3,7 @@
 |status      = stable
 |image       = 
 |description = !ping-Interface für das IRC
+|category    = Infrastruktur
 |author      = [[Benutzer:SEC|sECuRE]], others? 
 |username    = 
 |version     = 1.0
@@ -31,10 +32,3 @@ Welche Aufgaben der AVR und welche der Raspberry Pi übernehmen wird, muß noch 
 == Bisherige Modifikationen ==
 
 * Zeitweise war eine Flachhupe mit dem Ping gekoppelt, damit man den Ping auch akustisch wahrnehmen konnte. Dies wurde jedoch als störend empfunden, die Kopplung wurde aufgehoben.
-
-
-
-
-
-[[Kategorie:Projekt]]
-[[Kategorie:Licht & Sound]]
