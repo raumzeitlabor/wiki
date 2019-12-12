@@ -3,6 +3,7 @@
 |status      = experimental
 |image       = Keydial01.jpg
 |description = Drehencoder als USB-Eingabegerät
+|category    = Elektronik
 |author      = tiefpunkt
 |username    = tiefpunkt
 |version     = 
@@ -29,5 +30,3 @@ Der KeyDial-Prototype funktioniert, und sendet Tastendrücke an den USB-Host. Al
 === ToDo ===
 * Optimierung des Codes, um mehr Tastendrücke senden zu können
 * LCD-Display
-
-[[Kategorie:Projekt]][[Kategorie: KleinProzessorZüchter]]
