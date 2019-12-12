@@ -3,6 +3,7 @@
 |status      = stable
 |image       = Kuechesauber.jpg
 |description = Ein Ort an dem sich Nerd von Welt kulinarisch austoben kann.
+|category    = Infrastruktur
 |author      = 
 |username    = 
 |version     = 
@@ -117,4 +118,4 @@ Eine Front mit der noch aufzubauenden Stellwand ist 3.78m (bedingt durch die Pla
 *[[Roadmap]]
 *[[Einkaufsliste]]
 
-[[Kategorie:Projekt]][[Kategorie:RaumZeitLabor]]
+[[Kategorie:RaumZeitLabor]]
