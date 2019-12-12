@@ -1,0 +1,28 @@
+{{GeraetInfoBox
+|name          = Husqvana
+|status        = beta
+|image         = 
+|manufacturer  = Husqvarna-Viking
+|model         = Designer Topaz 30
+|description   = Näh- und Stickmaschine
+|documentation = 
+|author        = andreas
+|owner         = 
+|username      = 
+|financing     = 
+|location      = [[Fablab]]
+}}
+Die Stickmaschine ist vom Typ Husqvarna-Viking Designer Topaz 30.
+
+== Sticken allgemein ==
+Du solltest immer ein Stickvlies unterlegen. Es gibt auch Stickvlies zum aufbügeln, was für kleinere Stickereien geeignet ist. Dehnbare Stoffe eignen sich weniger als feste Stoffe.
+
+== Die Maschine ==
+Am besten du schaust dir diese [https://www.youtube.com/watch?v=jISJdGxWtQ4&list=PLvE6jwvXA4CEPFXFjFYBVuRAjQ61D1bym Tutorials] an, da wird sehr gut erklärt, wie die Maschine funktioniert. Du solltest dir mindestens die folgenden beiden anschauen:
+* [https://www.youtube.com/watch?v=p18xeK-zN6M Einfädeln des Fadens]
+* [https://www.youtube.com/watch?v=37qzF3fI1Ng Einfädelhilfe]
+* [https://www.youtube.com/watch?v=shgiXlr3uFc Den Unterfaden einfügen]
+Ansonsten brauchst du noch einen Stickrahmen und den Stickaufsatz (die Fadenbox vorher entfernen).
+
+== Software / Datenformat ==
+Die Maschine benötigt Dateien im Format VP3. Eine Möglichkeit ist die Software [https://www.wilcom.com/en-us/hatch.aspx Wilcom Hatch], die zwar sehr teuer ist aber eine 30-Tage Testversion bietet.
