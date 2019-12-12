@@ -13,6 +13,7 @@ Wenn Ausschalten aus Privatsphäre-Gründen dringend benötigt wird:
 |status      = stable
 |image       = ulticam.jpg
 |description = Live-Bild unseres 3D Druckers
+|category    = Infrastruktur
 |author      = [[Benutzer:muzy|muzy]], [[Benutzer:nicoduck|nicoduck]], [[Benutzer:Felicitus|Felicitus]]
 |username    = 
 |version     = 1.0
@@ -52,6 +53,7 @@ Aktuell ist die Halterung der Webcam leider defekt. Wird demnächst™ neu gedru
 |status      = broken
 |image       = ovencam.jpg
 |description = Live-Bild unseres Backofens
+|category    = Infrastruktur
 |author      = [[Benutzer:muzy|muzy]], [[Benutzer:nicoduck|nicoduck]]
 |username    = 
 |version     = 
@@ -89,6 +91,7 @@ Hardware:
 |status      = unknown
 |image       = 
 |description = Live-Bild des FaZzZ0rs
+|category    = Infrastruktur
 |author      = [[Benutzer:TabascoEye|TabascoEye]], [[Benutzer:nicoduck|nicoduck]]
 |username    = 
 |version     = 
@@ -100,6 +103,3 @@ Hardware:
 }}
 
 Befindet sich noch im Aufbau!
-
-
-[[Kategorie:Projekt]]
