@@ -3,6 +3,7 @@
 |status      = beta
 |image       = Infoscreen01.jpg
 |description = Aktuelle Information über das RaumZeitLabor
+|category    = Infrastruktur
 |author      = [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Blabber|blabber]], [[Benutzer:Silsha|silsha]]
 |username    = 
 |version     = v0.4
@@ -219,6 +220,4 @@ Dies prüft minütlich. Möchten wir zB halbstündlich prüfen, würde die Zeiel
 
 Aktuell wird minütlich geprüft. Wir entwickeln ja noch!
 
-
-[[Kategorie:Projekt]]
 [[Kategorie:Hardware]]
