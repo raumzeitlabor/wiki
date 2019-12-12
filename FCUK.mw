@@ -3,6 +3,7 @@
 |status      = experimental
 |image       = Dcf77_am_oszi.jpg
 |description = Fucking Creative Universal Klock
+|category    = Elektronik
 |author      = 
 |username    = Unicorn
 |version     = 0.1337
@@ -46,5 +47,3 @@ Die genauen Details des Projektes entfalten sich aktuell. Hier schon einmal erst
 ** 1 Drehpoti mit Schalter (Stellungen AUS - Regelbereich) <- AUS bedeutet "automatische Helligkeit" ansonsten manuelle Helligkeit
 ** 3 Taster fürs Uhrstellen (falls DCF77 bei Kellernerds nicht will)
 * Netzwerk-Modul (SNTP Sender/Empfänger) mit 3-Wege-Schalter (Empfänger-Sender-Aus)
-
-[[Kategorie:Projekt]]
