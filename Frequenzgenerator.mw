@@ -1,18 +1,16 @@
-{{ProjektInfoBox
-|name        = Frequenzgenerator
-|status      = stable
-|image       = Foto1.JPG
-|description = Erdbeerkäse
-|author      = 
-|maintainer  = Alle die es Nutzen
-|hostname    = 
-|version     = 
-|update      = 
-|platform    = 
-|license     = 
-|download    = 
-|bausatz     =
-|preis       = 310€
+{{GeraetInfoBox
+|name          = Frequenzgenerator
+|status        = working
+|image         = Foto1.JPG
+|manufacturer  = Siglent
+|model         = SDG1025
+|description   = Erdbeerkäse
+|documentation = [[:File:sdg1000manuals.tar.gz|Handbücher]], [[:File:sdg1000soft.tar.gz|Software]]
+|owner         = 
+|username      = 
+|financing     = 
+|location      = 
+|preis         = 310€
 }}
 
 ==Siglent SDG1025 2-kanaliger 25MHz Arbitrary Funktionsgenerator==
@@ -29,9 +27,3 @@
 *Grafisches, 3.5" TFT-Display
 *USB-Schnittstelle
 *Software im Lieferumfang
-
-==Handbücher und Software==
-
-[[:File:sdg1000manuals.tar.gz]]
-
-[[:File:sdg1000soft.tar.gz]]
