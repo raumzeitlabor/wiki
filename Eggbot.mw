@@ -3,6 +3,7 @@
 |status      = beta
 |image       = eggbot.jpg
 |description = Der Eggbot ist eine kleine Maschine, welche Eier bemalt.
+|category    = Elektronik
 |author      = [[Benutzer:Abrock|Abrock]]
 |username    = 
 |version     = 
@@ -25,5 +26,3 @@ Figuren werden als Schritt-Folgen programmiert, "r", "l", "u", "d" stehen für "
 ==Bilder==
 
 [[Bild:Eggbot1.jpg|miniatur|hochkant=2]]
-
-[[Kategorie:Projekt]]
