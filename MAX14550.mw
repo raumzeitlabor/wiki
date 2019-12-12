@@ -3,6 +3,7 @@
 |status      = experimental
 |image       = MAX14550-angeloetet.jpg
 |description = USB-Ladeadapter mit MAX14550EETB
+|category    = Elektronik
 |author      = [[Benutzer:Nessi|Nessi]], [[Benutzer:Felicitus|Felicitus]]
 |username    = 
 |version     = 
@@ -62,7 +63,3 @@ Der IC hat einen Sockel bekommen und ist mit der Platine verdrahtet
 Ein schneller Größenvergleich zu einem DIP8
 
 [[Datei:MAX1455-vergleich.jpg|800px]]
-
-
-
-[[Kategorie:Projekt]]
