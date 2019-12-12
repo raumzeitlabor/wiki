@@ -1,5 +1,6 @@
 {{ProjektInfoBox
 | description=Steckdosen in unserem Konferenztisch
+| category = Infrastruktur
 | status = beta
 | author=[[Benutzer:Hax404|hax404]], [[Benutzer:ThinkJD|thinkJD]], [[Benutzer:Tiefpunkt|tiefpunkt]]
 }}
@@ -110,4 +111,3 @@ Kostenpunkt: 30 Euro pro Mini-Patch-Panel, paar Euro für Kabel, 24-Port Switch 
 
 * Weniger Ports als Idee 2
 * Kabel müssen sauber vor dem Auseinanderbauen getrennt werden
-[[Kategorie:Projekt]]
