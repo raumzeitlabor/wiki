@@ -14,8 +14,8 @@
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=Das RaumZeitLabor]]
 | style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Das RaumZeitLabor]]'''<br/>Das RaumZeitLabor erklärt sich
 <span style="font-size:85%">
-* [https://log.raumzeitlabor.org/ Log]
 * [[Handbuch]]
+* [https://log.raumzeitlabor.org/ Log]
 </span>
 |-
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Go-next.png|40px|link=Anfahrt]]
@@ -116,9 +116,6 @@
 | style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Werkstatt|Holzwerkstatt]]'''<br/>
 <span style="font-size:85%">
 * [[Shapeoko 2|CNC-Fräse]]
-* [[Neben3raum (Werkstatt)|Neben-Neben-Nebenraum (neue Werkstatt)]]
-* [[WerkstattInventur|Inventur]]
-* [[Kompressor]]
 </span>
 |-
 | style="padding:8px;vertical-align:top;" | [[Datei:Gnome-emblem-package.svg|40px|link=Storage]]
@@ -138,6 +135,7 @@
 <span style="font-size:85%">
 * [[Löten lernen]] (→ [[RZLblink]])
 * [[Openscad Tutorial]]
+* [[Log|Bilder im Log posten]]
 </span>
 |-
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=:Kategorie:Infrastruktur]]
@@ -170,11 +168,10 @@
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=Netzwerk]]
 | style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Netzwerk|Infrastruktur im Netz]]'''
 <span style="font-size:85%">
+* [[Statusbot]]
 * [[BenutzerDB]]
 * [[MPD]]
-* [[Log]]
 * [[Netzwerk]]
-* [[Statusbot]]
 </span>
 |-
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=Kategorie:Projekt]]
