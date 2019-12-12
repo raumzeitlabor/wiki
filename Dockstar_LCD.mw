@@ -3,6 +3,8 @@
 |status      = stable
 |image       = Dockstar LCD Display aufgebaut.jpg
 |description = USB-LCD für die [http://www.seagate.com/www/de-de/products/network_storage/freeagent_dockstar/ Seagate Dockstar]
+|category    = Hardware
+|subcategory = Licht & Sound
 |author      = [[Benutzer:Felicitus|Felicitus]]
 |username    = 
 |version     = 1.0
@@ -127,6 +129,3 @@ Firmware und LCD4Linux-Treiber sind unter http://github.com/timoahummel/dockstar
 Was schon funktioniert: Textausgabe mittels LCD4Linux und einem kleinen Patch für LCD2USB.
 
 Was noch nicht funktioniert: Eigene Icons (Display zeigt nur Garbage an).
-
-[[Kategorie:Projekt]]
-[[Kategorie:Licht & Sound]]
