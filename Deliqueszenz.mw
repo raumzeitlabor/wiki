@@ -1,6 +1,7 @@
 {{projektInfoBox
 | name = Deliqueszenz
 | description = Feuchte und Salz - da klebt es
+| category = Elektronik
 | image = Deli innen 200.png
 | status = beta
 | username = smokehead, anna
@@ -36,7 +37,3 @@ Ein genauer Schaltplan folgt noch.
 == Ausgabe der Ergebnisse ==
 
 == Messung der Luftfeuchtigkeit ==
-
-
-
-[[Kategorie:Projekt]]
