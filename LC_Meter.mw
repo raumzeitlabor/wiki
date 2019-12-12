@@ -3,6 +3,7 @@
 |status      = stable
 |image       = LC Meter.JPG
 |description = 
+|category    = Elektronik
 |author      = Felicitus
 |username    = Felicitus
 |version     = 1.0
@@ -125,5 +126,3 @@ Die ursprüngliche Schaltung stammt von Bernhard Erfurth und wurde auf [http://w
 == TODO ==
 * L-Messung debuggen
 * Lüftungsschlitze im Gehäuse aushebeln, da der 7805 schon recht warm wird (70°C mit Kühlkörper) und nicht den Hitzetod sterben möchte
-
-[[Kategorie:Projekt]]
