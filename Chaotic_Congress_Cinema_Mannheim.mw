@@ -8,10 +8,10 @@ Aktuell finden keine Vorführungen statt. Wenn du das gerne ändern möchtest, m
 |description = Geselliges konsumieren von 29C3 Vorträgen
 |author      = [[Benutzer:Blabber|blabber]], [[Benutzer:Silsha|silsha]]
 |username    = 
-|rhythm      = Wöchentlich
 |day         = Donnerstag
 |time        = 19:00 Uhr
-|preis       = Kostenlos
+|rhythm      = wöchentlich
+|preis       = kostenlos
 }}
 
 __TOC__
@@ -1053,6 +1053,3 @@ Als nächstes werden folgende Mitschnitte vorgeführt.
 == Sonstiges ==
 
 Die Vortragstabelle wurde per [https://gist.github.com/2304814 XSLT] aus dieser [https://events.ccc.de/congress/2012/Fahrplan/schedule.en.xcs Datei] erstellt.
-
-
-[[Kategorie:Veranstaltung]]
