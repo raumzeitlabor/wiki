@@ -5,6 +5,7 @@
 |status      = experimental
 |image       = Ping-Plus.jpg
 |description = Textanzeige für !ping <text>
+|category    = Infrastruktur
 |author      = [[Benutzer:Felicitus|Felicitus]], [[Benutzer:Drahti|drahti]], [[Benutzer:SEC|sECuRE]]
 |username    = 
 |version     = 1.0
@@ -143,5 +144,3 @@ Die Implementation besteht aus 2 Programmen:
 
 = Unterseiten =
 <splist />
-[[Kategorie:Projekt]]
-[[Kategorie:Licht & Sound]]
