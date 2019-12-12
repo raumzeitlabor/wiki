@@ -4,6 +4,7 @@
 |custom status = abgebaut
 |image       = pringles.jpg
 |description = Wenn jemand eine Pringles-Dose entnimmt, wird ein Sound gespielt
+|category    = Infrastruktur
 |author      = [[Benutzer:Felicitus|Felicitus]], [[Benutzer:Blabber|blabber]]
 |username    = 
 |version     = 2.0
@@ -28,6 +29,3 @@ Den Sourcecode findet ihr hier: https://github.com/raumzeitlabor/pringlesfoo_mk2
 == Bilder ==
 [[Datei:IMG_0342.JPG|Thumb|400px]]
 [[Datei:IMG_0343.JPG|Thumb|400px]]
-
-[[Kategorie:Projekt]]
-[[Kategorie:Licht & Sound]]
