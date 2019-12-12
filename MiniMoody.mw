@@ -3,6 +3,8 @@
 |status      = stable
 |image       = MiniMoody_rot_grün.jpg
 |description = Kleine Moodlamp als SMD-Lötübung
+|category    = Hardware
+|subcategory = Licht & Sound
 |author      = [[user:fabster|fabster]]
 |username    = 
 |version     = 1.0
@@ -190,6 +192,3 @@ Bitte tragt euch hier ein, falls ihr das RZL unterstützen und einen Bauteilesat
 |Michael
 |-
 |}
-
-[[Kategorie:Projekt]]
-[[Kategorie:Licht & Sound]]
