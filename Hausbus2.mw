@@ -1,4 +1,20 @@
 {{AchtungKasten1 |title= Projekt eingestellt |msg=Dieser Vorschlag wurde nie umgesetzt, stattdessen wird an [[Hausbus3]] gearbeitet.}}
+{{ProjektInfoBox
+|name        = 
+|status      = 
+|image       = 
+|description = 
+|category    = Infrastruktur
+|subcategory = obsolet
+|author      = 
+|maintainer  = 
+|owner       = 
+|username    = 
+|location    = 
+|hostname    = 
+|license     = 
+|download    = 
+}}
 
 Diese Seite dient dazu, den Nachfolger des Hausbus zu designen. Wer mithelfen möchte, möge sich zunächst des http://en.wikipedia.org/wiki/Second_System_Effect bewusst machen und Änderungen dann mit sECuRE besprechen :).
 
@@ -104,5 +120,3 @@ Vorschlag:
 * Bisher gibt es keine Möglichkeit, auf "Events" zu lauschen. Das soll geändert werden.
 * Beispielsweise gibt es das Event "Raum wird geschlossen". Irgendein Hausbus2-Teilnehmer könnte auf dieses Event horchen und somit den Raumstatus setzen sowie das Licht ausschalten.
 * Events erfordern Multicasting, z.b. auf IP-Ebene.
-
-[[Kategorie:Infrastruktur]]
