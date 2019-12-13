@@ -35,4 +35,3 @@ Um Missbrauch zu vermeiden, können MAC Adressen nur innerhalb des RZL-Netzwerks
 Der Vorstand kann die Gültigkeit von PINs zeitlich begrenzen. Während die Gültigkeit von PINs normalerweise unbegrenzt ist, wird sie bei Austritt eines Mitglieds auf das nächste Quartal gesetzt. Jeden Tag um 0 Uhr läuft ein Cronjob, der nach abgelaufenen PINs sucht; er deaktiviert diese, und schickt dem Vorstand eine Mail mit einer Zusammenfassung der deaktivierten PINs. Mit der nächsten PIN-Synchronisation (innerhalb von 30 Sekunden) verlieren die PINs dann ihre Gültigkeit.
 
 [[Category:Procedures]]
-[[Category:Infrastruktur]]
