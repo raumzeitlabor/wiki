@@ -3,6 +3,8 @@
 |status      = stable
 |image       = RaumZeitLabor - Logo - Schwarz.svg
 |description = Rootserver bei Hetzner
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[NOC Team|NOC-Team]]
 |username    = 
 |version     = 
@@ -172,4 +174,3 @@ Die Startreihenfolge der Docker-Container ist wichtig, da Docker die IPv4-Addres
 Sollte ein Docker-Container nicht mehr benötigt werden, rate ich dazu diesen trotzdem zu starten und erst wenn alle anderen Docker-Container laufen zu beenden, damit die korrekte Zuweisung der IPv4-Addressen gewährleistet ist.
 
 [[Kategorie:Hardware]]
-[[Kategorie:Infrastruktur]]
