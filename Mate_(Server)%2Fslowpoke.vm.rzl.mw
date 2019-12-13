@@ -3,6 +3,8 @@
 |status      = beta
 |image       = 
 |description = MPD-Experimente
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[Benutzer:slowpoke|slowpoke]], [[NOC Team|NOC-Team]]
 |username    = 
 |version     = 
@@ -23,6 +25,3 @@
 = Beschreibung =
 
 Experimente mit alternativen mpd setups, hautpsächlich streaming. Wird http oder shoutcast services involvieren.
-
-[[Kategorie:Infrastruktur]]
-[[Kategorie:Projekt]]
