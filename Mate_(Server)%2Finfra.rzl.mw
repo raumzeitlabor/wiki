@@ -3,6 +3,8 @@
 |status      = experimental
 |image       = 
 |description = VM für interne Dienste
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[NOC Team|NOC-Team]]
 |username    = 
 |version     = 
@@ -36,5 +38,3 @@ Folgende Dienste laufen ''aktuell'' auf der VM:
 
 == TODO ==
 * Firewalling
-
-[[Kategorie:Infrastruktur]]
