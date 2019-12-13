@@ -3,6 +3,8 @@
 |status      = experimental
 |image       = 
 |description = NAS Version 2
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[NOC Team|NOC-Team]]
 |username    = 
 |version     = 
@@ -68,6 +70,4 @@ Folgende User wurden explizit auf dem System eingerichtet, um Dinge zu tun (Zwec
 * <strike>Monitoring einrichten</strike>
 * <strike>Firewalling</strike>
 
-
-[[Category:Infrastruktur]]
 [[Category:Wiki Cleanup/ToDo]]
