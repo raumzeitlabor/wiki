@@ -3,6 +3,8 @@
 |status      = beta
 |image       = 
 |description = Die VM für PartKeepr
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[NOC Team|NOC-Team]]
 |username    = 
 |version     = 
@@ -23,5 +25,3 @@ Eckdaten:
 * Noch kein SSL
 
 Partkeepr nutzt [[Mate (Server)/DB|db.rzl]] als Datenbank. Man kann sich auf Partkeepr mit denselben Benutzerdaten wie auf der [[BenutzerDB]] einloggen, hierfür nutzen wir das von uns erweiterte Apache2 Plugin [https://github.com/raumzeitlabor/rzl-benutzerdb/tree/master/mod-auth-mysql-4.3.9 mod_auth_mysql].
-
-[[Kategorie:Infrastruktur]]
