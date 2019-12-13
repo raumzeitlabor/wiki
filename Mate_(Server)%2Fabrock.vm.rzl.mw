@@ -3,6 +3,8 @@
 |status      = beta
 |image       = 
 |description = VM von [[Benutzer:Alexander Brock|Alexander]]
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[NOC Team|NOC-Team]], [[Benutzer:Alexander Brock|Alexander]]
 |username    = 
 |version     = 
@@ -57,5 +59,3 @@ Es gibt weitere ~260 Metriken, die von folgenden [http://opentsdb.net/tcollector
 * iostat.py
 * netstat.py
 * procstats.py
-
-[[Kategorie:Infrastruktur]]
