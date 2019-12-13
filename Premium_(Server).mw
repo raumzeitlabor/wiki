@@ -3,6 +3,8 @@
 |status      = stable
 |image       = RaumZeitLabor - Logo - Schwarz.svg
 |description = 
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[NOC Team|NOC-Team]]
 |username    = 
 |version     = 
@@ -57,6 +59,4 @@ mit 'sqlite3 /etc/postfix/maildb.sqlite'öffnen, dann:
 INSERT INTO alias ( address, goto, domain ) VALUES ( 'aliasname@raumzeitlabor.de','ziel@domain.tld','raumzeitlabor.de');
 </pre>
 
-
 [[Kategorie:Hardware]]
-[[Kategorie:Infrastruktur]]
