@@ -1,3 +1,20 @@
+{{ProjektInfoBox
+|name        = Elektroinstallation
+|status      = 
+|image       = 
+|description = 
+|category    = Infrastruktur
+|author      = 
+|maintainer  = 
+|owner       = 
+|username    = 
+|location    = 
+|hostname    = 
+|license     = 
+|download    = 
+|bausatz     = 
+|preis       = 
+}}
 Überarbeitung wird benötigt!
 ==UV1 Übersicht==
 <TABLE FRAME=VOID CELLSPACING=0 COLS=25 RULES=NONE BORDER=0>
@@ -972,5 +989,4 @@ ToDo:
 *[[Einkaufsliste]]
 *[[Gorm & Ivar]]
 
-[[Kategorie:Infrastruktur]]
 [[Kategorie:Wiki_Cleanup/ToDo]]
