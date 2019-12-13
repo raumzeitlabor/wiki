@@ -3,6 +3,8 @@
 |status      = stable
 |image       = 
 |description = VM für die Verwaltung von ubiquiti unifi APs
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[NOC Team|NOC-Team]]
 |username    = 
 |version     = 
@@ -23,5 +25,3 @@ Das Init-Script liegt in /etc/init.d/unifi
 * 256MB RAM
 * 1 CPU Core
 * 20GB HDD
-
-[[Kategorie:Infrastruktur]]
