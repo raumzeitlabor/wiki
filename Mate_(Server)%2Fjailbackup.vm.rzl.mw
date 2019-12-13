@@ -3,6 +3,8 @@
 |status      = beta
 |image       = 
 |description = VM die die daten des alten Jails hält
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[NOC Team|NOC-Team]]
 |username    = 
 |version     = 
@@ -25,5 +27,3 @@ rsync -avHWx --itemize-changes --delete --stats --bwlimit=200 root@rzl.uugrn.org
 * 256 MB RAM
 * 1 CPU Core
 * 30GB HDD
-
-[[Kategorie:Infrastruktur]]
