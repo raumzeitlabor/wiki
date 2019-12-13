@@ -3,6 +3,8 @@
 |status      = experimental
 |image       = 
 |description = Zentrale Datenbank für interne Dienste
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[NOC Team|NOC-Team]]
 |username    = 
 |version     = 
@@ -27,4 +29,3 @@ Eckdaten:
 * Monitoring
 * Firewalling
 * Performance
-[[Kategorie:Infrastruktur]]
