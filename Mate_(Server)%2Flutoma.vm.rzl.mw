@@ -3,6 +3,8 @@
 |status      = stable
 |image       = Bilderbrett.png
 |description = VM von lutoma
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[Benutzer:Lutoma|Lutoma]], [[NOC Team|NOC-Team]]
 |username    = 
 |version     = 
@@ -22,5 +24,3 @@
 * 256MB RAM
 * 1 CPU Core
 * 20GB HDD
-
-[[Kategorie:Infrastruktur]]
