@@ -40,5 +40,3 @@ Der ATtiny hat nur einen 10bit-ADC. Das ist nicht gerade viel, und wirkt sich so
 
 == Alternativer Wandler ==
 1-Bit ADC, wie z.B. [http://blog.makezine.com/2012/11/05/jeris-short-circuit-a-one-bit-adc/] (Passende Clocks [http://www.epanorama.net/links/oscillator.html#square])
-
-[[Kategorie:Projekt]]
