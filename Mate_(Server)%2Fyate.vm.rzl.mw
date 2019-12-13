@@ -3,6 +3,8 @@
 |status      = beta
 |image       = 
 |description = VM für [[Telefon|Telefonie]]
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[NOC Team|NOC-Team]], [[Benutzer:nicoduck|nicoduck]]
 |username    = 
 |version     = 
@@ -23,4 +25,3 @@ In der VM ist ein Yate für SIP. Der LCR für ISDN läuft mittlerweile direkt au
 * 1 CPU Core
 * 15GB HDD
 * IP Adressen: 172.22.36.205 und 172.22.36.223
-[[Kategorie:Infrastruktur]]
