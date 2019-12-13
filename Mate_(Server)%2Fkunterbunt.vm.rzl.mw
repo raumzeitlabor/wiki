@@ -3,6 +3,8 @@
 |status      = beta
 |image       = 
 |description = Die VM für Grafana und Graphite
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[Benutzer:Felicitus|Drachenkatze]]
 |username    = 
 |version     = 
@@ -20,8 +22,6 @@
 
 == Zweck ==
 Daten speichern und bunte Bilder machen. Hat ein Webinterface auf [http://kunterbunt.vm.rzl/ http://kunterbunt.vm.rzl/].
-
-[[Kategorie:Infrastruktur]]
 
 == Datenherkunft ==
 
