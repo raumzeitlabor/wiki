@@ -53,5 +53,3 @@ Um einen Bereich als Region geschützt zu bekommen, einfach in den Chat schreibe
 
 == Technisches ==
 Der Server ist eine von [https://fnordserver.eu fnordserver] gesponsorte virtuelle Maschine mit 4 Kernen und 4 GB RAM. Der Server ist via IPv4 und IPv6 erreichbar. Als Distribution ist CentOS im Einsatz. <s>Der Minecraft-Ordner mit allen Einstellungen und der World wird stündlich auf einen Server von Lutoma in Wien gebackupt.</s>
-
-[[Kategorie:Projekt]]
