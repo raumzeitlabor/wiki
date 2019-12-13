@@ -22,5 +22,3 @@ Zum Hosten wurde ein vServer bei OVH angemietet. Die Kosten belaufen sich aktuel
 
 == Youtube-Fruitcaster ==
 Der [http://github.com/tiefpunkt/youtube-fruitcaster Youtube-Fruitcasters] crawlt den RaumZeitLabor Youtube-Kanal mittels Youtube-API, und lädt die Videos dann von dort herunter. Darum brauch er recht viel Speicherplatz (deshalb auch ein eigener vServer, s.o.). Details dazu gibt es im [https://github.com/tiefpunkt/youtube-fruitcaster/blob/master/README.md README]. Wie so oft, gibt es da noch so Einiges zu optimieren, feel free to send pull requests.
-
-[[Kategorie:Projekt]]
