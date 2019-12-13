@@ -3,6 +3,8 @@
 |status      = stable
 |image       = 
 |description = VM für [[QRGO]]
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = cheatha
 |username    = cheatha
 |version     = 
@@ -28,4 +30,3 @@ In der VM läuft ein Webserver, eine MySQL-Datenbank sowie der URL-Shortner Your
 * 1 CPU Core
 * 10GB HDD
 * IP Adressen: 172.22.36.235
-[[Kategorie:Infrastruktur]]
