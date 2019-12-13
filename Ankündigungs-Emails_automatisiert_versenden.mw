@@ -3,6 +3,8 @@
 |status      = stable
 |image       = 
 |description = regelmäßige Emails sollen automatisiert versendet werden
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[Benutzer:hax404|hax404]]
 |username    = 
 |maintainer  =
@@ -14,8 +16,6 @@
 |hostname    =
 |license     = 
 |download    = 
-|bausatz     =
-|preis       =
 }}
 
 Jeden Sonntag um 13:37Uhr geht eine Email über die Mailingliste, in der die offene RaumZeitLaborierung am nächsten Dienstag angekündigt wird. Dieses Projekt baut auf der Arbeit von [[Benutzer:Tiefpunkt|Tiefpunkt]]  und [[Benutzer:ThinkJD|ThinkJD]] auf. Die Anforderungen an so einen Vorgang sind:
@@ -122,6 +122,3 @@ WantedBy=timers.target
 Anschließend ein <code>systemctl daemon-reload</code> und den Timer mit <code>systemctl enable labormail.timer</code> aktivieren und <code>systemctl start labormail.timer</code> starten. Ein <code>systemctl list-timers</code> informiert darüber, wann der Timer als nächstes aktiv wird.
 
 Es lohnt sich allgemein, das Ganze vorher mit eigenen Postfächern zu testen.
-
-[[Kategorie:Infrastruktur]]
-[[Kategorie:Projekt]]
