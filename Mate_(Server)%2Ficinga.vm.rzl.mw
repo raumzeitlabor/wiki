@@ -3,6 +3,8 @@
 |status      = beta
 |image       = 
 |description = VM für das Monitoring via icinga2
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[NOC Team|NOC-Team]]
 |username    = 
 |version     = 
@@ -22,5 +24,3 @@ Monitoring der Server und Infrastruktur mittels Icinga2
 * 256MB RAM
 * 1 CPU Core
 * 20GB HDD
-
-[[Kategorie:Infrastruktur]]
