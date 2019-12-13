@@ -3,6 +3,8 @@
 |status      = stable
 |image       = Bilderbrett.png
 |description = VM von evilsadnes
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[Benutzer:Evilsadnes|evilsadnes]], [[NOC Team|NOC-Team]]
 |username    = 
 |version     = 
@@ -21,5 +23,3 @@
 * 256MB RAM
 * 1 CPU Core
 * 20GB HDD
-
-[[Kategorie:Infrastruktur]]
