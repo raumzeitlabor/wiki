@@ -1,5 +1,4 @@
-[[Kategorie:Incubator]]
-[[Kategorie:Projekt]]{{ProjektInfoBox
+{{ProjektInfoBox
 |name        = HBCI<!-- von mir aus auch HaxBCI falls irgendwann jemand HBankCI anfängt -->
 |image       = 
 |status      = experimental
@@ -118,3 +117,5 @@ weil die Hardware dafür gerüchteweise teuer ist.
 
 == Links, Fußnoten usw. ==
 <references />
+
+[[Kategorie:Incubator]]
