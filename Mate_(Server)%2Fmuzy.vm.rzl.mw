@@ -3,6 +3,8 @@
 |status      = 
 |image       = 
 |description = VM von muzy
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[Benutzer:Muzy|muzy]], [[NOC Team|NOC-Team]]
 |username    = 
 |version     = 
@@ -21,5 +23,3 @@ Testen vom RaumZeitLabor Shop. kwt.
 * 512MB RAM
 * 1 CPU Core
 * 20GB HDD
-
-[[Kategorie:Infrastruktur]]
