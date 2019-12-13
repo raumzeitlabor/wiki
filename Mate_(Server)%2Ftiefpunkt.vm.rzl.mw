@@ -3,6 +3,8 @@
 |status      = beta
 |image       = 
 |description = VM von [[Benutzer:tiefpunkt|tiefpunkt]]
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[NOC Team|NOC-Team]], [[Benutzer:tiefpunkt|tiefpunkt]]
 |username    = 
 |version     = 
@@ -24,5 +26,3 @@
 * 256MB RAM
 * 1 CPU Core
 * 10GB HDD
-
-[[Kategorie:Infrastruktur]]
