@@ -3,6 +3,8 @@
 |status      = experimental
 |image       = RaumZeitLabor - Logo - Schwarz.svg
 |description = Backupserver
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[NOC Team|NOC-Team]]
 |username    = 
 |version     = 
@@ -39,4 +41,4 @@ cookiemonster ist der Backupserver, um die von Bacula angefertigten Backups abzu
 |libvirt/KVM
 |}
 
-[[Kategorie:Hardware]][[Kategorie:Infrastruktur]]
+[[Kategorie:Hardware]]
