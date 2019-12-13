@@ -3,6 +3,8 @@
 |status      = stable
 |image       = 
 |description = VM von s1lvester
+|category    = Infrastruktur
+|subcategory = Netz
 |author      = [[Benutzer:s1lvester|s1lvester]], [[NOC Team|NOC-Team]]
 |username    = 
 |version     = 
@@ -21,5 +23,3 @@
 * 256MB RAM
 * 1 CPU Core
 * 20GB HDD
-
-[[Kategorie:Infrastruktur]]
