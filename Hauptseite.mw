@@ -12,29 +12,28 @@
 ! style="border:2px solid #dfdfdf; background-color:#ddeeff;padding:3px;text-align:center;" colspan="2" | Alles über das RaumZeitLabor
 |-
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=Das RaumZeitLabor]]
-| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Das RaumZeitLabor]]'''<br/>Das RaumZeitLabor erklärt sich
-<span style="font-size:85%">
+| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Das RaumZeitLabor]]'''<br/><small>Das RaumZeitLabor erklärt sich
 * [[Handbuch]]
 * [https://log.raumzeitlabor.org/ Log]
-</span>
+</small>
 |-
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Go-next.png|40px|link=Anfahrt]]
 | style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Anfahrt]]''' und '''[[Zugang]]'''
-<span style="font-size:85%">
+<small>
 * [[Anfahrt|Wie komme ich hin?]] <!--([[Anfahrt/en|en]])-->
 * [[Zugang|Wie komme ich rein?]]
 * [http://raumzeitlabor.de/kontakt/anfahrt Interaktive Karte]
 * [https://status.raumzeitlabor.de/ Raumstatus]
-</span>
+</small>
 <!--
 |-
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Icon_Bilder.png|40px|link=Bilder]]
-| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Bilder]]'''<br/>Aktuelle Bilder vom RZL
+| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Bilder]]'''<br/><small>Aktuelle Bilder vom RZL</small>
 -->
 |-
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=https://raumzeitlabor.de/events/index.html]]
 | style="padding:8px 8px 0 4px;vertical-align:top;" | '''[https://raumzeitlabor.de/events/index.html Veranstaltungen]'''
-<span style="font-size:85%">
+<small>
 * [[Offene RaumZeitLaborierung|Offene Raum&shy;Zeit&shy;Laborierung]]
 * [[Vorträge|Vorträge und Workshops]]
 * [[Exkursion|Exkursionen]]
@@ -43,20 +42,19 @@
 * [[Spieleabend]]
 * [[Mario Kart Turnier]]
 * [[:Kategorie:Veranstaltung|Alle Veranstaltungen…]]
-</span>
+</small>
 |-
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Preferences-desktop-launch-feedback.png|40px|link=Mailingliste]]
-| style="padding:8px 8px 8px 4px;vertical-align:top;" | '''[[Mailingliste]] / [[IRC]]'''<br/>Kontaktmöglichkeiten
+| style="padding:8px 8px 8px 4px;vertical-align:top;" | '''[[Mailingliste]] / [[IRC]]'''<br/><small>Kontaktmöglichkeiten</small>
 |-
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=Verein]]
-| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Verein]]'''<br/>Der Trägerverein des RaumZeitLabors
-<span style="font-size:85%">
+| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Verein]]'''<br/><small>Der Trägerverein des RaumZeitLabors
 * [[Spenden]] <!--([[Spenden/en|en]])-->
-</span>
+</small>
 |-
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=]]
 | style="padding:8px 8px 8px 4px;vertical-align:top;" | '''Internes'''
-<span style="font-size:85%">
+<small>
 * [[Leitfaden für Anrufe]]
 * [[Stackenblocken]]
 * [[Lost+Found]]
@@ -66,42 +64,38 @@
 * [https://github.com/raumzeitlabor/rzl-tuwat/issues To-Do-Liste (tuwat)]
 * [https://benutzerdb.raumzeitlabor.de/BenutzerDB/ BenutzerDB-Login]
 * [[:Kategorie:Protokoll|Protokolle]]
-</span>
+</small>
 |}
 | width="33%" |
 {| cellpadding="0" cellspacing="0" style="border-collapse:collapse;font-size:110%;text-align:left;border:2px solid #dfdfdf;background-color:#f8f8ff;" width="95%"
 ! style="border:2px solid #dfdfdf; background-color:#ddeeff;padding:3px;text-align:center;" colspan="2" | Bereiche
 |- 
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Kueche-icon.png|40px|link=Küche]]
-| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Küche]]'''<br/>Kochen, Backen, glücklich sein
-<span style="font-size:85%">
+| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Küche]]'''<br/><small>Kochen, Backen, glücklich sein
 * [[Nerd am Herd]]
 * [[Rezepte]]
-</span>
+</small>
 |-
 | style="padding:8px;vertical-align:top;" | [[Datei:Oscilloscope.svg|40px|link=Elektroecke]]
 | style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Elektroecke]]'''<br/>
-<span style="font-size:85%">
+<small>
 * [[Elektroecke/Geräte|Geräte (Lötstationen, Oszilloskope, …)]]
 * [[PartKeepr]]
-</span>
+</small>
 |-
 | style="padding:8px;vertical-align:top;" | [[Datei:Applications-science.png|40px|link=Ätzecke]]
-| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Ätzecke]]'''<br/>Platinen ätzen
-<span style="font-size:85%">
+| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Ätzecke]]'''<br/><small>Platinen ätzen
 * [[Belichter]]
-</span>
+</small>
 |-
 | style="padding:8px;vertical-align:top;" | [[Datei:Olymp.png|40px|link=Olymp]]
-| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Olymp]]'''<br/>Chillen und entspannen
-<span style="font-size:85%">
+| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Olymp]]'''<br/><small>Chillen und entspannen
 * [[Spielecke]]
 * [[KrachBummLabor]]
-</span>
+</small>
 |-
 | style="padding:8px;vertical-align:top;" | [[Datei:Gnome-preferences-desktop-theme.svg|40px|link=Fablab]]
-| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Fablab]]'''<br/>Stoffe, Plastik, Karten
-<span style="font-size:85%">
+| style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Fablab]]'''<br/><small>Stoffe, Plastik, Karten
 * [[Rarity|Stickmaschine (Rarity)]]
 * [[Husqvarna|Näh- und Stickmaschine (Husqvarna)]]
 * [[Schneidplotter]] und [[Shirtpresse]]
@@ -110,21 +104,21 @@
 * [[Ultimak3r|Ultimaker 3]]
 * [[Ultimaker|Ultimaker 1]]
 * [[Plastikkarten]]
-</span>
+</small>
 |-
 | style="padding:8px;vertical-align:top;" | [[Datei:Applications-utilities.png|40px|link=Werkstatt]]
 | style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Werkstatt|Holzwerkstatt]]'''<br/>
-<span style="font-size:85%">
+<small>
 * [[Shapeoko 2|CNC-Fräse]]
-</span>
+</small>
 |-
 | style="padding:8px;vertical-align:top;" | [[Datei:Gnome-emblem-package.svg|40px|link=Storage]]
 | style="padding:8px 8px 8px 4px;vertical-align:top;" | '''[[Storage]]'''<br/>
-<span style="font-size:85%">
+<small>
 * [[Tardis]]
 * [[Hochregal]]
 * [[Getränkelager]]
-</span>
+</small>
 |}
 | width="33%" |
 {| cellpadding="0" cellspacing="0" style="border-collapse:collapse;font-size:110%;text-align:left;border:2px solid #dfdfdf;background-color:#f8f8ff;" width="95%"
@@ -132,15 +126,15 @@
 |-
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=:Kategorie:Anleitung]]
 | style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[:Kategorie:Anleitung|Anleitungen]]'''
-<span style="font-size:85%">
+<small>
 * [[Löten lernen]] (→ [[RZLblink]])
 * [[Openscad Tutorial]]
 * [[Log|Bilder im Log posten]]
-</span>
+</small>
 |-
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=:Kategorie:Infrastruktur]]
 | style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[:Kategorie:Infrastruktur|Infrastruktur im Raum]]'''
-<span style="font-size:85%">
+<small>
 * [[Beamer]] und [[Beschallung]]
 * [[Telefon]]
 * [[Fnordcredit|Kassensystem (Fnordcredit)]]
@@ -151,11 +145,11 @@
 * [[Namensschilder]]
 * [[Wall of Nerds]]
 * [[Bibliothek]]
-</span>
+</small>
 |-
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=:Kategorie:Gerät]]
 | style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[:Kategorie:Gerät|Geräte]]'''
-<span style="font-size:85%">
+<small>
 * [[Drucker]]
 * [[Drucker#Labeldrucker|Labeldrucker]]
 * [[Laminiergerät]]
@@ -163,24 +157,24 @@
 * [[Buttonmaschinen]]
 * [[Eismaschine]], [[Popcornmaschine]] und [[Slushmaschine]]
 * [[Staubsauger]]
-</span>
+</small>
 |-
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=Netzwerk]]
 | style="padding:8px 8px 0 4px;vertical-align:top;" | '''[[Netzwerk|Infrastruktur im Netz]]'''
-<span style="font-size:85%">
+<small>
 * [[Statusbot]]
 * [[BenutzerDB]]
 * [[MPD]]
 * [[Netzwerk]]
-</span>
+</small>
 |-
 | style="padding:8px;vertical-align:top;width:40px;" | [[Datei:Rzl_logo.png|40px|link=Kategorie:Projekt]]
 | style="padding:8px 8px 8px 4px;vertical-align:top;" | '''[[:Kategorie:Projekt|Alle Projekte]]'''
-<span style="font-size:85%">
+<small>
 * [[:Kategorie:Elektronik‏‎‏‎|Elektronik‏‎‏‎]] ([[:Kategorie:Elektronik/Licht & Sound‏‎‏‎|Licht & Sound‏‎‏‎]])
 * [[:Kategorie:Infrastruktur‏‎‏‎|Infrastruktur‏‎‏‎]] ([[:Kategorie:Infrastruktur/Netz|Netz]])
 * [[:Kategorie:Sonstiges Projekt|Sonstige Projekte]]
-</span>
+</small>
 |}
 |}
 </div>
