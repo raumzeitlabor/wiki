@@ -100,7 +100,13 @@ Für BOPLA Reglocard 2000 Optimiert
 
 
 == Software ==
-Die für den AVR schreibt [[Benutzer:Spike|spike]], den ESP8266 übernimmt [[Benutzer:Borax|borax]].
+
+=== AVR ===
+Die Software für den AVR schreibt [[Benutzer:Spike|spike]]
+* Die Low-Level Treiber sind fertig
+
+=== ESP8266 ===
+Die Software schreibt [[Benutzer:Borax|borax]]
 
 
 === Struktur ===
