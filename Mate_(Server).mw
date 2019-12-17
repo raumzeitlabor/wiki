@@ -112,8 +112,8 @@ Rebootfest gibt an, ob die Dienste innerhalb der VM nach einem Reboot der VM von
 | 
 |-
 | [[Mate (Server)/unifi.vm.rzl]]
-| nein
-| (Ursache unbekannt, seit Reboot-Versuch kaputt)
+| ja
+| Braucht zum Start große Mengen Zufall. Geduld oder ping -f 172.22.36.238 hilft.
 |}
 
 == VMs ==
