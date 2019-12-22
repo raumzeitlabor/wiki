@@ -1,0 +1,91 @@
+{{ProjektInfoBox
+|name        = '''1'''-Klick-'''Vo'''r'''t'''ragsauf'''z'''eichnungssystem
+|status      = pre-alpha
+|description = Das zukünftige Videoaufzeichnungs-System des RZL.
+|author      = Helix
+|location    = Hauptraum / Olymp
+|preis       = 5000€
+}}
+
+Das '''1votz''' [ivoz] soll die Aufzeichnung aller [[Vorträge]] und [[:Kategorie:Veranstaltung|Veranstaltungen]] im RZL möglich machen. Die zukünftige [[Spieleecke]] soll möglichst auch für [https://de.wikipedia.org/wiki/Let%E2%80%99s_Play Let's Plays] und die Live-Übertragung des [[Mario_Kart_Turnier|Mario-Kart-Turnier]]s geeignet sein.
+
+== Hardware ==
+* Beamer auf dem Olymp (vorhanden)
+* AV-Receiver für die Ausgabe auf dem Beamer (vorhanden)
+* Wandler
+** HDMI-Splitter
+** diverse Analogsignale
+* SDI-Kabel
+* Rechner mit Capture Card(s)
+* Kameras
+* Mikrofone
+
+== Aufzeichnungs-Rechner ==
+* einer der beiden PCs im zukünftigen [[KrachBummLabor]]
+* Aufzeichnung via SDI-Capture-Card
+** HDMI ist auf den Strecken zu lang und latenzanfällig
+
+=== Kandidaten für Capture Cards ===
+==== [https://www.blackmagicdesign.com/de/products/decklink/techspecs/W-DLK-12 Decklink Studio 4K] ====
+
+* nur 2 SDI-Eingänge
+** Sprecher-Aufzeichnung am Pult nur mit Latenz über Raspberry oder nicht live möglich
+
+==== [https://www.blackmagicdesign.com/de/products/decklink/techspecs/W-DLK-11 Decklink SDI 4K] ====
+* 3 SDI-Eingänge
+** Pult + Sprecher möglich
+** Umstecken für Aufzeichnung der Couchecke/Videospiele
+* kein HDMI Ein-/Ausgang
+** neuere Konsolen aufzeichnen nur mit HDMI Splitter möglich
+
+==== [https://www.blackmagicdesign.com/de/products/decklink/techspecs/W-DLK-34 Decklink 8K Pro] ====
+* teuer
+* 4 SDI Ein-/Ausgänge
+** Pult, Sprecher, Plattform, Videospiele
+** Umstecken nur falls Couch aufgezeichnet werden soll
+
+
+== Umwandler ==
+* Konsolen haben meistens SCART oder Composite-Ausgänge
+* Manchmal auch HDMI-Ausgänge
+* Vortragende am Pult haben HDMI, DP, mDP oder VGA
+** Adapter fest installieren?
+
+
+== Kameras ==
+
+=== Rednerpult ===
+* Logitech-Webcam (schon vorhanden)
+* wird mit Raspberry Pi (vorhanden) und Festplatte (vorhanden) verbunden
+* Über Netzwerk verfügbar?
+
+=== Hauptkamera ===
+* an der Beamer-Plattform montiert
+** Übersicht über den Speaker, die Folien und den Raum
+* muss HDR-fähig sein, damit der Kontrast im Sommer oder beim Beamer-Bild nicht zu groß wird
+
+=== Kandidaten ===
+
+==== [https://www.blackmagicdesign.com/products/blackmagicmicrostudiocamera4k Blackmagic Micro Studio Camera 4K] ====
+* vergleichsweise günstig
+** mFT-Objektive!
+* kann via SDI gesteuert werden
+* unterstützt PTZ falls man später mal Bock hat die fernjustierbar zu machen
+* 4K-Video
+
+== Audio ==
+* in der Pult-Kamera ist Audio schon mit drin
+* Eventuell noch ein Richt-Mikro für den Raum
+* Eventuell tragbares Mikro
+
+== Namensgebung ==
+Da "'''1'''-Klick-'''Vo'''r'''t'''ragsauf'''z'''eichnungssystem" etwas lang für einen Projektnamen ist, sollte dieser verkürzt werden. Nach langer Überlegung wurde die Verkürzung '''1votz''' gefunden.
+
+Kriterien:
+
+* eine Internetsuche soll direkt auf dieses Projekt verweisen
+** [https://duckduckgo.com/?q=1votz Duckduckgo: 1votz]
+** [https://www.google.com/search?q=1votz Google: 1votz]
+** [https://www.bing.com/search?q=1votz Bing: 1votz]
+* es soll aussprechbar sein
+** offizielle [https://de.wikipedia.org/wiki/Internationales_Phonetisches_Alphabet Aussprache]: [ivoz]
