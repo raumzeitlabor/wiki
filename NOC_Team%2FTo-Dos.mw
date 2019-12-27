@@ -94,6 +94,8 @@ Welche Möglichkeiten zum Update gibt es? Kurzfristiger Punkt, da der RAM ersch�
 
 Aktuelles To-Do: Dokumentation Hardwaremöglichkeiten - [[Benutzer:0xb4dc0d3d|0xb4dc0d3d]]
 
+Update: Macht das noch Sinn? Siehe Punkt Server-Hardware weiter unten in diesem Kapitel. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 22:10, 27. Dez. 2019 (CET)
+
 === Rechtekonzept ===
 
 User sollten ihre VMs durchstarten können. Geht Hand in Hand mit dem Gedanken, nicht mehr überall als root zu springen und alles als root zu tun, stattdessen Nutzung sudo und mittelfristig ggf. Anbindung an [[UserDB|UserDB]].
