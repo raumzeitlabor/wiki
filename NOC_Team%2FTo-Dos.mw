@@ -81,14 +81,6 @@ Ich habe noch einen Lancom Rumliegen den ich Spenden würde - [[Benutzer:Lordeis
 
 == Hypervisor ==
 
-=== Hardware ===
-
-Erneuerung unumgänglich, RAM-Erweiterung ist nur Lebenserhaltungsmaßnahme bei einer designierten Leiche.
-
-Optionen:
-# SuperMicro-Server laut [[Benutzer:Lordeis|Lordeis]] (bitte ergänzen)
-# [https://www.thomas-krenn.com/de/produkte/einsatzzweck/software-defined-storage/storage-spaces-direct/s2d-micro-cluster/s2d-micro-cluster-advanced.html Thomas-Krenn-Storage-Cluster]: 240GB SSD OS, 3TB Nested Mirror, SuperMicro, 32GiB DDR4 ECC, max. 185W/Server, 13.100 Euro für zwei Server
-
 === RAM ===
 
 Welche Möglichkeiten zum Update gibt es? Kurzfristiger Punkt, da der RAM erschöpft ist. AUf jeden Fall mögliches Upgrade wären zusätzliche 4 GiB für 30-40 Euronen, wenn wir in den Server reingeschaut haben wissen wir aber ob noch mehr als die dann 16GiB gehen.
@@ -121,10 +113,16 @@ Kommentar Ranlvor: cashdesk ist ein schlechtes Beispiel, da das eigentlich mal e
 
 === Serverhardware ===
 
-Zukunft: Redundanz? Idee: KVM over 2 Nodes mit GlusterFS. Keinen DAU-kompatiblen Kram wie oVirt, wir sollten bei KVM bleiben.
+Zukunft: Redundanz? Idee: KVM over 2 Nodes mit GlusterFS.
 
 # Ob wir 2 Nodes brauchen oder 1 reicht, sollten wir in NOC-Meeting und Plenum diskutieren.
 # Basis: Nunja, 32 oder 64GiB RAM, mind. 64 GiB Platte und schauen wo die 3-4 TiB VM-Store hinkommen. Alos Basisrahmen, zur Diksussion und Anpassung hier. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #084;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #c50;">wtf?</sup>]]</small> • 18:31, 27. Dez. 2019 (CET)
+
+Erneuerung unumgänglich, RAM-Erweiterung ist nur Lebenserhaltungsmaßnahme bei einer designierten Leiche.
+
+Optionen:
+# SuperMicro-Server laut [[Benutzer:Lordeis|Lordeis]] (bitte ergänzen)
+# [https://www.thomas-krenn.com/de/produkte/einsatzzweck/software-defined-storage/storage-spaces-direct/s2d-micro-cluster/s2d-micro-cluster-advanced.html Thomas-Krenn-Storage-Cluster]: 240GB SSD OS, 3TB Nested Mirror, SuperMicro, 32GiB DDR4 ECC, max. 185W/Server, 13.100 Euro für zwei Server
 
 == Mailserver ==
 
