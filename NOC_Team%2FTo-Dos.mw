@@ -1,5 +1,21 @@
 == Netzwerk ==
 
+=== DNS rzl.so ===
+Alle internen Dienste enden auf .rzl, was keine Domain ist, die uns gehört. Wäre cool, wenn das stattdessen .rzl.so wäre.
+
+→ Split-DNS?
+
+--[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 14:35, 27. Dez. 2019 (CET)
+
+=== SSL-Zertifikate ===
+Für nur intern verfügbare Dienste wäre auch ein SSL-Zertifikat sinnvoll.
+
+Letsencrypt *.rzl.so würde die internen Dienste dann nicht nach [https://crt.sh crt.sh] | [https://www.entrust.com/ct-search/?domain=raumzeitlabor.de&includeExpired=true&exactMatch=false entrust.com/ct-search] leaken, daher würde ich das vorschlagen.
+
+Für extern verfügbare Dienste kann man dann ja je FQDN ein normales Cert holen. Eventuell auf [https://letsencrypt.org/docs/rate-limits/ Rate Limits] aufpassen.
+
+--[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 14:35, 27. Dez. 2019 (CET)
+
 === Inventur Internetleitung ===
 
 Welche Leitungen haben wir, welche Möglichkeiten zum Upgrade gibt es?<br />
