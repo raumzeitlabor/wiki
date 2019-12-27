@@ -81,6 +81,14 @@ Ich habe noch einen Lancom Rumliegen den ich Spenden würde - [[Benutzer:Lordeis
 
 == Hypervisor ==
 
+=== Hardware ===
+
+Erneuerung unumgänglich, RAM-Erweiterung ist nur Lebenserhaltungsmaßnahme bei einer designierten Leiche.
+
+Optionen:
+# SuperMicro-Server laut [[Benutzer:Lordeis|Lordeis]] (bitte ergänzen)
+# [https://www.thomas-krenn.com/de/produkte/einsatzzweck/software-defined-storage/storage-spaces-direct/s2d-micro-cluster/s2d-micro-cluster-advanced.html Thomas-Krenn-Storage-Cluster]: 240GB SSD OS, 3TB Nested Mirror, SuperMicro, 32GiB DDR4 ECC, 13.100 Euro für zwei Server
+
 === RAM ===
 
 Welche Möglichkeiten zum Update gibt es? Kurzfristiger Punkt, da der RAM erschöpft ist. AUf jeden Fall mögliches Upgrade wären zusätzliche 4 GiB für 30-40 Euronen, wenn wir in den Server reingeschaut haben wissen wir aber ob noch mehr als die dann 16GiB gehen.
