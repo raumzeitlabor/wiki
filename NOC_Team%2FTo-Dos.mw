@@ -1,24 +1,11 @@
-== Tagebuch ==
-
-Wichtiger Punkt: Dokumentation, was bisher getan wurde. Was ergab sich aus der Freifunk-Diskussion heute, was aus Verm.+Pfalzkom+Politik, was machen wir mit dem Cisco-Stack hinsichtlich des Tschisko-Fuckups mit Self-Signed Certificates (ist zwar scheisse, macht aber jeder(tm), auch wir?) '''''vor''''' Januar 2020? Was habe ich vergessen?
-
-Cisco siehe auch [https://www.cisco.com/c/en/us/support/docs/field-notices/704/fn70489.html FN 70489].
-
-• <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 21:35, 27. Dez. 2019 (CET)
-
-Und noch ein wichtiger Punkt: Entscheid Serverhardware, Anbringung des Kostenpunkts im Plenum Anfang Januar.
-
-# Tagebuch erstellt, [https://git.raumzeitlabor.org/NOC/tagebuch git]
-# Server-Hardware-Raussuchen festgehalten, [https://git.raumzeitlabor.org/NOC/server-hardware git], in Progress
-
-• <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 22:58, 29. Dez. 2019 (CET)
-
 == Netzwerk ==
 
 === DNS rzl.so ===
-Alle internen Dienste enden auf .rzl, was keine Domain ist, die uns gehört. Möglichkeit: Belassen mit ungültigem FQDN oder mergen in rzl.so unter Berücksichtigung der Security-Through-Obscurity-Prinzipien.
+Alle internen Dienste enden auf .rzl, was keine Domain ist, die uns gehört. Wäre cool, wenn das stattdessen .rzl.so wäre.
 
-→ Split-DNS? --> Verschoben auf [[Diskussion:NOC_Team/To-Dos|Diskussionsseite]], dafür ist sie da.
+→ Split-DNS?
+
+--[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 14:35, 27. Dez. 2019 (CET)
 
 === SSL-Zertifikate ===
 Für nur intern verfügbare Dienste wäre auch ein SSL-Zertifikat sinnvoll.
@@ -27,110 +14,76 @@ Letsencrypt *.rzl.so würde die internen Dienste dann nicht nach [https://crt.sh
 
 Für extern verfügbare Dienste kann man dann ja je FQDN ein normales Cert holen. Eventuell auf [https://letsencrypt.org/docs/rate-limits/ Rate Limits] aufpassen.
 
---[[Benutzer:Helix|Helix]] 14:35, 27. Dez. 2019 (CET)
-
-: Aufbauend darauf (Obacht: Rate Limits are a real thing): Automatisierung der Zertifikate. LE-Zerts halten nur 3 Monate, da ist Rumgammeln keine Option mehr. Und die Faustregel heißt: ist es rein interner Kram? Wirklich? Wenn nein --> Non-Wildcard und SAN. Wildcard-Zerts sind obsolete Tech, machen wir nur zur Obfuscation. Doku essentiell, SAN-Zusammenfassung und -Stepping!
-
-: Zur Disk. im NOC-Meeting. Bei weiteren Diskussionspunkten diese Zeile löschen und bitte die Diskussionsseite dieses Artikels nutzen. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 20:38, 27. Dez. 2019 (CET)
+--[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 14:35, 27. Dez. 2019 (CET)
 
 === Inventur Internetleitung ===
 
-Welche Leitungen haben wir, welche Möglichkeiten zum Upgrade gibt es?
-
+Welche Leitungen haben wir, welche Möglichkeiten zum Upgrade gibt es?<br />
+-Lordeis-
 Aktuelle Leitung: 
-: Telekom-Hybrid 50Mbit
-: 16 Mbit DSL
-: Rest geht über im Router verbaute SIM-Karte (nur mit Telekom-Router kompatibel)
+                  Telekom Hybrid 50Mbit
+                  16 Mbit DSL
+                  Rest geht über im Router verbaute Sim Karte (Nur mit Telekom Router Kompatibel)
 
-Geimeinsame Klärung mit der Spedition erstrebenswert.
+Geimeinsame klärung mit der Spedition erstrebenswert.
 
 === Holzwerkstatt ===
 
-Wurde geklärt: es muss definitiv ein Patchpanel für die neue Werkstatt angeschafft werden, z.B.: [https://www.amazon.de/deleyCON-Patchpanel-Verteilerfeld-Port-Servermontage/dp/B01N5OB4B2/ref%3Dsr_1_4?__mk_de_DE=ÅMÅŽÕÑ&crid=3VYNP23DYV9L9&keywords=patchpanel%2Bcat%2B6%2B24%2Bport&qid=1577560089&sprefix=patchpanel%2Bcat%2B6%2B%2Caps%2C161&sr=8-4 Amazon-Link, deleyCON Patchpanel]
-
-Außerdem noch ein Switch, da der momentane Ersatz ein Relikt aus den 90ern ist. Beispiel: [https://www.omg.de/mikrotik/routerboard/mikrotik-routerboard-crs328-24p-4s-rm/a-14454/ Mikrotik Routerboard CRS328 (24-Port) auf omg]. Oder jemand repariert den Ubiquity der seit Monaten in der Werkstatt liegt.
-
-(alles unsigniert von [[Benutzer:Lordeis|Lordeis]])
+Braucht das Netzwerk? V.a. braucht das Netzwerk langfristig?<br />
+Gespräch mit Spike am Dienstag 10.12.19 -Lordeis
 
 === Freifunk + IPv6 ===
 
-Zukunft ab 01.01.2020? Kübler Glasfaser? Fürs Erste, wenn möglich, über das /56 Netz, das am Telekom Router anliegt. - [[Benutzer:Lordeis|Lordeis]]
-
-Update vom 27.12.19:
-
-Laut [[Benutzer:cheatha|@cheatha]] wird gerade die Freifunk-Infrastruktur umgezogen, was uns ein wenig Zeit ins neue Jahr gewähren sollte.<br />
-[[Benutzer:Lordeis|Lordeis]] ([[Benutzer Diskussion:Lordeis|Diskussion]]) 18:00, 29. Dez. 2019 (CET)
+Zukunft ab 01.01.2020? Kübler Glasfaser?<br />
+Fürs erste wenn möglich über das /56 Netz dass am Telekom Router anliegt. -Lordeis
 
 === Switches ===
-Inventur aller Switche und Firmware-Stände prüfen 
+Inventur aller Switche und Firmware Stand prüfen 
 
-==== Cisco-Stack E-Werkstatt ====
-Update von Cisco verfügbar: '''1.4.11.02'''
-
-Diskussion, ob Update durchgeführt werden soll  (unsignierter Beitrag von [[Benutzer:Lordeis|Lordeis]])
-
-'''Wichtig:'''
-
-'''Prüfen, ob die Switche von dem Cisco-Zertifikats-Fuckup betroffen sind.'''
-
-=== Benutzer-DB ===
-
-TLS-Renewal. Details nach Fertigstellung.
+==== Cisco Stack E Werkstatt ====
+Update von Cisco verfügbar: '''1.4.11.02'''<br />
+Diskussion ob Update durchgeführt werden soll? -Lordeis
 
 === Router ===
 ==== Ubiquity ====
-# Auseinandersortieren der Netzwerkverbindungen.
-# Reverse Engineering und Dokumentieren der Konfiguration.
-# IPv6 Konfiguration.
+Auseinandersortieren der Netzwerkverbindungen.<br />
+Reverse Engineering und Dokumentieren der Konfiguration.
+IPv6 Konfiguration.
 
 ==== Speedport (Telekom) ====
-# Reverse Engineering und Dokumentieren der Konfiguration.
-# IPv6 Konfiguration.
+Reverse Engineering und Dokumentieren der Konfiguration.
+IPv6 Konfiguration.
 
 Kommentar Ranlvor: Sollte ziemlich Standard sein, nur eventuell ein paar Regeln drin, die versuchen sollen Telefonie-Traffic auf DSL zu zwingen (weil das weniger schlecht tut als via LTE).
 
 === WIFI Access Points ===
 ==== Ubiquity ====
-# Reverse-Engineering und Dokumentieren der Konfiguration.
-# Auseinandersortieren der SSIDs:
-## Prüfen, ob alle SSIDs nötig sind.                              
-## Diskutieren, ob Band-Steering sinvoll Wäre.
-## Prüfen, ob Layer-3-Roaming sinnig ist.
-# Prüfung, ob ein zusätzlicher Unify-AP für die Werkstatt sinn macht.
-# Auslagern des RZL-IOT-WLAN auf anderen AP.
+Reverse Engineering und Dokumentieren der Konfiguration.<br />
+Auseinadersortieren der SSIDs:
+                              Prüfen ob alle SSIDs nötig sind.                              
+                              Diskutieren ob Band Steering Sinvoll Wäre.
+                              Prüfen ob Layer 3 Roaming Sinnig ist.
 
-==== IOT-Accesspoint ====
-# Extra-AP verwenden da Performance Probleme.
-# Ich habe noch einen Lancom rumliegen, den ich spenden würde - [[Benutzer:Lordeis|Lordeis]]
+Prüfung ob ein zusätzlicher Unify AP für die Werkstatt sinn macht.<br />
+Auslagern des RZL IOT WLAN auf anderen AP.
 
-=== Verkabelung ===
-
-# Die zwei Tische an der E/Ä-Ecke sind vorbildlich verkabelt, wenn man sie als autonome Hackrepublik innerhalb des RZL betrachtet. --> Uplink-Kabel setzen.
-## Update: Hab' mal Kabel geordert, Kanäle haben wir noch da. Könnte auch beim Umbau 2020 hilfreich sein. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 18:34, 28. Dez. 2019 (CET)
+==== IOT Accesspoint ====
+Extra AP verwenden da Performance Probleme.<br />
+Ich habe noch einen Lancom Rumliegen den ich Spenden würde? -Lordeis
 
 == Hypervisor ==
 
 === RAM ===
 
-Welche Möglichkeiten zum Update gibt es? Kurzfristiger Punkt, da der RAM erschöpft ist. Auf jeden Fall mögliches Upgrade wären zusätzliche 4 GiB für 30-40 Euronen; wenn wir in den Server reingeschaut haben, wissen wir aber, ob noch mehr als die dann 16GiB gehen.
+Welche Möglichkeiten zum Update gibt es? Kurzfristiger Punkt, da der RAM erschöpft ist. AUf jeden Fall mögliches Upgrade wären zusätzliche 4 GiB für 30-40 Euronen, wenn wir in den Server reingeschaut haben wissen wir aber ob noch mehr als die dann 16GiB gehen.
 
 Aktuelles To-Do: Dokumentation Hardwaremöglichkeiten - [[Benutzer:0xb4dc0d3d|0xb4dc0d3d]]
 
-Update: Macht das noch Sinn? Siehe Punkt Server-Hardware weiter unten in diesem Kapitel. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 22:10, 27. Dez. 2019 (CET)
-
 === Rechtekonzept ===
 
-User sollten ihre VMs durchstarten können. Geht Hand in Hand mit dem Gedanken, nicht mehr überall als root zu springen und alles als root zu tun, stattdessen Nutzung sudo und mittelfristig ggf. Anbindung an [[UserDB|UserDB]].
+User sollten ihre VMs durchstarten können. Geht Hand in Hand mit dem Gedanken, nicht mehr überall als root zu springen und alles als root zu tun, stattdessen Nutzung sudo und mittelfristig ggf. Anbindung an [[#UserDB|UserDB]].
 
 Person mit Hut: [[Benutzer:0xb4dc0d3d|0xb4dc0d3d]]
-
-=== Hypervisor-Software ===
-
-# HV bleibt KVM. Helix erwähnte heute Cockpit, das scheint also auch ohne das ganze oVirt-Debakel zu gehen, und wäre dann prima. Geht als Frontend dann mit dem Rechtekonzept Hand in Hand. Alternative: Proxmox als Aufsatz, nicht(!!!) als Basis.
-
-# OS sollte CentOS sein: der Hypervisor hat dumm zu sein (CA-Verwaltung, Automatisierung etc. darf da nicht laufen), also genügt CentOS, und wir gewinnen den Benefit SELinux. (Alternative wäre Arch, aber Rolling Release in bedingt gewarteter aber produktiver Umgebung? Meh. Willstenich.)
-
-Gesamtes Kapitel zur Diskussion, habe ich ad hoc so niedergeschrieben • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 21:13, 27. Dez. 2019 (CET)
 
 === VM-Inventur ===
 
@@ -138,48 +91,20 @@ Prüfen, was noch aktiv ist, und nach einer geordneten(!) Inventarisierung Mitgl
 
 === VM-Struktur ===
 
-Ordnung schaffen: Sind Dinge(tm) produktiv, sollten diese auf dedizierte VMs, gutes Beispiel hier: [[cashdesk.rzl]] (leider auch gutes Beispiel für undokumentierte VM).
+Ordnung schaffen: Sind Dinge(tm) produktiv, sollten diese auf dedizierte VMs, gutes Beispiel hier: [[cashdesk.rzl]] (leider auch gutes Beispiel für undoumentierte VM).
 
 Kommentar Ranlvor: cashdesk ist ein schlechtes Beispiel, da das eigentlich mal eine MemberVM war und neben cashdesk auch den Infoscreen hosted.
 
 === Serverhardware ===
 
-Zukunft: Redundanz? Idee: KVM over 2 Nodes mit GlusterFS.
+Zukunft: Redundanz? Idee: KVM over 2 Nodes mit GlusterFS. Keinen DAU-kompatiblen Kram wie oVirt, wir sollten bei KVM bleiben.
 
-# Ob wir 2 Nodes brauchen oder 1 reicht, sollten wir in NOC-Meeting und Plenum diskutieren.
-# Basis: Nunja, 32 oder 64GiB RAM, mind. 64 GiB Platte und schauen wo die 3-4 TiB VM-Store hinkommen. Also Basisrahmen, zur Diskussion und Anpassung hier. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #084;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #c50;">wtf?</sup>]]</small> • 18:31, 27. Dez. 2019 (CET)
+== UserDB ==
 
-Erneuerung unumgänglich, RAM-Erweiterung ist nur Lebenserhaltungsmaßnahme bei einer designierten Leiche.
+Redundanter Punkt. Vielleicht realisieren wir in NOC-Kommunikation etwas und führen das dann zusammen.
 
-Optionen:
-# Eigenkonfiguration auf Basis eines Supermicro-Boards und einer AMD-Epyc-CPU. Konfiguration hier: [https://git.raumzeitlabor.org/NOC/server-hardware/ Hardware Konfiguration] [[Benutzer:Lordeis|Lordeis]] ([[Benutzer Diskussion:Lordeis|Diskussion]]) 18:10, 29. Dez. 2019 (CET) --> Preis: 1848,39€
-# [https://www.thomas-krenn.com/de/produkte/einsatzzweck/software-defined-storage/storage-spaces-direct/s2d-micro-cluster/s2d-micro-cluster-advanced.html Thomas-Krenn-Storage-Cluster]: 240GB SSD OS, 3TB Nested Mirror, SuperMicro, 32GiB DDR4 ECC, max. 185W/Server, 13.100 Euro für zwei Server
-# [[Benutzer:Kite|Kite]] kann eventuell einen PowerEdge R510 startklarmachen. Er gibt noch bescheid, Basis-Specsheet [https://www.dell.com/downloads/global/products/pedge/R510_Spec_Sheet.pdf hier].
+== Mailserver ==
 
-Übersicht --> [[NOC Team/To-Dos/Serverhardware Q1 2020]]
-
-=== Installationsstandards ===
-
-Keine Nummer für den HV alleine, aber hier passt's am Ehesten rein: es gibt VMs ohne Swap, und alle VMs haben nur ein root-FS. Das lässt sich genauso simpel automatisieren und strukturieren wie das was wir schon haben. Resultat siehe meine User-VM. Z.B. den apt-cacher in eine root-Partition zu kloppen und generell nur eine root-Partition vorzuhalten, ist grober Unfug, oder Windows 95, oder wie auch immer man das nennen möchte.
-
-Wir sollten einen Standard hinsichtlich Partitionen, Basissoftware etc. verabschieden. Aufbauend auf dem trivial gehaltenen Status Quo. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 18:20, 29. Dez. 2019 (CET)
-
-== Services ==
-
-=== Mailserver ===
-
-==== Spamfilter ====
+=== Spamfilter ===
 
 Überarbeitung und Erweiterung. Wir bekommen keine Viagramails, aber einiges an Werbung. ''Erst'' Spamfilter, ''dann'' Unterpunkt Blocklisten ;-)
-
-==== Mailman ====
-lists.raumzeitlabor.de benutzt Mailman v2.1.18 vom 6.5.2014.
-
-Eine [https://docs.mailman3.org/en/latest/migration.html Migration von 2.1 auf 3.x] ist möglich.
-
---[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 14:07, 28. Dez. 2019 (CET)
-
-=== Gitlab ===
-
-# Root-Passwort unbekannt, Version zu alt und damit insecure.
-# AutoDevops und CI-Runner sind aktiviert ohne Instanz, nerven also bei jedem neuen Projekt wieder. Das anzuschalten ohne es zu konfigurieren ist nicht gerade clever. Sollte man beseitigen oder nachfragen warum das überhaupt angedacht wurde.
