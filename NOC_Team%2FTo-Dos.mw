@@ -54,30 +54,29 @@ TLS-Renewal. Details nach Fertigstellung.
 
 === Router ===
 ==== Ubiquity ====
-Auseinandersortieren der Netzwerkverbindungen.<br />
-Reverse Engineering und Dokumentieren der Konfiguration.
-IPv6 Konfiguration.
+# Auseinandersortieren der Netzwerkverbindungen.
+# Reverse Engineering und Dokumentieren der Konfiguration.
+# IPv6 Konfiguration.
 
 ==== Speedport (Telekom) ====
-Reverse Engineering und Dokumentieren der Konfiguration.
-IPv6 Konfiguration.
+# Reverse Engineering und Dokumentieren der Konfiguration.
+# IPv6 Konfiguration.
 
 Kommentar Ranlvor: Sollte ziemlich Standard sein, nur eventuell ein paar Regeln drin, die versuchen sollen Telefonie-Traffic auf DSL zu zwingen (weil das weniger schlecht tut als via LTE).
 
 === WIFI Access Points ===
 ==== Ubiquity ====
-Reverse Engineering und Dokumentieren der Konfiguration.<br />
-Auseinadersortieren der SSIDs:
-                              Prüfen ob alle SSIDs nötig sind.                              
-                              Diskutieren ob Band Steering Sinvoll Wäre.
-                              Prüfen ob Layer 3 Roaming Sinnig ist.
-
-Prüfung ob ein zusätzlicher Unify AP für die Werkstatt sinn macht.<br />
-Auslagern des RZL IOT WLAN auf anderen AP.
+# Reverse Engineering und Dokumentieren der Konfiguration.
+# Auseinadersortieren der SSIDs:
+## Prüfen ob alle SSIDs nötig sind.                              
+## Diskutieren ob Band Steering Sinvoll Wäre.
+## Prüfen ob Layer 3 Roaming Sinnig ist.
+# Prüfung ob ein zusätzlicher Unify AP für die Werkstatt sinn macht.
+# Auslagern des RZL IOT WLAN auf anderen AP.
 
 ==== IOT Accesspoint ====
-Extra AP verwenden da Performance Probleme.<br />
-Ich habe noch einen Lancom Rumliegen den ich Spenden würde - [[Benutzer:Lordeis|Lordeis]]
+# Extra AP verwenden da Performance Probleme.
+# Ich habe noch einen Lancom Rumliegen den ich Spenden würde - [[Benutzer:Lordeis|Lordeis]]
 
 == Hypervisor ==
 
@@ -89,15 +88,15 @@ Aktuelles To-Do: Dokumentation Hardwaremöglichkeiten - [[Benutzer:0xb4dc0d3d|0x
 
 === Rechtekonzept ===
 
-User sollten ihre VMs durchstarten können. Geht Hand in Hand mit dem Gedanken, nicht mehr überall als root zu springen und alles als root zu tun, stattdessen Nutzung sudo und mittelfristig ggf. Anbindung an [[#UserDB|UserDB]].
+User sollten ihre VMs durchstarten können. Geht Hand in Hand mit dem Gedanken, nicht mehr überall als root zu springen und alles als root zu tun, stattdessen Nutzung sudo und mittelfristig ggf. Anbindung an [[UserDB|UserDB]].
 
 Person mit Hut: [[Benutzer:0xb4dc0d3d|0xb4dc0d3d]]
 
 === Hypervisor-Software ===
 
-Bleibt KVM. Helix erwähnte heute Cockpit, das scheint also auch ohne das ganze oVirt-Debakel zu gehen, und wäre dann prima. Geht als Frontend dann mit dem Rechtekonzept Hand in Hand. Alternative: Proxmox als Aufsatz, nicht(!!!) als Basis.
+# HV bleibt KVM. Helix erwähnte heute Cockpit, das scheint also auch ohne das ganze oVirt-Debakel zu gehen, und wäre dann prima. Geht als Frontend dann mit dem Rechtekonzept Hand in Hand. Alternative: Proxmox als Aufsatz, nicht(!!!) als Basis.
 
-OS sollte CentOS sein: der Hypervisor hat dumm zu sein (CA-Verwaltung, Automatisierung etc. darf da nicht laufen), also genügt CentOS, und wir gewinnen den Benefit SELinux. (Alternative wäre Arch, aber Rolling Release in bedingt gewarteter aber produktiver Umgebung? Meh. Willstenich.)
+# OS sollte CentOS sein: der Hypervisor hat dumm zu sein (CA-Verwaltung, Automatisierung etc. darf da nicht laufen), also genügt CentOS, und wir gewinnen den Benefit SELinux. (Alternative wäre Arch, aber Rolling Release in bedingt gewarteter aber produktiver Umgebung? Meh. Willstenich.)
 
 Gesamtes Kapitel zur Diskussion, habe ich ad hoc so niedergeschrieben • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 21:13, 27. Dez. 2019 (CET)
 
