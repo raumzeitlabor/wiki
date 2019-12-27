@@ -97,7 +97,7 @@ Person mit Hut: [[Benutzer:0xb4dc0d3d|0xb4dc0d3d]]
 
 Bleibt KVM. Helix erwähnte heute Cockpit, das scheint also auch ohne das ganze oVirt-Debakel zu gehen, und wäre dann prima. Geht als Frontend dann mit dem Rechtekonzept Hand in Hand. Alternative: Proxmox als Aufsatz, nicht(!!!) als Basis.
 
-OS sollte CentOS sein: der Hypervisor hat dumm zu sein (CA-Verwaltung, Automatisierung etc. darf da nicht laufen), also genügt CentOS, und wir gewinnen den Benefit SELinux. (Alternative wäre Arch, aber Rolling Release in bedingt gewarteter Umgebung? Meh.)
+OS sollte CentOS sein: der Hypervisor hat dumm zu sein (CA-Verwaltung, Automatisierung etc. darf da nicht laufen), also genügt CentOS, und wir gewinnen den Benefit SELinux. (Alternative wäre Arch, aber Rolling Release in bedingt gewarteter aber produktiver Umgebung? Meh. Willstenich.)
 
 Gesamtes Kapitel zur Diskussion, habe ich ad hoc so niedergeschrieben • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 21:13, 27. Dez. 2019 (CET)
 
