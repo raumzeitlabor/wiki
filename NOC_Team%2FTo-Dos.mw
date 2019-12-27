@@ -126,10 +126,6 @@ Zukunft: Redundanz? Idee: KVM over 2 Nodes mit GlusterFS. Keinen DAU-kompatiblen
 # Ob wir 2 Nodes brauchen oder 1 reicht, sollten wir in NOC-Meeting und Plenum diskutieren.
 # Basis: Nunja, 32 oder 64GiB RAM, mind. 64 GiB Platte und schauen wo die 3-4 TiB VM-Store hinkommen. Alos Basisrahmen, zur Diksussion und Anpassung hier. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #084;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #c50;">wtf?</sup>]]</small> • 18:31, 27. Dez. 2019 (CET)
 
-== UserDB ==
-
-Redundanter Punkt. Vielleicht realisieren wir in NOC-Kommunikation etwas und führen das dann zusammen.
-
 == Mailserver ==
 
 === Spamfilter ===
