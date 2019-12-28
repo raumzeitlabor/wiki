@@ -15,7 +15,7 @@ Alle internen Dienste enden auf .rzl, was keine Domain ist, die uns gehört. Wä
 
 → Split-DNS?
 
---[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 14:35, 27. Dez. 2019 (CET)
+--[[Benutzer:Helix|Helix]] 14:35, 27. Dez. 2019 (CET)
 
 === SSL-Zertifikate ===
 Für nur intern verfügbare Dienste wäre auch ein SSL-Zertifikat sinnvoll.
@@ -24,7 +24,7 @@ Letsencrypt *.rzl.so würde die internen Dienste dann nicht nach [https://crt.sh
 
 Für extern verfügbare Dienste kann man dann ja je FQDN ein normales Cert holen. Eventuell auf [https://letsencrypt.org/docs/rate-limits/ Rate Limits] aufpassen.
 
---[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 14:35, 27. Dez. 2019 (CET)
+--[[Benutzer:Helix|Helix]] 14:35, 27. Dez. 2019 (CET)
 
 Aufbauend darauf (Obacht: Rate Limits are a real thing): Automatisierung der Zertifikate. LE-Zerts halten nur 3 Monate, da ist Rumgammeln keine Option mehr. Und die Faustregel heißt: ist es rein interner Kram? Wirklich? Wenn nein --> Non-Wildcard und SAN. Wildcard-Zerts sind obsolete Tech, machen wir nur zur Obfuscation. Doku essentiell, SAN-Zusammenfassung und -Stepping!
 
@@ -61,6 +61,13 @@ Diskussion ob Update durchgeführt werden soll - [[Benutzer:Lordeis|Lordeis]]
 === Benutzer-DB ===
 
 TLS-Renewal. Details nach Fertigstellung.
+
+=== Mailman ===
+lists.raumzeitlabor.de benutzt Mailman v2.1.18 vom 6.5.2014.
+
+Eine [https://docs.mailman3.org/en/latest/migration.html Migration von 2.1 auf 3.x] ist möglich.
+
+--[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 14:07, 28. Dez. 2019 (CET)
 
 === Router ===
 ==== Ubiquity ====
