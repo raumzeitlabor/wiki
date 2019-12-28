@@ -58,7 +58,9 @@ Inventur aller Switche und Firmware Stand prüfen
 
 ==== Cisco Stack E Werkstatt ====
 Update von Cisco verfügbar: '''1.4.11.02'''<br />
-Diskussion ob Update durchgeführt werden soll - [[Benutzer:Lordeis|Lordeis]]
+Diskussion ob Update durchgeführt werden soll - [[Benutzer:Lordeis|Lordeis]]<br />
+'''Wichtig:'''<br />
+'''Prüfen ob die Switche von dem Cisco Zertifikats Fuckup betroffen sind.'''
 
 === Benutzer-DB ===
 
