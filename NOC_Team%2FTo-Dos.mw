@@ -62,13 +62,6 @@ Diskussion ob Update durchgeführt werden soll - [[Benutzer:Lordeis|Lordeis]]
 
 TLS-Renewal. Details nach Fertigstellung.
 
-=== Mailman ===
-lists.raumzeitlabor.de benutzt Mailman v2.1.18 vom 6.5.2014.
-
-Eine [https://docs.mailman3.org/en/latest/migration.html Migration von 2.1 auf 3.x] ist möglich.
-
---[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 14:07, 28. Dez. 2019 (CET)
-
 === Router ===
 ==== Ubiquity ====
 # Auseinandersortieren der Netzwerkverbindungen.
@@ -148,3 +141,10 @@ Optionen:
 === Spamfilter ===
 
 Überarbeitung und Erweiterung. Wir bekommen keine Viagramails, aber einiges an Werbung. ''Erst'' Spamfilter, ''dann'' Unterpunkt Blocklisten ;-)
+
+=== Mailman ===
+lists.raumzeitlabor.de benutzt Mailman v2.1.18 vom 6.5.2014.
+
+Eine [https://docs.mailman3.org/en/latest/migration.html Migration von 2.1 auf 3.x] ist möglich.
+
+--[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 14:07, 28. Dez. 2019 (CET)
