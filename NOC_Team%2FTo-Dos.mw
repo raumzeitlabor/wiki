@@ -151,6 +151,10 @@ Optionen:
 
 Übersicht --> [[NOC Team/To-Dos/Serverhardware Q1 2020]]
 
+=== Installationsstandards ===
+
+Keine Nummer für den HV alleine, aber hier passt's am Ehesten rein: es gibt VMs ohne Swap, und alle VMs haben nur ein root-FS. Das lässt sich genauso simpel automatisieren und strukturieren wie das was wir schon haben. Resultat siehe meine User-VM. Z.B. den apt-cacher in eine root-Partition zu kloppen und generell nur eine root-Partition vorzuhalten, ist grober Unfug, oder Windows 95, oder wie auch immer man das nennen möchte. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 18:20, 29. Dez. 2019 (CET)
+
 == Services ==
 
 === Mailserver ===
