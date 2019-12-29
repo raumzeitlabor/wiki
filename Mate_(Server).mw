@@ -45,7 +45,7 @@
 == Unterseiten ==
 Auf allen Kern-VMs läuft _möglichst_ nur pakettierte Software (Debian). Möchtest Du etwas auf den Systemen installiert haben, dann paketiere es bitte. Auf den Mitglieder-VMs kann alles so installiert werden, wie gewünscht.
 
-== reboot ==
+== Reboot Fest / Zabbix Agent ==
 (stand 12-2019)
 
 Rebootfest gibt an, ob die Dienste innerhalb der VM nach einem Reboot der VM von alleine sauber hoch kommen. Rebootfest sagt nicht zwingend, dass die VM einen Reboot von Mate sauber übersteht.
@@ -54,67 +54,100 @@ Rebootfest gibt an, ob die Dienste innerhalb der VM nach einem Reboot der VM von
 ! VM
 ! Rebootfest
 ! Anmerkungen
+! Monitoring Agent
+! Monitoring Anmerkung
 |-
 | [[Mate (Server)/0xb4dc0d3d.vm.rzl]]
 | unbekannt
+| 
+| Ja
 | 
 |-
 | [[Mate (Server)/abrock.vm.rzl]]
 | unbekannt
 | verliert beim Host-Reboot vermutlich das USB-Device zum Stromzähler
+| Ja
+| 
 |-
 | [[Mate (Server)/cashdesk.rzl]]
 | ja
 | 
+| Nein
+|
 |-
 | [[Mate (Server)/datengrab.rzl]]
 | nein
+| 
+| Nein
 | 
 |-
 | [[Mate (Server)/db.rzl]]
 | ja
 | 
+| Nein
+|
 |-
 | [[Mate (Server)/freeswitch.vm.rzl]]
 | ja
 | 
+| Nein
+|
 |-
 | [[Mate (Server)/infra.rzl]]
 | ja
 | verliert beim Host-Reboot vermutlich das USB-Device zu den [[Funksteckdosen]]
+| Nein
+| 
 |-
 | [[Mate (Server)/kunterbunt.vm.rzl]]
 | nein
 | MQTT -> Graphite-Bridge muss manuell gestartet werden
+| Ja
+| 
 |-
 | [[Mate (Server)/lutoma.vm.rzl]]
 | unbekannt
 | 
+| Nein
+|
 |-
 | [[Mate (Server)/partkeepr.rzl]]
 | ja
 | 
+| Nein
+|
 |-
 | [[Mate (Server)/qrgo.vm.rzl]]
 | unbekannt
+| 
+| Nein
 | 
 |-
 | [[Mate (Server)/rami.vm.rzl]]
 | unbekannt
 | 
+| Nein
+| 
 |-
 | [[Mate (Server)/ranlvor.vm.rzl]]
 | ja
 | 
+| Nein
+|
 |-
 | [[Mate (Server)/s1lvester.vm.rzl]]
 | unbekannt
 | 
+| Ja
+|
 |-
 | [[Mate (Server)/unifi.vm.rzl]]
 | ja
 | Braucht zum Start große Mengen Zufall. Geduld oder ping -f 172.22.36.238 hilft.
+| Nein
+|
 |}
+[[Benutzer:Lordeis|Lordeis]] ([[Benutzer Diskussion:Lordeis|Diskussion]]) 19:16, 29. Dez. 2019 (CET)
 
 == VMs ==
 {| class="wikitable"  valign="top"
