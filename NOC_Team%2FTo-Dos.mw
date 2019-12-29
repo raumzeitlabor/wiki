@@ -150,15 +150,22 @@ Optionen:
 
 Übersicht --> [[NOC Team/To-Dos/Serverhardware Q1 2020]]
 
-== Mailserver ==
+== Services ==
 
-=== Spamfilter ===
+=== Mailserver ===
+
+==== Spamfilter ====
 
 Überarbeitung und Erweiterung. Wir bekommen keine Viagramails, aber einiges an Werbung. ''Erst'' Spamfilter, ''dann'' Unterpunkt Blocklisten ;-)
 
-=== Mailman ===
+==== Mailman ====
 lists.raumzeitlabor.de benutzt Mailman v2.1.18 vom 6.5.2014.
 
 Eine [https://docs.mailman3.org/en/latest/migration.html Migration von 2.1 auf 3.x] ist möglich.
 
 --[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 14:07, 28. Dez. 2019 (CET)
+
+=== Gitlab ===
+
+# Root-Passwort unbekannt, Version zu alt und damit insecure.
+# AutoDevops und CI-Runner sind aktiviert ohne Instanz, nerven also bei jedem neuen Projekt wieder. Das anzuschalten ohne es zu konfigurieren ist nicht gerade clever. Sollte man beseitigen oder nachfragen warum das überhaupt angedacht wurde.
