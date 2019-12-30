@@ -65,11 +65,14 @@ Laut [[Benutzer:cheatha|@cheatha]] wird gerade die Freifunk Infrastruktur umgezo
 === Switches ===
 Inventur aller Switche und Firmware Stand prüfen 
 
-==== Cisco Stack E Werkstatt ====
-Update von Cisco verfügbar: '''1.4.11.02'''<br />
-Diskussion ob Update durchgeführt werden soll - [[Benutzer:Lordeis|Lordeis]]<br />
-'''Wichtig:'''<br />
-'''Prüfen ob die Switche von dem Cisco Zertifikats Fuckup betroffen sind.'''
+==== Cisco-Stack E-Werkstatt ====
+Update von Cisco verfügbar: '''1.4.11.02'''
+
+Diskussion, ob Update durchgeführt werden soll  (unsignierter Beitrag von [[Benutzer:Lordeis|Lordeis]])
+
+'''Wichtig:'''
+
+'''Prüfen ob die Switche von dem Cisco-Zertifikats-Fuckup betroffen sind.'''
 
 === Benutzer-DB ===
 
