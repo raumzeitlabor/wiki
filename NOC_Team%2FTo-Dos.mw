@@ -1,6 +1,6 @@
 == Tagebuch ==
 
-Wichtiger Punkt: Dokumentation was bisher getan wurde. Was ergab sich aus der Freifunk-Diskussion heute, was aus Verm.+Pfalzkom+Politik, was machen wir mit dem Cisco-Stack hinsichtlich des Tschisko-Fuckups mit Self-Signed Certificates (ist zwar scheisse, macht aber jeder(tm), auch wir?) '''''vor''''' Januar 2020? Was habe ich vergessen?
+Wichtiger Punkt: Dokumentation, was bisher getan wurde. Was ergab sich aus der Freifunk-Diskussion heute, was aus Verm.+Pfalzkom+Politik, was machen wir mit dem Cisco-Stack hinsichtlich des Tschisko-Fuckups mit Self-Signed Certificates (ist zwar scheisse, macht aber jeder(tm), auch wir?) '''''vor''''' Januar 2020? Was habe ich vergessen?
 
 Cisco siehe auch [https://www.cisco.com/c/en/us/support/docs/field-notices/704/fn70489.html FN 70489].
 
@@ -40,30 +40,31 @@ Zur Disk. im NOC-Meeting. Bei weiteren Diskussionspunkten diese Zeile löschen u
 Welche Leitungen haben wir, welche Möglichkeiten zum Upgrade gibt es?
 
 Aktuelle Leitung: 
-: Telekom Hybrid 50Mbit
+: Telekom-Hybrid 50Mbit
 : 16 Mbit DSL
-: Rest geht über im Router verbaute Sim Karte (Nur mit Telekom Router Kompatibel)
+: Rest geht über im Router verbaute SIM-Karte (nur mit Telekom-Router kompatibel)
 
 Geimeinsame Klärung mit der Spedition erstrebenswert.
 
 === Holzwerkstatt ===
 
-Wurde geklärt es muss definitiv ein Patchpanel für die neue Werkstatt angeschafft werden, z.B.: [https://www.amazon.de/deleyCON-Patchpanel-Verteilerfeld-Port-Servermontage/dp/B01N5OB4B2/ref%3Dsr_1_4?__mk_de_DE=ÅMÅŽÕÑ&crid=3VYNP23DYV9L9&keywords=patchpanel%2Bcat%2B6%2B24%2Bport&qid=1577560089&sprefix=patchpanel%2Bcat%2B6%2B%2Caps%2C161&sr=8-4 Amazon-Link, deleyCON Patchpanel]
+Wurde geklärt: es muss definitiv ein Patchpanel für die neue Werkstatt angeschafft werden, z.B.: [https://www.amazon.de/deleyCON-Patchpanel-Verteilerfeld-Port-Servermontage/dp/B01N5OB4B2/ref%3Dsr_1_4?__mk_de_DE=ÅMÅŽÕÑ&crid=3VYNP23DYV9L9&keywords=patchpanel%2Bcat%2B6%2B24%2Bport&qid=1577560089&sprefix=patchpanel%2Bcat%2B6%2B%2Caps%2C161&sr=8-4 Amazon-Link, deleyCON Patchpanel]
 
-Außerdem noch ein Switch da der momentane Ersatz ein relikt aus den 90ern ist. Beispiel: [https://www.omg.de/mikrotik/routerboard/mikrotik-routerboard-crs328-24p-4s-rm/a-14454/ Mikrotik Routerboard CRS328 (24-Port) auf omg]. Oder jemand repariert den Ubiquity der seit Monaten in der Werkstatt liegt.
+Außerdem noch ein Switch, da der momentane Ersatz ein Relikt aus den 90ern ist. Beispiel: [https://www.omg.de/mikrotik/routerboard/mikrotik-routerboard-crs328-24p-4s-rm/a-14454/ Mikrotik Routerboard CRS328 (24-Port) auf omg]. Oder jemand repariert den Ubiquity der seit Monaten in der Werkstatt liegt.
 
 (alles unsigniert von [[Benutzer:Lordeis|Lordeis]])
 
 === Freifunk + IPv6 ===
 
-Zukunft ab 01.01.2020? Kübler Glasfaser?<br />
-Fürs erste wenn möglich über das /56 Netz, das am Telekom Router anliegt. - [[Benutzer:Lordeis|Lordeis]]<br />
-Update vom 27.12.19:<br />
-Laut [[Benutzer:cheatha|@cheatha]] wird gerade die Freifunk Infrastruktur umgezogen was uns ein wenig zeit ins neue jahr gewähren sollte.<br />
+Zukunft ab 01.01.2020? Kübler Glasfaser? Fürs Erste, wenn möglich, über das /56 Netz, das am Telekom Router anliegt. - [[Benutzer:Lordeis|Lordeis]]
+
+Update vom 27.12.19:
+
+Laut [[Benutzer:cheatha|@cheatha]] wird gerade die Freifunk-Infrastruktur umgezogen, was uns ein wenig Zeit ins neue Jahr gewähren sollte.<br />
 [[Benutzer:Lordeis|Lordeis]] ([[Benutzer Diskussion:Lordeis|Diskussion]]) 18:00, 29. Dez. 2019 (CET)
 
 === Switches ===
-Inventur aller Switche und Firmware Stand prüfen 
+Inventur aller Switche und Firmware-Stände prüfen 
 
 ==== Cisco-Stack E-Werkstatt ====
 Update von Cisco verfügbar: '''1.4.11.02'''
@@ -72,7 +73,7 @@ Diskussion, ob Update durchgeführt werden soll  (unsignierter Beitrag von [[Ben
 
 '''Wichtig:'''
 
-'''Prüfen ob die Switche von dem Cisco-Zertifikats-Fuckup betroffen sind.'''
+'''Prüfen, ob die Switche von dem Cisco-Zertifikats-Fuckup betroffen sind.'''
 
 === Benutzer-DB ===
 
@@ -92,17 +93,17 @@ Kommentar Ranlvor: Sollte ziemlich Standard sein, nur eventuell ein paar Regeln 
 
 === WIFI Access Points ===
 ==== Ubiquity ====
-# Reverse Engineering und Dokumentieren der Konfiguration.
-# Auseinadersortieren der SSIDs:
-## Prüfen ob alle SSIDs nötig sind.                              
-## Diskutieren ob Band Steering Sinvoll Wäre.
-## Prüfen ob Layer 3 Roaming Sinnig ist.
-# Prüfung ob ein zusätzlicher Unify AP für die Werkstatt sinn macht.
-# Auslagern des RZL IOT WLAN auf anderen AP.
+# Reverse-Engineering und Dokumentieren der Konfiguration.
+# Auseinandersortieren der SSIDs:
+## Prüfen, ob alle SSIDs nötig sind.                              
+## Diskutieren, ob Band-Steering sinvoll Wäre.
+## Prüfen, ob Layer-3-Roaming sinnig ist.
+# Prüfung, ob ein zusätzlicher Unify-AP für die Werkstatt sinn macht.
+# Auslagern des RZL-IOT-WLAN auf anderen AP.
 
 ==== IOT Accesspoint ====
-# Extra AP verwenden da Performance Probleme.
-# Ich habe noch einen Lancom Rumliegen den ich Spenden würde - [[Benutzer:Lordeis|Lordeis]]
+# Extra-AP verwenden da Performance Probleme.
+# Ich habe noch einen Lancom rumliegen, den ich spenden würde - [[Benutzer:Lordeis|Lordeis]]
 
 === Verkabelung ===
 
@@ -113,7 +114,7 @@ Kommentar Ranlvor: Sollte ziemlich Standard sein, nur eventuell ein paar Regeln 
 
 === RAM ===
 
-Welche Möglichkeiten zum Update gibt es? Kurzfristiger Punkt, da der RAM erschöpft ist. AUf jeden Fall mögliches Upgrade wären zusätzliche 4 GiB für 30-40 Euronen, wenn wir in den Server reingeschaut haben wissen wir aber ob noch mehr als die dann 16GiB gehen.
+Welche Möglichkeiten zum Update gibt es? Kurzfristiger Punkt, da der RAM erschöpft ist. Auf jeden Fall mögliches Upgrade wären zusätzliche 4 GiB für 30-40 Euronen; wenn wir in den Server reingeschaut haben, wissen wir aber, ob noch mehr als die dann 16GiB gehen.
 
 Aktuelles To-Do: Dokumentation Hardwaremöglichkeiten - [[Benutzer:0xb4dc0d3d|0xb4dc0d3d]]
 
@@ -139,7 +140,7 @@ Prüfen, was noch aktiv ist, und nach einer geordneten(!) Inventarisierung Mitgl
 
 === VM-Struktur ===
 
-Ordnung schaffen: Sind Dinge(tm) produktiv, sollten diese auf dedizierte VMs, gutes Beispiel hier: [[cashdesk.rzl]] (leider auch gutes Beispiel für undoumentierte VM).
+Ordnung schaffen: Sind Dinge(tm) produktiv, sollten diese auf dedizierte VMs, gutes Beispiel hier: [[cashdesk.rzl]] (leider auch gutes Beispiel für undokumentierte VM).
 
 Kommentar Ranlvor: cashdesk ist ein schlechtes Beispiel, da das eigentlich mal eine MemberVM war und neben cashdesk auch den Infoscreen hosted.
 
@@ -148,12 +149,12 @@ Kommentar Ranlvor: cashdesk ist ein schlechtes Beispiel, da das eigentlich mal e
 Zukunft: Redundanz? Idee: KVM over 2 Nodes mit GlusterFS.
 
 # Ob wir 2 Nodes brauchen oder 1 reicht, sollten wir in NOC-Meeting und Plenum diskutieren.
-# Basis: Nunja, 32 oder 64GiB RAM, mind. 64 GiB Platte und schauen wo die 3-4 TiB VM-Store hinkommen. Alos Basisrahmen, zur Diksussion und Anpassung hier. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #084;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #c50;">wtf?</sup>]]</small> • 18:31, 27. Dez. 2019 (CET)
+# Basis: Nunja, 32 oder 64GiB RAM, mind. 64 GiB Platte und schauen wo die 3-4 TiB VM-Store hinkommen. Also Basisrahmen, zur Diskussion und Anpassung hier. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #084;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #c50;">wtf?</sup>]]</small> • 18:31, 27. Dez. 2019 (CET)
 
 Erneuerung unumgänglich, RAM-Erweiterung ist nur Lebenserhaltungsmaßnahme bei einer designierten Leiche.
 
 Optionen:
-# Eigenkonfiguration auf Basis eines Supermicro Boards und einer AMD Epyc CPU. Koniguration hier: [https://git.raumzeitlabor.org/NOC/server-hardware/ Hardware Konfiguration] [[Benutzer:Lordeis|Lordeis]] ([[Benutzer Diskussion:Lordeis|Diskussion]]) 18:10, 29. Dez. 2019 (CET)
+# Eigenkonfiguration auf Basis eines Supermicro-Boards und einer AMD-Epyc-CPU. Konfiguration hier: [https://git.raumzeitlabor.org/NOC/server-hardware/ Hardware Konfiguration] [[Benutzer:Lordeis|Lordeis]] ([[Benutzer Diskussion:Lordeis|Diskussion]]) 18:10, 29. Dez. 2019 (CET)
 # [https://www.thomas-krenn.com/de/produkte/einsatzzweck/software-defined-storage/storage-spaces-direct/s2d-micro-cluster/s2d-micro-cluster-advanced.html Thomas-Krenn-Storage-Cluster]: 240GB SSD OS, 3TB Nested Mirror, SuperMicro, 32GiB DDR4 ECC, max. 185W/Server, 13.100 Euro für zwei Server
 # [[Benutzer:Kite|Kite]] kann eventuell einen PowerEdge R510 startklarmachen. Er gibt noch bescheid, Basis-Specsheet [https://www.dell.com/downloads/global/products/pedge/R510_Spec_Sheet.pdf hier].
 
