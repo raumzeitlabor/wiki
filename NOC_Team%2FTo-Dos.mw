@@ -101,7 +101,7 @@ Kommentar Ranlvor: Sollte ziemlich Standard sein, nur eventuell ein paar Regeln 
 # Prüfung, ob ein zusätzlicher Unify-AP für die Werkstatt sinn macht.
 # Auslagern des RZL-IOT-WLAN auf anderen AP.
 
-==== IOT Accesspoint ====
+==== IOT-Accesspoint ====
 # Extra-AP verwenden da Performance Probleme.
 # Ich habe noch einen Lancom rumliegen, den ich spenden würde - [[Benutzer:Lordeis|Lordeis]]
 
