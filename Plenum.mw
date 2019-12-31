@@ -18,22 +18,15 @@
 
 ===== Was ich seit dem letzten Plenum im Space gemacht hab =====
 
-* Das NOC pflegt gerade Tagebücher auf unserem gitlab, hierzu wird es im Plenum Infos geben
-
 ===== Was ich bis zum nächsten Plenum im Space vorhabe =====
 
 ===== Was mich im Space geärgert hat =====
-* es stinkt nach dem Kochen/Essen bestialisch, keiner lüftet gerne und man muss seine Klamotten im Anschluss waschen. --[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 22:47, 1. Jan. 2020 (CET)
 
 ===== Was mich im Space erfreut hat =====
-
-* echo_mirage ist ein guter Ansprechpartner, was Vorstandsdinge angeht, für mich als Neuling prima da er oft da ist und grob bescheid weiß. Pluspunkt. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 18:44, 5. Jan. 2020 (CET)
 
 ===== Was ich gerne lernen würde =====
 
 (Allgemeiner Hinweis auf [[Vorträge#Gewünscht]])
-
-* Aufgrund einer aktuellen positiven Diskussion habe ich zwei Kurse, Linux und vim, bei den [[Vorträge|Vorträgen]] plaziert. Ob das Sinn macht, sollte im Plenum erörtert werden. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 18:58, 5. Jan. 2020 (CET)
 
 ===== Was im Space getan werden müsste (+Tickets anlegen) =====
 
@@ -47,15 +40,8 @@
 == Neuanschaffungen/Ausgaben ==
 * Unifi UAP-AC-HD
 ** weil der AP im Nebenraum lahm ist. → Nebenraum durch Hauptraum-AP ersetzen, Hauptraum-AP durch HD ersetzen --[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 23:04, 31. Dez. 2019 (CET)
-* Patchpanel für die Lan Verkabelung der Werkstatt
-** Zum beispiel dieses: [https://www.amazon.de/deleyCON-Patchpanel-Verteilerfeld-Port-Servermontage/dp/B01N5OB4B2/ref%3Dsr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3VYNP23DYV9L9&keywords=patchpanel%2Bcat%2B6%2B24%2Bport&qid=1577560089&sprefix=patchpanel%2Bcat%2B6%2B%2Caps%2C161&sr=8-4 deleyCON CAT 6 Patchpanel] [[Benutzer:Lordeis|Lordeis]] ([[Benutzer Diskussion:Lordeis|Diskussion]]) 14:24, 5. Jan. 2020 (CET)
-* Neuer Switch für den Verteiler im FabLab
-** Da momentan nur ein 100 Mbit Poe Switch als Ersatz eingebaut ist und der ursprüngliche Ubiquity seit ein paar Monaten erfolglos auf eine Reparatur wartet würde ich vorschlagen einen neuen Switch zu besorgen. Aus eigener Erfahrung und auf Grund des guten Preis Leistung Verhältnis würde ich diesen Switch vorschlagen: [https://www.omg.de/mikrotik/routerboard/mikrotik-routerboard-crs328-24p-4s-rm/a-14454/ MikroTik Cloud Router Switch - CRS328-24P-4S+RM] [[Benutzer:Lordeis|Lordeis]] ([[Benutzer Diskussion:Lordeis|Diskussion]]) 14:24, 5. Jan. 2020 (CET)
-* Neue Hardware für den RZL Server.
-** Das NOC Team hat sich den bestehenden Server angeschaut. Leider ist die bestehende Hardware zu alt das es sich noch lohnen würde diesen zu upgraden. Hier haben wir einige Möglichkeiten für neue Hardware vorbereitet diese würden wir gerne auf dem Plenum vorstellen und dann gemeinsam entscheiden welches die beste Option ist. [[Benutzer:Lordeis|Lordeis]] ([[Benutzer Diskussion:Lordeis|Diskussion]]) 14:24, 5. Jan. 2020 (CET)
 
 == Sonstiges ==
-* Ich würde gerne alles von [https://github.com/raumzeitlabor/ Github.com] und [https://gitlab.com/raumzeitlabor Gitlab.com] was RZL betrifft auf unser [https://git.raumzeitlabor.org/ self-hosted gitlab] umziehen. --[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 22:47, 1. Jan. 2020 (CET)
 
 [[Kategorie:Plenum]]
 [[Kategorie:Protokoll]]
