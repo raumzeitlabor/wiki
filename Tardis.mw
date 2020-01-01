@@ -60,7 +60,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x03<br>Luftpolsterfolie (groß)
 |0x13<br>[[Benutzer:Nicoduck|Laborant: nicoduck]]
 |0x23<br>[[Benutzer:Drahti|Laborant: Drahti]]
-|0x33<br>[[Benutzer:Ozi|Laborant: Ozi]]
+|0x33<br> leer
 |0x43<br>[[Benutzer:Yocky96|Laborant: yocky96]]
 |0x53<br>[[Benutzer:Inte|Laborant: Inte]]
 |0x63<br>[[Benutzer:3abayaga|Laborant: 3abayaga]]
@@ -81,28 +81,28 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x55<br>[[Benutzer:don|Laborant: d0n]]
 |0x65<br>[[Benutzer:don|Laborant: d0n]]
 |-
-|0x06<br>[[Benutzer:Dashie|Laborant: Dashie]]
+|0x06<br>[[Benutzer:Echo mirage|Laborant: echo_mirage]]
 |0x16<br>[[Benutzer:ThinkJD|Laborant: thinkJD]]
 |0x26<br>Elektro-Bauteilkästen
 |0x36<br>E-Bauteile/Strom
 |0x46<br>[[Benutzer:Kristian|Laborant: Kristian]]
-|0x56<br>[[Benutzer:Felicitus|Laborant: Felicia]]
+|0x56<br> leer
 |0x66<br>[[Benutzer:Danny|laborant: danny]]
 |-
-|0x07<br>[[Benutzer:Dashie|Laborant: Dashie]] (schwergängig!)
+|0x07<br>[[Benutzer:Ozi|Laborant: Ozi]]
 |0x17<br>Diverses und Lüfter
 |0x27<br>Elektro-Bauteilkästen
 |0x37<br>Elektro-Bauteile (lose)
 |0x47<br>[[Benutzer:Ingo|Laborant: Ingo]]
-|0x57<br>[[Benutzer:Felicitus|Laborant: Felicia]]
+|0x57<br> leer
 |0x67<br>[[Benutzer:whilo|Laborant: whilo]]
 |-
 |0x08<br>[[Benutzer:lutoma|Laborant:lutoma]
 |0x18<br>[[Benutzer:Felicitus|Laborant: Felicia]]
 |0x28<br>Elektro-Bauteilkästen
 |0x38<br>Kabel
-|0x48<br>empty
-|0x58<br>[[Benutzer:Felicitus|Laborant: Felicia]]
+|0x48<br> leer
+|0x58<br> leer
 |0x68<br>[[Benutzer:Steeph|Laborant: Steeph]]
 |-
 |0x09<br>[[Benutzer:Lutoma|Laborant: lutoma]]
@@ -110,7 +110,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x29<br>Bauteile / Mikroständer
 |0x39<br>Kabel
 |0x49<br>[[Benutzer:Kisl|Laborant: Kisl]]
-|0x59<br>[[Benutzer:Felicitus|Laborant: Felicia]]
+|0x59<br> leer
 |0x69<br>[[Benutzer:Steeph|Laborant: Steeph]]
 |-
 |0x0A<br>Batterien / Kreidespray
@@ -118,7 +118,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x2A<br>PC-Netzteile / Bausätze
 |0x3A<br>[[Benutzer:else|Laborant: else]]
 |0x4A<br>[[Benutzer:uwap|Laborant: uwap]]
-|0x5A<br>[[Benutzer:Felicitus|Laborant: Felicia]]
+|0x5A<br> leer
 |0x6A<br>[[Benutzer:Freestate|Laborant: Freestate]]
 |-
 |0x0B<br>Luftpolster-Umschläge, ESD-Verpackung
@@ -185,7 +185,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x90<br>[[Benutzer:Alexander_Brock|Alexander]]
 |0xA0<br>[[Benutzer:Deramon|Laborant: deramon]]
 |-
-|0x71<br>[[Benutzer:Echo mirage|Laborant: echo_mirage]]
+|0x71<br> leer
 |0x81<br> leer
 |0x91<br>Glasfasermatten
 |0xA1<br>Stoffe (aus 9G)
