@@ -68,7 +68,7 @@ Das '''1votz''' [ivoz] soll die Aufzeichnung aller [[Vorträge]] und [[:Kategori
 
 ==== [https://www.blackmagicdesign.com/products/blackmagicmicrostudiocamera4k Blackmagic Micro Studio Camera 4K] ====
 * vergleichsweise günstig
-** mFT-Objektive!
+** mFT-Objektive! Vorsicht bei der Objektivwahl: Die Kamera hat zwar einen MFT-Anschluss aber der Sensor ist lediglich 13mm breit, das ergibt einen Formatfaktor von 2,76. MFT-Sensoren haben [https://de.wikipedia.org/wiki/Formatfaktor laut Wikipedia] Formatfaktoren von 1,84-2.
 * kann via SDI gesteuert werden
 * unterstützt PTZ falls man später mal Bock hat die fernjustierbar zu machen
 * 4K-Video
