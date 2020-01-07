@@ -2,10 +2,14 @@
 {| class="wikitable" style="width:100%;"
 ! Was !! CPU !! RAM !! OS HDD !! Storage HDD !! NICs !! Neu? !! Preis/Server
 |-
-| [https://www.servershop24.de/server/dell/poweredge-r-serie/dell-poweredge-r720xd-server-2x-xeon-e5-2680-8-core-2-70-ghz-16-gb-ddr3-ram-2x-300-gb-sas-10k/a-120674/ SvS24 R720XD] || 2x Intel Xeon E5-2680 8-Core 2.70 GHz || 4x4GiB DDR3 (???) || 2x300GB SAS || - || 4x1Gbit || gebraucht || 799,99
-|-
 | [https://www.thomas-krenn.com/de/produkte/einsatzzweck/software-defined-storage/storage-spaces-direct/s2d-micro-cluster/s2d-micro-cluster-advanced.html Thomas Krenn S2D Micro-Cluster Advanced] || 1x 16-Core 2.2 GHz || 4x 32GiB ECC DDR4 || 1x240GiB SSD 3D-NAND || 3TiB (6TiB Mirrored) || 2x10GBit || neu || 6.550,-
+|-
+| [https://git.raumzeitlabor.org/NOC/server-hardware/blob/master/Hypervisor.md HV-Übersicht mit Links, EPYC-Eigenbau]<br/>[https://git.raumzeitlabor.org/NOC/server-hardware/blob/master/Storage_Server.md FreeNAS-Übersicht] || 1x 16-Core AMD EPYC 7281 2.1 GHz<br/>1x 8-Core AMD EPYC 7251 || 1x32 GiB DDR4 ECC<br/>2x 16GiB ECC DDR4 || 2x128 GiB SSD<br/>- || -<br/>6x8TiB = 12TiB max. Nutzspeicher* || 2x10GBit<br/>1x10GBit || neu<br/>neu || 1848,39€ (ohne Preisvergleich)<br/>2662,79€ (ohne Preisvergleich)<br/>'''4511,18 €'''
+|-
+| [https://git.raumzeitlabor.org/NOC/server-hardware/blob/master/Alternative.md Alternativserver] || 1x 16-Core AMD EPYC 7281 || 2x 32GiB DDR4 ECC || 2x 128 GiB SSD || 6x8TiB = 12TiB max. Nutzspeicher* || 1x 10GBit || neu || 3.115,97€ (ohne Preisvergleich)
 |}
+
+<nowiki>*</nowiki> Bei RAID1. Wünschenswert wäre RAID5 oder RAID6, das liefert immer noch genug Speicher für alles, was wir haben.
 
 Das sind jetzt mal zwei Extreme: bei Einem müsste fast alles ausgetauscht werden, der andere wäre das jahrelange Rundumsorglospaket und doch 'ne Ecke zu teuer. Tendenz: gescheite Neuhardware und modulare Bauweise. Storage auf Extrabox mit genug IOPS, HV mit viel RAM und CPU-Bums und sonst nix, dazwischen 4 oder 10GBit. Storage sollte redundant sein, also RAID 1+. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 20:39, 28. Dez. 2019 (CET)
 
