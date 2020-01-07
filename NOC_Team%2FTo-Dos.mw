@@ -29,9 +29,9 @@ Für extern verfügbare Dienste kann man dann ja je FQDN ein normales Cert holen
 
 --[[Benutzer:Helix|Helix]] 14:35, 27. Dez. 2019 (CET)
 
-Aufbauend darauf (Obacht: Rate Limits are a real thing): Automatisierung der Zertifikate. LE-Zerts halten nur 3 Monate, da ist Rumgammeln keine Option mehr. Und die Faustregel heißt: ist es rein interner Kram? Wirklich? Wenn nein --> Non-Wildcard und SAN. Wildcard-Zerts sind obsolete Tech, machen wir nur zur Obfuscation. Doku essentiell, SAN-Zusammenfassung und -Stepping!
+: Aufbauend darauf (Obacht: Rate Limits are a real thing): Automatisierung der Zertifikate. LE-Zerts halten nur 3 Monate, da ist Rumgammeln keine Option mehr. Und die Faustregel heißt: ist es rein interner Kram? Wirklich? Wenn nein --> Non-Wildcard und SAN. Wildcard-Zerts sind obsolete Tech, machen wir nur zur Obfuscation. Doku essentiell, SAN-Zusammenfassung und -Stepping!
 
-Zur Disk. im NOC-Meeting. Bei weiteren Diskussionspunkten diese Zeile löschen und bitte die Diskussionsseite dieses Artikels nutzen. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 20:38, 27. Dez. 2019 (CET)
+: Zur Disk. im NOC-Meeting. Bei weiteren Diskussionspunkten diese Zeile löschen und bitte die Diskussionsseite dieses Artikels nutzen. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 20:38, 27. Dez. 2019 (CET)
 
 === Inventur Internetleitung ===
 
