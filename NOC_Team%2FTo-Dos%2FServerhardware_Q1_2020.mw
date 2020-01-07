@@ -21,4 +21,10 @@ Im Folgenden die Einzelpreise der Serverhardware:
 
 === EPYC-HV plus dedizierte Free-NAS ===
 
+{| class="wikitable" style="width:100%;"
+! Was !! Kosten !! Link
+|-
+| Gehäuse: Chenbro GEH 1U '''RM'''13304H01*14438 || 310,69 || [https://geizhals.de/?fs=Chenbro+RM13304H01&in= Geizhals]
+|}
+
 === EPYC-HV ohne dedizierten Storage ===
