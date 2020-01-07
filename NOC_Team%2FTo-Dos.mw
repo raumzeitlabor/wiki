@@ -22,9 +22,9 @@ Alle internen Dienste enden auf .rzl, was keine Domain ist, die uns gehört. Wä
 
 --[[Benutzer:Helix|Helix]] 14:35, 27. Dez. 2019 (CET)
 
-Ich habe vor einiger Zeit .rzl und .rzl.so gemerged, weil irgendwelche DNS-Resolver ständig auf die Idee kamen unseren internen DNS-Server zu ignorieren, was die .rzl gebrochen hat.
+: Ich habe vor einiger Zeit .rzl und .rzl.so gemerged, weil irgendwelche DNS-Resolver ständig auf die Idee kamen unseren internen DNS-Server zu ignorieren, was die .rzl gebrochen hat.
 
-Bitte kein Split-DNS. Das macht zusätzliche Komplexität und es ist gerade zu sehr im Trend den via DHCP vorgeschlagenen Resolver zu ignorieren (systemd-resolved „dieser DNS-Server riecht doof, ich nehme einen anderen“, Firefox DOH „wir lieben Cloudflare“, etc.). --[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 16:26, 6. Jan. 2020 (CET)
+: Bitte kein Split-DNS. Das macht zusätzliche Komplexität und es ist gerade zu sehr im Trend den via DHCP vorgeschlagenen Resolver zu ignorieren (systemd-resolved „dieser DNS-Server riecht doof, ich nehme einen anderen“, Firefox DOH „wir lieben Cloudflare“, etc.). --[[Benutzer:Ranlvor|Ranlvor]] ([[Benutzer Diskussion:Ranlvor|Diskussion]]) 16:26, 6. Jan. 2020 (CET)
 
 === SSL-Zertifikate ===
 Für nur intern verfügbare Dienste wäre auch ein SSL-Zertifikat sinnvoll.
