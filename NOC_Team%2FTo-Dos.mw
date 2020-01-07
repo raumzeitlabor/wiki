@@ -16,7 +16,7 @@ Und noch ein wichtiger Punkt: Entscheid Serverhardware, Anbringung des Kostenpun
 == Netzwerk ==
 
 === DNS rzl.so ===
-Alle internen Dienste enden auf .rzl, was keine Domain ist, die uns gehört. Wäre cool, wenn das stattdessen .rzl.so wäre.
+Alle internen Dienste enden auf .rzl, was keine Domain ist, die uns gehört. Möglichkeit: Belassen mit ungültigem FQDN oder mergen in rzl.so unter Berücksichtigung der Security-Through-Obscurity-Prinzipien.
 
 → Split-DNS? --> Verschoben auf [[Diskussion:NOC_Team/To-Dos|Diskussionsseite]], dafür ist sie da.
 
