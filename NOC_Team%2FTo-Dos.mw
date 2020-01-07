@@ -152,7 +152,7 @@ Zukunft: Redundanz? Idee: KVM over 2 Nodes mit GlusterFS.
 Erneuerung unumgänglich, RAM-Erweiterung ist nur Lebenserhaltungsmaßnahme bei einer designierten Leiche.
 
 Optionen:
-# Eigenkonfiguration auf Basis eines Supermicro-Boards und einer AMD-Epyc-CPU. Konfiguration hier: [https://git.raumzeitlabor.org/NOC/server-hardware/ Hardware Konfiguration] [[Benutzer:Lordeis|Lordeis]] ([[Benutzer Diskussion:Lordeis|Diskussion]]) 18:10, 29. Dez. 2019 (CET)
+# Eigenkonfiguration auf Basis eines Supermicro-Boards und einer AMD-Epyc-CPU. Konfiguration hier: [https://git.raumzeitlabor.org/NOC/server-hardware/ Hardware Konfiguration] [[Benutzer:Lordeis|Lordeis]] ([[Benutzer Diskussion:Lordeis|Diskussion]]) 18:10, 29. Dez. 2019 (CET) --> Preis: 1848,39€
 # [https://www.thomas-krenn.com/de/produkte/einsatzzweck/software-defined-storage/storage-spaces-direct/s2d-micro-cluster/s2d-micro-cluster-advanced.html Thomas-Krenn-Storage-Cluster]: 240GB SSD OS, 3TB Nested Mirror, SuperMicro, 32GiB DDR4 ECC, max. 185W/Server, 13.100 Euro für zwei Server
 # [[Benutzer:Kite|Kite]] kann eventuell einen PowerEdge R510 startklarmachen. Er gibt noch bescheid, Basis-Specsheet [https://www.dell.com/downloads/global/products/pedge/R510_Spec_Sheet.pdf hier].
 
