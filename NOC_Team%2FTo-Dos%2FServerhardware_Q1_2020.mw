@@ -22,9 +22,20 @@ Im Folgenden die Einzelpreise der Serverhardware:
 === EPYC-HV plus dedizierte Free-NAS ===
 
 {| class="wikitable" style="width:100%;"
-! Was !! Kosten !! Link
+|+Hypervisor
+! Was !! Kosten !! Menge !! Gesamt !! Link
 |-
-| Gehäuse: Chenbro GEH 1U '''RM'''13304H01*14438 || 310,69 || [https://geizhals.de/?fs=Chenbro+RM13304H01&in= Geizhals]
+| Gehäuse: Chenbro GEH 1U '''RM'''13304H01*14438 || 310,69 || 1 || 310,69 || [https://geizhals.de/?fs=Chenbro+RM13304H01&in= Geizhals]
+|-
+| MB: Supermicro H11DSI-NT || 633,69 || 1 || 633,69 || [https://geizhals.de/?fs=SUPERMICRO+H11DSI-NT+&in= Geizhals]
+|-
+| CPU: AMD EPYC 7281 || 566,18 || 1 || 566,18 || [https://geizhals.de/?fs=AMD+EPYC+7281&in= Geizhals]
+|-
+| RAM: Kingston DIMM KSM24RD4/32MEI || 159,31 || 1 || 159,31 || [https://geizhals.de/?fs=KSM24RD4%2F32MEI&in= Geizhals]
+|-
+| Netzteil: im Gehäuse verbaut || - || 0 || - ||
+|-
+| SSD: Intenso Top SSD 128GB || 18,35 || 2 || 36,70 || [https://geizhals.de/?fs=Intenso+3812430&in= Geizhals]
 |}
 
 === EPYC-HV ohne dedizierten Storage ===
