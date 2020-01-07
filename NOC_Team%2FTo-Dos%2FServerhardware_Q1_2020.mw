@@ -66,3 +66,29 @@ Im Folgenden die Einzelpreise der Serverhardware:
 |}
 
 === EPYC-HV ohne dedizierten Storage ===
+
+{| class="wikitable" style="width:100%;"
+|+Hypervisor in Storage Case
+! Was !! Kosten !! Menge !! Gesamt !! Link
+|-
+| Gehäuse: InterTech 2U-2412 Storage Case || 293,81 || 1 || 293,81 || [https://geizhals.de/?fs=IPC-2HU-2412&in= Geizhals]
+|-
+| CPU: AMD EPYC 7281 || 566,18 || 1 || 566,18 || [https://geizhals.de/?fs=AMD+EPYC+7281&in= Geizhals]
+|-
+| MB: SuperMicro H11SSL-i-B || 364,66 || 1 || 364,66 || [https://geizhals.de/?fs=MBD-H11SSL-I-O&in= Geizhals]
+|-
+| HDD: Seagate Ironwolf 4 TiB || 107,49 || 6 || 644,94 || [https://geizhals.de/?fs=MBD-H11SSL-I-O&in= Geizhals]
+|-
+| OS-SSD: Intenso Top SSD 128GB || 18,35 || 2 || 36,70 || [https://geizhals.de/?fs=Intenso+3812430&in= Geizhals]
+|-
+| RAM: Kingston DIMM KSM24RD4/32MEI || 159,31 || 2 || 318,62 || [https://geizhals.de/?fs=KSM24RD4%2F32MEI&in= Geizhals]
+|-
+| Netzwerk: 10Gtek 10GbE X520-DA2 || 205,99 || 1 || 205,99 || [https://www.amazon.de/X520-DA1-Controller-10Gb-Ethernet-Netzwerkadapter-Warranty-Maintenance/dp/B01DCZCA3O Amazon]
+|-
+| Kühler: Dynatron A26 || 35,80 || 1 || 35,80 || [https://geizhals.de/?fs=dynatron+a2646&in= Geizhals]
+|-
+| Netzteil: ASPower R2A-DV0800-N || 408,36 || 1 || 408,36 || [https://geizhals.de/?fs=ASPOWER+R2A-DV0800-N&in= Geizhals]
+|-
+! scope="row" | Gesamt
+| colspan="2"| || colspan="2" | 2875.06
+|}
