@@ -102,7 +102,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.8 || ikea-gw || IKEA TRÅDFRI Gateway
 |-----
-| 172.22.36.9 || cashpoint || RZL Cashpoint
+| 172.22.36.9 || <span style="text-decoration:line-through;">cashpoint</span> || <span style="text-decoration:line-through;">RZL Cashpoint</span>
 |-----
 | 172.22.36.10 || ''reserved'' || Reserviert für Infrastruktur
 |-----
@@ -110,15 +110,15 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.12 || [[cookiemonster]] || Cookiemonster (Backup-Server)
 |-----
-| 172.22.36.13 || beamer || Beamer
+| 172.22.36.13 || [[Beamer|beamer]] || [[Beamer]]
 |-----
 | 172.22.36.14 || fritzbox || Fritzbox (ISDN<->SIP Ersatz)
 |-----
-| 172.22.36.15 || pinpad-main || [[Pinpad]] Haupttür
+| 172.22.36.15 || <span style="text-decoration:line-through;">pinpad-main</span> || <span style="text-decoration:line-through;">[[Pinpad]] Haupttür</span>
 |-----
 | 172.22.36.'''16 - 108''' || ''reserved'' || Derzeit ungenutzt
 |-----
-| 172.22.36.109 || r929 || [[Benutzer:nicoduck|nicoduck]]
+| 172.22.36.109 || <span style="text-decoration:line-through;">r929</span> || <span style="text-decoration:line-through;">[[Benutzer:nicoduck|nicoduck]]</span>
 |-----
 | 172.22.36.110 || ultimaker || [[Ultimaker#Octoprint|Ultimaker]]
 |-----
@@ -128,9 +128,9 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.113 || ''reserved'' || Reserviert für Infrastruktur
 |-----
-| 172.22.36.114 || cashdesk || Cashpoint Backend Server
+| 172.22.36.114 || [[Fnordcredit|cashdesk]] || [[Fnordcredit|Cashpoint Backend Server]]
 |-----
-| 172.22.36.115 || helios || [[Benutzer:Docsteel|docsteel]]
+| 172.22.36.115 || <span style="text-decoration:line-through;">helios</span> || <span style="text-decoration:line-through;">[[Benutzer:Docsteel|docsteel]]</span>
 |-----
 | 172.22.36.116 || analogsprech || CISCO SPA112 Adapter für [[Raumtelefon]]
 |-----
