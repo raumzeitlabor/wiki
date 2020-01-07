@@ -203,6 +203,10 @@ Rebootfest gibt an, ob die Dienste innerhalb der VM nach einem Reboot der VM von
 | 256 MB
 | 20 GB
 |-
+| [[Mate (Server)/ranlvor.vm.rzl]]
+| 256 MB
+| 10 GB
+|-
 | [[Mate (Server)/s1lvester.vm.rzl]]
 | 256 MB
 | 20 GB
@@ -212,11 +216,11 @@ Rebootfest gibt an, ob die Dienste innerhalb der VM nach einem Reboot der VM von
 | 20 GB
 |-
 | '''Gesamt'''
-| '''9310 MB / 12001 MB (77.58% belegt)'''
-| '''2.9 TB / 5.3 TB (55.93% belegt)'''
+| '''9566 MB / 12001 MB (79.71% belegt)'''
+| '''3 TB / 5.3 TB (56.11% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2019-12-18 00:00:02
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2020-01-08 00:00:02
 
 == Unterseiten ==
 <splist />
