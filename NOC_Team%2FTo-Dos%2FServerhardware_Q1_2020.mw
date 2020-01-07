@@ -11,7 +11,7 @@
 
 <nowiki>*</nowiki> Bei RAID1. Wünschenswert wäre RAID5 oder RAID6, das liefert immer noch genug Speicher für alles, was wir haben.
 
-Das sind jetzt mal zwei Extreme: bei Einem müsste fast alles ausgetauscht werden, der andere wäre das jahrelange Rundumsorglospaket und doch 'ne Ecke zu teuer. Tendenz: gescheite Neuhardware und modulare Bauweise. Storage auf Extrabox mit genug IOPS, HV mit viel RAM und CPU-Bums und sonst nix, dazwischen 4 oder 10GBit. Storage sollte redundant sein, also RAID 1+. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 20:39, 28. Dez. 2019 (CET)
+Wir haben hier ein Extrem, das Flaggschiff für an sich zuviel Kohle. Die beiden anderen Systeme sind einmal modular (modular ist besser administrier-, debug- und austauschbar) und einmal günstiger. Gebruachthardware ist kostentechnisch schnell bei Amortisierung+X im Falle eines Hardwareausfalls.
 
 == Kostenaufstellungen ==
 
