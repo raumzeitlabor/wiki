@@ -53,4 +53,15 @@ Der Switch-Stack im Hauptraum besteht aus einem 28-Port Cisco SG 500-28 sowie ei
 | 2/1/24 || allow 2342 || [[EdgeSwitch_PoE_24|Switch Nebenraum]]
 |}
 
+== User anlegen ==
+<code>
+username <username> password encrypted <hash> privilege 15
+
+crypto key pubkey-chain ssh                  
+
+user-key <username> rsa
+
+key-string <ssh-key>
+
+</code>
 [[Kategorie:Hardware]]
