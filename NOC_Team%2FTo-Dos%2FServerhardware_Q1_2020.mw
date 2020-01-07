@@ -13,10 +13,12 @@
 
 Das sind jetzt mal zwei Extreme: bei Einem müsste fast alles ausgetauscht werden, der andere wäre das jahrelange Rundumsorglospaket und doch 'ne Ecke zu teuer. Tendenz: gescheite Neuhardware und modulare Bauweise. Storage auf Extrabox mit genug IOPS, HV mit viel RAM und CPU-Bums und sonst nix, dazwischen 4 oder 10GBit. Storage sollte redundant sein, also RAID 1+. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 20:39, 28. Dez. 2019 (CET)
 
-== SvS24 R720XD ==
+== Kostenaufstellungen ==
 
-(SvS24 = Servershop24)
+Im Folgenden die Einzelpreise der Serverhardware:
 
-Kostenaufschlüsselung:
-# Server: 799,99 ([https://www.servershop24.de/server/dell/poweredge-r-serie/dell-poweredge-r720xd-server-2x-xeon-e5-2680-8-core-2-70-ghz-16-gb-ddr3-ram-2x-300-gb-sas-10k/a-120674/ Link])
-# Diverse Hardware: [https://www.serverschmiede.com/de/dell-25-sff-hotswap-hdd-caddy-tray-festplatten-rahmen-0g176j-0kg7nr-0g281d-0wx387 HDD-Caddies]
+=== S2D ===
+
+=== EPYC-HV plus dedizierte Free-NAS ===
+
+=== EPYC-HV ohne dedizierten Storage ===
