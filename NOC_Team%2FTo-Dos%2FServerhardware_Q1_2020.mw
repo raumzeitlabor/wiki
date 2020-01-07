@@ -38,7 +38,7 @@ Im Folgenden die Einzelpreise der Serverhardware:
 | SSD: Intenso Top SSD 128GB || 18,35 || 2 || 36,70 || [https://geizhals.de/?fs=Intenso+3812430&in= Geizhals]
 |-
 ! scope="row" | Gesamt
-| || || colspan="2" | 1706,57
+| colspan="2"| || colspan="2" | 1706,57
 |}
 
 {| class="wikitable" style="width:100%;"
@@ -62,7 +62,7 @@ Im Folgenden die Einzelpreise der Serverhardware:
 | Netzteil: ASPower R2A-DV0800-N || 408,36 || 1 || 408,36 || [https://geizhals.de/?fs=ASPOWER+R2A-DV0800-N&in= Geizhals]
 |-
 ! scope="row" | Gesamt
-| || || colspan="2" | 2561,94
+| colspan="2"| || colspan="2" | 2561,94
 |}
 
 === EPYC-HV ohne dedizierten Storage ===
