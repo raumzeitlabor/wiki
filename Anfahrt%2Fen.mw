@@ -18,7 +18,14 @@ At http://raumzeitlabor.de/kontakt/anfahrt you will find an [http://raumzeitlabo
 [http://www.bcrumbz.com BreadCrumbz] is an Android application that can navigate you along a route. The corrrect route for pedestrians (starting at Boveristrasse) is available [http://t.zekjur.net/RaumZeitLabor_Fussweg.bcz here].
 
 == Public transportation ==
-Timetables are available on the [http://fahrplanauskunft.vrn.de/vrn/XSLT_TRIP_REQUEST2?language=en info page of the VRN]] (the regional provider of public-transportation) ([http://fahrplanauskunft.vrn.de/vrn_mobile/XSLT_DM_REQUEST?language=en mobile-version for Cellphone/PDA]) or in the timetables put up in the bus/tram/train stations for the stop '''Haltestelle Boveristraße'''. They are available on all stops for these lines:
+Timetables are available on the [https://www.vrn.de/mng/#/XSLT_TRIP_REQUEST2@init info page of the VRN]] (the regional provider of public-transportation) ([http://fahrplanauskunft.vrn.de/vrn_mobile/XSLT_DM_REQUEST?language=en mobile-version for Cellphone/PDA]) or in the timetables put up in the bus/tram/train stations for the stop '''Haltestelle Boveristraße'''. 
+
+There are 3 Stops in our vincinity:
+* Boveristraße (Tram 5 and 5a and 15)
+* Jugendverkehrsschule (Tram 4 and 4 a)
+* Bus stop in Boveristraße (some Busses, maybe Linie 59)
+
+
 
 *Tram RNV line 4
 ** Direction Bad Dürkheim
@@ -31,6 +38,11 @@ Timetables are available on the [http://fahrplanauskunft.vrn.de/vrn/XSLT_TRIP_RE
 ** Direction Luzenberg
 
 == Going by car ==
+
+=== Car journey for dummies ===
+
+# Drive to the main gate and try to open it via phone (number not provided here for obvious reasons)
+# If the phone access does not work, drive to the pin-gate and enter there. [https://drive.google.com/open?id=1QS7bXHz_LXnNYSlwc_RwrN8CqX4Drypv&usp=sharing Instruction to egt there]
 
 === Aproach from the southeast (Neustädter Straße) ===
 A video description of the route is available [http://vimeo.com/channels/raumzeitlabor#11007895 on Vimeo]
@@ -113,7 +125,7 @@ File:anfahrt_bov12.jpg
 
 ==== Gate closed? ====
 * Hello! What if the gate next to the Alstom gate 8 is closed? I work in the Alstom-Area and i often notice that the gate is shut.
-** Either call '''+49 621 / 762 31 370''' ([[Raumtelefon]]) ([http://raumzeitlabor.de/kontakt contact])  inquire per [[IRC]] or own a [[Zugang|Key]].
+** Either call '''+49 621 / 762 31 370''' ([[Raumtelefon]]) ([http://raumzeitlabor.de/kontakt contact]) or inquire per [[IRC]]
 
 == See also ==
 *[[Zugang]]
