@@ -1,6 +1,6 @@
 wipe & defrag ist passiert.
 
-Plenum beginnt um 14:42
+Plenum beginnt um 14:42. Zu diesem Zeitpunkt befinden sich 21 Personen im Raum.
 
 == Vorstellungsrunde ==
 
@@ -11,14 +11,14 @@ Weil neue Mitglieder vorhanden sind.
 2. Vorstand
 
 === TabascoEye ===
-Jongliert mit Zahlen
-Kassenwart
-Spielt mit Lasern
-Elektronikspaßzeug und Papierkram sind Leidenschaften
+* Jongliert mit Zahlen
+* Kassenwart
+* Spielt mit Lasern
+* Elektronikspaßzeug und Papierkram sind Leidenschaften
 
 === Badcoded ===
-* Netzwerk Operation Center
-* Relativ neues Mitglied, Buddy von Lordeis
+* [[NOC Team|Netzwerk Operation Center]]
+* Relativ neues Mitglied, Buddy von [[Benutzer:Lordeis|Lordeis]]
 * Kommt von der falschen Seite des Rheins
 * Hat seine Seele verkauft und muss deswegen schwarze Musik hören
 
@@ -28,33 +28,36 @@ ist Elektriker und macht sonst nicht viel
 
 === Helix ===
 
-Geht gerne Leuten mit Plenumsanträgen auf den Sack.
-
-(Zwischenrufe: "Wenigstens ist er self aware!")
-
-(Lachen)
+* Geht gerne Leuten mit Plenumsanträgen auf den Sack.
+** (Zwischenrufe: "Wenigstens ist er self aware!") (Lachen)
+* Kümmert sich aktuell um den [[Olymp]]
 
 === Airwave ===
-
-29 Kfz Meister
-Werkstatt, Olymp, ist mit f0x1 am Organisieren des RZL-Haushalts, Hilfsbereit
+* 29 Jahre alt
+* Kfz-Meisterin
+* Themen:
+** [[Werkstatt]]
+** [[Olymp]]
+** ist mit f0x1 am Organisieren des RZL-Haushalts
+* Hilfsbereit bei allem, freut sich wenn sie angesprochen wird
 
 === Bfritz0815 ===
-Softwareentwicklung Frontend, entspannt gerne, weaboo
+* Softwareentwicklung (Frontend)
+* entspannt im RZL gerne
+* Macht Weaboo-Dinge (z.B. [[Season Kickoff Frenzy]])
 
 === Fitz ===
-Sticken
+* mag gerne Sticken
 
 === Marco ===
 * Student
-* Tastaturen
+* mag gerne Tastaturen
 
 === devcoffee ===
-jüngstes Mitglied im RZL
-
-(Pädophiles Klatschen)
-
-Hängt gerne in der E Ecke und macht kleine Elektronik
+* jüngstes Mitglied im RZL
+** (Pädophiles Klatschen)
+* hängt gerne in der E-Ecke ab
+* macht kleine Elektronik
 
 === Bardonius ===
 * Kommt aus KA und wurde von feindlichen Spionen gesendet
@@ -66,281 +69,243 @@ Hängt gerne in der E Ecke und macht kleine Elektronik
 * Wirft was in die Kasse
 
 === Slowpoke ===
-residente Nörgelzecke
+* residente Nörgelzecke
+* bastelt gerade ein Arcade-Kabinett
 
 === Pitchbent ===
-Geht auch Leuten auf den Geist, aber mit Synth
+* Geht auch Leuten auf den Geist, aber mit Synthesizer
 
 === Andreas ===
-* Ca ein Jahr da
+* ca. ein Jahr da
 * Softwareentwickler
 * Macht perverse Dinge mit Stickmaschine
 * Hauptberuflicher Troll
 
-(Echo bemerkt dass Leute nerven allgemeines Hobby ist)
+(Echo bemerkt, dass "Leute nerven" allgemeines Hobby von RaumZeitLaborierenden ist)
 
-== Report des NOC ==
+== Realitätsabgleich ==
 
-NOC: Ein paar Dinge sind in einem gewissen Zustand, eine Person war dafür zu wenig. Sind noch mit Fingerspitzengefühl am Überblickverschaffen.
+=== NOC ===
 
-Bitte in den Raum: Wenn ihr irgendwas tut, was hier rum steht, dokumentiert es im Wiki.
+* Ein paar Dinge sind in einem gewissen Zustand
+** eine Person war dafür zu wenig.
+* Sind noch mit Fingerspitzengefühl am Überblickverschaffen.
+* Bitte in den Raum: '''Wenn ihr irgendwas tut, was hier rum steht, dokumentiert es im Wiki.'''
 
 (Lordeis betritt den Raum)
 
-Fluktuation an Applikationen und Betriebssystemen
-
-RAM ist alle –> Hardware Prio 1, damit Netzwerklabore spontan hochgezogen werden können.
-
-2 Möglichkeiten: neue Hardware 2k-3k€ (minimalistisch), devcoffee würde 2HE spenden
+* Fluktuation an Applikationen und Betriebssystemen kann aktuell nicht mehr gestemmt werden
+* RAM ist alle
+** Hardware Prio 1, damit Netzwerklabore spontan hochgezogen werden können.
+* neue Hardware kostet 2k-3k€ (minimalistisch), devcoffee hat 2HE Server gespendet
 
 (verhaltener, gezwungen wirkender Applaus)
 
-Todos: Dinge auf den aktuellsten Stand bringen
+* Todos: Dinge auf den aktuellsten Stand bringen
+* Mailserver hat ein paar digest-Mails gefiltert, was behoben wurde.
+* '''NOC soll bei Problemen mit Infrastruktur direkt angesprochen werden!'''
+* badcoded weist auf [[NOC_Team/To-Dos|sehr sehr lange ToDo-Liste des NOCs]] hin.
 
-Mailserver hat ein paar digest-Mails gefiltert, was behoben wurde. NOC soll bei Problemen mit Infrastruktur direkt angesprochen werden!
+=== Vortragsaufzeichnungssystem ===
 
-badcoded weist auf sehr sehr lange ToDo-Liste des NOCs hin.
+* Soll möglichst einfach werden, damit mit einem Klick eine Aufzeichnung gestartet werden kann und die Leute dann wieder mehr Vorträge gemacht werden.
+* Separater Rahmen für Interessierte mit mehr Inhalt soll geschaffen werden
+** Überlegungen sind im Gange, aber noch nicht präsentierfähig.
 
-== Vortragsaufzeichnungssystem ==
+=== 36C3 ===
 
-Soll möglichst einfach werden, damit mit einem Klick eine Aufzeichnung gestartet werden kann und die Leute dann wieder mehr Vorträge gemacht werden.
+==== Vor Ort ====
+* kleiner Laser war da (jannik, urvogel, pitchbent)
+** Gravur von Dingen hat semi-optimal geklappt, weil vom Congress verschluckt
+* wifi-cable hat gebaschtelt
+* Kids waren auch da und hatten "auf jeden Fall einen Hammer-Spaß"
 
-Separater Rahmen für Interessierte mit mehr Inhalt soll geschaffen werden – läuft, ist aber noch nicht präsentierfähig.
+==== Congress Everywhere ====
+* Hat stattgefunden
+* Es waren Leute da
 
-== 36C3 ==
+=== Olymp ===
+* Halterungen für LEDs von Ingo designt
+* Helix und Airwave haben Stromkasten aufgehängt
+* Spike hat Abdeckungen besorgt und es wird bald Strom vorhanden sein.
 
-=== Vor Ort ===
-kleiner Laser war da (jannik, urvogel, pitchbent) – Gravur von Dingen hat semi-optimal geklappt, weil vom Congress verschluckt
+=== Holzwerkstatt ===
+* Letztes Wochenende samstags krass aufgeräumt.
+* Alte Werkstatt ist jetzt leer.
 
-wifi-cable hat gebaschtelt
+=== Herrenlose Dinge ===
 
-Kids waren auch da und hatten "auf jeden Fall einen Hammer-Spaß"
+* Werden fotografiert und auf die Mailingliste gestellt.
+* Giveaway-Kiste ist "rammelvoll" und Mitglieder sind angehalten, sich großzügig davon zu bedienen.
+* Vorschlag: antizyklisch Dinge daraus für das Schrottwichteln Ende 2020 entnehmen.
 
-=== Congress Everywhere ===
-Hat stattgefunden
+=== Arcade-Maschine ===
 
-== Olymp ==
-Halterungen für LEDs von Ingo designt, Helix und Airwave haben Stromkasten aufgehängt, Spike hat Abdeckungen besorgt und es wird bald Strom vorhanden sein.
-
-== Holzwerkstatt ==
-
-Letztes Wochenende samstags krass aufgeräumt.
-
-== Herrenlose Dinge ==
-
-Werden fotografiert und auf die Mailingliste gestellt.
-
-Giveaway-Kiste ist "rammelvoll" und Mitglieder sind angehalten, sich großzügig davon zu bedienen.
-
-Vorschlag: antizyklisch Dinge daraus für das Schrottwichteln Ende 2020 entnehmen.
-
-== Arcade-Maschine ==
-
-Slowpoke sagt: Steht in der Werkstatt, fast benutzbar.
+* Slowpoke sagt: Steht in der Werkstatt, fast benutzbar.
 
 (Leute klopfen)
 
-Kommt vermutlich auf den Olymp
+* Kommt vermutlich auf den Olymp
+* Slowpoke wird gezwungen, Fotos zu machen.
 
-Slowpoke wird gezwungen, Fotos zu machen.
+=== "Was mich geärgert hat" ===
 
-== "Was mich geärgert hat" ==
+(Zwischenrufe mit ironischem Unterton: "das RZL ist scheiße!")
 
-Das RZL ist scheiße
-
-=== Das Tor geht nicht ===
+==== Das Tor geht nicht ====
 
 * "bis auf weiteres" nicht
 ** Die übliche Kommunikationsform vom Vermieter.
 * Vorstand realisiert die Grenzen seiner Macht
+* Hinweis auf Umgehung des Tors: REDACTED
+* Frage: Wie fahren die Entropianer am Besten?
+** Antwort: außenrum! Siehe [[Anfahrt]]
+* Feststellung: Es ist sehr schwer für neue Leute herzukommen; Dokumentation suboptimal bzw nicht sehr Newbie-freundlich
 
-Hinweis auf Umgehung des Tors: REDACTED
+==== Telefone nonfunktional ====
 
-Frage: Wie fahren die Entropianer am Besten? -> außenrum!
+* Raumhandy was in der E-Ecke liegt
+** Simkarten werden ausprobiert
+** Slowpoke und devcoffee schreiten heldenhaft von dannen und ~~suchen~~ finden das Raumhandy!
+* "Telekom zusammenscheißen, was die Scheiße eigentlich soll"
+** der Telekom ist das eigentlich scheißegal.
+* Ist vielleicht ein technisches Problem.
+* Konsens ist, dass wir keine armen Telekom-Hotline-Mitarbeiter traumatisieren wollen.
+* Lordeis murmelt etwas von Asterisk und Dokumentation -> NOC ist dran.
+* Telekom-Router entscheidet sich hin und wieder, SIP-Pakete wegzuwerfen.
+** Selbes Problem im Entropia.
+** Entropia ist auch zu blöd, das zu lösen.
 
-Es ist sehr schwer für neue Leute herzukommen; Dokumentation suboptimal bzw nicht sehr Newbie-freundlich
+==== Internetz ====
 
-=== Telefone nonfunktional ===
+* Ordentliches Internet zu bekommen, wurde oft versucht und nie geschafft.
+* Diskussion darüber außerhalb des Plenums.
 
-Raumhandy was in der E-Ecke liegt - Simkarten werden ausprobiert
+==== Olfaktorische Missstände ====
 
-Slowpoke und devcoffee schreiten heldenhaft von dannen und ~~suchen~~ finden das Raumhandy!
-
-Telekom zusammenscheißen, was die Scheiße eigentlich soll, aber der Telekom ist das eigentlich scheißegal.
-
-Ist vielleicht ein technisches Problem. Konsens ist, dass wir keine armen Telekom-Hotline-Mitarbeiter traumatisieren wollen.
-
-Lordeis murmelt etwas von Asterisk und Dokumentation -> NOC ist dran.
-
-Telekom-Router entscheidet sich hin und wieder, SIP-Pakete wegzuwerfen. Selbes Problem im Entropia.
-
-=== Internetz ===
-
-Ordentliches Internet zu bekommen, wurde oft versucht und nie geschafft. Diskussion darüber außerhalb des Plenums.
-
-=== Olfaktorische Missstände ===
-
-Nach dem Essen stinkt es. Fettige Sachen stehen lange rum. TabascoEye freut sich, dass Helix seine Klamotten wenigstens 1x/Woche waschen muss.
-
-Manchmal werden Dinge einfach vergessen. Vielleicht ein Hinweis auf der ML?
-
-DaFo kümmere sich im Frühjahr um die Abluft, steht schon in der Werkstatt. Die Abluftanlage macht aber auch keine Pfannen sauber. (verhaltenes Lachen)
-
-DaFo würde erst anfangen wollen, wenn Olymp fertig ist. -> der ganze Scheiß sollte dann mal fertig werden!
-
-Es wird nackt gekocht, damit die olfaktorische Belastung der Jacken minimiert wird.
+* Nach dem Essen stinkt es. Fettige Sachen stehen lange rum.
+** TabascoEye freut sich, dass Helix seine Klamotten wenigstens 1x/Woche waschen muss.
+* Manchmal werden Dinge einfach vergessen. Vielleicht ein Hinweis auf der ML?
+* DaFo kümmere sich im Frühjahr um die Abluft, steht schon in der Werkstatt. Die Abluftanlage macht aber auch keine Pfannen sauber. ''(verhaltenes Lachen)''
+* DaFo würde erst anfangen wollen, wenn Olymp fertig ist.
+** der ganze Scheiß Olymp sollte dann mal fertig werden!
+* Es wird nackt gekocht, damit die olfaktorische Belastung der Jacken minimiert wird.
 
 === Freude ===
 
-Freude und Beifall für die Wiederauferstehung des Plenums.
-
-Freude über neue Leute, die frische Luft von der Außenwelt mitgebracht haben.
-
-Freude über Einkaufsliste, die am Eckbalken der Küche hängt und die Annahme derselben.
-
-Freude über das neue Küchenteam ("Kitchen Operation Center", kurz: KOC)
+* Freude und Beifall für die Wiederauferstehung des regelmäßigen Plenums.
+* Freude über neue Leute, die frische Luft von der Außenwelt mitgebracht haben.
+* Freude über Einkaufsliste, die am Eckbalken der Küche hängt und die Annahme derselben.
+* Freude über das neue Küchenteam ("Kitchen Operation Center", kurz: KOC)
 
 (kindisches Lachen von nie erwachsen Gewordenen)
 
-AGs tun Dinge, engagiert euch.
+* '''AGs tun Dinge, engagiert euch.'''
 
 === Dokumentation ===
 
-echo_mirage ist nicht sicher, ob die Plenumswikistruktur noch sinnvoll ist.
-
-Wiki wird gefräst. Das heißt: Alter Krams wird gefälligst gelöscht. Wir haben Backups (glauben wir).
-
+* echo_mirage ist nicht sicher, ob die Plenumswikistruktur noch sinnvoll ist.
+* Wiki wird gefräst.
+** Das heißt: Alter Krams wird gefälligst gelöscht. Wir haben Backups (glauben wir).
+** Siehe auch: [[AG Doku]], [[TODO]], [[Hack the Wiki 2.0]]
 
 === Oszilloskop ===
+* Digitales Speicheroszilloskop ist aus der E-Ecke weg.
+* Kassenwart ist in Kauflaune.
+* Bis zum nächsten Plenum soll recherchiert werden.
 
-Digitales Speicheroszilloskop ist aus der E-Ecke weg. -> nächstes Plenum.
+=== Meta: Plenum ===
 
-Kassenwart ist in Kauflaune.
+* ungefährer Rhythmus: 2. Sonntag im Monat?
+* vorher war es der 1. Sonntag, lol
 
-
-=== Plenum ===
-
-ungefährer Rhythmus: 2. Sonntag im Monat? (vorher war es der 1. Sonntag, lol)
-
-14 dafür, 2 Enthaltungen, 1 dagegen
-
+'''Abstimmung:''' 14 dafür, 1 dagegen, 2 Enthaltungen.
 
 == letztes Plenum ==
 
 === Stuhlsituation ===
-
-Keine Änderung. Der Plan wurde noch nicht in die Tat umgesetzt.
+* Keine Änderung. Der Plan wurde noch nicht in die Tat umgesetzt.
 
 === Heizlüfter ===
-
-cool, ne - heiß
+* cool, nee – heiß
 
 === Kartendrucker ===
-
-Bestellt, kommt.
+* Bestellt, kommt.
 
 
 == Anschaffungen ==
 
 === UAP AC HD ===
 
-ca. 300€
+Kosten: ca. 300€
 
-Abstimmung:
-
-Dafür: 16
-
-Enthaltung: 1
-
-Dagegen: 0
+Abstimmung: 16 dafür, 0 dagegen, 1 Enthaltung.
 
 === Patchpanel ===
 
-ca. 50€
+Kosten: ca. 50€
 
-Dafür: 19
-
-Enthaltung: 1
-
-Dagegen: 0
-
+Abstimmung: 19 dafür, 0 dagegen, 1 Enthaltung.
 
 === Switch ===
 
-2 Switche: 550€
+Budget für 2 Switche: 550€
 
-Dafür: 16
-
-Enthaltungen: 4
-
-Dagegen: 0
-
+Abstimmung: 16 dafür, 0 dagegen, 4 Enthaltungen.
 
 === Neuer Server ===
 
-2-3k€, extra dafür organisierter Server wird getestet und Beschluss auf nächstes Plenum verschoben.
+Kosten: 2-3k€
 
+* extra dafür organisierter Server wird getestet und Beschluss auf nächstes Plenum verschoben.
 : Zur Verdeutlichung (postplenal): Die Hardware komplett neu zu beschaffen, würde diesen Betrag vorneweg erfordern. Der mit verhaltenem Applaus beerntete 2-HE-Rechenknecht würde uns das Geld für den Bumms ersparen und man bräuchte dann nur ein wenig Storage. Also wird das 2-HE-Blech nun in Augenschein genommen. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 16:37, 20. Jan. 2020 (CET)
+
 
 == Sonstiges ==
 
 === Github, Gitlab -> self-hosted ===
 
-Runterziehen -> Backup -> Self-hosted Gitlab
-
-Dinge die noch existieren löschen wir nicht.
-
-Frage nach dem Sinn des Umzugs.
-
-Microsoft hat Github übernommen.
-
-Deportationsbehörde der USA liegt mit Github im Bett.
-
-Externer Provider limitiert Hosting eventuell langfristig.
-
-Intern weil es dann "bei uns" liegt.
+* Runterziehen -> Backup -> Self-hosted Gitlab
+* Dinge die noch existieren löschen wir nicht.
+* Frage nach dem Sinn des Umzugs.
+* Nachteile von Github:
+** Microsoft hat Github übernommen.
+** Deportationsbehörde der USA liegt mit Github im Bett.
+** Externer Provider limitiert Hosting eventuell langfristig.
+** Intern weil es dann "bei uns" liegt.
+** hat nicht flächendeckend IPv6. Wir aber auch nicht. ''(Lautes Lachen)''
+* Gitlab (selfhosted) ist auf jeden Fall die präferierte Lösung, weil dann keine große böse Firma dahinter steht.
 
 Die Infrastruktur dafür ist noch nicht vorhanden und self-hosting ist laut NOC noch nicht tragbar.
 
 Zwei Anwendungsfälle:
-Github-Repo: Homepage (Travis)
-Gitlab (selfhosted): Stick-Repositories (nichtöffentlich), Mitgliederverwaltung (N.Ö.)
+* Github-Repo: Homepage (Travis)
+* Gitlab (selfhosted): Stick-Repositories (nichtöffentlich), Mitgliederverwaltung (N.Ö.)
 
-Gitlab (selfhosted) ist auf jeden Fall die präferierte Lösung, weil dann keine große böse Firma dahinter steht.
-
-Github hat nicht flächendeckend IPv6.
-
-Wir aber auch nicht.
-
-(Lachen)
+→ Umzug verschoben, bis NOC die Infrastruktur aufgeräumt hat.
 
 === Bewusstsein hinsichtlich Lebensmittelmarken ===
 
-Nestle ist böse.
+* Nestle ist böse.
+* Gegenargument: Wenn du darauf achtest NICHTS mehr von riesigen Firmen zu kaufen, kannst du gar nichts mehr essen.
+* Bevor wir irgendwas abschaffen und die Snackbar leer ist, sollten uns Alternativen bekannt sein.
+* Großteil der Mitglieder soll zufriedengestellt werden, evtl. vegane Alternativen zu finden.
+** Nicht jeder kann zufrieden gestellt werden.
+** Feststellung: Eierlegende Wollmilchsäue sind wohl nicht vegan.
 
-Gegenargument: Wenn du darauf achtest NICHTS mehr von riesigen Firmen zu kaufen, kannst du gar nichts mehr essen.
+→ Verschoben auf das nächste Plenum, wenn Alternativen gefunden sind.
 
-Bevor wir irgendwas abschaffen und die Snackbar leer ist, sollten uns Alternativen bekannt sein.
+Jemand™ (f0x1, airwave) soll die Snackbar durchgehen, welche Hersteller vorhanden sind und beim nächsten Plenum eine Liste mit Alternativen vorlegen.
 
-Verschoben auf das nächste Plenum, wenn Alternativen gefunden sind.
-
-Großteil der Mitglieder soll zufriedengestellt werden, evtl. vegane Alternativen zu finden.
-
-Nicht jeder kann zufrieden gestellt werden.
-
-Eierlegende Wollmilchsäue sind wohl nicht egal.
-
-Jemand™ (f0x1, airwave) könnte die Snackbar durchgehen, welche Hersteller vorhanden sind und beim nächsten Plenum eine Liste mit Alternativen vorlegen.
-
-Testkäufe sind möglich
-
-Bedenken bezüglich der Kosten
+* Testkäufe sind möglich
+* Bedenken bezüglich der Kosten
+** Einwand: Alternativen eventuell sogar billiger.
 
 == Weltherrschaft ==
 
 Da simmer dabei.
 
-Plenum schließt 16:05 Uhr
+Plenum schließt 16:05 Uhr.
 
 [[Kategorie:Plenum]]
 [[Kategorie:Protokoll]]
