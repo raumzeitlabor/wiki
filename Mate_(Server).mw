@@ -94,8 +94,8 @@ Rebootfest gibt an, ob die Dienste innerhalb der VM nach einem Reboot der VM von
 |
 |-
 | [[Mate (Server)/infra.rzl]]
-| ja
-| verliert beim Host-Reboot vermutlich das USB-Device zu den [[Funksteckdosen]]
+| nein
+| verliert beim Host-Reboot vermutlich das USB-Device zu den [[Funksteckdosen]]. verliert beim Reboot sein IOT-Device
 | Nein
 | 
 |-
