@@ -1,0 +1,46 @@
+== Volume Mapper ==
+=== ZFS ===
+==== Pro ====
+* Kann Snapshots (as in Performant, auch mehrere pro Device, erspaart uns cp cashdesk cashdesk-pre-experimentelle-änderung15)
+* Checksums
+* Option: zfs send für Backups
+
+==== Contra ====
+* Nicht im Tree
+* Verbraucht „Experimental-Punkte“
+
+=== LVM ===
+==== Pro ====
+* Simpel
+* Abgehangen
+
+==== Contra ====
+* Snapshots sind echt nicht geil
+
+=== ext4 und Ordner mit Images ===
+==== zu Evaluieren ====
+* Was geht da mit Snapshots? Stichwort qcow2-Files
+
+==== Contra ====
+* Fühlt sich falsch an
+
+== RAID ==
+=== ZFS ===
+==== Pro ====
+* Bei Bedarf: Performance-Verbesserung via SSD mit Write intent Log und L2ARC
+
+==== Contra ====
+* müssten HBA besorgen
+
+=== dm-raid / mdadm ===
+==== Pro ====
+* Simpel
+* Abgehangen
+
+=== Hardware-RAID-Controller ===
+==== Pro ====
+* Performance
+
+==== Contra ====
+* schlechte Doku
+* wenn der ausfällt sind die Daten pfutsch
