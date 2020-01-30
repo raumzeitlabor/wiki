@@ -167,6 +167,12 @@ Keine Nummer für den HV alleine, aber hier passt's am Ehesten rein: es gibt VMs
 
 Wir sollten einen Standard hinsichtlich Partitionen, Basissoftware etc. verabschieden. Aufbauend auf dem trivial gehaltenen Status Quo. • <small><strong>[[User:0xb4dc0d3d|<span style="color: #0072ce;">&nbsp;0xb4dc0d3d&nbsp;</span>]]</strong>[[Benutzer Diskussion:0xb4dc0d3d| <sup style="font-weight: bold; color: #ef2b2d;">wtf?</sup>]]</small> • 18:20, 29. Dez. 2019 (CET)
 
+=== DNS ===
+
+Konzept:
+# IP, DNS und Reverse DNS für den angedachten Hostnamen asap registrieren, die MACs dürften sich auch nicht ändern
+# CNAME-Record für den neuen Host (volt?), name: cybervisor.rzl[.so]
+
 == Services ==
 
 === Mailserver ===
