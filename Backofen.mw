@@ -3,23 +3,18 @@
 |status        = working
 |image         = 
 |manufacturer  = IKEA
-|model         = RAFFINERAD
+|model         = OV R00 SA
 |description   = 
 |documentation = 
 |owner         = 
 |username      = 
 |financing     = 
-|location      = [[Küche]]
+|location      = Küche
 }}
-
-Der Backofen ist von IKEA. Nummer 003.009.18 / OVR00SA
-
-[https://www.libble.de/ikea-raffinerad/p/583384/ Anleitung] / [[:File:Explosionszeichnung_IKEA_RAFFINERAD.pdf|Explosionszeichnung]]
-
 == Howto Backen ==
-# Linker Drehknopf: Modus auswählen (Temperatur blinkt jetzt)
-# Rechter Drehknopf: Temperatur auswählen, mit schwarzem, mittleren Knopf bestätigen (Zeit blinkt jetzt)
-# (optional) Rechter Drehknopf: Backzeit auswählen, mit mittleren Knopf bestätigen
+# Linker Dreh-Knopf: Modus auswählen (Temperatur blinkt jetzt)
+# Rechter Dreh-Knopf: Temperatur auswählen, mit schwarzem, mittleren Knopf bestätigen (Zeit blinkt jetzt)
+# (optional) Rechter Dreh-Knopf: Backzeit auswählen, mit mittleren Knopf bestätigen
 # mit mittleren Knopf nochmal bestätigen
 
 * Ofen heizt jetzt vor (Text: PRE im Display)
@@ -27,8 +22,7 @@ Der Backofen ist von IKEA. Nummer 003.009.18 / OVR00SA
 * wenn Ofen 3x piepst: Backzeit abgeschlossen
 
 == Howto Ausschalten ==
-* Linken Drehknopf auf 12 Uhr drehen
+# Linker Dreh-Knopf auf 12 Uhr drehen
+
 * Display zeigt HOT und Resttemperatur an
 * Display wechelt nach Abkühlen auf Uhr
-
-[[Kategorie:Küche]]
