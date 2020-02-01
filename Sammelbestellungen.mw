@@ -1,32 +1,13 @@
-== Aktuelle Sammelbestellungen ==
-
-* [[Sammelbestellungen/CSD-Electronics|CSD-Electronics]]
-* [[Sammelbestellungen/Digikey|Digikey]]
-* [[Sammelbestellungen/Electrodragon|Electrodragon.com]]
-* [[Sammelbestellungen/Facedancer|Facedancer]]
-* [[Sammelbestellungen/Folien|Folien]] - Folie zum Kleben und für die [[Shirtpresse]]
-* [[Sammelbestellungen/HBE|HBE (Farnell für Endkunden)]]
-* [[Sammelbestellungen/Modulor|Modulor]]
-* [[Sammelbestellungen/Mouser|Mouser]]
-* [[Sammelbestellungen/Musikding|Musikding]]
-* [[Sammelbestellungen/Plexiglas-Shop|Plexiglas-Shop]]
-* [[Sammelbestellungen/Pollin|Pollin]]
-* [[Sammelbestellungen/Reichelt/aktuell|Reichelt]]
-* [[Sammelbestellungen/Silkes_Naehshop|Silkes Nähshop]]
-* [[Sammelbestellungen/Textilgrosshandel|Textilgrosshandel]]
-* [[Sammelbestellungen/TME|TME]]
-* [[Sammelbestellungen/Watterott|Watterott]]
-* [[Sammelbestellungen/RS-Online|RS-Online]]
+== Warum Sammelbestellungen? ==
+* man spart Versandkosten
+* man schont die Umwelt
 
 == Wie funktioniert's? ==
+Es gibt seit Kurzem im Gitlab des RaumZeitLabors ein [https://git.raumzeitlabor.org/rzl/order Repository mit Sammelbestellungen].
 
-Wenn du bei einem Versender bestellen möchtest, und bisher noch niemand eine Seite dafür angelegt hat: Lege eine Seite an. Schreibe darauf, wann du ungefähr bestellen wirst.
+Falls du etwas bei einem Versender bestellen willst, der schon eine offene Sammelbestellung hat, kommentiere die Issue bitte dort.
 
-Wenn du bei jemandem mitbestellen möchtest, nutze die existierenden Seiten. Trage deine Artikel so einfach wie möglich ein. Bei einer Reichelt-Bestellung kannst du einen Warenkorb einfach über myReichelt als CSV exportieren und den Text auf die Wikiseite eintragen, das macht es dem Besteller einfacher. Achte darauf, daß dein Nick bekannt ist, oder der Besteller könnte deine Bestellung ignorieren. Notfalls persönlich beim Besteller vorstellen.
-
-== Bisherige Bestellungen nach Lieferant ==
-
-[[:Kategorie:Sammelbestellungen/Reichelt]]
+Erstelle dort eine Issue, falls noch keine Sammelbestellung angelegt wurde. Schreibe hinein, wann du ungefähr bestellen willst.
 
 [[Category:Shopping]]
 [[Category:Organisation]]
