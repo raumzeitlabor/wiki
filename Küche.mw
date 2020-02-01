@@ -1,1 +1,121 @@
-#REDIRECT [[Kategorie:Küche]]
+{{ProjektInfoBox
+|name        = Küche
+|status      = stable
+|image       = Kuechesauber.jpg
+|description = Ein Ort an dem sich Nerd von Welt kulinarisch austoben kann.
+|category    = Infrastruktur
+|author      = 
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|license     = 
+|download    = 
+}}
+
+Zum Bezahlen in der Küche, bitte das [[Guthabensystem]] verwenden.
+
+==Neue Schrankbeschriftung==
+Die alten Etiketten der Küchenbeschriftung waren teils nicht lesbar. Die  Vorlagendatei [[Datei:Etiketten.tar.gz]] wurde für einen Brother P-Touch 2700 erstellt, Etikettenbreite 24mm und wird mit einer CSV-Datei gefüttert, in der die zu druckenden Texte stehen. Benötigt wird zusätzlich noch unsere [http://omkrets.se/typografi Hausschrift Miso]. Zur Zeit gibt es folgende Labels: [[Datei:Kueche Etiketten.csv]] [[Datei:Preisetiketten.tar]]
+
+Zusätzlich gibt es noch Preisschildetiketten (Preis in Euro und Kreuze) für unsere Süßwarenauslage. Diese kann man auf neu gekaufte Packungen aufkleben. Frische Etiketten befinden sich in kleinen Tütchen, rechte Schublade, unter der Kasse. Sollten diese Etiketten zur Neige gehen: Kontaktiere [[Benutzer:Cheatha|Cheatha]], er wird sich um Nachschub kümmern!
+Für den neuen Kühlschrank gibts mittlerweile auch ein wunderhübsches [[:File:rzl_getränkeliste.tar.gz]], und das sogar auf englisch [[:File:rzl_beverage_list.tar.gz]].
+
+Die Etiketten tragen auch einen QR-Code, einfach weils geht und man die Position des Textanfangs schneller erfassen kann, Stichwort Aufzählungspunkte. Inhalt ist einfach nur der Text selbst. 
+
+Idee: Wenn jemand die Ettiketten neu macht, wäre eine Beschriftung in Deutsch und Englisch evtl. sinnvoll, damit sich auch Gäste aus dem nicht-deutschsprachigen Raum hier zurecht-/wohlfühlen können. Just saying...  --[[Benutzer:Bfritz0815|Bfritz0815]] ([[Benutzer Diskussion:Bfritz0815|Diskussion]]) 22:55, 14. Aug. 2012 (CEST)
+
+[[image:IMG_0340.JPG|thumb|300px]]
+[[image:IMG_0341.JPG|thumb|400px]] <br>
+
+==ASCII-Art==
+Eine Skizze der geplanten Küche mit 40cm Platz bei '''L''' für Lichtschalter, Schlüsselkasten, etc.
+
+               <----ca 300cm Arbeitsplatte--->
+         <------------------418cm------------------->
+ ^ ^     +-----x--------------------------x-----+LLLL ^
+ | |     |     x18|     |   Spül-   |     x     |     |
+ | |     |     xcm|  S  |   becken  |  W  x  H  |     60cm
+ | |     |-----x--------------------------x-----+     v
+ | |     |18cm | ^
+ | |     |-----| |
+ | |     | B B | |
+ | 260cm | B B | |
+ | Platte|-----| |
+ | |     |     | |
+ | |     |     | |
+ 390cm   |-----| |
+ | |     | MW /| |
+ | |     |  K  | |
+ | v     xxxxxxx 330cm
+ |       |     | |
+ |       |  G  | |
+ |       |-----| |
+ |       |     | |
+ |       |  H  | |
+ v       +-----+ v
+         <-60cm>
+
+
+  linke Wand (steht an der Trennwand in den Raum hinein):
+  <------------------390cm---------------------->
+   60cm   60cm   60cm   60cm   60cm   50cm  
+  +------+------+------+------+------+-----+
+  |      |      |Mikrow| Ober |Dunst |Ober |
+  |      |      |------+------+------+-----+
+  | Hoch |Kühl/ |
+  |      |Gefr. |<-----ca. 260cm Arbeitsplatte ->
+  |      |      +------+------+------+---+------+
+  |      |      | Kühl |Schub | Herd |lu |gegen |
+  |      |      |      |      |      |ft | Wand |
+  +------+------+------+------+------+---+------+
+   60cm   60cm   60cm   60cm   60cm  30cm  60cm
+  
+  
+  rechte Wand (an der tatsächlichen Wand):
+  <------------------418cm------------------------>
+  ca60cm          ca198cm       60cm   60cm  40cm    
+                               +------+------+----+
+                 Regal         | Ober |      |    |
+  +----------------------------+------+      |Li  |
+                                      | Hoch |cht |
+  <-----ca. 300cm Arbeitsplatte ----->|      |scha|
+  +--------+------+------------+------+      |lter|
+  |  frei  | Spül | Spülbecken | WaMa |      |    |
+  |gegen W.|  Ma  |            |      |      |    |
+  +--------+------+------------+------+------+----+
+     78cm    60cm     120cm      60cm   60cm  40cm
+
+==Legende==
+#Hoch: Hochschrank
+#Kühl/Gerf: [[Kühlschrank|Kühl / Gefrierschrank]]
+#Mikrow: Mikrowelle
+#Kühl: kleiner Kühlschrank
+#Ober: Oberschrank
+#Schub: Schubladenschrank
+#Dunst: Dunstabzugshaube
+#Herd: Herd & Backofen
+#luft: bleibt leer
+#gegen Wand: hier treffen die beiden Küchenzeilen aufeinander, dieser Raum bleibt leer
+#SpülMa: [[Spülmaschine]]
+#WaMa: [[Waschmaschine]]
+#LichtSchalter: Platz für Lichtschalter, Schlüsselkasten, etc
+#[[Backofen|'''B'''ackofen]] mit Kochfeld
+#'''G'''efrierkombi (hoch)
+#'''H'''ochschrank
+#'''K'''ühlschrank (niedrig)
+#'''S'''pülmaschine
+#'''W'''aschmaschine
+
+==Details==
+*Tiefe der Arbeitsplatten: 60cm
+*Breite der Küchenmodule: 60cm
+*Abschluss jeweils mit Hochschrank/Gefrierkombi
+
+Eine Front mit der noch aufzubauenden Stellwand ist 3.78m (bedingt durch die Plattform mit der Breite von sechs OSB-Platten a 63cm) und die Andere max. 4.18cm lang.
+
+== Siehe auch ==
+*[[Roadmap]]
+*[[Einkaufsliste]]
+
+[[Kategorie:RaumZeitLabor]]
