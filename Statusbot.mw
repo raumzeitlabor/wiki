@@ -23,7 +23,7 @@ Im Raum #raumzeitlabor (hackint) kann der Status via ''!!raum'' abgefragt werden
 Mit !stream wird der aktuell über den MPD abgespielte Musiktitel angezeigt.
 
 === Mobile Webapp ===
-http://status.raumzeitlabor.de/mobile.php (iPhone optimiert)
+http://status.raumzeitlabor.de/mobile.php (iPhone optimiert) (broken...)
 
 ===Web 2.0 Zeugs===
 Der Status wird auch auf [http://identi.ca/RaumZeitStatus Identi.ca] und auf [http://twitter.com/raumzeitstatus Twitter] veröffentlicht. Der Account lautet bei beiden Netzwerken RaumZeitStatus
