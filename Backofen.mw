@@ -1,15 +1,15 @@
 {{GeraetInfoBox
 |name          = Backofen
-|status        = 
+|status        = working
 |image         = 
-|manufacturer  = 
-|model         = 
+|manufacturer  = IKEA
+|model         = OV R00 SA
 |description   = 
 |documentation = 
 |owner         = 
 |username      = 
 |financing     = 
-|location      = 
+|location      = Küche
 }}
 == Howto Backen ==
 # Linker Dreh-Knopf: Modus auswählen (Temperatur blinkt jetzt)
