@@ -9,37 +9,25 @@ Im Raumzeitlabor gibt es eine Kiste für Fundsachen. Diese befindet sich auf dem
 #* Einem Mitglied/Gast zugeordnet und in die betreffende Kiste/Schublade gelegt und eine '''Mitteilung''' an den/die betreffende Person wird verschickt
 #* Niemandem zugeordnet und
 #** als wertlos erkannt. Solcherlei Zeug wird weggeschmissen
-#** als sehr wertvoll/persönlich erkannt. Dann verbleibt es in der Kiste. 
+#** als sehr wertvoll/persönlich erkannt. Dann verbleibt es in der Kiste.
 #** als mässig wertvoll aber nicht persönlich erkannt. Dann gilt es vorerst (bis Einspruch) als anonyme Vereinsspende
+# [https://git.raumzeitlabor.org/rzl/lost-found-giveaway/issues/new Eine Issue im Repository lost-found-giveaway] mit dem Label "found" wird erstellt.
 # Eine Mail wird auf die ML geschrieben, in welcher mitgeteilt wird:
 ## Dass die Kiste geleert wurde
-## Was noch in der Kiste ist (möglichst mit photographischer Dokumentation)
+## Dass sich neue Dinge im [https://git.raumzeitlabor.org/rzl/lost-found-giveaway/issues/new Repository lost-found-giveaway] befinden
 # Die nun möglichst leere Kiste wird an ihren Standort zurückgestellt
-
 
 ''Ihr solltet in eurem eigenen Interesse immer mal wieder in die '''Lost and Found''' Kiste schauen, bevor die Kiste im [[Wipe & Defrag]] geleert wird.''
 
 = Verlorenes =
 
 == Verfahren ==
-Postet hier einfach eine Unter-Überschrift im folgenden Abschnitt "Verlustmeldungen". 
-Macht dazu bitte folgende Angaben:
+[https://git.raumzeitlabor.org/rzl/lost-found-giveaway/issues/new Erstelle eine Issue im Repository lost-found-giveaway] mit dem Label "lost".
 
-# Item-Name
-# Besitzer
-# Beschreibung
-# (falls mgl.) Abbbildung (google hilft...)
-# (falls mgl.) letzter Aufenthaltsort
-# Posted by (dein Zeichen hier)
+Mache dazu bitte folgende Angaben:
 
-== Verlustmeldungen == 
-
-=== Sigma Telezoom-Objektiv für Canon ===
-
-# Sigma Telezoom-Objektiv für Canon
-# [[Benutzer:Steeph]]
-# ein Objektiv für Kameras
-# Posted by --[[Benutzer:Bfritz0815|Bfritz0815]] ([[Benutzer Diskussion:Bfritz0815|Diskussion]]) 21:11, 22. Okt. 2015 (CEST)
-
-[[Category:Procedures]]
-[[Kategorie:Organisation]]
+* Name der Sache
+* Besitzer (falls nicht du)
+* Beschreibung, was die Sache ist
+* (falls mgl.) Abbbildung (google hilft...)
+* (falls mgl.) letzter Aufenthaltsort
