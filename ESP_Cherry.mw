@@ -22,6 +22,8 @@ Ein kleines Projekt zum Thema „wie kriege ich 4 Tasten an die Heimautomatisier
 * Deko: Manuelle Umschaltung für die normalerweise Sonnenuntergangsgesteuerte Dekobeleuchtung. Nützlich im Winter, wenn alles öde und grau aussieht und man auch Tagsüber mehr bunt haben möchte
 
 == MQTT-Interface ==
+Redet mit [[Hausbus3]]
+
 //Todo
 
 == Konfiguration ==
