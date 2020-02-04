@@ -377,7 +377,7 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 | 0
 | 
 | application/json
-| [[Ultimaker]]
+| [[Ultimak3r]]
 | [[Mate (Server)/ranlvor.vm.rzl|ranlvor.vm.rzl]]
 | Siehe [http://ultimaker.rzl/docs/api/#!/PrintJob/get_print_job]
 | [[Benutzer:Ranlvor|Ranlvor]]
@@ -388,7 +388,7 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 | 0
 | 
 | application/json
-| [[Ultimaker]]
+| [[Ultimak3r]]
 | [[Mate (Server)/ranlvor.vm.rzl|ranlvor.vm.rzl]]
 | Siehe [http://ultimaker.rzl/docs/api/#!/Printer/get_printer]
 | [[Benutzer:Ranlvor|Ranlvor]]
@@ -399,7 +399,7 @@ Im Mai 2014 haben wir begonnen, die ersten Services mit unserem Broker [[Mate (S
 | 0
 | 
 | Plain Text
-| [[Ultimaker]]
+| [[Ultimak3r]]
 | [[Mate (Server)/ranlvor.vm.rzl|ranlvor.vm.rzl]]
 | printing, pausing, paused, resuming, pre_print, post_print, wait_cleanup, booting, idle, error, maintenance or unreachable
 | [[Benutzer:Ranlvor|Ranlvor]]
