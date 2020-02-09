@@ -1,14 +1,14 @@
 {{ProjektInfoBox
 |name        = Cyberalarm
-|status      = 
+|status      = l
 |image       = 
-|description = 
+|description = Ein großer gelber Button
 |category    = Infrastruktur
 |author      = 
 |maintainer  = 
 |owner       = 
 |username    = 
-|location    = 
+|location    = Hauptraum?
 |version     = 
 |update      = 
 |platform    = 
@@ -18,3 +18,8 @@
 |bausatz     = 
 |preis       = 
 }}
+
+Ein großer gelber Button mit der Aufschrift "Cyberalarm". Der Button besteht aus einem Grobhandtaster, einem ESP8266 und einer zerlegten Powerbank.
+Das ganze spricht über MQTT mit dem [[Hausbus3]].
+
+Der Button liegt normalerweise im Hauptraum auf einem der Tische. Aktuell scheint der Button verschwunden zu sein. Wenn ihn jemand findet, bitte wieder im Hauptraum platzieren.
