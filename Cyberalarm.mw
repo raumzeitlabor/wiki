@@ -19,7 +19,7 @@
 |preis       = 
 }}
 
-Ein großer gelber Button mit der Aufschrift "Cyberalarm". Der Button besteht aus einem Grobhandtaster, einem ESP8266 und einer zerlegten Powerbank.
+Ein großer gelber Button mit der Aufschrift "Cyber". Der Button besteht aus einem Grobhandtaster, einem ESP8266 und einer zerlegten Powerbank.
 Das ganze spricht über MQTT mit dem [[Hausbus3]].
 
 Der Button liegt normalerweise im Hauptraum auf einem der Tische. Aktuell scheint der Button verschwunden zu sein. Wenn ihn jemand findet, bitte wieder im Hauptraum platzieren.
