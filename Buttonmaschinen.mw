@@ -1,13 +1,16 @@
 {{GeraetInfoBox
-|name        = Buttonmaschinen
-|status      = beta
-|image       = IMG_3989.resized.JPG
-|description = Selbstgemachte Buttons! (Mindestpreis: 1€ pro Button)
-|author      = [[Benutzer:tiefpunkt|tiefpunkt]]
-|location    = 
-|owner       = Verein
-|username    = 
-|financing   = 
+|name          = Buttonmaschinen
+|status        = beta
+|image         = IMG_3989.resized.JPG
+|manufacturer  = Badgematic
+|model         = Buttonmaschine Typ 900
+|description   = Selbstgemachte Buttons! (Mindestpreis: 1€ pro Button)
+|documentation = 
+|author        = [[Benutzer:tiefpunkt|tiefpunkt]]
+|location      = 
+|owner         = Verein
+|username      = 
+|financing     = 
 }}
 Das RaumZeitLabor besitzt zwei Buttonmaschinen. Es handelt sich um eine Badgematic Typ 900, für 25mm Buttons sowie ein Modell für 59mm Buttons.
 
