@@ -126,7 +126,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.111 || heizung || [[Heizungssteuerung]]
 |-----
-| 172.22.36.112 || ''reserved'' || Reserviert für Infrastruktur
+| 172.22.36.112 || oszi || Rigol MSO5074
 |-----
 | 172.22.36.113 || ''reserved'' || Reserviert für Infrastruktur
 |-----
