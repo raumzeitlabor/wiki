@@ -155,7 +155,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |-
 |0x0F<br>[[Benutzer:Helix|Laborant: Helix]]
 |0x1F<br>'''LED-Streifen, RGB-LEDs, WS2812 und Zubehör'''
-|0x2F<br>Druckerzubehör (ausgenommen Labeldrucker) / Laminiergerät
+|0x2F<br>Druckerzubehör (ausgenommen Labeldrucker) / [[Laminiergerät]]
 |0x3F<br>Infrastruktur / Festplatten
 |0x4F<br>[[Benutzer:Mxf|Laborant: mxf]]
 |0x5F<br>[[Benutzer:Unicorn|Laborant: Unicorn]]
@@ -215,7 +215,7 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 |0x96<br>Bausätze BS0006
 |0xA6<br>Bausätze BS0010
 |-
-|0x77<br>Magnetkartenleser/-schreiber
+|0x77<br>[[Plastikkarten#Magnetstreifen|Magnetkartenleser/-schreiber]]
 |0x68<br>Bausätze BS0003
 |0x97<br>Bausätze BS0007
 |0xA7<br>[[Benutzer:echox|Laborant: echox]]
