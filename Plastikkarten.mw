@@ -9,7 +9,7 @@ Wir haben einige Geräte, die dazu benutzt werden können, um weiße Plastikkart
 |model         = Plus DUO
 |description   = kann TRW-Thermostreifen beschreiben und Karten doppelseitig beschreiben (Duplex)
 |documentation = 
-|location      = 
+|location      = [[Hochregal]]
 |owner         = 
 |username      = 
 |financing     = 
@@ -33,7 +33,7 @@ Ansprechpartner: Unicorn, rami. [u.a. TabascoEye hat Treiber und Software auch i
 |model         = 
 |description   = kann Text in eine Karte einprägen (wie bei Kreditkarten)
 |documentation = 
-|location      = 
+|location      = [[Hochregal]]
 |owner         = 
 |username      = 
 |financing     = 
@@ -50,7 +50,7 @@ Mit dem Embosser kann man wie bei Kreditkarten Text in eine Karte einprägen. Be
 |model         = MSR605
 |description   = kann Magnetstreifen lesen und schreiben
 |documentation = [http://www.carddevicestore.com/files/msr605_cd.rar Offizielle Windows-Software]<br/>[https://github.com/raphaelm/msrtool Linux-Software] von [[Benutzer:Rami|rami]]
-|location      = 
+|location      = Tardis-Schublade 0x77 „Magnetkarten“
 |owner         = 
 |username      = 
 |financing     = 
