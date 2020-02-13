@@ -4,7 +4,7 @@ Wir haben einige Geräte, die dazu benutzt werden können, um weiße Plastikkart
 {{GeraetInfoBox
 |name          = Kartendrucker
 |status        = working
-|image         = 
+|image         = Kartendrucker.jpg
 |manufacturer  = [http://www.authentys.de/ Authentys]
 |model         = Plus DUO
 |description   = kann TRW-Thermostreifen beschreiben und Karten doppelseitig beschreiben (Duplex)
@@ -45,7 +45,7 @@ Mit dem Embosser kann man wie bei Kreditkarten Text in eine Karte einprägen. Be
 {{GeraetInfoBox
 |name          = Magnetkartenleser/-schreiber
 |status        = 
-|image         = 
+|image         = Magnetstreifengerät.jpg
 |manufacturer  = 
 |model         = MSR605
 |description   = kann Magnetstreifen lesen und schreiben
