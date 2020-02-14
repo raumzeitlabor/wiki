@@ -22,8 +22,12 @@ Zum Beamer liegt eine HDMI-Verbindung. Wir haben allerlei Gerät, das über dies
 == Tipps für Profis ==
 * Die Fernbedienung liegt in der Schublade des Rednerpults. Bitte sorgt dafür, dass diese Aussage IMMER stimmt.
 * Fertig mit Film gucken oder Vortrag halten? Beamer ausschalten nicht vergessen!
+* Wenn der Beamer kein Bild macht: HDMI-Extender neustarten. Dazu:
+** HDMI-Extender beim Rednerpult: Strom raus, warten, Strom rein
+** HDMI-Extender beim Beamer: Sicherung F26 (Beamerplattform) ausschalten, warten, einschalten
+** 2x HDMI-Extender beim Onkyo: Sonoff unterdem Onkyo-Regal ausschalten, warten, einschalten
 
-=== Auflösung ===
+== Auflösung ==
 Der Beamer beherrscht Full-HD, dh 1920x1080, und vermutlich alle sinnvollen 
 Auflösungen daruner. Bei der Verwendung von 720p, dh. 1280x720 ist die HDMI-Verbindung stabiler,
 weswegen die geringere Auflösung zur Erhöhung der Zuverlässigkeit nützlich ist.
