@@ -106,7 +106,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.9 || <span style="text-decoration:line-through;">cashpoint</span> || <span style="text-decoration:line-through;">RZL Cashpoint</span>
 |-----
-| 172.22.36.10 || ''reserved'' || Reserviert für Infrastruktur
+| 172.22.36.10 || [[Volt]] || (neuer) VM-Host
 |-----
 | 172.22.36.11 || [[raspbmc]] || RPi mit Raspbmc
 |-----
