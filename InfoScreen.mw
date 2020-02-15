@@ -1,17 +1,17 @@
 {{ProjektInfoBox
 |name        = InfoScreen
-|status      = beta
+|status      = stable
 |image       = Infoscreen01.jpg
 |description = Aktuelle Information über das RaumZeitLabor
 |category    = Infrastruktur
-|author      = [[Benutzer:Tiefpunkt|tiefpunkt]], [[Benutzer:Blabber|blabber]], [[Benutzer:Silsha|silsha]]
+|author      = [[Benutzer:Blabber|blabber]], [[Benutzer:Silsha|silsha]]
 |username    = 
-|version     = v0.4
+|version     = v6
 |update      = 
 |platform    = 
 |preis       = 
 |license     = 
-|download    = https://github.com/raumzeitlabor/infoscreen
+|download    = https://github.com/raumzeitlabor/infoscreen-v6
 }}
 
 == Beschreibung ==
@@ -26,37 +26,6 @@ Der InfoScreen steht auf dem Kühlschrank und zeigt einige interessante Informat
 * Fahrplan der Bahnhaltestelle Boveristraße
 * Twitterwall
 * Bilder aus [http://log.raumzeitlabor.de log.raumzeitlabor.de]
-
-== Technik ==
-
-{{Metakasten|kopf_param=Legacy|haupt_param=Dieser Abschnitt ist nicht mehr aktuell. Raspbian & Chromium werden nicht mehr enutzt und auch der Infoscreen selbst ist ein anderer.}}
-
-Auf einem Raspberry Pi läuft ein Raspbian, dass beim Hochfahren einen Chromium im Kioskmodus öffnet und auf http://cosm.tiefpunkt.com/infoscreen/ navigiert. Da läuft der Infoscreen, eine Mischung aus PHP, HTML und JS, die aus Daten von Cosm, der VRN und Twitter eine kleine Seite produziert, die alle 30 Sekunden aktualisiert wird.
-
-== Installation ==
-{{Metakasten|kopf_param=Legacy|haupt_param=Dieser Abschnitt ist nicht mehr aktuell.}}
-
-Wir nehmen das neueste Raspbian-Installationsimage und starten unseren Pi. Beim ersten Start erscheint die raspi-config, bei der wir folgendes aktivieren:
-
-# '''Expand Filesystem''': ja
-# '''Change User Password''': ja, sollte man unbedingt ändern!
-# '''Enable Boot to Desktop''': wähle ''Desktop Log in as user 'pi' at the graphical desktop'' aus
-# '''Internationalisation Options''':
-## '''Change Locale''': Wir selektieren ''de_DE.UTF-8 UTF-8''
-## '''Change Timezone''': Eure Zeitzone, vermutlich ''Europe/Berlin''
-## '''Change Keyboard Layout''': Wenn du deine Tastatur nicht findest, dann solltest du mal "Generic 105-key (Intl) PC" bzw ''Generische PC-Tastatur mit 105 Tasten'' auswählen. Anschließend das passende Tastaturlayout.
-# '''Enable Camera''': Nicht notwendig
-# '''Add to Rastrack''': Kann man machen, wenn man möchte
-# '''Overclock''': Nicht notwendig
-# '''Advanced Options''': Nicht notwendig
-
-Dann wählen wir '''Finish''' aus und starten den RasPi neu.
-
-Solltet ihr später nochmals diese Konfiguration durchlaufen wollen, so könnt ihr sie über die Konsole mit 
-  sudo raspi-config
-starten
-
-Nach dem Neustart sollte der Raspberry den Desktop anzeigen. Alle weiteren Schritte werden wir über die Konsole erledigen, sodass wir Maus und Tastatur abziehen können.
 
 == Konfiguration ==
 === Korrekte Auflösung einstellen ===
