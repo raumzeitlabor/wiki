@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = Ping
 |status      = stable
-|image       = 
+|image       = Rundumleuchte.jpg
 |description = !ping-Interface für das IRC
 |category    = Infrastruktur
 |author      = [[Benutzer:SEC|sECuRE]], others? 
