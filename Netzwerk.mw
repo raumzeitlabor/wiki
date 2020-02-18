@@ -117,8 +117,13 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 | 172.22.36.14 || fritzbox || Fritzbox (ISDN<->SIP Ersatz)
 |-----
 | 172.22.36.15 || <span style="text-decoration:line-through;">pinpad-main</span> || <span style="text-decoration:line-through;">[[Pinpad]] Haupttür</span>
+
 |-----
 | 172.22.36.'''16 - 108''' || ''reserved'' || Derzeit ungenutzt
+|-----
+| 172.22.36.100 || skalarwelle || MikroTik POE Switch
+|-----
+| 172.22.36.101 || chemtrail || MikroTik 24 Port Switch
 |-----
 | 172.22.36.109 || <span style="text-decoration:line-through;">r929</span> || <span style="text-decoration:line-through;">[[Benutzer:nicoduck|nicoduck]]</span>
 |-----
