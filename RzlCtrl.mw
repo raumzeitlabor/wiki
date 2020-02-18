@@ -25,12 +25,13 @@ Vorschläge, Kritik und Helfer sind gerne gesehen.
 == Aktueller Status ==
 Nachdem das das erste Layout suboptimal war ist mittlerweile ein neues erstellt worden.
 In dem Zuge wurden auch einige Dinge geändert (s.u.).
-Die Lieferung der Prints wird in den nächsten Tagen erwartet.
+Der erste Prototype wurde zusammengebaut und erfolgreich getestet.
+Ein weitere wird zwecks Software Entwicklung für den ESP hergestellt.
 
 
 == Eierlegende Wollmilchsau ==
 * Türsteuerung
-** Pinpad aussen mit RS485 nach innen
+** Pinpad außen mit RS485 nach innen
 ** Pin Prüfung / Motor Ansteuerung / Sensoren innen
 * Lichtsteuerung
 * "Zugangskontrolle" für Laser (Nein, es kommt nicht an jede Maschine so ein teil)
@@ -103,7 +104,8 @@ Für BOPLA Reglocard 2000 Optimiert
 
 === AVR ===
 Die Software für den AVR schreibt [[Benutzer:Spike|spike]]
-* Die Low-Level Treiber sind fertig
+* Die Low-Level Treiber sind fertig.
+* Fast alle Hi-Level Funktionen sind fertig.
 
 === ESP8266 ===
 Die Software schreibt [[Benutzer:Borax|borax]]
@@ -123,5 +125,16 @@ bisherige Überlegungen:
 === Kommunikation zwischen ESP und AVR ===
 Die Kommunikation läuft über Seriell direkt auf der Platine. Die Geschwindigkeit wurde erstmal auf 115200 BAUD festgelegt (kein tieferer Grund). Zeitlich ist das ganze nicht weiter kritisch.
 Auf der Platine ist eine Reset-Leitung vorgesehen mit der es dem AVR möglich ist, den ESP im Falle von Problemen zurückzusetzen (quasi wie ein Watchdog). Aus diesem Grund sollte der ESP regelmäßig Heartbeat Botschaften an den AVR senden. Am besten könnte man in diesen Botschaften ein paar Informationen an den AVR weitergeben, so wie WiFi status, MQTT Status usw. Das ist bisher aber noch nicht definiert.
+
+
+=== Für Neben3raum ===
+* DALI-TX
+* 3x EIN/AUS der Leuchtstoffröhren
+* 3x Taster
+* Status des Hauptschalter
+* Abschaltung des Hauptschalters
+
+
+
 
 [[Kategorie:Hardware]]
