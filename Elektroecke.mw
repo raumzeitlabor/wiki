@@ -16,6 +16,12 @@ Die Elektroecke bietet Platz für Schaltungsentwicklung, Lötarbeiten, Fehlersuc
 
 Die Elektroecke hat derzeit 3 Arbeitsplätze. Die Arbeitsplätze auf der rechten Seite sind primär für Löt- und Messarbeiten ausgelegt, der Arbeitsplatz auf der linken Seite primär nur für Lötarbeiten. Die Rollcontainer sind entsprechend bestückt.
 
+== Unterseiten ==
+[[Datei:Schublade.JPG|200px|thumb|[[Elektroecke/Zubehör|Messzubehör]]]]
+* [[Elektroecke/Geräte|Geräte]]
+* [[Elektroecke/Zubehör|Messzubehör]]
+* [[PartKeepr|PartKeepr (Bauteildatenbank)]]
+
 == Gerätenutzung ==
 
 Bei einigen Geräten ist vorher die Erlaubnis des/der Eigentümer einzuholen. Diese Geräte sind besonders beschriftet, bitte beachten!
@@ -30,17 +36,6 @@ Bitte räume nach der Nutzung die Geräte/Werkzeuge wieder an ihren Platz.
 
 Beim verlassen der Elektroecke die Arbeitsflächen und den Boden (ab)kehren bzw putzen.
 
-== Unterkategorien ==
-
-{| style="width:100%"
-|[[image:Oscilloscope.svg|200px|center|link=Elektroecke/Geräte]]
-|[[image:Schublade.JPG|200px|center|link=Elektroecke/Geräte/Zubehoer]]
-|[[image:Partdb2.jpg|200px|center|link=PartKeepr]]
-|-
-|style="text-align:center" | [[Elektroecke/Geräte | Geräte]]
-|style="text-align:center" | [[Elektroecke/Zubehör | Messzubehör]]
-|style="text-align:center" | [[PartKeepr | Bauteildatenbank]] <br> PartKeepr
-|}
 == Beteiligte/Danksagungen ==
 * AlexanderB
 * [[Benutzer:Dancingfo|DaFo]]
