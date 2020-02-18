@@ -1,3 +1,20 @@
+{{ProjektInfoBox
+|name        = 
+|status      = 
+|image       = 
+|description = 
+|category    = 
+|author      = 
+|maintainer  = 
+|owner       = 
+|username    = 
+|location    = 
+|hostname    = 
+|license     = 
+|download    = 
+|bausatz     = 
+|preis       = 
+}}
 Else hat zwei ARDAC Eagle (80x36-7) auf Ebay geschossen. Fabian ist ein krasser Checker und hat Stunden mit ins Debugging investiert. Respect, Brah!
 
 == Steckerbelegungen ==
@@ -30,5 +47,3 @@ Stellen den Grundzustand vom Akzeptor ein. Stimmen eventuell nicht mit den Angab
 == Ressourcen ==
 * [http://www.money-controls.de Hersteller- / Distributor-Webseite]
 * [https://raumzeitlabor.de/w/images/f/f0/Ardac_eagle.pdf Handbuch] vom 80X2500
-
-[[Kategorie:Hardware]]
