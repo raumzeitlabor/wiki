@@ -1,8 +1,9 @@
 {{ProjektInfoBox
-| description=Steckdosen in unserem Konferenztisch
-| category = Infrastruktur
-| status = stable
-| author=[[Benutzer:Hax404|hax404]], [[Benutzer:ThinkJD|thinkJD]], [[Benutzer:Tiefpunkt|tiefpunkt]]
+|status      = stable
+|image       = Tischsteckdose.jpg
+|description = Steckdosen in unserem Konferenztisch
+|category    = Infrastruktur
+|author      = [[Benutzer:Hax404|hax404]], [[Benutzer:ThinkJD|thinkJD]], [[Benutzer:Tiefpunkt|tiefpunkt]]
 }}
 
 Stand 2020: Es gibt Steckdosen mit Netzwerk und USB-Ladebuchsen an den Tischen.
