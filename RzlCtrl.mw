@@ -127,12 +127,34 @@ Die Kommunikation läuft über Seriell direkt auf der Platine. Die Geschwindigke
 Auf der Platine ist eine Reset-Leitung vorgesehen mit der es dem AVR möglich ist, den ESP im Falle von Problemen zurückzusetzen (quasi wie ein Watchdog). Aus diesem Grund sollte der ESP regelmäßig Heartbeat Botschaften an den AVR senden. Am besten könnte man in diesen Botschaften ein paar Informationen an den AVR weitergeben, so wie WiFi status, MQTT Status usw. Das ist bisher aber noch nicht definiert.
 
 
-=== Für Neben3raum ===
-* DALI-TX
-* 3x EIN/AUS der Leuchtstoffröhren
-* 3x Taster
-* Status des Hauptschalter
-* Abschaltung des Hauptschalters
+
+
+=== I/O Neben3raum ===
+* 1x (DALI-TX) Ansteuerung Vorschaltgeräte
+* 1x (out) Spannungsversorgung der Leuchtstoffröhren per Relais
+* 3x (in) Taster
+* 1x (in) Status des Hauptschalter
+* 1x (out) Abschaltung des Hauptschalters
+* 2x (Analog in) Licht Dimmen
+* 1x (out) Hauptraum Türstatus
+* 1x (s0 in) Stromverbrauch
+
+
+=== I/O Hauptraum ===
+* 1x (DALI-TX) Ansteuerung Vorschaltgeräte
+* 1x (s0 in) Stromverbrauch
+
+
+=== I/O Tür Hauptraum ===
+* 1x (in) Tür Geöffnet / Geschlossen
+* 1x (in) Riegel Endlage ZU
+* 1x (in) Riegel Endlage AUF
+* 1x (Motor) Türantrieb
+
+==== MQTT Topics ====
+* "/etc/motd"
+* ....
+
 
 
 
