@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = rzlCtrl
 |status      = experimental
-|image       = RaumZeitLabor - Logo - Schwarz.svg
+|image       = RZLCtrl 5.1 Side.jpg
 |description = I/O Hardware für den [[Hausbus3]]
 |category    = Infrastruktur
 |author      = [[Benutzer:Spike|spike]]
@@ -16,6 +16,9 @@
 }}
 
 
+[[Datei:RZLCtrl 5.2 Top.jpg|250px|thumb]]
+[[Datei:RZLCtrl 5.1 Bottom.jpg|250px|thumb]]
+[[Datei:RZLCtrl 5.1 Side.jpg|250px|thumb]]
 
 Im RZL gibt es diverse $Dinge die an den Hausbus3 angebunden ist bzw werden soll. Ausserdem erfordert das [[Neben3raum_(Werkstatt)|Wachstum]] zusätzliche Hardware.
 Als kontinuierlichen Weiterentwicklung soll daher eine Platine erstellt werden welche als Eierlegende Wollmilchsau möglichst vielen Ansprüchen gerecht wird.
