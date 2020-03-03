@@ -121,10 +121,6 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.'''16 - 108''' || ''reserved'' || Derzeit ungenutzt
 |-----
-| 172.22.36.100 || skalarwelle || MikroTik POE Switch
-|-----
-| 172.22.36.101 || chemtrail || MikroTik 24 Port Switch
-|-----
 | 172.22.36.109 || <span style="text-decoration:line-through;">r929</span> || <span style="text-decoration:line-through;">[[Benutzer:nicoduck|nicoduck]]</span>
 |-----
 | 172.22.36.110 || ultimaker || [[Ultimaker#Octoprint|Ultimaker]]
@@ -297,6 +293,10 @@ Management-Netzwerk für Switches und Access Points.
 | 10.23.42.4 || Netgear ProSAFE || Switch auf dem Hauptraumtisch, Mitte
 |-----
 | 10.23.42.5 || Netgear ProSAFE || Switch auf dem Hauptraumtisch, bei Rednerpult
+|-----
+| 10.23.42.6 || skalarwelle || MikroTik POE Switch
+|-----
+| 10.23.42.7 || chemtrail || MikroTik 24 Port Switch
 |}
 
 == VLANs ==
