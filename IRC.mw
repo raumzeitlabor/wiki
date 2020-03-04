@@ -1,6 +1,11 @@
-Der offizielle IRC-Channel ist [ircs://irc.hackint.org/raumzeitlabor #raumzeitlabor] im [http://www.hackint.org/ HackInt].
+Der offizielle IRC-Channel ist [ircs://irc.hackint.org/raumzeitlabor #raumzeitlabor] im [http://www.hackint.org/ HackInt]. Der Channel ist in der Regel gut besucht, es kann aber trotzdem länger dauern bis jemand auf Fragen reagiert.
 
-==== Fallstricke ====
+== WebChat ==
+
+Für den einfachen Zugang zu unserem IRC Channel bietet sich der von HackInt bereitgestellte [https://webirc.hackint.org/#irc://irc.hackint.org/#raumzeitlabor webbasierte Chatclient] an.
+
+== Fallstricke ==
 * XChat vs. NickServ: Wenn XChat das eingespeicherte NickServ-Passwort nicht zuverlässig anwenden kann, liegts daran, dass nicht alle HackInt-Server den <tt>/nickserv</tt>-Befehl eingebaut haben (z.B. zakx.de nicht, Stand 2012-07-28). Nehmt also einen Server, der ihn versteht, z.B. irc.spaceboyz.net.
 * Dein IRC-Programm muss zwingend SSL-Verschlüsselung können. Unverschlüsselt ist ein Login nicht mehr möglich
+
 [[Category:Infrastruktur]]
