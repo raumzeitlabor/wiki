@@ -225,7 +225,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.221 || [[Mate_(Server)/tiefpunkt.vm.rzl|tiefpunkt.vm.rzl]] || Mitglieder-VM (beta)
 |-----
-| 172.22.36.222 || [[Drucker#Labeldrucker]] || VM für die Labeldrucker-Software
+| 172.22.36.222 || [[Labeldrucker]] || VM für die Labeldrucker-Software
 |-----
 | 172.22.36.223 || [[Mate_(Server)/yate.vm.rzl]] || VM für Telefonanlage
 |-----
