@@ -1,1 +1,46 @@
-#REDIRECT [[Drucker#Labeldrucker]]
+''Einige Drucker sind über den CUPS auf [[Mate (Server)/Infra]] geshared. Diese sollten bei euch erscheinen, wenn ihr gesharte Drucker aktiviert habt.''
+
+== Brother P-Touch 2430PC ==
+{{GeraetInfoBox
+|name          = Brother P-Touch 2430PC
+|status        = 
+|image         = Brother P-Touch 2430PC.jpg
+|manufacturer  = Brother
+|model         = P-Touch 2430PC
+|description   = Labeldrucker
+|documentation = 
+|location      = Regal in der E-Ecke
+|owner         = RaumZeitLabor
+|username      = 
+|financing     = 
+}}
+
+* Freigegeben über [http://mate.rzl:631/printers/Brother_PT-2430PC http://mate.rzl:631/printers/Brother_PT-2430PC]
+* '''Vor dem Druck einschalten und danach wieder ausschalten!'''
+* Verbrauchsmaterial befindet sich, sofern vorrätig, in Schublade 0x2f
+* Du kannst diesen Drucker über die Linux-Software [http://apz.fi/blabel/ B-Label] (GUI, nicht komfortabel) oder [https://mockmoon-cybernetics.ch/computer/p-touch2430pc/ ptouch-print] (CLI) ansteuern.
+* Die Benutzung der Brother P-Touch-Software unter Windows wird empfohlen.
+** Serial um die Software von der Webseite runterzuladen: H0G279521
+* Bei drohendem Labelbandaufbrauch bitte Nachschub besorgen oder Info an die Mailingliste
+<div style="clear:both;"></div>
+
+== Dymo LabelWriter 450 ==
+{{GeraetInfoBox
+|name          = Dymo LabelWriter 450
+|status        = 
+|image         = 
+|manufacturer  = Dymo
+|model         = LabelWriter 450
+|description   = 
+|documentation = 
+|location      = Tardis-Schublade 0x2G
+|owner         = [[Benutzer:steeph|steeph]] (Dauerleihgabe)
+|username      = 
+|financing     = 
+}}
+
+* Thermodrucker, max. Breite 56 mm
+* Bei drohendem Etikettenaufbrauch bitte Nachschub besorgen oder Info an die Mailingliste
+<div style="clear:both;"></div>
+
+[[Kategorie:Infrastruktur]]
