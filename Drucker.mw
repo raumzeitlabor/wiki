@@ -1,95 +1,98 @@
+Diese Seite beschreibt die Laserdrucker.
+* Für die Labeldrucker siehe [[Labeldrucker]].
+* Für den Kartendrucker siehe [[Plastikkarten]].
+* Für den 3D-Drucker siehe [[Ultimaker]].
+
+''Einige Drucker sind über den CUPS auf [[Mate (Server)/Infra]] geshared. Diese sollten bei euch erscheinen, wenn ihr gesharte Drucker aktiviert habt.''
+
+==Xerox WorkCentre 7328==
 {{GeraetInfoBox
-|name        = Drucker
+|name        = Annette
 |status      = working
 |image       = Drucker.jpg
 |model       = Xerox WorkCentre 7328
 |version     = 3.0
-|description = Ein Drucker. Er druckt und scannt Dinge in A4 und A3.
+|description = Farblaserdrucker, druckt und scannt Dinge in A4 und A3
 |location    = 
 |owner       = 
 |username    = 
 |financing   = 
 }}
-* Xerox WorkCentre 7328
 * Netzwerkdrucker (IP: '''172.22.36.133''' / Hostname: '''annette.rzl''')
 * [http://annette.rzl/ Webinterface] über das sich PDFs drucken lassen.
-* Farblaser
 * DIN A3 / DIN A4
 * Kann Dinge scannen und aufs [[datengrab]] laden.
 * Lässt sich als <code>http://172.22.36.133/ipp/</code>, Treiber <code>Xerox WorkCentre 7328 Foomatic/Postscript</code> in CUPS hinzufügen.
 * Sollte mit laufendem Avahi und auf Apple-Geräten einfach funktionieren™.
+<div style="clear:both;"></div>
 
-<br />
-__TOC__
+==Brother MFC-9840CDW==
+{{GeraetInfoBox
+|name          = Guttenberg
+|status        = broken
+|custom status = aktuell nicht in Betrieb
+|image         = Brother MFC-9840CDW.jpg
+|manufacturer  = Brother
+|model         = MFC-9840CDW
+|description   = Farblaserdrucker
+|documentation = 
+|location      = 
+|owner         = 
+|username      = 
+|financing     = 
+}}
 
-= Andere Drucker =
-''Einige Drucker sind über den CUPS auf [[Mate (Server)/Infra]] geshared. Diese sollten bei euch erscheinen, wenn ihr gesharte Drucker aktiviert habt.''
-
-==Labeldrucker==
-=== Brother P-Touch 2430PC ===
-[[Datei:Brother P-Touch 2430PC.jpg|left|75px]]
-{|
-|
-* Befindet sich im Regal in der E-Ecke
-* Freigegeben über [http://mate.rzl:631/printers/Brother_PT-2430PC http://mate.rzl:631/printers/Brother_PT-2430PC]
-* '''Vor dem Druck einschalten und danach wieder ausschalten!'''
-* Verbrauchsmaterial befindet sich, sofern vorrätig, in Schublade 0x2f
-* Gehört dem RaumZeitLabor
-* Du kannst diesen Drucker über die Linux-Software [http://apz.fi/blabel/ B-Label] (GUI, nicht komfortabel) oder [https://mockmoon-cybernetics.ch/computer/p-touch2430pc/ ptouch-print] (CLI) ansteuern.
-* Die Benutzung der Brother P-Touch-Software unter Windows wird empfohlen.
-** Serial um die Software von der Webseite runterzuladen: H0G279521
-* Bei drohendem Labelbandaufbrauch bitte Nachschub besorgen oder Info an die Mailingliste
-|}
-
-=== Dymo LabelWriter 450 ===
-* Thermodrucker, max. Breite 56 mm
-* Dauerleihgabe von steeph
-* Befindet sich in Tardis 1 in 0x2G
-* Bei drohendem Etikettenaufbrauch bitte Nachschub besorgen oder Info an die Mailingliste
-
-==Laserdrucker==
-===Brother MFC-9840CDW===
-[[Image:Brother MFC-9840CDW.jpg|left|100px]]
-{|
-|
-* '''Aktuell nicht in Betrieb'''
 * Netzwerkdrucker (IP: '''172.22.36.132''' / Hostname: '''guttenberg''')
-* '''Farblaser'''
 * Freigegeben über [http://mate.rzl:631/printers/Brother_MFC-9840CDW http://mate.rzl:631/printers/Brother_MFC-9840CDW]
-*Scannt per FTP aufs Datengrab in den Ordner scans
+* Scannt per FTP aufs Datengrab in den Ordner scans
+* Änderungen / Defekte:
+** [[Benutzer:Felicitus|Felicitus]] hat den Trommelzähler im Dezember 2012 wie vorgeschlagen zurückgesetzt.
+<div style="clear:both;"></div>
 
-<div class="toccolours mw-collapsible mw-collapsed">
-Änderungen / Defekte
-<div class="mw-collapsible-content">
-*[[Benutzer:Felicitus|Felicitus]] hat den Trommelzähler im Dezember 2012 wie vorgeschlagen zurückgesetzt.
-</div>
-</div>
-|}
-
-
-=== Konica Minolta Magicolor 2300W ===
-Farb-Laserdrucker, Dauerleihgabe von [[Benutzer:Unicorn|Unicorn]]
+== Konica Minolta Magicolor 2300W ==
+{{GeraetInfoBox
+|name          = Konica Minolta Magicolor 2300W
+|status        = 
+|image         = 
+|manufacturer  = Konica Minolta
+|model         = Magicolor 2300W
+|description   = Farblaserdrucker
+|documentation = 
+|location      = 
+|owner         = Dauerleihgabe von [[Benutzer:Unicorn|Unicorn]]
+|username      = 
+|financing     = 
+}}
 
 * Derzeit nicht über Netzwerk erreichbar, USB only
 * Kosten pro Seite: 0,15€, Spende erwünscht
 
-==== Treiber ====
+=== Treiber ===
 * Bei Konica Minolta nur für Windows verfügbar
 * OpenSource-Linux-Treiber http://sourceforge.net/projects/m2300w/
 ** Install first, plug in later :)
 
-==== Defekte ====
+=== Defekte ===
 * Verursacht Papierstau
 * Laut Unicorn auf Grund eines verschmutzten Sensors
+<div style="clear:both;"></div>
 
-=== Kyocera FS-3700+ ===
+== Kyocera FS-3700+ ==
+{{GeraetInfoBox
+|name          = Kyocera FS-3700+
+|status        = 
+|image         = 
+|manufacturer  = Kyocera
+|model         = FS-3700+
+|description   = Monochrom-Laserdrucker
+|documentation = 
+|location      = 
+|owner         = [[Benutzer:Unicorn|Unicorn]]
+|username      = 
+|financing     = 
+}}
 
-Von [[Benutzer:Unicorn|Unicorn]]. Hat LAN, Seriell, Centronics Parallel.
-
-== Plastikkartendrucker ==
-siehe [[Plastikkarten]]
-
-== 3D-Drucker ==
-siehe [[Ultimaker]]
+* Hat LAN, Seriell, Centronics Parallel.
+<div style="clear:both;"></div>
 
 [[Kategorie:Infrastruktur]]
