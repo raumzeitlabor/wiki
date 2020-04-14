@@ -303,6 +303,7 @@ Management-Netzwerk für Switches und Access Points.
 {| class="wikitable" width="100%"
 |-----
 ! VLAN-ID || Beschreibung
+| (Untaggt) || Default-Netz
 |-----
 | 42 || IOT
 |-----
