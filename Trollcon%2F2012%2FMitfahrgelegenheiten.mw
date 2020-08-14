@@ -1,8 +1,8 @@
 Gastaccount fürs Wiki: rzlguest/dertollstehackerspacederwelt
 
 == Mitfahrer gesucht ==
-{| border="1" style="font-family: Comic Sans MS;"
-|- style="text-decoration: blink;"
+{| border="1" class="wikitable sortable" style="border:50px inset rgba(255,0,255,0.4); box-shadow: 0 0 0 20px rgba(255,0, 255,0.2); font-family: 'Comic Sans MS'; color: magenta; transform: rotate(-2deg);" 
+|- style="text-decoration: blink;" 
 !Fahrer
 !Von
 !Über
@@ -54,8 +54,8 @@ XMPP/Mail: gigadoc2[auf]revreso.de, Twitter: @Gigadoc2
 |}
 
 == Fahrer gesucht ==
-{| border="1" style="font-family: Comic Sans MS;"
-|- style="text-decoration: blink;"
+{| border="1" class="wikitable sortable" style="border:50px inset rgba(255,0,255,0.4); box-shadow: 0 0 0 20px rgba(255,0, 255,0.2); font-family: 'Comic Sans MS'; color: Black; transform: rotate(-2deg);" 
+|- style="text-decoration: blink;" 
 ! Wo?
 ! Wer?
 ! Wann?
