@@ -99,31 +99,114 @@ IP-Addresse: '''5.9.77.39'''
 |}
 
 Port-Mappings:
+
+TCP:
 {| class="wikitable"  valign = "top"
 !externer Port
 !interner Port
 !interne IP
 !VM
+! Dienst
 |-
 |443
 |443
 |192.168.123.10
 |proxy
+|HTTPS
 |-
 |80
 |80
 |192.168.123.10
 |proxy
+|HTTP
 |-
 |36268
 |22
 |192.168.123.11
 |git
+|SSH
 |-
 |36269
 |22
 |192.168.123.12
 |chat
+|SSH
+|-
+|25
+|25
+|192.168.123.13
+|[[Premium (Server)]]
+|SMTP Server2Server
+|-
+|587
+|587
+|192.168.123.13
+|[[Premium (Server)]]
+|SMTP Submission
+|-
+|465
+|465
+|192.168.123.13
+|[[Premium (Server)]]
+|SMTPS
+|-
+|143
+|143
+|192.168.123.13
+|[[Premium (Server)]]
+|IMAP
+|-
+|4190
+|4190
+|192.168.123.13
+|[[Premium (Server)]]
+|Sieve Mailfilter Configuration
+|-
+|5222
+|5222
+|192.168.123.13
+|[[Premium (Server)]]
+|XMPP Client2Server
+|-
+|5269
+|5269
+|192.168.123.13
+|[[Premium (Server)]]
+|XMPP Client2Server
+|-
+|9102
+|9102
+|192.168.123.13
+|[[Premium (Server)]]
+|Bareos
+|-
+|53
+|53
+|192.168.123.13
+|[[Premium (Server)]]
+|Autoritative DNS-Server
+|-
+|}
+
+UDP:
+{| class="wikitable"  valign = "top"
+!externer Port
+!interner Port
+!interne IP
+!VM
+!Dienst
+|-
+|53
+|53
+|192.168.123.13
+|[[Premium (Server)]]
+|Autoritative DNS-Server
+|-
+|2303
+|2303
+|192.168.123.13
+|[[Premium (Server)]]
+|OpenVPN
 |-
 |}
 === interne IP-Vergabe ===
@@ -143,6 +226,10 @@ Port-Mappings:
 |192.168.123.12
 |2a01:4f8:161:9025:3::1
 |chat
+|-
+|192.168.123.13
+|2a01:4f8:161:9025:4::1
+|[[Premium (Server)]] (geplant)
 |-
 |172.17.0.2
 |
