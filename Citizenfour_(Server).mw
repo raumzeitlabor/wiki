@@ -172,7 +172,7 @@ TCP:
 |5269
 |192.168.123.13
 |[[Premium (Server)]]
-|XMPP Client2Server
+|XMPP Server2Server
 |-
 |9102
 |9102
@@ -209,6 +209,7 @@ UDP:
 |OpenVPN
 |-
 |}
+
 === interne IP-Vergabe ===
 {| class="wikitable"  valign = "top"
 !IPv4
