@@ -155,72 +155,12 @@ Rebootfest gibt an, ob die Dienste innerhalb der VM nach einem Reboot der VM von
 ! Arbeitsspeicher
 ! Plattenplatz
 |-
-| [[Mate (Server)/0xb4dc0d3d.vm.rzl]]
-| 768 MB
-| 20 GB
-|-
-| [[Mate (Server)/abrock.vm.rzl]]
-| 512 MB
-| 30 GB
-|-
-| [[Mate (Server)/cashdesk.rzl]]
-| 512 MB
-| 20 GB
-|-
-| [[Mate (Server)/datengrab.rzl]]
-| 512 MB
-| 2720 GB
-|-
-| [[Mate (Server)/db.rzl]]
-| 512 MB
-| 30 GB
-|-
-| [[Mate (Server)/freeswitch.vm.rzl]]
-| 368 MB
-| 20 GB
-|-
-| [[Mate (Server)/infra.rzl]]
-| 3072 MB
-| 40 GB
-|-
-| [[Mate (Server)/kunterbunt.vm.rzl]]
-| 768 MB
-| 20 GB
-|-
-| [[Mate (Server)/lutoma.vm.rzl]]
-| 256 MB
-| 20 GB
-|-
-| [[Mate (Server)/partkeepr.rzl]]
-| 512 MB
-| 30 GB
-|-
-| [[Mate (Server)/qrgo.vm.rzl]]
-| 256 MB
-| 10 GB
-|-
-| [[Mate (Server)/rami.vm.rzl]]
-| 256 MB
-| 20 GB
-|-
-| [[Mate (Server)/ranlvor.vm.rzl]]
-| 256 MB
-| 10 GB
-|-
-| [[Mate (Server)/s1lvester.vm.rzl]]
-| 256 MB
-| 20 GB
-|-
-| [[Mate (Server)/unifi.vm.rzl]]
-| 750 MB
-| 20 GB
-|-
 | '''Gesamt'''
-| '''9566 MB / 12001 MB (79.71% belegt)'''
-| '''3 TB / 5.3 TB (56.11% belegt)'''
+| '''0 MB / 12001 MB (0% belegt)'''
+| '''0 TB / 5.3 TB (0% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2020-02-05 00:00:15
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2020-10-12 00:00:01
 
 == Unterseiten ==
 <splist />
