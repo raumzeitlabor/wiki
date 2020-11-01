@@ -1,0 +1,55 @@
+{{ProjektInfoBox
+|name        = RZL-Door
+|status      = Working
+|image       = RZLCtrl 5.1 Side.jpg
+|description = PinPad für [[RzlCtrl]]
+|category    = Infrastruktur
+|author      = [[Benutzer:Spike|spike]]
+|maintainer  = [[Benutzer:Spike|spike]]
+|username    = 
+|version     = v0.0.1
+|update      = 
+|platform    = 
+|hostname    = 
+|license     = 
+|download    = 
+}}
+In unserer neuen Location exestiert bereits ein Pinpad mit einem schönen Metallgehäuse.
+Diese muss möglichst originalgetreu ins [[Hausbus3|3. Jahrtausend]] befördert werden.
+Die alte Elektronik stammt übrigens aus Jahr 1986 und funktioniert trotz Dauerbetrieb immer noch.
+
+
+== Aktueller Status ==
+...
+
+
+== Grundlegender Aufbau ==
+* Pinpad
+* Beeeeeper
+* Status LED
+* Temperatursensor
+* Feuchtesensor
+* RS485 Zwischen innen und Außen
+* Atmega32 als zentraler Controller
+
+
+== Versorgung ==
+* 24V (Kann bis 9V runter)
+
+== RS485 BUS ==
+192008N1, Protokoll Siehe [[RzlCtrl]]
+
+
+
+== Firmware ==
+Die Software für den AVR schreibt [[Benutzer:Spike|spike]]
+* Die Low-Level Treiber sind fertig.
+* Fast alle Hi-Level Funktionen sind fertig.
+
+
+== MQTT Topics ==
+* ....
+
+
+
+[[Kategorie:Hardware]]
