@@ -18,48 +18,49 @@
 [[Datei:RZLCtrl 5.2 Top.jpg|250px|thumb|Oberseite der rzlCtrl-Platine]]
 [[Datei:RZLCtrl 5.1 Bottom.jpg|250px|thumb|Unterseite der rzlCtrl-Platine]]
 
-Im RZL gibt es diverse $Dinge die an den Hausbus3 angebunden ist bzw werden soll. Ausserdem erfordert das [[Neben3raum_(Werkstatt)|Wachstum]] zusätzliche Hardware.
-Als kontinuierlichen Weiterentwicklung soll daher eine Platine erstellt werden welche als Eierlegende Wollmilchsau möglichst vielen Ansprüchen gerecht wird.
+Im RZL gibt es diverse $Dinge die an den [[Hausbus3]] angebunden sind bzw (wieder) werden sollen. Außerdem erfordert das [[Neben3raum_(Werkstatt)|Wachstum]] zusätzliche Hardware.
+Als kontinuierlichen Weiterentwicklung sollen daher eine Platinen erstellt werden welche als Eierlegende Wollmilchsau möglichst vielen Ansprüchen gerecht wird.
+
+Ursprünglich war vorgesehen eine Platine zu Entwickeln die - je nach Firmware - sowohl außen als auch innen eingesetzt werden kann.
+Das hat sich durch die neue Location jedoch geändert. Jetzt ist das PinPad ein extra [[RZL-Door|Projekt]].
 
 Vorschläge, Kritik und Helfer sind gerne gesehen. 
 
 == Aktueller Status ==
-Nachdem das das erste Layout suboptimal war ist mittlerweile ein neues erstellt worden.
-In dem Zuge wurden auch einige Dinge geändert (s.u.).
-Der erste Prototype wurde zusammengebaut und erfolgreich getestet.
-Ein weitere wird zwecks Software Entwicklung für den ESP hergestellt.
+Nachdem der Umzug alle über den Haufen geworfen hat, beginnt das Projekt von vorne.
+Auch wird von ESP8266 auf ESP32 gewechselt.
 
 
-== Eierlegende Wollmilchsau ==
-* Türsteuerung
-** Pinpad außen mit RS485 nach innen
-** Pin Prüfung / Motor Ansteuerung / Sensoren innen
-* Lichtsteuerung
-* "Zugangskontrolle" für Laser (Nein, es kommt nicht an jede Maschine so ein teil)
+== Grundlegender Aufbau ==
+* Außen [[RZL-Door]]
+* RS485 Zwischen innen und Außen
+* Innen
+** Pin Prüfung
+** Motor Ansteuerung
+** Klingel Auswertung
+** Türöffner (unten) Ansteuerung
 
 
-== Aufbau ==
-Ein Atmega64 als zentraler Controller und ein ESP zur MQTT anbindung.
-Der Atmega64 soll alle Funktionen Unabhängig vom ESP (offline) erledigen können.
+=== Aufbau ===
+Ein Atmega64 als zentraler Controller und ein ESP32 zur MQTT anbindung.
+Der Atmega64 soll alle Funktionen Unabhängig vom ESP32 (offline) erledigen können.
 
 
-== Versorgung ==
+=== Versorgung ===
 * 24V (Kann bis 9V runter)
-* 5V+ für Motor (Kann mit der 24V Versorgung zusammengelegt werden)
+* 5V+ für Motor (Kann bei bedarf mit der 24V Versorgung zusammengelegt werden)
 
-== I/O Anschlüsse ==
+=== I/O Anschlüsse ===
 * 8 Digitale Ein/Ausgänge
 ** 24V Output, Kurzschlussfest, max 1,9A Pro Kanal
 ** 24V Eingang
 ** 4x 24V und 4x GND Anschlüsse (neu)
 * 2 Analoge Eingänge (neu)
-** 0..30V
-** Jeweils mit extra 24V Anschluss
-* H-Bridge für Motor
-** 6A, 5-25V, unkaputtbar (laut Hersteller)
+** 0..30V (Jeweils mit extra 24V Anschluss)
+* H-Bridge für Motor (6A, 5-25V, unkaputtbar (laut Hersteller))
 
 
-=== 485 BUS ===
+=== RS485 BUS ===
 192008N1
 * Protokoll
  z.B.: <SOH>Version<RS>Ziel-Adresse<STX>$data<ETX>16Bit CRC<EOT>
@@ -74,17 +75,13 @@ Zum ansteuern von EVGs, insbesondere im [[Neben3raum_(Werkstatt)|Neben3raum]]
 
 
 === S0 ===
-Stichwort: Smartmeter
-* Galvanisch getrennt
-* Led für Impuls Anzeige
-
+Gestrichen.
 
 === 125Khz RFID Leser ===
 Gestrichen.
 
 === Anschluss für Externer RFID Leser (neu) ===
-* Mifare Classic 
-* Mit entsprechendem Aufwand auf Software Seite sollte auch aktuelle Tags möglich sein
+Gestrichen.
 
 === 1-Wire Temperatursensor ===
 Gestrichen. Wenn benötigt dann per RS485 Bus.
@@ -96,8 +93,7 @@ Irgendwas zwischen 1X8 und 4x20
 === Keypad ===
 4x4 Matrix
 
-
-== Gehäuse ==
+=== Gehäuse ===
 Für BOPLA Reglocard 2000 Optimiert
 
 
@@ -108,8 +104,8 @@ Die Software für den AVR schreibt [[Benutzer:Spike|spike]]
 * Die Low-Level Treiber sind fertig.
 * Fast alle Hi-Level Funktionen sind fertig.
 
-=== ESP8266 ===
-Die Software schreibt [[Benutzer:Borax|borax]]
+=== ESP32 ===
+Die Software schreibt [[Benutzer:Spike|spike]]
 
 
 === Struktur ===
@@ -138,12 +134,8 @@ Auf der Platine ist eine Reset-Leitung vorgesehen mit der es dem AVR möglich is
 * 1x (out) Abschaltung des Hauptschalters
 * 2x (Analog in) Licht Dimmen
 * 1x (out) Hauptraum Türstatus
-* 1x (s0 in) Stromverbrauch
 
 
-=== I/O Hauptraum ===
-* 1x (DALI-TX) Ansteuerung Vorschaltgeräte
-* 1x (s0 in) Stromverbrauch
 
 
 === I/O Tür Hauptraum ===
@@ -152,12 +144,6 @@ Auf der Platine ist eine Reset-Leitung vorgesehen mit der es dem AVR möglich is
 * 1x (in) Riegel Endlage AUF
 * 1x (Motor) Türantrieb
 
-==== MQTT Topics ====
+=== MQTT Topics ===
 * "/etc/motd"
 * ....
-
-
-
-
-
-[[Kategorie:Hardware]]
