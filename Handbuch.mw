@@ -126,13 +126,12 @@ Voice (+v). Voraussetzung hierfür ist, dass das jeweilige
 Mitglied die MAC-Adressen seiner Geräte in der BenutzerDB 
 eingetragen hat (und das ist natürlich freiwillig).
 
-== Sourcecode und Projektdateien: Github ==
+== Sourcecode und Projektdateien ==
 
-Für Versionskontrolle verwenden wir überwiegend git und hosten unsere git-repositories auf [https://github.com/||github]
-unter der Adresse https://github.com/raumzeitlabor. Du kannst ein 
-neues Repository anlegen, indem du dich an einen der 
-Administratoren auf github wendest, derzeit sind das u.a. 
-TabascoEye, Felicitus und blabber.
+Für Versionskontrolle verwenden wir überwiegend git und hosten unsere git-repositories auf [https://github.com/raumzeitlabor github] oder unserer GitLab [https://git.raumzeitlabor.org Instanz]. 
+
+Um in unserer github Organisation ein neues Repository anzulegen, musst du dem enstprechenden Team zugeordnet sein. Wende dich dazu an einen der 
+Administratoren auf github, derzeit sind das u.a. TabascoEye, Felicitus und blabber.
 
 == Das ist kaputt! / Ich will was machen! / Unser Space soll schöner werden! ==
 
