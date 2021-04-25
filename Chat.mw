@@ -1,5 +1,9 @@
 = Chat =
-Für Echtzeitkommunikation stehen ein IRC Channel und eine RocketChat Instanz zur Verfügung
+Für Echtzeitkommunikation stehen ein Matrix Channel, ein IRC Channel und eine RocketChat Instanz zur Verfügung
+
+== Matrix ==
+
+Unser Matrix Channel ist unter der Adresse <tt>#rzl:tilde.fun</tt> (alternativ <tt>#raumzeitlabor:franzi.business</tt> oder <tt>#raumzeitlabor:hax404.de</tt>) erreichbar.
 
 == RocketChat ==
 
