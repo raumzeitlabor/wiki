@@ -1,16 +1,6 @@
 == Labornetzgeräte ==
-=== Regelbares Netzteil I ===
-{{RowInfoBox
-|bild          = powersupply01.jpg
-|hersteller    = MC Power
-|typ           = RNG-1501
-|beschreibung  = 
-|doku          = 
-|besitzer      = [[Benutzer:Alexander Brock|Alexander Brock]]
-|status        = OK
-}}
 
-=== Regelbares Netzteil II ===
+=== Regelbares Netzteil I ===
 {{RowInfoBox
 |bild          = powersupply02.jpg
 |hersteller    = PeakTech
@@ -21,16 +11,28 @@
 |status        = OK
 }}
 
-=== Regelbares Netzteil IV ===
+=== Regelbares Netzteil II ===
 {{RowInfoBox
 |bild          = Netzteil goobay DF1730LCD.jpg
 |hersteller    = goobay
 |typ           = DF1730LCD
-|beschreibung  = 
+|beschreibung  = 0-30V, 0-3A
 |doku          = 
 |besitzer      = [[Benutzer:Felicitus|Felicitus]]
 |status        = OK
 }}
+
+=== Rigol DP832 ===
+{{RowInfoBox
+|bild          = DP832.jpg
+|hersteller    = Rigol
+|typ           = DP832
+|beschreibung  = 3 channel (2x 0-30V, 0-3A galvanisch getrennt + 0-5V 0-3A)
+|doku          = 
+|besitzer      = RaumZeitLabor
+|status        = OK
+}}
+
 == Messtechnik ==
 === Oszilloskop Hameg HM 203-6 ===
 {{RowInfoBox
@@ -43,37 +45,6 @@
 |status        = OK
 }}
 
-=== Oszilloskop Tektronix 2215 ===
-{{RowInfoBox
-|bild          = Oszilloskop Tektronix 2215.jpg
-|hersteller    = [http://www.tek.com/ Tektronix]
-|typ           = tek-2215
-|besitzer      = Drahti
-|beschreibung  =
-|doku          = Drahti fragen
-|status        = OK  
-}}
-
-=== Oszilloskop Owon PDS8202T ===
-{{RowInfoBox
-|bild          = Oszilloskop Owon PDS8202T.jpg
-|hersteller    = [http://www.owon.com.cn/eng/index.asp Owon]
-|typ           = Owon PDS8202
-|besitzer      = Drahti
-|beschreibung  =
-|doku          = Drahti fragen
-|status        = OK  
-}}
-
-=== Oszilloskop Gould OS300 === 
-{{RowInfoBox
-|bild          = Gould os300.jpg
-|hersteller    = Gould
-|typ           = OS300
-|beschreibung  = 
-|doku          = Doku als Papierausgabe im Geräteordner 
-|status        = OK
-}}
 === Oszilloskop Heathkit === 
 {{RowInfoBox
 |bild          = Heathkit oszilloskop.jpg
@@ -95,6 +66,17 @@
 |status        = OK, Nutzung nur nach Rücksprache!
 }}
 
+=== Digitales Speicher-Oszilloskop [[Rigol MSO5074]] ===
+{{RowInfoBox
+|bild          = MSO5074.jpg
+|hersteller    = [http://www.rigolna.com/ Rigol]
+|typ           = MSO5074
+|beschreibung  = 4 channel, 350 MHz, 8 GSa/s + Signalgenerator (2 channel, 25 MHz, 200 MSa/s) + Logicanalyzer (Rigol PLA2216, 16 channel) + Protokolldecoder
+|doku          = 
+|besitzer      = RaumZeitLabor
+|status        = OK, Nutzung nur nach Einweisung!
+}}
+
 === Multimeter I ===
 {{RowInfoBox
 |bild          = multimeter01.jpg
@@ -114,17 +96,6 @@
 |beschreibung  = 
 |doku          = 
 |besitzer      = [[Benutzer:Tabascoeye|TabascoEye]]
-|status        = OK
-}}
-
-=== Multimeter III ===
-{{RowInfoBox
-|bild          = multimeter03.jpg
-|hersteller    = 
-|typ           = VM 52 D
-|beschreibung  = 
-|doku          = 
-|besitzer      = [[Benutzer:Felicitus|Felicitus]]
 |status        = OK
 }}
 
@@ -160,33 +131,15 @@
 |doku          = Doku als Papierausgabe im Geräteordner 
 |status        = OK
 }}
-=== Lötstation LS-Digi 60 ===
+=== Ersa i-CON PICO ===
 {{RowInfoBox
-|bild          = Digi60.JPG
-|hersteller    = Conrad
-|typ           = Digi 60 
-|beschreibung  = 230V 80W 200-450°C
-|doku          = 
-|besitzer      = [[Benutzer:Felicitus|Felicitus]]
-|status        = OK
-}}
-
-=== Ersa i-con 1 ===
-{{RowInfoBox
-|bild          = Ersa_icon1_itool.jpg
+|bild          = Ersa i-CON PICO.jpg
 |hersteller    = Ersa
-|typ           = i-con 1 mit i-Tool
-|beschreibung  = Nutzung für Jedermann. Um eine Spende wird bei Benutzung gebeten. Nach Abbezahlung gehört die Lötstation dem RZL.
+|typ           = i-CON PICO
+|beschreibung  = 
 |doku          = 
-|besitzer    = [[Benutzer:Felicitus|Felicitus]]
+|besitzer    = RaumZeitLabor
 |status        = OK
-}}
-
-{{ProgressBar|5.90
-| text = abbezahlt
-| total = 200
-| center = false
-| height = 5
 }}
 
 == Sonstiges ==
@@ -200,64 +153,6 @@
 |besitzer    = 
 |status        = OK
 }}
-
-=== PC E-Ecke I ===
-
-
-{| border="0"
-| rowspan="6" | [[Image:IMG_0389.JPG|thumb|200px]]
-| valign="top" | '''CPU''' 
-| valign="top" | AMD Athlon | 1.7GHz | 32-Bit
-|- 
-| valign="top" | '''OS''' 
-| valign="top" | Linux Mint 3.2, Windows 7
-|- 
-| valign="top" | '''RAM''' 
-| valign="top" | 768MB DDR2
-|- 
-| valign="top" | '''Festplatte''' 
-| valign="top" | 120 GB
-|- 
-| valign="top" | '''Grafikkarte'''
-| valign="top" | ATI Radeon 9200 Pro
-|- 
-| valign="top" | '''Status'''
-| valign="top" | In Betrieb
-|}
-
-=== PC E-Ecke II ===
-
-
-[[Image:PC E-Ecke 2 von tiefpunkt.jpg|thumb|150px|left]]
-{| border="0"
-| valign="top" | '''CPU''' 
-| valign="top" | Intel Pentium 4 | 2.6GHz | 32-Bit
-|- 
-| valign="top" | '''OS''' 
-| valign="top" | Windows 7 / Debian Dual-Boot
-|- 
-| valign="top" | '''RAM''' 
-| valign="top" | 1GB DDR
-|- 
-| valign="top" | '''Festplatte''' 
-| valign="top" | 120 GB
-|- 
-| valign="top" | '''Grafikkarte'''
-| valign="top" | NVidia GeForce FX 5200 Passiv
-|- 
-| valign="top" | '''Status'''
-| valign="top" | Angeschlossen am linken Arbeitsplatz der E-Ecke
-|- 
-| valign="top" | '''Besitzer der Hardware'''
-| valign="top" | Tiefpunkt
-|- 
-| valign="top" | '''Hinweise'''
-| valign="top" |
-* Brother P-Touch Labelsoftware unter Windows installiert
-* Separate Netzwerkkarte verbaut, da der LAN-Onboard-Chip nicht mehr unter Windows 7 unterstützt wird (shame on you, SiS!)
-* Auto-Login unter Windows ohne Kennwort
-* User/Pw laborant/laborant unter Linux
-|}
 
 === Absaugung ===
 {{RowInfoBox
