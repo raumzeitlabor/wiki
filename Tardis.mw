@@ -30,240 +30,239 @@ Es passen 66 Pollin H1-Kisten pro Schublade rein.
 
 * im Hauptraum
 * 17 Schubladen hoch, 6 Schubladen breit. 
-* mit Beleuchtung
 * Im Heptadezimalsystem nummeriert
+* Für Laboranten gedacht
 
 {| class="wikitable"
-|0x00<br>[[Benutzer:Alexander_Brock|Alexander]]
-|0x10<br>[[Benutzer:Lordeis|Laborant: Lordeis]]
-|0x20<br>Laborant: Dr. Ahti ([[Benutzer:Drahti|Laborant: Drahti]]?)
-|0x30<br>[[Benutzer:Slowpoke|Laborant: slowpoke]]
-|0x40<br>[[Benutzer:Slowpoke|Laborant: slowpoke]]
-|0x50<br>[[Benutzer:Inte|Laborant: Inte]]
-|0x60<br>[[Benutzer:oko|Laborant: oko]]
+|0x00<br>
+|0x10<br>
+|0x20<br>
+|0x30<br>
+|0x40<br>
+|0x50<br>
+|0x60<br>
 |-
-|0x01<br>[[Benutzer:Alexander_Brock|Alexander]]
-|0x11<br>[[Benutzer:Blabber|Laborat: blabber]]
-|0x21<br>Laborant: Dr. Ahti ([[Benutzer:Drahti|Laborant: Drahti]]?)
-|0x31<br>[[Benutzer:Slowpoke|Laborant: slowpoke]]
-|0x41<br>[[Benutzer:Slowpoke|Laborant: slowpoke]]
-|0x51<br>[[Benutzer:Inte|Laborant: Inte]]
-|0x61<br>[[Benutzer:Helix|Laborant: Helix]]
+|0x01<br>
+|0x11<br>
+|0x21<br>
+|0x31<br>
+|0x41<br>
+|0x51<br>
+|0x61<br>
 |-
-|0x02<br>[[Benutzer:Alexander_Brock|Alexander]]
-|0x12<br>[[Benutzer:Sebi|Laborant: sebi]]
-|0x22<br>[[Benutzer:Drahti|Laborant: Drahti]]
-|0x32<br>[[Benutzer:Chatterbox|Laborant:Chatterbox]]
-|0x42<br>[[Benutzer:Slowpoke|Laborant: slowpoke]]
-|0x52<br>[[Benutzer:Inte|Laborant: Inte]]
-|0x62<br>leer
+|0x02<br>
+|0x12<br>
+|0x22<br>
+|0x32<br>
+|0x42<br>
+|0x52<br>
+|0x62<br>
 |-
-|0x03<br>Luftpolsterfolie (groß)
-|0x13<br>[[Benutzer:Nicoduck|Laborant: nicoduck]]
-|0x23<br>[[Benutzer:Drahti|Laborant: Drahti]]
-|0x33<br> leer
-|0x43<br>[[Benutzer:Yocky96|Laborant: yocky96]]
-|0x53<br>[[Benutzer:Inte|Laborant: Inte]]
-|0x63<br>[[Benutzer:3abayaga|Laborant: 3abayaga]]
+|0x03<br>
+|0x13<br>
+|0x23<br>
+|0x33<br>
+|0x43<br>
+|0x53<br>
+|0x63<br>
 |-
-|0x04<br>[[Benutzer:jay|Laborant: jay]]
-|0x14<br>[[Benutzer:Nicoduck|Laborant: nicoduck]]
-|0x24<br>[[Benutzer:Nicoduck|Laborant: nicoduck]]
-|0x34<br>Gehäuse
-|0x44<br>Kleber
-|0x54<br>[[Benutzer:Inte|Laborant: Inte]]
-|0x64<br>Team R.E.T.R.O
+|0x04<br>
+|0x14<br>
+|0x24<br>
+|0x34<br>
+|0x44<br>
+|0x54<br>
+|0x64<br>
 |-
-|0x05<br>[[Benutzer:ThinkJD|Laborant: thinkJD]]
-|0x15<br>[[Benutzer:Hax404|Laborant: hax404]]
-|0x25<br>[[Benutzer:Hax404|Laborant: hax404]]
-|0x35<br>[[Benutzer:gigu|Laborant: gigu]]
-|0x45<br>[[Benutzer:Cheatha|Laborant: cheatha]]
-|0x55<br>[[Benutzer:don|Laborant: d0n]]
-|0x65<br>[[Benutzer:don|Laborant: d0n]]
+|0x05<br>
+|0x15<br>
+|0x25<br>
+|0x35<br>
+|0x45<br>
+|0x55<br>
+|0x65<br>
 |-
-|0x06<br>[[Benutzer:Echo mirage|Laborant: echo_mirage]]
-|0x16<br>[[Benutzer:ThinkJD|Laborant: thinkJD]]
-|0x26<br>Elektro-Bauteilkästen
-|0x36<br>E-Bauteile/Strom
-|0x46<br>[[Benutzer:Kristian|Laborant: Kristian]]
-|0x56<br>[[Benutzer:Andreas|Laborant: Andreas]]
-|0x66<br>[[Benutzer:Danny|laborant: danny]]
+|0x06<br>
+|0x16<br>
+|0x26<br>
+|0x36<br>
+|0x46<br>
+|0x56<br>
+|0x66<br>
 |-
-|0x07<br>[[Benutzer:Ozi|Laborant: Ozi]]
-|0x17<br>Diverses und Lüfter
-|0x27<br>Elektro-Bauteilkästen
-|0x37<br>Elektro-Bauteile (lose)
-|0x47<br>[[Benutzer:Ingo|Laborant: Ingo]]
-|0x57<br>[[Benutzer:Ingo|Laborant: Ingo]]
-|0x67<br>[[Benutzer:whilo|Laborant: whilo]]
+|0x07<br>
+|0x17<br>
+|0x27<br>
+|0x37<br>
+|0x47<br>
+|0x57<br>
+|0x67<br>
 |-
-|0x08<br>[[Benutzer:lutoma|Laborant:lutoma]
-|0x18<br> leer
-|0x28<br>Elektro-Bauteilkästen
-|0x38<br>Kabel
-|0x48<br>[[Benutzer:Ingo|Laborant: Ingo]]
-|0x58<br>[[Benutzer:Ingo|Laborant: Ingo]]
-|0x68<br>[[Benutzer:Steeph|Laborant: Steeph]]
+|0x08<br>
+|0x18<br>
+|0x28<br>
+|0x38<br>
+|0x48<br>
+|0x58<br>
+|0x68<br>
 |-
-|0x09<br>[[Benutzer:Lutoma|Laborant: lutoma]]
-|0x19<br>Notebooks
-|0x29<br>Bauteile / Mikroständer
-|0x39<br>Kabel
-|0x49<br>[[Benutzer:Kisl|Laborant: Kisl]]
-|0x59<br>[[Benutzer:Andreas|Laborant: Andreas]]
-|0x69<br>[[Benutzer:Steeph|Laborant: Steeph]]
+|0x09<br>
+|0x19<br>
+|0x29<br>
+|0x39<br>
+|0x49<br>
+|0x59<br>
+|0x69<br>
 |-
-|0x0A<br>Batterien / Kreidespray
-|0x1A<br>ABS / Staubsaugerzubehör
-|0x2A<br>PC-Netzteile / Bausätze
-|0x3A<br>[[Benutzer:else|Laborant: else]]
-|0x4A<br>[[Benutzer:uwap|Laborant: uwap]]
-|0x5A<br>[[Benutzer:Andreas|Laborant: Andreas]]
-|0x6A<br>[[Benutzer:Freestate|Laborant: Freestate]]
+|0x0A<br>
+|0x1A<br>
+|0x2A<br>
+|0x3A<br>
+|0x4A<br>
+|0x5A<br>
+|0x6A<br>
 |-
-|0x0B<br>Luftpolster-Umschläge, ESD-Verpackung
-|0x1B<br>Platinenmaterial
-|0x2B<br>Bauteilkästen
-|0x3B<br>[[Benutzer:Talynrae|Laborant: talynrae]]
-|0x4B<br>[[Benutzer:wifi-cable|Laborant: wifi-cable]]
-|0x5B<br>[[Benutzer:Dancingfo|Laborant: DaFo]]
-|0x6B<br>[[Benutzer:Jiska|Laborant: Jiska]]
+|0x0B<br>
+|0x1B<br>
+|0x2B<br>
+|0x3B<br>
+|0x4B<br>
+|0x5B<br>
+|0x6B<br>
 |-
-|0x0C<br>Druckverschlussbeutel
-|0x1C<br>[[Benutzer:Urvogel|Laborant: urvogel]]
-|0x2C<br>Malerbedarf
-|0x3C<br>Bauteile
-|0x4C<br>[[Benutzer:TabascoEye|Laborant: Tabascoeye]]
-|0x5C<br>[[Benutzer:Dancingfo|Laborant: DaFo]]
-|0x6C<br>[[Benutzer:Jiska|Laborant: Jiska]]
+|0x0C<br>
+|0x1C<br>
+|0x2C<br>
+|0x3C<br>
+|0x4C<br>
+|0x5C<br>
+|0x6C<br>
 |-
-|0x0D<br>Elektroinstallation
-|0x1D<br>[[Benutzer:Spike|Laborant: Spike]]
-|0x2D<br>Bauteile
-|0x3D<br>[[Benutzer:Bfritz0815|Laborant: BFritz]]
-|0x4D<br>[[Benutzer:TabascoEye|Laborant: Tabascoeye]]
-|0x5D<br>[[Benutzer:Dancingfo|Laborant: DaFo]]
-|0x6D<br>[[Benutzer:Rami|Laborant: rami]]
+|0x0D<br>
+|0x1D<br>
+|0x2D<br>
+|0x3D<br>
+|0x4D<br>
+|0x5D<br>
+|0x6D<br>
 |-
-|0x0E<br>Steckernetzteile
-|0x1E<br>Lichtsteuerung
-|0x2E<br>Infrastruktur/NOC
-|0x3E<br>Dübel und Schrauben
-|0x4E<br>[[Benutzer:Doozer|Laborant: Doozer]]
-|0x5E<br>[[Benutzer:kite|Laborant: kite]]
-|0x6E<br>[[Benutzer:Rami|Laborant: rami]]
+|0x0E<br>
+|0x1E<br>
+|0x2E<br>
+|0x3E<br>
+|0x4E<br>
+|0x5E<br>
+|0x6E<br>
 |-
-|0x0F<br>[[Benutzer:Helix|Laborant: Helix]]
-|0x1F<br>LED-Streifen, RGB-LEDs, WS2812 und Zubehör
-|0x2F<br>Druckerzubehör (ausgenommen Labeldrucker) / [[Laminiergerät]]
-|0x3F<br>Infrastruktur / Festplatten
-|0x4F<br>[[Benutzer:Mxf|Laborant: mxf]]
-|0x5F<br>[[Benutzer:Unicorn|Laborant: Unicorn]]
-|0x6F<br>[[Benutzer:Unicorn|Laborant: Unicorn]]
+|0x0F<br>
+|0x1F<br>
+|0x2F<br>
+|0x3F<br>
+|0x4F<br>
+|0x5F<br>
+|0x6F<br>
 |-
-|0x0G<br>Elektroinstallation
-|0x1G<br> [[Benutzer:0xb4dc0d3d|Laborant: 0xb4dc0d3d]]
-|0x2G<br>Labeldrucker, Etikettendrucker und Zubehör
-|0x3G<br>[[Benutzer:Smokehead|Laborant: Smokehead]]
-|0x4G<br>[[Benutzer:Mxf|Laborant: mxf]]
-|0x5G<br>[[Benutzer:Unicorn|Laborant: Unicorn]]
-|0x6G<br>[[Benutzer:Tempelgogo|Laborant: tempelgogo]]
+|0x0G<br>
+|0x1G<br>
+|0x2G<br>
+|0x3G<br>
+|0x4G<br>
+|0x5G<br>
+|0x6G<br>
 |-
 |}
 
 === Tardis2 ===
 
-* im Fablab
+* im Workshop Raum
 * 17 Schubladen hoch, 4 Schubladen breit
-* ohne Beleuchtung
-* die Schubladen mit Klebeband-Stücken vorne drauf müssen noch ausgewaschen werden
-* sollte für Projekte und Fablab-Material vorbehalten bleiben
+* Ist RaumZeitLabor Infrastruktur und Maschinen sowie Verbrauchsmaterialien vorbehalten
+* Hat austauschbare Schilderhalter
 
 {| class="wikitable"
-|0x70<br>[[Namensschilder]]
-|0x80<br> Bauteile
-|0x90<br>[[Benutzer:Alexander_Brock|Alexander]]
-|0xA0<br>[[Benutzer:Deramon|Laborant: deramon]]
+|0x70<br>
+|0x80<br>
+|0x90<br>
+|0xA0<br>
 |-
-|0x71<br> leer
-|0x81<br> leer
-|0x91<br>Glasfasermatten
-|0xA1<br>Stoffe (aus 9G)
+|0x71<br>
+|0x81<br>
+|0x91<br>
+|0xA1<br>
 |-
-|0x72<br>[[Benutzer:Hugo|Laborant:Hugo]]
-|0x82<br>[[Benutzer:Wiiilmaa|Laborant: Jens Wilmer]]
-|0x92<br>Farben (aus A1) plus [[Benutzer:Dancingfo|DaFos]] Blechwerkzeug, Trollcon-Reste
-|0xA2<br>Kinder-Farben
+|0x72<br>
+|0x82<br>
+|0x92<br>
+|0xA2<br>
 |-
-|0x73<br>Netzteil
-|0x83<br>[[Benutzer:Pitchbent|Laborant:pitchbent]]
-|0x93<br>Holzreste
-|0xA3<br>Pinsel & Farben
+|0x73<br>
+|0x83<br>
+|0x93<br>
+|0xA3<br>
 |-
-|0x74<br>Brandschutzspray
-|0x84<br>Holzponies (Mobilee, TüröffnerTag, public)
-|0x94<br>Holzponies (Mobilee, TüröffnerTag, public) join with 84?
-|0xA4<br>[[Benutzer:DevCoffee|Laborant: DevCoffee]]
+|0x74<br>
+|0x84<br>
+|0x94<br>
+|0xA4<br>
 |-
-|0x75<br>E-Bauteile
-|0x85<br>Bausätze BS0001
-|0x95<br>Bausätze BS0005
-|0xA5<br>Bausätze BS0009
+|0x75<br>
+|0x85<br>
+|0x95<br>
+|0xA5<br>
 |-
-|0x76<br>Stempel und Settop-Box
-|0x86<br>Bausätze BS0002
-|0x96<br>Bausätze BS0006
-|0xA6<br>Bausätze BS0010
+|0x76<br>
+|0x86<br>
+|0x96<br>
+|0xA6<br>
 |-
-|0x77<br>[[Plastikkarten#Magnetstreifen|Magnetkartenleser/-schreiber]]
-|0x68<br>Bausätze BS0003
-|0x97<br>Bausätze BS0007
-|0xA7<br>[[Benutzer:echox|Laborant: echox]]
+|0x77<br>
+|0x68<br>
+|0x97<br>
+|0xA7<br>
 |-
-|0x78<br>[[Benutzer:ingo|Laborant: zero_dtime]]
-|0x88<br>Bausätze BS0004
-|0x98<br>Bausätze BS0008
-|0xA8<br>Laborant: echox
+|0x78<br>
+|0x88<br>
+|0x98<br>
+|0xA8<br>
 |-
-|0x79<br>Elektroinstallation
-|0x89<br>Kartendrucker
-|0x99<br>19" Harware / [[Benutzer:Dancingfo|Laborant: DaFo]] / Felicia
-|0xA9<br>[[Benutzer:echox|Laborant: echox]]
+|0x79<br>
+|0x89<br>
+|0x99<br>
+|0xA9<br>
 |-
-|0x7A<br>Kabel / KVM-Switches, PS2, Kaltgeräte Verlängerung
-|0x8A<br>SDR / [[HackRF]]
-|0x9A<br>Winkel / Haken / (ßeiber-) Mech. Bauteile
-|0xAA<br>Schneidplotter
+|0x7A<br>
+|0x8A<br>
+|0x9A<br>
+|0xAA<br>
 |-
-|0x7B<br>Adapter
-|0x8B<br>Fnordcordia
-|0x9B<br>Maus Türöffner
-|0xAB<br>Ultimaker (PLA), CNC-Fräse Teile
+|0x7B<br>
+|0x8B<br>
+|0x9B<br>
+|0xAB<br>
 |-
-|0x7C<br>Türschließer
-|0x8C<br>MRMCD
-|0x9C<br>MRMCD
-|0xAC<br>[[Benutzerin:Ralf|Laborant: Ralf]]
+|0x7C<br>
+|0x8C<br>
+|0x9C<br>
+|0xAC<br>
 |-
-|0x7D<br>Plan C/Agenda Diplom
-|0x8D<br>Agenda Diplom
-|0x9D<br>Stickbedarf
-|0xAD<br>Sticken
+|0x7D<br>
+|0x8D<br>
+|0x9D<br>
+|0xAD<br>
 |-
-|0x7E<br>[[Benutzerin:Naddie|Laborant: naddie]]
-|0x8E<br>Stickrahmen
-|0x9E<br>Stickbeispiele
-|0xAE<br>StickProtect, Untergarn, Nadeln (Husqvarna)
+|0x7E<br>
+|0x8E<br>
+|0x9E<br>
+|0xAE<br>
 |-
-|0x7F<br>Textilmaterial
-|0x8F<br>Stickrahmen
-|0x9F<br>Stickvlies
-|0xAF<br>Textil: Solvied, Thermofix
+|0x7F<br>
+|0x8F<br>
+|0x9F<br>
+|0xAF<br>
 |-
-|0x7G<br>Textilmaterial
-|0x8G<br>Aufnäher Trägerstoffe Felty, Inhalt: Filz (Textilverarbeitung)
-|0x9G<br>[[Benutzer:captain_toad|Laborant: Captain Toad]]
-|0xAG<br>Schubladenteile (kunststoff+Schrauben)
+|0x7G<br>
+|0x8G<br>
+|0x9G<br>
+|0xAG<br>
 |-
 |}
