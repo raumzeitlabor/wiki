@@ -1,12 +1,7 @@
 [[Wunschliste|Wunschliste für Wikiseiten]]
 
-{| class="wikitable" style="width:100%;"
-|-
-! Achtung! Wir sind umgezogen!
-|-
-| Einige Geräte sind daher zur Zeit vielleicht nicht verfügbar.
-|}
- 
+{{AchtungKasten1|title=Wir sind umgezogen!|msg=Einige Geräte sind daher zur Zeit vielleicht nicht verfügbar.}}
+
 
 <div id="mf-home">
 <!-- Projekte Box - editierbar unter dem Artikel "Vorlage:Hauptseite/Projekte" -->
