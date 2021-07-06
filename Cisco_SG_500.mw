@@ -34,21 +34,11 @@ Der Switch-Stack im Hauptraum besteht aus einem 28-Port Cisco SG 500-28 sowie ei
 |-----
 ! Port || VLAN-ID || Beschreibung
 |-----
-| 1/1/11 ||  || Famefabrik, geht zur [[Firebox]] eth3
+| 2/1/1 || allow 42,2342 || [[Mate (Server)]]
 |-----
-| 1/1/12 || allow 42,2342 || geht zur [[Firebox]] eth1
+| 2/1/22 || allow 42 || AP Hauptraum
 |-----
-| 1/1/15 || allow 42,666 || [[Mate_(Server)|Mate]] LAN1
-|-----
-| 1/1/24 || 2342 || [[Netzwerk#10.23.42.0.2F24|Management-Netz]], geht zur [[Firebox]] eth2
-|-----
-| 2/1/13 || allow 42,2342 || WLAN-AP Hauptraum
-|-----
-| 2/1/21 || 666 || [[Firebox]] eth6
-|-----
-| 2/1/22 || 666 || Telekom-Hybrid-Router
-|-----
-| 2/1/23 || allow 42,2342 || WLAN-AP Nebenraum
+| 2/1/23 || allow 42 || AP Workshopraum
 |-----
 | 2/1/24 || allow 2342 || [[EdgeSwitch_PoE_24|Switch Nebenraum]]
 |}
