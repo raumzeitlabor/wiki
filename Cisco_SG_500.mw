@@ -40,7 +40,7 @@ Der Switch-Stack im Hauptraum besteht aus einem 28-Port Cisco SG 500-28 sowie ei
 |-----
 | 2/1/23 || allow 42 || AP Workshopraum
 |-----
-| 2/1/24 || allow 2342 || [[EdgeSwitch_PoE_24|Switch Nebenraum]]
+| 2/1/24 || allow 2342 || [[Firebox]]
 |}
 
 == User anlegen ==
