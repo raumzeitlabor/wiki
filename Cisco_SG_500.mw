@@ -2,7 +2,7 @@
 |name        = Cisco SG 500
 |status      = stable
 |image       = 
-|description = Unser Switch-Stack im Hauptraum/E-Ecke
+|description = Unser Switch-Stack im Workshopraum
 |author      = [[NOC Team]]
 |maintainer  = 
 |hostname    = 10.23.42.2
@@ -15,7 +15,7 @@
 |preis       =
 }}
 
-Der Switch-Stack im Hauptraum besteht aus einem 28-Port Cisco SG 500-28 sowie einem 28-Port Cisco SG 500-28P (PoE). Beide Switches sind als Stack konfiguriert.
+Der Switch-Stack im Workshopraum besteht aus einem 28-Port Cisco SG 500-28 sowie einem 28-Port Cisco SG 500-28P (PoE). Beide Switches sind als Stack konfiguriert.
 
 
 == Stack IDs ==
