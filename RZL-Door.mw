@@ -1,10 +1,10 @@
 {{ProjektInfoBox
 |name        = RZL-Door
-|status      = Working
+|status      = beta
 |image       = RZL-Door-Aussen-1.jpg
 |description = PinPad für [[RzlCtrl]]
 |category    = Infrastruktur
-|author      = [[Benutzer:Spike|spike]]
+|author      = [[Benutzer:Spike|spike]],[[Benutzer:DevCoffee|DevCoffee]]
 |maintainer  = [[Benutzer:Spike|spike]]
 |username    = 
 |version     = v0.0.1
@@ -20,8 +20,12 @@ Die alte Elektronik stammt übrigens aus Jahr 1986 und funktioniert trotz Dauerb
 
 
 == Aktueller Status ==
-...
-
+* Die originale Elektronik wurde durch eine neue Platine von [[Benutzer:Spike|spike]] ausgetauscht, welche die individuellen [[BenutzerDB]] Pins der Laboranten unterstützt.
+* In der Tür wurde das Schloss durch ein Dormakaba SVP 2729 selbstverriegelndes Panik-Motortürschloss von [[Benutzer:DevCoffee|DevCoffee]] und [[Benutzer:Hotaru|Hotaru]] ersetzt und eingebaut.
+* Der Summer wurde ausgebaut und durch ein normales Schließblech erstzt.
+* Die Pinpad Platine läuft mit 12V, das Türschloss mit 24V, weshalb neben einem zusätzlichen Netzteil der Summer-Ausgang des Pinpads mit einem Relais an das Türschloss angebunden wurde.
+* Die Tür ist dauerhaft verriegelt und kann mithilfe des Pinpads für die Dauer des Summers entriegelt werden.
+* Das Projekt wartet aktuell auf neue Platinenrevsion von [[Benutzer:Spike|spike]] welche [[Raumstatus]], [[BenutzerDB]]-Anbindung und die Möglichkeit den Raum öffnen und schließen zu können unterstützt.
 
 == Grundlegender Aufbau ==
 * Pinpad
