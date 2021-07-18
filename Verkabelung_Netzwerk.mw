@@ -1,0 +1,83 @@
+== Verkabelung Rack Workshopraum ==
+<pre>
+Port|TIA| l[m] | Raum        | Geraet    | Port   | VLAN       | Kommentar
+----+---+------+-------------+-----------+--------+------------+----------------------------
+A01 | B |  6.7 | E-Ecke      | rzl-sw1   | 1/1/11 |            | Fenster
+A02 | B | 10.0 | Haupt       |           |        |            | Front
+A03 | B | 10.1 | Haupt       |           |        |            | Front
+A04 | B | 14.3 | Haupt       |           |        |            | Stirn vorne
+A05 | B | 14.2 | Haupt       |           |        |            | Stirn vorne
+A06 | B | 16.7 | Haupt       |           |        |            | Stirn vorne
+A07 | B | 16.8 | Haupt       |           |        |            | Stirn vorne
+A08 | B | 20.0 | Haupt       |           |        |            | Stirn hinten
+A09 | B | 19.9 | Haupt       |           |        |            | Stirn hinten
+A10 | B | 21.9 | Haupt       |           |        |            | Stirn hinten
+A11 | B | 22.1 | Haupt       |           |        |            | Stirn hinten
+A12 | B | 21.9 | Haupt       |           |        |            | Stirn hinten
+A13 | B | 25.2 | Haupt       |           |        |            | Aufzug
+A14 | B | 25.2 | Haupt       |           |        |            | Aufzug
+A15 | B | 24.1 | Haupt       |           |        |            | Aufzug
+A16 | B | 24.1 | Haupt       |           |        |            | Aufzug
+A17 | B | 21.6 | Aquarium    |           |        |            | Fenster / Kueche
+A18 | B | 22.1 | Aquarium    |           |        |            | Fenster / Kueche
+A19 | B | 22.0 | Aquarium    |           |        |            | Fenster / Mitte
+A20 | B | 22.4 | Aquarium    |           |        |            | Fenster / Mitte
+A21 | B | 24.1 | Aquarium    |           |        |            | Fenster / Haupt
+A22 | B | 24.1 | Aquarium    |           |        |            | Fenster / Haupt
+A23 | B | 18.4 | Kueche      |           |        |            | beim Getraenkekuehlschrank
+A24 | B | 10.4 | Workshop    |           |        |            | Flur / E-Ecke
+                                                  
+Port|TIA| l[m] | Raum        | Geraet    | Port   | VLAN       | Kommentar
+----+---+------+-------------+-----------+--------+------------+----------------------------
+B01 | B | 10.0 | Workshop    |           |        |            | Flur / E-Ecke
+B02 | B | 10.4 | Workshop    |           |        |            | Flur / E-Ecke
+B03 | B | 17.0 | Workshop    |           |        |            | Decke ueber Tardis / keine-Dose
+B04 | B |  7.2 | Workshop    |           |        |            | Fenster / Treppenhaus
+B05 | B |  5.2 | Workshop    |           |        |            | Fenster / Mitte
+B06 | B |  3.1 | Workshop    |           |        |            | Fenster / E-Ecke
+B07 | B | 22.3 | Kueche      |           |        |            | Kabelkanal am Fenster / keine-Dose
+B08 | B | 20.4 | Kueche      |           |        |            | Kabelkanal am Fenster / keine-Dose
+B09 | B | 22.3 | Kueche      |           |        |            | Kabelkanal am Fenster / keine-Dose
+B10 | B | 16.5 | Workshop    |           |        |            | Decke ueber Tardis / keine-Dose
+B11 | A | 11.3 | Workshop    |           |        |            | Bodentank / Tardis
+B12 | A | 11.3 | Workshop    |           |        |            | Bodentank / Tardis
+B13 | A |  9.3 | Workshop    |           |        |            | Bodentank / Fenster
+B14 | A |  9.3 | Workshop    |           |        |            | Bodentank / Fenster
+B15 | A | 10.6 | Workshop    |           |        |            | Decke / Projektor
+B16 | A | 10.6 | Workshop    |           |        |            | Decke / Projektor
+B17 | A | 15.0 | Haupt       |           |        |            | Decke / Projektor
+B18 | A | 15.0 | Haupt       |           |        |            | Decke / Projektor
+B19 | - |      | -           |           |        |            |
+B20 | - |      | -           |           |        |            |
+B21 | - |      | -           |           |        |            |
+B22 | - |      | -           |           |        |            |
+B23 | - |      | -           |           |        |            |
+B24 | - |      | -           |           |        |            |
+
+Port|TIA| l[m] | Raum        | Geraet    | Port   | VLAN       | Kommentar
+----+---+------+-------------+-----------+--------+------------+----------------------------
+C01 | - |      | -           |           |        |            |
+C02 | - |      | -           |           |        |            |
+C03 | - |      | -           |           |        |            |
+C04 | - |      | -           |           |        |            |
+C05 | - |      | -           |           |        |            |
+C06 | - |      | -           |           |        |            |
+C07 | - |      | -           |           |        |            |
+C08 | - |      | -           |           |        |            |
+C09 | - |      | -           |           |        |            |
+C10 | - |      | -           |           |        |            |
+C11 | - |      | -           |           |        |            |
+C12 | - |      | -           |           |        |            |
+C13 | - |      | -           |           |        |            |
+C14 | - |      | -           |           |        |            |
+C15 | - |      | -           |           |        |            |
+C16 | - |      | -           |           |        |            |
+C17 | X |      | Haustelefon | direkt    | -      |            | Automatik-Oeffner
+C18 | X |      | Haustelefon | direkt    | -      |            | Taster
+C19 | X |      | Haustelefon | -         | -      |            |
+C20 | X |      | Haustelefon | direkt    | -      |            | Haustelefon
+C21 | X |      | Keller2     | -         |        |            |
+C22 | X |      | Keller1     | rzl-fritz | 2      | -          | analog Telefon
+C23 | - |      | -           | -         |        |            |
+C24 | X |      | DSL         | rzl-edge  | eth0   | -          | DSL Uplink
+</pre>
