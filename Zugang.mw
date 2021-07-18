@@ -1,5 +1,5 @@
 Einfach unter [http://status.raumzeitlabor.de status.raumzeitlabor.de] nachsehen ob jemand da ist. Wenn der
-Status <span style="background:#00ff00; font-variant:small-caps">grün</span> ist, sollte jemand im Raum sein. Ruf einfach das [[Raumtelefon]] des RaumZeitLabor an und sag Bescheid, dass man nicht abhauen soll und du vorbeikommst. Über das Telefon können wir dir auch Hinweise geben, wie du uns [[Anfahrt|finden]] kannst - wir sind leider nicht ganz so einfach zu finden.
+Status <span style="background:#00ff00; font-variant:small-caps">grün</span> ist, sollte jemand im Raum sein. Ruf einfach das [[Raumtelefon]] des RaumZeitLabor an und sag Bescheid, dass man nicht abhauen soll und du vorbeikommst. Über das Telefon können wir dir auch Hinweise geben, wie du uns [[Anfahrt|finden]] kannst.
 
 Als [[Verein#Mitglied_werden|Mitglied]] steht es dir frei, den Raum jederzeit zu nutzen. Hierzu benötigst du eine [[Pinpad|persönliche Pin]]. Bitte achte beim Gehen darauf, ob noch Mitglieder anwesend sind. Das letzte Mitglied, welches den Raum verlässt, ist für das Abschließen des Raumes verantwortlich (Nicht-Mitglieder dürfen aufgrund der Versicherungsbedingungen nicht alleine im Raum bleiben).
 
@@ -9,24 +9,14 @@ Sollte niemand im Raum sein ([http://status.raumzeitlabor.de Status]: <span styl
 Der Raum ist über ein Schließsystem gesichert, das wir selbst implementiert haben. Den Raum kannst du mittels persönlicher PIN öffnen.
 
 === Pin ===
-Deine persönliche Pin wird dir in der [[BenutzerDB]] zugewiesen, nachdem der Vorstand deinen Mitgliedsantrag bearbeitet hat. Die Pin muss nach der eingabe mit der Raute-Taste (#) quittiert werden.
-
-== Getränkelager ==
-Das Getränkelager befindet sich etwas abgelegen auf der Etage; der Schlüssel hängt im Hauptraum. Du findest es, indem du aus dem RZL raus gehst, und dann nach links dem Gang folgst, bis du vor einem mit einer Holzwand zugebauten Abschnitt stehst. Dahinter befindet sich das Getränkelager.
+Deine persönliche Pin wird dir in der [[BenutzerDB]] zugewiesen, nachdem der Vorstand deinen Mitgliedsantrag bearbeitet hat. Die Pin muss nach der Eingabe mit der Raute-Taste (#) quittiert werden.
 
 == Fallback ==
 === Notfall-Pin ===
 Falls die Pin-Synchronisation kaputt ist, hat der Vorstand noch eine feste Notfall-Pin, die immer funktionieren sollte™.
 
 === Schlüssel ===
-Der Vorstand hat Schlüssel um den Hauptraum bzw. die E-Ecke zu öffnen, falls das Schließsystem nicht funktioniert.
-
-Als Notfallbackup gibt es noch unsere zweite Tür. Der Schließzylinder dieser Tür wurde im Herbst 2011 getauscht. Für diesen existieren momentan drei Schlüssel, die wie folgt verteilt sind: 
-
-#Vorstand?
-#Schlüsselkasten
-#Schlüsselkasten
-
+Der Vorstand hat Schlüssel um den Raum zu öffnen, falls das Schließsystem nicht funktioniert.
 
 == Siehe auch ==
 *[[Anfahrt]]
