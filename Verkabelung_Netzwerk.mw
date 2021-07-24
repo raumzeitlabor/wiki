@@ -185,5 +185,18 @@
 |C24||X||||DSL||rzl-edge||eth0||-||DSL Uplink
 |}
 
+{| class="wikitable"
+|+Direkte Kabel
+|-
+!Gerät
+!Port
+!VLAN
+!Kommentar
+|-
+|rzl-sw1||Gi1/1/1||||FritzBox
+|-
+|rzl-sw1||Gi1/1/24||||AVR Onkyo TX-NR646
+|}
+
 
 [[Kategorie:Infrastruktur/Netz]]
