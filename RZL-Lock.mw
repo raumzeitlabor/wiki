@@ -1,7 +1,7 @@
 {{ProjektInfoBox
 |name        = RZL-Lock
 |status      = beta
-|image       = 
+|image       = RZL-Lock--Top-V0.4.2.JPG
 |description = Tür Schloss Manager für [[RZL-Door]]
 |category    = Infrastruktur
 |author      = [[Benutzer:Spike|spike]]
@@ -16,7 +16,7 @@
 }}
 Da das [[RZL-Door|Pinpad]] nicht die Pins speichern soll und ausserdem schön [[Hausbus3|Modern]] sein muss, kümmert sich diese Platine um das Steuern der beiden Türen.
 Das Board wurde Speziell für die Anforderungen im RZL entwickelt und ist durch die diversen Anschlüsse für die Zukunft gerüstet.
-
+[[Datei:RZL-Lock--Top-V0.4.2.JPG|200px|thumb|Oberseite]][[Datei:RZL-Lock--Bot-V0.4.2.JPG|200px|thumb|Unterseite]]
 
 == Aktueller Status ==
 * Hardware ist fertig und getestet.
@@ -44,8 +44,11 @@ Das Board wurde Speziell für die Anforderungen im RZL entwickelt und ist durch 
 == Versorgung ==
 * 24V (Kann bis 9V runter)
 
-== RS485 BUS ==
-192008N1, Protokoll Siehe unten
+== RS485 BUS Protokoll ==
+192008N1, [[RZL-Door|Pinpad]] ist Master.
+=== Format ===
+ [4 Zeichen Command]:[Parameter]\r\n
+
 
 == Firmware ==
 Die Software für den AVR schreibt [[Benutzer:Spike|spike]].
