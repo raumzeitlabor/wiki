@@ -1,0 +1,55 @@
+{{ProjektInfoBox
+|name        = RZL-Lock
+|status      = beta
+|image       = 
+|description = Tür Schloss Manager für [[RZL-Door]]
+|category    = Infrastruktur
+|author      = [[Benutzer:Spike|spike]]
+|maintainer  = [[Benutzer:Spike|spike]]
+|username    = 
+|version     = v0.4.2
+|update      = 
+|platform    = 
+|hostname    = 
+|license     = 
+|download    = 
+}}
+Da das [[RZL-Door|Pinpad]] nicht die Pins speichern soll und ausserdem schön [[Hausbus3|Modern]] sein muss, kümmert sich diese Platine um das Steuern der beiden Türen.
+Das Board wurde Speziell für die Anforderungen im RZL entwickelt und ist durch die diversen Anschlüsse für die Zukunft gerüstet.
+
+
+== Aktueller Status ==
+* Hardware ist fertig und getestet.
+* Software ist brauchbar.
+* MQTT funktioniert auf dem Labortisch.
+
+== Todo ==
+* Board einbauen & in Betrieb nehmen.
+* [[Hausbus3]] Anbindung
+* [[BenutzerDB]] Anbindung
+
+== I/Os ==
+* Pinpad
+* LCD-Display
+* Status LEDs
+* 2 AC Signal Eingänge für Klingel
+* 2 Relais Ausgänge für Haustür
+* 8 24V I/Os
+* 2 Analog Eingänge 0..24V
+* Tür "Auf" Reed Schalter
+* SVP2xxx Interface
+* RS485 zu [[RZL-Door]]
+* ESP32 zu [[Hausbus3]]
+
+== Versorgung ==
+* 24V (Kann bis 9V runter)
+
+== RS485 BUS ==
+192008N1, Protokoll Siehe unten
+
+== Firmware ==
+Die Software für den AVR schreibt [[Benutzer:Spike|spike]].
+Die Software für den ESP32 schreibt [[Benutzer:Spike|spike]].
+
+
+[[Kategorie:Hardware]]
