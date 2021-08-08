@@ -7,7 +7,7 @@
 |author      = [[Benutzer:Spike|spike]],[[Benutzer:DevCoffee|DevCoffee]]
 |maintainer  = [[Benutzer:Spike|spike]]
 |username    = 
-|version     = v0.0.1
+|version     = v0.1.4
 |update      = 
 |platform    = 
 |hostname    = 
@@ -18,6 +18,7 @@ In unserer neuen Location exestiert bereits ein Pinpad mit einem schönen Metall
 Diese muss möglichst originalgetreu ins [[Hausbus3|3. Jahrtausend]] befördert werden.
 Die alte Elektronik stammt übrigens aus Jahr 1986 und funktionierte bis zur Demontage trotz Dauerbetrieb immer noch.
 
+[[Datei:RZL-Door_Original.jpg|200px|thumb|Vorher]][[Datei:RZL-Door--top-V0.1.4.JPG|200px|thumb|Oberseite]][[Datei:RZL-Door--bot-V0.1.4.JPG|200px|thumb|Unterseite]]
 
 == Aktueller Status ==
 * Die originale Elektronik wurde durch eine neue Platine von [[Benutzer:Spike|spike]] ausgetauscht, welche die individuellen [[BenutzerDB]] Pins der Laboranten unterstützt.
@@ -28,22 +29,17 @@ Die alte Elektronik stammt übrigens aus Jahr 1986 und funktionierte bis zur Dem
 * Das Platine für innen ([[RZL-Lock]]) ist fertig und die Software in einem benutzbaren Zustand. Die MQTT hat noch optimierungspotentizal, [[BenutzerDB]]-Anbindung fehlt auch noch.
 
 
-== Grundlegender Aufbau ==
+== I/Os / Technische Daten ==
 * Pinpad
 * Beeeeeper
 * Status LED
-* Temperatursensor
-* Feuchtesensor
-* RS485 zu [[RZL-Lock]]
+* Power LED
+* Temperatur / Feuchte-Sensor
+* RS485 (192008N1) zu [[RZL-Lock]]
+* 4 24V I/Os
+* 1 Analog in 0..24V
 * Atmega32 als zentraler Controller
-
-
-== Versorgung ==
-* 24V (Kann bis 9V runter)
-
-== RS485 BUS ==
-192008N1, Protokoll Siehe [[Rzl-Lock]]
-
+* Versorgung: 24V (kann bis 9V runter)
 
 
 == Firmware ==
