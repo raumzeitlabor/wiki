@@ -19,14 +19,13 @@ Das Board wurde Speziell für die Anforderungen im RZL entwickelt und ist durch 
 [[Datei:RZL-Lock--Top-V0.4.2.JPG|200px|thumb|Oberseite]][[Datei:RZL-Lock--Bot-V0.4.2.JPG|200px|thumb|Unterseite]]
 
 == Aktueller Status ==
-* Hardware ist fertig und getestet.
-* Software ist brauchbar.
-* MQTT funktioniert auf dem Labortisch.
+* Hardware ist Eingebaut und Funktioniert.
+* Der ESP32 für die MQTT-Anbindung ist mangels Broker deaktiviert.
 
 == Todo ==
-* Board einbauen & in Betrieb nehmen.
 * [[Hausbus3]] Anbindung
 * [[BenutzerDB]] Anbindung
+* Klingel Anklemmen
 
 == I/Os ==
 * Pinpad
