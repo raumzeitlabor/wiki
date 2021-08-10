@@ -9,11 +9,11 @@ Sollte niemand im Raum sein ([http://status.raumzeitlabor.de Status]: <span styl
 Der Raum ist über ein Schließsystem gesichert, das wir selbst implementiert haben. Den Raum kannst du mittels persönlicher PIN öffnen.
 
 === Pin ===
-Deine persönliche Pin wird dir in der [[BenutzerDB]] zugewiesen, nachdem der Vorstand deinen Mitgliedsantrag bearbeitet hat. Die Pin muss nach der Eingabe mit der Raute-Taste (#) quittiert werden.
+Deine persönliche Pin wird dir in der [[BenutzerDB]] zugewiesen, nachdem der Vorstand deinen Mitgliedsantrag bearbeitet hat. Zum Aufschliessen die Pin Eingeben. Tür bleibt bis zum Abschiessen mit 666 oder einer beliebigen 6-stellingen Ziffernfolge geöffnet.
 
 == Fallback ==
 === Notfall-Pin ===
-Falls die Pin-Synchronisation kaputt ist, hat der Vorstand noch eine feste Notfall-Pin, die immer funktionieren sollte™.
+Falls die Pin-Synchronisation kaputt ist, sind eine Hand voll Pins fest hinterlegt, die immer Funktionieren sollten™.
 
 === Schlüssel ===
 Der Vorstand hat Schlüssel um den Raum zu öffnen, falls das Schließsystem nicht funktioniert.
