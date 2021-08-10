@@ -20,19 +20,35 @@ Die alte Elektronik stammt übrigens aus Jahr 1986 und funktionierte bis zur Dem
 
 [[Datei:RZL-Door_Original.jpg|200px|thumb|Vorher]][[Datei:RZL-Door--top-V0.1.4.JPG|200px|thumb|Oberseite]][[Datei:RZL-Door--bot-V0.1.4.JPG|200px|thumb|Unterseite]]
 
+== Bedienung ==
+==== Aufschliessen ====
+Einfach Pin Eingeben. Zwei Reaktionen sind möglich:
+*Falsche Pin: Der Beeper Meckert und die LED Blinkt Rot. Bis sie wieder aufhört zu Blinken landen alle Eingaben in /dev/null. Die Blockadezeiten erhöhen sich exponentiell.
+*Richtige Pin: Grüne LED leuchtet, das Schloss entriegelt.
+
+==== Offen ====
+Die LED Leuchtet Grün. Tür ist entriegelt.
+
+==== Abschliessen ====
+* Entweder 666 eingeben
+* Oder 6 Beliebige Zahlen eingeben
+In beiden Fällen erlischt die grüne LED und das Schloss verriegelt. Sollte die Tür noch nicht zu sein, wartet das schloss bis die Tür zu ist.
+
+==== Öffnen von innen ====
+Das Panikschloss öffnet von innen nach aussen immer. Das geht rein mechanisch ohne Strom, Elektronik und Software.
+
+
 == Aktueller Status ==
-* Die originale Elektronik wurde durch eine neue Platine von [[Benutzer:Spike|spike]] ausgetauscht, welche die individuellen [[BenutzerDB]] Pins der Laboranten unterstützt.
+* Die originale Elektronik wurde durch eine neue Platine von [[Benutzer:Spike|spike]] ausgetauscht, welche die individuellen [[BenutzerDB]] Pins der Laboranten unterstützt. Die Steuerung und Pin Prüfung erfolgt durch [[RZL-Lock]].
 * In der Tür wurde das Schloss durch ein Dormakaba SVP 2729 selbstverriegelndes Panik-Motortürschloss von [[Benutzer:DevCoffee|DevCoffee]] und [[Benutzer:Hotaru|Hotaru]] ersetzt und eingebaut.
 * Der Summer wurde ausgebaut und durch ein normales Schließblech erstzt.
-* Die Pinpad Platine läuft mit 12V, das Türschloss mit 24V, weshalb neben einem zusätzlichen Netzteil der Summer-Ausgang des Pinpads mit einem Relais an das Türschloss angebunden wurde.
-* Die Tür ist dauerhaft verriegelt und kann mithilfe des Pinpads für die Dauer des Summers entriegelt werden.
-* Das Platine für innen ([[RZL-Lock]]) ist fertig und die Software in einem benutzbaren Zustand. Die MQTT hat noch optimierungspotentizal, [[BenutzerDB]]-Anbindung fehlt auch noch.
+* Die Tür verhält sich im wesentlichen wie im alten RZL.
 
 
 == I/Os / Technische Daten ==
 * Pinpad
 * Beeeeeper
-* Status LED
+* Status LED (Rot/Grün)
 * Power LED
 * Temperatur / Feuchte-Sensor
 * RS485 (192008N1) zu [[RZL-Lock]]
