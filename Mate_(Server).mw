@@ -155,12 +155,32 @@ Rebootfest gibt an, ob die Dienste innerhalb der VM nach einem Reboot der VM von
 ! Arbeitsspeicher
 ! Plattenplatz
 |-
+| [[Mate (Server)/cashdesk.rzl]]
+| 512 MB
+| 20 GB
+|-
+| [[Mate (Server)/datengrab.rzl]]
+| 512 MB
+| 2720 GB
+|-
+| [[Mate (Server)/hax404.vm]]
+| 2048 MB
+| 20 GB
+|-
+| [[Mate (Server)/infra.rzl]]
+| 3072 MB
+| 40 GB
+|-
+| [[Mate (Server)/ranlvor.vm.rzl]]
+| 256 MB
+| 10 GB
+|-
 | '''Gesamt'''
-| '''0 MB / 12001 MB (0% belegt)'''
-| '''0 TB / 5.3 TB (0% belegt)'''
+| '''6400 MB / 12001 MB (53.33% belegt)'''
+| '''2.7 TB / 5.3 TB (52.04% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2021-08-22 00:00:01
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2021-08-25 00:00:02
 
 == Unterseiten ==
 <splist />
