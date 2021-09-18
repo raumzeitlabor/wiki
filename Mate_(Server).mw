@@ -175,12 +175,16 @@ Rebootfest gibt an, ob die Dienste innerhalb der VM nach einem Reboot der VM von
 | 256 MB
 | 10 GB
 |-
+| [[Mate (Server)/unifi.vm.rzl]]
+| 750 MB
+| 20 GB
+|-
 | '''Gesamt'''
-| '''6400 MB / 12001 MB (53.33% belegt)'''
-| '''0.1 TB / 5.3 TB (2.22% belegt)'''
+| '''7150 MB / 12001 MB (59.58% belegt)'''
+| '''0.1 TB / 5.3 TB (2.59% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2021-09-13 00:00:02
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2021-09-19 00:00:01
 
 == Unterseiten ==
 <splist />
