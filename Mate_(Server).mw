@@ -159,10 +159,6 @@ Rebootfest gibt an, ob die Dienste innerhalb der VM nach einem Reboot der VM von
 | 512 MB
 | 20 GB
 |-
-| [[Mate (Server)/datengrab.rzl]]
-| 512 MB
-| 2720 GB
-|-
 | [[Mate (Server)/db.rzl]]
 | 512 MB
 | 30 GB
@@ -175,10 +171,6 @@ Rebootfest gibt an, ob die Dienste innerhalb der VM nach einem Reboot der VM von
 | 3072 MB
 | 40 GB
 |-
-| [[Mate (Server)/qrgo.vm.rzl]]
-| 256 MB
-| 10 GB
-|-
 | [[Mate (Server)/ranlvor.vm.rzl]]
 | 256 MB
 | 10 GB
@@ -188,11 +180,11 @@ Rebootfest gibt an, ob die Dienste innerhalb der VM nach einem Reboot der VM von
 | 20 GB
 |-
 | '''Gesamt'''
-| '''7918 MB / 12001 MB (65.98% belegt)'''
-| '''2.8 TB / 5.3 TB (53.15% belegt)'''
+| '''7150 MB / 12001 MB (59.58% belegt)'''
+| '''0.1 TB / 5.3 TB (2.59% belegt)'''
 |}
 
-Automatisch geupdatet von [[Benutzer:Matebot]] am: 2021-09-22 00:00:01
+Automatisch geupdatet von [[Benutzer:Matebot]] am: 2021-09-24 00:00:01
 
 == Unterseiten ==
 <splist />
