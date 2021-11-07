@@ -1,4 +1,6 @@
-= Themen für das nächste Plenum =
+= Plenum am 7.11.2021 =
+
+Helix protokolliert. Plenum beginnt nach leichtem w&d (hier steht alles voll! Räumt euren Krams bitte auf/weg) um 12:10 Uhr.
 
 == Realitätsabgleich ==
 
@@ -13,12 +15,32 @@
 
 * Von allen Anwesenden wurde im Web-of-Trust-Modell u.a. durch echo_mirage und Helix sowohl der vorhandene Immunitätsstatus als auch das Einchecken mit der Corona-Warn-App überprüft.
 * Wir halten das [[Hygienekonzept]] ein. Alle Anwesenden sind mit dem Hygienekonzept einverstanden. Für Leute, die wollen, hat ABrock Tests mitgebracht. Testung erfolgt auf freiwilliger Basis.
+* Wir lüften mehrfach während des Plenums
 
 === Beschlüsse aus dem letzten Plenum ===
 Wann war das? Keiner erinnert sich daran. War das bei der letzten Online-MV? Wir überspringen diesen Teil einfach mal.
 
 == Anschaffungen ==
+Finanzstatus: am 30.10. sind noch 10.100€ da gewesen, aber aktueller Stand ist ca. >8000€.
+
+=== Videoaufzeichnungssystem ===
 * [[1votz]] --[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 02:26, 7. Okt. 2021 (CEST)
+* Wir haben ein wenig Zeitdruck, weil wir beim rC3 gerne Video aufzeichnen würden
+* Diskussionen:
+** Diebstahlargument zieht nicht, weil wir die Kamera ja mit Heißkleber befestigen können
+** Bei der Marshall-Cam brauchen wir nur PoE, das finden wir aktuell ganz knorke.
+** Was für ein PoE? Finden wir noch raus.
+** Die Marshall-Cam kostet ~2600€, die Blackmagic mindestens genauso viel
+* Wir bräuchten noch einen Raspi 4 und irgendwas zum Abspeichern (HDDs liegen bestimmt noch irgendwo rum) ~120€
+* Außerdem bestellen wir noch Taster und Elektronikzubehör zum Steuern des Pi, Budget ~50€
+* zum Schneiden oder livestreamen kaufen wir irgendwann™ einen Rechner, aktuell zu teuer
+* Mikrofone
+** Hygienediskussion: Wir haben nicht mehrere Vorträge hintereinander, aber tauschen dann einfach die Popschütze aus
+** Schwanenhals oder Ansteckmikrofone
+*** why not both? Kaufen wir doch erst mal zwei Schwanenhalsmikrofone (je 77€) und Rode Wireless Go II (265€) mit 2x Lavalier Go (je 60€)
+** wir wollen auf jeden Fall ein Audiointerface, was die Streams separat aufzeichnen kann. Vorschlag von Feli: [https://www.thomann.de/de/soundcraft_signature_12mtk.htm Soundcraft 12MTK] für 428€
+* HDMI-Grabber mit Durchreiche: 25€
+* Audiozubehör (Kabel etc.) 50€
 
 == Vorhaben ==
 
