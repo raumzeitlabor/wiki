@@ -1,6 +1,6 @@
 = Plenum am 7.11.2021 =
 
-Helix protokolliert. Plenum beginnt nach leichtem w&d (hier steht alles voll! Räumt euren Krams bitte auf/weg) um 12:10 Uhr.
+Helix protokolliert. Plenum beginnt nach leichtem w&d (hier steht alles voll! Räumt euren Krams bitte auf/weg) um 12:10 Uhr. Ende 14:00 Uhr.
 
 == Realitätsabgleich ==
 
@@ -12,6 +12,8 @@ Helix protokolliert. Plenum beginnt nach leichtem w&d (hier steht alles voll! R�
 ** echo_mirage
 ** mArCo
 ** Lordeis
+
+= 8 Personen anwesend
 
 * Von allen Anwesenden wurde im Web-of-Trust-Modell u.a. durch echo_mirage und Helix sowohl der vorhandene Immunitätsstatus als auch das Einchecken mit der Corona-Warn-App überprüft.
 * Wir halten das [[Hygienekonzept]] ein. Alle Anwesenden sind mit dem Hygienekonzept einverstanden. Für Leute, die wollen, hat ABrock Tests mitgebracht. Testung erfolgt auf freiwilliger Basis.
@@ -26,10 +28,14 @@ Finanzstatus: am 30.10. sind noch 10.100€ da gewesen, aber aktueller Stand ist
 === Videoaufzeichnungssystem ===
 * [[1votz]] --[[Benutzer:Helix|Helix]] ([[Benutzer Diskussion:Helix|Diskussion]]) 02:26, 7. Okt. 2021 (CEST)
 * Wir haben ein wenig Zeitdruck, weil wir beim rC3 gerne Video aufzeichnen würden
+* Wir verwenden dafür eine Großspende der Hopp Foundation, freuen uns aber über weitere Spenden, da noch ca. 1000€ für zukünftige Computergedöns fehlen
 * Diskussionen:
 ** Diebstahlargument zieht nicht, weil wir die Kamera ja mit Heißkleber befestigen können
 ** Bei der Marshall-Cam brauchen wir nur PoE, das finden wir aktuell ganz knorke.
 ** Was für ein PoE? Finden wir noch raus.
+
+=== konkrete Einkaufsliste ===
+
 ** Die Marshall-Cam kostet ~2600€, die Blackmagic mindestens genauso viel
 * Wir bräuchten noch einen Raspi 4 und irgendwas zum Abspeichern (HDDs liegen bestimmt noch irgendwo rum) ~120€
 * Außerdem bestellen wir noch Taster und Elektronikzubehör zum Steuern des Pi, Budget ~50€
@@ -38,13 +44,28 @@ Finanzstatus: am 30.10. sind noch 10.100€ da gewesen, aber aktueller Stand ist
 ** Hygienediskussion: Wir haben nicht mehrere Vorträge hintereinander, aber tauschen dann einfach die Popschütze aus
 ** Schwanenhals oder Ansteckmikrofone
 *** why not both? Kaufen wir doch erst mal zwei Schwanenhalsmikrofone (je 77€) und Rode Wireless Go II (265€) mit 2x Lavalier Go (je 60€)
+** Für Zuschauerfragen: [https://www.thomann.de/de/akg_wms_40_mini_vocal_ism3.htm AKG WMS 40] für 78€ mit 6,3mm ballistischem Ausgang und explizit ohne Diversity, weil uns Diversity zu teuer ist (>200€)
 ** wir wollen auf jeden Fall ein Audiointerface, was die Streams separat aufzeichnen kann. Vorschlag von Feli: [https://www.thomann.de/de/soundcraft_signature_12mtk.htm Soundcraft 12MTK] für 428€
 * HDMI-Grabber mit Durchreiche: 25€
 * Audiozubehör (Kabel etc.) 50€
 
+Gesamt: **3890€**
+
+=== Abstimmung ===
+Jeder hat sich innerhalb der Diskussion die Alternativen angeschaut, das obige hat sich als abstimmungswürdig herauskristallisiert.
+
+Sollen wir den Bums kaufen? Dafür: 8, Dagegen: 0, Enthaltung: 0 -> einstimmig angenommen. Fragen wir doch mal den Kassenwart!
+
 == Vorhaben ==
+* Das RaumZeitLabor braucht Leute, die da sind und Dinge anpacken
+* das Hygienekonzept funktioniert
+* beim rC3 machen ein paar Personen vermutlich Assembly
+* Wir wissen nicht, welcher Kram hier Projekt in progress ist, am besten ist man wohl mal da und lässt sich erzählen, was abgeht
+* Dienstags sind ab und an wieder Leute da
+* echo_mirage erzählt einen Schwank aus seiner und ABrocks längst vergangenen Jugend, es sollen wohl Bilder aufgetaucht sein.
 
 === Weltherrschaft ===
+Es wurden Fortschritte gemacht. Diese sind als VS-VERTRAULICH klassifiziert.
 
 [[Kategorie:Plenum]]
 [[Kategorie:Protokoll]]
