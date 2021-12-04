@@ -177,7 +177,11 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 |-----
 | 172.22.36.136 || logcam.rzl || WIFI SD
 |-----
-| 172.22.36.'''137 - 199''' || ''reserviert'' || Ungenutzt
+| 172.22.36.137 || CV630-IP || Hauptraum PTZ Cam
+|-----
+| 172.22.36.138 || HEV-10 || Hauptraum HMDI capture
+|-----
+| 172.22.36.'''139 - 199''' || ''reserviert'' || Ungenutzt
 |-----
 | 172.22.36.'''200 - 235''' || ''IP-Netz für VMs'' || IP-Adressen für die virtuellen Maschinen auf [[Mate (Server)]]
 |-----
