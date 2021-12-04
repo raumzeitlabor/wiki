@@ -1,0 +1,76 @@
+{{GeraetInfoBox
+|name          = Kamera
+|status        = obsolete
+|image         = Kamera.jpg
+|manufacturer  = Toshiba
+|model         = Camileo X200 FullHD
+|description   = 
+|documentation = 
+|owner         = 
+|username      = 
+|financing     = 
+|location      = 
+}}
+[[Image:Kameraposition_ideal.jpg|thumb|Ideale Kameraposition|200px|right|Ideale Kameraposition]]
+[[Image:Testbild.jpg|thumb|Testbild|200px|right|Testbild]]
+Das RaumZeitLabor besitzt eine Toshiba Camileo X200 FullHD-Kamera zum Aufzeichnen von Vorträgen. Sollte sich in der Vortragsaufzeichnungskiste im Regal an der Fensterwand (auch) eine andere Kamera befinden, ist diese wahrscheinlich aufgrund ihrer Bildqualität und Zuverlässigkeit der Raumkamera vorzuziehen. Aufgrund der Entfernung zwischen Kamera und Vortragenden und weil in Kamera eingebaute Mikrofone vergleichsweile wenig gute Qualität bieten, werden Audiospuren seperat aufgezeichnet.
+
+'''Wichtig''': Macht euch mit dieser Anleitung vertraut, bevor ihr die Kamera nutzt!!1!
+
+== Checkliste für Vortrags-Aufzeichnungen ==
+Vorbereitung:
+
+# Kamera, Stativ, und Zubehör befinden sich in einer Kiste im Schrank unter dem Rednerpult (unteres Fach).
+# Kamera an Strom anschliessen
+# Kamera an der idealen Position aufstellen (siehe Bild).
+# Kontrollieren, dass man das vollständige Beamerbild sieht und den Vortragenden.
+# Kontrollieren, dass genug Speicher auf der SD-Karte frei ist (die Kamera zeigt auf dem LCD die verbleibende Aufnahmezeit an). Sofern nötig alte Aufnahmen löschen (Aufnahmen müssen nach Benutzung der Kamera direkt kopiert werden, wichtige Daten liegen niemals '''nur''' auf der SD-Karte).
+# Audiorekorder aus dem Regal holen und am Tischende aufstellen.
+# Kontrollieren, dass genug Speicher auf der SD-Karte frei ist.
+# Einstellungen des Audiorekorders (Aufnahmeformat ohne Kompression, Mikrofonwahl, Pegel, kein Auto-Stop) überprüfen. Im Zweifelsfall mit angeschlossenen Kopfhörern testen und/oder auf Werkseinstellungen zurücksetzen.
+# Dinge vom Tisch nehmen, die im Bild stehen
+# Das Licht beim Beamer ausschalten, bei der Tafel anlassen
+# Nach der Nutzung alles wieder an seinen Platz legen
+
+Aufnahme starten:
+
+# Bei der Kamera auf den Aufnahme-Knopf drücken. Ein roter Punkt erscheint im Display.
+# Beim Audiorekoreder auf die breite Taste unter dem Display drücken. Über dem Display leuchtet während der Aufnahme ein roter Punkt.
+
+== Bearbeitung ==
+
+=== Nötige Dateien ===
+
+# [[RZL_Introvideo]] (RZL-Introvideo, Full HD)
+# [[Datei:RZL_Vorlage-2012-08-28.tar.bz2]] (Projekt-Datei für kdenlive, Schriftart, CC-BY-Logo, Synchronisations-Sound)
+Vorsicht, die Datei ist eine Tarbomb! Am besten für jedes Video so benutzen (wichtig ist, dass man kdenlive im selben Verzeichnis startet):
+ cd ~/videos/2012-08-28/
+ tar xf ~/Downloads/RZL_Vorlage-2012-08-28.tar.bz2
+ kdenlive *.kdenlive
+
+Einmalig muss man die Font installieren:
+ tar xf ~/Downloads/RZL_Vorlage-2012-08-28.tar.bz2 -C ~/.fonts miso.otf
+ fc-cache -fv
+
+(Die Schriftart stammt von http://martennettelbladt.se/miso/)
+
+=== Video-Bearbeitung mit Kdenlive ===
+
+Beim Öffnen der Kdenlive-Projekt-Datei besteht die Möglichkeit, den korrekten Pfad der Introdatei und des Logos der cc-Lizenz zu lokalisieren. Dazu einfach im automatisch aufpoppenden Fenster ("Clip Problems") auf "Search recursively" klicken und das Verzeichnis auswählen.
+
+Das Intro besteht aus zwei Title Clips und einem Videoteil. Der zweite Title Clip enthält Vortragsspezifische angaben. Zum Bearbeiten dieser empfielt sich ein Doppelklick auf das Vorschaubild in der Clip-Liste (links oben). Nach dem Anpassen des Vortragstitels, des Namens des Vortragenden und des Datums das Fenster mit OK schließen, erneut öffnen und die Textelemente einzeln nacheinander zentrieren. Dazu Textelement anklicken, dann rechts auf die Schaltfläche mit dem Icon mit den zwei horizontalen blauen Pfeilen mit der vertikalen roten Linie in der Mitte klicken. Dann wieder mit OK anwenden.
+
+Die Video- und Audioaufzeichnungen können per Drag & Drop in die Clip-Liste hinzugefügt werden. Danach können sie in die Zeitleiste (unterer Teil von Kdenlive) hinzugefügt, dort beschnitten, positioniert und weiter bearbeitet werden. Synchronisieren der Audiospur nicht vergessen.
+
+Fade-Effekte für Ton und Bild können am einfachsten über das Kontextmenü des entsprechenden Clips in der Zeitleiste hinzugefügt werden: Rechtsklick -> Add Effect -> Fade -> Fade in/Fade out
+
+Bei den meisten Vorträgen, die den Beamer benutzt haben (abgedunkelter Raum), ist es sinnvoll, das Bild etwas aufzuhellen. In kdenlive kann man dazu den Effekt "Colour correction - Curves" zum Video hinzufügen und einen Punkt oberhalb der Normallinie anklicken (z.B. bei ca. 600x800).
+
+=== Audio-Nachbearbeitung mit Auphonic ===
+
+Zur Aufbereitung der Audiospur empfliehlt sich die Datei durch [https://auphonic.com/ Auphonic] laufen zu lassen. Im Zweifelsfall schadet es dabei nicht, alle Filter einzuschalten.
+
+Man kann auch die fertige Video-Datei (bis 16 GB) durch Auphinic audioverbessern lassen. Im Auphonic-Konto des RZL (Username "rzl") gibt es dafür das Preset "Vortrag (Fertiges Video)". Dabei können auf der Bearbeitungsseite der Auphonic-Produktion Tags für YouTube vergeben werden und das Video wird automatisch im YouTube-Kanal des RZL veröffentlicht.
+
+[[Category:Procedures]]
+[[Category:Vortrag]]
