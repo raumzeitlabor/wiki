@@ -1,1 +1,44 @@
-#WEITERLEITUNG [[OLD Kamera]]
+{{GeraetInfoBox
+|name          = Kamera
+|status        = working
+|image         = 
+|manufacturer  = Marshall
+|model         = CV630-IP
+|description   = PTZ Kamera
+|documentation = https://marshall-usa.com/pdf/CV630-IP_Manual.pdf
+|owner         = RaumzeitLabor
+|username      = admin
+|financing     = 
+|location      = Hauptraum
+}}
+
+
+'''Wichtig''': Macht euch mit dieser Anleitung vertraut, bevor ihr die Kamera nutzt!!1!
+
+== Hardware ==
+Die Cam hat PTZ Funktionalität (also Pan, Tilt, Zoom) und kann damit sehr frei fast alle Winkel im Hauptraum filmen.
+Es gibt verschiedene Streams mit unterschiedlichen Auflösungen.
+
+== Stream ==
+Die Cam spuckt einen RTSP Stream aus, wenn sie an (nicht im Standby) ist.
+Diesen Stream kann man einfach in VLC öffnen oder gleich in OBS als eine Quelle nutzen
+
+URLs: 
+
+Stream 1 | rtsp://172.22.36.137:8554/hevc | 4K, 29.97 fps
+Stream 2 | rtsp://172.22.36.137:8557/h264 | 1080p, 29.97 fps
+
+== Bedienung ==
+Die Cam lässt sich auf mindestens 3 Arten steuern:
+* über eine Hardware-Fernbedienung (Tasten 1-10 fahren gespeicherte Positionen an)
+* über das Webinterface der Kamera (credentials: admin:9999)
+* über ein OBS Plugin (https://marshall-usa.com/cameras/CV630-IP/)
+
+== WIP ==
+* Kabeldurchführung durch die Deckenplatte
+* Drehung um 90° um den Drehanschlag besser zu positionieren
+* Audio-In Kabel kaufen+verlegen (nach Einigung über Mixersituation)
+
+
+[[Category:Procedures]]
+[[Category:Vortrag]]
