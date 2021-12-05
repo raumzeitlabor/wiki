@@ -24,7 +24,7 @@ Diesen Stream kann man einfach in VLC öffnen oder gleich in OBS als eine Quelle
 {| class="wikitable" width="100%"
 !  || URL || Auflösung + FPS
 |-----
-| Stream 1 | rtsp://172.22.36.138:8554/live0 | 1080p, 30fps
+| Stream 1 || rtsp://172.22.36.138:8554/live0 || 1080p, 30fps
 |}
 
 
