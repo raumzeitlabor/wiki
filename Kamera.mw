@@ -17,16 +17,21 @@
 
 == Hardware ==
 Die Cam hat PTZ Funktionalität (also Pan, Tilt, Zoom) und kann damit sehr frei fast alle Winkel im Hauptraum filmen.
-Es gibt verschiedene Streams mit unterschiedlichen Auflösungen.
+Es gibt 3 verschiedene Streams mit unterschiedlichen Auflösungen/fps, wenn man will.
+Die Cam kann maximal 4K@30fps, spuckt dann aber anscheinend auf den alternativ-streams keine 60p mehr aus.
 
 == Stream ==
 Die Cam spuckt einen RTSP Stream aus, wenn sie an (nicht im Standby) ist.
 Diesen Stream kann man einfach in VLC öffnen oder gleich in OBS als eine Quelle nutzen
 
-URLs: 
+{| class="wikitable" width="100%"
+!  || URL || Auflösung + FPS
+|-----
+| Stream 1 || rtsp://172.22.36.137:8554/hevc || 1080p, 59.94 fps
+|}
 
-Stream 1 | rtsp://172.22.36.137:8554/hevc | 4K, 29.97 fps
-Stream 2 | rtsp://172.22.36.137:8557/h264 | 1080p, 29.97 fps
+Momentan so eingestellt, damit es einen 60p Stream gibt.
+Die Weiterverarbeitung von 4K streams macht eh mehr Kopfschmerzen.
 
 == Bedienung ==
 Die Cam lässt sich auf mindestens 3 Arten steuern:
