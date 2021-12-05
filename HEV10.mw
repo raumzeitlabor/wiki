@@ -21,9 +21,11 @@ Das heißt <Gerät> <--> <HEV-10> <--> <Beamer>. Wobei alles, was HDMI macht geh
 Die Box spuckt einen RTSP Stream aus, wenn sie an ist.
 Diesen Stream kann man einfach in VLC öffnen oder gleich in OBS als eine Quelle nutzen
 
-URLs: 
-
-Stream 1 | rtsp://172.22.36.138:8554/live0 | 1080p, 30fps
+{| class="wikitable" width="100%"
+!  || URL || Auflösung + FPS
+|-----
+| Stream 1 | rtsp://172.22.36.138:8554/live0 | 1080p, 30fps
+|}
 
 
 [[Category:Procedures]]
