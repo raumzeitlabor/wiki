@@ -1,0 +1,30 @@
+{{GeraetInfoBox
+|name          = HDMI Capture
+|status        = working
+|image         = 
+|manufacturer  = DDMALL
+|model         = HEV-10
+|description   = PTZ Kamera
+|documentation = https://www.ddmalltech.com/de/products/h-265-h-264-hdmi-video-encoder-supports-4k-60hz-hdmi-input-and-real-time-local-loop-output-compact-size-rtmp-rtmps-rtsp-ts-udp-rtp-multicast-unicast-youtube-live-facebook-and-more
+|owner         = RaumzeitLabor
+|username      = admin
+|financing     = 
+|location      = Hauptraum
+}}
+
+== Hardware ==
+Diese kleine Kiste macht HDMI-Loop-through und spuckt gleichzeitig den Inhalt (mit Audio!) als RTSP Stream raus.
+Das heißt <Gerät> <--> <HEV-10> <--> <Beamer>. Wobei alles, was HDMI macht geht (also zB auch eine Nintendo Switch oder so)
+
+
+== Stream ==
+Die Box spuckt einen RTSP Stream aus, wenn sie an ist.
+Diesen Stream kann man einfach in VLC öffnen oder gleich in OBS als eine Quelle nutzen
+
+URLs: 
+
+Stream 1 | rtsp://172.22.36.138:8554/live0 | 1080p, 30fps
+
+
+[[Category:Procedures]]
+[[Category:Vortrag]]
