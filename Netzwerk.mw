@@ -28,38 +28,30 @@ Das [[Rack]] befindet sich in der [[E-Ecke]] und enthält das Patchpanel, unsere
 Wir haben mittlerweile eine eigene Leitung. Mehr dazu gibt es unter [[Internet]].
 
 === IPv4 ===
-
 Geht derzeit **direkt** raus über die Deutsche Telekom.
 
 === IPv6 ===
-
-Ging früher über docsteel, wegen MTU Problemen jetzt aber über sixxs.net (Account von else). Wir announcen 2001:4dd0:fd3f::/64. Noch schöner wäre HE.net mit BGP Routing, allerdings benötigt man hierzu einen statischen IPv4 Endpoint.
-
-'''Alle Geräte im RaumZeitLabor sind bei aktiviertem IPv6 direkt aus dem Internet erreichbar und bekommen einen festen Hostnamen'''
-* z.B. ipv6-00000a1196fffe3eb30c.nutzer.raumzeitlabor.org
-
-IPv6 reverse DNS läuft über premium.raumzeitlabor (eigener DNS).
-
-* Reverse Delegation ist in sixxs.net gepflegt (Else)
-* wird über [http://all-knowing-dns.zekjur.net/ all-knowing-dns] abgewickelt (läuft auf eigener IPv6, ipv6-rdns.raumzeitlabor.de)
-* Zone für rDNS ist ipv6-*.nutzer.raumzeitlabor.org
+Es werden Präfixe aus dem Netz der Deutschen Telekom (veränderlich) und dem DN42 (statisch) verteilt.
 
 == Sicherheit ==
 Wenn du im Netzwerk (mit oder ohne Kabel) hängst, ist dein Computer im dn42.net und via IPv6 öffentlich (!) erreichbar.
 
 == dn42 ==
-Das dn42 ist ein VPN, welches Chaostreffs, Hackerspaces und sonstige Chaoten vernetzt. Siehe [http://dn42.net dn42.net]
+Das dn42 ist ein VPN, welches Chaostreffs, Hackerspaces und sonstige Chaoten vernetzt. Siehe [https://dn42.net dn42.net]
 
 Wir nehmen als AS64636 teil mit 9 verschiedenen Peerings (zu jchome, ichdasich, welterde, mittagessen, nobody, docsteel, Felicitus, hax404, nazco).
 
+Unsere Zuteilungen:
+ - IPv4: 172.22.36.0/23
+ - IPv6: fd4e:a4d9:1add::/48
+
 == WLAN ==
-Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir gerne auf Nachfrage mitgeteilt :)
+Unser WLAN ist WPA2-verschlüsselt. Der Key hängt im Raum aus, oder wird dir gerne auf Nachfrage mitgeteilt :)
 
 === Aktive Access Points ===
 * 2x UniFi Pro (2,4GHz und 5GHz simultan):  "RZL-hardcore", "RZL-hardcore5"(5GHz only) sowie "RZL-hardcore24"(2.4GHz only).
 ** Liegt auf der Beamerplattform und im Nebenraum.
 ** Läuft mit original Firmware.
-** POE über LAN Port 9 am Patchfeld(kommt auf der Plattform auf Port 10 raus, Label sind vertauscht) und Nebenraum Uplink 4.
 
 == Hosts ==
 
@@ -71,16 +63,7 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 * NTP-Server: 172.22.36.1
 * DHCP-Server: 172.22.36.1
 
-=== 2001:4dd0:fd3f::/64 ===
-
-{| class="wikitable" width="100%"
-|-----
-! IP-Adresse || Hostname || Beschreibung
-|-----
-| 2001:4dd0:fd3f:0:ba27:ebff:fe50:fafc || pinpad-main || Pinpad Haupttür
-|}
-
-=== 172.22.36.0/23 ===
+=== VLAN Default (172.22.36.0/23, fd4e:a4d9:1add:1::/64) ===
 
 {| class="wikitable" width="100%"
 |-----
@@ -280,6 +263,39 @@ Unser WLAN ist WPA-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ger
 | 172.22.37.'''10 - 110''' || '''dhcp''' || DHCP-Range (unfiltered)
 |}
 
+=== VLAN 42 IoT (10.5.0.0/24, fd4e:a4d9:1add:3::/64) ===
+VLAN für Internet of Things. Zugriff nur aus default-VLAN. Ausgehend nur Zugriff auf ausgewählte Dienste wie DNS, NTP, MQTT-Broker.
+
+{| class="wikitable" width="100%"
+|-----
+! IP-Adresse || Hostname || Beschreibung
+|-----
+| 10.5.0.1 || [[firebox]] || Router
+|-----
+| 10.5.0.2 || unused || unused
+|-----
+| 10.5.0.3 || unused || unused
+|-----
+| 10.5.0.4 || unused || unused
+|-----
+| 10.5.0.5 || unused || unused
+|-----
+| 10.5.0.6 || unused || unused
+|-----
+| 10.5.0.7 || unused || unused
+|-----
+| 10.5.0.8 || unused || unused
+|-----
+| 10.5.0.9 || unused || unused
+|-----
+| 10.5.0.'''10 - 254''' || '''dhcp''' || DHCP-Range
+|}
+
+=== VLAN 64 NAT64 (WIP, fd4e:a4d9:1add:2::/64) ===
+VLAN für Praxistests in einer IPv6-only Umgebung.
+
+ToDo: NAT64 hochziehen.
+
 === 10.23.42.0/24 ===
 
 Management-Netzwerk für Switches und Access Points.
@@ -310,7 +326,9 @@ Management-Netzwerk für Switches und Access Points.
 |-----
 | (Untaggt) || Default-Netz
 |-----
-| 42 || IOT
+| 42 || IoT
+|----
+| 64 || NAT64
 |-----
 | 666 || Uplink
 |-----
