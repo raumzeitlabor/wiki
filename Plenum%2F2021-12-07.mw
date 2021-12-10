@@ -1,0 +1,67 @@
+= RZL Plenum Dezember 2021 =
+
+Anwesend: ?? Personen
+
+Start: 2021-12-07 20:23 Uhr (Nach RZL MV 2021)
+
+
+== Räumlichkeiten ==
+Die initiale Planung in Sweet-Home 3d aus dem letzten Jahr hat sich im Wesentlichen bestätigt.
+
+== Cashdesk ==
+ - Kann jetzt die neuen Getränke und Snacks über EAN-Codes scannen
+ - Die Datenbank heißt example.db (sqlite) und liegt auf cashdesk.rzl.so, am einfachsten erreichbar über Mate.rzl.so
+
+== Labortische ==
+Fertig, bis auf fehlende Brüstungskanäle und Elektrik
+
+== Beleuchtung ==
+ - Alle Deckenpanels durch LED-Panels ersetzt
+ - Alte Beleuchtung wurde fachgerecht entsorgt
+ - Weiße LEDs sind 4000K licht-warm
+ - 8 Pannels mit RGBW (W == 4000K)
+ - Küche und Flur sind nicht mit RGBW-Pannels ausgestattet
+ - LED-Streifen RGBWW vom Olymp sind für weiteres Verbauen verfügbar (mehr bunt!)
+
+== Leinwände ==
+ - Hauptraum: Elektrisch und fernsteuerbar via Rest/MQTT (150" (332x187cm), sehr sehr breit)
+ - Workshopraum: handbetrieben, muss noch montiert werden, nachdem die Tafel montiert wurde (130" (295x165cm), sehr breit)
+
+== Deko ==
+Infinity mirror: RGBWW, ESP8266 mit WLED-Firmware
+
+== Vortragsaufzeichnungsequipmentdiskussionsgrundlagen ==
+ - Gekauft:
+     - Cam mit
+         - RTSP out
+         - 3,5mm Klinke Audio in
+         - 3G SDI out
+         - HDMI out
+     - HDMI-Tap mit RTSP out
+     - RØDE wireless GO II kabellose Mikrofone mit optional Klinke in
+         - Plastikgriff für Zuschauerfragen
+     - Lavaliermikros mit Kline out (zurück schicken?)
+     - Mischpult
+         - Hat Vorteile im normalen Betrieb
+         - Unter Linux nur betreibbar, wenn batteriebetrieben
+         - Vorschlag von Lordeis: Tausch gegen anderes mit richtiger Linuxkompatibilität
+         - Vorschlag hax404: Aktuelles Mischpult zurück schicken und darauf warten, dass besseres Mischpult lieferbar ist und dieses nach einer neuen Diskussion beschaffen.
+         - Beschluss: Das Mischpult und Schwanenhalsmikro werden zurück gesendet. Alternative Geräte werden getestet und später besprochen.
+
+== Todo ==
+ - CO2-Löscher müssten geprüft werden (Oko will sich kümmern)
+ - Tafel im Workshopraum aufhängen (passiert vermutlich diese Woche noch)
+ - Leinwand im Workshopraum aufhängen (siehe oben)
+ - Fahrstuhlschacht mit Moltonvorhang abdichten
+ - Tardis 1 sortieren und mit Labels beschriften
+ - Snackregal sortieren und aufhübschen
+ - Raumautomatisierung
+     - Stromzähler mit Modbus ist verbaut
+ - Keller
+     - Drainage wird durch Vermieter freigelegt -> künftig trockener Kellerraum(?)
+     - VDSL-Geräte für 100Mbit/s sind vorhanden, VDSL ADAPTER ist Allied Telesys AT-MC605 
+     - Todo: WLAN
+ - E-Ecke:
+     - Ecke neben Laser (Materialregal wäre wunsch)
+     - Sandwichplatte in E-Ecke für Laserabluft verbauen
+ - mehr Deko!
