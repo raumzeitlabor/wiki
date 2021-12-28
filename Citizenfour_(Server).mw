@@ -254,7 +254,7 @@ UDP:
 Falls du den Server rebootet hast und bemerkst, dass der Docker nicht rebootfest ist: Folgendes magische Kommando bootet den Docker ordnungsgemäß.
 
 <code>
-docker start a7f35a54a870 && sleep 10 && docker start 4b5254424853 && sleep 10 && docker start 5f7c99507988 && sleep 10 && docker start 9255e89bf9ed && sleep 10 && docker stop a7f35a54a870
+docker start a7f35a54a870 && sleep 10 && docker start 4b5254424853 && sleep 10 && docker start 5f7c99507988 && sleep 10 && docker start 9255e89bf9ed && sleep 10 && docker stop a7f35a54a870 4b5254424853
 </code>
 
 Die Startreihenfolge der Docker-Container ist wichtig, da Docker die IPv4-Addressen beim Start der Container fortlaufend vergibt und verschiedene Configurationsdateien genau diese IP-Addressen fest eingetragen haben.
