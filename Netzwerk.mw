@@ -83,7 +83,7 @@ Unser WLAN ist WPA2-verschlüsselt. Der Key hängt im Raum aus, oder wird dir ge
 |-----
 | <span style="text-decoration:line-through;">172.22.36.6</span> ||  <span style="text-decoration:line-through;">[[blackbox]]</span> ||  <span style="text-decoration:line-through;">[[Blackbox]] Server</span>
 |-----
-| 172.22.36.7 || [[Premium_(Server)|premium]] || vServer bei Vollmar
+| 172.22.36.7 || [[apfelkirsch_(Server)|apfelkirsch]] || Root-Server bei Hetzner
 |-----
 | 172.22.36.8 || ikea-gw || IKEA TRÅDFRI Gateway
 |-----
