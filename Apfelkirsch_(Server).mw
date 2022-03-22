@@ -1,0 +1,119 @@
+{{ProjektInfoBox
+|name        = apfelkirsch (Server)
+|status      = stable
+|image       = RaumZeitLabor - Logo - Schwarz.svg
+|description = Rootserver bei Hetzner
+|category    = Infrastruktur
+|subcategory = Netz
+|author      = [[NOC Team|NOC-Team]]
+|username    = 
+|version     = 
+|update      = 
+|platform    = 
+|hostname    = apfelkirsch.raumzeitlabor.de
+|license     = 
+|download    = 
+}}
+
+'''apfelkirsch''' ist unser Root-Server, der [[Premium (Server)|Premium]] und [[Citizenfour (Server)|Citizenfour]] abgelöst hat.
+
+== Technische Daten ==
+{| class="wikitable"  valign = "top"
+|CPU
+|AMD Ryzen 5 3600 6-Core Processor
+|-
+|RAM
+|64GB RAM
+|-
+|HDDs
+|2x 500GB NVME SSD (RAID1, BTRFS)
+|-
+|Betriebssystem
+|NixOS
+|-
+|Adresse Internet
+|apfelkirsch.raumzeitlabor.de
+|-
+|Adresse DN42
+|apfelkirsch.rzl.so
+|}
+
+== laufende Dienste ==
+=== Letsencrypt via DNS01-Challenge ===
+Interne Dienste des RaumZeitLabors können mittels DNS01-Challenge eigene Zertifikate beantragen. Dafür sind automatisierte Änderungen am DNS mittels RFC2136 notwendig. Hierfür existiert eine dedizierte Zone _acme.raumzeitlabor.de
+
+=== Backups ===
+Backups werden mittels Borg von einem BTRFS-Snapshot gezogen, um atomare Backups zu haben.
+
+=== DN42 ===
+Apfelkirsch stellt für das RaumZeitLabor die Anbindung an das DN42 zur Verfügung. Für Peerings an [[NOC Team|NOC-Team]] wenden.
+
+=== Gitlab ===
+gitlab.raumzeitlabor.org wird in einer VM betrieben.
+
+TODO: Reverse-Proxy für Erreichbarkeit über IPv4 bauen.
+
+=== DNS ===
+Über ein Hidden-Master Setup werden die Domains
+* raumzeitlabor.de
+* raumzeitlabor.org
+* rzl.so
+* trollcon.de
+
+mittels DNSSEC signiert ausgeliefert. Es besteht eine Zusammenarbeit mit dem [https://www.ccc-mannheim.de/ CCC Mannheim], bei der wir uns gegenseitig den Secondary stellen.
+
+=== Mailingliste ===
+lists.raumzeitlabor.de
+
+=== Jabber-Server ===
+
+=== prometheus node-exporter ===
+Der node-exporter ist aus dem RaumZeitLabor erreichbar.
+
+=== Web ===
+==== Webseite ====
+==== Wiki ====
+==== Kurz-URL-Dienst ====
+==== Reverse-Proxy BenutzerDB ====
+==== RaumZeitStatus ====
+
+== Configbaum ==
+ # tree /etc/nixos
+ /etc/nixos
+ ├── common
+ │   ├── default.nix
+ │   ├── localization.nix
+ │   ├── programs.nix
+ │   ├── serialconsole.nix
+ │   ├── ssh.nix
+ │   ├── users.nix
+ │   └── vim.nix
+ ├── config
+ │   ├── acme.nix
+ │   ├── boot.nix
+ │   ├── borgbackup.nix
+ │   ├── default.nix
+ │   ├── dn42-bird.nix
+ │   ├── dn42-vpn.nix
+ │   ├── firewall.nix
+ │   ├── gitlab-helper.nix
+ │   ├── knot.nix
+ │   ├── libvirt.nix
+ │   ├── mail
+ │   │   ├── mailman.nix
+ │   │   ├── postfix.nix
+ │   │   ├── roundcube.nix
+ │   │   └── rspamd.nix
+ │   ├── networking.nix
+ │   ├── prometheus.nix
+ │   ├── prosody.nix
+ │   └── web
+ │       ├── benutzerdb.nix
+ │       ├── nginx.nix
+ │       ├── status.nix
+ │       ├── vaultwarden.nix
+ │       ├── website-legacy.nix
+ │       ├── wiki.nix
+ |       └── yourls.nix
+ ├── configuration.nix
+ └── hardware-configuration.nix
